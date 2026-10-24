@@ -1,13 +1,14 @@
-// Share images (<id>.jpg) for days, saints, scourges and miracles, demons and Popes.
+// Share images (<id>.jpg) for the home pages, days, saints, scourges and miracles, demons and Popes.
 import type { APIRoute } from 'astro';
 import { DAYS, allVulns } from '../../../../lib/calendar';
 import { allDemons, allEvents, allPopes } from '../../../../lib/extras';
 import { LANGS, type Lang } from '../../../../lib/i18n';
-import { dayImages, demonImages, eventImages, popeImages, saintImages, type Images } from '../../../../lib/og';
+import { dayImages, demonImages, eventImages, popeImages, saintImages, siteImages, type Images } from '../../../../lib/og';
 
 type Entry = { kind: string; id: string; make: (lang: Lang) => Images };
 
 const entries: Entry[] = [
+  { kind: 'site', id: 'home', make: siteImages },
   ...DAYS.map((d) => ({ kind: 'day', id: d, make: (lang: Lang) => dayImages(lang, d) })),
   ...allVulns().map((v) => ({ kind: 's', id: v.id, make: (lang: Lang) => saintImages(lang, v) })),
   ...allEvents().map((e) => ({ kind: 'e', id: e.id, make: (lang: Lang) => eventImages(lang, e) })),

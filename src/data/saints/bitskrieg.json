@@ -2,7 +2,7 @@
   "it": {
     "title": "Beato Bitskrieg, che aggirava BitLocker dal recupero",
     "patronage": "dei dischi cifrati con BitLocker, delle partizioni di recupero non cifrate e dei TPM che si fidano troppo presto.",
-    "hagiography": "Nel maggio 2026 i ricercatori Jonas Lykkegård e \"Nightmare Eclipse\" annunciarono Bitskrieg, un aggiramento di BitLocker derivato dalla precedente tecnica YellowKey. L'attacco passa dall'ambiente di ripristino di Windows, che vive su una partizione non cifrata: forzando la macchina in modalità di recupero e manovrando la configurazione di avvio, con accesso fisico si poteva raggiungere il volume cifrato finché il TPM restava sbloccato. Secondo gli autori il problema di fondo resta anche dopo la correzione di YellowKey.",
+    "hagiography": "Alla fine di maggio 2026 \"Nightmare Eclipse\" annunciò Bitskrieg, un aggiramento di BitLocker scoperto da Jonas Lykkegård e derivato dalla precedente tecnica YellowKey; i dettagli arrivarono a inizio giugno. L'attacco passa dall'ambiente di ripristino di Windows, che vive su una partizione non cifrata: forzando la macchina in modalità di recupero e manovrando la configurazione di avvio, con accesso fisico si poteva raggiungere il volume cifrato finché il TPM restava sbloccato. Secondo gli autori il problema di fondo resta anche dopo la correzione di YellowKey.",
     "prayer": "O Beato Bitskrieg, che entri dalla porta di recupero rimasta aperta, fa' che i nostri TPM si blocchino prima di consegnare la chiave. Amen.",
     "feast": "Si festeggia proteggendo l'ambiente di ripristino, aggiungendo un PIN all'avvio e custodendo fisicamente le macchine cifrate.",
     "proverb": "Partizione di recupero aperta, cifratura socchiusa."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Blessed Bitskrieg, Who Bypassed BitLocker From Recovery",
     "patronage": "BitLocker-encrypted disks, unencrypted recovery partitions, and TPMs that trust too soon.",
-    "hagiography": "In May 2026 researchers Jonas Lykkegård and \"Nightmare Eclipse\" announced Bitskrieg, a BitLocker bypass derived from the earlier YellowKey technique. The attack goes through the Windows Recovery Environment, which lives on an unencrypted partition: by forcing the machine into recovery mode and manoeuvring the boot configuration, physical access could reach the encrypted volume while the TPM stayed unlocked. According to the authors the underlying problem remains even after the YellowKey fix.",
+    "hagiography": "In late May 2026 \"Nightmare Eclipse\" announced Bitskrieg, a BitLocker bypass found by Jonas Lykkegård and derived from the earlier YellowKey technique; the details followed in early June. The attack goes through the Windows Recovery Environment, which lives on an unencrypted partition: by forcing the machine into recovery mode and manoeuvring the boot configuration, physical access could reach the encrypted volume while the TPM stayed unlocked. According to the authors the underlying problem remains even after the YellowKey fix.",
     "prayer": "O Blessed Bitskrieg, who enters through the recovery door left open, let our TPMs lock before they hand over the key. Amen.",
     "feast": "Celebrated by protecting the recovery environment, adding a boot PIN, and physically guarding encrypted machines.",
     "proverb": "Open recovery partition, encryption left ajar."

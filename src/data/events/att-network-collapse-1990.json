@@ -1,14 +1,14 @@
 {
   "it": {
     "title": "La grande afonia di AT&T",
-    "chronicle": "Il 15 gennaio 1990 uno switch 4ESS di Manhattan si riavviò e, nel comunicarlo ai vicini, li fece cadere uno dopo l'altro. La colpa era di un singolo 'break' fuori posto, scritto in C, finito in un aggiornamento del software di ripristino distribuito nel dicembre 1989. Per circa nove ore metà della rete interurbana di AT&T rimase muta e, secondo le stime, circa 70 milioni di chiamate non andarono a buon fine. Nessun attaccante: solo una riga di codice.",
+    "chronicle": "Il 15 gennaio 1990 uno switch 4ESS di Manhattan si riavviò e, nel comunicarlo ai vicini, li fece cadere uno dopo l'altro. La colpa era di un singolo 'break' fuori posto, scritto in C, finito in un aggiornamento del software di ripristino distribuito nel dicembre 1989. Per circa nove ore quasi metà delle chiamate interurbane di AT&T non passò: oltre 50 milioni di chiamate bloccate, e c'è chi stima fino a 70. Nessun attaccante: solo una riga di codice.",
     "lesson": "Mostrò che un sistema progettato per guarire da solo può anche ammalarsi da solo, e che un aggiornamento identico su tutti i nodi trasforma un bug in un'epidemia.",
     "prayer": "O santo Break smarrito, che uscisti dal blocco sbagliato, guida le nostre mani nei costrutti annidati e fa' che i test coprano anche il vicino che si riavvia. Amen.",
     "remembrance": "Si ricorda rilasciando gli aggiornamenti per gradi, rileggendo ogni switch con sospetto e tenendo a portata di mano la versione precedente."
   },
   "en": {
     "title": "The Great Silence of AT&T",
-    "chronicle": "On 15 January 1990 a 4ESS switch in Manhattan reset itself and, by telling its neighbours so, knocked them over one after another. The culprit was a single misplaced C 'break' in an update to the recovery software rolled out in December 1989. For about nine hours half of AT&T's long-distance network went quiet and an estimated 70 million calls failed. No attacker: just one line of code.",
+    "chronicle": "On 15 January 1990 a 4ESS switch in Manhattan reset itself and, by telling its neighbours so, knocked them over one after another. The culprit was a single misplaced C 'break' in an update to the recovery software rolled out in December 1989. For about nine hours nearly half of AT&T's long-distance calls failed to connect: over 50 million calls blocked, with some estimates as high as 70. No attacker: just one line of code.",
     "lesson": "It showed that a system built to heal itself can also make itself sick, and that shipping the same update to every node turns one bug into an epidemic.",
     "prayer": "O blessed stray Break, who leapt out of the wrong block, guide our hands through nested statements and let our tests cover the neighbour who reboots. Amen.",
     "remembrance": "Remembered by rolling out updates in stages, reading every switch statement with suspicion and keeping the previous version within reach."

@@ -1,5 +1,5 @@
 {
-  "$comment": "patrons: manual patron per day (\"MM-DD\": id). dates: corrected disclosure dates (id: \"YYYY-MM-DD\") where the source is wrong. born: year the flaw was introduced (only when well documented), for the \"longest-lived\" ranking. absurd: hand-picked absurd vulnerabilities. removeCves/addCves: fix the CVEs attached to an entry. exclude: ids hidden from the calendar (e.g. inappropriate content). Ids are in src/data/vulns.json.",
+  "$comment": "patrons: manual patron per day (\"MM-DD\": id). dates: corrected disclosure dates (id: \"YYYY-MM-DD\") where the source is wrong. born: year the flaw was introduced (only when well documented), for the \"longest-lived\" ranking. absurd: hand-picked absurd vulnerabilities. removeCves/addCves: fix the CVEs attached to an entry. exclude: ids hidden from the calendar (e.g. inappropriate content). Ids are in src/data/vulns.json. fields: hand corrections of source fields (id: {vendor, product, author, canonical…}) where the source is wrong.",
   "patrons": {
     "01-01": "ldapnightmare",
     "01-10": "connectaround",
@@ -173,6 +173,18 @@
     ],
     "quadrooter": [
       "CVE-2106-2504"
+    ],
+    "spoolsample": [
+      "CVE-2019-0683"
+    ],
+    "dray-break": [
+      "CVE-2023-47254",
+      "CVE-2023-31447",
+      "CVE-2022-32548",
+      "CVE-2021-43118",
+      "CVE-2021-42911",
+      "CVE-2020-15415",
+      "CVE-2020-8515"
     ]
   },
   "addCves": {
@@ -208,6 +220,69 @@
     ],
     "quadrooter": [
       "CVE-2016-2504"
+    ],
+    "dray-break": [
+      "CVE-2024-41583",
+      "CVE-2024-41584",
+      "CVE-2024-41585",
+      "CVE-2024-41586",
+      "CVE-2024-41587",
+      "CVE-2024-41588",
+      "CVE-2024-41589",
+      "CVE-2024-41590",
+      "CVE-2024-41591",
+      "CVE-2024-41592",
+      "CVE-2024-41593",
+      "CVE-2024-41594",
+      "CVE-2024-41595",
+      "CVE-2024-41596"
     ]
+  },
+  "fields": {
+    "leakycli": {
+      "vendor": "AWS, Google Cloud, Microsoft",
+      "product": "AWS CLI, Google Cloud CLI (gcloud), Azure CLI"
+    },
+    "name-wreck": {
+      "vendor": "Multiple",
+      "product": "TCP/IP stacks (FreeBSD, Nucleus NET, NetX, IPnet)"
+    },
+    "sitting-duck": {
+      "author": "Eclypsium & Infoblox"
+    },
+    "ghostcommit": {
+      "author": "Murali Ediga & Sudipta Chattopadhyay (ASSET Research Group, UMKC)"
+    },
+    "xzorcist": {
+      "vendor": "Tukaani Project",
+      "product": "XZ Utils (liblzma)",
+      "author": "Andres Freund"
+    },
+    "trigon": {
+      "canonical": "https://alfiecg.uk/2025/03/01/Trigon.html"
+    },
+    "rolling-pwn": {
+      "vendor": "Honda",
+      "product": "Keyless entry (rolling codes)"
+    },
+    "spoolsample": {
+      "vendor": "Microsoft",
+      "product": "Windows Print Spooler"
+    },
+    "ghostwrite": {
+      "vendor": "T-Head (Alibaba)",
+      "product": "XuanTie C910 and C920 RISC-V CPUs"
+    },
+    "postgreshell": {
+      "vendor": "PostgreSQL Global Development Group"
+    },
+    "shittrix": {
+      "vendor": "Cloud Software Group (Citrix), Vates",
+      "product": "XAPI (Citrix XenServer/Hypervisor, XCP-ng)"
+    },
+    "dray-break": {
+      "vendor": "DrayTek",
+      "product": "Vigor routers"
+    }
   }
 }

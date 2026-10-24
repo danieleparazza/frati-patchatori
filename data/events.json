@@ -28,7 +28,7 @@
    "name": "AT&T long-distance network collapse",
    "date": "1990-01-15",
    "dateMeaning": "incident day",
-   "summary": "A one-line bug (a misplaced C 'break') in a December 1989 update to the recovery software of AT&T's 4ESS switches caused a cascading crash that started at a Manhattan switch. For about nine hours roughly half of AT&T's long-distance network failed and some 70 million calls went uncompleted. No attacker was involved.",
+   "summary": "A one-line bug (a misplaced C 'break') in a December 1989 update to the recovery software of AT&T's 4ESS switches caused a cascading crash that started at a Manhattan switch. For about nine hours nearly half of the calls on AT&T's long-distance network failed: over 50 million calls were blocked (some accounts say about 70 million). No attacker was involved.",
    "cves": [],
    "malware": [],
    "people": [],

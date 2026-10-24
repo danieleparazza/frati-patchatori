@@ -9,7 +9,7 @@ import sharp from 'sharp';
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, utimesSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { day, logoCredit, type Vuln } from './calendar';
+import { day, logoCredit, vuln, type Vuln } from './calendar';
 import { demonBack, eventBack, popeBack, saintBack, vacantBack, type CardBack } from './cardback';
 import { demonCardKey, eventCardKey, popeCardKey, type CalendarEvent, type Demon, type PopeEntry } from './extras';
 import { t, type Lang } from './i18n';
@@ -144,6 +144,15 @@ export function saintImages(lang: Lang, v: Vuln, opts: { kicker?: string; mmdd?:
   const c = santino(v);
   const b = saintBack(lang, v, opts);
   return images(lang, c.svg, b, sourceFor(c.generated, !!logoCredit(v.id), b.sections.length > 0));
+}
+
+/** Cover of the whole site (home pages), with Heartbleed's card as the face of the almanac. */
+export function siteImages(lang: Lang) {
+  const s = t(lang);
+  const c = santino(vuln('heartbleed'));
+  const [subtitle, more] = s.siteBlurb.split(/(?<=\.) /);
+  const b: CardBack = { kicker: s.tagline, title: s.siteTitle, subtitle, sections: [], relations: [more], footer: s.siteTitle };
+  return images(lang, c.svg, b, 'compositeWithTrainedAlgorithmicMedia');
 }
 
 export function dayImages(lang: Lang, mmdd: string) {

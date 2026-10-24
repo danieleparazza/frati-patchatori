@@ -2,7 +2,7 @@
   "it": {
     "title": "San PerfektBlue, che entrava dall'autoradio",
     "patronage": "degli stack Bluetooth, dei sistemi di infotainment e di chi si connette alle cuffie senza pensarci.",
-    "hagiography": "Nel 2025 Mikhail Evdokimov rivelò PerfektBlue, una catena di quattro falle in uno stack Bluetooth usato da molti sistemi di infotainment automobilistico. Con l'accoppiamento, o a volte anche senza, un attaccante vicino poteva eseguire codice sulla centralina, un piede dentro l'auto da cui tentare di raggiungere funzioni più critiche. Il Bluetooth, nato per comodità, diventava la porta d'ingresso.",
+    "hagiography": "Nel 2025 Mikhail Evdokimov e i colleghi di PCA Cyber Security rivelarono PerfektBlue, una catena di quattro falle in BlueSDK di OpenSynergy, stack Bluetooth di molti sistemi di infotainment (Mercedes-Benz, Volkswagen, Skoda). Dopo l'accoppiamento, con al massimo un clic della vittima, un attaccante vicino poteva eseguire codice sulla centralina, un piede dentro l'auto da cui tentare di raggiungere funzioni più critiche. Il Bluetooth, nato per comodità, diventava la porta d'ingresso.",
     "prayer": "O San PerfektBlue, che entri dall'autoradio e ti siedi nell'abitacolo, fa' che i nostri stack chiedano permesso prima di eseguire. Amen.",
     "feast": "Si festeggia aggiornando il firmware dell'infotainment e tenendo spento il Bluetooth dell'auto quando non serve.",
     "proverb": "Chi si accoppia con tutti, ospita chiunque."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint PerfektBlue, Who Entered Through the Car Stereo",
     "patronage": "Bluetooth stacks, infotainment systems, and those who pair with headphones without a thought.",
-    "hagiography": "In 2025 Mikhail Evdokimov revealed PerfektBlue, a chain of four flaws in a Bluetooth stack used by many automotive infotainment systems. On pairing, or sometimes even without it, a nearby attacker could run code on the unit, a foot inside the car from which to reach for more critical functions. Bluetooth, born for convenience, became the way in.",
+    "hagiography": "In 2025 Mikhail Evdokimov and colleagues at PCA Cyber Security revealed PerfektBlue, a chain of four flaws in OpenSynergy's BlueSDK, the Bluetooth stack of many infotainment systems (Mercedes-Benz, Volkswagen, Skoda). Once paired, with at most one click from the victim, a nearby attacker could run code on the unit, a foot inside the car from which to reach for more critical functions. Bluetooth, born for convenience, became the way in.",
     "prayer": "O Saint PerfektBlue, who enters through the car stereo and takes a seat in the cabin, let our stacks ask permission before they execute. Amen.",
     "feast": "Celebrated by updating the infotainment firmware and keeping the car's Bluetooth off when it is not needed.",
     "proverb": "Who pairs with all hosts anyone."

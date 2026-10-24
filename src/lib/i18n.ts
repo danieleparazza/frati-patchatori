@@ -7,6 +7,7 @@ export const strings = {
     /** Domain printed on the holy-card images. */
     domain: 'fratipatchatori.it',
     tagline: 'Il calendario dei santi delle CVE',
+    siteBlurb: 'Ogni giorno un santo: una vulnerabilità famosa, festeggiata nel giorno in cui è stata divulgata. Con Papi, flagelli, miracoli e demoni.',
     today: 'Oggi',
     calendar: 'Calendario',
     menu: 'Menu',
@@ -170,6 +171,7 @@ export const strings = {
     siteTitle: "The Patching Friars' Almanac",
     domain: 'patchingfriars.com',
     tagline: 'A calendar of CVE saints',
+    siteBlurb: 'A saint for every day: a famous vulnerability, celebrated on the day it was disclosed. With Popes, scourges, miracles and demons.',
     today: 'Today',
     calendar: 'Calendar',
     menu: 'Menu',

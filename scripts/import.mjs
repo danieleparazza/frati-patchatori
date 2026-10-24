@@ -213,6 +213,7 @@ for (const v of vulns) {
   v.vendor = infos.find((i) => i.vendor)?.vendor ?? kevHits[0]?.vendorProject ?? null;
   v.product = infos.find((i) => i.product)?.product ?? kevHits[0]?.product ?? null;
   v.description = infos.find((i) => i.description)?.description ?? v.description ?? null;
+  Object.assign(v, overrides.fields?.[v.id]); // hand corrections of source fields (vendor, product, author…)
   v.day = v.date.slice(5);
   v.category = category(v);
   v.fame = fame(v);

@@ -14,8 +14,11 @@ interface Props {
 }
 
 const { lang, title, description, alt, image } = Astro.props;
-const imageUrl = image ? new URL(url(image), Astro.site).href : undefined;
 const s = t(lang);
+// Pages without their own card (home, lists, search) share the site cover.
+const imageUrl = new URL(url(image ?? `img/${lang}/site/home.jpg`), Astro.site).href;
+const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const desc = description ?? s.siteBlurb;
 const other: Lang = lang === 'it' ? 'en' : 'it';
 // Menu entry for this page: Popes and demons belong to their lists, everything else to the calendar.
 const first = Astro.url.pathname.split('/').filter(Boolean)[1] ?? '';
@@ -34,14 +37,24 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
-    <meta name="description" content={description ?? s.tagline} />
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={pageUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:locale" content={lang === 'it' ? 'it_IT' : 'en_US'} />
     <meta property="og:title" content={title ?? s.siteTitle} />
-    <meta property="og:description" content={description ?? s.tagline} />
+    <meta property="og:description" content={desc} />
     <meta property="og:site_name" content={s.siteTitle} />
-    {imageUrl && <meta property="og:image" content={imageUrl} />}
-    {imageUrl && <meta property="og:image:width" content="1200" />}
-    {imageUrl && <meta property="og:image:height" content="630" />}
-    <meta name="twitter:card" content={imageUrl ? 'summary_large_image' : 'summary'} />
+    <meta property="og:image" content={imageUrl} />
+    <meta property="og:image:secure_url" content={imageUrl} />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title ?? s.siteTitle} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title ?? s.siteTitle} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={imageUrl} />
     {alt && <link rel="alternate" hreflang={other} href={url(alt)} />}
     <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
   </head>
