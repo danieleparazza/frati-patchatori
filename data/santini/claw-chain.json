@@ -1,0 +1,10 @@
+{
+  "label": "Claw Chain",
+  "motto": "UNGUIS EX CAVEA",
+  "niche": [
+    "#1d2a3a",
+    "#3a5470"
+  ],
+  "accent": "#24364a",
+  "emblem": "<line x1=\"122\" y1=\"124\" x2=\"122\" y2=\"236\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<line x1=\"178\" y1=\"124\" x2=\"178\" y2=\"236\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<line x1=\"114\" y1=\"124\" x2=\"186\" y2=\"124\" stroke=\"#bfc9d1\" stroke-width=\"4\"/>\n<line x1=\"114\" y1=\"236\" x2=\"186\" y2=\"236\" stroke=\"#bfc9d1\" stroke-width=\"4\"/>\n<path d=\"M138 150 C150 160 154 180 146 200\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<path d=\"M152 146 C166 158 170 180 162 202\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<path d=\"M166 150 C180 162 196 182 200 196\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<ellipse cx=\"104\" cy=\"214\" rx=\"9\" ry=\"6\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<ellipse cx=\"118\" cy=\"222\" rx=\"9\" ry=\"6\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" transform=\"rotate(30 118 222)\"/>\n<ellipse cx=\"132\" cy=\"228\" rx=\"9\" ry=\"6\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<path d=\"M128 236 L136 220\" stroke=\"#d9ad55\" stroke-width=\"3\"/>"
+}

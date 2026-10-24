@@ -2453,32 +2453,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "entrysign",
-  "name": "EntrySign",
-  "date": "2024-09-25",
-  "day": "09-25",
-  "category": "santo",
-  "cves": [
-   "CVE-2024-56161"
-  ],
-  "cvss": 7.2,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": "AMD",
-  "product": "AMD EPYC™ 7001 Series",
-  "description": "Improper signature verification in AMD CPU ROM microcode patch loader may allow an attacker with local administrator privilege to load malicious CPU microcode resulting in loss of confidentiality and integrity of a confidential guest running under AMD SEV-SNP.",
-  "canonical": "https://bughunters.google.com/blog/zen-and-the-art-of-microcode-hacking",
-  "links": [
-   "https://github.com/google/security-research/security/advisories/GHSA-4xq7-4mgh-gp6w"
-  ],
-  "logo": "entrysign.png",
-  "author": "Google",
-  "fame": 6.6,
-  "source": "vulnerability-garden"
- },
- {
   "id": "skip-tls",
   "name": "SKIP-TLS",
   "date": "2015-01-21",
@@ -2563,8 +2537,8 @@
  {
   "id": "venom",
   "name": "VENOM",
-  "date": "2015-05-15",
-  "day": "05-15",
+  "date": "2015-05-13",
+  "day": "05-13",
   "category": "santo",
   "cves": [
    "CVE-2015-3456"
@@ -2611,6 +2585,32 @@
   ],
   "logo": "badwinmail.png",
   "author": "Haifei Li",
+  "fame": 6.55,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "entrysign",
+  "name": "EntrySign",
+  "date": "2025-02-03",
+  "day": "02-03",
+  "category": "santo",
+  "cves": [
+   "CVE-2024-56161"
+  ],
+  "cvss": 7.2,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "AMD",
+  "product": "AMD EPYC™ 7001 Series",
+  "description": "Improper signature verification in AMD CPU ROM microcode patch loader may allow an attacker with local administrator privilege to load malicious CPU microcode resulting in loss of confidentiality and integrity of a confidential guest running under AMD SEV-SNP.",
+  "canonical": "https://bughunters.google.com/blog/zen-and-the-art-of-microcode-hacking",
+  "links": [
+   "https://github.com/google/security-research/security/advisories/GHSA-4xq7-4mgh-gp6w"
+  ],
+  "logo": "entrysign.png",
+  "author": "Google",
   "fame": 6.55,
   "source": "vulnerability-garden"
  },
@@ -2872,6 +2872,30 @@
   "logo": "natjack.png",
   "author": "Malcolm Stagg",
   "fame": 6.5,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "explodingcan",
+  "name": "ExplodingCan",
+  "date": "2017-03-27",
+  "day": "03-27",
+  "category": "santo",
+  "cves": [
+   "CVE-2017-7269"
+  ],
+  "cvss": 9.8,
+  "kev": true,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "Microsoft",
+  "product": "Internet Information Services (IIS)",
+  "description": "Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with \"If: <http://\" in a PROPFIND request, as exploited in the wild in July or August 2016.",
+  "canonical": "https://www.cloudsek.com/threatintelligence/multiple-assets-still-vulnerable-to-archaic-rce-dubbed-explodingcan",
+  "links": [],
+  "logo": null,
+  "author": "CloudSEK",
+  "fame": 6.45,
   "source": "vulnerability-garden"
  },
  {
@@ -3272,30 +3296,6 @@
   "links": [],
   "logo": null,
   "author": "Akamai",
-  "fame": 6.2,
-  "source": "vulnerability-garden"
- },
- {
-  "id": "explodingcan",
-  "name": "ExplodingCan",
-  "date": "2022-03-22",
-  "day": "03-22",
-  "category": "santo",
-  "cves": [
-   "CVE-2017-7269"
-  ],
-  "cvss": 9.8,
-  "kev": true,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": "Microsoft",
-  "product": "Internet Information Services (IIS)",
-  "description": "Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with \"If: <http://\" in a PROPFIND request, as exploited in the wild in July or August 2016.",
-  "canonical": "https://www.cloudsek.com/threatintelligence/multiple-assets-still-vulnerable-to-archaic-rce-dubbed-explodingcan",
-  "links": [],
-  "logo": null,
-  "author": "CloudSEK",
   "fame": 6.2,
   "source": "vulnerability-garden"
  },
@@ -6836,8 +6836,8 @@
  {
   "id": "strandhogg-2",
   "name": "StrandHogg 2.0",
-  "date": "2020-05-04",
-  "day": "05-04",
+  "date": "2020-05-26",
+  "day": "05-26",
   "category": "santo",
   "cves": [
    "CVE-2020-0096"
@@ -14701,6 +14701,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "zoom-giphy",
+  "kind": "minor",
+  "name": "Zoom Giphy Path Traversal",
+  "date": "2020-06-08",
+  "day": "06-08",
+  "category": "santo",
+  "cves": [
+   "CVE-2020-6109"
+  ],
+  "cvss": 8.5,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": "Zoom",
+  "description": "An exploitable path traversal vulnerability exists in the Zoom client, version 4.6.10 processes messages including animated GIFs. A specially crafted chat message can cause an arbitrary file write, which could potentially be abused to achieve arbitrary code execution. An attacker needs to send a specially crafted message to a target user or a group to exploit this vulnerability.",
+  "canonical": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1055",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 2.3,
+  "source": "manual"
+ },
+ {
   "id": "sls",
   "name": "Straight-Line Speculation (SLS)",
   "date": "2020-06-12",
@@ -17510,31 +17535,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "curse-of-silence",
-  "name": "Curse Of Silence",
-  "date": "2008-11-09",
-  "day": "11-09",
-  "category": "beato",
-  "cves": [],
-  "cvss": null,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": null,
-  "product": null,
-  "description": null,
-  "canonical": "https://berlin.ccc.de/~tobias/cos/s60-curse-of-silence-advisory.txt",
-  "links": [
-   "https://www.f-secure.com/weblog/archives/00001569.html",
-   "https://web.archive.org/web/20090103230526/https://www.f-secure.com/weblog/archives/00001569.html"
-  ],
-  "logo": null,
-  "author": "Tobias Engel",
-  "fame": 1.9,
-  "source": "vulnerability-garden"
- },
- {
   "id": "sockstress",
   "name": "Sockstress",
   "date": "2008-12-23",
@@ -17555,6 +17555,31 @@
   "links": [],
   "logo": null,
   "author": "Jack C. Louis",
+  "fame": 1.9,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "curse-of-silence",
+  "name": "Curse Of Silence",
+  "date": "2008-12-30",
+  "day": "12-30",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://berlin.ccc.de/~tobias/cos/s60-curse-of-silence-advisory.txt",
+  "links": [
+   "https://www.f-secure.com/weblog/archives/00001569.html",
+   "https://web.archive.org/web/20090103230526/https://www.f-secure.com/weblog/archives/00001569.html"
+  ],
+  "logo": null,
+  "author": "Tobias Engel",
   "fame": 1.9,
   "source": "vulnerability-garden"
  },
@@ -20910,6 +20935,35 @@
   "author": "Microsoft",
   "fame": 1.25,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "starkbank-ecdsa",
+  "kind": "minor",
+  "name": "Stark Bank ECDSA Zero Signature",
+  "date": "2021-11-09",
+  "day": "11-09",
+  "category": "santo",
+  "cves": [
+   "CVE-2021-43568",
+   "CVE-2021-43569",
+   "CVE-2021-43570",
+   "CVE-2021-43571",
+   "CVE-2021-43572"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "The verify function in the Stark Bank Elixir ECDSA library (ecdsa-elixir) 1.0.0 fails to check that the signature is non-zero, which allows attackers to forge signatures on arbitrary messages.",
+  "canonical": "https://www.nccgroup.com/research/technical-advisory-arbitrary-signature-forgery-in-stark-bank-ecdsa-libraries-cve-2021-43572-cve-2021-43570-cve-2021-43569-cve-2021-43568-cve-2021-43571/",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.25,
+  "source": "manual"
  },
  {
   "id": "y2k22",
@@ -24583,30 +24637,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "fluidfaults",
-  "name": "FluidFaults",
-  "date": "2024-06-08",
-  "day": "06-08",
-  "category": "beato",
-  "cves": [],
-  "cvss": null,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": null,
-  "product": null,
-  "description": null,
-  "canonical": "https://www.nozominetworks.com/blog/37-vulnerabilities-in-openflow-libfluid-msg-parsing-library",
-  "links": [
-   "https://thehackernews.com/2024/10/researchers-uncover-major-security.html"
-  ],
-  "logo": null,
-  "author": "Nozomi Networks",
-  "fame": 0.6,
-  "source": "vulnerability-garden"
- },
- {
   "id": "sleepy-pickle",
   "name": "Sleepy Pickle",
   "date": "2024-06-11",
@@ -24699,6 +24729,30 @@
   ],
   "logo": null,
   "author": "Checkpoint",
+  "fame": 0.6,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "fluidfaults",
+  "name": "FluidFaults",
+  "date": "2024-08-20",
+  "day": "08-20",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://www.nozominetworks.com/blog/37-vulnerabilities-in-openflow-libfluid-msg-parsing-library",
+  "links": [
+   "https://thehackernews.com/2024/10/researchers-uncover-major-security.html"
+  ],
+  "logo": null,
+  "author": "Nozomi Networks",
   "fame": 0.6,
   "source": "vulnerability-garden"
  },

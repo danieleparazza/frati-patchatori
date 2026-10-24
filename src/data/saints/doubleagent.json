@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DoubleAgent, che faceva il doppio gioco",
+    "patronage": "degli antivirus, degli strumenti di debug dimenticati nel sistema e delle spie che servono due padroni.",
+    "hagiography": "Il 22 marzo 2017 i ricercatori di Cybellum presentarono DoubleAgent, una tecnica che sfruttava Microsoft Application Verifier, strumento di debug incluso in Windows, per far caricare una DLL a scelta a qualunque processo, anche dopo un riavvio. Il bersaglio più ghiotto erano gli antivirus: secondo i ricercatori, prodotti di molti vendor noti potevano diventare agenti al servizio dell'attaccante. Serviva però già il controllo amministrativo della macchina, e qualcuno fece notare che l'idea era stata mostrata in conferenza fin dal 2015.",
+    "prayer": "O Beato DoubleAgent, che sai indossare la divisa del guardiano, fa' che i nostri antivirus servano un solo padrone. Amen.",
+    "feast": "Si festeggia aggiornando l'antivirus alle versioni che proteggono i propri processi, sorvegliando le chiavi Image File Execution Options del registro e dando i privilegi di amministratore col contagocce.",
+    "proverb": "Guardia comprata, porta spalancata."
+  },
+  "en": {
+    "title": "Blessed DoubleAgent, Who Played Both Sides",
+    "patronage": "antivirus software, debugging tools forgotten in the system, and spies who serve two masters.",
+    "hagiography": "On 22 March 2017 researchers at Cybellum presented DoubleAgent, a technique that abused Microsoft Application Verifier, a debugging tool built into Windows, to make any process load a DLL of the attacker's choosing, even after a reboot. The juiciest target was antivirus software: according to the researchers, products from many well-known vendors could be turned into agents working for the attacker. It did, however, require administrative control of the machine already, and some pointed out the idea had been shown at conferences as early as 2015.",
+    "prayer": "O Blessed DoubleAgent, who knows how to wear the guard's uniform, let our antivirus serve one master only. Amen.",
+    "feast": "Celebrated by updating antivirus to versions that protect their own processes, watching the Image File Execution Options registry keys, and handing out admin rights by the drop.",
+    "proverb": "A bribed guard is an open door."
+  }
+}

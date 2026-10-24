@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Zero, che firmava ogni messaggio",
+    "patronage": "delle librerie crittografiche, delle firme digitali e di chi firma in bianco.",
+    "hagiography": "Il 9 novembre 2021 furono pubblicate le CVE dalla 2021-43568 alla 2021-43572: le librerie ECDSA di Stark Bank per Python, Java, .NET, Node.js ed Elixir non controllavano che la firma fosse diversa da zero. Una firma fatta di soli zeri risultava valida per qualunque messaggio e qualunque chiave pubblica, così chiunque poteva falsificare firme a piacere. Lo scoprì Paul Bottinelli di NCC Group, e le correzioni arrivarono con nuove versioni, come la 2.0.1 per Python.",
+    "prayer": "O San Zero, che con niente firmi tutto, ricordaci che anche il nulla va verificato. Amen.",
+    "feast": "Si festeggia aggiornando le librerie ECDSA, rifiutando le firme con r o s uguali a zero e preferendo la crittografia già collaudata a quella fatta in casa."
+  },
+  "en": {
+    "title": "Saint Zero, Who Signed Every Message",
+    "patronage": "cryptographic libraries, digital signatures, and anyone who signs a blank cheque.",
+    "hagiography": "On 9 November 2021 CVE-2021-43568 through CVE-2021-43572 were published: Stark Bank's ECDSA libraries for Python, Java, .NET, Node.js and Elixir did not check that the signature was non-zero. A signature made of nothing but zeros passed as valid for any message and any public key, so anyone could forge signatures at will. Paul Bottinelli of NCC Group found it, and fixes came in new releases, such as 2.0.1 for Python.",
+    "prayer": "O Saint Zero, who signs everything with nothing, remind us that even nothing must be verified. Amen.",
+    "feast": "Celebrated by updating ECDSA libraries, rejecting signatures where r or s is zero, and preferring battle-tested cryptography to the home-made kind."
+  }
+}

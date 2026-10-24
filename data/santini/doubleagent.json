@@ -1,0 +1,10 @@
+{
+  "label": "DoubleAgent",
+  "motto": "SERVUS DUORUM DOMINORUM",
+  "niche": [
+    "#2a1a2e",
+    "#4e3256"
+  ],
+  "accent": "#38223e",
+  "emblem": "<path d=\"M150 122 L196 138 C196 190 178 222 150 240 C122 222 104 190 104 138 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 122 L150 240 C122 222 104 190 104 138 Z\" fill=\"#bfc9d1\"/>\n<path d=\"M114 168 C124 158 140 158 150 168 C160 158 176 158 186 168 C180 184 160 184 150 176 C140 184 120 184 114 168 Z\" fill=\"#1e1e1e\"/>\n<circle cx=\"132\" cy=\"170\" r=\"4\" fill=\"#fbf3dd\"/><circle cx=\"168\" cy=\"170\" r=\"4\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"216\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2b1d14\">DLL</text>"
+}

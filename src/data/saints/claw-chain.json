@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Claw Chain, che spezzava la gabbia dell'agente",
+    "patronage": "degli agenti AI lasciati soli, delle sandbox controllate un attimo troppo presto e dei plugin di cui ci si fida troppo.",
+    "hagiography": "Il 15 maggio 2026 i ricercatori di Cyera pubblicarono Claw Chain: quattro vulnerabilità concatenabili in OpenClaw, la piattaforma open source di agenti AI. Chi otteneva esecuzione nella sandbox OpenShell, con un plugin maligno o una prompt injection, poteva sfruttare due corse fra controllo e uso per leggere e scrivere fuori dalla gabbia, rubare chiavi e token dalle variabili d'ambiente e, grazie a un flag «senderIsOwner» creduto sulla parola, promuoversi a padrone dell'agente. Le patch erano uscite il 23 aprile 2026, prima della pubblicazione.",
+    "prayer": "O San Claw Chain, che insegni agli agenti a uscire dal recinto, fa' che i nostri artigli digitali restino dove li abbiamo messi. Amen.",
+    "feast": "Si festeggia aggiornando OpenClaw oltre le patch del 23 aprile 2026, installando solo plugin fidati e non lasciando mai che sia il client a dire chi è il padrone.",
+    "proverb": "Chi dà un dito all'agente, perde tutta la zampa."
+  },
+  "en": {
+    "title": "Saint Claw Chain, Who Broke the Agent's Cage",
+    "patronage": "AI agents left to their own devices, sandboxes checked a moment too early, and plugins trusted too much.",
+    "hagiography": "On 15 May 2026 researchers at Cyera published Claw Chain: four chainable vulnerabilities in OpenClaw, the open-source AI agent platform. Anyone who gained execution inside the OpenShell sandbox, through a malicious plugin or a prompt injection, could ride two check-then-use races to read and write outside the cage, steal keys and tokens from environment variables and, thanks to a \"senderIsOwner\" flag taken at its word, promote themselves to master of the agent. The patches had shipped on 23 April 2026, before publication.",
+    "prayer": "O Saint Claw Chain, who teaches agents to slip their pen, keep our digital claws where we put them. Amen.",
+    "feast": "Celebrated by updating OpenClaw past the 23 April 2026 patches, installing only trusted plugins, and never letting the client say who the owner is.",
+    "proverb": "Give the agent a finger and it takes the whole paw."
+  }
+}

@@ -2,17 +2,17 @@
   "it": {
     "title": "San ExplodingCan, che sfondava il WebDAV",
     "patronage": "dei server vecchi e dimenticati, del WebDAV di IIS 6 e dei sistemi che nessuno osa spegnere.",
-    "hagiography": "La CVE-2017-7269 è un overflow nel servizio WebDAV di Internet Information Services 6.0 su Windows Server 2003: una richiesta con un'intestazione lunga che comincia con «If: <http://» basta a eseguire codice da remoto. Sfruttata in rete già nel 2016 e resa celebre nel 2017, non verrà mai corretta ufficialmente perché il prodotto è fuori supporto. Anni dopo era ancora segnalata su sistemi esposti.",
+    "hagiography": "La CVE-2017-7269, pubblicata il 27 marzo 2017 insieme a un exploit dimostrativo, è un overflow nel servizio WebDAV di Internet Information Services 6.0 su Windows Server 2003: una richiesta con un'intestazione lunga che comincia con «If: <http://» basta a eseguire codice da remoto. Sfruttata in rete già nel 2016, divenne celebre quando ad aprile ricomparve, col nome ExplodingCan, tra gli strumenti trafugati alla NSA; nel giugno 2017 Microsoft fece un'eccezione e rilasciò una patch per il sistema già fuori supporto. Anni dopo era ancora segnalata su server esposti.",
     "prayer": "O San ExplodingCan, che fai scoppiare i server che nessuno aggiorna più, dacci il coraggio di spegnere ciò che non si può più curare. Amen.",
-    "feast": "Si festeggia disattivando il WebDAV su IIS 6, migrando dai sistemi fuori supporto e tenendoli comunque lontani da internet.",
+    "feast": "Si festeggia installando l'aggiornamento KB3197835 di giugno 2017, disattivando il WebDAV su IIS 6 e, soprattutto, migrando dai sistemi fuori supporto.",
     "proverb": "Server fuori supporto, porta spalancata sul cortile."
   },
   "en": {
     "title": "Saint ExplodingCan, Who Burst the WebDAV",
     "patronage": "old and forgotten servers, IIS 6 WebDAV, and systems nobody dares switch off.",
-    "hagiography": "CVE-2017-7269 is an overflow in the WebDAV service of Internet Information Services 6.0 on Windows Server 2003: a request with a long header beginning \"If: <http://\" is enough for remote code execution. Exploited in the wild as early as 2016 and made famous in 2017, it will never be officially fixed because the product is out of support. Years later it was still reported on exposed systems.",
+    "hagiography": "CVE-2017-7269, published on 27 March 2017 together with a proof-of-concept exploit, is an overflow in the WebDAV service of Internet Information Services 6.0 on Windows Server 2003: a request with a long header beginning \"If: <http://\" is enough for remote code execution. Exploited in the wild as early as 2016, it became famous when it resurfaced in April under the name ExplodingCan among the tools stolen from the NSA; in June 2017 Microsoft made an exception and released a patch for the already unsupported system. Years later it was still reported on exposed servers.",
     "prayer": "O Saint ExplodingCan, who bursts the servers no one updates any more, give us the courage to switch off what can no longer be healed. Amen.",
-    "feast": "Celebrated by disabling WebDAV on IIS 6, migrating off out-of-support systems, and keeping them off the internet regardless.",
+    "feast": "Celebrated by installing the June 2017 update KB3197835, disabling WebDAV on IIS 6 and, above all, migrating off out-of-support systems.",
     "proverb": "An out-of-support server is a gate left wide to the yard."
   }
 }

@@ -21,7 +21,13 @@
     "11-20": "land-attack",
     "02-01": "pizza-thief",
     "02-23": "shattered",
-    "04-23": "px4-geofence"
+    "04-23": "px4-geofence",
+    "05-15": "claw-chain",
+    "05-04": "21nails",
+    "06-08": "zoom-giphy",
+    "11-09": "starkbank-ecdsa",
+    "09-25": "forcedleak",
+    "03-22": "doubleagent"
   },
   "dates": {
     "shattered": "2017-02-23",
@@ -30,7 +36,13 @@
     "bleedingbit": "2018-11-01",
     "krack": "2017-10-16",
     "ccs-injection": "2014-06-05",
-    "hole196": "2010-07-26"
+    "hole196": "2010-07-26",
+    "venom": "2015-05-13",
+    "strandhogg-2": "2020-05-26",
+    "fluidfaults": "2024-08-20",
+    "curse-of-silence": "2008-12-30",
+    "entrysign": "2025-02-03",
+    "explodingcan": "2017-03-27"
   },
   "born": {
     "shellshock": 1989,
@@ -99,7 +111,9 @@
     "m1racles",
     "billion-laughs",
     "ueficanhazbufferoverflow",
-    "px4-geofence"
+    "px4-geofence",
+    "zoom-giphy",
+    "starkbank-ecdsa"
   ],
   "exclude": [
     "halos-gate"

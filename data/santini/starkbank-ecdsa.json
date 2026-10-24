@@ -1,0 +1,10 @@
+{
+  "label": "Stark Bank ECDSA",
+  "motto": "NIHIL SIGNAT OMNIA",
+  "niche": [
+    "#1e2a22",
+    "#3c5444"
+  ],
+  "accent": "#28382d",
+  "emblem": "<path d=\"M112 124 L178 124 L190 136 L190 236 L112 236 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<line x1=\"124\" y1=\"144\" x2=\"176\" y2=\"144\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<line x1=\"124\" y1=\"156\" x2=\"176\" y2=\"156\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<line x1=\"124\" y1=\"168\" x2=\"164\" y2=\"168\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<text x=\"151\" y=\"206\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#2b1d14\">(0, 0)</text>\n<path d=\"M124 220 C134 210 142 228 152 216 C160 208 166 224 178 216\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<circle cx=\"182\" cy=\"230\" r=\"11\" fill=\"#a8321e\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>"
+}

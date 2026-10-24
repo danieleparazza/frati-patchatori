@@ -586,5 +586,31 @@
   "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2024-30800",
   "links": [],
   "kind": "minor"
+ },
+ {
+  "id": "zoom-giphy",
+  "name": "Zoom Giphy Path Traversal",
+  "date": "2020-06-08",
+  "cves": [
+   "CVE-2020-6109"
+  ],
+  "canonical": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1055",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "starkbank-ecdsa",
+  "name": "Stark Bank ECDSA Zero Signature",
+  "date": "2021-11-09",
+  "cves": [
+   "CVE-2021-43568",
+   "CVE-2021-43569",
+   "CVE-2021-43570",
+   "CVE-2021-43571",
+   "CVE-2021-43572"
+  ],
+  "canonical": "https://www.nccgroup.com/research/technical-advisory-arbitrary-signature-forgery-in-stark-bank-ecdsa-libraries-cve-2021-43572-cve-2021-43570-cve-2021-43569-cve-2021-43568-cve-2021-43571/",
+  "links": [],
+  "kind": "minor"
  }
 ]

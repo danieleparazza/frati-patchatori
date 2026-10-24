@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San 21Nails, dai ventuno chiodi",
+    "patronage": "dei server di posta, del codice che invecchia senza che nessuno lo rilegga e di chi conta i chiodi uno per uno.",
+    "hagiography": "Il 4 maggio 2021 il gruppo di ricerca di Qualys rivelò 21Nails: ventuno vulnerabilità nel server di posta Exim, undici locali e dieci remote. Combinate, alcune permettevano a un attaccante non autenticato di eseguire codice come root, e molte risalivano al 2004, all'inizio della storia Git del progetto. Exim era allora tra i server di posta più diffusi su internet, con milioni di istanze esposte.",
+    "prayer": "O San 21Nails, che hai piantato ventuno chiodi nella posta del mondo, fa' che i nostri demoni SMTP siano aggiornati prima che qualcuno conti i loro difetti. Amen.",
+    "feast": "Si festeggia aggiornando Exim almeno alla versione 4.94.2 e rileggendo, ogni tanto, il codice scritto diciassette anni prima.",
+    "proverb": "Chiodo scaccia chiodo, ma ventuno scacciano il postino."
+  },
+  "en": {
+    "title": "Saint 21Nails, of the Twenty-One Nails",
+    "patronage": "mail servers, code that ages without anyone rereading it, and people who count nails one by one.",
+    "hagiography": "On 4 May 2021 the Qualys research team revealed 21Nails: twenty-one vulnerabilities in the Exim mail server, eleven local and ten remote. Chained together, some let an unauthenticated attacker run code as root, and many dated back to 2004, the start of the project's Git history. Exim was then among the most widespread mail servers on the internet, with millions of exposed instances.",
+    "prayer": "O Saint 21Nails, who drove twenty-one nails into the world's mail, let our SMTP daemons be updated before anyone counts their flaws. Amen.",
+    "feast": "Celebrated by updating Exim to at least version 4.94.2 and, now and then, rereading code written seventeen years earlier.",
+    "proverb": "One nail drives out another, but twenty-one drive out the postman."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Giphy, che salvava le GIF dove capitava",
+    "patronage": "delle videochiamate in quarantena, delle GIF animate in chat e dei nomi di file che cominciano con «../».",
+    "hagiography": "L'8 giugno 2020 fu pubblicata la CVE-2020-6109, trovata da Cisco Talos nel client Zoom 4.6.10. In chat, un messaggio con l'estensione «giphy» diceva al client da dove scaricare una GIF animata e con che nome salvarla; il nome però non veniva ripulito, e con qualche «../» il file finiva in qualunque cartella scrivibile dall'utente, aprendo la strada all'esecuzione di codice. Zoom l'aveva corretto il 21 aprile, in piena pandemia, quando mezzo mondo viveva in videochiamata.",
+    "prayer": "O San Giphy, che porti gattini animati fin nelle cartelle sbagliate, fa' che i nostri client controllino il nome prima di aprire la porta. Amen.",
+    "feast": "Si festeggia aggiornando il client Zoom e ripulendo ogni nome di file che arriva dalla rete, prima di mandare l'ennesima GIF di un gatto."
+  },
+  "en": {
+    "title": "Saint Giphy, Who Saved GIFs Wherever",
+    "patronage": "lockdown video calls, animated GIFs in chat, and file names that start with \"../\".",
+    "hagiography": "On 8 June 2020 CVE-2020-6109 was published, found by Cisco Talos in Zoom client 4.6.10. In chat, a message with the \"giphy\" extension told the client where to fetch an animated GIF and what name to save it under; but the name was never cleaned, and with a few \"../\" the file landed in any folder the user could write to, opening the way to code execution. Zoom had fixed it on 21 April, in the middle of the pandemic, while half the world lived on video calls.",
+    "prayer": "O Saint Giphy, who carries animated kittens into the wrong folders, let our clients check the name before opening the door. Amen.",
+    "feast": "Celebrated by updating the Zoom client and cleaning every file name that arrives from the network, before sending yet another cat GIF."
+  }
+}

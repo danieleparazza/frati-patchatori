@@ -1,0 +1,10 @@
+{
+  "label": "Zoom Giphy",
+  "motto": "PER ASPERA AD ../",
+  "niche": [
+    "#162a4a",
+    "#2d5288"
+  ],
+  "accent": "#1d3760",
+  "emblem": "<rect x=\"104\" y=\"140\" width=\"68\" height=\"50\" rx=\"8\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M172 156 L198 142 L198 188 L172 174 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"138\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#2d5288\">GIF</text>\n<path d=\"M120 200 L120 246 L182 246 L182 210 L150 210 L144 200 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"151\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#2b1d14\">../../</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "ForcedLeak",
+  "motto": "DOMINUS EXPIRATUS",
+  "niche": [
+    "#14303a",
+    "#2c5866"
+  ],
+  "accent": "#1c3f4a",
+  "emblem": "<path d=\"M112 176 C100 176 98 156 114 154 C116 136 140 132 148 146 C156 132 184 136 184 156 C202 156 202 176 188 176 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"168\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#2b1d14\">CRM</text>\n<path d=\"M130 186 q-5 9 0 13 q5 -4 0 -13 Z\" fill=\"#bfc9d1\"/>\n<path d=\"M150 192 q-5 9 0 13 q5 -4 0 -13 Z\" fill=\"#bfc9d1\"/>\n<path d=\"M170 186 q-5 9 0 13 q5 -4 0 -13 Z\" fill=\"#bfc9d1\"/>\n<circle cx=\"150\" cy=\"232\" r=\"16\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#2b1d14\">$5</text>"
+}

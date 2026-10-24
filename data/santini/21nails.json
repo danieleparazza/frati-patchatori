@@ -1,0 +1,10 @@
+{
+  "label": "21Nails",
+  "motto": "XXI CLAVI IN EPISTULA",
+  "niche": [
+    "#2e1f14",
+    "#5a3d28"
+  ],
+  "accent": "#3d2a1b",
+  "emblem": "<rect x=\"104\" y=\"150\" width=\"92\" height=\"62\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M104 150 L150 186 L196 150\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<line x1=\"122\" y1=\"120\" x2=\"132\" y2=\"168\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/><ellipse cx=\"122\" cy=\"120\" rx=\"8\" ry=\"3\" fill=\"#bfc9d1\"/>\n<line x1=\"150\" y1=\"114\" x2=\"150\" y2=\"170\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/><ellipse cx=\"150\" cy=\"114\" rx=\"8\" ry=\"3\" fill=\"#bfc9d1\"/>\n<line x1=\"178\" y1=\"120\" x2=\"168\" y2=\"168\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/><ellipse cx=\"178\" cy=\"120\" rx=\"8\" ry=\"3\" fill=\"#bfc9d1\"/>\n<text x=\"150\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" font-weight=\"bold\" fill=\"#d9ad55\">XXI</text>"
+}
