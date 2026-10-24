@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SGAxe, che spaccò l'enclave",
+    "patronage": "delle enclave SGX, delle chiavi di attestazione e di chi credeva che dentro il processore si fosse al sicuro.",
+    "hagiography": "Nato insieme a CacheOut nel gennaio 2020 dai ricercatori delle università del Michigan e di Adelaide, mostrò che un attacco di esecuzione speculativa poteva estrarre dalle enclave SGX di Intel perfino le chiavi di attestazione, quelle che dovrebbero dimostrare che un'enclave è autentica. Con quelle chiavi, una macchina qualunque poteva spacciarsi per un'enclave fidata.",
+    "prayer": "O Beato SGAxe, che con l'ascia apristi lo scrigno del processore, insegnaci che nessuna enclave è un convento di clausura. Amen.",
+    "feast": "Si festeggia aggiornando il microcode e rinnovando la fiducia nella crittografia hardware, con moderazione.",
+    "proverb": "Anche lo scrigno più sicuro ha una serratura."
+  },
+  "en": {
+    "title": "Blessed SGAxe, Who Split the Enclave",
+    "patronage": "SGX enclaves, attestation keys, and those who believed they were safe inside the processor.",
+    "hagiography": "Born alongside CacheOut in January 2020 from researchers at the universities of Michigan and Adelaide, he showed that a speculative execution attack could extract from Intel SGX enclaves even the attestation keys, the ones meant to prove an enclave is genuine. With those keys, any machine could pass itself off as a trusted enclave.",
+    "prayer": "O Blessed SGAxe, who split the processor's treasure chest with an axe, teach us that no enclave is a cloistered convent. Amen.",
+    "feast": "Celebrated by updating microcode and renewing your faith in hardware cryptography, in moderation.",
+    "proverb": "Even the safest chest has a lock."
+  }
+}

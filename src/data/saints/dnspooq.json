@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DNSpooq, avvelenatore di cache",
+    "patronage": "dei router di casa, delle cache DNS credulone e di dnsmasq, che sta dentro a tutto.",
+    "hagiography": "Il 19 gennaio 2021 i ricercatori di JSOF rivelarono sette vulnerabilità in dnsmasq, il piccolo server DNS nascosto in milioni di router e dispositivi. Alcune permettevano di avvelenare la cache e mandare gli utenti su siti falsi, altre di corrompere la memoria. Il nome unisce DNS e spook, fantasma: uno spettro che sussurra indirizzi sbagliati.",
+    "prayer": "O San DNSpooq, che indichi strade sbagliate con voce sicura, fa' che le nostre risposte DNS siano vere e firmate. Amen.",
+    "feast": "Si festeggia aggiornando dnsmasq e scoprendo, nel farlo, in quanti dispositivi di casa si nascondeva.",
+    "proverb": "Chi chiede la strada al DNS sbagliato arriva sempre da qualche altra parte."
+  },
+  "en": {
+    "title": "Saint DNSpooq, Poisoner of Caches",
+    "patronage": "home routers, gullible DNS caches, and dnsmasq, which is inside everything.",
+    "hagiography": "On 19 January 2021 JSOF researchers revealed seven vulnerabilities in dnsmasq, the little DNS server hidden in millions of routers and devices. Some allowed poisoning the cache and sending users to fake sites, others corrupting memory. The name blends DNS and spook: a ghost whispering the wrong addresses.",
+    "prayer": "O Saint DNSpooq, who gives wrong directions in a confident voice, let our DNS answers be true and signed. Amen.",
+    "feast": "Celebrated by updating dnsmasq and discovering, along the way, how many devices at home it was hiding in.",
+    "proverb": "Ask the wrong DNS for directions and you'll always arrive somewhere else."
+  }
+}

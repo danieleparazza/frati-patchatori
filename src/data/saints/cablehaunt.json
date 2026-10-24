@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Cable Haunt, spettro dei modem via cavo",
+    "patronage": "dei modem che nessuno aggiorna mai e degli strumenti di diagnostica lasciati aperti sulla rete di casa.",
+    "hagiography": "Abitava nell'analizzatore di spettro dei modem via cavo con chip Broadcom, un attrezzo da tecnici raggiungibile dalla rete domestica. Bastava una pagina web con un po' di JavaScript perché il browser della vittima gli parlasse, e un buffer overflow consegnava il modem all'attaccante. I suoi scopritori stimarono fino a 200 milioni di modem posseduti, solo in Europa.",
+    "prayer": "O San Cable Haunt, che infesti il modem in fondo al corridoio, liberaci dalle interfacce di debug dimenticate e dai firmware dell'operatore. Amen.",
+    "feast": "Si festeggia chiamando il provider per chiedere un aggiornamento del firmware, e ascoltando la musica d'attesa fino a sera.",
+    "proverb": "Modem vecchio, fantasma nuovo."
+  },
+  "en": {
+    "title": "Saint Cable Haunt, Specter of the Cable Modem",
+    "patronage": "modems nobody ever updates and diagnostic tools left open on the home network.",
+    "hagiography": "He dwelt in the spectrum analyzer of Broadcom-based cable modems, a technician's tool reachable from the home network. A web page with a little JavaScript was enough for the victim's browser to talk to him, and a buffer overflow handed the modem to the attacker. His discoverers estimated up to 200 million possessed modems, in Europe alone.",
+    "prayer": "O Saint Cable Haunt, who haunts the modem at the end of the hallway, deliver us from forgotten debug interfaces and ISP firmware. Amen.",
+    "feast": "Celebrated by calling your provider to ask for a firmware update, and listening to hold music until evening.",
+    "proverb": "Old modem, new ghost."
+  }
+}

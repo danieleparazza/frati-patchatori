@@ -1629,29 +1629,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "foreshadow",
-  "name": "Foreshadow",
-  "date": "2018-01-23",
-  "day": "01-23",
-  "category": "santo",
-  "cves": [
-   "CVE-2018-3615"
-  ],
-  "cvss": 7.3,
-  "kev": false,
-  "vendor": "Intel Corporation",
-  "product": "Multiple",
-  "description": "Systems with microprocessors utilizing speculative execution and Intel software guard extensions (Intel SGX) may allow unauthorized disclosure of information residing in the L1 data cache from an enclave to an attacker with local user access via a side-channel analysis.",
-  "canonical": "https://foreshadowattack.eu",
-  "links": [
-   "https://architecture.fail/"
-  ],
-  "logo": "foreshadow.svg",
-  "author": "Van Bulck, Jo and Minkin, Marina and Weisse, Ofir and Genkin, Daniel and Kasikci, Baris and Piessens, Frank and Silberstein, Mark and Wenisch, Thomas F. and Yarom, Yuval and Strackx, Raoul",
-  "fame": 6.9,
-  "source": "vulnerability-garden"
- },
- {
   "id": "double-kill",
   "name": "Double Kill",
   "date": "2018-04-26",
@@ -1696,6 +1673,29 @@
   ],
   "logo": "dynoroot.svg",
   "author": null,
+  "fame": 6.9,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "foreshadow",
+  "name": "Foreshadow",
+  "date": "2018-08-14",
+  "day": "08-14",
+  "category": "santo",
+  "cves": [
+   "CVE-2018-3615"
+  ],
+  "cvss": 7.3,
+  "kev": false,
+  "vendor": "Intel Corporation",
+  "product": "Multiple",
+  "description": "Systems with microprocessors utilizing speculative execution and Intel software guard extensions (Intel SGX) may allow unauthorized disclosure of information residing in the L1 data cache from an enclave to an attacker with local user access via a side-channel analysis.",
+  "canonical": "https://foreshadowattack.eu",
+  "links": [
+   "https://architecture.fail/"
+  ],
+  "logo": "foreshadow.svg",
+  "author": "Van Bulck, Jo and Minkin, Marina and Weisse, Ofir and Genkin, Daniel and Kasikci, Baris and Piessens, Frank and Silberstein, Mark and Wenisch, Thomas F. and Yarom, Yuval and Strackx, Raoul",
   "fame": 6.9,
   "source": "vulnerability-garden"
  },
@@ -2473,31 +2473,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "foreshadow-ng",
-  "name": "Foreshadow-NG / L1TF",
-  "date": "2018-01-23",
-  "day": "01-23",
-  "category": "santo",
-  "cves": [
-   "CVE-2018-3620",
-   "CVE-2018-3646"
-  ],
-  "cvss": 5.6,
-  "kev": false,
-  "vendor": "Intel Corporation",
-  "product": "Multiple",
-  "description": "Systems with microprocessors utilizing speculative execution and address translations may allow unauthorized disclosure of information residing in the L1 data cache to an attacker with local user access via a terminal page fault and a side-channel analysis.",
-  "canonical": "https://foreshadowattack.eu",
-  "links": [
-   "https://openreview.net/forum?id=4tDNvQe2G0",
-   "https://program.why2025.org/why2025/talk/DG7VSX/"
-  ],
-  "logo": "foreshadow.svg",
-  "author": "Weisse, Ofir and Van Bulck, Jo and Minkin, Marina and  Genkin, Daniel and Kasikci, Baris and Piessens, Frank and Silberstein, Mark and Strackx, Raoul and Wenisch, Thomas F. and Yarom, Yuval",
-  "fame": 6.4,
-  "source": "vulnerability-garden"
- },
- {
   "id": "drupalgeddon-2",
   "name": "Drupalgeddon 2",
   "date": "2018-03-28",
@@ -2515,6 +2490,31 @@
   "links": [],
   "logo": null,
   "author": "Drupal",
+  "fame": 6.4,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "foreshadow-ng",
+  "name": "Foreshadow-NG / L1TF",
+  "date": "2018-08-14",
+  "day": "08-14",
+  "category": "santo",
+  "cves": [
+   "CVE-2018-3620",
+   "CVE-2018-3646"
+  ],
+  "cvss": 5.6,
+  "kev": false,
+  "vendor": "Intel Corporation",
+  "product": "Multiple",
+  "description": "Systems with microprocessors utilizing speculative execution and address translations may allow unauthorized disclosure of information residing in the L1 data cache to an attacker with local user access via a terminal page fault and a side-channel analysis.",
+  "canonical": "https://foreshadowattack.eu",
+  "links": [
+   "https://openreview.net/forum?id=4tDNvQe2G0",
+   "https://program.why2025.org/why2025/talk/DG7VSX/"
+  ],
+  "logo": "foreshadow.svg",
+  "author": "Weisse, Ofir and Van Bulck, Jo and Minkin, Marina and  Genkin, Daniel and Kasikci, Baris and Piessens, Frank and Silberstein, Mark and Strackx, Raoul and Wenisch, Thomas F. and Yarom, Yuval",
   "fame": 6.4,
   "source": "vulnerability-garden"
  },
@@ -7274,8 +7274,8 @@
  {
   "id": "shattered",
   "name": "SHAttered",
-  "date": "2017-01-17",
-  "day": "01-17",
+  "date": "2017-02-23",
+  "day": "02-23",
   "category": "beato",
   "cves": [],
   "cvss": null,

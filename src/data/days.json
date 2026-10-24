@@ -1,9 +1,9 @@
 {
  "01-01": {
-  "patron": "doorlock",
+  "patron": "ldapnightmare",
   "others": [
+   "doorlock",
    "ldapbleed",
-   "ldapnightmare",
    "tors-hammer"
   ]
  },
@@ -49,9 +49,9 @@
   "others": []
  },
  "01-10": {
-  "patron": "worstfit",
+  "patron": "connectaround",
   "others": [
-   "connectaround",
+   "worstfit",
    "localpotato",
    "powerdir"
   ]
@@ -95,10 +95,9 @@
   ]
  },
  "01-17": {
-  "patron": "stackwarp",
+  "patron": "etherleak",
   "others": [
-   "shattered",
-   "etherleak",
+   "stackwarp",
    "itlb-multihit",
    "shazlocate",
    "mavengate"
@@ -136,10 +135,8 @@
   "others": []
  },
  "01-23": {
-  "patron": "foreshadow",
+  "patron": "pantsdown",
   "others": [
-   "foreshadow-ng",
-   "pantsdown",
    "bluegate",
    "eventlogcrasher"
   ]
@@ -318,6 +315,7 @@
  "02-23": {
   "patron": "slashandgrab",
   "others": [
+   "shattered",
    "mousejack",
    "shadow-attacks",
    "dupefs",
@@ -1709,8 +1707,10 @@
   ]
  },
  "08-14": {
-  "patron": "ecc-fail",
+  "patron": "foreshadow",
   "others": [
+   "foreshadow-ng",
+   "ecc-fail",
    "light-commands",
    "choicejacking",
    "knob",

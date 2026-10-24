@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'Etherleak, che imbottiva i pacchetti di segreti",
+    "patronage": "dei driver di rete scritti di fretta, dei pacchetti troppo corti e di tutto ciò che resta nei buffer.",
+    "hagiography": "Nel gennaio 2003 i ricercatori di @stake scoprirono che molti driver di schede di rete, per portare i pacchetti Ethernet alla lunghezza minima, li riempivano con quello che trovavano in memoria invece che con zeri. Ogni piccolo pacchetto partiva così con un ripieno a sorpresa: frammenti di traffico precedente, o di memoria del kernel.",
+    "prayer": "O Sant'Etherleak, che imbottisci i pacchetti con ciò che capita, insegna ai nostri driver il valore del byte zero. Amen.",
+    "feast": "Si festeggia azzerando un buffer prima di usarlo, in memoria di tutti quelli che non lo fecero.",
+    "proverb": "Pacchetto corto, ripieno abbondante."
+  },
+  "en": {
+    "title": "Saint Etherleak, Who Stuffed Packets With Secrets",
+    "patronage": "network drivers written in a hurry, packets that are too short, and everything left behind in buffers.",
+    "hagiography": "In January 2003 researchers at @stake found that many network card drivers, to pad Ethernet frames to the minimum length, filled them with whatever they found in memory instead of zeros. Every small packet left with a surprise filling: fragments of earlier traffic, or of kernel memory.",
+    "prayer": "O Saint Etherleak, who stuffs packets with whatever comes to hand, teach our drivers the worth of the zero byte. Amen.",
+    "feast": "Celebrated by zeroing a buffer before using it, in memory of all those who did not.",
+    "proverb": "Short packet, generous stuffing."
+  }
+}

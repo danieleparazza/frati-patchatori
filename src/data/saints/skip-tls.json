@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SKIP-TLS, che saltava i passaggi",
+    "patronage": "di chi salta i passaggi della procedura, delle macchine a stati scritte di getto e dei client Java che si fidano troppo.",
+    "hagiography": "Scoperto dal gruppo di miTLS e presentato nel gennaio 2015 tra gli attacchi SMACK, approfittava di implementazioni TLS che non controllavano l'ordine dei messaggi. Il client Java, per esempio, accettava una stretta di mano a cui mancavano proprio i passaggi che autenticano il server: un impostore poteva saltarli e farsi credere chiunque.",
+    "prayer": "O San SKIP-TLS, che salti i passaggi della stretta di mano, insegna ai nostri protocolli che l'ordine è sacro. Amen.",
+    "feast": "Si festeggia aggiornando Java e rileggendo la procedura di deploy senza saltare nessun punto.",
+    "proverb": "Chi salta un passaggio stringe la mano allo sconosciuto."
+  },
+  "en": {
+    "title": "Saint SKIP-TLS, Who Skipped the Steps",
+    "patronage": "people who skip steps in the procedure, state machines written in one go, and Java clients that trust too much.",
+    "hagiography": "Found by the miTLS team and presented in January 2015 among the SMACK attacks, he took advantage of TLS implementations that did not check the order of messages. The Java client, for instance, accepted a handshake missing precisely the steps that authenticate the server: an impostor could skip them and pass for anyone.",
+    "prayer": "O Saint SKIP-TLS, who skips the steps of the handshake, teach our protocols that order is sacred. Amen.",
+    "feast": "Celebrated by updating Java and rereading the deploy checklist without skipping a single item.",
+    "proverb": "Skip a step, and you shake hands with a stranger."
+  }
+}

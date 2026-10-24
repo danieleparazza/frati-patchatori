@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Chronomaly, signore dei timer",
+    "patronage": "di chi ha sempre una race condition in sospeso e dei processi zombie che non sanno di essere morti.",
+    "hagiography": "Viveva nel cuore del kernel Linux, tra i timer POSIX della CPU. Quando un processo moriva senza farsi raccogliere, il suo timer poteva ancora scattare mentre il padre ne cancellava le spoglie: un attimo di troppo, e la memoria liberata tornava in vita. Fu sfruttato in attacchi mirati su Android prima che il mondo ne conoscesse il nome, e all'inizio del 2026 un ricercatore ne raccontò la passione a puntate.",
+    "prayer": "O San Chronomaly, che vivi nell'istante tra un controllo e un uso, concedici lock ben presi e timer cancellati per tempo. Amen.",
+    "feast": "Si festeggia aggiornando il kernel e, per tradizione, arrivando a ogni appuntamento con esattamente un tick di ritardo.",
+    "proverb": "Chi ha tempo non aspetti tempo: c'è sempre un thread più veloce."
+  },
+  "en": {
+    "title": "Saint Chronomaly, Lord of the Timers",
+    "patronage": "those with a race condition always pending and zombie processes that don't know they're dead.",
+    "hagiography": "He lived deep in the Linux kernel, among the POSIX CPU timers. When a process died without being reaped, its timer could still fire while the parent was clearing away the remains: one moment too many, and freed memory came back to life. He was exploited in targeted attacks on Android before the world knew his name, and in early 2026 a researcher told the story of his passion in instalments.",
+    "prayer": "O Saint Chronomaly, who dwells in the instant between check and use, grant us locks taken properly and timers cancelled in time. Amen.",
+    "feast": "Celebrated by updating the kernel and, by tradition, arriving at every appointment exactly one tick late.",
+    "proverb": "Time waits for no thread, and a racing thread waits for no one."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Cookie Sandwich, farcito di segreti",
+    "patronage": "dei cookie HttpOnly, dei parser che ricordano ancora le regole del 1997 e di chi riflette i cookie nelle risposte.",
+    "hagiography": "Presentato da PortSwigger nel gennaio 2025, sfrutta il modo in cui alcuni server interpretano ancora le vecchie regole dei cookie. Un cookie con una virgoletta aperta prima, uno con la virgoletta chiusa dopo, e il server unisce tutto in un unico valore, compreso il cookie HttpOnly che sta nel mezzo; se poi lo riflette in pagina, lo consegna a JavaScript. Non ha un CVE: è una tecnica, non un singolo bug.",
+    "prayer": "O Beato Cookie Sandwich, che farcisci tra due fette ciò che doveva restare nascosto, fa' che i nostri server smettano di parlare la lingua del 1997. Amen.",
+    "feast": "Si festeggia con un sandwich di biscotti, controllando che nessuna pagina rifletta i cookie ricevuti.",
+    "proverb": "Tra due virgolette ci sta più di quanto pensi."
+  },
+  "en": {
+    "title": "Blessed Cookie Sandwich, Filled With Secrets",
+    "patronage": "HttpOnly cookies, parsers that still remember the 1997 rules, and anyone reflecting cookies back in responses.",
+    "hagiography": "Presented by PortSwigger in January 2025, it exploits the way some servers still interpret the old cookie rules. A cookie with an opening quote before, one with the closing quote after, and the server merges everything into a single value, including the HttpOnly cookie in the middle; if it then reflects it in the page, it hands it to JavaScript. No CVE: it is a technique, not a single bug.",
+    "prayer": "O Blessed Cookie Sandwich, who fills between two slices what should have stayed hidden, let our servers stop speaking the language of 1997. Amen.",
+    "feast": "Celebrated with a cookie sandwich, checking that no page reflects the cookies it receives.",
+    "proverb": "There's more room between two quotes than you think."
+  }
+}

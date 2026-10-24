@@ -6,7 +6,7 @@
 //   - data/extra-vulns.json (hand-curated entries: santi minori, Padri della Chiesa)
 //   - data/overrides.json (manual patron choices)
 //
-// Usage: node scripts/import.mjs [--offline]
+// Usage: node scripts/import.mjs [--offline]   (--offline reuses .cache/ without network)
 import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
@@ -196,6 +196,7 @@ console.log(`fetching ${cveIds.length} CVE records (cached in .cache/cve)…`);
 const cves = await loadCves(cveIds);
 
 for (const v of vulns) {
+  if (overrides.dates?.[v.id]) v.date = overrides.dates[v.id];
   const infos = v.cves.map((id) => cves.get(id)).filter(Boolean);
   const kevHits = v.cves.map((id) => kev.get(id)).filter(Boolean);
   const scores = infos.map((i) => i.cvss).filter((x) => x != null);

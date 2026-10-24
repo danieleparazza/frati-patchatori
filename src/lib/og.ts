@@ -40,6 +40,11 @@ export function shareImage(lang: Lang, mmdd: string) {
   const card = patron ? santino(patron) : null;
   const title = patron ? saintTitle(patron, lang) : s.vacant;
   const subtitle = text ? `${s.patronage} ${text.patronage}` : patron?.cves.join(' · ') || (patron ? patron.date.slice(0, 4) : s.vacantText);
+  // Long titles get a smaller size and a third line instead of being cut.
+  const long = title.length > 48;
+  const [titleSize, titleLead] = long ? [50, 58] : [64, 72];
+  const titleLines = wrap(title, long ? 31 : 24, long ? 3 : 2);
+  const subtitleY = 235 + (titleLines.length - 1) * titleLead + (long ? 70 : 95);
   const inner = (card?.svg ?? vacantSantino(s.vacant)).replace(/^<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '');
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
@@ -49,8 +54,8 @@ export function shareImage(lang: Lang, mmdd: string) {
   <svg x="80" y="75" width="320" height="480" viewBox="0 0 300 450">${inner}</svg>
   <g font-family="${SANTINO_FONT}">
     <text x="460" y="150" font-size="44" fill="#7a6656" letter-spacing="2">${escapeXml(dayLabel(mmdd, lang).toUpperCase())}</text>
-    <text x="460" y="235" font-size="64" fill="#9e1b1b">${tspans(wrap(title, 24, 2), 460, 72)}</text>
-    <text x="460" y="${title.length > 24 ? 400 : 330}" font-size="30" fill="#2b1d14">${tspans(wrap(subtitle, 44, 3), 460, 40)}</text>
+    <text x="460" y="235" font-size="${titleSize}" fill="#9e1b1b">${tspans(titleLines, 460, titleLead)}</text>
+    <text x="460" y="${subtitleY}" font-size="30" fill="#2b1d14">${tspans(wrap(subtitle, 44, long ? 2 : 3), 460, 40)}</text>
     <text x="460" y="545" font-size="28" fill="#b8892b" font-variant="small-caps">${escapeXml(s.siteTitle)}</text>
   </g>
 </svg>`;

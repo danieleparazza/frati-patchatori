@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Shitrix, il nome che si commenta da solo",
+    "patronage": "dei NetScaler esposti, delle mitigazioni temporanee che durano mesi e di chi sceglie i nomi delle vulnerabilità.",
+    "hagiography": "Annunciato da Citrix a dicembre 2019 con una mitigazione ma nessuna patch, esplose a gennaio 2020 con i primi exploit pubblici. Bastava un ../ ben piazzato per uscire dalla cartella giusta ed eseguire codice sui gateway che proteggevano mezza Internet aziendale. Il ricercatore Kevin Beaumont gli diede il nome con cui è passato alla storia.",
+    "prayer": "O San Shitrix, che risali le cartelle un ../ alla volta, concedici le patch prima degli exploit e non il contrario. Amen.",
+    "feast": "Si festeggia cercando file XML sospetti tra i template e rispondendo 'sì, siamo patchati' con sempre meno convinzione.",
+    "proverb": "Un ../ tira l'altro, e alla fine arrivi a root."
+  },
+  "en": {
+    "title": "Saint Shitrix, the Name Says It All",
+    "patronage": "exposed NetScalers, temporary mitigations that last for months, and whoever names vulnerabilities.",
+    "hagiography": "Announced by Citrix in December 2019 with a mitigation but no patch, he exploded in January 2020 with the first public exploits. A well-placed ../ was enough to climb out of the right folder and run code on the gateways guarding half the corporate internet. Researcher Kevin Beaumont gave him the name he went down in history with.",
+    "prayer": "O Saint Shitrix, who climbs folders one ../ at a time, grant us patches before exploits and not the other way round. Amen.",
+    "feast": "Celebrated by hunting for suspicious XML files among the templates and answering 'yes, we're patched' with less and less conviction.",
+    "proverb": "One ../ leads to another, and soon you're root."
+  }
+}

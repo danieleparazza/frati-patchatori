@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San MarkDownTime, che mise in pausa i README",
+    "patronage": "delle tabelle Markdown troppo lunghe, dei parser che riflettono troppo e delle CPU al 100%.",
+    "hagiography": "Scoperto da Legit Security e raccontato nel gennaio 2023, viveva in librerie Markdown usate da GitLab e da innumerevoli progetti. Un testo costruito ad arte faceva lavorare il parser per un tempo sproporzionato, tenendo la CPU occupata finché il servizio non si fermava. Bastava un'issue ben scritta per un pomeriggio di downtime.",
+    "prayer": "O San MarkDownTime, che trasformi un asterisco in un'eternità, concedi ai nostri parser una complessità lineare. Amen.",
+    "feast": "Si festeggia aggiornando le librerie Markdown e scrivendo, per penitenza, un README senza tabelle.",
+    "proverb": "Chi scrive troppo fa aspettare tutti."
+  },
+  "en": {
+    "title": "Saint MarkDownTime, Who Paused the READMEs",
+    "patronage": "overlong Markdown tables, parsers that think too hard, and CPUs at 100%.",
+    "hagiography": "Found by Legit Security and described in January 2023, he lived in Markdown libraries used by GitLab and countless projects. A carefully crafted text made the parser work for a disproportionate time, keeping the CPU busy until the service stopped. One well-written issue was enough for an afternoon of downtime.",
+    "prayer": "O Saint MarkDownTime, who turns an asterisk into an eternity, grant our parsers linear complexity. Amen.",
+    "feast": "Celebrated by updating Markdown libraries and, as penance, writing a README without tables.",
+    "proverb": "Write too much and everyone waits."
+  }
+}

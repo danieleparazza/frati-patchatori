@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Meltdown, che sciolse il muro tra utente e kernel",
+    "patronage": "dei processori troppo ottimisti e degli amministratori che hanno visto calare le prestazioni dopo la patch.",
+    "hagiography": "Rivelato al mondo il 3 gennaio 2018 insieme al fratello Spectre, con logo e sito come si conviene ai santi moderni. Insegnò che un processore, pur di andare veloce, legge in anticipo anche ciò che non dovrebbe, e che quel segreto resta impresso nella cache. Per esorcizzarlo, i sistemi operativi dovettero separare la memoria del kernel da quella dei programmi, con un rito chiamato KPTI.",
+    "prayer": "O San Meltdown, che leggesti la memoria del kernel senza permesso, insegna ai nostri processori che speculare non è peccato solo finché non lascia tracce. Amen.",
+    "feast": "Si festeggia aggiornando microcode e kernel, e guardando con rassegnazione i benchmark del giorno dopo.",
+    "proverb": "Chi va piano va sano; chi specula finisce nella cache."
+  },
+  "en": {
+    "title": "Saint Meltdown, Who Melted the Wall Between User and Kernel",
+    "patronage": "over-optimistic processors and sysadmins who watched performance drop after the patch.",
+    "hagiography": "Revealed to the world on 3 January 2018 together with his brother Spectre, with a logo and a website as befits a modern saint. He taught that a processor, to go fast, reads ahead even what it shouldn't, and that the secret stays imprinted in the cache. To exorcise him, operating systems had to separate kernel memory from program memory, in a rite called KPTI.",
+    "prayer": "O Saint Meltdown, who read kernel memory without permission, teach our processors that speculation is no sin only as long as it leaves no trace. Amen.",
+    "feast": "Celebrated by updating microcode and kernel, and looking resignedly at the next day's benchmarks.",
+    "proverb": "Slow and steady wins the race; speculate, and you leave a trace."
+  }
+}

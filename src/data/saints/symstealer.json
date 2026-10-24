@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SymStealer, ladro di collegamenti",
+    "patronage": "dei link simbolici, delle cartelle trascinate nel browser senza pensarci e dei portafogli di criptovalute.",
+    "hagiography": "Scoperto da Imperva e raccontato nel gennaio 2023, viveva nella gestione dei file di Chrome. Se un utente trascinava in una pagina una cartella che conteneva un link simbolico, il browser seguiva il link e consegnava il file vero, ovunque fosse sul disco: chiavi, credenziali, portafogli.",
+    "prayer": "O San SymStealer, che segui i collegamenti fino al tesoro, fa' che il nostro browser carichi solo ciò che abbiamo scelto. Amen.",
+    "feast": "Si festeggia aggiornando Chrome e guardando con sospetto ogni sito che chiede di trascinarci sopra una cartella.",
+    "proverb": "Dimmi dove punti e ti dirò cosa rubi."
+  },
+  "en": {
+    "title": "Saint SymStealer, Thief of Links",
+    "patronage": "symbolic links, folders dragged into the browser without a thought, and crypto wallets.",
+    "hagiography": "Found by Imperva and described in January 2023, he lived in Chrome's file handling. If a user dragged a folder containing a symbolic link into a page, the browser followed the link and handed over the real file, wherever it was on disk: keys, credentials, wallets.",
+    "prayer": "O Saint SymStealer, who follows links to the treasure, let our browser upload only what we chose. Amen.",
+    "feast": "Celebrated by updating Chrome and eyeing suspiciously every site that asks you to drop a folder on it.",
+    "proverb": "Tell me where you point, and I'll tell you what I steal."
+  }
+}

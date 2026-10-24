@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San EvilESP, che viaggiava cifrato",
+    "patronage": "dei pacchetti IPsec, dei frammenti riassemblati male e dei server con IPsec acceso a loro insaputa.",
+    "hagiography": "Corretto da Microsoft a settembre 2022 e sviscerato da IBM X-Force nel gennaio 2023, si nascondeva nello stack TCP/IP di Windows, nella gestione dei pacchetti IPsec ESP. Frammenti confezionati ad arte portavano a una scrittura fuori dai limiti nel kernel: esecuzione di codice da remoto, senza credenziali, sulle macchine con IPsec attivo.",
+    "prayer": "O San EvilESP, che entri cifrato ed esci kernel, proteggi i nostri stack di rete dai frammenti malvagi. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di settembre a gennaio, come vuole un'antica tradizione aziendale.",
+    "proverb": "Non tutto ciò che è cifrato è innocente."
+  },
+  "en": {
+    "title": "Saint EvilESP, Who Travelled Encrypted",
+    "patronage": "IPsec packets, badly reassembled fragments, and servers with IPsec turned on without anyone knowing.",
+    "hagiography": "Fixed by Microsoft in September 2022 and dissected by IBM X-Force in January 2023, he hid in Windows' TCP/IP stack, in the handling of IPsec ESP packets. Carefully crafted fragments led to an out-of-bounds write in the kernel: remote code execution, no credentials needed, on machines with IPsec enabled.",
+    "prayer": "O Saint EvilESP, who enters encrypted and leaves as kernel, protect our network stacks from wicked fragments. Amen.",
+    "feast": "Celebrated by installing September's updates in January, as ancient corporate tradition demands.",
+    "proverb": "Not everything encrypted is innocent."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LDAPNightmare, guastafeste di Capodanno",
+    "patronage": "dei domain controller che si riavviano da soli e di chi scarica PoC da GitHub senza leggerli.",
+    "hagiography": "Apparve il primo giorno del 2025, quando SafeBreach pubblicò il primo exploit per CVE-2024-49113: una risposta LDAP malformata e il domain controller crollava come un ospite dopo il cenone. Pochi giorni dopo comparvero falsi PoC che, invece di far cadere i server, rubavano i dati di chi li eseguiva: un miracolo al contrario.",
+    "prayer": "O San LDAPNightmare, veglia sui nostri domain controller nella notte di San Silvestro, e fa' che nessun PoC scaricato di fretta si riveli un trojan. Amen.",
+    "feast": "Si festeggia installando le patch di dicembre prima del brindisi e bloccando le risposte LDAP in arrivo da Internet.",
+    "proverb": "Anno nuovo, LDAP vecchio: chi non patcha a Capodanno, crasha tutto l'anno."
+  },
+  "en": {
+    "title": "Saint LDAPNightmare, Spoiler of New Year's",
+    "patronage": "domain controllers that reboot themselves and everyone who runs PoCs from GitHub without reading them.",
+    "hagiography": "He appeared on the first day of 2025, when SafeBreach published the first exploit for CVE-2024-49113: one malformed LDAP reply and the domain controller collapsed like a guest after the New Year's Eve dinner. A few days later fake PoCs turned up that, instead of crashing servers, stole the data of whoever ran them: a miracle in reverse.",
+    "prayer": "O Saint LDAPNightmare, watch over our domain controllers on New Year's Eve, and let no PoC downloaded in a hurry turn out to be a trojan. Amen.",
+    "feast": "Celebrated by installing December's patches before the toast and blocking LDAP replies coming in from the internet.",
+    "proverb": "New year, old LDAP: patch it not on New Year's Day, and crash the whole year away."
+  }
+}

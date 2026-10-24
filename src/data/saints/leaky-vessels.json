@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Leaky Vessels, patrono dei container che perdono",
+    "patronage": "dei container che dovevano restare isolati, dei descrittori di file dimenticati aperti e di chi lancia docker build su immagini sconosciute.",
+    "hagiography": "Il 31 gennaio 2024 Snyk rivelò quattro vulnerabilità nel cuore di Docker: una in runc e tre in BuildKit. La più grave nasceva da un descrittore di file lasciato aperto: un container poteva ritrovarsi con la cartella di lavoro nel filesystem dell'host, e da lì scendere dalla sua nave e mettere piede sulla terraferma.",
+    "prayer": "O San Leaky Vessels, che fai naufragare l'isolamento, fa' che i nostri descrittori si chiudano e i nostri container restino a bordo. Amen.",
+    "feast": "Si festeggia aggiornando runc e BuildKit, e ricostruendo tutte le immagini mentre il caffè si raffredda.",
+    "proverb": "Nave che perde prima o poi tocca terra."
+  },
+  "en": {
+    "title": "Saint Leaky Vessels, Patron of Leaking Containers",
+    "patronage": "containers that were supposed to stay isolated, file descriptors left open, and anyone running docker build on unknown images.",
+    "hagiography": "On 31 January 2024 Snyk revealed four vulnerabilities at the heart of Docker: one in runc and three in BuildKit. The worst came from a file descriptor left open: a container could find its working directory inside the host filesystem, and from there step off its ship onto dry land.",
+    "prayer": "O Saint Leaky Vessels, who shipwrecks isolation, let our descriptors close and our containers stay on board. Amen.",
+    "feast": "Celebrated by updating runc and BuildKit, and rebuilding every image while the coffee goes cold.",
+    "proverb": "A leaking ship touches land sooner or later."
+  }
+}

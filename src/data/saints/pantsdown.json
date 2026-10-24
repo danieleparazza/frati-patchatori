@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Pantsdown, colto con le braghe calate",
+    "patronage": "dei BMC, dei chip ASPEED e degli amministratori che non sapevano che il server ha un secondo computer dentro.",
+    "hagiography": "Il 23 gennaio 2019 la comunità OpenBMC rivelò che molti BMC basati su chip ASPEED, i piccoli computer di gestione nascosti nei server, lasciavano aperti dei ponti hardware verso la propria memoria. Dal sistema operativo principale si poteva leggere e scrivere dentro il BMC, cioè dentro il guardiano stesso: un server colto, come dice il nome, con le braghe calate.",
+    "prayer": "O San Pantsdown, che lasciasti abbassati i ponti e pure le braghe, fa' che i nostri BMC chiudano ciò che non serve. Amen.",
+    "feast": "Si festeggia aggiornando il firmware del BMC e disabilitando i bridge che nessuno sapeva di avere.",
+    "proverb": "Chi lascia il ponte abbassato non si lamenti degli ospiti."
+  },
+  "en": {
+    "title": "Saint Pantsdown, Caught With His Trousers Down",
+    "patronage": "BMCs, ASPEED chips, and sysadmins who didn't know the server has a second computer inside.",
+    "hagiography": "On 23 January 2019 the OpenBMC community revealed that many BMCs built on ASPEED chips, the little management computers hidden inside servers, left hardware bridges open to their own memory. From the main operating system you could read and write inside the BMC, that is inside the guardian itself: a server caught, as the name says, with its trousers down.",
+    "prayer": "O Saint Pantsdown, who left the bridges down and the trousers too, let our BMCs close what they do not need. Amen.",
+    "feast": "Celebrated by updating the BMC firmware and disabling the bridges nobody knew they had.",
+    "proverb": "Leave the drawbridge down and don't complain about the guests."
+  }
+}

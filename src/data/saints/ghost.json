@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San GHOST, fantasma della glibc",
+    "patronage": "delle funzioni deprecate ancora in uso, dei nomi host lunghissimi e delle distribuzioni a supporto esteso.",
+    "hagiography": "Il 28 gennaio 2015 Qualys svelò un heap overflow nella funzione gethostbyname della glibc, la libreria su cui poggia quasi tutto Linux: il nome viene proprio da GetHOSTbyname. Era stato corretto già nel 2013, ma senza che nessuno lo riconoscesse come falla di sicurezza, così molte distribuzioni stabili continuarono a portarselo dietro, come un fantasma.",
+    "prayer": "O San GHOST, che infesti le librerie corrette ma mai aggiornate, fa' che i nostri changelog dicano sempre 'security'. Amen.",
+    "feast": "Si festeggia aggiornando la glibc e riavviando tutto, perché un fantasma in memoria resta finché il processo vive.",
+    "proverb": "Bug corretto e non annunciato, mezzo bug ancora in giro."
+  },
+  "en": {
+    "title": "Saint GHOST, Phantom of glibc",
+    "patronage": "deprecated functions still in use, absurdly long hostnames, and long-term-support distributions.",
+    "hagiography": "On 28 January 2015 Qualys revealed a heap overflow in the gethostbyname function of glibc, the library almost all of Linux rests on: the name comes from GetHOSTbyname itself. It had already been fixed in 2013, but nobody recognized it as a security flaw, so many stable distributions kept carrying it around, like a ghost.",
+    "prayer": "O Saint GHOST, who haunts libraries fixed but never updated, let our changelogs always say 'security'. Amen.",
+    "feast": "Celebrated by updating glibc and restarting everything, because a ghost in memory lingers as long as the process lives.",
+    "proverb": "A bug fixed but not announced is half a bug still around."
+  }
+}

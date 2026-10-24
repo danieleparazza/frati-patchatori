@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Baron Samedit, signore dei morti e di sudo",
+    "patronage": "di chi digita sudo per abitudine, delle barre rovesciate a fine riga e dei bug decennali.",
+    "hagiography": "Il 26 gennaio 2021 Qualys rivelò un heap overflow in sudo, il comando più invocato dagli amministratori. Bastava chiamare sudoedit con l'opzione -s e un argomento terminato da una barra rovesciata per diventare root, anche senza comparire nel file sudoers. Era lì da quasi dieci anni, e il nome, che fonde il Baron Samedi del vudù con sudoedit, si addice a un santo che risveglia i privilegi.",
+    "prayer": "O San Baron Samedit, che con una sola barra rovesciata apri le porte di root, fa' che il nostro sudo chieda la password a tutti. Amen.",
+    "feast": "Si festeggia aggiornando sudo e indossando, per tradizione, un cilindro.",
+    "proverb": "Una barra rovesciata e il mondo si capovolge."
+  },
+  "en": {
+    "title": "Saint Baron Samedit, Lord of the Dead and of sudo",
+    "patronage": "people who type sudo out of habit, backslashes at the end of the line, and decade-old bugs.",
+    "hagiography": "On 26 January 2021 Qualys revealed a heap overflow in sudo, the command sysadmins invoke the most. Calling sudoedit with -s and an argument ending in a backslash was enough to become root, even without being in the sudoers file. It had been there for almost ten years, and the name, blending voodoo's Baron Samedi with sudoedit, suits a saint who raises privileges from the dead.",
+    "prayer": "O Saint Baron Samedit, who opens the gates of root with a single backslash, let our sudo ask everyone for the password. Amen.",
+    "feast": "Celebrated by updating sudo and, by tradition, wearing a top hat.",
+    "proverb": "One backslash, and the world turns upside down."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ConnectAround, che entra dalla porta della VPN",
+    "patronage": "delle VPN aziendali, dei team di sicurezza richiamati a gennaio e delle direttive d'emergenza della CISA.",
+    "hagiography": "Il 10 gennaio 2024 Volexity raccontò di due zero-day in Ivanti Connect Secure: uno per saltare l'autenticazione, l'altro per eseguire comandi. In coppia aprivano dall'esterno proprio la porta pensata per far entrare solo i dipendenti. Lo sfruttamento si fece così diffuso che la CISA ordinò alle agenzie federali di scollegare gli apparati.",
+    "prayer": "O San ConnectAround, che giri attorno al login invece di attraversarlo, proteggi i nostri concentratori VPN e i weekend di chi li gestisce. Amen.",
+    "feast": "Si festeggia applicando le mitigazioni, lanciando l'integrity checker e, nei casi più devoti, con un factory reset.",
+    "proverb": "La porta più sicura è quella che non metti su Internet."
+  },
+  "en": {
+    "title": "Saint ConnectAround, Who Enters Through the VPN",
+    "patronage": "corporate VPNs, security teams called back in January and CISA emergency directives.",
+    "hagiography": "On 10 January 2024 Volexity reported two zero-days in Ivanti Connect Secure: one to skip authentication, the other to run commands. Together they opened from the outside the very door meant to let only employees in. Exploitation spread so widely that CISA ordered federal agencies to disconnect the appliances.",
+    "prayer": "O Saint ConnectAround, who goes around the login instead of through it, protect our VPN concentrators and the weekends of those who run them. Amen.",
+    "feast": "Celebrated by applying the mitigations, running the integrity checker and, for the most devout, a factory reset.",
+    "proverb": "The safest door is the one you never put on the internet."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BodySnatcher, ladro d'identità",
+    "patronage": "degli agenti AI con troppi permessi e di chiunque abbia l'email pubblicata sul sito aziendale.",
+    "hagiography": "Raccontato da AppOmni nel gennaio 2026, abitava nell'integrazione tra il Virtual Agent di ServiceNow e i suoi agenti AI. Senza autenticarsi, un attaccante poteva farsi passare per qualunque utente, amministratori compresi: secondo i ricercatori bastava conoscerne l'indirizzo email. Poi poteva chiedere gentilmente agli agenti AI di lavorare per lui.",
+    "prayer": "O San BodySnatcher, che indossi le identità altrui come un mantello, fa' che i nostri agenti AI chiedano sempre: 'ma sei proprio tu?'. Amen.",
+    "feast": "Si festeggia aggiornando le app di ServiceNow e riducendo i permessi degli agenti AI a quelli di un tirocinante.",
+    "proverb": "Agente che obbedisce a tutti non serve nessuno."
+  },
+  "en": {
+    "title": "Saint BodySnatcher, Thief of Identities",
+    "patronage": "over-privileged AI agents and everyone whose email is on the company website.",
+    "hagiography": "Described by AppOmni in January 2026, he lived in the integration between ServiceNow's Virtual Agent and its AI agents. Without logging in, an attacker could pose as any user, admins included: according to the researchers, knowing their email address was enough. Then they could politely ask the AI agents to work for them.",
+    "prayer": "O Saint BodySnatcher, who wears other people's identities like a cloak, let our AI agents always ask: 'is it really you?'. Amen.",
+    "feast": "Celebrated by updating the ServiceNow apps and cutting AI agents' permissions down to an intern's.",
+    "proverb": "An agent that obeys everyone serves no one."
+  }
+}

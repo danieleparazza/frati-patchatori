@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Thunderstrike, fulmine dei Mac",
+    "patronage": "delle porte Thunderbolt, dei firmware EFI e di chi presta il proprio Mac per cinque minuti.",
+    "hagiography": "Presentato da Trammell Hudson al Chaos Communication Congress di fine 2014 e corretto da Apple a gennaio 2015, mostrava come un dispositivo Thunderbolt malevolo potesse riscrivere il firmware di un Mac durante l'avvio. Il codice finiva nella memoria flash della scheda madre e sopravviveva alla reinstallazione del sistema e perfino al cambio del disco: un fulmine che lascia il segno.",
+    "prayer": "O San Thunderstrike, che colpisci attraverso la porta più veloce, proteggi il nostro firmware da chi passa con un adattatore in mano. Amen.",
+    "feast": "Si festeggia aggiornando macOS e guardando con diffidenza ogni adattatore Thunderbolt abbandonato in sala riunioni.",
+    "proverb": "Fulmine nel firmware, temporale per sempre."
+  },
+  "en": {
+    "title": "Saint Thunderstrike, Lightning of the Mac",
+    "patronage": "Thunderbolt ports, EFI firmware, and people who lend their Mac for five minutes.",
+    "hagiography": "Presented by Trammell Hudson at the Chaos Communication Congress at the end of 2014 and fixed by Apple in January 2015, he showed how a malicious Thunderbolt device could rewrite a Mac's firmware during boot. The code landed in the motherboard's flash memory and survived reinstalling the system and even replacing the disk: lightning that leaves its mark.",
+    "prayer": "O Saint Thunderstrike, who strikes through the fastest port, protect our firmware from anyone passing by with an adapter in hand. Amen.",
+    "feast": "Celebrated by updating macOS and distrusting every Thunderbolt adapter abandoned in a meeting room.",
+    "proverb": "Lightning in the firmware, storms forever after."
+  }
+}

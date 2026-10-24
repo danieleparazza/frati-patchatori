@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato NoReboot, che finge di dormire",
+    "patronage": "dei telefoni che sembrano spenti e dei paranoici che li mettono comunque nel freezer.",
+    "hagiography": "Nel gennaio 2022 i ricercatori di ZecOps mostrarono come un malware già insediato su un iPhone potesse simulare lo spegnimento: schermo nero, niente suoni, niente vibrazioni, ma il telefono vivo e in ascolto. Non avendo mai ricevuto un CVE attende ancora la canonizzazione, ma la sua lezione resta: spegnere non vuol dire spento.",
+    "prayer": "O Beato NoReboot, che fingi il sonno mentre vegli, fa' che il nostro 'scorri per spegnere' spenga davvero. Amen.",
+    "feast": "Si festeggia forzando il riavvio con la combinazione di tasti, e guardando il telefono spento con un vago sospetto.",
+    "proverb": "Telefono che tace non sempre dorme."
+  },
+  "en": {
+    "title": "Blessed NoReboot, Who Pretends to Sleep",
+    "patronage": "phones that look switched off and the paranoid who put them in the freezer anyway.",
+    "hagiography": "In January 2022 ZecOps researchers showed how malware already on an iPhone could fake a shutdown: black screen, no sounds, no vibration, yet the phone alive and listening. Never given a CVE, he still awaits canonization, but his lesson stands: shut down does not mean off.",
+    "prayer": "O Blessed NoReboot, who feigns sleep while keeping watch, let our 'slide to power off' really power off. Amen.",
+    "feast": "Celebrated by forcing a restart with the button combo, and looking at the switched-off phone with a vague suspicion.",
+    "proverb": "A silent phone is not always a sleeping phone."
+  }
+}

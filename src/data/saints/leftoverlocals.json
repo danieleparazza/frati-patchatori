@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LeftoverLocals, custode degli avanzi",
+    "patronage": "delle GPU che non lavano i piatti, dei modelli linguistici che parlano troppo e di chi divide la scheda video con sconosciuti.",
+    "hagiography": "Il 16 gennaio 2024 Trail of Bits mostrò che su GPU di Apple, AMD e Qualcomm la memoria locale non veniva ripulita tra un programma e l'altro. Un processo curioso poteva raccogliere gli avanzi lasciati da un altro, fino a ricostruire le risposte di un modello linguistico che girava accanto.",
+    "prayer": "O San LeftoverLocals, che ti nutri degli avanzi altrui, insegna alle nostre GPU a sparecchiare dopo ogni kernel. Amen.",
+    "feast": "Si festeggia con un pranzo di avanzi, aggiornando i driver della GPU tra il primo e il secondo.",
+    "proverb": "Chi non pulisce la memoria la serve in tavola agli altri."
+  },
+  "en": {
+    "title": "Saint LeftoverLocals, Keeper of Leftovers",
+    "patronage": "GPUs that don't do the dishes, language models that talk too much, and anyone sharing a graphics card with strangers.",
+    "hagiography": "On 16 January 2024 Trail of Bits showed that on Apple, AMD and Qualcomm GPUs local memory was not cleared between one program and the next. A curious process could gather the leftovers of another, up to reconstructing the answers of a language model running next door.",
+    "prayer": "O Saint LeftoverLocals, who feeds on other people's leftovers, teach our GPUs to clear the table after every kernel. Amen.",
+    "feast": "Celebrated with a lunch of leftovers, updating GPU drivers between courses.",
+    "proverb": "Who doesn't clear their memory serves it to the neighbours."
+  }
+}

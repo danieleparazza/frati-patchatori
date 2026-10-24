@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San FREAK, resuscitatore della crittografia da esportazione",
+    "patronage": "delle chiavi RSA a 512 bit e delle leggi degli anni Novanta che nessuno ha mai davvero sepolto.",
+    "hagiography": "Figlio di un'epoca in cui gli Stati Uniti vietavano di esportare crittografia robusta, FREAK (Factoring RSA Export Keys) permetteva a chi stava in mezzo alla connessione di imporre chiavi RSA da 512 bit, fattorizzabili in poche ore con qualche centinaio di dollari di cloud. Un errore di OpenSSL, corretto a gennaio 2015, accettava la chiave debole anche quando nessuno l'aveva chiesta.",
+    "prayer": "O San FREAK, che riportasti in vita le chiavi da esportazione, fa' che le nostre cipher suite guardino avanti e mai indietro. Amen.",
+    "feast": "Si festeggia disabilitando tutte le cipher suite EXPORT e brindando alla fine della guerra fredda crittografica.",
+    "proverb": "Chiave corta, segreto breve."
+  },
+  "en": {
+    "title": "Saint FREAK, Raiser of Export-Grade Crypto",
+    "patronage": "512-bit RSA keys and the 1990s laws nobody ever really buried.",
+    "hagiography": "Child of an era when the United States banned the export of strong cryptography, FREAK (Factoring RSA Export Keys) let whoever sat in the middle of a connection force 512-bit RSA keys, factorable in a few hours with a few hundred dollars of cloud. A bug in OpenSSL, fixed in January 2015, accepted the weak key even when nobody had asked for it.",
+    "prayer": "O Saint FREAK, who brought export keys back to life, let our cipher suites look forward and never back. Amen.",
+    "feast": "Celebrated by disabling every EXPORT cipher suite and toasting the end of the crypto cold war.",
+    "proverb": "Short key, short secret."
+  }
+}

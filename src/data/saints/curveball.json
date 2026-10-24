@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CurveBall, la curva che ingannò Windows",
+    "patronage": "dei certificati firmati da chiunque, delle curve ellittiche fatte in casa e della NSA, che per una volta segnalò invece di tenere.",
+    "hagiography": "Il 14 gennaio 2020, nel Patch Tuesday, Microsoft corresse un errore di CryptoAPI segnalato nientemeno che dalla NSA. Windows controllava la chiave pubblica di un certificato ECC ma non i parametri della curva: un attaccante poteva così fabbricare certificati che sembravano emessi da un'autorità fidata, e firmare malware o siti HTTPS a nome di altri.",
+    "prayer": "O San CurveBall, che lanciasti una curva dove si aspettava una retta, fa' che i nostri sistemi verifichino tutti i parametri e non solo quelli comodi. Amen.",
+    "feast": "Si festeggia installando il Patch Tuesday di gennaio e controllando che le firme del codice siano davvero di chi dicono.",
+    "proverb": "Fidarsi è bene, verificare la curva è meglio."
+  },
+  "en": {
+    "title": "Saint CurveBall, the Curve That Fooled Windows",
+    "patronage": "certificates signed by anyone, home-made elliptic curves, and the NSA, which for once reported instead of keeping.",
+    "hagiography": "On 14 January 2020, Patch Tuesday, Microsoft fixed a CryptoAPI flaw reported by none other than the NSA. Windows checked the public key of an ECC certificate but not the curve parameters: an attacker could forge certificates that looked issued by a trusted authority, and sign malware or HTTPS sites in someone else's name.",
+    "prayer": "O Saint CurveBall, who threw a curve where a straight line was expected, let our systems check every parameter and not just the convenient ones. Amen.",
+    "feast": "Celebrated by installing January's Patch Tuesday and checking that code signatures really belong to who they claim.",
+    "proverb": "Trust is good; checking the curve is better."
+  }
+}

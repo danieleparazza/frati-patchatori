@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PwnKit, che diede root a chi passava",
+    "patronage": "dei programmi setuid, di chi conta gli argomenti partendo da uno e dei bug che aspettano dodici anni.",
+    "hagiography": "Il 25 gennaio 2022 Qualys rivelò che pkexec, parte di polkit e presente in quasi tutte le distribuzioni Linux, si confondeva se lanciato senza nemmeno un argomento. Leggendo oltre la fine della lista, scambiava le variabili d'ambiente per argomenti e consegnava i privilegi di root a qualunque utente locale. Il difetto era lì dal 2009.",
+    "prayer": "O San PwnKit, che desti root a chiunque non avesse nulla da dire, insegna ai nostri programmi setuid a controllare argc. Amen.",
+    "feast": "Si festeggia aggiornando polkit o, per i devoti più frettolosi, togliendo il bit setuid a pkexec.",
+    "proverb": "Chi non dice niente a volte ottiene tutto."
+  },
+  "en": {
+    "title": "Saint PwnKit, Who Gave Root to Passers-by",
+    "patronage": "setuid programs, people who count arguments starting from one, and bugs that wait twelve years.",
+    "hagiography": "On 25 January 2022 Qualys revealed that pkexec, part of polkit and present in almost every Linux distribution, got confused when launched without a single argument. Reading past the end of the list, it mistook environment variables for arguments and handed root privileges to any local user. The flaw had been there since 2009.",
+    "prayer": "O Saint PwnKit, who gave root to anyone with nothing to say, teach our setuid programs to check argc. Amen.",
+    "feast": "Celebrated by updating polkit or, for the hastiest devotees, removing the setuid bit from pkexec.",
+    "proverb": "Say nothing, and sometimes you get everything."
+  }
+}
