@@ -1,0 +1,132 @@
+---
+// Page of a scourge (flagello) or miracle (miracolo).
+import Base from '../layouts/Base.astro';
+import Card from './Card.astro';
+import EntryLayout from './EntryLayout.astro';
+import ShareButtons from './ShareButtons.astro';
+import { formatDate, saintTitle } from '../lib/calendar';
+import { demonText, demonsForEvent, eventCardKey, eventText, vulnsForCves, type CalendarEvent } from '../lib/extras';
+import { absolute, saintPath, t, url, type Lang } from '../lib/i18n';
+import { card } from '../lib/santino';
+
+interface Props {
+  lang: Lang;
+  event: CalendarEvent;
+}
+
+const { lang, event: e } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+const miracle = e.type === 'miracolo';
+const slug = (l: Lang) => (miracle ? t(l).miracleSlug : t(l).scourgeSlug);
+const text = eventText(e, lang);
+const { svg, generated } = card(eventCardKey(e), e.name, e.type, e.date.slice(0, 4));
+const title = text?.title ?? e.name;
+const saints = vulnsForCves(e.cves);
+const demons = demonsForEvent(e);
+const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
+---
+
+<Base lang={lang} title={title} description={e.summary} alt={`${other}/${slug(other)}/${e.id}`}>
+  <EntryLayout tone={e.tone}>
+    <Card slot="card" svg={svg}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    <p class="kicker">
+      {miracle ? s.miracle : s.scourge}
+      {e.noCulprit && ` · ${s.calamity}`} · <a href={url(`${lang}/${e.date.slice(5)}`)}>{formatDate(e.date, lang)}</a>
+    </p>
+    <h1>{title}</h1>
+    {
+      text ? (
+        miracle ? (
+          <>
+            <h3>{s.prodigy}</h3>
+            <p>{text.prodigy}</p>
+            <h3>{s.thaumaturge}</h3>
+            <p>{text.thaumaturge}</p>
+            <h3>{s.thanksgiving}</h3>
+            <p class="prayer">{text.thanksgiving}</p>
+          </>
+        ) : (
+          <>
+            <h3>{s.chronicle}</h3>
+            <p>{text.chronicle}</p>
+            <h3>{s.lesson}</h3>
+            <p>{text.lesson}</p>
+            {text.prayer && (
+              <>
+                <h3>{s.reparation}</h3>
+                <p class="prayer">{text.prayer}</p>
+              </>
+            )}
+            <h3>{s.remembrance}</h3>
+            <p>{text.remembrance}</p>
+          </>
+        )
+      ) : (
+        <>
+          <p>{e.summary}</p>
+          <p class="pending">{s.textPending}</p>
+        </>
+      )
+    }
+    {e.tone !== 'lutto' && <ShareButtons lang={lang} href={absolute(`${lang}/${slug(lang)}/${e.id}`)} text={title} />}
+  </EntryLayout>
+
+  <section class="card tech">
+    <h3>{s.technical}</h3>
+    <p class="desc">{e.summary}</p>
+    {
+      saints.length > 0 && (
+        <p>
+          <strong>CVE:</strong>{' '}
+          {saints.map((v, i) => (
+            <>
+              {i > 0 && ' · '}
+              <a href={url(saintPath(lang, v.id))}>{saintTitle(v, lang)}</a>
+            </>
+          ))}
+        </p>
+      )
+    }
+    {
+      demons.length > 0 && (
+        <p>
+          <strong>{s.worksOf}:</strong>{' '}
+          {demons.map((d, i) => (
+            <>
+              {i > 0 && ' · '}
+              <a href={url(`${lang}/${s.demonSlug}/${d.id}`)}>{demonText(d, lang)?.title ?? d.name}</a>
+            </>
+          ))}
+        </p>
+      )
+    }
+    <p class="sources">
+      {s.sources}:{' '}
+      {e.sources.map((l, i) => (
+        <>
+          {i > 0 && ' · '}
+          <a href={l}>{host(l)}</a>
+        </>
+      ))}
+    </p>
+  </section>
+</Base>
+
+<style>
+  .tech {
+    margin-top: 32px;
+  }
+  .tech h3 {
+    margin: 0 0 8px;
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  .tech p {
+    margin: 8px 0 0;
+    font-size: 0.9rem;
+  }
+  .sources {
+    overflow-wrap: anywhere;
+  }
+</style>

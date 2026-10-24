@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Log4Shell",
+  "motto": "TRUNCUS LOQUAX",
+  "niche": [
+    "#3a1a10",
+    "#7a3a1c"
+  ],
+  "accent": "#8a2e12",
+  "emblem": "<rect x=\"112\" y=\"176\" width=\"80\" height=\"40\" rx=\"6\" fill=\"#8b5a2b\" stroke=\"#2b1d14\" stroke-width=\"2\"/><ellipse cx=\"112\" cy=\"196\" rx=\"14\" ry=\"20\" fill=\"#d4a373\" stroke=\"#2b1d14\" stroke-width=\"2\"/><ellipse cx=\"112\" cy=\"196\" rx=\"7\" ry=\"11\" fill=\"none\" stroke=\"#8b5a2b\" stroke-width=\"2\"/><path d=\"M150 172 C150 152 186 152 186 172 Z\" fill=\"#f5cba7\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M156 172 L160 158 M168 172 L168 155 M180 172 L176 158\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/><text x=\"150\" y=\"146\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#fbf3dd\">${jndi:}</text><text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#bfc9d1\">2.17.1</text>"
+}

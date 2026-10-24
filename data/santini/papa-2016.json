@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Dirty COW",
+  "motto": "VACCA SORDIDA SCRIBIT",
+  "niche": [
+    "#2a1f10",
+    "#5a4220"
+  ],
+  "accent": "#5a3a16",
+  "emblem": "<path d=\"M116 150 C104 138 100 126 108 124 C112 134 118 140 126 146 Z M184 150 C196 138 200 126 192 124 C188 134 182 140 174 146 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M108 158 L124 150 M192 158 L176 150\" stroke=\"#fbf3dd\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M122 148 C122 136 178 136 178 148 L174 196 C172 206 128 206 126 196 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M130 150 C140 146 146 160 136 168 C128 170 126 158 130 150 Z\" fill=\"#2b1d14\"/><path d=\"M160 176 C170 172 174 182 166 188 Z\" fill=\"#2b1d14\"/><circle cx=\"138\" cy=\"164\" r=\"4\" fill=\"#fbf3dd\"/><circle cx=\"162\" cy=\"164\" r=\"4\" fill=\"#2b1d14\"/><ellipse cx=\"150\" cy=\"210\" rx=\"30\" ry=\"18\" fill=\"#e8a0a0\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"210\" r=\"4\" fill=\"#2b1d14\"/><circle cx=\"160\" cy=\"210\" r=\"4\" fill=\"#2b1d14\"/><text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">r/o → r/w</text>"
+}

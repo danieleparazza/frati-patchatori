@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Code Red I",
+    "encyclical": "\"Rubrum Codicis\". Scoperto da eEye e battezzato con la bibita che i ricercatori bevevano quella notte, il buco nel file .ida di IIS divenne in un mese il worm Code Red, che il 19 luglio infettò circa 359.000 server in 14 ore. Insieme a Nimda convinse Microsoft a scrivere, nel gennaio 2002, il memo sul Trustworthy Computing. Fu l'anno in cui il mondo capì che una patch disponibile non è una patch installata."
+  },
+  "en": {
+    "title": "Pope Code Red I",
+    "encyclical": "\"Rubrum Codicis\". Found by eEye and named after the soda the researchers were drinking that night, the hole in IIS's .ida handler became the Code Red worm a month later, infecting about 359,000 servers in 14 hours on 19 July. Together with Nimda it moved Microsoft to write its Trustworthy Computing memo in January 2002. It was the year the world learned that an available patch is not an installed patch."
+  }
+}

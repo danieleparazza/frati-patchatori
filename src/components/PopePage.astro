@@ -1,0 +1,75 @@
+---
+// Page of a Pope (year or decade) or Antipope.
+import Base from '../layouts/Base.astro';
+import Card from './Card.astro';
+import EntryLayout from './EntryLayout.astro';
+import ShareButtons from './ShareButtons.astro';
+import { saintTitle } from '../lib/calendar';
+import { popeCardKey, popeText, type PopeEntry } from '../lib/extras';
+import { absolute, saintPath, t, url, type Lang } from '../lib/i18n';
+import { card } from '../lib/santino';
+
+interface Props {
+  lang: Lang;
+  pope: PopeEntry;
+}
+
+const { lang, pope: p } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+const text = popeText(p.key, lang);
+const title = text?.title ?? `${p.kind === 'anti' ? s.antipope : s.pope} ${p.vuln.name}`;
+const { svg, generated } = card(popeCardKey(p.key), p.vuln.name, 'papa', p.kind === 'year' ? p.key : p.kind === 'decade' ? p.label : s.antipope);
+const kicker = p.kind === 'year' ? s.popeOf(p.key) : p.kind === 'decade' ? s.popeOfDecade(p.label) : s.antipope;
+---
+
+<Base lang={lang} title={title} description={p.why ?? undefined} alt={`${other}/${t(other).popeSlug}/${p.key}`}>
+  <p class="back"><a href={url(`${lang}/${s.popesSlug}`)}>← {s.chronotaxis}</a></p>
+  <EntryLayout>
+    <Card slot="card" svg={svg}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    <p class="kicker">{kicker}</p>
+    <h1>{title}</h1>
+    {
+      text ? (
+        <>
+          <h3>{s.encyclical}</h3>
+          <p>{text.encyclical}</p>
+        </>
+      ) : (
+        <>
+          {p.why && <p>{p.why}</p>}
+          <p class="pending">{s.textPending}</p>
+        </>
+      )
+    }
+    <p class="saint">
+      {s.seeSaint}: <a href={url(saintPath(lang, p.vuln.id))}>{saintTitle(p.vuln, lang)}</a>
+    </p>
+    {
+      p.cardinals.length > 0 && (
+        <>
+          <h3>{s.cardinals}</h3>
+          <p>
+            {p.cardinals.map((c, i) => (
+              <>
+                {i > 0 && ' · '}
+                {typeof c === 'string' ? c : <a href={url(saintPath(lang, c.id))}>{saintTitle(c, lang)}</a>}
+              </>
+            ))}
+          </p>
+        </>
+      )
+    }
+    <ShareButtons lang={lang} href={absolute(`${lang}/${s.popeSlug}/${p.key}`)} text={title} />
+  </EntryLayout>
+</Base>
+
+<style>
+  .back {
+    margin: 0 0 16px;
+    font-size: 0.9rem;
+  }
+  .saint {
+    margin-top: 16px !important;
+  }
+</style>

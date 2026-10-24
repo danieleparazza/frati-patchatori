@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Flame I",
+    "encyclical": "\"Collisio Quinta\". Il malware Flame si travestì da Windows Update con un certificato falso, ottenuto con una nuova collisione MD5 contro i certificati di Terminal Server Licensing. Era la prima crittanalisi di livello statale vista all'opera sul campo, e Microsoft dovette revocare i certificati con l'advisory 2718704. L'anno insegnò che un algoritmo dichiarato rotto va ritirato davvero, non solo a parole."
+  },
+  "en": {
+    "title": "Pope Flame I",
+    "encyclical": "\"Collisio Quinta\". The Flame malware disguised itself as Windows Update with a forged certificate, obtained through a new MD5 collision against Terminal Server Licensing certificates. It was the first state-level cryptanalysis seen at work in the field, and Microsoft had to revoke the certificates with advisory 2718704. The year taught that an algorithm declared broken must actually be retired, not just in words."
+  }
+}

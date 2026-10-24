@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Follina I",
+    "encyclical": "\"Documentum Diagnosticum\". Un documento Word richiamava lo strumento di diagnostica MSDT attraverso un URL ms-msdt: ed eseguiva codice anche senza macro, perfino nell'anteprima. Segnalato già ad aprile e inizialmente non ritenuto un problema di sicurezza, divenne pubblico il 27 maggio grazie a nao_sec e fu corretto a giugno. L'anno insegnò che ogni gestore di protocollo registrato è una porta, e che le segnalazioni scartate meritano una seconda lettura."
+  },
+  "en": {
+    "title": "Pope Follina I",
+    "encyclical": "\"Documentum Diagnosticum\". A Word document called the MSDT diagnostic tool through an ms-msdt: URL and ran code with no macros at all, even in the preview pane. Reported back in April and first judged not a security issue, it went public on 27 May thanks to nao_sec and was fixed in June. The year taught that every registered protocol handler is a door, and that dismissed reports deserve a second reading."
+  }
+}

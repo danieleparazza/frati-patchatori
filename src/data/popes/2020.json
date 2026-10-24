@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Zerologon I",
+    "encyclical": "\"Clavis Ex Nihilo\". Tom Tervoort di Secura scoprì che in Netlogon un vettore di inizializzazione fatto di zeri bastava, una volta su 256, a farsi accettare da un domain controller e diventare amministratore di dominio in pochi secondi. La CISA emise una direttiva d'emergenza e i gruppi ransomware lo adottarono subito. L'anno insegnò che la crittografia sbagliata nei dettagli è peggio di nessuna, perché sembra sicura."
+  },
+  "en": {
+    "title": "Pope Zerologon I",
+    "encyclical": "\"Clavis Ex Nihilo\". Tom Tervoort of Secura found that in Netlogon an initialisation vector made of zeros was enough, one time in 256, to be accepted by a domain controller and become domain admin in seconds. CISA issued an emergency directive and ransomware gangs adopted it at once. The year taught that cryptography wrong in the details is worse than none, because it looks safe."
+  }
+}

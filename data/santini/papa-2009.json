@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "TLS Renegotiation",
+  "motto": "PACTUM RENOVATUM",
+  "niche": [
+    "#10263a",
+    "#1c4a6e"
+  ],
+  "accent": "#1a4060",
+  "emblem": "<path d=\"M110 132 H190 V226 H110 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><ellipse cx=\"110\" cy=\"132\" rx=\"8\" ry=\"6\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><ellipse cx=\"190\" cy=\"226\" rx=\"8\" ry=\"6\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"150\" y=\"166\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#2b1d14\">RFC</text><text x=\"150\" y=\"194\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#2b1d14\">5746</text><path d=\"M126 208 H174\" stroke=\"#7a6656\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"236\" r=\"12\" fill=\"#9e1b1b\" stroke=\"#2b1d14\" stroke-width=\"2\"/>"
+}

@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa ANI I",
+    "encyclical": "\"Cursor Redivivus\". Un cursore animato, servito da una pagina web o da un'email, bastava a prendere il controllo di Windows, da 2000 fino al nuovissimo Vista. Era uno zero-day sfruttato in massa e Microsoft dovette correggerlo fuori ciclo; per giunta era la replica di un bug ANI già corretto nel 2005. L'enciclica insegna l'analisi delle varianti: quando chiudi un buco, guarda se accanto ce n'è un altro identico."
+  },
+  "en": {
+    "title": "Pope ANI I",
+    "encyclical": "\"Cursor Redivivus\". An animated cursor served by a web page or an email was enough to take over Windows, from 2000 all the way to brand-new Vista. It was a mass-exploited zero-day that Microsoft had to fix out of band, and it was a rerun of an ANI bug already fixed in 2005. The encyclical teaches variant analysis: when you close a hole, check whether an identical one sits right next to it."
+  }
+}

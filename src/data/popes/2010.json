@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Stuxnet I",
+    "encyclical": "\"Clavicula Centrifugarum\". Un collegamento .LNK su una chiavetta USB bastava a eseguire codice appena si apriva la cartella, ed è così che Stuxnet raggiunse le centrifughe iraniane isolate dalla rete. Fu il primo cyber-armamento noto a causare danni fisici, e mostrò che le reti \"air-gapped\" hanno sempre qualcuno che porta una chiavetta. Da quell'anno gli stati entrarono ufficialmente nel catalogo degli attaccanti."
+  },
+  "en": {
+    "title": "Pope Stuxnet I",
+    "encyclical": "\"Clavicula Centrifugarum\". A .LNK shortcut on a USB stick was enough to run code the moment the folder was opened, and that is how Stuxnet reached Iran's air-gapped centrifuges. It was the first known cyber-weapon to cause physical damage, and it showed that every air-gapped network has someone carrying a USB stick. From that year on, nation states officially joined the catalogue of attackers."
+  }
+}

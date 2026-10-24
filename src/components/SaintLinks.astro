@@ -1,0 +1,72 @@
+---
+// Links from a saint to the Popes, scourges and demons it is part of.
+import type { Vuln } from '../lib/calendar';
+import { demonText, demonsForVuln, eventText, eventsForVuln, popeText, popesForVuln } from '../lib/extras';
+import { t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  vuln: Vuln;
+  lang: Lang;
+}
+
+const { vuln, lang } = Astro.props;
+const s = t(lang);
+const popes = popesForVuln(vuln);
+const events = eventsForVuln(vuln);
+const demons = demonsForVuln(vuln);
+---
+
+{
+  (popes.length > 0 || events.length > 0 || demons.length > 0) && (
+    <section class="links">
+      {popes.map((p) => (
+        <p class="pope">
+          <span>♛</span>{' '}
+          <a href={url(`${lang}/${s.popeSlug}/${p.key}`)}>
+            {p.kind === 'year' ? s.popeOf(p.key) : p.kind === 'decade' ? s.popeOfDecade(p.label) : s.antipope}
+            {popeText(p.key, lang)?.title && ` · ${popeText(p.key, lang)!.title}`}
+          </a>
+        </p>
+      ))}
+      {events.length > 0 && (
+        <p>
+          <strong>{s.scourgesOfSaint}:</strong>{' '}
+          {events.map((e, i) => (
+            <>
+              {i > 0 && ' · '}
+              <a href={url(`${lang}/${e.type === 'miracolo' ? s.miracleSlug : s.scourgeSlug}/${e.id}`)}>{eventText(e, lang)?.title ?? e.name}</a>
+            </>
+          ))}
+        </p>
+      )}
+      {demons.length > 0 && (
+        <p>
+          <strong>{s.usedBy}:</strong>{' '}
+          {demons.map((d, i) => (
+            <>
+              {i > 0 && ' · '}
+              <a href={url(`${lang}/${s.demonSlug}/${d.id}`)}>{demonText(d, lang)?.title ?? d.name}</a>
+            </>
+          ))}
+        </p>
+      )}
+    </section>
+  )
+}
+
+<style>
+  .links {
+    margin-top: 24px;
+    padding: 10px 16px;
+    border-left: 3px solid var(--gold);
+    background: color-mix(in srgb, var(--gold) 8%, transparent);
+    border-radius: 0 6px 6px 0;
+  }
+  .links p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+  }
+  .pope span {
+    color: var(--gold);
+  }
+</style>

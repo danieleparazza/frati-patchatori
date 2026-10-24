@@ -1,0 +1,159 @@
+---
+// Page of a Bestiary demon (malware family or threat group).
+import Base from '../layouts/Base.astro';
+import Card from './Card.astro';
+import EntryLayout from './EntryLayout.astro';
+import ShareButtons from './ShareButtons.astro';
+import { saintTitle } from '../lib/calendar';
+import { demonCardKey, demonText, eventText, eventsForDemon, vulnsForCves, type Demon } from '../lib/extras';
+import { absolute, saintPath, t, url, type Lang } from '../lib/i18n';
+import { card } from '../lib/santino';
+
+interface Props {
+  lang: Lang;
+  demon: Demon;
+}
+
+const { lang, demon: d } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+const text = demonText(d, lang);
+const { svg, generated } = card(demonCardKey(d), d.name, 'demone', String(d.firstSeen.year));
+const title = text?.title ?? d.name;
+const weapons = vulnsForCves(d.cves);
+const works = eventsForDemon(d);
+const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
+const ex = d.exorcism;
+---
+
+<Base lang={lang} title={title} description={d.summary} alt={`${other}/${t(other).demonSlug}/${d.id}`}>
+  <EntryLayout>
+    <Card slot="card" svg={svg}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    <p class="kicker"><a href={url(`${lang}/${s.bestiarySlug}#${d.primary}`)}>{s.circles[d.primary]}</a></p>
+    <h1>{title}</h1>
+    {
+      text ? (
+        <>
+          <h3>{s.legend}</h3>
+          <p>{text.legend}</p>
+          <h3>{s.exorcismTitle}</h3>
+          <p>{text.exorcism}</p>
+        </>
+      ) : (
+        <>
+          <p>{d.summary}</p>
+          <p class="pending">{s.textPending}</p>
+        </>
+      )
+    }
+    <ShareButtons lang={lang} href={absolute(`${lang}/${s.demonSlug}/${d.id}`)} text={title} />
+  </EntryLayout>
+
+  <section class="card tech">
+    <h3>{s.technical}</h3>
+    <dl>
+      {
+        d.aliases.length > 0 && (
+          <>
+            <dt>{s.aliases}</dt>
+            <dd>{d.aliases.join(', ')}</dd>
+          </>
+        )
+      }
+      <dt>{s.circle}</dt>
+      <dd>{[d.primary, ...d.secondary].map((c) => s.circles[c]).join(' · ')}</dd>
+      <dt>{s.firstSeen}</dt>
+      <dd>{d.firstSeen.approx ? `${s.approx} ${d.firstSeen.year}` : d.firstSeen.year}</dd>
+      <dt>{s.status}</dt>
+      <dd>
+        {s.statuses[d.status]}
+        {ex && [ex.operation, ex.date].filter(Boolean).length > 0 && ` (${[ex.operation, ex.date].filter(Boolean).join(', ')})`}
+      </dd>
+      {
+        weapons.length > 0 && (
+          <>
+            <dt>{s.weapons}</dt>
+            <dd>
+              {weapons.map((v, i) => (
+                <>
+                  {i > 0 && ' · '}
+                  <a href={url(saintPath(lang, v.id))}>{saintTitle(v, lang)}</a>
+                </>
+              ))}
+            </dd>
+          </>
+        )
+      }
+      {
+        works.length > 0 && (
+          <>
+            <dt>{s.works}</dt>
+            <dd>
+              {works.map((e, i) => (
+                <>
+                  {i > 0 && ' · '}
+                  <a href={url(`${lang}/${e.type === 'miracolo' ? s.miracleSlug : s.scourgeSlug}/${e.id}`)}>{eventText(e, lang)?.title ?? e.name}</a>
+                </>
+              ))}
+            </dd>
+          </>
+        )
+      }
+    </dl>
+    <p class="desc">{d.summary}</p>
+    <p class="sources">
+      {s.sources}:{' '}
+      {d.sources.map((l, i) => (
+        <>
+          {i > 0 && ' · '}
+          <a href={l}>{host(l)}</a>
+        </>
+      ))}
+      {
+        d.attackId && (
+          <>
+            {' · '}
+            <a href={`https://attack.mitre.org/${d.attackId.startsWith('G') ? 'groups' : 'software'}/${d.attackId}/`}>
+              {s.attackRef} {d.attackId}
+            </a>
+          </>
+        )
+      }
+    </p>
+    {d.attackId && <p class="notice">{s.attackNotice}</p>}
+  </section>
+</Base>
+
+<style>
+  .tech {
+    margin-top: 32px;
+  }
+  .tech h3 {
+    margin: 0 0 8px;
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 4px 16px;
+    margin: 0;
+  }
+  dt {
+    color: var(--muted);
+  }
+  dd {
+    margin: 0;
+  }
+  .tech p {
+    margin: 10px 0 0;
+    font-size: 0.9rem;
+  }
+  .sources {
+    overflow-wrap: anywhere;
+  }
+  .notice {
+    font-size: 0.75rem !important;
+    color: var(--muted);
+  }
+</style>

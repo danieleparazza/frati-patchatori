@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "xz backdoor",
+  "motto": "QUINGENTI MILLESIMI",
+  "niche": [
+    "#1a1a2a",
+    "#3a2e5a"
+  ],
+  "accent": "#3a2a5a",
+  "emblem": "<circle cx=\"150\" cy=\"186\" r=\"48\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"142\" y=\"128\" width=\"16\" height=\"10\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M150 186 L150 148\" stroke=\"#2b1d14\" stroke-width=\"3\"/><path d=\"M150 186 L174 200\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M150 186 L150 140 A46 46 0 0 1 196 186 Z\" fill=\"#c0392b\" opacity=\"0.25\"/><circle cx=\"150\" cy=\"186\" r=\"4\" fill=\"#2b1d14\"/><text x=\"150\" y=\"220\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#2b1d14\">+500 ms</text><text x=\"150\" y=\"248\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">sshd</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Sasser I",
+    "encyclical": "\"Diebus Septendecim\". eEye segnalò il difetto in LSASS, Microsoft lo corresse ad aprile, e circa diciassette giorni dopo arrivò Sasser, scritto da un diciottenne, che fece riavviare milioni di PC e disturbò compagnie aeree, banche e ospedali. Il tempo tra patch ed exploit si misurava ormai in giorni, non in mesi. L'anno insegnò che gli aggiornamenti automatici non sono una comodità, ma una necessità."
+  },
+  "en": {
+    "title": "Pope Sasser I",
+    "encyclical": "\"Diebus Septendecim\". eEye reported the LSASS flaw, Microsoft fixed it in April, and about seventeen days later came Sasser, written by an eighteen-year-old, which sent millions of PCs into reboot loops and disrupted airlines, banks and hospitals. The gap between patch and exploit was now measured in days, not months. The year taught that automatic updates are not a convenience but a necessity."
+  }
+}

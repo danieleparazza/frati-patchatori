@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Blaster I",
+    "encyclical": "\"Murus Ignis Ex Officio\". Il buco in RPC DCOM, trovato da The Last Stage of Delirium, toccava praticamente ogni Windows NT, 2000, XP e 2003, e in poche settimane divenne Blaster e poi Welchia, che pretendeva di curarlo. Da quell'anno nacque il Patch Tuesday mensile, e l'anno dopo XP SP2 arrivò con il firewall acceso di default. Lezione: la sicurezza che bisogna attivare a mano, di solito, resta spenta."
+  },
+  "en": {
+    "title": "Pope Blaster I",
+    "encyclical": "\"Murus Ignis Ex Officio\". The RPC DCOM hole, found by The Last Stage of Delirium, touched practically every Windows NT, 2000, XP and 2003 box, and within weeks became Blaster and then Welchia, which claimed to cure it. That year gave us the monthly Patch Tuesday, and the next year XP SP2 shipped with the firewall on by default. Lesson: security you have to switch on by hand usually stays off."
+  }
+}

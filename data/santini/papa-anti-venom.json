@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "VENOM",
+  "motto": "DISCULUS MOLLIS",
+  "niche": [
+    "#14141c",
+    "#2a2a36"
+  ],
+  "accent": "#3a3346",
+  "emblem": "<rect x=\"110\" y=\"134\" width=\"80\" height=\"84\" rx=\"4\" fill=\"#3e4a5a\" stroke=\"#bfc9d1\" stroke-width=\"2\"/><rect x=\"126\" y=\"134\" width=\"48\" height=\"26\" fill=\"#bfc9d1\"/><rect x=\"156\" y=\"138\" width=\"10\" height=\"18\" fill=\"#3e4a5a\"/><rect x=\"122\" y=\"176\" width=\"56\" height=\"38\" fill=\"#fbf3dd\"/><path d=\"M130 200 C138 190 146 210 154 200 C160 192 166 198 170 196\" fill=\"none\" stroke=\"#27ae60\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"171\" cy=\"195\" r=\"3\" fill=\"#27ae60\"/><text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#bfc9d1\">FDC</text>"
+}

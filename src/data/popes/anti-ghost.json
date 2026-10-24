@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Antipapa GHOST",
+    "encyclical": "\"Spiritus Qui Non Terruit\". Nel gennaio 2015 Qualys rivelò un overflow in gethostbyname di glibc, e i titoli lo chiamarono subito il nuovo Heartbleed. Il bug era vero, ma colpiva funzioni ormai obsolete, era già stato corretto in silenzio nel 2013 e risultava sfruttabile in pochissimi programmi reali, soprattutto Exim. Qualys fece un lavoro accurato; furono gli echi della stampa a gonfiare il fantasma. Lezione: un bug in una libreria onnipresente non è automaticamente un bug onnipresente."
+  },
+  "en": {
+    "title": "Antipope GHOST",
+    "encyclical": "\"Spiritus Qui Non Terruit\". In January 2015 Qualys revealed an overflow in glibc's gethostbyname, and headlines instantly crowned it the next Heartbleed. The bug was real, but it hit already obsolete functions, had been quietly fixed in 2013, and was exploitable in very few real programs, mainly Exim. Qualys did careful work; it was the press echo that inflated the ghost. Lesson: a bug in a ubiquitous library is not automatically a ubiquitous bug."
+  }
+}

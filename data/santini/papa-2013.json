@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Dual_EC_DRBG",
+  "motto": "CURVA CUM IANUA",
+  "niche": [
+    "#1a1a2a",
+    "#34345a"
+  ],
+  "accent": "#2c2c55",
+  "emblem": "<path d=\"M104 236 C130 236 138 196 150 182 C162 168 170 128 196 128\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\"/><path d=\"M104 128 C130 128 138 168 150 182 C162 196 170 236 196 236\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\" opacity=\"0.5\"/><circle cx=\"150\" cy=\"182\" r=\"22\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"177\" r=\"6\" fill=\"#2b1d14\"/><path d=\"M147 180 L144 194 H156 L153 180 Z\" fill=\"#2b1d14\"/><text x=\"116\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#fbf3dd\">P</text><text x=\"184\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#fbf3dd\">Q</text>"
+}

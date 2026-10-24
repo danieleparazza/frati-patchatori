@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Heartbleed I",
+    "encyclical": "\"Heartbeat Sanguinis\". Un controllo di lunghezza dimenticato nell'estensione heartbeat di OpenSSL lasciava leggere 64 KB di memoria del server alla volta, chiavi private comprese, e tutto il web cifrato tremò. Fu il primo bug con nome, logo e sito, e mostrò quanto internet dipendesse da un progetto mantenuto da pochissimi volontari. Ne nacque la Core Infrastructure Initiative, e la lezione che il software critico va anche finanziato."
+  },
+  "en": {
+    "title": "Pope Heartbleed I",
+    "encyclical": "\"Heartbeat Sanguinis\". A forgotten length check in OpenSSL's heartbeat extension let anyone read 64 KB of server memory at a time, private keys included, and the whole encrypted web trembled. It was the first bug with a name, a logo and a website, and it showed how much of the internet rested on a project maintained by a handful of volunteers. The Core Infrastructure Initiative followed, along with the lesson that critical software also needs funding."
+  }
+}

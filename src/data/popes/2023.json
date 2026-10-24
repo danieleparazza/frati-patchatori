@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa CitrixBleed I",
+    "encyclical": "\"Sessio Cruenta\". NetScaler ADC e Gateway lasciavano trapelare dalla memoria i token di sessione, e con quelli si entrava saltando password e MFA. LockBit e altri lo sfruttarono contro grandi aziende e banche, e molti scoprirono che aggiornare non bastava: le sessioni già rubate restavano valide finché non venivano chiuse a mano. L'anno insegnò che dopo la patch viene la pulizia, e che il perimetro è diventato il bersaglio."
+  },
+  "en": {
+    "title": "Pope CitrixBleed I",
+    "encyclical": "\"Sessio Cruenta\". NetScaler ADC and Gateway leaked session tokens from memory, and with those you walked in past passwords and MFA. LockBit and others used it against large companies and banks, and many learned that updating was not enough: stolen sessions stayed valid until they were killed by hand. The year taught that patching is followed by cleanup, and that the perimeter itself has become the target."
+  }
+}

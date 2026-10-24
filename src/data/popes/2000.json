@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Unicode I",
+    "encyclical": "\"Per Punctum Punctum Ascendo\". Il nuovo millennio si aprì con un URL: bastava scrivere \"..%c0%af\" e IIS 4 e 5 salivano le scale fino a cmd.exe. Un singolo carattere codificato in modo creativo bastò a beffare i controlli sui percorsi, e i worm sadmind/IIS e Nimda ne fecero un'autostrada. L'insegnamento: si normalizza prima, si controlla dopo, e mai il contrario."
+  },
+  "en": {
+    "title": "Pope Unicode I",
+    "encyclical": "\"Per Punctum Punctum Ascendo\". The new millennium opened with a URL: type \"..%c0%af\" and IIS 4 and 5 climbed the stairs all the way to cmd.exe. One creatively encoded character was enough to fool the path checks, and the sadmind/IIS and Nimda worms turned it into a motorway. The lesson: canonicalise first, check second, never the other way round."
+  }
+}

@@ -47,6 +47,8 @@ const month = String(new Date().getMonth() + 1).padStart(2, '0');
         <a href={url(`${lang}/`)}>{s.today}</a>
         <a href={url(`${lang}/${s.monthSlug}/${month}`)} data-current-month>{s.month}</a>
         <a href={url(`${lang}/${s.searchSlug}`)}>{s.search}</a>
+        <a href={url(`${lang}/${s.popesSlug}`)}>{s.popes}</a>
+        <a href={url(`${lang}/${s.bestiarySlug}`)}>{s.bestiary}</a>
         <a href={url(`${lang}/${s.infoSlug}`)}>{s.info}</a>
         <a class="lang" href={url(alt ?? `${other}/`)} hreflang={other}>{other.toUpperCase()}</a>
       </nav>

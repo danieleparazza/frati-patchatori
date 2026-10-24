@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa CitrixBleed II",
+    "encyclical": "\"Historia Se Repetit\". Appena due anni dopo il predecessore, NetScaler tornò a leggere oltre i confini della memoria e a restituire dati che dovevano restare segreti, sessioni comprese. Fu sfruttato in fretta e la CISA impose alle agenzie federali tempi di correzione strettissimi; ancora una volta, dopo la patch bisognava chiudere tutte le sessioni attive. La dinastia insegna che i bug hanno figli, e che le lezioni non imparate tornano con un numero romano."
+  },
+  "en": {
+    "title": "Pope CitrixBleed II",
+    "encyclical": "\"Historia Se Repetit\". Barely two years after his predecessor, NetScaler once again read past the edge of its memory and handed back data meant to stay secret, sessions included. It was exploited quickly and CISA gave federal agencies an unusually tight deadline to fix it; once again, after patching you had to kill every active session. The dynasty teaches that bugs have children, and that lessons not learned come back with a Roman numeral."
+  }
+}

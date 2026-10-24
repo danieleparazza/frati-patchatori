@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Slammer I",
+    "encyclical": "\"Unum Pacchettum Sufficit\". David Litchfield trovò in SQL Server un overflow raggiungibile con un solo pacchetto UDP sulla porta 1434, e Microsoft lo corresse nel luglio 2002. Sei mesi dopo, nel gennaio 2003, SQL Slammer ci entrò con 376 byte e raddoppiò ogni 8,5 secondi, fermando bancomat e pezzi di internet. L'enciclica ricorda che i mesi tra la patch e l'installazione sono il vero giardino dei worm."
+  },
+  "en": {
+    "title": "Pope Slammer I",
+    "encyclical": "\"Unum Pacchettum Sufficit\". David Litchfield found an overflow in SQL Server reachable with a single UDP packet to port 1434, and Microsoft fixed it in July 2002. Six months later, in January 2003, SQL Slammer walked in with 376 bytes and doubled every 8.5 seconds, knocking out ATMs and chunks of the internet. The encyclical reminds us that the months between patch and install are the worms' true garden."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Xzorcist I",
+    "encyclical": "\"Quingenti Millesimi\". Per due anni un contributore paziente conquistò la fiducia del maintainer stanco di xz, poi nascose una backdoor per sshd nei tarball di rilascio. La notò Andres Freund, per un login SSH più lento di circa mezzo secondo, prima che finisse nelle distribuzioni stabili. L'anno insegnò che la catena di fornitura open source poggia su persone, spesso sole, e che la curiosità di un ingegnere vale più di molti strumenti."
+  },
+  "en": {
+    "title": "Pope Xzorcist I",
+    "encyclical": "\"Quingenti Millesimi\". For two years a patient contributor won the trust of xz's overworked maintainer, then hid an sshd backdoor in the release tarballs. Andres Freund spotted it, because SSH logins had become about half a second slower, before it reached stable distributions. The year taught that the open source supply chain rests on people, often alone, and that one engineer's curiosity is worth more than many tools."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "MDAC RDS",
+  "motto": "DATA FACTORIA APERTA",
+  "niche": [
+    "#1f2a3a",
+    "#3e5470"
+  ],
+  "accent": "#2c3e50",
+  "emblem": "<ellipse cx=\"150\" cy=\"140\" rx=\"46\" ry=\"14\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M104 140 V220 A46 14 0 0 0 196 220 V140\" fill=\"#8a9aa8\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M104 168 A46 14 0 0 0 196 168 M104 196 A46 14 0 0 0 196 196\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"150\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#fbf3dd\">&gt;_</text>"
+}

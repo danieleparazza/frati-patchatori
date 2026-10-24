@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Kaminsky I",
+    "encyclical": "\"Nomen Venenatum\". Dan Kaminsky scoprì che avvelenare la cache di quasi ogni resolver DNS era diventato banale, e invece di parlarne subito radunò in segreto i produttori. L'8 luglio 2008 uscirono insieme le patch di BIND, Microsoft, Cisco e molti altri, con la randomizzazione delle porte sorgente. Fu la più grande correzione coordinata vista fino ad allora, e il modello di divulgazione responsabile per gli anni a venire."
+  },
+  "en": {
+    "title": "Pope Kaminsky I",
+    "encyclical": "\"Nomen Venenatum\". Dan Kaminsky found that poisoning the cache of nearly every DNS resolver had become trivial, and instead of talking right away he quietly gathered the vendors. On 8 July 2008 BIND, Microsoft, Cisco and many others shipped patches together, adding source-port randomisation. It was the largest coordinated fix seen up to then, and the model for responsible disclosure in the years to come."
+  }
+}

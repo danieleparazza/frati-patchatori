@@ -1,5 +1,7 @@
-// iCalendar feed of the "Ricorrenze": movable feasts and observances (one recurring event each).
+// iCalendar feed of the "Ricorrenze": movable feasts and observances, plus the yearly
+// commemorations of scourges and miracles.
 import { FEASTS, firstOccurrence } from '../../../lib/feasts';
+import { allEvents, eventText } from '../../../lib/extras';
 import { LANGS, absolute, t, type Lang } from '../../../lib/i18n';
 import { escapeIcs, foldIcs } from '../../../lib/ics';
 
@@ -38,6 +40,26 @@ export function GET({ params }: { params: { lang: Lang } }) {
       `RRULE:${f.rrule}`,
       `SUMMARY:${escapeIcs(text.name)}`,
       `DESCRIPTION:${escapeIcs(`${text.text}\n${text.proverb}\n${absolute(`${lang}/`)}`)}`,
+      'TRANSP:TRANSPARENT',
+      'END:VEVENT',
+    );
+  }
+  for (const e of allEvents()) {
+    const [y, m, d] = e.date.split('-').map(Number);
+    const start = new Date(2024, m - 1, d);
+    const text = eventText(e, lang);
+    const slug = e.type === 'miracolo' ? s.miracleSlug : s.scourgeSlug;
+    const page = absolute(`${lang}/${slug}/${e.id}`);
+    lines.push(
+      'BEGIN:VEVENT',
+      `UID:event-${e.id}-${lang}@frati-patchatori`,
+      `DTSTAMP:${stamp}`,
+      `DTSTART;VALUE=DATE:${ymd(start)}`,
+      `DTEND;VALUE=DATE:${ymd(new Date(2024, m - 1, d + 1))}`,
+      'RRULE:FREQ=YEARLY',
+      `SUMMARY:${escapeIcs(`${e.type === 'miracolo' ? '☀' : e.tone === 'lutto' ? '✝' : '⚔'} ${text?.title ?? e.name} (${y})`)}`,
+      `DESCRIPTION:${escapeIcs(`${text?.chronicle ?? text?.prodigy ?? e.summary}\n${page}`)}`,
+      `URL:${page}`,
       'TRANSP:TRANSPARENT',
       'END:VEVENT',
     );

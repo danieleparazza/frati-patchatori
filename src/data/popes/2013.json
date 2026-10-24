@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Dual_EC I",
+    "encyclical": "\"Curva Cum Ianua\". Già nel 2007 Shumow e Ferguson avevano avvertito che le costanti del generatore Dual_EC_DRBG potevano nascondere una chiave segreta; nel 2013 i documenti di Snowden confermarono i sospetti. Il generatore, standard NIST e default di RSA BSAFE, fu abbandonato e poi ritirato. Fu l'anno in cui la comunità imparò a chiedere da dove vengono le costanti, e che una backdoor \"solo per i buoni\" non esiste."
+  },
+  "en": {
+    "title": "Pope Dual_EC I",
+    "encyclical": "\"Curva Cum Ianua\". As early as 2007 Shumow and Ferguson had warned that the constants of the Dual_EC_DRBG generator could hide a secret key; in 2013 the Snowden documents confirmed the suspicion. The generator, a NIST standard and the RSA BSAFE default, was abandoned and then withdrawn. It was the year the community learned to ask where constants come from, and that a backdoor \"for the good guys only\" does not exist."
+  }
+}

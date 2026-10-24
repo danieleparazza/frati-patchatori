@@ -1,0 +1,151 @@
+---
+// Chronotaxis: the Pope of every year since 1999, the decade Popes and the Antipopes.
+import Base from '../layouts/Base.astro';
+import { allPopes, popeText } from '../lib/extras';
+import { saintPath, t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+const popes = allPopes();
+const years = popes.filter((p) => p.kind === 'year');
+const decades = popes.filter((p) => p.kind === 'decade');
+const antipopes = popes.filter((p) => p.kind === 'anti');
+const thisYear = new Date().getFullYear();
+const lastYear = Number(years.at(-1)!.key);
+const vacantYears = Array.from({ length: thisYear - lastYear }, (_, i) => lastYear + 1 + i);
+const popeUrl = (key: string) => url(`${lang}/${s.popeSlug}/${key}`);
+const title = (p: (typeof popes)[number]) => popeText(p.key, lang)?.title ?? `${p.kind === 'anti' ? s.antipope : s.pope} ${p.vuln.name}`;
+---
+
+<Base lang={lang} title={s.chronotaxis} alt={`${other}/${t(other).popesSlug}`}>
+  <h1>{s.chronotaxis}</h1>
+
+  <section class="decades">
+    <h2>{s.decadesTitle}</h2>
+    <ul>
+      {
+        decades.map((p) => (
+          <li>
+            <span class="when">{s.popeOfDecade(p.label)}</span>
+            <a href={popeUrl(p.key)}>{title(p)}</a>
+          </li>
+        ))
+      }
+      <li class="vacant">
+        <span class="when">{s.popeOfDecade('2020s')}</span>
+        <em>{s.vacantSee}</em>
+      </li>
+    </ul>
+  </section>
+
+  <ol class="years">
+    {
+      [...vacantYears].reverse().map((y) => (
+        <li class="vacant">
+          <span class="year">{y}</span>
+          <span>
+            <em>{s.vacantSee}</em> · {s.vacantSeeText}
+          </span>
+        </li>
+      ))
+    }
+    {
+      [...years].reverse().map((p) => (
+        <li>
+          <span class="year">{p.key}</span>
+          <span>
+            <a href={popeUrl(p.key)}>{title(p)}</a>
+            {p.cardinals.length > 0 && (
+              <span class="cardinals">
+                {' · '}
+                {s.cardinals}:{' '}
+                {p.cardinals.map((c, i) => (
+                  <>
+                    {i > 0 && ', '}
+                    {typeof c === 'string' ? c : <a href={url(saintPath(lang, c.id))}>{c.name}</a>}
+                  </>
+                ))}
+              </span>
+            )}
+          </span>
+        </li>
+      ))
+    }
+  </ol>
+
+  <section class="card antipopes">
+    <h2>{s.antipopes}</h2>
+    <ul>
+      {
+        antipopes.map((p) => (
+          <li>
+            <a href={popeUrl(p.key)}>{title(p)}</a> <span class="cardinals">({p.vuln.date.slice(0, 4)})</span>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Base>
+
+<style>
+  h1 {
+    font-variant: small-caps;
+    color: var(--red);
+  }
+  h2 {
+    font-variant: small-caps;
+    color: var(--gold);
+    font-size: 1.2rem;
+    margin: 0 0 8px;
+  }
+  .decades ul,
+  .antipopes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .decades li {
+    padding: 6px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    align-items: baseline;
+    font-size: 1.15rem;
+  }
+  .when {
+    font-variant: small-caps;
+    color: var(--muted);
+    min-width: 14ch;
+  }
+  .years {
+    list-style: none;
+    padding: 0;
+    margin: 28px 0;
+  }
+  .years li {
+    display: grid;
+    grid-template-columns: 4.5ch 1fr;
+    gap: 16px;
+    padding: 7px 0;
+    border-bottom: 1px dotted var(--line);
+  }
+  .year {
+    font-weight: 700;
+    color: var(--red);
+  }
+  .vacant em {
+    color: var(--muted);
+  }
+  .cardinals {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .antipopes li {
+    padding: 4px 0;
+  }
+</style>

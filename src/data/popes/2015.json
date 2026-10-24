@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Stagefright I",
+    "encyclical": "\"Nuntius Sine Tactu\". Joshua Drake di Zimperium mostrò che un MMS ben confezionato poteva eseguire codice nella libreria multimediale di Android senza che l'utente toccasse nulla, su circa 950 milioni di telefoni. Il problema vero era che quei telefoni non ricevevano aggiornamenti: da allora Google, Samsung e LG promisero bollettini di sicurezza mensili. L'anno insegnò che una patch che non arriva al dispositivo non esiste."
+  },
+  "en": {
+    "title": "Pope Stagefright I",
+    "encyclical": "\"Nuntius Sine Tactu\". Joshua Drake of Zimperium showed that a crafted MMS could run code in Android's media library without the user touching anything, on around 950 million phones. The real problem was that those phones never got updates: from then on Google, Samsung and LG promised monthly security bulletins. The year taught that a patch which never reaches the device does not exist."
+  }
+}

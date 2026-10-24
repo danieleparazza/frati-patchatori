@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa BlueKeep I",
+    "encyclical": "\"Turris Caerulea\". Un bug in Remote Desktop, sfruttabile senza credenziali e capace di propagarsi da solo, spinse Microsoft a correggere persino Windows XP e Server 2003, ormai fuori supporto. Tutti aspettavano un nuovo WannaCry; arrivarono invece, a novembre, campagne di cryptomining. Lezione: l'allarme serve proprio quando la catastrofe non arriva, e RDP non va esposto su internet."
+  },
+  "en": {
+    "title": "Pope BlueKeep I",
+    "encyclical": "\"Turris Caerulea\". A Remote Desktop bug, exploitable without credentials and able to spread on its own, pushed Microsoft to patch even Windows XP and Server 2003, long out of support. Everyone expected a new WannaCry; what came, in November, was cryptomining. Lesson: the alarm works best precisely when the disaster never arrives, and RDP does not belong on the internet."
+  }
+}

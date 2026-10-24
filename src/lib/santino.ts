@@ -8,15 +8,23 @@ export function escapeXml(s: string) {
   return s.replace(/[<>&"']/g, (c) => `&${{ '<': 'lt', '>': 'gt', '&': 'amp', '"': 'quot', "'": 'apos' }[c]};`);
 }
 
-const ACCENTS = { santo: '#9e1b1b', beato: '#2f5d8a', padre: '#5b3a7a' } as const;
+const ACCENTS = {
+  santo: '#9e1b1b',
+  beato: '#2f5d8a',
+  padre: '#5b3a7a',
+  flagello: '#4a4a4a',
+  miracolo: '#b8892b',
+  demone: '#7a1f1f',
+  papa: '#9e1b1b',
+} as const;
 
 /** Provisional holy card drawn from a template: halo, initial, name ribbon. */
-export function provisionalSantino(v: Vuln) {
-  const accent = ACCENTS[v.category];
-  const initial = [...v.name.replace(/[^\p{L}\p{N}]/gu, '')][0]?.toUpperCase() ?? '?';
-  const name = v.name.length > 22 ? `${v.name.slice(0, 21)}…` : v.name;
-  const halo = `halo-${v.id}`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" role="img" aria-label="${escapeXml(v.name)}">
+export function placeholderCard(key: string, label: string, kind: keyof typeof ACCENTS, subtitle: string) {
+  const accent = ACCENTS[kind];
+  const initial = [...label.replace(/[^\p{L}\p{N}]/gu, '')][0]?.toUpperCase() ?? '?';
+  const name = label.length > 22 ? `${label.slice(0, 21)}…` : label;
+  const halo = `halo-${key}`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" role="img" aria-label="${escapeXml(label)}">
   <defs><radialGradient id="${halo}"><stop offset="55%" stop-color="#f5d77a" stop-opacity="0.9"/><stop offset="100%" stop-color="#f5d77a" stop-opacity="0"/></radialGradient></defs>
   <rect width="300" height="450" rx="14" fill="#fbf3dd"/>
   <rect x="10" y="10" width="280" height="430" rx="10" fill="none" stroke="#b8892b" stroke-width="4"/>
@@ -26,8 +34,18 @@ export function provisionalSantino(v: Vuln) {
   <text x="150" y="200" text-anchor="middle" font-family="${SANTINO_FONT}" font-size="90" fill="${accent}">${escapeXml(initial)}</text>
   <path d="M30 340 h240 l-14 22 l14 22 h-240 l14 -22 z" fill="${accent}"/>
   <text x="150" y="369" text-anchor="middle" font-family="${SANTINO_FONT}" font-size="20" fill="#fbf3dd">${escapeXml(name)}</text>
-  <text x="150" y="412" text-anchor="middle" font-family="${SANTINO_FONT}" font-size="14" fill="#7a6656">${escapeXml(v.cves[0] ?? v.date.slice(0, 4))}</text>
+  <text x="150" y="412" text-anchor="middle" font-family="${SANTINO_FONT}" font-size="14" fill="#7a6656">${escapeXml(subtitle)}</text>
 </svg>`;
+}
+
+export function provisionalSantino(v: Vuln) {
+  return placeholderCard(v.id, v.name, v.category, v.cves[0] ?? v.date.slice(0, 4));
+}
+
+/** Card by key (f-<id>, m-<id>, d-<id>, papa-<key>): the generated one if present, otherwise a placeholder. */
+export function card(key: string, label: string, kind: keyof typeof ACCENTS, subtitle: string) {
+  const svg = santinoSvg(key);
+  return { svg: svg ?? placeholderCard(key, label, kind, subtitle), generated: !!svg };
 }
 
 /** Empty holy card for days without a patron ("sede vacante"). */

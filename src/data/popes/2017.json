@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa EternalBlue I",
+    "encyclical": "\"Caerulea Aeterna\". Un exploit per SMBv1 sviluppato da un'agenzia di intelligence fu pubblicato dagli Shadow Brokers il 14 aprile 2017, un mese dopo la patch MS17-010. A maggio WannaCry e a giugno NotPetya lo usarono per paralizzare ospedali, porti e multinazionali. L'anno insegnò che le armi informatiche prima o poi sfuggono di mano, e che un protocollo di trent'anni prima va spento, non solo aggiornato."
+  },
+  "en": {
+    "title": "Pope EternalBlue I",
+    "encyclical": "\"Caerulea Aeterna\". An SMBv1 exploit built by an intelligence agency was dumped by the Shadow Brokers on 14 April 2017, a month after the MS17-010 patch. In May WannaCry and in June NotPetya used it to cripple hospitals, ports and multinationals. The year taught that cyber-weapons eventually escape their owners, and that a thirty-year-old protocol should be switched off, not just patched."
+  }
+}

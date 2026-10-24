@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Stagefright",
+  "motto": "NUNTIUS SINE TACTU",
+  "niche": [
+    "#1a2a1f",
+    "#2e5a3e"
+  ],
+  "accent": "#225a3a",
+  "emblem": "<rect x=\"118\" y=\"124\" width=\"64\" height=\"118\" rx=\"10\" fill=\"#2b1d14\" stroke=\"#bfc9d1\" stroke-width=\"3\"/><rect x=\"124\" y=\"136\" width=\"52\" height=\"88\" fill=\"#3e5470\"/><circle cx=\"150\" cy=\"234\" r=\"4\" fill=\"#bfc9d1\"/><path d=\"M134 158 H166 V182 C166 196 158 202 150 202 C142 202 134 196 134 182 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"143\" cy=\"172\" r=\"3\" fill=\"#2b1d14\"/><circle cx=\"157\" cy=\"172\" r=\"3\" fill=\"#2b1d14\"/><path d=\"M142 192 Q150 184 158 192\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"150\" y=\"152\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">MMS</text>"
+}

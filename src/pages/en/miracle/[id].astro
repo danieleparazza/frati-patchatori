@@ -1,0 +1,12 @@
+---
+import EventPage from '../../../components/EventPage.astro';
+import { allEvents } from '../../../lib/extras';
+
+export function getStaticPaths() {
+  return allEvents()
+    .filter((e) => e.type === 'miracolo')
+    .map((e) => ({ params: { id: e.id }, props: { event: e } }));
+}
+---
+
+<EventPage lang="en" event={Astro.props.event} />

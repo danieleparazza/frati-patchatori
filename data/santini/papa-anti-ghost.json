@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "GHOST",
+  "motto": "SPIRITUS QUI NON TERRUIT",
+  "niche": [
+    "#14141c",
+    "#2a2a36"
+  ],
+  "accent": "#3a3346",
+  "emblem": "<path d=\"M124 236 V188 A26 26 0 0 1 176 188 V236 L167 228 L158 236 L150 228 L142 236 L133 228 Z\" fill=\"#fbf3dd\" opacity=\"0.85\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"141\" cy=\"190\" r=\"4\" fill=\"#2b1d14\"/><circle cx=\"159\" cy=\"190\" r=\"4\" fill=\"#2b1d14\"/><ellipse cx=\"150\" cy=\"208\" rx=\"4\" ry=\"5\" fill=\"#2b1d14\"/><path d=\"M110 132 H190 V160 H160 L150 172 L140 160 H110 Z\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><text x=\"150\" y=\"152\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#bfc9d1\">boo?</text>"
+}

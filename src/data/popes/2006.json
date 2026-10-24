@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Netapi I",
+    "encyclical": "\"Servitium Servorum\". Il servizio Server di Windows accettava da chiunque, anche anonimo, un messaggio RPC capace di eseguire codice, e i bot Mocbot e IRCbot non persero tempo. MS06-040 è il diretto antenato di MS08-067 e di Conficker: stesso servizio, stessa famiglia di errori nella canonicalizzazione dei percorsi. L'anno insegnò che un bug corretto spesso lascia fratelli in giro, e che il codice di rete esposto merita una revisione più severa degli altri."
+  },
+  "en": {
+    "title": "Pope Netapi I",
+    "encyclical": "\"Servitium Servorum\". The Windows Server service accepted, from anyone and even anonymously, an RPC message able to run code, and the Mocbot and IRCbot families wasted no time. MS06-040 is the direct ancestor of MS08-067 and Conficker: same service, same family of path-canonicalisation mistakes. The year taught that a fixed bug often leaves siblings behind, and that exposed network code deserves stricter review than the rest."
+  }
+}

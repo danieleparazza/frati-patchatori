@@ -1,0 +1,61 @@
+---
+// A holy card (any kind) with a caption under it.
+interface Props {
+  svg: string;
+  /** Downloadable image URL, if any. */
+  download?: string;
+  downloadName?: string;
+  downloadLabel?: string;
+}
+
+const { svg, download, downloadName, downloadLabel } = Astro.props;
+---
+
+<div class="cardcol">
+  <figure class="santino">
+    <Fragment set:html={svg} />
+    <figcaption><slot /></figcaption>
+  </figure>
+  {
+    download && (
+      <a class="download" href={download} download={downloadName}>
+        ⬇ {downloadLabel}
+      </a>
+    )
+  }
+</div>
+
+<style>
+  .cardcol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 260px;
+  }
+  .santino {
+    margin: 0;
+    width: 100%;
+  }
+  .santino :global(svg) {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 4px 10px rgb(0 0 0 / 0.18));
+  }
+  figcaption {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 8px;
+  }
+  .download {
+    font-size: 0.85rem;
+    text-decoration: none;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 4px 12px;
+    background: var(--paper);
+  }
+</style>

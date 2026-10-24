@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "BlueKeep",
+  "motto": "TURRIS CAERULEA",
+  "niche": [
+    "#0f1f3a",
+    "#1c3a6e"
+  ],
+  "accent": "#1a3a6b",
+  "emblem": "<path d=\"M120 236 V156 H128 V144 H140 V156 H146 V144 H154 V156 H160 V144 H172 V156 H180 V236 Z\" fill=\"#2980b9\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M140 236 V206 A10 10 0 0 1 160 206 V236 Z\" fill=\"#2b1d14\"/><rect x=\"144\" y=\"170\" width=\"12\" height=\"18\" rx=\"6\" fill=\"#fbf3dd\"/><text x=\"150\" y=\"136\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">RDP 3389</text>"
+}

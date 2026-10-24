@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa BEAST I",
+    "encyclical": "\"Crustulum Raptum\". Thai Duong e Juliano Rizzo trasformarono una debolezza teorica dei vettori di inizializzazione CBC, nota da anni, in un furto reale di cookie HTTPS, mostrato dal vivo a Ekoparty. I browser risposero con lo split dei record 1/n-1 e il mondo cominciò, finalmente, a spostarsi verso TLS 1.1 e 1.2. Lezione: un attacco \"solo teorico\" è un attacco che nessuno ha ancora scritto."
+  },
+  "en": {
+    "title": "Pope BEAST I",
+    "encyclical": "\"Crustulum Raptum\". Thai Duong and Juliano Rizzo turned a years-old theoretical weakness in CBC initialisation vectors into live HTTPS cookie theft, demonstrated on stage at Ekoparty. Browsers answered with 1/n-1 record splitting, and the world finally began moving to TLS 1.1 and 1.2. Lesson: a \"purely theoretical\" attack is just an attack nobody has written yet."
+  }
+}

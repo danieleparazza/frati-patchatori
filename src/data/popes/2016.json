@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Dirty COW I",
+    "encyclical": "\"Vacca Sordida Scribit\". Una race condition nel copy-on-write del kernel Linux, presente dal 2007, permetteva a qualunque utente locale di scrivere su file di sola lettura e diventare root. La scoprì Phil Oester analizzando un attacco reale, e servì per anni anche a fare il root dei telefoni Android. Lezione: i bug di concorrenza si nascondono a lungo, e \"solo locale\" su un server condiviso significa \"quasi remoto\"."
+  },
+  "en": {
+    "title": "Pope Dirty COW I",
+    "encyclical": "\"Vacca Sordida Scribit\". A race condition in the Linux kernel's copy-on-write, present since 2007, let any local user write to read-only files and become root. Phil Oester found it while analysing a real attack, and for years it also served to root Android phones. Lesson: concurrency bugs hide for a long time, and \"local only\" on a shared server means \"nearly remote\"."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Meltdown I",
+    "encyclical": "\"Speculatio Liquefacta\". Il 3 gennaio 2018 si scoprì che l'esecuzione speculativa dei processori, il trucco che li rendeva veloci da vent'anni, lasciava leggere la memoria del kernel da un normale programma. Sistemi operativi e cloud si riscrissero in fretta con il KPTI, pagando in prestazioni. Fu l'anno in cui la sicurezza scese fin dentro il silicio, e si capì che anche l'hardware ha bisogno di patch."
+  },
+  "en": {
+    "title": "Pope Meltdown I",
+    "encyclical": "\"Speculatio Liquefacta\". On 3 January 2018 the world learned that speculative execution, the trick that had made processors fast for twenty years, let an ordinary program read kernel memory. Operating systems and clouds rewrote themselves in a hurry with KPTI, paying in performance. It was the year security went all the way down into the silicon, and we learned that hardware needs patches too."
+  }
+}

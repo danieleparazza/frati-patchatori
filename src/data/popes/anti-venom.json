@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Antipapa VENOM",
+    "encyclical": "\"Disculus Mollis\". Nel maggio 2015 un difetto nel controller del floppy virtuale di QEMU, usato da Xen e KVM, fu presentato con logo e campagna stampa e paragonato a Heartbleed. Permetteva davvero di uscire da una macchina virtuale, ma richiedeva già privilegi di root nel guest, e non si videro attacchi reali. Il bug era serio per i provider cloud, che lo corressero rapidamente; il paragone con Heartbleed, invece, non resse. Resta la lezione più utile: i dispositivi emulati che nessuno usa vanno tolti, floppy compresi."
+  },
+  "en": {
+    "title": "Antipope VENOM",
+    "encyclical": "\"Disculus Mollis\". In May 2015 a flaw in QEMU's virtual floppy controller, used by Xen and KVM, was launched with a logo and a press campaign and compared to Heartbleed. It really did allow escaping a virtual machine, but it required root inside the guest first, and no real attacks were seen. The bug mattered to cloud providers, who patched it quickly; the Heartbleed comparison did not hold up. The most useful lesson remains: emulated devices nobody uses should be removed, floppies included."
+  }
+}

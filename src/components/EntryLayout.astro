@@ -1,0 +1,66 @@
+---
+// Two-column layout shared by event, demon and pope pages: card on the left, texts on the right.
+interface Props {
+  tone?: 'normale' | 'sobrio' | 'lutto';
+}
+
+const { tone = 'normale' } = Astro.props;
+---
+
+<article class:list={['entry', `tone-${tone}`]}>
+  <slot name="card" />
+  <div class="body">
+    <slot />
+  </div>
+</article>
+
+<style>
+  .entry {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+  @media (max-width: 640px) {
+    .entry {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }
+  .body {
+    min-width: 0;
+  }
+  .body :global(h1) {
+    margin: 0 0 8px;
+    color: var(--red);
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  .tone-lutto .body :global(h1) {
+    color: var(--ink);
+  }
+  .body :global(h3) {
+    margin: 16px 0 4px;
+    font-variant: small-caps;
+    color: var(--gold);
+    font-size: 1rem;
+  }
+  .tone-lutto .body :global(h3) {
+    color: var(--muted);
+  }
+  .body :global(p) {
+    margin: 0;
+  }
+  .body :global(.prayer) {
+    font-style: italic;
+  }
+  .body :global(.kicker) {
+    font-variant: small-caps;
+    color: var(--muted);
+    margin: 0 0 4px;
+  }
+  .body :global(.pending) {
+    color: var(--muted);
+    font-style: italic;
+  }
+</style>

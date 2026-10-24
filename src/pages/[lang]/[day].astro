@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import SaintProfile from '../../components/SaintProfile.astro';
+import Commemorations from '../../components/Commemorations.astro';
 import FeastBand from '../../components/FeastBand.astro';
 import ViewNav from '../../components/ViewNav.astro';
 import { DAYS, day, dayLabel, neighbours, saint, saintTitle } from '../../lib/calendar';
@@ -54,6 +55,8 @@ const image = `og/${lang}/${mmdd}.png`;
       </article>
     )
   }
+
+  <Commemorations lang={lang} mmdd={mmdd} />
 
   {
     others.length > 0 && (

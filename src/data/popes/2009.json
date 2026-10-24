@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Rinegoziazione I",
+    "encyclical": "\"Pactum Renovatum\". Marsh Ray scoprì che la rinegoziazione di TLS permetteva a un attaccante in mezzo di incollare i propri dati all'inizio della sessione di un altro, e il difetto era nel protocollo stesso, quindi in tutte le implementazioni insieme. Per correggerlo servì cambiare lo standard, con la RFC 5746. L'anno aprì la lunga stagione degli attacchi a TLS e insegnò che anche le specifiche hanno bisogno di patch."
+  },
+  "en": {
+    "title": "Pope Renegotiation I",
+    "encyclical": "\"Pactum Renovatum\". Marsh Ray found that TLS renegotiation let a man in the middle splice his own data onto the start of someone else's session, and since the flaw lay in the protocol itself, every implementation was hit at once. Fixing it meant changing the standard, with RFC 5746. The year opened the long season of attacks on TLS and taught that specifications need patches too."
+  }
+}

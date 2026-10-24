@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Badlock",
+  "motto": "EXPECTATIO MAGNA",
+  "niche": [
+    "#14141c",
+    "#2a2a36"
+  ],
+  "accent": "#3a3346",
+  "emblem": "<path d=\"M150 124 C178 124 190 146 186 168 C182 190 166 200 156 204 L150 210 L144 204 C134 200 118 190 114 168 C110 146 122 124 150 124 Z\" fill=\"#c0392b\" opacity=\"0.55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M150 210 C146 224 160 232 152 246\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\"/><rect x=\"136\" y=\"160\" width=\"28\" height=\"22\" rx=\"3\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M141 160 V152 A9 9 0 0 1 159 152 V160\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\"/><g stroke=\"#d9ad55\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M192 142 l10 -6 M194 156 l12 0 M108 142 l-10 -6\"/></g><text x=\"186\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#bfc9d1\">ssss...</text>"
+}

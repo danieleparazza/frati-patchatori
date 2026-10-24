@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Antipapa AMDFlaws",
+    "encyclical": "\"Tredecim Clamores\". Nel marzo 2018 tredici vulnerabilità \"critiche\" nei processori AMD furono annunciate con un sito curatissimo e appena 24 ore di preavviso al produttore. AMD le confermò e le corresse, ma tutte richiedevano di avere già i privilegi di amministratore, e a quel punto la partita è in buona parte persa. Il preavviso brevissimo e la grancassa fecero più rumore dei difetti, e perfino Linus Torvalds espresse dubbi pubblici. L'enciclica insegna che la gravità si misura sul prerequisito, non sull'aggettivo."
+  },
+  "en": {
+    "title": "Antipope AMDFlaws",
+    "encyclical": "\"Tredecim Clamores\". In March 2018 thirteen \"critical\" flaws in AMD processors were announced with a polished website and only 24 hours' notice to the vendor. AMD confirmed and fixed them, but every one required admin privileges first, and by then the game is largely lost already. The very short notice and the fanfare made more noise than the flaws, and even Linus Torvalds voiced public doubts. The encyclical teaches that severity is measured by the prerequisite, not the adjective."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa WMF I",
+    "encyclical": "\"Imago Quae Mordet\". A fine dicembre 2005 si scoprì che bastava guardare un'immagine WMF per far eseguire codice a Windows, grazie a una funzione SetAbortProc nata in tempi più ingenui. Era già sfruttata in rete, e Microsoft rilasciò il 5 gennaio 2006 una delle sue prime patch fuori ciclo, mentre Ilfak Guilfanov aveva già distribuito una correzione non ufficiale. Lezione: i formati antichi portano con sé poteri antichi, e lo zero-day non aspetta il martedì."
+  },
+  "en": {
+    "title": "Pope WMF I",
+    "encyclical": "\"Imago Quae Mordet\". In late December 2005 it emerged that merely viewing a WMF image could make Windows run code, thanks to a SetAbortProc feature born in more innocent times. It was already being exploited, and Microsoft released one of its first out-of-band patches on 5 January 2006, while Ilfak Guilfanov had already handed out an unofficial fix. Lesson: ancient formats carry ancient powers, and a zero-day does not wait for Tuesday."
+  }
+}

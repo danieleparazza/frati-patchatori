@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa EternalBlue, Pontefice degli anni Dieci",
+    "encyclical": "\"Arma Elapsa\". Il decennio si aprì con Stuxnet e si riempì di bug con nome e logo come Heartbleed, ma il suo papa è EternalBlue, perché li riassume tutti: un exploit di stato, trafugato e pubblicato, divenne in poche settimane WannaCry e NotPetya, con danni stimati in miliardi. Mostrò che accumulare vulnerabilità segrete mette a rischio tutti, compresi ospedali e porti. E insegnò che i protocolli vecchi vanno spenti prima che qualcuno li spenga per te."
+  },
+  "en": {
+    "title": "Pope EternalBlue, Pontiff of the 2010s",
+    "encyclical": "\"Arma Elapsa\". The decade opened with Stuxnet and filled up with named, logo-wearing bugs like Heartbleed, but its pope is EternalBlue because it sums them all up: a state exploit, stolen and published, became WannaCry and NotPetya within weeks, with damage estimated in the billions. It showed that stockpiling secret vulnerabilities puts everyone at risk, hospitals and ports included. And it taught that old protocols must be switched off before someone switches them off for you."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "CitrixBleed",
+  "motto": "SESSIO CRUENTA",
+  "niche": [
+    "#3a1018",
+    "#6e1c2a"
+  ],
+  "accent": "#8a1b2b",
+  "emblem": "<circle cx=\"150\" cy=\"168\" r=\"40\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"168\" r=\"30\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"150\" y=\"174\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#2b1d14\">TOKEN</text><path d=\"M150 212.6 C159.9 225.8 159.9 236.8 150 236.8 C140.1 236.8 140.1 225.8 150 212.6 Z\" fill=\"#c0392b\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"188\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">MFA</text><line x1=\"172\" y1=\"216\" x2=\"204\" y2=\"216\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>"
+}

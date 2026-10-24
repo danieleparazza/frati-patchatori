@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "MS06-040",
+  "motto": "SERVITIUM SERVORUM",
+  "niche": [
+    "#1a1f3a",
+    "#2e3a6e"
+  ],
+  "accent": "#2a3570",
+  "emblem": "<rect x=\"112\" y=\"128\" width=\"76\" height=\"98\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"120\" y=\"138\" width=\"60\" height=\"14\" rx=\"2\" fill=\"#3e5470\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"145\" r=\"3\" fill=\"#2ecc71\"/><rect x=\"120\" y=\"160\" width=\"60\" height=\"14\" rx=\"2\" fill=\"#3e5470\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"167\" r=\"3\" fill=\"#2ecc71\"/><rect x=\"120\" y=\"182\" width=\"60\" height=\"14\" rx=\"2\" fill=\"#3e5470\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"189\" r=\"3\" fill=\"#2ecc71\"/><rect x=\"120\" y=\"204\" width=\"60\" height=\"14\" rx=\"2\" fill=\"#3e5470\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"211\" r=\"3\" fill=\"#2ecc71\"/><text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#fbf3dd\">\\\\..\\..\\</text>"
+}

@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Zerologon",
+  "motto": "CLAVIS EX NIHILO",
+  "niche": [
+    "#1a1a1a",
+    "#3a3a4a"
+  ],
+  "accent": "#33334a",
+  "emblem": "<circle cx=\"120\" cy=\"182\" r=\"20\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"8\"/><rect x=\"138\" y=\"178\" width=\"66\" height=\"8\" fill=\"#d9ad55\"/><rect x=\"188\" y=\"186\" width=\"8\" height=\"16\" fill=\"#d9ad55\"/><rect x=\"172\" y=\"186\" width=\"8\" height=\"10\" fill=\"#d9ad55\"/><text x=\"150\" y=\"156\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\">00000000</text><text x=\"150\" y=\"230\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#bfc9d1\">1 / 256</text>"
+}

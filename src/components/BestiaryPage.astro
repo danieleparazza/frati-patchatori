@@ -1,0 +1,171 @@
+---
+// The Bestiary: demons by circle, then the other categories (scourges, miracles, Fathers, blesseds,
+// minor saints), all on one page with an index — no tabs.
+import Base from '../layouts/Base.astro';
+import { allVulns, saintTitle } from '../lib/calendar';
+import { CIRCLES, allEvents, demonText, demonsByCircle, eventText } from '../lib/extras';
+import { saintPath, t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+const events = allEvents();
+const scourges = events.filter((e) => e.type === 'flagello');
+const miracles = events.filter((e) => e.type === 'miracolo');
+const vulns = allVulns();
+const fathers = vulns.filter((v) => v.category === 'padre').sort((a, b) => a.date.localeCompare(b.date));
+const blessed = vulns.filter((v) => v.category === 'beato').slice(0, 40); // already sorted by fame
+const minor = vulns.filter((v) => v.kind === 'minor').sort((a, b) => a.day.localeCompare(b.day));
+const sections = [
+  ...CIRCLES.map((c) => ({ id: c, title: s.circles[c] })),
+  { id: 'scourges', title: s.scourges },
+  { id: 'miracles', title: s.miracles },
+  { id: 'fathers', title: s.fathers },
+  { id: 'blessed', title: s.blessed },
+  { id: 'minor', title: s.minorSaints },
+];
+const evUrl = (e: (typeof events)[number]) => url(`${lang}/${e.type === 'miracolo' ? s.miracleSlug : s.scourgeSlug}/${e.id}`);
+---
+
+<Base lang={lang} title={s.bestiary} alt={`${other}/${t(other).bestiarySlug}`}>
+  <h1>{s.bestiary}</h1>
+  <p class="intro">{s.bestiaryIntro}</p>
+  <nav class="index">
+    {sections.map((x) => <a href={`#${x.id}`}>{x.title}</a>)}
+  </nav>
+
+  <h2 class="part">{s.demons}</h2>
+  {
+    CIRCLES.map((c) => (
+      <section id={c}>
+        <h3>{s.circles[c]}</h3>
+        <ul class="grid">
+          {demonsByCircle(c).map((d) => (
+            <li>
+              <a href={url(`${lang}/${s.demonSlug}/${d.id}`)}>{demonText(d, lang)?.title ?? d.name}</a>
+              <span class="meta">
+                {d.firstSeen.year} · {s.statuses[d.status]}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+
+  <section id="scourges">
+    <h2 class="part">{s.scourges}</h2>
+    <ul class="grid">
+      {
+        scourges.map((e) => (
+          <li class:list={[`tone-${e.tone}`]}>
+            <a href={evUrl(e)}>{eventText(e, lang)?.title ?? e.name}</a>
+            <span class="meta">
+              {e.date.slice(0, 4)}
+              {e.noCulprit && ` · ${s.calamity}`}
+            </span>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section id="miracles">
+    <h2 class="part">{s.miracles}</h2>
+    <ul class="grid">
+      {
+        miracles.map((e) => (
+          <li>
+            <a href={evUrl(e)}>{eventText(e, lang)?.title ?? e.name}</a>
+            <span class="meta">{e.date.slice(0, 4)}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  {
+    [
+      { id: 'fathers', title: s.fathers, items: fathers },
+      { id: 'blessed', title: s.blessed, items: blessed, more: `${url(`${lang}/${s.searchSlug}`)}` },
+      { id: 'minor', title: s.minorSaints, items: minor },
+    ].map((g) => (
+      <section id={g.id}>
+        <h2 class="part">{g.title}</h2>
+        <ul class="grid">
+          {g.items.map((v) => (
+            <li>
+              <a href={url(saintPath(lang, v.id))}>{saintTitle(v, lang)}</a>
+              <span class="meta">{v.date.slice(0, 4)}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+</Base>
+
+<style>
+  h1 {
+    font-variant: small-caps;
+    color: var(--red);
+    margin-bottom: 4px;
+  }
+  .intro {
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0;
+  }
+  .index {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    font-size: 0.9rem;
+    padding: 10px 0 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .part {
+    font-variant: small-caps;
+    color: var(--red);
+    margin: 32px 0 8px;
+  }
+  h3 {
+    font-variant: small-caps;
+    color: var(--gold);
+    margin: 20px 0 6px;
+  }
+  .grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2px 24px;
+  }
+  .grid li {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: baseline;
+    padding: 4px 0;
+    border-bottom: 1px dotted var(--line);
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 0.8rem;
+    flex: none;
+  }
+  .tone-lutto a {
+    color: var(--ink);
+  }
+  .tone-lutto a::before {
+    content: '✝ ';
+  }
+  section {
+    scroll-margin-top: 16px;
+  }
+</style>

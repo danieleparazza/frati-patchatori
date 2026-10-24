@@ -1,0 +1,10 @@
+---
+import DemonPage from '../../../components/DemonPage.astro';
+import { allDemons } from '../../../lib/extras';
+
+export function getStaticPaths() {
+  return allDemons().map((d) => ({ params: { id: d.id }, props: { demon: d } }));
+}
+---
+
+<DemonPage lang="it" demon={Astro.props.demon} />

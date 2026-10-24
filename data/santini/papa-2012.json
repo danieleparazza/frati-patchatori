@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Flame",
+  "motto": "COLLISIO QUINTA",
+  "niche": [
+    "#3a1a10",
+    "#7a3218"
+  ],
+  "accent": "#8a2e12",
+  "emblem": "<rect x=\"108\" y=\"170\" width=\"84\" height=\"56\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M118 186 H182 M118 198 H170 M118 210 H160\" stroke=\"#7a6656\" stroke-width=\"2\"/><circle cx=\"178\" cy=\"218\" r=\"12\" fill=\"#9e1b1b\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"178\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">MD5</text><path d=\"M150 168 C186 142 166 126 152 112 C154 132 140 132 138 124 C120 146 130 158 126 168 Z\" fill=\"#e67e22\"/><path d=\"M150 168 C164 154 160 144 152 136 C152 148 144 150 144 146 C140 156 144 162 142 168 Z\" fill=\"#f1c40f\"/>"
+}

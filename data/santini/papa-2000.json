@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "IIS Unicode",
+  "motto": "PUNCTUM PUNCTUM SLASH",
+  "niche": [
+    "#2a1f3a",
+    "#4e3a6e"
+  ],
+  "accent": "#4a2f6b",
+  "emblem": "<path d=\"M100 238 H130 V212 H160 V186 H190 V160 H206\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"150\" y=\"146\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"24\" fill=\"#fbf3dd\">..%c0%af</text><text x=\"178\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#bfc9d1\">cmd.exe</text>"
+}

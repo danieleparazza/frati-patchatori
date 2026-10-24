@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Code Red",
+  "motto": "RUBRUM ET VERMIS",
+  "niche": [
+    "#3a1010",
+    "#7a2020"
+  ],
+  "accent": "#9e1b1b",
+  "emblem": "<rect x=\"122\" y=\"128\" width=\"56\" height=\"112\" rx=\"10\" fill=\"#c0392b\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"126\" y=\"122\" width=\"48\" height=\"10\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"126\" y=\"236\" width=\"48\" height=\"8\" rx=\"3\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"150\" y=\"190\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#fbf3dd\" transform=\"rotate(-90 150 184)\">CODE RED</text><path d=\"M196 150 q8 6 0 12 q-8 6 0 12 q8 6 0 12\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+}

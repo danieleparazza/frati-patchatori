@@ -1,0 +1,71 @@
+---
+// "Commemorated today": scourges and miracles that happened on this day, in any year.
+import { eventText, eventsOn } from '../lib/extras';
+import { t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  mmdd: string;
+}
+
+const { lang, mmdd } = Astro.props;
+const s = t(lang);
+const events = eventsOn(mmdd);
+---
+
+{
+  events.length > 0 && (
+    <section class="commemorations">
+      <h3>{s.commemorated}</h3>
+      <ul>
+        {events.map((e) => (
+          <li class:list={[`tone-${e.tone}`, e.type]}>
+            <span class="kind">{e.type === 'miracolo' ? `☀ ${s.miracle}` : e.tone === 'lutto' ? `✝ ${s.scourge}` : `⚔ ${s.scourge}`}</span>
+            <a href={url(`${lang}/${e.type === 'miracolo' ? s.miracleSlug : s.scourgeSlug}/${e.id}`)}>{eventText(e, lang)?.title ?? e.name}</a>
+            <span class="year">{e.date.slice(0, 4)}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .commemorations {
+    margin-top: 32px;
+  }
+  h3 {
+    margin: 0 0 8px;
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+    align-items: baseline;
+    padding: 6px 0;
+    border-bottom: 1px dotted var(--line);
+  }
+  .kind {
+    font-variant: small-caps;
+    font-size: 0.8rem;
+    color: var(--muted);
+    min-width: 9ch;
+  }
+  .miracolo .kind {
+    color: var(--gold);
+  }
+  .tone-lutto a {
+    color: var(--ink);
+  }
+  .year {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>

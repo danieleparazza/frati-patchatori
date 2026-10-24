@@ -44,16 +44,24 @@ const config = { ...listConfig(s, lang, url('')), rankings: s.rankings, yearsLab
   const norm = (x: string) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
   // Each category: which entries qualify, how they sort, and what score to show.
+  const isSaint = (v: IndexEntry) => ['santo', 'beato', 'padre'].includes(v.k);
+  const byYear = (a: IndexEntry, b: IndexEntry) => a.y.localeCompare(b.y);
   const CATEGORIES: Record<string, Category> = {
-    famous: { filter: () => true, sort: byFame, score: (v) => `★ ${v.f.toFixed(1)}` },
+    famous: { filter: isSaint, sort: byFame, score: (v) => `★ ${v.f.toFixed(1)}` },
     dangerous: { filter: (v) => v.v != null, sort: (a, b) => b.v! - a.v! || byFame(a, b), score: (v) => `CVSS ${v.v!.toFixed(1)}` },
     exploited: {
-      filter: (v) => v.x,
+      filter: (v) => !!v.x,
       sort: (a, b) => Number(b.r) - Number(a.r) || (b.v ?? 0) - (a.v ?? 0) || byFame(a, b),
       score: (v) => (v.r ? 'KEV · ransomware' : 'KEV'),
     },
     longest: { filter: (v) => v.l != null, sort: (a, b) => b.l! - a.l! || byFame(a, b), score: (v) => cfg.yearsLabel.replace('N', String(v.l)) },
-    absurd: { filter: (v) => v.a, sort: byFame, score: () => '' },
+    absurd: { filter: (v) => !!v.a, sort: byFame, score: () => '' },
+    fathers: { filter: (v) => v.k === 'padre', sort: byYear, score: () => '' },
+    blessed: { filter: (v) => v.k === 'beato', sort: byFame, score: () => '' },
+    minor: { filter: (v) => !!v.m, sort: (a, b) => (a.d ?? '').localeCompare(b.d ?? ''), score: () => '' },
+    scourges: { filter: (v) => v.k === 'flagello', sort: byYear, score: () => '' },
+    miracles: { filter: (v) => v.k === 'miracolo', sort: byYear, score: () => '' },
+    demons: { filter: (v) => v.k === 'demone', sort: byYear, score: () => '' },
   };
 
   const params = new URLSearchParams(location.search);
@@ -74,8 +82,8 @@ const config = { ...listConfig(s, lang, url('')), rankings: s.rankings, yearsLab
     if (!byText && !cat) return;
     let hits = index;
     if (cat) hits = hits.filter(cat.filter);
-    if (byText) hits = hits.filter((v) => norm([v.n, ...v.c, v.p].join(' ')).includes(term));
-    hits = [...hits].sort(cat ? cat.sort : (a, b) => Number(b.s) - Number(a.s) || byFame(a, b)).slice(0, cat ? 100 : 50);
+    if (byText) hits = hits.filter((v) => norm(`${v.n} ${v.q}`).includes(term));
+    hits = [...hits].sort(cat ? cat.sort : (a, b) => Number(!!b.s) - Number(!!a.s) || byFame(a, b)).slice(0, cat ? 100 : 50);
     empty.hidden = hits.length > 0;
     hits.forEach((v) => results.append(saintListItem(cfg, v, cat?.score(v))));
 
@@ -93,7 +101,7 @@ const config = { ...listConfig(s, lang, url('')), rankings: s.rankings, yearsLab
       render();
     }),
   );
-  loadIndex(cfg.base).then((data) => {
+  loadIndex(cfg.base, cfg.lang).then((data) => {
     index = data;
     render();
   });

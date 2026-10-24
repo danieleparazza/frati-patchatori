@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Papa Log4Shell I",
+    "encyclical": "\"Truncus Loquax\". Il 9 dicembre 2021 una stringa ${jndi:...} scritta in una chat di Minecraft rivelò che Log4j, sepolto in migliaia di prodotti Java, eseguiva ciò che doveva solo registrare. Il problema non era correggere la libreria, ma scoprire dove fosse, e il Natale dei sistemisti divenne una caccia ai JAR. Da quell'anno la SBOM, l'inventario del software, smise di essere burocrazia."
+  },
+  "en": {
+    "title": "Pope Log4Shell I",
+    "encyclical": "\"Truncus Loquax\". On 9 December 2021 a ${jndi:...} string typed in a Minecraft chat revealed that Log4j, buried in thousands of Java products, executed what it was only meant to record. The hard part was not fixing the library but finding it, and sysadmins spent Christmas hunting JARs. From that year on, the SBOM, the software bill of materials, stopped being paperwork."
+  }
+}

@@ -1,0 +1,10 @@
+---
+import PopePage from '../../../components/PopePage.astro';
+import { allPopes } from '../../../lib/extras';
+
+export function getStaticPaths() {
+  return allPopes().map((p) => ({ params: { key: p.key }, props: { pope: p } }));
+}
+---
+
+<PopePage lang="it" pope={Astro.props.pope} />

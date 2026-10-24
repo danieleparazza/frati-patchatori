@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Follina",
+  "motto": "DOCUMENTUM DIAGNOSTICUM",
+  "niche": [
+    "#10203a",
+    "#1c3e7a"
+  ],
+  "accent": "#1f3f7a",
+  "emblem": "<path d=\"M114 126 H170 L188 144 V238 H114 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M170 126 V144 H188\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"122\" y=\"140\" width=\"28\" height=\"28\" fill=\"#2b5797\"/><text x=\"136\" y=\"162\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#fbf3dd\">W</text><path d=\"M124 182 H178 M124 194 H172 M124 206 H176\" stroke=\"#7a6656\" stroke-width=\"2\"/><text x=\"151\" y=\"230\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#9e1b1b\">ms-msdt:</text>"
+}

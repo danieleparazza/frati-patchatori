@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "EFAIL",
+  "motto": "NOLITE TIMERE PGP",
+  "niche": [
+    "#14141c",
+    "#2a2a36"
+  ],
+  "accent": "#3a3346",
+  "emblem": "<rect x=\"108\" y=\"168\" width=\"84\" height=\"56\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M108 168 L150 200 L192 168\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"140\" y=\"202\" width=\"20\" height=\"16\" rx=\"2\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M144 202 V196 A6 6 0 0 1 156 196 V202\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/><path d=\"M136 158 C136 134 164 134 164 158 L168 162 H132 Z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"166\" r=\"3\" fill=\"#bfc9d1\"/><text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#bfc9d1\">&lt;html&gt;</text>"
+}

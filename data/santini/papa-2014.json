@@ -1,0 +1,11 @@
+{
+  "frame": "papa",
+  "label": "Heartbleed",
+  "motto": "HEARTBEAT SANGUINIS",
+  "niche": [
+    "#3a1018",
+    "#7a1c2a"
+  ],
+  "accent": "#9e1b2b",
+  "emblem": "<path d=\"M150 214 C112 188 104 164 116 148 C128 132 146 138 150 152 C154 138 172 132 184 148 C196 164 188 188 150 214 Z\" fill=\"#c0392b\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M150 152 V132 M142 138 L150 128 L158 138\" stroke=\"#d9ad55\" stroke-width=\"3\" fill=\"none\"/><path d=\"M140 220.8 C147.2 230.4 147.2 238.4 140 238.4 C132.8 238.4 132.8 230.4 140 220.8 Z\" fill=\"#c0392b\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M162 233.6 C167.4 240.8 167.4 246.8 162 246.8 C156.6 246.8 156.6 240.8 162 233.6 Z\" fill=\"#c0392b\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"150\" y=\"182\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">64 KB</text>"
+}

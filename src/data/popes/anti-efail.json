@@ -1,0 +1,10 @@
+{
+  "it": {
+    "title": "Antipapa EFAIL",
+    "encyclical": "\"Nolite Timere PGP\". Nel maggio 2018 i ricercatori mostrarono come estrarre il testo di email cifrate OpenPGP e S/MIME sfruttando il modo in cui i client di posta gestivano l'HTML, e l'EFF consigliò di disattivare subito i plugin PGP. Molti esperti giudicarono l'allarme sproporzionato: il difetto stava soprattutto nei client, alcuni dei quali, come Enigmail, erano già protetti da tempo. La ricerca era solida e utile; fu il consiglio di spegnere tutto a superarla. L'enciclica raccomanda di correggere i client e lasciare accesa la cifratura."
+  },
+  "en": {
+    "title": "Antipope EFAIL",
+    "encyclical": "\"Nolite Timere PGP\". In May 2018 researchers showed how to extract the plaintext of OpenPGP and S/MIME encrypted email by abusing how mail clients handled HTML, and the EFF advised disabling PGP plugins at once. Many experts found the alarm disproportionate: the flaw lay mostly in the clients, some of which, like Enigmail, had long been protected. The research was solid and useful; it was the advice to switch everything off that outran it. The encyclical recommends fixing the clients and keeping encryption on."
+  }
+}
