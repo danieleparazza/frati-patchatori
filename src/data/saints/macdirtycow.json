@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San MacDirtyCow, cugina della mucca sporca",
+    "patronage": "dei file di sistema protetti, delle pagine di memoria condivise e di chi personalizza iPhone senza jailbreak.",
+    "hagiography": "La CVE-2022-46689, trovata da Ian Beer di Google Project Zero, è una condizione di gara nel kernel di Apple, parente della Dirty COW di Linux. Apple la corresse a fine 2022 in iOS 15.7.2 e 16.2 e nelle versioni corrispondenti di macOS; nel marzo 2023 l'exploit era ben noto. Permetteva a un processo senza privilegi di scrivere, per un istante, in pagine di memoria di sola lettura condivise, e fu usata per modificare file di sistema su iPhone senza jailbreak.",
+    "prayer": "O San MacDirtyCow, che scrivi un attimo dove è vietato, insegna al kernel a non condividere ciò che deve restare immutabile. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 15.7.2 o 16.2 e alle corrispondenti versioni di macOS, in memoria di chi si cambiava i font senza chiedere.",
+    "proverb": "Mucca sporca, pagina scritta di nascosto."
+  },
+  "en": {
+    "title": "Saint MacDirtyCow, Cousin of the Dirty Cow",
+    "patronage": "protected system files, shared memory pages, and those who customise iPhones without a jailbreak.",
+    "hagiography": "CVE-2022-46689, found by Ian Beer of Google Project Zero, is a race condition in Apple's kernel, a relative of Linux's Dirty COW. Apple fixed it in late 2022 in iOS 15.7.2 and 16.2 and the matching macOS releases; by March 2023 the exploit was well known. It let an unprivileged process write, for an instant, into shared read-only memory pages, and it was used to alter system files on iPhones without a jailbreak.",
+    "prayer": "O Saint MacDirtyCow, who writes for an instant where it is forbidden, teach the kernel not to share what must stay unchanged. Amen.",
+    "feast": "Celebrated by updating to iOS 15.7.2 or 16.2 and the matching macOS releases, in memory of those who changed their fonts without asking.",
+    "proverb": "Dirty cow, a page written on the sly."
+  }
+}

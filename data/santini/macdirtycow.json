@@ -1,0 +1,10 @@
+{
+  "label": "MacDirtyCow",
+  "motto": "VACCA SORDIDA MALI",
+  "niche": [
+    "#2a2016",
+    "#50402a"
+  ],
+  "accent": "#3f331f",
+  "emblem": "<ellipse cx=\"150\" cy=\"196\" rx=\"44\" ry=\"34\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#2b1d14\"><ellipse cx=\"128\" cy=\"184\" rx=\"9\" ry=\"12\"/><ellipse cx=\"170\" cy=\"200\" rx=\"11\" ry=\"9\"/><ellipse cx=\"150\" cy=\"214\" rx=\"8\" ry=\"7\"/></g>\n<path d=\"M128 170 C120 150 134 142 142 156\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M172 170 C180 150 166 142 158 156\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"150\" cy=\"222\" rx=\"18\" ry=\"12\" fill=\"#e8a0a8\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<g fill=\"#2b1d14\"><circle cx=\"144\" cy=\"222\" r=\"2\"/><circle cx=\"156\" cy=\"222\" r=\"2\"/></g>\n<g fill=\"#2b1d14\"><ellipse cx=\"136\" cy=\"176\" rx=\"4\" ry=\"3\"/><ellipse cx=\"164\" cy=\"176\" rx=\"4\" ry=\"3\"/></g>\n<path d=\"M186 150 q10 6 6 18\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">RO</text>"
+}

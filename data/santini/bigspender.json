@@ -6,5 +6,5 @@
     "#564620"
   ],
   "accent": "#403418",
-  "emblem": "<circle cx=\"150\" cy=\"180\" r=\"42\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"46\" font-weight=\"bold\" fill=\"#2b1d14\">₿</text>\n<path d=\"M190 150 a14 14 0 0 1 0 60\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-dasharray=\"4 4\"/>\n<path d=\"M190 208 l-6 -6 m6 6 l6 -6\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">RBF</text>"
+  "emblem": "<circle cx=\"150\" cy=\"180\" r=\"42\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"46\" font-weight=\"bold\" fill=\"#2b1d14\">BTC</text>\n<path d=\"M190 150 a14 14 0 0 1 0 60\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-dasharray=\"4 4\"/>\n<path d=\"M190 208 l-6 -6 m6 6 l6 -6\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">RBF</text>"
 }

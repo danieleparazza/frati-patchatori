@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Quattro Byte, potente nel poco",
+    "patronage": "dei socket delle macchine virtuali, delle condizioni di gara nel kernel e di chi ottiene molto da una scrittura minima.",
+    "hagiography": "Il 9 febbraio 2021 Alexander Popov descrisse la CVE-2021-26708: alcune condizioni di gara nel codice AF_VSOCK del kernel Linux, introdotte quando si aggiunse il supporto a più trasporti per i socket delle macchine virtuali. Sfruttandole, un utente locale otteneva una scrittura controllata di appena quattro byte in memoria; Popov la trasformò, passo dopo passo, in privilegi di amministratore su Fedora 33. Il difetto fu corretto nel kernel 5.10.13.",
+    "prayer": "O San Quattro Byte, che fai grandi cose con una scrittura piccola, insegna al kernel a chiudere ogni gara prima che inizi. Amen.",
+    "feast": "Si festeggia aggiornando il kernel Linux alla 5.10.13 o successiva e disabilitando i moduli di rete che non servono.",
+    "proverb": "Quattro byte al posto giusto valgono una chiave."
+  },
+  "en": {
+    "title": "Saint Four Bytes, Mighty in the Little",
+    "patronage": "virtual-machine sockets, kernel race conditions, and those who get a lot from a tiny write.",
+    "hagiography": "On 9 February 2021 Alexander Popov described CVE-2021-26708: several race conditions in the Linux kernel's AF_VSOCK code, introduced when multi-transport support was added for virtual-machine sockets. Using them, a local user got a controlled write of just four bytes in memory; Popov turned it, step by step, into administrator privileges on Fedora 33. The flaw was fixed in kernel 5.10.13.",
+    "prayer": "O Saint Four Bytes, who does great things with a small write, teach the kernel to close every race before it begins. Amen.",
+    "feast": "Celebrated by updating the Linux kernel to 5.10.13 or later and disabling the network modules you don't need.",
+    "proverb": "Four bytes in the right place are worth a key."
+  }
+}

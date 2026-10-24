@@ -19,7 +19,7 @@
 <circle cx="179" cy="164" r="2.5" fill="#2b1d14"/>
 <path d="M120 190 Q108 196 118 202" fill="#fbf3dd" stroke="#2b1d14" stroke-width="1.5"/>
 <path d="M168 154 l6 -14 m-6 14 l-4 -12" stroke="#c0392b" stroke-width="2" fill="none"/>
-<text x="176" y="140" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="14" fill="#c0392b">◎</text></g>
+<text x="176" y="140" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="14" fill="#c0392b">o</text></g>
 
 
 <path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#1e3344"/>

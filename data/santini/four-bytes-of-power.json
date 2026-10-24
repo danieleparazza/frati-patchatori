@@ -1,0 +1,10 @@
+{
+  "label": "Four Bytes",
+  "motto": "QUATTUOR BYTE, REGNUM",
+  "niche": [
+    "#1f2b1a",
+    "#3c5230"
+  ],
+  "accent": "#2c3f22",
+  "emblem": "<g fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"><rect x=\"104\" y=\"150\" width=\"23\" height=\"22\" rx=\"2\"/><rect x=\"129\" y=\"150\" width=\"23\" height=\"22\" rx=\"2\"/><rect x=\"154\" y=\"150\" width=\"23\" height=\"22\" rx=\"2\"/><rect x=\"179\" y=\"150\" width=\"23\" height=\"22\" rx=\"2\"/></g>\n<text x=\"115\" y=\"166\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">00</text>\n<text x=\"140\" y=\"166\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">41</text>\n<text x=\"165\" y=\"166\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#c0392b\">FF</text>\n<text x=\"190\" y=\"166\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">00</text>\n<rect x=\"120\" y=\"200\" width=\"60\" height=\"42\" rx=\"4\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M130 200 V190 A20 20 0 0 1 170 190 V200\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"6\"/>\n<circle cx=\"150\" cy=\"218\" r=\"5\" fill=\"#2b1d14\"/><rect x=\"147\" y=\"220\" width=\"6\" height=\"12\" fill=\"#2b1d14\"/>\n<path d=\"M165 182 l3 7 l8 1 l-6 5 l2 8 l-7 -4 l-7 4 l2 -8 l-6 -5 l8 -1 z\" fill=\"#f1c40f\"/>"
+}

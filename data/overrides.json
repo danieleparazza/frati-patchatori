@@ -16,7 +16,9 @@
     "05-16": "zombieload",
     "05-20": "logjam",
     "05-21": "badsuccessor",
-    "06-09": "smbleed"
+    "06-09": "smbleed",
+    "11-01": "blue-box-2600hz",
+    "11-20": "land-attack"
   },
   "dates": {
     "shattered": "2017-02-23",
@@ -111,6 +113,10 @@
     ],
     "bitskrieg": [
       "CVE-2026-50507"
+    ],
+    "sad-dns": [
+      "CVE-2025-24934",
+      "CVE-2025-24935"
     ]
   },
   "addCves": {

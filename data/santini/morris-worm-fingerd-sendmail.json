@@ -6,6 +6,6 @@
     "#3a3a3a"
   ],
   "accent": "#2a2a2a",
-  "frame": "papa",
+  "frame": "santo",
   "emblem": "<path d=\"M110 232 q-4 -26 14 -34 q-16 -6 -6 -24 q14 8 20 2 q-10 -16 6 -26 q6 14 16 14 q-6 -18 12 -22 q0 16 10 20\" fill=\"none\" stroke=\"#9aca8a\" stroke-width=\"12\" stroke-linecap=\"round\"/>\n<circle cx=\"190\" cy=\"138\" r=\"13\" fill=\"#2b3a28\" stroke=\"#9aca8a\" stroke-width=\"3\"/>\n<circle cx=\"186\" cy=\"135\" r=\"3\" fill=\"#fbf3dd\"/><circle cx=\"194\" cy=\"135\" r=\"3\" fill=\"#fbf3dd\"/>\n<g fill=\"#6b8a5a\"><circle cx=\"122\" cy=\"214\" r=\"5\"/><circle cx=\"134\" cy=\"188\" r=\"5\"/><circle cx=\"130\" cy=\"160\" r=\"5\"/></g>"
 }

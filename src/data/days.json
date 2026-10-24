@@ -2327,9 +2327,9 @@
   ]
  },
  "11-01": {
-  "patron": "risk-station",
+  "patron": "blue-box-2600hz",
   "others": [
-   "blue-box-2600hz",
+   "risk-station",
    "bleedingbit",
    "braktooth",
    "oobpci",
@@ -2462,9 +2462,9 @@
   ]
  },
  "11-20": {
-  "patron": "doubledirect",
+  "patron": "land-attack",
   "others": [
-   "land-attack",
+   "doubledirect",
    "ghost-tap"
   ]
  },

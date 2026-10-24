@@ -17,7 +17,7 @@
 <rect x="138" y="190" width="24" height="10" rx="2" fill="#bfc9d1"/>
 <rect x="138" y="204" width="24" height="10" rx="2" fill="#bfc9d1"/>
 <g fill="none" stroke="#d9ad55" stroke-width="2"><path d="M182 158 Q196 172 182 186"/><path d="M190 150 Q210 172 190 194"/></g>
-<text x="150" y="244" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" fill="#d9ad55">↻</text></g>
+<text x="150" y="244" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" fill="#d9ad55">R</text></g>
 
 
 <path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#2a2e3a"/>
