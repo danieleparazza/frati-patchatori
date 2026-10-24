@@ -1,8 +1,9 @@
 import { allVulns, day } from '../lib/calendar';
 
-// Compact index for client-side search: n=name, c=CVEs, p=product, d=day, y=year, k=category, s=is patron.
+// Compact index for client-side search: i=id, n=name, c=CVEs, p=product, d=day, y=year, k=category, s=is patron.
 export function GET() {
   const index = allVulns().map((v) => ({
+    i: v.id,
     n: v.name,
     c: v.cves,
     p: [v.vendor, v.product].filter(Boolean).join(' '),

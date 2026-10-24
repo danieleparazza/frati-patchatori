@@ -1,7 +1,8 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import ViewNav from '../../../components/ViewNav.astro';
 import { MONTHS, day, monthDays, saintTitle } from '../../../lib/calendar';
-import { LANGS, t, url, type Lang } from '../../../lib/i18n';
+import { LANGS, absolute, t, url, type Lang } from '../../../lib/i18n';
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => MONTHS.map((mm) => ({ params: { lang, section: t(lang).monthSlug, mm } })));
@@ -16,30 +17,63 @@ const prev = MONTHS[(i + 11) % 12];
 const next = MONTHS[(i + 1) % 12];
 const name = s.months[i];
 const rows = monthDays(mm).map((d) => ({ d, ...day(d) }));
+// Weekday alignment for the build year; the inline script re-aligns it for the visitor's year.
+const year = new Date().getFullYear();
+const offset = (new Date(year, i, 1).getDay() + 6) % 7;
+const ics = absolute(`calendar/${lang}.ics`);
+const webcal = ics.replace(/^https:/, 'webcal:');
 ---
 
 <Base lang={lang} title={name} alt={`${other}/${t(other).monthSlug}/${mm}`}>
+  <ViewNav lang={lang} view="month" mmdd={`${mm}-01`} />
   <div class="monthhead">
-    <a href={url(`${lang}/${s.monthSlug}/${prev}`)} aria-label={s.months[(i + 11) % 12]}>‹</a>
-    <h1>{name}</h1>
-    <a href={url(`${lang}/${s.monthSlug}/${next}`)} aria-label={s.months[(i + 1) % 12]}>›</a>
+    <a href={url(`${lang}/${s.monthSlug}/${prev}`)} aria-label={s.prevMonth} rel="prev">‹</a>
+    <h1>{name} <span class="yr" data-year>{year}</span></h1>
+    <a href={url(`${lang}/${s.monthSlug}/${next}`)} aria-label={s.nextMonth} rel="next">›</a>
   </div>
-  <ol class="lunario card">
+  <div class="cal" data-month={i}>
+    {s.weekdaysShort.map((w) => <div class="wd">{w}</div>)}
     {
-      rows.map(({ d, patron, others }) => (
-        <li data-day={d}>
+      rows.map(({ d, patron, others }, n) => (
+        <a
+          class:list={['cell', { vacant: !patron, sunday: (offset + n) % 7 === 6 }]}
+          href={url(`${lang}/${d}`)}
+          data-day={d}
+          style={n === 0 ? `grid-column-start: ${offset + 1}` : undefined}
+        >
           <span class="num">{Number(d.slice(3))}</span>
-          <a href={url(`${lang}/${d}`)}>{patron ? saintTitle(patron, lang) : <em>{s.vacant}</em>}</a>
-          {patron && <span class="year">{patron.date.slice(0, 4)}</span>}
+          <span class="name">{patron ? saintTitle(patron, lang) : s.vacant}</span>
           {others.length > 0 && <span class="more">+{others.length}</span>}
-        </li>
+        </a>
       ))
     }
-  </ol>
+  </div>
+  <section class="subscribe">
+    <span>{s.subscribe}:</span>
+    <a href={`https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcal)}`} target="_blank" rel="noopener noreferrer">{s.subscribeGoogle}</a>
+    <a href={webcal}>{s.subscribeIcs}</a>
+  </section>
+  <p class="hint">{s.keyboardHint}</p>
   <script is:inline>
-    const now = new Date();
-    const today = String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
-    document.querySelector(`[data-day="${today}"]`)?.classList.add('today');
+    (() => {
+      const cal = document.querySelector('.cal');
+      const month = Number(cal.dataset.month);
+      const now = new Date();
+      const year = Number(new URLSearchParams(location.search).get('y')) || now.getFullYear();
+      document.querySelector('[data-year]').textContent = year;
+      const cells = [...cal.querySelectorAll('.cell')];
+      const offset = (new Date(year, month, 1).getDay() + 6) % 7;
+      cells[0].style.gridColumnStart = offset + 1;
+      const leap = new Date(year, 1, 29).getMonth() === 1;
+      cells.forEach((c, n) => {
+        c.classList.toggle('sunday', (offset + n) % 7 === 6);
+        if (c.dataset.day === '02-29') c.hidden = !leap;
+      });
+      const pad = (n) => String(n).padStart(2, '0');
+      if (year === now.getFullYear()) {
+        cal.querySelector(`[data-day="${pad(now.getMonth() + 1)}-${pad(now.getDate())}"]`)?.classList.add('today');
+      }
+    })();
   </script>
 </Base>
 
@@ -49,60 +83,120 @@ const rows = monthDays(mm).map((d) => ({ d, ...day(d) }));
     align-items: center;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
   .monthhead h1 {
     margin: 0;
     font-size: 2.2rem;
     font-variant: small-caps;
-    min-width: 8ch;
     text-align: center;
+  }
+  .yr {
+    color: var(--muted);
+    font-size: 1.4rem;
   }
   .monthhead a {
     font-size: 2.4rem;
     text-decoration: none;
     line-height: 1;
   }
-  .lunario {
-    list-style: none;
-    margin: 0;
-    padding: 8px 20px;
+  .cal {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 4px;
   }
-  .lunario li {
-    display: flex;
-    gap: 12px;
-    align-items: baseline;
-    padding: 6px 0;
-    border-bottom: 1px dotted var(--line);
+  .wd {
+    text-align: center;
+    font-variant: small-caps;
+    color: var(--gold);
+    font-size: 0.9rem;
   }
-  .lunario li:last-child {
-    border-bottom: 0;
-  }
-  .lunario li:global(.today) {
-    background: color-mix(in srgb, var(--gold) 18%, transparent);
-    margin: 0 -20px;
-    padding: 6px 20px;
-  }
-  .num {
-    width: 2ch;
-    text-align: right;
-    font-weight: 700;
-    color: var(--red);
-    flex: none;
-  }
-  .lunario a {
+  .cell {
+    position: relative;
+    min-height: 104px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 4px 6px 6px;
     text-decoration: none;
     color: var(--ink);
-    flex: 1;
-    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    overflow: hidden;
   }
-  .lunario a:hover {
+  .cell:hover {
+    border-color: var(--gold);
+  }
+  .cell:global(.today) {
+    border: 2px solid var(--red);
+    background: color-mix(in srgb, var(--gold) 14%, var(--paper));
+  }
+  .num {
+    font-weight: 700;
+    color: var(--ink);
+    font-size: 1.05rem;
+  }
+  .cell:global(.sunday) .num {
     color: var(--red);
   }
-  .year,
-  .more {
+  .name {
+    font-size: 0.78rem;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+  }
+  .vacant .name {
+    font-style: italic;
     color: var(--muted);
-    font-size: 0.8rem;
-    flex: none;
+  }
+  .more {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    font-size: 0.7rem;
+    color: var(--muted);
+  }
+  @media (max-width: 640px) {
+    .cal {
+      gap: 2px;
+    }
+    .cell {
+      min-height: 72px;
+      padding: 2px 3px;
+    }
+    .name {
+      font-size: 0.62rem;
+      -webkit-line-clamp: 3;
+    }
+    .more {
+      display: none;
+    }
+  }
+  .subscribe {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+  .subscribe span {
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  .hint {
+    margin-top: 16px;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+  }
+  @media (hover: none) {
+    .hint {
+      display: none;
+    }
   }
 </style>

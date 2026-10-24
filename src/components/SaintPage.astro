@@ -1,0 +1,53 @@
+---
+// Profile page of any vulnerability in the calendar, patron or not.
+import Base from '../layouts/Base.astro';
+import SaintProfile from './SaintProfile.astro';
+import ViewNav from './ViewNav.astro';
+import { day, dayLabel, saint, saintTitle, type Vuln } from '../lib/calendar';
+import { absolute, saintPath, t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  vuln: Vuln;
+}
+
+const { lang, vuln } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+const title = saintTitle(vuln, lang);
+const label = dayLabel(vuln.day, lang);
+const isPatron = day(vuln.day).patron?.id === vuln.id;
+const image = isPatron ? `og/${lang}/${vuln.day}.png` : undefined;
+---
+
+<Base
+  lang={lang}
+  title={title}
+  description={saint(vuln.id)?.[lang]?.patronage ?? vuln.description ?? undefined}
+  alt={saintPath(other, vuln.id)}
+  image={image}
+>
+  <ViewNav lang={lang} view="day" mmdd={vuln.day} />
+  <p class="feast">
+    {isPatron ? s.patronOf : s.alsoOn} <a href={url(`${lang}/${vuln.day}`)}>{label}</a>
+  </p>
+  <SaintProfile
+    vuln={vuln}
+    lang={lang}
+    shareUrl={absolute(saintPath(lang, vuln.id))}
+    shareText={`${title} · ${label}`}
+    image={image && url(image)}
+    imageName={`${vuln.day}-${vuln.id}.png`}
+    headingLevel="h1"
+  />
+</Base>
+
+<style>
+  .feast {
+    text-align: center;
+    font-variant: small-caps;
+    color: var(--muted);
+    margin: 0 0 24px;
+    font-size: 1.1rem;
+  }
+</style>

@@ -33,6 +33,28 @@ export const strings = {
     aiTextLabel: '🤖 testi generati con AI',
     provisionalSantino: 'Santino provvisorio',
     download: 'Scarica il santino',
+    share: 'Condividi',
+    shareNative: 'Condividi…',
+    copyLink: 'Copia link',
+    copied: 'Copiato!',
+    saintSlug: 'santo',
+    weekSlug: 'settimana',
+    views: 'Viste del calendario',
+    day: 'Giorno',
+    week: 'Settimana',
+    prevWeek: 'Settimana precedente',
+    nextWeek: 'Settimana successiva',
+    prevMonth: 'Mese precedente',
+    nextMonth: 'Mese successivo',
+    weekdaysShort: ['Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab', 'Dom'],
+    weekdays: ['lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì', 'sabato', 'domenica'],
+    patronOf: 'Patrono del',
+    alsoOn: 'Festeggiato il',
+    seeDay: 'Vai al giorno',
+    subscribe: 'Aggiungi al tuo calendario',
+    subscribeGoogle: 'Google Calendar',
+    subscribeIcs: 'Apple, Outlook e altri (.ics)',
+    keyboardHint: 'Scorciatoie: ← → per spostarti, G giorno, S settimana, M mese, T oggi.',
     searchPlaceholder: 'Nome, CVE o prodotto…',
     searchEmpty: 'Nessun santo trovato.',
     patron: 'patrono',
@@ -76,6 +98,28 @@ export const strings = {
     aiTextLabel: '🤖 text generated with AI',
     provisionalSantino: 'Provisional holy card',
     download: 'Download holy card',
+    share: 'Share',
+    shareNative: 'Share…',
+    copyLink: 'Copy link',
+    copied: 'Copied!',
+    saintSlug: 'saint',
+    weekSlug: 'week',
+    views: 'Calendar views',
+    day: 'Day',
+    week: 'Week',
+    prevWeek: 'Previous week',
+    nextWeek: 'Next week',
+    prevMonth: 'Previous month',
+    nextMonth: 'Next month',
+    weekdaysShort: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+    weekdays: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    patronOf: 'Patron of',
+    alsoOn: 'Feast day',
+    seeDay: 'Go to the day',
+    subscribe: 'Add to your calendar',
+    subscribeGoogle: 'Google Calendar',
+    subscribeIcs: 'Apple, Outlook and others (.ics)',
+    keyboardHint: 'Shortcuts: ← → to move, D day, W week, M month, T today.',
     searchPlaceholder: 'Name, CVE or product…',
     searchEmpty: 'No saint found.',
     patron: 'patron',
@@ -92,6 +136,15 @@ export const strings = {
 
 export function t(lang: Lang) {
   return strings[lang];
+}
+
+/** Absolute URL (with domain) for a page or file path, for sharing and feeds. */
+export function absolute(path: string) {
+  return new URL(url(path), import.meta.env.SITE).href;
+}
+
+export function saintPath(lang: Lang, id: string) {
+  return `${lang}/${strings[lang].saintSlug}/${id}`;
 }
 
 /** Site URL for a page or file path. Page paths get a trailing slash, file paths (with an extension) don't. */

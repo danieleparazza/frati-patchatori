@@ -1,0 +1,190 @@
+---
+// Week view, rendered in the browser for the week containing ?d=MM-DD (default today) in ?y= (default this year).
+import Base from '../layouts/Base.astro';
+import ViewNav from './ViewNav.astro';
+import { t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+const today = new Date();
+const mmdd = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+---
+
+<Base lang={lang} title={s.week} alt={`${other}/${t(other).weekSlug}`}>
+  <ViewNav lang={lang} view="week" mmdd={mmdd} />
+  <div class="weekhead">
+    <a href="#" aria-label={s.prevWeek} rel="prev" data-step="-7">‹</a>
+    <h1 data-range>{s.week}</h1>
+    <a href="#" aria-label={s.nextWeek} rel="next" data-step="7">›</a>
+  </div>
+  <ol class="week" data-lang={lang} data-base={url('')} data-vacant={s.vacant}></ol>
+  <p class="hint">{s.keyboardHint}</p>
+</Base>
+
+<script
+  is:inline
+  define:vars={{ months: s.months, weekdays: s.weekdays, monthSlug: s.monthSlug }}
+>
+  (async () => {
+    const list = document.querySelector('.week');
+    const { lang, base, vacant } = list.dataset;
+    const pad = (n) => String(n).padStart(2, '0');
+    const key = (d) => pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+    const params = new URLSearchParams(location.search);
+    const now = new Date();
+    const [m, d] = (params.get('d') || key(now)).split('-').map(Number);
+    const anchor = new Date(Number(params.get('y')) || now.getFullYear(), m - 1, d);
+    const monday = new Date(anchor);
+    monday.setDate(anchor.getDate() - ((anchor.getDay() + 6) % 7));
+    const days = Array.from({ length: 7 }, (_, i) => new Date(monday.getFullYear(), monday.getMonth(), monday.getDate() + i));
+    const label = (x) => (lang === 'it' ? `${x.getDate()} ${months[x.getMonth()]}` : `${months[x.getMonth()]} ${x.getDate()}`);
+    document.querySelector('[data-range]').textContent = `${label(days[0])} – ${label(days[6])} ${days[6].getFullYear()}`;
+    document.querySelectorAll('[data-step]').forEach((a) => {
+      const target = new Date(anchor);
+      target.setDate(anchor.getDate() + Number(a.dataset.step));
+      a.href = `?d=${key(target)}&y=${target.getFullYear()}`;
+    });
+    // Keep the day and month switches pointing at the week being viewed.
+    const nav = document.querySelector('.viewnav');
+    nav.querySelector('[data-key=day]').href = `${base}${lang}/${key(anchor)}/`;
+    nav.querySelector('[data-key=month]').href = `${base}${lang}/${monthSlug}/${pad(anchor.getMonth() + 1)}/`;
+
+    const data = await fetch(`${base}calendar/${lang}.json`).then((r) => r.json());
+    const todayKey = key(now);
+    for (const x of days) {
+      const k = key(x);
+      const saint = data[k];
+      const li = document.createElement('li');
+      li.className = 'wday' + (k === todayKey && x.getFullYear() === now.getFullYear() ? ' today' : '') + (saint ? '' : ' vacant');
+      const a = document.createElement('a');
+      a.href = `${base}${lang}/${k}/`;
+      const head = document.createElement('div');
+      head.className = 'when';
+      head.innerHTML = `<span class="dow"></span><span class="date"></span>`;
+      head.querySelector('.dow').textContent = weekdays[(x.getDay() + 6) % 7];
+      head.querySelector('.date').textContent = label(x);
+      const name = document.createElement('div');
+      name.className = 'name';
+      name.textContent = saint ? saint.t : vacant;
+      a.append(head, name);
+      if (saint?.p) {
+        const p = document.createElement('div');
+        p.className = 'pat';
+        p.textContent = saint.p;
+        a.append(p);
+      }
+      if (saint) {
+        const meta = document.createElement('div');
+        meta.className = 'meta';
+        meta.textContent = saint.y + (saint.x ? ' · KEV' : '') + (saint.o ? ` · +${saint.o}` : '');
+        a.append(meta);
+      }
+      li.append(a);
+      list.append(li);
+    }
+  })();
+</script>
+
+<style>
+  .weekhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+  .weekhead h1 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-variant: small-caps;
+    text-align: center;
+  }
+  .weekhead a {
+    font-size: 2.4rem;
+    text-decoration: none;
+    line-height: 1;
+  }
+  .week {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 8px;
+  }
+  .week :global(.wday a) {
+    display: grid;
+    grid-template-columns: 9rem 1fr;
+    grid-template-areas: 'when name' 'when pat' 'when meta';
+    column-gap: 16px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .week :global(.wday a:hover) {
+    border-color: var(--gold);
+  }
+  .week :global(.today a) {
+    border: 2px solid var(--red);
+  }
+  .week :global(.when) {
+    grid-area: when;
+    display: flex;
+    flex-direction: column;
+  }
+  .week :global(.dow) {
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  .week :global(.date) {
+    font-weight: 700;
+    font-size: 1.15rem;
+  }
+  .week :global(.name) {
+    grid-area: name;
+    color: var(--red);
+    font-size: 1.15rem;
+  }
+  .week :global(.vacant .name) {
+    color: var(--muted);
+    font-style: italic;
+  }
+  .week :global(.pat) {
+    grid-area: pat;
+    font-size: 0.85rem;
+  }
+  .week :global(.meta) {
+    grid-area: meta;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  @media (max-width: 560px) {
+    .week :global(.wday a) {
+      grid-template-columns: 1fr;
+      grid-template-areas: 'when' 'name' 'pat' 'meta';
+    }
+    .week :global(.when) {
+      flex-direction: row;
+      gap: 8px;
+      align-items: baseline;
+    }
+  }
+  .hint {
+    margin-top: 24px;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+  }
+  @media (hover: none) {
+    .hint {
+      display: none;
+    }
+  }
+</style>

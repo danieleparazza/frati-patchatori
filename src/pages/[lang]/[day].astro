@@ -1,8 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Santino from '../../components/Santino.astro';
-import { DAYS, day, dayLabel, formatDate, neighbours, saint, saintTitle, santinoSvg } from '../../lib/calendar';
-import { LANGS, t, url, type Lang } from '../../lib/i18n';
+import SaintProfile from '../../components/SaintProfile.astro';
+import ViewNav from '../../components/ViewNav.astro';
+import { DAYS, day, dayLabel, neighbours, saint, saintTitle } from '../../lib/calendar';
+import { LANGS, absolute, saintPath, t, url, type Lang } from '../../lib/i18n';
 import { vacantSantino } from '../../lib/santino';
 
 export function getStaticPaths() {
@@ -14,15 +15,19 @@ const mmdd = Astro.params.day as string;
 const s = t(lang);
 const { patron, others } = day(mmdd);
 const { prev, next } = neighbours(mmdd);
-const text = patron ? saint(patron.id)?.[lang] : undefined;
 const title = patron ? saintTitle(patron, lang) : s.vacant;
 const label = dayLabel(mmdd, lang);
-const nvd = (cve: string) => `https://nvd.nist.gov/vuln/detail/${cve}`;
-const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
-const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter((l): l is string => !!l))] : [];
+const image = `og/${lang}/${mmdd}.png`;
 ---
 
-<Base lang={lang} title={`${label} · ${title}`} description={text?.patronage ?? patron?.description ?? s.vacantText} alt={`${lang === 'it' ? 'en' : 'it'}/${mmdd}`} image={`og/${lang}/${mmdd}.png`}>
+<Base
+  lang={lang}
+  title={`${label} · ${title}`}
+  description={(patron && saint(patron.id)?.[lang]?.patronage) ?? patron?.description ?? s.vacantText}
+  alt={`${lang === 'it' ? 'en' : 'it'}/${mmdd}`}
+  image={image}
+>
+  <ViewNav lang={lang} view="day" mmdd={mmdd} />
   <div class="dayhead">
     <a href={url(`${lang}/${prev}`)} aria-label={s.prevDay} rel="prev">‹</a>
     <h1>{label}</h1>
@@ -31,35 +36,14 @@ const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter(
 
   {
     patron ? (
-      <article class="saint">
-        <div class="cardcol">
-          <Santino vuln={patron}>
-            {santinoSvg(patron.id) ? s.aiLabel : text ? `${s.provisionalSantino} · ${s.aiTextLabel}` : s.provisionalSantino}
-          </Santino>
-          <a class="download" href={url(`og/${lang}/${mmdd}.png`)} download={`${mmdd}-${patron.id}.png`}>
-            ⬇ {s.download}
-          </a>
-        </div>
-        <div class="body">
-          <h2>{title}</h2>
-          {text ? (
-            <>
-              <p class="patronage">
-                <em>{s.patronage}</em> {text.patronage}
-              </p>
-              <h3>{s.hagiography}</h3>
-              <p>{text.hagiography}</p>
-              <h3>{s.prayer}</h3>
-              <p class="prayer">{text.prayer}</p>
-              <h3>{s.feast}</h3>
-              <p>{text.feast}</p>
-              {text.proverb && <blockquote class="proverb">{text.proverb}</blockquote>}
-            </>
-          ) : (
-            <p class="pending">{s.contentPending}</p>
-          )}
-        </div>
-      </article>
+      <SaintProfile
+        vuln={patron}
+        lang={lang}
+        shareUrl={absolute(`${lang}/${mmdd}`)}
+        shareText={`${label} · ${title}`}
+        image={url(image)}
+        imageName={`${mmdd}-${patron.id}.png`}
+      />
     ) : (
       <article class="card vacant">
         <div class="vacant-card" set:html={vacantSantino(s.vacant)} />
@@ -70,69 +54,16 @@ const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter(
   }
 
   {
-    patron && (
-      <section class="card tech">
-        <h3>{s.technical}</h3>
-        <dl>
-          <dt>{s.disclosed}</dt>
-          <dd>{formatDate(patron.date, lang)}</dd>
-          <dt>CVE</dt>
-          <dd>
-            {patron.cves.length ? (
-              patron.cves.map((c) => (
-                <a class="badge" href={nvd(c)}>
-                  {c}
-                </a>
-              ))
-            ) : (
-              <em>{s.noCve}</em>
-            )}
-          </dd>
-          {patron.cvss != null && (
-            <>
-              <dt>CVSS</dt>
-              <dd>
-                <span class="badge">{patron.cvss.toFixed(1)}</span>
-                {patron.kev && <span class="badge kev">{s.exploited}</span>}
-              </dd>
-            </>
-          )}
-          {patron.product && (
-            <>
-              <dt>{s.product}</dt>
-              <dd>{[patron.vendor, patron.product].filter(Boolean).join(' · ')}</dd>
-            </>
-          )}
-        </dl>
-        {patron.description && <p class="desc">{patron.description}</p>}
-        {sources.length > 0 && (
-          <p class="sources">
-            {s.sources}:{' '}
-            {sources.map((l, i) => (
-              <>
-                {i > 0 && ' · '}
-                <a href={l}>{host(l)}</a>
-              </>
-            ))}
-          </p>
-        )}
-      </section>
-    )
-  }
-
-  {
     others.length > 0 && (
       <section class="others">
         <h3>{s.alsoRemembered}</h3>
         <ul>
           {others.map((o) => (
             <li>
-              <a href={o.canonical ?? (o.cves[0] ? nvd(o.cves[0]) : '#')}>{saintTitle(o, lang)}</a>
+              <a href={url(saintPath(lang, o.id))}>{saintTitle(o, lang)}</a>
               <span class="year">({o.date.slice(0, 4)})</span>
               {o.cves.slice(0, 2).map((c) => (
-                <a class="badge" href={nvd(c)}>
-                  {c}
-                </a>
+                <span class="badge">{c}</span>
               ))}
               {o.kev && <span class="badge kev">KEV</span>}
             </li>
@@ -141,6 +72,7 @@ const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter(
       </section>
     )
   }
+  <p class="hint">{s.keyboardHint}</p>
 </Base>
 
 <style>
@@ -163,98 +95,13 @@ const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter(
     line-height: 1;
     padding: 0 8px;
   }
-  .saint {
-    display: grid;
-    grid-template-columns: 260px 1fr;
-    gap: 32px;
-    align-items: start;
-  }
-  @media (max-width: 640px) {
-    .saint {
-      grid-template-columns: 1fr;
-      justify-items: center;
-    }
-  }
-  .cardcol {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    width: 100%;
-    max-width: 260px;
-  }
-  .download {
-    font-size: 0.85rem;
-    text-decoration: none;
-    border: 1px solid var(--line);
-    border-radius: 6px;
-    padding: 4px 12px;
-    background: var(--paper);
-  }
-  .body h2 {
-    margin: 0 0 8px;
-    color: var(--red);
-    font-size: 1.8rem;
-    line-height: 1.2;
-  }
-  .body h3 {
-    margin: 16px 0 4px;
-    font-variant: small-caps;
-    color: var(--gold);
-    font-size: 1rem;
-  }
-  .body p {
-    margin: 0;
-  }
-  .prayer {
-    font-style: italic;
-  }
-  .proverb {
-    margin: 20px 0 0;
-    padding: 8px 16px;
-    border-left: 3px solid var(--gold);
-    font-style: italic;
-  }
-  .pending {
-    color: var(--muted);
-    font-style: italic;
-  }
-  .tech {
+  .others {
     margin-top: 32px;
   }
-  .tech h3,
   .others h3 {
     margin: 0 0 8px;
     font-variant: small-caps;
     color: var(--gold);
-  }
-  dl {
-    display: grid;
-    grid-template-columns: max-content 1fr;
-    gap: 4px 16px;
-    margin: 0;
-  }
-  dt {
-    color: var(--muted);
-  }
-  dd {
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    align-items: center;
-  }
-  .desc {
-    font-size: 0.9rem;
-    margin: 12px 0 0;
-  }
-  .sources {
-    font-size: 0.85rem;
-    margin: 12px 0 0;
-    overflow-wrap: anywhere;
-  }
-  .others {
-    margin-top: 32px;
   }
   .others ul {
     list-style: none;
@@ -284,5 +131,16 @@ const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter(
     width: 100%;
     height: auto;
     display: block;
+  }
+  .hint {
+    margin-top: 32px;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+  }
+  @media (hover: none) {
+    .hint {
+      display: none;
+    }
   }
 </style>

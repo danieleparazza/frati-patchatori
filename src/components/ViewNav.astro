@@ -1,0 +1,87 @@
+---
+// Day / week / month switcher with a "today" button and keyboard shortcuts:
+// ← → previous/next (follows rel=prev/next links), D/G day, W/S week, M month, T today.
+import { t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  view: 'day' | 'week' | 'month';
+  /** Day the views should open on (MM-DD). */
+  mmdd: string;
+}
+
+const { lang, view, mmdd } = Astro.props;
+const s = t(lang);
+const links = {
+  day: url(`${lang}/${mmdd}`),
+  week: `${url(`${lang}/${s.weekSlug}`)}?d=${mmdd}`,
+  month: `${url(`${lang}/${s.monthSlug}/${mmdd.slice(0, 2)}`)}`,
+};
+---
+
+<nav class="viewnav" aria-label={s.views} data-lang={lang} data-view={view} data-base={url('')} data-week={s.weekSlug} data-month={s.monthSlug}>
+  <a href={links.day} aria-current={view === 'day' ? 'page' : undefined} data-key="day">{s.day}</a>
+  <a href={links.week} aria-current={view === 'week' ? 'page' : undefined} data-key="week">{s.week}</a>
+  <a href={links.month} aria-current={view === 'month' ? 'page' : undefined} data-key="month">{s.month}</a>
+  <button type="button" class="today" title="T">{s.today}</button>
+</nav>
+
+<script is:inline>
+  (() => {
+    const nav = document.querySelector('.viewnav');
+    if (!nav) return;
+    const { lang, view, base, week, month } = nav.dataset;
+    const now = new Date();
+    const pad = (n) => String(n).padStart(2, '0');
+    const today = pad(now.getMonth() + 1) + '-' + pad(now.getDate());
+    const todayUrl = () =>
+      view === 'week'
+        ? base + lang + '/' + week + '/?d=' + today
+        : view === 'month'
+          ? base + lang + '/' + month + '/' + today.slice(0, 2) + '/'
+          : base + lang + '/' + today + '/';
+    nav.querySelector('.today').addEventListener('click', () => (location.href = todayUrl()));
+    const keys = { d: 'day', g: 'day', w: 'week', s: 'week', m: 'month' };
+    document.addEventListener('keydown', (e) => {
+      if (e.metaKey || e.ctrlKey || e.altKey || /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
+      const k = e.key.toLowerCase();
+      if (k === 'arrowleft' || k === 'arrowright') {
+        const link = document.querySelector(k === 'arrowleft' ? 'a[rel=prev]' : 'a[rel=next]');
+        if (link) link.click();
+      } else if (k === 't') location.href = todayUrl();
+      else if (keys[k]) nav.querySelector(`[data-key=${keys[k]}]`).click();
+    });
+  })();
+</script>
+
+<style>
+  .viewnav {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+  }
+  .viewnav a,
+  .viewnav button {
+    font: inherit;
+    font-size: 0.9rem;
+    font-variant: small-caps;
+    padding: 2px 14px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink);
+    text-decoration: none;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .viewnav a[aria-current='page'] {
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--paper);
+  }
+  .viewnav .today {
+    color: var(--red);
+    margin-left: 8px;
+  }
+</style>

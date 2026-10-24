@@ -1,0 +1,10 @@
+---
+import SaintPage from '../../../components/SaintPage.astro';
+import { allVulns } from '../../../lib/calendar';
+
+export function getStaticPaths() {
+  return allVulns().map((v) => ({ params: { id: v.id }, props: { vuln: v } }));
+}
+---
+
+<SaintPage lang="it" vuln={Astro.props.vuln} />

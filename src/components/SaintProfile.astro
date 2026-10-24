@@ -1,0 +1,216 @@
+---
+// A saint's full profile: holy card, texts, share links and technical record.
+// Used by the day page (for the patron) and by the saint page.
+import Santino from './Santino.astro';
+import ShareButtons from './ShareButtons.astro';
+import { formatDate, saint, saintTitle, santinoSvg, type Vuln } from '../lib/calendar';
+import { t, type Lang } from '../lib/i18n';
+
+interface Props {
+  vuln: Vuln;
+  lang: Lang;
+  /** Absolute URL of the page, for sharing. */
+  shareUrl: string;
+  shareText: string;
+  /** Downloadable share image (site URL), if this saint has one. */
+  image?: string;
+  imageName?: string;
+  headingLevel?: 'h1' | 'h2';
+}
+
+const { vuln, lang, shareUrl, shareText, image, imageName, headingLevel = 'h2' } = Astro.props;
+const s = t(lang);
+const text = saint(vuln.id)?.[lang];
+const title = saintTitle(vuln, lang);
+const Heading = headingLevel;
+const nvd = (cve: string) => `https://nvd.nist.gov/vuln/detail/${cve}`;
+const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
+const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is string => !!l))];
+---
+
+<article class="saint">
+  <div class="cardcol">
+    <Santino vuln={vuln}>
+      {santinoSvg(vuln.id) ? s.aiLabel : text ? `${s.provisionalSantino} · ${s.aiTextLabel}` : s.provisionalSantino}
+    </Santino>
+    {
+      image && (
+        <a class="download" href={image} download={imageName}>
+          ⬇ {s.download}
+        </a>
+      )
+    }
+  </div>
+  <div class="body">
+    <Heading class="title">{title}</Heading>
+    {
+      text ? (
+        <>
+          <p class="patronage">
+            <em>{s.patronage}</em> {text.patronage}
+          </p>
+          <h3>{s.hagiography}</h3>
+          <p>{text.hagiography}</p>
+          <h3>{s.prayer}</h3>
+          <p class="prayer">{text.prayer}</p>
+          <h3>{s.feast}</h3>
+          <p>{text.feast}</p>
+          {text.proverb && <blockquote class="proverb">{text.proverb}</blockquote>}
+        </>
+      ) : (
+        <p class="pending">{s.contentPending}</p>
+      )
+    }
+    <ShareButtons lang={lang} href={shareUrl} text={shareText} />
+  </div>
+</article>
+
+<section class="card tech">
+  <h3>{s.technical}</h3>
+  <dl>
+    <dt>{s.disclosed}</dt>
+    <dd>{formatDate(vuln.date, lang)}</dd>
+    <dt>CVE</dt>
+    <dd>
+      {
+        vuln.cves.length ? (
+          vuln.cves.map((c) => (
+            <a class="badge" href={nvd(c)}>
+              {c}
+            </a>
+          ))
+        ) : (
+          <em>{s.noCve}</em>
+        )
+      }
+    </dd>
+    {
+      vuln.cvss != null && (
+        <>
+          <dt>CVSS</dt>
+          <dd>
+            <span class="badge">{vuln.cvss.toFixed(1)}</span>
+            {vuln.kev && <span class="badge kev">{s.exploited}</span>}
+          </dd>
+        </>
+      )
+    }
+    {
+      vuln.product && (
+        <>
+          <dt>{s.product}</dt>
+          <dd>{[vuln.vendor, vuln.product].filter(Boolean).join(' · ')}</dd>
+        </>
+      )
+    }
+  </dl>
+  {vuln.description && <p class="desc">{vuln.description}</p>}
+  {
+    sources.length > 0 && (
+      <p class="sources">
+        {s.sources}:{' '}
+        {sources.map((l, i) => (
+          <>
+            {i > 0 && ' · '}
+            <a href={l}>{host(l)}</a>
+          </>
+        ))}
+      </p>
+    )
+  }
+</section>
+
+<style>
+  .saint {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+  @media (max-width: 640px) {
+    .saint {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }
+  .cardcol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 260px;
+  }
+  .download {
+    font-size: 0.85rem;
+    text-decoration: none;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 4px 12px;
+    background: var(--paper);
+  }
+  .body {
+    min-width: 0;
+  }
+  .title {
+    margin: 0 0 8px;
+    color: var(--red);
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  .body h3 {
+    margin: 16px 0 4px;
+    font-variant: small-caps;
+    color: var(--gold);
+    font-size: 1rem;
+  }
+  .body p {
+    margin: 0;
+  }
+  .prayer {
+    font-style: italic;
+  }
+  .proverb {
+    margin: 20px 0 0;
+    padding: 8px 16px;
+    border-left: 3px solid var(--gold);
+    font-style: italic;
+  }
+  .pending {
+    color: var(--muted);
+    font-style: italic;
+  }
+  .tech {
+    margin-top: 32px;
+  }
+  .tech h3 {
+    margin: 0 0 8px;
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 4px 16px;
+    margin: 0;
+  }
+  dt {
+    color: var(--muted);
+  }
+  dd {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }
+  .desc {
+    font-size: 0.9rem;
+    margin: 12px 0 0;
+  }
+  .sources {
+    font-size: 0.85rem;
+    margin: 12px 0 0;
+    overflow-wrap: anywhere;
+  }
+</style>

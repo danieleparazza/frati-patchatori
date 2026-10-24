@@ -26,13 +26,14 @@ const other: Lang = lang === 'it' ? 'en' : 'it';
     months: s.months,
     labels: { santo: s.titleSanto('X'), beato: s.titleBeato('X'), padre: s.titlePadre('X') },
     patronLabel: s.patron,
+    saintSlug: s.saintSlug,
   }}
 >
   const q = document.getElementById('q');
   const results = document.getElementById('results');
   const empty = document.getElementById('empty');
   let index = [];
-  const norm = (x) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const norm = (x) => x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const label = (d) => {
     const [m, day] = d.split('-').map(Number);
     return lang === 'it' ? `${day} ${months[m - 1]}` : `${months[m - 1]} ${day}`;
@@ -47,7 +48,7 @@ const other: Lang = lang === 'it' ? 'en' : 'it';
     for (const v of hits) {
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.href = base + lang + '/' + v.d + '/';
+      a.href = base + lang + '/' + saintSlug + '/' + v.i + '/';
       a.textContent = labels[v.k].replace('X', v.n);
       const meta = document.createElement('span');
       meta.className = 'meta';

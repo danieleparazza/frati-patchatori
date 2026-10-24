@@ -1,0 +1,89 @@
+---
+// Share links for a page. No third-party scripts: plain intent URLs, plus copy-link and the
+// native share sheet (shown only where the browser supports it).
+import { t, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  /** Absolute page URL. */
+  href: string;
+  text: string;
+}
+
+const { lang, href, text } = Astro.props;
+const s = t(lang);
+const e = encodeURIComponent;
+const links = [
+  { label: 'WhatsApp', url: `https://wa.me/?text=${e(`${text} ${href}`)}` },
+  { label: 'Telegram', url: `https://t.me/share/url?url=${e(href)}&text=${e(text)}` },
+  { label: 'X', url: `https://x.com/intent/post?text=${e(text)}&url=${e(href)}` },
+  { label: 'Bluesky', url: `https://bsky.app/intent/compose?text=${e(`${text} ${href}`)}` },
+  { label: 'LinkedIn', url: `https://www.linkedin.com/sharing/share-offsite/?url=${e(href)}` },
+  { label: 'Facebook', url: `https://www.facebook.com/sharer/sharer.php?u=${e(href)}` },
+  { label: 'Email', url: `mailto:?subject=${e(text)}&body=${e(`${text}\n${href}`)}` },
+];
+---
+
+<div class="share" data-href={href} data-text={text}>
+  <span class="share-label">{s.share}</span>
+  <button type="button" class="pill native" hidden>{s.shareNative}</button>
+  {
+    links.map((l) => (
+      <a class="pill" href={l.url} target="_blank" rel="noopener noreferrer">
+        {l.label}
+      </a>
+    ))
+  }
+  <button type="button" class="pill copy" data-done={s.copied}>{s.copyLink}</button>
+</div>
+
+<script is:inline>
+  document.querySelectorAll('.share').forEach((box) => {
+    const { href, text } = box.dataset;
+    const native = box.querySelector('.native');
+    if (navigator.share) {
+      native.hidden = false;
+      native.addEventListener('click', () => navigator.share({ title: text, text, url: href }).catch(() => {}));
+    }
+    const copy = box.querySelector('.copy');
+    copy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(href);
+        const label = copy.textContent;
+        copy.textContent = copy.dataset.done;
+        setTimeout(() => (copy.textContent = label), 1800);
+      } catch {
+        prompt('', href);
+      }
+    });
+  });
+</script>
+
+<style>
+  .share {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .share-label {
+    font-variant: small-caps;
+    color: var(--gold);
+    margin-right: 4px;
+  }
+  .pill {
+    font: inherit;
+    font-size: 0.8rem;
+    color: var(--red);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 2px 12px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .pill:hover {
+    border-color: var(--gold);
+  }
+</style>
