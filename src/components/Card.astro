@@ -6,14 +6,16 @@ interface Props {
   back?: string;
   name?: string;
   lang: 'it' | 'en';
+  /** Sound kind for the flip viewer (src/lib/sfx.ts). */
+  sound?: string;
 }
 
 import CardDownloads from './CardDownloads.astro';
-const { svg, back, name = 'santino', lang } = Astro.props;
+const { svg, back, name = 'santino', lang, sound } = Astro.props;
 ---
 
 <div class="cardcol">
-  <figure class="santino" data-name={name}>
+  <figure class="santino" data-name={name} data-sound={sound}>
     <Fragment set:html={svg} />
     {back && <template class="card-back" set:html={back} />}
     <figcaption><slot /></figcaption>

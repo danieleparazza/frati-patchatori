@@ -22,12 +22,13 @@ const s = t(Astro.props.lang);
 
 <script>
   import { cardSvgs } from '../lib/card-client';
-  import { muted, playClose, playReveal, setMuted } from '../lib/sfx';
+  import { muted, playClose, playReveal, setMuted, type SoundKind } from '../lib/sfx';
 
   const dialog = document.querySelector<HTMLDialogElement>('dialog.lightbox')!;
   const stage = dialog.querySelector<HTMLElement>('.stage')!;
   const flipBtn = dialog.querySelector<HTMLButtonElement>('.flip-btn')!;
   let card: HTMLElement | null = null;
+  let sound: SoundKind = 'santo';
 
   const soundBtn = dialog.querySelector<HTMLButtonElement>('.sound-btn')!;
   function showSound() {
@@ -44,12 +45,13 @@ const s = t(Astro.props.lang);
 
   const flip = () => {
     if (!card) return;
-    (card.classList.toggle('flipped') ? playReveal : playClose)();
+    (card.classList.toggle('flipped') ? playReveal : playClose)(sound);
   };
 
   function open(fig: HTMLElement) {
     const { front, back } = cardSvgs(fig);
     if (!front) return;
+    sound = (fig.dataset.sound as SoundKind) || 'santo';
     if (back) {
       // Vertical card that turns over: front is the card, back the prayer side.
       card = document.createElement('div');

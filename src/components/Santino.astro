@@ -13,7 +13,7 @@ const { svg } = santino(Astro.props.vuln);
 const { back } = Astro.props;
 ---
 
-<figure class="santino" data-name={Astro.props.vuln.id}>
+<figure class="santino" data-name={Astro.props.vuln.id} data-sound={Astro.props.vuln.category}>
   <Fragment set:html={svg} />
   {back && <template class="card-back" set:html={back} />}
   <figcaption><slot /></figcaption>

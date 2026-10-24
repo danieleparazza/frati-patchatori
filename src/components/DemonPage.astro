@@ -31,7 +31,7 @@ const ex = d.exorcism;
 
 <Base lang={lang} title={title} image={image} description={d.summary} alt={`${other}/${t(other).demonSlug}/${d.id}`}>
   <EntryLayout>
-    <Card slot="card" svg={svg} back={back} name={d.id} lang={lang}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    <Card slot="card" svg={svg} back={back} name={d.id} sound="demone" lang={lang}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
     <ShareButtons lang={lang} href={absolute(`${lang}/${s.demonSlug}/${d.id}`)} text={title} />
     <p class="kicker"><a href={url(`${lang}/${s.bestiarySlug}#${d.primary}`)}>{s.circles[d.primary]}</a></p>
     <h1>{title}</h1>

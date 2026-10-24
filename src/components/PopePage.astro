@@ -29,7 +29,7 @@ const kicker = p.kind === 'year' ? s.popeOf(p.key) : p.kind === 'decade' ? s.pop
 <Base lang={lang} title={title} image={image} description={p.why ?? undefined} alt={`${other}/${t(other).popeSlug}/${p.key}`}>
   <p class="back"><a href={url(`${lang}/${s.popesSlug}`)}>← {s.chronotaxis}</a></p>
   <EntryLayout>
-    <Card slot="card" svg={svg} back={back} name={p.key} lang={lang}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    <Card slot="card" svg={svg} back={back} name={p.key} sound="papa" lang={lang}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
     <ShareButtons lang={lang} href={absolute(`${lang}/${s.popeSlug}/${p.key}`)} text={title} />
     <p class="kicker">{kicker}</p>
     <h1>{title}</h1>

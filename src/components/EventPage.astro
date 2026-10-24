@@ -32,7 +32,7 @@ const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
 
 <Base lang={lang} title={title} image={image} description={e.summary} alt={`${other}/${slug(other)}/${e.id}`}>
   <EntryLayout tone={e.tone}>
-    <Card slot="card" svg={svg} back={back} name={e.id} lang={lang}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    <Card slot="card" svg={svg} back={back} name={e.id} sound={e.tone === 'lutto' ? 'lutto' : miracle ? 'miracolo' : 'flagello'} lang={lang}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
     {e.tone !== 'lutto' && <ShareButtons lang={lang} href={absolute(`${lang}/${slug(lang)}/${e.id}`)} text={title} />}
     <p class="kicker">
       {miracle ? s.miracle : s.scourge}
