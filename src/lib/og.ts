@@ -67,7 +67,7 @@ export function shareImage(lang: Lang, mmdd: string) {
 
 /** Inserts an XMP packet (iTXt chunk) with the IPTC digital source type right after the PNG header chunk. */
 function withXmp(png: Buffer, source: string) {
-  const xmp = `<x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" Iptc4xmpExt:DigitalSourceType="${IPTC}${source}" xmpRights:WebStatement="https://creativecommons.org/licenses/by-sa/4.0/"><dc:rights><rdf:Alt><rdf:li xml:lang="x-default">CC BY-SA 4.0</rdf:li></rdf:Alt></dc:rights></rdf:Description></rdf:RDF></x:xmpmeta>`;
+  const xmp = `<x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" Iptc4xmpExt:DigitalSourceType="${IPTC}${source}" xmpRights:WebStatement="https://creativecommons.org/licenses/by-nc-sa/4.0/"><dc:rights><rdf:Alt><rdf:li xml:lang="x-default">CC BY-NC-SA 4.0</rdf:li></rdf:Alt></dc:rights></rdf:Description></rdf:RDF></x:xmpmeta>`;
   const data = Buffer.concat([Buffer.from('XML:com.adobe.xmp\0\0\0\0\0', 'latin1'), Buffer.from(xmp, 'utf8')]);
   const type = Buffer.from('iTXt', 'latin1');
   const chunk = Buffer.alloc(12 + data.length);

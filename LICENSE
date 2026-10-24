@@ -1,38 +1,44 @@
-Code (everything except src/data/ and public/): MIT License
+Lunario dei Frati Patchatori — licenses
+=======================================
 
-Copyright (c) 2026 Daniele Parazza
+This repository contains material under different licenses. Commercial use
+is not allowed for the code and the original content; the data derived from
+Vulnerability Garden stays under its ShareAlike license, which does not allow
+adding that restriction.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Code
+   Everything not listed below (scripts/, src/ except src/data/, configuration).
+   PolyForm Noncommercial License 1.0.0
+   https://polyformproject.org/licenses/noncommercial/1.0.0
+   Full text: LICENSES/PolyForm-Noncommercial-1.0.0.md
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+   Required Notice: Copyright (c) 2026 Daniele Parazza (https://github.com/danieleparazza/frati-patchatori)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Original content
+   Parody texts (src/data/saints/), holy cards (src/data/santini/ and their
+   definitions in data/santini.mjs) and the share images generated from them.
+   Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+   (CC BY-NC-SA 4.0), https://creativecommons.org/licenses/by-nc-sa/4.0/
+   The holy cards and parody texts are AI-generated (Claude, Anthropic) and
+   reviewed by hand.
 
----
+3. Vulnerability data
+   src/data/vulns.json, src/data/days.json, data/overrides.json,
+   data/extra-vulns.json.
+   Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0),
+   https://creativecommons.org/licenses/by-sa/4.0/
+   Derived from Vulnerability Garden (https://vulnerability.garden) by
+   Shellsharks, CC BY-SA 4.0. Changes: one patron selected per calendar day;
+   corrected dates; CVSS, product and CISA KEV status added from the CVE List
+   and the CISA KEV catalog; hand-curated rankings fields.
 
-Data, texts and holy cards (src/data/): Creative Commons Attribution-ShareAlike 4.0
-International (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/
+4. Font
+   src/assets/fonts/EBGaramond.ttf: EB Garamond by The EB Garamond Project
+   Authors, SIL Open Font License 1.1 (src/assets/fonts/OFL.txt).
 
-Derived from Vulnerability Garden (https://vulnerability.garden) by Shellsharks,
-CC BY-SA 4.0. Changes: one patron selected per calendar day; CVSS, product and
-CISA KEV status added; parody texts and holy cards added (AI-generated).
+Official vulnerability logos, where used, remain the property of their
+authors under their own licenses.
 
-Official vulnerability logos, where used, remain the property of their authors
-under their own licenses.
-
----
-
-Font (src/assets/fonts/EBGaramond.ttf): EB Garamond by The EB Garamond Project
-Authors, SIL Open Font License 1.1 (src/assets/fonts/OFL.txt).
+Versions of this repository published up to commit 7e8f4a6 (2026-10-24) were
+released with the code under the MIT License and the content under CC BY-SA
+4.0; those versions keep those licenses.

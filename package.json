@@ -2,7 +2,7 @@
   "name": "frati-patchatori",
   "private": true,
   "type": "module",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "import": "node scripts/import.mjs",
     "dev": "astro dev",

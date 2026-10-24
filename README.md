@@ -19,6 +19,6 @@ npm run dev
 
 ## Licenze
 
-Codice MIT; dati, testi e santini CC BY-SA 4.0 (derivati da [Vulnerability Garden](https://vulnerability.garden) di Shellsharks). Vedi [LICENSE](LICENSE).
+Uso non commerciale. Codice: [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.md). Testi parodistici e santini: CC BY-NC-SA 4.0. Dati delle vulnerabilità: CC BY-SA 4.0, perché derivati da [Vulnerability Garden](https://vulnerability.garden) di Shellsharks. Dettagli in [LICENSE](LICENSE).
 
 Santini e testi parodistici sono generati con AI; i dati tecnici sono reali.

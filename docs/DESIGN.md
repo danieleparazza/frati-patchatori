@@ -50,6 +50,9 @@ Più un **box tecnico serio**: CVE-ID, CVSS, prodotto, link NVD.
 
 ## Licenze
 
-- Codice: MIT.
-- Dati, testi e santini generati: CC BY-SA 4.0 (ShareAlike ereditato da Vulnerability Garden), con attribuzione e nota sulle modifiche.
+- Niente uso commerciale, dove la licenza delle fonti lo permette.
+- Codice: PolyForm Noncommercial 1.0.0 (source-available, non "open source" secondo la definizione OSI).
+- Testi parodistici, santini e immagini di condivisione: CC BY-NC-SA 4.0.
+- Dati delle vulnerabilità (vulns.json, days.json, data/overrides.json, data/extra-vulns.json): CC BY-SA 4.0, obbligatorio perché derivati da Vulnerability Garden (ShareAlike non permette di aggiungere il vincolo non commerciale).
+- Le versioni fino al commit 7e8f4a6 restano MIT + CC BY-SA 4.0.
 - Loghi di terzi: restano sotto la propria licenza, elencati a parte.

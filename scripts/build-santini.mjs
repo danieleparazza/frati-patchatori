@@ -16,7 +16,7 @@ const FONT = "'EB Garamond', Georgia, serif";
 const esc = (s) => s.replace(/[<>&"']/g, (c) => `&${{ '<': 'lt', '>': 'gt', '&': 'amp', '"': 'quot', "'": 'apos' }[c]};`);
 
 function metadata(id, label) {
-  return `<metadata><x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:dc="http://purl.org/dc/elements/1.1/" Iptc4xmpExt:DigitalSourceType="http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"><dc:title>${esc(label)}</dc:title><dc:description>Holy card for ${esc(id)}, generated with AI (Claude, Anthropic) for the Lunario dei Frati Patchatori.</dc:description><dc:rights>CC BY-SA 4.0</dc:rights></rdf:Description></rdf:RDF></x:xmpmeta></metadata>`;
+  return `<metadata><x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:dc="http://purl.org/dc/elements/1.1/" Iptc4xmpExt:DigitalSourceType="http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"><dc:title>${esc(label)}</dc:title><dc:description>Holy card for ${esc(id)}, generated with AI (Claude, Anthropic) for the Lunario dei Frati Patchatori.</dc:description><dc:rights>CC BY-NC-SA 4.0</dc:rights></rdf:Description></rdf:RDF></x:xmpmeta></metadata>`;
 }
 
 function rays(id) {
