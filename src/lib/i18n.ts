@@ -23,7 +23,7 @@ export const strings = {
     exploited: 'Sfruttata attivamente (CISA KEV)',
     noCve: 'Nessun CVE: beato, non ancora canonizzato dal MITRE',
     sources: 'Fonti',
-    patronage: 'Patrono di',
+    patronage: 'Patrono',
     prayer: 'Preghiera',
     feast: 'Come si festeggia',
     proverb: 'Proverbio',
@@ -32,6 +32,7 @@ export const strings = {
     aiLabel: '🤖 Immagine e testi generati con AI',
     aiTextLabel: '🤖 testi generati con AI',
     provisionalSantino: 'Santino provvisorio',
+    download: 'Scarica il santino',
     searchPlaceholder: 'Nome, CVE o prodotto…',
     searchEmpty: 'Nessun santo trovato.',
     patron: 'patrono',
@@ -74,6 +75,7 @@ export const strings = {
     aiLabel: '🤖 Image and text generated with AI',
     aiTextLabel: '🤖 text generated with AI',
     provisionalSantino: 'Provisional holy card',
+    download: 'Download holy card',
     searchPlaceholder: 'Name, CVE or product…',
     searchEmpty: 'No saint found.',
     patron: 'patron',
@@ -92,7 +94,10 @@ export function t(lang: Lang) {
   return strings[lang];
 }
 
+/** Site URL for a page or file path. Page paths get a trailing slash, file paths (with an extension) don't. */
 export function url(path: string) {
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-  return `${base}/${path.replace(/^\//, '')}`;
+  const clean = path.replace(/^\//, '');
+  const isFile = /\.[a-z0-9]+$/i.test(clean);
+  return `${base}/${clean}${isFile || clean === '' || clean.endsWith('/') ? '' : '/'}`;
 }

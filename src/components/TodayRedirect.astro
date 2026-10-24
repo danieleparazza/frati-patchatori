@@ -15,7 +15,7 @@ const { lang } = Astro.props;
   const l = lang ?? ((navigator.language || '').toLowerCase().startsWith('it') ? 'it' : 'en');
   const now = new Date();
   const mmdd = String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
-  location.replace(base + l + '/' + mmdd);
+  location.replace(base + l + '/' + mmdd + '/');
 </script>
 <noscript>
   <p><a href={url('it/01-01')}>Italiano</a> · <a href={url('en/01-01')}>English</a></p>

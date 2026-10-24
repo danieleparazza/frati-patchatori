@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Santino from '../../components/Santino.astro';
 import { DAYS, day, dayLabel, formatDate, neighbours, saint, saintTitle, santinoSvg } from '../../lib/calendar';
 import { LANGS, t, url, type Lang } from '../../lib/i18n';
+import { vacantSantino } from '../../lib/santino';
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => DAYS.map((d) => ({ params: { lang, day: d } })));
@@ -21,7 +22,7 @@ const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
 const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter((l): l is string => !!l))] : [];
 ---
 
-<Base lang={lang} title={`${label} · ${title}`} description={text?.patronage ?? patron?.description ?? s.vacantText} alt={`${lang === 'it' ? 'en' : 'it'}/${mmdd}`}>
+<Base lang={lang} title={`${label} · ${title}`} description={text?.patronage ?? patron?.description ?? s.vacantText} alt={`${lang === 'it' ? 'en' : 'it'}/${mmdd}`} image={`og/${lang}/${mmdd}.png`}>
   <div class="dayhead">
     <a href={url(`${lang}/${prev}`)} aria-label={s.prevDay} rel="prev">‹</a>
     <h1>{label}</h1>
@@ -31,9 +32,14 @@ const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter(
   {
     patron ? (
       <article class="saint">
-        <Santino vuln={patron} title={title}>
-          {santinoSvg(patron.id) ? s.aiLabel : text ? `${s.provisionalSantino} · ${s.aiTextLabel}` : s.provisionalSantino}
-        </Santino>
+        <div class="cardcol">
+          <Santino vuln={patron}>
+            {santinoSvg(patron.id) ? s.aiLabel : text ? `${s.provisionalSantino} · ${s.aiTextLabel}` : s.provisionalSantino}
+          </Santino>
+          <a class="download" href={url(`og/${lang}/${mmdd}.png`)} download={`${mmdd}-${patron.id}.png`}>
+            ⬇ {s.download}
+          </a>
+        </div>
         <div class="body">
           <h2>{title}</h2>
           {text ? (
@@ -56,6 +62,7 @@ const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter(
       </article>
     ) : (
       <article class="card vacant">
+        <div class="vacant-card" set:html={vacantSantino(s.vacant)} />
         <h2>{s.vacant}</h2>
         <p>{s.vacantText}</p>
       </article>
@@ -168,6 +175,22 @@ const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter(
       justify-items: center;
     }
   }
+  .cardcol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 260px;
+  }
+  .download {
+    font-size: 0.85rem;
+    text-decoration: none;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 4px 12px;
+    background: var(--paper);
+  }
   .body h2 {
     margin: 0 0 8px;
     color: var(--red);
@@ -252,5 +275,14 @@ const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter(
   }
   .vacant {
     text-align: center;
+  }
+  .vacant-card {
+    width: 160px;
+    margin: 0 auto;
+  }
+  .vacant-card :global(svg) {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 </style>

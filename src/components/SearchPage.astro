@@ -47,7 +47,7 @@ const other: Lang = lang === 'it' ? 'en' : 'it';
     for (const v of hits) {
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.href = base + lang + '/' + v.d;
+      a.href = base + lang + '/' + v.d + '/';
       a.textContent = labels[v.k].replace('X', v.n);
       const meta = document.createElement('span');
       meta.className = 'meta';
