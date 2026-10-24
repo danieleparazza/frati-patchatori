@@ -1,7 +1,7 @@
 // "Sacred" sound effects for the card viewer, synthesized with Web Audio (no audio files), one pair per kind
 // of card: what plays when it turns to its back, and what plays when it turns back and closes. Saints get an
 // organ-and-choir "Amen", Popes a festive peal, demons a low dissonant organ, scourges a minor Amen,
-// mourning a single muffled toll, miracles a harp and a bright choir. Muting is remembered in the browser.
+// mourning silence, miracles a harp and a bright choir. Muting is remembered in the browser.
 
 let ctx: AudioContext | null = null;
 const KEY = 'sfx-muted';
@@ -305,11 +305,8 @@ const reveal: Record<SoundKind, (a: AudioContext, t: number) => void> = {
     organ(a, out, [48, 60, 63, 67], t + 0.6, 1.1, 0.3);
     bell(a, out, midi(55), t + 0.6, 0.12, 0.6);
   },
-  // Mourning: one distant, muffled toll and nothing else.
-  lutto: (a, t) => {
-    const out = bus(a, 1.8);
-    bell(a, out, midi(50), t, 0.12, 0.6);
-  },
+  // Mourning: silence.
+  lutto: () => {},
   // A harp running up, then a bright choir and chimes.
   miracolo: (a, t) => {
     const out = bus(a, 1.4);
@@ -335,7 +332,7 @@ const close: Record<SoundKind, (a: AudioContext, t: number) => void> = {
     rumble(a, out, t, 0.8, 0.35);
   },
   flagello: (a, t) => bell(a, bus(a, 1.2), midi(55), t, 0.2, 0.5),
-  lutto: (a, t) => bell(a, bus(a, 1.8), midi(50), t, 0.1, 0.55),
+  lutto: () => {},
   miracolo: (a, t) => bell(a, bus(a, 1.1), midi(79), t, 0.16, 0.4),
 };
 
