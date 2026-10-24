@@ -94,6 +94,9 @@ const s = t(Astro.props.lang);
     max-height: 100vh;
     width: 100vw;
     height: 100vh;
+    /* dvh: the visible height, without the area behind the phone browser's toolbars. */
+    max-height: 100dvh;
+    height: 100dvh;
     overflow: hidden;
   }
   .lightbox::backdrop {
@@ -101,14 +104,15 @@ const s = t(Astro.props.lang);
   }
   .stage {
     width: 100%;
-    height: calc(100% - 64px);
+    height: calc(100% - 64px - env(safe-area-inset-bottom));
     display: flex;
     align-items: center;
     justify-content: center;
     perspective: 1600px;
   }
   .controls {
-    height: 64px;
+    height: calc(64px + env(safe-area-inset-bottom));
+    padding-bottom: env(safe-area-inset-bottom);
     display: flex;
     gap: 10px;
     justify-content: center;
