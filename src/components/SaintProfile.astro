@@ -2,6 +2,7 @@
 // A saint's full profile: holy card, texts, share links and technical record.
 // Used by the day page (for the patron) and by the saint page.
 import Santino from './Santino.astro';
+import RelatedSaints from './RelatedSaints.astro';
 import ShareButtons from './ShareButtons.astro';
 import { formatDate, saint, saintTitle, santinoSvg, type Vuln } from '../lib/calendar';
 import { t, type Lang } from '../lib/i18n';
@@ -16,9 +17,11 @@ interface Props {
   image?: string;
   imageName?: string;
   headingLevel?: 'h1' | 'h2';
+  /** Passed to RelatedSaints: list the other saints of the same day. */
+  showSameDay?: boolean;
 }
 
-const { vuln, lang, shareUrl, shareText, image, imageName, headingLevel = 'h2' } = Astro.props;
+const { vuln, lang, shareUrl, shareText, image, imageName, headingLevel = 'h2', showSameDay = false } = Astro.props;
 const s = t(lang);
 const text = saint(vuln.id)?.[lang];
 const title = saintTitle(vuln, lang);
@@ -119,6 +122,8 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
     )
   }
 </section>
+
+<RelatedSaints vuln={vuln} lang={lang} showSameDay={showSameDay} />
 
 <style>
   .saint {

@@ -1,0 +1,88 @@
+---
+// Cross-links from a saint to related saints: same feast day, same name family, same product, same year.
+import { day, related, saintTitle, type Vuln } from '../lib/calendar';
+import { saintPath, t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  vuln: Vuln;
+  lang: Lang;
+  /** List the other saints of the same day (off on the day page, which already shows them). */
+  showSameDay?: boolean;
+}
+
+const { vuln, lang, showSameDay = false } = Astro.props;
+const s = t(lang);
+const r = related(vuln);
+const { patron, others } = day(vuln.day);
+const sameDay = showSameDay ? [patron, ...others].filter((o): o is Vuln => !!o && o.id !== vuln.id) : [];
+const groups = [
+  { title: s.relatedDay, items: sameDay },
+  { title: r.family ? s.relatedFamily(r.family.stem) : '', items: r.family?.items ?? [] },
+  { title: r.product ? s.relatedProduct(r.product.name) : '', items: r.product?.items ?? [] },
+  { title: s.relatedYear(r.year.year), items: r.year.items },
+].filter((g) => g.items.length > 0);
+---
+
+{
+  groups.length > 0 && (
+    <section class="related">
+      <h3>{s.related}</h3>
+      <div class="groups">
+        {groups.map((g) => (
+          <div class="group">
+            <h4>{g.title}</h4>
+            <ul>
+              {g.items.map((o) => (
+                <li>
+                  <a href={url(saintPath(lang, o.id))}>{saintTitle(o, lang)}</a>
+                  <span class="year">{o.date.slice(0, 4)}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .related {
+    margin-top: 32px;
+  }
+  h3 {
+    margin: 0 0 8px;
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  .groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px 24px;
+  }
+  h4 {
+    margin: 0 0 4px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-style: italic;
+    color: var(--muted);
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    padding: 3px 0;
+    border-bottom: 1px dotted var(--line);
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .year {
+    color: var(--muted);
+    font-size: 0.8rem;
+    flex: none;
+  }
+</style>

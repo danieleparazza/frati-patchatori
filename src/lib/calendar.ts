@@ -98,3 +98,53 @@ export const MONTHS = Array.from({ length: 12 }, (_, i) => String(i + 1).padStar
 export function allVulns() {
   return vulns;
 }
+
+// ---------- related saints ----------
+
+// Name stems that make a "family" (Heartbleed, CitrixBleed, MongoBleed… → bleed).
+const FAMILY_STEMS = ['bleed', 'dirty', 'ghost', 'pwn', 'spectre', 'poodle', 'zombie', 'potato', 'hammer', 'nightmare', 'jack', 'shell', 'scape', 'leak', 'load', 'cow', 'smash', 'storm', 'blue', 'door'];
+
+// CVE product names are inconsistent ("Windows 10 Version 1809", "Linux kernel"): group the common ones.
+const PRODUCT_GROUPS: [RegExp, string][] = [
+  [/^windows|microsoft windows/i, 'Windows'],
+  [/exchange/i, 'Microsoft Exchange'],
+  [/^(linux|kernel|linux kernel)$/i, 'Linux kernel'],
+  [/processor|cpu|epyc|xeon|core i/i, 'CPU'],
+  [/^(ios|ipados|ios and ipados)/i, 'iOS'],
+  [/^macos|os x/i, 'macOS'],
+  [/^android/i, 'Android'],
+  [/chrom/i, 'Chrome'],
+  [/openssl/i, 'OpenSSL'],
+  [/apache http/i, 'Apache HTTP Server'],
+  [/^(adc|netscaler)|citrix/i, 'Citrix NetScaler'],
+  [/glibc|gnu c library/i, 'glibc'],
+  [/sudo/i, 'sudo'],
+];
+
+export function family(v: Vuln) {
+  const name = v.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+  return FAMILY_STEMS.find((stem) => name.includes(stem)) ?? null;
+}
+
+export function productGroup(v: Vuln) {
+  if (!v.product) return null;
+  return PRODUCT_GROUPS.find(([re]) => re.test(v.product!))?.[1] ?? v.product;
+}
+
+/** Saints related to `v`, most famous first; each saint appears in one group only. */
+export function related(v: Vuln, limit = 8) {
+  const seen = new Set([v.id]);
+  const pick = (match: (o: Vuln) => boolean) => {
+    const items = vulns.filter((o) => !seen.has(o.id) && match(o)).slice(0, limit); // vulns is sorted by fame
+    items.forEach((o) => seen.add(o.id));
+    return items;
+  };
+  const fam = family(v);
+  const prod = productGroup(v);
+  const year = v.date.slice(0, 4);
+  return {
+    family: fam ? { stem: fam, items: pick((o) => family(o) === fam) } : null,
+    product: prod ? { name: prod, items: pick((o) => productGroup(o) === prod) } : null,
+    year: { year, items: pick((o) => o.date.startsWith(year)) },
+  };
+}
