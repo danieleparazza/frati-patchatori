@@ -1,26 +1,10 @@
 // Subscribable iCalendar feed: one all-day, yearly event per patron saint.
 import { DAYS, day, saint, saintTitle } from '../../lib/calendar';
 import { LANGS, absolute, t, type Lang } from '../../lib/i18n';
+import { escapeIcs as escape, foldIcs as fold } from '../../lib/ics';
 
 export function getStaticPaths() {
   return LANGS.map((lang) => ({ params: { lang } }));
-}
-
-const escape = (s: string) => s.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n');
-
-// RFC 5545: lines longer than 75 octets are folded with CRLF + space.
-function fold(line: string) {
-  const bytes = Buffer.from(line, 'utf8');
-  if (bytes.length <= 75) return line;
-  const parts: string[] = [];
-  let start = 0;
-  while (start < bytes.length) {
-    let end = Math.min(start + (parts.length ? 74 : 75), bytes.length);
-    while (end < bytes.length && (bytes[end] & 0xc0) === 0x80) end--; // don't split UTF-8 sequences
-    parts.push(bytes.subarray(start, end).toString('utf8'));
-    start = end;
-  }
-  return parts.join('\r\n ');
 }
 
 export function GET({ params }: { params: { lang: Lang } }) {

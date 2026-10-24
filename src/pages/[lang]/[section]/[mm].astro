@@ -40,7 +40,8 @@ const offset = (new Date(year, i, 1).getDay() + 6) % 7;
           style={n === 0 ? `grid-column-start: ${offset + 1}` : undefined}
         >
           <span class="num">{Number(d.slice(3))}</span>
-          <span class="name">{patron ? saintTitle(patron, lang) : s.vacant}</span>
+          <span class="name long">{patron ? saintTitle(patron, lang) : s.vacant}</span>
+          <span class="name short">{patron ? patron.name : '—'}</span>
           {others.length > 0 && <span class="more">+{others.length}</span>}
         </a>
       ))
@@ -67,6 +68,39 @@ const offset = (new Date(year, i, 1).getDay() + 6) % 7;
         cal.querySelector(`[data-day="${pad(now.getMonth() + 1)}-${pad(now.getDate())}"]`)?.classList.add('today');
       }
     })();
+  </script>
+  <script>
+    import { feastsOn } from '../../../lib/feasts';
+
+    // Mark movable feasts (computed for the year being viewed) in the day cells.
+    const cal = document.querySelector<HTMLElement>('.cal')!;
+    const month = Number(cal.dataset.month);
+    const lang = document.documentElement.lang as 'it' | 'en';
+    const year = Number(new URLSearchParams(location.search).get('y')) || new Date().getFullYear();
+    cal.querySelectorAll<HTMLElement>('.cell').forEach((cell) => {
+      const day = Number(cell.dataset.day!.slice(3));
+      const feasts = feastsOn(new Date(year, month, day)).filter((f) => f.rule.kind !== 'wholeMonth');
+      for (const f of feasts) {
+        const mark = document.createElement('span');
+        mark.className = 'feast-mark';
+        mark.title = f[lang].name;
+        const icon = document.createElement('span');
+        icon.textContent = '✠ ';
+        const name = document.createElement('span');
+        name.className = 'feast-name';
+        name.textContent = f[lang].name.split(',')[0];
+        mark.append(icon, name);
+        cell.append(mark);
+      }
+    });
+    // Whole-month observances (October) go under the month title.
+    const monthly = feastsOn(new Date(year, month, 1)).filter((f) => f.rule.kind === 'wholeMonth');
+    for (const f of monthly) {
+      const note = document.createElement('p');
+      note.className = 'month-feast';
+      note.textContent = `✠ ${f[lang].name} · ${f[lang].proverb}`;
+      document.querySelector('.monthhead')!.after(note);
+    }
   </script>
 </Base>
 
@@ -158,7 +192,31 @@ const offset = (new Date(year, i, 1).getDay() + 6) % 7;
     font-size: 0.7rem;
     color: var(--muted);
   }
+  .cell :global(.feast-mark) {
+    margin-top: auto;
+    font-size: 0.68rem;
+    color: var(--red);
+    font-variant: small-caps;
+    line-height: 1.1;
+  }
+  :global(.month-feast) {
+    text-align: center;
+    margin: -8px 0 12px;
+    font-size: 0.85rem;
+    color: var(--red);
+    font-variant: small-caps;
+  }
+  .short {
+    display: none;
+  }
   @media (max-width: 640px) {
+    /* Narrow cells: the bare name instead of the full parody title. */
+    .long {
+      display: none;
+    }
+    .short {
+      display: -webkit-box;
+    }
     .cal {
       gap: 2px;
     }
@@ -171,6 +229,9 @@ const offset = (new Date(year, i, 1).getDay() + 6) % 7;
       -webkit-line-clamp: 3;
     }
     .more {
+      display: none;
+    }
+    .cell :global(.feast-name) {
       display: none;
     }
   }

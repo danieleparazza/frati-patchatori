@@ -22,72 +22,76 @@ const mmdd = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.ge
     <h1 data-range>{s.week}</h1>
     <a href="#" aria-label={s.nextWeek} rel="next" data-step="7">›</a>
   </div>
-  <ol class="week" data-lang={lang} data-base={url('')} data-vacant={s.vacant}></ol>
+  <ol class="week" data-config={JSON.stringify({ lang, base: url(''), vacant: s.vacant, months: s.months, weekdays: s.weekdays, monthSlug: s.monthSlug })}></ol>
   <p class="hint">{s.keyboardHint}</p>
 </Base>
 
-<script
-  is:inline
-  define:vars={{ months: s.months, weekdays: s.weekdays, monthSlug: s.monthSlug }}
->
-  (async () => {
-    const list = document.querySelector('.week');
-    const { lang, base, vacant } = list.dataset;
-    const pad = (n) => String(n).padStart(2, '0');
-    const key = (d) => pad(d.getMonth() + 1) + '-' + pad(d.getDate());
-    const params = new URLSearchParams(location.search);
-    const now = new Date();
-    const [m, d] = (params.get('d') || key(now)).split('-').map(Number);
-    const anchor = new Date(Number(params.get('y')) || now.getFullYear(), m - 1, d);
-    const monday = new Date(anchor);
-    monday.setDate(anchor.getDate() - ((anchor.getDay() + 6) % 7));
-    const days = Array.from({ length: 7 }, (_, i) => new Date(monday.getFullYear(), monday.getMonth(), monday.getDate() + i));
-    const label = (x) => (lang === 'it' ? `${x.getDate()} ${months[x.getMonth()]}` : `${months[x.getMonth()]} ${x.getDate()}`);
-    document.querySelector('[data-range]').textContent = `${label(days[0])} – ${label(days[6])} ${days[6].getFullYear()}`;
-    document.querySelectorAll('[data-step]').forEach((a) => {
-      const target = new Date(anchor);
-      target.setDate(anchor.getDate() + Number(a.dataset.step));
-      a.href = `?d=${key(target)}&y=${target.getFullYear()}`;
-    });
-    // Keep the day and month switches pointing at the week being viewed.
-    const nav = document.querySelector('.viewnav');
-    nav.querySelector('[data-key=day]').href = `${base}${lang}/${key(anchor)}/`;
-    nav.querySelector('[data-key=month]').href = `${base}${lang}/${monthSlug}/${pad(anchor.getMonth() + 1)}/`;
+<script>
+  import { feastsOn } from '../lib/feasts';
 
-    const data = await fetch(`${base}calendar/${lang}.json`).then((r) => r.json());
-    const todayKey = key(now);
-    for (const x of days) {
-      const k = key(x);
-      const saint = data[k];
-      const li = document.createElement('li');
-      li.className = 'wday' + (k === todayKey && x.getFullYear() === now.getFullYear() ? ' today' : '') + (saint ? '' : ' vacant');
-      const a = document.createElement('a');
-      a.href = `${base}${lang}/${k}/`;
-      const head = document.createElement('div');
-      head.className = 'when';
-      head.innerHTML = `<span class="dow"></span><span class="date"></span>`;
-      head.querySelector('.dow').textContent = weekdays[(x.getDay() + 6) % 7];
-      head.querySelector('.date').textContent = label(x);
-      const name = document.createElement('div');
-      name.className = 'name';
-      name.textContent = saint ? saint.t : vacant;
-      a.append(head, name);
-      if (saint?.p) {
-        const p = document.createElement('div');
-        p.className = 'pat';
-        p.textContent = saint.p;
-        a.append(p);
+  type Saint = { t: string; y: string; x: boolean; o: number; p: string | null };
+
+  const list = document.querySelector<HTMLElement>('.week')!;
+  const { lang, base, vacant, months, weekdays, monthSlug } = JSON.parse(list.dataset.config!) as {
+    lang: 'it' | 'en';
+    base: string;
+    vacant: string;
+    months: string[];
+    weekdays: string[];
+    monthSlug: string;
+  };
+  const pad = (n: number) => String(n).padStart(2, '0');
+  const key = (d: Date) => pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+  const params = new URLSearchParams(location.search);
+  const now = new Date();
+  const [m, d] = (params.get('d') || key(now)).split('-').map(Number);
+  const anchor = new Date(Number(params.get('y')) || now.getFullYear(), m - 1, d);
+  const monday = new Date(anchor);
+  monday.setDate(anchor.getDate() - ((anchor.getDay() + 6) % 7));
+  const days = Array.from({ length: 7 }, (_, i) => new Date(monday.getFullYear(), monday.getMonth(), monday.getDate() + i));
+  const label = (x: Date) => (lang === 'it' ? `${x.getDate()} ${months[x.getMonth()]}` : `${months[x.getMonth()]} ${x.getDate()}`);
+  document.querySelector('[data-range]')!.textContent = `${label(days[0])} – ${label(days[6])} ${days[6].getFullYear()}`;
+  document.querySelectorAll<HTMLAnchorElement>('[data-step]').forEach((a) => {
+    const target = new Date(anchor);
+    target.setDate(anchor.getDate() + Number(a.dataset.step));
+    a.href = `?d=${key(target)}&y=${target.getFullYear()}`;
+  });
+  // Keep the day and month switches pointing at the week being viewed.
+  const nav = document.querySelector('.viewnav')!;
+  nav.querySelector<HTMLAnchorElement>('[data-key=day]')!.href = `${base}${lang}/${key(anchor)}/`;
+  nav.querySelector<HTMLAnchorElement>('[data-key=month]')!.href = `${base}${lang}/${monthSlug}/${pad(anchor.getMonth() + 1)}/`;
+
+  const div = (cls: string, text: string) => {
+    const el = document.createElement('div');
+    el.className = cls;
+    el.textContent = text;
+    return el;
+  };
+
+  fetch(`${base}calendar/${lang}.json`)
+    .then((r) => r.json() as Promise<Record<string, Saint | null>>)
+    .then((data) => {
+      const todayKey = key(now);
+      for (const x of days) {
+        const k = key(x);
+        const saint = data[k];
+        const li = document.createElement('li');
+        li.className = 'wday' + (k === todayKey && x.getFullYear() === now.getFullYear() ? ' today' : '') + (saint ? '' : ' vacant');
+        const a = document.createElement('a');
+        a.href = `${base}${lang}/${k}/`;
+        const head = document.createElement('div');
+        head.className = 'when';
+        head.append(Object.assign(document.createElement('span'), { className: 'dow', textContent: weekdays[(x.getDay() + 6) % 7] }));
+        head.append(Object.assign(document.createElement('span'), { className: 'date', textContent: label(x) }));
+        a.append(head, div('name', saint ? saint.t : vacant));
+        if (saint?.p) a.append(div('pat', saint.p));
+        const feasts = feastsOn(x).filter((f) => f.rule.kind !== 'wholeMonth');
+        if (feasts.length) a.append(div('fst', feasts.map((f) => '✠ ' + f[lang].name).join(' · ')));
+        if (saint) a.append(div('meta', saint.y + (saint.x ? ' · KEV' : '') + (saint.o ? ` · +${saint.o}` : '')));
+        li.append(a);
+        list.append(li);
       }
-      if (saint) {
-        const meta = document.createElement('div');
-        meta.className = 'meta';
-        meta.textContent = saint.y + (saint.x ? ' · KEV' : '') + (saint.o ? ` · +${saint.o}` : '');
-        a.append(meta);
-      }
-      li.append(a);
-      list.append(li);
-    }
-  })();
+    });
 </script>
 
 <style>
@@ -124,7 +128,7 @@ const mmdd = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.ge
   .week :global(.wday a) {
     display: grid;
     grid-template-columns: 9rem 1fr;
-    grid-template-areas: 'when name' 'when pat' 'when meta';
+    grid-template-areas: 'when name' 'when pat' 'when fst' 'when meta';
     column-gap: 16px;
     background: var(--paper);
     border: 1px solid var(--line);
@@ -165,6 +169,12 @@ const mmdd = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.ge
     grid-area: pat;
     font-size: 0.85rem;
   }
+  .week :global(.fst) {
+    grid-area: fst;
+    font-size: 0.8rem;
+    color: var(--red);
+    font-variant: small-caps;
+  }
   .week :global(.meta) {
     grid-area: meta;
     font-size: 0.75rem;
@@ -173,7 +183,7 @@ const mmdd = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.ge
   @media (max-width: 560px) {
     .week :global(.wday a) {
       grid-template-columns: 1fr;
-      grid-template-areas: 'when' 'name' 'pat' 'meta';
+      grid-template-areas: 'when' 'name' 'pat' 'fst' 'meta';
     }
     .week :global(.when) {
       flex-direction: row;

@@ -1,5 +1,5 @@
 ---
-// Links to subscribe to the iCal feed, shown on every page by the layout.
+// Links to subscribe to the iCal feeds (saints, observances), shown on every page by the layout.
 import { absolute, t, type Lang } from '../lib/i18n';
 
 interface Props {
@@ -8,16 +8,29 @@ interface Props {
 
 const { lang } = Astro.props;
 const s = t(lang);
-const ics = absolute(`calendar/${lang}.ics`);
-const webcal = ics.replace(/^https:/, 'webcal:');
+const feeds = [
+  { label: s.subscribeSaints, ics: absolute(`calendar/${lang}.ics`) },
+  { label: s.subscribeFeasts, ics: absolute(`calendar/feasts/${lang}.ics`) },
+].map((f) => ({ ...f, webcal: f.ics.replace(/^https:/, 'webcal:') }));
 ---
 
 <section class="subscribe">
-  <span class="label">📅 {s.subscribe}:</span>
-  <!-- Google expects the feed URL unencoded in cid. -->
-  <a href={`https://calendar.google.com/calendar/render?cid=${webcal}`} target="_blank" rel="noopener noreferrer">{s.subscribeGoogle}</a>
-  <a href={webcal}>{s.subscribeIcs}</a>
-  <button type="button" class="copy-ics" data-url={ics} data-done={s.copied}>{s.copyIcs}</button>
+  <span class="label">📅 {s.subscribe}</span>
+  {
+    feeds.map((f) => (
+      <p class="feed">
+        <span class="name">{f.label}:</span>
+        {/* Google expects the feed URL unencoded in cid. */}
+        <a href={`https://calendar.google.com/calendar/render?cid=${f.webcal}`} target="_blank" rel="noopener noreferrer">
+          {s.subscribeGoogle}
+        </a>
+        <a href={f.webcal}>{s.subscribeIcs}</a>
+        <button type="button" class="copy-ics" data-url={f.ics} data-done={s.copied}>
+          {s.copyIcs}
+        </button>
+      </p>
+    ))
+  }
   <p class="note">{s.subscribeNote}</p>
 </section>
 
@@ -42,16 +55,23 @@ const webcal = ics.replace(/^https:/, 'webcal:');
     margin: 0 auto;
     padding: 12px 16px;
     border-top: 1px solid var(--line);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px 16px;
-    justify-content: center;
-    align-items: baseline;
+    text-align: center;
     font-size: 0.9rem;
   }
   .label {
     font-variant: small-caps;
     color: var(--gold);
+  }
+  .feed {
+    margin: 4px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .name {
+    color: var(--muted);
   }
   .copy-ics {
     font: inherit;
@@ -63,10 +83,8 @@ const webcal = ics.replace(/^https:/, 'webcal:');
     cursor: pointer;
   }
   .note {
-    width: 100%;
-    margin: 2px 0 0;
+    margin: 6px 0 0;
     font-size: 0.75rem;
     color: var(--muted);
-    text-align: center;
   }
 </style>
