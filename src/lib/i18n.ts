@@ -59,7 +59,6 @@ export const strings = {
     keyboardHint: 'Scorciatoie: ← → per spostarti, G giorno, S settimana, M mese, T oggi.',
     searchPlaceholder: 'Nome, CVE o prodotto…',
     searchEmpty: 'Nessun santo trovato.',
-    rankingsTitle: 'Classifiche',
     yearsAlive: 'N anni prima della scoperta',
     rankings: {
       famous: { label: 'Le più famose', note: 'Ordinate per fama: logo, pagina Wikipedia, presenza nel catalogo KEV, CVSS e numero di fonti.' },
@@ -135,7 +134,6 @@ export const strings = {
     keyboardHint: 'Shortcuts: ← → to move, D day, W week, M month, T today.',
     searchPlaceholder: 'Name, CVE or product…',
     searchEmpty: 'No saint found.',
-    rankingsTitle: 'Rankings',
     yearsAlive: 'N years before discovery',
     rankings: {
       famous: { label: 'Most famous', note: 'Sorted by fame: logo, Wikipedia page, CISA KEV listing, CVSS and number of sources.' },

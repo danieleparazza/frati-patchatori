@@ -1,5 +1,8 @@
 ---
+// Search page. The categories (most dangerous, most exploited, …) are search filters:
+// they combine with the text query, and pick the order and score shown.
 import Base from '../layouts/Base.astro';
+import { listConfig } from '../lib/saint-list';
 import { t, url, type Lang } from '../lib/i18n';
 
 interface Props {
@@ -9,173 +12,96 @@ interface Props {
 const { lang } = Astro.props;
 const s = t(lang);
 const other: Lang = lang === 'it' ? 'en' : 'it';
-const rankings = Object.entries(s.rankings) as [string, { label: string; note: string }][];
+const categories = Object.entries(s.rankings) as [string, { label: string; note: string }][];
+const config = { ...listConfig(s, lang, url('')), rankings: s.rankings, yearsLabel: s.yearsAlive };
 ---
 
 <Base lang={lang} title={s.search} alt={`${other}/${t(other).searchSlug}`}>
   <h1>{s.search}</h1>
-  <div class="modes" role="tablist">
-    <button type="button" role="tab" data-mode="search">{s.search}</button>
-    <button type="button" role="tab" data-mode="rank">{s.rankingsTitle}</button>
-  </div>
-
-  <section data-panel="search">
-    <input id="q" type="search" placeholder={s.searchPlaceholder} autocomplete="off" />
-    <ul id="results" class="list"></ul>
-    <p id="empty" hidden>{s.searchEmpty}</p>
-  </section>
-
-  <section data-panel="rank" hidden>
+  <div id="search" data-config={JSON.stringify(config)}>
+    <input id="q" type="search" placeholder={s.searchPlaceholder} autofocus autocomplete="off" />
     <div class="chips">
-      {rankings.map(([key, r]) => <button type="button" data-rank={key}>{r.label}</button>)}
+      {categories.map(([key, r]) => <button type="button" data-cat={key} aria-pressed="false">{r.label}</button>)}
     </div>
-    <p id="rank-note" class="note"></p>
-    <ol id="ranking" class="list ranked"></ol>
-  </section>
+    <p id="note" class="note" hidden></p>
+    <ol id="results" class="saint-list"></ol>
+    <p id="empty" hidden>{s.searchEmpty}</p>
+  </div>
 </Base>
 
-<script
-  is:inline
-  define:vars={{
-    lang,
-    base: url(''),
-    months: s.months,
-    labels: { santo: s.titleSanto('X'), beato: s.titleBeato('X'), padre: s.titlePadre('X') },
-    patronLabel: s.patron,
-    saintSlug: s.saintSlug,
-    rankings: s.rankings,
-    yearsLabel: s.yearsAlive,
-  }}
->
-  const $ = (sel) => document.querySelector(sel);
-  const params = new URLSearchParams(location.search);
-  const norm = (x) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-  const dayLabel = (d) => {
-    const [m, day] = d.split('-').map(Number);
-    return lang === 'it' ? `${day} ${months[m - 1]}` : `${months[m - 1]} ${day}`;
-  };
-  let index = [];
+<script>
+  import { byFame, loadIndex, readConfig, saintListItem, type IndexEntry, type ListConfig } from '../lib/saint-list';
 
-  function item(v, score) {
-    const li = document.createElement('li');
-    const a = document.createElement('a');
-    a.href = base + lang + '/' + saintSlug + '/' + v.i + '/';
-    a.textContent = labels[v.k].replace('X', v.n);
-    li.append(a);
-    if (score) {
-      const sc = document.createElement('span');
-      sc.className = 'score';
-      sc.textContent = score;
-      li.append(sc);
-    }
-    const meta = document.createElement('span');
-    meta.className = 'meta';
-    meta.textContent = `${dayLabel(v.d)} ${v.y}${v.s ? ' · ' + patronLabel : ''}${v.c.length ? ' · ' + v.c[0] : ''}`;
-    li.append(meta);
-    return li;
-  }
+  type Config = ListConfig & { rankings: Record<string, { label: string; note: string }>; yearsLabel: string };
+  type Category = { filter: (v: IndexEntry) => boolean; sort: (a: IndexEntry, b: IndexEntry) => number; score: (v: IndexEntry) => string };
 
-  // Each ranking: which entries qualify, how they sort, and what score to show.
-  const byFame = (a, b) => b.f - a.f;
-  const RANKS = {
+  const root = document.getElementById('search')!;
+  const cfg = readConfig<Config>(root);
+  const q = document.getElementById('q') as HTMLInputElement;
+  const results = document.getElementById('results')!;
+  const note = document.getElementById('note')!;
+  const empty = document.getElementById('empty')!;
+  const norm = (x: string) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+  // Each category: which entries qualify, how they sort, and what score to show.
+  const CATEGORIES: Record<string, Category> = {
     famous: { filter: () => true, sort: byFame, score: (v) => `★ ${v.f.toFixed(1)}` },
-    dangerous: { filter: (v) => v.v != null, sort: (a, b) => b.v - a.v || byFame(a, b), score: (v) => `CVSS ${v.v.toFixed(1)}` },
+    dangerous: { filter: (v) => v.v != null, sort: (a, b) => b.v! - a.v! || byFame(a, b), score: (v) => `CVSS ${v.v!.toFixed(1)}` },
     exploited: {
       filter: (v) => v.x,
-      sort: (a, b) => b.r - a.r || (b.v ?? 0) - (a.v ?? 0) || byFame(a, b),
+      sort: (a, b) => Number(b.r) - Number(a.r) || (b.v ?? 0) - (a.v ?? 0) || byFame(a, b),
       score: (v) => (v.r ? 'KEV · ransomware' : 'KEV'),
     },
-    longest: { filter: (v) => v.l != null, sort: (a, b) => b.l - a.l || byFame(a, b), score: (v) => yearsLabel.replace('N', v.l) },
+    longest: { filter: (v) => v.l != null, sort: (a, b) => b.l! - a.l! || byFame(a, b), score: (v) => cfg.yearsLabel.replace('N', String(v.l)) },
     absurd: { filter: (v) => v.a, sort: byFame, score: () => '' },
   };
 
-  function renderSearch() {
-    const term = norm($('#q').value.trim());
-    const results = $('#results');
+  const params = new URLSearchParams(location.search);
+  let category: string | null = CATEGORIES[params.get('r') ?? ''] ? params.get('r') : null;
+  let index: IndexEntry[] = [];
+
+  function render() {
+    const term = norm(q.value.trim());
+    const cat = category ? CATEGORIES[category] : null;
+    root.querySelectorAll<HTMLButtonElement>('[data-cat]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.cat === category)));
+    note.hidden = !category;
+    note.textContent = category ? cfg.rankings[category].note : '';
+    results.classList.toggle('ranked', !!cat);
     results.replaceChildren();
-    $('#empty').hidden = true;
-    if (term.length < 2) return;
-    const hits = index
-      .filter((v) => norm([v.n, ...v.c, v.p].join(' ')).includes(term))
-      .sort((a, b) => b.s - a.s || byFame(a, b))
-      .slice(0, 50);
-    $('#empty').hidden = hits.length > 0;
-    hits.forEach((v) => results.append(item(v)));
+    empty.hidden = true;
+
+    const byText = term.length >= 2;
+    if (!byText && !cat) return;
+    let hits = index;
+    if (cat) hits = hits.filter(cat.filter);
+    if (byText) hits = hits.filter((v) => norm([v.n, ...v.c, v.p].join(' ')).includes(term));
+    hits = [...hits].sort(cat ? cat.sort : (a, b) => Number(b.s) - Number(a.s) || byFame(a, b)).slice(0, cat ? 100 : 50);
+    empty.hidden = hits.length > 0;
+    hits.forEach((v) => results.append(saintListItem(cfg, v, cat?.score(v))));
+
+    const qs = new URLSearchParams();
+    if (q.value) qs.set('q', q.value);
+    if (category) qs.set('r', category);
+    history.replaceState(null, '', qs.toString() ? '?' + qs : location.pathname);
   }
 
-  function renderRank(key) {
-    const r = RANKS[key];
-    document.querySelectorAll('[data-rank]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.rank === key)));
-    $('#rank-note').textContent = rankings[key].note;
-    const list = $('#ranking');
-    list.replaceChildren();
-    index.filter(r.filter).sort(r.sort).slice(0, 100).forEach((v) => list.append(item(v, r.score(v))));
-    history.replaceState(null, '', '?r=' + key);
-  }
-
-  function setMode(mode) {
-    document.querySelectorAll('[data-mode]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.mode === mode)));
-    document.querySelectorAll('[data-panel]').forEach((p) => (p.hidden = p.dataset.panel !== mode));
-    if (mode === 'rank') renderRank(RANKS[params.get('r')] ? params.get('r') : 'famous');
-    else {
-      $('#q').focus();
-      history.replaceState(null, '', $('#q').value ? '?q=' + encodeURIComponent($('#q').value) : location.pathname);
-    }
-  }
-
-  $('#q').value = params.get('q') ?? '';
-  $('#q').addEventListener('input', () => {
-    renderSearch();
-    history.replaceState(null, '', '?q=' + encodeURIComponent($('#q').value));
-  });
-  document.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => setMode(b.dataset.mode)));
-  document.querySelectorAll('[data-rank]').forEach((b) =>
+  q.value = params.get('q') ?? '';
+  q.addEventListener('input', render);
+  root.querySelectorAll<HTMLButtonElement>('[data-cat]').forEach((b) =>
     b.addEventListener('click', () => {
-      params.set('r', b.dataset.rank);
-      renderRank(b.dataset.rank);
+      category = category === b.dataset.cat ? null : b.dataset.cat!;
+      render();
     }),
   );
-
-  fetch(base + 'search-index.json')
-    .then((r) => r.json())
-    .then((data) => {
-      index = data;
-      renderSearch();
-      setMode(params.has('r') ? 'rank' : 'search');
-    });
+  loadIndex(cfg.base).then((data) => {
+    index = data;
+    render();
+  });
 </script>
 
 <style>
   h1 {
     font-variant: small-caps;
-  }
-  .modes,
-  .chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-bottom: 16px;
-  }
-  .modes button,
-  .chips button {
-    font: inherit;
-    font-size: 0.9rem;
-    padding: 2px 14px;
-    border: 1px solid var(--line);
-    background: var(--paper);
-    color: var(--ink);
-    border-radius: 999px;
-    cursor: pointer;
-  }
-  .modes button {
-    font-variant: small-caps;
-    font-size: 1rem;
-  }
-  .modes button[aria-selected='true'],
-  .chips button[aria-pressed='true'] {
-    background: var(--red);
-    border-color: var(--red);
-    color: var(--paper);
   }
   input {
     width: 100%;
@@ -186,47 +112,31 @@ const rankings = Object.entries(s.rankings) as [string, { label: string; note: s
     background: var(--paper);
     color: var(--ink);
   }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 12px 0 8px;
+  }
+  .chips button {
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 2px 14px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .chips button[aria-pressed='true'] {
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--paper);
+  }
   .note {
     font-size: 0.85rem;
     color: var(--muted);
     font-style: italic;
     margin: 0 0 8px;
-  }
-  .list {
-    list-style: none;
-    padding: 0;
-    margin: 16px 0 0;
-  }
-  .ranked {
-    counter-reset: rank;
-  }
-  .list :global(li) {
-    padding: 8px 0;
-    border-bottom: 1px dotted var(--line);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px 12px;
-    align-items: baseline;
-  }
-  .ranked :global(li)::before {
-    counter-increment: rank;
-    content: counter(rank);
-    min-width: 2.2ch;
-    text-align: right;
-    font-weight: 700;
-    color: var(--gold);
-  }
-  .list :global(.score) {
-    font-family: ui-monospace, Menlo, monospace;
-    font-size: 0.8rem;
-    color: var(--red);
-  }
-  .list :global(.meta) {
-    color: var(--muted);
-    font-size: 0.85rem;
-  }
-  .ranked :global(.meta) {
-    width: 100%;
-    padding-left: calc(2.2ch + 12px);
   }
 </style>

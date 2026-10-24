@@ -189,4 +189,42 @@ const month = String(new Date().getMonth() + 1).padStart(2, '0');
     border-color: var(--kev);
     color: var(--kev);
   }
+  /* Result rows built client-side by src/lib/saint-list.ts (search and rankings). */
+  .saint-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0;
+  }
+  .saint-list li {
+    padding: 8px 0;
+    border-bottom: 1px dotted var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    align-items: baseline;
+  }
+  .saint-list .score {
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: 0.8rem;
+    color: var(--red);
+  }
+  .saint-list .meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .saint-list.ranked {
+    counter-reset: rank;
+  }
+  .saint-list.ranked li::before {
+    counter-increment: rank;
+    content: counter(rank);
+    min-width: 2.2ch;
+    text-align: right;
+    font-weight: 700;
+    color: var(--gold);
+  }
+  .saint-list.ranked .meta {
+    width: 100%;
+    padding-left: calc(2.2ch + 12px);
+  }
 </style>
