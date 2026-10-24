@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San MaginotDNS, che aggirò la linea di difesa",
+    "patronage": "dei resolver DNS, dei server che inoltrano e risolvono insieme e delle fortificazioni prese alle spalle.",
+    "hagiography": "Nell'agosto 2023 un gruppo di ricercatori guidato da Xiang Li dell'Università Tsinghua presentò a USENIX Security un attacco di avvelenamento della cache contro i server DNS che fanno contemporaneamente da resolver e da forwarder. Un difetto nei controlli di competenza (bailiwick) permetteva di iniettare risposte false per interi domini di primo livello. Colpiva BIND, Knot Resolver, Microsoft DNS e Technitium: come la linea Maginot, una difesa robusta aggirata passando di lato.",
+    "prayer": "O San MaginotDNS, che entri dal fianco che nessuno sorvegliava, fa' che le nostre cache accettino solo risposte di chi ne ha l'autorità. Amen.",
+    "feast": "Si festeggia aggiornando BIND e gli altri resolver e ripassando la differenza tra inoltrare e risolvere.",
+    "proverb": "Il muro più forte cade dalla parte che non guardi."
+  },
+  "en": {
+    "title": "Saint MaginotDNS, Who Went Around the Line",
+    "patronage": "DNS resolvers, servers that forward and resolve at once, and fortifications taken from behind.",
+    "hagiography": "In August 2023 a group of researchers led by Xiang Li of Tsinghua University presented at USENIX Security a cache poisoning attack against DNS servers that act as both resolver and forwarder. A flaw in their bailiwick checks let attackers inject false answers for entire top-level domains. It hit BIND, Knot Resolver, Microsoft DNS and Technitium: like the Maginot Line, a strong defence bypassed by going round the side.",
+    "prayer": "O Saint MaginotDNS, who enters by the flank nobody was guarding, let our caches accept answers only from those with authority. Amen.",
+    "feast": "Celebrated by updating BIND and the other resolvers and revising the difference between forwarding and resolving.",
+    "proverb": "The strongest wall falls on the side you're not watching."
+  }
+}

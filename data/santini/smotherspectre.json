@@ -1,0 +1,10 @@
+{
+  "label": "SMoTherSpectre",
+  "motto": "SALTUM AUDIT",
+  "niche": [
+    "#1f2436",
+    "#3a4258"
+  ],
+  "accent": "#2b3246",
+  "emblem": "<path d=\"M110 220 V170 H150\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<path d=\"M150 170 L180 150\" stroke=\"#7dcea0\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<path d=\"M150 170 L180 190\" stroke=\"#e74c3c\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/>\n<circle cx=\"150\" cy=\"170\" r=\"6\" fill=\"#d9ad55\"/>\n<path d=\"M180 150 l-8 1 l3 7\" fill=\"none\" stroke=\"#7dcea0\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M180 190 l-8 -2 l1 8\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<g fill=\"none\" stroke=\"#bb8fce\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M196 196 a10 10 0 0 1 0 20\"/><path d=\"M204 190 a18 18 0 0 1 0 32\"/></g>\n<circle cx=\"110\" cy=\"224\" r=\"5\" fill=\"#fbf3dd\"/>"
+}

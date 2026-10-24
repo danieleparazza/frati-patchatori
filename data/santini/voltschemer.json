@@ -1,0 +1,10 @@
+{
+  "label": "VoltSchemer",
+  "motto": "VOLTA SUSURRANT",
+  "niche": [
+    "#24203f",
+    "#433b72"
+  ],
+  "accent": "#353066",
+  "emblem": "<ellipse cx=\"150\" cy=\"214\" rx=\"50\" ry=\"14\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"150\" cy=\"210\" rx=\"34\" ry=\"8\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"126\" y=\"140\" width=\"48\" height=\"66\" rx=\"8\" fill=\"#2b2b2b\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M146 156 l-8 18 h10 l-6 18 l16 -24 h-10 l6 -12 z\" fill=\"#f1c40f\"/>\n<path d=\"M200 214 C214 214 214 238 196 240 H120\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M104 240 l6 -6 l6 6 l6 -6 l6 6\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"2.5\"/>\n<g fill=\"none\" stroke=\"#bb8fce\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M184 150 a10 10 0 0 1 0 16\"/><path d=\"M192 144 a18 18 0 0 1 0 28\"/></g>"
+}

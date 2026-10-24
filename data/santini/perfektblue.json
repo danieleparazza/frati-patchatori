@@ -1,0 +1,10 @@
+{
+  "label": "PerfektBlue",
+  "motto": "PER RADIOPHONUM",
+  "niche": [
+    "#101d3a",
+    "#214070"
+  ],
+  "accent": "#182e52",
+  "emblem": "<path d=\"M150 134 L172 154 L150 174 V134 M150 174 L172 194 L150 214\" fill=\"none\" stroke=\"#5dade2\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n<path d=\"M150 134 V214 M150 154 L128 174 M150 194 L128 174\" fill=\"none\" stroke=\"#5dade2\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n<rect x=\"104\" y=\"220\" width=\"92\" height=\"20\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<circle cx=\"118\" cy=\"230\" r=\"4\" fill=\"#2b1d14\"/><rect x=\"150\" y=\"226\" width=\"36\" height=\"8\" fill=\"#2b1d14\"/>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "LoopyTicket",
+  "motto": "EGO AUTHENTICO EGO",
+  "niche": [
+    "#13203a",
+    "#2a4570"
+  ],
+  "accent": "#1c3052",
+  "emblem": "<path d=\"M150 134 A46 46 0 1 0 196 180\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"5\"/>\n<path d=\"M186 160 L196 180 L206 162\" stroke=\"#d9ad55\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>\n<rect x=\"118\" y=\"164\" width=\"64\" height=\"34\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M118 174 a5 5 0 0 0 0 14 M182 174 a5 5 0 0 1 0 14\" fill=\"#13203a\"/>\n<text x=\"150\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#2b1d14\">TICKET</text>"
+}

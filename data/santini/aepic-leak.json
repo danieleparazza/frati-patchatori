@@ -1,0 +1,10 @@
+{
+  "label": "ÆPIC Leak",
+  "motto": "ÆPICUS, NON SECRETUS",
+  "niche": [
+    "#1d2d3a",
+    "#3a5a72"
+  ],
+  "accent": "#264052",
+  "emblem": "<rect x=\"114\" y=\"132\" width=\"72\" height=\"72\" rx=\"4\" fill=\"#3d4a55\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"3\"><path d=\"M124 132 V122 M138 132 V122 M152 132 V122 M166 132 V122 M178 132 V122 M124 204 V214 M138 204 V214 M152 204 V214 M166 204 V214 M178 204 V214\"/></g>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#fbf3dd\">Æ</text>\n<g fill=\"#5dade2\"><path d=\"M150 216 q-7 12 0 16 q7 -4 0 -16z\"/><path d=\"M134 228 q-5 9 0 12 q5 -3 0 -12z\"/><path d=\"M166 228 q-5 9 0 12 q5 -3 0 -12z\"/></g>"
+}

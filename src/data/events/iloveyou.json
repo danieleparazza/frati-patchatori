@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "La lettera d'amore avvelenata",
+    "chronicle": "Il 4 maggio 2000 partì da Manila un worm in VBScript che arrivava come 'LOVE-LETTER-FOR-YOU.TXT.vbs' con l'oggetto ILOVEYOU. Chi apriva la dichiarazione la rispediva a tutta la rubrica di Outlook, mentre il worm sovrascriveva file e rubava password. In circa un giorno fece il giro del mondo, costringendo il Pentagono, il Parlamento britannico e moltissime aziende a spegnere la posta; le stime dei danni vanno da diversi a oltre dieci miliardi di dollari. L'autore, lo studente filippino Onel de Guzman, non fu mai processato perché le Filippine non avevano ancora una legge applicabile sui reati informatici.",
+    "lesson": "Le Filippine approvarono poche settimane dopo una legge sul commercio elettronico che puniva anche questi reati, e il mondo imparò a diffidare delle estensioni nascoste.",
+    "prayer": "O falso innamorato di Manila, che sussurravi parole dolci con estensione .vbs, mostraci sempre le estensioni dei file e insegnaci che l'amore vero non chiede di eseguire script. Amen.",
+    "remembrance": "Si ricorda attivando la visualizzazione delle estensioni dei file e bloccando gli script che arrivano per posta."
+  },
+  "en": {
+    "title": "The Poisoned Love Letter",
+    "chronicle": "On 4 May 2000 a VBScript worm set off from Manila, arriving as 'LOVE-LETTER-FOR-YOU.TXT.vbs' under the subject ILOVEYOU. Whoever opened the declaration forwarded it to their whole Outlook address book, while the worm overwrote files and stole passwords. It circled the globe in about a day, forcing the Pentagon, the UK Parliament and countless companies to shut down email; damage estimates run from several to over ten billion dollars. Its author, Filipino student Onel de Guzman, was never prosecuted because the Philippines had no applicable cybercrime law at the time.",
+    "lesson": "A few weeks later the Philippines passed an electronic commerce law that also covered such crimes, and the world learned to distrust hidden file extensions.",
+    "prayer": "O false lover from Manila, who whispered sweet nothings with a .vbs extension, keep our file extensions visible and teach us that true love never asks to run a script. Amen.",
+    "remembrance": "Remembered by turning on file-extension display and blocking scripts that arrive by email."
+  }
+}

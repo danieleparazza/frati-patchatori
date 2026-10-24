@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Crowhammer, che spennò il falco con un martello",
+    "patronage": "della crittografia post-quantistica, delle tabelle scolpite in memoria e dei bit che cambiano idea.",
+    "hagiography": "Nel giugno 2025 Calvin Abou Haidar, Quentin Payet e Mehdi Tibouchi mostrarono che Falcon, la firma post-quantistica scelta dal NIST, cadeva sotto Rowhammer. Bastava far scattare un solo bit nella tabella che guida il campionatore gaussiano per deformare le firme abbastanza da ricostruire l'intera chiave privata, dopo qualche centinaio di milioni di firme. Il falco, insomma, ridotto a corvo.",
+    "prayer": "O Beato Crowhammer, che con un colpo solo abbatti un algoritmo che regge ai computer quantistici, proteggi le nostre tabelle dai martelli della RAM. Amen.",
+    "feast": "Si festeggia scartando le firme sospettosamente corte, come suggeriscono gli autori, e controllando che la propria RAM sia della specie che non si lascia martellare.",
+    "proverb": "Resiste al quanto, ma non al martello."
+  },
+  "en": {
+    "title": "Blessed Crowhammer, Who Plucked the Falcon With a Hammer",
+    "patronage": "post-quantum cryptography, tables carved into memory, and bits that change their minds.",
+    "hagiography": "In June 2025 Calvin Abou Haidar, Quentin Payet and Mehdi Tibouchi showed that Falcon, the post-quantum signature chosen by NIST, fell to Rowhammer. A single bit flipped in the table that drives its Gaussian sampler skewed the signatures enough to rebuild the whole private key, given a few hundred million of them. The falcon, in short, reduced to a crow.",
+    "prayer": "O Blessed Crowhammer, who fells with a single blow an algorithm built to withstand quantum computers, shield our tables from the hammers of RAM. Amen.",
+    "feast": "Celebrated by rejecting suspiciously short signatures, as the authors suggest, and checking that your RAM is the kind that does not take a hammering.",
+    "proverb": "Proof against the quantum, not against the hammer."
+  }
+}

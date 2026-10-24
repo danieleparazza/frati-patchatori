@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello dell'oleodotto",
+    "chronicle": "Il 7 maggio 2021 il ransomware DarkSide colpì la rete informatica di Colonial Pipeline, e l'azienda fermò per precauzione il più grande oleodotto di carburanti degli Stati Uniti per diversi giorni. Lungo la costa sud-orientale scattarono acquisti dettati dal panico e molte stazioni di servizio rimasero a secco. Gli attaccanti erano entrati da un vecchio account VPN senza autenticazione a più fattori, la cui password era trapelata. Colonial pagò circa 75 bitcoin; DarkSide dichiarò poi che il suo scopo era fare soldi, non creare problemi alla società, come se un oleodotto fermo fosse un effetto collaterale.",
+    "lesson": "Fece del ransomware una questione di sicurezza nazionale negli Stati Uniti e portò a nuove regole per gli operatori di oleodotti. Mostrò anche che un attacco all'informatica d'ufficio può fermare impianti fisici.",
+    "prayer": "O DarkSide, che dicevi di volere solo soldi e non problemi, impara che non si chiude un oleodotto senza conseguenze, e insegna a noi a spegnere gli account VPN dimenticati. Amen.",
+    "remembrance": "Si ricorda disattivando gli account che nessuno usa più, chiedendo l'MFA su ogni accesso remoto e separando le reti d'ufficio da quelle che muovono il carburante."
+  },
+  "en": {
+    "title": "The Scourge of the Pipeline",
+    "chronicle": "On 7 May 2021 DarkSide ransomware hit Colonial Pipeline's IT network, and the company shut down the largest fuel pipeline in the US as a precaution for several days. Panic buying broke out along the Southeast coast and many filling stations ran dry. The attackers had come in through an old VPN account without multi-factor authentication, whose password had leaked. Colonial paid about 75 bitcoin; DarkSide then declared that its goal was to make money, not to create problems for society, as if a halted pipeline were a side effect.",
+    "lesson": "It turned ransomware into a US national security issue and led to new rules for pipeline operators. It also showed that an attack on office IT can stop physical operations.",
+    "prayer": "O DarkSide, who claimed to want only money and no trouble, learn that you can't shut a pipeline without consequences, and teach us to switch off forgotten VPN accounts. Amen.",
+    "remembrance": "Remembered by disabling accounts nobody uses any more, requiring MFA on all remote access and separating office networks from the ones that move fuel."
+  }
+}

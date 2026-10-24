@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SgxPectre, lo spettro nel caveau",
+    "patronage": "delle enclave SGX, dei segreti custoditi in cassaforte e dei fantasmi che passano attraverso i muri.",
+    "hagiography": "Nel 2018 un gruppo di ricercatori della Ohio State University mostrò che Spectre non si fermava davanti alle enclave di Intel SGX, le stanze blindate del processore pensate per resistere perfino al sistema operativo. Ingannando il predittore dei salti dall'esterno, si poteva far eseguire all'enclave codice speculativo che lasciava tracce nella cache, e leggerne così i segreti, comprese le chiavi delle enclave fornite da Intel stessa.",
+    "prayer": "O Beato SgxPectre, che entri nel caveau senza aprire la porta, insegna ai nostri predittori a non fidarsi degli sconosciuti. Amen.",
+    "feast": "Si festeggia aggiornando microcodice e SDK di SGX, e lasciando una candela accesa per gli spettri che verranno.",
+    "proverb": "Cassaforte blindata, ma lo spettro passa lo stesso."
+  },
+  "en": {
+    "title": "Blessed SgxPectre, the Ghost in the Vault",
+    "patronage": "SGX enclaves, secrets kept in safes, and ghosts that walk through walls.",
+    "hagiography": "In 2018 a team of researchers from Ohio State University showed that Spectre did not stop at Intel SGX enclaves, the processor's strongrooms designed to resist even the operating system. By poisoning the branch predictor from outside, they could make the enclave run speculative code that left traces in the cache, and so read its secrets, including the keys of enclaves supplied by Intel itself.",
+    "prayer": "O Blessed SgxPectre, who enters the vault without opening the door, teach our predictors not to trust strangers. Amen.",
+    "feast": "Celebrated by updating the SGX microcode and SDK, and leaving a candle lit for the ghosts still to come.",
+    "proverb": "Lock the vault as tight as you please, the ghost walks through with ease."
+  }
+}

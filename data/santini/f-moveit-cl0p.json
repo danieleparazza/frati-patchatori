@@ -1,0 +1,11 @@
+{
+  "label": "MOVEit",
+  "motto": "MOVEO ERGO FURANTUR",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M110 150 H140 L148 158 H190 V214 H110 Z\" fill=\"#3a3a3a\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"192\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#d9ad55\" >' OR 1=1</text>\n<path d=\"M120 228 H176\" stroke=\"#fbf3dd\" stroke-width=\"4\"/><polygon points=\"186,228 174,220 174,236\" fill=\"#fbf3dd\"/>"
+}

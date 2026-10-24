@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San VENOM, veleno nel floppy virtuale",
+    "patronage": "delle macchine virtuali, dei lettori di floppy che nessuno usa più e delle righe di codice dimenticate dal 2004.",
+    "hagiography": "Il 13 maggio 2015 Jason Geffner di CrowdStrike rivelò VENOM (CVE-2015-3456): un buffer overflow nell'emulazione del controller del floppy in QEMU, usato da KVM e Xen. Dalla macchina virtuale si poteva mandare in crash l'host o, forse, eseguirvi codice, scappando così dalla propria gabbia verso le altre VM vicine. Il bello è che il floppy virtuale era vulnerabile anche quando nessun floppy era collegato, e il codice era lì dal 2004.",
+    "prayer": "O San VENOM, che esci dalla gabbia passando da un lettore di floppy, fa' che le nostre macchine virtuali restino ciascuna a casa propria. Amen.",
+    "feast": "Si festeggia aggiornando QEMU e sorridendo all'idea di un attacco che passa dal floppy nel 2015.",
+    "proverb": "Anche il floppy che non c’è può morderti."
+  },
+  "en": {
+    "title": "Saint VENOM, Poison in the Virtual Floppy",
+    "patronage": "virtual machines, floppy drives nobody uses any more, and lines of code forgotten since 2004.",
+    "hagiography": "On 13 May 2015 Jason Geffner of CrowdStrike revealed VENOM (CVE-2015-3456): a buffer overflow in QEMU's floppy controller emulation, used by KVM and Xen. From a virtual machine one could crash the host or, perhaps, run code on it, escaping one's own cage toward the neighbouring VMs. The twist is that the virtual floppy was vulnerable even when no floppy was attached, and the code had been there since 2004.",
+    "prayer": "O Saint VENOM, who escapes the cage by way of a floppy drive, let our virtual machines each stay in their own home. Amen.",
+    "feast": "Celebrated by updating QEMU and smiling at the idea of a 2015 attack that goes through the floppy.",
+    "proverb": "Even the floppy that isn't there can bite you."
+  }
+}

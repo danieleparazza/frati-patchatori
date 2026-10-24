@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Shim Shady, il vero bootloader",
+    "patronage": "dei bootloader, dell'avvio da rete e dei programmi che partono prima di tutti gli altri.",
+    "hagiography": "Nel febbraio 2024 Eclypsium raccontò la CVE-2023-40547, trovata da Bill Demirkapi del Microsoft Security Response Center: shim, il piccolo bootloader che permette a quasi tutte le distribuzioni Linux di avviarsi con Secure Boot, si fidava troppo dei dati ricevuti durante l'avvio da rete via HTTP. Un attaccante in grado di intercettare quel traffico poteva prendere il controllo della macchina prima ancora che il sistema operativo partisse.",
+    "prayer": "O San Shim Shady, che ti alzi prima di tutti, fa' che i nostri bootloader non credano a ogni risposta HTTP. Amen.",
+    "feast": "Si festeggia aggiornando shim alla 15.8, revocando i vecchi con SBAT e chiedendo, per tradizione, al vero Shim Shady di alzarsi.",
+    "proverb": "Chi parte per primo, decide per tutti."
+  },
+  "en": {
+    "title": "Saint Shim Shady, the Real Bootloader",
+    "patronage": "bootloaders, network boot, and programs that start before everyone else.",
+    "hagiography": "In February 2024 Eclypsium told the story of CVE-2023-40547, found by Bill Demirkapi of the Microsoft Security Response Center: shim, the tiny bootloader that lets almost every Linux distribution start under Secure Boot, trusted the data it received during HTTP network boot too much. An attacker able to intercept that traffic could take over the machine before the operating system even started.",
+    "prayer": "O Saint Shim Shady, who rises before everyone, keep our bootloaders from believing every HTTP response. Amen.",
+    "feast": "Celebrated by updating shim to 15.8, revoking the old ones with SBAT and, by tradition, asking the real Shim Shady to please stand up.",
+    "proverb": "Whoever starts first decides for everyone."
+  }
+}

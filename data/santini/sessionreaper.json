@@ -1,0 +1,10 @@
+{
+  "label": "SessionReaper",
+  "motto": "MESSIS SESSIONUM",
+  "niche": [
+    "#1a2318",
+    "#36482f"
+  ],
+  "accent": "#28401f",
+  "emblem": "<path d=\"M118 240 Q116 150 150 120\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<path d=\"M150 120 Q190 118 196 150 Q168 156 150 134 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g stroke=\"#e8c45c\" stroke-width=\"2.5\"><path d=\"M138 206 l-8 10 M150 212 l0 12 M162 206 l8 10 M128 196 l-10 6 M172 196 l10 6\"/></g>\n<g fill=\"#e8c45c\"><ellipse cx=\"128\" cy=\"202\" rx=\"3\" ry=\"6\"/><ellipse cx=\"150\" cy=\"208\" rx=\"3\" ry=\"6\"/><ellipse cx=\"172\" cy=\"202\" rx=\"3\" ry=\"6\"/></g>"
+}

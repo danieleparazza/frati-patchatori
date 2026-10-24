@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ParaShells, che diventava root installando",
+    "patronage": "delle macchine virtuali su Mac, dei socket aperti a tutti e degli argomenti iniettati di nascosto.",
+    "hagiography": "Il 15 settembre 2026 Yuval Moravchick di JFrog descrisse ParaShells, una scalata di privilegi locale in Parallels Desktop per Mac. Il servizio prl_disp_service gira come root ed esponeva un socket scrivibile da chiunque; sfruttando l'installazione di un'appliance, si poteva iniettare un argomento in tar e far eseguire come root uno script a scelta. Qualsiasi account locale poteva così diventare amministratore.",
+    "prayer": "O San ParaShells, che da semplice utente installi una shell di root, fa' che i nostri socket privilegiati non ascoltino chiunque passi. Amen.",
+    "feast": "Si festeggia aggiornando Parallels Desktop alla 27.0.0 e verificando chi può parlare con i servizi che girano come root.",
+    "proverb": "Socket aperto a tutti, root per il primo che bussa."
+  },
+  "en": {
+    "title": "Saint ParaShells, Who Turned Root by Installing",
+    "patronage": "virtual machines on the Mac, sockets open to everyone, and arguments injected on the sly.",
+    "hagiography": "On 15 September 2026 Yuval Moravchick of JFrog described ParaShells, a local privilege escalation in Parallels Desktop for Mac. The prl_disp_service daemon runs as root and exposed a world-writable socket; abusing the appliance install, one could inject an argument into tar and have it run a chosen script as root. Any local account could thus become administrator.",
+    "prayer": "O Saint ParaShells, who from an ordinary user installs a root shell, let our privileged sockets not listen to whoever passes by. Amen.",
+    "feast": "Celebrated by updating Parallels Desktop to 27.0.0 and checking who can talk to the services that run as root.",
+    "proverb": "A socket open to all, root for the first to knock."
+  }
+}

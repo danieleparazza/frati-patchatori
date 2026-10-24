@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Magellan, che scoprì le rotte di SQLite",
+    "patronage": "di SQLite ovunque si nasconda, dell'estensione FTS3 e dei dispositivi che non sapevi parlassero SQL.",
+    "hagiography": "Nel dicembre 2018 il Tencent Blade Team rese noto Magellan, un difetto nell'estensione full-text FTS3 di SQLite: con modifiche artefatte alle tabelle ombra, certe query provocavano un overflow intero e poi di buffer, fino all'esecuzione di codice. Poiché SQLite è ovunque, da Chrome a Google Home, bastava poter inviare SQL per rischiare; il creatore di SQLite ridimensionò la portata, ma la correzione arrivò nella 3.25.3.",
+    "prayer": "O San Magellan, che trovi rotte nuove in un database che è in ogni tasca, fa' che nessuno possa inviare SQL a chi non lo attende. Amen.",
+    "feast": "Si festeggia aggiornando SQLite alla 3.25.3 e chiedendosi in quanti dei propri dispositivi giri, in silenzio.",
+    "proverb": "SQLite è dappertutto, e dappertutto si naviga."
+  },
+  "en": {
+    "title": "Saint Magellan, Who Charted SQLite's Routes",
+    "patronage": "SQLite wherever it hides, the FTS3 extension, and devices you never knew spoke SQL.",
+    "hagiography": "In December 2018 the Tencent Blade Team disclosed Magellan, a flaw in SQLite's FTS3 full-text search extension: with crafted changes to shadow tables, certain queries triggered an integer and then a buffer overflow, up to code execution. Since SQLite is everywhere, from Chrome to Google Home, merely being able to send SQL was a risk; SQLite's creator played down its reach, but the fix landed in 3.25.3.",
+    "prayer": "O Saint Magellan, who finds new routes in a database that is in every pocket, let no one send SQL to those not expecting it. Amen.",
+    "feast": "Celebrated by updating SQLite to 3.25.3 and wondering how many of your devices run it, quietly.",
+    "proverb": "SQLite is everywhere, and everywhere can be sailed."
+  }
+}

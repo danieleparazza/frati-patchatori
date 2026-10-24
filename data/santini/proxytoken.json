@@ -1,0 +1,10 @@
+{
+  "label": "ProxyToken",
+  "motto": "SINE TESSERA INTRAT",
+  "niche": [
+    "#1d2b40",
+    "#3a5272"
+  ],
+  "accent": "#273c58",
+  "emblem": "<circle cx=\"150\" cy=\"178\" r=\"34\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"178\" r=\"24\" fill=\"none\" stroke=\"#8c6a22\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"184\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#2b1d14\">TKN</text>\n<path d=\"M150 134 L116 150 V178 C116 196 132 208 150 214 C168 208 184 196 184 178 V150 Z\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\" stroke-dasharray=\"4 5\"/>\n<path d=\"M126 224 h48\" stroke=\"#2ecc71\" stroke-width=\"4\"/><path d=\"M130 224 l6 6 l10 -12\" stroke=\"#2ecc71\" stroke-width=\"3\" fill=\"none\"/>"
+}

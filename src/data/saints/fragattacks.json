@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San FragAttacks, che ricompone i pezzi a modo suo",
+    "patronage": "delle reti Wi-Fi di ogni epoca, dei frammenti dimenticati in memoria e dei router che non vedranno mai un aggiornamento.",
+    "hagiography": "L'11 maggio 2021 Mathy Vanhoef, lo stesso di KRACK, presentò FragAttacks: una dozzina di vulnerabilità nel Wi-Fi, tre delle quali nel progetto stesso dello standard 802.11, presenti fin dalle origini del 1997. Giocando con l'aggregazione e la frammentazione dei pacchetti, un attaccante nel raggio della rete poteva iniettare pacchetti o, in certi casi, sottrarre dati, su WEP come su WPA3. Quasi ogni dispositivo era colpito da almeno un difetto.",
+    "prayer": "O San FragAttacks, che rimetti insieme i frammenti come ti pare, fa' che i nostri pacchetti si ricompongano solo con i propri pezzi. Amen.",
+    "feast": "Si festeggia aggiornando router, schede di rete e telefoni, e usando HTTPS anche sulla rete di casa.",
+    "proverb": "Frammento dimenticato, pacchetto avvelenato."
+  },
+  "en": {
+    "title": "Saint FragAttacks, Who Reassembles the Pieces His Own Way",
+    "patronage": "Wi-Fi networks of every era, fragments forgotten in memory, and routers that will never see an update.",
+    "hagiography": "On 11 May 2021 Mathy Vanhoef, the same researcher behind KRACK, presented FragAttacks: a dozen Wi-Fi vulnerabilities, three of them in the design of the 802.11 standard itself, present since its beginnings in 1997. By playing with packet aggregation and fragmentation, an attacker within range could inject packets or, in some cases, steal data, on WEP as much as on WPA3. Almost every device was hit by at least one flaw.",
+    "prayer": "O Saint FragAttacks, who puts fragments back together as he pleases, let our packets reassemble only from their own pieces. Amen.",
+    "feast": "Celebrated by updating routers, network cards and phones, and using HTTPS even on the home network.",
+    "proverb": "A forgotten fragment makes a poisoned packet."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "LockBit",
+  "motto": "TEMPUS FUGIT LOCKBIT CADIT",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<path d=\"M126 132 H174 V142 C174 160 156 170 156 180 C156 190 174 200 174 218 V228 H126 V218 C126 200 144 190 144 180 C144 170 126 160 126 142 Z\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M132 146 H168 C166 158 152 166 150 176 C148 166 134 158 132 146 Z\" fill=\"#d9ad55\"/>\n<path d=\"M136 222 C140 208 160 208 164 222 Z\" fill=\"#d9ad55\"/>\n<rect x=\"120\" y=\"126\" width=\"60\" height=\"8\" rx=\"2\" fill=\"#fbf3dd\"/><rect x=\"120\" y=\"226\" width=\"60\" height=\"8\" rx=\"2\" fill=\"#fbf3dd\"/>"
+}

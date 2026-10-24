@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "Il miracolo della coccinella",
+    "prodigy": "Il 27 gennaio 2021 Europol ed Eurojust annunciarono che le polizie di otto paesi avevano preso il controllo dell'infrastruttura di Emotet, reindirizzando le macchine infette verso server delle forze dell'ordine. Emotet era un \"loader\": entrava con documenti Office nelle email e poi affittava l'accesso alle vittime a bande di ransomware come Ryuk e Conti. Il 25 aprile 2021 gli investigatori inviarono un aggiornamento che disinstallò Emotet dai computer delle vittime.",
+    "thaumaturge": "Le polizie di Paesi Bassi, Germania, Stati Uniti, Regno Unito, Francia, Lituania, Canada e Ucraina, coordinate da Europol ed Eurojust nell'Operazione Ladybird.",
+    "thanksgiving": "Per una porta d'ingresso del crimine chiusa in otto paesi insieme, e per un aggiornamento che, una volta tanto, ha portato via il male invece di portarlo, rendiamo grazie. Amen."
+  },
+  "en": {
+    "title": "The Miracle of the Ladybird",
+    "prodigy": "On 27 January 2021 Europol and Eurojust announced that police from eight countries had taken control of Emotet's infrastructure, redirecting infected machines to law-enforcement servers. Emotet was a \"loader\": it got in through Office documents in emails and then rented out access to its victims to ransomware gangs such as Ryuk and Conti. On 25 April 2021 investigators pushed an update that uninstalled Emotet from victims' computers.",
+    "thaumaturge": "Police from the Netherlands, Germany, the United States, the United Kingdom, France, Lithuania, Canada and Ukraine, coordinated by Europol and Eurojust in Operation Ladybird.",
+    "thanksgiving": "For a gateway of crime closed by eight countries together, and for an update that, for once, took the evil away instead of bringing it, we give thanks. Amen."
+  }
+}

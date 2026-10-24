@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Platypus, che spiava dai consumi elettrici",
+    "patronage": "dei contatori di energia delle CPU, delle enclave SGX e di chi credeva che un wattmetro non potesse tradire un segreto.",
+    "hagiography": "Il 10 novembre 2020 un gruppo di ricercatori europei presentò Platypus: l'interfaccia RAPL dei processori Intel, pensata per misurare i consumi, era abbastanza precisa da rivelare quali dati la CPU stesse elaborando. Da un account normale, senza strumenti fisici, si potevano ricostruire chiavi crittografiche e perfino sbirciare dentro le enclave SGX, osservando soltanto come variava l'energia. Intel e Linux limitarono l'accesso alle misure di consumo.",
+    "prayer": "O San Platypus, che leggi i segreti nel battito dei watt, fa' che i nostri contatori non raccontino ciò che calcoliamo. Amen.",
+    "feast": "Si festeggia aggiornando microcodice e kernel per limitare le letture RAPL ai soli privilegiati.",
+    "proverb": "Anche il consumo racconta cosa stai pensando."
+  },
+  "en": {
+    "title": "Saint Platypus, Who Spied From the Power Readings",
+    "patronage": "CPU energy meters, SGX enclaves, and everyone who thought a wattmeter could not betray a secret.",
+    "hagiography": "On 10 November 2020 a group of European researchers presented Platypus: Intel processors' RAPL interface, meant to measure power draw, was precise enough to reveal which data the CPU was processing. From an ordinary account, with no physical tools, one could reconstruct cryptographic keys and even peek inside SGX enclaves, watching only how the energy varied. Intel and Linux restricted access to the power readings.",
+    "prayer": "O Saint Platypus, who reads secrets in the beat of the watts, let our meters not tell what we compute. Amen.",
+    "feast": "Celebrated by updating microcode and kernel to limit RAPL readings to the privileged only.",
+    "proverb": "Even the power draw tells what you are thinking."
+  }
+}

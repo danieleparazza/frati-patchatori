@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Blast-RADIUS, che fece esplodere MD5",
+    "patronage": "dei protocolli degli anni Novanta, delle firme in MD5 e degli amministratori di rete che dicono «tanto è interno».",
+    "hagiography": "Il 9 luglio 2024 un gruppo di crittografi di università e aziende, tra cui Nadia Heninger e Marc Stevens, mostrò che RADIUS, il protocollo che autentica utenti di VPN, Wi-Fi e apparati di rete, si fidava ancora di una firma basata su MD5. Con una collisione a prefisso scelto, un attaccante in mezzo alla rete poteva trasformare un «accesso negato» in un «accesso consentito». Il raggio dell'esplosione: tutte le reti aziendali del mondo.",
+    "prayer": "O San Blast-RADIUS, che trasformi un no in un sì, fa' che i nostri server richiedano il Message-Authenticator a ogni pacchetto. Amen.",
+    "feast": "Si festeggia aggiornando server e client RADIUS, rendendo obbligatorio Message-Authenticator e, dove possibile, avvolgendo tutto in TLS.",
+    "proverb": "Chi firma con MD5, firma sulla sabbia."
+  },
+  "en": {
+    "title": "Saint Blast-RADIUS, Who Blew Up MD5",
+    "patronage": "protocols from the nineties, MD5 signatures, and network admins who say \"it's internal anyway\".",
+    "hagiography": "On 9 July 2024 a group of cryptographers from universities and companies, including Nadia Heninger and Marc Stevens, showed that RADIUS, the protocol that authenticates users of VPNs, Wi-Fi and network gear, still trusted a signature built on MD5. With a chosen-prefix collision, an attacker in the middle could turn an \"access denied\" into an \"access granted\". The blast radius: every corporate network on Earth.",
+    "prayer": "O Saint Blast-RADIUS, who turns a no into a yes, let our servers demand a Message-Authenticator on every packet. Amen.",
+    "feast": "Celebrated by updating RADIUS servers and clients, making Message-Authenticator mandatory and, where possible, wrapping everything in TLS.",
+    "proverb": "Sign with MD5 and you sign in the sand."
+  }
+}

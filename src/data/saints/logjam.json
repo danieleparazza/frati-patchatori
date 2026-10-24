@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Logjam, che declassava Diffie-Hellman",
+    "patronage": "delle connessioni TLS, dei parametri Diffie-Hellman troppo corti e dei cifrari \"export\" che dovevano sparire negli anni Novanta.",
+    "hagiography": "Il 20 maggio 2015 un gruppo di ricercatori rivelò Logjam (CVE-2015-4000): un attaccante tra client e server poteva costringere una connessione TLS a usare i deboli parametri Diffie-Hellman \"export\" a 512 bit, eredità delle restrizioni crittografiche statunitensi degli anni Novanta, e poi romperli. Peggio ancora, molti server condividevano gli stessi pochi numeri primi, così uno sforzo di calcolo una volta sola ne apriva tanti.",
+    "prayer": "O San Logjam, che riporti indietro la crittografia agli anni Novanta, fa' che i nostri scambi di chiavi restino lunghi e irripetibili. Amen.",
+    "feast": "Si festeggia disabilitando i cifrari export, usando parametri Diffie-Hellman di almeno 2048 bit e, meglio ancora, le curve ellittiche.",
+    "proverb": "Chiave vecchia di vent’anni, segreto di oggi."
+  },
+  "en": {
+    "title": "Saint Logjam, Who Downgraded Diffie-Hellman",
+    "patronage": "TLS connections, overly short Diffie-Hellman parameters, and \"export\" ciphers that should have vanished in the nineties.",
+    "hagiography": "On 20 May 2015 a group of researchers revealed Logjam (CVE-2015-4000): an attacker between client and server could force a TLS connection to use the weak 512-bit \"export\" Diffie-Hellman parameters, a legacy of 1990s US crypto restrictions, and then break them. Worse, many servers shared the same few primes, so a one-time computational effort opened many of them.",
+    "prayer": "O Saint Logjam, who drags cryptography back to the nineties, let our key exchanges stay long and unrepeatable. Amen.",
+    "feast": "Celebrated by disabling export ciphers, using Diffie-Hellman parameters of at least 2048 bits and, better still, elliptic curves.",
+    "proverb": "A twenty-year-old key, today's secret."
+  }
+}

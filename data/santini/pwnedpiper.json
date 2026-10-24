@@ -1,0 +1,10 @@
+{
+  "label": "PwnedPiper",
+  "motto": "PER TUBOS AD ROOT",
+  "niche": [
+    "#1d3b36",
+    "#3f6e64"
+  ],
+  "accent": "#24504a",
+  "emblem": "<path d=\"M128 116 V250 M172 116 V250\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M132 116 V250 M168 116 V250\" stroke=\"#bfc9d1\" stroke-width=\"1\" opacity=\"0.6\"/>\n<rect x=\"134\" y=\"150\" width=\"32\" height=\"54\" rx=\"14\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"134\" y=\"170\" width=\"32\" height=\"6\" fill=\"#8c6a22\"/>\n<path d=\"M92 224 L208 140\" stroke=\"#fbf3dd\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<g fill=\"#2b1d14\"><circle cx=\"118\" cy=\"205\" r=\"2.4\"/><circle cx=\"134\" cy=\"194\" r=\"2.4\"/><circle cx=\"150\" cy=\"182\" r=\"2.4\"/><circle cx=\"166\" cy=\"171\" r=\"2.4\"/><circle cx=\"182\" cy=\"159\" r=\"2.4\"/></g>"
+}

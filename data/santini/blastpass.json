@@ -1,0 +1,10 @@
+{
+  "label": "BLASTPASS",
+  "motto": "SINE TACTU INTRAT",
+  "niche": [
+    "#1c2436",
+    "#3a4a66"
+  ],
+  "accent": "#273448",
+  "emblem": "<path d=\"M112 148 H188 A6 6 0 0 1 194 154 V196 A6 6 0 0 1 188 202 H134 L118 218 V202 H112 A6 6 0 0 1 106 196 V154 A6 6 0 0 1 112 148 Z\" fill=\"#2a4b8d\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"124\" y=\"162\" width=\"52\" height=\"30\" rx=\"3\" fill=\"#bfc9d1\"/>\n<circle cx=\"138\" cy=\"174\" r=\"5\" fill=\"#f4d03f\"/><path d=\"M124 190 L140 176 L150 184 L162 170 L176 184 V192 H124 Z\" fill=\"#5d7a99\"/>\n<g fill=\"#d9ad55\"><path d=\"M150 206 l-4 10 l10 -6 l-10 -2z\"/></g>\n<text x=\"150\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#bfc9d1\">0-click</text>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BrokenPrint, che stampava guai",
+    "patronage": "dei router domestici, delle stampanti USB condivise e dei servizi che nessuno sa di avere attivi.",
+    "hagiography": "Il 28 febbraio 2022 il gruppo Exploit Development di NCC Group, con Alex Plaskett, raccontò un overflow nello stack del servizio KC_PRINT del router Netgear R6700v3. Il servizio serve a condividere una stampante USB attraverso la funzione ReadySHARE, e dalla rete locale, senza autenticazione, permetteva di eseguire codice sul router. Netgear lo corresse con un aggiornamento del firmware.",
+    "prayer": "O Beato BrokenPrint, che stampi codice invece di fogli, fa' che i nostri router spengano i servizi che non usiamo. Amen.",
+    "feast": "Si festeggia aggiornando il firmware del router e staccando la stampante che nessuno usa dal 2015.",
+    "proverb": "Stampante condivisa, guaio diviso tra tutti."
+  },
+  "en": {
+    "title": "Blessed BrokenPrint, Who Printed Trouble",
+    "patronage": "home routers, shared USB printers, and services nobody knows are running.",
+    "hagiography": "On 28 February 2022 NCC Group's Exploit Development Group, with Alex Plaskett, described a stack overflow in the KC_PRINT service of the Netgear R6700v3 router. The service shares a USB printer through the ReadySHARE feature, and from the local network, without authentication, it allowed code to run on the router. Netgear fixed it in a firmware update.",
+    "prayer": "O Blessed BrokenPrint, who prints code instead of pages, let our routers switch off the services we don't use. Amen.",
+    "feast": "Celebrated by updating the router firmware and unplugging the printer nobody has used since 2015.",
+    "proverb": "Share a printer, and you share the trouble."
+  }
+}

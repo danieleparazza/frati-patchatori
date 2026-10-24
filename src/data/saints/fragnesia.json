@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Fragnesia, che dimenticava a chi apparteneva il frammento",
+    "patronage": "dei buffer di rete che si fondono, dei marcatori persi per strada e del comando su.",
+    "hagiography": "Il 13 maggio 2026 William Bowling e il team V12 pubblicarono Fragnesia (CVE-2026-46300), parente stretto di Dirty Frag. Quando il kernel Linux univa due buffer di pacchetti, dimenticava di segnalare che un frammento era condiviso con la page cache. Chi scriveva \"sul posto\" poteva così modificare in memoria un file di sola lettura: la dimostrazione riscriveva la copia in cache del comando su per ottenere una shell di root, mentre il file su disco restava intatto.",
+    "prayer": "O San Fragnesia, che perdi memoria di ciò che è condiviso, fa' che i nostri buffer ricordino sempre a chi appartengono. Amen.",
+    "feast": "Si festeggia aggiornando il kernel o mettendo in blacklist esp4, esp6 e rxrpc, e svuotando la page cache dopo lo spavento.",
+    "proverb": "Chi dimentica cosa è condiviso, lo divide male."
+  },
+  "en": {
+    "title": "Saint Fragnesia, Who Forgot Whom the Fragment Belonged To",
+    "patronage": "network buffers that merge, markers lost along the way, and the su command.",
+    "hagiography": "On 13 May 2026 William Bowling and the V12 team published Fragnesia (CVE-2026-46300), a close relative of Dirty Frag. When the Linux kernel merged two packet buffers, it forgot to flag that a fragment was shared with the page cache. An in-place writer could thus modify a read-only file in memory: the demo rewrote the cached copy of the su command to get a root shell, while the on-disk file stayed intact.",
+    "prayer": "O Saint Fragnesia, who loses track of what is shared, let our buffers always remember whom they belong to. Amen.",
+    "feast": "Celebrated by updating the kernel or blacklisting esp4, esp6 and rxrpc, and dropping the page cache after the fright.",
+    "proverb": "Forget what is shared, and you will divide it badly."
+  }
+}

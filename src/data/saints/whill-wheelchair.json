@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San WHILL, che si accoppiava con chiunque",
+    "patronage": "del Bluetooth senza password, dei telecomandi troppo socievoli e dei limiti di velocità che si sbloccano da soli.",
+    "hagiography": "Il 5 gennaio 2026 un advisory pubblicato da CISA rivelò che le carrozzine elettriche WHILL Model C2 e Model F non chiedevano alcuna autenticazione via Bluetooth. I ricercatori di QED Secure Solutions mostrarono che chiunque nel raggio di qualche metro poteva accoppiarsi, impartire comandi di movimento, scavalcare i limiti di velocità e cambiare i profili di configurazione, senza credenziali e senza che l'utente toccasse nulla. Punteggio: 9,8.",
+    "prayer": "O San WHILL, che dicevi di sì a ogni dispositivo, insegna ai nostri apparecchi a chiedere chi bussa prima di aprire. Amen.",
+    "feast": "Si festeggia seguendo l'advisory del produttore e ricordando che un comando di movimento merita almeno una password."
+  },
+  "en": {
+    "title": "Saint WHILL, Who Paired With Anyone",
+    "patronage": "Bluetooth without passwords, overly friendly remote controls, and speed limits that unlock themselves.",
+    "hagiography": "On 5 January 2026 an advisory published by CISA revealed that WHILL Model C2 and Model F power chairs required no authentication over Bluetooth. Researchers at QED Secure Solutions showed that anyone within a few metres could pair, send movement commands, override speed limits and change configuration profiles, with no credentials and without the user touching a thing. Score: 9.8.",
+    "prayer": "O Saint WHILL, who said yes to every device, teach our gadgets to ask who is knocking before they open. Amen.",
+    "feast": "Celebrated by following the vendor's advisory and remembering that a movement command deserves at least a password."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San OMIGOD, l'agente che nessuno aveva installato",
+    "patronage": "delle macchine virtuali in Azure, degli agenti di gestione nascosti e di chi non sapeva di averli.",
+    "hagiography": "Il 14 settembre 2021 Wiz rivelò OMIGOD, un gruppo di falle in OMI, un agente di gestione open source che Azure installava in silenzio su molte macchine Linux. Una richiesta HTTP priva dell'intestazione di autenticazione veniva eseguita come root: così, senza credenziali, si poteva prendere il controllo della macchina. In molti scoprirono di avere quell'agente solo quando lessero l'advisory.",
+    "prayer": "O San OMIGOD, agente invisibile che esegui da root chi non si presenta, fa' che sapiamo sempre quali servizi girano sulle nostre macchine. Amen.",
+    "feast": "Si festeggia aggiornando OMI alla 1.6.8.1 e passando in rassegna gli agenti che il cloud ha installato di nascosto.",
+    "proverb": "Agente che non sai di avere, falla che non sai di correre."
+  },
+  "en": {
+    "title": "Saint OMIGOD, the Agent Nobody Had Installed",
+    "patronage": "Azure virtual machines, hidden management agents, and everyone who didn't know they had them.",
+    "hagiography": "On 14 September 2021 Wiz revealed OMIGOD, a cluster of flaws in OMI, an open-source management agent that Azure quietly installed on many Linux machines. An HTTP request missing its authentication header was executed as root: so, with no credentials, one could take over the machine. Many discovered they even had the agent only when they read the advisory.",
+    "prayer": "O Saint OMIGOD, invisible agent who runs as root whoever fails to introduce himself, let us always know which services run on our machines. Amen.",
+    "feast": "Celebrated by updating OMI to 1.6.8.1 and reviewing the agents the cloud installed behind our backs.",
+    "proverb": "An agent you don't know you have, a flaw you don't know you run."
+  }
+}

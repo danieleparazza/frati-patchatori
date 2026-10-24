@@ -1,0 +1,10 @@
+{
+  "label": "Nokia OBEX",
+  "motto": "NOMEN NECAT",
+  "niche": [
+    "#1d2b40",
+    "#3a5272"
+  ],
+  "accent": "#273c58",
+  "emblem": "<rect x=\"128\" y=\"124\" width=\"44\" height=\"100\" rx=\"8\" fill=\"#3d4a55\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"134\" y=\"134\" width=\"32\" height=\"40\" fill=\"#1b2430\"/>\n<text x=\"150\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#b03a2e\">:(</text>\n<g fill=\"#5d7a99\"><rect x=\"134\" y=\"182\" width=\"9\" height=\"8\"/><rect x=\"146\" y=\"182\" width=\"9\" height=\"8\"/><rect x=\"158\" y=\"182\" width=\"9\" height=\"8\"/><rect x=\"134\" y=\"194\" width=\"9\" height=\"8\"/><rect x=\"146\" y=\"194\" width=\"9\" height=\"8\"/><rect x=\"158\" y=\"194\" width=\"9\" height=\"8\"/></g>\n<path d=\"M184 150 l16 10 l-16 10 l0 -20 m0 10 l16 -10 m-16 10 l16 10\" stroke=\"#5dade2\" stroke-width=\"2\" fill=\"none\"/>\n<text x=\"150\" y=\"218\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#d9ad55\">%%%.sis</text>"
+}

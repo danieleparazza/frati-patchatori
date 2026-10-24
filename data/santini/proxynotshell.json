@@ -1,0 +1,10 @@
+{
+  "label": "ProxyNotShell",
+  "motto": "NON SUM QUI PUTAS",
+  "niche": [
+    "#13304d",
+    "#2c5a84"
+  ],
+  "accent": "#1c4469",
+  "emblem": "<rect x=\"104\" y=\"168\" width=\"92\" height=\"62\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M104 170 L150 204 L196 170\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 122 q-28 4 -30 30 h60 q-2 -26 -30 -30 z\" fill=\"#f2c9a0\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M150 124 V152 M136 128 L132 152 M164 128 L168 152 M124 136 L122 152 M176 136 L178 152\" stroke=\"#2b1d14\" stroke-width=\"1.2\"/>\n<rect x=\"140\" y=\"152\" width=\"20\" height=\"8\" rx=\"2\" fill=\"#f2c9a0\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<line x1=\"114\" y1=\"164\" x2=\"186\" y2=\"118\" stroke=\"#c0392b\" stroke-width=\"6\" stroke-linecap=\"round\"/>"
+}

@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "In memoria: l'attacco all'Ospedale universitario di Düsseldorf",
+    "chronicle": "Il 10 settembre 2020 un ransomware entrato attraverso una vulnerabilità di Citrix per cui la correzione era disponibile da mesi mise fuori uso circa 30 server dell'Ospedale universitario di Düsseldorf, che dovette sospendere l'accettazione delle emergenze. Una paziente in condizioni critiche fu indirizzata a un ospedale di Wuppertal, a circa trenta chilometri, e morì. La procura aprì un'indagine per omicidio colposo contro ignoti, poi archiviata: gli inquirenti conclusero che il ritardo non era stato determinante per il decesso, e il nesso causale con l'attacco non fu dunque provato. La richiesta di riscatto era indirizzata all'università; quando la polizia avvisò gli attaccanti che avevano colpito un ospedale, questi consegnarono la chiave di decifrazione.",
+    "lesson": "Il caso è ricordato come il primo in cui la morte di una persona fu collegata, almeno nell'ipotesi investigativa, a un attacco informatico. Ha ricordato a tutti che gli ospedali sono infrastrutture critiche e che i sistemi di accesso remoto vanno aggiornati senza indugio.",
+    "remembrance": "Si ricorda applicando subito le correzioni ai sistemi di accesso remoto, preparando piani di continuità per le cure d'emergenza e ricordando che dietro ogni sistema sanitario ci sono persone."
+  },
+  "en": {
+    "title": "In Memoriam: the Attack on Düsseldorf University Hospital",
+    "chronicle": "On 10 September 2020 ransomware that got in through a Citrix vulnerability, for which a fix had been available for months, disabled about 30 servers at University Hospital Düsseldorf, which had to stop accepting emergency admissions. A critically ill patient was sent to a hospital in Wuppertal, about thirty kilometres away, and died. Prosecutors opened a negligent-homicide investigation against persons unknown, later dropped: investigators concluded that the delay had not been decisive for her death, so a causal link to the attack was not proven. The ransom note was addressed to the university; when police told the attackers they had hit a hospital, they handed over the decryption key.",
+    "lesson": "The case is remembered as the first in which a person's death was linked, at least as an investigative hypothesis, to a cyberattack. It reminded everyone that hospitals are critical infrastructure and that remote-access systems must be patched without delay.",
+    "remembrance": "Remembered by patching remote-access systems at once, preparing continuity plans for emergency care and remembering that behind every health system there are people."
+  }
+}

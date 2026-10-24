@@ -1,0 +1,10 @@
+{
+  "label": "DirtyClone",
+  "motto": "FRAGMENTUM SINE NOTA",
+  "niche": [
+    "#241a12",
+    "#4e3a22"
+  ],
+  "accent": "#3a2c18",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"44\" height=\"54\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"150\" y=\"162\" width=\"44\" height=\"54\" rx=\"4\" fill=\"#9a8a6a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"130\" cy=\"166\" r=\"5\" fill=\"#d9ad55\"/>\n<circle cx=\"168\" cy=\"178\" r=\"5\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.5\" stroke-dasharray=\"3 3\"/>\n<path d=\"M134 190 H150 M134 196 H150 M172 202 H188 M172 208 H184\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M104 226 q8 -8 16 0\" stroke=\"#8b7a5a\" stroke-width=\"2\" fill=\"none\"/>"
+}

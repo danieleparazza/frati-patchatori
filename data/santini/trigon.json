@@ -1,0 +1,10 @@
+{
+  "label": "Trigon",
+  "motto": "NUMQUAM CADIT",
+  "niche": [
+    "#1a1d24",
+    "#3a404e"
+  ],
+  "accent": "#2a2e38",
+  "emblem": "<path d=\"M150 124 L202 222 H98 Z\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n<rect x=\"132\" y=\"150\" width=\"36\" height=\"62\" rx=\"7\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"136\" y=\"158\" width=\"28\" height=\"44\" fill=\"#3a404e\"/>\n<circle cx=\"150\" cy=\"207\" r=\"2.5\" fill=\"#2b1d14\"/>\n<path d=\"M142 180 L148 186 L158 172\" stroke=\"#d9ad55\" stroke-width=\"3\" fill=\"none\"/>"
+}

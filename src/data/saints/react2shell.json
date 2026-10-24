@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San React2Shell, che deserializzava la grazia",
+    "patronage": "dei Server Components, dei framework che fanno tutto da soli e degli sviluppatori frontend che scoprono di avere un server.",
+    "hagiography": "Il 3 dicembre 2025 il team di React rivelò una falla trovata da Lachlan Davidson negli React Server Components: le richieste dirette alle Server Function venivano deserializzate senza le dovute cautele, e una sola richiesta HTTP bastava per eseguire codice sul server, senza autenticazione. Punteggio pieno, CVSS 10, e Next.js colpito di riflesso perché porta con sé la propria copia di React. Gli attacchi reali cominciarono in poche ore.",
+    "prayer": "O San React2Shell, che con un solo payload trasformi un componente in una shell, fa' che i nostri server deserializzino solo ciò che hanno chiesto. Amen.",
+    "feast": "Si festeggia aggiornando React e Next.js alle versioni corrette, e chiedendosi quante altre cose il framework faccia lato server.",
+    "proverb": "Chi renderizza sul server, sul server raccoglie."
+  },
+  "en": {
+    "title": "Saint React2Shell, Who Deserialized Grace",
+    "patronage": "Server Components, frameworks that do everything for you, and frontend developers discovering they have a server.",
+    "hagiography": "On 3 December 2025 the React team disclosed a flaw found by Lachlan Davidson in React Server Components: requests to Server Functions were deserialized without due care, and a single HTTP request was enough to run code on the server, without authentication. A perfect score, CVSS 10, with Next.js hit by extension because it ships its own copy of React. Real attacks began within hours.",
+    "prayer": "O Saint React2Shell, who turns a component into a shell with a single payload, let our servers deserialize only what they asked for. Amen.",
+    "feast": "Celebrated by upgrading React and Next.js to the fixed versions, and wondering what else the framework does on the server side.",
+    "proverb": "Render on the server, reap on the server."
+  }
+}

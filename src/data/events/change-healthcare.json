@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Change Healthcare",
+    "chronicle": "Il 21 febbraio 2024 degli affiliati di ALPHV/BlackCat, usando credenziali rubate su un portale Citrix privo di autenticazione a più fattori, distribuirono un ransomware nei sistemi di Change Healthcare, una controllata di UnitedHealth da cui passa una parte enorme delle pratiche sanitarie statunitensi. Per settimane l'elaborazione dei rimborsi e i servizi per le farmacie furono interrotti in tutto il paese: molti medici e strutture rimasero senza pagamenti e molti pazienti ebbero difficoltà a ottenere i farmaci prescritti. Alla fine furono segnalati come coinvolti i dati sanitari di circa 190 milioni di persone, la più grande violazione nella sanità statunitense mai registrata.",
+    "lesson": "Rivelò quanto un solo intermediario possa essere un punto di rottura per un intero sistema sanitario, e rese l'MFA sugli accessi remoti un tema di audizione al Congresso.",
+    "prayer": "Per i pazienti che hanno atteso medicine e cure, e per medici, farmacisti e piccoli ambulatori rimasti senza sostegno, chiediamo sollievo e giustizia. Fa' che chi custodisce i dati della salute li protegga con la cura che si deve alle persone. Amen.",
+    "remembrance": "Si ricorda chiedendo l'MFA su ogni accesso remoto, senza eccezioni, preparando alternative per i servizi sanitari essenziali e riducendo la dipendenza da un unico intermediario."
+  },
+  "en": {
+    "title": "The Scourge of Change Healthcare",
+    "chronicle": "On 21 February 2024 ALPHV/BlackCat affiliates, using stolen credentials on a Citrix portal that lacked multi-factor authentication, deployed ransomware in the systems of Change Healthcare, a UnitedHealth subsidiary that handles a huge share of US healthcare transactions. For weeks claims processing and pharmacy services were disrupted nationwide: many doctors and facilities went unpaid and many patients struggled to obtain their prescriptions. In the end the health data of about 190 million people was reported affected, the largest US healthcare breach on record.",
+    "lesson": "It revealed how a single intermediary can be a breaking point for an entire health system, and made MFA on remote access a subject for congressional hearings.",
+    "prayer": "For the patients who waited for medicines and care, and for the doctors, pharmacists and small practices left without support, we ask relief and justice. Let those who keep health data protect it with the care owed to people. Amen.",
+    "remembrance": "Remembered by requiring MFA on all remote access, without exception, preparing alternatives for essential health services and reducing dependence on a single intermediary."
+  }
+}

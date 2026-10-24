@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Smith, l'agente che usciva dalla pagina web",
+    "patronage": "dei kernel di iPhone, degli interi che traboccano e delle chiavi del regno consegnate da un browser.",
+    "hagiography": "Secondo dei metodi pubblicati da felix-pb nel progetto kfd, Smith (CVE-2023-32434) era un integer overflow nel kernel XNU raggiungibile persino dalla sandbox del browser. Apple lo corresse nel giugno 2023 con iOS 16.5.1, avvertendo che era stato forse sfruttato: Kaspersky lo aveva trovato nella catena di Operation Triangulation, lo spyware che arrivava su iPhone tramite iMessage. Da un solo intero troppo grande si arrivava a leggere e scrivere il kernel.",
+    "prayer": "O San Smith, che da un numero troppo grande apri tutto il kernel, fa' che i nostri contatori sappiano fermarsi. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 16.5.1 o successivi e controllando i limiti prima di sommare.",
+    "proverb": "Chi non conta bene, conta per l'attaccante."
+  },
+  "en": {
+    "title": "Saint Smith, the Agent Who Walked Out of a Web Page",
+    "patronage": "iPhone kernels, overflowing integers, and the keys to the kingdom handed over by a browser.",
+    "hagiography": "The second of the methods published by felix-pb in the kfd project, Smith (CVE-2023-32434) was an integer overflow in the XNU kernel reachable even from the browser's sandbox. Apple fixed it in June 2023 with iOS 16.5.1, warning that it may have been exploited: Kaspersky had found it in the Operation Triangulation chain, the spyware that reached iPhones through iMessage. One integer that was too big led all the way to kernel read and write.",
+    "prayer": "O Saint Smith, who opens the whole kernel with a number too large, let our counters know when to stop. Amen.",
+    "feast": "Celebrated by updating to iOS 16.5.1 or later and checking the bounds before you add.",
+    "proverb": "Count carelessly, and you're counting for the attacker."
+  }
+}

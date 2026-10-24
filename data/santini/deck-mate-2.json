@@ -1,0 +1,10 @@
+{
+  "label": "Deck Mate 2",
+  "motto": "CHARTAE APERTAE",
+  "niche": [
+    "#2a1414",
+    "#541f24"
+  ],
+  "accent": "#5c1f20",
+  "emblem": "<rect x=\"120\" y=\"150\" width=\"60\" height=\"64\" rx=\"6\" fill=\"#1e272e\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<g transform=\"rotate(-10 142 178)\"><rect x=\"126\" y=\"160\" width=\"32\" height=\"44\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/><path d=\"M142 170 l6 8 l-6 8 l-6 -8 z\" fill=\"#c0392b\"/></g>\n<g transform=\"rotate(8 162 176)\"><rect x=\"150\" y=\"158\" width=\"32\" height=\"44\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/><path d=\"M166 168 l6 8 l-6 8 l-6 -8 z\" fill=\"#2b1d14\"/></g>\n<rect x=\"134\" y=\"220\" width=\"32\" height=\"8\" rx=\"2\" fill=\"#d9ad55\"/><rect x=\"146\" y=\"214\" width=\"8\" height=\"8\" fill=\"#d9ad55\"/>\n<circle cx=\"150\" cy=\"142\" r=\"4\" fill=\"#27ae60\"/>"
+}

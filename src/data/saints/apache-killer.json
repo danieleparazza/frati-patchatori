@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Apache Killer, che chiedeva troppe fette",
+    "patronage": "dei server web Apache, dell'header Range e delle richieste che pesano più della risposta.",
+    "hagiography": "Il 24 agosto 2011 Michal Zalewski riportò, e un esploit soprannominato Apache Killer rese celebre, un difetto nel filtro byterange di Apache HTTP Server. Una sola richiesta con un header Range pieno di intervalli sovrapposti costringeva il server a moltiplicare enormemente memoria e CPU, fino a metterlo in ginocchio. Bastava un portatile per far cadere un sito.",
+    "prayer": "O San Apache Killer, che chiedi mille fette della stessa pagina, fa' che i nostri server sappiano dire di no a un Range irragionevole. Amen.",
+    "feast": "Si festeggia aggiornando Apache oltre la 2.2.20 e limitando gli header Range troppo golosi.",
+    "proverb": "Chi chiede troppe fette, resta senza pane."
+  },
+  "en": {
+    "title": "Saint Apache Killer, Who Asked for Too Many Slices",
+    "patronage": "Apache web servers, the Range header, and requests that weigh more than the reply.",
+    "hagiography": "On 24 August 2011 Michal Zalewski reported, and an exploit nicknamed Apache Killer made famous, a flaw in the byterange filter of the Apache HTTP Server. A single request with a Range header full of overlapping intervals forced the server to multiply memory and CPU enormously, until it buckled. A laptop was enough to bring down a site.",
+    "prayer": "O Saint Apache Killer, who asks for a thousand slices of the same page, let our servers know how to refuse an unreasonable Range. Amen.",
+    "feast": "Celebrated by updating Apache past 2.2.20 and limiting greedy Range headers.",
+    "proverb": "Ask for too many slices and you're left with no bread."
+  }
+}

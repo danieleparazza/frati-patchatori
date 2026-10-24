@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BailiWicked, che avvelenò le radici del DNS",
+    "patronage": "dei resolver DNS, delle cache fidate e dei protocolli che tutti avevano dato per sicuri.",
+    "hagiography": "Nel 2008 Dan Kaminsky rivelò un attacco devastante contro il DNS. Indovinando in fretta gli identificativi delle richieste e sfruttando i riferimenti \"in bailiwick\", un attaccante poteva avvelenare la cache di un resolver e dirottare interi domini verso server ostili, prima che arrivasse la risposta legittima. Il difetto era nel protocollo stesso, e la correzione, la randomizzazione della porta sorgente, richiese uno sforzo coordinato di tutta Internet.",
+    "prayer": "O Beato BailiWicked, che riscrivi la mappa dei nomi, insegna ai nostri resolver a diffidare delle risposte troppo pronte. Amen.",
+    "feast": "Si festeggia abilitando la randomizzazione della porta sorgente, adottando DNSSEC dove si può e ricordando l'estate in cui mezzo mondo rattoppò insieme.",
+    "proverb": "Cache avvelenata, strada sbagliata."
+  },
+  "en": {
+    "title": "Blessed BailiWicked, Who Poisoned the Roots of DNS",
+    "patronage": "DNS resolvers, trusted caches, and protocols everyone had assumed were safe.",
+    "hagiography": "In 2008 Dan Kaminsky revealed a devastating attack against DNS. By quickly guessing the query identifiers and abusing \"in-bailiwick\" referrals, an attacker could poison a resolver's cache and redirect whole domains to hostile servers, before the legitimate answer arrived. The flaw was in the protocol itself, and the fix, source-port randomisation, took a coordinated effort across the whole Internet.",
+    "prayer": "O Blessed BailiWicked, who rewrites the map of names, teach our resolvers to distrust answers that come too readily. Amen.",
+    "feast": "Celebrated by enabling source-port randomisation, adopting DNSSEC where possible, and remembering the summer half the world patched together.",
+    "proverb": "A poisoned cache, a wrong road."
+  }
+}

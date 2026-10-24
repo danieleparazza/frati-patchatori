@@ -1,0 +1,10 @@
+{
+  "label": "BlueFrag",
+  "motto": "FRUSTRA FRUSTULA",
+  "niche": [
+    "#12305a",
+    "#1f4f8f"
+  ],
+  "accent": "#12305a",
+  "emblem": "<g stroke=\"#fbf3dd\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\">\n<path d=\"M126 148 L170 188 L150 206 V124 L162 135\"/>\n<path d=\"M178 162 L170 170\"/>\n<path d=\"M126 210 L142 196\"/>\n</g>\n<g fill=\"#5dade2\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"><path d=\"M168 132 l12 -4 l-2 12 z\"/><path d=\"M182 154 l12 2 l-6 10 z\"/><path d=\"M108 214 l12 -2 l-4 12 z\"/><path d=\"M114 232 l10 4 l-8 8 z\"/></g>"
+}

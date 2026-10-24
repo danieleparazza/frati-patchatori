@@ -1,0 +1,10 @@
+{
+  "label": "Zoomsday",
+  "motto": "DIES IRAE, DIES ZOOM",
+  "niche": [
+    "#14284a",
+    "#2d5590"
+  ],
+  "accent": "#1c3a6b",
+  "emblem": "<rect x=\"104\" y=\"138\" width=\"92\" height=\"64\" rx=\"5\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"110\" y=\"144\" width=\"38\" height=\"25\" fill=\"#5d7a99\"/><rect x=\"152\" y=\"144\" width=\"38\" height=\"25\" fill=\"#5d7a99\"/>\n<rect x=\"110\" y=\"172\" width=\"38\" height=\"25\" fill=\"#5d7a99\"/><rect x=\"152\" y=\"172\" width=\"38\" height=\"25\" fill=\"#2b1d14\"/>\n<circle cx=\"129\" cy=\"154\" r=\"5\" fill=\"#fbf3dd\"/><circle cx=\"171\" cy=\"154\" r=\"5\" fill=\"#fbf3dd\"/><circle cx=\"129\" cy=\"182\" r=\"5\" fill=\"#fbf3dd\"/>\n<path d=\"M156 192 C164 176 172 196 180 178 C184 170 188 182 186 190\" stroke=\"#c0392b\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M140 202 V214 M160 202 V214 M126 216 H174\" stroke=\"#bfc9d1\" stroke-width=\"4\"/>\n<path d=\"M188 232 L202 214 L208 220 L194 238 Z\" fill=\"#d9ad55\"/><path d=\"M188 232 L186 240 L194 238 Z\" fill=\"#fbf3dd\"/>"
+}

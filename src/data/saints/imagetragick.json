@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'ImageTragick, maschera tragica delle immagini",
+    "patronage": "dei servizi che ridimensionano le foto profilo, dei file che mentono sulla propria estensione e dei comandi di shell nascosti in un disegno.",
+    "hagiography": "Il 3 maggio 2016 si seppe che ImageMagick, la libreria che mezzo web usava per ridimensionare le immagini caricate dagli utenti, passava alla shell pezzi dei file che elaborava. Un'immagine preparata ad arte, magari un MVG o un SVG travestito da JPEG, eseguiva comandi sul server appena qualcuno provava a farne una miniatura. Ebbe un sito, un logo e una tragedia greca per nome.",
+    "prayer": "O Sant'ImageTragick, che nascondi il comando dentro il quadro, fa' che le nostre miniature restino soltanto figure. Amen.",
+    "feast": "Si festeggia scrivendo un policy.xml che disabilita i coder pericolosi e controllando i magic byte prima di fidarsi dell'estensione.",
+    "proverb": "Non giudicare un file dall'estensione."
+  },
+  "en": {
+    "title": "Saint ImageTragick, Tragic Mask of Images",
+    "patronage": "services that resize profile pictures, files that lie about their extension, and shell commands hidden in a drawing.",
+    "hagiography": "On 3 May 2016 the world learned that ImageMagick, the library half the web used to resize user uploads, passed bits of the files it processed straight to the shell. A carefully crafted image, perhaps an MVG or SVG dressed up as a JPEG, ran commands on the server as soon as someone tried to make a thumbnail of it. It got a website, a logo and a Greek tragedy for a name.",
+    "prayer": "O Saint ImageTragick, who hides the command inside the picture, let our thumbnails remain mere pictures. Amen.",
+    "feast": "Celebrated by writing a policy.xml that disables the dangerous coders and checking magic bytes before trusting an extension.",
+    "proverb": "Don't judge a file by its extension."
+  }
+}

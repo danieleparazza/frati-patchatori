@@ -1,0 +1,10 @@
+{
+  "label": "Dual_EC_DRBG",
+  "motto": "ALEA IAM SCITA EST",
+  "niche": [
+    "#1c2430",
+    "#37475e"
+  ],
+  "accent": "#2a3648",
+  "emblem": "<g transform=\"rotate(-10 128 196)\"><rect x=\"100\" y=\"168\" width=\"56\" height=\"56\" rx=\"8\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#2b1d14\"><circle cx=\"114\" cy=\"182\" r=\"5\"/><circle cx=\"142\" cy=\"182\" r=\"5\"/><circle cx=\"128\" cy=\"196\" r=\"5\"/><circle cx=\"114\" cy=\"210\" r=\"5\"/><circle cx=\"142\" cy=\"210\" r=\"5\"/></g></g>\n<g transform=\"rotate(12 176 200)\"><rect x=\"150\" y=\"176\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#2b1d14\"><circle cx=\"163\" cy=\"189\" r=\"5\"/><circle cx=\"189\" cy=\"189\" r=\"5\"/><circle cx=\"176\" cy=\"202\" r=\"5\"/><circle cx=\"163\" cy=\"215\" r=\"5\"/><circle cx=\"189\" cy=\"215\" r=\"5\"/></g></g>\n<path d=\"M118 142 Q150 116 182 142 Q150 168 118 142 Z\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"142\" r=\"10\" fill=\"#2c3e50\"/><circle cx=\"150\" cy=\"142\" r=\"4\" fill=\"#111\"/>"
+}

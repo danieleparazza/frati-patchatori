@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Tastierino Colorato, che arrossiva a ogni tasto",
+    "patronage": "delle tastiere virtuali, di chi sbircia da sopra la spalla e delle password digitate in pubblico.",
+    "hagiography": "Il 29 gennaio 2007 fu catalogata la CVE-2006-6953: la tastiera virtuale di GlobeTrotter Mobility Manager cambiava colore a ogni tasto premuto. Gentile per l'utente, generosissima per chiunque guardasse lo schermo o ne catturasse un'immagine ogni tanto: la password si poteva leggere lettera per lettera, come un semaforo che lampeggia i propri segreti.",
+    "prayer": "O San Tastierino Colorato, che ti illumini a ogni confidenza, insegnaci a digitare i segreti al buio. Amen.",
+    "feast": "Si festeggia disattivando l'evidenziazione dei tasti sui campi password e coprendo lo schermo con la mano, per tradizione."
+  },
+  "en": {
+    "title": "Saint Colourful Keyboard, Who Blushed at Every Key",
+    "patronage": "on-screen keyboards, shoulder surfers, and passwords typed in public.",
+    "hagiography": "On 29 January 2007 CVE-2006-6953 was catalogued: the virtual keyboard in GlobeTrotter Mobility Manager changed the colour of each key as it was pressed. Kind to the user, very generous to anyone watching the screen or grabbing a screenshot now and then: the password could be read letter by letter, like a traffic light blinking out its secrets.",
+    "prayer": "O Saint Colourful Keyboard, who lights up at every confidence, teach us to type our secrets in the dark. Amen.",
+    "feast": "Celebrated by turning off key highlighting on password fields and, by tradition, shielding the screen with one hand."
+  }
+}

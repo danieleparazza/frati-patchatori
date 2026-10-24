@@ -1,0 +1,10 @@
+{
+  "label": "INFRA:HALT",
+  "motto": "SISTE VIATOR",
+  "niche": [
+    "#3a1c18",
+    "#6e3a30"
+  ],
+  "accent": "#5a2a22",
+  "emblem": "<polygon points=\"129,130 171,130 200,159 200,201 171,230 129,230 100,201 100,159\" fill=\"#b03a2e\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<text x=\"150\" y=\"190\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"30\" font-weight=\"bold\" fill=\"#fbf3dd\">HALT</text>\n<line x1=\"150\" y1=\"230\" x2=\"150\" y2=\"250\" stroke=\"#bfc9d1\" stroke-width=\"6\"/>"
+}

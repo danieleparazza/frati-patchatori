@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ROBOT, che tornò dopo diciannove anni",
+    "patronage": "di chi usa ancora RSA per lo scambio di chiavi, dei padding PKCS#1 e degli oracoli che rispondono una domanda alla volta.",
+    "hagiography": "Il 12 dicembre 2017 alcuni ricercatori presentarono ROBOT, cioè 'Return Of Bleichenbacher's Oracle Threat': il vecchio attacco del 1998 al padding RSA PKCS#1 v1.5 funzionava ancora su molti prodotti TLS, da BIG-IP a Cisco. Osservando come il server reagiva a messaggi malformati, un attaccante poteva, una risposta alla volta, decifrare il traffico o firmare al posto del server. Diciannove anni dopo, lo stesso fantasma.",
+    "prayer": "O San ROBOT, che torni puntuale ogni volta che credevamo di averti sepolto, fa' che i nostri handshake abbandonino lo scambio di chiavi con RSA. Amen.",
+    "feast": "Si festeggia applicando le patch dei vendor e preferendo le suite con forward secrecy al vecchio RSA.",
+    "proverb": "Oracolo sepolto male, risorge a ogni handshake."
+  },
+  "en": {
+    "title": "Saint ROBOT, Who Came Back After Nineteen Years",
+    "patronage": "those still using RSA key exchange, PKCS#1 padding, and oracles that answer one question at a time.",
+    "hagiography": "On 12 December 2017 researchers presented ROBOT, the 'Return Of Bleichenbacher's Oracle Threat': the old 1998 attack on RSA PKCS#1 v1.5 padding still worked on many TLS products, from BIG-IP to Cisco. By watching how a server reacted to malformed messages, an attacker could, one answer at a time, decrypt traffic or sign in the server's place. Nineteen years on, the same ghost.",
+    "prayer": "O Saint ROBOT, who returns on schedule each time we thought you buried, let our handshakes abandon RSA key exchange. Amen.",
+    "feast": "Celebrated by applying the vendor patches and preferring forward-secret cipher suites over old RSA.",
+    "proverb": "An oracle badly buried rises at every handshake."
+  }
+}

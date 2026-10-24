@@ -1,0 +1,10 @@
+{
+  "label": "ROCA",
+  "motto": "PRIMUS NON CASUALIS",
+  "niche": [
+    "#1d2b24",
+    "#3a5546"
+  ],
+  "accent": "#2a4236",
+  "emblem": "<path d=\"M104 236 L112 182 L134 150 L168 142 L192 168 L200 220 L190 240 Z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M134 150 L146 178 L168 142 M146 178 L112 182 M146 178 L160 206 L200 220 M160 206 L150 240\" stroke=\"#7f8c8d\" stroke-width=\"1.5\" fill=\"none\"/>\n<g transform=\"translate(130 206)\"><circle cx=\"0\" cy=\"0\" r=\"9\" fill=\"none\" stroke=\"#b8892b\" stroke-width=\"4\"/><path d=\"M9 0 H34 M28 0 V8 M33 0 V7\" stroke=\"#b8892b\" stroke-width=\"4\"/></g>\n<rect x=\"160\" y=\"118\" width=\"40\" height=\"26\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<rect x=\"165\" y=\"125\" width=\"9\" height=\"12\" rx=\"1\" fill=\"#d9ad55\"/><path d=\"M179 127 h16 M179 133 h12\" stroke=\"#7a6656\" stroke-width=\"1.5\"/>"
+}

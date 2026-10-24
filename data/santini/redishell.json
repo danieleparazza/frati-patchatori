@@ -1,0 +1,10 @@
+{
+  "label": "RediShell",
+  "motto": "EX PURGAMENTO SHELL",
+  "niche": [
+    "#3a1414",
+    "#6b2525"
+  ],
+  "accent": "#7a1f1f",
+  "emblem": "<path d=\"M116 160 L124 244 H176 L184 160 Z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M134 172 L137 234 M150 172 V234 M166 172 L163 234\" stroke=\"#7f8c8d\" stroke-width=\"2.5\"/>\n<rect x=\"108\" y=\"148\" width=\"84\" height=\"12\" rx=\"3\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\" transform=\"rotate(-12 108 160)\"/>\n<path d=\"M130 140 l20 -10 l20 10 l-20 10 z\" fill=\"#e74c3c\" stroke=\"#fbf3dd\" stroke-width=\"1.5\" transform=\"translate(4 -8)\"/>\n<circle cx=\"182\" cy=\"128\" r=\"12\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/><circle cx=\"186\" cy=\"124\" r=\"4\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"212\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2b1d14\">Lua</text>"
+}

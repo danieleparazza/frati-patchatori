@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Wallbleed, la muraglia che perdeva",
+    "patronage": "dei firewall nazionali, delle risposte DNS iniettate e dei muri con le crepe.",
+    "hagiography": "Nel febbraio 2025, al convegno NDSS, un gruppo di ricercatori presentò Wallbleed: un difetto nell'iniettore DNS del Great Firewall cinese che, rispondendo a certe richieste malformate, aggiungeva alla risposta fino a 125 byte della propria memoria. Osservandolo per anni, gli autori ricavarono informazioni sul funzionamento interno della muraglia digitale. Anche le mura più alte, a volte, lasciano filtrare qualcosa.",
+    "prayer": "O Beato Wallbleed, muro che parla di sé, ricordaci che ogni parser, anche il più potente, deve controllare le lunghezze. Amen.",
+    "feast": "Si festeggia leggendo il paper e controllando, nel proprio piccolo, i limiti dei buffer.",
+    "proverb": "Muro alto, crepa piccola, segreto grande."
+  },
+  "en": {
+    "title": "Blessed Wallbleed, the Leaky Wall",
+    "patronage": "national firewalls, injected DNS responses, and walls with cracks.",
+    "hagiography": "In February 2025, at the NDSS conference, a group of researchers presented Wallbleed: a flaw in the DNS injector of China's Great Firewall that, when answering certain malformed queries, appended up to 125 bytes of its own memory to the response. By watching it for years, the authors learned things about the inner workings of the digital wall. Even the highest walls sometimes let something seep through.",
+    "prayer": "O Blessed Wallbleed, wall that talks about itself, remind us that every parser, however mighty, must check its lengths. Amen.",
+    "feast": "Celebrated by reading the paper and, in our own small way, checking buffer bounds.",
+    "proverb": "High wall, small crack, big secret."
+  }
+}

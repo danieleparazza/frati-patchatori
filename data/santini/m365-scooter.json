@@ -1,0 +1,10 @@
+{
+  "label": "M365 Scooter",
+  "motto": "SINE CLAVE CURRIT",
+  "niche": [
+    "#1a2a33",
+    "#345260"
+  ],
+  "accent": "#24404a",
+  "emblem": "<circle cx=\"120\" cy=\"214\" r=\"18\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<circle cx=\"188\" cy=\"214\" r=\"18\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<path d=\"M120 214 L172 214\" stroke=\"#d9ad55\" stroke-width=\"5\"/>\n<path d=\"M172 214 L186 148\" stroke=\"#d9ad55\" stroke-width=\"5\"/>\n<path d=\"M186 148 L166 148 M186 148 L204 148\" stroke=\"#d9ad55\" stroke-width=\"4\"/>\n<g fill=\"none\" stroke=\"#7ee08a\" stroke-width=\"2.5\"><path d=\"M196 120 a16 16 0 0 1 14 10\"/><path d=\"M190 128 a9 9 0 0 1 8 6\"/></g>\n<text x=\"120\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#c0392b\">&#187;&#187;</text>"
+}

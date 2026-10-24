@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Pool Party, che si tuffava nei thread",
+    "patronage": "dei thread pool di Windows, delle iniezioni di processo e degli EDR che non vengono invitati alla festa.",
+    "hagiography": "Nel dicembre 2023, alla Black Hat Europe, Alon Leviev di SafeBreach presentò otto tecniche di iniezione di processo battezzate Pool Party. Invece dei soliti trucchi, sfruttavano i thread pool di Windows: sovrascrivendo la routine di avvio delle worker factory, o infilando lavoro nelle code di task, timer e I/O, si faceva eseguire codice in un altro processo con azioni che sembravano del tutto legittime. Nei test aggirarono cinque tra i principali prodotti EDR.",
+    "prayer": "O Beato Pool Party, che inviti il nostro codice nella piscina altrui, fa' che i nostri processi eseguano solo il lavoro che hanno scritto. Amen.",
+    "feast": "Si festeggia aggiornando le regole di rilevamento dell'EDR e ricordando che una worker factory non dovrebbe mai cambiare mestiere.",
+    "proverb": "Chi lascia la piscina aperta si ritrova ospiti a nuotare."
+  },
+  "en": {
+    "title": "Blessed Pool Party, Who Dived Into the Threads",
+    "patronage": "Windows thread pools, process injection, and the EDRs that never get invited to the party.",
+    "hagiography": "In December 2023, at Black Hat Europe, Alon Leviev of SafeBreach presented eight process injection techniques dubbed Pool Party. Instead of the usual tricks, they abused Windows thread pools: by overwriting the start routine of worker factories, or slipping work into the task, timer and I/O queues, code ran in another process through actions that looked entirely legitimate. In testing they bypassed five major EDR products.",
+    "prayer": "O Blessed Pool Party, who invites our code into someone else's pool, let our processes run only the work they wrote. Amen.",
+    "feast": "Celebrated by updating the EDR's detection rules and remembering that a worker factory should never change its trade.",
+    "proverb": "Leave the pool open and you'll find guests swimming in it."
+  }
+}

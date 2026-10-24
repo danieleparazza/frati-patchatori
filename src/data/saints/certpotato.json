@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato CertPotato, che promosse gli account di servizio",
+    "patronage": "degli account di servizio virtuali, delle PKI aziendali e della famiglia delle «patate» di Windows.",
+    "hagiography": "Il 4 novembre 2022 Hocine Mahtout di SensePost descrisse CertPotato: su una macchina in dominio, un account di servizio virtuale o di rete, normalmente poco privilegiato, poteva richiedere un certificato per il conto macchina e usarlo per autenticarsi come la macchina stessa, salendo fino a SYSTEM. Era l'ultima della famiglia delle «patate» di Windows, che da RottenPotato in poi hanno trasformato piccoli privilegi in pieni poteri sfruttando l'autenticazione di sistema.",
+    "prayer": "O Beato CertPotato, che fai salire di grado l'umile account di servizio, fa' che i nostri certificati non si lascino chiedere da chiunque. Amen.",
+    "feast": "Si festeggia irrobustendo i modelli di certificato di AD CS e limitando chi può richiederli, una patata alla volta.",
+    "proverb": "Anche l'account più umile sogna il certificato della macchina."
+  },
+  "en": {
+    "title": "Blessed CertPotato, Who Promoted the Service Accounts",
+    "patronage": "virtual service accounts, corporate PKIs, and the Windows \"potato\" family.",
+    "hagiography": "On 4 November 2022 Hocine Mahtout of SensePost described CertPotato: on a domain-joined machine, a virtual or network service account, normally low-privileged, could request a certificate for the machine account and use it to authenticate as the machine itself, climbing all the way to SYSTEM. It was the latest in the Windows \"potato\" family, which from RottenPotato onward has turned small privileges into full power by abusing system authentication.",
+    "prayer": "O Blessed CertPotato, who promotes the humble service account, let our certificates not be requested by just anyone. Amen.",
+    "feast": "Celebrated by hardening the AD CS certificate templates and limiting who may request them, one potato at a time.",
+    "proverb": "Even the humblest account dreams of the machine certificate."
+  }
+}

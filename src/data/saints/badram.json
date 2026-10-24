@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BadRAM, che mentiva sulla propria taglia",
+    "patronage": "della memoria cifrata delle VM, dei chip SPD e delle schede RAM che dichiarano più di quanto hanno.",
+    "hagiography": "Il 10 dicembre 2024 un gruppo di ricercatori presentò BadRAM: con un Raspberry Pi Pico, uno zoccolo DDR e una pila da 9 volt, per una decina di euro, si manometteva il chip SPD di un modulo di memoria perché dichiarasse una capacità maggiore del vero. La CPU accedeva così a indirizzi 'fantasma' mappati su memoria reale, aggirando le protezioni AMD SEV-SNP e permettendo di falsificare l'attestazione delle macchine virtuali cifrate.",
+    "prayer": "O San BadRAM, che gonfi la taglia dei moduli per ingannare la CPU, fa' che la nostra memoria dichiari solo ciò che possiede. Amen.",
+    "feast": "Si festeggia installando l'aggiornamento del firmware AMD e scegliendo moduli che bloccano l'SPD in fabbrica.",
+    "proverb": "Chi dice di essere grande, nasconde il posto per un ospite."
+  },
+  "en": {
+    "title": "Saint BadRAM, Who Lied About Its Size",
+    "patronage": "encrypted VM memory, SPD chips, and RAM modules that claim more than they have.",
+    "hagiography": "On 10 December 2024 a team of researchers presented BadRAM: with a Raspberry Pi Pico, a DDR socket and a 9-volt battery, for around ten euros, they tampered with a module's SPD chip so it reported more capacity than it really had. The CPU then accessed 'ghost' addresses silently mapped onto real memory, bypassing AMD SEV-SNP protections and allowing the attestation of encrypted virtual machines to be forged.",
+    "prayer": "O Saint BadRAM, who inflates the modules' size to fool the CPU, let our memory declare only what it holds. Amen.",
+    "feast": "Celebrated by installing the AMD firmware update and choosing modules that lock the SPD at the factory.",
+    "proverb": "Whoever claims to be big is making room for a guest."
+  }
+}

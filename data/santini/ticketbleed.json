@@ -1,0 +1,10 @@
+{
+  "label": "Ticketbleed",
+  "motto": "TRIGINTA UNUS NIMIS",
+  "niche": [
+    "#2d0f14",
+    "#5c2026"
+  ],
+  "accent": "#5c1820",
+  "emblem": "<path d=\"M110 158 h80 v16 a8 8 0 0 0 0 16 v16 h-80 v-16 a8 8 0 0 0 0 -16 z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<line x1=\"150\" y1=\"158\" x2=\"150\" y2=\"222\" stroke=\"#2b1d14\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/>\n<text x=\"130\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#2b1d14\">TLS</text>\n<text x=\"170\" y=\"192\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#c0392b\">31B</text>\n<g fill=\"#c0392b\"><path d=\"M162 204 q-3 10 0 14 q3 -6 0 -14 z\"/><path d=\"M174 206 q-3 10 0 14 q3 -6 0 -14 z\"/></g>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "SgxPectre",
+  "motto": "SPECTRUM IN ARCA",
+  "niche": [
+    "#1e1b33",
+    "#433b6b"
+  ],
+  "accent": "#2d2850",
+  "emblem": "<rect x=\"104\" y=\"140\" width=\"92\" height=\"92\" rx=\"6\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\"/>\n<circle cx=\"182\" cy=\"186\" r=\"7\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<path d=\"M130 220 V172 A20 20 0 0 1 170 172 V220 L163 212 L157 220 L150 212 L143 220 L137 212 Z\" fill=\"#fbf3dd\" opacity=\"0.92\"/>\n<circle cx=\"142\" cy=\"174\" r=\"4\" fill=\"#433b6b\"/><circle cx=\"158\" cy=\"174\" r=\"4\" fill=\"#433b6b\"/>\n<ellipse cx=\"150\" cy=\"188\" rx=\"4\" ry=\"5\" fill=\"#433b6b\"/>"
+}

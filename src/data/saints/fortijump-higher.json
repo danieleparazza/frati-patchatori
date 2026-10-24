@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San FortiJump-Higher, che saltò ancora più in alto",
+    "patronage": "dei FortiManager che governano i firewall, delle patch incomplete e di chi pensava di aver già chiuso tutto.",
+    "hagiography": "Il 14 novembre 2024 i ricercatori di watchTowr mostrarono FortiJump-Higher: la correzione del celebre FortiJump (CVE-2024-47575), la falla che permetteva a un dispositivo gestito di prendere il controllo del FortiManager centrale, era incompleta. Restava un'iniezione di comandi nel gestore «som/export», funzionante anche sugli apparecchi aggiornati, che consentiva a un FortiGate compromesso di salire di privilegi fino al FortiManager. Un salto, poi un altro salto ancora più in alto.",
+    "prayer": "O San FortiJump-Higher, che salti oltre la patch che credevamo chiusa, fa' che le nostre correzioni tocchino il codice giusto. Amen.",
+    "feast": "Si festeggia richiedendo la registrazione dei dispositivi, limitando chi può raggiungere il FortiManager e verificando che la patch chiuda davvero il buco.",
+    "proverb": "Patch che non tocca il baco invita a saltare più in alto."
+  },
+  "en": {
+    "title": "Saint FortiJump-Higher, Who Jumped Even Higher",
+    "patronage": "the FortiManagers that govern the firewalls, incomplete patches, and everyone who thought they had closed it all.",
+    "hagiography": "On 14 November 2024 watchTowr researchers showed FortiJump-Higher: the fix for the famous FortiJump (CVE-2024-47575), the flaw that let a managed device seize the central FortiManager, was incomplete. A command injection remained in the \"som/export\" handler, working even on patched boxes, letting a compromised FortiGate escalate privileges up to the FortiManager. One jump, then another even higher.",
+    "prayer": "O Saint FortiJump-Higher, who leaps past the patch we thought was closed, let our fixes touch the right code. Amen.",
+    "feast": "Celebrated by requiring device registration, limiting who can reach the FortiManager and checking that the patch really closes the hole.",
+    "proverb": "A patch that misses the bug invites a higher jump."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "ITScape",
+  "motto": "HOSPES EFFUGIT",
+  "niche": [
+    "#13283a",
+    "#2a5270"
+  ],
+  "accent": "#1b3a52",
+  "emblem": "<g stroke=\"#bfc9d1\" stroke-width=\"4\" fill=\"none\"><path d=\"M112 140 H188 M112 140 V236 M188 140 V236 M112 236 H188\"/></g>\n<g stroke=\"#bfc9d1\" stroke-width=\"3\"><line x1=\"128\" y1=\"140\" x2=\"128\" y2=\"236\"/><line x1=\"172\" y1=\"140\" x2=\"172\" y2=\"236\"/></g>\n<path d=\"M150 140 V236\" stroke=\"#bfc9d1\" stroke-width=\"3\" stroke-dasharray=\"40 26\"/>\n<path d=\"M150 196 L150 150 L138 162 M150 150 L162 162\" stroke=\"#d9ad55\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>\n<path d=\"M150 176 V126 M140 134 L150 122 L160 134\" stroke=\"#fbf3dd\" stroke-width=\"3\" fill=\"none\"/>\n<text x=\"150\" y=\"226\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">ITS</text>"
+}

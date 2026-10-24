@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ISaPWN, che leggeva i file dei PLC",
+    "patronage": "dei runtime industriali ISaGRAF, dei protocolli che non filtrano i nomi dei file e degli impianti che non si fermano mai.",
+    "hagiography": "Il 23 maggio 2022 Kaspersky ICS-CERT pubblicò ISaPWN, una serie di difetti nel runtime ISaGRAF di Rockwell Automation, usato in controllori industriali di molti produttori. Alcuni comandi del protocollo IXL eseguivano operazioni sui file senza controllare i caratteri riservati nei nomi: un attaccante remoto e non autenticato poteva così leggere e scrivere file sul dispositivo, e la comunicazione poco protetta rendeva il tutto più facile.",
+    "prayer": "O San ISaPWN, che percorri i file degli impianti come corridoi aperti, fa' che i nostri protocolli industriali filtrino ogni nome. Amen.",
+    "feast": "Si festeggia aggiornando il runtime ISaGRAF e tenendo le reti industriali lontane da Internet.",
+    "proverb": "Nome di file non filtrato, impianto spalancato."
+  },
+  "en": {
+    "title": "Saint ISaPWN, Who Read the PLCs' Files",
+    "patronage": "ISaGRAF industrial runtimes, protocols that do not filter filenames, and plants that never stop.",
+    "hagiography": "On 23 May 2022 Kaspersky ICS-CERT published ISaPWN, a set of flaws in Rockwell Automation's ISaGRAF runtime, used in industrial controllers from many vendors. Some commands of the IXL protocol performed file operations without checking for reserved characters in the names: a remote, unauthenticated attacker could thus read and write files on the device, and the weakly protected communication made it all easier.",
+    "prayer": "O Saint ISaPWN, who walks the plants' files like open corridors, let our industrial protocols filter every name. Amen.",
+    "feast": "Celebrated by updating the ISaGRAF runtime and keeping industrial networks far from the Internet.",
+    "proverb": "Unfiltered filename, wide-open plant."
+  }
+}

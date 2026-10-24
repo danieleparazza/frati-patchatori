@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LongLogon, dal nome di dominio troppo lungo",
+    "patronage": "dei controller di dominio, dei nomi di dominio lunghi come un'enciclica e dei server che si riavviano da soli.",
+    "hagiography": "Il 12 maggio 2026 Microsoft corresse CVE-2026-41089, un overflow nello stack del servizio Netlogon raggiungibile senza autenticazione sui controller di dominio, con punteggio 9,8 e possibile esecuzione di codice. Il nome viene da LongLogon, lo strumento pubblicato da Yeray Martín di ADscan dopo aver analizzato la patch: il difetto si innesca nella ricerca dei controller e dipende dalla lunghezza del nome di dominio. Nel suo laboratorio otteneva un crash di LSASS e il riavvio del controller, non l'esecuzione di codice.",
+    "prayer": "O San LongLogon, che inciampi sui nomi troppo lunghi, fa' che i nostri buffer misurino prima di copiare. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti cumulativi di maggio 2026 sui controller di dominio, senza aspettare il riavvio spontaneo.",
+    "proverb": "Nome lungo, controller corto."
+  },
+  "en": {
+    "title": "Saint LongLogon, of the Overlong Domain Name",
+    "patronage": "domain controllers, domain names as long as an encyclical, and servers that reboot on their own.",
+    "hagiography": "On 12 May 2026 Microsoft fixed CVE-2026-41089, a stack overflow in the Netlogon service reachable without authentication on domain controllers, scored 9.8 with possible code execution. The name comes from LongLogon, the tool released by Yeray Martín of ADscan after diffing the patch: the flaw is triggered in domain controller discovery and depends on the length of the domain name. In his lab it produced an LSASS crash and a controller reboot, not code execution.",
+    "prayer": "O Saint LongLogon, who trips over names that are too long, let our buffers measure before they copy. Amen.",
+    "feast": "Celebrated by installing the May 2026 cumulative updates on domain controllers, without waiting for the spontaneous reboot.",
+    "proverb": "Long name, short-lived controller."
+  }
+}

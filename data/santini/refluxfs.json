@@ -1,0 +1,10 @@
+{
+  "label": "RefluXFS",
+  "motto": "REFLUIT IN ALIENUM",
+  "niche": [
+    "#1a2a30",
+    "#2e5660"
+  ],
+  "accent": "#214048",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"86\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M124 168 H176 M124 180 H176 M124 192 H160\" stroke=\"#9a8a6a\" stroke-width=\"2.5\"/>\n<path d=\"M150 150 C150 134 174 134 174 120 M174 120 l-6 6 m6 -6 l6 6\" stroke=\"#5dade2\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M174 120 C174 134 150 136 150 150\" stroke=\"#5dade2\" stroke-width=\"3\" fill=\"none\"/>\n<g fill=\"#5dade2\"><path d=\"M140 206 q-5 9 0 12 q5 -3 0 -12z\"/><path d=\"M158 212 q-6 10 0 14 q6 -4 0 -14z\"/></g>\n<text x=\"150\" y=\"146\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#5dade2\">XFS</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "cr8escape",
+  "motto": "EVADIT E CARCERE",
+  "niche": [
+    "#15303a",
+    "#255766"
+  ],
+  "accent": "#1c4452",
+  "emblem": "<rect x=\"106\" y=\"150\" width=\"88\" height=\"76\" rx=\"4\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<g stroke=\"#fbf3dd\" stroke-width=\"3\"><line x1=\"126\" y1=\"150\" x2=\"126\" y2=\"226\"/><line x1=\"146\" y1=\"150\" x2=\"146\" y2=\"226\"/><line x1=\"188\" y1=\"150\" x2=\"188\" y2=\"226\"/></g>\n<path d=\"M166 150 V226\" stroke=\"#e74c3c\" stroke-width=\"3\"/>\n<path d=\"M166 160 C150 172 150 204 166 216\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"3\"/>\n<path d=\"M166 216 C184 206 194 190 210 188\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"3\"/>\n<path d=\"M210 188 l-9 -2 l3 8\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<text x=\"150\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">CRI-O</text>"
+}

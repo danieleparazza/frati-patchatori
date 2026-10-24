@@ -1,0 +1,10 @@
+{
+  "label": "GhostCommit",
+  "motto": "IMAGO IMPERAT",
+  "niche": [
+    "#1a1d2e",
+    "#36405e"
+  ],
+  "accent": "#272e46",
+  "emblem": "<rect x=\"114\" y=\"150\" width=\"72\" height=\"56\" rx=\"4\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"136\" cy=\"168\" r=\"6\" fill=\"#d9ad55\"/>\n<path d=\"M118 200 L140 178 L156 192 L172 174 L182 184 V202 H118 Z\" fill=\"#5d6d7e\"/>\n<path d=\"M150 150 C140 150 134 158 134 168 L134 184 L140 180 L146 184 L152 180 L158 184 L158 168 C158 158 160 150 150 150 Z\" fill=\"#fbf3dd\" opacity=\"0.55\"/>\n<text x=\"150\" y=\"228\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">[72,101,...]</text>"
+}

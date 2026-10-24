@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San GarlicRust, spicchio che sanguina memoria",
+    "patronage": "delle reti anonime, del routing a cipolla e ad aglio e dei campi lunghezza controllati troppo tardi.",
+    "hagiography": "Il 4 dicembre 2017 Eyal Itkin rese pubblico un difetto trovato nel programma di bug bounty di Monero: i router I2P scritti in C++, i2pd e Kovri, usavano il campo lunghezza degli spicchi del garlic routing prima di verificarlo. Qualunque nodo della rete poteva così farsi restituire pezzi della memoria del router, chiavi di sessione comprese, alla maniera di Heartbleed e senza far crashare nulla.",
+    "prayer": "O San GarlicRust, che dall'aglio fai uscire segreti invece che profumo, fa' che i nostri parser controllino le lunghezze prima di usarle. Amen.",
+    "feast": "Si festeggia aggiornando i2pd alla 2.17 e mangiando bruschetta all'aglio, che tiene lontani almeno i vampiri.",
+    "proverb": "L'aglio tiene lontani i vampiri, non chi legge la memoria."
+  },
+  "en": {
+    "title": "Saint GarlicRust, the Clove That Bleeds Memory",
+    "patronage": "anonymous networks, onion and garlic routing, and length fields checked too late.",
+    "hagiography": "On 4 December 2017 Eyal Itkin disclosed a flaw found through Monero's bug bounty programme: the C++ I2P routers, i2pd and Kovri, used the length field of garlic routing cloves before validating it. Any node on the network could thus make a router hand back chunks of its memory, session keys included, Heartbleed-style and without crashing anything.",
+    "prayer": "O Saint GarlicRust, who draws secrets rather than aroma from garlic, let our parsers check lengths before they use them. Amen.",
+    "feast": "Celebrated by upgrading i2pd to 2.17 and eating garlic bread, which at least keeps the vampires away.",
+    "proverb": "Garlic keeps off vampires, not memory readers."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LANDFALL, che sbarcava dalle immagini",
+    "patronage": "dei telefoni Samsung Galaxy, delle librerie di decodifica immagini e di chi riceve una foto da uno sconosciuto.",
+    "hagiography": "Il 7 novembre 2025 Unit 42 di Palo Alto Networks descrisse LANDFALL, uno spyware commerciale che sfruttava una scrittura fuori dai limiti in libimagecodec.quram.so, la libreria di decodifica immagini dei telefoni Samsung (CVE-2025-21042). Bastava far arrivare un'immagine costruita ad arte perché, nell'elaborarla, il telefono eseguisse codice dell'attaccante. Era usato in attacchi mirati prima che Samsung lo correggesse nel bollettino di aprile 2025.",
+    "prayer": "O San LANDFALL, che sbarchi da una semplice foto, fa' che le nostre librerie di immagini non eseguano ciò che decodificano. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di sicurezza Samsung e diffidando delle immagini ricevute da mittenti sconosciuti.",
+    "proverb": "Chi apre ogni immagine apre anche la porta."
+  },
+  "en": {
+    "title": "Saint LANDFALL, Who Came Ashore From the Images",
+    "patronage": "Samsung Galaxy phones, image-decoding libraries, and everyone who receives a photo from a stranger.",
+    "hagiography": "On 7 November 2025 Unit 42 of Palo Alto Networks described LANDFALL, commercial spyware that exploited an out-of-bounds write in libimagecodec.quram.so, the image-decoding library on Samsung phones (CVE-2025-21042). Simply delivering a crafted image was enough for the phone to run the attacker's code while processing it. It was used in targeted attacks before Samsung fixed it in the April 2025 bulletin.",
+    "prayer": "O Saint LANDFALL, who comes ashore from a mere photo, let our image libraries not run what they decode. Amen.",
+    "feast": "Celebrated by installing the Samsung security updates and distrusting images received from unknown senders.",
+    "proverb": "Open every image and you open the door too."
+  }
+}

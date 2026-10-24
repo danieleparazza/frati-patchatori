@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di SamSam ad Atlanta",
+    "chronicle": "All'alba del 22 marzo 2018 il ransomware SamSam bloccò i sistemi comunali di Atlanta: pagamento delle bollette, tribunali, parcheggi, domande di lavoro. Per settimane i dipendenti della città tornarono ai moduli di carta. Gli attaccanti chiesero circa 51.000 dollari in bitcoin; la città non pagò, ma il ripristino costò milioni. A fine 2018 due cittadini iraniani furono incriminati negli Stati Uniti per la campagna SamSam.",
+    "lesson": "Rese evidente che le amministrazioni locali, con sistemi vecchi e pochi fondi, sono bersagli appetibili, e che il costo di un attacco va ben oltre il riscatto richiesto.",
+    "prayer": "O SamSam, che entravi dalle porte lasciate aperte su Internet, fa' che i nostri comuni abbiano budget per le patch e non solo per la carta da stampante. Amen.",
+    "remembrance": "Si ricorda chiudendo i servizi di accesso remoto esposti, usando password robuste e MFA, e provando il ripristino dei sistemi municipali prima di averne bisogno."
+  },
+  "en": {
+    "title": "The Scourge of SamSam in Atlanta",
+    "chronicle": "At dawn on 22 March 2018 SamSam ransomware locked Atlanta's municipal systems: bill payment, courts, parking, job applications. For weeks city staff went back to paper forms. The attackers asked for about $51,000 in bitcoin; the city did not pay, but recovery cost millions. In late 2018 two Iranian nationals were indicted in the US for the SamSam campaign.",
+    "lesson": "It made clear that local governments, with old systems and small budgets, are tempting targets, and that the cost of an attack goes far beyond the ransom demanded.",
+    "prayer": "O SamSam, who came in through doors left open to the Internet, grant our cities a budget for patches and not just for printer paper. Amen.",
+    "remembrance": "Remembered by closing exposed remote-access services, using strong passwords and MFA, and rehearsing the restoration of municipal systems before it's needed."
+  }
+}

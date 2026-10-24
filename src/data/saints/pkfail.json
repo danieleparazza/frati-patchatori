@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PKfail, che firmò con la chiave di prova",
+    "patronage": "del Secure Boot, delle chiavi di piattaforma e di chi lascia in produzione ciò che era solo un test.",
+    "hagiography": "Nel 2024 Binarly rivelò PKfail (CVE-2024-8105): moltissimi modelli di computer di vari produttori usavano, come chiave di piattaforma per il Secure Boot, chiavi di test fornite dai produttori di firmware, contrassegnate come \"non fidate, da non usare in produzione\". Chi possedeva la relativa chiave privata, trapelata pubblicamente, poteva firmare bootloader malevoli accettati come fidati. La radice di fiducia poggiava su una chiave che un cartello diceva di non usare.",
+    "prayer": "O San PKfail, che firmi il male con la chiave del campione gratuito, insegna ai nostri firmware a usare chiavi davvero proprie. Amen.",
+    "feast": "Si festeggia aggiornando il firmware con chiavi di piattaforma uniche e genuine e buttando via le chiavi di test lasciate per sbaglio.",
+    "proverb": "Chiave di prova in produzione, serratura per finzione."
+  },
+  "en": {
+    "title": "Saint PKfail, Who Signed With the Test Key",
+    "patronage": "Secure Boot, platform keys, and those who leave in production what was only a test.",
+    "hagiography": "In 2024 Binarly revealed PKfail (CVE-2024-8105): a great many computer models from various makers used, as the Secure Boot platform key, test keys supplied by the firmware makers and marked \"untrusted, do not use in production.\" Whoever held the matching private key, which had leaked publicly, could sign malicious bootloaders accepted as trusted. The root of trust rested on a key a sign told you not to use.",
+    "prayer": "O Saint PKfail, who signs evil with the free-sample key, teach our firmware to use keys that are truly their own. Amen.",
+    "feast": "Celebrated by updating firmware with unique, genuine platform keys and throwing away the test keys left behind by mistake.",
+    "proverb": "A test key in production, a lock for pretend."
+  }
+}

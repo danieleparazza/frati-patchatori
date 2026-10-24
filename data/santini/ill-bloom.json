@@ -1,0 +1,10 @@
+{
+  "label": "Ill Bloom",
+  "motto": "SEMEN CORRUPTUM",
+  "niche": [
+    "#2a1226",
+    "#56244e"
+  ],
+  "accent": "#401c3a",
+  "emblem": "<path d=\"M150 210 V162\" stroke=\"#6a8a3a\" stroke-width=\"4\"/>\n<path d=\"M150 186 q-18 -6 -24 -22 q18 2 24 18z\" fill=\"#7aa048\"/>\n<g fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"1\"><ellipse cx=\"150\" cy=\"146\" rx=\"9\" ry=\"16\"/><ellipse cx=\"150\" cy=\"146\" rx=\"16\" ry=\"9\"/><ellipse cx=\"138\" cy=\"134\" rx=\"11\" ry=\"9\" transform=\"rotate(-40 138 134)\"/><ellipse cx=\"162\" cy=\"134\" rx=\"11\" ry=\"9\" transform=\"rotate(40 162 134)\"/></g>\n<circle cx=\"150\" cy=\"146\" r=\"6\" fill=\"#2b1d14\"/>\n<path d=\"M132 222 q18 -10 36 0\" stroke=\"#6a8a3a\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M140 210 l6 6 l-6 6 M160 210 l-6 6 l6 6\" stroke=\"#2b1d14\" stroke-width=\"2\" fill=\"none\"/>"
+}

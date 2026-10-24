@@ -1,0 +1,10 @@
+{
+  "label": "FortiJump-Higher",
+  "motto": "SALTUS ALTIOR",
+  "niche": [
+    "#1a2a2e",
+    "#345054"
+  ],
+  "accent": "#244448",
+  "emblem": "<rect x=\"100\" y=\"222\" width=\"30\" height=\"18\" fill=\"#7f8c8d\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<rect x=\"135\" y=\"196\" width=\"30\" height=\"44\" fill=\"#95a5a6\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<rect x=\"170\" y=\"158\" width=\"30\" height=\"82\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M110 212 q30 -40 66 -70\" fill=\"none\" stroke=\"#e8c45c\" stroke-width=\"3\" stroke-dasharray=\"5 4\"/>\n<path d=\"M176 142 l10 2 l-6 10 z\" fill=\"#e8c45c\"/>\n<path d=\"M150 180 L162 192 L156 192 L166 206 L144 196 L150 196 Z\" fill=\"#c0392b\"/>"
+}

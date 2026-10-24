@@ -1,0 +1,10 @@
+{
+  "label": "Smith",
+  "motto": "NUMERUS NIMIUS",
+  "niche": [
+    "#16261c",
+    "#2f4f3a"
+  ],
+  "accent": "#1f3a2a",
+  "emblem": "<path d=\"M112 168 Q150 150 188 168 L184 182 Q150 172 116 182 Z\" fill=\"#111\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>\n<ellipse cx=\"132\" cy=\"176\" rx=\"14\" ry=\"9\" fill=\"#111\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>\n<ellipse cx=\"168\" cy=\"176\" rx=\"14\" ry=\"9\" fill=\"#111\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>\n<g font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#7ee08a\" text-anchor=\"middle\">\n<text x=\"112\" y=\"132\">1</text><text x=\"132\" y=\"146\">0</text><text x=\"190\" y=\"136\">1</text><text x=\"170\" y=\"128\">F</text>\n<text x=\"118\" y=\"214\">F</text><text x=\"150\" y=\"208\">F</text><text x=\"182\" y=\"216\">F</text>\n</g>\n<text x=\"150\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#fbf3dd\">0xFFFF…FF + 1</text>"
+}

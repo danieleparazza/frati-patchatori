@@ -1,0 +1,11 @@
+{
+  "label": "MyDoom",
+  "motto": "UNA EPISTULA IN DECEM",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"108\" y=\"128\" width=\"66\" height=\"44\" rx=\"3\" fill=\"#2b2420\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/><path d=\"M108 130 L141 154 L174 130\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/><rect x=\"122\" y=\"146\" width=\"66\" height=\"44\" rx=\"3\" fill=\"#2b2420\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/><path d=\"M122 148 L155 172 L188 148\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/><rect x=\"136\" y=\"164\" width=\"66\" height=\"44\" rx=\"3\" fill=\"#3a2a20\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/><path d=\"M136 166 L169 190 L202 166\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#fbf3dd\" >1 / 10</text>"
+}

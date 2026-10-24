@@ -1,0 +1,10 @@
+{
+  "label": "Spectra",
+  "motto": "DUAE RADII UNUS MURUS",
+  "niche": [
+    "#16203f",
+    "#2d407a"
+  ],
+  "accent": "#1e2d58",
+  "emblem": "<g stroke=\"#5dade2\" stroke-width=\"3\" fill=\"none\"><path d=\"M128 150 C110 168 110 200 128 218\"/><path d=\"M118 142 C94 166 94 202 118 226\"/></g>\n<circle cx=\"138\" cy=\"184\" r=\"6\" fill=\"#5dade2\"/>\n<path d=\"M172 150 L172 186 L160 174 M172 186 L184 174 M160 200 L184 200 M166 212 L178 224 M178 212 L166 224\" stroke=\"#fbf3dd\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>\n<circle cx=\"172\" cy=\"196\" r=\"6\" fill=\"#fbf3dd\"/>\n<path d=\"M144 184 H158\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-dasharray=\"3 3\"/>\n<rect x=\"120\" y=\"226\" width=\"60\" height=\"6\" rx=\"2\" fill=\"#2b1d14\" opacity=\"0.4\"/>"
+}

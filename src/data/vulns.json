@@ -1330,7 +1330,7 @@
   "kev": false,
   "ransomware": false,
   "born": null,
-  "absurd": false,
+  "absurd": true,
   "vendor": null,
   "product": null,
   "description": "The Nintendo NetworkBuffer class, as used in Animal Crossing: New Horizons before 2.0.6 and other products, allows remote attackers to execute arbitrary code via a large UDP packet that causes a buffer overflow, aka ENLBufferPwn. The victim must join a game session with the attacker. Other affected products include Mario Kart 7 before 1.2, Mario Kart 8, Mario Kart 8 Deluxe before 2.1.0, ARMS before 5.4.1, Splatoon, Splatoon 2 before 5.5.1, Splatoon 3 before late 2022, Super Mario Maker 2 before 3.0.2, and Nintendo Switch Sports before late 2022.",
@@ -2843,7 +2843,7 @@
   "cvss": 7.5,
   "kev": false,
   "ransomware": false,
-  "born": null,
+  "born": 1998,
   "absurd": false,
   "vendor": "Legion of the Bouncy Castle",
   "product": "BouncyCastle TLS",
@@ -4202,8 +4202,7 @@
   "day": "12-03",
   "category": "santo",
   "cves": [
-   "CVE-2025-55182",
-   "CVE-2025-66478"
+   "CVE-2025-55182"
   ],
   "cvss": 10,
   "kev": true,
@@ -5748,8 +5747,7 @@
   "category": "santo",
   "cves": [
    "CVE-2023-41990",
-   "CVE-2023-32434",
-   "CVE-2023-38606"
+   "CVE-2023-32434"
   ],
   "cvss": 7.8,
   "kev": true,
@@ -6492,6 +6490,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "bleedingbit",
+  "name": "BLEEDINGBIT",
+  "date": "2018-11-01",
+  "day": "11-01",
+  "category": "santo",
+  "cves": [
+   "CVE-2018-7080",
+   "CVE-2018-16986"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "Hewlett Packard Enterprise",
+  "product": "Aruba Access Points",
+  "description": "A vulnerability exists in the firmware of embedded BLE radios that are part of some Aruba Access points. An attacker who is able to exploit the vulnerability could install new, potentially malicious firmware into the AP's BLE radio and could then gain access to the AP's console port. This vulnerability is applicable only if the BLE radio has been enabled in affected access points. The BLE radio is disabled by default. Note - Aruba products are NOT affected by a similar vulnerability being tracked as CVE-2018-16986.",
+  "canonical": "https://www.armis.com/research/bleedingbit/",
+  "links": [],
+  "logo": "bleedingbit.png",
+  "author": "Armis",
+  "fame": 5.4,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "bleichenbachers-cat",
   "name": "The 9 Lives of Bleichenbacher's CAT",
   "date": "2018-11-30",
@@ -6516,31 +6539,6 @@
   "links": [],
   "logo": "bleichenbacherscat.png",
   "author": "Eyal Ronen, Robert Gillham, Daniel Genkin, Adi Shamir, David Wong and Yuval Yarom",
-  "fame": 5.4,
-  "source": "vulnerability-garden"
- },
- {
-  "id": "bleedingbit",
-  "name": "BLEEDINGBIT",
-  "date": "2018-12-06",
-  "day": "12-06",
-  "category": "santo",
-  "cves": [
-   "CVE-2018-7080",
-   "CVE-2018-16986"
-  ],
-  "cvss": null,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": "Hewlett Packard Enterprise",
-  "product": "Aruba Access Points",
-  "description": "A vulnerability exists in the firmware of embedded BLE radios that are part of some Aruba Access points. An attacker who is able to exploit the vulnerability could install new, potentially malicious firmware into the AP's BLE radio and could then gain access to the AP's console port. This vulnerability is applicable only if the BLE radio has been enabled in affected access points. The BLE radio is disabled by default. Note - Aruba products are NOT affected by a similar vulnerability being tracked as CVE-2018-16986.",
-  "canonical": "https://www.armis.com/research/bleedingbit/",
-  "links": [],
-  "logo": "bleedingbit.png",
-  "author": "Armis",
   "fame": 5.4,
   "source": "vulnerability-garden"
  },
@@ -7969,7 +7967,7 @@
   "kev": false,
   "ransomware": false,
   "born": null,
-  "absurd": false,
+  "absurd": true,
   "vendor": "AMD",
   "product": "AMD EPYC™ 7003 Series Processors",
   "description": "Improper input validation for DIMM serial presence detect (SPD) metadata could allow an attacker with physical access, ring0 access on a system with a non-compliant DIMM, or control over the Root of Trust for BIOS update, to potentially overwrite guest memory resulting in loss of guest data integrity.",
@@ -20950,7 +20948,7 @@
   "kev": false,
   "ransomware": false,
   "born": null,
-  "absurd": false,
+  "absurd": true,
   "vendor": null,
   "product": null,
   "description": null,

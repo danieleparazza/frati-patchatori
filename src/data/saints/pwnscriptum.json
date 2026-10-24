@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PwnScriptum, che scriveva codice nei log della posta",
+    "patronage": "dei form di contatto, della funzione mail() di PHP e di chi passa l'indirizzo dell'utente al mittente di sistema.",
+    "hagiography": "A fine dicembre 2016 Dawid Golunski divulgò PwnScriptum, una famiglia di difetti in PHPMailer, SwiftMailer e Zend Mail. La funzione mail() di PHP passava il suo quinto parametro a sendmail attraverso una shell: con la sintassi delle stringhe tra virgolette si potevano iniettare argomenti extra, come l'opzione -X di Sendmail, che scrive un file di log a scelta. Mettendo codice PHP nel corpo del messaggio e il log in una cartella web, bastava un form di contatto per arrivare all'esecuzione di codice.",
+    "prayer": "O San PwnScriptum, che trasformi un form di contatto in una shell, fa' che i nostri indirizzi email restino dati e non argomenti. Amen.",
+    "feast": "Si festeggia aggiornando PHPMailer alla 5.2.18 e validando ogni indirizzo prima di affidarlo a mail().",
+    "proverb": "Form di contatto senza controlli, posta che scotta."
+  },
+  "en": {
+    "title": "Saint PwnScriptum, Who Wrote Code in the Mail Logs",
+    "patronage": "contact forms, PHP's mail() function, and anyone who passes the user's address to the system sender.",
+    "hagiography": "In late December 2016 Dawid Golunski disclosed PwnScriptum, a family of flaws in PHPMailer, SwiftMailer and Zend Mail. PHP's mail() function passed its fifth parameter to sendmail through a shell: with quoted-string syntax one could inject extra arguments, such as Sendmail's -X option, which writes a log file of your choice. By putting PHP code in the message body and the log in a web folder, a single contact form was enough to reach code execution.",
+    "prayer": "O Saint PwnScriptum, who turns a contact form into a shell, let our email addresses stay data and never arguments. Amen.",
+    "feast": "Celebrated by updating PHPMailer to 5.2.18 and validating every address before handing it to mail().",
+    "proverb": "A contact form without checks is mail that burns."
+  }
+}

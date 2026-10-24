@@ -1,0 +1,10 @@
+{
+  "label": "DUHK",
+  "motto": "CLAVIS OMNIBUS NOTA",
+  "niche": [
+    "#14262e",
+    "#2c4c58"
+  ],
+  "accent": "#1d3b46",
+  "emblem": "<rect x=\"110\" y=\"150\" width=\"80\" height=\"56\" rx=\"5\" fill=\"#1e272e\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<rect x=\"120\" y=\"160\" width=\"60\" height=\"18\" rx=\"2\" fill=\"#0d1115\"/>\n<text x=\"150\" y=\"174\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#27ae60\">X9.31</text>\n<g fill=\"#d9ad55\"><rect x=\"122\" y=\"186\" width=\"10\" height=\"6\" rx=\"1\"/><rect x=\"136\" y=\"186\" width=\"10\" height=\"6\" rx=\"1\"/><rect x=\"150\" y=\"186\" width=\"10\" height=\"6\" rx=\"1\"/><rect x=\"164\" y=\"186\" width=\"10\" height=\"6\" rx=\"1\"/></g>\n<g transform=\"translate(150 224)\"><circle cx=\"-16\" cy=\"0\" r=\"10\" fill=\"none\" stroke=\"#e8c45c\" stroke-width=\"4\"/><path d=\"M-6 0 H22 M14 0 V9 M21 0 V7\" stroke=\"#e8c45c\" stroke-width=\"4\"/></g>"
+}

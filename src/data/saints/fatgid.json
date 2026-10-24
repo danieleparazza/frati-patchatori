@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San FatGid, dai troppi gruppi supplementari",
+    "patronage": "della chiamata setcred, dei buffer dello stack misurati male e dei kernel BSD colti in fallo.",
+    "hagiography": "Il 21 maggio 2026 il team di sicurezza di FreeBSD, su segnalazione di Przemysław Frasunek, pubblicò FatGid (CVE-2026-45250). La chiamata di sistema setcred copiava la lista dei gruppi supplementari fornita dall'utente in un buffer sullo stack del kernel prima di verificarne la lunghezza, e prima ancora di controllare i privilegi del chiamante. Un utente non privilegiato poteva così traboccare lo stack: sulle versioni 14.3 e 14.4 l'autore arrivò fino a una shell di root.",
+    "prayer": "O San FatGid, che copi la lista prima di contarla, fa' che i nostri kernel misurino sempre prima di scrivere. Amen.",
+    "feast": "Si festeggia aggiornando a 14.3-p14, 14.4-p5 o 15.0-p9 e riavviando, perché una toppa a metà non serve.",
+    "proverb": "Lista lunga, stack corto."
+  },
+  "en": {
+    "title": "Saint FatGid, of the Too Many Supplementary Groups",
+    "patronage": "the setcred call, stack buffers measured wrong, and BSD kernels caught out.",
+    "hagiography": "On 21 May 2026 the FreeBSD security team, on a report by Przemysław Frasunek, published FatGid (CVE-2026-45250). The setcred system call copied the user-supplied list of supplementary groups into a kernel stack buffer before validating its length, and before even checking the caller's privileges. An unprivileged user could thus overflow the stack: on versions 14.3 and 14.4 the author reached a root shell.",
+    "prayer": "O Saint FatGid, who copies the list before counting it, let our kernels always measure before they write. Amen.",
+    "feast": "Celebrated by updating to 14.3-p14, 14.4-p5 or 15.0-p9 and rebooting, because half a patch is no patch.",
+    "proverb": "Long list, short stack."
+  }
+}

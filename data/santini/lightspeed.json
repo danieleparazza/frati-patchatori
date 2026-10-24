@@ -1,0 +1,10 @@
+{
+  "label": "Lightspeed",
+  "motto": "CITIUS QUAM CUSTOS",
+  "niche": [
+    "#14213a",
+    "#2a4370"
+  ],
+  "accent": "#1d3160",
+  "emblem": "<rect x=\"112\" y=\"148\" width=\"76\" height=\"60\" rx=\"8\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M112 148 l20 20 M188 148 l-20 20 M112 208 l20 -20 M188 208 l-20 -20\" stroke=\"#bfc9d1\" stroke-width=\"1.5\" opacity=\"0.5\"/>\n<path d=\"M156 130 L128 184 H150 L142 236 L184 170 H160 Z\" fill=\"#e8c45c\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M104 196 h-14 M104 204 h-24 M196 196 h14 M196 204 h24\" stroke=\"#5dade2\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+}

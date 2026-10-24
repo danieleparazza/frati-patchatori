@@ -1,0 +1,10 @@
+{
+  "label": "Curse of Silence",
+  "motto": "SILENTIUM PER SMS",
+  "niche": [
+    "#1a1a26",
+    "#363650"
+  ],
+  "accent": "#28283e",
+  "emblem": "<rect x=\"122\" y=\"128\" width=\"56\" height=\"112\" rx=\"10\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"128\" y=\"142\" width=\"44\" height=\"74\" rx=\"2\" fill=\"#1e272e\"/>\n<circle cx=\"150\" cy=\"228\" r=\"5\" fill=\"#2b1d14\"/>\n<path d=\"M136 160 h32 v18 h-20 l-8 8 v-8 h-4 z\" fill=\"#d9ad55\"/>\n<text x=\"152\" y=\"174\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#2b1d14\">@</text>\n<path d=\"M186 148 q10 10 0 22 M194 142 q16 16 0 34\" stroke=\"#7f8c8d\" stroke-width=\"2.5\" fill=\"none\" opacity=\"0.5\"/>\n<path d=\"M176 186 l14 14 M190 186 l-14 14\" stroke=\"#c0392b\" stroke-width=\"3\"/>"
+}

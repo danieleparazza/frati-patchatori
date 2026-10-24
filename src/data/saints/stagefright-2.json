@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Stagefright 2.0, che torna a cantare dagli MP3",
+    "patronage": "dei file MP3 e MP4 dall'aria innocua, delle anteprime che si caricano da sole e dei telefoni che non vedono un aggiornamento da anni.",
+    "hagiography": "Il 1° ottobre 2015, appena due mesi dopo il primo Stagefright, Joshua Drake di Zimperium annunciò il seguito: bastavano i metadati di un file MP3 o MP4 preparato ad arte per eseguire codice su un telefono Android. Il difetto stava in libutils, presente fin da Android 1.0, e si raggiungeva attraverso libstagefright: per colpire una vittima era sufficiente farle aprire una pagina web con la canzone sbagliata.",
+    "prayer": "O San Stagefright 2.0, che ritorni come ogni seguito che nessuno aveva chiesto, fa' che i nostri telefoni ricevano almeno un aggiornamento. Amen.",
+    "feast": "Si festeggia installando il bollettino di sicurezza Android di ottobre 2015 e ascoltando musica solo da un telefono aggiornato.",
+    "proverb": "Bug che rende non resta senza seguito."
+  },
+  "en": {
+    "title": "Saint Stagefright 2.0, Who Sings Again From MP3s",
+    "patronage": "innocent-looking MP3 and MP4 files, previews that load by themselves, and phones that haven't seen an update in years.",
+    "hagiography": "On 1 October 2015, barely two months after the first Stagefright, Joshua Drake of Zimperium announced the sequel: the metadata of a crafted MP3 or MP4 file was enough to run code on an Android phone. The flaw lived in libutils, present since Android 1.0, and was reached through libstagefright: to hit a victim it was enough to make them open a web page playing the wrong song.",
+    "prayer": "O Saint Stagefright 2.0, who returns like every sequel nobody asked for, let our phones receive at least one update. Amen.",
+    "feast": "Celebrated by installing the October 2015 Android security bulletin and listening to music only on an updated phone.",
+    "proverb": "A bug that pays always gets a sequel."
+  }
+}

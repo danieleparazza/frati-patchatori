@@ -1,0 +1,10 @@
+{
+  "label": "DynoRoot",
+  "motto": "LOCATIO MALIGNA",
+  "niche": [
+    "#3a2714",
+    "#6b4a22"
+  ],
+  "accent": "#5a3c1c",
+  "emblem": "<rect x=\"104\" y=\"140\" width=\"92\" height=\"52\" rx=\"6\" fill=\"#2b3a4a\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<g fill=\"#7ee08a\"><circle cx=\"118\" cy=\"154\" r=\"3\"/><circle cx=\"130\" cy=\"154\" r=\"3\"/></g>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#bfc9d1\">DHCP</text>\n<path d=\"M150 192 V212\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M142 206 l8 8 l8 -8\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"116\" y=\"214\" width=\"68\" height=\"26\" rx=\"3\" fill=\"#111\" stroke=\"#c0392b\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#7ee08a\"># ; rm</text>"
+}

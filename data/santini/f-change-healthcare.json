@@ -1,0 +1,11 @@
+{
+  "label": "Change Healthcare",
+  "motto": "SALUS NON EXSPECTAT",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"110\" y=\"152\" width=\"80\" height=\"76\" rx=\"6\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<rect x=\"132\" y=\"138\" width=\"36\" height=\"18\" rx=\"3\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M150 170 V212 M129 191 H171\" stroke=\"#d9ad55\" stroke-width=\"10\" stroke-linecap=\"round\"/>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BadSuccessor, che si nominava erede",
+    "patronage": "degli account di servizio gestiti dMSA, dei permessi concessi con troppa larghezza e dei domini Active Directory del 2025.",
+    "hagiography": "Il 21 maggio 2025 Yuval Gordon di Akamai descrisse BadSuccessor (CVE-2025-53779), che abusa degli account di servizio gestiti delegati (dMSA) introdotti con Windows Server 2025. Chi aveva certi permessi su un'unità organizzativa poteva creare un dMSA e dichiararlo \"successore\" di un account privilegiato: Active Directory gli assegnava allora i poteri del predecessore, aprendo la strada all'escalation fino a tutto il dominio.",
+    "prayer": "O San BadSuccessor, che ti proclami erede di chi non ti ha scelto, fa' che le nostre eredità richiedano il consenso del defunto. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di agosto 2025 e sorvegliando chi può creare account gestiti delegati.",
+    "proverb": "Erede dichiarato, dominio ereditato."
+  },
+  "en": {
+    "title": "Saint BadSuccessor, Who Named Himself Heir",
+    "patronage": "delegated managed service accounts, permissions granted too broadly, and 2025 Active Directory domains.",
+    "hagiography": "On 21 May 2025 Yuval Gordon of Akamai described BadSuccessor (CVE-2025-53779), which abuses the delegated Managed Service Accounts (dMSA) introduced with Windows Server 2025. Anyone with certain permissions over an organizational unit could create a dMSA and declare it the \"successor\" of a privileged account: Active Directory then granted it the predecessor's powers, opening the way to escalation across the whole domain.",
+    "prayer": "O Saint BadSuccessor, who proclaims yourself heir of one who did not choose you, let our inheritances require the deceased's consent. Amen.",
+    "feast": "Celebrated by installing the August 2025 updates and watching who can create delegated managed accounts.",
+    "proverb": "Declare yourself heir, inherit the domain."
+  }
+}

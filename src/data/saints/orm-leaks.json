@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ORM Leaks, che filtrava i segreti dei database",
+    "patronage": "degli ORM, dei filtri troppo generosi e delle API che rispondono più di quanto dovrebbero.",
+    "hagiography": "Nel giugno 2024 Alex Brown di elttam descrisse una classe di difetti negli ORM, da Django a Strapi: quando l'input dell'utente arriva fino ai filtri delle query, si possono attraversare le relazioni tra tabelle e interrogare colonne mai pensate per essere esposte. Confrontando le risposte un carattere alla volta, si deducono hash di password e token di reset. Non un bug solo, ma un modo di pensare storto, con una manciata di CVE a seguito.",
+    "prayer": "O San ORM Leaks, che fai confessare al database ciò che non voleva dire, insegna ai nostri filtri a lasciar passare solo i campi giusti. Amen.",
+    "feast": "Si festeggia mettendo sulla lista bianca i campi filtrabili e aggiornando Strapi e gli altri framework colpiti.",
+    "proverb": "Filtro generoso, database loquace."
+  },
+  "en": {
+    "title": "Saint ORM Leaks, Who Filtered Out the Database's Secrets",
+    "patronage": "ORMs, over-generous filters, and APIs that answer more than they should.",
+    "hagiography": "In June 2024 Alex Brown of elttam described a class of flaws in ORMs, from Django to Strapi: when user input reaches the query filters, you can traverse the relations between tables and query columns never meant to be exposed. By comparing responses one character at a time, you infer password hashes and reset tokens. Not a single bug, but a crooked way of thinking, with a handful of CVEs in its wake.",
+    "prayer": "O Saint ORM Leaks, who makes the database confess what it meant to keep, teach our filters to pass only the right fields. Amen.",
+    "feast": "Celebrated by allow-listing the filterable fields and updating Strapi and the other frameworks that were hit.",
+    "proverb": "A generous filter makes a talkative database."
+  }
+}

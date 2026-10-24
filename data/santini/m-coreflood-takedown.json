@@ -1,0 +1,11 @@
+{
+  "label": "Coreflood",
+  "motto": "SISTE ET QUIESCE",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<polygon points=\"133,132 167,132 192,157 192,193 167,218 133,218 108,193 108,157\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<text x=\"150\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"28\" fill=\"#fbf3dd\" letter-spacing=\"1\">STOP</text>"
+}

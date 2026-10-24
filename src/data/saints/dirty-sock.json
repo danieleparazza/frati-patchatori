@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Dirty Sock, dal calzino sporco",
+    "patronage": "dei pacchetti snap, dei socket di sistema e di chi si fida di come si presenta il visitatore.",
+    "hagiography": "Nel febbraio 2019 Chris Moberly rivelò la CVE-2019-7304 in snapd, il servizio che gestisce i pacchetti snap su Ubuntu e altre distribuzioni. Il demone ricavava l'identità di chi lo chiamava in modo ingenuo, e un utente qualunque poteva farsi passare per root e chiedergli operazioni riservate all'amministratore. Il nome strizza l'occhio a Dirty COW e al socket, un calzino che puzza di privilegi.",
+    "prayer": "O San Dirty Sock, che entri in casa con le scarpe di un altro, fa' che i nostri demoni controllino chi bussa davvero. Amen.",
+    "feast": "Si festeggia aggiornando snapd alla 2.37.1 o successiva e mettendo i calzini sporchi nel cesto, non nel socket.",
+    "proverb": "Calzino sporco non si lava in casa d'altri."
+  },
+  "en": {
+    "title": "Saint Dirty Sock, of the Grubby Sock",
+    "patronage": "snap packages, system sockets, and anyone who trusts how a visitor introduces himself.",
+    "hagiography": "In February 2019 Chris Moberly revealed CVE-2019-7304 in snapd, the service that manages snap packages on Ubuntu and other distributions. The daemon worked out its caller's identity in a naive way, and any user could pass for root and ask it for admin-only operations. The name winks at Dirty COW and the socket: a sock that reeks of privilege.",
+    "prayer": "O Saint Dirty Sock, who walks in wearing someone else's shoes, let our daemons check who is really knocking. Amen.",
+    "feast": "Celebrated by updating snapd to 2.37.1 or later and putting dirty socks in the laundry basket, not in the socket.",
+    "proverb": "Don't wash your dirty socks in someone else's daemon."
+  }
+}

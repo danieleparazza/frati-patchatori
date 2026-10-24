@@ -1,0 +1,10 @@
+{
+  "label": "EPICBANANA",
+  "motto": "FRUCTUS PROHIBITUS",
+  "niche": [
+    "#2d3014",
+    "#5a6024"
+  ],
+  "accent": "#454a1a",
+  "emblem": "<path d=\"M112 150 C110 200 150 232 196 214 C200 212 200 206 194 206 C156 214 126 190 124 150 Z\" fill=\"#f4d03f\" stroke=\"#8c6a22\" stroke-width=\"2\"/>\n<path d=\"M118 152 C120 140 126 136 128 136 L124 150 Z\" fill=\"#6b4f1d\"/>\n<path d=\"M194 206 L204 210 L198 216 Z\" fill=\"#6b4f1d\"/>\n<path d=\"M126 168 C134 196 158 210 186 208\" stroke=\"#d4ac0d\" stroke-width=\"2\" fill=\"none\"/>\n<text x=\"150\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">ASA&gt; enable</text>"
+}

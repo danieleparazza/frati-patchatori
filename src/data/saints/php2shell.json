@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PHP2Shell, flagello di mezzo web",
+    "patronage": "dei server che fanno girare PHP senza saperlo, dei WordPress mai aggiornati e degli embarghi che non reggono.",
+    "hagiography": "Il 21 ottobre 2026 il progetto PHP rilasciò le correzioni per due difetti profondi nel motore del linguaggio, CVE-2026-109618 e CVE-2026-109619: una cattiva gestione degli errori di memoria esaurita lasciava stato corrotto che la richiesta successiva poteva riusare, fino all'esecuzione di codice senza autenticazione. Wiz Research, che li aveva scoperti, mostrò RCE contro WordPress, Drupal e Joomla. I dettagli trapelarono il giorno prima della patch, e gli attacchi di massa partirono quasi subito; il nome viene da uno strumento di exploit chiamato PHP2Shell.",
+    "prayer": "O San PHP2Shell, che entri nel motore di mezzo web, fa' che i nostri PHP siano aggiornati prima che trapeli l'embargo. Amen.",
+    "feast": "Si festeggia aggiornando PHP alla 8.5.12, 8.4.27, 8.3.36 o 8.2.35, e scoprendo con sorpresa quante cose girano ancora su PHP.",
+    "proverb": "Chi lascia PHP vecchio lascia aperta la casa."
+  },
+  "en": {
+    "title": "Saint PHP2Shell, Scourge of Half the Web",
+    "patronage": "servers running PHP without knowing it, never-updated WordPress sites, and embargoes that don't hold.",
+    "hagiography": "On 21 October 2026 the PHP project released fixes for two deep flaws in the language engine, CVE-2026-109618 and CVE-2026-109619: mishandling of out-of-memory errors left corrupted state that the next request could reuse, up to unauthenticated code execution. Wiz Research, who discovered them, demonstrated RCE against WordPress, Drupal and Joomla. The details leaked the day before the patch, and mass attacks began almost at once; the name comes from an exploit tool called PHP2Shell.",
+    "prayer": "O Saint PHP2Shell, who enters the engine of half the web, let our PHP be updated before the embargo leaks. Amen.",
+    "feast": "Celebrated by updating PHP to 8.5.12, 8.4.27, 8.3.36 or 8.2.35, and discovering with surprise how much still runs on PHP.",
+    "proverb": "Leave PHP old and you leave the house open."
+  }
+}

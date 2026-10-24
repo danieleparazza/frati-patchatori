@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello del gettone tradito",
+    "chronicle": "Il 17 marzo 2011 il presidente esecutivo di RSA, Art Coviello, rivelò in una lettera aperta un'intrusione definita \"minaccia persistente avanzata\", che aveva sottratto informazioni legate ai gettoni di autenticazione a due fattori SecurID. Gli attaccanti erano entrati con email di phishing intitolate '2011 Recruitment Plan', con allegato un file Excel che conteneva una zero-day di Flash. I dati rubati furono poi collegati a un tentativo di attacco a Lockheed Martin, e RSA offrì ai clienti la sostituzione dei token.",
+    "lesson": "Ricordò che anche chi vende sicurezza può essere violato, e che un secondo fattore vale quanto i segreti custoditi da chi lo fabbrica.",
+    "prayer": "O SecurID, i cui numeri cambiavano ogni minuto ma i cui semi stavano fermi in un archivio, proteggi le chiavi dei fabbricanti di chiavi. Amen.",
+    "remembrance": "Si ricorda aprendo gli allegati inattesi in un ambiente isolato, aggiornando o rimuovendo i plugin e preferendo fattori di autenticazione resistenti al phishing."
+  },
+  "en": {
+    "title": "The Scourge of the Betrayed Token",
+    "chronicle": "On 17 March 2011 RSA's executive chairman, Art Coviello, disclosed in an open letter an intrusion described as an \"advanced persistent threat\", which had stolen information related to its SecurID two-factor tokens. The attackers got in through phishing emails titled '2011 Recruitment Plan' carrying an Excel file with a Flash zero-day. The stolen data was later linked to an attempted attack on Lockheed Martin, and RSA offered to replace customers' tokens.",
+    "lesson": "It was a reminder that security vendors can be breached too, and that a second factor is only as good as the secrets its maker keeps.",
+    "prayer": "O SecurID, whose numbers changed every minute while their seeds sat still in an archive, protect the keys of the keymakers. Amen.",
+    "remembrance": "Remembered by opening unexpected attachments in a sandbox, updating or removing plugins and preferring phishing-resistant authentication."
+  }
+}

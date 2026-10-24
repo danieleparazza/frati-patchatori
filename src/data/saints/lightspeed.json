@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Lightspeed, che corse più veloce della sandbox",
+    "patronage": "delle sandbox di iOS e macOS, delle race condition nel kernel e di chi corre per primo al traguardo.",
+    "hagiography": "Nell'ottobre 2018 Luca Moro di Synacktiv descrisse Lightspeed, una vulnerabilità del kernel XNU di Apple: una corruzione di memoria raggiungibile da dentro la sandbox permetteva di evaderla e salire di privilegi su iOS e macOS. Era una gara contro il tempo, vinta sfruttando una race condition prima che il sistema potesse accorgersene. Apple la corresse con iOS 12 e macOS Mojave 10.14.",
+    "prayer": "O San Lightspeed, che batti sul tempo le difese del kernel, fa' che le nostre sandbox restino più veloci degli evasori. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 12 o macOS Mojave 10.14 e tenendo il sistema sempre all'ultima versione.",
+    "proverb": "Chi arriva primo alla memoria detta le regole."
+  },
+  "en": {
+    "title": "Saint Lightspeed, Who Outran the Sandbox",
+    "patronage": "iOS and macOS sandboxes, kernel race conditions, and whoever reaches the finish line first.",
+    "hagiography": "In October 2018 Luca Moro of Synacktiv described Lightspeed, a vulnerability in Apple's XNU kernel: a memory corruption reachable from inside the sandbox let you escape it and escalate privileges on iOS and macOS. It was a race against time, won by exploiting a race condition before the system could notice. Apple fixed it with iOS 12 and macOS Mojave 10.14.",
+    "prayer": "O Saint Lightspeed, who beats the kernel's defences to the clock, let our sandboxes stay faster than the escapers. Amen.",
+    "feast": "Celebrated by updating to iOS 12 or macOS Mojave 10.14 and keeping the system always on the latest version.",
+    "proverb": "First to the memory sets the rules."
+  }
+}

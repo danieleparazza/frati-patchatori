@@ -1,0 +1,10 @@
+{
+  "label": "Rapid Reset",
+  "motto": "PETO ET STATIM NOLO",
+  "niche": [
+    "#3a2410",
+    "#6b4420"
+  ],
+  "accent": "#6b3a12",
+  "emblem": "<path d=\"M150 136 A44 44 0 1 0 192 166\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<path d=\"M150 124 L166 138 L148 150 Z\" fill=\"#fbf3dd\"/>\n<circle cx=\"150\" cy=\"180\" r=\"26\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#fbf3dd\">RST</text>\n<g stroke=\"#d9ad55\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M100 232 h20 M108 242 h24 M168 232 h28 M176 242 h20 M140 248 h22\"/></g>"
+}

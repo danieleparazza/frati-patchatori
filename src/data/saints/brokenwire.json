@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Brokenwire, che staccava la spina da lontano",
+    "patronage": "delle colonnine di ricarica rapida, delle auto elettriche in coda e delle radio che disturbano.",
+    "hagiography": "Nel febbraio 2022 i ricercatori dell'Università di Oxford e di armasuisse mostrarono che il Combined Charging System, lo standard di ricarica rapida in corrente continua, parla con l'auto attraverso il cavo con una comunicazione su linea elettrica sensibile ai disturbi radio. Con una radio software e poca potenza, anche da decine di metri di distanza, si potevano interrompere le sessioni di ricarica di più veicoli alla volta. Per chiudere la falla serve cambiare il protocollo, non basta un aggiornamento.",
+    "prayer": "O San Brokenwire, che fai cadere la linea senza toccare il cavo, concedi alle nostre auto una ricarica intera e una coda breve. Amen.",
+    "feast": "Si festeggia seguendo l'evoluzione dello standard e, nel frattempo, ricollegando il cavo con pazienza francescana.",
+    "proverb": "Filo che non tocchi, puoi comunque spezzare."
+  },
+  "en": {
+    "title": "Saint Brokenwire, Who Pulled the Plug From Afar",
+    "patronage": "rapid chargers, electric cars in the queue, and radios that cause interference.",
+    "hagiography": "In February 2022 researchers from the University of Oxford and armasuisse showed that the Combined Charging System, the standard for DC rapid charging, talks to the car over the cable using power-line communication that is sensitive to radio interference. With a software-defined radio and little power, even from tens of metres away, charging sessions of several vehicles at once could be cut off. Closing the hole means changing the protocol; an update is not enough.",
+    "prayer": "O Saint Brokenwire, who drops the line without touching the cable, grant our cars a full charge and a short queue. Amen.",
+    "feast": "Celebrated by following the standard's evolution and, meanwhile, plugging the cable back in with Franciscan patience.",
+    "proverb": "A wire you never touch can still be broken."
+  }
+}

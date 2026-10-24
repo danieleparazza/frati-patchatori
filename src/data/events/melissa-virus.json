@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "La pestilenza di Melissa",
+    "chronicle": "Il 26 marzo 1999 David L. Smith pubblicò sul newsgroup alt.sex un documento Word che prometteva password per siti a pagamento e nascondeva una macro. Appena aperto, il file si spediva da solo ai primi 50 contatti della rubrica di Outlook, che lo aprivano fidandosi del mittente. La valanga di posta costrinse aziende ed enti governativi a chiudere i gateway di email; l'FBI stimò circa 80 milioni di dollari di danni. Smith fu arrestato il 1° aprile e condannato più tardi a 20 mesi di carcere federale.",
+    "lesson": "Insegnò al mondo che un allegato di un amico non è per forza un regalo, e spinse i programmi d'ufficio a disattivare le macro per impostazione predefinita.",
+    "prayer": "O Melissa, che bussavi con il nome di un conoscente, liberaci dalle macro che si eseguono da sole e dalle rubriche troppo generose. Amen.",
+    "remembrance": "Si ricorda lasciando disattivate le macro dei documenti scaricati e chiedendo conferma al mittente prima di aprire l'allegato \"che ti avevo promesso\"."
+  },
+  "en": {
+    "title": "The Pestilence of Melissa",
+    "chronicle": "On 26 March 1999 David L. Smith posted to the alt.sex newsgroup a Word document that promised passwords to adult sites and hid a macro. Once opened, it mailed itself to the first 50 entries in the victim's Outlook address book, whose owners opened it because they trusted the sender. The mail flood forced companies and government agencies to shut down their email gateways; the FBI estimated about $80 million in damage. Smith was arrested on 1 April and later sentenced to 20 months in federal prison.",
+    "lesson": "It taught the world that an attachment from a friend is not necessarily a gift, and pushed office software to disable macros by default.",
+    "prayer": "O Melissa, who came knocking under a friend's name, deliver us from self-running macros and over-generous address books. Amen.",
+    "remembrance": "Remembered by keeping macros disabled in downloaded documents and checking with the sender before opening the file \"you asked for\"."
+  }
+}

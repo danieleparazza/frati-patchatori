@@ -1,0 +1,10 @@
+{
+  "label": "Cloudbleed",
+  "motto": "NUBES CRUENTA",
+  "niche": [
+    "#3a1a24",
+    "#66303f"
+  ],
+  "accent": "#7a2033",
+  "emblem": "<path d=\"M112 186 C96 186 94 162 112 160 C112 140 138 134 148 148 C156 132 184 136 184 156 C202 156 204 186 186 186 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#c0392b\"><path d=\"M126 194 C120 206 120 212 126 214 C132 212 132 206 126 194 Z\"/><path d=\"M150 198 C143 212 143 220 150 222 C157 220 157 212 150 198 Z\"/><path d=\"M174 194 C168 206 168 212 174 214 C180 212 180 206 174 194 Z\"/><path d=\"M162 220 C158 230 158 234 162 236 C166 234 166 230 162 220 Z\"/></g>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#7a2033\">&lt;/html</text>"
+}

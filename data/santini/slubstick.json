@@ -1,0 +1,10 @@
+{
+  "label": "SLUBStick",
+  "motto": "BACULUM PRO CIMICE",
+  "niche": [
+    "#1e2a1a",
+    "#3e5634"
+  ],
+  "accent": "#2e4026",
+  "emblem": "<g fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"><rect x=\"104\" y=\"200\" width=\"28\" height=\"28\"/><rect x=\"136\" y=\"200\" width=\"28\" height=\"28\"/><rect x=\"168\" y=\"200\" width=\"28\" height=\"28\"/><rect x=\"120\" y=\"168\" width=\"28\" height=\"28\"/><rect x=\"152\" y=\"168\" width=\"28\" height=\"28\" fill=\"#d9ad55\"/></g>\n<path d=\"M182 122 V168\" stroke=\"#8b5a2b\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<path d=\"M182 126 Q182 112 170 112 Q160 112 160 124\" stroke=\"#8b5a2b\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\"/>\n<ellipse cx=\"128\" cy=\"146\" rx=\"12\" ry=\"9\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M118 140 l-6 -4 M118 152 l-6 4 M138 140 l6 -4 M138 152 l6 4 M128 137 V130\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>"
+}

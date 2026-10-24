@@ -1,0 +1,10 @@
+{
+  "label": "WHILL",
+  "motto": "QUIVIS PARIATUR",
+  "niche": [
+    "#1d3346",
+    "#2f5470"
+  ],
+  "accent": "#1d3346",
+  "emblem": "<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"140\" cy=\"218\" r=\"26\"/><circle cx=\"188\" cy=\"236\" r=\"9\"/><path d=\"M118 150 V196 H170 L186 228\"/><path d=\"M118 172 H160\"/></g>\n<circle cx=\"140\" cy=\"218\" r=\"4\" fill=\"#d9ad55\"/>\n<g stroke=\"#5dade2\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M176 128 L196 146 L186 154 V122 L196 130 L176 148\"/></g>\n<g stroke=\"#5dade2\" stroke-width=\"2\" fill=\"none\" opacity=\"0.8\"><path d=\"M204 124 a14 14 0 0 1 0 28\"/><path d=\"M210 118 a22 22 0 0 1 0 40\"/></g>"
+}

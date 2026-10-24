@@ -1,0 +1,10 @@
+{
+  "label": "TAA",
+  "motto": "ABORTUS PRODIT",
+  "niche": [
+    "#241a2e",
+    "#463458"
+  ],
+  "accent": "#352648",
+  "emblem": "<rect x=\"114\" y=\"150\" width=\"72\" height=\"56\" rx=\"4\" fill=\"#2c3e50\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"182\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#5dade2\">TSX</text>\n<path d=\"M126 196 h48\" stroke=\"#7f8c8d\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"178\" r=\"34\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"4\"/>\n<path d=\"M126 154 l48 48\" stroke=\"#c0392b\" stroke-width=\"4\"/>\n<g fill=\"#e8c45c\"><circle cx=\"118\" cy=\"224\" r=\"3\"/><circle cx=\"134\" cy=\"228\" r=\"3\"/><circle cx=\"150\" cy=\"224\" r=\"3\"/><circle cx=\"166\" cy=\"228\" r=\"3\"/><circle cx=\"182\" cy=\"224\" r=\"3\"/></g>"
+}

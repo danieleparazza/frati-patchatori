@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San cr8escape, che scappava dal contenitore",
+    "patronage": "dei container, dei parametri del kernel passati di nascosto e dei cluster condivisi.",
+    "hagiography": "Il 15 marzo 2022 CrowdStrike rivelò cr8escape, la CVE-2022-0811 nel runtime per container CRI-O. Impostando di nascosto certi parametri del kernel al momento di creare un pod, chiunque potesse avviare un contenitore su un cluster Kubernetes che usava CRI-O poteva evadere dal container ed eseguire codice come root sul nodo. Un prigioniero che si riscriveva da solo le regole della cella.",
+    "prayer": "O San cr8escape, che scavalchi le pareti del contenitore, fa' che i nostri runtime non lascino toccare i parametri del kernel. Amen.",
+    "feast": "Si festeggia aggiornando CRI-O alle versioni corrette e vietando ai pod di impostare sysctl arbitrari.",
+    "proverb": "Container che riscrive le regole, nodo che cambia padrone."
+  },
+  "en": {
+    "title": "Saint cr8escape, Who Broke Out of the Container",
+    "patronage": "containers, kernel parameters slipped in quietly, and shared clusters.",
+    "hagiography": "On 15 March 2022 CrowdStrike revealed cr8escape, CVE-2022-0811 in the CRI-O container runtime. By quietly setting certain kernel parameters when creating a pod, anyone able to start a container on a Kubernetes cluster using CRI-O could escape the container and run code as root on the node. A prisoner rewriting the rules of his own cell.",
+    "prayer": "O Saint cr8escape, who climbs the container's walls, keep our runtimes from letting kernel parameters be touched. Amen.",
+    "feast": "Celebrated by updating CRI-O to the fixed versions and forbidding pods from setting arbitrary sysctls.",
+    "proverb": "A container that rewrites the rules changes the node's master."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'ITScape, che evase dalla macchina virtuale ARM",
+    "patronage": "degli hypervisor KVM su arm64, dei contatori di riferimenti e dei puntatori presi dalla mano sbagliata.",
+    "hagiography": "Nel giugno 2026 Hyunwoo Kim (v4bel) rivelò una corsa critica nell'emulazione dell'Interrupt Translation Service di KVM per arm64. Svuotando la cache delle traduzioni, il kernel rilasciava il riferimento al puntatore che stava scorrendo invece che a quello appena rimosso, e da contesti diversi le due cose non coincidevano. Il risultato era un use-after-free che un ospite con privilegi di root poteva sfruttare per eseguire comandi come root sull'host.",
+    "prayer": "O Sant'ITScape, che esci dalla gabbia virtuale passando per le interruzioni, fa' che i nostri hypervisor rilascino solo ciò che hanno tolto. Amen.",
+    "feast": "Si festeggia aggiornando il kernel degli host KVM arm64 e contando due volte i riferimenti, come i soldi del resto.",
+    "proverb": "Riferimento sbagliato, ospite scappato."
+  },
+  "en": {
+    "title": "Saint ITScape, Who Escaped the ARM Virtual Machine",
+    "patronage": "KVM hypervisors on arm64, reference counters, and pointers taken from the wrong hand.",
+    "hagiography": "In June 2026 Hyunwoo Kim (v4bel) revealed a race condition in KVM's emulation of the arm64 Interrupt Translation Service. When flushing the translation cache, the kernel dropped the reference on the pointer it was iterating rather than on the one it had just erased, and from concurrent contexts the two did not always match. The result was a use-after-free that a guest with root could exploit to run commands as root on the host.",
+    "prayer": "O Saint ITScape, who leaves the virtual cage by way of the interrupts, let our hypervisors release only what they removed. Amen.",
+    "feast": "Celebrated by updating the kernel on arm64 KVM hosts and counting references twice, like your change.",
+    "proverb": "Drop the wrong reference, and the guest takes its leave."
+  }
+}

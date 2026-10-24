@@ -1,0 +1,11 @@
+{
+  "label": "Morris Worm",
+  "motto": "VERMIS SINE FINE",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<g fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"><circle cx=\"104\" cy=\"222\" r=\"10\"/><circle cx=\"116\" cy=\"210\" r=\"10\"/><circle cx=\"128\" cy=\"200\" r=\"10\"/><circle cx=\"142\" cy=\"194\" r=\"10\"/><circle cx=\"156\" cy=\"194\" r=\"10\"/><circle cx=\"170\" cy=\"200\" r=\"10\"/><circle cx=\"182\" cy=\"192\" r=\"10\"/><circle cx=\"190\" cy=\"178\" r=\"10\"/><circle cx=\"196\" cy=\"160\" r=\"15\"/></g>\n<circle cx=\"191\" cy=\"156\" r=\"3\" fill=\"#2b1d14\"/><circle cx=\"202\" cy=\"156\" r=\"3\" fill=\"#2b1d14\"/>\n<path d=\"M190 167 Q196 172 203 167\" stroke=\"#2b1d14\" stroke-width=\"2\" fill=\"none\"/>\n<text x=\"126\" y=\"156\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#fbf3dd\" >% finger</text>"
+}

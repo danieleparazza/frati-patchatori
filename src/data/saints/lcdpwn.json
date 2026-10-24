@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LCDPwn, che abusava del vicinato",
+    "patronage": "dei protocolli di discovery di livello 2, degli switch aziendali e di chi si fida di tutto ciò che è nella stessa rete.",
+    "hagiography": "Nel dicembre 2022, alla Black Hat Europe, alcuni ricercatori presentarono LCDPwn: nuovi difetti nei protocolli di scoperta di livello 2, come il Cisco Discovery Protocol su IOS XR. Un overflow dell'heap in certi messaggi permetteva a un attaccante nello stesso segmento di rete di far ricaricare il processo, e con esso parti dell'apparato. Un seguito dei vecchi attacchi ai protocolli che gli apparati si scambiano tra vicini, fidandosi senza chiedere.",
+    "prayer": "O San LCDPwn, che parli la lingua dei vicini di rete, fa' che i nostri switch ascoltino solo chi devono. Amen.",
+    "feast": "Si festeggia aggiornando IOS XR e disabilitando i protocolli di discovery dove nessuno li usa davvero.",
+    "proverb": "Vicino di rete, vicino di guai."
+  },
+  "en": {
+    "title": "Saint LCDPwn, Who Abused the Neighbourhood",
+    "patronage": "layer-2 discovery protocols, enterprise switches, and everyone who trusts whatever is on the same network.",
+    "hagiography": "In December 2022, at Black Hat Europe, researchers presented LCDPwn: new flaws in layer-2 discovery protocols such as Cisco Discovery Protocol on IOS XR. A heap overflow in certain messages let an attacker on the same network segment reload the process, and with it parts of the device. A sequel to the old attacks on the protocols devices exchange between neighbours, trusting without asking.",
+    "prayer": "O Saint LCDPwn, who speaks the language of network neighbours, let our switches listen only to those they must. Amen.",
+    "feast": "Celebrated by updating IOS XR and disabling discovery protocols where nobody really uses them.",
+    "proverb": "A network neighbour is a neighbour in trouble."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Mail2Shell, che apriva con uno spazio invisibile",
+    "patronage": "degli help desk via email, dei controlli sui nomi dei file e degli spazi a larghezza zero.",
+    "hagiography": "Nel marzo 2026 i ricercatori di OX Security pubblicarono Mail2Shell, la CVE-2026-28289 in FreeScout, help desk scritto in PHP. Era l'aggiramento di una correzione precedente: premettendo uno spazio a larghezza zero al nome di un file, si superava il nuovo controllo e il file veniva salvato come un .htaccess. Inviando una sola email a un indirizzo gestito da FreeScout, senza autenticarsi e senza che nessuno cliccasse nulla, si otteneva l'esecuzione di codice.",
+    "prayer": "O San Mail2Shell, che entri con un carattere che non si vede, insegna ai nostri controlli a guardare anche ciò che non appare. Amen.",
+    "feast": "Si festeggia aggiornando FreeScout alla 1.8.207, disattivando AllowOverride e normalizzando ogni nome di file prima di crederci.",
+    "proverb": "Spazio invisibile, danno visibilissimo."
+  },
+  "en": {
+    "title": "Saint Mail2Shell, Who Opened With an Invisible Space",
+    "patronage": "email help desks, filename checks, and zero-width spaces.",
+    "hagiography": "In March 2026 OX Security researchers published Mail2Shell, CVE-2026-28289 in FreeScout, a help desk written in PHP. It bypassed an earlier fix: prefixing a filename with a zero-width space slipped past the new check and the file was saved as an .htaccess. By sending a single email to an address FreeScout handled, without authenticating and without anyone clicking anything, an attacker got code execution.",
+    "prayer": "O Saint Mail2Shell, who enters through a character no one can see, teach our checks to look at what does not appear. Amen.",
+    "feast": "Celebrated by updating FreeScout to 1.8.207, disabling AllowOverride, and normalising every filename before trusting it.",
+    "proverb": "Invisible space, very visible damage."
+  }
+}

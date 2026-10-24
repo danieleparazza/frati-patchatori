@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato baseStriker, che spezzava i link in due",
+    "patronage": "dei filtri antiphishing, dei tag HTML dimenticati e delle email che sembrano innocue a metà.",
+    "hagiography": "Nel maggio 2018 Avanan scoprì che bastava un tag <base> nell'intestazione di un'email HTML per ingannare la scansione dei link di Office 365. Il collegamento maligno veniva diviso in due: l'indirizzo di base in testa, il resto nel corpo. Il filtro guardava i pezzi uno per uno, non li trovava sospetti, e lasciava passare l'intero. Non era un difetto di un programma da correggere con una CVE, ma di un servizio cloud, e per questo resta beato.",
+    "prayer": "O Beato baseStriker, che dividi il male in due metà innocenti, insegna ai nostri filtri a leggere la frase intera. Amen.",
+    "feast": "Si festeggia ricordando che un link si giudica dove porta, non da come è scritto.",
+    "proverb": "Mezzo link non fa paura, il link intero sì."
+  },
+  "en": {
+    "title": "Blessed baseStriker, Who Split Links in Two",
+    "patronage": "anti-phishing filters, forgotten HTML tags, and emails that look harmless by halves.",
+    "hagiography": "In May 2018 Avanan found that a single <base> tag in the head of an HTML email was enough to fool Office 365's link scanning. The malicious link was split in two: the base address at the top, the rest in the body. The filter looked at the pieces one by one, found nothing suspicious, and let the whole through. It was a flaw in a cloud service rather than in software fixed under a CVE, which is why he remains blessed.",
+    "prayer": "O Blessed baseStriker, who splits evil into two innocent halves, teach our filters to read the whole sentence. Amen.",
+    "feast": "Celebrated by remembering that a link is judged by where it goes, not by how it is written.",
+    "proverb": "Half a link scares no one; the whole link should."
+  }
+}

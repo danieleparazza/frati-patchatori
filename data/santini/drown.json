@@ -1,0 +1,10 @@
+{
+  "label": "DROWN",
+  "motto": "VETUS MERGIT NOVUM",
+  "niche": [
+    "#132f3f",
+    "#235068"
+  ],
+  "accent": "#1a4257",
+  "emblem": "<path d=\"M96 196 q14 -12 28 0 t28 0 t28 0 t28 0\" fill=\"none\" stroke=\"#7fb3d5\" stroke-width=\"3\"/>\n<path d=\"M96 210 q14 -12 28 0 t28 0 t28 0 t28 0\" fill=\"none\" stroke=\"#7fb3d5\" stroke-width=\"3\"/>\n<path d=\"M96 224 q14 -12 28 0 t28 0 t28 0 t28 0\" fill=\"none\" stroke=\"#7fb3d5\" stroke-width=\"3\"/>\n<rect x=\"128\" y=\"146\" width=\"44\" height=\"40\" rx=\"5\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M136 146 V134 A14 14 0 0 1 164 134 V146\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"5\"/>\n<circle cx=\"150\" cy=\"164\" r=\"5\" fill=\"#2b1d14\"/><rect x=\"147\" y=\"166\" width=\"6\" height=\"12\" fill=\"#2b1d14\"/>\n<text x=\"150\" y=\"132\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#bfc9d1\">SSLv2</text>\n<g fill=\"#bfc9d1\"><circle cx=\"118\" cy=\"182\" r=\"3\"/><circle cx=\"182\" cy=\"176\" r=\"3\"/><circle cx=\"170\" cy=\"192\" r=\"2.5\"/></g>"
+}

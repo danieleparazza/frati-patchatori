@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San HiveNightmare, che lasciava leggere i registri a tutti",
+    "patronage": "dei registri di sistema di Windows, dei permessi troppo larghi e delle copie ombra dimenticate.",
+    "hagiography": "Nel luglio 2021 si scoprì HiveNightmare, detto anche SeriousSAM (CVE-2021-36934): su certe versioni di Windows 10 e 11 i file del registro di sistema, SAM compreso, avevano permessi così larghi che perfino un utente comune poteva leggerli. Attraverso le copie ombra del volume si arrivava agli hash delle password degli account, scalando così fino a SYSTEM. Un incubo nato da una semplice casella di permessi sbagliata.",
+    "prayer": "O San HiveNightmare, che lasci leggere a tutti il cuore del sistema, insegna a Windows a custodire i suoi registri più gelosi. Amen.",
+    "feast": "Si festeggia applicando la patch, correggendo i permessi dei file del registro ed eliminando le copie ombra compromesse.",
+    "proverb": "Registro aperto a tutti, password per tutti."
+  },
+  "en": {
+    "title": "Saint HiveNightmare, Who Let Everyone Read the Registry",
+    "patronage": "Windows system registry hives, over-broad permissions, and forgotten shadow copies.",
+    "hagiography": "In July 2021 came HiveNightmare, also called SeriousSAM (CVE-2021-36934): on certain versions of Windows 10 and 11 the registry hive files, SAM included, had permissions so broad that even an ordinary user could read them. Through the volume shadow copies you reached the account password hashes, escalating all the way to SYSTEM. A nightmare born of a single mis-set permission box.",
+    "prayer": "O Saint HiveNightmare, who lets everyone read the heart of the system, teach Windows to guard its most jealous hives. Amen.",
+    "feast": "Celebrated by applying the patch, fixing the registry file permissions and deleting the compromised shadow copies.",
+    "proverb": "A registry open to all, passwords for all."
+  }
+}

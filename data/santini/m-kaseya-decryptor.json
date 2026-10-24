@@ -1,0 +1,11 @@
+{
+  "label": "Kaseya Decryptor",
+  "motto": "CLAVIS EX MACHINA",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<circle cx=\"150\" cy=\"148\" r=\"20\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"7\"/>\n<path d=\"M150 168 V232 M150 204 H166 M150 220 H170\" stroke=\"#d9ad55\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<text x=\"150\" y=\"154\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#1d3550\" >1500</text>"
+}

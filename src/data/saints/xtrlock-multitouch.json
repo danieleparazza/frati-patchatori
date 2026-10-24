@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San xtrlock Multitouch, che lasciava toccare lo schermo bloccato",
+    "patronage": "degli schermi bloccati solo a metà, dei touchpad e dei gesti che nessuno aveva previsto.",
+    "hagiography": "Nel 2019 si scoprì che xtrlock, minuscolo programma per bloccare lo schermo su X11, fermava tastiera e mouse ma non gli eventi multitouch. Davanti a un portatile bloccato si poteva ancora scorrere, zoomare con due dita e perfino cliccare nelle finestre aperte: il lucchetto c'era, ma solo per chi usava un dito alla volta.",
+    "prayer": "O San xtrlock Multitouch, che chiudi la porta e lasci aperta la finestra, fa' che i nostri lucchetti contino tutte le dita. Amen.",
+    "feast": "Si festeggia aggiornando xtrlock a una versione che blocchi anche il multitouch, oppure tenendo le mani in tasca."
+  },
+  "en": {
+    "title": "Saint xtrlock Multitouch, Who Let You Touch the Locked Screen",
+    "patronage": "half-locked screens, touchpads, and gestures nobody had anticipated.",
+    "hagiography": "In 2019 it emerged that xtrlock, a tiny program for locking the screen on X11, blocked keyboard and mouse but not multitouch events. In front of a locked laptop one could still scroll, pinch to zoom and even click in the open windows: the lock was there, but only for people who used one finger at a time.",
+    "prayer": "O Saint xtrlock Multitouch, who shuts the door and leaves the window open, let our locks count every finger. Amen.",
+    "feast": "Celebrated by updating xtrlock to a release that also blocks multitouch, or by keeping your hands in your pockets."
+  }
+}

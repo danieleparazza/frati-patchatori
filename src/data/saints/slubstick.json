@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SLUBStick, che rese affidabili i bug zoppi",
+    "patronage": "degli allocatori del kernel Linux, delle tabelle delle pagine e degli exploit che prima riuscivano una volta su due.",
+    "hagiography": "Presentato a USENIX Security 2024 da Lukas Maar e colleghi della TU Graz, non era un bug ma un metodo. Gli attacchi cross-cache, che riciclano la memoria di una cache del kernel in un'altra, fallivano spesso e facevano crollare il sistema; SLUBStick usava un canale laterale temporale sull'allocatore SLUB per renderli affidabili oltre il 99%, e poi arrivava a manipolare le tabelle delle pagine. Con nove CVE reali dimostrò scalate di privilegi e fughe dai container.",
+    "prayer": "O San SLUBStick, che dai stabilità anche agli exploit più traballanti, fa' che i nostri kernel non lascino riciclare le loro pagine a chi passa. Amen.",
+    "feast": "Si festeggia correggendo i piccoli bug di heap prima che qualcuno li renda grandi e attivando le difese del kernel che separano le cache.",
+    "proverb": "Bug piccolo e zoppo, con la stampella corre troppo."
+  },
+  "en": {
+    "title": "Saint SLUBStick, Who Made Lame Bugs Reliable",
+    "patronage": "Linux kernel allocators, page tables, and exploits that used to work one time in two.",
+    "hagiography": "Presented at USENIX Security 2024 by Lukas Maar and colleagues at TU Graz, he was not a bug but a method. Cross-cache attacks, which recycle memory from one kernel cache into another, often failed and crashed the system; SLUBStick used a timing side channel on the SLUB allocator to make them more than 99% reliable, and then went on to manipulate page tables. With nine real CVEs it demonstrated privilege escalation and container escapes.",
+    "prayer": "O Saint SLUBStick, who steadies even the shakiest exploits, let our kernels not hand their pages to every passer-by. Amen.",
+    "feast": "Celebrated by fixing small heap bugs before someone makes them big, and enabling the kernel defences that keep caches apart.",
+    "proverb": "Give a lame bug a crutch, and it will run too much."
+  }
+}

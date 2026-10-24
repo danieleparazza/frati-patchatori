@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello rosso di Code Red",
+    "chronicle": "Code Red sfruttava un buffer overflow nel servizio di indicizzazione di Microsoft IIS e sfregiava le pagine con la scritta 'Hacked By Chinese!'. La prima versione comparve il 12 luglio 2001, ma fu la variante CRv2, con un generatore casuale finalmente funzionante, a esplodere il 19 luglio: più di 359.000 host infettati in meno di 14 ore, con picchi di oltre 2.000 nuove vittime al minuto. Era anche programmato per inondare di traffico whitehouse.gov.",
+    "lesson": "Fu una delle prime epidemie di worm misurate quasi in diretta dai ricercatori di CAIDA, e mostrò che una patch pubblicata non serve a nulla finché nessuno la installa.",
+    "prayer": "O Code Red, che prendesti il nome dalla bibita bevuta da chi ti analizzava, tieni lontani i tuoi eredi dai nostri server web e ricordaci di applicare le patch prima che qualcuno le trasformi in worm. Amen.",
+    "remembrance": "Si ricorda disattivando le estensioni di IIS che non servono e aggiornando i server esposti nel giro di giorni, non di mesi."
+  },
+  "en": {
+    "title": "The Red Scourge of Code Red",
+    "chronicle": "Code Red exploited a buffer overflow in Microsoft IIS's indexing service and defaced pages with 'Hacked By Chinese!'. The first version appeared on 12 July 2001, but it was the CRv2 variant, with a random generator that finally worked, that exploded on 19 July: more than 359,000 hosts infected in under 14 hours, at peaks of over 2,000 new victims a minute. It was also programmed to flood whitehouse.gov.",
+    "lesson": "It was one of the first worm outbreaks measured almost live by CAIDA researchers, and showed that a published patch is useless until somebody installs it.",
+    "prayer": "O Code Red, named after the soda your analysts were drinking, keep your heirs away from our web servers and remind us to patch before someone turns the patch into a worm. Amen.",
+    "remembrance": "Remembered by disabling the IIS extensions nobody needs and updating exposed servers within days, not months."
+  }
+}

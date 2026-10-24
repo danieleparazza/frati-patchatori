@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato VectorSmuggle, contrabbandiere di vettori",
+    "patronage": "dei database vettoriali, dei backup che nessuno controlla e dei segreti nascosti in tremila dimensioni.",
+    "hagiography": "Nel maggio 2026 Jascha Wanger di ThirdKey pubblicò uno studio su come un insider potesse nascondere dati dentro gli embedding di un database vettoriale, ruotandoli di angoli minuscoli senza rovinare le ricerche. Un complice con accesso in sola lettura, magari ai backup, poteva poi ricostruire il carico. I rilevatori di anomalie tradizionali faticavano a notare le rotazioni più piccole, e gli autori proposero di firmare ogni vettore all'origine.",
+    "prayer": "O Beato VectorSmuggle, che nascondi le lettere tra i numeri, fa' che i nostri vettori portino soltanto il significato. Amen.",
+    "feast": "Si festeggia firmando gli embedding quando nascono e controllandoli quando si leggono.",
+    "proverb": "Nelle tremila dimensioni c’è posto per tutti, anche per i ladri."
+  },
+  "en": {
+    "title": "Blessed VectorSmuggle, Smuggler of Vectors",
+    "patronage": "vector databases, backups nobody checks, and secrets hidden in three thousand dimensions.",
+    "hagiography": "In May 2026 Jascha Wanger of ThirdKey published a study of how an insider could hide data inside the embeddings of a vector database, rotating them by tiny angles without spoiling search results. An accomplice with read-only access, perhaps to the backups, could then recover the payload. Traditional anomaly detectors struggled to spot the smallest rotations, and the authors proposed signing every vector at the source.",
+    "prayer": "O Blessed VectorSmuggle, who hides letters among the numbers, let our vectors carry nothing but meaning. Amen.",
+    "feast": "Celebrated by signing embeddings when they are born and checking them when they are read.",
+    "proverb": "Three thousand dimensions leave room for everyone, thieves included."
+  }
+}

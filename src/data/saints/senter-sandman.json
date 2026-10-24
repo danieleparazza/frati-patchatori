@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SENTER Sandman, che addormentò le sentinelle del BIOS",
+    "patronage": "dei BIOS, della System Management Mode e delle guardie che fanno un pisolino al momento sbagliato.",
+    "hagiography": "Nel 2014 Xeno Kovah, Corey Kallenberg, John Butterworth e Sam Cornwell, allora a MITRE, mostrarono il rovescio di Intel TXT. L'istruzione SENTER, pensata per avviare codice fidato, poteva sopprimere le System Management Interrupt, le sentinelle che su molte macchine proteggono il flash del BIOS. Come l'omino del sonno della fiaba, bastava un granello di sabbia per addormentarle e riscrivere il firmware.",
+    "prayer": "O Beato SENTER Sandman, che porti il sonno a chi dovrebbe vegliare, tieni sveglie le nostre protezioni del flash. Amen.",
+    "feast": "Si festeggia attivando le protezioni hardware del flash del BIOS e verificando che non dipendano solo da una sentinella che può essere addormentata.",
+    "proverb": "Sentinella che dorme, BIOS che si trasforma."
+  },
+  "en": {
+    "title": "Blessed SENTER Sandman, Who Put the BIOS Sentries to Sleep",
+    "patronage": "BIOSes, System Management Mode, and guards who nap at the wrong moment.",
+    "hagiography": "In 2014 Xeno Kovah, Corey Kallenberg, John Butterworth and Sam Cornwell, then at MITRE, showed the flip side of Intel TXT. The SENTER instruction, meant to launch trusted code, could suppress System Management Interrupts, the sentries that on many machines guard the BIOS flash. Like the Sandman of the fairy tale, a grain of sand was enough to send them to sleep and rewrite the firmware.",
+    "prayer": "O Blessed SENTER Sandman, who brings sleep to those who should keep watch, keep our flash protections awake. Amen.",
+    "feast": "Celebrated by enabling the hardware BIOS flash protections and making sure they do not rely only on a sentry that can be put to sleep.",
+    "proverb": "When the sentry sleeps, the firmware creeps."
+  }
+}

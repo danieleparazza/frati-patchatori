@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" role="img" aria-label="Looney Tunables">
+<metadata><x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:dc="http://purl.org/dc/elements/1.1/" Iptc4xmpExt:DigitalSourceType="http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"><dc:title>Looney Tunables</dc:title><dc:description>Holy card for looney-tunables, generated with AI (Claude, Anthropic) for the Lunario dei Frati Patchatori.</dc:description><dc:rights>CC BY-NC-SA 4.0</dc:rights></rdf:Description></rdf:RDF></x:xmpmeta></metadata>
+<defs>
+  <radialGradient id="s-looney-tunables-halo"><stop offset="0%" stop-color="#f5d77a" stop-opacity="0.18"/><stop offset="60%" stop-color="#f5d77a" stop-opacity="0.3"/><stop offset="72%" stop-color="#fff3c4" stop-opacity="0.75"/><stop offset="100%" stop-color="#f5d77a" stop-opacity="0"/></radialGradient>
+  <linearGradient id="s-looney-tunables-niche" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2a1f3d"/><stop offset="100%" stop-color="#4b3a6b"/></linearGradient>
+</defs>
+<rect width="300" height="450" rx="14" fill="#fbf3dd"/>
+<rect x="10" y="10" width="280" height="430" rx="10" fill="none" stroke="#b8892b" stroke-width="4"/>
+<rect x="20" y="20" width="260" height="410" rx="6" fill="none" stroke="#b8892b" stroke-width="1"/>
+<g fill="#b8892b"><circle cx="20" cy="20" r="4"/><circle cx="280" cy="20" r="4"/><circle cx="20" cy="430" r="4"/><circle cx="280" cy="430" r="4"/></g>
+<path d="M38 330 V125 A112 112 0 0 1 262 125 V330 Z" fill="url(#s-looney-tunables-niche)" stroke="#b8892b" stroke-width="2"/>
+<circle cx="150" cy="180" r="112" fill="url(#s-looney-tunables-halo)"/>
+<g stroke="#e8c45c" stroke-width="2.5" stroke-linecap="round" opacity="0.85"><line x1="228.0" y1="180.0" x2="266.0" y2="180.0"/><line x1="222.1" y1="209.8" x2="246.1" y2="219.8"/><line x1="205.2" y1="235.2" x2="232.0" y2="262.0"/><line x1="179.8" y1="252.1" x2="189.8" y2="276.1"/><line x1="150.0" y1="258.0" x2="150.0" y2="296.0"/><line x1="120.2" y1="252.1" x2="110.2" y2="276.1"/><line x1="94.8" y1="235.2" x2="68.0" y2="262.0"/><line x1="77.9" y1="209.8" x2="53.9" y2="219.8"/><line x1="72.0" y1="180.0" x2="34.0" y2="180.0"/><line x1="77.9" y1="150.2" x2="53.9" y2="140.2"/><line x1="94.8" y1="124.8" x2="68.0" y2="98.0"/><line x1="120.2" y1="107.9" x2="110.2" y2="83.9"/><line x1="150.0" y1="102.0" x2="150.0" y2="64.0"/><line x1="179.8" y1="107.9" x2="189.8" y2="83.9"/><line x1="205.2" y1="124.8" x2="232.0" y2="98.0"/><line x1="222.1" y1="150.2" x2="246.1" y2="140.2"/></g>
+<circle cx="150" cy="180" r="76" fill="none" stroke="#e8c45c" stroke-width="2"/>
+<g><path d="M134 128 V188 Q134 206 150 206 Q166 206 166 188 V128" fill="none" stroke="#d9ad55" stroke-width="9" stroke-linecap="round"/>
+<rect x="146" y="204" width="8" height="38" rx="3" fill="#d9ad55"/>
+<circle cx="150" cy="244" r="6" fill="#d9ad55"/>
+<path d="M118 140 q-8 8 0 16 M110 134 q-14 14 0 28 M182 140 q8 8 0 16 M190 134 q14 14 0 28" stroke="#fbf3dd" stroke-width="2.5" fill="none"/>
+<path d="M112 196 a14 14 0 1 0 14 -18 a10 10 0 1 1 -14 18 z" fill="#f4e3a1"/></g>
+
+
+<path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#3d2a5c"/>
+<text x="150" y="369" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="20" fill="#fbf3dd">Looney Tunables</text>
+<text x="150" y="414" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" letter-spacing="1.5" fill="#7a6656">TUNABILIA LUNATICA</text>
+</svg>

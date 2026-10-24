@@ -1,0 +1,10 @@
+{
+  "label": "GhostHook",
+  "motto": "CUSTODEM FALLIT",
+  "niche": [
+    "#1a1d2e",
+    "#383f60"
+  ],
+  "accent": "#272c46",
+  "emblem": "<path d=\"M132 134 V184 A18 18 0 1 0 168 184\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<path d=\"M126 134 H138\" stroke=\"#d9ad55\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<path d=\"M150 142 C132 142 122 156 122 176 L122 214 L130 206 L138 214 L146 206 L154 214 L162 206 L170 214 L178 206 L178 176 C178 156 168 142 150 142 Z\" fill=\"#fbf3dd\" opacity=\"0.9\"/>\n<circle cx=\"140\" cy=\"172\" r=\"4\" fill=\"#383f60\"/><circle cx=\"160\" cy=\"172\" r=\"4\" fill=\"#383f60\"/>"
+}

@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Nokia OBEX, che cadde per un nome di file",
+    "patronage": "dei vecchi telefoni Nokia, dei trasferimenti via Bluetooth e dei nomi di file con caratteri di troppo.",
+    "hagiography": "Nel 2005 si scoprì che alcuni telefoni Nokia, come il 7610 e il 3210, andavano in crisi se ricevevano via Bluetooth OBEX un file con certi caratteri nel nome. Non serviva eseguire nulla: bastava il nome dell'allegato per provocare un blocco. Un piccolo, pittoresco inciampo dell'epoca eroica del Bluetooth.",
+    "prayer": "O San Nokia OBEX, che fai cadere il telefono con un semplice nome, fa' che i nostri dispositivi leggano ogni carattere senza spaventarsi. Amen.",
+    "feast": "Si festeggia aggiornando il firmware, dove esiste, e rifiutando i trasferimenti Bluetooth da sconosciuti."
+  },
+  "en": {
+    "title": "Saint Nokia OBEX, Who Fell for a Filename",
+    "patronage": "old Nokia phones, Bluetooth transfers, and filenames with one character too many.",
+    "hagiography": "In 2005 it emerged that some Nokia phones, such as the 7610 and the 3210, crashed if they received over Bluetooth OBEX a file with certain characters in its name. Nothing needed to run: the attachment's name alone was enough to cause a lockup. A small, picturesque stumble from the heroic age of Bluetooth.",
+    "prayer": "O Saint Nokia OBEX, who topple the phone with a mere name, let our devices read every character without taking fright. Amen.",
+    "feast": "Celebrated by updating the firmware, where any exists, and refusing Bluetooth transfers from strangers."
+  }
+}

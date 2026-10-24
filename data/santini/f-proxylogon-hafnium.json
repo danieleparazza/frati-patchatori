@@ -1,0 +1,11 @@
+{
+  "label": "ProxyLogon",
+  "motto": "EPISTULA CUM CONCHA",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"104\" y=\"148\" width=\"92\" height=\"62\" rx=\"4\" fill=\"#1e2a3a\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M104 152 L150 186 L196 152\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M150 192 C134 192 122 206 124 226 H176 C178 206 166 192 150 192 Z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g stroke=\"#5a3a2a\" stroke-width=\"2\"><line x1=\"150\" y1=\"196\" x2=\"132\" y2=\"226\"/><line x1=\"150\" y1=\"196\" x2=\"141\" y2=\"226\"/><line x1=\"150\" y1=\"196\" x2=\"150\" y2=\"226\"/><line x1=\"150\" y1=\"196\" x2=\"159\" y2=\"226\"/><line x1=\"150\" y1=\"196\" x2=\"168\" y2=\"226\"/></g>\n<rect x=\"120\" y=\"226\" width=\"60\" height=\"6\" rx=\"2\" fill=\"#d9ad55\"/>"
+}

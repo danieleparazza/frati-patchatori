@@ -1,0 +1,10 @@
+{
+  "label": "FragAttacks",
+  "motto": "FRAGMENTA RECOLLIGO",
+  "niche": [
+    "#1a2a3d",
+    "#34506e"
+  ],
+  "accent": "#24384f",
+  "emblem": "<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"6\" stroke-linecap=\"round\">\n<path d=\"M112 168 A54 54 0 0 1 188 168\"/><path d=\"M124 184 A36 36 0 0 1 176 184\"/><path d=\"M137 200 A18 18 0 0 1 163 200\"/>\n</g>\n<circle cx=\"150\" cy=\"214\" r=\"6\" fill=\"#fbf3dd\"/>\n<g fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1\"><path d=\"M100 220 L116 214 L120 228 L104 234 Z\"/><path d=\"M180 214 L198 218 L194 234 L178 230 Z\"/><path d=\"M140 232 L158 230 L160 244 L142 246 Z\"/></g>\n<path d=\"M190 128 L200 138 M200 128 L190 138\" stroke=\"#c0392b\" stroke-width=\"3\"/>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "ALBeast",
+  "motto": "SIGNATOR FALSUS",
+  "niche": [
+    "#2a1830",
+    "#523060"
+  ],
+  "accent": "#3e2448",
+  "emblem": "<path d=\"M150 210 C120 210 108 184 108 164 C118 172 126 170 130 162 C126 150 134 136 148 134 C146 146 156 150 160 142 C170 148 178 162 174 176 C184 174 190 166 190 158 C196 180 182 210 150 210 Z\" fill=\"#8e44ad\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"138\" cy=\"166\" r=\"3\" fill=\"#f4d03f\"/><circle cx=\"162\" cy=\"166\" r=\"3\" fill=\"#f4d03f\"/>\n<path d=\"M110 226 h80 M118 220 v12 M150 220 v12 M182 220 v12\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M126 238 h48\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"250\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">JWT</text>"
+}

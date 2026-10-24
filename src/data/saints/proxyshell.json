@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ProxyShell, che entrava da Exchange",
+    "patronage": "degli amministratori di Microsoft Exchange, dei server di posta esposti e di chi legge gli advisory con un mese di ritardo.",
+    "hagiography": "Il 18 agosto 2021, a Black Hat, Orange Tsai presentò ProxyShell: una catena di tre falle in Microsoft Exchange che, concatenate, portavano dall'anonimato all'esecuzione di codice da remoto senza autenticazione. Pochi giorni dopo l'esposizione pubblica, migliaia di server vennero scansionati e colpiti, con web shell e ransomware al seguito. Era la seconda tappa della saga Proxy di Orange Tsai, dopo ProxyLogon.",
+    "prayer": "O San ProxyShell, che attraversi l'autodiscover e arrivi alla PowerShell, fa' che i nostri Exchange siano aggiornati prima che tu bussi. Amen.",
+    "feast": "Si festeggia installando le patch cumulative di Exchange e cercando web shell nelle cartelle che non dovrebbero averne.",
+    "proverb": "Tre falle in fila fanno una chiave."
+  },
+  "en": {
+    "title": "Saint ProxyShell, Who Entered Through Exchange",
+    "patronage": "Microsoft Exchange admins, exposed mail servers, and everyone who reads advisories a month late.",
+    "hagiography": "On 18 August 2021, at Black Hat, Orange Tsai presented ProxyShell: a chain of three Exchange flaws that, linked together, led from anonymity to unauthenticated remote code execution. Within days of public exposure, thousands of servers were scanned and hit, with web shells and ransomware in tow. It was the second leg of Orange Tsai's Proxy saga, after ProxyLogon.",
+    "prayer": "O Saint ProxyShell, who crosses the autodiscover and arrives at PowerShell, keep our Exchange servers patched before you knock. Amen.",
+    "feast": "Celebrated by installing Exchange cumulative updates and hunting for web shells in folders that should have none.",
+    "proverb": "Three flaws in a row make one key."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "BadDNS",
+  "motto": "VERUM RESPUIT",
+  "niche": [
+    "#1d2e3a",
+    "#345566"
+  ],
+  "accent": "#26404f",
+  "emblem": "<rect x=\"112\" y=\"140\" width=\"76\" height=\"52\" rx=\"6\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M112 144 L150 172 L188 144\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M172 168 l12 12 M184 168 l-12 12\" stroke=\"#27ae60\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<circle cx=\"150\" cy=\"216\" r=\"20\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"4\"/>\n<line x1=\"136\" y1=\"202\" x2=\"164\" y2=\"230\" stroke=\"#e74c3c\" stroke-width=\"4\"/>\n<text x=\"150\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">DNS</text>"
+}

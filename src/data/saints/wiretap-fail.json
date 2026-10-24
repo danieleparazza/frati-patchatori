@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato WireTap, che origliò il bus della memoria",
+    "patronage": "delle enclavi SGX sui server, dell'intercettazione del bus DRAM e di chi si fida della cifratura deterministica.",
+    "hagiography": "Il 30 settembre 2025 un gruppo tra Georgia Tech, Purdue e altri rivelò WireTap: intercettando fisicamente il bus di memoria DDR4 di un server Intel, con un interposer da meno di mille dollari, si poteva recuperare la chiave di attestazione di SGX da una sola firma. Con quella chiave si potevano falsificare le attestazioni e ingannare le reti blockchain che si affidano a SGX. Intel considera gli attacchi fisici fuori dal proprio modello di minaccia.",
+    "prayer": "O Beato WireTap, che ascolti i segreti che viaggiano sul bus, fa' che le nostre enclavi vivano solo in sale fisicamente sicure. Amen.",
+    "feast": "Si festeggia custodendo i server in ambienti protetti e non affidando a SGX, da solo, le difese contro chi tocca l'hardware.",
+    "proverb": "Bus sotto chiave, enclave al sicuro."
+  },
+  "en": {
+    "title": "Blessed WireTap, Who Eavesdropped on the Memory Bus",
+    "patronage": "server SGX enclaves, DRAM bus interception, and everyone who trusts deterministic encryption.",
+    "hagiography": "On 30 September 2025 a group spanning Georgia Tech, Purdue and others revealed WireTap: by physically tapping the DDR4 memory bus of an Intel server, with an interposer costing under a thousand dollars, one could recover the SGX attestation key from a single signature. With that key one could forge attestations and fool blockchain networks that rely on SGX. Intel considers physical attacks outside its threat model.",
+    "prayer": "O Blessed WireTap, who listen to the secrets travelling on the bus, let our enclaves live only in physically secure rooms. Amen.",
+    "feast": "Celebrated by keeping servers in protected environments and not trusting SGX alone against those who touch the hardware.",
+    "proverb": "Bus under lock, enclave safe."
+  }
+}

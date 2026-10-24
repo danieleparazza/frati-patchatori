@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'XMPP, contrabbandiere di stanze",
+    "patronage": "dei parser XML che non vanno d'accordo, delle videochiamate e dei messaggi con un doppio fondo.",
+    "hagiography": "Nel febbraio 2022 Ivan Fratric di Google Project Zero segnalò a Zoom che client e server leggevano lo stesso XML in modi diversi. Infilando caratteri scelti in un messaggio di chat, si poteva far uscire dal messaggio una stanza XMPP intera, che il client della vittima prendeva per un ordine del server: fino a dirottarlo verso un server malevolo e fargli installare una versione vecchia. Zoom corresse tutto nella 5.10.0; i dettagli divennero pubblici il 24 maggio 2022.",
+    "prayer": "O Sant'XMPP, che nascondi un messaggio dentro l'altro, fa' che client e server parlino lo stesso XML. Amen.",
+    "feast": "Si festeggia aggiornando Zoom oltre la 5.10.0 e controllando che due parser diversi non leggano mai lo stesso documento.",
+    "proverb": "Due parser, due verità: e l'attaccante sceglie la sua."
+  },
+  "en": {
+    "title": "Saint XMPP, Smuggler of Stanzas",
+    "patronage": "XML parsers that disagree, video calls, and messages with a false bottom.",
+    "hagiography": "In February 2022 Ivan Fratric of Google Project Zero told Zoom that its client and server read the same XML in different ways. By slipping chosen characters into a chat message, a whole XMPP stanza could escape the message, and the victim's client took it as an order from the server: up to redirecting it to a malicious server and making it install an old version. Zoom fixed it all in 5.10.0; the details went public on 24 May 2022.",
+    "prayer": "O Saint XMPP, who hides one message inside another, let client and server speak the same XML. Amen.",
+    "feast": "Celebrated by updating Zoom past 5.10.0 and making sure two different parsers never read the same document.",
+    "proverb": "Two parsers, two truths: and the attacker picks his own."
+  }
+}

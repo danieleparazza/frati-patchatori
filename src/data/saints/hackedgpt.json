@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato HackedGPT, che sussurrava comandi al modello",
+    "patronage": "degli assistenti IA che leggono il web, delle memorie persistenti e di chi si fida di ciò che l'assistente ha «capito».",
+    "hagiography": "Il 5 novembre 2025 Moshe Bernstein e Liv Matan di Tenable descrissero sette tecniche per manipolare ChatGPT, riunite sotto il nome HackedGPT. Una pagina web o un risultato di ricerca potevano iniettare istruzioni nascoste che il modello scambiava per proprie, salvarle nella memoria persistente perché riaffiorassero in sessioni future, ed esfiltrare dati sfruttando i domini di tracciamento considerati affidabili. Provate su GPT-4o, diverse funzionavano ancora su GPT-5; OpenAI ne corresse una parte.",
+    "prayer": "O Beato HackedGPT, che fai credere al modello che i tuoi ordini siano suoi, fa' che i nostri assistenti distinguano i dati dai comandi. Amen.",
+    "feast": "Si festeggia svuotando le memorie non richieste dell'assistente e trattando ogni testo letto dal web come dato, non come istruzione.",
+    "proverb": "Chi legge tutto senza dubitare esegue anche ciò che non dovrebbe."
+  },
+  "en": {
+    "title": "Blessed HackedGPT, Who Whispered Commands to the Model",
+    "patronage": "AI assistants that read the web, persistent memories, and everyone who trusts what the assistant \"understood\".",
+    "hagiography": "On 5 November 2025 Moshe Bernstein and Liv Matan of Tenable described seven techniques for manipulating ChatGPT, gathered under the name HackedGPT. A web page or a search result could inject hidden instructions the model mistook for its own, save them into persistent memory so they resurfaced in future sessions, and exfiltrate data by abusing tracking domains considered trustworthy. Tested on GPT-4o, several still worked on GPT-5; OpenAI fixed some of them.",
+    "prayer": "O Blessed HackedGPT, who makes the model believe your orders are its own, let our assistants tell data from commands. Amen.",
+    "feast": "Celebrated by clearing the assistant's unwanted memories and treating every text read from the web as data, not instruction.",
+    "proverb": "Read everything without doubt and you run what you should not."
+  }
+}

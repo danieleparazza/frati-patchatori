@@ -1,0 +1,10 @@
+{
+  "label": "UEFIcanhaz…",
+  "motto": "FELES IN FIRMWARE",
+  "niche": [
+    "#2a1a30",
+    "#523466"
+  ],
+  "accent": "#3e264c",
+  "emblem": "<path d=\"M118 150 L128 122 L146 146 Q150 145 154 146 L172 122 L182 150 Q196 170 182 196 Q166 220 150 220 Q134 220 118 196 Q104 170 118 150 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"136\" cy=\"176\" rx=\"5\" ry=\"7\" fill=\"#2b1d14\"/><ellipse cx=\"164\" cy=\"176\" rx=\"5\" ry=\"7\" fill=\"#2b1d14\"/>\n<path d=\"M146 190 L150 186 L154 190 Z\" fill=\"#c0392b\"/>\n<path d=\"M150 194 V202 M138 196 H118 M138 200 H120 M162 196 H182 M162 200 H180\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#d9ad55\">UEFI</text>"
+}

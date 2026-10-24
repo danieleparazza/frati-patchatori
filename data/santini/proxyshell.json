@@ -1,0 +1,10 @@
+{
+  "label": "ProxyShell",
+  "motto": "TRIA FACIUNT CLAVEM",
+  "niche": [
+    "#1c2b3f",
+    "#3a5270"
+  ],
+  "accent": "#273c58",
+  "emblem": "<rect x=\"112\" y=\"128\" width=\"76\" height=\"52\" rx=\"4\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M112 134 L150 160 L188 134\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"118\" y=\"188\" width=\"64\" height=\"56\" rx=\"4\" fill=\"#1b1b2f\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"128\" y=\"210\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2ecc71\">&gt;_</text>\n<path d=\"M150 180 L144 188 L156 188 Z\" fill=\"#d9ad55\"/>\n<g stroke=\"#d9ad55\" stroke-width=\"2\" fill=\"none\"><circle cx=\"129\" cy=\"226\" r=\"3\"/><circle cx=\"150\" cy=\"226\" r=\"3\"/><circle cx=\"171\" cy=\"226\" r=\"3\"/></g>"
+}

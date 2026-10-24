@@ -1,0 +1,10 @@
+{
+  "label": "SamFAIL",
+  "motto": "NOTA OCTO APERTA",
+  "niche": [
+    "#14213d",
+    "#2b4170"
+  ],
+  "accent": "#1d3160",
+  "emblem": "<rect x=\"112\" y=\"124\" width=\"62\" height=\"118\" rx=\"9\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"118\" y=\"136\" width=\"50\" height=\"94\" rx=\"3\" fill=\"#1e272e\"/>\n<line x1=\"186\" y1=\"132\" x2=\"186\" y2=\"234\" stroke=\"#d9ad55\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<path d=\"M186 234 l-3 10 h6 z\" fill=\"#d9ad55\"/>\n<rect x=\"131\" y=\"178\" width=\"24\" height=\"20\" rx=\"3\" fill=\"#d9ad55\"/>\n<path d=\"M136 178 V166 a8 8 0 0 1 16 -2\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\"/>\n<circle cx=\"143\" cy=\"188\" r=\"3\" fill=\"#1e272e\"/>"
+}

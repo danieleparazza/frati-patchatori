@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RufRoot, che apriva il ponte degli agenti a tutti",
+    "patronage": "delle piattaforme che orchestrano agenti, dei ponti MCP e delle porte lasciate aperte su Internet.",
+    "hagiography": "Nel luglio 2026 Eli Ainhorn di Noma rivelò RufRoot (CVE-2026-59726): il ponte MCP di una popolare piattaforma di orchestrazione di agenti esponeva senza autenticazione gli strumenti dietro una porta HTTP, legata di default a tutte le interfacce. Una sola richiesta non autenticata bastava a eseguire comandi nel container, rubare le chiavi dei modelli, avviare sciami di agenti a spese della vittima e lasciare una porta sul retro. Il rimedio arrivò con la versione 3.16.3.",
+    "prayer": "O San RufRoot, che apri il ponte a chiunque bussi, insegna alle nostre piattaforme a chiedere una password prima di dare gli strumenti. Amen.",
+    "feast": "Si festeggia aggiornando alla 3.16.3, legando il ponte solo alla rete locale, richiedendo l'autenticazione e ruotando le chiavi esposte.",
+    "proverb": "Ponte aperto senza guardia, agente al servizio del ladro."
+  },
+  "en": {
+    "title": "Saint RufRoot, Who Opened the Agents' Bridge to All",
+    "patronage": "agent-orchestration platforms, MCP bridges, and ports left open to the Internet.",
+    "hagiography": "In July 2026 Eli Ainhorn of Noma revealed RufRoot (CVE-2026-59726): the MCP bridge of a popular agent-orchestration platform exposed its tools without authentication behind an HTTP port, bound by default to all interfaces. A single unauthenticated request was enough to run commands in the container, steal the model keys, spin up swarms of agents at the victim's expense and leave a back door. The remedy came with version 3.16.3.",
+    "prayer": "O Saint RufRoot, who opens the bridge to whoever knocks, teach our platforms to ask for a password before handing over the tools. Amen.",
+    "feast": "Celebrated by updating to 3.16.3, binding the bridge to localhost only, requiring authentication and rotating the exposed keys.",
+    "proverb": "A bridge open and unguarded puts the agent at the thief's service."
+  }
+}

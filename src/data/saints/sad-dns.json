@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SAD DNS, che avvelenò la cache col rumore",
+    "patronage": "dei resolver DNS, delle porte UDP che si lasciano indovinare e di chi credeva sepolto il cache poisoning.",
+    "hagiography": "Nel 2020 ricercatori dell'Università della California a Riverside e della Tsinghua riportarono in vita l'avvelenamento della cache DNS con SAD DNS. Un canale laterale nel rate limiting dei messaggi ICMP del kernel Linux permetteva a un attaccante fuori percorso di indovinare rapidamente la porta UDP sorgente, aggirandone la casualità, e iniettare risposte false nel resolver. Colpiva BIND, Unbound e dnsmasq, e il difetto tornò a riaffacciarsi in varianti negli anni successivi.",
+    "prayer": "O San SAD DNS, che ascolti il rumore del kernel per indovinare la porta, fa' che i nostri resolver non si lascino leggere di nascosto. Amen.",
+    "feast": "Si festeggia aggiornando il kernel Linux e i resolver, e preferendo DNS su TLS o HTTPS dove si può.",
+    "proverb": "Chi lascia indovinare la porta lascia entrare lo sconosciuto."
+  },
+  "en": {
+    "title": "Saint SAD DNS, Who Poisoned the Cache With Noise",
+    "patronage": "DNS resolvers, UDP ports that let themselves be guessed, and everyone who thought cache poisoning was buried.",
+    "hagiography": "In 2020 researchers from the University of California, Riverside, and Tsinghua University brought DNS cache poisoning back to life with SAD DNS. A side channel in the Linux kernel's ICMP rate limiting let an off-path attacker quickly guess the source UDP port, defeating its randomisation, and inject forged answers into the resolver. It hit BIND, Unbound and dnsmasq, and the flaw kept returning in variants over the following years.",
+    "prayer": "O Saint SAD DNS, who listens to the kernel's noise to guess the port, let our resolvers not be read in secret. Amen.",
+    "feast": "Celebrated by updating the Linux kernel and the resolvers, and preferring DNS over TLS or HTTPS where possible.",
+    "proverb": "Let the port be guessed and you let the stranger in."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il grande flagello di Log4Shell",
+    "chronicle": "Il 9 dicembre 2021 fu pubblicato un exploit per una falla di Apache Log4j 2: bastava far scrivere in un log una stringa come ${jndi:ldap://…} perché il server andasse a scaricare ed eseguire codice dell'attaccante. Nel giro di ore cominciarono scansioni e attacchi su scala mondiale, dai server di Minecraft ai prodotti aziendali di decine di fornitori. Il direttore della CISA lo definì uno dei difetti più gravi che avesse mai visto. Seguirono settimane di patch a ripetizione e di ricerche disperate del file JAR nei luoghi più impensati.",
+    "lesson": "Insegnò che una libreria minuscola, mantenuta da pochi volontari, può reggere mezzo Internet, e rese popolari l'inventario delle dipendenze (SBOM) e il finanziamento dell'open source critico.",
+    "prayer": "O Log4Shell, che entravi da ogni campo di testo e chiamavi casa via LDAP, fa' che i nostri log si limitino a registrare e che i volontari dell'open source abbiano finalmente qualcuno che li paghi. Amen.",
+    "remembrance": "Si ricorda tenendo un inventario delle dipendenze, anche quelle transitive, bloccando le connessioni in uscita che i server non devono fare e sostenendo i progetti open source da cui si dipende."
+  },
+  "en": {
+    "title": "The Great Scourge of Log4Shell",
+    "chronicle": "On 9 December 2021 an exploit was published for a flaw in Apache Log4j 2: getting a string like ${jndi:ldap://…} written into a log was enough to make the server fetch and run the attacker's code. Within hours, scanning and attacks began worldwide, from Minecraft servers to the enterprise products of dozens of vendors. CISA's director called it one of the most serious flaws she had ever seen. Weeks of back-to-back patches followed, along with desperate searches for the JAR file in the most unlikely places.",
+    "lesson": "It taught that a tiny library maintained by a few volunteers can hold up half the Internet, and made dependency inventories (SBOMs) and funding for critical open source popular.",
+    "prayer": "O Log4Shell, who came in through every text field and phoned home over LDAP, let our logs merely log, and let open-source volunteers at last have someone to pay them. Amen.",
+    "remembrance": "Remembered by keeping an inventory of dependencies, transitive ones included, blocking outbound connections servers have no business making and supporting the open-source projects you rely on."
+  }
+}

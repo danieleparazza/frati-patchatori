@@ -1,0 +1,10 @@
+{
+  "label": "Cookie Tossing",
+  "motto": "CRUSTULUM IACTUM",
+  "niche": [
+    "#2e2010",
+    "#5e4420"
+  ],
+  "accent": "#463218",
+  "emblem": "<circle cx=\"150\" cy=\"182\" r=\"38\" fill=\"#d9ad55\" stroke=\"#8b5a2b\" stroke-width=\"2\"/>\n<g fill=\"#5a3a1a\"><circle cx=\"138\" cy=\"170\" r=\"4\"/><circle cx=\"162\" cy=\"176\" r=\"4\"/><circle cx=\"146\" cy=\"192\" r=\"4\"/><circle cx=\"166\" cy=\"198\" r=\"4\"/><circle cx=\"130\" cy=\"188\" r=\"3\"/></g>\n<path d=\"M150 182 m -38 0 a 38 38 0 0 1 20 -34\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\" stroke-dasharray=\"4 4\"/>\n<path d=\"M116 134 l-10 -6 M106 128 l6 10\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">sub.domain</text>"
+}

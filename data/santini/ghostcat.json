@@ -1,0 +1,10 @@
+{
+  "label": "Ghostcat",
+  "motto": "FELIS SPECTRALIS",
+  "niche": [
+    "#1e2433",
+    "#3a4560"
+  ],
+  "accent": "#2c3448",
+  "emblem": "<path d=\"M118 238 V170 C118 150 128 140 130 128 L140 148 H160 L170 128 C172 140 182 150 182 170 V238 L172 228 L162 238 L150 228 L138 238 L128 228 Z\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"2\" opacity=\"0.95\"/>\n<g fill=\"#2b1d14\"><ellipse cx=\"138\" cy=\"172\" rx=\"6\" ry=\"8\"/><ellipse cx=\"162\" cy=\"172\" rx=\"6\" ry=\"8\"/></g>\n<path d=\"M146 188 L150 192 L154 188\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g stroke=\"#7a6656\" stroke-width=\"1.5\"><path d=\"M128 190 H108 M128 196 L110 202 M172 190 H192 M172 196 L190 202\"/></g>\n<text x=\"150\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#7a6656\">8009</text>"
+}

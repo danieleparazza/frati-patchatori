@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "La grande eclissi di Fastly",
+    "chronicle": "L'8 giugno 2021, alle 9:47 UTC, la modifica di configurazione perfettamente valida di un singolo cliente risvegliò un bug latente, introdotto in un rilascio di maggio, e l'85% della rete di Fastly cominciò a restituire errori. Il New York Times, il Guardian, Reddit, Twitch, gov.uk e molti altri siti sparirono fino a un'ora. Fastly individuò la causa in pochi minuti e ripristinò il servizio in meno di un'ora. Nessun attaccante: solo un bug che aspettava il cliente giusto.",
+    "lesson": "Ricordò quanto del web passi da pochi fornitori di CDN, e quanto valgano una diagnosi rapida e un rapporto pubblico onesto sull'accaduto.",
+    "prayer": "O bug dormiente, che aspettasti tre settimane la configurazione giusta per svegliarti, resta addormentato nei nostri sistemi e fatti trovare dai test prima che dai clienti. Amen.",
+    "remembrance": "Si ricorda rilasciando le modifiche per gradi, prevedendo un piano di riserva se la CDN cade e scrivendo un post-mortem franco come quello di Fastly."
+  },
+  "en": {
+    "title": "The Great Eclipse of Fastly",
+    "chronicle": "On 8 June 2021 at 09:47 UTC one customer's perfectly valid configuration change woke a latent bug introduced in a May deployment, and 85% of Fastly's network began returning errors. The New York Times, the Guardian, Reddit, Twitch, gov.uk and many other sites vanished for up to an hour. Fastly found the cause within minutes and restored service in under an hour. No attacker: just a bug waiting for the right customer.",
+    "lesson": "It was a reminder of how much of the web runs through a few CDN providers, and of the value of a fast diagnosis and an honest public report.",
+    "prayer": "O sleeping bug, who waited three weeks for the right configuration to wake you, stay asleep in our systems and let our tests find you before our customers do. Amen.",
+    "remembrance": "Remembered by rolling out changes gradually, having a fallback plan if the CDN goes down, and writing a post-mortem as frank as Fastly's."
+  }
+}

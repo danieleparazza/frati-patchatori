@@ -1,0 +1,10 @@
+{
+  "label": "LANDFALL",
+  "motto": "IMAGO IN LITUS",
+  "niche": [
+    "#14223a",
+    "#2c436e"
+  ],
+  "accent": "#1d3360",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"60\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"134\" cy=\"168\" r=\"6\" fill=\"#f1c40f\"/>\n<path d=\"M114 208 l22 -24 l14 14 l18 -22 l20 32 z\" fill=\"#5dade2\"/>\n<path d=\"M150 118 q-10 14 0 28 q10 -14 0 -28 z\" fill=\"#e74c3c\"/>\n<path d=\"M150 132 l0 18\" stroke=\"#c0392b\" stroke-width=\"2\"/>\n<g stroke=\"#9fb8d6\" stroke-width=\"2\" opacity=\"0.6\"><path d=\"M96 224 q20 -8 40 0 t40 0 t28 0\"/></g>"
+}

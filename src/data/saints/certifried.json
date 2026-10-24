@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Certifried, che si fece certificare controller di dominio",
+    "patronage": "dei servizi di certificati di Active Directory, degli account computer creati da chiunque e dei nomi DNS presi in prestito.",
+    "hagiography": "Il 10 maggio 2022, giorno della patch, Oliver Lyak raccontò Certifried (CVE-2022-26923). Ogni utente del dominio poteva creare un account computer, cambiargli il nome DNS in quello di un controller di dominio e chiedere ad AD CS un certificato: l'autorità lo rilasciava senza fare domande. Con quel certificato ci si presentava come il controller stesso, e da lì all'intero dominio il passo era breve.",
+    "prayer": "O Beato Certifried, che ti facesti timbrare un'identità non tua, fa' che le nostre autorità di certificazione chiedano i documenti. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di maggio 2022 e riducendo a zero il numero di computer che ogni utente può aggiungere al dominio.",
+    "proverb": "Certificato facile, dominio perso."
+  },
+  "en": {
+    "title": "Blessed Certifried, Who Got Certified as a Domain Controller",
+    "patronage": "Active Directory Certificate Services, computer accounts anyone can create, and borrowed DNS names.",
+    "hagiography": "On 10 May 2022, patch day, Oliver Lyak described Certifried (CVE-2022-26923). Any domain user could create a computer account, change its DNS name to that of a domain controller and ask AD CS for a certificate: the authority issued it without asking questions. With that certificate you could pose as the controller itself, and from there the whole domain was a short step away.",
+    "prayer": "O Blessed Certifried, who had a stranger's identity stamped as your own, let our certificate authorities ask for papers. Amen.",
+    "feast": "Celebrated by installing the May 2022 updates and setting to zero the number of computers each user may add to the domain.",
+    "proverb": "Easy certificate, lost domain."
+  }
+}

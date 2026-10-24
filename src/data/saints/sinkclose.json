@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Sinkclose, che scese all'anello -2",
+    "patronage": "dei processori AMD, della modalità di gestione di sistema e dei malware che sopravvivono alla reinstallazione.",
+    "hagiography": "Il 9 agosto 2024, al DEF CON, Enrique Nissim e Krzysztof Okupski di IOActive mostrarono una falla presente nei processori AMD da quasi vent'anni. Chi aveva già i privilegi del kernel poteva sfruttare una funzione dimenticata per eseguire codice nella System Management Mode, il livello più profondo e privilegiato della CPU. Da lì si potevano piantare bootkit invisibili all'antivirus, capaci di resistere persino alla reinstallazione del sistema operativo.",
+    "prayer": "O San Sinkclose, che dimori sotto il kernel e sotto l'hypervisor, fa' che i nostri firmware siano aggiornati e i nostri anelli restino al loro posto. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di firmware e microcode AMD e, per i modelli rimasti senza patch, accendendo un cero.",
+    "proverb": "Più in basso scende il bug, più in alto sale il conto."
+  },
+  "en": {
+    "title": "Saint Sinkclose, Who Descended to Ring -2",
+    "patronage": "AMD processors, System Management Mode, and malware that survives a reinstall.",
+    "hagiography": "On 9 August 2024, at DEF CON, Enrique Nissim and Krzysztof Okupski of IOActive showed a flaw that had sat in AMD processors for nearly two decades. Anyone who already had kernel privileges could abuse a forgotten feature to run code in System Management Mode, the deepest and most privileged level of the CPU. From there one could plant bootkits invisible to antivirus software, able to survive even a reinstall of the operating system.",
+    "prayer": "O Saint Sinkclose, who dwells beneath the kernel and beneath the hypervisor, keep our firmware updated and our rings where they belong. Amen.",
+    "feast": "Celebrated by installing AMD firmware and microcode updates and, for the models left unpatched, lighting a candle.",
+    "proverb": "The deeper the bug goes, the higher the bill."
+  }
+}

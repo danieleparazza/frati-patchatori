@@ -1,0 +1,11 @@
+{
+  "label": "F00F",
+  "motto": "QUATTUOR BYTA SISTUNT",
+  "niche": [
+    "#1a1e2a",
+    "#363e54"
+  ],
+  "accent": "#28304a",
+  "frame": "papa",
+  "emblem": "<rect x=\"112\" y=\"146\" width=\"76\" height=\"76\" rx=\"4\" fill=\"#2c3e50\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"124\" y=\"158\" width=\"52\" height=\"52\" rx=\"2\" fill=\"#1e272e\"/>\n<g stroke=\"#7f8c8d\" stroke-width=\"2\"><path d=\"M120 146 v-12 M120 222 v12 M112 158 h-12 M188 158 h12\"/><path d=\"M134 146 v-12 M134 222 v12 M112 170 h-12 M188 170 h12\"/><path d=\"M148 146 v-12 M148 222 v12 M112 182 h-12 M188 182 h12\"/><path d=\"M162 146 v-12 M162 222 v12 M112 194 h-12 M188 194 h12\"/><path d=\"M176 146 v-12 M176 222 v12 M112 206 h-12 M188 206 h12\"/></g>\n<text x=\"150\" y=\"190\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#e74c3c\">F00F</text>\n<path d=\"M128 204 l44 -44\" stroke=\"#c0392b\" stroke-width=\"3\"/>"
+}

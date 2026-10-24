@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TuDoor, portinaio dei resolver",
+    "patronage": "dei resolver DNS, dei pacchetti malformati e di chi crede ancora che l'avvelenamento della cache sia roba del 2008.",
+    "hagiography": "Un gruppo di ricercatori guidato dall'Università Tsinghua scoprì tre difetti logici nel modo in cui i resolver DNS pre-elaborano le risposte: con pacchetti malformati si potevano avvelenare le cache, bloccare il servizio o consumarne le risorse. Furono colpiti ventiquattro software DNS, tra cui quello di Windows, BIND e PowerDNS, oltre a router e servizi pubblici, con 33 CVE assegnati. Il lavoro fu poi presentato a IEEE S&P 2024.",
+    "prayer": "O San TuDoor, che bussi alla porta dei resolver con pacchetti storti, fa' che i nostri DNS scartino ciò che non capiscono. Amen.",
+    "feast": "Si festeggia aggiornando il resolver e controllando che il proprio router non faccia anche lui il DNS di nascosto.",
+    "proverb": "Pacchetto storto in cache, indirizzo storto in casa."
+  },
+  "en": {
+    "title": "Saint TuDoor, Doorkeeper of Resolvers",
+    "patronage": "DNS resolvers, malformed packets, and everyone who thinks cache poisoning is so 2008.",
+    "hagiography": "A team of researchers led by Tsinghua University found three logic flaws in how DNS resolvers pre-process responses: with malformed packets one could poison caches, deny service or exhaust resources. Twenty-four DNS programs were affected, including Windows DNS, BIND and PowerDNS, along with routers and public services, and 33 CVEs were assigned. The work was later presented at IEEE S&P 2024.",
+    "prayer": "O Saint TuDoor, who knocks on the resolvers' door with crooked packets, let our DNS throw away what it does not understand. Amen.",
+    "feast": "Celebrated by updating the resolver and checking that your router isn't secretly running DNS too.",
+    "proverb": "A crooked packet in the cache sends you to a crooked address."
+  }
+}

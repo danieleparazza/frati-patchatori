@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Energizer DUO, dal caricabatterie con la porta sul retro",
+    "patronage": "dei caricabatterie USB, dei driver che fanno troppo e delle porte aperte a sorpresa.",
+    "hagiography": "Il 9 marzo 2010 fu catalogata la CVE-2010-0103: il software del caricabatterie USB Energizer DUO installava di nascosto una libreria che restava in ascolto sulla porta TCP 7777. Da lì, chiunque dalla rete poteva scaricare ed eseguire programmi sul PC Windows della vittima. Un caricabatterie che, oltre alle pile, ricaricava anche gli attaccanti.",
+    "prayer": "O San Energizer DUO, che insieme alla carica porti una porta sul retro, fa' che i nostri accessori non aprano quello che non devono. Amen.",
+    "feast": "Si festeggia disinstallando il software del caricabatterie, cancellando la libreria Arucer.dll e chiudendo la porta 7777."
+  },
+  "en": {
+    "title": "Saint Energizer DUO, of the Charger With a Back Door",
+    "patronage": "USB chargers, drivers that do too much, and ports that open by surprise.",
+    "hagiography": "On 9 March 2010 CVE-2010-0103 was catalogued: the software for the Energizer DUO USB charger secretly installed a library that stayed listening on TCP port 7777. From there, anyone on the network could download and run programs on the victim's Windows PC. A charger that, along with the batteries, also topped up the attackers.",
+    "prayer": "O Saint Energizer DUO, who brings a back door along with the charge, let our accessories not open what they shouldn't. Amen.",
+    "feast": "Celebrated by uninstalling the charger software, deleting the Arucer.dll library, and closing port 7777."
+  }
+}

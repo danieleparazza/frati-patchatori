@@ -1,0 +1,10 @@
+{
+  "label": "Billion Laughs",
+  "motto": "RISUS IN INFINITUM",
+  "niche": [
+    "#3a2a10",
+    "#6e5220"
+  ],
+  "accent": "#5a4218",
+  "emblem": "<circle cx=\"150\" cy=\"180\" r=\"44\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M128 170 Q136 160 144 170 M156 170 Q164 160 172 170\" stroke=\"#2b1d14\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>\n<path d=\"M126 186 Q150 222 174 186 Z\" fill=\"#9e1b1b\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M120 176 q-4 8 0 10 q4 -2 0 -10z M180 176 q-4 8 0 10 q4 -2 0 -10z\" fill=\"#5dade2\"/>\n<text x=\"108\" y=\"132\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">lol</text>\n<text x=\"196\" y=\"138\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">lol</text>\n<text x=\"196\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">lol</text>\n<text x=\"104\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">1e9</text>"
+}

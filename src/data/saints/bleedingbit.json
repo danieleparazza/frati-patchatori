@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BLEEDINGBIT, che sanguinava dal Bluetooth",
+    "patronage": "dei chip Bluetooth Low Energy, degli access point aziendali e delle funzioni che nessuno ricordava di aver acceso.",
+    "hagiography": "Nel novembre 2018 Armis rivelò due difetti nei chip BLE di Texas Instruments montati negli access point Wi-Fi di Cisco, Meraki e Aruba. Uno era una corruzione di memoria nello stack Bluetooth; l'altro, negli Aruba, permetteva di installare un firmware arbitrario sulla radio BLE tramite gli aggiornamenti via etere. Da un chip accanto all'antenna si arrivava così all'access point, e da lì alla rete aziendale.",
+    "prayer": "O San BLEEDINGBIT, che sanguini da un bit di troppo, fa' che le radio che non usiamo restino spente. Amen.",
+    "feast": "Si festeggia aggiornando il firmware degli access point e spegnendo il Bluetooth dove serve solo a localizzare le sedie.",
+    "proverb": "Radio accesa e dimenticata, porta aperta e non guardata."
+  },
+  "en": {
+    "title": "Saint BLEEDINGBIT, Who Bled Through Bluetooth",
+    "patronage": "Bluetooth Low Energy chips, enterprise access points, and features nobody remembered switching on.",
+    "hagiography": "In November 2018 Armis disclosed two flaws in Texas Instruments BLE chips built into Wi-Fi access points from Cisco, Meraki and Aruba. One was memory corruption in the Bluetooth stack; the other, on Aruba devices, allowed installing arbitrary firmware on the BLE radio through over-the-air updates. From a chip next to the antenna one reached the access point, and from there the corporate network.",
+    "prayer": "O Saint BLEEDINGBIT, who bleeds from one bit too many, keep the radios we don't use switched off. Amen.",
+    "feast": "Celebrated by updating access point firmware and turning off Bluetooth where it only tracks the chairs.",
+    "proverb": "A radio left on and forgotten is a door left open and unwatched."
+  }
+}

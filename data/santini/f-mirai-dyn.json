@@ -1,0 +1,11 @@
+{
+  "label": "Mirai",
+  "motto": "ADMIN ADMIN ADMIN",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<g stroke=\"#fbf3dd\" stroke-width=\"3\" fill=\"#2b2b2b\"><rect x=\"116\" y=\"140\" width=\"64\" height=\"34\" rx=\"6\"/><rect x=\"180\" y=\"148\" width=\"12\" height=\"18\"/></g>\n<circle cx=\"130\" cy=\"157\" r=\"10\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/><circle cx=\"168\" cy=\"152\" r=\"3\" fill=\"#c0392b\"/>\n<rect x=\"144\" y=\"174\" width=\"10\" height=\"16\" fill=\"#fbf3dd\"/><rect x=\"128\" y=\"190\" width=\"42\" height=\"6\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"218\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\" >admin</text><text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\" >admin</text>"
+}

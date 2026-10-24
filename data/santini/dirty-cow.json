@@ -1,0 +1,10 @@
+{
+  "label": "Dirty COW",
+  "motto": "VACCA SCRIBIT",
+  "niche": [
+    "#2a1d14",
+    "#523a28"
+  ],
+  "accent": "#4a2f1c",
+  "emblem": "<ellipse cx=\"150\" cy=\"196\" rx=\"52\" ry=\"40\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M118 170 q-10 -8 -6 -22 q14 6 14 22 z\" fill=\"#f2c9a0\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M182 170 q10 -8 6 -22 q-14 6 -14 22 z\" fill=\"#f2c9a0\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<ellipse cx=\"150\" cy=\"214\" rx=\"24\" ry=\"18\" fill=\"#f2c9a0\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<ellipse cx=\"142\" cy=\"214\" rx=\"3.5\" ry=\"5\" fill=\"#2b1d14\"/><ellipse cx=\"158\" cy=\"214\" rx=\"3.5\" ry=\"5\" fill=\"#2b1d14\"/>\n<circle cx=\"133\" cy=\"188\" r=\"5\" fill=\"#2b1d14\"/><circle cx=\"167\" cy=\"188\" r=\"5\" fill=\"#2b1d14\"/>\n<path d=\"M120 182 q-6 14 4 26 z\" fill=\"#5a4636\"/><path d=\"M180 178 q8 10 2 24 z\" fill=\"#5a4636\"/>\n<path d=\"M150 236 l-10 -10 h20 z\" fill=\"#d9ad55\"/>"
+}

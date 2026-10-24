@@ -1,0 +1,10 @@
+{
+  "label": "PrinterBug",
+  "motto": "IMPRIMO ERGO VOCO",
+  "niche": [
+    "#26303a",
+    "#4a5a68"
+  ],
+  "accent": "#33404c",
+  "emblem": "<rect x=\"120\" y=\"126\" width=\"60\" height=\"34\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"102\" y=\"156\" width=\"96\" height=\"48\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"184\" cy=\"168\" r=\"3\" fill=\"#27ae60\"/>\n<rect x=\"118\" y=\"194\" width=\"64\" height=\"52\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g transform=\"translate(150 220)\"><circle cx=\"-12\" cy=\"0\" r=\"8\" fill=\"none\" stroke=\"#b8892b\" stroke-width=\"3.5\"/><path d=\"M-4 0 H18 M12 0 V7 M17 0 V6\" stroke=\"#b8892b\" stroke-width=\"3.5\"/></g>\n<path d=\"M200 140 q10 -6 14 4 M204 128 q16 -10 22 8\" stroke=\"#fbf3dd\" stroke-width=\"2.5\" fill=\"none\"/>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Crit.IX",
+  "motto": "MANUS IN MACHINA",
+  "niche": [
+    "#2a2010",
+    "#564220"
+  ],
+  "accent": "#403018",
+  "emblem": "<rect x=\"110\" y=\"150\" width=\"80\" height=\"60\" rx=\"4\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g stroke=\"#5dade2\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M120 196 q10 -30 20 0 t20 0 t20 0\"/></g>\n<circle cx=\"126\" cy=\"162\" r=\"4\" fill=\"#58d68d\"/><circle cx=\"140\" cy=\"162\" r=\"4\" fill=\"#f1c40f\"/><circle cx=\"154\" cy=\"162\" r=\"4\" fill=\"#c0392b\"/>\n<g stroke=\"#d9ad55\" stroke-width=\"3\"><line x1=\"128\" y1=\"214\" x2=\"128\" y2=\"228\"/><circle cx=\"128\" cy=\"228\" r=\"4\" fill=\"#d9ad55\"/><line x1=\"150\" y1=\"214\" x2=\"150\" y2=\"224\"/><circle cx=\"150\" cy=\"224\" r=\"4\" fill=\"#d9ad55\"/><line x1=\"172\" y1=\"214\" x2=\"172\" y2=\"230\"/><circle cx=\"172\" cy=\"230\" r=\"4\" fill=\"#d9ad55\"/></g>\n<text x=\"150\" y=\"142\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\">IX</text>"
+}

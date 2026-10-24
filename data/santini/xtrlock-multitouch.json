@@ -1,0 +1,10 @@
+{
+  "label": "xtrlock",
+  "motto": "DIGITUS NON CLAUDITUR",
+  "niche": [
+    "#2a2a2a",
+    "#555555"
+  ],
+  "accent": "#3d3d3d",
+  "emblem": "<rect x=\"112\" y=\"166\" width=\"76\" height=\"62\" rx=\"6\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M126 166 V146 A24 24 0 0 1 174 146 V166\" stroke=\"#bfc9d1\" stroke-width=\"8\" fill=\"none\"/>\n<circle cx=\"150\" cy=\"190\" r=\"6\" fill=\"#2b1d14\"/><rect x=\"147\" y=\"194\" width=\"6\" height=\"14\" fill=\"#2b1d14\"/>\n<g fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"><ellipse cx=\"190\" cy=\"218\" rx=\"7\" ry=\"11\"/><ellipse cx=\"204\" cy=\"208\" rx=\"7\" ry=\"11\"/></g>\n<path d=\"M180 240 C186 232 210 230 214 222\" stroke=\"#fbf3dd\" stroke-width=\"2\" fill=\"none\"/>"
+}

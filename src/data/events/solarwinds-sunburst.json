@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di SUNBURST",
+    "chronicle": "Il 13 dicembre 2020, dopo che FireEye aveva scoperto di essere stata violata, si seppe che gli attaccanti avevano inserito la backdoor SUNBURST negli aggiornamenti di SolarWinds Orion distribuiti tra marzo e giugno 2020. L'aggiornamento avvelenato raggiunse circa 18.000 clienti, che lo installarono fidandosi della firma del fornitore. Solo un gruppo ristretto di bersagli di alto valore fu poi sfruttato davvero, tra cui il Tesoro, il Dipartimento del Commercio e quello della Sicurezza interna statunitensi e Microsoft. Il governo statunitense attribuì l'operazione al servizio d'intelligence estero russo, l'SVR (APT29).",
+    "lesson": "Fece della sicurezza della catena di fornitura del software una priorità di governo: firme, build riproducibili e distinte dei componenti (SBOM) divennero argomenti da decreto presidenziale.",
+    "prayer": "O SUNBURST, che arrivasti firmato e benedetto dal fornitore, insegnaci a sorvegliare anche i nostri strumenti di sorveglianza e a non credere che una firma basti a rendere santo un aggiornamento. Amen.",
+    "remembrance": "Si ricorda proteggendo i sistemi di build come se fossero produzione, limitando il traffico in uscita dei server di gestione e chiedendo ai fornitori come costruiscono ciò che firmano."
+  },
+  "en": {
+    "title": "The Scourge of SUNBURST",
+    "chronicle": "On 13 December 2020, after FireEye discovered it had been breached, it emerged that attackers had inserted the SUNBURST backdoor into SolarWinds Orion updates shipped between March and June 2020. The poisoned update reached about 18,000 customers, who installed it trusting the vendor's signature. Only a small set of high-value targets were then actually exploited, including the US Treasury, Commerce and Homeland Security departments and Microsoft. The US government attributed the operation to Russia's foreign intelligence service, the SVR (APT29).",
+    "lesson": "It made software supply-chain security a government priority: signatures, reproducible builds and software bills of materials became the stuff of presidential executive orders.",
+    "prayer": "O SUNBURST, who came signed and blessed by the vendor, teach us to watch even our monitoring tools and never to believe that a signature alone makes an update holy. Amen.",
+    "remembrance": "Remembered by protecting build systems as if they were production, restricting outbound traffic from management servers and asking vendors how they build what they sign."
+  }
+}

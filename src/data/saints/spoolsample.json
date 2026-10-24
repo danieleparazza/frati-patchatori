@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PrinterBug, che fa telefonare i controller di dominio",
+    "patronage": "degli spooler di stampa accesi dove non servono, dei controller di dominio troppo cortesi e delle stampanti che nessuno ha mai visto.",
+    "hagiography": "Al DerbyCon dell'ottobre 2018 Lee Christensen, Will Schroeder e Matt Nelson mostrarono che una chiamata del protocollo di stampa di Windows, MS-RPRN, costringeva qualunque macchina con lo spooler attivo, controller di dominio compresi, ad autenticarsi verso un host scelto dall'attaccante. Insieme alla delega Kerberos non vincolata permetteva di catturare il ticket di un controller di dominio, perfino attraverso i trust tra foreste. Microsoft lo considerò in gran parte un comportamento previsto, ma nel 2019 corresse la delega tra foreste.",
+    "prayer": "O San PrinterBug, che fai squillare il telefono a chi non stampa mai nulla, spegni gli spooler dei nostri controller di dominio. Amen.",
+    "feast": "Si festeggia disabilitando il servizio Spooler di stampa sui controller di dominio, dove a memoria d'uomo nessuno ha mai stampato nulla.",
+    "proverb": "Chi tiene lo spooler acceso riceve visite anche di notte."
+  },
+  "en": {
+    "title": "Saint PrinterBug, Who Makes Domain Controllers Call Out",
+    "patronage": "print spoolers running where nobody needs them, overly polite domain controllers, and printers nobody has ever seen.",
+    "hagiography": "At DerbyCon in October 2018 Lee Christensen, Will Schroeder and Matt Nelson showed that a call in Windows' print protocol, MS-RPRN, forced any machine running the spooler, domain controllers included, to authenticate to a host of the attacker's choosing. Combined with Kerberos unconstrained delegation it let you capture a domain controller's ticket, even across forest trusts. Microsoft deemed it mostly by design, but fixed delegation across forests in 2019.",
+    "prayer": "O Saint PrinterBug, who rings the phone of those who never print anything, switch off the spoolers on our domain controllers. Amen.",
+    "feast": "Celebrated by disabling the Print Spooler service on domain controllers, where in living memory nobody has ever printed a thing.",
+    "proverb": "Leave the spooler running and you get visitors at night."
+  }
+}

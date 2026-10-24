@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello dei concessionari",
+    "chronicle": "Il 19 giugno 2024 il ransomware BlackSuit colpì CDK Global, il cui software gestisce circa 15.000 concessionarie d'auto in Nord America. CDK spense i sistemi, e la sera stessa, durante il ripristino, un secondo incidente costrinse a un nuovo arresto. Per circa due settimane i concessionari tornarono a carta e penna per vendite, finanziamenti e officine. Le perdite furono stimate in centinaia di milioni di dollari.",
+    "lesson": "Mostrò quanto interi settori dipendano da un unico fornitore di software gestionale, e che ripartire troppo in fretta dopo un attacco può riaprire la porta agli aggressori.",
+    "prayer": "O BlackSuit, che fermasti le vendite di un continente, lascia in pace i nostri gestionali e insegnaci a non riaccendere tutto prima di aver chiuso ogni porta. Amen.",
+    "remembrance": "Si ricorda tenendo procedure manuali di riserva per vendite e officine, chiedendo ai fornitori piani di continuità credibili e ripristinando i sistemi solo dopo averli bonificati."
+  },
+  "en": {
+    "title": "The Scourge of the Car Dealers",
+    "chronicle": "On 19 June 2024 BlackSuit ransomware hit CDK Global, whose software runs about 15,000 car dealerships in North America. CDK shut down its systems, and that same evening, during recovery, a second incident forced a fresh shutdown. For about two weeks dealers went back to pen and paper for sales, financing and service. Losses were estimated at hundreds of millions of dollars.",
+    "lesson": "It showed how whole industries depend on a single management-software vendor, and that restarting too quickly after an attack can reopen the door to the attackers.",
+    "prayer": "O BlackSuit, who stalled a continent's car sales, leave our management systems in peace and teach us not to switch everything back on before every door is shut. Amen.",
+    "remembrance": "Remembered by keeping manual fallback procedures for sales and service, asking vendors for credible continuity plans and restoring systems only after cleaning them."
+  }
+}

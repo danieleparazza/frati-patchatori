@@ -1,0 +1,10 @@
+{
+  "label": "CertPotato",
+  "motto": "TUBER AD SYSTEMA",
+  "niche": [
+    "#2a2012",
+    "#524026"
+  ],
+  "accent": "#4a3518",
+  "emblem": "<ellipse cx=\"146\" cy=\"190\" rx=\"44\" ry=\"34\" fill=\"#c8a165\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#8a6d3f\"><ellipse cx=\"128\" cy=\"178\" rx=\"4\" ry=\"3\"/><ellipse cx=\"160\" cy=\"172\" rx=\"4\" ry=\"3\"/><ellipse cx=\"150\" cy=\"200\" rx=\"4\" ry=\"3\"/><ellipse cx=\"170\" cy=\"196\" rx=\"4\" ry=\"3\"/></g>\n<rect x=\"150\" y=\"128\" width=\"42\" height=\"28\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<rect x=\"155\" y=\"135\" width=\"9\" height=\"13\" rx=\"1\" fill=\"#d9ad55\"/><path d=\"M169 137 h16 M169 143 h12\" stroke=\"#7a6656\" stroke-width=\"1.5\"/>\n<path d=\"M171 156 l-8 14\" stroke=\"#d9ad55\" stroke-width=\"2\"/>"
+}

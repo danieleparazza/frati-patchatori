@@ -1,0 +1,10 @@
+{
+  "label": "Dirty Frag",
+  "motto": "FRAGMENTUM SORDIDUM",
+  "niche": [
+    "#2b2418",
+    "#54462c"
+  ],
+  "accent": "#4a3c22",
+  "emblem": "<path d=\"M104 150 L136 136 L144 170 L112 184 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 132 L192 140 L186 176 L146 168 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M116 194 L170 184 L178 226 L124 236 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#6e4b2a\" opacity=\"0.85\"><circle cx=\"124\" cy=\"160\" r=\"6\"/><circle cx=\"168\" cy=\"152\" r=\"4\"/><circle cx=\"178\" cy=\"164\" r=\"3\"/><circle cx=\"142\" cy=\"212\" r=\"8\"/><circle cx=\"160\" cy=\"220\" r=\"4\"/><circle cx=\"134\" cy=\"226\" r=\"3\"/></g>\n<text x=\"150\" y=\"118\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#d9ad55\">r--r--r--</text>"
+}

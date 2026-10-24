@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Towelroot, che portava il root con un asciugamano",
+    "patronage": "dei telefoni Android da liberare, della chiamata futex e dei root fatti in un clic di domenica sera.",
+    "hagiography": "Nel giugno 2014 George Hotz pubblicò Towelroot, un'app che con un solo tocco dava i privilegi di root a moltissimi telefoni Android. Sfruttava CVE-2014-3153, un difetto nella funzione futex_requeue del kernel Linux segnalato da Pinkie Pie: la chiamata non verificava che due futex fossero diversi, aprendo la strada alla scalata dei privilegi. Nata per liberare i telefoni, la stessa falla poteva servire anche a chi voleva prenderne il controllo.",
+    "prayer": "O San Towelroot, che dai il root con un asciugamano, fa' che la nostra futex distingua sempre un indirizzo dall'altro. Amen.",
+    "feast": "Si festeggia installando un kernel aggiornato dopo giugno 2014 e portando sempre con sé un asciugamano.",
+    "proverb": "Un asciugamano e il telefono è tuo."
+  },
+  "en": {
+    "title": "Saint Towelroot, Who Brought Root With a Towel",
+    "patronage": "Android phones to be freed, the futex call, and one-click roots on a Sunday night.",
+    "hagiography": "In June 2014 George Hotz released Towelroot, an app that with a single tap granted root on a great many Android phones. It exploited CVE-2014-3153, a flaw in the Linux kernel's futex_requeue function reported by Pinkie Pie: the call did not check that two futexes were different, opening the way to privilege escalation. Born to free phones, the same flaw could also serve whoever wanted to take them over.",
+    "prayer": "O Saint Towelroot, who grants root with a towel, let our futex always tell one address from another. Amen.",
+    "feast": "Celebrated by installing a kernel updated after June 2014 and always knowing where your towel is.",
+    "proverb": "A towel, and the phone is yours."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Better Zip Bomb, che esplodeva senza annidarsi",
+    "patronage": "dei decompressori, degli antivirus curiosi e dei file piccoli con un cuore enorme.",
+    "hagiography": "Nel 2019 David Fifield costruì una zip bomb migliore. Le vecchie si annidavano, un archivio dentro l'altro; la sua invece sovrapponeva i file in modo che pochi kilobyte si espandessero in petabyte senza alcuna ricorsione. Bastava aprirlo, o scansionarlo, per far esplodere qualunque strumento. La variante contro unzip prese CVE-2019-13232.",
+    "prayer": "O San Better Zip Bomb, che nascondi un oceano in una goccia, insegna ai nostri decompressori a misurare prima di aprire. Amen.",
+    "feast": "Si festeggia imponendo limiti alla dimensione dei file estratti e diffidando degli archivi troppo generosi per i loro pochi byte."
+  },
+  "en": {
+    "title": "Saint Better Zip Bomb, Who Exploded Without Nesting",
+    "patronage": "decompressors, curious antivirus engines, and small files with an enormous heart.",
+    "hagiography": "In 2019 David Fifield built a better zip bomb. The old ones nested, one archive inside another; his instead overlapped the files so that a few kilobytes expanded into petabytes with no recursion at all. Opening it, or scanning it, was enough to blow up any tool. The variant against unzip took CVE-2019-13232.",
+    "prayer": "O Saint Better Zip Bomb, who hides an ocean in a drop, teach our decompressors to measure before they open. Amen.",
+    "feast": "Celebrated by capping the size of extracted files and distrusting archives too generous for their few bytes."
+  }
+}

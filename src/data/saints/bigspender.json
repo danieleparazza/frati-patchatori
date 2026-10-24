@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BigSpender, che faceva spendere il denaro mai arrivato",
+    "patronage": "dei portafogli di criptovalute, delle transazioni non confermate e di chi conta i soldi prima di averli.",
+    "hagiography": "Nel luglio 2020 Oded Leiba di ZenGo rivelò BigSpender (CVE-2020-12119): alcuni portafogli Bitcoin, tra cui Ledger Live, aumentavano il saldo appena vista una transazione in arrivo, prima della conferma, e non lo riducevano se questa veniva annullata con il Replace-By-Fee. L'utente vedeva soldi mai davvero ricevuti e poteva agire di conseguenza, esposto al doppio pagamento.",
+    "prayer": "O San BigSpender, che mostri ricchezze non ancora confermate, insegna ai nostri portafogli ad aspettare la conferma prima di esultare. Amen.",
+    "feast": "Si festeggia aggiornando il portafoglio alle versioni corrette e contando solo le transazioni confermate, come i vecchi cassieri prudenti.",
+    "proverb": "Chi conta la moneta non confermata, resta con la borsa svuotata."
+  },
+  "en": {
+    "title": "Saint BigSpender, Who Spent Money That Never Came",
+    "patronage": "cryptocurrency wallets, unconfirmed transactions, and those who count their money before they have it.",
+    "hagiography": "In July 2020 Oded Leiba of ZenGo revealed BigSpender (CVE-2020-12119): some Bitcoin wallets, Ledger Live among them, increased the balance the moment an incoming transaction appeared, before confirmation, and did not decrease it when that transaction was cancelled with Replace-By-Fee. The user saw money never truly received and could act on it, exposed to double spending.",
+    "prayer": "O Saint BigSpender, who shows riches not yet confirmed, teach our wallets to wait for the confirmation before rejoicing. Amen.",
+    "feast": "Celebrated by updating the wallet to the fixed versions and counting only confirmed transactions, like the prudent cashiers of old.",
+    "proverb": "Count the unconfirmed coin, and you end with an empty purse."
+  }
+}

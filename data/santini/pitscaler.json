@@ -1,0 +1,10 @@
+{
+  "label": "PitScaler",
+  "motto": "IN FOVEAM CECIDIT",
+  "niche": [
+    "#24160f",
+    "#4e2f1c"
+  ],
+  "accent": "#5a2a16",
+  "emblem": "<ellipse cx=\"146\" cy=\"222\" rx=\"54\" ry=\"16\" fill=\"#0d0907\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<ellipse cx=\"146\" cy=\"226\" rx=\"40\" ry=\"9\" fill=\"#000\"/>\n<path d=\"M96 214 q-6 -8 4 -12 M196 214 q6 -8 -4 -12\" stroke=\"#bfa27a\" stroke-width=\"3\" fill=\"none\"/>\n<line x1=\"186\" y1=\"124\" x2=\"152\" y2=\"196\" stroke=\"#c8a165\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<path d=\"M180 120 h16 v8 h-16 z\" fill=\"#c8a165\"/>\n<path d=\"M140 190 l22 10 l-10 22 q-16 2 -22 -10 z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"128\" cy=\"228\" r=\"2.5\"/><circle cx=\"136\" cy=\"228\" r=\"2.5\"/></g>"
+}

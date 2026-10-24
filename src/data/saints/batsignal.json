@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Batsignal, che chiamava Spotlight nella notte",
+    "patronage": "di Spotlight e dei suoi demoni, dei link simbolici e di chi indicizza dischi sconosciuti.",
+    "hagiography": "Gergely Kalman descrisse una elevazione di privilegi in macOS che chiamò batsignal: i demoni di Spotlight, mds e mds_stores, giravano come root e scrivevano i file di indice sul volume stesso, dove un utente può montare un'immagine disco. Rinominando la cartella protetta e piazzando un link simbolico, si faceva scrivere a Spotlight dentro /etc/sudoers una riga che concedeva root senza password. Apple corresse i tasselli nel 2022; il bug all'inizio non ebbe nemmeno un CVE.",
+    "prayer": "O San Batsignal, che accendi Spotlight come un faro nel cielo, fa' che i nostri demoni di root non seguano i link che trovano. Amen.",
+    "feast": "Si festeggia aggiornando macOS e ricordando che perfino un indicizzatore, se gira da root, va trattato con rispetto.",
+    "proverb": "Chi segue il link altrui finisce dove non voleva."
+  },
+  "en": {
+    "title": "Saint Batsignal, Who Called Spotlight in the Night",
+    "patronage": "Spotlight and its daemons, symbolic links, and whoever indexes unknown disks.",
+    "hagiography": "Gergely Kalman described a macOS privilege escalation he called batsignal: Spotlight's daemons, mds and mds_stores, ran as root and wrote their index files onto the volume itself, where a user can mount a disk image. By renaming the protected folder and planting a symbolic link, you got Spotlight to write a passwordless root line into /etc/sudoers. Apple fixed the pieces over 2022; the bug at first did not even have a CVE.",
+    "prayer": "O Saint Batsignal, who lights Spotlight like a beacon in the sky, let our root daemons not follow the links they find. Amen.",
+    "feast": "Celebrated by updating macOS and remembering that even an indexer, if it runs as root, deserves respect.",
+    "proverb": "Follow another's link and you end up where you didn't want to be."
+  }
+}

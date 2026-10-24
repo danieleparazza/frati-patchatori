@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PageJack, che dirottava pagine intere",
+    "patronage": "degli exploit del kernel, delle pagine liberate troppo presto e degli use-after-free che crescono di taglia.",
+    "hagiography": "Nell'agosto 2024, a Black Hat, Zhiyun Qian e colleghi presentarono PageJack, una tecnica che trasforma un piccolo errore di memoria del kernel Linux in un use-after-free su un'intera pagina. Una volta riottenuta la pagina, l'attaccante può riempirla di strutture a sua scelta e diventare root, senza dover indovinare gli indirizzi del kernel. La dimostrarono anche su CVE-2022-0995, un overflow nel sottosistema watch_queue.",
+    "prayer": "O San PageJack, che di un byte fuori posto fai una pagina intera, fa' che il nostro allocatore non restituisca mai ciò che qualcuno sta ancora leggendo. Amen.",
+    "feast": "Si festeggia aggiornando il kernel e voltando pagina, ma solo dopo averla azzerata.",
+    "proverb": "Pagina liberata, pagina rubata."
+  },
+  "en": {
+    "title": "Saint PageJack, Who Hijacked Whole Pages",
+    "patronage": "kernel exploits, pages freed too early, and use-after-frees that grow a size.",
+    "hagiography": "In August 2024, at Black Hat, Zhiyun Qian and colleagues presented PageJack, a technique that turns a small Linux kernel memory error into a use-after-free on an entire page. Once the page is reclaimed, the attacker can fill it with structures of their choosing and become root, without guessing kernel addresses. They also demonstrated it on CVE-2022-0995, an overflow in the watch_queue subsystem.",
+    "prayer": "O Saint PageJack, who turns one misplaced byte into a whole page, let our allocator never hand back what someone is still reading. Amen.",
+    "feast": "Celebrated by updating the kernel and turning the page, but only after zeroing it.",
+    "proverb": "A page freed is a page stolen."
+  }
+}

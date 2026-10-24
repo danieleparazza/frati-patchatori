@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'ÆPIC Leak, che svuotò l'enclave senza canali laterali",
+    "patronage": "dei controller APIC, delle enclavi SGX e dei registri che restituiscono ciò che non dovrebbero.",
+    "hagiography": "Nell'agosto 2022 Pietro Borrello della Sapienza e colleghi di TU Graz, CISPA e Amazon rivelarono il primo bug architetturale delle CPU capace di far trapelare dati senza alcun canale laterale. Leggendo una zona non definita dei registri APIC dei processori Intel Sunny Cove si ottenevano frammenti di dati rimasti nella cache, compresi quelli delle enclavi SGX. Serviva l'accesso da amministratore, ma SGX era nata proprio per difendersi anche da lui.",
+    "prayer": "O Sant'ÆPIC Leak, che leggi dove il manuale dice \"riservato\", fa' che i nostri registri restituiscano solo zeri. Amen.",
+    "feast": "Si festeggia aggiornando il microcode e l'SDK di SGX e passando l'APIC in modalità x2APIC, che di quella memoria non sa che farsene.",
+    "proverb": "Registro non definito, segreto definito."
+  },
+  "en": {
+    "title": "Saint ÆPIC Leak, Who Emptied the Enclave Without a Side Channel",
+    "patronage": "APIC controllers, SGX enclaves, and registers that return what they shouldn't.",
+    "hagiography": "In August 2022 Pietro Borrello of Sapienza University and colleagues from TU Graz, CISPA and Amazon revealed the first architectural CPU bug able to leak data without any side channel. Reading an undefined range of the APIC registers on Intel Sunny Cove processors returned stale fragments of data from the cache, including those of SGX enclaves. It required administrator access, but SGX was designed precisely to defend even against the administrator.",
+    "prayer": "O Saint ÆPIC Leak, who reads where the manual says \"reserved\", let our registers return nothing but zeros. Amen.",
+    "feast": "Celebrated by updating the microcode and the SGX SDK and switching the APIC to x2APIC mode, which has no use for that memory.",
+    "proverb": "Undefined register, well-defined secret."
+  }
+}

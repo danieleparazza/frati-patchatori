@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Trigon, l'exploit che non cade mai",
+    "patronage": "degli iPhone vecchi, dei jailbreaker pazienti e delle moltiplicazioni che sforano.",
+    "hagiography": "Nel 2025 Alfie CG pubblicò Trigon, un exploit del kernel di iOS costruito su CVE-2023-32434, un integer overflow in mach_make_memory_entry: lo stesso bug usato nella campagna Operation Triangulation e corretto da Apple in iOS 16.5.1. La sua virtù era la determinazione: progettato per non fallire mai e non mandare mai il kernel in panico, a differenza degli exploit che vanno a tentativi. Un santo affidabile, cosa rara nel suo mestiere.",
+    "prayer": "O San Trigon, che non sbagli mai un colpo, proteggi i nostri iPhone dimenticati nei cassetti e i loro firmware fermi nel tempo. Amen.",
+    "feast": "Si festeggia aggiornando iOS, oppure tenendo da parte un vecchio iPhone non aggiornato per i giorni di festa.",
+    "proverb": "Chi non va a tentoni, non cade mai."
+  },
+  "en": {
+    "title": "Saint Trigon, the Exploit That Never Falls",
+    "patronage": "old iPhones, patient jailbreakers, and multiplications that overflow.",
+    "hagiography": "In 2025 Alfie CG published Trigon, an iOS kernel exploit built on CVE-2023-32434, an integer overflow in mach_make_memory_entry: the same bug used in the Operation Triangulation campaign and fixed by Apple in iOS 16.5.1. Its virtue was determinism: designed never to fail and never to panic the kernel, unlike exploits that work by trial and error. A reliable saint, a rare thing in his line of work.",
+    "prayer": "O Saint Trigon, who never misses, watch over our iPhones forgotten in drawers and their firmware frozen in time. Amen.",
+    "feast": "Celebrated by updating iOS, or by keeping an old un-updated iPhone aside for feast days.",
+    "proverb": "Who never fumbles never tumbles."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Fallout, pioggia radioattiva dagli store buffer",
+    "patronage": "degli store buffer della CPU, degli attacchi MDS e di chi raccoglie i resti lasciati in memoria.",
+    "hagiography": "Nel maggio 2019, con rivelazione estesa a novembre, i ricercatori mostrarono Fallout, parte della famiglia MDS (Microarchitectural Data Sampling): sfruttando l'esecuzione speculativa si poteva campionare i dati appena transitati negli store buffer del processore, i piccoli depositi temporanei delle scritture. Da un programma qualunque pioveva così una ricaduta di frammenti altrui, inclusi dati del kernel. Intel corresse con microcodice e svuotamento dei buffer ai cambi di contesto.",
+    "prayer": "O San Fallout, che fai piovere i resti delle scritture altrui, fa' che i nostri buffer si svuotino prima di cambiare padrone. Amen.",
+    "feast": "Si festeggia aggiornando il microcodice e abilitando lo svuotamento dei buffer al cambio di contesto.",
+    "proverb": "Dove si scrive in fretta, qualcosa ricade."
+  },
+  "en": {
+    "title": "Saint Fallout, Radioactive Rain From the Store Buffers",
+    "patronage": "the CPU's store buffers, the MDS attacks, and everyone who gathers the leftovers in memory.",
+    "hagiography": "In May 2019, with broader disclosure in November, researchers revealed Fallout, part of the MDS (Microarchitectural Data Sampling) family: using speculative execution one could sample data that had just passed through the processor's store buffers, the small temporary holds for writes. From any program a fallout of other people's fragments rained down, kernel data included. Intel fixed it with microcode and buffer flushing on context switches.",
+    "prayer": "O Saint Fallout, who rains down the leftovers of others' writes, let our buffers empty before they change masters. Amen.",
+    "feast": "Celebrated by updating the microcode and enabling buffer flushing on context switch.",
+    "proverb": "Where writing is hasty, something rains back down."
+  }
+}

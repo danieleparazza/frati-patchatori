@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San KRACK, che faceva reinstallare la chiave",
+    "patronage": "delle reti Wi-Fi protette, degli handshake ripetuti una volta di troppo e di chi credeva WPA2 inviolabile.",
+    "hagiography": "Mathy Vanhoef presentò KRACK nell'ottobre 2017: il \"key reinstallation attack\" colpiva il four-way handshake di WPA e WPA2, costringendo un dispositivo a reinstallare una chiave già in uso e azzerando i contatori che dovevano rendere unici i pacchetti. Da lì un attaccante nel raggio della rete poteva decifrare, rigiocare e in certi casi alterare il traffico. Era un difetto dello standard stesso, quindi di quasi tutti i dispositivi Wi-Fi del mondo.",
+    "prayer": "O San KRACK, che fai reinstallare la chiave già usata, fa' che i nostri contatori non ripartano mai da capo. Amen.",
+    "feast": "Si festeggia aggiornando client e access point e fidandosi di HTTPS più che del lucchetto del Wi-Fi.",
+    "proverb": "Chiave reinstallata, segretezza sfumata."
+  },
+  "en": {
+    "title": "Saint KRACK, Who Made the Key Be Reinstalled",
+    "patronage": "protected Wi-Fi networks, handshakes repeated one time too many, and everyone who thought WPA2 unbreakable.",
+    "hagiography": "Mathy Vanhoef presented KRACK in October 2017: the \"key reinstallation attack\" struck the four-way handshake of WPA and WPA2, forcing a device to reinstall a key already in use and resetting the counters meant to keep packets unique. From there an attacker within range could decrypt, replay and in some cases alter traffic. It was a flaw in the standard itself, and so in almost every Wi-Fi device in the world.",
+    "prayer": "O Saint KRACK, who makes the used key be reinstalled, let our counters never start over from the beginning. Amen.",
+    "feast": "Celebrated by updating clients and access points and trusting HTTPS more than the Wi-Fi padlock.",
+    "proverb": "Key reinstalled, secrecy dissolved."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RMPocalypse, crollato per otto byte",
+    "patronage": "delle macchine virtuali confidenziali, dei cloud che giurano di non poter guardare e delle tabelle protette un attimo troppo tardi.",
+    "hagiography": "Nell'ottobre 2025 Benedict Schlüter e Shweta Shinde del Politecnico di Zurigo mostrarono che AMD SEV-SNP, la tecnologia che protegge le VM confidenziali perfino dall'hypervisor, aveva un punto debole alla nascita. Mentre si inizializzava la Reverse Map Table, la tabella che custodisce i permessi di tutta la memoria, un hypervisor malevolo poteva lasciare in cache dati sporchi destinati a finirci dentro: bastavano otto byte per controllarla tutta, falsificare l'attestazione e leggere la memoria delle VM, su Zen 3, 4 e 5.",
+    "prayer": "O San RMPocalypse, che con otto byte facesti crollare il tempio, fa' che le nostre tabelle siano protette fin dal primo istante. Amen.",
+    "feast": "Si festeggia aggiornando il firmware AMD per SEV-SNP e diffidando di chiunque prometta che il cloud non può guardare.",
+    "proverb": "Piccola crepa, grande crollo."
+  },
+  "en": {
+    "title": "Saint RMPocalypse, Brought Down by Eight Bytes",
+    "patronage": "confidential virtual machines, clouds that swear they cannot look, and tables protected a moment too late.",
+    "hagiography": "In October 2025 Benedict Schlüter and Shweta Shinde of ETH Zurich showed that AMD SEV-SNP, the technology that shields confidential VMs even from the hypervisor, had a weak spot at birth. While the Reverse Map Table, which holds the permissions for all of memory, was being initialised, a malicious hypervisor could leave dirty cache lines destined to land inside it: eight bytes were enough to control the whole table, forge attestation and read VM memory, on Zen 3, 4 and 5.",
+    "prayer": "O Saint RMPocalypse, who toppled the temple with eight bytes, let our tables be protected from the very first instant. Amen.",
+    "feast": "Celebrated by updating AMD firmware for SEV-SNP and distrusting anyone who promises the cloud cannot look.",
+    "proverb": "Small crack, great collapse."
+  }
+}

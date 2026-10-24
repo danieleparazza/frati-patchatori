@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'Achilles, dal tallone di Gatekeeper",
+    "patronage": "di Gatekeeper, della quarantena dei download e di chi scarica un'app e la apre senza pensarci.",
+    "hagiography": "Il 19 dicembre 2022 Microsoft rese noto Achilles, un difetto in macOS trovato da Jonathan Bar Or. Applicando a un file scaricato liste di controllo degli accessi molto restrittive, si impediva al browser di marcarlo con l'attributo di quarantena, quello che fa scattare il controllo di Gatekeeper. Senza quel marchio, un'app non firmata poteva avviarsi come se fosse fidata. Apple lo corresse a dicembre.",
+    "prayer": "O Sant'Achilles, che trovi il punto scoperto del guardiano, fa' che la quarantena si applichi a tutto ciò che arriva da fuori. Amen.",
+    "feast": "Si festeggia aggiornando macOS alle versioni corrette e diffidando delle app che arrivano senza quarantena.",
+    "proverb": "Anche il guardiano ha un tallone."
+  },
+  "en": {
+    "title": "Saint Achilles, of Gatekeeper's Heel",
+    "patronage": "Gatekeeper, download quarantine, and anyone who downloads an app and opens it without a second thought.",
+    "hagiography": "On 19 December 2022 Microsoft disclosed Achilles, a macOS flaw found by Jonathan Bar Or. By applying very restrictive access control lists to a downloaded file, the browser was prevented from tagging it with the quarantine attribute, the one that triggers Gatekeeper's check. Without that mark, an unsigned app could launch as if it were trusted. Apple fixed it in December.",
+    "prayer": "O Saint Achilles, who finds the guardian's unguarded spot, let quarantine apply to everything that comes from outside. Amen.",
+    "feast": "Celebrated by updating macOS to the fixed versions and distrusting apps that arrive without quarantine.",
+    "proverb": "Even the guardian has a heel."
+  }
+}

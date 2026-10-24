@@ -1,0 +1,10 @@
+{
+  "label": "Juice Jacking",
+  "motto": "ENERGIA CUM PRETIO",
+  "niche": [
+    "#3a2a12",
+    "#6e5424"
+  ],
+  "accent": "#54401c",
+  "emblem": "<rect x=\"128\" y=\"150\" width=\"44\" height=\"60\" rx=\"8\" fill=\"#2b1d14\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<rect x=\"138\" y=\"140\" width=\"10\" height=\"12\" fill=\"#bfc9d1\"/><rect x=\"152\" y=\"140\" width=\"10\" height=\"12\" fill=\"#bfc9d1\"/>\n<path d=\"M150 210 V232\" stroke=\"#bfc9d1\" stroke-width=\"4\"/>\n<path d=\"M152 162 L142 182 H152 L148 198 L162 176 H152 Z\" fill=\"#f4d03f\" stroke=\"#8c6a22\" stroke-width=\"1\"/>\n<path d=\"M120 236 q30 -14 60 0\" stroke=\"#5dade2\" stroke-width=\"3\" fill=\"none\"/>\n<text x=\"150\" y=\"128\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">USB</text>"
+}

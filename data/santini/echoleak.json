@@ -1,0 +1,10 @@
+{
+  "label": "EchoLeak",
+  "motto": "ECHO OMNIA REDDIT",
+  "niche": [
+    "#1d2340",
+    "#3c4680"
+  ],
+  "accent": "#2a3160",
+  "emblem": "<rect x=\"108\" y=\"150\" width=\"62\" height=\"42\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M108 152 L139 176 L170 152\" stroke=\"#2b1d14\" stroke-width=\"2\" fill=\"none\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-linecap=\"round\"><path d=\"M178 156 Q186 171 178 186\" stroke-width=\"3\"/><path d=\"M188 148 Q200 171 188 194\" stroke-width=\"3\"/><path d=\"M198 140 Q214 171 198 202\" stroke-width=\"2.5\"/></g>\n<g fill=\"#bfc9d1\"><path d=\"M126 206 q-5 9 0 12 q5 -3 0 -12z\"/><path d=\"M140 214 q-6 10 0 14 q6 -4 0 -14z\"/><path d=\"M154 206 q-5 9 0 12 q5 -3 0 -12z\"/></g>"
+}

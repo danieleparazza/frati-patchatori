@@ -1,0 +1,11 @@
+{
+  "label": "PSN 2011",
+  "motto": "LUDUS INTERRUPTUS",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M112 160 Q150 150 188 160 Q208 166 206 196 Q202 220 186 210 L172 196 H128 L114 210 Q98 220 94 196 Q92 166 112 160 Z\" fill=\"#2b2b33\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M118 172 V188 M110 180 H126\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"><circle cx=\"182\" cy=\"172\" r=\"4\"/><circle cx=\"182\" cy=\"188\" r=\"4\"/><circle cx=\"174\" cy=\"180\" r=\"4\"/><circle cx=\"190\" cy=\"180\" r=\"4\"/></g>\n<text x=\"150\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\" >XXIII dies</text>"
+}

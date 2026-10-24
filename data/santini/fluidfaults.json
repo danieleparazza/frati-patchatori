@@ -1,0 +1,10 @@
+{
+  "label": "FluidFaults",
+  "motto": "FLUIT ERROR",
+  "niche": [
+    "#10303a",
+    "#22606e"
+  ],
+  "accent": "#17444f",
+  "emblem": "<path d=\"M100 150 H170 Q186 150 186 166 V178\" stroke=\"#bfc9d1\" stroke-width=\"16\" fill=\"none\"/>\n<rect x=\"176\" y=\"176\" width=\"20\" height=\"10\" fill=\"#fbf3dd\"/>\n<path d=\"M138 142 L144 158 L132 150 Z\" fill=\"#d9ad55\"/>\n<g fill=\"#7fd3e6\"><path d=\"M186 196 q-7 12 0 16 q7 -4 0 -16z\"/><path d=\"M186 222 q-6 10 0 13 q6 -3 0 -13z\"/><path d=\"M142 164 q-5 9 0 12 q5 -3 0 -12z\"/></g>\n<text x=\"128\" y=\"230\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#fbf3dd\">37</text>"
+}

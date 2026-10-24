@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ZipperDown, che apriva le cerniere delle app",
+    "patronage": "delle app iOS scaricate di fretta, dei file scaricati senza cifratura e di chi apre gli archivi senza guardare dentro.",
+    "hagiography": "Nel maggio 2018 il Pangu Lab segnalò ZipperDown, uno schema di errore ricorrente in migliaia di app per iOS. Non era un unico bug, ma un modo sbagliato di scaricare e scompattare risorse: su una rete controllata dall'attaccante, un archivio sostituito poteva far scrivere file fuori dalla cartella prevista e, da lì, dirottare il comportamento dell'app. Essendo un modello di errore e non una singola CVE, resta beato.",
+    "prayer": "O Beato ZipperDown, che apri le cerniere dove non dovresti, fa' che le nostre app scarichino in sicurezza e controllino i percorsi. Amen.",
+    "feast": "Si festeggia scaricando risorse solo via HTTPS e verificando che nessun file esca dalla propria cartella.",
+    "proverb": "Cerniera aperta sulla rete sbagliata, app spalancata."
+  },
+  "en": {
+    "title": "Blessed ZipperDown, Who Unzipped the Apps",
+    "patronage": "iOS apps downloaded in a hurry, files fetched without encryption, and people who open archives without looking inside.",
+    "hagiography": "In May 2018 Pangu Lab flagged ZipperDown, a recurring mistake pattern found in thousands of iOS apps. It wasn't a single bug but a wrong way of downloading and unpacking resources: on an attacker-controlled network, a swapped archive could write files outside the intended folder and, from there, hijack the app's behaviour. Being an error pattern rather than a single CVE, he remains blessed.",
+    "prayer": "O Blessed ZipperDown, who unzips where you should not, let our apps download safely and check their paths. Amen.",
+    "feast": "Celebrated by fetching resources over HTTPS only and verifying that no file escapes its own folder.",
+    "proverb": "Unzip on the wrong network, and the app lies wide open."
+  }
+}

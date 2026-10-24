@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Trivial Authentication, che ti faceva entrare senza chiedere",
+    "patronage": "dei client SSH, delle finestre di login ridipinte dal server e di chi digita la password prima di guardare chi la chiede.",
+    "hagiography": "Nel giugno 2021 si scoprì che PuTTY e altri client SSH proseguivano la sessione anche senza aver mai inviato una vera risposta di autenticazione. Così un server ostile poteva lasciar passare l'utente e poi mostrargli una finta richiesta di password, catturando le credenziali con tutta calma. Il nome descrive la fiducia malriposta: un'autenticazione troppo facile per essere vera.",
+    "prayer": "O San Trivial Authentication, che apri la porta prima di controllare la chiave, insegna ai nostri client a diffidare dei server troppo gentili. Amen.",
+    "feast": "Si festeggia aggiornando PuTTY e gli altri client e ricordando che la richiesta di password può arrivare da chi non dovrebbe farla.",
+    "proverb": "Porta che si apre da sola, trappola che ti consola."
+  },
+  "en": {
+    "title": "Saint Trivial Authentication, Who Let You In Without Asking",
+    "patronage": "SSH clients, login prompts repainted by the server, and people who type the password before looking at who is asking.",
+    "hagiography": "In June 2021 it emerged that PuTTY and other SSH clients carried on with a session even though they had never sent a substantive authentication response. So a hostile server could wave the user through and then show a fake password prompt, capturing the credentials at leisure. The name describes the misplaced trust: an authentication too easy to be true.",
+    "prayer": "O Saint Trivial Authentication, who opens the door before checking the key, teach our clients to distrust servers that are too kind. Amen.",
+    "feast": "Celebrated by updating PuTTY and the other clients, and remembering that a password prompt can come from one who should not be asking.",
+    "proverb": "A door that opens by itself is a trap that comforts you."
+  }
+}

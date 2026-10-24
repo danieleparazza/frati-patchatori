@@ -1,0 +1,10 @@
+{
+  "label": "Chaotic Deputy",
+  "motto": "CHAOS SINE CLAVE",
+  "niche": [
+    "#2a1830",
+    "#523062"
+  ],
+  "accent": "#3e2448",
+  "emblem": "<path d=\"M150 118 L164 152 L200 150 L172 174 L184 210 L150 190 L116 210 L128 174 L100 150 L136 152 Z\" fill=\"#8e44ad\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"168\" r=\"18\" fill=\"#1b1b2f\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"174\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2ecc71\">{ }</text>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#bfc9d1\">no auth</text>"
+}

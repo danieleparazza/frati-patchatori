@@ -1,0 +1,10 @@
+{
+  "label": "Doller-ticket",
+  "motto": "SINE DOLLARO",
+  "niche": [
+    "#1f3324",
+    "#3d6046"
+  ],
+  "accent": "#2a4a32",
+  "emblem": "<path d=\"M100 146 H200 V166 A10 10 0 0 0 200 186 V206 H100 V186 A10 10 0 0 0 100 166 Z\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M164 146 V206\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<text x=\"132\" y=\"182\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#2b1d14\">DC01</text>\n<text x=\"182\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#c0392b\">$</text>\n<path d=\"M170 168 L194 196\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"234\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">krbtgt</text>"
+}

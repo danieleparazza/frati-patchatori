@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DirtyCred, che scambiava le credenziali",
+    "patronage": "degli exploit del kernel Linux, degli oggetti credenziali e di chi riusa la memoria senza guardarci dentro.",
+    "hagiography": "Nell'agosto 2022, tra Black Hat e la conferenza CCS, Zhenpeng Lin e colleghi dell'Università Northwestern presentarono DirtyCred: invece di sovrascrivere dati critici del kernel, la tecnica sfrutta il riuso della memoria heap per scambiare un oggetto credenziale non privilegiato con uno privilegiato. Non serve sconfiggere il KASLR né far trapelare lo heap: basta un difetto che liberi al momento giusto, e il processo si ritrova root.",
+    "prayer": "O San DirtyCred, che baratti le credenziali sulla stessa fetta di memoria, fa' che il nostro allocatore non confonda mai un umile oggetto con un signore. Amen.",
+    "feast": "Si festeggia aggiornando il kernel e separando gli oggetti credenziali dagli altri, perché non finiscano nella stessa cache.",
+    "proverb": "Memoria riusata, privilegio scambiato."
+  },
+  "en": {
+    "title": "Saint DirtyCred, Who Swapped the Credentials",
+    "patronage": "Linux kernel exploits, credential objects, and everyone who reuses memory without looking inside.",
+    "hagiography": "In August 2022, across Black Hat and the CCS conference, Zhenpeng Lin and colleagues from Northwestern University presented DirtyCred: instead of overwriting critical kernel data, the technique abuses heap memory reuse to swap an unprivileged credential object for a privileged one. No need to defeat KASLR or leak the heap: a flaw that frees at the right moment is enough, and the process finds itself root.",
+    "prayer": "O Saint DirtyCred, who barters credentials on the same slice of memory, let our allocator never mistake a humble object for a lord. Amen.",
+    "feast": "Celebrated by updating the kernel and keeping credential objects apart from the rest, so they never land in the same cache.",
+    "proverb": "Reused memory, swapped privilege."
+  }
+}

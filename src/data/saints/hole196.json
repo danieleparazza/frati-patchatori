@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Hole196, il buco in fondo a pagina 196",
+    "patronage": "delle reti Wi-Fi WPA2, delle chiavi di gruppo e dei dipendenti che conoscono già la password.",
+    "hagiography": "Nel luglio 2010 Md Sohail Ahmad di AirTight Networks presentò Hole196, così chiamato perché il difetto si annidava in fondo a pagina 196 dello standard 802.11. La chiave di gruppo, condivisa da tutti i client per il traffico broadcast, poteva essere usata al contrario da un utente autorizzato per inviare pacchetti falsificati e ingannare gli altri client. Non si rompeva la cifratura: bastava essere già dentro la rete.",
+    "prayer": "O Beato Hole196, che apri una breccia tra chi già conosce la password, insegna alle nostre reti a non fidarsi dei propri ospiti. Amen.",
+    "feast": "Si festeggia isolando i client tra loro sulla rete wireless e trattando ogni utente interno come un potenziale vicino curioso.",
+    "proverb": "Chi conosce la chiave di tutti, inganna tutti."
+  },
+  "en": {
+    "title": "Blessed Hole196, the Hole at the Foot of Page 196",
+    "patronage": "WPA2 Wi-Fi networks, group keys, and employees who already know the password.",
+    "hagiography": "In July 2010 Md Sohail Ahmad of AirTight Networks presented Hole196, so named because the flaw hid at the foot of page 196 of the 802.11 standard. The group key, shared by all clients for broadcast traffic, could be used in reverse by an authorised user to send forged packets and deceive the other clients. No encryption was broken: you only had to be inside the network already.",
+    "prayer": "O Blessed Hole196, who opens a breach among those who already know the password, teach our networks not to trust their own guests. Amen.",
+    "feast": "Celebrated by isolating clients from one another on the wireless network and treating every inside user as a possible curious neighbour.",
+    "proverb": "Who knows everyone's key deceives everyone."
+  }
+}

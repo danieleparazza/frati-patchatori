@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San sqlol, che dirottava il registro di SQLite",
+    "patronage": "delle protezioni TCC di macOS, del debug di SQLite e dei permessi di privacy aggirati di soppiatto.",
+    "hagiography": "Gergely Kalman descrisse sqlol, un aggiramento della privacy TCC su macOS: la variabile d'ambiente SQLITE_SQLLOG_DIR attivava una funzione di debug di SQLite che scriveva copie dei database in una cartella a scelta, con nomi prevedibili e seguendo i link simbolici. Sfruttando un'app con pieno accesso al disco, si poteva sovrascrivere il database TCC che custodisce i permessi di privacy, ottenendo l'accesso a contatti, posizione, microfono e webcam. Apple rimosse la funzione di debug in macOS Ventura 13.4.",
+    "prayer": "O San sqlol, che dirotti i registri dove non dovrebbero finire, fa' che le nostre app non scrivano seguendo link altrui. Amen.",
+    "feast": "Si festeggia aggiornando a macOS Ventura 13.4 e ricordando che anche una funzione di debug può aprire una porta.",
+    "proverb": "Chi registra tutto, registra anche dove non deve."
+  },
+  "en": {
+    "title": "Saint sqlol, Who Hijacked SQLite's Log",
+    "patronage": "macOS TCC protections, SQLite's debug feature, and privacy permissions quietly bypassed.",
+    "hagiography": "Gergely Kalman described sqlol, a TCC privacy bypass on macOS: the SQLITE_SQLLOG_DIR environment variable enabled an SQLite debug feature that wrote database copies to a chosen folder, with predictable names and following symbolic links. Abusing an app with full disk access, one could overwrite the TCC database that holds the privacy permissions, gaining access to contacts, location, microphone and webcam. Apple removed the debug feature in macOS Ventura 13.4.",
+    "prayer": "O Saint sqlol, who redirects the logs where they should not land, let our apps not write by following others' links. Amen.",
+    "feast": "Celebrated by updating to macOS Ventura 13.4 and remembering that even a debug feature can open a door.",
+    "proverb": "Log everything, and you log where you must not."
+  }
+}

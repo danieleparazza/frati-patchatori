@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "Il miracolo della chiave universale",
+    "prodigy": "Il 22 luglio 2021, tre settimane dopo l'attacco a Kaseya VSA, l'azienda annunciò di aver ottenuto da una \"terza parte fidata\" un decifratore universale valido per tutte le vittime di REvil. Emsisoft ne confermò il funzionamento, e il recupero delle circa 1.500 aziende colpite cominciò senza pagare i 70 milioni richiesti. In seguito fu riportato che la chiave era stata ottenuta dall'FBI accedendo ai server di REvil.",
+    "thaumaturge": "Kaseya, che distribuì la chiave ai clienti, Emsisoft, che la verificò e aiutò a usarla, e, secondo quanto riportato in seguito, l'FBI che l'aveva recuperata.",
+    "thanksgiving": "Per una chiave arrivata quando nessuno se l'aspettava più, e per chi ha preferito il ripristino al riscatto, rendiamo grazie. Amen."
+  },
+  "en": {
+    "title": "The Miracle of the Universal Key",
+    "prodigy": "On 22 July 2021, three weeks after the Kaseya VSA attack, the company announced it had obtained from a \"trusted third party\" a universal decryptor that worked for all REvil victims. Emsisoft confirmed it worked, and recovery of the roughly 1,500 affected businesses began without paying the $70 million demanded. It was later reported that the FBI had obtained the key by accessing REvil's servers.",
+    "thaumaturge": "Kaseya, which distributed the key to customers, Emsisoft, which verified it and helped put it to use, and, as later reported, the FBI, which had recovered it.",
+    "thanksgiving": "For a key that arrived when no one expected it any more, and for those who chose recovery over ransom, we give thanks. Amen."
+  }
+}

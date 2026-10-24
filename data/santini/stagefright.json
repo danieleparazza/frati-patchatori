@@ -1,0 +1,10 @@
+{
+  "label": "Stagefright",
+  "motto": "TIMOR SCAENAE",
+  "niche": [
+    "#3b1a2c",
+    "#6b3554"
+  ],
+  "accent": "#521f3d",
+  "emblem": "<path d=\"M100 128 Q150 138 200 128 V140 Q150 150 100 140 Z\" fill=\"#b03a2e\"/>\n<path d=\"M100 128 V236 Q112 200 108 140 Z M200 128 V236 Q188 200 192 140 Z\" fill=\"#b03a2e\" stroke=\"#7a2a1e\"/>\n<path d=\"M124 156 Q150 150 168 158 Q172 196 146 214 Q124 200 124 156 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M134 172 q5 -4 10 0 M152 172 q5 -4 10 0\" stroke=\"#2b1d14\" stroke-width=\"2\" fill=\"none\"/>\n<path d=\"M138 198 q10 -8 18 0\" stroke=\"#2b1d14\" stroke-width=\"2\" fill=\"none\"/>\n<rect x=\"128\" y=\"222\" width=\"44\" height=\"22\" rx=\"2\" fill=\"#2b1d14\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<g fill=\"#d9ad55\"><rect x=\"131\" y=\"225\" width=\"4\" height=\"3\"/><rect x=\"131\" y=\"238\" width=\"4\" height=\"3\"/><rect x=\"165\" y=\"225\" width=\"4\" height=\"3\"/><rect x=\"165\" y=\"238\" width=\"4\" height=\"3\"/></g>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">MMS</text>"
+}

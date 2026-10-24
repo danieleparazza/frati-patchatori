@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San EPICBANANA, frutto proibito dei firewall",
+    "patronage": "dei firewall Cisco ASA, dei nomi in codice ridicoli e dei comandi sbagliati che fanno la cosa giusta.",
+    "hagiography": "Il 13 agosto 2016 il gruppo Shadow Brokers mise all'asta e in parte pubblicò gli strumenti dell'Equation Group, attribuito alla NSA. Tra questi c'era EPICBANANA: digitando comandi non validi nella console di un Cisco ASA, chi aveva già accesso via SSH o Telnet poteva alzare i propri privilegi. Cisco l'aveva corretto senza clamore nel 2011, ma il nome, degno di un frutto tropicale, lo rese immortale.",
+    "prayer": "O San EPICBANANA, che maturi nella console dei firewall, fa' che i nostri comandi sbagliati restituiscano solo un messaggio d'errore. Amen.",
+    "feast": "Si festeggia aggiornando l'ASA a una versione successiva alla 8.4(1) e offrendo una banana al sistemista di turno.",
+    "proverb": "Chi scivola sulla banana, cade dritto in enable."
+  },
+  "en": {
+    "title": "Saint EPICBANANA, Forbidden Fruit of Firewalls",
+    "patronage": "Cisco ASA firewalls, ridiculous codenames, and wrong commands that do the right thing.",
+    "hagiography": "On 13 August 2016 the Shadow Brokers group auctioned and partly published the tools of the Equation Group, attributed to the NSA. Among them was EPICBANANA: by typing invalid commands into the console of a Cisco ASA, someone who already had SSH or Telnet access could raise their privileges. Cisco had quietly fixed it in 2011, but the name, worthy of a tropical fruit, made it immortal.",
+    "prayer": "O Saint EPICBANANA, who ripens in the firewall console, let our wrong commands return nothing but an error message. Amen.",
+    "feast": "Celebrated by running an ASA release later than 8.4(1) and offering a banana to the sysadmin on call.",
+    "proverb": "Slip on the banana and land straight in enable mode."
+  }
+}

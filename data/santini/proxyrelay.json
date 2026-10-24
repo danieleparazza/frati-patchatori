@@ -1,0 +1,10 @@
+{
+  "label": "ProxyRelay",
+  "motto": "NTLM TRANSMISSUM",
+  "niche": [
+    "#14304a",
+    "#2d5a84"
+  ],
+  "accent": "#1d4468",
+  "emblem": "<circle cx=\"118\" cy=\"180\" r=\"18\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<circle cx=\"182\" cy=\"180\" r=\"18\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<rect x=\"138\" y=\"168\" width=\"24\" height=\"24\" rx=\"4\" fill=\"#d9ad55\"/>\n<path d=\"M136 180 h-18 M164 180 h18\" stroke=\"#e74c3c\" stroke-width=\"3\"/>\n<path d=\"M152 176 l8 4 l-8 4\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"2.5\"/>\n<path d=\"M140 176 l-8 4 l8 4\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"2.5\"/>\n<text x=\"118\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#bfc9d1\">user</text>\n<text x=\"182\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#bfc9d1\">srv</text>"
+}

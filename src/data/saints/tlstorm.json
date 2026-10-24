@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TLStorm, che fulminava i gruppi di continuità",
+    "patronage": "dei gruppi di continuità, dei dispositivi che si aggiornano da soli e delle librerie TLS dimenticate.",
+    "hagiography": "L'8 marzo 2022 Armis rivelò TLStorm, un gruppo di vulnerabilità negli UPS APC Smart-UPS di Schneider Electric. Alcuni difetti stavano nella libreria TLS usata per parlare con il cloud di gestione; un altro permetteva di caricare un firmware malevolo perché l'aggiornamento non era firmato come si deve. Un attaccante poteva far esplodere letteralmente il gruppo di continuità o usarlo come testa di ponte nella rete.",
+    "prayer": "O San TLStorm, che accendi tempeste là dove dovrebbe esserci quiete, fa' che i nostri firmware siano firmati e le nostre librerie TLS aggiornate. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di Schneider Electric e togliendo dalla rete pubblica i dispositivi che non devono starci.",
+    "proverb": "Chi protegge dalla corrente, badi di non prendere la scossa."
+  },
+  "en": {
+    "title": "Saint TLStorm, Who Struck the UPS",
+    "patronage": "uninterruptible power supplies, devices that update themselves, and forgotten TLS libraries.",
+    "hagiography": "On 8 March 2022 Armis revealed TLStorm, a set of vulnerabilities in Schneider Electric's APC Smart-UPS. Some flaws were in the TLS library used to talk to the management cloud; another allowed malicious firmware to be loaded because the update was not properly signed. An attacker could literally make the power supply explode, or use it as a foothold in the network.",
+    "prayer": "O Saint TLStorm, who stirs storms where there should be calm, let our firmware be signed and our TLS libraries updated. Amen.",
+    "feast": "Celebrated by installing Schneider Electric's updates and taking off the public network the devices that don't belong there.",
+    "proverb": "Guard against the current, but mind you don't get the shock."
+  }
+}

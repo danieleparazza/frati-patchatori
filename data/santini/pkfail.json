@@ -1,0 +1,10 @@
+{
+  "label": "PKfail",
+  "motto": "CLAVIS PROBATIONIS",
+  "niche": [
+    "#2a2010",
+    "#564220"
+  ],
+  "accent": "#403018",
+  "emblem": "<circle cx=\"130\" cy=\"160\" r=\"16\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"6\"/>\n<path d=\"M142 172 L178 208 L170 216 L162 208 L156 214 L148 206 Z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<rect x=\"108\" y=\"196\" width=\"60\" height=\"34\" rx=\"3\" fill=\"#2b1d14\" stroke=\"#c0392b\" stroke-width=\"2\"/>\n<text x=\"138\" y=\"218\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#c0392b\">DO NOT</text>\n<path d=\"M118 136 l24 48\" stroke=\"#c0392b\" stroke-width=\"3\"/>"
+}

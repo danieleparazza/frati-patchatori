@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Blaster, il riavviatore",
+    "chronicle": "L'11 agosto 2003 Blaster cominciò a sfruttare il buffer overflow nel DCOM RPC di Windows che il bollettino MS03-026 aveva corretto un mese prima. Le macchine infettate mostravano un conto alla rovescia e si riavviavano senza fine, mentre il worm si preparava a inondare di pacchetti SYN windowsupdate.com, proprio il sito da cui arrivava la cura. Nel codice c'era un messaggio per Bill Gates che lo invitava a smettere di fare soldi e a sistemare il software. Il picco delle infezioni arrivò il 13 agosto.",
+    "lesson": "Contribuì a spingere Microsoft verso il firewall attivo per impostazione predefinita di Windows XP SP2 e verso aggiornamenti automatici più insistenti.",
+    "prayer": "O Blaster, che ci concedevi sessanta secondi per salvare il lavoro, insegnaci a tenere acceso il firewall e a non rimandare l'aggiornamento a domani. Amen.",
+    "remembrance": "Si ricorda con il firewall attivo, la porta 135 chiusa verso l'esterno e gli aggiornamenti automatici lasciati liberi di fare il loro lavoro."
+  },
+  "en": {
+    "title": "The Scourge of Blaster, the Rebooter",
+    "chronicle": "On 11 August 2003 Blaster began exploiting the Windows DCOM RPC buffer overflow that bulletin MS03-026 had fixed a month earlier. Infected machines showed a countdown and rebooted endlessly, while the worm got ready to SYN-flood windowsupdate.com, the very site the cure came from. Its code carried a message telling Bill Gates to stop making money and fix his software. Infections peaked on 13 August.",
+    "lesson": "It helped push Microsoft towards the on-by-default firewall of Windows XP SP2 and towards more insistent automatic updates.",
+    "prayer": "O Blaster, who granted us sixty seconds to save our work, teach us to keep the firewall on and never to put off the update until tomorrow. Amen.",
+    "remembrance": "Remembered with the firewall on, port 135 closed to the outside and automatic updates left free to do their job."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Oh Snap! More Lemmings, che montava la propria via a root",
+    "patronage": "degli snap di Ubuntu, dei namespace di mount privati e di chi dà fiducia a ogni pacchetto confinato.",
+    "hagiography": "Il 23 dicembre 2022 Vulnerability Garden festeggia la falla che Qualys aveva divulgato a febbraio: una corsa nel binario snap-confine, che prepara il namespace di mount privato per ogni snap. Un attaccante locale poteva montare contenuti propri dentro quel namespace e far eseguire a snap-confine codice arbitrario, ottenendo i privilegi di root su installazioni Ubuntu di serie. Corretta in snapd 2.54.3.",
+    "prayer": "O San Oh Snap! More Lemmings, che infili il tuo mount dove il sistema si fida, fa' che i nostri confini reggano anche di corsa. Amen.",
+    "feast": "Si festeggia aggiornando snapd alla 2.54.3 e ricordando che anche la sabbiera ha le pareti sottili.",
+    "proverb": "Chi si butta come un lemming, atterra come root."
+  },
+  "en": {
+    "title": "Saint Oh Snap! More Lemmings, Who Mounted His Own Way to Root",
+    "patronage": "Ubuntu snaps, private mount namespaces, and anyone who trusts every confined package.",
+    "hagiography": "On 23 December 2022 Vulnerability Garden marks the flaw Qualys had disclosed in February: a race in the snap-confine binary, which prepares the private mount namespace for each snap. A local attacker could bind-mount their own contents inside that namespace and make snap-confine run arbitrary code, gaining root privileges on default Ubuntu installations. Fixed in snapd 2.54.3.",
+    "prayer": "O Saint Oh Snap! More Lemmings, who slips your mount where the system trusts, let our boundaries hold even under a race. Amen.",
+    "feast": "Celebrated by updating snapd to 2.54.3 and remembering that even a sandbox has thin walls.",
+    "proverb": "Jump like a lemming, land like root."
+  }
+}

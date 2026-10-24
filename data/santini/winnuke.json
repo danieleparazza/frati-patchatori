@@ -1,0 +1,10 @@
+{
+  "label": "WinNuke",
+  "motto": "EXTRA FASCIAM",
+  "niche": [
+    "#14224d",
+    "#2e4a8a"
+  ],
+  "accent": "#1d3170",
+  "emblem": "<rect x=\"100\" y=\"132\" width=\"100\" height=\"74\" rx=\"4\" fill=\"#0000aa\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<g fill=\"#fbf3dd\" font-family=\"'EB Garamond', Georgia, serif\" text-anchor=\"middle\"><text x=\"150\" y=\"156\" font-size=\"12\">FATAL EXCEPTION</text><text x=\"150\" y=\"176\" font-size=\"12\">0E at 0028:C000</text><text x=\"150\" y=\"196\" font-size=\"10\">press any key</text></g>\n<path d=\"M136 206 L130 224 H170 L164 206 Z\" fill=\"#bfc9d1\"/>\n<rect x=\"116\" y=\"224\" width=\"68\" height=\"6\" rx=\"2\" fill=\"#bfc9d1\"/>\n<text x=\"150\" y=\"248\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">:139</text>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Follina 2, che apriva documenti ed eseguiva il resto",
+    "patronage": "di chi apre gli allegati, dei documenti Office e delle famiglie di bug che fanno il bis.",
+    "hagiography": "Nel luglio 2023 BlackBerry e altri documentarono CVE-2023-36884, sfruttata dal gruppo Storm-0978: un documento Office appositamente costruito, una volta aperto, portava all'esecuzione di codice sul sistema. Erede spirituale della Follina del 2022, confermava che il modo più semplice per entrare resta convincere qualcuno ad aprire un file. Microsoft fornì prima una mitigazione, poi la correzione, e la falla finì tra quelle sfruttate di CISA.",
+    "prayer": "O San Follina 2, che entri da un documento aperto con fiducia, insegna ai nostri Office a non eseguire ciò che solo dovevano mostrare. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di Office, applicando le mitigazioni suggerite e pensandoci due volte prima di aprire l'allegato.",
+    "proverb": "Allegato aperto, sistema offerto."
+  },
+  "en": {
+    "title": "Saint Follina 2, Who Opened Documents and Ran the Rest",
+    "patronage": "those who open attachments, Office documents, and bug families that do an encore.",
+    "hagiography": "In July 2023 BlackBerry and others documented CVE-2023-36884, exploited by the Storm-0978 group: a specially crafted Office document, once opened, led to code execution on the system. A spiritual heir to 2022's Follina, it confirmed that the simplest way in is still to convince someone to open a file. Microsoft gave a mitigation first, then the fix, and the flaw joined CISA's exploited list.",
+    "prayer": "O Saint Follina 2, who enters through a document opened in good faith, teach our Office apps not to run what they were only meant to show. Amen.",
+    "feast": "Celebrated by installing the Office updates, applying the suggested mitigations, and thinking twice before opening the attachment.",
+    "proverb": "Attachment opened, system offered."
+  }
+}

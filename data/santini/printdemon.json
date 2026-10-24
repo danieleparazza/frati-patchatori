@@ -1,0 +1,10 @@
+{
+  "label": "PrintDemon",
+  "motto": "IMPRIMO ERGO SUM",
+  "niche": [
+    "#3a1414",
+    "#6b2828"
+  ],
+  "accent": "#5a1e1e",
+  "emblem": "<path d=\"M120 140 L114 124 L130 136 M180 140 L186 124 L170 136\" fill=\"#c0392b\"/>\n<rect x=\"118\" y=\"134\" width=\"64\" height=\"26\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"100\" y=\"158\" width=\"100\" height=\"44\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"186\" cy=\"170\" r=\"4\" fill=\"#c0392b\"/>\n<rect x=\"116\" y=\"194\" width=\"68\" height=\"44\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">C:\\Windows\\</text>\n<text x=\"150\" y=\"230\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">System32\\…</text>"
+}

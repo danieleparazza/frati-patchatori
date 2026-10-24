@@ -1,0 +1,10 @@
+{
+  "label": "BLEEDINGBIT",
+  "motto": "SANGUIS EX DENTE CAERULEO",
+  "niche": [
+    "#14234a",
+    "#2c4580"
+  ],
+  "accent": "#1d3366",
+  "emblem": "<path d=\"M134 152 L170 186 L150 206 V130 L170 150 L134 184\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n<path d=\"M150 214 C140 230 140 240 150 244 C160 240 160 230 150 214 Z\" fill=\"#c0392b\"/>\n<path d=\"M176 206 C170 216 170 222 176 224 C182 222 182 216 176 206 Z\" fill=\"#c0392b\"/>\n<text x=\"112\" y=\"136\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#d9ad55\">1</text>"
+}

@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "Il miracolo del dominio di MalwareTech",
+    "prodigy": "Nel pomeriggio del 12 maggio 2017, mentre WannaCry dilagava, il ricercatore ventiduenne Marcus Hutchins, noto come MalwareTech, notò che il worm interrogava un dominio non registrato e lo registrò per circa 10,69 dollari, pensando di monitorare l'infezione. Senza saperlo attivò l'interruttore d'emergenza incorporato nel worm: le nuove copie, trovando il dominio attivo, smettevano di diffondersi. Nei giorni seguenti lui e i colleghi tennero in piedi il sinkhole sotto gli attacchi DDoS delle botnet.",
+    "thaumaturge": "Marcus Hutchins (MalwareTech), con Darien Huss di Proofpoint, che individuò e confermò in parallelo il funzionamento dell'interruttore, e i ricercatori che difesero il sinkhole nei giorni successivi.",
+    "thanksgiving": "Per dieci dollari spesi bene, per la curiosità di chi registra un dominio strano e per chi ha tenuto acceso il sinkhole, rendiamo grazie. Amen."
+  },
+  "en": {
+    "title": "The Miracle of MalwareTech's Domain",
+    "prodigy": "On the afternoon of 12 May 2017, as WannaCry raged, 22-year-old researcher Marcus Hutchins, known as MalwareTech, noticed that the worm queried an unregistered domain and registered it for about $10.69, intending to track the infection. Without knowing it, he triggered the worm's built-in kill switch: new copies, finding the domain live, stopped spreading. Over the following days he and colleagues kept the sinkhole online under botnet DDoS attacks.",
+    "thaumaturge": "Marcus Hutchins (MalwareTech), with Proofpoint's Darien Huss, who independently spotted and confirmed the kill switch, and the researchers who defended the sinkhole in the days that followed.",
+    "thanksgiving": "For ten dollars well spent, for the curiosity of someone who registers a strange domain, and for those who kept the sinkhole running, we give thanks. Amen."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San UEFIcanhazbufferoverflow, il gattino nel firmware",
+    "patronage": "del firmware UEFI, della configurazione TPM e dei computer che si fidano di sé stessi fin dall'accensione.",
+    "hagiography": "Nel giugno 2024 Eclypsium rivelò un buffer overflow nel SecureCore di Phoenix (CVE-2024-0762), nel codice che gestisce una variabile di configurazione del TPM. Presente in moltissimi portatili con processori Intel, veniva raggiunto prestissimo nell'avvio, prima che il sistema operativo esistesse, permettendo codice annidato nel firmware difficile da rilevare e rimuovere. Il nome, con tanto di gattino, non si prende troppo sul serio; il problema sì.",
+    "prayer": "O San UEFIcanhazbufferoverflow, che ti insedi prima che il sistema si svegli, fa' che i nostri firmware controllino le dimensioni delle proprie variabili. Amen.",
+    "feast": "Si festeggia aggiornando il firmware UEFI dal produttore del portatile e adottando, idealmente, un gattino vero.",
+    "proverb": "Chi parte male all'accensione, resta ospite tutta la sessione."
+  },
+  "en": {
+    "title": "Saint UEFIcanhazbufferoverflow, the Kitten in the Firmware",
+    "patronage": "UEFI firmware, TPM configuration, and computers that trust themselves from the moment they switch on.",
+    "hagiography": "In June 2024 Eclypsium revealed a buffer overflow in Phoenix SecureCore (CVE-2024-0762), in the code handling a TPM configuration variable. Present in a great many laptops with Intel processors, it was reached very early in boot, before the operating system existed, allowing firmware-resident code that is hard to detect and remove. The name, kitten and all, does not take itself too seriously; the problem does.",
+    "prayer": "O Saint UEFIcanhazbufferoverflow, who settles in before the system wakes, let our firmware check the size of its own variables. Amen.",
+    "feast": "Celebrated by updating the UEFI firmware from the laptop vendor and, ideally, adopting a real kitten.",
+    "proverb": "A bad start at power-on stays a guest the whole session long."
+  }
+}

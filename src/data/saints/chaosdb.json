@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ChaosDB, che aprì i database altrui",
+    "patronage": "dei database Cosmos DB, delle chiavi primarie recuperate da lontano e dei notebook lasciati accesi.",
+    "hagiography": "Il 26 agosto 2021 i ricercatori di Wiz rivelarono ChaosDB, una falla in Cosmos DB, il database gestito di Azure. Attraverso la funzione Jupyter Notebook, attiva di default, si potevano recuperare le chiavi primarie di accesso di altri clienti, e con quelle leggere e scrivere i loro dati. Microsoft disattivò la funzione e avvisò migliaia di clienti di rigenerare le chiavi.",
+    "prayer": "O Beato ChaosDB, che dal notebook raggiungi il database del vicino, fa' che le nostre chiavi primarie non escano mai dal recinto del tenant. Amen.",
+    "feast": "Si festeggia rigenerando le chiavi di Cosmos DB e disattivando le funzioni che nessuno ricordava di aver abilitato.",
+    "proverb": "Chiave primaria smarrita, database di tutti."
+  },
+  "en": {
+    "title": "Blessed ChaosDB, Who Opened Other People's Databases",
+    "patronage": "Cosmos DB databases, primary keys fetched from afar, and notebooks left running.",
+    "hagiography": "On 26 August 2021 researchers at Wiz revealed ChaosDB, a flaw in Cosmos DB, Azure's managed database. Through the Jupyter Notebook feature, enabled by default, one could retrieve the primary access keys of other customers, and with them read and write their data. Microsoft disabled the feature and warned thousands of customers to regenerate their keys.",
+    "prayer": "O Blessed ChaosDB, who reaches the neighbour's database from a notebook, let our primary keys never leave the tenant's fence. Amen.",
+    "feast": "Celebrated by regenerating Cosmos DB keys and disabling the features nobody remembered enabling.",
+    "proverb": "A lost primary key, everyone's database."
+  }
+}

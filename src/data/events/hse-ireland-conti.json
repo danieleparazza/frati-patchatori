@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello del servizio sanitario irlandese",
+    "chronicle": "Poco dopo la mezzanotte del 14 maggio 2021 il ransomware Conti cifrò gran parte dei sistemi informatici dell'Health Service Executive, il servizio sanitario nazionale irlandese. In piena pandemia di COVID-19 furono cancellati appuntamenti e gli ospedali tornarono alla carta. Gli attaccanti erano entrati otto settimane prima, attraverso un file Excel allegato a un'email di phishing, senza che gli allarmi fossero colti. L'Irlanda rifiutò di pagare; Conti consegnò poi un decifratore, ma il ripristino completo richiese mesi.",
+    "lesson": "La revisione indipendente commissionata dall'HSE, pubblicata con rara franchezza, descrisse un sistema fragile e sottofinanziato e diventò un riferimento per la sicurezza della sanità pubblica.",
+    "prayer": "Per i pazienti che hanno atteso cure e risposte, e per il personale sanitario che ha lavorato con carta e penna in mezzo a una pandemia, chiediamo forza e riconoscenza. Fa' che chi custodisce la salute di tutti abbia anche i mezzi per proteggerla. Amen.",
+    "remembrance": "Si ricorda investendo nella sicurezza della sanità pubblica, monitorando gli allarmi dei sistemi antivirus con persone che possano reagire e preparando gli ospedali a lavorare senza computer."
+  },
+  "en": {
+    "title": "The Scourge of Ireland's Health Service",
+    "chronicle": "Just after midnight on 14 May 2021 Conti ransomware encrypted most of the IT systems of the Health Service Executive, Ireland's national health service. In the middle of the COVID-19 pandemic appointments were cancelled and hospitals went back to paper. The attackers had got in eight weeks earlier through an Excel file attached to a phishing email, and warning signs went unheeded. Ireland refused to pay; Conti later handed over a decryptor, but full recovery took months.",
+    "lesson": "The independent review commissioned by the HSE, published with rare candour, described a fragile, underfunded system and became a reference for public-health cybersecurity.",
+    "prayer": "For the patients who waited for care and answers, and for the health workers who carried on with pen and paper in the middle of a pandemic, we ask strength and gratitude. Let those who safeguard everyone's health also have the means to protect it. Amen.",
+    "remembrance": "Remembered by investing in public-health security, having people ready to act on antivirus alerts and preparing hospitals to work without computers."
+  }
+}

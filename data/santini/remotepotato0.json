@@ -1,0 +1,10 @@
+{
+  "label": "RemotePotato0",
+  "motto": "ULTIMA SOLANI",
+  "niche": [
+    "#2e2614",
+    "#5a4a26"
+  ],
+  "accent": "#453a1e",
+  "emblem": "<path d=\"M118 160 C110 184 124 212 150 216 C180 220 196 196 190 170 C186 150 164 142 150 148 C138 140 122 144 118 160 Z\" fill=\"#c69a5a\" stroke=\"#8c6a22\" stroke-width=\"2\"/>\n<g fill=\"#6b4f1d\"><circle cx=\"138\" cy=\"172\" r=\"3\"/><circle cx=\"164\" cy=\"166\" r=\"3\"/><circle cx=\"156\" cy=\"196\" r=\"3\"/><circle cx=\"130\" cy=\"192\" r=\"3\"/></g>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#d9ad55\">0</text>\n<path d=\"M120 142 l-10 -12 M150 138 v-14 M180 144 l10 -12\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>"
+}

@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello dell'Aurora",
+    "chronicle": "Il 12 gennaio 2010 Google annunciò sul suo blog di aver subito un attacco mirato e molto sofisticato proveniente dalla Cina, che aveva rubato proprietà intellettuale e preso di mira gli account Gmail di attivisti per i diritti umani. Almeno una ventina di altre aziende erano state colpite allo stesso modo. Gli attaccanti erano entrati sfruttando una vulnerabilità zero-day di Internet Explorer.",
+    "lesson": "Fece conoscere al grande pubblico le minacce persistenti avanzate e spinse Google a ripensare la propria rete senza un perimetro fidato, nel modello poi chiamato BeyondCorp.",
+    "prayer": "O Aurora, sorta da un browser non aggiornato, illumina i nostri amministratori e proteggi chi difende i diritti degli altri. Amen.",
+    "remembrance": "Si ricorda isolando la navigazione, abbandonando i browser obsoleti e non considerando fidata una macchina solo perché sta dentro la rete aziendale."
+  },
+  "en": {
+    "title": "The Scourge of Aurora",
+    "chronicle": "On 12 January 2010 Google announced on its blog that it had suffered a highly sophisticated, targeted attack from China that stole intellectual property and targeted the Gmail accounts of human-rights activists. At least twenty other companies had been hit in the same way. The attackers got in through a zero-day in Internet Explorer.",
+    "lesson": "It brought advanced persistent threats to public attention and pushed Google to redesign its network without a trusted perimeter, in the model later called BeyondCorp.",
+    "prayer": "O Aurora, risen from an unpatched browser, enlighten our administrators and protect those who defend the rights of others. Amen.",
+    "remembrance": "Remembered by isolating web browsing, retiring outdated browsers and never trusting a machine just because it sits inside the corporate network."
+  }
+}

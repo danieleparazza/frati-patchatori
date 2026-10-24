@@ -1,0 +1,10 @@
+{
+  "label": "Better Zip Bomb",
+  "motto": "GUTTA FIT OCEANUS",
+  "niche": [
+    "#2a1810",
+    "#5a2e18"
+  ],
+  "accent": "#44220f",
+  "emblem": "<circle cx=\"150\" cy=\"182\" r=\"20\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"146\" y=\"150\" width=\"8\" height=\"16\" rx=\"3\" fill=\"#2b1d14\"/>\n<path d=\"M150 150 q8 -10 16 -4\" stroke=\"#d9ad55\" stroke-width=\"2.5\" fill=\"none\"/>\n<circle cx=\"168\" cy=\"144\" r=\"3\" fill=\"#e67e22\"/>\n<g stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M150 162 V130 M126 170 L104 150 M174 170 L196 150 M120 182 H96 M180 182 H204 M126 194 L104 214 M174 194 L196 214 M150 202 V232\"/></g>\n<text x=\"150\" y=\"258\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">PB</text>"
+}

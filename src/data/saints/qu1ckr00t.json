@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Qu1ckR00t, che dava root in fretta",
+    "patronage": "dei telefoni Android, del driver binder e degli zero-day già sfruttati prima dell'allarme.",
+    "hagiography": "Il 26 settembre 2019 il Project Zero di Google segnalò un use-after-free nel driver binder del kernel Linux, cuore della comunicazione tra i processi di Android. La falla, già sfruttata in attacchi reali e associata a fornitori di spyware, permetteva a un'app malevola di salire fino ai privilegi del kernel. Nacquero presto exploit soprannominati Qu1ckR00t, perché portavano a root senza troppe cerimonie.",
+    "prayer": "O San Qu1ckR00t, che arrivi a root per la via più breve, fa' che i nostri driver liberino la memoria una volta sola e per davvero. Amen.",
+    "feast": "Si festeggia installando la patch di sicurezza Android di ottobre 2019, o quella più recente che il telefono accetti.",
+    "proverb": "Memoria liberata due volte, root servito in fretta."
+  },
+  "en": {
+    "title": "Saint Qu1ckR00t, Who Gave Root in a Hurry",
+    "patronage": "Android phones, the binder driver, and zero-days exploited before the alarm was raised.",
+    "hagiography": "On 26 September 2019 Google's Project Zero reported a use-after-free in the Linux kernel's binder driver, the heart of communication between Android processes. The flaw, already used in real attacks and linked to spyware vendors, let a malicious app climb up to kernel privileges. Exploits soon appeared, nicknamed Qu1ckR00t, because they reached root without much ceremony.",
+    "prayer": "O Saint Qu1ckR00t, who reach root by the shortest road, let our drivers free memory once and for real. Amen.",
+    "feast": "Celebrated by installing the October 2019 Android security patch, or the most recent one the phone will accept.",
+    "proverb": "Memory freed twice, root served in haste."
+  }
+}

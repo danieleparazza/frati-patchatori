@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San MikroTrick, che entrò senza la chiave giusta",
+    "patronage": "dei router MikroTik, delle chiavi SSH controllate a metà e degli apparati esposti su Internet.",
+    "hagiography": "Il 5 settembre 2026 il CERT Polska descrisse MikroTrick, una catena di falle in RouterOS già sfruttata in rete. La più insidiosa: nel confrontare una chiave pubblica SSH, RouterOS guardava tipo ed esponente del modulo ma dimenticava l'esponente completo, così chi conosceva il modulo di una chiave autorizzata poteva fabbricarne una e autenticarsi. Un'altra falla, da un nome storpiato, regalava direttamente i privilegi di amministratore.",
+    "prayer": "O San MikroTrick, che entri con una chiave che non è la tua, fa' che i nostri router confrontino la chiave fino all'ultimo bit. Amen.",
+    "feast": "Si festeggia aggiornando RouterOS alla 7.24.3, 7.23.6 o 6.49.21 e limitando SSH alle reti di gestione.",
+    "proverb": "Chiave controllata a metà, porta aperta per intero."
+  },
+  "en": {
+    "title": "Saint MikroTrick, Who Entered Without the Right Key",
+    "patronage": "MikroTik routers, half-checked SSH keys, and devices exposed on the Internet.",
+    "hagiography": "On 5 September 2026 CERT Polska described MikroTrick, a chain of RouterOS flaws already exploited in the wild. The sneakiest: when comparing an SSH public key, RouterOS checked the type and the modulus but forgot the exponent, so anyone who knew an authorized key's modulus could forge one and authenticate. Another flaw, triggered by a mangled username, handed over administrator privileges outright.",
+    "prayer": "O Saint MikroTrick, who enters with a key that is not yours, let our routers compare the key down to the last bit. Amen.",
+    "feast": "Celebrated by upgrading RouterOS to 7.24.3, 7.23.6 or 6.49.21 and restricting SSH to management networks.",
+    "proverb": "A key checked by halves, a door opened in full."
+  }
+}

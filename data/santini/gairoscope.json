@@ -1,0 +1,10 @@
+{
+  "label": "GAIROSCOPE",
+  "motto": "SONUS INAUDITUS",
+  "niche": [
+    "#1a2b33",
+    "#38565f"
+  ],
+  "accent": "#223c44",
+  "emblem": "<circle cx=\"150\" cy=\"182\" r=\"48\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<ellipse cx=\"150\" cy=\"182\" rx=\"48\" ry=\"18\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<ellipse cx=\"150\" cy=\"182\" rx=\"18\" ry=\"48\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"182\" r=\"7\" fill=\"#f4d03f\"/>\n<g stroke=\"#5dade2\" stroke-width=\"2\" fill=\"none\"><path d=\"M196 150 q10 6 0 14\"/><path d=\"M204 144 q16 10 0 26\"/></g>\n<g stroke=\"#5dade2\" stroke-width=\"2\" fill=\"none\"><path d=\"M104 150 q-10 6 0 14\"/><path d=\"M96 144 q-16 10 0 26\"/></g>"
+}

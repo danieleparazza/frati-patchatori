@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DiagSpill, che traboccò contando i peer",
+    "patronage": "del protocollo SCTP, dei contatori a 16 bit e delle risposte diagnostiche che scrivono troppo.",
+    "hagiography": "Il 18 settembre 2026 Asim Viladi Oglu Manizada descrisse DiagSpill, una falla nel kernel Linux. Un'associazione SCTP può avere fino a 65.536 peer, ma il contatore era a 16 bit: il 65.536° li azzerava tutti, e l'interfaccia diagnostica sctp_diag, non prevedendo più spazio, continuava a copiare l'intera lista, scrivendo circa 8 MiB oltre il buffer. Senza bisogno di permessi speciali, si arrivava a una shell di root.",
+    "prayer": "O San DiagSpill, che trabocchi al giro esatto del contatore, fa' che le nostre risposte diagnostiche riservino sempre lo spazio che scrivono. Amen.",
+    "feast": "Si festeggia aggiornando il kernel alle versioni corrette, che rifiutano il peer di troppo invece di azzerare il conto.",
+    "proverb": "Contatore che gira, buffer che straripa."
+  },
+  "en": {
+    "title": "Saint DiagSpill, Who Overflowed Counting the Peers",
+    "patronage": "the SCTP protocol, 16-bit counters, and diagnostic responses that write too much.",
+    "hagiography": "On 18 September 2026 Asim Viladi Oglu Manizada described DiagSpill, a flaw in the Linux kernel. An SCTP association can have up to 65,536 peers, but the counter was 16 bits wide: the 65,536th wrapped it to zero, and the sctp_diag diagnostic interface, no longer reserving room, kept copying the full list, writing about 8 MiB past the buffer. With no special privileges needed, it led to a root shell.",
+    "prayer": "O Saint DiagSpill, who overflow at the exact turn of the counter, let our diagnostic responses always reserve the space they write. Amen.",
+    "feast": "Celebrated by updating the kernel to the fixed releases, which reject the one peer too many instead of zeroing the count.",
+    "proverb": "A counter that wraps, a buffer that spills."
+  }
+}

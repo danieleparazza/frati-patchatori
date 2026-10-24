@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Shellshock, che eseguiva ciò che era solo un saluto",
+    "patronage": "dei server CGI, delle variabili d'ambiente e di tutto ciò che, dentro, ha una Bash dimenticata.",
+    "hagiography": "Il 24 settembre 2014 Stéphane Chazelas rivelò Shellshock, un difetto nella shell Bash presente da oltre vent'anni. Bash eseguiva il codice nascosto dopo una definizione di funzione passata in una variabile d'ambiente: così una richiesta web, un client DHCP o un server CGI potevano far eseguire comandi a un attaccante, senza alcuna autenticazione. Era ovunque, e per giorni le patch si rincorsero per chiudere tutte le varianti.",
+    "prayer": "O San Shellshock, che trasformi un saluto in un comando, fa' che le nostre variabili d'ambiente restino testo e non diventino codice. Amen.",
+    "feast": "Si festeggia aggiornando Bash a una versione corretta e cercando ogni CGI dimenticato che la invochi.",
+    "proverb": "Variabile d'ambiente, comando sorprendente."
+  },
+  "en": {
+    "title": "Saint Shellshock, Who Ran What Was Only a Greeting",
+    "patronage": "CGI servers, environment variables, and everything that has a forgotten Bash inside.",
+    "hagiography": "On 24 September 2014 Stéphane Chazelas revealed Shellshock, a flaw in the Bash shell that had been present for over twenty years. Bash executed the code hidden after a function definition passed in an environment variable: so a web request, a DHCP client or a CGI server could make an attacker's commands run, with no authentication at all. It was everywhere, and for days patch after patch chased down every variant.",
+    "prayer": "O Saint Shellshock, who turn a greeting into a command, let our environment variables stay text and never become code. Amen.",
+    "feast": "Celebrated by updating Bash to a fixed version and hunting down every forgotten CGI that invokes it.",
+    "proverb": "An environment variable, a surprising command."
+  }
+}

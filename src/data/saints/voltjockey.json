@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San VoltJockey, che cavalcava la tensione",
+    "patronage": "delle CPU con regolazione di tensione, degli ambienti sicuri TrustZone e di chi gioca con i millivolt.",
+    "hagiography": "Nel 2019 i ricercatori dietro VoltJockey mostrarono che abbassare di poco la tensione del processore, tramite l'interfaccia software che ne regola frequenza e voltaggio, poteva far sbagliare i calcoli al momento giusto. Con questi errori controllati si estraevano chiavi crittografiche e si violava l'integrità degli ambienti sicuri come TrustZone e, in varianti parallele, SGX. Intel e gli altri corressero limitando l'accesso alla regolazione della tensione (CVE-2019-11157).",
+    "prayer": "O San VoltJockey, che pieghi la tensione fino all'errore, fa' che i nostri processori calcolino sempre a voltaggio onesto. Amen.",
+    "feast": "Si festeggia aggiornando BIOS e microcodice per bloccare la regolazione della tensione dal software.",
+    "proverb": "Chi abbassa la tensione raccoglie errori."
+  },
+  "en": {
+    "title": "Saint VoltJockey, Who Rode the Voltage",
+    "patronage": "CPUs with voltage scaling, TrustZone secure worlds, and those who play with millivolts.",
+    "hagiography": "In 2019 the researchers behind VoltJockey showed that lowering the processor's voltage a little, through the software interface that tunes its frequency and voltage, could make it miscalculate at just the right moment. With these controlled faults they extracted cryptographic keys and broke the integrity of secure worlds like TrustZone and, in parallel variants, SGX. Intel and others fixed it by restricting access to voltage control (CVE-2019-11157).",
+    "prayer": "O Saint VoltJockey, who bends the voltage to the point of error, let our processors always compute at honest voltage. Amen.",
+    "feast": "Celebrated by updating BIOS and microcode to lock voltage control away from software.",
+    "proverb": "Lower the voltage and you harvest errors."
+  }
+}

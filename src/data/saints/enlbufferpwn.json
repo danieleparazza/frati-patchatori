@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ENLBufferPwn, che rovinava la partita online",
+    "patronage": "dei giocatori online, delle console Nintendo e dei buffer di rete che non controllano la taglia.",
+    "hagiography": "Il 22 dicembre 2022 i ricercatori PabloMK7, Rambo6Glaz e Fishguy6564 pubblicarono, con il permesso di Nintendo, ENLBufferPwn: un overflow nella classe NetworkBuffer usata in molti titoli, da Animal Crossing: New Horizons a Mario Kart 8 Deluxe e Splatoon. A chi condivideva una sessione online con la vittima bastava inviare un pacchetto UDP troppo grande per eseguire codice sulla sua console. Nintendo aggiornò i giochi colpiti.",
+    "prayer": "O San ENLBufferPwn, che trasformi una partita in un'esecuzione di codice, fa' che i nostri buffer misurino prima di accogliere. Amen.",
+    "feast": "Si festeggia aggiornando i giochi Nintendo all'ultima versione prima di accettare l'invito di uno sconosciuto.",
+    "proverb": "Pacchetto troppo grande, partita troppo breve."
+  },
+  "en": {
+    "title": "Saint ENLBufferPwn, Who Ruined the Online Match",
+    "patronage": "online players, Nintendo consoles, and network buffers that don't check their size.",
+    "hagiography": "On 22 December 2022 the researchers PabloMK7, Rambo6Glaz and Fishguy6564 published, with Nintendo's permission, ENLBufferPwn: an overflow in the NetworkBuffer class used in many titles, from Animal Crossing: New Horizons to Mario Kart 8 Deluxe and Splatoon. Anyone sharing an online session with the victim had only to send an oversized UDP packet to run code on their console. Nintendo updated the affected games.",
+    "prayer": "O Saint ENLBufferPwn, who turns a match into code execution, let our buffers measure before they take things in. Amen.",
+    "feast": "Celebrated by updating Nintendo games to the latest version before accepting a stranger's invitation.",
+    "proverb": "An oversized packet makes for a short match."
+  }
+}

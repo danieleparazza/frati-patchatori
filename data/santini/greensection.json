@@ -1,0 +1,10 @@
+{
+  "label": "GreenSection",
+  "motto": "SECTIO COMMUNIS",
+  "niche": [
+    "#1c3321",
+    "#386642"
+  ],
+  "accent": "#244a30",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"56\" rx=\"4\" fill=\"#2e7d4f\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g stroke=\"#a9dfbf\" stroke-width=\"1.5\"><line x1=\"131\" y1=\"150\" x2=\"131\" y2=\"206\"/><line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"206\"/><line x1=\"169\" y1=\"150\" x2=\"169\" y2=\"206\"/></g>\n<g fill=\"#fbf3dd\"><circle cx=\"121\" cy=\"164\" r=\"3\"/><circle cx=\"140\" cy=\"178\" r=\"3\"/><circle cx=\"159\" cy=\"192\" r=\"3\"/><circle cx=\"178\" cy=\"164\" r=\"3\"/></g>\n<path d=\"M186 196 l14 14 M200 196 l-14 14\" stroke=\"#c0392b\" stroke-width=\"4\"/>\n<text x=\"150\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#fbf3dd\">RW shared</text>"
+}

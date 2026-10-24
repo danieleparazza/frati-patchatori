@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il venerdì delle schermate blu",
+    "chronicle": "Il 19 luglio 2024, alle 4:09 UTC, CrowdStrike distribuì un aggiornamento di contenuto difettoso per il suo sensore Falcon, il Channel File 291. Circa 8,5 milioni di computer Windows andarono in crash e rimasero bloccati in un ciclo di riavvii con la schermata blu. Compagnie aeree, banche, emittenti, ospedali e alcune centrali del 911 subirono disservizi in tutto il mondo, e molte macchine dovettero essere riparate a mano, una per una. Non ci fu alcun attacco: la causa fu un errore logico che lo strumento di validazione dei contenuti non aveva rilevato.",
+    "lesson": "È spesso indicato come il più grande disservizio informatico della storia. Ha insegnato che anche gli aggiornamenti di sicurezza vanno distribuiti per gradi, e ha riaperto la discussione sul codice che gira nel cuore del sistema operativo.",
+    "prayer": "Per chi quel giorno è rimasto bloccato negli aeroporti, ha atteso cure o soccorsi, e per i tecnici che hanno riavviato a mano milioni di macchine, chiediamo pazienza, sollievo e riposo. Donaci l'umiltà di provare ogni aggiornamento come se fosse il primo. Amen.",
+    "remembrance": "Si ricorda distribuendo anche gli aggiornamenti di contenuto per anelli successivi, conservando le chiavi di ripristino a portata di mano e provando il recupero di massa delle postazioni."
+  },
+  "en": {
+    "title": "The Friday of the Blue Screens",
+    "chronicle": "On 19 July 2024 at 04:09 UTC CrowdStrike pushed a defective content update for its Falcon sensor, Channel File 291. About 8.5 million Windows computers crashed and were stuck in a blue-screen boot loop. Airlines, banks, broadcasters, hospitals and some 911 call centres were disrupted worldwide, and many machines had to be fixed by hand, one at a time. There was no attack: the cause was a logic error that the content validator had missed.",
+    "lesson": "It is often called the largest IT outage in history. It taught that security updates too must be rolled out gradually, and reopened the debate about code that runs at the heart of the operating system.",
+    "prayer": "For those who were stranded at airports that day or waited for care or help, and for the technicians who rebooted millions of machines by hand, we ask patience, relief and rest. Grant us the humility to test every update as if it were the first. Amen.",
+    "remembrance": "Remembered by rolling out even content updates in successive rings, keeping recovery keys within reach and rehearsing mass recovery of workstations."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Smurf, Padre della Chiesa e moltiplicatore di ping",
+    "patronage": "degli indirizzi di broadcast, degli ICMP echo e di chi grida in piazza a nome d'altri.",
+    "hagiography": "Il 5 gennaio 1998 il CERT pubblicò l'advisory CA-1998-01 su un attacco che prendeva il nome dal programma smurf.c. Si mandava un ping all'indirizzo di broadcast di una rete, falsificando come mittente l'indirizzo della vittima: ogni macchina della rete rispondeva in coro, e la vittima affogava sotto centinaia di risposte che non aveva mai chiesto. Fu uno dei primi grandi attacchi di amplificazione.",
+    "prayer": "O San Smurf, che con una sola voce fai rispondere un intero villaggio, insegna ai nostri router a non inoltrare i broadcast altrui. Amen.",
+    "feast": "Si festeggia con no ip directed-broadcast, diventato il default dei router, e con un cappello frigio bianco.",
+    "proverb": "Chi chiama tutti, non lo vuole sentire nessuno."
+  },
+  "en": {
+    "title": "Saint Smurf, Father of the Church and Multiplier of Pings",
+    "patronage": "broadcast addresses, ICMP echoes, and those who shout in the square in someone else's name.",
+    "hagiography": "On 5 January 1998 CERT published advisory CA-1998-01 on an attack named after the program smurf.c. You sent a ping to a network's broadcast address, forging the victim's address as the sender: every machine on the network answered in chorus, and the victim drowned under hundreds of replies it had never asked for. It was one of the first great amplification attacks.",
+    "prayer": "O Saint Smurf, who with a single voice makes a whole village answer, teach our routers not to forward other people's broadcasts. Amen.",
+    "feast": "Celebrated with no ip directed-broadcast, now the default on routers, and a white Phrygian cap.",
+    "proverb": "Call on everyone, and no one will want to hear from you."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Opossum, che fingeva la morte tra TLS e testo in chiaro",
+    "patronage": "dei protocolli con TLS opportunistico, degli upgrade a mezza strada e di chi mischia cifrato e chiaro.",
+    "hagiography": "Nel 2025 i ricercatori rivelarono l'Opossum Attack (CVE-2025-49812), che colpiva protocolli capaci di passare dal testo in chiaro al TLS, come HTTP e la variante del server Apache. Un attaccante in mezzo poteva disallineare ciò che le due parti credevano di aver negoziato, confondendo i messaggi prima e dopo l'upgrade. Come l'opossum che finge la morte, il traffico sembrava protetto mentre era già compromesso.",
+    "prayer": "O San Opossum, che fingi la sicurezza mentre apri una breccia, insegna ai nostri protocolli a non mescolare mai chiaro e cifrato. Amen.",
+    "feast": "Si festeggia preferendo il TLS implicito a quello opportunistico e aggiornando i server che ancora accettano l'upgrade a mezza strada.",
+    "proverb": "Chi finge la morte, confonde la scorta."
+  },
+  "en": {
+    "title": "Saint Opossum, Who Played Dead Between TLS and Plaintext",
+    "patronage": "protocols with opportunistic TLS, half-way upgrades, and those who mix cipher and plaintext.",
+    "hagiography": "In 2025 researchers revealed the Opossum Attack (CVE-2025-49812), striking protocols that can switch from plaintext to TLS, such as HTTP and the Apache server's variant. A man in the middle could desync what the two parties believed they had negotiated, confusing the messages before and after the upgrade. Like the opossum playing dead, the traffic looked protected while it was already compromised.",
+    "prayer": "O Saint Opossum, who feigns security while opening a breach, teach our protocols never to mix plaintext and cipher. Amen.",
+    "feast": "Celebrated by preferring implicit TLS over opportunistic TLS and updating servers that still accept the half-way upgrade.",
+    "proverb": "Who plays dead throws off the guard."
+  }
+}

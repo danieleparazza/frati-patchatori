@@ -1,0 +1,10 @@
+{
+  "label": "Trojan Source",
+  "motto": "ORDO FALLIT OCULUM",
+  "niche": [
+    "#2a1630",
+    "#4e2c5a"
+  ],
+  "accent": "#3d2048",
+  "emblem": "<path d=\"M98 150 q52 -34 104 0 l-10 70 q-42 26 -84 0 z\" fill=\"#c8a165\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M98 150 q52 -34 104 0 M114 142 q36 -22 72 0 M124 134 q26 -16 52 0\" stroke=\"#8a6d2f\" stroke-width=\"1.5\" fill=\"none\"/>\n<rect x=\"128\" y=\"176\" width=\"44\" height=\"34\" rx=\"3\" fill=\"#1e272e\"/>\n<text x=\"150\" y=\"200\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#e74c3c\" direction=\"rtl\">&lt;/&gt;</text>\n<path d=\"M118 222 h64\" stroke=\"#2b1d14\" stroke-width=\"2\"/>"
+}

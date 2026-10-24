@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San EvilLoader, video che non era un video",
+    "patronage": "degli allegati travestiti, delle app di messaggistica e di chi tocca «apri nel browser».",
+    "hagiography": "Il 4 marzo 2025 il ricercatore 0x6rss descrisse EvilLoader, erede di EvilVideo (la CVE-2024-7014). Su Telegram per Android un file HTML veniva mostrato con il nome e l'aspetto di un video; chi provava a riprodurlo riceveva un errore e il consiglio di aprirlo nel browser, dove il codice nascosto entrava in azione. Secondo i resoconti dell'epoca l'exploit era in vendita su forum clandestini.",
+    "prayer": "O San EvilLoader, che prometti un video e consegni una pagina, insegnaci a diffidare dell'allegato che insiste. Amen.",
+    "feast": "Si festeggia tenendo aggiornato Telegram, disattivando l'installazione da fonti sconosciute e non aprendo nel browser i «video» che lo chiedono.",
+    "proverb": "Video che chiede il browser, video che non lo è."
+  },
+  "en": {
+    "title": "Saint EvilLoader, the Video That Wasn't",
+    "patronage": "disguised attachments, messaging apps, and anyone who taps \"open in browser\".",
+    "hagiography": "On 4 March 2025 researcher 0x6rss described EvilLoader, heir to EvilVideo (CVE-2024-7014). On Telegram for Android an HTML file was shown with the name and look of a video; whoever tried to play it got an error and the suggestion to open it in a browser, where the hidden code sprang into action. According to reports at the time, the exploit was for sale on underground forums.",
+    "prayer": "O Saint EvilLoader, who promises a video and delivers a page, teach us to distrust the attachment that insists. Amen.",
+    "feast": "Celebrated by keeping Telegram updated, disabling installs from unknown sources, and not opening in a browser the \"videos\" that ask for it.",
+    "proverb": "A video that asks for the browser is no video at all."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DaMAgeCard, che entra dalla fessura della SD",
+    "patronage": "delle schede SD, delle console portatili e di chi infila nel computer qualsiasi cosa trovi in un cassetto.",
+    "hagiography": "Nel dicembre 2024 i ricercatori di Positive Technologies mostrarono che il nuovo standard SD Express, per essere veloce, collega la scheda di memoria direttamente al bus PCIe. Una scheda modificata, costruita attorno a un Raspberry Pi Pico e al framework PCILeech, poteva così leggere e scrivere la RAM del dispositivo via DMA, soprattutto dove l'IOMMU non era attiva. Una vecchia tecnica, come dissero loro stessi, entrata da una porta nuova.",
+    "prayer": "O Beato DaMAgeCard, che ti nascondi in una schedina da pochi grammi, fa' che le nostre IOMMU siano accese e i nostri cassetti in ordine. Amen.",
+    "feast": "Si festeggia abilitando l'IOMMU nel firmware e guardando con sospetto ogni scheda SD regalata.",
+    "proverb": "Scheda piccola, accesso grande."
+  },
+  "en": {
+    "title": "Blessed DaMAgeCard, Who Slips In Through the SD Slot",
+    "patronage": "SD cards, handheld consoles, and people who plug in whatever they find in a drawer.",
+    "hagiography": "In December 2024 researchers at Positive Technologies showed that the new SD Express standard, in order to be fast, connects the memory card straight to the PCIe bus. A modified card, built around a Raspberry Pi Pico and the PCILeech framework, could therefore read and write the device's RAM over DMA, especially where the IOMMU was not enabled. An old trick, in their own words, coming through a new door.",
+    "prayer": "O Blessed DaMAgeCard, who hides inside a card weighing a few grams, keep our IOMMUs on and our drawers tidy. Amen.",
+    "feast": "Celebrated by enabling the IOMMU in the firmware and eyeing every gifted SD card with suspicion.",
+    "proverb": "Small card, big access."
+  }
+}

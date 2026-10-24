@@ -6,12 +6,16 @@
     "01-17": "etherleak",
     "01-23": "pantsdown",
     "11-02": "morris-worm-fingerd-sendmail",
-    "12-25": "mitnick-christmas-attack"
+    "12-25": "mitnick-christmas-attack",
+    "12-06": "pool-party-2",
+    "12-08": "kerberos-bronze-bit",
+    "12-10": "badram"
   },
   "dates": {
     "shattered": "2017-02-23",
     "foreshadow": "2018-08-14",
-    "foreshadow-ng": "2018-08-14"
+    "foreshadow-ng": "2018-08-14",
+    "bleedingbit": "2018-11-01"
   },
   "born": {
     "shellshock": 1989,
@@ -28,7 +32,8 @@
     "log4shell": 2013,
     "dirty-pipe": 2020,
     "regresshion": 2020,
-    "looney-tunables": 2021
+    "looney-tunables": 2021,
+    "robot": 1998
   },
   "absurd": [
     "light-commands",
@@ -62,7 +67,18 @@
     "ovulation-calculator",
     "harmony-hub",
     "fermax-dtmf",
-    "homekit-smart-lock"
+    "homekit-smart-lock",
+    "y2k22",
+    "enlbufferpwn",
+    "badram"
   ],
-  "exclude": []
+  "exclude": [],
+  "removeCves": {
+    "react2shell": [
+      "CVE-2025-66478"
+    ],
+    "triangulation": [
+      "CVE-2023-38606"
+    ]
+  }
 }

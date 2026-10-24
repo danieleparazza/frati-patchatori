@@ -1,0 +1,11 @@
+{
+  "label": "Knight Capital",
+  "motto": "PECUNIA NON OLET, FUGIT",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"104\" y=\"140\" width=\"92\" height=\"70\" rx=\"4\" fill=\"#1e2a22\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<polyline points=\"110,152 126,158 140,166 152,178 164,186 176,196 190,204\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"4\"/>\n<polygon points=\"194,206 182,206 190,196\" fill=\"#c0392b\"/>\n<text x=\"150\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"24\" fill=\"#fbf3dd\" >45 min</text>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Landa, cacciatore di pagine fisiche",
+    "patronage": "delle tabelle delle pagine, dei puntatori penzolanti e dei jailbreak fatti con pazienza.",
+    "hagiography": "Terzo e ultimo dei metodi raccolti da felix-pb nel progetto kfd, Landa (CVE-2023-41974) era un use-after-free nel kernel XNU di Apple. Un'app nella propria sandbox poteva tenersi in mano pagine di memoria fisica che il kernel credeva di aver già liberato: un \"physical use-after-free\" da cui si arriva a leggere e scrivere il kernel. Apple lo corresse in iOS 17 e macOS 14, e la ricompensa fu di 70.000 dollari.",
+    "prayer": "O San Landa, che trattieni le pagine che il kernel ha già lasciato andare, insegnaci a lasciar andare anche noi. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 17 e restituendo, per una volta, tutto ciò che si è preso in prestito.",
+    "proverb": "Pagina liberata non è pagina dimenticata."
+  },
+  "en": {
+    "title": "Saint Landa, Hunter of Physical Pages",
+    "patronage": "page tables, dangling pointers, and patiently built jailbreaks.",
+    "hagiography": "The third and last of the methods collected by felix-pb in the kfd project, Landa (CVE-2023-41974) was a use-after-free in Apple's XNU kernel. An app inside its own sandbox could keep hold of physical memory pages the kernel believed it had already freed: a \"physical use-after-free\" that leads all the way to reading and writing kernel memory. Apple fixed it in iOS 17 and macOS 14, and the bounty was 70,000 dollars.",
+    "prayer": "O Saint Landa, who holds on to the pages the kernel has already let go, teach us to let go as well. Amen.",
+    "feast": "Celebrated by updating to iOS 17 and, for once, giving back everything you borrowed.",
+    "proverb": "A freed page is not a forgotten page."
+  }
+}

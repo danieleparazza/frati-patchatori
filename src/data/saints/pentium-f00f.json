@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San F00F, Padre della Chiesa che bloccava il Pentium",
+    "patronage": "dei processori Pentium, delle istruzioni illegali e di chi scoprì che quattro byte potevano fermare tutto.",
+    "hagiography": "Nel novembre 1997 si diffuse la notizia che un'istruzione malformata del Pentium, un CMPXCHG8B bloccato che nei byte iniziava con F0 0F C7 C8, mandava in stallo completo il processore: il sistema si piantava e serviva un riavvio. Bastava che un qualunque programma senza privilegi la eseguisse, su Windows come su Unix. Non c'era microcodice da aggiornare: i sistemi operativi dovettero imparare a intercettare l'istruzione prima che facesse danni.",
+    "prayer": "O San F00F, che con quattro byte fermi il cuore della macchina, fa' che i nostri sistemi sopravvivano alle istruzioni malate. Amen.",
+    "feast": "Si festeggia aggiornando il sistema operativo con la soluzione per la tabella delle interruzioni (la «F00F workaround»).",
+    "proverb": "Quattro byte bastano a zittire un gigante."
+  },
+  "en": {
+    "title": "Saint F00F, Church Father Who Froze the Pentium",
+    "patronage": "Pentium processors, illegal instructions, and whoever discovered that four bytes could stop everything.",
+    "hagiography": "In November 1997 word spread that a malformed Pentium instruction, a locked CMPXCHG8B that began with the bytes F0 0F C7 C8, sent the processor into a complete halt: the system froze and needed a reboot. Any unprivileged program could run it, on Windows as on Unix. There was no microcode to update: the operating systems had to learn to intercept the instruction before it did harm.",
+    "prayer": "O Saint F00F, who stops the heart of the machine with four bytes, let our systems survive the sick instructions. Amen.",
+    "feast": "Celebrated by updating the operating system with the interrupt-table fix (the \"F00F workaround\").",
+    "proverb": "Four bytes are enough to silence a giant."
+  }
+}

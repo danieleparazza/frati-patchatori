@@ -1,0 +1,10 @@
+{
+  "label": "CopyCat",
+  "motto": "GRADUS NUMERAT",
+  "niche": [
+    "#1a1a26",
+    "#3a3a56"
+  ],
+  "accent": "#28283e",
+  "emblem": "<rect x=\"112\" y=\"140\" width=\"76\" height=\"96\" rx=\"4\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#5dade2\"><text x=\"122\" y=\"158\">01</text><text x=\"150\" y=\"158\">1</text><text x=\"122\" y=\"176\">02</text><text x=\"150\" y=\"176\">1</text><text x=\"122\" y=\"194\">03</text><text x=\"150\" y=\"194\">1</text><text x=\"122\" y=\"212\">04</text><text x=\"150\" y=\"212\">1</text></g>\n<path d=\"M176 150 L182 150 M176 168 L182 168 M176 186 L182 186 M176 204 L182 204\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">+1 +1 +1</text>"
+}

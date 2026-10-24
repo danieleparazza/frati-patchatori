@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San StrandHogg 2.0, gemello malvagio delle app",
+    "patronage": "delle schermate di login che sembrano vere, delle app che si travestono da altre app e dei telefoni Android mai aggiornati.",
+    "hagiography": "Nel maggio 2020 Promon presentò il seguito di StrandHogg: un difetto di Android (CVE-2020-0096) che permetteva a un'app maligna di infilarsi al posto di quasi qualunque altra app. L'utente toccava l'icona della banca e si trovava davanti una copia perfetta, pronta a raccogliere password e permessi. Riguardava tutte le versioni precedenti ad Android 10, oltre un miliardo di dispositivi, e Google lo corresse nell'aggiornamento di maggio 2020.",
+    "prayer": "O San StrandHogg, che ti presenti col volto di un altro, fa' che dietro ogni icona ci sia l'app che abbiamo installato. Amen.",
+    "feast": "Si festeggia installando la patch di sicurezza di maggio 2020 e guardando due volte ogni schermata che chiede la password.",
+    "proverb": "Non tutto ciò che ha l'icona giusta è l'app giusta."
+  },
+  "en": {
+    "title": "Saint StrandHogg 2.0, Evil Twin of Apps",
+    "patronage": "login screens that look real, apps disguised as other apps, and Android phones that never got updated.",
+    "hagiography": "In May 2020 Promon presented the sequel to StrandHogg: an Android flaw (CVE-2020-0096) that let a malicious app slip in place of almost any other app. The user tapped the bank's icon and faced a perfect copy, ready to collect passwords and permissions. It affected every version before Android 10, over a billion devices, and Google fixed it in the May 2020 update.",
+    "prayer": "O Saint StrandHogg, who comes wearing another face, let the app behind every icon be the one we installed. Amen.",
+    "feast": "Celebrated by installing the May 2020 security patch and looking twice at every screen that asks for a password.",
+    "proverb": "Not everything with the right icon is the right app."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Fastly 2021",
+  "motto": "CELERITER CECIDIT",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<circle cx=\"150\" cy=\"176\" r=\"40\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"164\" cy=\"168\" r=\"38\" fill=\"#2e2924\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#fbf3dd\" >503</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Psychic Paper",
+  "motto": "VIDES QUOD VIS",
+  "niche": [
+    "#1f2a44",
+    "#3c4f7a"
+  ],
+  "accent": "#2a3a63",
+  "emblem": "<path d=\"M104 140 H184 V230 H104 Z\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M184 140 L196 146 V236 L116 236 L104 230\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M118 126 H170 V146 H118 Z\" fill=\"#3c4f7a\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"144\" y=\"141\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">ID</text>\n<g stroke=\"#9aa6b8\" stroke-width=\"2\"><path d=\"M114 166 H174 M114 178 H166 M114 202 H170 M114 214 H160\"/></g>\n<text x=\"144\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#7a2e8e\">&lt;!--  --&gt;</text>\n<path d=\"M118 224 C130 216 140 230 156 220\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>"
+}

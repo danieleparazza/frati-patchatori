@@ -1,0 +1,10 @@
+{
+  "label": "BadSuccessor",
+  "motto": "HERES FALSUS",
+  "niche": [
+    "#1d2a4d",
+    "#3b4c7a"
+  ],
+  "accent": "#24356a",
+  "emblem": "<path d=\"M126 134 h48 l-6 18 h-36 Z\" fill=\"#d9ad55\" stroke=\"#8a6d1f\" stroke-width=\"1.5\"/>\n<path d=\"M132 118 l8 14 l10 -16 l10 16 l8 -14 l-4 16 h-28 Z\" fill=\"#f1c40f\" stroke=\"#8a6d1f\" stroke-width=\"1.5\"/>\n<circle cx=\"132\" cy=\"116\" r=\"3\" fill=\"#f1c40f\"/><circle cx=\"150\" cy=\"112\" r=\"3\" fill=\"#f1c40f\"/><circle cx=\"168\" cy=\"116\" r=\"3\" fill=\"#f1c40f\"/>\n<circle cx=\"150\" cy=\"188\" r=\"20\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 180 v16 m-8 -8 h16\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#bfc9d1\">dMSA →</text>"
+}

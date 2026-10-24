@@ -1,0 +1,10 @@
+{
+  "label": "SMBGhost",
+  "motto": "SPECTRUM COMPRESSUM",
+  "niche": [
+    "#1f2436",
+    "#394763"
+  ],
+  "accent": "#2a3450",
+  "emblem": "<path d=\"M118 238 V166 C118 142 134 128 150 128 C166 128 182 142 182 166 V238 L172 228 L162 238 L150 228 L138 238 L128 228 Z\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"2\" opacity=\"0.95\"/>\n<g fill=\"#2b1d14\"><circle cx=\"140\" cy=\"166\" r=\"5\"/><circle cx=\"160\" cy=\"166\" r=\"5\"/><ellipse cx=\"150\" cy=\"182\" rx=\"5\" ry=\"7\"/></g>\n<text x=\"150\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#7a6656\">SMB</text>\n<g stroke=\"#7a6656\" stroke-width=\"2\" fill=\"none\"><path d=\"M128 150 l10 6 M172 150 l-10 6\"/></g>"
+}

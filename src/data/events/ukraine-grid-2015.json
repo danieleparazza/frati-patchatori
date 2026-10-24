@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il buio d'inverno in Ucraina",
+    "chronicle": "Il 23 dicembre 2015 degli attaccanti presero il controllo a distanza dei sistemi di tre società di distribuzione elettrica regionali ucraine e aprirono gli interruttori delle sottostazioni. Circa 225.000 utenti rimasero senza corrente per diverse ore, in pieno inverno. Gli aggressori cancellarono anche i sistemi con KillDisk e intasarono i call center con chiamate, perché i cittadini non potessero segnalare i guasti. Fu il primo attacco informatico confermato a spegnere una rete elettrica; il governo statunitense lo attribuì poi ad attori statali russi (Sandworm).",
+    "lesson": "Mostrò che gli attacchi alle infrastrutture critiche colpiscono direttamente le persone, e che la capacità di tornare al controllo manuale, come fecero i tecnici ucraini, è parte essenziale della difesa.",
+    "prayer": "Per le famiglie rimaste al freddo e al buio, e per i tecnici che hanno riacceso la corrente a mano, sottostazione per sottostazione, chiediamo calore, luce e riconoscenza. Donaci la saggezza di proteggere ciò da cui dipende la vita di tutti. Amen.",
+    "remembrance": "Si ricorda separando le reti operative da quelle d'ufficio, imponendo l'MFA agli accessi remoti ai sistemi di controllo e addestrando il personale a gestire la rete anche senza computer."
+  },
+  "en": {
+    "title": "Winter Darkness in Ukraine",
+    "chronicle": "On 23 December 2015 attackers took remote control of the systems of three Ukrainian regional power distribution companies and opened substation breakers. About 225,000 customers lost power for several hours in the middle of winter. The attackers also wiped systems with KillDisk and flooded call centres so that people could not report the outages. It was the first confirmed cyberattack to take down a power grid; the US government later attributed it to Russian state actors (Sandworm).",
+    "lesson": "It showed that attacks on critical infrastructure strike people directly, and that the ability to fall back to manual control, as Ukrainian engineers did, is an essential part of defence.",
+    "prayer": "For the families left in the cold and dark, and for the engineers who restored power by hand, substation by substation, we ask warmth, light and gratitude. Grant us the wisdom to protect what everyone's life depends on. Amen.",
+    "remembrance": "Remembered by separating operational networks from office ones, requiring MFA for remote access to control systems and training staff to run the grid even without computers."
+  }
+}

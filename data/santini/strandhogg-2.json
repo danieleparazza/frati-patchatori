@@ -1,0 +1,10 @@
+{
+  "label": "StrandHogg 2.0",
+  "motto": "ALTER IDEM",
+  "niche": [
+    "#1f3324",
+    "#3d6046"
+  ],
+  "accent": "#2a4a32",
+  "emblem": "<g stroke=\"#2b1d14\" stroke-width=\"2\">\n<rect x=\"98\" y=\"132\" width=\"46\" height=\"84\" rx=\"8\" fill=\"#fbf3dd\"/>\n<rect x=\"156\" y=\"132\" width=\"46\" height=\"84\" rx=\"8\" fill=\"#fbf3dd\"/>\n</g>\n<g fill=\"#3d6046\"><rect x=\"111\" y=\"160\" width=\"20\" height=\"20\" rx=\"4\"/><rect x=\"169\" y=\"160\" width=\"20\" height=\"20\" rx=\"4\"/></g>\n<path d=\"M121 164 L114 172 H128 Z M179 164 L172 172 H186 Z\" fill=\"#fbf3dd\"/>\n<path d=\"M115 175 H127 M173 175 H185\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M172 146 L176 140 L180 146 M184 146 L188 140 L190 146\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2\"/>\n<path d=\"M112 196 H130 M170 196 H188\" stroke=\"#9aa6b8\" stroke-width=\"3\"/>\n<path d=\"M150 236 C138 228 162 220 150 212\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"3\"/>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Chaotic Deputy, che scatenò il caos nel cluster",
+    "patronage": "degli strumenti di chaos engineering, dei server GraphQL senza autenticazione e dei cluster Kubernetes presi tutti insieme.",
+    "hagiography": "Il 16 settembre 2025 Natan Nehorai di JFrog rivelò Chaotic Deputy, quattro falle in Chaos Mesh, lo strumento che inietta guasti controllati nei cluster Kubernetes per metterne alla prova la robustezza. Il controller esponeva, attivo di default, un server GraphQL senza autenticazione all'intero cluster; tre mutazioni soffrivano di command injection. Da un semplice pod si poteva eseguire codice ovunque e rubare i token privilegiati, fino al controllo dell'intero cluster.",
+    "prayer": "O San Chaotic Deputy, che semini guasti per mestiere e disastri per difetto, fa' che i nostri strumenti di caos chiedano sempre chi sei. Amen.",
+    "feast": "Si festeggia aggiornando Chaos Mesh alla 2.7.3 o disattivando il server di controllo con enableCtrlServer=false.",
+    "proverb": "Chi semina guasti per prova, raccolga almeno un'autenticazione."
+  },
+  "en": {
+    "title": "Saint Chaotic Deputy, Who Loosed Chaos on the Cluster",
+    "patronage": "chaos engineering tools, unauthenticated GraphQL servers, and Kubernetes clusters taken all at once.",
+    "hagiography": "On 16 September 2025 Natan Nehorai of JFrog revealed Chaotic Deputy, four flaws in Chaos Mesh, the tool that injects controlled failures into Kubernetes clusters to test their resilience. The controller exposed, enabled by default, an unauthenticated GraphQL server to the whole cluster; three mutations suffered from command injection. From an ordinary pod one could run code anywhere and steal privileged tokens, up to control of the entire cluster.",
+    "prayer": "O Saint Chaotic Deputy, who sow failures by trade and disasters by default, let our chaos tools always ask who you are. Amen.",
+    "feast": "Celebrated by upgrading Chaos Mesh to 2.7.3 or disabling the control server with enableCtrlServer=false.",
+    "proverb": "Who sows failures as a test should reap at least one login."
+  }
+}

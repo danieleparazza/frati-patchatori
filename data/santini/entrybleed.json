@@ -1,0 +1,10 @@
+{
+  "label": "EntryBleed",
+  "motto": "TEMPUS PRODIT LOCUM",
+  "niche": [
+    "#2a1818",
+    "#5a2e2e"
+  ],
+  "accent": "#3f2020",
+  "emblem": "<rect x=\"116\" y=\"146\" width=\"68\" height=\"90\" rx=\"4\" fill=\"#1e2630\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<g fill=\"#3a4654\"><rect x=\"124\" y=\"154\" width=\"52\" height=\"12\"/><rect x=\"124\" y=\"170\" width=\"52\" height=\"12\"/><rect x=\"124\" y=\"202\" width=\"52\" height=\"12\"/><rect x=\"124\" y=\"218\" width=\"52\" height=\"12\"/></g>\n<g fill=\"#7bed9f\"><rect x=\"124\" y=\"186\" width=\"52\" height=\"12\"/></g>\n<text x=\"150\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#1e2630\">ENTRY</text>\n<circle cx=\"196\" cy=\"222\" r=\"11\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"/><path d=\"M196 222 V214 M196 222 L201 225\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M192 209 h8\" stroke=\"#d9ad55\" stroke-width=\"2\"/>"
+}

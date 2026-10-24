@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'Access:7, dalle sette chiavi",
+    "patronage": "degli agenti di telemetria, dei dispositivi medici collegati alla rete e dei fornitori che pensavano a tutto tranne alla password.",
+    "hagiography": "L'8 marzo 2022 Forescout Vedere Labs e CyberMDX rivelarono sette vulnerabilità nell'agente Axeda di PTC, il software che centinaia di dispositivi, soprattutto apparecchi medici di imaging e di laboratorio, usano per farsi gestire da remoto. Alcune permettevano a chiunque raggiungesse la porta giusta di eseguire codice, leggere tutto il disco o cambiare la configurazione senza autenticarsi. Sette difetti, sette chiavi, una sola porta lasciata aperta.",
+    "prayer": "O Sant'Access:7, che porti sette chiavi per la stessa porta, fa' che i nostri agenti remoti chiedano chi entra. Amen.",
+    "feast": "Si festeggia aggiornando l'agente Axeda alle versioni corrette da PTC e scoprendo quanti dispositivi in corsia lo avevano dentro.",
+    "proverb": "Sette chiavi non bastano se la porta non ha serratura."
+  },
+  "en": {
+    "title": "Saint Access:7, of the Seven Keys",
+    "patronage": "telemetry agents, networked medical devices, and vendors who thought of everything except the password.",
+    "hagiography": "On 8 March 2022 Forescout Vedere Labs and CyberMDX revealed seven vulnerabilities in PTC's Axeda agent, the software hundreds of devices, mostly medical imaging and lab equipment, use to be managed remotely. Some let anyone who could reach the right port run code, read the whole disk or change the configuration without authenticating. Seven flaws, seven keys, one door left open.",
+    "prayer": "O Saint Access:7, who carries seven keys for the same door, let our remote agents ask who is coming in. Amen.",
+    "feast": "Celebrated by updating the Axeda agent to PTC's fixed versions and discovering how many devices on the ward had it inside.",
+    "proverb": "Seven keys won't help a door with no lock."
+  }
+}

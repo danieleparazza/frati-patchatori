@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Crowbleed, che serviva avanzi di memoria",
+    "patronage": "dei piccoli server web in C++, dei file statici serviti in fretta e dei buffer mai azzerati.",
+    "hagiography": "Il 23 settembre 2022 Gynvael Coldwind descrisse Crowbleed, una falla nel framework web Crow per C++. Nel servire un file statico più piccolo di 16 KB, la libreria poteva rivelare dati non inizializzati rimasti nella memoria di stack: insieme alla pagina richiesta partivano frammenti di ciò che il server aveva elaborato poco prima. Un parente stretto delle tante falle \"-bleed\".",
+    "prayer": "O San Crowbleed, che accompagni ogni file con un contorno di memoria, insegna ai nostri server il valore del buffer azzerato. Amen.",
+    "feast": "Si festeggia aggiornando Crow a una versione corretta e azzerando i buffer prima di spedirli sul filo.",
+    "proverb": "File piccolo, contorno di memoria."
+  },
+  "en": {
+    "title": "Saint Crowbleed, Who Served Leftover Memory",
+    "patronage": "small C++ web servers, static files served in haste, and buffers never zeroed.",
+    "hagiography": "On 23 September 2022 Gynvael Coldwind described Crowbleed, a flaw in the Crow web framework for C++. When serving a static file smaller than 16 KB, the library could reveal uninitialised data left in stack memory: alongside the requested page went fragments of what the server had processed just before. A close relative of the many \"-bleed\" flaws.",
+    "prayer": "O Saint Crowbleed, who garnish every file with a side of memory, teach our servers the worth of the zeroed buffer. Amen.",
+    "feast": "Celebrated by updating Crow to a fixed version and zeroing buffers before sending them over the wire.",
+    "proverb": "Small file, side of memory."
+  }
+}

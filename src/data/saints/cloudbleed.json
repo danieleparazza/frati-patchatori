@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Cloudbleed, che sanguinava nella cache",
+    "patronage": "dei proxy inversi, dei parser HTML scritti a mano e dei motori di ricerca che ricordano troppo.",
+    "hagiography": "Il 18 febbraio 2017 Tavis Ormandy di Google Project Zero avvisò Cloudflare che alcune pagine servite dai suoi proxy contenevano pezzi di memoria altrui: cookie, token e messaggi di altri siti. La colpa era di un parser HTML che, in rari casi, leggeva oltre la fine del buffer. Cloudflare spense le funzioni coinvolte in poche ore, ma prima di annunciarlo, il 23 febbraio, dovette chiedere ai motori di ricerca di ripulire le copie già salvate.",
+    "prayer": "O Beato Cloudbleed, che spargevi segreti tra le pagine altrui, fa' che i nostri parser sappiano dove finisce il buffer. Amen.",
+    "feast": "Si festeggia ruotando le sessioni e le password, controllando i limiti di ogni puntatore e svuotando le cache del mondo.",
+    "proverb": "Chi legge oltre la fine, racconta i fatti degli altri."
+  },
+  "en": {
+    "title": "Blessed Cloudbleed, Who Bled Into the Cache",
+    "patronage": "reverse proxies, hand-written HTML parsers, and search engines that remember too much.",
+    "hagiography": "On 18 February 2017 Tavis Ormandy of Google Project Zero warned Cloudflare that some pages served by its proxies contained chunks of other people's memory: cookies, tokens and messages from other sites. The culprit was an HTML parser that, in rare cases, read past the end of its buffer. Cloudflare switched off the features involved within hours, but before announcing it on 23 February it had to ask search engines to purge the copies they had already saved.",
+    "prayer": "O Blessed Cloudbleed, who scattered secrets across other people's pages, let our parsers know where the buffer ends. Amen.",
+    "feast": "Celebrated by rotating sessions and passwords, checking the bounds of every pointer, and purging the world's caches.",
+    "proverb": "Read past the end, and you'll tell everyone else's business."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Plundervolt, che derubava con la tensione",
+    "patronage": "degli overclocker pentiti, delle enclave SGX e dei processori che sbagliano i conti quando sono stanchi.",
+    "hagiography": "Rivelato nel dicembre 2019 da ricercatori di Birmingham, Lovanio e Graz, mostrava che un software privilegiato poteva abbassare di nascosto la tensione del processore attraverso un'interfaccia pensata per il risparmio energetico. Con poca corrente le moltiplicazioni dentro le enclave SGX cominciavano a sbagliare, e da quei piccoli errori si ricostruivano chiavi AES e RSA. Intel rispose togliendo la manopola a tutti.",
+    "prayer": "O San Plundervolt, che con un filo di tensione in meno fai sbagliare i calcoli più segreti, dona ai nostri processori la corrente che serve. Amen.",
+    "feast": "Si festeggia installando il BIOS e il microcodice che bloccano l'undervolting e rinunciando, a malincuore, a qualche grado di temperatura in meno.",
+    "proverb": "Poca tensione, molta confusione."
+  },
+  "en": {
+    "title": "Saint Plundervolt, Who Robbed With Voltage",
+    "patronage": "repentant overclockers, SGX enclaves, and processors that miscount when they are tired.",
+    "hagiography": "Revealed in December 2019 by researchers from Birmingham, Leuven and Graz, he showed that privileged software could quietly lower the processor's voltage through an interface meant for saving power. Running short of juice, the multiplications inside SGX enclaves began to go wrong, and from those little mistakes AES and RSA keys could be rebuilt. Intel answered by taking the knob away from everyone.",
+    "prayer": "O Saint Plundervolt, who makes the most secret sums go wrong with a whisper less voltage, grant our processors the power they need. Amen.",
+    "feast": "Celebrated by installing the BIOS and microcode that block undervolting, and reluctantly giving up a few degrees of cooler running.",
+    "proverb": "Less voltage, more damage."
+  }
+}

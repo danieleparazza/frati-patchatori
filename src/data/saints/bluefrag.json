@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BlueFrag, che arrivava a pezzi",
+    "patronage": "del Bluetooth lasciato acceso, dei pacchetti frammentati e dei telefoni che non ricevono più aggiornamenti.",
+    "hagiography": "Il 6 febbraio 2020 Jan Ruge di ERNW raccontò la CVE-2020-0022, un errore di calcolo nel codice che riassembla i pacchetti Bluetooth frammentati di Android. Su Android 8 e 9 bastava conoscere l'indirizzo Bluetooth del telefono, con il Bluetooth acceso, per eseguire codice senza alcuna interazione; su Android 10 il difetto si limitava a far cadere il servizio Bluetooth. Google lo corresse nel bollettino di febbraio 2020.",
+    "prayer": "O San BlueFrag, che arrivi a pezzi e ti ricomponi dove non dovresti, ricordaci di spegnere il Bluetooth quando non serve. Amen.",
+    "feast": "Si festeggia installando la patch di sicurezza Android di febbraio 2020 o, per i telefoni abbandonati dal produttore, rendendoli non visibili.",
+    "proverb": "Frammento piccolo, danno intero."
+  },
+  "en": {
+    "title": "Saint BlueFrag, Who Arrived in Pieces",
+    "patronage": "Bluetooth left switched on, fragmented packets, and phones that no longer get updates.",
+    "hagiography": "On 6 February 2020 Jan Ruge of ERNW described CVE-2020-0022, a miscalculation in the Android code that reassembles fragmented Bluetooth packets. On Android 8 and 9, knowing the phone's Bluetooth address was enough, with Bluetooth switched on, to run code without any interaction; on Android 10 the flaw merely crashed the Bluetooth service. Google fixed it in the February 2020 bulletin.",
+    "prayer": "O Saint BlueFrag, who arrives in pieces and reassembles where he shouldn't, remind us to turn Bluetooth off when we don't need it. Amen.",
+    "feast": "Celebrated by installing the February 2020 Android security patch or, for phones their maker abandoned, keeping them undiscoverable.",
+    "proverb": "Small fragment, whole damage."
+  }
+}

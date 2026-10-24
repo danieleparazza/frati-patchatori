@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Ticketbleed, che restituiva memoria altrui",
+    "patronage": "dei bilanciatori F5 BIG-IP, dei ticket di sessione TLS e dei 31 byte che non dovevano uscire.",
+    "hagiography": "Il 26 ottobre 2016 Filippo Valsorda, allora nel team crittografico di Cloudflare, descrisse Ticketbleed: un BIG-IP F5 con i ticket di sessione TLS abilitati poteva restituire fino a 31 byte di memoria non inizializzata a ogni connessione. Dentro potevano finirci identificativi di sessione di altri utenti. Era il cugino più piccolo di Heartbleed, con la stessa colpa: rispondere con più dati di quanti ne fossero stati forniti.",
+    "prayer": "O San Ticketbleed, che mostri a tutti i trentuno byte di troppo, fa' che i nostri server restituiscano solo ciò che gli è stato dato. Amen.",
+    "feast": "Si festeggia disabilitando i ticket di sessione TLS non standard su BIG-IP o aggiornando il firmware F5.",
+    "proverb": "Chi risponde più di quanto chiesto, risponde con i segreti altrui."
+  },
+  "en": {
+    "title": "Saint Ticketbleed, Who Returned Other People's Memory",
+    "patronage": "F5 BIG-IP load balancers, TLS session tickets, and the 31 bytes that should never have left.",
+    "hagiography": "On 26 October 2016 Filippo Valsorda, then on Cloudflare's crypto team, described Ticketbleed: an F5 BIG-IP with TLS session tickets enabled could return up to 31 bytes of uninitialised memory on each connection. Inside could land other users' session IDs. It was Heartbleed's smaller cousin, with the same fault: answering with more data than was supplied.",
+    "prayer": "O Saint Ticketbleed, who shows everyone the thirty-one bytes too many, let our servers return only what they were given. Amen.",
+    "feast": "Celebrated by disabling non-standard TLS session tickets on BIG-IP or updating the F5 firmware.",
+    "proverb": "Answer with more than you're asked, and you answer with others' secrets."
+  }
+}

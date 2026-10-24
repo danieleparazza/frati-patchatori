@@ -1,0 +1,11 @@
+{
+  "label": "OPM 2015",
+  "motto": "DIGITI NON MUTANTUR",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\" stroke-linecap=\"round\">\n<path d=\"M150 136 C126 136 114 154 114 176\"/><path d=\"M150 148 C134 148 126 160 126 178 C126 196 132 212 140 222\"/>\n<path d=\"M150 160 C142 160 138 168 138 178 C138 198 146 212 156 222\"/><path d=\"M150 172 C150 196 160 210 170 216\"/>\n<path d=\"M150 136 C174 136 186 154 186 176 C186 192 182 204 176 212\"/><path d=\"M150 148 C166 148 174 160 174 178 C174 190 172 198 168 204\"/>\n<path d=\"M162 176 C162 186 164 194 168 200\"/></g>\n<rect x=\"114\" y=\"226\" width=\"72\" height=\"14\" rx=\"2\" fill=\"#d9ad55\"/>"
+}

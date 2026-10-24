@@ -1,0 +1,10 @@
+{
+  "label": "Raccoon",
+  "motto": "TEMPUS REVELAT",
+  "niche": [
+    "#20232e",
+    "#44485c"
+  ],
+  "accent": "#2e3240",
+  "emblem": "<path d=\"M118 160 C112 142 128 140 134 150 C140 142 160 142 166 150 C172 140 188 142 182 160 C194 176 190 206 150 212 C110 206 106 176 118 160 Z\" fill=\"#8c99a3\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M124 170 Q138 162 148 172 Q140 184 124 180 Z M176 170 Q162 162 152 172 Q160 184 176 180 Z\" fill=\"#2b1d14\"/>\n<circle cx=\"136\" cy=\"174\" r=\"3\" fill=\"#fbf3dd\"/><circle cx=\"164\" cy=\"174\" r=\"3\" fill=\"#fbf3dd\"/>\n<path d=\"M150 186 l-5 8 h10 z\" fill=\"#2b1d14\"/>\n<path d=\"M150 194 v8 M138 200 h24\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<circle cx=\"190\" cy=\"214\" r=\"12\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"/><path d=\"M190 207 v7 l5 3\" stroke=\"#d9ad55\" stroke-width=\"2\" fill=\"none\"/>"
+}

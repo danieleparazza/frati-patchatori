@@ -1,0 +1,10 @@
+{
+  "label": "NatJack",
+  "motto": "NATARE NECESSE EST",
+  "niche": [
+    "#14304a",
+    "#2e5b80"
+  ],
+  "accent": "#1d4263",
+  "emblem": "<rect x=\"112\" y=\"186\" width=\"76\" height=\"34\" rx=\"5\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M126 186 L118 150 M174 186 L182 150\" stroke=\"#dfe6e9\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<g fill=\"#27ae60\"><circle cx=\"126\" cy=\"203\" r=\"3\"/><circle cx=\"138\" cy=\"203\" r=\"3\"/></g><circle cx=\"150\" cy=\"203\" r=\"3\" fill=\"#c0392b\"/>\n<path d=\"M98 236 C110 228 120 244 132 236 C144 228 154 244 166 236 C178 228 188 244 202 236\" stroke=\"#5dade2\" stroke-width=\"4\" fill=\"none\"/>\n<path d=\"M130 140 Q150 118 172 136\" stroke=\"#d9ad55\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M166 128 L174 138 L162 140\" stroke=\"#d9ad55\" stroke-width=\"3\" fill=\"none\"/>"
+}

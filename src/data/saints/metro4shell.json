@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Metro4Shell, capostazione degli sviluppatori",
+    "patronage": "dei server di sviluppo esposti su internet, delle app React Native e di chi lascia la metropolitana aperta di notte.",
+    "hagiography": "Nel novembre 2025 JFrog descrisse la CVE-2025-11953: il server Metro avviato dalla CLI di React Native ascoltava su tutte le interfacce e un suo endpoint passava al sistema i comandi ricevuti, senza autenticazione. A febbraio 2026 VulnCheck raccontò di averlo visto sfruttare già da dicembre per scaricare malware sulle macchine degli sviluppatori, e lo battezzò Metro4Shell; il 5 febbraio CISA lo aggiunse al catalogo KEV.",
+    "prayer": "O San Metro4Shell, che fai salire chiunque senza biglietto, ricordaci che il server di sviluppo non è un servizio pubblico. Amen.",
+    "feast": "Si festeggia aggiornando @react-native-community/cli-server-api alla 20.0.0 e legando Metro a localhost.",
+    "proverb": "Server di sviluppo in vista, attaccante in carrozza."
+  },
+  "en": {
+    "title": "Saint Metro4Shell, Stationmaster of Developers",
+    "patronage": "dev servers exposed to the internet, React Native apps, and those who leave the metro open all night.",
+    "hagiography": "In November 2025 JFrog described CVE-2025-11953: the Metro server started by the React Native CLI listened on every interface, and one of its endpoints passed the commands it received to the system, with no authentication. In February 2026 VulnCheck reported seeing it exploited since December to drop malware on developers' machines and named it Metro4Shell; on 5 February CISA added it to the KEV catalogue.",
+    "prayer": "O Saint Metro4Shell, who lets anyone ride without a ticket, remind us that the dev server is not public transport. Amen.",
+    "feast": "Celebrated by upgrading @react-native-community/cli-server-api to 20.0.0 and binding Metro to localhost.",
+    "proverb": "Dev server in sight, attacker on board."
+  }
+}

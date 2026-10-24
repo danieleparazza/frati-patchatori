@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Y2K22, che fermò la posta a Capodanno",
+    "patronage": "dei server Exchange, delle date salvate come numeri e di chi passa il Capodanno a riavviare servizi.",
+    "hagiography": "A mezzanotte del 1° gennaio 2022 i server Microsoft Exchange on-premise smisero di consegnare la posta: il motore antimalware FIP-FS versionava gli aggiornamenti con una data nel formato aaaaMMggHHmm, e il numero 2201010001 superava il massimo di un intero con segno a 32 bit. Niente attaccanti, nessun exploit: solo un overflow di calendario che trasformò la notte di Capodanno degli amministratori in un turno straordinario.",
+    "prayer": "O Beato Y2K22, che inciampi non su un nemico ma su un numero troppo grande, fa' che le nostre date stiano dentro i loro interi. Amen.",
+    "feast": "Si festeggia applicando la correzione d'emergenza di Microsoft e brindando ai 32 bit con segno che non bastano mai.",
+    "proverb": "Anno nuovo, overflow vecchio."
+  },
+  "en": {
+    "title": "Blessed Y2K22, Who Stopped the Mail at New Year",
+    "patronage": "Exchange servers, dates stored as numbers, and everyone who spends New Year restarting services.",
+    "hagiography": "At midnight on 1 January 2022 on-premises Microsoft Exchange servers stopped delivering mail: the FIP-FS antimalware engine versioned its updates with a date in the yyyyMMddHHmm format, and the number 2201010001 exceeded the maximum of a signed 32-bit integer. No attackers, no exploit: just a calendar overflow that turned the admins' New Year's night into overtime.",
+    "prayer": "O Blessed Y2K22, who trips not over an enemy but over a number too large, let our dates stay within their integers. Amen.",
+    "feast": "Celebrated by applying Microsoft's emergency fix and toasting the signed 32 bits that are never quite enough.",
+    "proverb": "New year, old overflow."
+  }
+}

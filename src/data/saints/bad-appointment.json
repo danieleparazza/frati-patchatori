@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Bad Appointment, che rubava senza farsi aprire",
+    "patronage": "degli inviti nel calendario, delle notifiche sonore e delle credenziali che partono da sole.",
+    "hagiography": "Il 14 marzo 2023 Microsoft corresse la CVE-2023-23397 in Outlook, già sfruttata in attacchi mirati segnalati dal CERT ucraino. Bastava inviare alla vittima un appuntamento con un suono di promemoria che puntava a un percorso di rete controllato dall'attaccante: Outlook vi si collegava da solo, prima ancora che il messaggio fosse aperto, consegnando le credenziali NTLM. Un invito che si faceva aprire la porta da solo.",
+    "prayer": "O San Bad Appointment, che suoni e intanto frughi nelle tasche, fa' che i nostri calendari non parlino con reti sconosciute. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di Outlook di marzo 2023 e bloccando l'NTLM in uscita verso internet.",
+    "proverb": "Invito che suona da solo, porta che si apre da sola."
+  },
+  "en": {
+    "title": "Saint Bad Appointment, Who Robbed Without Being Let In",
+    "patronage": "calendar invitations, reminder sounds, and credentials that leave on their own.",
+    "hagiography": "On 14 March 2023 Microsoft fixed CVE-2023-23397 in Outlook, already used in targeted attacks reported by Ukraine's CERT. It was enough to send the victim an appointment whose reminder sound pointed to a network path the attacker controlled: Outlook connected to it by itself, before the message was even opened, handing over the NTLM credentials. An invitation that let itself in.",
+    "prayer": "O Saint Bad Appointment, who chimes while rifling through pockets, keep our calendars from talking to unknown networks. Amen.",
+    "feast": "Celebrated by installing the March 2023 Outlook updates and blocking outbound NTLM to the internet.",
+    "proverb": "An invite that rings itself opens the door itself."
+  }
+}

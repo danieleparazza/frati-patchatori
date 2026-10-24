@@ -1,0 +1,10 @@
+{
+  "label": "Port Shadow",
+  "motto": "UMBRA PORTUS",
+  "niche": [
+    "#14203a",
+    "#2c4570"
+  ],
+  "accent": "#1c3052",
+  "emblem": "<path d=\"M104 180 h92\" stroke=\"#5dade2\" stroke-width=\"22\" stroke-linecap=\"round\" opacity=\"0.5\"/>\n<ellipse cx=\"130\" cy=\"180\" rx=\"13\" ry=\"16\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M130 196 L150 224 L138 224 Z\" fill=\"#2b1d14\" opacity=\"0.6\"/>\n<circle cx=\"130\" cy=\"176\" r=\"3\" fill=\"#c0392b\"/>\n<g fill=\"#fbf3dd\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\"><text x=\"168\" y=\"168\">:443</text><text x=\"168\" y=\"200\">:80</text></g>"
+}

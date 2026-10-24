@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San OWASSRF, che rientrava dalla webmail",
+    "patronage": "dei server Exchange, della webmail e di chi mette una mitigazione sulla porta sbagliata.",
+    "hagiography": "Il 26 dicembre 2022 CrowdStrike descrisse OWASSRF, catena scoperta indagando sugli attacchi del ransomware Play. Univa CVE-2022-41080 e CVE-2022-41082, ma a differenza di ProxyNotShell passava da un endpoint di Outlook Web Access: così le mitigazioni di Microsoft, pensate per Autodiscover, non bastavano. Restava da applicare la patch di novembre, o disattivare la webmail.",
+    "prayer": "O San OWASSRF, che rientri dalla finestra della webmail quando la porta è sbarrata, fa' che le nostre patch coprano tutte le vie, non una sola. Amen.",
+    "feast": "Si festeggia applicando le patch di Exchange di novembre 2022 e disattivando OWA finché non si è sicuri.",
+    "proverb": "Chiusa una porta, l'attaccante prova la webmail."
+  },
+  "en": {
+    "title": "Saint OWASSRF, Who Came Back Through the Webmail",
+    "patronage": "Exchange servers, webmail, and anyone who puts a mitigation on the wrong door.",
+    "hagiography": "On 26 December 2022 CrowdStrike described OWASSRF, a chain discovered while investigating Play ransomware attacks. It combined CVE-2022-41080 and CVE-2022-41082, but unlike ProxyNotShell it came through an Outlook Web Access endpoint: so Microsoft's mitigations, built for Autodiscover, were not enough. What remained was to apply the November patch, or disable webmail.",
+    "prayer": "O Saint OWASSRF, who comes back through the webmail window when the door is barred, let our patches cover every way, not only one. Amen.",
+    "feast": "Celebrated by applying the November 2022 Exchange patches and disabling OWA until you're sure.",
+    "proverb": "Shut one door and the attacker tries the webmail."
+  }
+}

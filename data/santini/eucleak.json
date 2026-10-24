@@ -1,0 +1,10 @@
+{
+  "label": "EUCLEAK",
+  "motto": "CLAVIS EX AETHERE",
+  "niche": [
+    "#1d2b40",
+    "#3a5272"
+  ],
+  "accent": "#273c58",
+  "emblem": "<rect x=\"128\" y=\"150\" width=\"20\" height=\"70\" rx=\"6\" fill=\"#2b1d14\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<circle cx=\"138\" cy=\"166\" r=\"6\" fill=\"#1b1b2f\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<rect x=\"134\" y=\"140\" width=\"8\" height=\"12\" fill=\"#bfc9d1\"/>\n<g stroke=\"#5dade2\" stroke-width=\"2\" fill=\"none\"><path d=\"M158 158 q12 20 0 40\"/><path d=\"M168 150 q22 28 0 56\"/><path d=\"M178 144 q32 36 0 72\"/></g>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#bfc9d1\">ECDSA</text>"
+}

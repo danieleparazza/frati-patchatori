@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Dual_EC_DRBG, dalla casualità sospetta",
+    "patronage": "dei generatori di numeri casuali con costanti misteriose, degli standard scritti in buona compagnia e dei crittografi sospettosi.",
+    "hagiography": "Standardizzato dal NIST nel 2006, il generatore Dual_EC_DRBG era lento e già nel 2007 Dan Shumow e Niels Ferguson avvertirono che chi conosceva il legame tra i suoi punti P e Q poteva prevederne l'output. Nel 2013 i documenti di Snowden suggerirono che la NSA ci avesse messo lo zampino, e si scoprì che era il generatore predefinito della libreria BSAFE di RSA. Il NIST lo ritirò dai propri standard poco dopo.",
+    "prayer": "O San Dual_EC_DRBG, che tiri i dadi conoscendo già il risultato, liberaci dalle costanti di cui nessuno spiega l'origine. Amen.",
+    "feast": "Si festeggia usando un generatore moderno come HMAC_DRBG o CTR_DRBG e chiedendo, davanti a ogni costante, «chi l'ha scelta?»."
+  },
+  "en": {
+    "title": "Saint Dual_EC_DRBG, of Suspicious Randomness",
+    "patronage": "random number generators with mysterious constants, standards written in good company, and suspicious cryptographers.",
+    "hagiography": "Standardised by NIST in 2006, the Dual_EC_DRBG generator was slow, and as early as 2007 Dan Shumow and Niels Ferguson warned that whoever knew the relation between its points P and Q could predict its output. In 2013 the Snowden documents suggested the NSA had a hand in it, and it turned out to be the default generator in RSA's BSAFE library. NIST withdrew it from its standards soon after.",
+    "prayer": "O Saint Dual_EC_DRBG, who rolls the dice already knowing the result, deliver us from constants whose origin nobody explains. Amen.",
+    "feast": "Celebrated by using a modern generator such as HMAC_DRBG or CTR_DRBG and asking, before every constant, \"who chose this?\"."
+  }
+}

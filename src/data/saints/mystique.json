@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Mystique, che cambiava forma alle app",
+    "patronage": "dei telefoni Android, delle app che si credevano in sola lettura e delle sandbox che davano per scontato troppo.",
+    "hagiography": "Il 27 settembre 2021 il Dawn Security Lab di JD.com descrisse Mystique, una catena di zero-day che infrangeva la sandbox di Android 11. Smentendo l'ipotesi che il pacchetto di un'app fosse immutabile, un'app senza permessi poteva impadronirsi silenziosamente dei processi di altre, da Facebook a WhatsApp a Telegram. I ricercatori stimarono circa 800 milioni di dispositivi a rischio.",
+    "prayer": "O San Mystique, che muti forma e prendi il posto delle app altrui, fa' che i nostri pacchetti restino quelli che il sistema ha verificato. Amen.",
+    "feast": "Si festeggia aggiornando ad Android 12 o installando la patch di sicurezza di settembre 2021.",
+    "proverb": "App che cambia pelle, identità che non tiene."
+  },
+  "en": {
+    "title": "Saint Mystique, Who Shape-Shifted the Apps",
+    "patronage": "Android phones, apps that believed themselves read-only, and sandboxes that assumed too much.",
+    "hagiography": "On 27 September 2021 JD.com's Dawn Security Lab described Mystique, a chain of zero-days that broke the Android 11 sandbox. Disproving the assumption that an app's package was immutable, a permissionless app could silently take over the processes of others, from Facebook to WhatsApp to Telegram. The researchers estimated around 800 million devices at risk.",
+    "prayer": "O Saint Mystique, who shift shape and take the place of other apps, let our packages stay the ones the system verified. Amen.",
+    "feast": "Celebrated by upgrading to Android 12 or installing the September 2021 security patch.",
+    "proverb": "An app that changes skin, an identity that won't hold."
+  }
+}

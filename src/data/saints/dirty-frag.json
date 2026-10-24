@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Dirty Frag, nipote di Dirty Pipe",
+    "patronage": "della page cache, dei moduli del kernel caricati e mai usati e delle famiglie di bug che non si estinguono.",
+    "hagiography": "Il 7 maggio 2026, quando l'embargo saltò, Hyunwoo Kim pubblicò Dirty Frag: due difetti del kernel Linux, in ESP e in RxRPC, che decifravano i pacchetti \"sul posto\" anche quando i frammenti appartenevano alla page cache di un file. Un utente qualunque poteva così riscrivere in memoria file di sola lettura e diventare root sulle principali distribuzioni, senza gare di velocità e senza far crollare il sistema. Discende da Dirty Pipe, e il primo dei due bug era lì dal 2017.",
+    "prayer": "O San Dirty Frag, che sporchi i frammenti che non sono tuoi, fa' che i nostri pacchetti decifrino in una copia e lascino stare i file degli altri. Amen.",
+    "feast": "Si festeggia aggiornando il kernel o, nell'attesa, mettendo in blacklist esp4, esp6 e rxrpc, e poi svuotando la page cache per scrupolo.",
+    "proverb": "La famiglia Dirty non manca mai a una festa."
+  },
+  "en": {
+    "title": "Saint Dirty Frag, Grandchild of Dirty Pipe",
+    "patronage": "the page cache, kernel modules loaded and never used, and bug families that never die out.",
+    "hagiography": "On 7 May 2026, when the embargo broke, Hyunwoo Kim published Dirty Frag: two Linux kernel flaws, in ESP and in RxRPC, that decrypted packets \"in place\" even when the fragments belonged to a file's page cache. Any user could thus rewrite read-only files in memory and become root on the major distributions, with no race to win and no crash. It descends from Dirty Pipe, and the first of the two bugs had been there since 2017.",
+    "prayer": "O Saint Dirty Frag, who dirties fragments that aren't yours, let our packets decrypt into a copy and leave other people's files alone. Amen.",
+    "feast": "Celebrated by updating the kernel or, meanwhile, blacklisting esp4, esp6 and rxrpc, then dropping the page cache for good measure.",
+    "proverb": "The Dirty family never misses a party."
+  }
+}

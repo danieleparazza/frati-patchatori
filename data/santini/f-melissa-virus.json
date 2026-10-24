@@ -1,0 +1,11 @@
+{
+  "label": "Melissa",
+  "motto": "TIMEO MACROS",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"100\" y=\"146\" width=\"100\" height=\"70\" rx=\"4\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M100 150 L150 188 L200 150\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<rect x=\"130\" y=\"120\" width=\"40\" height=\"50\" fill=\"#2b4a7a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"158\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"30\" fill=\"#fbf3dd\" >W</text>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#fbf3dd\" >× L</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Collateral Damage",
+  "motto": "DAMNUM LUDENS",
+  "niche": [
+    "#102a14",
+    "#22562a"
+  ],
+  "accent": "#17401e",
+  "emblem": "<path d=\"M112 162 C112 150 122 144 134 146 L166 146 C178 144 188 150 188 162 L196 206 C198 220 186 226 178 216 L168 202 H132 L122 216 C114 226 102 220 104 206 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M130 166 V186 M120 176 H140\" stroke=\"#2b1d14\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<g fill=\"#2b1d14\"><circle cx=\"168\" cy=\"168\" r=\"4\"/><circle cx=\"178\" cy=\"178\" r=\"4\"/><circle cx=\"158\" cy=\"178\" r=\"4\"/><circle cx=\"168\" cy=\"188\" r=\"4\"/></g>\n<path d=\"M150 120 L144 136 L152 138 L146 152\" stroke=\"#d9ad55\" stroke-width=\"3\" fill=\"none\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">SystemOS</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Fermax DTMF",
+  "motto": "TONO APERITUR",
+  "niche": [
+    "#2a1d14",
+    "#553d26"
+  ],
+  "accent": "#3d2c1b",
+  "emblem": "<rect x=\"122\" y=\"140\" width=\"56\" height=\"104\" rx=\"6\" fill=\"#4a4036\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<rect x=\"132\" y=\"150\" width=\"36\" height=\"22\" rx=\"2\" fill=\"#5dade2\" opacity=\"0.6\"/>\n<g fill=\"#2b2b2b\" stroke=\"#d9ad55\" stroke-width=\"1\"><rect x=\"132\" y=\"180\" width=\"10\" height=\"10\"/><rect x=\"145\" y=\"180\" width=\"10\" height=\"10\"/><rect x=\"158\" y=\"180\" width=\"10\" height=\"10\"/><rect x=\"132\" y=\"193\" width=\"10\" height=\"10\"/><rect x=\"145\" y=\"193\" width=\"10\" height=\"10\"/><rect x=\"158\" y=\"193\" width=\"10\" height=\"10\"/><rect x=\"132\" y=\"206\" width=\"10\" height=\"10\"/><rect x=\"145\" y=\"206\" width=\"10\" height=\"10\"/><rect x=\"158\" y=\"206\" width=\"10\" height=\"10\"/></g>\n<text x=\"137\" y=\"188\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"8\" fill=\"#e4572e\">1</text>\n<text x=\"163\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"8\" fill=\"#e4572e\">#</text>\n<g stroke=\"#d9ad55\" stroke-width=\"1.5\" fill=\"none\" opacity=\"0.85\"><path d=\"M182 184 q8 -6 0 -12\"/><path d=\"M188 190 q14 -12 0 -24\"/></g>"
+}

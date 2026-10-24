@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SIGRed, verme che dormì diciassette anni nel DNS",
+    "patronage": "dei server DNS di Windows, dei controller di dominio e dei bug che aspettano pazienti.",
+    "hagiography": "Nel luglio 2020 Sagi Tzadik di Check Point rivelò SIGRed (CVE-2020-1350), un difetto nel server DNS di Windows capace di diffondersi da macchina a macchina come un verme. Una risposta DNS costruita ad arte, con un record SIG sovradimensionato, mandava in overflow il servizio e poteva portare all'esecuzione di codice con i massimi privilegi. Il bug viveva nel codice dal 2003: diciassette anni di sonno prima del risveglio, con punteggio di gravità massimo.",
+    "prayer": "O San SIGRed, che dormi nei server dei nomi finché qualcuno ti chiama, proteggi i nostri DNS dalle risposte troppo lunghe. Amen.",
+    "feast": "Si festeggia installando la patch di luglio 2020, applicando se serve la mitigazione del registro e aggiornando i controller di dominio per primi.",
+    "proverb": "Verme che dorme nel nome, un giorno si sveglia e ti consuma."
+  },
+  "en": {
+    "title": "Saint SIGRed, Worm That Slept Seventeen Years in DNS",
+    "patronage": "Windows DNS servers, domain controllers, and bugs that wait patiently.",
+    "hagiography": "In July 2020 Sagi Tzadik of Check Point revealed SIGRed (CVE-2020-1350), a flaw in the Windows DNS server able to spread machine to machine like a worm. A crafted DNS response, with an oversized SIG record, overflowed the service and could lead to code execution with the highest privileges. The bug had lived in the code since 2003: seventeen years of sleep before waking, with the top severity score.",
+    "prayer": "O Saint SIGRed, who sleeps in the name servers until someone calls you, protect our DNS from responses that are too long. Amen.",
+    "feast": "Celebrated by installing the July 2020 patch, applying the registry mitigation if needed, and updating the domain controllers first.",
+    "proverb": "A worm asleep in the name wakes one day and eats you."
+  }
+}

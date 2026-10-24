@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Follina, che apriva Word e chiamava la diagnostica",
+    "patronage": "dei documenti Word ricevuti per email, dei protocolli che eseguono comandi e di chi apre gli allegati senza pensarci.",
+    "hagiography": "Il 27 maggio 2022 il gruppo nao_sec segnalò un documento Word sospetto che diede il nome a Follina (CVE-2022-30190). Un file preparato ad arte richiamava lo strumento di diagnostica di Windows, MSDT, tramite un URL speciale, e da lì eseguiva comandi con i privilegi dell'applicazione chiamante, in certi casi persino dall'anteprima del file. Il nome viene dal paese di Follina, il cui prefisso telefonico compariva nel documento.",
+    "prayer": "O San Follina, che dal documento chiami la diagnostica, fa' che i nostri file di testo restino testo. Amen.",
+    "feast": "Si festeggia applicando la correzione di giugno 2022 e disattivando, nell'attesa, il gestore di URL di MSDT.",
+    "proverb": "Documento aperto, diagnostica all’opera."
+  },
+  "en": {
+    "title": "Saint Follina, Who Opened Word and Called Diagnostics",
+    "patronage": "Word documents received by email, protocols that run commands, and people who open attachments without thinking.",
+    "hagiography": "On 27 May 2022 the nao_sec group flagged a suspicious Word document that gave Follina (CVE-2022-30190) its name. A crafted file invoked the Windows diagnostic tool, MSDT, through a special URL, and from there ran commands with the calling application's privileges, in some cases even from the file preview. The name comes from the town of Follina, whose dialling code appeared in the document.",
+    "prayer": "O Saint Follina, who calls diagnostics from the document, let our text files remain text. Amen.",
+    "feast": "Celebrated by applying the June 2022 fix and, meanwhile, disabling the MSDT URL handler.",
+    "proverb": "Open the document, set diagnostics to work."
+  }
+}

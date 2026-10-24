@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Juice Jacking, che rubava dalla presa",
+    "patronage": "delle colonnine di ricarica pubbliche, dei cavi USB sconosciuti e di chi ha sempre il telefono scarico.",
+    "hagiography": "Nell'agosto 2011 Brian Markus e colleghi di Aires Security allestirono al DEF CON una finta stazione di ricarica gratuita: chi vi collegava il telefono vedeva comparire un avviso, perché lo stesso cavo USB che porta la corrente può portare anche i dati. Battezzato juice jacking, l'attacco restò più spauracchio che epidemia, ma bastò a far nascere i cavi \"solo carica\" e qualche allarme dell'FBI.",
+    "prayer": "O Beato Juice Jacking, che offri corrente e chiedi dati in cambio, fa' che i nostri cavi portino solo elettroni. Amen.",
+    "feast": "Si festeggia caricando il telefono dalla propria presa, con un cavo solo-carica o un caricabatterie da muro.",
+    "proverb": "Presa sconosciuta, carica sospetta."
+  },
+  "en": {
+    "title": "Blessed Juice Jacking, Who Stole From the Socket",
+    "patronage": "public charging kiosks, unknown USB cables, and everyone whose phone is always flat.",
+    "hagiography": "In August 2011 Brian Markus and colleagues at Aires Security set up a fake free charging station at DEF CON: anyone who plugged in a phone got a warning, because the same USB cable that carries power can also carry data. Dubbed juice jacking, the attack stayed more bogeyman than epidemic, but it was enough to spawn \"charge-only\" cables and a few FBI warnings.",
+    "prayer": "O Blessed Juice Jacking, who offers power and asks for data in return, let our cables carry only electrons. Amen.",
+    "feast": "Celebrated by charging your phone from your own socket, with a charge-only cable or a wall adapter.",
+    "proverb": "Unknown socket, suspect charge."
+  }
+}

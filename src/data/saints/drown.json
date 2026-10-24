@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DROWN, che annegava il TLS nel passato",
+    "patronage": "dei protocolli che dovevano essere spenti, delle chiavi riusate in due posti e di SSLv2.",
+    "hagiography": "Il 1° marzo 2016 un gruppo internazionale di crittografi rivelò DROWN, la CVE-2016-0800. Bastava che un server, da qualche parte, accettasse ancora il vecchio SSLv2 con la stessa chiave RSA usata altrove perché un attaccante potesse decifrare il traffico TLS moderno di un server diverso. Secondo i ricercatori, al momento dell'annuncio circa un terzo dei server HTTPS era vulnerabile.",
+    "prayer": "O San DROWN, che riporti a galla i protocolli sepolti, fa' che SSLv2 resti spento e le nostre chiavi non girino di server in server. Amen.",
+    "feast": "Si festeggia disattivando SSLv2 ovunque, aggiornando OpenSSL alla 1.0.2g o 1.0.1s e non riusando mai la stessa chiave.",
+    "proverb": "Protocollo che credevi morto, ti tira a fondo il vivo."
+  },
+  "en": {
+    "title": "Saint DROWN, Who Drowned TLS in the Past",
+    "patronage": "protocols that should have been switched off, keys reused in two places, and SSLv2.",
+    "hagiography": "On 1 March 2016 an international group of cryptographers revealed DROWN, CVE-2016-0800. If any server anywhere still accepted the old SSLv2 with the same RSA key used elsewhere, an attacker could decrypt the modern TLS traffic of a different server. According to the researchers, about a third of all HTTPS servers were vulnerable at the time of the announcement.",
+    "prayer": "O Saint DROWN, who brings buried protocols back to the surface, keep SSLv2 switched off and our keys from travelling server to server. Amen.",
+    "feast": "Celebrated by disabling SSLv2 everywhere, updating OpenSSL to 1.0.2g or 1.0.1s, and never reusing the same key.",
+    "proverb": "A protocol you thought was dead drowns the living."
+  }
+}

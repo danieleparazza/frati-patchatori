@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato InjectEave, che faceva cantare i circuiti",
+    "patronage": "delle cuffie e dei telefoni VoIP, dei componenti analogici e di chi crede che bastino la cifratura e la rete spenta.",
+    "hagiography": "Nel 2026, a USENIX Security, un gruppo tra Hong Kong University of Science and Technology e Hong Kong Polytechnic presentò InjectEave. Iniettando a distanza un'onda radio in un dispositivo, le non linearità dei suoi componenti analogici rimescolavano un segnale segreto sulla portante, che tornava in aria pronto per essere intercettato. Così si potevano origliare cuffie e telefoni VoIP fino a trenta metri, anche attraverso i muri.",
+    "prayer": "O Beato InjectEave, che fai riemergere nell'etere ciò che scorre nei circuiti, fa' che i nostri cavi siano schermati e i nostri segnali restino dove li abbiamo messi. Amen.",
+    "feast": "Si festeggia schermando e filtrando i percorsi analogici più sensibili, consapevoli che la cifratura qui non aiuta.",
+    "proverb": "Segnale analogico, segreto che canta."
+  },
+  "en": {
+    "title": "Blessed InjectEave, Who Made the Circuits Sing",
+    "patronage": "headphones and VoIP phones, analog components, and everyone who trusts encryption and an unplugged network.",
+    "hagiography": "In 2026, at USENIX Security, a group spanning the Hong Kong University of Science and Technology and the Hong Kong Polytechnic presented InjectEave. By injecting a radio carrier into a device from afar, the nonlinearities of its analog components mixed a secret signal onto that carrier, which radiated back out ready to be intercepted. So one could eavesdrop on headphones and VoIP phones up to thirty metres away, even through walls.",
+    "prayer": "O Blessed InjectEave, who brings back into the air what flows through the circuits, let our cables be shielded and our signals stay where we put them. Amen.",
+    "feast": "Celebrated by shielding and filtering the most sensitive analog paths, knowing that encryption does not help here.",
+    "proverb": "Analog signal, singing secret."
+  }
+}

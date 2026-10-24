@@ -1,0 +1,11 @@
+{
+  "label": "MGM Resorts",
+  "motto": "DOMUS NON SEMPER VINCIT",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"112\" y=\"136\" width=\"76\" height=\"96\" rx=\"10\" fill=\"#3a2a20\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<g fill=\"#fbf3dd\"><rect x=\"124\" y=\"152\" width=\"16\" height=\"26\" rx=\"2\"/><rect x=\"142\" y=\"152\" width=\"16\" height=\"26\" rx=\"2\"/><rect x=\"160\" y=\"152\" width=\"16\" height=\"26\" rx=\"2\"/></g>\n<text x=\"132\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#c0392b\" >7</text><text x=\"150\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#c0392b\" >7</text><text x=\"168\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#2b2b2b\" >?</text>\n<path d=\"M190 150 V182\" stroke=\"#bfc9d1\" stroke-width=\"3\"/><circle cx=\"192\" cy=\"148\" r=\"5\" fill=\"#c0392b\"/>\n<rect x=\"124\" y=\"194\" width=\"52\" height=\"10\" rx=\"2\" fill=\"#d9ad55\"/>\n<path d=\"M136 214 C136 208 146 208 146 214 C146 220 136 220 136 214 Z M146 214 H166 M160 214 V220\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "SweynTooth",
+  "motto": "FILIUS DENTIS CAERULEI",
+  "niche": [
+    "#132c55",
+    "#22498a"
+  ],
+  "accent": "#132c55",
+  "emblem": "<path d=\"M116 150 C116 128 184 128 184 150 L176 156 H124 Z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M120 152 L112 134 M180 152 L188 134\" stroke=\"#fbf3dd\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<path d=\"M126 158 C126 186 136 204 150 210 C164 204 174 186 174 158 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M136 196 C140 222 144 236 140 246 M164 196 C160 222 156 236 160 246\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<g stroke=\"#2e86c1\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M142 168 L158 182 L150 190 V162 L158 170 L142 184\"/></g>"
+}

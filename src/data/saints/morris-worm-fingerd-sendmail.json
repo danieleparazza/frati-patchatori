@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Morris, Padre della Chiesa e primo dei vermi",
+    "patronage": "di chi dimentica una condizione d'arresto, dei demoni fingerd e sendmail e di tutti i vermi che verranno.",
+    "hagiography": "La notte del 2 novembre 1988 un programma scritto da Robert Tappan Morris, studente a Cornell, si diffuse da solo tra le macchine di Internet: entrava sfruttando un overflow nel demone fingerd, il comando di debug lasciato attivo in sendmail (CVE-1999-0095) e le password deboli. Un errore di propagazione lo fece replicare all'infinito, paralizzando migliaia di computer. Fu il primo worm di Internet, il caso che diede vita ai CERT; oggi lo celebriamo come Padre della Chiesa, il giorno dei morti.",
+    "prayer": "O San Morris, primo verme che non sapeva fermarsi, insegna ai nostri programmi quando è ora di smettere. Nel giorno dei morti, liberaci dalla replica infinita. Amen.",
+    "feast": "Si festeggia disattivando il comando di debug di sendmail, controllando i limiti dei buffer e, in memoria, scrivendo almeno una condizione di terminazione.",
+    "proverb": "Verme senza freno divora il campo intero."
+  },
+  "en": {
+    "title": "Saint Morris, Church Father and First of the Worms",
+    "patronage": "those who forget a stopping condition, the fingerd and sendmail daemons, and all the worms yet to come.",
+    "hagiography": "On the night of 2 November 1988 a program written by Robert Tappan Morris, a student at Cornell, spread by itself across the machines of the Internet: it got in through an overflow in the fingerd daemon, the debug command left enabled in sendmail (CVE-1999-0095) and weak passwords. A propagation mistake made it replicate without end, paralysing thousands of computers. It was the first Internet worm, the case that gave birth to the CERTs; today we honour it as a Church Father, on All Souls' Day.",
+    "prayer": "O Saint Morris, first worm that could not stop, teach our programs when it is time to quit. On the day of the dead, deliver us from endless replication. Amen.",
+    "feast": "Celebrated by disabling the sendmail debug command, checking buffer bounds and, in memoriam, writing at least one termination condition.",
+    "proverb": "A worm with no brake devours the whole field."
+  }
+}

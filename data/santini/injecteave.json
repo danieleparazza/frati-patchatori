@@ -1,0 +1,10 @@
+{
+  "label": "InjectEave",
+  "motto": "CIRCUITUS CANIT",
+  "niche": [
+    "#1a2b33",
+    "#38565f"
+  ],
+  "accent": "#223c44",
+  "emblem": "<path d=\"M150 150 a28 28 0 1 0 0.1 0\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M150 150 v22 l16 10\" stroke=\"#d9ad55\" stroke-width=\"3\" fill=\"none\"/>\n<rect x=\"140\" y=\"124\" width=\"20\" height=\"10\" rx=\"2\" fill=\"#bfc9d1\"/>\n<g stroke=\"#5dade2\" stroke-width=\"2\" fill=\"none\"><path d=\"M196 150 q12 28 0 56\"/><path d=\"M90 150 q-12 28 0 56\"/></g>\n<path d=\"M110 220 q10 -14 20 0 q10 14 20 0 q10 -14 20 0 q10 14 20 0\" stroke=\"#d9ad55\" stroke-width=\"2\" fill=\"none\"/>"
+}

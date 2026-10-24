@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Rapid Reset, che chiedeva e subito annullava",
+    "patronage": "dei server HTTP/2, dei CDN in reperibilità e di chi cambia idea mille volte al secondo.",
+    "hagiography": "Il 10 ottobre 2023 Google, Cloudflare e Amazon rivelarono insieme un attacco che sfruttava una funzione legittima di HTTP/2: aprire una richiesta e annullarla subito con un RST_STREAM, all'infinito. Il server lavorava per ogni richiesta, il client non aspettava mai la risposta. Con botnet relativamente piccole si toccarono record mai visti, fino a 398 milioni di richieste al secondo contro Google.",
+    "prayer": "O San Rapid Reset, che apri e chiudi come un indeciso al ristorante, insegna ai nostri server a dire basta. Amen.",
+    "feast": "Si festeggia aggiornando server e proxy HTTP/2 con i limiti sugli stream annullati, e prendendo una decisione al primo colpo.",
+    "proverb": "Chi annulla sempre fa lavorare gli altri."
+  },
+  "en": {
+    "title": "Saint Rapid Reset, Who Asked and Instantly Cancelled",
+    "patronage": "HTTP/2 servers, on-call CDN engineers, and people who change their minds a thousand times a second.",
+    "hagiography": "On 10 October 2023 Google, Cloudflare and Amazon jointly revealed an attack abusing a legitimate HTTP/2 feature: open a request and cancel it at once with an RST_STREAM, forever. The server did work for every request, the client never waited for an answer. Relatively small botnets set records never seen before, up to 398 million requests per second against Google.",
+    "prayer": "O Saint Rapid Reset, who opens and closes like an indecisive diner, teach our servers to say enough. Amen.",
+    "feast": "Celebrated by updating HTTP/2 servers and proxies with limits on cancelled streams, and making a decision on the first try.",
+    "proverb": "He who always cancels keeps everyone else busy."
+  }
+}

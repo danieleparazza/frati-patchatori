@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SMoTherSpectre, che ascoltava il salto",
+    "patronage": "delle previsioni dei salti, dei processori che tirano a indovinare e dei segreti che trapelano dai tempi.",
+    "hagiography": "Il 6 marzo 2019 un gruppo di ricercatori dell'EPFL e di IBM presentò SMoTherSpectre, una variante delle vulnerabilità di esecuzione speculativa. Spingendo il processore a prevedere un salto indiretto verso un frammento di codice scelto, e misurando con cura quanto impiegava a eseguirlo, si potevano dedurre bit di dati riservati di un altro programma, sfruttando la contesa tra le unità di esecuzione.",
+    "prayer": "O Beato SMoTherSpectre, che ascolti i segreti nel ritmo dei salti, fa' che i nostri processori non indovinino ciò che non devono. Amen.",
+    "feast": "Si festeggia applicando le mitigazioni Spectre, rafforzando i confini tra i programmi e misurando due volte prima di fidarsi dei tempi.",
+    "proverb": "Chi indovina il salto, origlia il pensiero."
+  },
+  "en": {
+    "title": "Blessed SMoTherSpectre, Who Listened to the Branch",
+    "patronage": "branch prediction, processors that guess, and secrets that leak through timing.",
+    "hagiography": "On 6 March 2019 a group of researchers from EPFL and IBM presented SMoTherSpectre, a variant of the speculative-execution vulnerabilities. By pushing the processor to predict an indirect branch toward a chosen code fragment, and carefully measuring how long it took to run, bits of another program's confidential data could be inferred, exploiting the contention between execution units.",
+    "prayer": "O Blessed SMoTherSpectre, who listens for secrets in the rhythm of branches, keep our processors from guessing what they shouldn't. Amen.",
+    "feast": "Celebrated by applying the Spectre mitigations, hardening the boundaries between programs, and measuring twice before trusting timing.",
+    "proverb": "Guess the branch, and you eavesdrop on the thought."
+  }
+}

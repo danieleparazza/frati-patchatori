@@ -1,0 +1,10 @@
+{
+  "label": "Bronze Bit",
+  "motto": "UNUS BIT SUFFICIT",
+  "niche": [
+    "#2e1d0f",
+    "#5e3d1e"
+  ],
+  "accent": "#44290f",
+  "emblem": "<circle cx=\"150\" cy=\"184\" r=\"44\" fill=\"#cd7f32\" stroke=\"#8a4b1a\" stroke-width=\"3\"/>\n<circle cx=\"150\" cy=\"184\" r=\"36\" fill=\"none\" stroke=\"#8a4b1a\" stroke-width=\"1.5\"/>\n<path d=\"M150 160 a24 24 0 0 1 0 48 a16 16 0 0 0 0 -48 Z\" fill=\"#e3a661\"/>\n<path d=\"M150 160 v10 M150 198 v10 M126 184 h10 M164 184 h10\" stroke=\"#8a4b1a\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">1 → 0</text>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#e3a661\">S4U2SELF</text>"
+}

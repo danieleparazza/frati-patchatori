@@ -1,0 +1,11 @@
+{
+  "label": "Avalanche",
+  "motto": "NIX DOMINIORUM STETIT",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<path d=\"M100 228 L140 150 L160 178 L172 162 L204 228 Z\" fill=\"#3f6a8c\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M140 150 L128 174 L138 170 L146 180 L152 168 Z\" fill=\"#fbf3dd\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"120\" cy=\"216\" r=\"5\"/><circle cx=\"134\" cy=\"208\" r=\"5\"/><circle cx=\"150\" cy=\"214\" r=\"5\"/><circle cx=\"164\" cy=\"204\" r=\"5\"/><circle cx=\"178\" cy=\"212\" r=\"5\"/><circle cx=\"142\" cy=\"222\" r=\"5\"/><circle cx=\"168\" cy=\"222\" r=\"5\"/></g>\n<rect x=\"96\" y=\"228\" width=\"108\" height=\"8\" fill=\"#d9ad55\"/>"
+}

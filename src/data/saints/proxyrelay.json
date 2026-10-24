@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ProxyRelay, ultimo della saga di Exchange",
+    "patronage": "degli Exchange on-premise che non muoiono mai, degli attacchi di relay NTLM e dei ricercatori che trovano la quarta puntata.",
+    "hagiography": "Il 19 ottobre 2022 Orange Tsai pubblicò la quarta parte della sua ricerca sulle superfici d'attacco di Microsoft Exchange, battezzata ProxyRelay: una catena di difetti permetteva di inoltrare l'autenticazione di un utente verso i servizi interni di Exchange e salire di privilegi. Microsoft aveva corretto i pezzi in bollettini diversi tra il 2021 e il 2022; il nome prosegue la celebre serie Proxy iniziata con ProxyLogon.",
+    "prayer": "O San ProxyRelay, che inoltri l'autenticazione a chi non dovrebbe, fa' che i nostri Exchange non parlino NTLM con estranei. Amen.",
+    "feast": "Si festeggia applicando tutti gli aggiornamenti cumulativi di Exchange e, dove si può, spegnendo quel vecchio server in sala macchine.",
+    "proverb": "Chi inoltra senza guardare consegna le chiavi di casa."
+  },
+  "en": {
+    "title": "Saint ProxyRelay, Last of the Exchange Saga",
+    "patronage": "on-premises Exchange servers that never die, NTLM relay attacks, and researchers who find the fourth instalment.",
+    "hagiography": "On 19 October 2022 Orange Tsai published the fourth part of his research into Microsoft Exchange attack surfaces, named ProxyRelay: a chain of flaws let you relay a user's authentication to Exchange's internal services and escalate privileges. Microsoft had fixed the pieces across different bulletins between 2021 and 2022; the name continues the famous Proxy series that began with ProxyLogon.",
+    "prayer": "O Saint ProxyRelay, who relays authentication to those who shouldn't have it, let our Exchange servers not speak NTLM with strangers. Amen.",
+    "feast": "Celebrated by applying every Exchange cumulative update and, where possible, switching off that old server in the machine room.",
+    "proverb": "Relay without looking and you hand over the house keys."
+  }
+}

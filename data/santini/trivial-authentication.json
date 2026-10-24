@@ -1,0 +1,10 @@
+{
+  "label": "Trivial Auth",
+  "motto": "INTRA, NON ROGO",
+  "niche": [
+    "#13302a",
+    "#256050"
+  ],
+  "accent": "#1b463c",
+  "emblem": "<rect x=\"124\" y=\"166\" width=\"52\" height=\"42\" rx=\"5\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M134 166 V150 A16 16 0 0 1 166 150 V166\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"5\"/>\n<circle cx=\"150\" cy=\"184\" r=\"6\" fill=\"#2b1d14\"/><rect x=\"147\" y=\"186\" width=\"6\" height=\"12\" fill=\"#2b1d14\"/>\n<path d=\"M150 150 L150 150\" />\n<path d=\"M186 150 L204 144 M186 158 L204 158\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"234\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#d9ad55\">SSH</text>"
+}

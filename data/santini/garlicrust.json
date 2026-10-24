@@ -1,0 +1,10 @@
+{
+  "label": "GarlicRust",
+  "motto": "ALLIUM LOQUAX",
+  "niche": [
+    "#2a2a1c",
+    "#55553a"
+  ],
+  "accent": "#3f3f2a",
+  "emblem": "<path d=\"M150 124 C146 134 146 140 150 146 C154 140 154 134 150 124 Z\" fill=\"#c9d6a3\"/>\n<path d=\"M150 146 C112 150 100 196 118 218 C130 232 170 232 182 218 C200 196 188 150 150 146 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g stroke=\"#c9b99a\" stroke-width=\"2\" fill=\"none\"><path d=\"M150 148 C136 170 134 200 140 226\"/><path d=\"M150 148 C164 170 166 200 160 226\"/><path d=\"M150 148 C122 166 116 196 126 222\"/><path d=\"M150 148 C178 166 184 196 174 222\"/></g>\n<g fill=\"#c0392b\"><path d=\"M150 230 q-6 10 0 14 q6 -4 0 -14z\"/><path d=\"M134 232 q-4 8 0 11 q4 -3 0 -11z\"/></g>\n<text x=\"190\" y=\"248\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">0x4b</text>"
+}

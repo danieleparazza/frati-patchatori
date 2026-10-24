@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San MongoBleed, che sanguinava dalla compressione",
+    "patronage": "dei database MongoDB esposti, della compressione zlib e di chi lascia la porta 27017 aperta al mondo.",
+    "hagiography": "Il 19 dicembre 2025 MongoDB pubblicò l'avviso per CVE-2025-14847, soprannominata MongoBleed: campi di lunghezza incoerenti nelle intestazioni del protocollo compresso con zlib permettevano a un client non autenticato di leggere memoria heap non inizializzata, log, percorsi interni e indirizzi dei client. Comparso presto un exploit pubblico, gli attacchi iniziarono in fretta e a fine dicembre CISA inserì la falla nel catalogo delle vulnerabilità sfruttate.",
+    "prayer": "O San MongoBleed, che fai sanguinare la memoria da un'intestazione compressa, fa' che i nostri database non parlino con sconosciuti. Amen.",
+    "feast": "Si festeggia aggiornando MongoDB alle versioni corrette, disabilitando la compressione zlib nel frattempo e chiudendo la 27017 verso Internet.",
+    "proverb": "Database esposto, memoria scoperta."
+  },
+  "en": {
+    "title": "Saint MongoBleed, Who Bled From the Compression",
+    "patronage": "exposed MongoDB databases, zlib compression, and anyone who leaves port 27017 open to the world.",
+    "hagiography": "On 19 December 2025 MongoDB published the advisory for CVE-2025-14847, nicknamed MongoBleed: mismatched length fields in the zlib-compressed protocol headers let an unauthenticated client read uninitialised heap memory, logs, internal paths and client addresses. A public exploit appeared soon after, attacks began quickly, and by late December CISA added the flaw to its catalogue of exploited vulnerabilities.",
+    "prayer": "O Saint MongoBleed, who bleeds memory from a compressed header, let our databases speak to no strangers. Amen.",
+    "feast": "Celebrated by updating MongoDB to the fixed versions, disabling zlib compression in the meantime, and closing 27017 to the internet.",
+    "proverb": "Exposed database, uncovered memory."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DeathSleep, che moriva per non farsi trovare",
+    "patronage": "dei programmi che si nascondono in memoria, degli scanner delusi e di chi dorme con un occhio solo.",
+    "hagiography": "Nel 2022 il ricercatore janoglezcampos pubblicò DeathSleep, una tecnica di evasione. Invece di restare in memoria mentre \"dormiva\", il codice distruggeva il proprio thread e ne faceva rinascere uno nuovo al risveglio, lasciando poco o nulla da osservare agli strumenti che scandagliano la memoria in cerca di minacce. Un santo che muore a ogni pisolino per risorgere subito dopo, invisibile nel frattempo.",
+    "prayer": "O Beato DeathSleep, che muori per sfuggire allo sguardo e risorgi per continuare, insegna ai nostri difensori a cercare anche chi non c'è più. Amen.",
+    "feast": "Si festeggia non fidandosi della sola scansione della memoria e sorvegliando anche i comportamenti, non solo le presenze.",
+    "proverb": "Chi muore a ogni pisolino, sfugge a ogni scandaglio."
+  },
+  "en": {
+    "title": "Blessed DeathSleep, Who Died So As Not to Be Found",
+    "patronage": "programs that hide in memory, disappointed scanners, and those who sleep with one eye open.",
+    "hagiography": "In 2022 the researcher janoglezcampos published DeathSleep, an evasion technique. Instead of staying in memory while it \"slept,\" the code destroyed its own thread and had a new one reborn on waking, leaving little or nothing for the tools that scour memory for threats to observe. A saint who dies at every nap to rise again straight after, invisible in the meantime.",
+    "prayer": "O Blessed DeathSleep, who dies to escape the gaze and rises to go on, teach our defenders to look also for those no longer there. Amen.",
+    "feast": "Celebrated by not trusting memory scanning alone and watching behaviours too, not only presences.",
+    "proverb": "Who dies at every nap escapes every scan."
+  }
+}

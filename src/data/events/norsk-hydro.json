@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di LockerGoga a Norsk Hydro",
+    "chronicle": "Nella notte tra il 18 e il 19 marzo 2019 il ransomware LockerGoga colpì Norsk Hydro, uno dei maggiori produttori di alluminio al mondo, costringendo impianti in diversi paesi a lavorare in modalità manuale. L'azienda rifiutò di pagare, ripristinò i sistemi dai backup e informò il pubblico con aggiornamenti e conferenze stampa di insolita franchezza. L'attacco le costò circa 70 milioni di dollari.",
+    "lesson": "Divenne il modello di come si affronta un ransomware a testa alta: backup funzionanti, operatori capaci di lavorare a mano e trasparenza verso clienti e mercati.",
+    "prayer": "O LockerGoga, che volevi fondere i server di chi fonde l'alluminio, fa' che i nostri backup siano freddi e le nostre comunicazioni sincere come quelle di Hydro. Amen.",
+    "remembrance": "Si ricorda provando i backup con ripristini veri, addestrando gli operatori al lavoro manuale e preparando prima cosa dire, e quando, a clienti e dipendenti."
+  },
+  "en": {
+    "title": "The Scourge of LockerGoga at Norsk Hydro",
+    "chronicle": "On the night of 18–19 March 2019 LockerGoga ransomware hit Norsk Hydro, one of the world's largest aluminium producers, forcing plants in several countries into manual operation. The company refused to pay, restored its systems from backups and kept the public informed with unusually candid updates and press conferences. The attack cost it about $70 million.",
+    "lesson": "It became the model for facing ransomware head-on: working backups, operators able to run things by hand, and transparency towards customers and markets.",
+    "prayer": "O LockerGoga, who tried to melt the servers of those who smelt aluminium, keep our backups cold and our communications as honest as Hydro's. Amen.",
+    "remembrance": "Remembered by testing backups with real restores, training operators to work manually and deciding in advance what to tell customers and staff, and when."
+  }
+}

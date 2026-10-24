@@ -1,0 +1,11 @@
+{
+  "label": "Capital One",
+  "motto": "NUBES LOQUAX",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M114 196 C100 196 98 172 116 170 C116 150 140 144 150 158 C158 140 188 146 186 170 C202 172 202 196 186 196 Z\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<text x=\"150\" y=\"188\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\" >169.254</text>\n<path d=\"M150 200 V222\" stroke=\"#d9ad55\" stroke-width=\"3\"/><polygon points=\"150,232 142,220 158,220\" fill=\"#d9ad55\"/>\n<circle cx=\"138\" cy=\"234\" r=\"5\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/><path d=\"M143 234 H162 M156 234 V240\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>"
+}

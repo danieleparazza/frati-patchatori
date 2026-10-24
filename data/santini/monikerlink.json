@@ -1,0 +1,10 @@
+{
+  "label": "MonikerLink",
+  "motto": "NOMEN EST LINK",
+  "niche": [
+    "#14304d",
+    "#235380"
+  ],
+  "accent": "#14304d",
+  "emblem": "<rect x=\"100\" y=\"146\" width=\"100\" height=\"66\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M100 150 L150 186 L200 150\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 136 C142 126 128 128 128 140 C128 150 142 156 150 164 C158 156 172 150 172 140 C172 128 158 126 150 136 Z\" fill=\"#e74c3c\" stroke=\"#fbf3dd\" stroke-width=\"1.5\" transform=\"translate(150 140) scale(0.55) translate(-150 -140) translate(70 -36)\"/>\n<rect x=\"144\" y=\"196\" width=\"12\" height=\"34\" rx=\"4\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<circle cx=\"150\" cy=\"242\" r=\"7\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>"
+}

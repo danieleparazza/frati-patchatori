@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Zapocalypse, che risalì la catena fino al pacchetto",
+    "patronage": "delle automazioni cloud, dei ruoli IAM battezzati meglio di come sono configurati e dei segreti lasciati nei Dockerfile.",
+    "hagiography": "Nel maggio 2026 Token Security raccontò Zapocalypse, una catena di attacco contro Zapier. Partendo da un account gratuito e dal codice eseguibile dentro una funzione serverless, i ricercatori uscirono dalla sandbox, recuperarono credenziali cloud dalla memoria, esplorarono i registri dei container e trovarono un token NPM in un Dockerfile, abbastanza potente da pubblicare pacchetti caricati nelle sessioni degli utenti. Nessun anello era uno zero-day: erano tutti \"anti-pattern\" già noti. Zapier corresse in fretta, quindi resta beato.",
+    "prayer": "O Beato Zapocalypse, che risali una catena di piccoli errori fino al cielo, fa' che ogni nostro anello sia robusto da solo. Amen.",
+    "feast": "Si festeggia dando ai token NPM una scadenza breve, togliendo i segreti dai Dockerfile e trattando il codice degli utenti come ostile.",
+    "proverb": "Una catena di piccole sviste regge un grande disastro."
+  },
+  "en": {
+    "title": "Blessed Zapocalypse, Who Climbed the Chain to the Package",
+    "patronage": "cloud automations, IAM roles named better than they are configured, and secrets left in Dockerfiles.",
+    "hagiography": "In May 2026 Token Security described Zapocalypse, an attack chain against Zapier. Starting from a free account and code run inside a serverless function, the researchers escaped the sandbox, recovered cloud credentials from memory, explored the container registries and found an NPM token in a Dockerfile, powerful enough to publish packages loaded into users' sessions. Not a single link was a zero-day: all were well-known anti-patterns. Zapier fixed it quickly, so he remains blessed.",
+    "prayer": "O Blessed Zapocalypse, who climbs a chain of small mistakes to the sky, let each of our links be strong on its own. Amen.",
+    "feast": "Celebrated by giving NPM tokens a short lifetime, taking secrets out of Dockerfiles, and treating user code as hostile.",
+    "proverb": "A chain of small oversights holds up a great disaster."
+  }
+}

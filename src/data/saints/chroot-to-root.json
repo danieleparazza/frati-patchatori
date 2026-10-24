@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San chroot to root, che dalla gabbia saliva al trono",
+    "patronage": "di sudo, delle opzioni dimenticate e di chi credeva che una gabbia fosse sempre una prigione.",
+    "hagiography": "Nel giugno 2025 Rich Mirch di Stratascale rivelò CVE-2025-32463 in sudo: l'opzione --chroot, pensata per confinare un comando dentro una directory, permetteva invece a un utente qualsiasi di far caricare a sudo una libreria dalla directory che lui stesso controllava, eseguendola come root. La gabbia, insomma, apriva sul trono. Il progetto sudo rimosse l'opzione difettosa.",
+    "prayer": "O San chroot to root, che fai del recinto una scala, insegna a sudo a non fidarsi delle gabbie scelte dall'ospite. Amen.",
+    "feast": "Si festeggia aggiornando sudo alla 1.9.17p1 e rinunciando, senza rimpianti, all'opzione --chroot.",
+    "proverb": "Chi sceglie la propria gabbia, ha già in tasca la chiave."
+  },
+  "en": {
+    "title": "Saint chroot to root, Who Rose From Cage to Throne",
+    "patronage": "sudo, forgotten options, and those who thought a cage was always a prison.",
+    "hagiography": "In June 2025 Rich Mirch of Stratascale revealed CVE-2025-32463 in sudo: the --chroot option, meant to confine a command inside a directory, instead let any user have sudo load a library from the directory he himself controlled, running it as root. The cage, in short, opened onto the throne. The sudo project removed the faulty option.",
+    "prayer": "O Saint chroot to root, who turns the pen into a staircase, teach sudo not to trust cages chosen by the guest. Amen.",
+    "feast": "Celebrated by updating sudo to 1.9.17p1 and giving up the --chroot option without regret.",
+    "proverb": "Who picks his own cage already holds the key."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Pixnapping, che rapiva i pixel altrui",
+    "patronage": "degli schermi Android, dei pixel disegnati da altre app e delle autorizzazioni che non servivano nemmeno.",
+    "hagiography": "L'8 settembre 2025 un gruppo tra Berkeley, University of Washington, UC San Diego e Carnegie Mellon rivelò Pixnapping. Un'app Android senza alcun permesso poteva costringere i pixel sensibili di altre app nel percorso di rendering e, misurando i tempi via un canale laterale della GPU, leggerli uno a uno, ricostruendo persino codici a sei cifre. Google corse ai ripari, ma la prima patch fu aggirata.",
+    "prayer": "O San Pixnapping, che leggi lo schermo del prossimo un pixel alla volta, fa' che i nostri pixel non trapelino nei tempi di disegno. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di sicurezza Android non appena arrivano, nella speranza che questa volta tengano.",
+    "proverb": "Pixel rubato uno alla volta, segreto perso tutto intero."
+  },
+  "en": {
+    "title": "Saint Pixnapping, Who Kidnapped Other People's Pixels",
+    "patronage": "Android screens, pixels drawn by other apps, and permissions that weren't even needed.",
+    "hagiography": "On 8 September 2025 a group spanning Berkeley, the University of Washington, UC San Diego and Carnegie Mellon revealed Pixnapping. An Android app with no permissions could force other apps' sensitive pixels into the rendering pipeline and, measuring timing through a GPU side channel, read them one by one, even reconstructing six-digit codes. Google scrambled to fix it, but the first patch was bypassed.",
+    "prayer": "O Saint Pixnapping, who reads your neighbour's screen one pixel at a time, let our pixels never leak through the timing of their drawing. Amen.",
+    "feast": "Celebrated by installing Android security updates as soon as they arrive, in the hope that this time they hold.",
+    "proverb": "A pixel stolen one at a time, a secret lost all at once."
+  }
+}

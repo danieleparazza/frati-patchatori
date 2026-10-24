@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Sweet32, martire dei cifrari a 64 bit",
+    "patronage": "dei cifrari 3DES e Blowfish, delle sessioni TLS lunghe una vita e dei blocchi troppo piccoli.",
+    "hagiography": "Il 25 ottobre 2016 Karthikeyan Bhargavan e Gaëtan Leurent dell'INRIA mostrarono Sweet32: i cifrari a blocchi da 64 bit come 3DES hanno uno spazio così piccolo che, dopo circa quattro miliardi di blocchi nella stessa sessione, le collisioni iniziano a svelare pezzi di testo in chiaro. Dimostrarono di poter recuperare un cookie da una sessione HTTPS tenuta aperta a lungo. Da allora 3DES è stato lentamente ritirato dai protocolli.",
+    "prayer": "O San Sweet32, che aspetti pazientemente la collisione, fa' che i nostri cifrari abbiano blocchi grandi e sessioni brevi. Amen.",
+    "feast": "Si festeggia disattivando 3DES e gli altri cifrari a 64 bit e scegliendo AES, con un dolcetto a parte.",
+    "proverb": "Blocco piccolo, collisione sicura."
+  },
+  "en": {
+    "title": "Saint Sweet32, Martyr of the 64-Bit Ciphers",
+    "patronage": "3DES and Blowfish ciphers, TLS sessions that last a lifetime, and blocks that are too small.",
+    "hagiography": "On 25 October 2016 Karthikeyan Bhargavan and Gaëtan Leurent of INRIA revealed Sweet32: 64-bit block ciphers like 3DES have a space so small that, after about four billion blocks in the same session, collisions start to reveal pieces of plaintext. They showed they could recover a cookie from an HTTPS session kept open long enough. Since then 3DES has been slowly retired from the protocols.",
+    "prayer": "O Saint Sweet32, who waits patiently for the collision, let our ciphers have large blocks and short sessions. Amen.",
+    "feast": "Celebrated by disabling 3DES and the other 64-bit ciphers and choosing AES, with a sweet on the side.",
+    "proverb": "Small block, certain collision."
+  }
+}

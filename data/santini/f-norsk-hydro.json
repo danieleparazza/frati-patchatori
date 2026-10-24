@@ -1,0 +1,11 @@
+{
+  "label": "Norsk Hydro",
+  "motto": "MANU NON PECUNIA",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<g fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"><path d=\"M108 206 L120 186 H180 L192 206 Z\"/><path d=\"M118 186 L128 168 H172 L182 186 Z\"/><path d=\"M128 168 L136 152 H164 L172 168 Z\"/></g>\n<rect x=\"104\" y=\"206\" width=\"92\" height=\"10\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"202\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2b2b2b\" >Al</text>\n<path d=\"M150 124 C140 132 140 140 146 146 M156 126 C150 134 152 140 158 144\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+}

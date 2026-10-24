@@ -1,0 +1,10 @@
+{
+  "label": "Bleeding Llama",
+  "motto": "LAMA LOQUAX",
+  "niche": [
+    "#3a1f1a",
+    "#6b3a2f"
+  ],
+  "accent": "#5a2a20",
+  "emblem": "<path d=\"M120 236 V200 C120 186 128 180 140 180 H170 L172 138 C172 126 178 120 186 122 L190 116 L192 124 C200 128 200 140 194 146 L184 150 L182 192 C182 204 178 210 176 214 V236 H166 V214 H134 V236 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"186\" cy=\"132\" r=\"2.5\" fill=\"#2b1d14\"/>\n<path d=\"M198 140 C202 146 200 152 196 156 C200 160 198 166 194 168\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<g fill=\"#c0392b\"><circle cx=\"196\" cy=\"176\" r=\"3\"/><path d=\"M196 184 c-4 6 -4 10 0 10 c4 0 4 -4 0 -10 Z\"/></g>\n<g font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\"><text x=\"98\" y=\"150\">KEY=</text><text x=\"102\" y=\"168\">sk-…</text></g>"
+}

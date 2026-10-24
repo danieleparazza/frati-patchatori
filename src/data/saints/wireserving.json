@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato WireServing, che interrogò il filo di Azure",
+    "patronage": "dei cluster Kubernetes su Azure, dei metadati interni e dei pod che chiacchierano con chi non dovrebbero.",
+    "hagiography": "Il 19 agosto 2024 Mandiant descrisse una scalata di privilegi nei cluster AKS configurati con la rete Azure CNI. Da un semplice pod, senza essere root, si potevano interrogare WireServer e HostGAPlugin, endpoint interni e non documentati di Azure, per recuperare lo script di provisioning del nodo. Dentro c'erano le credenziali di bootstrap TLS, e con quelle si leggevano i segreti di tutti i carichi del cluster.",
+    "prayer": "O Beato WireServing, che tiri il filo nascosto del nodo, fa' che i nostri pod parlino solo con i servizi che gli servono davvero. Amen.",
+    "feast": "Si festeggia applicando NetworkPolicy che blocchino l'accesso a 169.254.0.0/16 e agli endpoint che nessuno dovrebbe chiamare.",
+    "proverb": "Il filo che pende, qualcuno lo tira."
+  },
+  "en": {
+    "title": "Blessed WireServing, Who Queried Azure's Wire",
+    "patronage": "Kubernetes clusters on Azure, internal metadata, and pods that chat with the wrong endpoints.",
+    "hagiography": "On 19 August 2024 Mandiant described a privilege escalation in AKS clusters configured with Azure CNI networking. From an ordinary pod, without being root, one could query WireServer and HostGAPlugin, undocumented internal Azure endpoints, to recover the node's provisioning script. Inside were the TLS bootstrap credentials, and with those an attacker could read the secrets of every workload in the cluster.",
+    "prayer": "O Blessed WireServing, who pulls the node's hidden wire, let our pods speak only to the services they truly need. Amen.",
+    "feast": "Celebrated by applying NetworkPolicies that block access to 169.254.0.0/16 and to the endpoints nobody should call.",
+    "proverb": "A hanging wire is a wire someone will pull."
+  }
+}

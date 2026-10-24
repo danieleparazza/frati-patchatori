@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "Il miracolo della patch di Kaminsky",
+    "prodigy": "All'inizio del 2008 Dan Kaminsky scoprì un difetto nel cuore del DNS che permetteva di avvelenare la cache di quasi ogni resolver del mondo e dirottare interi domini. Invece di pubblicarlo per la gloria, lo tenne segreto e lavorò con il CERT/CC e con i produttori, tra cui Microsoft, ISC e Cisco, a una correzione comune basata sulla randomizzazione della porta sorgente. L'8 luglio 2008 le patch uscirono tutte insieme: fu una delle più grandi divulgazioni coordinate della storia di Internet.",
+    "thaumaturge": "Dan Kaminsky (1979–2021), ricercatore di sicurezza ricordato anche per la generosità con cui condivideva il suo sapere, insieme al CERT/CC e ai tanti produttori che accettarono di correggere in silenzio e nello stesso giorno.",
+    "thanksgiving": "Grazie, Dan, per aver preferito la patch alla ribalta, e per averci insegnato che un segreto ben custodito può salvare Internet intera. Amen."
+  },
+  "en": {
+    "title": "The Miracle of Kaminsky's Patch",
+    "prodigy": "In early 2008 Dan Kaminsky found a flaw at the heart of DNS that made it possible to poison the cache of almost every resolver in the world and hijack whole domains. Instead of publishing it for glory, he kept it secret and worked with CERT/CC and vendors, including Microsoft, ISC and Cisco, on a common fix based on source-port randomisation. On 8 July 2008 the patches shipped all at once: it was one of the largest coordinated disclosures in Internet history.",
+    "thaumaturge": "Dan Kaminsky (1979–2021), a security researcher also remembered for how generously he shared what he knew, together with CERT/CC and the many vendors who agreed to fix it quietly and on the same day.",
+    "thanksgiving": "Thank you, Dan, for choosing the patch over the spotlight, and for teaching us that a well-kept secret can save the whole Internet. Amen."
+  }
+}

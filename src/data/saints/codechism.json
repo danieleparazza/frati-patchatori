@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CodeChism, catechismo dei PLC",
+    "patronage": "dei controllori industriali, dei programmi in ladder e delle vulnerabilità battezzate controvoglia.",
+    "hagiography": "Nell'agosto 2023 K. Reid Wightman mostrò che in CODESYS Control, il runtime che anima moltissimi PLC, un utente autorizzato a caricare programmi poteva sfruttare un buffer overflow per uscire dalla logica di controllo e prendersi l'intero dispositivo. Il nome, spiegò lui stesso, lo scelse solo perché a una vulnerabilità tocca averne uno; ma suona come catechismo, e un santo dei PLC non poteva chiedere di meglio.",
+    "prayer": "O San CodeChism, che insegni ai PLC dottrine non scritte nel manuale, fa' che i nostri programmi restino nei confini della loro memoria. Amen.",
+    "feast": "Si festeggia aggiornando CODESYS Control come da advisory 2023-04 e recitando a memoria la norma IEC 61131-3.",
+    "proverb": "Programma caricato, controllore convertito."
+  },
+  "en": {
+    "title": "Saint CodeChism, Catechism of the PLCs",
+    "patronage": "industrial controllers, ladder logic programs, and vulnerabilities named reluctantly.",
+    "hagiography": "In August 2023 K. Reid Wightman showed that in CODESYS Control, the runtime that drives a great many PLCs, a user allowed to upload programs could abuse a buffer overflow to break out of the control logic and take over the whole device. He admitted he chose the name only because a vulnerability is supposed to have one; but it sounds like catechism, and a saint of PLCs could ask for nothing better.",
+    "prayer": "O Saint CodeChism, who teaches PLCs doctrines not found in the manual, keep our programs within the bounds of their memory. Amen.",
+    "feast": "Celebrated by updating CODESYS Control per advisory 2023-04 and reciting IEC 61131-3 by heart.",
+    "proverb": "Upload the program, convert the controller."
+  }
+}

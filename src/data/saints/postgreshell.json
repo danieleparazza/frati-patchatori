@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PostGREShell, che aprì la porta del database",
+    "patronage": "dei database PostgreSQL, della replica logica e delle porte rimaste socchiuse per dodici anni.",
+    "hagiography": "Il 1° settembre 2026 Vladimir Tokarev di Cyera descrisse una falla in PostgreSQL rimasta aperta dal 2014. Un utente non amministratore, purché dotato del privilegio di replica, poteva indicare al server di caricare come plugin di decodifica logica una libreria qualsiasi: il server la apriva ed eseguiva il suo codice con l'account del database, da cui scalare fino a superutente. Le versioni correttive uscirono ad agosto.",
+    "prayer": "O San PostGREShell, che scegli il plugin e il server lo esegue, fa' che il nostro caricatore apra solo le librerie di casa. Amen.",
+    "feast": "Si festeggia aggiornando PostgreSQL alla 18.6, 17.11, 16.15, 15.19 o 14.24 e togliendo il privilegio di replica a chi non serve.",
+    "proverb": "Porta socchiusa per anni, un giorno qualcuno la spinge."
+  },
+  "en": {
+    "title": "Saint PostGREShell, Who Opened the Database Door",
+    "patronage": "PostgreSQL databases, logical replication, and doors left ajar for twelve years.",
+    "hagiography": "On 1 September 2026 Vladimir Tokarev of Cyera described a flaw in PostgreSQL open since 2014. A non-admin user, as long as they held the replication privilege, could tell the server to load any library as a logical decoding plugin: the server opened it and ran its code as the database account, from which to escalate to superuser. The fixed releases came out in August.",
+    "prayer": "O Saint PostGREShell, who picks the plugin and the server runs it, let our loader open only the libraries of the house. Amen.",
+    "feast": "Celebrated by upgrading PostgreSQL to 18.6, 17.11, 16.15, 15.19 or 14.24 and taking the replication privilege from those who don't need it.",
+    "proverb": "A door left ajar for years, one day someone pushes it."
+  }
+}

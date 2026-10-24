@@ -1,0 +1,11 @@
+{
+  "label": "Facebook 2021",
+  "motto": "VIA SUBLATA EST",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<g fill=\"#3a4450\" stroke=\"#fbf3dd\" stroke-width=\"3\"><circle cx=\"116\" cy=\"170\" r=\"18\"/><circle cx=\"184\" cy=\"170\" r=\"18\"/></g>\n<g stroke=\"#fbf3dd\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M108 166 H124 M120 162 L124 166 L120 170 M124 174 H108 M112 170 L108 174 L112 178\"/><path d=\"M176 166 H192 M188 162 L192 166 L188 170 M192 174 H176 M180 170 L176 174 L180 178\"/></g>\n<path d=\"M134 170 H142 M158 170 H166\" stroke=\"#d9ad55\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<path d=\"M144 160 L156 180 M156 160 L144 180\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<text x=\"150\" y=\"216\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#fbf3dd\" >BGP</text><text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#bfc9d1\" >AS32934</text>"
+}

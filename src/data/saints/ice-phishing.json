@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Ice Phishing, pescatore sul ghiaccio della blockchain",
+    "patronage": "dei portafogli di criptovalute, delle firme date senza leggere e delle autorizzazioni che non scadono mai.",
+    "hagiography": "Il 16 febbraio 2022 i ricercatori di Microsoft descrissero l'ice phishing: invece di rubare la chiave privata, l'attaccante convince la vittima a firmare una transazione che lo autorizza a spendere i suoi token. Tra gli esempi citati c'era l'attacco del dicembre 2021 a BadgerDAO, costato agli utenti oltre cento milioni di dollari. Una pesca sul ghiaccio in cui è il pesce a porgere l'amo.",
+    "prayer": "O Beato Ice Phishing, che peschi con l'esca della firma, insegnaci a leggere ciò che approviamo. Amen.",
+    "feast": "Si festeggia revocando le autorizzazioni dimenticate del proprio portafoglio e diffidando di ogni pulsante «Approva».",
+    "proverb": "Firma sul ghiaccio, portafoglio a fondo."
+  },
+  "en": {
+    "title": "Blessed Ice Phishing, Fisherman on the Blockchain Ice",
+    "patronage": "cryptocurrency wallets, signatures given without reading, and approvals that never expire.",
+    "hagiography": "On 16 February 2022 Microsoft researchers described ice phishing: instead of stealing the private key, the attacker gets the victim to sign a transaction that authorises them to spend their tokens. Among the examples was the December 2021 attack on BadgerDAO, which cost users over a hundred million dollars. Ice fishing where the fish holds out the hook.",
+    "prayer": "O Blessed Ice Phishing, who fishes with the bait of a signature, teach us to read what we approve. Amen.",
+    "feast": "Celebrated by revoking your wallet's forgotten approvals and distrusting every \"Approve\" button.",
+    "proverb": "Sign on thin ice, and your wallet goes under."
+  }
+}

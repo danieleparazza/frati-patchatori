@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il grande furto di Bybit",
+    "chronicle": "Il 21 febbraio 2025 hacker nordcoreani del gruppo TraderTraitor, parte di Lazarus, svuotarono il portafoglio \"freddo\" dell'exchange Bybit. Avevano compromesso il computer di uno sviluppatore di Safe{Wallet}, il servizio di firma multipla usato da Bybit, e modificato l'interfaccia perché i firmatari approvassero, credendola normale, una transazione malevola. Uscirono circa 1,5 miliardi di dollari in ETH: il più grande furto di criptovalute mai registrato. Pochi giorni dopo l'FBI lo attribuì alla Corea del Nord.",
+    "lesson": "Insegnò che una firma multipla vale quanto ciò che i firmatari vedono davvero, e che la catena di fornitura del software arriva fino ai portafogli più protetti.",
+    "prayer": "O Lazarus, che risorgi a ogni furto, accecati davanti ai nostri portafogli e fa' che i nostri firmatari leggano davvero ciò che firmano. Amen.",
+    "remembrance": "Si ricorda verificando le transazioni su un dispositivo indipendente prima di firmarle, proteggendo i computer degli sviluppatori come sistemi critici e diffidando di ogni interfaccia che \"sembra normale\"."
+  },
+  "en": {
+    "title": "The Great Bybit Heist",
+    "chronicle": "On 21 February 2025 North Korean hackers from the TraderTraitor group, part of Lazarus, emptied the cold wallet of the Bybit exchange. They had compromised a developer's computer at Safe{Wallet}, the multisig service Bybit used, and altered the interface so that the signers approved a malicious transaction believing it was routine. About $1.5 billion in ETH went out: the largest crypto theft on record. Within days the FBI attributed it to North Korea.",
+    "lesson": "It taught that a multisig is only as good as what the signers actually see, and that the software supply chain reaches all the way to the best-guarded wallets.",
+    "prayer": "O Lazarus, who rise again with every theft, be blinded before our wallets, and let our signers truly read what they sign. Amen.",
+    "remembrance": "Remembered by verifying transactions on an independent device before signing, protecting developers' computers as critical systems and distrusting any interface that \"looks normal\"."
+  }
+}

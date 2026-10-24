@@ -1,0 +1,11 @@
+{
+  "label": "Blaster",
+  "motto": "REBOOTARE HUMANUM EST",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M186 160 A44 44 0 1 1 168 140\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<polygon points=\"160,124 184,138 160,152\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"192\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"34\" fill=\"#d9ad55\" >60</text>"
+}

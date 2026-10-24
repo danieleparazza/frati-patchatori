@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di TRITON, nemico della sicurezza",
+    "chronicle": "Il 14 dicembre 2017 FireEye e Dragos rivelarono un malware che aveva riprogrammato i sistemi di sicurezza strumentati Triconex di Schneider Electric in un impianto petrolchimico saudita. Questi controllori esistono per una sola ragione: fermare l'impianto prima di un'esplosione o di una fuga di sostanze tossiche. L'intrusione fu scoperta perché, nel 2017, provocò per errore l'arresto dell'impianto. FireEye collegò poi lo strumento a un istituto di ricerca del governo russo, il TsNIIKhM.",
+    "lesson": "Fu il primo malware noto costruito per disattivare le difese che proteggono vite umane negli impianti industriali, e costrinse il settore a trattare i sistemi di sicurezza come bersagli possibili.",
+    "prayer": "Per chi lavora ogni giorno accanto a processi pericolosi e si affida ai sistemi che lo proteggono, chiediamo protezione e vigilanza. Fa' che nessuno tocchi mai più ciò che esiste per salvare vite. Amen.",
+    "remembrance": "Si ricorda tenendo i controllori di sicurezza in modalità di funzionamento e non di programmazione, isolandone le reti e indagando su ogni arresto inspiegato."
+  },
+  "en": {
+    "title": "The Scourge of TRITON, Enemy of Safety",
+    "chronicle": "On 14 December 2017 FireEye and Dragos revealed malware that had reprogrammed Schneider Electric Triconex safety instrumented systems at a Saudi petrochemical plant. These controllers exist for one reason only: to shut a plant down before an explosion or a toxic release. The intrusion was discovered because in 2017 it accidentally triggered a plant shutdown. FireEye later linked the tool to a Russian government research institute, TsNIIKhM.",
+    "lesson": "It was the first known malware built to disable the defences that protect human lives in industrial plants, and forced the industry to treat safety systems as possible targets.",
+    "prayer": "For those who work every day beside dangerous processes and rely on the systems that protect them, we ask protection and vigilance. Let no one ever again tamper with what exists to save lives. Amen.",
+    "remembrance": "Remembered by keeping safety controllers in run mode rather than program mode, isolating their networks and investigating every unexplained shutdown."
+  }
+}

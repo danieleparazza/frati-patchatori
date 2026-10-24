@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San GameOver(lay), che sovrappose i privilegi",
+    "patronage": "dei kernel Ubuntu, di OverlayFS e di chi impila i filesystem senza guardare cosa cola di sotto.",
+    "hagiography": "Nel luglio 2023 i ricercatori di Wiz rivelarono GameOver(lay) (CVE-2023-2640 e CVE-2023-32629), due difetti nel modulo OverlayFS dei kernel Ubuntu. OverlayFS impila più filesystem uno sull'altro, ma qui gli attributi estesi dei file, comprese le capacità, potevano essere trascinati verso l'alto senza i dovuti controlli, permettendo a un utente comune di ottenere i privilegi di root con pochi comandi.",
+    "prayer": "O San GameOver(lay), che fai salire i privilegi impilando i filesystem, insegna ai nostri overlay a controllare ciò che portano in cima. Amen.",
+    "feast": "Si festeggia aggiornando il kernel di Ubuntu e diffidando degli attributi che salgono dal basso senza permesso.",
+    "proverb": "Filesystem impilato, privilegio regalato."
+  },
+  "en": {
+    "title": "Saint GameOver(lay), Who Overlaid the Privileges",
+    "patronage": "Ubuntu kernels, OverlayFS, and those who stack filesystems without looking at what drips underneath.",
+    "hagiography": "In July 2023 Wiz researchers revealed GameOver(lay) (CVE-2023-2640 and CVE-2023-32629), two flaws in the OverlayFS module of Ubuntu kernels. OverlayFS stacks several filesystems on top of one another, but here the extended attributes of files, capabilities included, could be carried upward without the proper checks, letting an ordinary user gain root privileges with a few commands.",
+    "prayer": "O Saint GameOver(lay), who raises privileges by stacking filesystems, teach our overlays to check what they carry to the top. Amen.",
+    "feast": "Celebrated by updating the Ubuntu kernel and distrusting attributes that climb from below without permission.",
+    "proverb": "Stack the filesystem, give the privilege away."
+  }
+}

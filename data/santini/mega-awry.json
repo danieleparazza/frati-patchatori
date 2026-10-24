@@ -1,0 +1,10 @@
+{
+  "label": "MEGA-awry",
+  "motto": "ARCA RESERATA",
+  "niche": [
+    "#3a1210",
+    "#6e241e"
+  ],
+  "accent": "#561a16",
+  "emblem": "<rect x=\"110\" y=\"156\" width=\"80\" height=\"64\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M126 156 V140 A24 24 0 0 1 174 140 V156\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"6\"/>\n<path d=\"M174 150 L174 158 L164 158\" stroke=\"#9e1b1b\" stroke-width=\"4\" fill=\"none\"/>\n<circle cx=\"150\" cy=\"184\" r=\"9\" fill=\"#2b1d14\"/><rect x=\"146\" y=\"188\" width=\"8\" height=\"18\" fill=\"#2b1d14\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#d9ad55\">RSA</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Bitskrieg",
+  "motto": "CLAVIS NON CLAUSA",
+  "niche": [
+    "#2a2a12",
+    "#525220"
+  ],
+  "accent": "#44441a",
+  "emblem": "<rect x=\"112\" y=\"156\" width=\"76\" height=\"60\" rx=\"6\" fill=\"#d9ad55\" stroke=\"#8a6d1f\" stroke-width=\"2\"/>\n<path d=\"M126 156 V140 A24 24 0 0 1 174 140 V156\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"7\"/>\n<path d=\"M174 150 V140 A24 24 0 0 0 150 116\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<circle cx=\"150\" cy=\"184\" r=\"8\" fill=\"#2b1d14\"/><rect x=\"146\" y=\"184\" width=\"8\" height=\"18\" fill=\"#2b1d14\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#bfc9d1\">WinRE</text>"
+}

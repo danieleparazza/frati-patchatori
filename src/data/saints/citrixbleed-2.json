@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CitrixBleed 2, che sanguinava ancora memoria",
+    "patronage": "dei gateway NetScaler, delle sessioni rubate e dei déjà-vu della sicurezza.",
+    "hagiography": "Nel giugno 2025 una nuova falla in NetScaler ADC e Gateway (CVE-2025-5777), ribattezzata CitrixBleed 2 da Kevin Beaumont, ripeteva la storia del 2023: un dispositivo che, interrogato, restituiva pezzi della propria memoria, tra cui i token di sessione. Con quelli un attaccante entrava senza password e senza fattore secondario. Finì presto tra le vulnerabilità sfruttate di CISA, a dimostrare che certe lezioni vanno imparate due volte.",
+    "prayer": "O San CitrixBleed 2, che fai parlare la memoria del gateway, fa' che i nostri dispositivi non ripetano gli errori già confessati. Amen.",
+    "feast": "Si festeggia aggiornando NetScaler, terminando le sessioni attive dopo la patch e rileggendo l'avviso del 2023, per non doverlo rivivere nel 2027.",
+    "proverb": "Ferita vecchia riaperta, sorpresa mai del tutto certa."
+  },
+  "en": {
+    "title": "Saint CitrixBleed 2, Who Bled Memory Again",
+    "patronage": "NetScaler gateways, stolen sessions, and security déjà vu.",
+    "hagiography": "In June 2025 a fresh flaw in NetScaler ADC and Gateway (CVE-2025-5777), dubbed CitrixBleed 2 by Kevin Beaumont, repeated the 2023 story: a device that, when queried, handed back pieces of its own memory, session tokens among them. With those an attacker logged in without a password and without a second factor. It soon joined CISA's exploited vulnerabilities, proving that some lessons have to be learned twice.",
+    "prayer": "O Saint CitrixBleed 2, who makes the gateway's memory speak, let our devices not repeat the sins they have already confessed. Amen.",
+    "feast": "Celebrated by updating NetScaler, terminating active sessions after patching, and rereading the 2023 advisory so as not to relive it in 2027.",
+    "proverb": "An old wound reopened brings a familiar surprise."
+  }
+}

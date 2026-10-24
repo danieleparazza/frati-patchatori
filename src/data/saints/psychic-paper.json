@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Psychic Paper, che mostra a ognuno ciò che vuole leggere",
+    "patronage": "dei file plist, dei parser che non vanno d'accordo e delle app che si firmano da sole il permesso.",
+    "hagiography": "Il 1° maggio 2020 Siguza raccontò come qualunque app per iOS e macOS potesse attribuirsi da sola i permessi più riservati del sistema. Bastava un commento XML scritto con malizia: i diversi parser di Apple leggevano lo stesso elenco di entitlement in modi diversi, e quello che controllava vedeva un'app innocua mentre quello che obbediva vedeva un'app onnipotente. Come la carta psichica del Doctor Who, mostrava a ciascuno ciò che voleva vedere.",
+    "prayer": "O San Psychic Paper, che con un commento ti fai credere chi non sei, fa' che i nostri parser leggano tutti la stessa cosa. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 13.4 o successivi e leggendo ogni commento XML con sospetto.",
+    "proverb": "Due parser, tre verità."
+  },
+  "en": {
+    "title": "Saint Psychic Paper, Who Shows Everyone What They Want to Read",
+    "patronage": "plist files, parsers that don't agree, and apps that sign their own permission slips.",
+    "hagiography": "On 1 May 2020 Siguza explained how any iOS or macOS app could grant itself the most restricted permissions in the system. A cunning XML comment was enough: Apple's different parsers read the same list of entitlements in different ways, so the one doing the checking saw a harmless app while the one obeying saw an all-powerful one. Like the psychic paper in Doctor Who, it showed everyone exactly what they wanted to see.",
+    "prayer": "O Saint Psychic Paper, who passes for someone else with a single comment, let our parsers all read the same thing. Amen.",
+    "feast": "Celebrated by updating to iOS 13.4 or later and reading every XML comment with suspicion.",
+    "proverb": "Two parsers, three truths."
+  }
+}

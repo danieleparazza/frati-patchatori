@@ -1,0 +1,11 @@
+{
+  "label": "Flame",
+  "motto": "MD5 FALSUM SIGILLUM",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M150 124 C168 148 182 160 180 190 C178 214 164 228 150 228 C136 228 120 214 120 190 C120 168 136 160 140 142 C146 156 150 160 154 150 C156 142 152 132 150 124 Z\" fill=\"#e67e22\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M150 168 C160 182 166 192 164 204 C162 216 156 222 150 222 C142 222 136 214 136 204 C136 192 146 186 150 168 Z\" fill=\"#f1c40f\"/>\n<rect x=\"128\" y=\"196\" width=\"44\" height=\"30\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"216\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#c0392b\" >MD5</text>"
+}

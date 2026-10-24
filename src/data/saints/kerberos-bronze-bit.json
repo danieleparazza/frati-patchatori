@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Kerberos Bronze Bit, che falsificava la delega",
+    "patronage": "degli amministratori di dominio, della delega vincolata e di chi pensa che un singolo bit non faccia la differenza.",
+    "hagiography": "L'8 dicembre 2020 Jake Karnes di NetSPI pubblicò tecnica ed exploit per CVE-2020-17049. Chi possedeva l'hash di un account di servizio con delega vincolata poteva, con S4U2self, chiedere un ticket per un utente qualsiasi e poi ribaltare il flag 'forwardable'. Quel flag era protetto solo dalla cifratura con la password del servizio: un solo bit cambiato e il ticket valeva per chiunque, membri del gruppo Protected Users compresi.",
+    "prayer": "O San Kerberos Bronze Bit, che capovolgi un flag come si volta una moneta, fa' che i nostri ticket siano firmati e non solo cifrati. Amen.",
+    "feast": "Si festeggia installando la patch di Microsoft con la firma del PAC e rivedendo chi ha davvero bisogno della delega.",
+    "proverb": "Un bit di bronzo apre porte d'oro."
+  },
+  "en": {
+    "title": "Saint Kerberos Bronze Bit, Who Forged the Delegation",
+    "patronage": "domain admins, constrained delegation, and anyone who thinks a single bit makes no difference.",
+    "hagiography": "On 8 December 2020 Jake Karnes of NetSPI published the technique and exploit for CVE-2020-17049. Anyone holding the hash of a service account with constrained delegation could use S4U2self to request a ticket for any user and then flip the 'forwardable' flag. That flag was protected only by encryption with the service's password: one bit changed and the ticket was good for anyone, members of the Protected Users group included.",
+    "prayer": "O Saint Kerberos Bronze Bit, who flips a flag like turning a coin, let our tickets be signed and not merely encrypted. Amen.",
+    "feast": "Celebrated by installing Microsoft's PAC signature patch and reviewing who really needs delegation.",
+    "proverb": "A bronze bit opens golden doors."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Xortigate, che traboccò dalla VPN",
+    "patronage": "delle VPN SSL, dei cancelli sul perimetro e delle patch rilasciate prima dell'avviso.",
+    "hagiography": "Nel giugno 2023 Charles Fol e Dany Bach di LEXFO annunciarono un heap overflow nella VPN SSL di FortiOS, raggiungibile prima di qualsiasi autenticazione e quindi sfruttabile da chiunque per eseguire codice sul firewall. Il nome unisce Fortigate allo XOR della routine difettosa. Fortinet pubblicò le versioni corrette qualche giorno prima dell'avviso ufficiale, e il bug finì presto nel catalogo CISA delle vulnerabilità sfruttate.",
+    "prayer": "O San Xortigate, che entri dal cancello che doveva proteggerci, fa' che le nostre VPN controllino le lunghezze prima di decifrare. Amen.",
+    "feast": "Si festeggia aggiornando FortiOS e chiedendosi, ancora una volta, se la VPN debba proprio stare esposta a tutta Internet.",
+    "proverb": "Cancello che trabocca, padrone che non tocca."
+  },
+  "en": {
+    "title": "Saint Xortigate, Who Overflowed the VPN",
+    "patronage": "SSL VPNs, gates on the perimeter, and patches released before the advisory.",
+    "hagiography": "In June 2023 Charles Fol and Dany Bach of LEXFO announced a heap overflow in the FortiOS SSL VPN, reachable before any authentication and so exploitable by anyone to run code on the firewall. The name blends FortiGate with the XOR in the faulty routine. Fortinet shipped fixed versions a few days before the official advisory, and the bug soon landed in CISA's catalogue of exploited vulnerabilities.",
+    "prayer": "O Saint Xortigate, who enters through the very gate meant to protect us, let our VPNs check lengths before they decrypt. Amen.",
+    "feast": "Celebrated by updating FortiOS and wondering, once again, whether the VPN really has to face the whole Internet.",
+    "proverb": "A gate that overflows lets the wrong people through."
+  }
+}

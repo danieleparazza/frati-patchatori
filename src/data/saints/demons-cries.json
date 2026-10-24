@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Demon's Cries, che cambiava le password agli switch",
+    "patronage": "degli switch di rete gestiti, del protocollo NSDP e dei pacchetti senza autenticazione.",
+    "hagiography": "Il 6 settembre 2021 Gynvael Coldwind rivelò Demon's Cries, una falla in alcuni switch smart NETGEAR. Il demone sccd, che ascolta il protocollo di gestione NSDP, accettava un pacchetto privo del campo di autenticazione come se fosse legittimo: così un attaccante senza credenziali poteva cambiare la password dell'amministratore da remoto. Era una delle vulnerabilità ornitologicamente battezzate di quella ricerca.",
+    "prayer": "O San Demon's Cries, che gridi comandi che nessuno ha autenticato, fa' che i nostri demoni rifiutino i pacchetti senza firma. Amen.",
+    "feast": "Si festeggia aggiornando il firmware degli switch NETGEAR e isolando l'interfaccia di gestione.",
+    "proverb": "Pacchetto senza firma, demone senza padrone."
+  },
+  "en": {
+    "title": "Saint Demon's Cries, Who Changed the Switches' Passwords",
+    "patronage": "managed network switches, the NSDP protocol, and packets without authentication.",
+    "hagiography": "On 6 September 2021 Gynvael Coldwind revealed Demon's Cries, a flaw in certain NETGEAR smart switches. The sccd daemon, which listens for the NSDP management protocol, accepted a packet missing its authentication field as if it were legitimate: so an attacker with no credentials could change the administrator password remotely. It was one of the ornithologically named vulnerabilities of that research.",
+    "prayer": "O Saint Demon's Cries, who shouts commands nobody authenticated, let our daemons refuse packets without a signature. Amen.",
+    "feast": "Celebrated by updating the NETGEAR switch firmware and isolating the management interface.",
+    "proverb": "An unsigned packet, a masterless daemon."
+  }
+}

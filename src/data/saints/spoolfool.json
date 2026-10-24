@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SpoolFool, giullare della coda di stampa",
+    "patronage": "dello Spooler di stampa, delle cartelle create dove non si deve e delle patch che correggono la patch precedente.",
+    "hagiography": "L'8 febbraio 2022 Microsoft corresse la CVE-2022-21999 e Oliver Lyak pubblicò come funzionava. Lo Spooler di stampa, già reso celebre da PrintNightmare, permetteva a un utente qualsiasi di indicare la cartella di spool di una stampante e, con un collegamento ben piazzato, di farla creare in una directory di sistema; da lì a caricare una DLL come SYSTEM il passo era breve. Era l'aggiramento di una correzione precedente: lo Spooler non finisce mai di stupire.",
+    "prayer": "O San SpoolFool, che ti burli delle nostre code di stampa, fa' che lo Spooler resti spento dove nessuno stampa. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di febbraio 2022 e disattivando lo Spooler sui server che non vedono una stampante dal secolo scorso.",
+    "proverb": "Chi rattoppa lo Spooler, lo rattoppa due volte."
+  },
+  "en": {
+    "title": "Saint SpoolFool, Jester of the Print Queue",
+    "patronage": "the Print Spooler, folders created where they shouldn't be, and patches that fix the previous patch.",
+    "hagiography": "On 8 February 2022 Microsoft fixed CVE-2022-21999 and Oliver Lyak published how it worked. The Print Spooler, already made famous by PrintNightmare, let any user set a printer's spool folder and, with a well-placed link, have it created inside a system directory; from there to loading a DLL as SYSTEM was a short step. It bypassed an earlier fix: the Spooler never stops surprising.",
+    "prayer": "O Saint SpoolFool, who mocks our print queues, keep the Spooler switched off wherever nobody prints. Amen.",
+    "feast": "Celebrated by installing the February 2022 updates and disabling the Spooler on servers that haven't seen a printer since last century.",
+    "proverb": "Patch the Spooler once, and you'll patch it twice."
+  }
+}

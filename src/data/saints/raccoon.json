@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Raccoon, che rovistava nei tempi del TLS",
+    "patronage": "delle strette di mano TLS, dello scambio Diffie-Hellman e di chi riusa la stessa chiave effimera per pigrizia.",
+    "hagiography": "Il 9 settembre 2020 un gruppo di ricercatori rivelò Raccoon, un attacco temporizzato contro lo scambio Diffie-Hellman in TLS. Quando un server riusava la stessa chiave effimera e con un timing misurabile, un attaccante paziente poteva ricostruire il segreto condiviso e decifrare la connessione. Serviva molta fortuna e molte misurazioni, ma il procione sa frugare a lungo prima di trovare qualcosa.",
+    "prayer": "O San Raccoon, che rovisti tra i microsecondi della stretta di mano, fa' che i nostri server non riusino mai la stessa chiave effimera. Amen.",
+    "feast": "Si festeggia disattivando la riutilizzazione delle chiavi DH e preferendo lo scambio su curve ellittiche.",
+    "proverb": "Chi riusa la chiave effimera, lascia briciole al procione."
+  },
+  "en": {
+    "title": "Saint Raccoon, Who Rummaged in the TLS Timings",
+    "patronage": "TLS handshakes, the Diffie-Hellman exchange, and everyone who reuses the same ephemeral key out of laziness.",
+    "hagiography": "On 9 September 2020 a group of researchers revealed Raccoon, a timing attack against the Diffie-Hellman exchange in TLS. When a server reused the same ephemeral key and with measurable timing, a patient attacker could reconstruct the shared secret and decrypt the connection. It took a lot of luck and a lot of measurements, but the raccoon knows how to rummage a long time before it finds something.",
+    "prayer": "O Saint Raccoon, who rummages among the microseconds of the handshake, let our servers never reuse the same ephemeral key. Amen.",
+    "feast": "Celebrated by disabling DH key reuse and preferring exchange over elliptic curves.",
+    "proverb": "Reuse the ephemeral key and you leave crumbs for the raccoon."
+  }
+}

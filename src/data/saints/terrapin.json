@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Terrapin, che tagliava di nascosto l'handshake",
+    "patronage": "delle connessioni SSH, dei numeri di sequenza e di chi crede che un canale cifrato sia per forza integro.",
+    "hagiography": "Il 18 dicembre 2023 i ricercatori di Terrapin mostrarono un difetto nel protocollo SSH: un attaccante a metà strada poteva togliere alcuni pacchetti all'inizio della connessione, in particolare dalla negoziazione delle estensioni, senza farsi accorgere. Così alcune difese di sicurezza venivano silenziosamente declassate o disattivate. Colpiva OpenSSH prima della 9.6 e molti altri prodotti.",
+    "prayer": "O San Terrapin, che sfili pacchetti dall'inizio del dialogo, fa' che i nostri handshake contino ogni messaggio dal primo. Amen.",
+    "feast": "Si festeggia aggiornando client e server SSH alla versione con il contromisura 'strict kex'.",
+    "proverb": "Chi non conta i primi pacchetti, paga gli ultimi."
+  },
+  "en": {
+    "title": "Saint Terrapin, Who Quietly Trimmed the Handshake",
+    "patronage": "SSH connections, sequence numbers, and anyone who thinks an encrypted channel must be an intact one.",
+    "hagiography": "On 18 December 2023 the Terrapin researchers showed a flaw in the SSH protocol: a man in the middle could remove certain packets at the start of the connection, especially from the extension negotiation, without being noticed. In this way some security defences were silently downgraded or switched off. It affected OpenSSH before 9.6 and many other products.",
+    "prayer": "O Saint Terrapin, who slips packets from the start of the conversation, let our handshakes count every message from the first. Amen.",
+    "feast": "Celebrated by updating SSH clients and servers to the version with the 'strict kex' countermeasure.",
+    "proverb": "Who doesn't count the first packets pays for the last."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "MongoBleed",
+  "motto": "FOLIUM SANGUINANS",
+  "niche": [
+    "#143322",
+    "#2a6141"
+  ],
+  "accent": "#1d4530",
+  "emblem": "<path d=\"M150 130 C120 150 118 200 150 240 C182 200 180 150 150 130 Z\" fill=\"#4a7a4f\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 134 C150 160 150 210 150 236\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 160 L134 150 M150 180 L132 170 M150 200 L136 192 M150 170 L166 160 M150 190 L168 182\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<g fill=\"#c0392b\"><path d=\"M150 240 q-5 10 0 16 q5 -6 0 -16z\"/><path d=\"M160 216 q-4 8 0 11 q4 -3 0 -11z\"/></g>\n<text x=\"150\" y=\"124\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#d9ad55\">zlib len?</text>"
+}

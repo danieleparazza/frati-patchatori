@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San MonikerLink, dal punto esclamativo",
+    "patronage": "dei link nelle email, della Visualizzazione protetta e dei punti esclamativi messi dove non servono.",
+    "hagiography": "Il 14 febbraio 2024 Haifei Li di Check Point raccontò la CVE-2024-21413, corretta il giorno prima da Microsoft. Un collegamento costruito con un punto esclamativo nel posto giusto faceva aprire a Outlook un documento remoto senza passare dalla Visualizzazione protetta: bastava un clic per regalare le credenziali NTLM all'attaccante e, nei casi peggiori, l'esecuzione di codice. CISA la aggiunse al catalogo delle vulnerabilità sfruttate.",
+    "prayer": "O San MonikerLink, che con un punto esclamativo spalanchi le porte, fa' che i nostri link restino solo link. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di febbraio 2024 per Office e bloccando l'NTLM in uscita verso internet, il giorno di San Valentino.",
+    "proverb": "Un punto esclamativo e la protezione resta a bocca aperta."
+  },
+  "en": {
+    "title": "Saint MonikerLink, of the Exclamation Mark",
+    "patronage": "links in emails, Protected View, and exclamation marks where they have no business.",
+    "hagiography": "On 14 February 2024 Haifei Li of Check Point described CVE-2024-21413, fixed by Microsoft the day before. A link built with an exclamation mark in the right place made Outlook open a remote document without going through Protected View: one click handed the attacker NTLM credentials and, in the worst cases, code execution. CISA added it to the catalogue of exploited vulnerabilities.",
+    "prayer": "O Saint MonikerLink, who throws doors open with an exclamation mark, let our links stay just links. Amen.",
+    "feast": "Celebrated by installing the February 2024 Office updates and blocking outbound NTLM to the internet, on Valentine's Day.",
+    "proverb": "One exclamation mark, and protection is left speechless."
+  }
+}

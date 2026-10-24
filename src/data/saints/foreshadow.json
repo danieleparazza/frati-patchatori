@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Foreshadow, che lesse nel futuro delle enclavi",
+    "patronage": "delle enclavi SGX, della cache L1 e degli hypervisor che condividono troppo con i vicini.",
+    "hagiography": "Il 14 agosto 2018 due gruppi di ricercatori, tra KU Leuven, Technion, University of Michigan e University of Adelaide, rivelarono un nuovo attacco di esecuzione speculativa sui processori Intel. Sfruttando un difetto chiamato L1 Terminal Fault, si potevano leggere i dati delle enclavi SGX, comprese le loro chiavi di attestazione. Le varianti successive, dette Foreshadow-NG, colpivano anche sistemi operativi e macchine virtuali.",
+    "prayer": "O San Foreshadow, che anticipi i segreti prima che vengano chiesti, fa' che la nostra cache L1 si svuoti a ogni cambio di stanza. Amen.",
+    "feast": "Si festeggia aggiornando microcode, sistema operativo e hypervisor e, dove serve, spegnendo l'hyper-threading con un sospiro.",
+    "proverb": "Chi specula sul futuro, legge il presente degli altri."
+  },
+  "en": {
+    "title": "Saint Foreshadow, Who Read the Enclaves' Future",
+    "patronage": "SGX enclaves, the L1 cache, and hypervisors that share too much with the neighbours.",
+    "hagiography": "On 14 August 2018 two groups of researchers, spanning KU Leuven, Technion, the University of Michigan and the University of Adelaide, revealed a new speculative execution attack on Intel processors. By exploiting a flaw called L1 Terminal Fault, they could read data from SGX enclaves, including their attestation keys. The later variants, called Foreshadow-NG, also hit operating systems and virtual machines.",
+    "prayer": "O Saint Foreshadow, who foresees secrets before they are asked for, let our L1 cache be flushed every time we change rooms. Amen.",
+    "feast": "Celebrated by updating microcode, operating system and hypervisor and, where needed, disabling hyper-threading with a sigh.",
+    "proverb": "Speculate on the future and you read other people's present."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Sasser",
+    "chronicle": "Il 30 aprile 2004 comparve Sasser, un worm che non chiedeva nemmeno un clic: bastava essere connessi a Internet con un Windows privo della patch MS04-011, pubblicata diciassette giorni prima per un buffer overflow in LSASS. Le macchine colpite si bloccavano e si riavviavano di continuo. Compagnie aeree, guardie costiere, ferrovie e aziende di tutto il mondo subirono disservizi. L'autore, il giovane tedesco Sven Jaschan, fu individuato grazie a informatori attirati dalla taglia offerta da Microsoft.",
+    "lesson": "Confermò che il tempo tra la patch e il worm si stava riducendo a pochi giorni, e che una taglia può convincere a parlare chi conosce l'autore.",
+    "prayer": "O Sasser, che entravi senza bussare, accorcia il tempo tra la patch e la sua installazione e veglia sui computer lasciati in rete senza difese. Amen.",
+    "remembrance": "Si ricorda applicando le patch critiche entro pochi giorni e non collegando mai a Internet un sistema appena installato prima di averlo aggiornato."
+  },
+  "en": {
+    "title": "The Scourge of Sasser",
+    "chronicle": "On 30 April 2004 Sasser appeared, a worm that didn't even need a click: being online with a copy of Windows lacking MS04-011, released seventeen days earlier for a buffer overflow in LSASS, was enough. Infected machines crashed and rebooted over and over. Airlines, coastguards, railways and businesses around the world were disrupted. Its author, young German Sven Jaschan, was caught thanks to informants drawn by a reward offered by Microsoft.",
+    "lesson": "It confirmed that the gap between patch and worm was shrinking to days, and that a reward can persuade those who know the author to talk.",
+    "prayer": "O Sasser, who came in without knocking, shorten the time between a patch and its installation and watch over the computers left online without defences. Amen.",
+    "remembrance": "Remembered by applying critical patches within days and never connecting a freshly installed system to the Internet before updating it."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Win Dirty Pipe",
+  "motto": "PER TUBUM EXITUS",
+  "niche": [
+    "#1d2b40",
+    "#3b5272"
+  ],
+  "accent": "#273c58",
+  "emblem": "<rect x=\"104\" y=\"166\" width=\"40\" height=\"34\" rx=\"4\" fill=\"#5d7a99\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"144\" y=\"166\" width=\"52\" height=\"34\" fill=\"#7f8c8d\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"144\" y=\"200\" width=\"52\" height=\"14\" fill=\"#6b7577\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#5dade2\"><path d=\"M160 214 q-6 10 0 14 q6 -4 0 -14z\"/><path d=\"M176 218 q-6 10 0 14 q6 -4 0 -14z\"/></g>\n<rect x=\"116\" y=\"136\" width=\"16\" height=\"16\" fill=\"#fbf3dd\" stroke=\"#2b1d14\"/><rect x=\"116\" y=\"136\" width=\"8\" height=\"8\" fill=\"#5d7a99\"/>\n<path d=\"M124 152 V166\" stroke=\"#5d7a99\" stroke-width=\"3\"/>"
+}

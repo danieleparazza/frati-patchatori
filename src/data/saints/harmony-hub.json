@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Harmony Hub, dalle chiavi di scorta in casa",
+    "patronage": "dei telecomandi universali, della casa domotica e dei conti di servizio che nessuno sapeva esistessero.",
+    "hagiography": "Il 19 dicembre 2018 Tenable rese noto che l'hub universale Logitech Harmony, prima della versione 4.15.206, conteneva due account scritti direttamente nel firmware, dentro il server XMPP. Chi li conosceva poteva collegarsi da remoto all'API locale del dispositivo, cioè al cervello del salotto che comanda TV, luci e serrande, usando le chiavi di scorta lasciate dal fabbricante.",
+    "prayer": "O San Harmony Hub, che tieni due chiavi di troppo sotto lo zerbino del firmware, fa' che le credenziali nascano uniche e non in serie. Amen.",
+    "feast": "Si festeggia aggiornando il firmware alla 4.15.206 e cercando, in ogni dispositivo smart, le chiavi che il fabbricante ha dimenticato."
+  },
+  "en": {
+    "title": "Saint Harmony Hub, With Spare Keys in the House",
+    "patronage": "universal remotes, the smart home, and service accounts nobody knew existed.",
+    "hagiography": "On 19 December 2018 Tenable disclosed that the Logitech Harmony universal hub, before version 4.15.206, contained two accounts written straight into the firmware, inside the XMPP server. Whoever knew them could connect remotely to the device's local API, that is to the brain of the living room that commands the TV, lights and blinds, using the spare keys left by the manufacturer.",
+    "prayer": "O Saint Harmony Hub, who keeps two keys too many under the firmware's doormat, let credentials be born unique and not in batches. Amen.",
+    "feast": "Celebrated by updating the firmware to 4.15.206 and searching every smart device for the keys the manufacturer forgot."
+  }
+}

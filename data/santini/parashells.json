@@ -1,0 +1,10 @@
+{
+  "label": "ParaShells",
+  "motto": "SOCKET OMNIBUS",
+  "niche": [
+    "#2a1d2e",
+    "#52385a"
+  ],
+  "accent": "#3e2844",
+  "emblem": "<rect x=\"112\" y=\"140\" width=\"76\" height=\"58\" rx=\"4\" fill=\"#1b1b2f\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"124\" y=\"170\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2ecc71\">$ sudo</text>\n<text x=\"124\" y=\"190\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">#_</text>\n<g><rect x=\"118\" y=\"208\" width=\"26\" height=\"26\" rx=\"13\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"/><circle cx=\"131\" cy=\"221\" r=\"4\" fill=\"#5dade2\"/></g>\n<path d=\"M150 221 h26\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"176\" y=\"208\" width=\"12\" height=\"26\" rx=\"3\" fill=\"#d9ad55\"/>\n<text x=\"150\" y=\"250\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#fbf3dd\">||</text>"
+}

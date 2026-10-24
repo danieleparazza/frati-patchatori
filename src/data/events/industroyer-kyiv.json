@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Industroyer",
+    "chronicle": "La sera del 17 dicembre 2016 un malware progettato per parlare direttamente i protocolli della rete elettrica (IEC 104, IEC 61850, OPC DA) aprì gli interruttori della sottostazione di trasmissione di Pivnichna. Parte di Kyiv rimase senza corrente per circa un'ora, un anno dopo il primo blackout informatico in Ucraina. ESET, che lo chiamò Industroyer, e Dragos, che lo chiamò CrashOverride, lo attribuirono al gruppo Sandworm.",
+    "lesson": "Dimostrò che si poteva automatizzare un attacco alla rete elettrica e riutilizzarlo altrove, e che i protocolli industriali nati senza autenticazione vanno protetti con la segmentazione e il monitoraggio.",
+    "prayer": "O Industroyer, che parlavi la lingua delle sottostazioni meglio di molti ingegneri, fa' che le nostre reti ascoltino solo chi è autorizzato a dare ordini. Amen.",
+    "remembrance": "Si ricorda monitorando il traffico dei protocolli industriali, segmentando le reti delle sottostazioni e provando regolarmente il ripristino manuale."
+  },
+  "en": {
+    "title": "The Scourge of Industroyer",
+    "chronicle": "On the evening of 17 December 2016 malware designed to speak electric-grid protocols directly (IEC 104, IEC 61850, OPC DA) opened the breakers at the Pivnichna transmission substation. Part of Kyiv lost power for about an hour, a year after Ukraine's first cyber blackout. ESET, which named it Industroyer, and Dragos, which named it CrashOverride, attributed it to the Sandworm group.",
+    "lesson": "It proved that an attack on the grid could be automated and reused elsewhere, and that industrial protocols born without authentication must be protected by segmentation and monitoring.",
+    "prayer": "O Industroyer, who spoke the language of substations better than many engineers, let our networks heed only those authorised to give orders. Amen.",
+    "remembrance": "Remembered by monitoring industrial protocol traffic, segmenting substation networks and regularly rehearsing manual restoration."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Mirai",
+    "chronicle": "Il 21 ottobre 2016, in due ondate, un enorme DDoS lanciato dalla botnet Mirai colpì Dyn, un fornitore di servizi DNS. L'esercito era fatto di telecamere, videoregistratori e altri oggetti connessi con le password di fabbrica. Per ore Twitter, Netflix, Reddit, GitHub e molti altri siti diventarono irraggiungibili per buona parte degli Stati Uniti e dell'Europa. I tre giovani autori di Mirai si dichiararono poi colpevoli davanti a un tribunale federale statunitense per aver creato la botnet.",
+    "lesson": "Rese evidente che l'Internet delle cose era anche l'Internet delle password di default, e che concentrare il DNS su un solo fornitore crea un unico punto di rottura.",
+    "prayer": "O Mirai, esercito di telecamere che non guardavano nulla, insegna ai fabbricanti a cambiare le password di fabbrica e a noi a non dipendere da un solo DNS. Amen.",
+    "remembrance": "Si ricorda cambiando la password della videocamera di casa, aggiornando il firmware dei dispositivi connessi e usando più di un fornitore DNS per i propri domini."
+  },
+  "en": {
+    "title": "The Scourge of Mirai",
+    "chronicle": "On 21 October 2016, in two waves, a huge DDoS from the Mirai botnet hit Dyn, a DNS provider. Its army was made of cameras, video recorders and other connected devices still using factory passwords. For hours Twitter, Netflix, Reddit, GitHub and many other sites became unreachable across much of the US and Europe. Mirai's three young authors later pleaded guilty in US federal court to creating the botnet.",
+    "lesson": "It made clear that the Internet of Things was also the Internet of default passwords, and that relying on a single DNS provider creates a single point of failure.",
+    "prayer": "O Mirai, army of cameras that watched nothing, teach manufacturers to change factory passwords and teach us not to depend on a single DNS. Amen.",
+    "remembrance": "Remembered by changing the password on the home camera, updating connected devices' firmware and using more than one DNS provider for your domains."
+  }
+}

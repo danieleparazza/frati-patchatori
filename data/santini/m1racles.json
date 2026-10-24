@@ -1,0 +1,10 @@
+{
+  "label": "M1RACLES",
+  "motto": "CANALIS OCCULTUS",
+  "niche": [
+    "#1a2733",
+    "#33495c"
+  ],
+  "accent": "#24384f",
+  "emblem": "<rect x=\"118\" y=\"148\" width=\"64\" height=\"64\" rx=\"4\" fill=\"#2b2b2b\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#bfc9d1\">M1</text>\n<g stroke=\"#9aa6b8\" stroke-width=\"2\"><path d=\"M118 162 H104 M118 178 H104 M118 194 H104 M182 162 H196 M182 178 H196 M182 194 H196\"/></g>\n<path d=\"M104 128 h40 v12\" fill=\"none\" stroke=\"#7ee08a\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<path d=\"M196 128 h-40 v12\" fill=\"none\" stroke=\"#7ee08a\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<circle cx=\"104\" cy=\"128\" r=\"4\" fill=\"#7ee08a\"/><circle cx=\"196\" cy=\"128\" r=\"4\" fill=\"#7ee08a\"/>\n<text x=\"150\" y=\"124\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#7ee08a\">reg s3</text>"
+}

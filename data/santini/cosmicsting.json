@@ -1,0 +1,10 @@
+{
+  "label": "CosmicSting",
+  "motto": "ACULEUS E CAELO",
+  "niche": [
+    "#1a1230",
+    "#3a2a66"
+  ],
+  "accent": "#281e4a",
+  "emblem": "<g fill=\"#f1c40f\" stroke=\"#fbf3dd\" stroke-width=\"1\"><path d=\"M150 150 l5 -22 l5 22z\"/></g>\n<ellipse cx=\"150\" cy=\"176\" rx=\"22\" ry=\"28\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g stroke=\"#d9ad55\" stroke-width=\"2.5\"><path d=\"M150 164 h-0.1 M138 170 h24 M138 182 h24\"/></g>\n<g stroke=\"#d9ad55\" stroke-width=\"1.5\"><path d=\"M128 162 L110 150 M128 176 L106 176 M128 190 L110 202 M172 162 L190 150 M172 176 L194 176 M172 190 L190 202\"/></g>\n<path d=\"M150 204 l0 26 l-8 -8 M150 230 l8 -8\" stroke=\"#c0392b\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>"
+}

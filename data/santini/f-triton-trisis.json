@@ -1,0 +1,11 @@
+{
+  "label": "TRITON",
+  "motto": "SALUS TANGI NON DEBET",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M150 128 L192 144 V176 C192 204 174 222 150 234 C126 222 108 204 108 176 V144 Z\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<path d=\"M150 142 V220 M136 150 V172 C136 182 164 182 164 172 V150\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<path d=\"M150 214 L140 224 M150 214 L160 224\" stroke=\"#d9ad55\" stroke-width=\"3\"/>"
+}

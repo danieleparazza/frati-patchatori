@@ -1,0 +1,10 @@
+{
+  "label": "Dota 2",
+  "motto": "MAPPA INSIDIOSA",
+  "niche": [
+    "#3a1414",
+    "#6b2420"
+  ],
+  "accent": "#6b2420",
+  "emblem": "<path d=\"M106 136 L150 126 L194 136 V214 L150 224 L106 214 Z\" fill=\"#e8dcc0\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 126 V224\" stroke=\"#2b1d14\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/>\n<path d=\"M114 206 C130 186 168 170 186 144\" fill=\"none\" stroke=\"#2e86c1\" stroke-width=\"4\"/>\n<g fill=\"none\" stroke=\"#7a6656\" stroke-width=\"2\"><path d=\"M120 150 h12 M126 144 v12\"/><path d=\"M168 196 h12 M174 190 v12\"/></g>\n<path d=\"M140 166 l20 20 M160 166 l-20 20\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<g stroke=\"#d9ad55\" stroke-width=\"4\" stroke-linecap=\"round\"><line x1=\"104\" y1=\"244\" x2=\"196\" y2=\"232\"/><line x1=\"104\" y1=\"232\" x2=\"196\" y2=\"244\"/></g>"
+}

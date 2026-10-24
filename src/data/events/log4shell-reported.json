@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "Il miracolo della segnalazione di Log4Shell",
+    "prodigy": "Il 24 novembre 2021 Chen Zhaojun, del team di sicurezza di Alibaba Cloud, scrisse in privato ai manutentori di Apache Log4j per segnalare che le ricerche JNDI nei messaggi di log permettevano di eseguire codice da remoto. La segnalazione riservata diede ai volontari del progetto il tempo di preparare una correzione prima che il difetto diventasse pubblico a dicembre. In seguito il ministero cinese dell'industria (MIIT) sospese una collaborazione con Alibaba Cloud per non aver informato prima il governo.",
+    "thaumaturge": "Chen Zhaojun e il team di sicurezza di Alibaba Cloud, con i manutentori volontari di Apache Log4j che lavorarono alla correzione.",
+    "thanksgiving": "Per un'email mandata alle persone giuste prima che al mondo intero, e per i volontari che hanno passato le feste a correggere il codice di tutti, rendiamo grazie. Amen."
+  },
+  "en": {
+    "title": "The Miracle of the Log4Shell Report",
+    "prodigy": "On 24 November 2021 Chen Zhaojun of the Alibaba Cloud Security Team privately emailed the Apache Log4j maintainers to report that JNDI lookups in log messages allowed remote code execution. The private report gave the project's volunteers time to prepare a fix before the flaw became public in December. China's Ministry of Industry and Information Technology (MIIT) later suspended a partnership with Alibaba Cloud for not informing the government first.",
+    "thaumaturge": "Chen Zhaojun and the Alibaba Cloud Security Team, with the volunteer maintainers of Apache Log4j who worked on the fix.",
+    "thanksgiving": "For an email sent to the right people before the whole world, and for the volunteers who spent the holidays fixing everyone's code, we give thanks. Amen."
+  }
+}

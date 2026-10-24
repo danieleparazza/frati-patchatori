@@ -1,0 +1,11 @@
+{
+  "label": "Emotet",
+  "motto": "COCCINELLA VINCIT",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<ellipse cx=\"150\" cy=\"186\" rx=\"40\" ry=\"44\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M150 142 V230\" stroke=\"#1a1a1a\" stroke-width=\"3\"/>\n<circle cx=\"150\" cy=\"140\" r=\"16\" fill=\"#1a1a1a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"#1a1a1a\"><circle cx=\"132\" cy=\"172\" r=\"6\"/><circle cx=\"168\" cy=\"172\" r=\"6\"/><circle cx=\"128\" cy=\"198\" r=\"6\"/><circle cx=\"172\" cy=\"198\" r=\"6\"/><circle cx=\"138\" cy=\"218\" r=\"6\"/><circle cx=\"162\" cy=\"218\" r=\"6\"/></g>\n<path d=\"M142 126 L136 116 M158 126 L164 116\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>"
+}

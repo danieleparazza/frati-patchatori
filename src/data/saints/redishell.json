@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RediShell, che svegliò lo spazzino di Lua",
+    "patronage": "delle cache esposte su Internet senza password, degli script Lua e dei bug che compiono tredici anni.",
+    "hagiography": "All'inizio di ottobre 2025 Redis corresse, e Wiz raccontò, un use-after-free nascosto nell'interprete Lua incorporato nel database: con uno script costruito ad arte si manipolava il garbage collector fino a uscire dalla sandbox ed eseguire codice sul server. Il difetto, portato da Wiz al Pwn2Own di Berlino, esisteva da circa tredici anni e ricevette un CVSS di 10. Serviva un utente autenticato, ma Wiz contò decine di migliaia di istanze esposte che non chiedevano alcuna password.",
+    "prayer": "O San RediShell, che scendi nella spazzatura di Lua e ne risali con una shell, fa' che i nostri Redis chiedano almeno una password. Amen.",
+    "feast": "Si festeggia aggiornando Redis alla 8.2.2 o vietando con le ACL i comandi EVAL ed EVALSHA a chi non ne ha bisogno.",
+    "proverb": "Chi fruga nella spazzatura trova sempre qualcosa."
+  },
+  "en": {
+    "title": "Saint RediShell, Who Woke Lua's Garbage Collector",
+    "patronage": "caches exposed to the Internet without a password, Lua scripts, and bugs turning thirteen.",
+    "hagiography": "In early October 2025 Redis fixed, and Wiz described, a use-after-free hidden in the Lua interpreter embedded in the database: a crafted script could manipulate the garbage collector until it escaped the sandbox and ran code on the server. The flaw, which Wiz took to Pwn2Own Berlin, had existed for about thirteen years and received a CVSS of 10. It needed an authenticated user, but Wiz counted tens of thousands of exposed instances that asked for no password at all.",
+    "prayer": "O Saint RediShell, who climbs down into Lua's rubbish and comes back up with a shell, let our Redis servers ask for at least one password. Amen.",
+    "feast": "Celebrated by upgrading Redis to 8.2.2, or using ACLs to forbid EVAL and EVALSHA to anyone who does not need them.",
+    "proverb": "Rummage through the rubbish and you'll always find something."
+  }
+}

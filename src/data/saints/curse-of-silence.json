@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Curse of Silence, che zittì i Nokia",
+    "patronage": "dei vecchi telefoni Symbian, degli SMS costruiti ad arte e di chi aspetta un messaggio che non arriverà mai.",
+    "hagiography": "Il 30 dicembre 2008, al congresso 25C3, Tobias Engel del Chaos Computer Club presentò la «maledizione del silenzio»: un SMS speciale, marcato come posta elettronica e con un indirizzo email di almeno 32 caratteri, mandava in tilt la messaggistica dei Nokia Series 60. Dopo averlo ricevuto, il telefono smetteva di accettare nuovi SMS, e per guarirlo spesso serviva un ripristino di fabbrica. Un solo messaggio e il silenzio calava sul telefono.",
+    "prayer": "O Beato Curse of Silence, che fai tacere il telefono con un solo messaggio, fa' che i nostri apparecchi leggano gli SMS senza ammalarsi. Amen.",
+    "feast": "Si festeggia aggiornando il firmware del telefono, o ritirando con affetto il vecchio Symbian nel cassetto dei ricordi.",
+    "proverb": "Basta un messaggio per calare il silenzio."
+  },
+  "en": {
+    "title": "Blessed Curse of Silence, Who Hushed the Nokias",
+    "patronage": "old Symbian phones, crafted SMS messages, and everyone waiting for a message that will never come.",
+    "hagiography": "On 30 December 2008, at the 25C3 congress, Tobias Engel of the Chaos Computer Club presented the \"curse of silence\": a special SMS, marked as e-mail and carrying an address of at least 32 characters, jammed the messaging of Nokia Series 60 phones. After receiving it, the phone stopped accepting new text messages, and healing it often needed a factory reset. One message, and silence fell on the phone.",
+    "prayer": "O Blessed Curse of Silence, who hushes the phone with a single message, let our devices read SMS without falling ill. Amen.",
+    "feast": "Celebrated by updating the phone firmware, or fondly retiring the old Symbian to the drawer of memories.",
+    "proverb": "One message is enough to bring the silence down."
+  }
+}

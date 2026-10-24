@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "Il miracolo dell'Operazione Tovar",
+    "prodigy": "Il 2 giugno 2014 fu annunciato che, a partire dal 30 maggio, una coalizione internazionale aveva preso il controllo della botnet peer-to-peer GameOver Zeus, che rubava credenziali bancarie, e interrotto la distribuzione del ransomware CryptoLocker. Vennero rese pubbliche le accuse contro Evgeniy Bogachev, ritenuto il capo dell'organizzazione. Poco dopo i ricercatori misero a disposizione un servizio gratuito per decifrare i file delle vittime di CryptoLocker.",
+    "thaumaturge": "L'FBI, la National Crime Agency britannica e l'EC3 di Europol, con ricercatori privati tra cui CrowdStrike, Dell SecureWorks, Fox-IT e la fondazione Shadowserver, che riuscirono a dirottare una botnet senza un centro da spegnere.",
+    "thanksgiving": "Per una rete senza testa disarmata nodo per nodo, e per i file restituiti a chi li credeva perduti, rendiamo grazie. Amen."
+  },
+  "en": {
+    "title": "The Miracle of Operation Tovar",
+    "prodigy": "On 2 June 2014 it was announced that, starting on 30 May, an international coalition had taken control of the peer-to-peer GameOver Zeus botnet, which stole banking credentials, and cut off the distribution of CryptoLocker ransomware. Charges were unsealed against Evgeniy Bogachev, alleged to be the ring's leader. Shortly afterwards researchers released a free service to decrypt CryptoLocker victims' files.",
+    "thaumaturge": "The FBI, the UK's National Crime Agency and Europol's EC3, with private researchers including CrowdStrike, Dell SecureWorks, Fox-IT and the Shadowserver Foundation, who managed to hijack a botnet that had no centre to switch off.",
+    "thanksgiving": "For a headless network disarmed node by node, and for files returned to those who thought them lost, we give thanks. Amen."
+  }
+}

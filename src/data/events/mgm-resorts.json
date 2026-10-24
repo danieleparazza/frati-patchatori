@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di MGM, il banco che perse",
+    "chronicle": "Domenica 10 settembre 2023 il gruppo noto come Scattered Spider, affiliato ad ALPHV/BlackCat, cifrò più di cento hypervisor ESXi di MGM Resorts. Erano entrati con una telefonata all'help desk informatico, fingendosi un dipendente per farsi reimpostare le credenziali. Per circa dieci giorni slot machine, chiavi delle camere e sistemi di prenotazione andarono in tilt nei casinò di MGM, e gli ospiti fecero la fila con le chiavi fisiche. L'azienda stimò un impatto di circa 100 milioni di dollari.",
+    "lesson": "Mostrò che l'help desk è una porta d'ingresso e che verificare l'identità di chi chiama vale quanto qualunque firewall. Mostrò anche quanto sia pericoloso concentrare tutto su pochi hypervisor.",
+    "prayer": "O Scattered Spider, ragno che tessi tele al telefono, fa' che i nostri help desk chiedano sempre una prova in più e che il banco, almeno nei server, non perda mai. Amen.",
+    "remembrance": "Si ricorda con procedure rigorose di verifica dell'identità all'help desk, autenticazione resistente al phishing per gli amministratori e backup degli hypervisor tenuti fuori dalla loro portata."
+  },
+  "en": {
+    "title": "The Scourge of MGM, When the House Lost",
+    "chronicle": "On Sunday 10 September 2023 the group known as Scattered Spider, an ALPHV/BlackCat affiliate, encrypted more than a hundred of MGM Resorts' ESXi hypervisors. They had got in with a call to the IT help desk, posing as an employee to get credentials reset. For about ten days slot machines, room keys and booking systems failed across MGM's casinos, and guests queued for physical keys. The company estimated an impact of about $100 million.",
+    "lesson": "It showed that the help desk is a front door and that verifying who is calling is worth as much as any firewall. It also showed the danger of concentrating everything on a few hypervisors.",
+    "prayer": "O Scattered Spider, who spins webs over the phone, let our help desks always ask for one more proof, and let the house, at least in the server room, never lose. Amen.",
+    "remembrance": "Remembered with strict identity checks at the help desk, phishing-resistant authentication for administrators and hypervisor backups kept out of their reach."
+  }
+}

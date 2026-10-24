@@ -1,0 +1,11 @@
+{
+  "label": "Costa Rica 2022",
+  "motto": "RESPUBLICA NON SOLVIT",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"108\" y=\"146\" width=\"84\" height=\"56\" rx=\"2\" fill=\"#002b7f\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"108\" y=\"155\" width=\"84\" height=\"38\" fill=\"#fbf3dd\"/><rect x=\"108\" y=\"164\" width=\"84\" height=\"20\" fill=\"#ce1126\"/>\n<path d=\"M108 146 V236\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<rect x=\"128\" y=\"208\" width=\"44\" height=\"30\" rx=\"3\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M136 208 V200 A14 14 0 0 1 164 200 V208\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>"
+}

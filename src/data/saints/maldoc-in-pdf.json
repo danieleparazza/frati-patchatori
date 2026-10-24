@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato MalDoc in PDF, documento con doppia faccia",
+    "patronage": "degli allegati ambigui, dei file che sono due cose insieme e degli antivirus che si fidano dell'estensione.",
+    "hagiography": "Il 28 agosto 2023 il JPCERT/CC descrisse una tecnica semplice e beffarda: nascondere un documento Word con macro dentro un file che ha una firma da PDF. Il file apre regolarmente come PDF, ma se trascinato in Word esegue le sue macro; gli strumenti che lo classificano come PDF non guardano oltre. Un documento con due anime, a seconda di chi lo apre.",
+    "prayer": "O Beato MalDoc in PDF, che sei PDF per l'antivirus e Word per la vittima, fa' che i nostri strumenti guardino il contenuto e non solo l'intestazione. Amen.",
+    "feast": "Si festeggia analizzando i file per quello che contengono, non per come si chiamano, e disattivando le macro di Office.",
+    "proverb": "Un file, due facce, un solo inganno."
+  },
+  "en": {
+    "title": "Blessed MalDoc in PDF, the Two-Faced Document",
+    "patronage": "ambiguous attachments, files that are two things at once, and antivirus tools that trust the extension.",
+    "hagiography": "On 28 August 2023 JPCERT/CC described a simple, mischievous technique: hiding a macro-enabled Word document inside a file that carries a PDF signature. The file opens normally as a PDF, but dragged into Word it runs its macros; tools that classify it as a PDF look no further. A document with two souls, depending on who opens it.",
+    "prayer": "O Blessed MalDoc in PDF, who are a PDF to the antivirus and Word to the victim, let our tools look at the content and not only the header. Amen.",
+    "feast": "Celebrated by analysing files for what they contain, not what they are called, and disabling Office macros.",
+    "proverb": "One file, two faces, a single trick."
+  }
+}

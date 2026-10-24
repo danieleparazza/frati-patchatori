@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ProxyToken, che non chiedeva la password",
+    "patronage": "di Microsoft Exchange, dei token di autenticazione delegati e di chi inoltra senza controllare.",
+    "hagiography": "Il 30 agosto 2021 Simon Zuckerbraun della Zero Day Initiative descrisse ProxyToken, un bypass dell'autenticazione in Microsoft Exchange. Una richiesta con un particolare cookie veniva inoltrata a un back-end che avrebbe dovuto autenticarla, ma che in quella configurazione non lo faceva: così si potevano modificare le impostazioni della casella di un'altra persona, ad esempio per inoltrarsi la sua posta. Un altro tassello della stagione nera di Exchange.",
+    "prayer": "O San ProxyToken, che passi i controlli che nessuno esegue, fa' che ogni richiesta inoltrata trovi comunque chi la verifica. Amen.",
+    "feast": "Si festeggia installando le patch di Exchange e controllando che nessuno abbia aggiunto regole di inoltro di nascosto.",
+    "proverb": "Controllo rimandato, controllo mai fatto."
+  },
+  "en": {
+    "title": "Saint ProxyToken, Who Didn't Ask for the Password",
+    "patronage": "Microsoft Exchange, delegated authentication tokens, and those who forward without checking.",
+    "hagiography": "On 30 August 2021 Simon Zuckerbraun of the Zero Day Initiative described ProxyToken, an authentication bypass in Microsoft Exchange. A request with a particular cookie was forwarded to a back-end that should have authenticated it but, in that configuration, did not: so one could change another person's mailbox settings, for instance to forward their mail to oneself. Another piece of Exchange's dark season.",
+    "prayer": "O Saint ProxyToken, who passes the checks that nobody performs, let every forwarded request still find someone to verify it. Amen.",
+    "feast": "Celebrated by installing Exchange patches and checking that nobody has quietly added forwarding rules.",
+    "proverb": "A check deferred is a check never made."
+  }
+}

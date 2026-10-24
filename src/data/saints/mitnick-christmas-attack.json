@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Mitnick, Padre dell'Attacco di Natale",
+    "patronage": "dei numeri di sequenza TCP, delle relazioni di fiducia e di chi lavora anche il giorno di Natale.",
+    "hagiography": "Il 25 dicembre 1994 fu sferrato l'attacco che porta il nome di Kevin Mitnick contro i sistemi di Tsutomu Shimomura. Prevedendo i numeri di sequenza TCP, allora troppo regolari, l'attaccante impersonò una macchina fidata e, mettendo a tacere il vero host, aprì una connessione a suo nome: lo spoofing IP che i manuali avevano solo teorizzato, messo in pratica proprio a Natale. La caccia che ne seguì divenne leggenda.",
+    "prayer": "O San Mitnick, Padre dell'Attacco di Natale, che indovini il prossimo numero prima che venga scelto, fa' che le nostre sequenze siano davvero imprevedibili. Amen.",
+    "feast": "Si festeggia usando numeri di sequenza casuali e relazioni di fiducia basate sulla crittografia, non sull'indirizzo IP.",
+    "proverb": "A Natale anche i numeri di sequenza vanno a sorpresa."
+  },
+  "en": {
+    "title": "Saint Mitnick, Father of the Christmas Attack",
+    "patronage": "TCP sequence numbers, trust relationships, and everyone who works even on Christmas Day.",
+    "hagiography": "On 25 December 1994 the attack that bears Kevin Mitnick's name was launched against Tsutomu Shimomura's systems. By predicting TCP sequence numbers, then far too regular, the attacker impersonated a trusted machine and, silencing the real host, opened a connection in its name: the IP spoofing the textbooks had only theorised, put into practice on Christmas Day itself. The hunt that followed became legend.",
+    "prayer": "O Saint Mitnick, Father of the Christmas Attack, who guesses the next number before it is chosen, let our sequences be truly unpredictable. Amen.",
+    "feast": "Celebrated by using random sequence numbers and trust relationships based on cryptography, not on the IP address.",
+    "proverb": "At Christmas even the sequence numbers come as a surprise."
+  }
+}

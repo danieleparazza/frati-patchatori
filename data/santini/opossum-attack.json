@@ -1,0 +1,10 @@
+{
+  "label": "Opossum",
+  "motto": "MORTEM SIMULAT",
+  "niche": [
+    "#241c14",
+    "#4e3e26"
+  ],
+  "accent": "#3a2e18",
+  "emblem": "<ellipse cx=\"150\" cy=\"196\" rx=\"44\" ry=\"22\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"110\" cy=\"188\" r=\"15\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M100 178 L96 170 M118 176 L122 168\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M104 186 l3 3 l-3 3 M114 186 l3 3 l-3 3\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M194 196 q22 -4 26 10 q-10 6 -24 -2\" fill=\"none\" stroke=\"#9a8a6a\" stroke-width=\"3\"/>\n<g stroke=\"#2b1d14\" stroke-width=\"1.5\"><path d=\"M150 218 V216 M150 220 l-14 10 M162 220 l10 10\"/></g>\n<text x=\"150\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">TLS?</text>"
+}

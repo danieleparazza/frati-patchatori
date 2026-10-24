@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Windows Dirty Pipe, che uscì dalla sandbox",
+    "patronage": "delle named pipe di Windows, delle sandbox che perdono e dei nomi presi in prestito da Linux.",
+    "hagiography": "Nell'agosto 2022 il ricercatore k0shl descrisse una scalata di privilegi nel Named Pipe File System di Windows, l'equivalente delle pipe con cui i processi si scambiano dati. Un difetto in una vecchia named pipe permetteva di evadere la sandbox e salire di privilegio. Il nome ammicca a Dirty Pipe di Linux, uscito pochi mesi prima, anche se i due difetti non si somigliano granché.",
+    "prayer": "O San Windows Dirty Pipe, che scoli dalla sandbox attraverso un tubo dimenticato, fa' che le nostre pipe nominate restino pulite. Amen.",
+    "feast": "Si festeggia installando il Patch Tuesday di Windows e controllando quali named pipe sono rimaste aperte.",
+    "proverb": "Tubo vecchio, perdita nuova."
+  },
+  "en": {
+    "title": "Saint Windows Dirty Pipe, Who Broke Out of the Sandbox",
+    "patronage": "Windows named pipes, leaky sandboxes, and names borrowed from Linux.",
+    "hagiography": "In August 2022 the researcher k0shl described a privilege escalation in the Windows Named Pipe File System, the equivalent of the pipes processes use to pass data. A flaw in an old named pipe made it possible to escape the sandbox and climb in privilege. The name winks at Linux's Dirty Pipe, released a few months earlier, even though the two bugs do not resemble each other much.",
+    "prayer": "O Saint Windows Dirty Pipe, who drains out of the sandbox through a forgotten pipe, keep our named pipes clean. Amen.",
+    "feast": "Celebrated by installing the Windows Patch Tuesday and checking which named pipes were left open.",
+    "proverb": "Old pipe, new leak."
+  }
+}

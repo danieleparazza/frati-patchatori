@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato GhostHook, che aggirò la guardia del kernel",
+    "patronage": "di PatchGuard, del tracciamento del processore e delle guardie che non guardano mai dalla parte giusta.",
+    "hagiography": "Nel giugno 2017 CyberArk descrisse GhostHook, una tecnica per aggirare PatchGuard, il meccanismo con cui Windows a 64 bit difende il proprio kernel. Usando Intel Processor Trace, pensato per il debug delle prestazioni, si poteva dirottare l'esecuzione del kernel senza toccare le strutture che la guardia sorveglia. Non un modo per entrare, ma per restare invisibili una volta dentro: un fantasma con l'uncino.",
+    "prayer": "O Beato GhostHook, che passi dove la guardia non guarda, tieni d'occhio anche le funzioni pensate per il bene. Amen.",
+    "feast": "Si festeggia tenendo aggiornato Windows e ricordando che anche gli strumenti di diagnostica possono diventare uncini.",
+    "proverb": "La guardia che veglia una porta, non vede la finestra aperta."
+  },
+  "en": {
+    "title": "Blessed GhostHook, Who Slipped Past the Kernel Guard",
+    "patronage": "PatchGuard, processor tracing, and guards who never look the right way.",
+    "hagiography": "In June 2017 CyberArk described GhostHook, a technique to bypass PatchGuard, the mechanism 64-bit Windows uses to defend its own kernel. Using Intel Processor Trace, meant for performance debugging, it could hijack kernel execution without touching the structures the guard watches. Not a way in, but a way to stay invisible once inside: a ghost with a hook.",
+    "prayer": "O Blessed GhostHook, who passes where the guard is not looking, keep an eye on the features built for good as well. Amen.",
+    "feast": "Celebrated by keeping Windows updated and remembering that diagnostic tools can become hooks too.",
+    "proverb": "The guard who watches one door misses the open window."
+  }
+}

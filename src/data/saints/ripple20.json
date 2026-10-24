@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Ripple20, che increspò la catena di fornitura",
+    "patronage": "delle librerie TCP/IP incorporate, dei dispositivi che nessuno aggiornerà mai e delle onde che arrivano lontano.",
+    "hagiography": "Nel giugno 2020 i ricercatori di JSOF rivelarono diciannove vulnerabilità nello stack TCP/IP di Treck, una piccola libreria nascosta da decenni dentro stampanti, pompe da infusione, UPS e macchinari industriali di decine di produttori. Alcune permettevano di eseguire codice da remoto con un pacchetto ben confezionato. Il nome viene dall'effetto a catena: un sasso gettato in un solo fornitore, e le onde arrivano a centinaia di milioni di dispositivi.",
+    "prayer": "O San Ripple20, che da un piccolo stack fai tremare mille aziende, fa' che ogni fornitore sappia cosa c'è dentro il proprio firmware. Amen.",
+    "feast": "Si festeggia aggiornando lo stack Treck, chiedendo ai fornitori una SBOM e lanciando un sasso in uno stagno, per vedere fin dove arriva.",
+    "proverb": "Sasso piccolo, onda lunga."
+  },
+  "en": {
+    "title": "Saint Ripple20, Who Rippled the Supply Chain",
+    "patronage": "embedded TCP/IP libraries, devices nobody will ever update, and waves that travel far.",
+    "hagiography": "In June 2020 researchers at JSOF revealed nineteen vulnerabilities in the Treck TCP/IP stack, a small library hidden for decades inside printers, infusion pumps, UPSes and industrial machinery from dozens of vendors. Some allowed remote code execution with a well-crafted packet. The name comes from the ripple effect: one stone dropped into a single supplier, and the waves reach hundreds of millions of devices.",
+    "prayer": "O Saint Ripple20, who shakes a thousand companies from one small stack, let every vendor know what is inside its firmware. Amen.",
+    "feast": "Celebrated by updating the Treck stack, asking vendors for an SBOM and skipping a stone across a pond to see how far it goes.",
+    "proverb": "Small stone, long ripple."
+  }
+}

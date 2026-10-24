@@ -1,0 +1,10 @@
+{
+  "label": "Brokenwire",
+  "motto": "FILUM SINE TACTU",
+  "niche": [
+    "#173b2c",
+    "#2c6449"
+  ],
+  "accent": "#1d4a36",
+  "emblem": "<rect x=\"104\" y=\"128\" width=\"40\" height=\"70\" rx=\"6\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"112\" y=\"138\" width=\"24\" height=\"16\" rx=\"2\" fill=\"#7dcea0\"/>\n<path d=\"M124 162 l-6 12 h8 l-4 12 l10 -16 h-8 l4 -8 z\" fill=\"#f1c40f\" stroke=\"#2b1d14\" stroke-width=\"1\"/>\n<path d=\"M144 180 C170 180 162 214 182 214\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<path d=\"M182 214 C188 214 196 218 196 228\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-dasharray=\"2 9\"/>\n<path d=\"M156 196 l10 6 M160 206 l-6 4\" stroke=\"#e74c3c\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M182 136 a14 14 0 0 1 0 22\"/><path d=\"M190 128 a24 24 0 0 1 0 38\"/><path d=\"M198 120 a34 34 0 0 1 0 54\"/></g>\n<circle cx=\"176\" cy=\"147\" r=\"4\" fill=\"#d9ad55\"/>"
+}

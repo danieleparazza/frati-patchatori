@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Downfall, che fece cadere i vettori",
+    "patronage": "delle istruzioni AVX, dei registri condivisi tra vicini e dei microcode che rallentano tutto.",
+    "hagiography": "L'8 agosto 2023 Daniel Moghimi di Google rivelò che l'istruzione gather dei processori Intel, dalla sesta all'undicesima generazione, lasciava trapelare in modo speculativo i dati rimasti nei registri vettoriali. Un programma poteva così leggere chiavi e segreti di altri processi, o di altre macchine virtuali sullo stesso core. La cura, un aggiornamento del microcode, in certi carichi costava cara in prestazioni.",
+    "prayer": "O San Downfall, che raccogli ciò che altri hanno lasciato nei registri, fa' che i nostri vettori dimentichino in fretta. Amen.",
+    "feast": "Si festeggia aggiornando il microcode Intel e misurando, con rassegnazione, i benchmark prima e dopo.",
+    "proverb": "Chi raccoglie in fretta, raccoglie anche ciò che non è suo."
+  },
+  "en": {
+    "title": "Saint Downfall, Who Made the Vectors Fall",
+    "patronage": "AVX instructions, registers shared with the neighbours, and microcode that slows everything down.",
+    "hagiography": "On 8 August 2023 Daniel Moghimi of Google revealed that the gather instruction in Intel processors, from the sixth to the eleventh generation, speculatively leaked data left behind in the vector registers. A program could read keys and secrets from other processes, or from other virtual machines on the same core. The cure, a microcode update, came at a steep performance cost for some workloads.",
+    "prayer": "O Saint Downfall, who gathers what others left in the registers, let our vectors forget quickly. Amen.",
+    "feast": "Celebrated by updating Intel microcode and measuring, with resignation, the benchmarks before and after.",
+    "proverb": "Who gathers in haste gathers what isn't his."
+  }
+}

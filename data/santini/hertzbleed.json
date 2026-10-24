@@ -1,0 +1,10 @@
+{
+  "label": "Hertzbleed",
+  "motto": "CELERITAS PRODIT",
+  "niche": [
+    "#3a1018",
+    "#701e2e"
+  ],
+  "accent": "#561624",
+  "emblem": "<path d=\"M150 232 C110 204 104 182 104 166 C104 146 120 134 134 134 C142 134 148 140 150 146 C152 140 158 134 166 134 C180 134 196 146 196 166 C196 182 190 204 150 232 Z\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M98 180 H124 L132 162 L142 200 L152 150 L162 196 L170 172 L176 180 H202\" stroke=\"#fbf3dd\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/>\n<text x=\"150\" y=\"128\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#d9ad55\">GHz</text>"
+}

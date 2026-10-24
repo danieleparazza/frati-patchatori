@@ -1,0 +1,10 @@
+{
+  "label": "GhostWrite",
+  "motto": "SCRIBO ERGO ROOT",
+  "niche": [
+    "#1b2a33",
+    "#3c5a66"
+  ],
+  "accent": "#24414d",
+  "emblem": "<path d=\"M118 228 V170 A32 32 0 0 1 182 170 V228 L172 218 L161 228 L150 218 L139 228 L128 218 Z\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<ellipse cx=\"139\" cy=\"168\" rx=\"6\" ry=\"8\" fill=\"#2b1d14\"/><ellipse cx=\"161\" cy=\"168\" rx=\"6\" ry=\"8\" fill=\"#2b1d14\"/>\n<ellipse cx=\"150\" cy=\"190\" rx=\"6\" ry=\"4\" fill=\"#2b1d14\"/>\n<path d=\"M196 128 C176 150 170 176 172 204 L178 204 C182 178 190 154 204 134 Z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1\"/>\n<line x1=\"175\" y1=\"204\" x2=\"170\" y2=\"216\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"247\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">0x80000000</text>"
+}

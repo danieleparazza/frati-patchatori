@@ -1,0 +1,10 @@
+{
+  "label": "BYOVDLL",
+  "motto": "AFFER TUAM DLL",
+  "niche": [
+    "#1f2b44",
+    "#3e5277"
+  ],
+  "accent": "#2a3a5c",
+  "emblem": "<path d=\"M116 170 H184 L178 236 H122 Z\" fill=\"#8b5a2b\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M130 170 Q150 136 170 170\" stroke=\"#d9ad55\" stroke-width=\"4\" fill=\"none\"/>\n<rect x=\"128\" y=\"146\" width=\"20\" height=\"30\" rx=\"2\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\" transform=\"rotate(-12 138 161)\"/>\n<rect x=\"152\" y=\"142\" width=\"20\" height=\"34\" rx=\"2\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\" transform=\"rotate(10 162 159)\"/>\n<text x=\"150\" y=\"212\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">.dll</text>\n<circle cx=\"170\" cy=\"226\" r=\"8\" fill=\"#b03a2e\" stroke=\"#fbf3dd\" stroke-width=\"1\"/>"
+}

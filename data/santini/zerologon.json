@@ -1,0 +1,10 @@
+{
+  "label": "Zerologon",
+  "motto": "OMNIA EX NIHILO",
+  "niche": [
+    "#1c2438",
+    "#3a4866"
+  ],
+  "accent": "#273448",
+  "emblem": "<rect x=\"118\" y=\"130\" width=\"64\" height=\"86\" rx=\"4\" fill=\"#3d4a55\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"126\" y=\"138\" width=\"48\" height=\"60\" fill=\"#1b2430\"/>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"34\" fill=\"#2ecc71\">00</text>\n<text x=\"150\" y=\"206\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2ecc71\">0000</text>\n<rect x=\"134\" y=\"216\" width=\"32\" height=\"20\" fill=\"#5d7a99\"/>\n<path d=\"M124 236 h52\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>"
+}

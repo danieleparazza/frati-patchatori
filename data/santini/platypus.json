@@ -1,0 +1,10 @@
+{
+  "label": "Platypus",
+  "motto": "WATTA PRODUNT",
+  "niche": [
+    "#1a2432",
+    "#34506b"
+  ],
+  "accent": "#244058",
+  "emblem": "<circle cx=\"150\" cy=\"184\" r=\"42\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 184 L150 150\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M150 184 L176 198\" stroke=\"#2b1d14\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"184\" r=\"5\" fill=\"#2b1d14\"/>\n<g stroke=\"#2b1d14\" stroke-width=\"1.5\"><path d=\"M133 154.55513627132908 L130 149.35898384862244\"/><path d=\"M150 150 L150 144\"/><path d=\"M167 154.55513627132908 L170 149.35898384862247\"/><path d=\"M179.44486372867092 167 L184.64101615137756 164\"/><path d=\"M184 184 L190 184\"/><path d=\"M179.44486372867092 201 L184.64101615137756 204\"/><path d=\"M167 213.44486372867092 L170 218.64101615137753\"/><path d=\"M150 218 L150 224\"/><path d=\"M133 213.44486372867092 L130 218.64101615137756\"/></g>\n<path d=\"M126 158 l-16 -6 l6 10 l-8 8 l14 2\" fill=\"#d9ad55\"/>\n<text x=\"150\" y=\"216\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">W</text>"
+}

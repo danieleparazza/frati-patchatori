@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato GAZEploit, che leggeva dagli occhi",
+    "patronage": "dei visori di realtà mista, degli avatar che riproducono lo sguardo e di chi digita guardando la tastiera virtuale.",
+    "hagiography": "Il 12 settembre 2024 un gruppo di ricercatori descrisse GAZEploit, un attacco contro i visori Apple Vision Pro. Dall'avatar che riproduce il volto e lo sguardo dell'utente nelle videochiamate, si potevano dedurre i movimenti degli occhi mentre digitava sulla tastiera virtuale, e da lì ricostruire ciò che scriveva, password comprese. Apple corresse il problema nascondendo l'avatar durante la digitazione.",
+    "prayer": "O Beato GAZEploit, che leggi le lettere nei movimenti dello sguardo, fa' che i nostri avatar chiudano gli occhi quando scriviamo. Amen.",
+    "feast": "Si festeggia aggiornando visionOS alla versione che spegne l'avatar durante l'uso della tastiera virtuale.",
+    "proverb": "Occhio che digita, segreto che si legge."
+  },
+  "en": {
+    "title": "Blessed GAZEploit, Who Read From the Eyes",
+    "patronage": "mixed-reality headsets, avatars that mirror your gaze, and everyone who types by looking at the virtual keyboard.",
+    "hagiography": "On 12 September 2024 a group of researchers described GAZEploit, an attack on Apple Vision Pro headsets. From the avatar that reproduces the user's face and gaze in video calls, one could infer the eye movements while they typed on the virtual keyboard, and from there reconstruct what they wrote, passwords included. Apple fixed it by hiding the avatar during typing.",
+    "prayer": "O Blessed GAZEploit, who reads the letters in the movements of the gaze, let our avatars close their eyes when we type. Amen.",
+    "feast": "Celebrated by updating visionOS to the version that turns off the avatar while the virtual keyboard is in use.",
+    "proverb": "An eye that types is a secret that's read."
+  }
+}

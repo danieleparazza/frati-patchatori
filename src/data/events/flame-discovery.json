@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello della Fiamma",
+    "chronicle": "Il 28 maggio 2012 Kaspersky Lab, che indagava su richiesta dell'ITU su un misterioso malware capace di cancellare dati, annunciò di aver trovato Flame. Era un kit di spionaggio modulare di circa 20 MB, enorme per l'epoca, che registrava l'audio dal microfono, catturava schermate, intercettava i tasti e rubava file, soprattutto in Iran e in Medio Oriente. Per diffondersi si travestiva da Windows Update, con un certificato Microsoft falsificato grazie a una collisione MD5.",
+    "lesson": "Microsoft revocò i certificati coinvolti e accelerò l'abbandono di MD5: la crittografia \"abbastanza buona\" smise di esserlo il giorno in cui qualcuno ne fece un'arma.",
+    "prayer": "O Fiamma, che ti presentavi con la firma di Redmond, fa' che i nostri aggiornamenti siano firmati con algoritmi vivi e non con hash già sepolti. Amen.",
+    "remembrance": "Si ricorda ritirando gli algoritmi di hash deboli, controllando le catene di certificati e ascoltando con sospetto un microfono che si accende da solo."
+  },
+  "en": {
+    "title": "The Scourge of the Flame",
+    "chronicle": "On 28 May 2012 Kaspersky Lab, investigating a mysterious data-wiping malware at the ITU's request, announced it had found Flame. It was a modular espionage kit of about 20 MB, huge for the time, that recorded audio from the microphone, took screenshots, logged keystrokes and stole files, mostly in Iran and the Middle East. To spread it posed as Windows Update, using a Microsoft certificate forged through an MD5 collision.",
+    "lesson": "Microsoft revoked the certificates involved and hastened the retirement of MD5: \"good enough\" cryptography stopped being so the day someone turned its weakness into a weapon.",
+    "prayer": "O Flame, who arrived bearing Redmond's signature, let our updates be signed with living algorithms, not with hashes long since buried. Amen.",
+    "remembrance": "Remembered by retiring weak hash algorithms, checking certificate chains and treating a microphone that switches itself on with suspicion."
+  }
+}

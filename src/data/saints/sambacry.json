@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SambaCry, cugino Linux di EternalBlue",
+    "patronage": "dei server Samba, delle condivisioni di rete scrivibili e dei NAS dimenticati in un angolo.",
+    "hagiography": "Il 24 maggio 2017 Samba corresse SambaCry (CVE-2017-7494), chiamato anche EternalRed. Su un server Samba con una condivisione scrivibile, un client poteva caricare una libreria e indurre il server a caricarla ed eseguirla, ottenendo l'esecuzione di codice da remoto con una sola riga. Arrivò poche settimane dopo WannaCry, e colpiva i tanti NAS e dispositivi Linux che tenevano aperte le condivisioni di file.",
+    "prayer": "O San SambaCry, che fai eseguire al server la libreria che gli hai consegnato, fa' che le nostre condivisioni non carichino ciò che vi scriviamo. Amen.",
+    "feast": "Si festeggia aggiornando Samba, aggiungendo 'nt pipe support = no' e togliendo le condivisioni scrivibili che nessuno usa.",
+    "proverb": "Condivisione scrivibile, server eseguibile."
+  },
+  "en": {
+    "title": "Saint SambaCry, Linux Cousin of EternalBlue",
+    "patronage": "Samba servers, writable network shares, and NAS boxes forgotten in a corner.",
+    "hagiography": "On 24 May 2017 Samba fixed SambaCry (CVE-2017-7494), also called EternalRed. On a Samba server with a writable share, a client could upload a library and make the server load and run it, achieving remote code execution in a single line. It arrived weeks after WannaCry, and hit the many NAS boxes and Linux devices that kept their file shares open.",
+    "prayer": "O Saint SambaCry, who makes the server run the library you handed it, let our shares not load what we write to them. Amen.",
+    "feast": "Celebrated by updating Samba, adding 'nt pipe support = no', and removing writable shares nobody uses.",
+    "proverb": "Writable share, runnable server."
+  }
+}

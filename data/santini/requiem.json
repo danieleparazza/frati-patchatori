@@ -1,0 +1,10 @@
+{
+  "label": "Requiem",
+  "motto": "IMAGO MORTIS",
+  "niche": [
+    "#2a1a33",
+    "#4a3060"
+  ],
+  "accent": "#3a2452",
+  "emblem": "<rect x=\"104\" y=\"128\" width=\"92\" height=\"70\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M110 192 L134 162 L152 182 L168 166 L190 192 Z\" fill=\"#7a6b8e\"/>\n<circle cx=\"174\" cy=\"146\" r=\"7\" fill=\"#e8c45c\"/>\n<path d=\"M120 176 h8 m-4 -4 v8 M168 150 h6 m-3 -3 v6\" stroke=\"#c0392b\" stroke-width=\"2\"/>\n<g font-family=\"'EB Garamond', Georgia, serif\" fill=\"#bfc9d1\" font-size=\"12\" text-anchor=\"middle\"><text x=\"130\" y=\"224\">JXL</text></g>\n<path d=\"M150 210 q18 8 36 0\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"178\" y=\"228\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\">&#8224;</text>"
+}

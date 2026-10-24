@@ -1,0 +1,10 @@
+{
+  "label": "VoltJockey",
+  "motto": "TENSIO FALLIT",
+  "niche": [
+    "#2a2410",
+    "#524826"
+  ],
+  "accent": "#4a3d14",
+  "emblem": "<path d=\"M158 124 L120 190 H146 L138 244 L182 172 H152 Z\" fill=\"#e8c45c\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M98 168 q30 20 52 0 t52 0\" fill=\"none\" stroke=\"#5dade2\" stroke-width=\"2.5\"/>\n<path d=\"M98 208 q30 -20 52 0 t52 0\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.5\" opacity=\"0.8\"/>\n<text x=\"196\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">V</text>"
+}

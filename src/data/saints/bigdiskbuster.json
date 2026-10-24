@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BigDiskBuster, che riempì il disco per finta",
+    "patronage": "di Windows Defender, degli aggiornamenti che non arrivano mai e dei dischi pieni solo in apparenza.",
+    "hagiography": "Nel settembre 2026 un ricercatore noto come Nightmare Eclipse pubblicò BigDiskBuster, uno zero-day contro Windows Defender. Prima di aggiornarsi, Defender controlla lo spazio libero sul disco: facendogli credere che il disco C sia pieno, l'aggiornamento viene annullato, così l'antivirus resta fermo sulle vecchie firme pur continuando a girare. Nessun CVE, nessun bollettino ufficiale: solo un disco che sembra pieno.",
+    "prayer": "O Beato BigDiskBuster, che convinci Defender di non avere spazio, fa' che i nostri antivirus trovino sempre il posto per aggiornarsi. Amen.",
+    "feast": "Si festeggia verificando che Defender riceva davvero le firme aggiornate e tenendo d'occhio lo spazio, quello vero, del disco.",
+    "proverb": "Disco pieno per finta, difese ferme davvero."
+  },
+  "en": {
+    "title": "Blessed BigDiskBuster, Who Filled the Disk for Pretend",
+    "patronage": "Windows Defender, updates that never arrive, and disks full only in appearance.",
+    "hagiography": "In September 2026 a researcher known as Nightmare Eclipse published BigDiskBuster, a zero-day against Windows Defender. Before updating, Defender checks the free space on disk: by making it believe the C drive is full, the update is cancelled, so the antivirus stays stuck on its old signatures while still running. No CVE, no official bulletin: just a disk that looks full.",
+    "prayer": "O Blessed BigDiskBuster, who convince Defender it has no room, let our antivirus always find the space to update. Amen.",
+    "feast": "Celebrated by checking that Defender really receives updated signatures and keeping an eye on the disk's actual free space.",
+    "proverb": "A disk full for pretend, defences stopped for real."
+  }
+}

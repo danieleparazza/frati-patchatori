@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Bleeding Llama, lama che perde memoria",
+    "patronage": "dei server Ollama esposti su Internet, dei file GGUF che mentono sulle proprie dimensioni e dei prompt di sistema che dovevano restare segreti.",
+    "hagiography": "All'inizio di maggio 2026 Cyera rivelò che Ollama, il popolare server per far girare modelli linguistici in casa, si fidava delle dimensioni dichiarate dentro i file di modello GGUF. Con tre chiamate API e nessuna password si poteva fargli leggere oltre la fine del buffer e restituire pezzi della sua memoria: variabili d'ambiente, chiavi, prompt e conversazioni di altri utenti. I ricercatori contarono circa 300.000 server raggiungibili da Internet.",
+    "prayer": "O San Bleeding Llama, che sanguini memoria a chi ti chiede un modello, fa' che i nostri server ascoltino solo su localhost. Amen.",
+    "feast": "Si festeggia aggiornando Ollama alla 0.17.1 e togliendo la porta 11434 da Internet.",
+    "proverb": "Lama che non chiede password, sputa i segreti."
+  },
+  "en": {
+    "title": "Saint Bleeding Llama, the Llama Who Leaks Memory",
+    "patronage": "Ollama servers exposed to the Internet, GGUF files that lie about their size, and system prompts that were meant to stay secret.",
+    "hagiography": "In early May 2026 Cyera revealed that Ollama, the popular server for running language models at home, trusted the sizes declared inside GGUF model files. With three API calls and no password you could make it read past the end of its buffer and hand back chunks of its memory: environment variables, keys, prompts and other users' conversations. The researchers counted about 300,000 servers reachable from the Internet.",
+    "prayer": "O Saint Bleeding Llama, who bleeds memory to anyone asking for a model, let our servers listen on localhost only. Amen.",
+    "feast": "Celebrated by upgrading Ollama to 0.17.1 and taking port 11434 off the Internet.",
+    "proverb": "A llama with no password spits out secrets."
+  }
+}

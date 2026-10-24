@@ -1,0 +1,10 @@
+{
+  "label": "BLACKNURSE",
+  "motto": "PARVO MAGNA CADUNT",
+  "niche": [
+    "#20232c",
+    "#444858"
+  ],
+  "accent": "#2e3240",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"52\" rx=\"4\" fill=\"#3d4a55\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M124 164 h52 M124 176 h52 M124 188 h36\" stroke=\"#b03a2e\" stroke-width=\"3\"/>\n<g fill=\"#c0392b\"><circle cx=\"100\" cy=\"162\" r=\"3\"/><circle cx=\"96\" cy=\"176\" r=\"3\"/><circle cx=\"100\" cy=\"190\" r=\"3\"/></g>\n<path d=\"M90 162 h18 M86 176 h22 M90 190 h18\" stroke=\"#c0392b\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"226\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#fbf3dd\">ICMP 3/3</text>\n<path d=\"M126 234 q24 12 48 0\" stroke=\"#7f8c8d\" stroke-width=\"2\" fill=\"none\" stroke-dasharray=\"3 3\"/>"
+}

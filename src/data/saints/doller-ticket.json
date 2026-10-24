@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Doller-ticket, che dimenticava il dollaro",
+    "patronage": "dei biglietti Kerberos, degli account computer senza il loro dollaro finale e dei nomi utente quasi uguali.",
+    "hagiography": "Nel novembre 2021 Microsoft corresse una famiglia di difetti di Active Directory legati al nome sAMAccountName: in Active Directory gli account computer finiscono con il simbolo del dollaro, ma il centro di distribuzione delle chiavi, se non trovava un nome, riprovava aggiungendolo. Un account chiamato come un controller di dominio, senza il dollaro, poteva così ottenere biglietti a nome del controller. Nel maggio 2022 la neozelandese Catalyst, tra gli sviluppatori di Samba, ne raccontò la storia con il nome Doller-ticket.",
+    "prayer": "O San Doller-ticket, che per un dollaro mancante ti spacci per il controller, fa' che i nostri nomi siano sempre scritti per intero. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di novembre 2021 e controllando chi può rinominare gli account del dominio.",
+    "proverb": "Per un dollaro si perde il dominio."
+  },
+  "en": {
+    "title": "Saint Doller-ticket, Who Forgot the Dollar",
+    "patronage": "Kerberos tickets, computer accounts missing their trailing dollar, and nearly identical usernames.",
+    "hagiography": "In November 2021 Microsoft fixed a family of Active Directory flaws around the sAMAccountName: in Active Directory, computer accounts end with a dollar sign, but the key distribution centre, if it couldn't find a name, tried again with the dollar added. An account named like a domain controller, minus the dollar, could thus obtain tickets in the controller's name. In May 2022 New Zealand's Catalyst, among the developers of Samba, told the story under the name Doller-ticket.",
+    "prayer": "O Saint Doller-ticket, who poses as the controller for want of a dollar, let our names always be written in full. Amen.",
+    "feast": "Celebrated by installing the November 2021 updates and checking who can rename accounts in the domain.",
+    "proverb": "For want of a dollar, the domain was lost."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DirtyCred Remastered, che scambiava le credenziali",
+    "patronage": "di io_uring, del garbage collector dei socket Unix e di chi aggiorna il kernel solo quando esplode.",
+    "hagiography": "Il 21 dicembre 2022 Hacktive Security raccontò lo sfruttamento di CVE-2022-2602: una corsa tra una richiesta io_uring e il garbage collector dei socket Unix lasciava un oggetto usato dopo la liberazione. Con la tecnica DirtyCred si rimpiazzava una struttura di credenziali di basso rango con una privilegiata, trasformando un utente qualunque in root. David Bouman e Billy Jheng ne furono i segnalatori; la correzione arrivò nel kernel 6.1.",
+    "prayer": "O San DirtyCred Remastered, che barati le credenziali liberate con quelle di root, fa' che la nostra memoria non venga riusata a tradimento. Amen.",
+    "feast": "Si festeggia aggiornando il kernel almeno alla 6.1 e guardando io_uring con il rispetto che merita.",
+    "proverb": "Credenziale liberata, credenziale rubata."
+  },
+  "en": {
+    "title": "Saint DirtyCred Remastered, Who Swapped the Credentials",
+    "patronage": "io_uring, the Unix socket garbage collector, and people who update the kernel only when it blows up.",
+    "hagiography": "On 21 December 2022 Hacktive Security described the exploitation of CVE-2022-2602: a race between an io_uring request and the Unix socket garbage collector left an object used after it was freed. With the DirtyCred technique a low-privileged credentials structure was replaced with a privileged one, turning an ordinary user into root. David Bouman and Billy Jheng reported it; the fix landed in kernel 6.1.",
+    "prayer": "O Saint DirtyCred Remastered, who barters freed credentials for root's own, let our memory never be reused behind our backs. Amen.",
+    "feast": "Celebrated by updating the kernel to at least 6.1 and treating io_uring with the respect it deserves.",
+    "proverb": "A credential freed is a credential stolen."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Pizza Thief, ladro di porte passive",
+    "patronage": "dell'FTP in modalità passiva, delle porte numerate in fila e di chi ritira la pizza degli altri.",
+    "hagiography": "Il 1° febbraio 1999 Jeffrey R. Gerber pubblicò un advisory con una parabola: nella pizzeria del signor Postel i ladri ascoltano i numeri d'ordine, indovinano il prossimo e ritirano la pizza altrui. Allo stesso modo, quando un client FTP chiedeva il PASV, il server apriva una porta per i dati e consegnava tutto al primo che si collegava; e siccome le porte crescevano di uno alla volta, indovinarle era facile.",
+    "prayer": "O San Pizza Thief, che conosci il numero dell'ordine prima di noi, fa' che i nostri server chiedano un documento a chi ritira. Amen.",
+    "feast": "Si festeggia controllando che la connessione dati venga dallo stesso indirizzo di quella di controllo, o meglio lasciando l'FTP ai musei, e ordinando una margherita.",
+    "proverb": "Chi grida il numero dell'ordine, mangia per ultimo."
+  },
+  "en": {
+    "title": "Saint Pizza Thief, Burglar of Passive Ports",
+    "patronage": "passive-mode FTP, ports numbered in a row, and people who pick up someone else's pizza.",
+    "hagiography": "On 1 February 1999 Jeffrey R. Gerber published an advisory with a parable: in Mr Postel's pizza parlour, thieves listen to the order numbers, guess the next one and collect someone else's pizza. Likewise, when an FTP client asked for PASV, the server opened a data port and handed everything to whoever connected first; and since ports went up one at a time, guessing them was easy.",
+    "prayer": "O Saint Pizza Thief, who knows the order number before we do, let our servers ask for ID at the counter. Amen.",
+    "feast": "Celebrated by checking that the data connection comes from the same address as the control one, or better, leaving FTP to the museums, and ordering a margherita.",
+    "proverb": "Shout out your order number, and you'll be the last to eat."
+  }
+}

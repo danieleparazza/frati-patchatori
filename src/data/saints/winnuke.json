@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San WinNuke, apostolo della schermata blu",
+    "patronage": "delle chat IRC degli anni Novanta, della porta 139 e di chi ha visto Windows 95 morire in diretta.",
+    "hagiography": "Nel maggio 1997 comparve su Bugtraq winnuke.c: pochi byte di dati \"fuori banda\" spediti alla porta NetBIOS 139 bastavano a mandare in schermata blu Windows 95, NT e Windows per Workgroups. Per mesi fu lo scherzo preferito delle chat IRC, dove chiunque poteva far sparire un avversario con un clic, finché Microsoft non distribuì le correzioni.",
+    "prayer": "O San WinNuke, che con un solo pacchetto oscuravi lo schermo di blu, fa' che i nostri sistemi ignorino ciò che arriva fuori banda. Amen.",
+    "feast": "Si festeggia chiudendo la porta 139 verso Internet, come si sarebbe dovuto fare già nel 1997.",
+    "proverb": "Un byte urgente e Windows va in ferie."
+  },
+  "en": {
+    "title": "Saint WinNuke, Apostle of the Blue Screen",
+    "patronage": "nineties IRC chats, port 139, and everyone who watched Windows 95 die live.",
+    "hagiography": "In May 1997 winnuke.c appeared on Bugtraq: a few bytes of \"out-of-band\" data sent to NetBIOS port 139 were enough to blue-screen Windows 95, NT and Windows for Workgroups. For months it was the favourite prank of IRC chats, where anyone could make an opponent vanish with one click, until Microsoft shipped the fixes.",
+    "prayer": "O Saint WinNuke, who turned the screen blue with a single packet, let our systems ignore whatever arrives out of band. Amen.",
+    "feast": "Celebrated by closing port 139 to the Internet, as everyone should have done back in 1997.",
+    "proverb": "One urgent byte, and Windows takes the day off."
+  }
+}

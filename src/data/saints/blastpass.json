@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BLASTPASS, che entrava senza un clic",
+    "patronage": "degli iPhone, delle immagini ricevute per messaggio e di chi non ha mai toccato il link.",
+    "hagiography": "Il 7 settembre 2023 il Citizen Lab rivelò BLASTPASS, una catena di exploit zero-clic usata per installare lo spyware Pegasus di NSO Group sugli iPhone. Un'immagine malevola inviata via iMessage, elaborata automaticamente dal telefono, bastava a eseguire codice senza che la vittima toccasse nulla. Apple corse ai ripari con un aggiornamento di emergenza e introdusse la Modalità di isolamento.",
+    "prayer": "O San BLASTPASS, che arrivi come un'immagine e resti come un ospite, fa' che i nostri telefoni non elaborino ciò che nessuno ha chiesto di aprire. Amen.",
+    "feast": "Si festeggia installando subito gli aggiornamenti di sicurezza Apple e attivando, per chi è a rischio, la Modalità di isolamento.",
+    "proverb": "Un'immagine arrivata, un telefono già perso."
+  },
+  "en": {
+    "title": "Saint BLASTPASS, Who Entered Without a Click",
+    "patronage": "iPhones, images received by message, and everyone who never tapped the link.",
+    "hagiography": "On 7 September 2023 the Citizen Lab revealed BLASTPASS, a zero-click exploit chain used to install NSO Group's Pegasus spyware on iPhones. A malicious image sent over iMessage, processed automatically by the phone, was enough to run code without the victim touching anything. Apple rushed out an emergency update and introduced Lockdown Mode.",
+    "prayer": "O Saint BLASTPASS, who arrive as an image and stay as a guest, keep our phones from processing what nobody asked to open. Amen.",
+    "feast": "Celebrated by installing Apple security updates at once and, for those at risk, turning on Lockdown Mode.",
+    "proverb": "An image arrived, a phone already lost."
+  }
+}

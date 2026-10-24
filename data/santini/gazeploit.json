@@ -1,0 +1,10 @@
+{
+  "label": "GAZEploit",
+  "motto": "OCULUS PRODITOR",
+  "niche": [
+    "#1a2636",
+    "#384a66"
+  ],
+  "accent": "#243448",
+  "emblem": "<path d=\"M104 180 C124 154 176 154 196 180 C176 206 124 206 104 180 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"180\" r=\"18\" fill=\"#2a4b8d\"/><circle cx=\"150\" cy=\"180\" r=\"8\" fill=\"#1b1b2f\"/><circle cx=\"156\" cy=\"174\" r=\"3\" fill=\"#fbf3dd\"/>\n<path d=\"M150 180 L186 196\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/>\n<g fill=\"#d9ad55\"><rect x=\"176\" y=\"200\" width=\"9\" height=\"9\"/><rect x=\"188\" y=\"200\" width=\"9\" height=\"9\"/><rect x=\"182\" y=\"212\" width=\"9\" height=\"9\"/></g>"
+}

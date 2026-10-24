@@ -1,0 +1,10 @@
+{
+  "label": "OVSwrap",
+  "motto": "LONGITUDO CIRCUMIT",
+  "niche": [
+    "#101d3a",
+    "#214070"
+  ],
+  "accent": "#182e52",
+  "emblem": "<path d=\"M150 134 A46 46 0 1 1 112 210\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"5\"/>\n<path d=\"M112 210 l-4 -16 m4 16 l16 -4\" stroke=\"#d9ad55\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"19\" fill=\"#fbf3dd\">65535</text>\n<text x=\"150\" y=\"200\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#c0392b\">→ 0</text>"
+}

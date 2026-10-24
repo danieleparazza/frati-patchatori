@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DirtyClone, che clonava i pacchetti sporchi",
+    "patronage": "del kernel Linux, dei frammenti condivisi e delle patch che si saltano a vicenda.",
+    "hagiography": "Nel 2026 Eddy Tsalolikhin e Or Peles di JFrog descrissero DirtyClone (CVE-2026-43503), quarto membro della famiglia DirtyFrag. Due funzioni che spostano frammenti di pacchetti dimenticavano di propagare il marcatore di frammento condiviso, e da lì un utente locale con le giuste capacità di rete poteva manipolare la page cache e diventare root. Il colpo non lasciava tracce nei log e modificava la memoria, non il file su disco, sfuggendo ai controlli d'integrità.",
+    "prayer": "O San DirtyClone, che copi i frammenti senza copiarne i marchi, fa' che i nostri helper portino con sé tutti i loro flag. Amen.",
+    "feast": "Si festeggia aggiornando il kernel, applicando le patch di tutta la famiglia DirtyFrag e, se non si può, disattivando gli user namespace non privilegiati.",
+    "proverb": "Chi clona in fretta, dimentica il marchio."
+  },
+  "en": {
+    "title": "Saint DirtyClone, Who Cloned the Dirty Packets",
+    "patronage": "the Linux kernel, shared fragments, and patches that skip over one another.",
+    "hagiography": "In 2026 Eddy Tsalolikhin and Or Peles of JFrog described DirtyClone (CVE-2026-43503), the fourth member of the DirtyFrag family. Two helpers that move packet fragments forgot to propagate the shared-fragment marker, and from there a local user with the right network capability could manipulate the page cache and become root. The attack left no log traces and changed memory, not the on-disk file, slipping past integrity checkers.",
+    "prayer": "O Saint DirtyClone, who copies the fragments without copying their marks, let our helpers carry all their flags along. Amen.",
+    "feast": "Celebrated by updating the kernel, applying the patches for the whole DirtyFrag family and, failing that, disabling unprivileged user namespaces.",
+    "proverb": "Clone in haste, and you forget the mark."
+  }
+}

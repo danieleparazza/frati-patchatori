@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "Il miracolo dell'Operazione Endgame",
+    "prodigy": "Il 30 maggio 2024 Europol annunciò quella che definì la più grande operazione di sempre contro le botnet. Tra il 27 e il 29 maggio le polizie di diversi paesi avevano colpito l'ecosistema dei \"dropper\", i programmi che aprono la porta agli altri malware: IcedID, SmokeLoader, Pikabot, SystemBC, Bumblebee e Trickbot. Furono smantellati o disturbati più di 100 server, sequestrati oltre 2.000 domini ed eseguiti quattro arresti.",
+    "thaumaturge": "Europol ed Eurojust, con le polizie di Francia, Germania e Paesi Bassi in prima linea e i partner di altri paesi europei e degli Stati Uniti.",
+    "thanksgiving": "Per sei porte del male chiuse in una sola settimana, e per chi ha mostrato che anche la partita più lunga ha un finale, rendiamo grazie. Amen."
+  },
+  "en": {
+    "title": "The Miracle of Operation Endgame",
+    "prodigy": "On 30 May 2024 Europol announced what it called the largest-ever operation against botnets. Between 27 and 29 May police from several countries had struck the \"dropper\" ecosystem, the programs that open the door to other malware: IcedID, SmokeLoader, Pikabot, SystemBC, Bumblebee and Trickbot. More than 100 servers were taken down or disrupted, over 2,000 domains seized and four arrests made.",
+    "thaumaturge": "Europol and Eurojust, with the police of France, Germany and the Netherlands in the front line and partners from other European countries and the United States.",
+    "thanksgiving": "For six doors of evil closed in a single week, and for those who showed that even the longest game has an endgame, we give thanks. Amen."
+  }
+}

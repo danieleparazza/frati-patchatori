@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Adception, annuncio dentro un risultato dentro un annuncio",
+    "patronage": "di chi clicca sul primo risultato sponsorizzato, dei pulsanti «Copia» e di chi incolla comandi nel terminale senza leggerli.",
+    "hagiography": "Il 9 ottobre 2026 Luke Jennings di Push Security descrisse un annuncio di Google per «claude mac» che mostrava come dominio bing.com. Il clic passava dal redirect di Bing, poi dalla pagina di un negozio legittimo compromesso, fino a una finta pagina di download, dove il pulsante «Copia» metteva negli appunti un comando diverso da quello visibile, che scaricava ed eseguiva uno script malevolo. Un motore di ricerca dentro una pubblicità dentro un altro motore di ricerca: il nome strizza l'occhio a Inception.",
+    "prayer": "O Beato Adception, che nascondi un annuncio in un risultato e un comando in un pulsante, fa' che leggiamo ciò che incolliamo. Amen.",
+    "feast": "Si festeggia scaricando i programmi dal sito del produttore digitato a mano e incollando nel terminale solo ciò che si è letto fino in fondo.",
+    "proverb": "Chi incolla senza leggere esegue senza sapere."
+  },
+  "en": {
+    "title": "Blessed Adception, an Ad Within a Result Within an Ad",
+    "patronage": "people who click the first sponsored result, \"Copy\" buttons, and everyone who pastes commands into a terminal without reading them.",
+    "hagiography": "On 9 October 2026 Luke Jennings of Push Security described a Google ad for \"claude mac\" that showed bing.com as its domain. The click went through Bing's redirect, then through a compromised legitimate shop's page, to a fake download page where the \"Copy\" button put on the clipboard a different command from the one on screen, which fetched and ran a malicious script. A search engine inside an ad inside another search engine: the name winks at Inception.",
+    "prayer": "O Blessed Adception, who hides an ad in a result and a command in a button, let us read what we paste. Amen.",
+    "feast": "Celebrated by downloading software from the vendor's site typed by hand, and pasting into the terminal only what you've read to the end.",
+    "proverb": "Paste without reading, run without knowing."
+  }
+}

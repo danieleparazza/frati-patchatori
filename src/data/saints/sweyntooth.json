@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SweynTooth, figlio del Dente Blu",
+    "patronage": "dei dispositivi Bluetooth Low Energy, dei kit di sviluppo copiati da tutti e dei braccialetti fitness.",
+    "hagiography": "Nel febbraio 2020 Matheus Garbelini, Sudipta Chattopadhyay e Chundong Wang dell'Università di Tecnologia e Design di Singapore pubblicarono una famiglia di difetti nei kit software Bluetooth Low Energy di sette produttori di chip. Un pacchetto malformato, inviato da qualcuno nel raggio radio, poteva bloccare o far riavviare il dispositivo, e in alcuni casi aggirarne la sicurezza; tra le vittime c'erano serrature, sensori e dispositivi medici. Il nome viene da Sweyn Barbaforcuta, figlio del re Harald Dente Blu.",
+    "prayer": "O San SweynTooth, che erediti i difetti del padre, fa' che i nostri chip ricevano aggiornamenti anche dopo la vendita. Amen.",
+    "feast": "Si festeggia aggiornando il firmware dei dispositivi BLE, quando il produttore si ricorda di averli fatti.",
+    "proverb": "Tale il kit, tale il dispositivo."
+  },
+  "en": {
+    "title": "Saint SweynTooth, Son of Bluetooth",
+    "patronage": "Bluetooth Low Energy devices, development kits everyone copies, and fitness bands.",
+    "hagiography": "In February 2020 Matheus Garbelini, Sudipta Chattopadhyay and Chundong Wang of the Singapore University of Technology and Design published a family of flaws in the Bluetooth Low Energy software kits of seven chip vendors. A malformed packet sent by someone within radio range could freeze or reboot the device, and in some cases bypass its security; the victims included locks, sensors and medical devices. The name comes from Sweyn Forkbeard, son of King Harald Bluetooth.",
+    "prayer": "O Saint SweynTooth, who inherited his father's flaws, let our chips get updates even after they are sold. Amen.",
+    "feast": "Celebrated by updating BLE device firmware, whenever the vendor remembers making them.",
+    "proverb": "Like kit, like device."
+  }
+}

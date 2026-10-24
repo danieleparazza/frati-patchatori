@@ -1,0 +1,10 @@
+{
+  "label": "Magellan",
+  "motto": "VIAM SQL INVENIT",
+  "niche": [
+    "#143040",
+    "#285a6e"
+  ],
+  "accent": "#1c4454",
+  "emblem": "<circle cx=\"150\" cy=\"184\" r=\"44\" fill=\"#1b4452\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<path d=\"M118 174 q16 -12 32 0 t32 0\" fill=\"none\" stroke=\"#bfe7f5\" stroke-width=\"2.5\"/>\n<path d=\"M118 192 q16 -12 32 0 t32 0\" fill=\"none\" stroke=\"#bfe7f5\" stroke-width=\"2.5\"/>\n<path d=\"M150 150 L150 218 M116 184 L184 184\" stroke=\"#d9ad55\" stroke-width=\"1\" opacity=\"0.6\"/>\n<path d=\"M126 158 L174 210 M174 158 L126 210\" stroke=\"#c0392b\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<circle cx=\"126\" cy=\"158\" r=\"3\" fill=\"#c0392b\"/><circle cx=\"174\" cy=\"210\" r=\"3\" fill=\"#c0392b\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#d9ad55\">FTS3</text>"
+}

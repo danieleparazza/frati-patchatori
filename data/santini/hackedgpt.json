@@ -1,0 +1,10 @@
+{
+  "label": "HackedGPT",
+  "motto": "VERBA INIECTA",
+  "niche": [
+    "#14262a",
+    "#2c4e54"
+  ],
+  "accent": "#1d3e44",
+  "emblem": "<circle cx=\"150\" cy=\"184\" r=\"40\" fill=\"none\" stroke=\"#9fe3d6\" stroke-width=\"3\"/>\n<g stroke=\"#9fe3d6\" stroke-width=\"2.5\" fill=\"none\"><circle cx=\"150\" cy=\"184\" r=\"12\"/><path d=\"M150 144 V172 M150 196 V224 M110 184 H138 M162 184 H190 M122 156 l18 14 M178 156 l-18 14 M122 212 l18 -14 M178 212 l-18 -14\"/></g>\n<g fill=\"#e8c45c\"><circle cx=\"150\" cy=\"144\" r=\"4\"/><circle cx=\"110\" cy=\"184\" r=\"4\"/><circle cx=\"190\" cy=\"184\" r=\"4\"/><circle cx=\"150\" cy=\"224\" r=\"4\"/></g>\n<path d=\"M92 150 q10 6 2 14\" stroke=\"#e74c3c\" stroke-width=\"2.5\" fill=\"none\"/>\n<text x=\"150\" y=\"190\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#e74c3c\">!</text>"
+}

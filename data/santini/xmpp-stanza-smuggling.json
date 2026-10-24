@@ -1,0 +1,10 @@
+{
+  "label": "XMPP Smuggling",
+  "motto": "STANZA IN STANZA",
+  "niche": [
+    "#1d2b4f",
+    "#33497d"
+  ],
+  "accent": "#1d2b4f",
+  "emblem": "<path d=\"M104 132 H196 A8 8 0 0 1 204 140 V200 A8 8 0 0 1 196 208 H140 L120 228 V208 H104 A8 8 0 0 1 96 200 V140 A8 8 0 0 1 104 132 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#2b1d14\">&lt;message&gt;</text>\n<rect x=\"118\" y=\"168\" width=\"64\" height=\"26\" rx=\"4\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#2b1d14\">&lt;iq/&gt;</text>\n<path d=\"M186 176 l14 -8 M186 186 l14 8\" stroke=\"#c0392b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>"
+}

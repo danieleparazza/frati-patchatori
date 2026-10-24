@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Cookie Tossing, che lanciava biscotti dai sottodomini",
+    "patronage": "dei server multiutente, dei cookie condivisi tra sottodomini e di chi si fida del vicino di dominio.",
+    "hagiography": "Nel 2024 Thomas Houhou rivelò una falla in JupyterHub (CVE-2024-28233): da un sottodominio malevolo si poteva \"lanciare\" un cookie verso l'applicazione legittima e ottenere un cross-site scripting sulla sessione dell'utente, fino al pieno accesso alle API e al suo server personale. Dove più servizi vivono sotto domini vicini, un cookie gettato dal posto giusto diventa una chiave.",
+    "prayer": "O San Cookie Tossing, che lanci biscotti dal dominio accanto, insegna ai nostri server a diffidare dei cookie arrivati da fuori. Amen.",
+    "feast": "Si festeggia aggiornando JupyterHub alla 4.1.0 e separando con cura i domini dei servizi che condividono gli utenti.",
+    "proverb": "Biscotto lanciato dal vicino, boccone amaro per il padrone."
+  },
+  "en": {
+    "title": "Saint Cookie Tossing, Who Threw Biscuits From the Subdomains",
+    "patronage": "multi-user servers, cookies shared across subdomains, and those who trust the neighbour on the same domain.",
+    "hagiography": "In 2024 Thomas Houhou revealed a flaw in JupyterHub (CVE-2024-28233): from a malicious subdomain you could \"toss\" a cookie at the legitimate application and gain cross-site scripting on the user's session, up to full access to the API and their personal server. Where several services live under neighbouring domains, a cookie thrown from the right spot becomes a key.",
+    "prayer": "O Saint Cookie Tossing, who throws biscuits from the domain next door, teach our servers to distrust cookies that arrive from outside. Amen.",
+    "feast": "Celebrated by updating JupyterHub to 4.1.0 and carefully separating the domains of services that share their users.",
+    "proverb": "A biscuit thrown by the neighbour is a bitter mouthful for the owner."
+  }
+}

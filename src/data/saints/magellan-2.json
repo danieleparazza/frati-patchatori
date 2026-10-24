@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Magellan 2.0, che circumnavigava il database",
+    "patronage": "di SQLite dentro al browser, della vecchia WebSQL e di chi non sapeva che una pagina web potesse interrogare un database locale.",
+    "hagiography": "L'11 dicembre 2019 il Tencent Blade Team pubblicò Magellan 2.0, cinque difetti in SQLite sfruttabili da Chrome tramite la vecchia API WebSQL, attiva per impostazione predefinita. Una pagina malevola poteva inviare query SQL e, con una scrittura fuori dai limiti, corrompere l'heap fino all'esecuzione di codice. Seguito del primo Magellan dell'anno prima, dallo stesso equipaggio; Google corresse tutto con Chrome 79.",
+    "prayer": "O San Magellan 2.0, che navighi le tabelle altrui a partire da una pagina web, fa' che i nostri browser non aprano database a sconosciuti. Amen.",
+    "feast": "Si festeggia aggiornando Chrome alla 79 e salutando con sollievo il pensionamento di WebSQL.",
+    "proverb": "Chi dà il timone del database al browser, finisce fuori rotta."
+  },
+  "en": {
+    "title": "Saint Magellan 2.0, Who Circumnavigated the Database",
+    "patronage": "SQLite inside the browser, the old WebSQL, and everyone who didn't know a web page could query a local database.",
+    "hagiography": "On 11 December 2019 the Tencent Blade Team published Magellan 2.0, five flaws in SQLite exploitable from Chrome through the old WebSQL API, enabled by default. A malicious page could send SQL queries and, with an out-of-bounds write, corrupt the heap all the way to code execution. A sequel to the first Magellan the year before, from the same crew; Google fixed it all in Chrome 79.",
+    "prayer": "O Saint Magellan 2.0, who sails other people's tables starting from a web page, let our browsers open no databases to strangers. Amen.",
+    "feast": "Celebrated by updating Chrome to 79 and gladly waving goodbye to WebSQL's retirement.",
+    "proverb": "Hand the database helm to the browser and you'll end up off course."
+  }
+}

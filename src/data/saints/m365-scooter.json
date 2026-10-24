@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Monopattino M365, che accelerava da solo",
+    "patronage": "dei monopattini elettrici in sharing, delle password controllate solo dall'app e di chi sfreccia fidandosi del Bluetooth.",
+    "hagiography": "Nel 2019 Rani Idan di Zimperium mostrò che il monopattino Xiaomi M365 (CVE-2019-12500) controllava la password solo nell'app, non a bordo. Un attaccante nel raggio del Bluetooth poteva quindi inviare comandi senza autenticarsi: far accelerare di colpo, frenare, bloccare o sbloccare il mezzo. Alcuni operatori di sharing dovettero aggiornare o ritirare i modelli coinvolti.",
+    "prayer": "O San Monopattino M365, che accetti ordini da chi passa di lì, fa' che i nostri mezzi verifichino chi comanda prima di muoversi. Amen.",
+    "feast": "Si festeggia aggiornando il firmware del monopattino e impostando una password che il mezzo controlli davvero."
+  },
+  "en": {
+    "title": "Saint M365 Scooter, Who Accelerated on His Own",
+    "patronage": "shared electric scooters, passwords checked only by the app, and riders who trust Bluetooth.",
+    "hagiography": "In 2019 Rani Idan of Zimperium showed that the Xiaomi M365 scooter (CVE-2019-12500) checked the password only in the app, not on board. An attacker within Bluetooth range could therefore send commands without authenticating: a sudden acceleration, braking, locking or unlocking the vehicle. Some sharing operators had to update or withdraw the affected models.",
+    "prayer": "O Saint M365 Scooter, who takes orders from whoever passes by, let our vehicles check who is in command before they move. Amen.",
+    "feast": "Celebrated by updating the scooter firmware and setting a password the vehicle actually checks."
+  }
+}

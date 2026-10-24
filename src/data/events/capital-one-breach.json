@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello della nuvola mal configurata",
+    "chronicle": "Il 29 luglio 2019 Capital One annunciò che un'ex ingegnera di AWS aveva sfruttato un web application firewall mal configurato per rubare i dati di circa 106 milioni di clienti e richiedenti negli Stati Uniti e in Canada. Il trucco era una SSRF: il firewall veniva convinto a interrogare il servizio di metadati del cloud e a consegnare credenziali temporanee. A far scattare l'allarme fu un utente di GitHub, che il 17 luglio scrisse alla banca dopo aver visto i dati pubblicati. L'autrice fu condannata nel 2022.",
+    "lesson": "Fece conoscere a tutti il rischio delle SSRF verso i metadati del cloud, e spinse AWS a introdurre IMDSv2, che richiede un token di sessione.",
+    "prayer": "O 169.254.169.254, indirizzo segreto di ogni nuvola, rispondi solo a chi ha il token giusto e mai a un firewall convinto con l'inganno. Amen.",
+    "remembrance": "Si ricorda imponendo IMDSv2, dando ai ruoli cloud solo i permessi strettamente necessari e leggendo davvero le segnalazioni che arrivano da fuori."
+  },
+  "en": {
+    "title": "The Scourge of the Misconfigured Cloud",
+    "chronicle": "On 29 July 2019 Capital One announced that a former AWS engineer had exploited a misconfigured web application firewall to steal data on about 106 million customers and applicants in the US and Canada. The trick was an SSRF: the firewall was persuaded to query the cloud metadata service and hand over temporary credentials. The alarm was raised by a GitHub user who emailed the bank on 17 July after seeing the data posted online. The attacker was convicted in 2022.",
+    "lesson": "It made everyone aware of the risk of SSRF against cloud metadata, and pushed AWS to introduce IMDSv2, which requires a session token.",
+    "prayer": "O 169.254.169.254, secret address of every cloud, answer only those with the right token and never a firewall talked into it by trickery. Amen.",
+    "remembrance": "Remembered by enforcing IMDSv2, giving cloud roles only the permissions they strictly need and actually reading reports that come from outside."
+  }
+}

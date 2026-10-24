@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Branch Target Reuse, che riusava le previsioni dei salti",
+    "patronage": "dei compilatori JIT, delle previsioni di salto rimaste in cache e delle mitigazioni Spectre mai finite.",
+    "hagiography": "Il 29 settembre 2026 il gruppo VUSec, con la Scuola Superiore Sant'Anna, rivelò Branch Target Reuse, una nuova variante di Spectre-v2 contro i motori JIT. Quando un JIT libera e riusa la propria cache di codice, le vecchie previsioni dei salti indiretti possono restare, causando l'esecuzione speculativa del codice precedente. Su Linux i ricercatori recuperarono l'hash della password di root in pochi minuti, su processori Intel, AMD e Arm.",
+    "prayer": "O San Branch Target Reuse, che fai rivivere i salti già liberati, fa' che i nostri JIT dimentichino il codice che non esiste più. Amen.",
+    "feast": "Si festeggia aggiornando il kernel con la mitigazione IBPB sul riuso del JIT e seguendo le indicazioni dei produttori di CPU.",
+    "proverb": "Salto riusato, segreto speculato."
+  },
+  "en": {
+    "title": "Saint Branch Target Reuse, Who Reused the Jump Predictions",
+    "patronage": "JIT compilers, branch predictions left in the cache, and Spectre mitigations never quite finished.",
+    "hagiography": "On 29 September 2026 the VUSec group, with Scuola Superiore Sant'Anna, revealed Branch Target Reuse, a new Spectre-v2 variant against JIT engines. When a JIT frees and reuses its own code cache, the old indirect-branch predictions can linger, causing speculative execution of the previous code. On Linux the researchers recovered the root password hash in a few minutes, on Intel, AMD and Arm processors.",
+    "prayer": "O Saint Branch Target Reuse, who revive the jumps already freed, let our JITs forget the code that no longer exists. Amen.",
+    "feast": "Celebrated by updating the kernel with the IBPB mitigation on JIT reuse and following the CPU vendors' guidance.",
+    "proverb": "A jump reused, a secret speculated."
+  }
+}

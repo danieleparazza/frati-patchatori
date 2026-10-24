@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Santa Marmotta Chiacchierona",
+    "patronage": "delle interfacce di gestione dimenticate, degli account senza password e dei nomi assegnati da un bot.",
+    "hagiography": "Nel giugno 2021 Miles Sutcliffe, cercando tutt'altro, si accorse che su certi switch Arista EOS con l'interfaccia gNMI attiva si poteva entrare con un account locale configurato senza password, digitando una password qualsiasi. Arista pubblicò l'advisory nel gennaio 2022 come CVE-2021-28500; il 21 febbraio 2022 Sutcliffe raccontò la sua prima vulnerabilità. Il nome lo scelse @vulnonym, un bot che battezza i CVE a caso: e lui lo trovò perfetto.",
+    "prayer": "O Santa Marmotta Chiacchierona, che parli con chiunque ti chiami, insegna ai nostri switch a chiedere una password vera. Amen.",
+    "feast": "Si festeggia aggiornando EOS, eliminando gli account nopassword e svegliando chi dorme nel NOC il 2 febbraio.",
+    "proverb": "Marmotta che parla, inverno che entra."
+  },
+  "en": {
+    "title": "Saint Talkative Marmot",
+    "patronage": "forgotten management interfaces, accounts without passwords, and names chosen by a bot.",
+    "hagiography": "In June 2021 Miles Sutcliffe, looking for something else entirely, noticed that on some Arista EOS switches with the gNMI interface enabled you could log in to a local account set up with no password by typing any password at all. Arista published the advisory in January 2022 as CVE-2021-28500; on 21 February 2022 Sutcliffe wrote up his first vulnerability. The name was picked by @vulnonym, a bot that christens CVEs at random: he found it perfect.",
+    "prayer": "O Saint Talkative Marmot, who chats with whoever calls, teach our switches to ask for a real password. Amen.",
+    "feast": "Celebrated by updating EOS, deleting nopassword accounts, and waking whoever is asleep in the NOC on Groundhog Day.",
+    "proverb": "When the marmot talks, winter walks in."
+  }
+}

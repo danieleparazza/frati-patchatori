@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "Il miracolo dei 500 millisecondi",
+    "prodigy": "All'inizio del 2024 Andres Freund, ingegnere di Microsoft e sviluppatore di PostgreSQL, notò su Debian sid che gli accessi SSH impiegavano circa 500 millisecondi più del dovuto e che valgrind segnalava errori strani. Invece di lasciar perdere, seguì il filo fino a una backdoor nascosta in xz/liblzma 5.6.0 e 5.6.1, inserita da 'Jia Tan' dopo una campagna di ingegneria sociale durata anni contro il progetto. Il 29 marzo 2024 la rese pubblica sulla lista oss-security: la backdoor fu fermata poco prima di arrivare nelle versioni stabili delle principali distribuzioni Linux.",
+    "thaumaturge": "Andres Freund, la cui curiosità per mezzo secondo di troppo ha protetto un numero enorme di server, insieme ai manutentori delle distribuzioni che ritirarono in poche ore i pacchetti compromessi.",
+    "thanksgiving": "Per mezzo secondo che non tornava e per chi non ha smesso di chiedersi perché, rendiamo grazie. E per i manutentori stanchi e soli, chiediamo aiuto e compagnia. Amen."
+  },
+  "en": {
+    "title": "The Miracle of the 500 Milliseconds",
+    "prodigy": "In early 2024 Andres Freund, a Microsoft engineer and PostgreSQL developer, noticed on Debian sid that SSH logins were taking about 500 milliseconds too long and that valgrind was reporting odd errors. Instead of shrugging it off, he followed the thread to a backdoor hidden in xz/liblzma 5.6.0 and 5.6.1, planted by 'Jia Tan' after a years-long social-engineering campaign against the project. On 29 March 2024 he disclosed it on the oss-security list: the backdoor was stopped just before it reached the stable releases of major Linux distributions.",
+    "thaumaturge": "Andres Freund, whose curiosity about half a second too many protected a vast number of servers, together with the distribution maintainers who pulled the compromised packages within hours.",
+    "thanksgiving": "For half a second that didn't add up, and for the one who kept asking why, we give thanks. And for tired, lonely maintainers, we ask help and company. Amen."
+  }
+}

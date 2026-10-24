@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PrintNightmare, incubo dello spooler di stampa",
+    "patronage": "degli amministratori di dominio, dei driver di stampa e di chi non spegne mai il servizio che credeva innocuo.",
+    "hagiography": "Nel 2021 un gruppo di ricercatori rivelò, con una fuga di PoC a precederne i piani, un difetto nel Print Spooler di Windows (CVE-2021-1675 e poi CVE-2021-34527). Il servizio di stampa, acceso ovunque, permetteva a un utente comune di far caricare al sistema un driver malevolo e ottenere i privilegi di SYSTEM, anche da remoto sui controller di dominio. Per settimane la mitigazione fu, semplicemente, spegnere lo spooler.",
+    "prayer": "O San PrintNightmare, che trasformi la stampante in cavallo di Troia, fa' che i nostri spooler accettino solo i driver di cui ci fidiamo. Amen.",
+    "feast": "Si festeggia installando le patch, limitando l'installazione dei driver agli amministratori e spegnendo lo spooler sui server che non stampano.",
+    "proverb": "Spooler acceso, dominio compromesso."
+  },
+  "en": {
+    "title": "Saint PrintNightmare, Nightmare of the Print Spooler",
+    "patronage": "domain administrators, print drivers, and those who never turn off the service they thought was harmless.",
+    "hagiography": "In 2021 researchers revealed, with a leaked PoC getting ahead of their plans, a flaw in the Windows Print Spooler (CVE-2021-1675 and then CVE-2021-34527). The print service, running everywhere, let an ordinary user have the system load a malicious driver and gain SYSTEM, even remotely on domain controllers. For weeks the mitigation was, simply, to turn the spooler off.",
+    "prayer": "O Saint PrintNightmare, who turns the printer into a Trojan horse, let our spoolers accept only the drivers we trust. Amen.",
+    "feast": "Celebrated by installing the patches, restricting driver installation to administrators, and disabling the spooler on servers that do not print.",
+    "proverb": "Spooler left on, domain gone."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Rolling-PWN",
+  "motto": "CLAVIS HESTERNA",
+  "niche": [
+    "#1a1d26",
+    "#3a404e"
+  ],
+  "accent": "#2a2e3a",
+  "emblem": "<rect x=\"124\" y=\"150\" width=\"52\" height=\"74\" rx=\"10\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"172\" r=\"9\" fill=\"#c0392b\"/>\n<rect x=\"138\" y=\"190\" width=\"24\" height=\"10\" rx=\"2\" fill=\"#bfc9d1\"/>\n<rect x=\"138\" y=\"204\" width=\"24\" height=\"10\" rx=\"2\" fill=\"#bfc9d1\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"><path d=\"M182 158 Q196 172 182 186\"/><path d=\"M190 150 Q210 172 190 194\"/></g>\n<text x=\"150\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\">↻</text>"
+}

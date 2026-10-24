@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ProxyNotShell, che non era ProxyShell",
+    "patronage": "degli Exchange installati in casa, delle regole di URL Rewrite scritte di corsa e dei nomi che dicono cosa non sono.",
+    "hagiography": "Alla fine di settembre 2022 la società vietnamita GTSC raccontò di attacchi contro server Exchange perfettamente aggiornati: richieste simili a quelle di ProxyShell, ma con bug nuovi. Erano due, un SSRF (CVE-2022-41040) e un'esecuzione di codice tramite PowerShell (CVE-2022-41082), alla portata di chiunque avesse una casella di posta. Kevin Beaumont la chiamò ProxyNotShell, e mentre la patch si faceva attendere fino a novembre le mitigazioni provvisorie venivano aggirate una dopo l'altra.",
+    "prayer": "O San ProxyNotShell, che ti presenti col nome di un altro, fa' che le nostre caselle di posta restino caselle e non diventino shell. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di sicurezza di Exchange di novembre 2022 e cancellando, finalmente, l'ennesima regola di URL Rewrite.",
+    "proverb": "Quando il nome dice «non è», di solito è peggio."
+  },
+  "en": {
+    "title": "Saint ProxyNotShell, Who Was Not ProxyShell",
+    "patronage": "on-premises Exchange servers, URL Rewrite rules written in a hurry, and names that say what they are not.",
+    "hagiography": "At the end of September 2022 the Vietnamese firm GTSC reported attacks against fully patched Exchange servers: requests resembling ProxyShell, but with new bugs. There were two, an SSRF (CVE-2022-41040) and code execution via PowerShell (CVE-2022-41082), within reach of anyone with a mailbox. Kevin Beaumont called it ProxyNotShell, and while the patch kept everyone waiting until November, the temporary mitigations were bypassed one after another.",
+    "prayer": "O Saint ProxyNotShell, who goes by somebody else's name, let our mailboxes stay mailboxes and never become shells. Amen.",
+    "feast": "Celebrated by installing the November 2022 Exchange security updates and finally deleting yet another URL Rewrite rule.",
+    "proverb": "When the name says \"not\", expect a lot."
+  }
+}

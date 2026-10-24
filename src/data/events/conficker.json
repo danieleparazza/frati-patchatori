@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Conficker",
+    "chronicle": "Il 21 novembre 2008 fu rilevata la prima variante di Conficker, che sfruttava il difetto nel servizio Server di Windows corretto un mese prima dal bollettino straordinario MS08-067. Si diffondeva anche indovinando password di amministratore deboli e saltando di chiavetta USB in chiavetta USB. Per ricevere ordini generava ogni giorno nuovi elenchi di nomi di dominio. Infettò milioni di computer in più di 190 paesi, comprese reti militari e governative: la più grande epidemia di worm dai tempi di Slammer.",
+    "lesson": "Contro di lui nacque il Conficker Working Group, un'alleanza inedita tra aziende, registri di dominio e ricercatori, modello per molte operazioni successive.",
+    "prayer": "O Conficker, che cambiavi indirizzo ogni giorno, liberaci dalle password \"admin123\" e dalle chiavette trovate nel parcheggio. Amen.",
+    "remembrance": "Si ricorda disattivando l'esecuzione automatica dei supporti rimovibili, imponendo password robuste agli account amministrativi e installando le patch straordinarie il giorno stesso."
+  },
+  "en": {
+    "title": "The Scourge of Conficker",
+    "chronicle": "On 21 November 2008 the first variant of Conficker was detected, exploiting the Windows Server service flaw fixed a month earlier by out-of-band bulletin MS08-067. It also spread by guessing weak admin passwords and hopping from USB stick to USB stick. To receive orders it generated fresh lists of domain names every day. It infected millions of computers in more than 190 countries, including military and government networks: the largest worm outbreak since Slammer.",
+    "lesson": "It prompted the Conficker Working Group, an unprecedented alliance of companies, domain registries and researchers that became a model for many later operations.",
+    "prayer": "O Conficker, who changed address every day, deliver us from \"admin123\" passwords and from USB sticks found in the car park. Amen.",
+    "remembrance": "Remembered by disabling AutoRun on removable media, enforcing strong passwords on admin accounts and installing out-of-band patches on the day they ship."
+  }
+}

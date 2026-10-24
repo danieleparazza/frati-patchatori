@@ -1,0 +1,10 @@
+{
+  "label": "SMBleed",
+  "motto": "FRATER SANGUINANS",
+  "niche": [
+    "#2a1418",
+    "#56262e"
+  ],
+  "accent": "#421c22",
+  "emblem": "<rect x=\"108\" y=\"132\" width=\"84\" height=\"64\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"116\" y=\"140\" width=\"68\" height=\"48\" fill=\"#2b1d14\"/>\n<text x=\"150\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\">445</text>\n<rect x=\"136\" y=\"196\" width=\"28\" height=\"10\" fill=\"#bfc9d1\"/>\n<g fill=\"#c0392b\"><path d=\"M130 206 q-6 12 0 16 q6 -4 0 -16z\"/><path d=\"M150 210 q-7 14 0 18 q7 -4 0 -18z\"/><path d=\"M170 206 q-6 12 0 16 q6 -4 0 -16z\"/></g>"
+}

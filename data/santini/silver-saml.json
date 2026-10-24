@@ -1,0 +1,10 @@
+{
+  "label": "Silver SAML",
+  "motto": "ARGENTUM FALLIT",
+  "niche": [
+    "#22303a",
+    "#3e5463"
+  ],
+  "accent": "#34495e",
+  "emblem": "<circle cx=\"150\" cy=\"170\" r=\"38\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<circle cx=\"150\" cy=\"170\" r=\"28\" fill=\"none\" stroke=\"#7f8c8d\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#2b1d14\">SAML</text>\n<path d=\"M130 202 L120 244 L136 236 L144 250 L150 208 Z M170 202 L180 244 L164 236 L156 250 L150 208 Z\" fill=\"#7fb3d5\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<text x=\"196\" y=\"132\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#fbf3dd\">29</text>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Triangulation, dai quattro zero-day in catena",
+    "patronage": "degli iPhone, degli allegati iMessage che non apri mai e delle funzioni hardware non documentate.",
+    "hagiography": "Il 27 dicembre 2023, al 37C3, i ricercatori di Kaspersky Larin, Bezvershenko e Kucherin svelarono i dettagli di Operation Triangulation: una catena di quattro zero-day contro iPhone, aperta da un allegato iMessage senza alcun clic. Il pezzo più sorprendente era CVE-2023-38606, che usava una funzione hardware non documentata dei chip Apple per aggirare le protezioni della memoria: 'l'ultimo mistero hardware', come lo chiamarono.",
+    "prayer": "O San Triangulation, che entri da un messaggio mai aperto e sfrutti ciò che nessuno ha documentato, fa' che i nostri telefoni restino aggiornati e sospettosi. Amen.",
+    "feast": "Si festeggia aggiornando iOS, abilitando la Modalità Isolamento e tenendo d'occhio i consumi anomali di batteria.",
+    "proverb": "Il messaggio che non apri è quello che ti apre."
+  },
+  "en": {
+    "title": "Saint Triangulation, of Four Zero-Days in a Chain",
+    "patronage": "iPhones, iMessage attachments you never open, and undocumented hardware features.",
+    "hagiography": "On 27 December 2023, at 37C3, Kaspersky researchers Larin, Bezvershenko and Kucherin revealed the details of Operation Triangulation: a chain of four zero-days against iPhones, opened by an iMessage attachment with no click at all. The most astonishing piece was CVE-2023-38606, which used an undocumented hardware feature of Apple chips to bypass memory protections: 'the last hardware mystery', as they called it.",
+    "prayer": "O Saint Triangulation, who enters through a message never opened and exploits what no one documented, keep our phones updated and suspicious. Amen.",
+    "feast": "Celebrated by updating iOS, enabling Lockdown Mode, and keeping an eye on odd battery drain.",
+    "proverb": "The message you don't open is the one that opens you."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'ZippyReads, che spogliava i file del Marchio del Web",
+    "patronage": "degli archivi ZIP scaricati da sconosciuti, del Marchio del Web e di chi apre allegati senza leggere gli avvisi.",
+    "hagiography": "Nel 2022 Will Dormann scoprì che estraendo un file da un archivio ZIP Windows a volte dimenticava di marcarlo con il Mark of the Web, l'etichetta che segnala «questo arriva da Internet». Senza quel marchio, documenti e programmi aprivano senza i soliti avvisi di sicurezza. Il difetto era già sfruttato in attacchi reali quando, l'8 novembre 2022, Microsoft lo corresse come CVE-2022-41091.",
+    "prayer": "O Sant'ZippyReads, che togli il marchio a ciò che viene da fuori, fa' che i nostri file confessino sempre la loro provenienza. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti Windows di novembre 2022 e diffidando di ogni file estratto da uno ZIP arrivato chissà da dove.",
+    "proverb": "File senza marchio, fiducia senza fondamento."
+  },
+  "en": {
+    "title": "Saint ZippyReads, Who Stripped Files of the Mark of the Web",
+    "patronage": "ZIP archives downloaded from strangers, the Mark of the Web, and people who open attachments without reading the warnings.",
+    "hagiography": "In 2022 Will Dormann found that when extracting a file from a ZIP archive, Windows sometimes forgot to tag it with the Mark of the Web, the label meaning \"this came from the Internet\". Without that mark, documents and programs opened without the usual security warnings. The flaw was already being exploited in real attacks when, on 8 November 2022, Microsoft fixed it as CVE-2022-41091.",
+    "prayer": "O Saint ZippyReads, who strips the mark from what comes from outside, let our files always confess where they came from. Amen.",
+    "feast": "Celebrated by installing the November 2022 Windows updates and distrusting every file extracted from a ZIP that arrived from who knows where.",
+    "proverb": "No mark on the file, no ground for trust."
+  }
+}

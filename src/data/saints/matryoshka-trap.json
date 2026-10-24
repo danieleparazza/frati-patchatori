@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Matryoshka Trap, trappola dentro la trappola",
+    "patronage": "dell'emulazione dei dispositivi in QEMU, dei controller che si scrivono da soli e delle macchine virtuali che vogliono uscire.",
+    "hagiography": "Nel maggio 2022 i ricercatori raccontarono il Matryoshka Trap: una serie di difetti di \"rientranza DMA\" nell'emulazione dei dispositivi di QEMU, a partire dal controller USB EHCI. Un ospite poteva far sì che un trasferimento DMA scrivesse nei registri dello stesso controller, innescando azioni annidate come matrioske, fino a corrompere lo stato dell'emulatore e tentare la fuga dalla macchina virtuale verso l'host.",
+    "prayer": "O San Matryoshka Trap, che nascondi un attacco dentro l'altro, fa' che i nostri dispositivi emulati non si scrivano addosso. Amen.",
+    "feast": "Si festeggia aggiornando QEMU e controllando che un trasferimento DMA non finisca nei registri di chi lo governa.",
+    "proverb": "Dentro ogni trappola, un'altra trappola."
+  },
+  "en": {
+    "title": "Saint Matryoshka Trap, Trap Within the Trap",
+    "patronage": "QEMU device emulation, controllers that write to themselves, and virtual machines that want out.",
+    "hagiography": "In May 2022 researchers described the Matryoshka Trap: a set of \"DMA reentrancy\" flaws in QEMU's device emulation, starting with the USB EHCI controller. A guest could make a DMA transfer write into the registers of the very same controller, triggering nested actions like Russian dolls, up to corrupting the emulator's state and attempting an escape from the virtual machine to the host.",
+    "prayer": "O Saint Matryoshka Trap, who hides one attack inside another, let our emulated devices not write upon themselves. Amen.",
+    "feast": "Celebrated by updating QEMU and checking that a DMA transfer does not land in the registers of the one running it.",
+    "proverb": "Inside every trap, another trap."
+  }
+}

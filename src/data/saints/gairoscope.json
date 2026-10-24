@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San GAIROSCOPE, che parlava al giroscopio",
+    "patronage": "dei computer isolati dalla rete, dei giroscopi degli smartphone e di chi crede che l'air gap basti.",
+    "hagiography": "Nell'agosto 2022 Mordechai Guri dell'Università Ben-Gurion mostrò come esfiltrare dati da un computer air-gapped facendo vibrare gli altoparlanti a frequenze inaudibili. Un telefono vicino, appoggiato alla stessa scrivania, captava quei suoni non con il microfono ma con il giroscopio, un sensore che molte app possono leggere senza permessi. Lento ma silenzioso, era l'ennesimo canale segreto della collezione di Guri.",
+    "prayer": "O San GAIROSCOPE, che sussurri al sensore che nessuno sorveglia, fa' che i nostri computer segreti restino muti. Amen.",
+    "feast": "Si festeggia rimuovendo gli altoparlanti dalle macchine più sensibili e tenendo gli smartphone lontani dall'air gap.",
+    "proverb": "Non c'è muro che tenga contro un suono che non si sente."
+  },
+  "en": {
+    "title": "Saint GAIROSCOPE, Who Spoke to the Gyroscope",
+    "patronage": "air-gapped computers, smartphone gyroscopes, and everyone who thinks an air gap is enough.",
+    "hagiography": "In August 2022 Mordechai Guri of Ben-Gurion University showed how to exfiltrate data from an air-gapped computer by vibrating its speakers at inaudible frequencies. A nearby phone, resting on the same desk, picked up those sounds not with the microphone but with the gyroscope, a sensor many apps can read without permission. Slow but silent, it was yet another covert channel in Guri's collection.",
+    "prayer": "O Saint GAIROSCOPE, who whispers to the sensor nobody is watching, let our secret computers stay mute. Amen.",
+    "feast": "Celebrated by removing the speakers from the most sensitive machines and keeping smartphones away from the air gap.",
+    "proverb": "No wall holds against a sound you cannot hear."
+  }
+}

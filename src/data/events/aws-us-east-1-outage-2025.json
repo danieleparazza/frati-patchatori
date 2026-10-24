@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il giorno in cui us-east-1 tacque",
+    "chronicle": "Nella notte tra il 19 e il 20 ottobre 2025, alle 23:48 ora del Pacifico, un difetto latente nella gestione automatica dei DNS di DynamoDB lasciò vuoto il record DNS dell'endpoint regionale del servizio nella regione us-east-1 di AWS. I guasti si propagarono a EC2, al Network Load Balancer e a molti altri servizi AWS per circa 15 ore. Snapchat, Fortnite, banche, Alexa e migliaia di altri servizi subirono interruzioni in tutto il mondo. Nessun attaccante: solo un record vuoto nel posto sbagliato.",
+    "lesson": "Ricordò quanto Internet dipenda da una sola regione di un solo fornitore cloud, e che i sistemi di automazione possono avere difetti in grado di fermare tutto ciò che vi si appoggia.",
+    "prayer": "O us-east-1, regione primogenita di ogni nuvola, risolvi sempre i nostri nomi e fa' che le nostre architetture non abbiano tutte le uova nello stesso data center. Amen.",
+    "remembrance": "Si ricorda progettando i servizi per sopravvivere alla perdita di una regione, provando davvero il passaggio a un'altra e controllando che il piano di emergenza non dipenda proprio dalla regione caduta."
+  },
+  "en": {
+    "title": "The Day us-east-1 Fell Silent",
+    "chronicle": "During the night of 19–20 October 2025, at 23:48 Pacific time, a latent defect in DynamoDB's automated DNS management left the DNS record for the service's regional endpoint in AWS's us-east-1 region empty. The failures cascaded through EC2, Network Load Balancer and many other AWS services for about 15 hours. Snapchat, Fortnite, banks, Alexa and thousands of other services were disrupted worldwide. No attacker: just an empty record in the wrong place.",
+    "lesson": "It was a reminder of how much of the Internet depends on a single region of a single cloud provider, and that automation systems can harbour defects capable of stopping everything built on top of them.",
+    "prayer": "O us-east-1, firstborn region of every cloud, always resolve our names, and keep our architectures from putting all their eggs in one data centre. Amen.",
+    "remembrance": "Remembered by designing services to survive the loss of a region, actually rehearsing failover to another and checking that the emergency plan does not depend on the very region that went down."
+  }
+}

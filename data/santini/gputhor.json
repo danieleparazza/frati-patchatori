@@ -1,0 +1,10 @@
+{
+  "label": "GPUThor",
+  "motto": "MALLEUS IN DRAM",
+  "niche": [
+    "#1c3524",
+    "#386848"
+  ],
+  "accent": "#244a33",
+  "emblem": "<rect x=\"110\" y=\"168\" width=\"80\" height=\"20\" rx=\"2\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<g fill=\"#2e7d4f\"><rect x=\"114\" y=\"172\" width=\"12\" height=\"12\"/><rect x=\"130\" y=\"172\" width=\"12\" height=\"12\"/><rect x=\"146\" y=\"172\" width=\"12\" height=\"12\"/><rect x=\"162\" y=\"172\" width=\"12\" height=\"12\"/><rect x=\"178\" y=\"172\" width=\"8\" height=\"12\"/></g>\n<rect x=\"110\" y=\"192\" width=\"80\" height=\"8\" fill=\"#b8892b\"/>\n<g transform=\"rotate(-24 150 140)\"><rect x=\"140\" y=\"114\" width=\"20\" height=\"42\" rx=\"3\" fill=\"#7f8c8d\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/><rect x=\"134\" y=\"104\" width=\"32\" height=\"18\" rx=\"3\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/></g>\n<g stroke=\"#f4d03f\" stroke-width=\"2\"><path d=\"M128 164 l-6 -8 M150 164 v-8 M172 164 l6 -8\"/></g>"
+}

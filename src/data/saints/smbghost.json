@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SMBGhost, fantasma della compressione",
+    "patronage": "della condivisione file di Windows, dei servizi esposti su internet e dei vermi che aspettano di nascere.",
+    "hagiography": "Il 10 marzo 2020 Microsoft corresse la CVE-2020-0796, un difetto nella gestione della compressione di SMBv3. Punteggio 10, nessuna interazione richiesta, potenzialmente capace di diffondersi da macchina a macchina come un verme: tanto che fu subito paragonato a EternalBlue. Un pacchetto compresso costruito ad arte bastava a eseguire codice su client e server. Finì nel catalogo CISA delle vulnerabilità sfruttate.",
+    "prayer": "O San SMBGhost, che ti aggiri nella compressione dei pacchetti, fa' che la condivisione file non guardi mai verso internet. Amen.",
+    "feast": "Si festeggia installando la patch di marzo 2020, disattivando la compressione SMBv3 e bloccando la porta 445 al confine della rete.",
+    "proverb": "Fantasma nel pacchetto, verme nella rete."
+  },
+  "en": {
+    "title": "Saint SMBGhost, Phantom of Compression",
+    "patronage": "Windows file sharing, services exposed to the internet, and worms waiting to be born.",
+    "hagiography": "On 10 March 2020 Microsoft fixed CVE-2020-0796, a flaw in how SMBv3 handled compression. Scored 10, no interaction required, potentially able to spread machine to machine like a worm: so much so that it was at once compared to EternalBlue. A crafted compressed packet was enough to run code on clients and servers. It ended up in CISA's catalogue of exploited vulnerabilities.",
+    "prayer": "O Saint SMBGhost, who haunts packet compression, keep file sharing from ever facing the internet. Amen.",
+    "feast": "Celebrated by installing the March 2020 patch, disabling SMBv3 compression, and blocking port 445 at the network edge.",
+    "proverb": "Ghost in the packet, worm in the network."
+  }
+}

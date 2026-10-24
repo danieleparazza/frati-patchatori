@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "La grande piaga di Slammer",
+    "chronicle": "Verso le 5:30 UTC del 25 gennaio 2003 un worm di soli 376 byte, racchiuso in un singolo pacchetto UDP, cominciò a sfruttare un buffer overflow di Microsoft SQL Server e MSDE 2000, per cui una patch esisteva da sei mesi. La sua popolazione raddoppiava ogni 8,5 secondi e in circa dieci minuti infettò oltre il 90% degli host vulnerabili. Il traffico generato causò interruzioni di rete, voli cancellati e bancomat fuori servizio, e secondo le cronache disturbò anche alcuni servizi di chiamata d'emergenza 911.",
+    "lesson": "Dimostrò che una minaccia può diventare globale prima che qualunque persona riesca a reagire, e che anche i database nascosti dentro altri prodotti vanno aggiornati e tenuti lontani da Internet.",
+    "prayer": "Per chi in quelle ore ha cercato aiuto senza trovare la linea, e per chi ha lavorato senza sosta per riportare in vita le reti, chiediamo conforto e riposo. Donaci la costanza di aggiornare per tempo ciò che altri useranno nel bisogno. Amen.",
+    "remembrance": "Si ricorda chiudendo verso Internet le porte dei database (la 1434/UDP per prima), facendo l'inventario dei motori SQL incorporati nei prodotti e applicando le patch critiche senza aspettare sei mesi."
+  },
+  "en": {
+    "title": "The Great Plague of Slammer",
+    "chronicle": "At about 05:30 UTC on 25 January 2003 a worm of just 376 bytes, carried in a single UDP packet, began exploiting a buffer overflow in Microsoft SQL Server and MSDE 2000 that had been patched six months earlier. Its population doubled every 8.5 seconds and within about ten minutes it had infected over 90% of vulnerable hosts. The traffic it generated caused network outages, cancelled flights and ATM failures, and was reported to disrupt some 911 emergency call services.",
+    "lesson": "It proved that a threat can go global before any human can react, and that databases hidden inside other products must also be patched and kept off the Internet.",
+    "prayer": "For those who called for help in those hours and found no line, and for those who worked without rest to bring the networks back, we ask comfort and rest. Grant us the diligence to update in time what others will rely on in their need. Amen.",
+    "remembrance": "Remembered by closing database ports to the Internet (1434/UDP first of all), inventorying the SQL engines embedded in products and applying critical patches without waiting six months."
+  }
+}

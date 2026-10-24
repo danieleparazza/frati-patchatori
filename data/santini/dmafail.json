@@ -1,0 +1,10 @@
+{
+  "label": "dmaFail",
+  "motto": "SCRIBIT UBI NON LICET",
+  "niche": [
+    "#1a2030",
+    "#33425e"
+  ],
+  "accent": "#242e44",
+  "emblem": "<rect x=\"118\" y=\"152\" width=\"64\" height=\"64\" rx=\"4\" fill=\"#2b3545\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<g stroke=\"#5a6578\" stroke-width=\"2\"><path d=\"M118 168 H106 M118 184 H106 M118 200 H106 M182 168 H194 M182 184 H194 M182 200 H194 M134 152 V140 M150 152 V140 M166 152 V140 M134 216 V228 M150 216 V228 M166 216 V228\"/></g>\n<text x=\"150\" y=\"180\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#bfc9d1\">MMIO</text>\n<text x=\"150\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#9aa6ad\">0x???</text>\n<path d=\"M150 228 L150 242\" stroke=\"#c0392b\" stroke-width=\"3\"/><path d=\"M144 236 L150 244 L156 236\" fill=\"#c0392b\"/>\n<circle cx=\"172\" cy=\"162\" r=\"7\" fill=\"#c0392b\"/><path d=\"M169 162 h6 M172 159 v6\" stroke=\"#fff\" stroke-width=\"2\"/>"
+}

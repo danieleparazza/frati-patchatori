@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Requiem, canto funebre del decodificatore",
+    "patronage": "dei decodificatori di immagini, dei formati nuovi che nessuno ha ancora indurito e degli iPhone aggiornati appena in tempo.",
+    "hagiography": "Il 17 maggio 2026 un ricercatore raccontò Requiem (CVE-2026-28956), una corruzione di memoria nel modo in cui i sistemi Apple decodificavano le immagini JPEG XL. Un'immagine preparata ad arte poteva corrompere la memoria del dispositivo, e Apple corresse il difetto con iOS 26.5 e gli aggiornamenti correlati, migliorando la validazione dell'input.",
+    "prayer": "O San Requiem, che intoni il tuo canto quando il decodificatore sbaglia, fa' che le nostre immagini restino solo immagini. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 26.5 e diffidando dei formati di immagine troppo giovani.",
+    "proverb": "Formato nuovo, bug antico."
+  },
+  "en": {
+    "title": "Saint Requiem, Funeral Song of the Decoder",
+    "patronage": "image decoders, new formats nobody has hardened yet, and iPhones updated just in time.",
+    "hagiography": "On 17 May 2026 a researcher described Requiem (CVE-2026-28956), a memory-corruption flaw in how Apple systems decoded JPEG XL images. A carefully crafted image could corrupt the device's memory, and Apple fixed it in iOS 26.5 and the related updates by improving input validation.",
+    "prayer": "O Saint Requiem, who sings your song when the decoder errs, let our images remain nothing but images. Amen.",
+    "feast": "Celebrated by updating to iOS 26.5 and distrusting image formats that are too young.",
+    "proverb": "New format, old bug."
+  }
+}

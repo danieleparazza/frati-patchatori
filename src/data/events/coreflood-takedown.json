@@ -1,0 +1,14 @@
+{
+  "it": {
+    "title": "Il miracolo dello stop a Coreflood",
+    "prodigy": "Il 13 aprile 2011 il Dipartimento di Giustizia e l'FBI ottennero da un tribunale il permesso di sequestrare i server di comando di Coreflood e 29 domini, sostituendoli con server governativi. Quando i PC infetti chiamavano casa, ricevevano un ordine semplice: fermati. Coreflood aveva infettato circa 2,3 milioni di computer per rubare credenziali bancarie, ed era la prima volta che le autorità statunitensi disattivavano a distanza un malware sulle macchine delle vittime.",
+    "thaumaturge": "L'FBI e il Dipartimento di Giustizia degli Stati Uniti, che chiesero l'autorizzazione di un giudice prima di inviare il comando e lavorarono con i provider per avvisare le vittime.",
+    "thanksgiving": "Per un ordine di stop arrivato a milioni di computer che non sapevano di essere malati, rendiamo grazie. Amen."
+  },
+  "en": {
+    "title": "The Miracle of the Coreflood Stop",
+    "prodigy": "On 13 April 2011 the US Department of Justice and the FBI obtained court permission to seize Coreflood's command servers and 29 domains, replacing them with government servers. When infected PCs phoned home, they got a simple order: stop. Coreflood had infected about 2.3 million computers to steal banking credentials, and it was the first time US authorities had remotely disabled malware on victims' machines.",
+    "thaumaturge": "The FBI and the US Department of Justice, who asked a judge for permission before sending the command and worked with ISPs to notify victims.",
+    "thanksgiving": "For a stop order that reached millions of computers that didn't know they were sick, we give thanks. Amen."
+  }
+}

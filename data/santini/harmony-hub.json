@@ -1,0 +1,10 @@
+{
+  "label": "Harmony Hub",
+  "motto": "CLAVES SUBTER TEGULAM",
+  "niche": [
+    "#1d2333",
+    "#3a4660"
+  ],
+  "accent": "#28314a",
+  "emblem": "<circle cx=\"150\" cy=\"184\" r=\"40\" fill=\"#2b2b2b\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"184\" r=\"12\" fill=\"#5dade2\"/>\n<g stroke=\"#9aa6ad\" stroke-width=\"2\" fill=\"none\"><path d=\"M150 144 V160 M150 208 V224 M110 184 H126 M174 184 H190\"/></g>\n<g fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1\"><circle cx=\"138\" cy=\"178\" r=\"5\"/><rect x=\"135\" y=\"178\" width=\"3\" height=\"12\"/><path d=\"M135 184 h4 M135 188 h3\"/><circle cx=\"162\" cy=\"178\" r=\"5\"/><rect x=\"161\" y=\"178\" width=\"3\" height=\"12\"/><path d=\"M161 184 h4 M161 188 h3\"/></g>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#d9ad55\">XMPP ×2</text>"
+}

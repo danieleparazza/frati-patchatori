@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San goto fail, dalla riga doppia",
+    "patronage": "delle righe duplicate, degli if senza graffe e dei revisori di codice distratti.",
+    "hagiography": "Il 21 febbraio 2014 Apple rilasciò iOS 7.0.6 con una nota laconica sulla verifica SSL; il giorno dopo Adam Langley spiegò il perché. Nel codice di Secure Transport una riga «goto fail;» compariva due volte di fila: la seconda saltava sempre il controllo della firma, e qualunque attaccante in mezzo poteva fingersi un sito protetto. Una sola riga copiata due volte, e il lucchetto di iOS e macOS restò aperto.",
+    "prayer": "O San goto fail, che salti sempre dove non dovresti, insegnaci a mettere le graffe anche quando sembrano inutili. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 7.0.6 e OS X 10.9.2, attivando gli avvisi sul codice irraggiungibile e cantando la canzone a lui dedicata.",
+    "proverb": "Riga doppia, sicurezza dimezzata."
+  },
+  "en": {
+    "title": "Saint goto fail, of the Doubled Line",
+    "patronage": "duplicated lines, if statements without braces, and distracted code reviewers.",
+    "hagiography": "On 21 February 2014 Apple shipped iOS 7.0.6 with a terse note about SSL verification; the next day Adam Langley explained why. In the Secure Transport code a \"goto fail;\" line appeared twice in a row: the second always skipped the signature check, and any attacker in the middle could pose as a secure site. One line copied twice, and the padlock on iOS and macOS stayed open.",
+    "prayer": "O Saint goto fail, who always jumps where he shouldn't, teach us to add braces even when they seem pointless. Amen.",
+    "feast": "Celebrated by updating to iOS 7.0.6 and OS X 10.9.2, turning on unreachable-code warnings, and singing the song written in his honour.",
+    "proverb": "Double the line, halve the security."
+  }
+}

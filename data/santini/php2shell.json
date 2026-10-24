@@ -1,0 +1,10 @@
+{
+  "label": "PHP2Shell",
+  "motto": "PHP FIT TESTA",
+  "niche": [
+    "#1a1f3a",
+    "#363d6e"
+  ],
+  "accent": "#2a2f5c",
+  "emblem": "<ellipse cx=\"150\" cy=\"166\" rx=\"48\" ry=\"30\" fill=\"#8892bf\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"173\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#fbf3dd\">php</text>\n<path d=\"M126 192 q24 22 48 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M116 210 q-4 30 10 34 M184 210 q4 30 -10 34\" stroke=\"#d9ad55\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M134 230 l8 -8 l-8 -8 M166 230 l-8 -8 l8 -8\" fill=\"none\" stroke=\"#5dade2\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#5dade2\">$</text>"
+}

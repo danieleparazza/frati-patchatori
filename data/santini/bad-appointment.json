@@ -1,0 +1,10 @@
+{
+  "label": "Bad Appointment",
+  "motto": "INVITAT ET FURATUR",
+  "niche": [
+    "#2a1d3d",
+    "#4a3666"
+  ],
+  "accent": "#3a2b52",
+  "emblem": "<rect x=\"110\" y=\"146\" width=\"80\" height=\"72\" rx=\"6\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"110\" y=\"146\" width=\"80\" height=\"18\" fill=\"#c0392b\"/>\n<g stroke=\"#2b1d14\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"128\" y1=\"140\" x2=\"128\" y2=\"152\"/><line x1=\"172\" y1=\"140\" x2=\"172\" y2=\"152\"/></g>\n<g fill=\"#7a6656\"><circle cx=\"128\" cy=\"180\" r=\"4\"/><circle cx=\"150\" cy=\"180\" r=\"4\"/><circle cx=\"172\" cy=\"180\" r=\"4\"/><circle cx=\"128\" cy=\"198\" r=\"4\"/></g>\n<circle cx=\"168\" cy=\"202\" r=\"16\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M160 202 a8 10 0 0 1 16 0 v4 l3 4 h-22 l3 -4 z\" fill=\"#2b1d14\"/>\n<path d=\"M165 212 a3 3 0 0 0 6 0\" fill=\"#2b1d14\"/>\n<g stroke=\"#e74c3c\" stroke-width=\"2\" fill=\"none\"><path d=\"M186 192 l6 -3 M188 202 h6 M186 212 l6 3\"/></g>"
+}

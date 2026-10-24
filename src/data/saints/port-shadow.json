@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Port Shadow, che spiava nell'ombra della VPN",
+    "patronage": "delle VPN, delle tabelle di netfilter e di chi crede che un tunnel basti a nascondersi.",
+    "hagiography": "Nel 2024 i ricercatori, con Citizen Lab, rivelarono il port shadow (CVE-2021-3773): sfruttando il comportamento di netfilter, un attaccante connesso allo stesso server VPN poteva dedurre informazioni sulle connessioni di un'altra vittima, reindirizzare pacchetti o condurre attacchi classici attraverso l'ombra lasciata dalle porte. Il tunnel che doveva proteggere diventava un luogo condiviso con estranei.",
+    "prayer": "O San Port Shadow, che spii nell'ombra delle porte condivise, insegna alle nostre VPN a isolare gli utenti l'uno dall'altro. Amen.",
+    "feast": "Si festeggia aggiornando il kernel e scegliendo configurazioni VPN che non lasciano i client esposti ai propri vicini di tunnel.",
+    "proverb": "Nell'ombra del tunnel si nasconde anche il vicino."
+  },
+  "en": {
+    "title": "Saint Port Shadow, Who Spied in the VPN's Shadow",
+    "patronage": "VPNs, netfilter tables, and those who think a tunnel is enough to hide.",
+    "hagiography": "In 2024 researchers, with Citizen Lab, revealed the port shadow (CVE-2021-3773): by exploiting netfilter's behaviour, an attacker connected to the same VPN server could infer information about another victim's connections, redirect packets, or run classic attacks through the shadow left by the ports. The tunnel meant to protect became a place shared with strangers.",
+    "prayer": "O Saint Port Shadow, who spies in the shadow of shared ports, teach our VPNs to isolate users from one another. Amen.",
+    "feast": "Celebrated by updating the kernel and choosing VPN configurations that do not leave clients exposed to their tunnel-neighbours.",
+    "proverb": "In the tunnel's shadow the neighbour hides too."
+  }
+}

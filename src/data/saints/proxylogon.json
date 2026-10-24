@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ProxyLogon, che entrava come se avesse la posta",
+    "patronage": "dei server di posta esposti, delle web shell lasciate in regalo e dei sistemisti di mezzo mondo.",
+    "hagiography": "Il 2 marzo 2021 Microsoft rilasciò patch d'emergenza per Exchange Server. Orange Tsai di DEVCORE aveva concatenato la CVE-2021-26855, che permetteva di farsi passare per il server, con la CVE-2021-27065, che permetteva di scrivere file: insieme davano l'esecuzione di codice senza autenticazione. Prima che tutti aggiornassero, decine di migliaia di server furono compromessi e riempiti di web shell. La catena prese il nome di ProxyLogon.",
+    "prayer": "O San ProxyLogon, che ti presenti al server come un suo pari, fa' che il nostro Exchange non creda a chi dice solo di avere la posta. Amen.",
+    "feast": "Si festeggia applicando subito gli aggiornamenti di Exchange e cercando le web shell nascoste prima che lo faccia qualcun altro.",
+    "proverb": "Chi si fa passare per il padrone, apre tutte le stanze."
+  },
+  "en": {
+    "title": "Saint ProxyLogon, Who Walked In as If He Had the Mail",
+    "patronage": "exposed mail servers, gift-wrapped web shells, and sysadmins the world over.",
+    "hagiography": "On 2 March 2021 Microsoft shipped emergency patches for Exchange Server. Orange Tsai of DEVCORE had chained CVE-2021-26855, which let you pose as the server, with CVE-2021-27065, which let you write files: together they gave unauthenticated code execution. Before everyone updated, tens of thousands of servers were compromised and filled with web shells. The chain was named ProxyLogon.",
+    "prayer": "O Saint ProxyLogon, who introduces himself to the server as its equal, keep our Exchange from believing whoever merely claims to hold the mail. Amen.",
+    "feast": "Celebrated by applying the Exchange updates at once and hunting for hidden web shells before someone else does.",
+    "proverb": "Pose as the master, and every room opens."
+  }
+}

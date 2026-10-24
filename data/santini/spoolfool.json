@@ -1,0 +1,10 @@
+{
+  "label": "SpoolFool",
+  "motto": "STULTITIA SPOOLERIS",
+  "niche": [
+    "#2d1f3d",
+    "#4f3a6b"
+  ],
+  "accent": "#4a2f66",
+  "emblem": "<rect x=\"106\" y=\"172\" width=\"88\" height=\"44\" rx=\"6\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"118\" y=\"150\" width=\"64\" height=\"24\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"120\" y=\"206\" width=\"60\" height=\"34\" fill=\"#fff\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"228\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">SYSTEM</text>\n<circle cx=\"182\" cy=\"186\" r=\"3\" fill=\"#27ae60\"/>\n<path d=\"M118 150 L104 124 L130 140 L150 116 L170 140 L196 124 L182 150 Z\" fill=\"#8e44ad\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"#f1c40f\"><circle cx=\"104\" cy=\"122\" r=\"5\"/><circle cx=\"150\" cy=\"114\" r=\"5\"/><circle cx=\"196\" cy=\"122\" r=\"5\"/></g>"
+}

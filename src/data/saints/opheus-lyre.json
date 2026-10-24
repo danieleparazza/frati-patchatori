@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Orpheus' Lyre, che cantava dati non autenticati",
+    "patronage": "di Kerberos, dei campi che nessuno controlla e dei messaggi creduti sulla parola.",
+    "hagiography": "Nel luglio 2017 Jeffrey Altman, Viktor Dukhovni e Nicolas Williams rivelarono Orpheus' Lyre (CVE-2017-11103 e affini), un difetto in diverse implementazioni di Kerberos, Heimdal in testa. Il client si fidava di alcuni metadati presi dalla parte in chiaro del biglietto invece che da quella cifrata e autenticata, e con quella svista un attaccante poteva impersonare i servizi. Come la lira di Orfeo, una bella melodia che faceva aprire porte che dovevano restare chiuse.",
+    "prayer": "O San Orpheus' Lyre, che incanti i client con dati non firmati, insegna ai nostri protocolli a credere solo a ciò che è autenticato. Amen.",
+    "feast": "Si festeggia aggiornando le implementazioni di Kerberos colpite e fidandosi solo della parte cifrata del biglietto.",
+    "proverb": "Bella melodia, porta spalancata."
+  },
+  "en": {
+    "title": "Saint Orpheus' Lyre, Who Sang Unauthenticated Data",
+    "patronage": "Kerberos, fields nobody checks, and messages believed on their word.",
+    "hagiography": "In July 2017 Jeffrey Altman, Viktor Dukhovni and Nicolas Williams revealed Orpheus' Lyre (CVE-2017-11103 and related), a flaw in several Kerberos implementations, Heimdal above all. The client trusted certain metadata taken from the plaintext part of the ticket instead of the encrypted, authenticated part, and with that oversight an attacker could impersonate services. Like Orpheus' lyre, a lovely melody that opened doors meant to stay shut.",
+    "prayer": "O Saint Orpheus' Lyre, who charms clients with unsigned data, teach our protocols to believe only what is authenticated. Amen.",
+    "feast": "Celebrated by updating the affected Kerberos implementations and trusting only the encrypted part of the ticket.",
+    "proverb": "A lovely melody, a door thrown wide."
+  }
+}

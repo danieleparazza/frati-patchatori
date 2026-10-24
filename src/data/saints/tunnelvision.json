@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TunnelVision, che fa uscire il traffico dal tunnel",
+    "patronage": "delle VPN sulle reti Wi-Fi degli alberghi, dei server DHCP troppo generosi e di chi si sentiva al sicuro con l'icona del lucchetto.",
+    "hagiography": "Il 6 maggio 2024 i ricercatori di Leviathan Security mostrarono che un server DHCP malevolo, usando l'opzione 121 per le rotte statiche, poteva convincere un computer a mandare il traffico fuori dalla VPN, mentre la VPN continuava a dirsi connessa. Funzionava su quasi tutti i sistemi tranne Android, che quell'opzione non la implementa, e secondo gli autori era possibile già dal 2002.",
+    "prayer": "O San TunnelVision, che apri una finestra laterale in ogni galleria, fa' che il nostro traffico resti nel tunnel che gli abbiamo scavato. Amen.",
+    "feast": "Si festeggia usando i namespace di rete su Linux e diffidando delle reti Wi-Fi gratuite con il caffè incluso.",
+    "proverb": "Il lucchetto sullo schermo non chiude la porta di servizio."
+  },
+  "en": {
+    "title": "Saint TunnelVision, Who Lets Traffic Out of the Tunnel",
+    "patronage": "VPNs on hotel Wi-Fi, overly generous DHCP servers, and everyone who felt safe because of the padlock icon.",
+    "hagiography": "On 6 May 2024 researchers at Leviathan Security showed that a malicious DHCP server, using option 121 for static routes, could convince a computer to send its traffic outside the VPN while the VPN still said it was connected. It worked on almost every system except Android, which doesn't implement that option, and according to the authors it had been possible since 2002.",
+    "prayer": "O Saint TunnelVision, who opens a side window in every tunnel, let our traffic stay in the tunnel we dug for it. Amen.",
+    "feast": "Celebrated by using network namespaces on Linux and distrusting free Wi-Fi that comes with the coffee.",
+    "proverb": "The padlock on the screen doesn't lock the back door."
+  }
+}

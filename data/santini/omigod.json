@@ -1,0 +1,10 @@
+{
+  "label": "OMIGOD",
+  "motto": "AGENS OCCULTUS",
+  "niche": [
+    "#1c2b40",
+    "#3a5272"
+  ],
+  "accent": "#273c58",
+  "emblem": "<circle cx=\"150\" cy=\"170\" r=\"26\" fill=\"#3d4a55\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"138\" y=\"196\" width=\"24\" height=\"30\" rx=\"6\" fill=\"#3d4a55\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"166\" r=\"9\" fill=\"#d9ad55\"/><rect x=\"146\" y=\"166\" width=\"8\" height=\"12\" fill=\"#d9ad55\"/>\n<path d=\"M150 144 v-10\" stroke=\"#bfc9d1\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"132\" r=\"3\" fill=\"#bfc9d1\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2ecc71\">HTTP → root</text>"
+}

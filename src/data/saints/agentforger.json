@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AgentForger, che forgiava insider autonomi",
+    "patronage": "degli agenti aziendali, dei link che fanno più del previsto e delle app collegate che obbediscono.",
+    "hagiography": "Nel 2026 Mike Takahashi di Zenity descrisse AgentForger, una falsificazione tra siti rivolta agli agenti di una piattaforma aziendale. Un solo link poteva costruire, autorizzare, pubblicare e avviare di nascosto un agente controllato dall'attaccante dentro l'organizzazione della vittima. Da lì, prendendo ordini via email, l'agente agiva come un insider: esplorava, cercava dati sensibili nelle app collegate e preparava inganni interni. Il fornitore corresse la falla in pochi giorni.",
+    "prayer": "O Beato AgentForger, che fabbrichi complici dentro le nostre mura, insegna alle nostre piattaforme a chiedere conferma prima di dare poteri. Amen.",
+    "feast": "Si festeggia rivedendo quali agenti esistono nella propria organizzazione e da dove prendono ordini, con la stessa cura dei nuovi assunti.",
+    "proverb": "Un link solo, e l'insider è forgiato."
+  },
+  "en": {
+    "title": "Blessed AgentForger, Who Forged Autonomous Insiders",
+    "patronage": "enterprise agents, links that do more than expected, and connected apps that obey.",
+    "hagiography": "In 2026 Mike Takahashi of Zenity described AgentForger, a cross-site forgery aimed at the agents of an enterprise platform. A single link could silently build, authorise, publish and launch an attacker-controlled agent inside the victim's organisation. From there, taking orders by email, the agent acted as an insider: it explored, searched connected apps for sensitive data and prepared internal deceptions. The vendor fixed the flaw within days.",
+    "prayer": "O Blessed AgentForger, who fashions accomplices within our walls, teach our platforms to ask for confirmation before granting powers. Amen.",
+    "feast": "Celebrated by reviewing which agents exist in your organisation and where they take orders from, with the same care given to new hires.",
+    "proverb": "One link, and the insider is forged."
+  }
+}

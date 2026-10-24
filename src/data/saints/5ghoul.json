@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San 5Ghoul, demone del modem",
+    "patronage": "dei modem 5G, delle stazioni base finte e di chi resta senza campo nel momento peggiore.",
+    "hagiography": "Nel dicembre 2023 il gruppo ASSET della SUTD di Singapore pubblicò 5Ghoul, una famiglia di difetti nei modem 5G di Qualcomm e MediaTek montati in centinaia di modelli di smartphone e router. Con una stazione base fasulla che inviava messaggi RRC malformati, un attaccante vicino poteva far bloccare o riavviare in continuazione il modem, lasciando il dispositivo senza connessione finché non si spegneva la radio.",
+    "prayer": "O San 5Ghoul, che infesti il modem da una cella che non esiste, fa' che i nostri baseband diffidino delle torri sconosciute. Amen.",
+    "feast": "Si festeggia aggiornando il firmware del baseband e, nel dubbio, passando per un attimo alla modalità aereo.",
+    "proverb": "Antenna sconosciuta, connessione stregata."
+  },
+  "en": {
+    "title": "Saint 5Ghoul, Demon of the Modem",
+    "patronage": "5G modems, fake base stations, and everyone left with no signal at the worst moment.",
+    "hagiography": "In December 2023 the ASSET group at SUTD in Singapore published 5Ghoul, a family of flaws in Qualcomm and MediaTek 5G modems built into hundreds of phone and router models. With a rogue base station sending malformed RRC messages, a nearby attacker could make the modem freeze or reboot over and over, leaving the device without a connection until the radio was turned off.",
+    "prayer": "O Saint 5Ghoul, who haunts the modem from a cell that does not exist, let our basebands distrust unknown towers. Amen.",
+    "feast": "Celebrated by updating the baseband firmware and, when in doubt, flicking airplane mode on for a moment.",
+    "proverb": "Unknown antenna, haunted connection."
+  }
+}

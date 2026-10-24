@@ -1,0 +1,10 @@
+{
+  "label": "Metro4Shell",
+  "motto": "OMNES IN CURRUM",
+  "niche": [
+    "#1a2a3a",
+    "#2e4a63"
+  ],
+  "accent": "#a93226",
+  "emblem": "<circle cx=\"150\" cy=\"160\" r=\"34\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"174\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"40\" fill=\"#fbf3dd\">M</text>\n<rect x=\"106\" y=\"206\" width=\"88\" height=\"36\" rx=\"5\" fill=\"#111\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"120\" y=\"230\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#7dcea0\">&gt;_ sh</text>"
+}

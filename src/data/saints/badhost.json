@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BadHost, che mentiva sul proprio indirizzo",
+    "patronage": "dei framework ASGI, delle intestazioni Host prese per buone e dei middleware che proteggono il percorso sbagliato.",
+    "hagiography": "Il 21 maggio 2026 X41 D-Sec, durante un audit finanziato da OSTIF, trovò BadHost (CVE-2026-48710) in Starlette, il framework su cui poggiano FastAPI e molti servizi di intelligenza artificiale. Prima della versione 1.0.1 l'intestazione Host non veniva controllata prima di ricostruire request.url: così il percorso visto dal middleware di sicurezza poteva differire da quello effettivamente servito, e i controlli basati sull'URL venivano aggirati. CISA lo inserì poi tra le vulnerabilità sfruttate.",
+    "prayer": "O San BadHost, che ti presenti con un indirizzo che non è il tuo, fa' che i nostri middleware guardino il percorso vero. Amen.",
+    "feast": "Si festeggia aggiornando Starlette alla 1.0.1 e basando i controlli sul percorso grezzo, non sull'URL ricostruito.",
+    "proverb": "Chi si fida dell'Host, serve la porta sbagliata."
+  },
+  "en": {
+    "title": "Saint BadHost, Who Lied About His Own Address",
+    "patronage": "ASGI frameworks, Host headers taken at face value, and middleware that protects the wrong path.",
+    "hagiography": "On 21 May 2026 X41 D-Sec, during an OSTIF-funded audit, found BadHost (CVE-2026-48710) in Starlette, the framework behind FastAPI and many AI services. Before version 1.0.1 the Host header was not validated before request.url was rebuilt: so the path seen by security middleware could differ from the one actually served, and URL-based checks were bypassed. CISA later added it to its known-exploited list.",
+    "prayer": "O Saint BadHost, who comes with an address that is not yours, let our middleware look at the true path. Amen.",
+    "feast": "Celebrated by updating Starlette to 1.0.1 and basing checks on the raw path, not the rebuilt URL.",
+    "proverb": "Trust the Host, and you serve the wrong door."
+  }
+}

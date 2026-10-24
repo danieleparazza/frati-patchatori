@@ -1,0 +1,10 @@
+{
+  "label": "FORCEDENTRY",
+  "motto": "IANUA EFFRACTA",
+  "niche": [
+    "#2a1a22",
+    "#54323f"
+  ],
+  "accent": "#3f2530",
+  "emblem": "<rect x=\"120\" y=\"140\" width=\"60\" height=\"92\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"168\" y=\"140\" width=\"12\" height=\"12\" fill=\"#e8dcc0\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#b03a2e\">GIF?</text>\n<text x=\"150\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#2a4b8d\">PDF</text>\n<path d=\"M150 204 l-18 24 h12 v10 h12 v-10 h12 z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>"
+}

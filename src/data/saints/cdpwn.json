@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CDPwn, che si presentava ai vicini",
+    "patronage": "dei telefoni IP, delle telecamere di sorveglianza e dei protocolli che chiacchierano sulla rete locale.",
+    "hagiography": "Il 5 febbraio 2020 Armis rivelò cinque vulnerabilità nel Cisco Discovery Protocol, il protocollo con cui gli apparati Cisco si presentano ai vicini. Un singolo pacchetto ben confezionato, inviato dalla stessa rete locale, bastava per prendere il controllo di switch Nexus, router IOS XR, telefoni IP e telecamere, o per farli riavviare. Saltando da un apparato all'altro si poteva attraversare la segmentazione di un'intera rete aziendale.",
+    "prayer": "O San CDPwn, che ti presenti a tutti con un pacchetto in mano, fa' che i nostri apparati non diano confidenza al primo arrivato. Amen.",
+    "feast": "Si festeggia aggiornando IOS XR, NX-OS e firmware dei telefoni, e spegnendo CDP dove nessuno lo usa.",
+    "proverb": "Chi si presenta a tutti, prima o poi incontra quello sbagliato."
+  },
+  "en": {
+    "title": "Saint CDPwn, Who Introduced Himself to the Neighbours",
+    "patronage": "IP phones, surveillance cameras, and protocols that gossip on the local network.",
+    "hagiography": "On 5 February 2020 Armis revealed five vulnerabilities in the Cisco Discovery Protocol, the protocol Cisco devices use to introduce themselves to their neighbours. A single well-crafted packet sent from the same local network was enough to take over Nexus switches, IOS XR routers, IP phones and cameras, or to make them reboot. Hopping from one device to the next, an attacker could cross the segmentation of a whole corporate network.",
+    "prayer": "O Saint CDPwn, who greets everyone with a packet in hand, let our devices not get too friendly with the first comer. Amen.",
+    "feast": "Celebrated by updating IOS XR, NX-OS and phone firmware, and turning CDP off wherever nobody uses it.",
+    "proverb": "Introduce yourself to everyone, and sooner or later you meet the wrong one."
+  }
+}

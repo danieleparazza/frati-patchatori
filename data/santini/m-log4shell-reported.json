@@ -1,0 +1,11 @@
+{
+  "label": "Log4j Report",
+  "motto": "NUNTIUS DISCRETUS",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<rect x=\"106\" y=\"150\" width=\"88\" height=\"58\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#1d3550\" stroke-width=\"2\"/>\n<path d=\"M106 154 L150 186 L194 154\" fill=\"none\" stroke=\"#1d3550\" stroke-width=\"2.5\"/>\n<path d=\"M150 226 C142 226 136 220 136 212 C136 204 150 196 150 196 C150 196 164 204 164 212 C164 220 158 226 150 226 Z\" fill=\"#c0392b\" stroke=\"#1d3550\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"142\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#1d3550\" >Apache</text>"
+}

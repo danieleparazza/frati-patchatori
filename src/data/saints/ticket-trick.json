@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Ticket Trick, che entrava dall'helpdesk",
+    "patronage": "dei sistemi di assistenza, degli indirizzi di posta dei ticket e delle aziende che si fidano del proprio dominio.",
+    "hagiography": "Il 10 settembre 2017 Inti De Ceukelaire descrisse Ticket Trick: molti sistemi di helpdesk assegnano a ogni richiesta un indirizzo e-mail nel dominio dell'azienda. Usando quell'indirizzo, l'attaccante poteva iscriversi agli strumenti interni che richiedevano una mail aziendale per entrare, come chat e repository, leggendo i messaggi di conferma direttamente dai ticket. Così entrò, per prova, nelle piattaforme di centinaia di aziende.",
+    "prayer": "O Beato Ticket Trick, che leggi le mail di conferma dentro i ticket, fa' che i nostri strumenti non confondano un dominio con un'identità. Amen.",
+    "feast": "Si festeggia distinguendo gli indirizzi dell'helpdesk da quelli dei dipendenti e non fidandosi del solo dominio per l'accesso.",
+    "proverb": "Chi apre un ticket, a volte apre una porta."
+  },
+  "en": {
+    "title": "Blessed Ticket Trick, Who Entered Through the Helpdesk",
+    "patronage": "support systems, ticket email addresses, and companies that trust their own domain.",
+    "hagiography": "On 10 September 2017 Inti De Ceukelaire described Ticket Trick: many helpdesk systems assign every request an email address in the company's domain. Using that address, an attacker could sign up to internal tools that required a company email to join, such as chat and repositories, reading the confirmation messages straight out of the tickets. In this way he got, as a test, into the platforms of hundreds of companies.",
+    "prayer": "O Blessed Ticket Trick, who reads confirmation emails inside tickets, let our tools never mistake a domain for an identity. Amen.",
+    "feast": "Celebrated by separating helpdesk addresses from employee ones and not trusting the domain alone for access.",
+    "proverb": "Open a ticket and sometimes you open a door."
+  }
+}

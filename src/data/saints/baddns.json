@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BadDNS, che rifiutava le risposte giuste",
+    "patronage": "dei resolver DNS, delle porte di origine prevedibili e delle risposte scartate per errore.",
+    "hagiography": "Nel marzo 2023 il ricercatore Xiang Li descrisse BadDNS, una classe di difetti in cui un resolver DNS può essere indotto a ignorare le risposte legittime, restando senza la risposta che gli serviva e negando così il servizio. Secondo l'autore l'effetto poteva essere ampio, perché a volte bastava falsificare un pacchetto verso la porta di origine del resolver, senza indovinare l'identificativo della richiesta.",
+    "prayer": "O Beato BadDNS, che butti via la lettera giusta aspettando quella falsa, insegna ai nostri resolver a riconoscere chi risponde davvero. Amen.",
+    "feast": "Si festeggia aggiornando il software DNS, randomizzando le porte di origine e validando con cura ogni risposta.",
+    "proverb": "Chi rifiuta la risposta vera, resta senza."
+  },
+  "en": {
+    "title": "Blessed BadDNS, Who Refused the Right Answers",
+    "patronage": "DNS resolvers, predictable source ports, and answers discarded by mistake.",
+    "hagiography": "In March 2023 researcher Xiang Li described BadDNS, a class of flaws in which a DNS resolver can be made to ignore legitimate responses, left without the answer it needed and so denying service. According to the author the effect could be wide, because sometimes it was enough to forge a packet toward the resolver's source port, without guessing the query's identifier.",
+    "prayer": "O Blessed BadDNS, who throws away the right letter while waiting for the false one, teach our resolvers to recognise who really answers. Amen.",
+    "feast": "Celebrated by updating DNS software, randomising source ports, and validating every response with care.",
+    "proverb": "Refuse the true answer, and you're left with none."
+  }
+}

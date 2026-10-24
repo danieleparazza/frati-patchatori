@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Kr00k, dalla chiave di zeri",
+    "patronage": "dei chip Wi-Fi, delle disconnessioni improvvise e delle chiavi fatte tutte di zeri.",
+    "hagiography": "Il 26 febbraio 2020, alla conferenza RSA, i ricercatori di ESET presentarono Kr00k, la CVE-2019-15126. Nei chip Wi-Fi di Broadcom e Cypress, dopo una disconnessione, i dati ancora in coda venivano spediti cifrati con una chiave fatta di soli zeri: chi era nei paraggi poteva provocare la disconnessione e leggere quei frammenti. Secondo ESET erano coinvolti oltre un miliardo di dispositivi, tra telefoni, portatili, altoparlanti e router.",
+    "prayer": "O San Kr00k, che cifri con lo zero e ti credi al sicuro, fa' che i nostri chip svuotino la coda prima di salutare. Amen.",
+    "feast": "Si festeggia aggiornando firmware e sistemi operativi e usando HTTPS anche sul Wi-Fi di casa.",
+    "proverb": "Chiave di zeri, segreto di nessuno."
+  },
+  "en": {
+    "title": "Saint Kr00k, of the All-Zero Key",
+    "patronage": "Wi-Fi chips, sudden disconnections, and keys made entirely of zeros.",
+    "hagiography": "On 26 February 2020, at the RSA conference, ESET researchers presented Kr00k, CVE-2019-15126. In Broadcom and Cypress Wi-Fi chips, after a disconnection, data still in the queue went out encrypted with a key made of nothing but zeros: anyone nearby could trigger the disconnection and read those fragments. According to ESET over a billion devices were affected, from phones and laptops to speakers and routers.",
+    "prayer": "O Saint Kr00k, who encrypts with zero and thinks himself safe, let our chips empty the queue before saying goodbye. Amen.",
+    "feast": "Celebrated by updating firmware and operating systems and using HTTPS even on the home Wi-Fi.",
+    "proverb": "A key of zeros keeps nobody's secret."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Collateral Damage, che aprì la console senza chiedere",
+    "patronage": "delle console di gioco, degli homebrew e delle vulnerabilità di Windows che finiscono dove nessuno se le aspetta.",
+    "hagiography": "Nel 2024 Emma Kirkpatrick, con Lander Brandt di Solstice, pubblicò un exploit del kernel per Xbox One e Xbox Series basato su CVE-2024-30088, una corsa critica del kernel di Windows corretta a giugno. Lanciato da un'app di scripting, dava il controllo completo di SystemOS, la macchina virtuale delle app, senza modalità sviluppatore. Non era un jailbreak dei giochi, ed era capriccioso: quando falliva la console si riavviava. Il danno collaterale, appunto, di una patch per PC.",
+    "prayer": "O San Collateral Damage, che dal PC passi alla console come un ospite inatteso, fa' che i nostri sistemi condivisi condividano anche gli aggiornamenti. Amen.",
+    "feast": "Si festeggia aggiornando la console e giocando una partita, che tanto il kernel è già stato aperto da altri.",
+    "proverb": "Patch del PC, sorpresa in salotto."
+  },
+  "en": {
+    "title": "Saint Collateral Damage, Who Opened the Console Without Asking",
+    "patronage": "game consoles, homebrew, and Windows vulnerabilities that turn up where nobody expects them.",
+    "hagiography": "In 2024 Emma Kirkpatrick, with Lander Brandt of Solstice, released a kernel exploit for Xbox One and Xbox Series built on CVE-2024-30088, a Windows kernel race condition patched in June. Launched from a scripting app, it gave full control of SystemOS, the virtual machine where apps run, without developer mode. It was no game jailbreak, and it was temperamental: when it failed, the console rebooted. The collateral damage, so to speak, of a PC patch.",
+    "prayer": "O Saint Collateral Damage, who crosses from PC to console like an unexpected guest, let our shared systems share their updates too. Amen.",
+    "feast": "Celebrated by updating the console and playing a game, since someone else has already opened the kernel anyway.",
+    "proverb": "A patch for the PC, a surprise in the living room."
+  }
+}

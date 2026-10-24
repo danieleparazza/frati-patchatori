@@ -1,0 +1,11 @@
+{
+  "label": "Ransom Recovered",
+  "motto": "CATENA REDUCIT",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"5\"><rect x=\"104\" y=\"188\" width=\"28\" height=\"16\" rx=\"8\" transform=\"rotate(-30 118 196)\"/><rect x=\"128\" y=\"174\" width=\"28\" height=\"16\" rx=\"8\" transform=\"rotate(-30 142 182)\"/><rect x=\"152\" y=\"160\" width=\"28\" height=\"16\" rx=\"8\" transform=\"rotate(-30 166 168)\"/><rect x=\"176\" y=\"146\" width=\"28\" height=\"16\" rx=\"8\" transform=\"rotate(-30 190 154)\"/></g>\n<circle cx=\"132\" cy=\"150\" r=\"20\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"132\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#1d3550\" font-weight=\"bold\">B</text><g fill=\"#1d3550\"><rect x=\"128.9\" y=\"138.7\" width=\"2.1\" height=\"25.0\"/><rect x=\"133.0\" y=\"138.7\" width=\"2.1\" height=\"25.0\"/></g>\n<path d=\"M168 210 A30 30 0 0 1 112 222\" fill=\"none\" stroke=\"#1d3550\" stroke-width=\"4\"/><polygon points=\"108,214 118,230 104,230\" fill=\"#1d3550\"/>"
+}

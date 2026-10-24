@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San FORCEDENTRY, che forzò la porta con un PDF",
+    "patronage": "degli iPhone, dei file GIF che non erano GIF e di chi non apre mai gli allegati sospetti ma viene colpito lo stesso.",
+    "hagiography": "Il 13 settembre 2021 il Citizen Lab rivelò FORCEDENTRY, un exploit zero-clic che installava lo spyware Pegasus di NSO Group sugli iPhone. Un file camuffato da GIF, in realtà un PDF malformato, sfruttava un overflow di interi nel motore di rendering di iMessage: bastava riceverlo. Apple pubblicò un aggiornamento d'emergenza e la vicenda contribuì alle cause legali contro NSO.",
+    "prayer": "O San FORCEDENTRY, che forzi la serratura con un allegato mai aperto, fa' che i nostri decoder non si fidino di ciò che l'estensione promette. Amen.",
+    "feast": "Si festeggia aggiornando iOS all'uscita della patch e attivando, per chi è a rischio, la Modalità di isolamento.",
+    "proverb": "Allegato ricevuto, porta già forzata."
+  },
+  "en": {
+    "title": "Saint FORCEDENTRY, Who Forced the Door With a PDF",
+    "patronage": "iPhones, GIF files that weren't GIFs, and everyone who never opens suspicious attachments but gets hit anyway.",
+    "hagiography": "On 13 September 2021 the Citizen Lab revealed FORCEDENTRY, a zero-click exploit that installed NSO Group's Pegasus spyware on iPhones. A file disguised as a GIF, actually a malformed PDF, exploited an integer overflow in the iMessage rendering engine: just receiving it was enough. Apple published an emergency update, and the affair fed the lawsuits against NSO.",
+    "prayer": "O Saint FORCEDENTRY, who forces the lock with an attachment never opened, let our decoders never trust what the extension promises. Amen.",
+    "feast": "Celebrated by updating iOS when the patch ships and, for those at risk, turning on Lockdown Mode.",
+    "proverb": "Attachment received, door already forced."
+  }
+}

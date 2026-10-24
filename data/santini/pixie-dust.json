@@ -1,0 +1,10 @@
+{
+  "label": "Pixie Dust",
+  "motto": "PULVIS WPS",
+  "niche": [
+    "#1d2340",
+    "#3a4578"
+  ],
+  "accent": "#2c3560",
+  "emblem": "<rect x=\"118\" y=\"168\" width=\"64\" height=\"44\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<line x1=\"134\" y1=\"168\" x2=\"130\" y2=\"140\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<line x1=\"166\" y1=\"168\" x2=\"170\" y2=\"140\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<circle cx=\"150\" cy=\"190\" r=\"10\" fill=\"#d9ad55\"/><text x=\"150\" y=\"195\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#2b1d14\">WPS</text>\n<g fill=\"#fff8d6\"><path d=\"M196 150 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 l6 -2 z\"/><path d=\"M186 180 l1.5 4 l4 1.5 l-4 1.5 l-1.5 4 l-1.5 -4 l-4 -1.5 l4 -1.5 z\"/><circle cx=\"204\" cy=\"172\" r=\"2\"/><circle cx=\"110\" cy=\"158\" r=\"2\"/></g>"
+}

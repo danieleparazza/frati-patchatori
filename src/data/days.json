@@ -2330,6 +2330,7 @@
   "patron": "risk-station",
   "others": [
    "blue-box-2600hz",
+   "bleedingbit",
    "braktooth",
    "oobpci",
    "badrecovery",
@@ -2558,12 +2559,11 @@
   ]
  },
  "12-06": {
-  "patron": "bleedingbit",
+  "patron": "pool-party-2",
   "others": [
    "sierra21",
    "idesaster",
-   "autospill",
-   "pool-party-2"
+   "autospill"
   ]
  },
  "12-07": {
@@ -2574,9 +2574,9 @@
   ]
  },
  "12-08": {
-  "patron": "lcdpwn",
+  "patron": "kerberos-bronze-bit",
   "others": [
-   "kerberos-bronze-bit",
+   "lcdpwn",
    "dirty-vanity",
    "geminijack",
    "zeroboot"
@@ -2590,9 +2590,9 @@
   ]
  },
  "12-10": {
-  "patron": "spectra",
+  "patron": "badram",
   "others": [
-   "badram",
+   "spectra",
    "airdos"
   ]
  },

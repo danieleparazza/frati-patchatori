@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BlueKeep, che poteva diventare un verme",
+    "patronage": "dei server Remote Desktop esposti, dei sistemi fuori supporto e delle patch rilasciate anche per i defunti.",
+    "hagiography": "Il 14 maggio 2019 Microsoft corresse BlueKeep (CVE-2019-0708), un difetto nei Servizi Desktop Remoto che un attaccante poteva sfruttare senza autenticazione, da remoto, con la sola porta RDP aperta. Era \"wormable\": capace di propagarsi da solo da una macchina all'altra come aveva fatto WannaCry. Il timore era tale che Microsoft pubblicò aggiornamenti perfino per Windows XP e 2003, già da tempo fuori supporto.",
+    "prayer": "O San BlueKeep, che potevi strisciare di server in server, fa' che i nostri desktop remoti chiedano chi bussa prima di aprire. Amen.",
+    "feast": "Si festeggia installando la patch del maggio 2019, attivando l'autenticazione a livello di rete e togliendo RDP da Internet.",
+    "proverb": "Porta RDP aperta, verme alla porta."
+  },
+  "en": {
+    "title": "Saint BlueKeep, Who Could Have Become a Worm",
+    "patronage": "exposed Remote Desktop servers, systems past end of life, and patches released even for the departed.",
+    "hagiography": "On 14 May 2019 Microsoft fixed BlueKeep (CVE-2019-0708), a flaw in Remote Desktop Services that an attacker could exploit without authentication, remotely, with nothing but the RDP port open. It was \"wormable\": able to spread on its own from machine to machine, as WannaCry had. The fear was such that Microsoft shipped updates even for Windows XP and 2003, long out of support.",
+    "prayer": "O Saint BlueKeep, who could have crawled from server to server, let our remote desktops ask who is knocking before they open. Amen.",
+    "feast": "Celebrated by installing the May 2019 patch, enabling Network Level Authentication and taking RDP off the Internet.",
+    "proverb": "Open RDP port, worm at the door."
+  }
+}

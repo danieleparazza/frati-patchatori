@@ -1,0 +1,10 @@
+{
+  "label": "Dubious Disk",
+  "motto": "DISCUS DUBIUS",
+  "niche": [
+    "#1b2433",
+    "#3a4a66"
+  ],
+  "accent": "#24324a",
+  "emblem": "<rect x=\"110\" y=\"132\" width=\"80\" height=\"84\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"126\" y=\"132\" width=\"46\" height=\"26\" fill=\"#5d6d7e\"/><rect x=\"156\" y=\"136\" width=\"10\" height=\"18\" fill=\"#bfc9d1\"/>\n<rect x=\"120\" y=\"172\" width=\"60\" height=\"40\" rx=\"2\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"207\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"38\" font-weight=\"bold\" fill=\"#3a4a66\">?</text>\n<text x=\"150\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#d9ad55\">RAMDISK</text>"
+}

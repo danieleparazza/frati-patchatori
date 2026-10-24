@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Pixie Dust, che indovinò il PIN del WPS",
+    "patronage": "dei router domestici col pulsante WPS, dei PIN a otto cifre e di chi credeva che il Wi-Fi fosse sicuro.",
+    "hagiography": "Nell'ottobre 2014 Dominique Bongard presentò al congresso hack.lu l'attacco «pixie dust»: molti router generavano i numeri casuali del protocollo WPS con pochissima entropia, così il PIN a otto cifre si poteva calcolare in pochi secondi, offline, da un solo scambio con il router. Da lì si risaliva alla password Wi-Fi. Strumenti come pixiewps resero l'attacco accessibile a chiunque.",
+    "prayer": "O Beato Pixie Dust, che calcoli il PIN come polvere al vento, fa' che i nostri router dimentichino il WPS. Amen.",
+    "feast": "Si festeggia disabilitando il WPS sul router e scegliendo una password Wi-Fi lunga e casuale.",
+    "proverb": "Poca entropia, poca difesa."
+  },
+  "en": {
+    "title": "Blessed Pixie Dust, Who Guessed the WPS PIN",
+    "patronage": "home routers with the WPS button, eight-digit PINs, and everyone who thought Wi-Fi was safe.",
+    "hagiography": "In October 2014 Dominique Bongard presented the \"pixie dust\" attack at the hack.lu conference: many routers generated the WPS protocol's random numbers with so little entropy that the eight-digit PIN could be computed in seconds, offline, from a single exchange with the router. From there you recovered the Wi-Fi password. Tools like pixiewps put the attack within anyone's reach.",
+    "prayer": "O Blessed Pixie Dust, who computes the PIN like dust in the wind, let our routers forget WPS. Amen.",
+    "feast": "Celebrated by disabling WPS on the router and choosing a long, random Wi-Fi password.",
+    "proverb": "Little entropy, little defence."
+  }
+}

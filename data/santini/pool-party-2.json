@@ -1,0 +1,10 @@
+{
+  "label": "Pool Party",
+  "motto": "IN PISCINA ALIENA",
+  "niche": [
+    "#123a4a",
+    "#2585a6"
+  ],
+  "accent": "#1a5c73",
+  "emblem": "<rect x=\"110\" y=\"150\" width=\"80\" height=\"94\" rx=\"6\" fill=\"#2585a6\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<g stroke=\"#bfe7f5\" stroke-width=\"3\" fill=\"none\" opacity=\"0.85\"><path d=\"M116 168 q10 -8 20 0 t20 0 t20 0\"/><path d=\"M116 186 q10 -8 20 0 t20 0 t20 0\"/><path d=\"M116 204 q10 -8 20 0 t20 0 t20 0\"/><path d=\"M116 222 q10 -8 20 0 t20 0 t20 0\"/></g>\n<g fill=\"#111\"><rect x=\"124\" y=\"140\" width=\"6\" height=\"16\"/><rect x=\"146\" y=\"140\" width=\"6\" height=\"16\"/><rect x=\"168\" y=\"140\" width=\"6\" height=\"16\"/></g>\n<circle cx=\"150\" cy=\"134\" r=\"7\" fill=\"#e4572e\"/>\n<text x=\"150\" y=\"138\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#fff\">PE</text>"
+}

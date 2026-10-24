@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DolphinAttack, che parlava agli assistenti nell'ultrasuono",
+    "patronage": "degli assistenti vocali, dei comandi che nessuno sente e dei microfoni troppo sensibili.",
+    "hagiography": "Il 31 agosto 2017 un gruppo dell'Università Zhejiang pubblicò DolphinAttack: comandi vocali modulati su frequenze ultrasoniche, inudibili per le persone ma captati dai microfoni di Siri, Alexa, Google Assistant e altri. Sfruttando la non linearità dei microfoni, un sussurro oltre l'udito umano poteva far comporre numeri, aprire siti o impartire ordini. Il nome ricorda i delfini, che nell'ultrasuono ci parlano davvero.",
+    "prayer": "O Beato DolphinAttack, che ordini nell'ultrasuono ciò che nessuno ha detto, fa' che i nostri assistenti ascoltino solo le voci che possiamo sentire anche noi. Amen.",
+    "feast": "Si festeggia disattivando l'assistente vocale a schermo bloccato e scegliendo microfoni che ignorano l'ultrasuono.",
+    "proverb": "Comando che non si sente, ordine che non si nega."
+  },
+  "en": {
+    "title": "Blessed DolphinAttack, Who Spoke to Assistants in Ultrasound",
+    "patronage": "voice assistants, commands nobody hears, and over-sensitive microphones.",
+    "hagiography": "On 31 August 2017 a group from Zhejiang University published DolphinAttack: voice commands modulated onto ultrasonic frequencies, inaudible to people but picked up by the microphones of Siri, Alexa, Google Assistant and others. Exploiting the nonlinearity of microphones, a whisper beyond human hearing could dial numbers, open websites or issue orders. The name recalls dolphins, who really do speak in ultrasound.",
+    "prayer": "O Blessed DolphinAttack, who commands in ultrasound what nobody said, let our assistants heed only the voices we can hear too. Amen.",
+    "feast": "Celebrated by disabling the voice assistant on the lock screen and choosing microphones that ignore ultrasound.",
+    "proverb": "A command unheard is an order undenied."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "BigDiskBuster",
+  "motto": "DISCUS FALSO PLENUS",
+  "niche": [
+    "#2a2416",
+    "#56492a"
+  ],
+  "accent": "#423820",
+  "emblem": "<rect x=\"114\" y=\"148\" width=\"72\" height=\"52\" rx=\"4\" fill=\"#3d4a55\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"120\" y=\"156\" width=\"60\" height=\"14\" rx=\"2\" fill=\"#1b2430\"/>\n<rect x=\"120\" y=\"156\" width=\"56\" height=\"14\" rx=\"2\" fill=\"#b03a2e\"/>\n<text x=\"150\" y=\"167\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">C: 100%</text>\n<path d=\"M134 180 l10 10 l20 -22\" fill=\"none\" stroke=\"#7f8c8d\" stroke-width=\"3\"/>\n<path d=\"M150 208 v16 M138 216 l12 12 l12 -12\" stroke=\"#bfc9d1\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M150 224 l-18 -4 M150 224 l18 -4\" stroke=\"#c0392b\" stroke-width=\"3\"/>"
+}

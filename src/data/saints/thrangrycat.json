@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Thrangrycat, il gatto arrabbiato del Secure Boot",
+    "patronage": "dei router Cisco, delle FPGA del boot sicuro e dei nomi di dominio fatti di faccine arrabbiate.",
+    "hagiography": "L'8 novembre 2018 Red Balloon Security presentò Thrangrycat, un difetto nell'implementazione hardware del Secure Boot di molti dispositivi Cisco: un attaccante già amministratore poteva riscrivere la FPGA che custodisce il boot sicuro e, superandone i controlli, avviare firmware malevolo che neanche una reinstallazione rimuove. Il nome è tre gatti arrabbiati, e il sito ufficiale della ricerca era davvero all'indirizzo fatto di emoji di gatti furiosi (CVE-2019-1649).",
+    "prayer": "O San Thrangrycat, gatto furioso che riscrivi il guardiano del boot, fa' che le nostre radici di fiducia non si lascino riscrivere. Amen.",
+    "feast": "Si festeggia aggiornando il firmware Cisco e limitando chi ha accesso amministrativo, con un gatto accanto per scaramanzia.",
+    "proverb": "Chi riscrive il guardiano comanda la fortezza."
+  },
+  "en": {
+    "title": "Saint Thrangrycat, the Angry Cat of Secure Boot",
+    "patronage": "Cisco routers, Secure Boot FPGAs, and domain names made of angry faces.",
+    "hagiography": "On 8 November 2018 Red Balloon Security presented Thrangrycat, a flaw in the hardware Secure Boot of many Cisco devices: an attacker already holding admin rights could rewrite the FPGA that guards secure boot and, bypassing its checks, boot malicious firmware that not even a reinstall removes. The name is three angry cats, and the research's official site really lived at an address made of furious-cat emoji (CVE-2019-1649).",
+    "prayer": "O Saint Thrangrycat, furious cat who rewrites the guardian of boot, let our roots of trust not be rewritten. Amen.",
+    "feast": "Celebrated by updating Cisco firmware and limiting who holds admin access, with a cat nearby for luck.",
+    "proverb": "Rewrite the guardian and you command the fortress."
+  }
+}

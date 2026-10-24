@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San JASBUG, difetto di progetto",
+    "patronage": "dei Criteri di gruppo, delle condivisioni di rete e dei difetti che non si correggono con una riga sola.",
+    "hagiography": "Il 10 febbraio 2015 Microsoft pubblicò MS15-011 per la CVE-2015-0008, scoperta da Jeff Schmidt di JAS Global Advisors e segnalata oltre un anno prima. Non era un errore di programmazione ma di progetto: un computer di dominio che scaricava i Criteri di gruppo non verificava di parlare con il vero controller, e un attaccante sulla rete poteva fargli eseguire codice. La correzione richiese mesi di lavoro e una configurazione da attivare a mano.",
+    "prayer": "O San JASBUG, che abiti nel progetto e non nel codice, fa' che i nostri client chiedano al server chi è. Amen.",
+    "feast": "Si festeggia installando MS15-011 e configurando davvero i percorsi UNC protetti, che la patch da sola non attiva.",
+    "proverb": "Errore di progetto, rimedio di pazienza."
+  },
+  "en": {
+    "title": "Saint JASBUG, Flaw of Design",
+    "patronage": "Group Policy, network shares, and flaws that can't be fixed with a single line.",
+    "hagiography": "On 10 February 2015 Microsoft published MS15-011 for CVE-2015-0008, found by Jeff Schmidt of JAS Global Advisors and reported over a year earlier. It was not a coding error but a design one: a domain computer downloading Group Policy did not check it was talking to the real controller, and an attacker on the network could make it run code. The fix took months of work and a setting that had to be switched on by hand.",
+    "prayer": "O Saint JASBUG, who lives in the design and not the code, let our clients ask the server who it is. Amen.",
+    "feast": "Celebrated by installing MS15-011 and actually configuring hardened UNC paths, which the patch alone does not switch on.",
+    "proverb": "A flaw of design calls for a cure of patience."
+  }
+}

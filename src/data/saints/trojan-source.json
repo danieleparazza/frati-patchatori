@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Trojan Source, che riordina i caratteri",
+    "patronage": "dei revisori di codice, dei caratteri Unicode bidirezionali e di chi si fida di ciò che vede sullo schermo.",
+    "hagiography": "Il 18 ottobre 2021 Nicholas Boucher e Ross Anderson dell'Università di Cambridge mostrarono che i caratteri di controllo Unicode per il testo bidirezionale potevano riordinare visivamente il codice sorgente: ciò che l'umano leggeva differiva da ciò che il compilatore eseguiva. Così si potevano nascondere backdoor in piena vista, invisibili a chi rivedeva il codice. Il problema toccava quasi tutti i linguaggi insieme, e compilatori ed editor corsero ad avvisare sui caratteri bidirezionali sospetti.",
+    "prayer": "O San Trojan Source, che fai leggere una cosa e compilare l'altra, fa' che i nostri editor ci mostrino ogni carattere nascosto. Amen.",
+    "feast": "Si festeggia attivando gli avvisi sui caratteri bidirezionali in compilatore ed editor, e rileggendo il codice byte per byte almeno una volta.",
+    "proverb": "Non è sorgente ciò che appare, ma ciò che il compilatore legge."
+  },
+  "en": {
+    "title": "Saint Trojan Source, Who Reorders the Characters",
+    "patronage": "code reviewers, bidirectional Unicode characters, and everyone who trusts what they see on screen.",
+    "hagiography": "On 18 October 2021 Nicholas Boucher and Ross Anderson of the University of Cambridge showed that Unicode control characters for bidirectional text could visually reorder source code: what the human read differed from what the compiler ran. Backdoors could thus be hidden in plain sight, invisible to the reviewer. The problem touched nearly every language at once, and compilers and editors rushed to warn about suspicious bidirectional characters.",
+    "prayer": "O Saint Trojan Source, who makes us read one thing and compile another, let our editors show us every hidden character. Amen.",
+    "feast": "Celebrated by enabling bidirectional-character warnings in compiler and editor, and rereading the code byte by byte at least once.",
+    "proverb": "Source is not what you see, but what the compiler reads."
+  }
+}

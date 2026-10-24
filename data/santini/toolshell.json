@@ -1,0 +1,10 @@
+{
+  "label": "ToolShell",
+  "motto": "CLAVES DOMUS RAPIT",
+  "niche": [
+    "#13302a",
+    "#255a4e"
+  ],
+  "accent": "#1b463c",
+  "emblem": "<circle cx=\"134\" cy=\"160\" r=\"18\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"6\"/>\n<path d=\"M148 172 L186 210 L174 222 L136 184 Z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M178 202 l10 10\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<rect x=\"110\" y=\"200\" width=\"44\" height=\"32\" rx=\"3\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"132\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#58d68d\">&gt;_</text>"
+}

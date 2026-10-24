@@ -1,0 +1,10 @@
+{
+  "label": "sqlol",
+  "motto": "LOG ERRANTIS",
+  "niche": [
+    "#14232e",
+    "#2c4652"
+  ],
+  "accent": "#1d3a44",
+  "emblem": "<path d=\"M118 152 q32 -14 64 0 v56 q-32 14 -64 0 z\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M118 152 q32 14 64 0 M118 170 q32 14 64 0 M118 188 q32 14 64 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M150 214 q10 16 26 10\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-dasharray=\"4 3\"/>\n<path d=\"M176 220 l10 2 l-4 -10 z\" fill=\"#d9ad55\"/>\n<rect x=\"166\" y=\"222\" width=\"30\" height=\"20\" rx=\"3\" fill=\"#c0392b\"/><text x=\"181\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">TCC</text>"
+}

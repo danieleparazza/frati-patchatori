@@ -1,0 +1,11 @@
+{
+  "label": "Industroyer",
+  "motto": "IEC CIV REBELLAT",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"110\" y=\"140\" width=\"80\" height=\"80\" rx=\"6\" fill=\"#2b2b2b\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<line x1=\"126\" y1=\"196\" x2=\"174\" y2=\"164\" stroke=\"#d9ad55\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<circle cx=\"126\" cy=\"196\" r=\"7\" fill=\"#fbf3dd\"/><circle cx=\"174\" cy=\"196\" r=\"5\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\" >IEC 104</text>\n<path d=\"M150 220 V238\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>"
+}

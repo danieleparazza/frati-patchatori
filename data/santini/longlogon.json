@@ -1,0 +1,10 @@
+{
+  "label": "LongLogon",
+  "motto": "NOMEN NIMIS LONGUM",
+  "niche": [
+    "#1d2a4d",
+    "#3b4c7a"
+  ],
+  "accent": "#24356a",
+  "emblem": "<path d=\"M96 148 C96 140 104 136 112 140 H188 C196 136 204 140 204 148 V200 C204 208 196 212 188 208 H112 C104 212 96 208 96 200 Z\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"168\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">corp.example.</text>\n<text x=\"150\" y=\"184\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">aaaaaaaaaaaaaaa</text>\n<text x=\"150\" y=\"200\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">aaaaaaaaaaa…</text>\n<path d=\"M150 212 V240\" stroke=\"#fbf3dd\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/>\n<path d=\"M108 230 L120 222 L118 236 Z M192 230 L180 222 L182 236 Z\" fill=\"#c0392b\"/>\n<text x=\"150\" y=\"128\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#bfc9d1\">NETLOGON</text>"
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Kaminsky DNS",
+  "motto": "RANDOMIZA ET IMPERA",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<g stroke=\"#fbf3dd\" stroke-width=\"3\"><rect x=\"102\" y=\"150\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#2b4a6a\" transform=\"rotate(-12 128 176)\"/><rect x=\"152\" y=\"160\" width=\"48\" height=\"48\" rx=\"8\" fill=\"#2b4a6a\" transform=\"rotate(10 176 184)\"/></g>\n<g fill=\"#fbf3dd\" transform=\"rotate(-12 128 176)\"><circle cx=\"114\" cy=\"162\" r=\"4.5\"/><circle cx=\"128\" cy=\"176\" r=\"4.5\"/><circle cx=\"142\" cy=\"190\" r=\"4.5\"/></g>\n<g fill=\"#fbf3dd\" transform=\"rotate(10 176 184)\"><circle cx=\"164\" cy=\"172\" r=\"4.5\"/><circle cx=\"188\" cy=\"172\" r=\"4.5\"/><circle cx=\"164\" cy=\"196\" r=\"4.5\"/><circle cx=\"188\" cy=\"196\" r=\"4.5\"/><circle cx=\"176\" cy=\"184\" r=\"4.5\"/></g>\n<text x=\"150\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#d9ad55\" >DNS</text>"
+}

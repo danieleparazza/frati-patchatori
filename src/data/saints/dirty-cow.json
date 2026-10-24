@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Dirty COW, la vacca sacra della race condition",
+    "patronage": "dei kernel Linux di ogni telefono e server, della copy-on-write e delle condizioni di gara vinte per un soffio.",
+    "hagiography": "Il 20 ottobre 2016 Phil Oester segnalò una race condition nel meccanismo di copy-on-write del kernel Linux: con la giusta tempistica un utente comune poteva scrivere in pagine di memoria di sola lettura e diventare root. Il baco viveva nel kernel dal 2007 ed era presente ovunque, dai server ai telefoni Android. Era così affidabile da essere usato subito negli attacchi reali.",
+    "prayer": "O San Dirty COW, vacca che scrivi dove è vietato, fa' che le nostre pagine di sola lettura restino tali. Amen.",
+    "feast": "Si festeggia aggiornando il kernel oltre la 4.8.3 e ammirando l'adesivo con la mucca che molti ricordano ancora.",
+    "proverb": "Vacca sporca scrive dove non deve."
+  },
+  "en": {
+    "title": "Saint Dirty COW, Sacred Cow of the Race Condition",
+    "patronage": "Linux kernels in every phone and server, copy-on-write, and race conditions won by a hair.",
+    "hagiography": "On 20 October 2016 Phil Oester reported a race condition in the Linux kernel's copy-on-write mechanism: with the right timing an ordinary user could write to read-only memory pages and become root. The bug had lived in the kernel since 2007 and was everywhere, from servers to Android phones. It was so reliable that it was used in real attacks at once.",
+    "prayer": "O Saint Dirty COW, cow that writes where it is forbidden, let our read-only pages stay read-only. Amen.",
+    "feast": "Celebrated by updating the kernel past 4.8.3 and admiring the cow sticker that many still remember.",
+    "proverb": "A dirty cow writes where it must not."
+  }
+}

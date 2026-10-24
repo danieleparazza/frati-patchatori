@@ -1,0 +1,10 @@
+{
+  "label": "Hole196",
+  "motto": "FORAMEN CXCVI",
+  "niche": [
+    "#1a2230",
+    "#36485e"
+  ],
+  "accent": "#263444",
+  "emblem": "<rect x=\"120\" y=\"128\" width=\"60\" height=\"104\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M130 142 H170 M130 152 H170 M130 162 H170 M130 172 H170 M130 182 H164\" stroke=\"#9a8a6a\" stroke-width=\"2\"/>\n<circle cx=\"156\" cy=\"206\" r=\"13\" fill=\"#2b1d14\"/>\n<circle cx=\"156\" cy=\"206\" r=\"13\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"252\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\">p.196</text>"
+}

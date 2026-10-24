@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ret2dir, che tornò nella memoria diretta",
+    "patronage": "dei kernel Linux, delle protezioni SMEP e SMAP e delle pagine che vivono due vite.",
+    "hagiography": "Presentato nel 2014 da Vasileios Kemerlis, Michalis Polychronakis e Angelos Keromytis della Columbia University, ret2dir mostrò che il kernel Linux mappa tutta la memoria fisica in una regione chiamata physmap. Così ogni pagina dell'utente aveva un sosia nello spazio del kernel, e un exploit poteva saltarci dentro scavalcando SMEP, SMAP, PXN e le altre barriere tra kernel e utente. Gli autori lo dimostrarono riscrivendo exploit per vecchie vulnerabilità del kernel, e proposero una difesa chiamata XPFO.",
+    "prayer": "O San ret2dir, che trovi in casa del kernel la copia delle nostre stanze, fa' che ogni pagina abiti in un posto solo. Amen.",
+    "feast": "Si festeggia con un kernel che tenga la physmap non eseguibile e randomizzata, chiedendosi dove altro abitino i nostri dati.",
+    "proverb": "Chi ha due case ha due porte da chiudere."
+  },
+  "en": {
+    "title": "Saint ret2dir, Who Returned to Direct Memory",
+    "patronage": "Linux kernels, SMEP and SMAP protections, and pages that live two lives.",
+    "hagiography": "Presented in 2014 by Vasileios Kemerlis, Michalis Polychronakis and Angelos Keromytis of Columbia University, ret2dir showed that the Linux kernel maps all of physical memory into a region called physmap. So every user page had a double in kernel space, and an exploit could jump into it, stepping over SMEP, SMAP, PXN and the other barriers between kernel and user. The authors proved it by rewriting exploits for old kernel bugs, and proposed a defence called XPFO.",
+    "prayer": "O Saint ret2dir, who finds copies of our rooms in the kernel's house, let every page live in one place only. Amen.",
+    "feast": "Celebrated with a kernel that keeps physmap non-executable and randomised, while wondering where else our data lives.",
+    "proverb": "Two houses, two doors to lock."
+  }
+}

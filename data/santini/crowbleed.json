@@ -1,0 +1,10 @@
+{
+  "label": "Crowbleed",
+  "motto": "RELIQUIAE IN FILO",
+  "niche": [
+    "#20232c",
+    "#424656"
+  ],
+  "accent": "#2e3240",
+  "emblem": "<path d=\"M126 150 C116 150 110 160 112 170 C100 168 96 178 104 186 C112 192 128 192 138 184 C146 196 160 200 172 194 C188 186 192 168 184 158 C178 150 166 150 160 158 C152 150 136 148 126 150 Z\" fill=\"#1b1b24\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>\n<path d=\"M104 178 L88 176 L102 184\" fill=\"#d9ad55\" stroke=\"#8c6a22\"/>\n<circle cx=\"128\" cy=\"166\" r=\"3\" fill=\"#f4d03f\"/>\n<g fill=\"#5dade2\"><path d=\"M140 206 q-5 9 0 12 q5 -3 0 -12z\"/><path d=\"M156 212 q-6 10 0 14 q6 -4 0 -14z\"/><path d=\"M170 204 q-5 8 0 11 q5 -3 0 -11z\"/></g>\n<text x=\"128\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#bfc9d1\">&lt;16KB</text>"
+}

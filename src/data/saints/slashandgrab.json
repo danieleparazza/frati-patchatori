@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SlashAndGrab, dalla barra di troppo",
+    "patronage": "dei software di assistenza remota, delle procedure guidate rimaste raggiungibili e dei fornitori di servizi gestiti.",
+    "hagiography": "Il 19 febbraio 2024 ConnectWise pubblicò un avviso per ScreenConnect, il suo software di controllo remoto; pochi giorni dopo, con l'exploit ormai pubblico, gli attacchi erano già in corso. La CVE-2024-1709, punteggio 10, permetteva di raggiungere di nuovo la procedura di installazione e creare un amministratore senza alcuna credenziale; Huntress la battezzò SlashAndGrab. Ransomware e altri gruppi la usarono per entrare nelle reti dei clienti dei fornitori di servizi gestiti.",
+    "prayer": "O San SlashAndGrab, che entri dalla porta dell'installazione, fa' che le nostre procedure guidate si chiudano una volta finite. Amen.",
+    "feast": "Si festeggia aggiornando ScreenConnect alla 23.9.8 o successiva e contando gli amministratori che nessuno ricorda di aver creato.",
+    "proverb": "Procedura lasciata aperta, casa lasciata in regalo."
+  },
+  "en": {
+    "title": "Saint SlashAndGrab, of the Extra Slash",
+    "patronage": "remote support software, setup wizards that stay reachable, and managed service providers.",
+    "hagiography": "On 19 February 2024 ConnectWise published an advisory for ScreenConnect, its remote control software; a few days later, with the exploit public, attacks were already underway. CVE-2024-1709, scored 10, let anyone reach the setup wizard again and create an administrator with no credentials at all; Huntress named it SlashAndGrab. Ransomware and other groups used it to get into the networks of managed service providers' customers.",
+    "prayer": "O Saint SlashAndGrab, who enters through the setup door, let our wizards close once they are done. Amen.",
+    "feast": "Celebrated by updating ScreenConnect to 23.9.8 or later and counting the administrators nobody remembers creating.",
+    "proverb": "Leave the wizard open, and you've gift-wrapped the house."
+  }
+}

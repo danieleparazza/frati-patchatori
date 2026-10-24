@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Citrix Bleed, che perdeva i token di sessione",
+    "patronage": "dei gateway NetScaler, dei token di sessione che colano dalla memoria e di chi scopre troppo tardi di essere già dentro.",
+    "hagiography": "Il 24 ottobre 2023 Assetnote spiegò in dettaglio Citrix Bleed: inviando una richiesta malformata a un NetScaler configurato come gateway, il dispositivo restituiva pezzi di memoria contenenti i token di sessione degli utenti. Con quei token un attaccante scavalcava password e autenticazione a più fattori e si sedeva nelle sessioni altrui. Sfruttato in massa, anche da gruppi ransomware, divenne uno dei bug più famosi dell'anno.",
+    "prayer": "O San Citrix Bleed, che fai colare i token come sangue dalla ferita, fa' che i nostri gateway tengano in memoria solo ciò che serve. Amen.",
+    "feast": "Si festeggia aggiornando NetScaler e terminando tutte le sessioni attive, perché la patch non scaccia chi ha già rubato un token.",
+    "proverb": "Ferita che cola token non si chiude con la patch."
+  },
+  "en": {
+    "title": "Saint Citrix Bleed, Who Leaked the Session Tokens",
+    "patronage": "NetScaler gateways, session tokens dripping from memory, and those who learn too late that someone is already inside.",
+    "hagiography": "On 24 October 2023 Assetnote explained Citrix Bleed in detail: send a malformed request to a NetScaler configured as a gateway, and the device returned chunks of memory containing users' session tokens. With those tokens an attacker stepped over passwords and multi-factor authentication and sat down in other people's sessions. Exploited at scale, ransomware groups among them, it became one of the most famous bugs of the year.",
+    "prayer": "O Saint Citrix Bleed, who makes tokens drip like blood from a wound, let our gateways keep in memory only what is needed. Amen.",
+    "feast": "Celebrated by updating NetScaler and terminating all active sessions, because the patch does not evict whoever already stole a token.",
+    "proverb": "A wound that leaks tokens is not closed by the patch alone."
+  }
+}

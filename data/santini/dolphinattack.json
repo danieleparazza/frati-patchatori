@@ -1,0 +1,10 @@
+{
+  "label": "DolphinAttack",
+  "motto": "VOX ULTRA SONUM",
+  "niche": [
+    "#14303f",
+    "#2d5870"
+  ],
+  "accent": "#1c4254",
+  "emblem": "<path d=\"M120 150 C150 140 186 148 196 176 C200 190 192 202 182 200 C186 186 176 170 158 168 C168 182 166 202 150 210 C138 196 140 176 150 166 C136 168 126 180 128 196 C112 186 108 162 120 150 Z\" fill=\"#5dade2\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<circle cx=\"138\" cy=\"160\" r=\"3\" fill=\"#2b1d14\"/>\n<g stroke=\"#d9ad55\" stroke-width=\"2\" fill=\"none\"><path d=\"M196 164 q10 12 0 24\"/><path d=\"M204 156 q18 20 0 40\"/></g>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#bfc9d1\">~ 25 kHz</text>"
+}

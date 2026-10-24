@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Dota 2, delle mappe personalizzate",
+    "patronage": "delle mappe fatte in casa, degli inviti a partite sconosciute e dei giocatori che accettano tutto.",
+    "hagiography": "Il 17 febbraio 2020 fu catalogata la CVE-2020-9005: una libreria di Dota 2 di Valve gestiva male certi dati delle mappe personalizzate. Un attaccante poteva creare un server di gioco con una mappa costruita ad arte e invitarvi la vittima, ottenendo l'esecuzione di codice o il crash del gioco. Una partita in cui a perdere non era la squadra, ma il computer.",
+    "prayer": "O San Dota 2, che accogli ogni mappa nella tua arena, insegnaci a rifiutare gli inviti degli sconosciuti. Amen.",
+    "feast": "Si festeggia lasciando che Steam aggiorni il gioco e giocando solo nelle lobby di cui ci si fida."
+  },
+  "en": {
+    "title": "Saint Dota 2, of the Custom Maps",
+    "patronage": "home-made maps, invitations to unknown matches, and players who accept everything.",
+    "hagiography": "On 17 February 2020 CVE-2020-9005 was catalogued: a library in Valve's Dota 2 mishandled some custom-map data. An attacker could set up a game server with a crafted map and invite the victim, getting code execution or a game crash. A match where the loser was not the team, but the computer.",
+    "prayer": "O Saint Dota 2, who welcomes every map into your arena, teach us to decline invitations from strangers. Amen.",
+    "feast": "Celebrated by letting Steam update the game and playing only in lobbies you trust."
+  }
+}

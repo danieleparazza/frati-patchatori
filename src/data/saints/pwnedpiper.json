@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PwnedPiper, pifferaio dei tubi pneumatici",
+    "patronage": "dei tubi pneumatici, delle capsule che sfrecciano nei corridoi e dei firmware accettati senza firma.",
+    "hagiography": "Il 2 agosto 2021 Armis rivelò nove vulnerabilità nei pannelli Nexus del sistema di posta pneumatica Translogic di Swisslog Healthcare, quello che in migliaia di ospedali trasporta campioni e farmaci da un reparto all'altro. La più grave: il pannello accettava aggiornamenti firmware senza verificarne la firma, così chiunque in rete poteva installarvi il proprio. Come il pifferaio di Hamelin, un attaccante avrebbe potuto far suonare i tubi a modo suo.",
+    "prayer": "O San PwnedPiper, che suoni il piffero dentro le condutture, fa' che ogni capsula arrivi al reparto giusto e ogni firmware sia firmato. Amen.",
+    "feast": "Si festeggia aggiornando il Nexus Software alla 7.2.5.7 e ascoltando in silenzio il fruscio di una capsula che passa.",
+    "proverb": "Firmware senza firma, tubo senza padrone."
+  },
+  "en": {
+    "title": "Saint PwnedPiper, Piper of the Pneumatic Tubes",
+    "patronage": "pneumatic tubes, capsules whizzing through corridors, and firmware accepted without a signature.",
+    "hagiography": "On 2 August 2021 Armis revealed nine vulnerabilities in the Nexus panels of Swisslog Healthcare's Translogic pneumatic tube system, the one that carries samples and medicines between wards in thousands of hospitals. The worst: the panel accepted firmware updates without checking any signature, so anyone on the network could install their own. Like the Pied Piper of Hamelin, an attacker could have made the tubes play his tune.",
+    "prayer": "O Saint PwnedPiper, who plays the pipe inside the ducts, let every capsule reach the right ward and every firmware be signed. Amen.",
+    "feast": "Celebrated by updating Nexus Software to 7.2.5.7 and listening quietly to the whoosh of a passing capsule.",
+    "proverb": "Unsigned firmware, ownerless tube."
+  }
+}

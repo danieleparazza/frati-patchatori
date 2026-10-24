@@ -1,0 +1,10 @@
+{
+  "label": "5Ghoul",
+  "motto": "SIGNUM MALEDICTUM",
+  "niche": [
+    "#2a1436",
+    "#532a63"
+  ],
+  "accent": "#3c1d4a",
+  "emblem": "<path d=\"M150 150 L112 216 Q150 236 188 216 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"135\" cy=\"196\" rx=\"7\" ry=\"9\" fill=\"#2b1d14\"/><ellipse cx=\"165\" cy=\"196\" rx=\"7\" ry=\"9\" fill=\"#2b1d14\"/>\n<path d=\"M126 216 q8 8 12 0 q6 8 12 0 q6 8 12 0 q6 8 12 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 150 V128\" stroke=\"#d9ad55\" stroke-width=\"3\"/><circle cx=\"150\" cy=\"124\" r=\"4\" fill=\"#d9ad55\"/>\n<g stroke=\"#d9ad55\" stroke-width=\"2\" fill=\"none\" opacity=\"0.9\"><path d=\"M150 124 C132 130 132 150 150 156\"/><path d=\"M150 124 C168 130 168 150 150 156\"/><path d=\"M150 118 C124 126 124 156 150 164\"/><path d=\"M150 118 C176 126 176 156 150 164\"/></g>\n<text x=\"150\" y=\"146\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#c0392b\">5G</text>"
+}

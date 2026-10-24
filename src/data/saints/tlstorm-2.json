@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TLStorm 2, tempesta negli switch",
+    "patronage": "degli switch di rete, delle librerie TLS usate male e dei portali captive che nessuno guarda.",
+    "hagiography": "Il 3 maggio 2022 Armis rivelò il secondo atto di TLStorm: diversi switch di Aruba e Avaya usavano la libreria TLS NanoSSL in modo scorretto, e alcuni messaggi malformati, per esempio verso il portale captive o il server RADIUS, permettevano di eseguire codice sullo switch. Dallo switch si poteva poi uscire dalla rete degli ospiti e passeggiare dove si voleva.",
+    "prayer": "O San TLStorm, che soffi nei cavi degli switch, fa' che i nostri apparati leggano i messaggi prima di fidarsene. Amen.",
+    "feast": "Si festeggia aggiornando il firmware degli switch e separando davvero la rete degli ospiti da quella di casa.",
+    "proverb": "Lo switch è muto, ma ascolta tutto."
+  },
+  "en": {
+    "title": "Saint TLStorm 2, Storm in the Switches",
+    "patronage": "network switches, misused TLS libraries, and captive portals nobody looks at.",
+    "hagiography": "On 3 May 2022 Armis revealed the second act of TLStorm: several Aruba and Avaya switches used the NanoSSL TLS library incorrectly, and a few malformed messages, for instance to the captive portal or the RADIUS server, let an attacker run code on the switch. From the switch one could then step out of the guest network and wander wherever one pleased.",
+    "prayer": "O Saint TLStorm, who blows through the cables of our switches, let our devices read a message before trusting it. Amen.",
+    "feast": "Celebrated by updating switch firmware and truly separating the guest network from the house.",
+    "proverb": "The switch is silent, but it hears everything."
+  }
+}

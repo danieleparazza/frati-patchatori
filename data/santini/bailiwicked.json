@@ -1,0 +1,10 @@
+{
+  "label": "BailiWicked",
+  "motto": "RADIX VENENATA",
+  "niche": [
+    "#1a2a18",
+    "#365a30"
+  ],
+  "accent": "#264020",
+  "emblem": "<circle cx=\"150\" cy=\"150\" r=\"14\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"155\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#2b1d14\">DNS</text>\n<path d=\"M150 164 V196 M150 180 L126 196 L126 220 M150 180 L174 196 L174 220 M126 196 L110 212 M174 196 L190 212\" stroke=\"#6a8a3a\" stroke-width=\"3\" fill=\"none\"/>\n<g fill=\"#c0392b\"><ellipse cx=\"110\" cy=\"216\" rx=\"6\" ry=\"9\"/><ellipse cx=\"190\" cy=\"216\" rx=\"6\" ry=\"9\"/><ellipse cx=\"126\" cy=\"224\" rx=\"6\" ry=\"9\"/><ellipse cx=\"174\" cy=\"224\" rx=\"6\" ry=\"9\"/></g>\n<path d=\"M136 206 l6 6 l-6 6 M164 206 l-6 6 l6 6\" stroke=\"#2b1d14\" stroke-width=\"2\" fill=\"none\"/>"
+}

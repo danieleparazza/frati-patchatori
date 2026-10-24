@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San UniBLEed, che diede la root al robot",
+    "patronage": "dei robot umanoidi, delle chiavi AES scritte nel firmware e del Bluetooth lasciato aperto.",
+    "hagiography": "Il 27 agosto 2026 Olivier Laflamme pubblicò UniBLEed: root sul robot umanoide Unitree G1 da distanza Bluetooth. La catena univa una caratteristica BLE scrivibile senza accoppiamento, una chiave AES-128 statica e un endpoint cloud che decifrava quella chiave per qualunque account, fino a un buffer overflow che eseguiva codice come root. Secondo l'autore la catena era persino worm-abile, capace di passare da un robot all'altro.",
+    "prayer": "O San UniBLEed, che impartisci ordini al robot senza chiederne il permesso, fa' che le nostre chiavi non stiano nel firmware e il nostro Bluetooth chieda sempre l'accoppiamento. Amen.",
+    "feast": "Si festeggia aggiornando il firmware del G1 e disattivando il Bluetooth quando il robot non deve essere accoppiato.",
+    "proverb": "Robot in ascolto BLE, padrone a portata di mano."
+  },
+  "en": {
+    "title": "Saint UniBLEed, Who Gave the Robot Its Root",
+    "patronage": "humanoid robots, AES keys written into firmware, and Bluetooth left open.",
+    "hagiography": "On 27 August 2026 Olivier Laflamme published UniBLEed: root on the Unitree G1 humanoid robot from Bluetooth range. The chain combined a BLE characteristic writable without pairing, a static AES-128 key and a cloud endpoint that decrypted that key for any account, up to a buffer overflow that ran code as root. According to the author the chain was even wormable, able to hop from one robot to another.",
+    "prayer": "O Saint UniBLEed, who gives the robot orders without asking its leave, let our keys stay out of the firmware and our Bluetooth always demand pairing. Amen.",
+    "feast": "Celebrated by updating the G1 firmware and turning Bluetooth off when the robot should not be paired.",
+    "proverb": "A robot listening on BLE, its master within reach."
+  }
+}

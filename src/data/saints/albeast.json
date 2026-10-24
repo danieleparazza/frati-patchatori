@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ALBeast, la bestia del bilanciatore",
+    "patronage": "dei bilanciatori di carico AWS, dei token firmati dal servizio sbagliato e delle configurazioni \"funziona come previsto\".",
+    "hagiography": "Il 20 agosto 2024 Miggo descrisse ALBeast, una debolezza nelle app che si affidano all'autenticazione dell'Application Load Balancer di AWS. Un attaccante poteva creare un proprio ALB, firmare un token a piacere e cambiarne l'emittente perché corrispondesse a quello della vittima: AWS lo firmava comunque, e l'app lo accettava. Miggo stimò oltre 15.000 applicazioni potenzialmente esposte.",
+    "prayer": "O Beato ALBeast, che fai firmare ad AWS i token che scrivi tu, fa' che le nostre app controllino sempre chi ha firmato, e non solo che la firma ci sia. Amen.",
+    "feast": "Si festeggia verificando l'emittente e l'ARN del bilanciatore e accettando traffico solo dal proprio ALB.",
+    "proverb": "Firma giusta, firmatario sbagliato."
+  },
+  "en": {
+    "title": "Blessed ALBeast, the Beast of the Load Balancer",
+    "patronage": "AWS load balancers, tokens signed by the wrong service, and configurations that \"work as intended\".",
+    "hagiography": "On 20 August 2024 Miggo described ALBeast, a weakness in apps that rely on AWS Application Load Balancer authentication. An attacker could stand up their own ALB, sign a token of their choosing and change its issuer to match the victim's: AWS signed it anyway, and the app accepted it. Miggo estimated over 15,000 potentially exposed applications.",
+    "prayer": "O Blessed ALBeast, who makes AWS sign the tokens you write, let our apps always check who signed, and not merely that a signature exists. Amen.",
+    "feast": "Celebrated by verifying the issuer and the load balancer's ARN and accepting traffic only from your own ALB.",
+    "proverb": "Right signature, wrong signer."
+  }
+}

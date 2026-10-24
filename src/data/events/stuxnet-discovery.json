@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Stuxnet",
+    "chronicle": "Nel giugno 2010 Sergey Ulasen, della piccola società antivirus bielorussa VirusBlokAda, cominciò ad analizzare un campione dopo che le macchine di un cliente iraniano continuavano a riavviarsi. Si rivelò essere Stuxnet, un worm che usava diverse vulnerabilità zero-day di Windows e prendeva di mira i sistemi Siemens Step7 e i loro PLC. Era stato costruito per sabotare le centrifughe per l'arricchimento dell'uranio di Natanz, mostrando agli operatori valori normali mentre le danneggiava.",
+    "lesson": "Fu la prima arma digitale nota capace di causare danni fisici: da allora la sicurezza dei sistemi industriali smise di essere un argomento per pochi specialisti.",
+    "prayer": "O Stuxnet, che facevi girare le centrifughe a vuoto mostrando valori tranquilli, fa' che i nostri impianti non credano mai ciecamente ai propri schermi. Amen.",
+    "remembrance": "Si ricorda separando davvero le reti industriali, controllando ogni chiavetta che entra negli impianti e verificando i processi fisici con misure indipendenti."
+  },
+  "en": {
+    "title": "The Scourge of Stuxnet",
+    "chronicle": "In June 2010 Sergey Ulasen of the small Belarusian antivirus firm VirusBlokAda began analysing a sample after an Iranian customer's machines kept rebooting. It turned out to be Stuxnet, a worm that used several Windows zero-days and targeted Siemens Step7 systems and their PLCs. It had been built to sabotage the uranium-enrichment centrifuges at Natanz, showing operators normal readings while it damaged them.",
+    "lesson": "It was the first known digital weapon to cause physical damage: from then on, industrial control security stopped being a topic for a handful of specialists.",
+    "prayer": "O Stuxnet, who spun the centrifuges astray while showing calm readings, let our plants never trust their own screens blindly. Amen.",
+    "remembrance": "Remembered by truly separating industrial networks, checking every USB stick that enters a plant and verifying physical processes with independent measurements."
+  }
+}

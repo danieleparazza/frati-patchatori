@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Spooky SSL, il critico che divenne grave",
+    "patronage": "degli OpenSSL 3.0, degli indirizzi email costruiti ad arte e di chi aspettò col fiato sospeso l'annuncio.",
+    "hagiography": "Il 28 ottobre 2022 OpenSSL rilasciò la 3.0.7 per correggere due overflow nella verifica dei certificati X.509, dentro il controllo dei vincoli sui nomi. Un indirizzo email malevolo in un certificato poteva far traboccare il buffer sullo stack. Pre-annunciato come «critico», il primo bug fu poi declassato a «grave» quando ci si accorse che le protezioni dello stack rendevano l'esecuzione di codice difficile. L'attesa, battezzata Spooky SSL per la vicinanza ad Halloween, fu peggiore dello spavento.",
+    "prayer": "O San Spooky SSL, che spaventi più con l'annuncio che col baco, fa' che i nostri OpenSSL siano aggiornati prima della festa. Amen.",
+    "feast": "Si festeggia aggiornando OpenSSL alla 3.0.7 e ricordando che non tutti i «critici» pre-annunciati fanno davvero paura.",
+    "proverb": "Grande annuncio, piccolo spavento."
+  },
+  "en": {
+    "title": "Saint Spooky SSL, the Critical That Became High",
+    "patronage": "OpenSSL 3.0, crafted email addresses, and everyone who held their breath for the announcement.",
+    "hagiography": "On 28 October 2022 OpenSSL released 3.0.7 to fix two overflows in X.509 certificate verification, inside the name-constraint check. A malicious email address in a certificate could overflow the stack buffer. Pre-announced as \"critical\", the first bug was later downgraded to \"high\" when it emerged that stack protections made code execution hard. The wait, dubbed Spooky SSL for its nearness to Halloween, was worse than the scare.",
+    "prayer": "O Saint Spooky SSL, who frightens more with the announcement than the bug, let our OpenSSL be updated before the holiday. Amen.",
+    "feast": "Celebrated by updating OpenSSL to 3.0.7 and remembering that not every pre-announced \"critical\" is truly scary.",
+    "proverb": "Big announcement, small scare."
+  }
+}

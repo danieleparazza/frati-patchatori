@@ -1,0 +1,10 @@
+{
+  "label": "Matryoshka Trap",
+  "motto": "DOLUS IN DOLO",
+  "niche": [
+    "#3a1a2a",
+    "#6b2f4a"
+  ],
+  "accent": "#5a2440",
+  "emblem": "<g stroke=\"#2b1d14\" stroke-width=\"1.5\">\n<path d=\"M126 176 a24 40 0 0 1 48 0 v34 a24 20 0 0 1 -48 0 Z\" fill=\"#fbf3dd\"/>\n<path d=\"M136 182 a14 24 0 0 1 28 0 v20 a14 12 0 0 1 -28 0 Z\" fill=\"#e8c45c\"/>\n<path d=\"M144 188 a6 11 0 0 1 12 0 v9 a6 6 0 0 1 -12 0 Z\" fill=\"#c0392b\"/>\n</g>\n<path d=\"M150 150 a16 16 0 0 1 0 28\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<circle cx=\"144\" cy=\"168\" r=\"2\" fill=\"#2b1d14\"/><circle cx=\"156\" cy=\"168\" r=\"2\" fill=\"#2b1d14\"/>\n<path d=\"M146 174 q4 3 8 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M132 214 q18 10 36 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"234\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">DMA</text>"
+}

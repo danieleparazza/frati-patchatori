@@ -1,0 +1,11 @@
+{
+  "label": "Bitfinex Seizure",
+  "motto": "PECUNIA SEMPER VESTIGIA",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<path d=\"M110 160 H190 L182 226 H118 Z\" fill=\"#6b4a2a\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<rect x=\"104\" y=\"148\" width=\"92\" height=\"16\" rx=\"3\" fill=\"#8a6338\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"#d9ad55\" stroke=\"#1d3550\" stroke-width=\"1.5\"><circle cx=\"130\" cy=\"140\" r=\"12\"/><circle cx=\"152\" cy=\"134\" r=\"12\"/><circle cx=\"172\" cy=\"142\" r=\"12\"/></g>\n<text x=\"152\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#1d3550\" font-weight=\"bold\">B</text><g fill=\"#1d3550\"><rect x=\"150.3\" y=\"128.5\" width=\"1.1\" height=\"13.4\"/><rect x=\"152.6\" y=\"128.5\" width=\"1.1\" height=\"13.4\"/></g>\n<rect x=\"140\" y=\"182\" width=\"20\" height=\"18\" rx=\"2\" fill=\"#d9ad55\"/><path d=\"M144 182 V176 A6 6 0 0 1 156 176 V182\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>"
+}

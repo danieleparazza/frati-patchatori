@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di MOVEit",
+    "chronicle": "Il 31 maggio 2023 Progress Software rivelò una grave SQL injection nel suo prodotto di trasferimento file MOVEit Transfer. Il gruppo Cl0p la sfruttava già come zero-day da almeno quattro giorni, approfittando del lungo fine settimana del Memorial Day, per installare la web shell LEMURLOOT e portare via dati in massa. Alla fine le organizzazioni colpite furono più di 2.500, con decine di milioni di persone coinvolte, tra cui enti pubblici, università, banche e ospedali.",
+    "lesson": "Confermò che gli strumenti di trasferimento file sono un bersaglio prediletto per i furti di dati di massa, e che una sola falla in un prodotto diffuso diventa il problema di migliaia di aziende e dei loro clienti.",
+    "prayer": "O MOVEit, che dovevi spostare file e li spostasti dalla parte sbagliata, fa' che le nostre query siano parametrizzate e i nostri server di trasferimento non restino aperti a tutti. Amen.",
+    "remembrance": "Si ricorda tenendo i server di trasferimento file dietro accessi controllati, cancellando i file trasferiti che non servono più e cercando segni di compromissione anche dopo la patch."
+  },
+  "en": {
+    "title": "The Scourge of MOVEit",
+    "chronicle": "On 31 May 2023 Progress Software disclosed a critical SQL injection in its MOVEit Transfer file-transfer product. The Cl0p gang had already been exploiting it as a zero-day for at least four days, over the long Memorial Day weekend, to plant the LEMURLOOT web shell and carry data off in bulk. In the end more than 2,500 organisations were affected, with tens of millions of people involved, including public agencies, universities, banks and hospitals.",
+    "lesson": "It confirmed that file-transfer tools are a favourite target for mass data theft, and that a single flaw in a widely used product becomes the problem of thousands of companies and their customers.",
+    "prayer": "O MOVEit, who were meant to move files and moved them to the wrong side, keep our queries parameterised and our transfer servers from standing open to all. Amen.",
+    "remembrance": "Remembered by keeping file-transfer servers behind controlled access, deleting transferred files no longer needed and hunting for signs of compromise even after patching."
+  }
+}

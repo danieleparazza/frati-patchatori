@@ -1,0 +1,10 @@
+{
+  "label": "PetitPotam",
+  "motto": "VENI, SIGNA MIHI",
+  "niche": [
+    "#1a1d2e",
+    "#36405e"
+  ],
+  "accent": "#272e46",
+  "emblem": "<rect x=\"118\" y=\"150\" width=\"64\" height=\"80\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g stroke=\"#2b1d14\" stroke-width=\"1.5\"><rect x=\"126\" y=\"160\" width=\"48\" height=\"10\"/><rect x=\"126\" y=\"176\" width=\"48\" height=\"10\"/><rect x=\"126\" y=\"192\" width=\"48\" height=\"10\"/></g>\n<circle cx=\"134\" cy=\"165\" r=\"2.5\" fill=\"#58d68d\"/><circle cx=\"134\" cy=\"181\" r=\"2.5\" fill=\"#58d68d\"/>\n<path d=\"M118 134 Q150 118 182 134\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<path d=\"M118 134 l8 -4 m-8 4 l4 8 M182 134 l-8 -4 m8 4 l-4 8\" stroke=\"#d9ad55\" stroke-width=\"2.5\" fill=\"none\"/>\n<text x=\"150\" y=\"146\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">auth→</text>"
+}

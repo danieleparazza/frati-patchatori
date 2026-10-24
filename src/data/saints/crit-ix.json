@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Crit.IX, che scosse le sale di controllo",
+    "patronage": "dei sistemi di controllo industriale, dei protocolli proprietari e degli impianti che non si fermano mai.",
+    "hagiography": "Nel luglio 2023 Tom Gol di Armis rivelò Crit.IX, un gruppo di falle nei sistemi di controllo distribuito Experion di Honeywell (tra cui CVE-2023-22435). Alcune permettevano, con messaggi confezionati, di eseguire codice sui server e sui controller che governano processi industriali. Nelle sale di controllo, dove un riavvio non è un'opzione da prendere alla leggera, bug così pesano il doppio.",
+    "prayer": "O San Crit.IX, che tocchi le leve dei processi reali, proteggi i nostri impianti con reti separate e protocolli verificati. Amen.",
+    "feast": "Si festeggia applicando le patch di Honeywell, segmentando le reti OT e tenendo i controller lontani da quelle di tutti.",
+    "proverb": "Sala di controllo esposta, fabbrica a rischio."
+  },
+  "en": {
+    "title": "Saint Crit.IX, Who Shook the Control Rooms",
+    "patronage": "industrial control systems, proprietary protocols, and plants that never stop.",
+    "hagiography": "In July 2023 Tom Gol of Armis revealed Crit.IX, a set of flaws in Honeywell's Experion distributed control systems (among them CVE-2023-22435). Some allowed, with crafted messages, code execution on the servers and controllers that run industrial processes. In control rooms, where a reboot is no light decision, bugs like these weigh double.",
+    "prayer": "O Saint Crit.IX, who touches the levers of real processes, protect our plants with separated networks and verified protocols. Amen.",
+    "feast": "Celebrated by applying Honeywell's patches, segmenting the OT networks and keeping the controllers away from everyone else's.",
+    "proverb": "An exposed control room, a plant at risk."
+  }
+}

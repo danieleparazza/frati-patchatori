@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'GhostButt, fantasma dentro Ghostscript",
+    "patronage": "dei server che convertono documenti, dei file PostScript inviati da sconosciuti e dell'opzione -dSAFER che tanto sicura non era.",
+    "hagiography": "Nel maggio 2017 un ricercatore mostrò ghostbutt (CVE-2017-8291): in Ghostscript, l'interprete PostScript usato da mezzo mondo per convertire documenti, un file preparato ad arte aggirava la modalità -dSAFER e, con un %pipe% nel nome del file di output, eseguiva comandi sul sistema. Poiché ImageMagick e molti altri chiamavano Ghostscript dietro le quinte, bastava far elaborare un'immagine per cadere nella trappola.",
+    "prayer": "O Sant'GhostButt, che esci dal documento ed entri nella shell, fa' che i nostri interpreti restino dentro i loro confini. Amen.",
+    "feast": "Si festeggia aggiornando Ghostscript e togliendo l'elaborazione dei file PostScript a chi non ne ha bisogno.",
+    "proverb": "Documento aperto da sconosciuto, comando eseguito di nascosto."
+  },
+  "en": {
+    "title": "Saint GhostButt, Ghost Inside Ghostscript",
+    "patronage": "servers that convert documents, PostScript files sent by strangers, and the -dSAFER option that was not so safe.",
+    "hagiography": "In May 2017 a researcher showed ghostbutt (CVE-2017-8291): in Ghostscript, the PostScript interpreter half the world uses to convert documents, a crafted file bypassed -dSAFER mode and, with a %pipe% in the output filename, ran commands on the system. Because ImageMagick and many others called Ghostscript behind the scenes, simply having an image processed was enough to fall into the trap.",
+    "prayer": "O Saint GhostButt, who steps out of the document and into the shell, let our interpreters stay within their bounds. Amen.",
+    "feast": "Celebrated by updating Ghostscript and taking PostScript processing away from those who do not need it.",
+    "proverb": "Open a stranger's document, run a hidden command."
+  }
+}

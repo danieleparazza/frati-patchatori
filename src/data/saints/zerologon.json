@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Zerologon, che si presentò con soli zeri",
+    "patronage": "dei controller di dominio, del protocollo Netlogon e di chi non riavvia mai dopo il Patch Tuesday.",
+    "hagiography": "L'11 settembre 2020 Tom Tervoort di Secura rivelò Zerologon, una falla nel protocollo Netlogon di Windows. Per un difetto nella crittografia, inviando messaggi pieni di zeri un attaccante sulla rete poteva, dopo pochi tentativi, azzerare la password del controller di dominio e impadronirsi dell'intero dominio Active Directory. Divenne presto uno strumento preferito dai gruppi ransomware.",
+    "prayer": "O San Zerologon, che conquisti il dominio con una manciata di zeri, fa' che la nostra crittografia non si accontenti mai del vettore nullo. Amen.",
+    "feast": "Si festeggia installando le patch di Netlogon e attivando l'applicazione dei canali sicuri su tutti i controller.",
+    "proverb": "Tutti zeri in fila fanno un dominio intero."
+  },
+  "en": {
+    "title": "Saint Zerologon, Who Showed Up With Only Zeros",
+    "patronage": "domain controllers, the Netlogon protocol, and everyone who never reboots after Patch Tuesday.",
+    "hagiography": "On 11 September 2020 Tom Tervoort of Secura revealed Zerologon, a flaw in the Windows Netlogon protocol. Through a cryptographic mistake, by sending messages full of zeros an attacker on the network could, after a few tries, reset the domain controller's password and seize the whole Active Directory domain. It soon became a favourite tool of ransomware groups.",
+    "prayer": "O Saint Zerologon, who conquers the domain with a handful of zeros, let our cryptography never settle for the null vector. Amen.",
+    "feast": "Celebrated by installing the Netlogon patches and enforcing secure channels on every controller.",
+    "proverb": "All zeros in a row make a whole domain."
+  }
+}

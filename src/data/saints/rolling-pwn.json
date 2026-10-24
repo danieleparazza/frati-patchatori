@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Rolling-PWN, che apriva le auto col codice di ieri",
+    "patronage": "delle chiavi senza fili, dei codici a rotazione e di chi crede che un telecomando basti a chiudere.",
+    "hagiography": "Nel 2022 i ricercatori Kevin2600 e Wesley Li mostrarono Rolling-PWN: su molte auto Honda i codici a rotazione dei telecomandi, pensati per non ripetersi mai, potevano essere risincronizzati inviandone diversi in sequenza. Catturati alcuni codici legittimi, l'attaccante poteva riutilizzarli per aprire le portiere, aggirando la protezione contro i replay che l'intero schema doveva garantire.",
+    "prayer": "O San Rolling-PWN, che apri le portiere con il codice di ieri, insegna ai nostri telecomandi a non accettare mai due volte lo stesso saluto. Amen.",
+    "feast": "Si festeggia aggiornando il firmware dell'auto quando il produttore lo offre e custodendo la chiave come si faceva con quelle di metallo.",
+    "proverb": "Codice di ieri, portiera di oggi."
+  },
+  "en": {
+    "title": "Saint Rolling-PWN, Who Opened Cars With Yesterday's Code",
+    "patronage": "wireless keys, rolling codes, and those who think a remote is enough to lock up.",
+    "hagiography": "In 2022 researchers Kevin2600 and Wesley Li showed Rolling-PWN: on many Honda cars the rolling codes of the key fobs, meant never to repeat, could be resynchronised by sending several in sequence. Having captured a few legitimate codes, the attacker could reuse them to open the doors, defeating the very replay protection the whole scheme was supposed to guarantee.",
+    "prayer": "O Saint Rolling-PWN, who opens doors with yesterday's code, teach our remotes never to accept the same greeting twice. Amen.",
+    "feast": "Celebrated by updating the car's firmware when the maker offers it, and guarding the key as people once guarded metal ones.",
+    "proverb": "Yesterday's code, today's open door."
+  }
+}

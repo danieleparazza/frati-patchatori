@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello della British Library",
+    "chronicle": "Sabato 28 ottobre 2023 il gruppo Rhysida cifrò o distrusse gran parte dei server della British Library, una delle più grandi biblioteche del mondo. La Biblioteca rifiutò di pagare un riscatto di 20 bitcoin, e gli attaccanti pubblicarono circa 600 GB di dati. Il catalogo online e molti servizi per i lettori rimasero fuori uso per mesi. A marzo 2024 la Biblioteca pubblicò una revisione dell'incidente di insolita franchezza, che indicava tra le cause anche l'informatica obsoleta.",
+    "lesson": "La revisione divenne una lettura obbligata per chi gestisce sistemi vecchi: mostrò quanto costi rimandare la modernizzazione e quanto valga raccontare apertamente ciò che è andato storto.",
+    "prayer": "O Rhysida, che hai chiuso per mesi le porte del sapere, restituisci i cataloghi ai lettori e insegna a noi che il debito tecnico, prima o poi, chiede gli interessi. Amen.",
+    "remembrance": "Si ricorda modernizzando per tempo i sistemi obsoleti, imponendo l'MFA agli accessi remoti di terze parti e scrivendo, dopo un incidente, una revisione onesta da cui altri possano imparare."
+  },
+  "en": {
+    "title": "The Scourge of the British Library",
+    "chronicle": "On Saturday 28 October 2023 the Rhysida gang encrypted or destroyed much of the British Library's servers, at one of the largest libraries in the world. The Library refused to pay a ransom of 20 bitcoin, and the attackers leaked about 600 GB of data. The online catalogue and many reader services stayed down for months. In March 2024 the Library published an unusually candid incident review, which named outdated IT among the causes.",
+    "lesson": "The review became required reading for anyone running old systems: it showed how much postponing modernisation costs and how valuable it is to describe openly what went wrong.",
+    "prayer": "O Rhysida, who shut the doors of learning for months, give the catalogues back to the readers and teach us that technical debt, sooner or later, charges interest. Amen.",
+    "remembrance": "Remembered by modernising outdated systems in good time, requiring MFA for third-party remote access and writing, after an incident, an honest review others can learn from."
+  }
+}

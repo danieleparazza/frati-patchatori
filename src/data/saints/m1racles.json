@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato M1RACLES, canale nascosto nel silicio",
+    "patronage": "dei chip Apple M1, dei registri che due processi non dovrebbero condividere e delle vulnerabilità più spaventose nei comunicati che nei fatti.",
+    "hagiography": "Il 25 maggio 2021 Hector Martin descrisse M1RACLES (CVE-2021-30747): nel chip Apple M1 esisteva un registro di sistema che due processi qualsiasi potevano leggere e scrivere, creando un canale di comunicazione nascosto tra loro. Non permetteva di rubare dati né di prendere il controllo: serviva solo a far dialogare di soppiatto due programmi già in esecuzione. Lo stesso scopritore ne ridimensionò la gravità con autoironia, e per questo resta beato.",
+    "prayer": "O Beato M1RACLES, canale che non ruba nulla ma chiacchiera di nascosto, fa' che i nostri processi parlino solo quando devono. Amen.",
+    "feast": "Si festeggia leggendo per intero gli avvisi di sicurezza, oltre il nome e il logo.",
+    "proverb": "Non tutto ciò che ha un logo è una catastrofe."
+  },
+  "en": {
+    "title": "Blessed M1RACLES, Covert Channel in the Silicon",
+    "patronage": "Apple M1 chips, registers two processes should not share, and vulnerabilities scarier in the press release than in fact.",
+    "hagiography": "On 25 May 2021 Hector Martin described M1RACLES (CVE-2021-30747): the Apple M1 chip had a system register any two processes could read and write, creating a covert channel between them. It let no one steal data or take control: it only let two already-running programs talk on the sly. The discoverer himself downplayed its severity with self-irony, which is why he remains blessed.",
+    "prayer": "O Blessed M1RACLES, a channel that steals nothing but gossips in secret, let our processes speak only when they must. Amen.",
+    "feast": "Celebrated by reading security advisories in full, past the name and the logo.",
+    "proverb": "Not everything with a logo is a catastrophe."
+  }
+}

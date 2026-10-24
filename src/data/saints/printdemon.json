@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PrintDemon, il demone dello spooler",
+    "patronage": "dello spooler di stampa, delle porte di stampa che puntano a un file e dei bug sopravvissuti da Windows NT.",
+    "hagiography": "Il 12 maggio 2020, giorno della patch, Yarden Shafir e Alex Ionescu raccontarono PrintDemon (CVE-2020-1048). Un utente qualunque poteva creare una stampante la cui porta era un file su disco, e lo spooler, che lavora come SYSTEM, avrebbe \"stampato\" lì qualsiasi contenuto, anche dopo un riavvio, perché i lavori in coda riprendevano da soli. Un anno dopo lo stesso servizio avrebbe dato i natali a PrintNightmare.",
+    "prayer": "O San PrintDemon, che stampi dove non dovresti, fa' che le nostre stampanti scrivano soltanto sulla carta. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di maggio 2020 e disabilitando lo spooler dove nessuno stampa.",
+    "proverb": "Lo spooler non dorme mai, e nemmeno i suoi demoni."
+  },
+  "en": {
+    "title": "Saint PrintDemon, Demon of the Spooler",
+    "patronage": "the print spooler, printer ports that point to a file, and bugs surviving since Windows NT.",
+    "hagiography": "On 12 May 2020, patch day, Yarden Shafir and Alex Ionescu described PrintDemon (CVE-2020-1048). Any user could create a printer whose port was a file on disk, and the spooler, running as SYSTEM, would \"print\" any content there, even after a reboot, because queued jobs resumed on their own. A year later the same service would give birth to PrintNightmare.",
+    "prayer": "O Saint PrintDemon, who prints where you should not, let our printers write only on paper. Amen.",
+    "feast": "Celebrated by installing the May 2020 updates and disabling the spooler wherever nobody prints.",
+    "proverb": "The spooler never sleeps, and neither do its demons."
+  }
+}

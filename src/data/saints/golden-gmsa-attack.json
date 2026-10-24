@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Golden GMSA, forgiatore d'oro",
+    "patronage": "degli account di servizio gestiti, delle chiavi radice di Active Directory e dei segreti che si calcolano da soli.",
+    "hagiography": "Il 2 marzo 2022 i ricercatori di Semperis descrissero l'attacco Golden GMSA. In Active Directory le password dei Group Managed Service Accounts non si memorizzano: si ricavano da una chiave radice del dominio e da alcuni attributi leggibili. Chi riusciva a estrarre quella chiave poteva calcolare offline, per sempre, le password di tutti questi account, senza più farsi notare.",
+    "prayer": "O Beato Golden GMSA, che fabbrichi password dal nulla, fa' che le nostre chiavi radice restino al sicuro e lontane da occhi curiosi. Amen.",
+    "feast": "Si festeggia proteggendo la chiave radice KDS, limitando chi può leggerla e sorvegliando gli accessi al dominio.",
+    "proverb": "Chi possiede la radice, raccoglie ogni frutto."
+  },
+  "en": {
+    "title": "Blessed Golden GMSA, Forger of Gold",
+    "patronage": "group managed service accounts, Active Directory root keys, and secrets that compute themselves.",
+    "hagiography": "On 2 March 2022 Semperis researchers described the Golden GMSA attack. In Active Directory the passwords of Group Managed Service Accounts are not stored: they are derived from a domain root key and a few readable attributes. Whoever managed to extract that key could compute, offline and forever, the passwords of all those accounts, without being noticed again.",
+    "prayer": "O Blessed Golden GMSA, who makes passwords out of nothing, keep our root keys safe and far from curious eyes. Amen.",
+    "feast": "Celebrated by protecting the KDS root key, limiting who can read it, and watching domain access.",
+    "proverb": "Hold the root, and you harvest every fruit."
+  }
+}

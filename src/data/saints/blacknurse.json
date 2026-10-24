@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BLACKNURSE, che atterrava i firewall con poco",
+    "patronage": "dei firewall professionali, dei pacchetti ICMP di tipo 3 e di chi credeva servisse una grande banda per un grande disastro.",
+    "hagiography": "Il 22 settembre 2016 Kenneth B. Jørgensen e Lenny Hansson del SOC di TDC descrissero BLACKNURSE: certi firewall, ricevendo un flusso di pacchetti ICMP \"destination unreachable, port unreachable\", consumavano così tanta CPU da smettere di far passare il traffico. Bastavano pochi megabit al secondo, alla portata di una singola linea domestica, per mettere in ginocchio apparati costosi.",
+    "prayer": "O Beato BLACKNURSE, che con un rivolo di ICMP fermi un fiume di traffico, fa' che i nostri firewall gestiscano i pacchetti scomodi senza soffocare. Amen.",
+    "feast": "Si festeggia limitando o filtrando l'ICMP di tipo 3 codice 3 e verificando come reagisce il firewall sotto pressione.",
+    "proverb": "Non serve il diluvio: basta un rigagnolo nel punto giusto."
+  },
+  "en": {
+    "title": "Blessed BLACKNURSE, Who Felled Firewalls With Little",
+    "patronage": "professional firewalls, ICMP type 3 packets, and everyone who thought a great disaster needed great bandwidth.",
+    "hagiography": "On 22 September 2016 Kenneth B. Jørgensen and Lenny Hansson of TDC's SOC described BLACKNURSE: certain firewalls, receiving a stream of ICMP \"destination unreachable, port unreachable\" packets, burned so much CPU that they stopped passing traffic. A few megabits per second, within reach of a single home line, were enough to bring expensive devices to their knees.",
+    "prayer": "O Blessed BLACKNURSE, who with a trickle of ICMP halt a river of traffic, let our firewalls handle awkward packets without choking. Amen.",
+    "feast": "Celebrated by rate-limiting or filtering ICMP type 3 code 3 and checking how the firewall behaves under pressure.",
+    "proverb": "No flood is needed: a trickle in the right place will do."
+  }
+}

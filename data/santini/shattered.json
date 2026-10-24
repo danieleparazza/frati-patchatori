@@ -1,0 +1,10 @@
+{
+  "label": "SHAttered",
+  "motto": "DUO CORPORA, UNA ANIMA",
+  "niche": [
+    "#1d2c3a",
+    "#344d66"
+  ],
+  "accent": "#22384d",
+  "emblem": "<rect x=\"102\" y=\"134\" width=\"56\" height=\"74\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"142\" y=\"146\" width=\"56\" height=\"74\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"110\" y=\"144\" width=\"40\" height=\"20\" fill=\"#2e86c1\"/>\n<rect x=\"150\" y=\"156\" width=\"40\" height=\"20\" fill=\"#c0392b\"/>\n<text x=\"170\" y=\"204\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">PDF</text>\n<text x=\"150\" y=\"242\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"17\" fill=\"#fbf3dd\">SHA-1</text>\n<path d=\"M128 130 L136 142 L130 152 L138 162\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>"
+}

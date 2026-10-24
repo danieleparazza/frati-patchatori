@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Sandworm, il verme delle sabbie",
+    "patronage": "degli allegati PowerPoint, degli oggetti OLE e dei lettori di Dune che lasciano citazioni nel codice.",
+    "hagiography": "Il 14 ottobre 2014 iSIGHT Partners rivelò che un gruppo di spionaggio russo usava una vulnerabilità sconosciuta di Windows contro la NATO, il governo ucraino e aziende dell'energia: una presentazione PowerPoint con un oggetto OLE scaricava ed eseguiva file da una cartella remota, senza bisogno di macro. Il gruppo fu chiamato Sandworm per i riferimenti a Dune trovati nelle campagne, e il nome gli è rimasto addosso per tutti gli attacchi successivi.",
+    "prayer": "O San Sandworm, che nuoti nelle sabbie degli allegati, fa' che le nostre presentazioni contengano solo diapositive noiose. Amen.",
+    "feast": "Si festeggia installando l'aggiornamento MS14-060 e camminando con passo irregolare, per non attirare i vermi.",
+    "proverb": "Chi apre ogni allegato chiama il verme."
+  },
+  "en": {
+    "title": "Saint Sandworm, the Worm of the Sands",
+    "patronage": "PowerPoint attachments, OLE objects, and Dune readers who leave quotes in their code.",
+    "hagiography": "On 14 October 2014 iSIGHT Partners revealed that a Russian espionage group was using an unknown Windows vulnerability against NATO, the Ukrainian government and energy companies: a PowerPoint presentation with an OLE object downloaded and ran files from a remote share, no macros needed. The group was named Sandworm after the Dune references found in its campaigns, and the name has stuck to it through every attack since.",
+    "prayer": "O Saint Sandworm, who swims in the sands of attachments, let our presentations contain only boring slides. Amen.",
+    "feast": "Celebrated by installing update MS14-060 and walking without rhythm, so as not to attract the worms.",
+    "proverb": "Open every attachment and the worm will come."
+  }
+}

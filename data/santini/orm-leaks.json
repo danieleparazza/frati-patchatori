@@ -1,0 +1,10 @@
+{
+  "label": "ORM Leaks",
+  "motto": "MODELLUM LOQUITUR",
+  "niche": [
+    "#102a30",
+    "#215460"
+  ],
+  "accent": "#173e46",
+  "emblem": "<g fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"><ellipse cx=\"150\" cy=\"140\" rx=\"34\" ry=\"12\"/><path d=\"M116 140 V170 A34 12 0 0 0 184 170 V140\" fill=\"none\"/><path d=\"M116 170 V200 A34 12 0 0 0 184 200 V170\" fill=\"none\"/></g>\n<path d=\"M150 150 q-6 10 0 14 q6 -4 0 -14z\" fill=\"#5dade2\"/>\n<path d=\"M164 180 q-5 9 0 12 q5 -3 0 -12z\" fill=\"#5dade2\"/>\n<path d=\"M134 210 q-6 10 0 14 q6 -4 0 -14z\" fill=\"#5dade2\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#d9ad55\">***</text>"
+}

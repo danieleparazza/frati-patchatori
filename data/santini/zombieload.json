@@ -1,0 +1,10 @@
+{
+  "label": "ZombieLoad",
+  "motto": "DATA REDIVIVA",
+  "niche": [
+    "#24331a",
+    "#47602c"
+  ],
+  "accent": "#3a5022",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"76\" rx=\"6\" fill=\"#2b2b2b\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#9aa6b8\">CPU</text>\n<g stroke=\"#7ec46b\" stroke-width=\"2.5\"><path d=\"M112 164 H96 M112 180 H96 M112 196 H96 M112 212 H96 M188 164 H204 M188 180 H204 M188 196 H204 M188 212 H204\"/></g>\n<path d=\"M150 150 V112\" stroke=\"#7ec46b\" stroke-width=\"3\"/>\n<path d=\"M136 128 q14 -22 28 0\" fill=\"none\" stroke=\"#7ec46b\" stroke-width=\"3\"/>\n<circle cx=\"140\" cy=\"130\" r=\"4\" fill=\"#fbf3dd\"/><circle cx=\"160\" cy=\"130\" r=\"4\" fill=\"#fbf3dd\"/>\n<path d=\"M132 174 l10 10 m0 -10 l-10 10 M158 174 l10 10 m0 -10 l-10 10\" stroke=\"#c0392b\" stroke-width=\"2\"/>"
+}

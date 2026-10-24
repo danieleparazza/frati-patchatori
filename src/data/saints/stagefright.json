@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Stagefright, che aveva paura del palcoscenico",
+    "patronage": "dei messaggi MMS, dei video che si aprono da soli e dei telefoni mai aggiornati dal produttore.",
+    "hagiography": "Nell'estate del 2015 Joshua Drake di Zimperium scoprì una serie di falle in libstagefright, la libreria con cui Android legge i file multimediali. Bastava inviare un MMS con un video malformato: il telefono lo elaborava da solo per generare l'anteprima, e il codice dell'attaccante andava in scena prima ancora che la vittima toccasse lo schermo. Erano a rischio quasi un miliardo di dispositivi, e da allora Google pubblica i bollettini di sicurezza mensili.",
+    "prayer": "O San Stagefright, che reciti senza che nessuno abbia comprato il biglietto, fa' che i nostri telefoni non aprano ciò che nessuno ha chiesto di vedere. Amen.",
+    "feast": "Si festeggia disattivando lo scaricamento automatico degli MMS e installando la patch del mese, se il produttore l'ha mai rilasciata.",
+    "proverb": "Anteprima automatica, sipario sul telefono."
+  },
+  "en": {
+    "title": "Saint Stagefright, Who Had Stage Fright",
+    "patronage": "MMS messages, videos that open themselves, and phones the manufacturer never updated.",
+    "hagiography": "In the summer of 2015 Joshua Drake of Zimperium found a series of flaws in libstagefright, the library Android uses to read media files. Sending an MMS with a malformed video was enough: the phone processed it by itself to build the preview, and the attacker's code took the stage before the victim had even touched the screen. Nearly a billion devices were at risk, and ever since Google has published monthly security bulletins.",
+    "prayer": "O Saint Stagefright, who performs though nobody bought a ticket, keep our phones from opening what nobody asked to see. Amen.",
+    "feast": "Celebrated by disabling MMS auto-download and installing this month's patch, if the manufacturer ever shipped it.",
+    "proverb": "Automatic preview, curtains for the phone."
+  }
+}

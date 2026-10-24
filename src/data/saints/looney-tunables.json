@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Looney Tunables, che accorda le variabili d'ambiente",
+    "patronage": "dei loader dinamici, delle variabili d'ambiente troppo lunghe e dei cartoni animati che finiscono con «That's all folks».",
+    "hagiography": "Il 3 ottobre 2023 Qualys rivelò un buffer overflow in ld.so, il caricatore dinamico della glibc, nel modo in cui leggeva la variabile GLIBC_TUNABLES. Bastava passare una variabile malformata a un programma setuid per diventare root nelle installazioni predefinite di Fedora, Ubuntu e Debian. Il difetto era entrato nella glibc 2.34 nell'aprile 2021, e nel giro di poche settimane finì nel catalogo CISA degli exploit usati davvero.",
+    "prayer": "O San Looney Tunables, che con una sola variabile fai ballare il loader, fa' che i nostri programmi setuid non diano ascolto a ogni ambiente. Amen.",
+    "feast": "Si festeggia aggiornando la glibc e guardando un vecchio cartone animato, finché qualcuno non diventa root.",
+    "proverb": "Chi accorda troppo lo strumento spezza la corda."
+  },
+  "en": {
+    "title": "Saint Looney Tunables, Who Tunes Environment Variables",
+    "patronage": "dynamic loaders, overly long environment variables, and cartoons that end with \"That's all folks\".",
+    "hagiography": "On 3 October 2023 Qualys revealed a buffer overflow in ld.so, the glibc dynamic loader, in the way it parsed the GLIBC_TUNABLES variable. Handing a malformed variable to a setuid program was enough to become root on default installs of Fedora, Ubuntu and Debian. The flaw had arrived with glibc 2.34 in April 2021, and within weeks it joined CISA's catalogue of exploits seen in the wild.",
+    "prayer": "O Saint Looney Tunables, who makes the loader dance with a single variable, let our setuid programs not listen to every environment. Amen.",
+    "feast": "Celebrated by updating glibc and watching an old cartoon, until somebody becomes root.",
+    "proverb": "Tune it too tight and the string will snap."
+  }
+}

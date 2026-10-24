@@ -1,0 +1,11 @@
+{
+  "label": "Kaseya VSA",
+  "motto": "UNUS PRO OMNIBUS CIFRAT",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"132\" y=\"128\" width=\"36\" height=\"26\" rx=\"3\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g stroke=\"#fbf3dd\" stroke-width=\"2.5\"><line x1=\"150\" y1=\"154\" x2=\"150\" y2=\"170\"/><line x1=\"114\" y1=\"170\" x2=\"186\" y2=\"170\"/><line x1=\"114\" y1=\"170\" x2=\"114\" y2=\"184\"/><line x1=\"150\" y1=\"170\" x2=\"150\" y2=\"184\"/><line x1=\"186\" y1=\"170\" x2=\"186\" y2=\"184\"/></g>\n<g fill=\"#3a3a3a\" stroke=\"#fbf3dd\" stroke-width=\"2\"><rect x=\"100\" y=\"184\" width=\"28\" height=\"18\" rx=\"2\"/><rect x=\"136\" y=\"184\" width=\"28\" height=\"18\" rx=\"2\"/><rect x=\"172\" y=\"184\" width=\"28\" height=\"18\" rx=\"2\"/></g>\n<g stroke=\"#bfc9d1\" stroke-width=\"1.5\"><line x1=\"114\" y1=\"202\" x2=\"104\" y2=\"222\"/><line x1=\"114\" y1=\"202\" x2=\"114\" y2=\"222\"/><line x1=\"114\" y1=\"202\" x2=\"124\" y2=\"222\"/><line x1=\"150\" y1=\"202\" x2=\"140\" y2=\"222\"/><line x1=\"150\" y1=\"202\" x2=\"150\" y2=\"222\"/><line x1=\"150\" y1=\"202\" x2=\"160\" y2=\"222\"/><line x1=\"186\" y1=\"202\" x2=\"176\" y2=\"222\"/><line x1=\"186\" y1=\"202\" x2=\"186\" y2=\"222\"/><line x1=\"186\" y1=\"202\" x2=\"196\" y2=\"222\"/></g>\n<g fill=\"#d9ad55\"><rect x=\"100\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"110\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"120\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"136\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"146\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"156\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"172\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"182\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"192\" y=\"222\" width=\"8\" height=\"8\"/></g>"
+}

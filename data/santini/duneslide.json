@@ -1,0 +1,10 @@
+{
+  "label": "DuneSlide",
+  "motto": "EXTRA SEPTUM LABITUR",
+  "niche": [
+    "#2e2210",
+    "#5e4820"
+  ],
+  "accent": "#483618",
+  "emblem": "<g stroke=\"#d9ad55\" stroke-width=\"3\" fill=\"none\"><rect x=\"118\" y=\"150\" width=\"64\" height=\"64\" rx=\"4\" stroke-dasharray=\"10 7\"/></g>\n<rect x=\"104\" y=\"196\" width=\"36\" height=\"28\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M172 214 L204 214 M194 206 L204 214 L194 222\" stroke=\"#c0392b\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>\n<path d=\"M104 160 q22 -14 44 0 t44 0\" stroke=\"#9a7a3a\" stroke-width=\"3\" fill=\"none\"/>\n<text x=\"150\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">/</text>"
+}

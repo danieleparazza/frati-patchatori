@@ -1,0 +1,10 @@
+{
+  "label": "Dragonblood",
+  "motto": "SANGUIS DRACONIS",
+  "niche": [
+    "#2e1416",
+    "#5e2a2e"
+  ],
+  "accent": "#4a1d20",
+  "emblem": "<path d=\"M108 210 C100 170 130 140 162 146 C150 132 168 120 182 132 C192 140 196 156 188 166 L200 170 L186 178 C180 204 150 220 126 214 Z\" fill=\"#2e7d4f\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"176\" cy=\"148\" r=\"4\" fill=\"#f4d03f\"/>\n<path d=\"M150 146 L142 118 L158 134 L166 112 L172 140 Z\" fill=\"#27ae60\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M132 168 L140 156 L148 168 L156 156 L164 168\" stroke=\"#a9dfbf\" stroke-width=\"2\" fill=\"none\"/>\n<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M128 236 A22 22 0 0 1 172 236\"/><path d=\"M138 238 A12 12 0 0 1 162 238\"/></g>\n<circle cx=\"150\" cy=\"240\" r=\"3\" fill=\"#fbf3dd\"/>\n<g fill=\"#c0392b\"><path d=\"M118 214 q-5 9 0 12 q5 -3 0 -12z\"/><path d=\"M106 222 q-4 7 0 10 q4 -3 0 -10z\"/></g>"
+}

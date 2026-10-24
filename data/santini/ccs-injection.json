@@ -1,0 +1,10 @@
+{
+  "label": "CCS Injection",
+  "motto": "NON ANTE TEMPUS",
+  "niche": [
+    "#3a1620",
+    "#6b2a3a"
+  ],
+  "accent": "#521e2c",
+  "emblem": "<rect x=\"138\" y=\"118\" width=\"24\" height=\"22\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<rect x=\"144\" y=\"140\" width=\"12\" height=\"62\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M144 202 L150 236 L156 202 Z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M130 160 H170 M130 180 H170\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"110\" y=\"146\" width=\"20\" height=\"8\" rx=\"3\" fill=\"#d9ad55\"/><rect x=\"170\" y=\"146\" width=\"20\" height=\"8\" rx=\"3\" fill=\"#d9ad55\"/>\n<text x=\"112\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#d9ad55\">CCS</text>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ZombieLoad, che resuscitava i dati altrui",
+    "patronage": "dei processori Intel, dei buffer interni che non si svuotano e dei segreti che tornano dall'oltretomba.",
+    "hagiography": "Il 14 maggio 2019 i ricercatori di TU Graz, imec-DistriNet e altri presentarono ZombieLoad, uno degli attacchi \"MDS\" di esecuzione speculativa sui processori Intel. Durante certe operazioni, i piccoli buffer interni della CPU trattenevano dati di altri programmi, e un attaccante poteva farli \"risorgere\" e spiarli, anche attraverso le barriere tra processi e macchine virtuali. La difesa richiese microcodice, aggiornamenti e, in certi casi, lo spegnimento dell'hyper-threading.",
+    "prayer": "O San ZombieLoad, che richiami i dati che la CPU credeva sepolti, fa' che i nostri buffer si svuotino prima di cambiare padrone. Amen.",
+    "feast": "Si festeggia aggiornando microcodice e sistema operativo, e valutando se l'hyper-threading valga il rischio.",
+    "proverb": "Dato non sepolto bene, torna a far visita."
+  },
+  "en": {
+    "title": "Saint ZombieLoad, Who Raised Other People's Data",
+    "patronage": "Intel processors, internal buffers that never flush, and secrets that return from the grave.",
+    "hagiography": "On 14 May 2019 researchers from TU Graz, imec-DistriNet and others presented ZombieLoad, one of the speculative-execution \"MDS\" attacks on Intel processors. During certain operations, the CPU's small internal buffers held on to data from other programs, and an attacker could make it \"rise again\" and spy on it, even across the barriers between processes and virtual machines. The defence required microcode, updates and, in some cases, disabling hyper-threading.",
+    "prayer": "O Saint ZombieLoad, who recalls the data the CPU thought buried, let our buffers empty before they change masters. Amen.",
+    "feast": "Celebrated by updating microcode and the operating system, and weighing whether hyper-threading is worth the risk.",
+    "proverb": "Data not buried well comes back to visit."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Golden GMSA",
+  "motto": "AURUM EX RADICE",
+  "niche": [
+    "#2e2410",
+    "#5a4616"
+  ],
+  "accent": "#4d3b12",
+  "emblem": "<rect x=\"120\" y=\"170\" width=\"60\" height=\"48\" rx=\"5\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M130 170 V152 A20 20 0 0 1 170 152 V170\" fill=\"none\" stroke=\"#f1c40f\" stroke-width=\"7\"/>\n<circle cx=\"150\" cy=\"190\" r=\"6\" fill=\"#2b1d14\"/><rect x=\"147\" y=\"192\" width=\"6\" height=\"14\" fill=\"#2b1d14\"/>\n<g stroke=\"#9a7b1a\" stroke-width=\"2\" fill=\"none\"><path d=\"M150 218 V238 M150 230 L134 244 M150 230 L166 244 M150 238 L142 248 M150 238 L158 248\"/></g>\n<g fill=\"#f1c40f\"><path d=\"M150 120 l4 10 l10 1 l-7 7 l2 10 l-9 -5 l-9 5 l2 -10 l-7 -7 l10 -1 z\"/></g>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato NAT Slipstreaming, che passò indisturbato il router",
+    "patronage": "dei router casalinghi che ispezionano i pacchetti, dei NAT troppo servizievoli e dei browser che aprono porte senza saperlo.",
+    "hagiography": "Il 31 ottobre 2020 Samy Kamkar presentò NAT Slipstreaming: bastava far visitare una pagina web malevola perché il browser, con l'aiuto dei meccanismi che i router usano per protocolli come SIP, inducesse il NAT ad aprire una porta verso un servizio interno della vittima. Il router, cercando di essere utile, veniva ingannato a instradare traffico dall'esterno verso la rete di casa. Una versione 2.0 estese l'attacco a qualunque dispositivo interno.",
+    "prayer": "O Beato NAT Slipstreaming, che scivoli oltre il router come un'ombra, fa' che i nostri NAT non aprano porte per cortesia. Amen.",
+    "feast": "Si festeggia aggiornando il firmware del router e disabilitando l'ispezione applicativa (ALG) dove non serve.",
+    "proverb": "Router troppo cortese apre la porta allo sconosciuto."
+  },
+  "en": {
+    "title": "Blessed NAT Slipstreaming, Who Slipped Past the Router",
+    "patronage": "home routers that inspect packets, overly helpful NATs, and browsers that open ports without knowing it.",
+    "hagiography": "On 31 October 2020 Samy Kamkar presented NAT Slipstreaming: simply making a victim visit a malicious web page let the browser, with the help of the mechanisms routers use for protocols like SIP, trick the NAT into opening a port to a service inside the victim's network. The router, trying to be helpful, was fooled into routing outside traffic into the home network. A version 2.0 extended the attack to any internal device.",
+    "prayer": "O Blessed NAT Slipstreaming, who slips past the router like a shadow, let our NATs not open ports out of courtesy. Amen.",
+    "feast": "Celebrated by updating the router firmware and disabling application-layer inspection (ALG) where it is not needed.",
+    "proverb": "An over-courteous router opens the door to the stranger."
+  }
+}

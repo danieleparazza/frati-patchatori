@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Dirty Pipe, che scriveva nei file di sola lettura",
+    "patronage": "delle pipe di Linux, dei file che credevi protetti e della pagine di cache riusate con leggerezza.",
+    "hagiography": "Il 7 marzo 2022 Max Kellermann pubblicò la CVE-2022-0847, battezzata Dirty Pipe in omaggio a Dirty COW. Un campo non inizializzato nelle pipe del kernel Linux permetteva a un utente senza privilegi di scrivere dentro file di sola lettura, attraverso la cache delle pagine: da lì a sovrascrivere file di sistema e diventare root il passo era breve. Il difetto era entrato nel kernel nel 2020.",
+    "prayer": "O San Dirty Pipe, che riempi di scritte i file che tacevano, insegna al kernel a inizializzare ogni campo prima di usarlo. Amen.",
+    "feast": "Si festeggia aggiornando il kernel Linux a 5.16.11, 5.15.25 o 5.10.102 e ricordandosi che «sola lettura» vale finché il kernel coopera.",
+    "proverb": "Pipa sporca, file che parla."
+  },
+  "en": {
+    "title": "Saint Dirty Pipe, Who Wrote in Read-Only Files",
+    "patronage": "Linux pipes, files you thought were protected, and page-cache pages reused too casually.",
+    "hagiography": "On 7 March 2022 Max Kellermann published CVE-2022-0847, named Dirty Pipe as a nod to Dirty COW. An uninitialised field in the Linux kernel's pipes let an unprivileged user write into read-only files through the page cache: from there to overwriting system files and becoming root was a short step. The flaw had entered the kernel in 2020.",
+    "prayer": "O Saint Dirty Pipe, who fills with writing the files that kept silent, teach the kernel to initialise every field before using it. Amen.",
+    "feast": "Celebrated by updating the Linux kernel to 5.16.11, 5.15.25 or 5.10.102 and remembering that \"read-only\" holds only as long as the kernel cooperates.",
+    "proverb": "Dirty pipe, talkative file."
+  }
+}

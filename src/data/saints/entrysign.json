@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San EntrySign, che firmava il microcodice con la chiave sbagliata",
+    "patronage": "dei processori AMD, del microcodice e delle chiavi d'esempio copiate dai manuali.",
+    "hagiography": "All'inizio del 2025 i ricercatori di Google rivelarono EntrySign, una falla nel controllo di firma del microcodice dei processori AMD Zen. Il controllo usava AES-CMAC come se fosse una funzione di hash, e per di più con una chiave d'esempio presa dalla documentazione del NIST: così chi aveva privilegi di amministratore poteva caricare microcodice arbitrario e riscrivere il comportamento della CPU. La correzione definitiva richiede un aggiornamento del BIOS.",
+    "prayer": "O San EntrySign, che firmi il microcodice con la chiave del manuale, fa' che le nostre verifiche usino chiavi segrete e funzioni fatte per lo scopo. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di BIOS e microcode AMD e non riusando mai le chiavi d'esempio del NIST.",
+    "proverb": "Chiave del manuale, firma di cartone."
+  },
+  "en": {
+    "title": "Saint EntrySign, Who Signed the Microcode With the Wrong Key",
+    "patronage": "AMD processors, microcode, and example keys copied out of the manuals.",
+    "hagiography": "In early 2025 researchers at Google revealed EntrySign, a flaw in the microcode signature check of AMD Zen processors. The check used AES-CMAC as if it were a hash function, and on top of that with an example key taken from NIST documentation: so anyone with administrator privileges could load arbitrary microcode and rewrite the CPU's behaviour. The full fix requires a BIOS update.",
+    "prayer": "O Saint EntrySign, who sign the microcode with the key from the manual, let our checks use secret keys and functions made for the purpose. Amen.",
+    "feast": "Celebrated by installing AMD BIOS and microcode updates and never reusing the NIST example keys.",
+    "proverb": "A key from the manual, a signature of cardboard."
+  }
+}

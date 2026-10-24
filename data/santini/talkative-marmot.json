@@ -1,0 +1,10 @@
+{
+  "label": "Talkative Marmot",
+  "motto": "MARMOTA LOQUAX",
+  "niche": [
+    "#2e2416",
+    "#5a4628"
+  ],
+  "accent": "#4d3b22",
+  "emblem": "<path d=\"M124 240 C112 214 116 176 128 160 C126 146 136 136 150 136 C164 136 174 146 172 160 C184 176 188 214 176 240 Z\" fill=\"#b9874f\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"150\" cy=\"208\" rx=\"18\" ry=\"26\" fill=\"#e8c99a\"/>\n<g fill=\"#2b1d14\"><circle cx=\"141\" cy=\"152\" r=\"3\"/><circle cx=\"159\" cy=\"152\" r=\"3\"/><ellipse cx=\"150\" cy=\"160\" rx=\"4\" ry=\"3\"/></g>\n<rect x=\"146\" y=\"164\" width=\"8\" height=\"6\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1\"/>\n<circle cx=\"132\" cy=\"140\" r=\"5\" fill=\"#b9874f\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/><circle cx=\"168\" cy=\"140\" r=\"5\" fill=\"#b9874f\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M176 126 H206 V146 H190 L182 154 V146 H176 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<text x=\"191\" y=\"141\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">bla</text>"
+}

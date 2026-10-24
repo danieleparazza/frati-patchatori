@@ -1,0 +1,11 @@
+{
+  "label": "Sasser",
+  "motto": "SINE CLICK INTRAVIT",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M150 128 C124 128 116 150 116 176 C116 214 130 236 150 236 C170 236 184 214 184 176 C184 150 176 128 150 128 Z\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<line x1=\"116\" y1=\"170\" x2=\"184\" y2=\"170\" stroke=\"#fbf3dd\" stroke-width=\"3\"/><line x1=\"150\" y1=\"128\" x2=\"150\" y2=\"170\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<line x1=\"104\" y1=\"236\" x2=\"196\" y2=\"128\" stroke=\"#c0392b\" stroke-width=\"7\" stroke-linecap=\"round\"/>"
+}

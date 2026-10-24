@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San EntryBleed, che tradiva la mappa del kernel",
+    "patronage": "della KASLR, della Page Table Isolation e di chi spera che qualche indirizzo resti segreto.",
+    "hagiography": "Il 16 dicembre 2022 William Liu pubblicò EntryBleed: per permettere il passaggio tra spazio utente e kernel, la Page Table Isolation lasciava mappate alcune pagine di ingresso. Misurando i tempi di prefetch, basati sul comportamento della TLB sulle CPU Intel, un attaccante locale poteva de-randomizzare la base del kernel in circa un secondo, annullando la protezione della KASLR su bare metal e in VM.",
+    "prayer": "O San EntryBleed, che leggi la mappa nei tempi di accesso, fa' che i nostri indirizzi restino nascosti anche al cronometro. Amen.",
+    "feast": "Si festeggia applicando le mitigazioni del kernel e ricordando che la KASLR da sola non basta.",
+    "proverb": "Indirizzo veloce, segreto che si cuoce."
+  },
+  "en": {
+    "title": "Saint EntryBleed, Who Gave Away the Kernel's Map",
+    "patronage": "KASLR, Page Table Isolation, and anyone hoping some address stays secret.",
+    "hagiography": "On 16 December 2022 William Liu published EntryBleed: to allow the switch between user space and kernel, Page Table Isolation left a few entry pages mapped. By measuring prefetch timing, based on TLB behaviour on Intel CPUs, a local attacker could de-randomise the kernel base in about a second, defeating KASLR's protection on bare metal and in VMs.",
+    "prayer": "O Saint EntryBleed, who reads the map in access times, let our addresses stay hidden even from the stopwatch. Amen.",
+    "feast": "Celebrated by applying the kernel mitigations and remembering that KASLR alone is not enough.",
+    "proverb": "A fast address is a secret half-cooked."
+  }
+}

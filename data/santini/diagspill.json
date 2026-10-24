@@ -1,0 +1,10 @@
+{
+  "label": "DiagSpill",
+  "motto": "NUMERUS REDIT NIHIL",
+  "niche": [
+    "#1c2a3a",
+    "#3a5068"
+  ],
+  "accent": "#273c50",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"40\" rx=\"3\" fill=\"#1b2430\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"178\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#2ecc71\">65535→0</text>\n<path d=\"M112 190 q40 30 76 0\" fill=\"none\" stroke=\"#5dade2\" stroke-width=\"3\"/>\n<g fill=\"#5dade2\"><path d=\"M118 198 q-4 8 0 12 q4 -4 0 -12z\"/><path d=\"M150 214 q-5 9 0 14 q5 -4 0 -14z\"/><path d=\"M182 198 q-4 8 0 12 q4 -4 0 -12z\"/></g>\n<path d=\"M104 196 h92 M104 196 v8 M196 196 v8\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>"
+}

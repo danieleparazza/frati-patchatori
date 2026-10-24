@@ -456,7 +456,7 @@
    "name": "Knight Capital trading meltdown",
    "date": "2012-08-01",
    "dateMeaning": "incident day (NYSE open)",
-   "summary": "A faulty deployment of new trading software reactivated dormant 'Power Peg' code on one of eight servers. Within about 45 minutes Knight Capital had sent millions of erroneous orders and lost about $440 million, pushing the firm to the brink of collapse. No attacker was involved.",
+   "summary": "A faulty deployment of new trading software reactivated dormant 'Power Peg' code on one of eight servers. Within about 45 minutes Knight Capital had sent millions of erroneous orders and lost about $440 million (more than $460 million according to the SEC), pushing the firm to the brink of collapse. No attacker was involved.",
    "cves": [],
    "malware": [],
    "people": [],
@@ -645,7 +645,7 @@
    "name": "Mirai botnet attack on Dyn",
    "date": "2016-10-21",
    "dateMeaning": "attack day (two waves, 11:10 and 15:50 UTC)",
-   "summary": "A huge DDoS from the Mirai botnet, made of hijacked IoT devices such as cameras and DVRs, hit DNS provider Dyn. Twitter, Netflix, Reddit, GitHub and many other sites became unreachable for large parts of the US and Europe. Mirai's authors later pleaded guilty in US federal court.",
+   "summary": "A huge DDoS from the Mirai botnet, made of hijacked IoT devices such as cameras and DVRs, hit DNS provider Dyn. Twitter, Netflix, Reddit, GitHub and many other sites became unreachable for large parts of the US and Europe. Mirai's authors later pleaded guilty in US federal court to creating the botnet; the Dyn attack itself was not part of their plea.",
    "cves": [],
    "malware": [
     "Mirai"
@@ -892,7 +892,7 @@
    "name": "Twitter celebrity-account hijack",
    "date": "2020-07-15",
    "dateMeaning": "attack day",
-   "summary": "After phone spear-phishing Twitter employees to reach internal admin tools, attackers took over 130 high-profile accounts, including those of Barack Obama, Joe Biden, Elon Musk and Apple. They used them to post a 'double your bitcoin' scam that collected about $117,000. A 17-year-old from Florida and two others were charged.",
+   "summary": "After phone spear-phishing Twitter employees to reach internal admin tools, attackers targeted 130 high-profile accounts and tweeted from 45 of them, including those of Barack Obama, Joe Biden, Elon Musk and Apple. They used them to post a 'double your bitcoin' scam that collected about $117,000. A 17-year-old from Florida and two others were charged.",
    "cves": [],
    "malware": [],
    "people": [],

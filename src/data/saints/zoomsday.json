@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Zoomsday, profeta della riunione finale",
+    "patronage": "delle videochiamate, degli scarabocchi sullo schermo condiviso e dei partecipanti che nessuno ha invitato.",
+    "hagiography": "L'11 agosto 2026 Idan Levcovich di A Security rivelò tre falle nella funzione di annotazione di Zoom, quella che permette di disegnare e scrivere sullo schermo condiviso. Un partecipante alla riunione poteva eseguire codice sui dispositivi degli altri senza che nessuno cliccasse nulla, su Windows, macOS, Linux, iOS e Android, anche nelle riunioni cifrate end-to-end. I ricercatori raccontarono di averle trovate con l'aiuto di un agente di intelligenza artificiale.",
+    "prayer": "O San Zoomsday, che scarabocchi sullo schermo e nella memoria, fa' che le nostre annotazioni restino disegni. Amen.",
+    "feast": "Si festeggia aggiornando Zoom Workplace alla 7.1.5 o alla 7.0.6 e spegnendo la telecamera per ogni evenienza.",
+    "proverb": "Chi annota in riunione, annota anche nel tuo heap."
+  },
+  "en": {
+    "title": "Saint Zoomsday, Prophet of the Final Meeting",
+    "patronage": "video calls, doodles on the shared screen, and participants nobody invited.",
+    "hagiography": "On 11 August 2026 Idan Levcovich of A Security revealed three flaws in Zoom's annotation feature, the one that lets people draw and type on a shared screen. A meeting participant could run code on the others' devices without anyone clicking anything, on Windows, macOS, Linux, iOS and Android, even in end-to-end encrypted meetings. The researchers said they found them with the help of an AI agent.",
+    "prayer": "O Saint Zoomsday, who scribbles on the screen and in memory, let our annotations remain drawings. Amen.",
+    "feast": "Celebrated by updating Zoom Workplace to 7.1.5 or 7.0.6 and turning the camera off, just in case.",
+    "proverb": "Whoever annotates the meeting annotates your heap."
+  }
+}

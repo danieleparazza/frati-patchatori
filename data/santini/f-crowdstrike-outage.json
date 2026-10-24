@@ -1,0 +1,11 @@
+{
+  "label": "CrowdStrike 2024",
+  "motto": "CANALIS CCXCI",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"104\" y=\"140\" width=\"92\" height=\"66\" rx=\"4\" fill=\"#0a5fb4\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<text x=\"126\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#fbf3dd\" >:(</text>\n<g stroke=\"#fbf3dd\" stroke-width=\"2\" opacity=\"0.8\"><line x1=\"114\" y1=\"184\" x2=\"186\" y2=\"184\"/><line x1=\"114\" y1=\"192\" x2=\"170\" y2=\"192\"/></g>\n<rect x=\"140\" y=\"206\" width=\"20\" height=\"14\" fill=\"#bfc9d1\"/><rect x=\"124\" y=\"220\" width=\"52\" height=\"6\" rx=\"2\" fill=\"#bfc9d1\"/>\n<text x=\"170\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\" >291</text>"
+}

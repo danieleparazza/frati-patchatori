@@ -1,0 +1,11 @@
+{
+  "label": "Christmas Attack",
+  "motto": "NUMERUS PRAEVISUS",
+  "niche": [
+    "#2a1414",
+    "#5c2222"
+  ],
+  "accent": "#3f1818",
+  "frame": "santo",
+  "emblem": "<path d=\"M150 130 L138 160 H162 Z\" fill=\"#2e7d32\"/><path d=\"M150 148 L132 182 H168 Z\" fill=\"#2e7d32\"/><path d=\"M150 168 L126 206 H174 Z\" fill=\"#2e7d32\"/>\n<rect x=\"142\" y=\"206\" width=\"16\" height=\"16\" fill=\"#6e4b2a\"/>\n<circle cx=\"150\" cy=\"126\" r=\"5\" fill=\"#d9ad55\"/>\n<g font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\"><text x=\"128\" y=\"150\">SEQ</text><text x=\"168\" y=\"172\">+64k</text></g>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#d9ad55\">SYN · SYN-ACK</text>"
+}

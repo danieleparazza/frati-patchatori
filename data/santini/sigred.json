@@ -1,0 +1,10 @@
+{
+  "label": "SIGRed",
+  "motto": "VERMIS IN NOMINE",
+  "niche": [
+    "#2a1216",
+    "#58242c"
+  ],
+  "accent": "#421a20",
+  "emblem": "<path d=\"M106 156 q14 -14 28 0 t28 0 t28 0\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"12\" stroke-linecap=\"round\"/>\n<path d=\"M106 182 q14 14 28 0 t28 0 t28 0\" fill=\"none\" stroke=\"#9e1b1b\" stroke-width=\"12\" stroke-linecap=\"round\"/>\n<circle cx=\"190\" cy=\"156\" r=\"9\" fill=\"#9e1b1b\"/><circle cx=\"187\" cy=\"153\" r=\"2.5\" fill=\"#fbf3dd\"/>\n<path d=\"M196 150 l8 -6 M196 160 l8 6\" stroke=\"#9e1b1b\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#d9ad55\">DNS</text>\n<text x=\"150\" y=\"242\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">SIG</text>"
+}

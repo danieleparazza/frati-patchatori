@@ -1,0 +1,11 @@
+{
+  "label": "Code Red",
+  "motto": "RUBER CODEX",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<ellipse cx=\"150\" cy=\"136\" rx=\"26\" ry=\"7\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M124 136 V224 Q150 234 176 224 V136\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<ellipse cx=\"150\" cy=\"226\" rx=\"26\" ry=\"6\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"124\" y=\"166\" width=\"52\" height=\"26\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#c0392b\" >IIS</text>\n<text x=\"150\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\" >CRv2</text>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Dragonblood, nel cui sangue nacque WPA3",
+    "patronage": "delle reti Wi-Fi, delle strette di mano crittografiche e delle curve ellittiche dal nome esotico.",
+    "hagiography": "Nell'aprile 2019 Mathy Vanhoef ed Eyal Ronen mostrarono che Dragonfly, la stretta di mano su cui poggia il nuovo WPA3, soffriva di canali laterali e attacchi di downgrade che permettevano di indovinare la password del Wi-Fi. Nell'agosto dello stesso anno tornarono con nuove falle proprio nelle correzioni: con le curve Brainpool, hostapd, wpa_supplicant e FreeRADIUS lasciavano ancora trapelare informazioni sui tempi di calcolo. Il drago era stato ferito, non ucciso.",
+    "prayer": "O San Dragonblood, che sanguini da ogni stretta di mano, fa' che i nostri access point calcolino sempre nello stesso tempo. Amen.",
+    "feast": "Si festeggia aggiornando hostapd e wpa_supplicant alla 2.9 e scegliendo, per il Wi-Fi, una password che nessun drago possa indovinare.",
+    "proverb": "Drago ferito non è drago morto."
+  },
+  "en": {
+    "title": "Saint Dragonblood, in Whose Blood WPA3 Was Born",
+    "patronage": "Wi-Fi networks, cryptographic handshakes, and elliptic curves with exotic names.",
+    "hagiography": "In April 2019 Mathy Vanhoef and Eyal Ronen showed that Dragonfly, the handshake at the heart of the new WPA3, suffered from side channels and downgrade attacks that made it possible to guess the Wi-Fi password. In August of the same year they came back with new flaws in the very fixes: with Brainpool curves, hostapd, wpa_supplicant and FreeRADIUS still leaked information through their timing. The dragon had been wounded, not slain.",
+    "prayer": "O Saint Dragonblood, who bleeds from every handshake, let our access points always compute in the same amount of time. Amen.",
+    "feast": "Celebrated by updating hostapd and wpa_supplicant to 2.9 and choosing a Wi-Fi password no dragon could guess.",
+    "proverb": "A wounded dragon is not a dead one."
+  }
+}

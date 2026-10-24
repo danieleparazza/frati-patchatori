@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Billion Laughs, che seppellì i parser dalle risate",
+    "patronage": "dei parser XML, delle entità che si moltiplicano e di chi non capisce la battuta ma ride lo stesso.",
+    "hagiography": "Agli inizi degli anni Duemila si scoprì che bastava un piccolo documento XML per mettere in ginocchio un server. Si definisce un'entità lol che vale \"lol\", poi lol2 che ne contiene dieci, lol3 che contiene dieci lol2, e così via fino a lol9: pochi byte che, espansi, diventano un miliardo di risate e gigabyte di memoria. Colpì libxml2 e molti altri, e da allora ogni parser serio porta un limite alle espansioni.",
+    "prayer": "O San Billion Laughs, che con dieci righe riempi tutta la RAM, metti un limite alle nostre entità e un freno alle nostre risate. Amen.",
+    "feast": "Si festeggia disabilitando le DTD dove non servono, limitando l'espansione delle entità e raccontando una barzelletta, una volta sola.",
+    "proverb": "Ride bene chi ride ultimo, ma il parser non arriva alla fine."
+  },
+  "en": {
+    "title": "Saint Billion Laughs, Who Buried Parsers in Laughter",
+    "patronage": "XML parsers, entities that multiply, and people who laugh without getting the joke.",
+    "hagiography": "In the early 2000s it turned out that a tiny XML document could bring a server to its knees. You define an entity lol worth \"lol\", then lol2 containing ten of them, lol3 containing ten lol2s, and so on up to lol9: a few bytes that, once expanded, become a billion laughs and gigabytes of memory. It hit libxml2 and many others, and ever since every serious parser carries a limit on expansions.",
+    "prayer": "O Saint Billion Laughs, who fills all of RAM with ten lines, set a limit on our entities and a brake on our laughter. Amen.",
+    "feast": "Celebrated by disabling DTDs where they are not needed, capping entity expansion, and telling a joke just once.",
+    "proverb": "He who laughs last laughs best, but the parser never gets to the end."
+  }
+}

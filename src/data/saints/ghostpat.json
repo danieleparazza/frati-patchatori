@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San GhostPat, il token che sopravvisse al suo account",
+    "patronage": "dei token di accesso personali, dei registri di immagini container e degli account trasformati in organizzazione senza pensarci troppo.",
+    "hagiography": "Il 12 ottobre 2026 Peter Molnar e Krisztian Hozak rivelarono un difetto di Docker Hub: chi creava un account usa e getta con un token di accesso e poi lo convertiva in organizzazione, indicando una vittima come destinataria, vedeva il token passare intatto e senza avvisi nell'account della vittima. Da lì poteva leggere i suoi repository privati e pubblicare immagini a suo nome. Docker lo corresse in meno di quattro ore dalla segnalazione, e dice di non aver trovato prove di abusi.",
+    "prayer": "O San GhostPat, spirito che infesti account non tuoi, fa' che ogni token muoia insieme a chi l'ha creato. Amen.",
+    "feast": "Si festeggia ruotando i propri token di Docker Hub e controllando chi ha pubblicato l'ultima immagine, anche se ormai la conversione non trasferisce più i token.",
+    "proverb": "Chi eredita un token eredita i suoi fantasmi."
+  },
+  "en": {
+    "title": "Saint GhostPat, the Token That Outlived Its Account",
+    "patronage": "personal access tokens, container image registries, and accounts turned into organisations without much thought.",
+    "hagiography": "On 12 October 2026 Peter Molnar and Krisztian Hozak revealed a Docker Hub flaw: create a throwaway account with an access token, convert it into an organisation naming a victim as the recipient, and the token passed intact and silently into the victim's account. From there it could read their private repositories and push images in their name. Docker fixed it less than four hours after the report, and says it found no evidence of abuse.",
+    "prayer": "O Saint GhostPat, spirit haunting accounts that are not yours, let every token die with whoever created it. Amen.",
+    "feast": "Celebrated by rotating your Docker Hub tokens and checking who pushed the latest image, even though conversion no longer transfers tokens.",
+    "proverb": "Inherit a token, inherit its ghosts."
+  }
+}

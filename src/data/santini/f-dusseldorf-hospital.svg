@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" role="img" aria-label="Düsseldorf 2020">
+<metadata><x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:dc="http://purl.org/dc/elements/1.1/" Iptc4xmpExt:DigitalSourceType="http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"><dc:title>Düsseldorf 2020</dc:title><dc:description>Holy card for f-dusseldorf-hospital, generated with AI (Claude, Anthropic) for the Lunario dei Frati Patchatori.</dc:description><dc:rights>CC BY-NC-SA 4.0</dc:rights></rdf:Description></rdf:RDF></x:xmpmeta></metadata>
+<defs>
+  <radialGradient id="s-f-dusseldorf-hospital-halo"><stop offset="0%" stop-color="#777777" stop-opacity="0.18"/><stop offset="60%" stop-color="#777777" stop-opacity="0.3"/><stop offset="72%" stop-color="#bbbbbb" stop-opacity="0.75"/><stop offset="100%" stop-color="#777777" stop-opacity="0"/></radialGradient>
+  <linearGradient id="s-f-dusseldorf-hospital-niche" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#141414"/><stop offset="100%" stop-color="#3a3a3a"/></linearGradient>
+</defs>
+<rect width="300" height="450" rx="14" fill="#efede8"/>
+<rect x="10" y="10" width="280" height="430" rx="10" fill="none" stroke="#1e1e1e" stroke-width="8"/>
+<rect x="20" y="20" width="260" height="410" rx="6" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+<g fill="#1e1e1e"><circle cx="20" cy="20" r="4"/><circle cx="280" cy="20" r="4"/><circle cx="20" cy="430" r="4"/><circle cx="280" cy="430" r="4"/></g>
+<path d="M38 330 V125 A112 112 0 0 1 262 125 V330 Z" fill="url(#s-f-dusseldorf-hospital-niche)" stroke="#1e1e1e" stroke-width="2"/>
+
+
+<circle cx="150" cy="180" r="76" fill="none" stroke="#000000" stroke-width="2"/>
+<g><rect x="138" y="168" width="24" height="68" rx="3" fill="#fbf3dd" stroke="#9a9086" stroke-width="1.5"/>
+<path d="M150 168 V160" stroke="#3a3a3a" stroke-width="2"/>
+<path d="M150 126 C160 140 162 150 156 158 C153 162 147 162 144 158 C138 150 140 140 150 126 Z" fill="#f1c40f"/>
+<path d="M150 140 C155 148 155 152 152 156 C150 158 148 156 147 154 C145 150 146 146 150 140 Z" fill="#fff6d0"/>
+<path d="M124 236 H176" stroke="#bfc9d1" stroke-width="4" stroke-linecap="round"/></g>
+
+
+<path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#222222"/>
+<text x="150" y="369" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="20" fill="#fbf3dd">Düsseldorf 2020</text>
+<text x="150" y="414" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" letter-spacing="1.5" fill="#3a3a3a">IN MEMORIAM</text>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "label": "CRIME / TIME",
+  "motto": "LONGITUDO PRODIT",
+  "niche": [
+    "#1c2a3a",
+    "#3a5068"
+  ],
+  "accent": "#273c50",
+  "emblem": "<path d=\"M150 124 V156 M126 142 H174\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M126 142 L112 172 H140 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M174 142 L160 172 H188 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<rect x=\"104\" y=\"172\" width=\"44\" height=\"8\" fill=\"#5dade2\"/>\n<rect x=\"160\" y=\"172\" width=\"22\" height=\"8\" fill=\"#5dade2\"/>\n<circle cx=\"150\" cy=\"160\" r=\"4\" fill=\"#fbf3dd\"/>\n<path d=\"M118 196 h64\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<text x=\"126\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#bfc9d1\">long</text>\n<text x=\"171\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#bfc9d1\">short</text>"
+}

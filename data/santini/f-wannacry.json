@@ -1,0 +1,11 @@
+{
+  "label": "WannaCry",
+  "motto": "SMB DELENDA EST",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M126 176 V156 A24 24 0 0 1 174 156 V176\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"7\"/>\n<rect x=\"112\" y=\"174\" width=\"76\" height=\"60\" rx=\"6\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"198\" r=\"7\" fill=\"#2b1d14\"/><rect x=\"147\" y=\"200\" width=\"6\" height=\"18\" fill=\"#2b1d14\"/>\n<path d=\"M196 150 C204 162 206 168 206 172 A10 10 0 0 1 186 172 C186 168 188 162 196 150 Z\" fill=\"#8fc1e3\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>"
+}

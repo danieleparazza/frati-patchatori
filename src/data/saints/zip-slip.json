@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Zip Slip, che scivolava fuori dalla cartella",
+    "patronage": "degli archivi compressi, dei percorsi con troppi punti e degli sviluppatori che estraggono senza guardare.",
+    "hagiography": "Il 5 giugno 2018 Snyk rivelò che migliaia di progetti, Java in testa, estraevano archivi ZIP, TAR e simili fidandosi ciecamente dei nomi dei file. Un archivio con dentro una voce come ../../etc/qualcosa scivolava fuori dalla cartella di destinazione e sovrascriveva ciò che voleva, fino all'esecuzione di codice. Tra i tanti c'era anche Apache Storm, che ne ricevette il CVE.",
+    "prayer": "O San Zip Slip, che con due punti e una barra esci da ogni recinto, fa' che i nostri estrattori normalizzino i percorsi. Amen.",
+    "feast": "Si festeggia controllando che ogni file estratto resti dentro la cartella prevista e diffidando degli archivi che arrivano da fuori.",
+    "proverb": "Punto punto barra, e l'archivio sbarra."
+  },
+  "en": {
+    "title": "Saint Zip Slip, Who Slipped Out of the Folder",
+    "patronage": "compressed archives, paths with too many dots, and developers who extract without looking.",
+    "hagiography": "On 5 June 2018 Snyk revealed that thousands of projects, Java ones above all, extracted ZIP, TAR and similar archives while blindly trusting the file names inside. An entry like ../../etc/something slipped out of the destination folder and overwrote whatever it liked, all the way to code execution. Apache Storm was among the many, and got the CVE.",
+    "prayer": "O Saint Zip Slip, who escapes every fence with two dots and a slash, let our extractors normalise their paths. Amen.",
+    "feast": "Celebrated by checking that every extracted file stays inside the intended folder, and distrusting archives from strangers.",
+    "proverb": "Dot, dot, slash: the archive makes a dash."
+  }
+}

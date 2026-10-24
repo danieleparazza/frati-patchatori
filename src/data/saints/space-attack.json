@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato sPACE, che si spacciava per la carta",
+    "patronage": "delle carte d'identità elettroniche, dei lettori senza tastierino e delle app ufficiali che ufficiali non sono.",
+    "hagiography": "Nel febbraio 2024 fu pubblicata la CVE-2024-23674 sulla funzione di identificazione online della carta d'identità tedesca. Secondo i ricercatori, con un lettore di carte senza tastierino sicuro e un'app contraffatta installata dalla vittima, un attaccante in mezzo poteva impersonarla e leggere i suoi dati dalla carta. L'ufficio federale tedesco per la sicurezza informatica rispose che la sicurezza del lato client spetta al titolare.",
+    "prayer": "O Beato sPACE, che reciti il PIN al posto nostro, fa' che il nostro lettore abbia un tastierino e la nostra app un'origine onesta. Amen.",
+    "feast": "Si festeggia scaricando l'app per l'identità solo dalla fonte ufficiale e usando un lettore con il PIN sul dispositivo.",
+    "proverb": "Chi digita il PIN dove capita, presta la faccia a chiunque."
+  },
+  "en": {
+    "title": "Blessed sPACE, Who Posed as the Card",
+    "patronage": "electronic ID cards, card readers without a keypad, and official apps that are not official.",
+    "hagiography": "In February 2024 CVE-2024-23674 was published on the online identification function of the German ID card. According to the researchers, with a card reader lacking a secure PIN pad and a counterfeit app installed by the victim, an attacker in the middle could impersonate them and read their data off the card. Germany's federal IT security office replied that securing the client side is the cardholder's job.",
+    "prayer": "O Blessed sPACE, who recites the PIN on our behalf, let our reader have a keypad and our app an honest origin. Amen.",
+    "feast": "Celebrated by installing the ID app only from the official source and using a reader that takes the PIN on the device.",
+    "proverb": "Type your PIN just anywhere, and you lend your face to anyone."
+  }
+}

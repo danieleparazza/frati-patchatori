@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Equifax",
+    "chronicle": "Il 7 settembre 2017 l'agenzia di informazioni creditizie Equifax rivelò che degli attaccanti avevano rubato dati personali, compresi i numeri di previdenza sociale, di circa 147 milioni di persone. Erano entrati da metà maggio, sfruttando una vulnerabilità di Apache Struts per cui la correzione esisteva da due mesi, e ne erano usciti indisturbati fino a fine luglio. Nel 2020 il Dipartimento di Giustizia statunitense incriminò per il furto quattro membri dell'Esercito popolare di liberazione cinese.",
+    "lesson": "Dimostrò che l'inventario dei componenti è sicurezza: non si può aggiornare ciò che non si sa di avere. Mostrò anche quanto costi un certificato scaduto su un sistema di monitoraggio, che lasciò il traffico cifrato senza controllo per mesi.",
+    "prayer": "O Struts, impalcatura di mezzo web, fa' che le nostre patch arrivino prima dei ladri e che i certificati dei nostri sensori non scadano in silenzio. Amen.",
+    "remembrance": "Si ricorda tenendo un inventario aggiornato delle librerie, applicando le patch critiche dei sistemi esposti in giorni e controllando la scadenza dei certificati degli strumenti di sicurezza."
+  },
+  "en": {
+    "title": "The Scourge of Equifax",
+    "chronicle": "On 7 September 2017 credit bureau Equifax revealed that attackers had stolen personal data, including Social Security numbers, of about 147 million people. They had been inside since mid-May, exploiting an Apache Struts flaw whose fix had been available for two months, and left undisturbed until late July. In 2020 the US Department of Justice indicted four members of China's People's Liberation Army for the theft.",
+    "lesson": "It proved that a component inventory is security: you cannot patch what you don't know you have. It also showed the cost of an expired certificate on a monitoring device, which left encrypted traffic uninspected for months.",
+    "prayer": "O Struts, scaffolding of half the web, let our patches arrive before the thieves and keep our sensors' certificates from expiring in silence. Amen.",
+    "remembrance": "Remembered by keeping an up-to-date library inventory, patching critical flaws on exposed systems within days and tracking the expiry dates of security tools' certificates."
+  }
+}

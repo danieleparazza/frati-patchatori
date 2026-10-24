@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Water Intelligente, che lasciava il debug aperto",
+    "patronage": "dei sanitari connessi, di DEBUG = True in produzione e delle pagine di errore troppo loquaci.",
+    "hagiography": "Il 9 gennaio 2025 fu pubblicata la CVE-2024-56113: la versione 1.3.11 di Smart Toilet Lab di Motius girava con la modalità debug di Django accesa. Bastava provocare un errore perché la pagina di cortesia elencasse le impostazioni del progetto, segreti compresi. Un caso raro in cui lo scarico funzionava benissimo, ma al contrario.",
+    "prayer": "O San Water Intelligente, che mostri a tutti ciò che dovrebbe restare chiuso, ricordaci di abbassare il debug prima di andare in produzione. Amen.",
+    "feast": "Si festeggia impostando DEBUG = False, ruotando i segreti già esposti e tirando lo sciacquone sulla configurazione di sviluppo."
+  },
+  "en": {
+    "title": "Saint Smart Toilet, Who Left Debug Open",
+    "patronage": "connected bathroom fixtures, DEBUG = True in production, and error pages that talk too much.",
+    "hagiography": "On 9 January 2025 CVE-2024-56113 was published: version 1.3.11 of Motius's Smart Toilet Lab ran with Django's debug mode switched on. Triggering an error was enough for the friendly error page to list the project's settings, secrets included. A rare case where the flush worked perfectly, just in the wrong direction.",
+    "prayer": "O Saint Smart Toilet, who shows everyone what should stay closed, remind us to put the debug lid down before going to production. Amen.",
+    "feast": "Celebrated by setting DEBUG = False, rotating the secrets already exposed, and flushing the development config away."
+  }
+}

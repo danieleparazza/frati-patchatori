@@ -1,0 +1,10 @@
+{
+  "label": "DaMAgeCard",
+  "motto": "PER RIMAM IN MEMORIAM",
+  "niche": [
+    "#1c2a3a",
+    "#33506e"
+  ],
+  "accent": "#253a52",
+  "emblem": "<path d=\"M120 128 H170 L184 142 V206 H120 Z\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#d9ad55\"><rect x=\"128\" y=\"132\" width=\"5\" height=\"14\"/><rect x=\"137\" y=\"132\" width=\"5\" height=\"14\"/><rect x=\"146\" y=\"132\" width=\"5\" height=\"14\"/><rect x=\"155\" y=\"132\" width=\"5\" height=\"14\"/><rect x=\"164\" y=\"132\" width=\"5\" height=\"14\"/></g>\n<text x=\"152\" y=\"182\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#2b1d14\">SD</text>\n<text x=\"152\" y=\"198\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#c0392b\">EXPRESS</text>\n<path d=\"M152 210 V226\" stroke=\"#fbf3dd\" stroke-width=\"3\"/><path d=\"M144 222 L152 232 L160 222\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<rect x=\"104\" y=\"234\" width=\"96\" height=\"14\" rx=\"2\" fill=\"#2e7d32\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<g fill=\"#111\"><rect x=\"110\" y=\"237\" width=\"12\" height=\"8\"/><rect x=\"128\" y=\"237\" width=\"12\" height=\"8\"/><rect x=\"164\" y=\"237\" width=\"12\" height=\"8\"/><rect x=\"182\" y=\"237\" width=\"12\" height=\"8\"/></g>"
+}

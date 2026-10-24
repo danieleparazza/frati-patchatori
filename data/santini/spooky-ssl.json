@@ -1,0 +1,10 @@
+{
+  "label": "Spooky SSL",
+  "motto": "TERROR MAIOR MALO",
+  "niche": [
+    "#2a1a0f",
+    "#54341c"
+  ],
+  "accent": "#5c3416",
+  "emblem": "<path d=\"M118 240 V178 a32 32 0 0 1 64 0 V240 l-10 -10 l-11 10 l-11 -10 l-11 10 l-11 -10 z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"139\" cy=\"180\" rx=\"6\" ry=\"9\" fill=\"#2b1d14\"/><ellipse cx=\"161\" cy=\"180\" rx=\"6\" ry=\"9\" fill=\"#2b1d14\"/>\n<path d=\"M142 202 q8 6 16 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"128\" y=\"150\" width=\"44\" height=\"14\" rx=\"3\" fill=\"#d9ad55\"/><text x=\"150\" y=\"161\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#2b1d14\">X.509</text>\n<text x=\"150\" y=\"128\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#fbf3dd\">@</text>"
+}

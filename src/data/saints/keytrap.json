@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San KeyTrap, che inceppava i resolver",
+    "patronage": "dei resolver DNSSEC, delle chiavi che non finiscono mai e degli standard scritti con troppo zelo.",
+    "hagiography": "Nel febbraio 2024 i ricercatori dell'ATHENE, il centro tedesco per la cybersicurezza, rivelarono che le regole stesse di DNSSEC chiedevano ai resolver di provare tutte le combinazioni di chiavi e firme di una zona. Una risposta costruita con molte chiavi e molte firme bastava a tenere occupato un resolver per ore. Il difetto stava nello standard da circa venticinque anni; i grandi resolver pubblici e i software DNS si coordinarono per correggerlo prima dell'annuncio.",
+    "prayer": "O San KeyTrap, che fai provare ogni chiave in ogni serratura, insegna ai nostri resolver a sapere quando smettere. Amen.",
+    "feast": "Si festeggia aggiornando BIND, Unbound, PowerDNS e compagnia alle versioni che pongono un limite ai tentativi.",
+    "proverb": "Chi prova tutte le chiavi, non apre più nessuna porta."
+  },
+  "en": {
+    "title": "Saint KeyTrap, Who Jammed the Resolvers",
+    "patronage": "DNSSEC resolvers, keys that never end, and standards written with too much zeal.",
+    "hagiography": "In February 2024 researchers at ATHENE, the German national cybersecurity research centre, revealed that DNSSEC's own rules told resolvers to try every combination of a zone's keys and signatures. A response built with many keys and many signatures was enough to keep a resolver busy for hours. The flaw had been in the standard for about twenty-five years; the big public resolvers and DNS software vendors coordinated a fix before the announcement.",
+    "prayer": "O Saint KeyTrap, who makes us try every key in every lock, teach our resolvers when to stop. Amen.",
+    "feast": "Celebrated by updating BIND, Unbound, PowerDNS and friends to versions that cap the attempts.",
+    "proverb": "Try every key, and you'll never open a door."
+  }
+}

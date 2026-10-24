@@ -1,0 +1,10 @@
+{
+  "label": "Zombie Certificates",
+  "motto": "REVOCATUS SED VIVUS",
+  "niche": [
+    "#16261a",
+    "#2f4d33"
+  ],
+  "accent": "#24402a",
+  "emblem": "<rect x=\"110\" y=\"128\" width=\"80\" height=\"100\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M120 146 H180 M120 158 H180 M120 170 H166\" stroke=\"#7a6656\" stroke-width=\"2\"/>\n<g transform=\"rotate(-18 150 196)\"><rect x=\"118\" y=\"182\" width=\"64\" height=\"24\" rx=\"3\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"200\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#c0392b\">R.I.P.</text></g>\n<circle cx=\"176\" cy=\"226\" r=\"11\" fill=\"#c0392b\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M170 236 l-4 12 l8 -5 l4 8 l2 -13\" fill=\"#c0392b\"/>\n<path d=\"M96 250 q8 -18 10 -30 q2 -8 6 -4 l2 8 l4 -10 q4 -4 5 2 l-1 10 l5 -8 q4 -2 4 4 l-6 28 z\" fill=\"#8fbf7f\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>"
+}

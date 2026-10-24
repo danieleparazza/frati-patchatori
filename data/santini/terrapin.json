@@ -1,0 +1,10 @@
+{
+  "label": "Terrapin",
+  "motto": "INITIUM TRUNCATUM",
+  "niche": [
+    "#1d3326",
+    "#30624a"
+  ],
+  "accent": "#224535",
+  "emblem": "<ellipse cx=\"150\" cy=\"190\" rx=\"44\" ry=\"34\" fill=\"#4a7a4f\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"1.5\"><path d=\"M150 156 V224 M110 182 q40 -16 80 0 M108 198 q42 16 84 0\"/><path d=\"M128 160 l-8 18 M172 160 l8 18 M126 220 l-6 -16 M174 220 l6 -16\"/></g>\n<ellipse cx=\"192\" cy=\"178\" rx=\"12\" ry=\"9\" fill=\"#4a7a4f\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"196\" cy=\"176\" r=\"2\" fill=\"#2b1d14\"/>\n<g fill=\"#d9ad55\"><rect x=\"110\" y=\"238\" width=\"8\" height=\"8\"/><rect x=\"122\" y=\"238\" width=\"8\" height=\"8\"/></g>\n<path d=\"M134 238 h40\" stroke=\"#c0392b\" stroke-width=\"2.5\" stroke-dasharray=\"4 4\"/>"
+}

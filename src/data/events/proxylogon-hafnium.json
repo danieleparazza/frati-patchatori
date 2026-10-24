@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di ProxyLogon",
+    "chronicle": "Il 2 marzo 2021 Microsoft pubblicò patch d'emergenza per quattro vulnerabilità zero-day di Exchange Server, che il gruppo HAFNIUM, basato in Cina, stava usando per installare web shell sui server di posta. Appena le patch uscirono, molti altri gruppi si gettarono sulla preda, e decine di migliaia di server Exchange in sede furono compromessi in tutto il mondo. Ad aprile l'FBI rimosse, su ordine di un tribunale, le web shell rimaste su centinaia di server statunitensi.",
+    "lesson": "Mostrò che tra una patch d'emergenza e lo sfruttamento di massa possono passare ore, e che un server di posta in sede è un bersaglio di prima scelta.",
+    "prayer": "O Exchange, che scambiavi posta e anche web shell, accorcia le nostre finestre di manutenzione e allunga la pazienza degli amministratori. Amen.",
+    "remembrance": "Si ricorda installando le patch d'emergenza il giorno stesso, cercando web shell anche dopo aver aggiornato e chiedendosi se il server di posta debba davvero stare in sala macchine."
+  },
+  "en": {
+    "title": "The Scourge of ProxyLogon",
+    "chronicle": "On 2 March 2021 Microsoft released emergency patches for four Exchange Server zero-days that the China-based HAFNIUM group was using to plant web shells on mail servers. As soon as the patches were out, many other groups pounced, and tens of thousands of on-premises Exchange servers were compromised worldwide. In April the FBI removed, under court order, web shells left on hundreds of US servers.",
+    "lesson": "It showed that the gap between an emergency patch and mass exploitation can be hours, and that an on-premises mail server is a prime target.",
+    "prayer": "O Exchange, who exchanged mail and web shells alike, shorten our maintenance windows and lengthen our administrators' patience. Amen.",
+    "remembrance": "Remembered by installing emergency patches the same day, hunting for web shells even after updating, and asking whether the mail server really needs to live in the server room."
+  }
+}

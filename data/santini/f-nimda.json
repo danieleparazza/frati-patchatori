@@ -1,0 +1,11 @@
+{
+  "label": "Nimda",
+  "motto": "ADMIN RETRORSUM",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<text x=\"150\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"40\" fill=\"#fbf3dd\" >admin</text>\n<line x1=\"104\" y1=\"184\" x2=\"196\" y2=\"184\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"40\" fill=\"#d9ad55\" transform=\"rotate(180 150 196)\">admin</text>\n<g fill=\"#bfc9d1\"><circle cx=\"110\" cy=\"236\" r=\"5\"/><circle cx=\"130\" cy=\"236\" r=\"5\"/><circle cx=\"150\" cy=\"236\" r=\"5\"/><circle cx=\"170\" cy=\"236\" r=\"5\"/><circle cx=\"190\" cy=\"236\" r=\"5\"/></g>"
+}

@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "La rovina di Knight Capital",
+    "chronicle": "Il 1° agosto 2012, all'apertura della Borsa di New York, Knight Capital mise in funzione un nuovo software di trading. Su uno degli otto server la nuova versione non era stata installata, e un vecchio flag riutilizzato risvegliò un codice dormiente chiamato 'Power Peg'. In circa 45 minuti partirono milioni di ordini sbagliati e la società perse circa 440 milioni di dollari (la SEC parlò poi di oltre 460), arrivando sull'orlo del fallimento. Nessun attaccante: solo un rilascio fatto male.",
+    "lesson": "La SEC sanzionò Knight per l'assenza di controlli adeguati, e l'episodio diventò il racconto preferito di chi difende rilasci automatizzati, verificati e reversibili, e la pulizia del codice morto.",
+    "prayer": "O Power Peg, codice sepolto e mai cancellato, riposa in pace nella cronologia di git e non risvegliarti più per un flag riciclato. Amen.",
+    "remembrance": "Si ricorda automatizzando i rilasci, verificando che tutti i server abbiano la stessa versione, cancellando il codice morto e tenendo a portata di mano un interruttore d'emergenza."
+  },
+  "en": {
+    "title": "The Downfall of Knight Capital",
+    "chronicle": "On 1 August 2012, at the New York Stock Exchange open, Knight Capital switched on new trading software. On one of its eight servers the new version had not been installed, and a repurposed old flag woke dormant code called 'Power Peg'. In about 45 minutes millions of erroneous orders went out and the firm lost about $440 million (the SEC later put it at more than $460 million), bringing it to the brink of collapse. No attacker: just a botched deployment.",
+    "lesson": "The SEC fined Knight for lacking adequate controls, and the episode became the favourite story of everyone who argues for automated, verified, reversible deployments and for deleting dead code.",
+    "prayer": "O Power Peg, code buried but never deleted, rest in peace in the git history and never again awaken to a recycled flag. Amen.",
+    "remembrance": "Remembered by automating deployments, checking that every server runs the same version, deleting dead code and keeping a kill switch within reach."
+  }
+}

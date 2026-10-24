@@ -1,0 +1,10 @@
+{
+  "label": "LCDPwn",
+  "motto": "VICINUS FALLAX",
+  "niche": [
+    "#1a2e2a",
+    "#305a52"
+  ],
+  "accent": "#234038",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"60\" rx=\"4\" fill=\"#2f2f2f\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<g fill=\"#7bed9f\"><rect x=\"120\" y=\"160\" width=\"12\" height=\"6\"/><rect x=\"138\" y=\"160\" width=\"12\" height=\"6\"/><rect x=\"156\" y=\"160\" width=\"12\" height=\"6\"/><rect x=\"120\" y=\"172\" width=\"12\" height=\"6\"/><rect x=\"138\" y=\"172\" width=\"12\" height=\"6\"/></g>\n<g fill=\"#d9ad55\"><rect x=\"118\" y=\"196\" width=\"8\" height=\"8\"/><rect x=\"132\" y=\"196\" width=\"8\" height=\"8\"/><rect x=\"146\" y=\"196\" width=\"8\" height=\"8\"/><rect x=\"160\" y=\"196\" width=\"8\" height=\"8\"/><rect x=\"174\" y=\"196\" width=\"8\" height=\"8\"/></g>\n<path d=\"M150 210 V228\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g stroke=\"#5dade2\" stroke-width=\"2\" fill=\"none\"><path d=\"M150 228 H118 V240\"/><path d=\"M150 228 H182 V240\"/><path d=\"M150 228 V240\"/></g>\n<g fill=\"#5dade2\"><circle cx=\"118\" cy=\"242\" r=\"4\"/><circle cx=\"150\" cy=\"242\" r=\"4\"/><circle cx=\"182\" cy=\"242\" r=\"4\"/></g>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Kr00k",
+  "motto": "CLAVIS NIHILI",
+  "niche": [
+    "#152f3a",
+    "#24566b"
+  ],
+  "accent": "#1b4152",
+  "emblem": "<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\" stroke-linecap=\"round\"><path d=\"M118 152 a46 46 0 0 1 64 0\"/><path d=\"M128 164 a30 30 0 0 1 44 0\"/><path d=\"M138 176 a14 14 0 0 1 24 0\"/></g>\n<circle cx=\"150\" cy=\"186\" r=\"5\" fill=\"#fbf3dd\"/>\n<circle cx=\"124\" cy=\"222\" r=\"14\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"5\"/>\n<path d=\"M138 222 H196 M180 222 V234 M192 222 V232\" stroke=\"#d9ad55\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<text x=\"166\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">0000</text>"
+}

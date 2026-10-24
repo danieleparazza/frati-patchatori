@@ -1,0 +1,11 @@
+{
+  "label": "Log4Shell",
+  "motto": "LOG ERGO EXSEQUOR",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"104\" y=\"146\" width=\"92\" height=\"64\" rx=\"4\" fill=\"#1a1a1a\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"174\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"17\" fill=\"#d9ad55\" >${jndi:</text>\n<text x=\"150\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#d9ad55\" >ldap://…}</text>\n<path d=\"M122 222 C130 214 140 230 150 222 C160 214 170 230 178 222\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<path d=\"M140 236 C146 228 154 228 160 236\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+}

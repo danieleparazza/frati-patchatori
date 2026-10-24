@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BadWinmail, che bastava aprire",
+    "patronage": "di chi legge la posta in anteprima, dei winmail.dat e degli oggetti OLE invitati senza invito.",
+    "hagiography": "Nel dicembre 2015 il ricercatore Haifei Li descrisse BadWinmail: un'email in formato TNEF, il famigerato winmail.dat di Outlook, poteva contenere un oggetto OLE che veniva reso automaticamente. Impacchettandoci un exploit Flash, bastava che la vittima aprisse o visualizzasse in anteprima il messaggio perché il codice girasse dentro outlook.exe, privo del sandbox di Office. Microsoft lo corresse come CVE-2015-6172.",
+    "prayer": "O San BadWinmail, che arrivi come allegato e ti rendi da solo, fa' che la nostra posta mostri testo e non esegua oggetti. Amen.",
+    "feast": "Si festeggia installando l'aggiornamento di Office del dicembre 2015 e diffidando di ogni winmail.dat che non si sa aprire.",
+    "proverb": "Email aperta in anteprima, sorpresa già a casa."
+  },
+  "en": {
+    "title": "Saint BadWinmail, Whom You Only Had to Open",
+    "patronage": "people who read mail in the preview pane, winmail.dat files, and OLE objects invited without an invitation.",
+    "hagiography": "In December 2015 the researcher Haifei Li described BadWinmail: an email in TNEF format, Outlook's infamous winmail.dat, could carry an OLE object that was rendered automatically. Packing a Flash exploit inside it, the victim only had to open or preview the message for the code to run inside outlook.exe, which lacks Office's sandbox. Microsoft fixed it as CVE-2015-6172.",
+    "prayer": "O Saint BadWinmail, who arrives as an attachment and renders yourself, let our mail show text and run no objects. Amen.",
+    "feast": "Celebrated by installing the December 2015 Office update and distrusting every winmail.dat you can't quite open.",
+    "proverb": "An email opened in preview brings the surprise home already."
+  }
+}

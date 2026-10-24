@@ -1,0 +1,10 @@
+{
+  "label": "Follina 2",
+  "motto": "APERI ET EXEQUERE",
+  "niche": [
+    "#2a1810",
+    "#563018"
+  ],
+  "accent": "#402210",
+  "emblem": "<path d=\"M122 134 H162 L182 154 V228 H122 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M162 134 V154 H182 Z\" fill=\"#bfc9d1\"/>\n<path d=\"M132 172 H172 M132 184 H172 M132 196 H160\" stroke=\"#9a8a6a\" stroke-width=\"2.5\"/>\n<rect x=\"150\" y=\"190\" width=\"40\" height=\"30\" rx=\"2\" fill=\"#2b1d14\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<text x=\"170\" y=\"211\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#58d68d\">&gt;_</text>\n<text x=\"150\" y=\"152\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#9a8a6a\">2</text>"
+}

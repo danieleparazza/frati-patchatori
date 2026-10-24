@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'Januscape, che guardava da due facce fuori dalla VM",
+    "patronage": "degli hypervisor KVM su x86, della paginazione ombra e dei ruoli assegnati per sbaglio.",
+    "hagiography": "Nel luglio 2026 Hyunwoo Kim (v4bel) rivelò Januscape (CVE-2026-53359), un use-after-free nella paginazione ombra di KVM/x86. Un ruolo inatteso assegnato a una pagina della MMU faceva saltare l'invariante tra le GFN memorizzate e quelle calcolate, lasciando una falla già vista in parte da patch precedenti. Un ospite poteva far crollare il kernel dell'host, trascinando le altre VM, o puntare all'esecuzione come root; dove /dev/kvm è scrivibile da tutti, diventava anche scalata locale.",
+    "prayer": "O Sant'Januscape, che guardi dentro e fuori la macchina virtuale con due volti, fa' che i nostri ruoli combacino sempre con ciò che rappresentano. Amen.",
+    "feast": "Si festeggia aggiornando il kernel degli host KVM x86 e verificando che /dev/kvm non sia alla portata di chiunque.",
+    "proverb": "Chi ha due facce, scavalca ogni muro."
+  },
+  "en": {
+    "title": "Saint Januscape, Who Looked Two Ways Out of the VM",
+    "patronage": "KVM hypervisors on x86, shadow paging, and roles assigned by mistake.",
+    "hagiography": "In July 2026 Hyunwoo Kim (v4bel) revealed Januscape (CVE-2026-53359), a use-after-free in KVM/x86 shadow paging. An unexpected role assigned to an MMU page broke the invariant between stored and computed GFNs, leaving a hole only partly closed by earlier patches. A guest could crash the host kernel, dragging down the other VMs, or aim for execution as root; where /dev/kvm is world-writable, it became local escalation too.",
+    "prayer": "O Saint Januscape, who looks inside and outside the virtual machine with two faces, let our roles always match what they represent. Amen.",
+    "feast": "Celebrated by updating the kernel on x86 KVM hosts and checking that /dev/kvm is not within everyone's reach.",
+    "proverb": "Who has two faces climbs over every wall."
+  }
+}

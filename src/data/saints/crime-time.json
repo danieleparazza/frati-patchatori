@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CRIME/TIME, che pesava i segreti compressi",
+    "patronage": "della compressione TLS, degli header che si accorciano e di chi comprime prima di cifrare.",
+    "hagiography": "Il 21 settembre 2012 Juliano Rizzo e Thai Duong presentarono CRIME, un attacco contro la compressione di TLS. Poiché comprimere dati simili li accorcia, misurando la lunghezza del traffico cifrato un attaccante poteva indovinare, un pezzo alla volta, segreti come i cookie di sessione. La variante TIME portò l'idea nei tempi di risposta, senza bisogno di spiare la rete.",
+    "prayer": "O San CRIME/TIME, che leggi i segreti dalla lunghezza di ciò che non vedi, fa' che non comprimiamo mai insieme ciò che è segreto e ciò che è dell'attaccante. Amen.",
+    "feast": "Si festeggia disattivando la compressione TLS e separando i dati segreti da quelli controllati dall'utente.",
+    "proverb": "Comprimi col segreto, e il segreto si misura."
+  },
+  "en": {
+    "title": "Saint CRIME/TIME, Who Weighed Compressed Secrets",
+    "patronage": "TLS compression, headers that shrink, and everyone who compresses before encrypting.",
+    "hagiography": "On 21 September 2012 Juliano Rizzo and Thai Duong presented CRIME, an attack on TLS compression. Because compressing similar data shortens it, by measuring the length of the encrypted traffic an attacker could guess, a piece at a time, secrets such as session cookies. The TIME variant carried the idea into response timing, with no need to spy on the network.",
+    "prayer": "O Saint CRIME/TIME, who read secrets from the length of what you cannot see, let us never compress together what is secret and what belongs to the attacker. Amen.",
+    "feast": "Celebrated by disabling TLS compression and separating secret data from user-controlled data.",
+    "proverb": "Compress with the secret, and the secret can be measured."
+  }
+}

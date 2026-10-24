@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TETRA:BURST, che ascoltò le radio di emergenza",
+    "patronage": "delle radio TETRA, delle forze di soccorso e degli algoritmi tenuti nascosti troppo a lungo.",
+    "hagiography": "Nel 2023 i ricercatori di Midnight Blue rivelarono TETRA:BURST, un gruppo di falle nello standard radio TETRA usato da polizia, soccorsi e infrastrutture critiche. Una (CVE-2022-24401) permetteva di decifrare le comunicazioni, un'altra conteneva una porta nel cifrario stesso. Gli algoritmi erano rimasti segreti per decenni, e proprio quella segretezza aveva nascosto i difetti invece di proteggerli.",
+    "prayer": "O San TETRA:BURST, che ascolti le radio di chi ci soccorre, insegnaci che la sicurezza nasce dall'esame, non dal segreto. Amen.",
+    "feast": "Si festeggia applicando gli aggiornamenti dei produttori di radio, aggiungendo cifratura end-to-end dove serve e preferendo algoritmi pubblici e rivisti.",
+    "proverb": "Cifrario segreto, difetto nascosto."
+  },
+  "en": {
+    "title": "Saint TETRA:BURST, Who Listened to the Emergency Radios",
+    "patronage": "TETRA radios, emergency services, and algorithms kept secret far too long.",
+    "hagiography": "In 2023 researchers at Midnight Blue revealed TETRA:BURST, a set of flaws in the TETRA radio standard used by police, emergency services and critical infrastructure. One (CVE-2022-24401) allowed decrypting the communications, another held a backdoor in the cipher itself. The algorithms had stayed secret for decades, and that very secrecy had hidden the flaws rather than protected them.",
+    "prayer": "O Saint TETRA:BURST, who listens to the radios of those who come to our aid, teach us that security is born of scrutiny, not of secrecy. Amen.",
+    "feast": "Celebrated by applying the radio makers' updates, adding end-to-end encryption where needed, and preferring public, reviewed algorithms.",
+    "proverb": "A secret cipher, a hidden flaw."
+  }
+}

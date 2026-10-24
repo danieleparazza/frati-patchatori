@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il giorno in cui Facebook sparì",
+    "chronicle": "Il 4 ottobre 2021, verso le 15:40 UTC, un comando di manutenzione pensato per valutare la capacità della rete dorsale scollegò per errore tutti i data center di Facebook, e uno strumento di verifica, per colpa di un bug, non lo bloccò. I server DNS di Facebook, non vedendo più i data center, ritirarono i propri annunci BGP: Facebook, Instagram e WhatsApp scomparvero da Internet per circa sei ore. Gli ingegneri dovettero raggiungere fisicamente i router, rallentati dalle stesse misure di sicurezza pensate per proteggerli. Nessun attaccante.",
+    "lesson": "Mostrò il rischio di far dipendere dalla stessa rete anche gli strumenti per ripararla, e quanto miliardi di persone dipendano da un solo gruppo di servizi per comunicare.",
+    "prayer": "O BGP, protocollo della fiducia reciproca, non ritirare le nostre rotte senza un buon motivo, e fa' che le chiavi della sala macchine non stiano dentro la sala macchine. Amen.",
+    "remembrance": "Si ricorda tenendo canali di accesso fuori banda, verificando gli strumenti di controllo dei comandi e provando cosa succede quando la propria rete sparisce."
+  },
+  "en": {
+    "title": "The Day Facebook Vanished",
+    "chronicle": "On 4 October 2021, at about 15:40 UTC, a maintenance command meant to assess backbone capacity accidentally disconnected all of Facebook's data centres, and an audit tool, because of a bug, failed to stop it. Facebook's DNS servers, no longer able to see the data centres, withdrew their BGP announcements: Facebook, Instagram and WhatsApp disappeared from the Internet for about six hours. Engineers had to reach the routers physically, slowed by the very security measures designed to protect them. No attacker.",
+    "lesson": "It showed the danger of making the tools that fix a network depend on that same network, and how many billions of people rely on a single group of services to communicate.",
+    "prayer": "O BGP, protocol of mutual trust, do not withdraw our routes without good reason, and let the keys to the server room never be kept inside the server room. Amen.",
+    "remembrance": "Remembered by keeping out-of-band access channels, testing the tools that audit commands and rehearsing what happens when your own network disappears."
+  }
+}

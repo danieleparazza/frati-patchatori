@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ESXicape, che fuggiva dalla macchina",
+    "patronage": "degli hypervisor, delle macchine virtuali che vogliono uscire e degli amministratori chiamati in piena notte.",
+    "hagiography": "Il 5 marzo 2025 Broadcom avvisò i clienti VMware di tre vulnerabilità in ESXi, già sfruttate dagli attaccanti e battezzate ESXicape. Partendo da una sola macchina virtuale compromessa, dove l'ospite aveva già privilegi elevati, un attaccante poteva evadere verso l'hypervisor e, da lì, mettere le mani su tutte le altre macchine dello stesso host.",
+    "prayer": "O Beato ESXicape, che scavalchi il muro tra ospite e host, fa' che le nostre macchine virtuali restino ciascuna in casa propria. Amen.",
+    "feast": "Si festeggia applicando subito le patch d'emergenza di Broadcom e trattando ogni macchina virtuale come potenzialmente ostile.",
+    "proverb": "Un ospite che evade, mette a rischio l'intero palazzo."
+  },
+  "en": {
+    "title": "Blessed ESXicape, Who Escaped the Machine",
+    "patronage": "hypervisors, virtual machines that want out, and admins called in the dead of night.",
+    "hagiography": "On 5 March 2025 Broadcom warned VMware customers of three vulnerabilities in ESXi, already exploited by attackers and nicknamed ESXicape. Starting from a single compromised virtual machine, where the guest already had elevated privileges, an attacker could break out to the hypervisor and, from there, get their hands on every other machine on the same host.",
+    "prayer": "O Blessed ESXicape, who climbs the wall between guest and host, let our virtual machines each stay in their own home. Amen.",
+    "feast": "Celebrated by applying Broadcom's emergency patches at once and treating every virtual machine as potentially hostile.",
+    "proverb": "One guest that escapes puts the whole building at risk."
+  }
+}

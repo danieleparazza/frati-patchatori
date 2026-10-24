@@ -1,0 +1,10 @@
+{
+  "label": "RISK:STATION",
+  "motto": "IMAGO FIT IMPERIUM",
+  "niche": [
+    "#1a2a1e",
+    "#345436"
+  ],
+  "accent": "#244a2c",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"64\" rx=\"6\" fill=\"#1e272e\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"122\" y=\"160\" width=\"56\" height=\"34\" rx=\"2\" fill=\"#2c3e50\"/>\n<circle cx=\"140\" cy=\"172\" r=\"5\" fill=\"#f1c40f\"/><path d=\"M124 190 l14 -14 l10 10 l12 -16 l16 20 z\" fill=\"#5dade2\"/>\n<g fill=\"#27ae60\"><circle cx=\"124\" cy=\"204\" r=\"3\"/><circle cx=\"134\" cy=\"204\" r=\"3\"/></g>\n<text x=\"168\" y=\"208\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#e74c3c\">&gt;_</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "BTR",
+  "motto": "SALTUS REDIVIVUS",
+  "niche": [
+    "#1c2436",
+    "#3a4a66"
+  ],
+  "accent": "#273448",
+  "emblem": "<circle cx=\"150\" cy=\"176\" r=\"10\" fill=\"#d9ad55\"/>\n<path d=\"M150 176 L112 136\" stroke=\"#2ecc71\" stroke-width=\"4\" fill=\"none\"/><circle cx=\"112\" cy=\"136\" r=\"8\" fill=\"none\" stroke=\"#2ecc71\" stroke-width=\"3\"/>\n<path d=\"M150 176 L188 136\" stroke=\"#b03a2e\" stroke-width=\"4\" stroke-dasharray=\"5 4\" fill=\"none\"/><circle cx=\"188\" cy=\"136\" r=\"8\" fill=\"none\" stroke=\"#b03a2e\" stroke-width=\"3\"/>\n<path d=\"M150 176 L150 220\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M140 212 L150 224 L160 212\" stroke=\"#bfc9d1\" stroke-width=\"3\" fill=\"none\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#bfc9d1\">JIT reuse</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Plundervolt",
+  "motto": "MINUS VOLT, PLUS FURTUM",
+  "niche": [
+    "#2b1d0e",
+    "#5c3d16"
+  ],
+  "accent": "#4a3010",
+  "emblem": "<path d=\"M158 120 L120 186 H146 L134 244 L182 168 H154 L170 120 Z\" fill=\"#f1c40f\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M190 140 V196 M180 184 L190 198 L200 184\" stroke=\"#fbf3dd\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>\n<text x=\"106\" y=\"148\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\">V</text>"
+}

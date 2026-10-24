@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello degli archivi federali",
+    "chronicle": "Il 4 giugno 2015 l'Office of Personnel Management, l'ufficio che gestisce il personale civile del governo statunitense, annunciò un'intrusione scoperta ad aprile che aveva esposto i dati di circa 4,2 milioni di dipendenti federali. Poco dopo si scoprì un'intrusione collegata negli archivi dei controlli di sicurezza: riguardava 21,5 milioni di persone, con 5,6 milioni di impronte digitali. Erano i dossier con cui si concedono le autorizzazioni di sicurezza, pieni di dettagli sulla vita privata dei richiedenti.",
+    "lesson": "Insegnò che alcuni dati non si possono \"cambiare\" come una password, e spinse il governo federale verso cifratura, MFA e una modernizzazione dei sistemi a lungo rimandata.",
+    "prayer": "O archivio senza fondo, custode di impronte che non si possono revocare, ispira chi conserva dati per sempre a proteggerli come se fosse per sempre. Amen.",
+    "remembrance": "Si ricorda cifrando i dati sensibili a riposo, chiedendo l'MFA agli amministratori e conservando solo ciò che serve davvero."
+  },
+  "en": {
+    "title": "The Scourge of the Federal Files",
+    "chronicle": "On 4 June 2015 the Office of Personnel Management, which runs the US government's civilian workforce, announced an intrusion discovered in April that had exposed records of about 4.2 million federal employees. A related intrusion into background-investigation files soon came to light: it affected 21.5 million people, including 5.6 million sets of fingerprints. These were the dossiers used to grant security clearances, full of details about applicants' private lives.",
+    "lesson": "It taught that some data cannot be \"changed\" like a password, and pushed the federal government towards encryption, MFA and long-postponed modernisation.",
+    "prayer": "O bottomless archive, keeper of fingerprints that can never be revoked, inspire those who store data forever to protect it as though it were forever. Amen.",
+    "remembrance": "Remembered by encrypting sensitive data at rest, requiring MFA for administrators and keeping only what is truly needed."
+  }
+}

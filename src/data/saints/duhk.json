@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DUHK, che indovinò la chiave usa e getta",
+    "patronage": "dei generatori pseudocasuali con la chiave scritta nel firmware, delle VPN FortiGate e dei segreti che non erano segreti.",
+    "hagiography": "Il 23 ottobre 2017 Shaanan Cohney, Nadia Heninger e Matthew Green mostrarono DUHK: alcuni dispositivi, tra cui i FortiGate di Fortinet, usavano il vecchio generatore ANSI X9.31 con una chiave fissa, cablata nel firmware e uguale per tutti. Chi la conosceva poteva prevedere i numeri «casuali» e decifrare il traffico VPN e TLS protetto da quei dispositivi. Il nome, «Don't Use Hard-coded Keys», era anche la morale.",
+    "prayer": "O San DUHK, che indovini i dadi perché li hai già visti, fa' che le nostre chiavi non nascano dentro il firmware. Amen.",
+    "feast": "Si festeggia aggiornando il firmware FortiOS e abbandonando i generatori casuali con chiavi cablate, ovunque si annidino.",
+    "proverb": "Chiave scritta nel codice è chiave di tutti."
+  },
+  "en": {
+    "title": "Saint DUHK, Who Guessed the Throwaway Key",
+    "patronage": "pseudo-random generators with the key baked into the firmware, FortiGate VPNs, and secrets that were never secret.",
+    "hagiography": "On 23 October 2017 Shaanan Cohney, Nadia Heninger and Matthew Green revealed DUHK: some devices, Fortinet's FortiGates among them, used the old ANSI X9.31 generator with a fixed key, hard-coded into the firmware and identical for everyone. Whoever knew it could predict the \"random\" numbers and decrypt the VPN and TLS traffic those devices protected. The name, \"Don't Use Hard-coded Keys\", was also the moral.",
+    "prayer": "O Saint DUHK, who guesses the dice because you have already seen them, let our keys not be born inside the firmware. Amen.",
+    "feast": "Celebrated by updating FortiOS firmware and abandoning random generators with hard-coded keys, wherever they lurk.",
+    "proverb": "A key written in the code is everyone's key."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SamFAIL, che aprì i Galaxy Note 8",
+    "patronage": "dei bootloader che non controllano, dei forum XDA e di chi voleva solo un po' di root sul telefono nuovo.",
+    "hagiography": "Nell'ottobre 2017, poche settimane dopo l'uscita, l'utente me2151 di XDA pubblicò un metodo per ottenere root sui Galaxy Note 8 con processore Snapdragon, considerati fino ad allora inespugnabili. Il bootloader del chip Qualcomm MSM8998 non verificava l'integrità dell'immagine di sistema, che si poteva sostituire con una modificata e avviare con privilegi di root. Samsung lo corresse nel bollettino di novembre; il nome, SamFAIL, aveva già detto tutto.",
+    "prayer": "O San SamFAIL, che apristi ciò che doveva restare sigillato, fa' che i nostri bootloader controllino ciò che avviano. Amen.",
+    "feast": "Si festeggia installando l'aggiornamento di sicurezza Samsung di novembre 2017, o rinunciando al root con dignità.",
+    "proverb": "Chi non controlla ciò che avvia, avvia ciò che non controlla."
+  },
+  "en": {
+    "title": "Saint SamFAIL, Who Opened the Galaxy Note 8",
+    "patronage": "bootloaders that don't check, the XDA forums, and people who just wanted a little root on their new phone.",
+    "hagiography": "In October 2017, a few weeks after launch, XDA user me2151 published a way to root Snapdragon-based Galaxy Note 8 phones, until then considered impregnable. The bootloader for the Qualcomm MSM8998 chip did not verify the integrity of the system image, which could be swapped for a modified one and booted with root privileges. Samsung fixed it in the November bulletin; the name, SamFAIL, had already said it all.",
+    "prayer": "O Saint SamFAIL, who opened what should have stayed sealed, let our bootloaders check what they boot. Amen.",
+    "feast": "Celebrated by installing the November 2017 Samsung security update, or by giving up on root with dignity.",
+    "proverb": "If you don't check what you boot, someone else picks it for you."
+  }
+}

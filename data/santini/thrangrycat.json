@@ -1,0 +1,10 @@
+{
+  "label": "Thrangrycat",
+  "motto": "FELIS IRATA REGNAT",
+  "niche": [
+    "#2a1414",
+    "#54211f"
+  ],
+  "accent": "#5c1f1a",
+  "emblem": "<path d=\"M110 158 l16 14 q24 -10 48 0 l16 -14 l-4 30 a40 34 0 0 1 -88 0 z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M110 158 l6 22 M190 158 l-6 22\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M128 182 l16 6 M172 182 l-16 6\" stroke=\"#2b1d14\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<path d=\"M130 184 l12 2 M170 184 l-12 2\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M144 200 l6 6 l6 -6 z\" fill=\"#c0392b\"/>\n<g stroke=\"#2b1d14\" stroke-width=\"1.5\"><path d=\"M114 200 l-18 -4 M114 206 l-18 4 M186 200 l18 -4 M186 206 l18 4\"/></g>\n<path d=\"M136 216 q14 8 28 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>"
+}

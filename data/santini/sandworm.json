@@ -1,0 +1,10 @@
+{
+  "label": "Sandworm",
+  "motto": "VERMIS ARENAE",
+  "niche": [
+    "#3d2a12",
+    "#7a5526"
+  ],
+  "accent": "#6b4417",
+  "emblem": "<path d=\"M126 238 Q120 180 150 140 Q170 120 186 136\" fill=\"none\" stroke=\"#c8a165\" stroke-width=\"30\" stroke-linecap=\"round\"/>\n<path d=\"M126 238 Q120 180 150 140 Q170 120 186 136\" fill=\"none\" stroke=\"#a07a45\" stroke-width=\"30\" stroke-dasharray=\"3 9\"/>\n<circle cx=\"188\" cy=\"136\" r=\"18\" fill=\"#2b1d14\" stroke=\"#c8a165\" stroke-width=\"4\"/>\n<g fill=\"#fbf3dd\"><path d=\"M176 126 l5 5 l-1 -7 z\"/><path d=\"M188 120 l2 6 l3 -6 z\"/><path d=\"M200 128 l-6 4 l7 1 z\"/><path d=\"M198 146 l-5 -4 l1 7 z\"/><path d=\"M180 148 l5 -4 l-6 -1 z\"/></g>\n<path d=\"M92 246 Q120 226 150 240 T208 236 V250 H92 Z\" fill=\"#e0c088\"/>"
+}

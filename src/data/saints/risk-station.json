@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RISK:STATION, che comandava il NAS di famiglia",
+    "patronage": "dei NAS pieni di foto, delle app di gestione fotografie e di chi espone il disco di casa su Internet.",
+    "hagiography": "Il 1° novembre 2024 Midnight Blue rivelò RISK:STATION, un'iniezione di comandi di sistema nelle app Synology Photos e BeePhotos, i gestori di fotografie dei NAS Synology. Un attaccante remoto poteva eseguire comandi arbitrari senza autenticarsi, prendendo il controllo del dispositivo e di tutte le foto conservate. I ricercatori la portarono alla competizione Pwn2Own; il CVSS toccò 9.8, e migliaia di NAS erano raggiungibili da Internet.",
+    "prayer": "O San RISK:STATION, che entri dall'album di famiglia, fa' che i nostri NAS non si affaccino sull'intera Internet. Amen.",
+    "feast": "Si festeggia aggiornando Synology Photos e BeePhotos e togliendo il NAS dalla rete pubblica, lasciandolo parlare solo in casa.",
+    "proverb": "Chi mette il disco di casa in piazza ci trova estranei a curiosare."
+  },
+  "en": {
+    "title": "Saint RISK:STATION, Who Commanded the Family NAS",
+    "patronage": "NAS boxes full of photos, photo-management apps, and everyone who exposes the home disk to the Internet.",
+    "hagiography": "On 1 November 2024 Midnight Blue revealed RISK:STATION, an OS command injection in the Synology Photos and BeePhotos apps, the photo managers for Synology NAS devices. A remote attacker could run arbitrary commands without authenticating, taking over the device and every photo stored on it. The researchers brought it to the Pwn2Own contest; the CVSS reached 9.8, and thousands of NAS boxes were reachable from the Internet.",
+    "prayer": "O Saint RISK:STATION, who comes in through the family album, let our NAS boxes not face the whole Internet. Amen.",
+    "feast": "Celebrated by updating Synology Photos and BeePhotos and taking the NAS off the public network, letting it speak only at home.",
+    "proverb": "Put the home disk in the square and strangers come to browse."
+  }
+}

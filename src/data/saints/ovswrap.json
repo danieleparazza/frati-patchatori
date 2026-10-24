@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San OVSwrap, che fece girare la lunghezza",
+    "patronage": "di Open vSwitch, dei campi lunghezza a sedici bit e dei limiti rimossi con troppa fiducia.",
+    "hagiography": "Nel luglio 2026 Asim Manizada rivelò OVSwrap (CVE-2026-64531), un difetto in Open vSwitch nel kernel Linux. Le azioni annidate usano un campo lunghezza a sedici bit: senza un controllo, un'azione troppo grande faceva \"girare\" il contatore, e il parser riprendeva a leggere dentro dati scelti dall'attaccante, fino a letture e scritture nella memoria del kernel e ai privilegi di root. L'assegnazione difettosa esisteva da anni, ma era diventata sfruttabile solo quando nel 2025 fu tolto un vecchio limite.",
+    "prayer": "O San OVSwrap, che fai girare le lunghezze oltre il loro massimo, insegna ai nostri parser a rifiutare ciò che non entra nei loro campi. Amen.",
+    "feast": "Si festeggia aggiornando il kernel alle versioni corrette e, dove non serve, scaricando o bloccando il modulo openvswitch.",
+    "proverb": "Lunghezza che gira, parser che sbaglia."
+  },
+  "en": {
+    "title": "Saint OVSwrap, Who Wrapped the Length Around",
+    "patronage": "Open vSwitch, sixteen-bit length fields, and limits removed with too much trust.",
+    "hagiography": "In July 2026 Asim Manizada revealed OVSwrap (CVE-2026-64531), a flaw in Open vSwitch in the Linux kernel. Nested actions use a sixteen-bit length field: without a check, an oversized action made the counter wrap around, and the parser resumed reading inside attacker-chosen data, leading to kernel memory reads and writes and root privileges. The faulty assignment had existed for years, but became exploitable only when an old limit was removed in 2025.",
+    "prayer": "O Saint OVSwrap, who wraps lengths past their maximum, teach our parsers to reject what does not fit their fields. Amen.",
+    "feast": "Celebrated by updating the kernel to the fixed versions and, where it is not needed, unloading or blocking the openvswitch module.",
+    "proverb": "A length that wraps, a parser that slips."
+  }
+}

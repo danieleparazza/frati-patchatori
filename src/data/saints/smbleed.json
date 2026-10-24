@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SMBleed, fratello sanguinante di SMBGhost",
+    "patronage": "delle condivisioni di rete, della compressione SMBv3 e dei bug che vivono in coppia.",
+    "hagiography": "Il 9 giugno 2020, nel Patch Tuesday di Microsoft, ZecOps rivelò SMBleed (CVE-2020-1206), nella stessa funzione di decompressione di SMBv3 che pochi mesi prima aveva dato SMBGhost. Permetteva di leggere da remoto memoria del kernel non inizializzata; da solo era una perdita, ma unito a SMBGhost diventava esecuzione di codice remota senza autenticazione. Colpiva Windows 10 dalla versione 1903.",
+    "prayer": "O San SMBleed, che sanguini dalla stessa ferita del tuo fratello fantasma, fa' che la nostra compressione azzeri la memoria prima di spedirla. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di giugno 2020, bloccando la porta 445 verso Internet e disattivando la compressione SMBv3 dove non serve.",
+    "proverb": "Dove c'è un fantasma, c'è anche chi sanguina."
+  },
+  "en": {
+    "title": "Saint SMBleed, Bleeding Brother of SMBGhost",
+    "patronage": "network shares, SMBv3 compression, and bugs that come in pairs.",
+    "hagiography": "On 9 June 2020, Microsoft's Patch Tuesday, ZecOps revealed SMBleed (CVE-2020-1206), in the same SMBv3 decompression function that months earlier had given us SMBGhost. It let an attacker read uninitialised kernel memory remotely; on its own it was a leak, but paired with SMBGhost it became unauthenticated remote code execution. It affected Windows 10 from version 1903.",
+    "prayer": "O Saint SMBleed, who bleeds from the same wound as your ghostly brother, let our compression zero its memory before sending it. Amen.",
+    "feast": "Celebrated by installing the June 2020 updates, blocking port 445 from the Internet and disabling SMBv3 compression where it is not needed.",
+    "proverb": "Where there's a ghost, there's a bleeder close by."
+  }
+}

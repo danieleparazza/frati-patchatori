@@ -1,0 +1,10 @@
+{
+  "label": "JASBUG",
+  "motto": "VITIUM IN CONSILIO",
+  "niche": [
+    "#1c2a4a",
+    "#334a7a"
+  ],
+  "accent": "#1c2a4a",
+  "emblem": "<path d=\"M102 132 H186 L198 144 V236 H102 Z\" fill=\"#d6eaf8\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g stroke=\"#2e86c1\" stroke-width=\"1\" opacity=\"0.7\"><path d=\"M102 152 H198 M102 172 H198 M102 192 H198 M102 212 H198 M122 132 V236 M142 132 V236 M162 132 V236 M182 132 V236\"/></g>\n<rect x=\"116\" y=\"150\" width=\"34\" height=\"26\" fill=\"none\" stroke=\"#1c2a4a\" stroke-width=\"2\"/>\n<rect x=\"156\" y=\"190\" width=\"30\" height=\"26\" fill=\"none\" stroke=\"#1c2a4a\" stroke-width=\"2\"/>\n<path d=\"M150 164 H170 V190\" fill=\"none\" stroke=\"#1c2a4a\" stroke-width=\"2\"/>\n<ellipse cx=\"134\" cy=\"208\" rx=\"12\" ry=\"16\" fill=\"#2b1d14\"/>\n<circle cx=\"134\" cy=\"188\" r=\"7\" fill=\"#2b1d14\"/>\n<g stroke=\"#2b1d14\" stroke-width=\"2.5\"><path d=\"M122 200 L110 194 M122 210 H108 M122 218 L110 226 M146 200 L158 194 M146 210 H160 M146 218 L158 226\"/></g>"
+}

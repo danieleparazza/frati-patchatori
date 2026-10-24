@@ -1,0 +1,10 @@
+{
+  "label": "MalDoc in PDF",
+  "motto": "DUPLEX FACIES",
+  "niche": [
+    "#2e2614",
+    "#5a4c28"
+  ],
+  "accent": "#453a1e",
+  "emblem": "<path d=\"M118 126 H164 L182 144 V236 H118 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M164 126 V144 H182\" fill=\"#e8dcc0\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"124\" y=\"196\" width=\"40\" height=\"18\" rx=\"2\" fill=\"#b03a2e\"/>\n<text x=\"144\" y=\"209\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#fbf3dd\">PDF</text>\n<rect x=\"144\" y=\"150\" width=\"44\" height=\"40\" rx=\"3\" fill=\"#2a4b8d\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<text x=\"166\" y=\"178\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\">W</text>"
+}

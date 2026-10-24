@@ -1,0 +1,10 @@
+{
+  "label": "ZippyReads",
+  "motto": "SINE SIGNO WEB",
+  "niche": [
+    "#2a2416",
+    "#54492a"
+  ],
+  "accent": "#4a3d18",
+  "emblem": "<path d=\"M120 128 h44 l16 16 v96 h-60 z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M164 128 v16 h16\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g stroke=\"#2b1d14\" stroke-width=\"2.5\"><rect x=\"134\" y=\"150\" width=\"8\" height=\"8\"/><rect x=\"134\" y=\"166\" width=\"8\" height=\"8\"/><rect x=\"134\" y=\"182\" width=\"8\" height=\"8\"/><rect x=\"134\" y=\"198\" width=\"8\" height=\"8\"/></g>\n<g transform=\"rotate(-18 186 206)\"><rect x=\"160\" y=\"192\" width=\"56\" height=\"26\" rx=\"4\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"3\"/><text x=\"188\" y=\"211\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#c0392b\">MOTW</text><line x1=\"162\" y1=\"218\" x2=\"214\" y2=\"192\" stroke=\"#c0392b\" stroke-width=\"3\"/></g>"
+}

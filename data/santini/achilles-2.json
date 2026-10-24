@@ -1,0 +1,10 @@
+{
+  "label": "Achilles",
+  "motto": "CALX CUSTODIS",
+  "niche": [
+    "#2a1a1a",
+    "#573232"
+  ],
+  "accent": "#3d2222",
+  "emblem": "<path d=\"M150 136 C138 150 140 168 150 182 C160 168 162 150 150 136 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M146 182 C140 196 138 214 146 234 L134 244 L126 240 L140 230 C132 214 134 194 140 182 Z\" fill=\"#e8d9b5\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 136 L150 200\" stroke=\"#d9ad55\" stroke-width=\"2.5\" fill=\"none\"/>\n<path d=\"M164 206 L188 220\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<path d=\"M184 212 L192 216 L188 224 Z\" fill=\"#c0392b\"/>\n<path d=\"M150 136 L158 128 L164 134\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"/>"
+}

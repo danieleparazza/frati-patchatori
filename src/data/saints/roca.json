@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ROCA, ritorno di Coppersmith",
+    "patronage": "delle carte d'identità elettroniche, dei chip TPM Infineon e dei numeri primi troppo prevedibili.",
+    "hagiography": "Il 16 ottobre 2017 i ricercatori dell'Università Masaryk di Brno rivelarono che la libreria RSA dei chip Infineon generava numeri primi con una struttura riconoscibile. Bastava guardare una chiave pubblica per sapere se era vulnerabile, e con il metodo di Coppersmith se ne poteva ricostruire la chiave privata, a un costo alto ma alla portata di chi aveva risorse. Erano colpiti TPM, token e smart card, tra cui circa 750.000 carte d'identità estoni, che dovettero essere aggiornate in fretta.",
+    "prayer": "O San ROCA, che riconosci le chiavi dalla loro forma, fa' che i nostri numeri primi siano scelti davvero a caso. Amen.",
+    "feast": "Si festeggia aggiornando il firmware del TPM, rigenerando le chiavi e controllandole con lo strumento pubblicato dagli scopritori.",
+    "proverb": "Primo che si ripete, primo che si tradisce."
+  },
+  "en": {
+    "title": "Saint ROCA, the Return of Coppersmith",
+    "patronage": "electronic identity cards, Infineon TPM chips, and prime numbers that are too predictable.",
+    "hagiography": "On 16 October 2017 researchers at Masaryk University in Brno revealed that the RSA library in Infineon chips generated primes with a recognisable structure. One look at a public key told you whether it was vulnerable, and Coppersmith's method could rebuild the private key, at a high cost but within reach of anyone with resources. TPMs, tokens and smart cards were affected, including about 750,000 Estonian identity cards, which had to be updated in a hurry.",
+    "prayer": "O Saint ROCA, who recognises keys by their shape, let our primes be chosen truly at random. Amen.",
+    "feast": "Celebrated by updating the TPM firmware, regenerating keys and checking them with the discoverers' tool.",
+    "proverb": "A prime with a pattern gives the game away."
+  }
+}

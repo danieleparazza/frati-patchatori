@@ -1,0 +1,10 @@
+{
+  "label": "PrintNightmare",
+  "motto": "INCUBUS TYPOGRAPHI",
+  "niche": [
+    "#1c1424",
+    "#3c2c50"
+  ],
+  "accent": "#2c2040",
+  "emblem": "<rect x=\"114\" y=\"158\" width=\"72\" height=\"44\" rx=\"5\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"128\" y=\"134\" width=\"44\" height=\"26\" fill=\"#9a8aa6\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<circle cx=\"174\" cy=\"172\" r=\"4\" fill=\"#c0392b\"/>\n<rect x=\"126\" y=\"200\" width=\"48\" height=\"30\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M134 210 H166 M134 218 H160\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"152\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#2b1d14\">SYSTEM</text>"
+}

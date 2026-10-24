@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato PrinterLeak, che faceva parlare la stampante",
+    "patronage": "delle reti isolate, delle stampanti d'ufficio e dei dati che trovano sempre una via d'uscita.",
+    "hagiography": "Nel 2023 il ricercatore Mordechai Guri, noto per i suoi canali nascosti dalle reti isolate, descrisse PrinterLeak: un modo per far trapelare informazioni da sistemi air-gapped sfruttando una comune stampante come canale di fuga. Dove non c'è cavo né rete, resta pur sempre qualcosa che accende una spia o muove un meccanismo: e ogni movimento, osservato con pazienza, racconta un segreto.",
+    "prayer": "O Beato PrinterLeak, che trovi una voce anche dove abbiamo tagliato tutti i fili, insegnaci che l'isolamento non è mai perfetto. Amen.",
+    "feast": "Si festeggia tenendo le stampanti lontane dai sistemi più delicati e ricordando che perfino una periferica innocua può diventare un messaggero.",
+    "proverb": "Rete tagliata, stampante loquace."
+  },
+  "en": {
+    "title": "Blessed PrinterLeak, Who Made the Printer Talk",
+    "patronage": "air-gapped networks, office printers, and data that always finds a way out.",
+    "hagiography": "In 2023 the researcher Mordechai Guri, known for his covert channels out of air-gapped networks, described PrinterLeak: a way to leak information from isolated systems by using a common printer as an escape route. Where there is no cable and no network, there is still something that lights a lamp or moves a mechanism: and every movement, watched patiently, tells a secret.",
+    "prayer": "O Blessed PrinterLeak, who finds a voice even where we have cut every wire, teach us that isolation is never perfect. Amen.",
+    "feast": "Celebrated by keeping printers away from the most sensitive systems and remembering that even a harmless peripheral can become a messenger.",
+    "proverb": "Cut the network, and the printer starts to chat."
+  }
+}

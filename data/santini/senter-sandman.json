@@ -1,0 +1,10 @@
+{
+  "label": "SENTER Sandman",
+  "motto": "DORMIT CUSTOS",
+  "niche": [
+    "#14203a",
+    "#2c3f6b"
+  ],
+  "accent": "#1d2c50",
+  "emblem": "<path d=\"M168 130 A40 40 0 1 0 196 196 A32 32 0 1 1 168 130 Z\" fill=\"#f4e3a1\"/>\n<path d=\"M110 228 Q130 214 150 228 T190 228 L190 236 L110 236 Z\" fill=\"#d9ad55\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"122\" cy=\"206\" r=\"2\"/><circle cx=\"132\" cy=\"196\" r=\"1.6\"/><circle cx=\"118\" cy=\"188\" r=\"1.4\"/><circle cx=\"138\" cy=\"210\" r=\"1.6\"/></g>\n<text x=\"140\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" font-style=\"italic\" fill=\"#fbf3dd\">z</text>\n<text x=\"124\" y=\"156\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" font-style=\"italic\" fill=\"#fbf3dd\">z</text>\n<text x=\"112\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" font-style=\"italic\" fill=\"#fbf3dd\">z</text>"
+}

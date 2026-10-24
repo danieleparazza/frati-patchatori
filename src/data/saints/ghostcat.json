@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Ghostcat, il gatto fantasma di Tomcat",
+    "patronage": "dei connettori AJP lasciati accesi, dei server Java e delle porte che nessuno ricorda di avere aperto.",
+    "hagiography": "Il 20 febbraio 2020 i ricercatori di Chaitin Tech annunciarono la CVE-2020-1938 in Apache Tomcat. Il connettore AJP, acceso di default su tutte le interfacce, si fidava troppo di chi gli parlava: un attaccante poteva leggere i file dell'applicazione web, configurazioni comprese, e in certe condizioni far eseguire codice. Riguardava tutte le versioni maggiori di Tomcat allora diffuse, e finì nel catalogo CISA delle vulnerabilità sfruttate.",
+    "prayer": "O San Ghostcat, che ti aggiri silenzioso sulla porta 8009, fa' che i nostri connettori restino spenti se nessuno li usa. Amen.",
+    "feast": "Si festeggia aggiornando Tomcat a 9.0.31, 8.5.51 o 7.0.100 e disattivando l'AJP, o almeno dandogli un segreto.",
+    "proverb": "Gatto fantasma non miagola, ma la dispensa la svuota."
+  },
+  "en": {
+    "title": "Saint Ghostcat, the Phantom Cat of Tomcat",
+    "patronage": "AJP connectors left switched on, Java servers, and ports nobody remembers opening.",
+    "hagiography": "On 20 February 2020 researchers at Chaitin Tech announced CVE-2020-1938 in Apache Tomcat. The AJP connector, enabled by default on every interface, trusted whoever spoke to it too much: an attacker could read the web application's files, configuration included, and under some conditions get code executed. It hit every major Tomcat version then in use, and ended up in CISA's catalogue of exploited vulnerabilities.",
+    "prayer": "O Saint Ghostcat, who prowls silently on port 8009, keep our connectors off when nobody uses them. Amen.",
+    "feast": "Celebrated by upgrading Tomcat to 9.0.31, 8.5.51 or 7.0.100 and disabling AJP, or at least giving it a secret.",
+    "proverb": "A ghost cat never meows, but the pantry still ends up empty."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "ROBOT",
+  "motto": "ORACULUM REDIVIVUM",
+  "niche": [
+    "#2a2320",
+    "#55473d"
+  ],
+  "accent": "#3d332c",
+  "emblem": "<rect x=\"122\" y=\"150\" width=\"56\" height=\"48\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"134\" y=\"162\" width=\"14\" height=\"14\" rx=\"2\" fill=\"#c0392b\"/><rect x=\"152\" y=\"162\" width=\"14\" height=\"14\" rx=\"2\" fill=\"#c0392b\"/>\n<path d=\"M134 188 H166\" stroke=\"#2b1d14\" stroke-width=\"3\"/>\n<path d=\"M150 150 V138\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"134\" r=\"4\" fill=\"#d9ad55\"/>\n<rect x=\"132\" y=\"198\" width=\"36\" height=\"34\" rx=\"4\" fill=\"#9aa6ad\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M122 206 L108 220 M178 206 L192 220\" stroke=\"#9aa6ad\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#d9ad55\">1998 → 2017</text>"
+}

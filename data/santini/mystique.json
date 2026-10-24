@@ -1,0 +1,10 @@
+{
+  "label": "Mystique",
+  "motto": "MUTAT FORMAM",
+  "niche": [
+    "#1d2a44",
+    "#3c4e78"
+  ],
+  "accent": "#273a5c",
+  "emblem": "<path d=\"M150 124 L178 138 V172 C178 200 166 216 150 224 C134 216 122 200 122 172 V138 Z\" fill=\"#2a4b8d\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M150 124 L150 224 C134 216 122 200 122 172 V138 Z\" fill=\"#8e44ad\"/>\n<circle cx=\"138\" cy=\"166\" r=\"6\" fill=\"#fbf3dd\"/><circle cx=\"162\" cy=\"166\" r=\"6\" fill=\"#1b1b2f\"/>\n<path d=\"M134 190 q16 10 32 0\" stroke=\"#fbf3dd\" stroke-width=\"2\" fill=\"none\"/>\n<path d=\"M104 150 q8 20 0 40 M196 150 q-8 20 0 40\" stroke=\"#d9ad55\" stroke-width=\"2\" fill=\"none\" stroke-dasharray=\"3 3\"/>"
+}

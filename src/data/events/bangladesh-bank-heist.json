@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il grande furto della Banca del Bangladesh",
+    "chronicle": "Nella notte tra il 4 e il 5 febbraio 2016, approfittando del fine settimana, degli attaccanti usarono le credenziali SWIFT della Banca centrale del Bangladesh per inviare 35 ordini di bonifico fraudolenti, per quasi un miliardo di dollari, dal suo conto presso la Federal Reserve di New York. La maggior parte fu bloccata, anche grazie a un errore di ortografia che insospettì una banca intermediaria, ma 81 milioni di dollari arrivarono nelle Filippine e furono riciclati nei casinò. Il furto fu poi attribuito al gruppo nordcoreano Lazarus.",
+    "lesson": "SWIFT lanciò un programma di sicurezza per i clienti con controlli obbligatori, e le banche impararono che anche il sistema più fidato è sicuro quanto il computer da cui lo si usa.",
+    "prayer": "O errore di ortografia benedetto, che salvasti centinaia di milioni con una lettera fuori posto, veglia sui nostri bonifici e rendi distratti i ladri. Amen.",
+    "remembrance": "Si ricorda isolando le postazioni dei pagamenti, controllando ogni bonifico fuori dall'ordinario e ricordando che i ladri preferiscono i fine settimana lunghi."
+  },
+  "en": {
+    "title": "The Great Bangladesh Bank Heist",
+    "chronicle": "On the night of 4–5 February 2016, taking advantage of the weekend, attackers used Bangladesh Bank's SWIFT credentials to send 35 fraudulent transfer orders worth nearly $1 billion from its account at the Federal Reserve Bank of New York. Most were blocked, helped by a spelling error that made an intermediary bank suspicious, but $81 million reached the Philippines and was laundered through casinos. The theft was later attributed to North Korea's Lazarus Group.",
+    "lesson": "SWIFT launched a customer security programme with mandatory controls, and banks learned that even the most trusted system is only as safe as the computer it runs on.",
+    "prayer": "O blessed typo, who saved hundreds of millions with one misplaced letter, watch over our transfers and keep the thieves careless. Amen.",
+    "remembrance": "Remembered by isolating payment workstations, double-checking any unusual transfer and remembering that thieves love long weekends."
+  }
+}

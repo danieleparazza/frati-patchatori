@@ -1,0 +1,10 @@
+{
+  "label": "ProxyLogon",
+  "motto": "DOMINUM SE FINGIT",
+  "niche": [
+    "#1d2b45",
+    "#344c78"
+  ],
+  "accent": "#24345a",
+  "emblem": "<rect x=\"110\" y=\"150\" width=\"80\" height=\"60\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M110 154 L150 184 L190 154\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"118\" y=\"158\" width=\"64\" height=\"10\" fill=\"#2e86c1\"/>\n<path d=\"M150 118 C140 126 136 132 144 138 C136 142 140 150 150 148 C160 150 164 142 156 138 C164 132 160 126 150 118 Z\" fill=\"#8e44ad\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<rect x=\"128\" y=\"216\" width=\"44\" height=\"22\" rx=\"3\" fill=\"#111\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"231\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#7dcea0\">shell</text>"
+}

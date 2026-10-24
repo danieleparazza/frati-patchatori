@@ -1,0 +1,10 @@
+{
+  "label": "GhostButt",
+  "motto": "SPECTRUM IN DOCTO",
+  "niche": [
+    "#1f2433",
+    "#3d4661"
+  ],
+  "accent": "#2a3350",
+  "emblem": "<path d=\"M120 236 V176 A30 30 0 0 1 180 176 V236 L170 226 L160 236 L150 226 L140 236 L130 226 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"138\" cy=\"178\" r=\"5\" fill=\"#2b1d14\"/><circle cx=\"162\" cy=\"178\" r=\"5\" fill=\"#2b1d14\"/>\n<path d=\"M144 194 q6 6 12 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\">%pipe%</text>\n<path d=\"M150 158 V166\" stroke=\"#d9ad55\" stroke-width=\"2\"/>"
+}

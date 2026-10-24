@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PetitPotam, che costringeva i server a presentarsi",
+    "patronage": "di Active Directory, dei controller di dominio e di chi si lascia convincere a firmare per primo.",
+    "hagiography": "Nel luglio 2021 il ricercatore noto come topotam rivelò PetitPotam: sfruttando una funzione di Windows (poi CVE-2022-26925), si poteva costringere un server, anche un controller di dominio, ad autenticarsi verso una macchina scelta dall'attaccante. Relayando quell'autenticazione verso i servizi certificati, si arrivava a prendere il controllo dell'intero dominio. Un piccolo spintone, e il server correva a presentarsi dallo sconosciuto.",
+    "prayer": "O San PetitPotam, che fai correre i server dal primo che li chiama, insegna alle nostre macchine a non autenticarsi con chiunque. Amen.",
+    "feast": "Si festeggia applicando le patch, imponendo la firma e la protezione estesa sull'autenticazione e mettendo in sicurezza i servizi certificati.",
+    "proverb": "Server che corre al richiamo, dominio che cambia padrone."
+  },
+  "en": {
+    "title": "Saint PetitPotam, Who Made Servers Introduce Themselves",
+    "patronage": "Active Directory, domain controllers, and those who can be talked into signing first.",
+    "hagiography": "In July 2021 the researcher known as topotam revealed PetitPotam: by abusing a Windows function (later CVE-2022-26925), one could coerce a server, even a domain controller, to authenticate to a machine of the attacker's choosing. Relaying that authentication to the certificate services led to taking over the whole domain. A little nudge, and the server ran off to introduce itself to the stranger.",
+    "prayer": "O Saint PetitPotam, who makes servers run to the first who calls, teach our machines not to authenticate with just anyone. Amen.",
+    "feast": "Celebrated by applying the patches, enforcing signing and extended protection for authentication, and securing the certificate services.",
+    "proverb": "A server that runs to the call, a domain that changes master."
+  }
+}

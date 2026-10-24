@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'INFRA:HALT, che fermava le fabbriche",
+    "patronage": "degli stack TCP/IP embedded, delle risposte DNS troppo lunghe e degli impianti che nessuno osa riavviare.",
+    "hagiography": "Il 4 agosto 2021 Forescout e JFrog rivelarono quattordici vulnerabilità in NicheStack, uno stack TCP/IP nascosto in migliaia di dispositivi industriali. Una risposta DNS ben confezionata o una richiesta HTTP maliziosa bastavano per eseguire codice o mandare in blocco il dispositivo: da qui il nome, che è un ordine di arresto. Faceva parte del Project Memoria, la lunga processione dei bug negli stack di rete.",
+    "prayer": "O Sant'INFRA:HALT, che con un pacchetto fermi i macchinari, fa' che i nostri PLC leggano ogni risposta DNS fino all'ultimo byte e non oltre. Amen.",
+    "feast": "Si festeggia aggiornando NicheStack alla 4.3 e segmentando la rete OT, possibilmente prima del prossimo fermo impianto.",
+    "proverb": "Pacchetto sbagliato, catena ferma."
+  },
+  "en": {
+    "title": "Saint INFRA:HALT, Who Stopped the Factories",
+    "patronage": "embedded TCP/IP stacks, overlong DNS responses, and plants nobody dares to reboot.",
+    "hagiography": "On 4 August 2021 Forescout and JFrog revealed fourteen vulnerabilities in NicheStack, a TCP/IP stack hidden in thousands of industrial devices. A well-crafted DNS response or a malicious HTTP request was enough to run code or freeze the device: hence the name, which is an order to stop. It belonged to Project Memoria, the long procession of bugs in network stacks.",
+    "prayer": "O Saint INFRA:HALT, who stops machinery with a single packet, let our PLCs read every DNS response to the last byte and no further. Amen.",
+    "feast": "Celebrated by upgrading NicheStack to 4.3 and segmenting the OT network, ideally before the next plant shutdown.",
+    "proverb": "Wrong packet, stopped line."
+  }
+}

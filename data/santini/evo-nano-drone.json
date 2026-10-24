@@ -1,0 +1,10 @@
+{
+  "label": "EVO Nano",
+  "motto": "VOLAT ET CADIT",
+  "niche": [
+    "#25304a",
+    "#46587e"
+  ],
+  "accent": "#25304a",
+  "emblem": "<path d=\"M104 236 H196\" stroke=\"#c0392b\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/>\n<text x=\"150\" y=\"252\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#f5b7b1\">NO FLY</text>\n<g transform=\"rotate(-18 150 176)\">\n<g stroke=\"#fbf3dd\" stroke-width=\"5\" stroke-linecap=\"round\"><line x1=\"128\" y1=\"160\" x2=\"172\" y2=\"192\"/><line x1=\"172\" y1=\"160\" x2=\"128\" y2=\"192\"/></g>\n<rect x=\"138\" y=\"166\" width=\"24\" height=\"20\" rx=\"6\" fill=\"#e67e22\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\"><ellipse cx=\"124\" cy=\"157\" rx=\"15\" ry=\"4\"/><ellipse cx=\"176\" cy=\"157\" rx=\"15\" ry=\"4\"/><ellipse cx=\"124\" cy=\"195\" rx=\"15\" ry=\"4\"/><ellipse cx=\"176\" cy=\"195\" rx=\"15\" ry=\"4\"/></g>\n</g>\n<g fill=\"#fff8d6\"><path d=\"M150 120 l3 7 l7 1 l-5 5 l1 7 l-6 -3 l-6 3 l1 -7 l-5 -5 l7 -1 z\"/></g>"
+}

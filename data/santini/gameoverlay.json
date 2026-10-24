@@ -1,0 +1,10 @@
+{
+  "label": "GameOver(lay)",
+  "motto": "STRATUM SUPER STRATUM",
+  "niche": [
+    "#1e2a1a",
+    "#3e5634"
+  ],
+  "accent": "#2e4026",
+  "emblem": "<g stroke=\"#2b1d14\" stroke-width=\"1.5\"><rect x=\"114\" y=\"204\" width=\"72\" height=\"22\" rx=\"3\" fill=\"#9a8a6a\"/><rect x=\"118\" y=\"182\" width=\"64\" height=\"22\" rx=\"3\" fill=\"#bfc9d1\"/><rect x=\"122\" y=\"160\" width=\"56\" height=\"22\" rx=\"3\" fill=\"#dfe6e9\"/></g>\n<path d=\"M150 150 V128 M140 138 L150 126 L160 138\" stroke=\"#d9ad55\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">root</text>\n<text x=\"150\" y=\"220\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">cap+</text>"
+}

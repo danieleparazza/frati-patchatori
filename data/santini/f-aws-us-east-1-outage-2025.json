@@ -1,0 +1,11 @@
+{
+  "label": "AWS us-east-1",
+  "motto": "NOMEN NESCIO",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M110 184 C94 184 92 158 112 156 C112 134 140 128 150 144 C160 126 192 134 188 158 C206 160 206 184 188 184 Z\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<text x=\"150\" y=\"174\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#d9ad55\" >A  ?</text>\n<rect x=\"102\" y=\"200\" width=\"96\" height=\"30\" rx=\"3\" fill=\"#1a1a1a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"220\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\" >NXDOMAIN</text>"
+}

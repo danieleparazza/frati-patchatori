@@ -1,0 +1,10 @@
+{
+  "label": "ChaosDB",
+  "motto": "CLAVIS OMNIUM",
+  "niche": [
+    "#2a1832",
+    "#523062"
+  ],
+  "accent": "#3e2448",
+  "emblem": "<ellipse cx=\"150\" cy=\"146\" rx=\"40\" ry=\"14\" fill=\"#5dade2\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M110 146 V206 A40 14 0 0 0 190 206 V146\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M110 176 A40 14 0 0 0 190 176\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"182\" cy=\"212\" r=\"12\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M182 218 V236 M182 236 H192 M182 230 H190\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<circle cx=\"182\" cy=\"208\" r=\"3\" fill=\"#2b1d14\"/>"
+}

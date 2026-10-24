@@ -1,0 +1,11 @@
+{
+  "label": "Operation Tovar",
+  "motto": "RETIA SINE CAPITE",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<g stroke=\"#bfc9d1\" stroke-width=\"2.5\"><line x1=\"116\" y1=\"150\" x2=\"150\" y2=\"132\"/><line x1=\"150\" y1=\"132\" x2=\"184\" y2=\"150\"/><line x1=\"184\" y1=\"150\" x2=\"184\" y2=\"196\"/><line x1=\"184\" y1=\"196\" x2=\"150\" y2=\"214\"/><line x1=\"150\" y1=\"214\" x2=\"116\" y2=\"196\"/><line x1=\"116\" y1=\"196\" x2=\"116\" y2=\"150\"/><line x1=\"116\" y1=\"150\" x2=\"184\" y2=\"196\"/><line x1=\"150\" y1=\"132\" x2=\"150\" y2=\"214\"/><line x1=\"184\" y1=\"150\" x2=\"116\" y2=\"196\"/></g>\n<g fill=\"#fbf3dd\" stroke=\"#1d3550\" stroke-width=\"2\"><circle cx=\"116\" cy=\"150\" r=\"9\"/><circle cx=\"150\" cy=\"132\" r=\"9\"/><circle cx=\"184\" cy=\"150\" r=\"9\"/><circle cx=\"184\" cy=\"196\" r=\"9\"/><circle cx=\"150\" cy=\"214\" r=\"9\"/><circle cx=\"116\" cy=\"196\" r=\"9\"/></g>\n<circle cx=\"150\" cy=\"173\" r=\"16\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M142 166 L158 180 M158 166 L142 180\" stroke=\"#1d3550\" stroke-width=\"3\"/>"
+}

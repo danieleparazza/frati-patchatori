@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato CopyCat, che contava i passi dell'enclave",
+    "patronage": "delle enclave SGX, dei canali laterali controllati e di chi conta i passi altrui.",
+    "hagiography": "Nel 2020 Daniel Moghimi, Jo Van Bulck, Nadia Heninger, Frank Piessens e Berk Sunar presentarono CopyCat. Avendo il controllo del sistema operativo intorno a un'enclave SGX, potevano contare in modo deterministico le istruzioni eseguite su ogni pagina di codice, e unendo questo alla perdita a livello di pagina ricostruivano il flusso del programma istruzione per istruzione, abbastanza da estrarre chiavi crittografiche con una sola esecuzione.",
+    "prayer": "O Beato CopyCat, che spii i segreti contando i passi, insegna ai nostri algoritmi a camminare sempre allo stesso modo. Amen.",
+    "feast": "Si festeggia scrivendo codice crittografico a flusso costante, che faccia gli stessi passi quale che sia il segreto.",
+    "proverb": "Chi conta i passi, indovina la strada."
+  },
+  "en": {
+    "title": "Blessed CopyCat, Who Counted the Enclave's Steps",
+    "patronage": "SGX enclaves, controlled side channels, and those who count other people's steps.",
+    "hagiography": "In 2020 Daniel Moghimi, Jo Van Bulck, Nadia Heninger, Frank Piessens and Berk Sunar presented CopyCat. Controlling the operating system around an SGX enclave, they could deterministically count the instructions executed on each code page, and combined with page-level leakage they rebuilt the program flow instruction by instruction, enough to extract cryptographic keys in a single run.",
+    "prayer": "O Blessed CopyCat, who spies out secrets by counting steps, teach our algorithms to always walk the same way. Amen.",
+    "feast": "Celebrated by writing constant-flow cryptographic code that takes the same steps whatever the secret.",
+    "proverb": "Count a person's steps and you can guess their road."
+  }
+}

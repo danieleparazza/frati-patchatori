@@ -1,0 +1,10 @@
+{
+  "label": "ISaPWN",
+  "motto": "FABRICA APERTA",
+  "niche": [
+    "#1d2a33",
+    "#3a5260"
+  ],
+  "accent": "#2a3e4a",
+  "emblem": "<rect x=\"104\" y=\"150\" width=\"92\" height=\"60\" rx=\"4\" fill=\"#2b3a4a\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<g fill=\"#7ee08a\"><circle cx=\"116\" cy=\"162\" r=\"3\"/><circle cx=\"126\" cy=\"162\" r=\"3\"/></g>\n<g fill=\"#111\" stroke=\"#bfc9d1\" stroke-width=\"1\"><rect x=\"112\" y=\"176\" width=\"12\" height=\"22\"/><rect x=\"130\" y=\"176\" width=\"12\" height=\"22\"/><rect x=\"148\" y=\"176\" width=\"12\" height=\"22\"/><rect x=\"166\" y=\"176\" width=\"12\" height=\"22\"/></g>\n<text x=\"186\" y=\"166\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#bfc9d1\">PLC</text>\n<path d=\"M150 210 V226\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"116\" y=\"224\" width=\"68\" height=\"18\" rx=\"3\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#c0392b\">..\\..\\</text>"
+}

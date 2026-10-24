@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Kaseya",
+    "chronicle": "Venerdì 2 luglio 2021, alla vigilia del lungo fine settimana dell'Indipendenza americana, il gruppo REvil sfruttò vulnerabilità zero-day del software di gestione remota Kaseya VSA per spingere il proprio ransomware attraverso circa 60 fornitori di servizi gestiti fino a circa 1.500 aziende clienti. In Svezia la catena di supermercati Coop dovette chiudere centinaia di negozi perché le casse non funzionavano. L'istituto olandese DIVD aveva già segnalato la falla e ne stava coordinando la correzione. Gli attaccanti chiesero 70 milioni di dollari per un decifratore universale.",
+    "lesson": "Dimostrò che un solo strumento di gestione remota può diventare un canale di distribuzione per il ransomware verso migliaia di vittime, e che i fornitori di servizi gestiti sono un bersaglio di grande valore.",
+    "prayer": "O VSA, che dovevi gestire i computer dei clienti e finisti per cifrarli, proteggi le console che hanno le chiavi di tutti e rendi brevi le corse tra chi segnala e chi attacca. Amen.",
+    "remembrance": "Si ricorda tenendo le console di gestione remota lontane da Internet, chiedendo l'MFA per usarle e chiedendo ai propri fornitori come proteggono gli strumenti con cui ci gestiscono."
+  },
+  "en": {
+    "title": "The Scourge of Kaseya",
+    "chronicle": "On Friday 2 July 2021, on the eve of the long US Independence Day weekend, the REvil gang exploited zero-days in Kaseya's VSA remote-management software to push its ransomware through about 60 managed service providers to roughly 1,500 client businesses. In Sweden the Coop supermarket chain had to close hundreds of stores because its tills stopped working. The Dutch institute DIVD had already reported the flaw and was coordinating the fix. The attackers demanded $70 million for a universal decryptor.",
+    "lesson": "It proved that a single remote-management tool can become a ransomware distribution channel to thousands of victims, and that managed service providers are a high-value target.",
+    "prayer": "O VSA, who were meant to manage customers' computers and ended up encrypting them, protect the consoles that hold everyone's keys and shorten the race between those who report and those who attack. Amen.",
+    "remembrance": "Remembered by keeping remote-management consoles off the Internet, requiring MFA to use them and asking your providers how they protect the tools they manage you with."
+  }
+}

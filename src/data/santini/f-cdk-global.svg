@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" role="img" aria-label="CDK Global">
+<metadata><x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:dc="http://purl.org/dc/elements/1.1/" Iptc4xmpExt:DigitalSourceType="http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"><dc:title>CDK Global</dc:title><dc:description>Holy card for f-cdk-global, generated with AI (Claude, Anthropic) for the Lunario dei Frati Patchatori.</dc:description><dc:rights>CC BY-NC-SA 4.0</dc:rights></rdf:Description></rdf:RDF></x:xmpmeta></metadata>
+<defs>
+  <radialGradient id="s-f-cdk-global-halo"><stop offset="0%" stop-color="#9a9086" stop-opacity="0.18"/><stop offset="60%" stop-color="#9a9086" stop-opacity="0.3"/><stop offset="72%" stop-color="#d8d0c4" stop-opacity="0.75"/><stop offset="100%" stop-color="#9a9086" stop-opacity="0"/></radialGradient>
+  <linearGradient id="s-f-cdk-global-niche" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2e2924"/><stop offset="100%" stop-color="#5b4b3f"/></linearGradient>
+</defs>
+<rect width="300" height="450" rx="14" fill="#ece7dd"/>
+<rect x="10" y="10" width="280" height="430" rx="10" fill="none" stroke="#5a5248" stroke-width="4"/>
+<rect x="20" y="20" width="260" height="410" rx="6" fill="none" stroke="#5a5248" stroke-width="1"/>
+<g fill="#5a5248"><circle cx="20" cy="20" r="4"/><circle cx="280" cy="20" r="4"/><circle cx="20" cy="430" r="4"/><circle cx="280" cy="430" r="4"/></g>
+<path d="M38 330 V125 A112 112 0 0 1 262 125 V330 Z" fill="url(#s-f-cdk-global-niche)" stroke="#5a5248" stroke-width="2"/>
+<circle cx="150" cy="180" r="112" fill="url(#s-f-cdk-global-halo)"/>
+<g stroke="#9a9086" stroke-width="2.5" stroke-linecap="round" opacity="0.85"><line x1="228.0" y1="180.0" x2="266.0" y2="180.0"/><line x1="205.2" y1="235.2" x2="223.5" y2="253.5"/><line x1="150.0" y1="258.0" x2="150.0" y2="296.0"/><line x1="94.8" y1="235.2" x2="76.5" y2="253.5"/><line x1="72.0" y1="180.0" x2="34.0" y2="180.0"/><line x1="94.8" y1="124.8" x2="76.5" y2="106.5"/><line x1="150.0" y1="102.0" x2="150.0" y2="64.0"/><line x1="205.2" y1="124.8" x2="223.5" y2="106.5"/></g>
+<circle cx="150" cy="180" r="76" fill="none" stroke="#9a9086" stroke-width="2"/>
+<g><path d="M106 196 L116 172 C120 164 128 160 136 160 H166 C174 160 180 164 184 172 L194 196 V212 H106 Z" fill="#3a4450" stroke="#fbf3dd" stroke-width="3"/>
+<path d="M120 182 L126 168 H174 L180 182 Z" fill="#bfc9d1"/>
+<g fill="#1a1a1a" stroke="#fbf3dd" stroke-width="3"><circle cx="126" cy="214" r="11"/><circle cx="174" cy="214" r="11"/></g>
+<path d="M136 146 L130 134 M150 144 V130 M164 146 L170 134" stroke="#d9ad55" stroke-width="3" stroke-linecap="round"/>
+<text x="150" y="202" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" fill="#fbf3dd" >DMS</text></g>
+
+
+<path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#5a3a2a"/>
+<text x="150" y="369" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="20" fill="#fbf3dd">CDK Global</text>
+<text x="150" y="414" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" letter-spacing="1.5" fill="#5a5248">CURRUS SINE CODICE</text>
+</svg>

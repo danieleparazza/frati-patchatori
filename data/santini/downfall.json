@@ -1,0 +1,10 @@
+{
+  "label": "Downfall",
+  "motto": "CADUNT VECTORES",
+  "niche": [
+    "#1c2640",
+    "#3b4d78"
+  ],
+  "accent": "#26345a",
+  "emblem": "<rect x=\"114\" y=\"130\" width=\"72\" height=\"16\" rx=\"2\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<g fill=\"#3498db\"><rect x=\"118\" y=\"134\" width=\"14\" height=\"8\"/><rect x=\"136\" y=\"134\" width=\"14\" height=\"8\"/><rect x=\"154\" y=\"134\" width=\"14\" height=\"8\"/><rect x=\"172\" y=\"134\" width=\"10\" height=\"8\"/></g>\n<g stroke=\"#fbf3dd\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"><path d=\"M126 152 L114 196\"/><path d=\"M144 152 L140 210\"/><path d=\"M162 152 L166 202\"/><path d=\"M178 152 L194 214\"/></g>\n<g fill=\"#d9ad55\"><path d=\"M108 192 L114 204 L120 192 Z\"/><path d=\"M134 206 L140 218 L146 206 Z\"/><path d=\"M160 198 L166 210 L172 198 Z\"/><path d=\"M188 210 L194 222 L200 210 Z\"/></g>\n<path d=\"M104 238 H196\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>"
+}

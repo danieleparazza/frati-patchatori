@@ -1,0 +1,11 @@
+{
+  "label": "Twitter 2020",
+  "motto": "DUPLICA ET DECIPE",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<circle cx=\"132\" cy=\"170\" r=\"26\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<text x=\"132\" y=\"182\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"32\" fill=\"#2b1d14\" font-weight=\"bold\">B</text><g fill=\"#2b1d14\"><rect x=\"128.2\" y=\"155.8\" width=\"2.6\" height=\"30.7\"/><rect x=\"133.3\" y=\"155.8\" width=\"2.6\" height=\"30.7\"/></g>\n<text x=\"172\" y=\"180\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"30\" fill=\"#fbf3dd\" >× 2</text>\n<path d=\"M112 214 C130 206 170 206 188 214 L182 228 C166 222 134 222 118 228 Z\" fill=\"#4a90c8\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M120 206 L180 236 M180 206 L120 236\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+}

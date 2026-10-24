@@ -1,0 +1,11 @@
+{
+  "label": "Colonial Pipeline",
+  "motto": "VPN SINE MFA",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"96\" y=\"176\" width=\"108\" height=\"22\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"138\" y=\"168\" width=\"24\" height=\"38\" rx=\"2\" fill=\"#5b6770\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"148\" r=\"14\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M150 134 V162 M136 148 H164\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M150 162 V168\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M188 208 C196 220 198 226 198 230 A10 10 0 0 1 178 230 C178 226 180 220 188 208 Z\" fill=\"#1a1a1a\" stroke=\"#d9ad55\" stroke-width=\"2\"/>"
+}

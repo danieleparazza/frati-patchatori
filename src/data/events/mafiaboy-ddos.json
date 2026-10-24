@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Mafiaboy",
+    "chronicle": "Il 7 febbraio 2000 un quindicenne canadese che si firmava Mafiaboy, Michael Calce, puntò contro Yahoo! una botnet di computer universitari compromessi e lo mise fuori linea. Nei giorni successivi toccò ad Amazon, CNN, Dell ed eBay, nomi che allora sembravano incrollabili. Calce fu individuato anche perché si vantava nelle chat, e nel 2001 fu condannato a otto mesi di custodia in un centro per minori.",
+    "lesson": "Il mondo scoprì che i giganti del web potevano essere abbattuti da un ragazzo con abbastanza macchine altrui, e il DDoS diventò un problema da consiglio d'amministrazione.",
+    "prayer": "O Mafiaboy, che volevi solo far vedere chi comandava, insegnaci a misurare il traffico in entrata e a non lasciare i server dell'università a disposizione dei passanti. Amen.",
+    "remembrance": "Si ricorda con limiti di banda, filtri anti-spoofing all'uscita della propria rete e un piano di mitigazione DDoS concordato prima del bisogno."
+  },
+  "en": {
+    "title": "The Scourge of Mafiaboy",
+    "chronicle": "On 7 February 2000 a 15-year-old Canadian calling himself Mafiaboy, Michael Calce, aimed a botnet of compromised university computers at Yahoo! and knocked it offline. Over the following days Amazon, CNN, Dell and eBay fell too, names that had seemed unshakeable. Calce was tracked down partly because he bragged in chat rooms, and in 2001 he was sentenced to eight months in youth detention.",
+    "lesson": "The world learned that web giants could be toppled by a teenager with enough of other people's machines, and DDoS became a boardroom problem.",
+    "prayer": "O Mafiaboy, who only wanted to show who was boss, teach us to measure our incoming traffic and never to leave university servers open to passers-by. Amen.",
+    "remembrance": "Remembered with rate limits, egress anti-spoofing filters and a DDoS mitigation plan agreed before it's needed."
+  }
+}

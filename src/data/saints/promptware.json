@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Promptware, che si travestiva da testo",
+    "patronage": "degli assistenti AI troppo obbedienti, delle email che parlano alle macchine e di chi legge le istruzioni anche dove non dovrebbero esserci.",
+    "hagiography": "Tra gennaio e febbraio 2026 Ben Nassi, Bruce Schneier, Oleg Brodt ed Elad Feldman proposero di smettere di chiamare «prompt injection» un singolo trucco e di vederlo come un malware a più stadi: il promptware. Descrissero una catena in sette passi, dall'accesso iniziale nascosto in una pagina o in una email fino all'obiettivo finale, passando per persistenza e diffusione ad altri utenti. La loro conclusione: oggi non si può curare il primo passo, quindi bisogna spezzare la catena più avanti.",
+    "prayer": "O San Promptware, che ti nascondi tra le righe, insegna ai nostri assistenti a distinguere un dato da un ordine. Amen.",
+    "feast": "Si festeggia dando agli agenti AI solo i permessi che servono, chiedendo conferma prima delle azioni irreversibili e diffidando di ogni testo che dà istruzioni.",
+    "proverb": "Chi esegue tutto ciò che legge, prima o poi legge la cosa sbagliata."
+  },
+  "en": {
+    "title": "Saint Promptware, Who Disguised Himself as Text",
+    "patronage": "overly obedient AI assistants, emails that talk to machines, and anyone who follows instructions even where none should be.",
+    "hagiography": "Between January and February 2026 Ben Nassi, Bruce Schneier, Oleg Brodt and Elad Feldman proposed that we stop calling prompt injection a single trick and see it as multi-stage malware: promptware. They described a seven-step kill chain, from initial access hidden in a web page or email to the final objective, by way of persistence and spreading to other users. Their conclusion: the first step can't be cured today, so the chain has to be broken further along.",
+    "prayer": "O Saint Promptware, who hides between the lines, teach our assistants to tell data from orders. Amen.",
+    "feast": "Celebrated by giving AI agents only the permissions they need, asking before irreversible actions, and distrusting any text that hands out instructions.",
+    "proverb": "Do everything you read, and one day you'll read the wrong thing."
+  }
+}

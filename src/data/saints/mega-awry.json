@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato MEGA-awry, che aprì la cassaforte cifrata",
+    "patronage": "dell'archiviazione cifrata, della crittografia fatta in casa e dei clienti che si fidano del cloud.",
+    "hagiography": "Nel giugno 2022 Matilda Backendal, Miro Haller e Kenneth Paterson dell'ETH di Zurigo mostrarono una serie di difetti nella crittografia di MEGA, il servizio cloud che prometteva cifratura controllata dall'utente. Un server malevolo, dopo abbastanza accessi, poteva recuperare la chiave RSA del cliente e poi decifrarne i file e falsificarne di nuovi. La promessa era che nemmeno MEGA potesse leggere i dati; la dimostrazione diceva il contrario.",
+    "prayer": "O Beato MEGA-awry, che smonti la cifratura costruita in casa, insegnaci a far rivedere la crittografia prima di prometterla. Amen.",
+    "feast": "Si festeggia aggiornando il client di MEGA e affidando i propri schemi crittografici a chi li sa rompere, prima degli altri.",
+    "proverb": "Cassaforte fatta in casa, chiave che il padrone ritrova."
+  },
+  "en": {
+    "title": "Blessed MEGA-awry, Who Opened the Encrypted Vault",
+    "patronage": "encrypted storage, home-made cryptography, and customers who trust the cloud.",
+    "hagiography": "In June 2022 Matilda Backendal, Miro Haller and Kenneth Paterson of ETH Zurich showed a string of flaws in the cryptography of MEGA, the cloud service that promised user-controlled encryption. A malicious server, after enough logins, could recover the customer's RSA key and then decrypt their files and forge new ones. The promise was that not even MEGA could read the data; the demonstration said otherwise.",
+    "prayer": "O Blessed MEGA-awry, who takes apart home-built encryption, teach us to have our cryptography reviewed before we promise it. Amen.",
+    "feast": "Celebrated by updating the MEGA client and handing your cryptographic schemes to those who can break them, before anyone else does.",
+    "proverb": "A home-made vault keeps a key the owner can find again."
+  }
+}

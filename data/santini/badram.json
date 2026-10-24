@@ -1,0 +1,10 @@
+{
+  "label": "BadRAM",
+  "motto": "MENTITUR DE MOLE",
+  "niche": [
+    "#1e2a16",
+    "#3f5a2a"
+  ],
+  "accent": "#2c3f1d",
+  "emblem": "<rect x=\"106\" y=\"156\" width=\"88\" height=\"56\" rx=\"3\" fill=\"#1e3a24\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<g fill=\"#2b1d14\"><rect x=\"114\" y=\"166\" width=\"16\" height=\"22\" rx=\"2\"/><rect x=\"134\" y=\"166\" width=\"16\" height=\"22\" rx=\"2\"/><rect x=\"154\" y=\"166\" width=\"16\" height=\"22\" rx=\"2\"/><rect x=\"174\" y=\"166\" width=\"14\" height=\"22\" rx=\"2\"/></g>\n<rect x=\"140\" y=\"170\" width=\"20\" height=\"14\" rx=\"2\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"1\"/>\n<text x=\"150\" y=\"181\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#fff\">SPD</text>\n<g fill=\"#d9ad55\"><rect x=\"110\" y=\"212\" width=\"4\" height=\"8\"/><rect x=\"118\" y=\"212\" width=\"4\" height=\"8\"/><rect x=\"126\" y=\"212\" width=\"4\" height=\"8\"/><rect x=\"134\" y=\"212\" width=\"4\" height=\"8\"/><rect x=\"142\" y=\"212\" width=\"4\" height=\"8\"/><rect x=\"150\" y=\"212\" width=\"4\" height=\"8\"/><rect x=\"158\" y=\"212\" width=\"4\" height=\"8\"/><rect x=\"166\" y=\"212\" width=\"4\" height=\"8\"/><rect x=\"174\" y=\"212\" width=\"4\" height=\"8\"/><rect x=\"182\" y=\"212\" width=\"4\" height=\"8\"/></g>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#9cc65f\">2× ?</text>"
+}

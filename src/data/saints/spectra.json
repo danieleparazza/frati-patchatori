@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Spectra, che rompe il muro tra le radio",
+    "patronage": "dei chip combo Wi-Fi e Bluetooth, della coesistenza tra radio e di chi crede che due componenti separati restino separati.",
+    "hagiography": "Jiska Classen e Francesco Gringoli descrissero Spectra, una classe di difetti nei chip combo Broadcom e Cypress presenti in iPhone, MacBook e Galaxy. Wi-Fi e Bluetooth girano su core distinti dello stesso chip e si scambiano informazioni di coesistenza su un'interfaccia interna, aggirando il sistema operativo. Sfruttando quell'interfaccia, da una radio si poteva causare un blocco, trafugare dati o eseguire codice sull'altra, senza che il sistema operativo potesse farci nulla.",
+    "prayer": "O San Spectra, che attraversi il muro tra due radio vicine, fa' che i nostri chip non si confidino più del dovuto. Amen.",
+    "feast": "Si festeggia installando l'aggiornamento del firmware Bluetooth che ripara la coesistenza, e tenendo spenta la radio che non serve.",
+    "proverb": "Due radio in un chip, un segreto in comune."
+  },
+  "en": {
+    "title": "Saint Spectra, Who Breaks the Wall Between Radios",
+    "patronage": "Wi-Fi and Bluetooth combo chips, radio coexistence, and anyone who thinks two separate components stay separate.",
+    "hagiography": "Jiska Classen and Francesco Gringoli described Spectra, a class of flaws in the Broadcom and Cypress combo chips found in iPhones, MacBooks and Galaxy phones. Wi-Fi and Bluetooth run on separate cores of the same chip and exchange coexistence information over an internal interface, bypassing the operating system. By abusing that interface, one radio could crash, leak data from, or run code on the other, with the operating system powerless to stop it.",
+    "prayer": "O Saint Spectra, who crosses the wall between two neighbouring radios, let our chips confide no more than they should. Amen.",
+    "feast": "Celebrated by installing the Bluetooth firmware update that fixes coexistence, and keeping the radio you don't need switched off.",
+    "proverb": "Two radios in one chip share one secret."
+  }
+}

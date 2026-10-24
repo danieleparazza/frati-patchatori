@@ -1,0 +1,10 @@
+{
+  "label": "PrinterLeak",
+  "motto": "VOX IN SILENTIO",
+  "niche": [
+    "#1a2330",
+    "#36485e"
+  ],
+  "accent": "#263444",
+  "emblem": "<rect x=\"114\" y=\"166\" width=\"72\" height=\"40\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"128\" y=\"142\" width=\"44\" height=\"26\" fill=\"#9aa6b2\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<circle cx=\"174\" cy=\"180\" r=\"4\" fill=\"#d9ad55\"/>\n<g fill=\"none\" stroke=\"#d9ad55\"><path d=\"M180 174 Q188 180 180 186\" stroke-width=\"2\"/><path d=\"M188 168 Q200 180 188 192\" stroke-width=\"2\"/></g>\n<rect x=\"128\" y=\"206\" width=\"44\" height=\"26\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M136 216 H164 M136 224 H158\" stroke=\"#2b1d14\" stroke-width=\"2\"/>"
+}

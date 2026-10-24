@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CCS Injection, che cambiava cifrario troppo presto",
+    "patronage": "degli handshake TLS, dei messaggi arrivati fuori turno e dei bug coetanei del progetto stesso.",
+    "hagiography": "Il 5 giugno 2014, due mesi dopo Heartbleed, OpenSSL rivelò un altro difetto scoperto da Masashi Kikuchi di Lepidum. Un attaccante in mezzo alla connessione poteva infilare un messaggio ChangeCipherSpec prima del tempo, e OpenSSL lo accettava, finendo per cifrare con chiavi deboli e prevedibili. Bisognava che client e server fossero entrambi vulnerabili, ma a quel punto il traffico si poteva leggere e modificare. Secondo il suo scopritore il bug era lì fin dalle prime versioni.",
+    "prayer": "O San CCS Injection, che entri nel discorso prima che tocchi a te, insegna ai nostri handshake a rispettare il turno. Amen.",
+    "feast": "Si festeggia aggiornando OpenSSL alle versioni 0.9.8za, 1.0.0m o 1.0.1h, e aspettando il proprio turno in coda alle poste.",
+    "proverb": "Chi cambia cifrario in anticipo, cifra per il vicino."
+  },
+  "en": {
+    "title": "Saint CCS Injection, Who Changed Ciphers Too Soon",
+    "patronage": "TLS handshakes, messages that arrive out of turn, and bugs as old as the project itself.",
+    "hagiography": "On 5 June 2014, two months after Heartbleed, OpenSSL disclosed another flaw, found by Masashi Kikuchi of Lepidum. An attacker in the middle could slip in a ChangeCipherSpec message ahead of time, and OpenSSL accepted it, ending up encrypting with weak, predictable keys. Both client and server had to be vulnerable, but then the traffic could be read and altered. According to its discoverer, the bug had been there since the earliest releases.",
+    "prayer": "O Saint CCS Injection, who speaks before it is your turn, teach our handshakes to wait for theirs. Amen.",
+    "feast": "Celebrated by upgrading OpenSSL to 0.9.8za, 1.0.0m or 1.0.1h, and waiting your turn in the queue at the post office.",
+    "proverb": "Change your cipher before your turn, and your secrets are the neighbour's to learn."
+  }
+}

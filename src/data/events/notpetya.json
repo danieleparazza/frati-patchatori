@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di NotPetya",
+    "chronicle": "Il 27 giugno 2017, alla vigilia della festa della Costituzione ucraina, un aggiornamento manomesso di M.E.Doc, un software di contabilità fiscale usato in tutta l'Ucraina, distribuì NotPetya. Sembrava un ransomware, ma non permetteva di recuperare i dati: era un wiper. Si propagò con EternalBlue, EternalRomance e credenziali rubate con Mimikatz, paralizzando Maersk, Merck, FedEx/TNT e moltissime altre aziende, con danni stimati intorno ai 10 miliardi di dollari, e disturbò anche i servizi ospedalieri di Heritage Valley Health System in Pennsylvania. Stati Uniti, Regno Unito e altri paesi lo attribuirono al GRU russo (Sandworm).",
+    "lesson": "Rivelò quanto sia pericolosa la catena di fornitura del software e quanto un attacco mirato a un paese possa travolgere aziende globali. Maersk si salvò anche grazie a un controller di dominio rimasto per caso spento in Ghana.",
+    "prayer": "O NotPetya, che chiedevi un riscatto senza nemmeno avere la chiave, tieni le tue mani lontane dai nostri aggiornamenti e lascia acceso, o spento, il controller giusto. Amen.",
+    "remembrance": "Si ricorda verificando l'integrità degli aggiornamenti dei fornitori, segmentando la rete, limitando gli account amministrativi e tenendo una copia offline dell'Active Directory."
+  },
+  "en": {
+    "title": "The Scourge of NotPetya",
+    "chronicle": "On 27 June 2017, on the eve of Ukraine's Constitution Day, a tampered update of M.E.Doc, tax-accounting software used across Ukraine, delivered NotPetya. It looked like ransomware but offered no way to recover data: it was a wiper. It spread with EternalBlue, EternalRomance and credentials stolen with Mimikatz, crippling Maersk, Merck, FedEx/TNT and many other companies, with damage estimated at around $10 billion, and also disrupted hospital services at Heritage Valley Health System in Pennsylvania. The US, UK and other countries attributed it to Russia's GRU (Sandworm).",
+    "lesson": "It revealed how dangerous the software supply chain can be and how an attack aimed at one country can overwhelm global companies. Maersk was saved partly by a domain controller in Ghana that happened to be offline.",
+    "prayer": "O NotPetya, who demanded a ransom without even holding the key, keep your hands off our updates and leave the right domain controller switched off. Amen.",
+    "remembrance": "Remembered by verifying the integrity of supplier updates, segmenting the network, restricting admin accounts and keeping an offline copy of Active Directory."
+  }
+}

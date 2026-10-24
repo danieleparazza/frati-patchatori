@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Migraine, emicrania della protezione del sistema",
+    "patronage": "della System Integrity Protection di macOS, dei demoni di sistema con permessi speciali e degli aggiornamenti che scavalcano le barriere.",
+    "hagiography": "Il 30 maggio 2023 i ricercatori di Microsoft descrissero Migraine (CVE-2023-32369), un modo per aggirare la System Integrity Protection di macOS, la barriera che protegge le parti più delicate del sistema anche dall'amministratore. Abusando di un demone di sistema con privilegi speciali durante il ripristino, un attaccante poteva modificare aree protette del file system. Apple lo corresse in macOS Ventura 13.4 e nelle versioni precedenti supportate.",
+    "prayer": "O San Migraine, che dai l'emicrania alla protezione del sistema, fa' che i nostri demoni privilegiati non si lascino usare da estranei. Amen.",
+    "feast": "Si festeggia aggiornando a macOS 13.4 o successivi e prendendo, se serve, qualcosa per il mal di testa.",
+    "proverb": "Demone privilegiato, barriera scavalcata."
+  },
+  "en": {
+    "title": "Saint Migraine, Headache of System Protection",
+    "patronage": "macOS System Integrity Protection, system daemons with special permissions, and updates that step over the barriers.",
+    "hagiography": "On 30 May 2023 Microsoft researchers described Migraine (CVE-2023-32369), a way to bypass macOS System Integrity Protection, the barrier that guards the system's most delicate parts even from the administrator. By abusing a system daemon with special privileges during restore, an attacker could modify protected areas of the file system. Apple fixed it in macOS Ventura 13.4 and the earlier supported releases.",
+    "prayer": "O Saint Migraine, who gives System Integrity Protection a headache, let our privileged daemons not be used by strangers. Amen.",
+    "feast": "Celebrated by updating to macOS 13.4 or later and, if needed, taking something for the headache.",
+    "proverb": "Privileged daemon, barrier stepped over."
+  }
+}

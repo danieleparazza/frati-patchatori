@@ -1,0 +1,11 @@
+{
+  "label": "AT&T 1990",
+  "motto": "BREAK INOPPORTUNUM",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<circle cx=\"150\" cy=\"170\" r=\"42\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"><circle cx=\"164.5\" cy=\"144.9\" r=\"6\"/><circle cx=\"174.3\" cy=\"154.2\" r=\"6\"/><circle cx=\"178.8\" cy=\"167.0\" r=\"6\"/><circle cx=\"177.1\" cy=\"180.4\" r=\"6\"/><circle cx=\"169.4\" cy=\"191.6\" r=\"6\"/><circle cx=\"157.5\" cy=\"198.0\" r=\"6\"/><circle cx=\"144.0\" cy=\"198.4\" r=\"6\"/><circle cx=\"131.7\" cy=\"192.5\" r=\"6\"/><circle cx=\"123.5\" cy=\"181.8\" r=\"6\"/><circle cx=\"121.0\" cy=\"168.5\" r=\"6\"/></g>\n<circle cx=\"150\" cy=\"170\" r=\"9\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"28\" fill=\"#fbf3dd\" >break;</text>"
+}

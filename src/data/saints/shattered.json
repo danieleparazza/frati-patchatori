@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SHAttered, che frantumò SHA-1",
+    "patronage": "delle funzioni di hash in pensione, dei certificati firmati con algoritmi vecchi e dei PDF gemelli.",
+    "hagiography": "Il 23 febbraio 2017 Google e il CWI di Amsterdam annunciarono la prima collisione pratica di SHA-1: due PDF diversi con la stessa impronta. Servirono circa nove quintilioni di calcoli SHA-1, l'equivalente di migliaia di anni di CPU e di oltre cento anni di GPU. Da quel giorno nessuno poté più dire che SHA-1 fosse solo teoricamente rotto, e browser, Git e autorità di certificazione accelerarono la migrazione.",
+    "prayer": "O Beato SHAttered, che desti a due documenti lo stesso volto, fa' che i nostri hash siano lunghi quanto serve. Amen.",
+    "feast": "Si festeggia passando a SHA-256 o SHA-3 e controllando che nessun vecchio sistema firmi ancora con SHA-1.",
+    "proverb": "Due fogli, una sola impronta: e la fiducia va in frantumi."
+  },
+  "en": {
+    "title": "Blessed SHAttered, Who Broke SHA-1",
+    "patronage": "retired hash functions, certificates signed with old algorithms, and twin PDFs.",
+    "hagiography": "On 23 February 2017 Google and CWI Amsterdam announced the first practical SHA-1 collision: two different PDFs with the same fingerprint. It took about nine quintillion SHA-1 computations, the equivalent of thousands of CPU-years and more than a hundred GPU-years. From that day no one could say SHA-1 was only theoretically broken, and browsers, Git and certificate authorities sped up the move away from it.",
+    "prayer": "O Blessed SHAttered, who gave two documents the same face, let our hashes be as long as they need to be. Amen.",
+    "feast": "Celebrated by moving to SHA-256 or SHA-3 and checking that no old system still signs with SHA-1.",
+    "proverb": "Two pages, one fingerprint: and trust shatters."
+  }
+}

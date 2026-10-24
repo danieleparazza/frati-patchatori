@@ -1,0 +1,10 @@
+{
+  "label": "CodeChism",
+  "motto": "CREDO IN UNUM PLC",
+  "niche": [
+    "#2e2a1a",
+    "#5c5434"
+  ],
+  "accent": "#4a4326",
+  "emblem": "<rect x=\"112\" y=\"128\" width=\"76\" height=\"104\" rx=\"4\" fill=\"#7a2a1e\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<rect x=\"118\" y=\"134\" width=\"64\" height=\"92\" rx=\"2\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"1\"/>\n<path d=\"M150 146 V174 M140 156 H160\" stroke=\"#d9ad55\" stroke-width=\"4\"/>\n<g stroke=\"#fbf3dd\" stroke-width=\"2\" fill=\"none\"><path d=\"M124 192 H134 M134 186 V198 M140 186 V198 M140 192 H160 M160 186 V198 M166 186 V198 M166 192 H176\"/>\n<path d=\"M124 212 H138 M138 206 V218 M144 206 V218 M144 212 H156\"/><circle cx=\"164\" cy=\"212\" r=\"6\"/><path d=\"M170 212 H176\"/></g>"
+}

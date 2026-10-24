@@ -1,0 +1,10 @@
+{
+  "label": "LOBSTER",
+  "motto": "FILE COQUIT CODEX",
+  "niche": [
+    "#3a1410",
+    "#6e2a1e"
+  ],
+  "accent": "#561e16",
+  "emblem": "<ellipse cx=\"150\" cy=\"196\" rx=\"22\" ry=\"30\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M150 166 L150 150 M142 154 L150 146 L158 154\" stroke=\"#c0392b\" stroke-width=\"4\" fill=\"none\"/>\n<path d=\"M130 180 C110 170 108 150 120 144 C118 156 130 160 134 168 Z\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M170 180 C190 170 192 150 180 144 C182 156 170 160 166 168 Z\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"142\" cy=\"182\" r=\"2.5\"/><circle cx=\"158\" cy=\"182\" r=\"2.5\"/></g>\n<g stroke=\"#c0392b\" stroke-width=\"2\"><path d=\"M128 206 l-12 6 M128 216 l-12 4 M172 206 l12 6 M172 216 l12 4\"/></g>\n<path d=\"M136 226 l-4 8 M150 228 V236 M164 226 l4 8\" stroke=\"#c0392b\" stroke-width=\"2\"/>"
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Atlanta 2018",
+  "motto": "CHARTA REDUX",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<path d=\"M118 136 H166 L182 152 V230 H118 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M166 136 V152 H182\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g stroke=\"#9a9086\" stroke-width=\"2\"><line x1=\"128\" y1=\"166\" x2=\"172\" y2=\"166\"/><line x1=\"128\" y1=\"178\" x2=\"172\" y2=\"178\"/><line x1=\"128\" y1=\"190\" x2=\"172\" y2=\"190\"/><line x1=\"128\" y1=\"202\" x2=\"172\" y2=\"202\"/></g>\n<path d=\"M178 212 L198 176 L204 180 L184 216 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/><path d=\"M178 212 L180 222 L184 216 Z\" fill=\"#2b1d14\"/>"
+}

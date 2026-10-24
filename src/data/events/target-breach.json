@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello del bersaglio natalizio",
+    "chronicle": "Il 19 dicembre 2013 Target confermò che, tra il 27 novembre e il 15 dicembre, in piena stagione degli acquisti natalizi, gli attaccanti avevano rubato i dati di circa 40 milioni di carte di credito e di debito usate nei suoi negozi statunitensi. Erano entrati nella rete con le credenziali rubate a un fornitore di impianti di climatizzazione, e da lì avevano raggiunto le casse con il malware BlackPOS. Una successiva comunicazione aggiunse i dati personali di fino a 70 milioni di clienti.",
+    "lesson": "Insegnò che un fornitore è una porta d'ingresso, che la rete dei condizionatori non deve vedere quella delle casse e che gli allarmi del SOC vanno letti. Accelerò anche il passaggio alle carte con chip negli Stati Uniti.",
+    "prayer": "O BlackPOS, che entrasti dal condizionatore e uscisti dalla cassa, segmenta le nostre reti e spegni la fiducia cieca nei fornitori. Amen.",
+    "remembrance": "Si ricorda separando le reti dei fornitori da quelle dei pagamenti, chiedendo l'MFA a chiunque acceda da fuori e dando seguito agli allarmi invece di archiviarli."
+  },
+  "en": {
+    "title": "The Scourge of the Christmas Target",
+    "chronicle": "On 19 December 2013 Target confirmed that between 27 November and 15 December, at the height of the holiday shopping season, attackers had stolen data from about 40 million credit and debit cards used in its US stores. They had entered the network with credentials stolen from an HVAC contractor, and from there reached the tills with BlackPOS malware. A later disclosure added personal data of up to 70 million customers.",
+    "lesson": "It taught that a supplier is a front door, that the air-conditioning network has no business seeing the tills, and that SOC alerts are meant to be read. It also sped up the move to chip cards in the US.",
+    "prayer": "O BlackPOS, who came in through the air conditioning and left through the till, segment our networks and switch off blind trust in suppliers. Amen.",
+    "remembrance": "Remembered by separating supplier networks from payment networks, requiring MFA for anyone connecting from outside and acting on alerts instead of filing them."
+  }
+}

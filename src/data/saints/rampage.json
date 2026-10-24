@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RAMpage, che martellò la memoria di Android",
+    "patronage": "degli smartphone Android, della RAM affollata e dei bit che non stanno al loro posto.",
+    "hagiography": "Nel 2018 un gruppo di ricercatori mostrò RAMpage (CVE-2018-9442), applicando Rowhammer alla memoria degli smartphone Android. Martellando ripetutamente alcune righe di RAM si provocavano cambi di bit nelle righe vicine, abbastanza da scardinare l'isolamento tra le app e il sistema e arrivare al controllo del dispositivo. Il difetto non stava nel codice ma nel silicio stesso, dove i condensatori troppo vicini si influenzano a vicenda.",
+    "prayer": "O San RAMpage, che pieghi il silicio a furia di colpi, proteggi la memoria dei nostri telefoni dai martelli dei vicini. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di Android e maneggiando con cura la memoria che, sotto sotto, è fatta di fisica.",
+    "proverb": "Riga martellata, vicina compromessa."
+  },
+  "en": {
+    "title": "Saint RAMpage, Who Hammered Android's Memory",
+    "patronage": "Android smartphones, crowded RAM, and bits that will not stay put.",
+    "hagiography": "In 2018 a team of researchers presented RAMpage (CVE-2018-9442), applying Rowhammer to the memory of Android smartphones. Repeatedly hammering certain rows of RAM caused bit flips in neighbouring rows, enough to break the isolation between apps and the system and reach control of the device. The flaw was not in the code but in the silicon itself, where capacitors packed too close influence one another.",
+    "prayer": "O Saint RAMpage, who bends silicon by dint of blows, protect our phones' memory from the hammers of its neighbours. Amen.",
+    "feast": "Celebrated by installing Android updates and handling with care the memory that is, underneath, made of physics.",
+    "proverb": "Hammer one row, and the neighbour pays."
+  }
+}

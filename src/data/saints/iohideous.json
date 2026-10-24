@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato IOHIDeous, che aspetta il logout",
+    "patronage": "dei mouse e delle tastiere, dei driver più vecchi dei loro utenti e di chi spegne il Mac solo a Capodanno.",
+    "hagiography": "L'ultimo giorno del 2017 il ricercatore Siguza pubblicò, senza avvisare prima Apple, i dettagli e l'exploit di un difetto in IOHIDFamily, la parte del kernel di macOS che parla con mouse e tastiere. Permetteva di leggere e scrivere la memoria del kernel e di spegnere SIP; secondo il suo scopritore era lì da almeno quindici anni. Paziente come pochi, l'exploit colpiva al momento del logout, del riavvio o dello spegnimento.",
+    "prayer": "O Beato IOHIDeous, che attendi in silenzio che l'utente se ne vada, fa' che i nostri driver di input leggano soltanto i tasti. Amen.",
+    "feast": "Si festeggia aggiornando macOS appena Apple rilascia la correzione, e restando collegati fino a mezzanotte per non dargli soddisfazione.",
+    "proverb": "A Capodanno chi fa logout non sa chi resta in casa."
+  },
+  "en": {
+    "title": "Blessed IOHIDeous, Who Waits for You to Log Out",
+    "patronage": "mice and keyboards, drivers older than their users, and people who only shut down their Mac on New Year's Eve.",
+    "hagiography": "On the last day of 2017 the researcher Siguza published, without warning Apple first, the details and exploit of a flaw in IOHIDFamily, the part of the macOS kernel that talks to mice and keyboards. It allowed reading and writing kernel memory and switching off SIP; according to its finder it had been there for at least fifteen years. Patient as few others, the exploit struck at logout, reboot or shutdown.",
+    "prayer": "O Blessed IOHIDeous, who waits in silence for the user to leave, let our input drivers read nothing but keystrokes. Amen.",
+    "feast": "Celebrated by updating macOS as soon as Apple ships the fix, and staying logged in past midnight just to spite him.",
+    "proverb": "Log out on New Year's Eve, and someone else stays for the party."
+  }
+}

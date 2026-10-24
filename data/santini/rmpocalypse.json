@@ -1,0 +1,10 @@
+{
+  "label": "RMPocalypse",
+  "motto": "OCTO BYTES SUFFICIUNT",
+  "niche": [
+    "#2d1210",
+    "#5c2620"
+  ],
+  "accent": "#5c1f18",
+  "emblem": "<g stroke=\"#2b1d14\" stroke-width=\"1.5\"><rect x=\"108\" y=\"132\" width=\"20\" height=\"20\" fill=\"#e74c3c\"/><rect x=\"130\" y=\"132\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"152\" y=\"132\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"174\" y=\"132\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"108\" y=\"154\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"130\" y=\"154\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"152\" y=\"154\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"174\" y=\"154\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"108\" y=\"176\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"130\" y=\"176\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"152\" y=\"176\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"174\" y=\"176\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"108\" y=\"198\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"130\" y=\"198\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"152\" y=\"198\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"174\" y=\"198\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/></g>\n<path d=\"M118 142 L140 170 L132 188 L160 206 L152 220 L176 226\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#fbf3dd\">8 B</text>"
+}

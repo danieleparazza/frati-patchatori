@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San dmaFail, che scriveva dove non doveva",
+    "patronage": "dei registri MMIO dimenticati, dei chip Apple e di chi studia un attacco e ne trova dentro un altro.",
+    "hagiography": "Il 28 dicembre 2023, nello stesso lavoro su Operation Triangulation, emerse dmaFail, cioè CVE-2023-38606: certi registri hardware non documentati dei chip Apple permettevano a un'app di scrivere in regioni di memoria del kernel che avrebbero dovuto essere protette. Era il tassello che reggeva l'intera catena di iPhone, un difetto di stato gestito male in un pezzo di silicio che nessuno avrebbe dovuto poter toccare.",
+    "prayer": "O San dmaFail, che scrivi negli angoli di memoria che nessuno sorvegliava, fa' che ogni registro hardware abbia un guardiano. Amen.",
+    "feast": "Si festeggia aggiornando i dispositivi Apple alle versioni corrette e rispettando il silicio che non si vede.",
+    "proverb": "Registro dimenticato, kernel spalancato."
+  },
+  "en": {
+    "title": "Saint dmaFail, Who Wrote Where He Shouldn't",
+    "patronage": "forgotten MMIO registers, Apple chips, and researchers who study one attack and find another inside it.",
+    "hagiography": "On 28 December 2023, within the same work on Operation Triangulation, dmaFail emerged, that is CVE-2023-38606: certain undocumented hardware registers of Apple chips let an app write into kernel memory regions that should have been protected. It was the piece holding up the whole iPhone chain, a mishandled state flaw in a bit of silicon no one should have been able to touch.",
+    "prayer": "O Saint dmaFail, who writes in the corners of memory no one was watching, let every hardware register have a guardian. Amen.",
+    "feast": "Celebrated by updating Apple devices to the fixed versions and respecting the silicon you can't see.",
+    "proverb": "A forgotten register, a wide-open kernel."
+  }
+}

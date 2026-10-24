@@ -1,0 +1,10 @@
+{
+  "label": "DirtyCred",
+  "motto": "CRED PRO CRED",
+  "niche": [
+    "#2a1d12",
+    "#564026"
+  ],
+  "accent": "#42301c",
+  "emblem": "<rect x=\"104\" y=\"158\" width=\"52\" height=\"34\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<circle cx=\"118\" cy=\"170\" r=\"5\" fill=\"#7f8c8d\"/><rect x=\"128\" y=\"166\" width=\"22\" height=\"4\" fill=\"#7f8c8d\"/><rect x=\"128\" y=\"176\" width=\"22\" height=\"4\" fill=\"#7f8c8d\"/>\n<rect x=\"144\" y=\"186\" width=\"52\" height=\"34\" rx=\"4\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<circle cx=\"158\" cy=\"198\" r=\"5\" fill=\"#8c6a22\"/><rect x=\"168\" y=\"194\" width=\"22\" height=\"4\" fill=\"#8c6a22\"/><rect x=\"168\" y=\"204\" width=\"22\" height=\"4\" fill=\"#8c6a22\"/>\n<path d=\"M150 150 L168 150 M162 144 L170 150 L162 156\" stroke=\"#fbf3dd\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M150 228 L132 228 M138 222 L130 228 L138 234\" stroke=\"#fbf3dd\" stroke-width=\"3\" fill=\"none\"/>"
+}

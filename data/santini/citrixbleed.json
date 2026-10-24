@@ -1,0 +1,10 @@
+{
+  "label": "Citrix Bleed",
+  "motto": "SANGUIS SESSIONIS",
+  "niche": [
+    "#2d0f12",
+    "#5c1f24"
+  ],
+  "accent": "#5c171c",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"52\" rx=\"5\" fill=\"#1e272e\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"120\" y=\"158\" width=\"60\" height=\"30\" rx=\"2\" fill=\"#0d1115\"/>\n<text x=\"150\" y=\"179\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#27ae60\">token</text>\n<g fill=\"#c0392b\"><path d=\"M130 202 q-4 14 0 20 q4 -6 0 -20 z\"/><path d=\"M150 202 q-5 18 0 26 q5 -8 0 -26 z\"/><path d=\"M170 202 q-4 14 0 20 q4 -6 0 -20 z\"/></g>\n<path d=\"M140 238 q10 6 20 0\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2\"/>"
+}

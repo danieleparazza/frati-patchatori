@@ -1,0 +1,11 @@
+{
+  "label": "Operation Endgame",
+  "motto": "SCACCUS MATTUS",
+  "niche": [
+    "#1d3550",
+    "#3f6a8c"
+  ],
+  "accent": "#8a6d1f",
+  "frame": "miracolo",
+  "emblem": "<path d=\"M134 232 H166 L162 216 H138 Z\" fill=\"#fbf3dd\" stroke=\"#1d3550\" stroke-width=\"2\"/>\n<path d=\"M140 216 C140 196 142 182 136 172 H164 C158 182 160 196 160 216 Z\" fill=\"#fbf3dd\" stroke=\"#1d3550\" stroke-width=\"2\"/>\n<rect x=\"132\" y=\"162\" width=\"36\" height=\"10\" rx=\"2\" fill=\"#fbf3dd\" stroke=\"#1d3550\" stroke-width=\"2\"/>\n<path d=\"M136 162 V146 H142 V152 H147 V146 H153 V152 H158 V146 H164 V162 Z\" fill=\"#fbf3dd\" stroke=\"#1d3550\" stroke-width=\"2\" transform=\"rotate(0)\"/>\n<path d=\"M150 142 V128 M144 134 H156\" stroke=\"#d9ad55\" stroke-width=\"4\"/>\n<path d=\"M104 236 L196 236\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<path d=\"M180 150 L196 230\" stroke=\"#c0392b\" stroke-width=\"3\" stroke-dasharray=\"4 4\"/>"
+}

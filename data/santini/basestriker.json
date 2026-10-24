@@ -1,0 +1,10 @@
+{
+  "label": "baseStriker",
+  "motto": "DIVIDE ET FALLE",
+  "niche": [
+    "#1f2d3d",
+    "#3d5570"
+  ],
+  "accent": "#2a3f57",
+  "emblem": "<path d=\"M100 150 H200 V222 H100 Z\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M100 150 L150 188 L200 150\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"134\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">&lt;base&gt;</text>\n<g stroke=\"#c0392b\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\">\n<path d=\"M118 206 a8 8 0 0 1 8 -8 h14 a8 8 0 0 1 0 16 h-6\"/>\n<path d=\"M182 206 a8 8 0 0 0 -8 -8 h-14 a8 8 0 0 0 0 16 h6\"/>\n</g>\n<path d=\"M150 194 V222\" stroke=\"#2b1d14\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/>"
+}

@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "La piaga del Verme di Morris",
+    "chronicle": "La sera del 2 novembre 1988 un dottorando di Cornell, Robert Tappan Morris, liberò da una macchina del MIT un verme che strisciava attraverso la modalità DEBUG di sendmail, un buffer overflow di fingerd e la fiducia ingenua di rsh e rexec. Un errore nella logica di propagazione lo spinse a reinfettare più volte gli stessi host, finché circa 6.000 macchine, un decimo dell'Internet di allora, si piegarono sotto il suo peso. Per Morris arrivò la prima condanna per un reato grave ai sensi del Computer Fraud and Abuse Act.",
+    "lesson": "Dalle sue ceneri nacque il CERT/CC, il primo centro di coordinamento per le emergenze informatiche, e la Rete imparò che la fiducia tra host va meritata, non presunta.",
+    "prayer": "O Verme primigenio, che volevi solo contare le macchine e finisti per abbatterle, insegnaci a mettere un limite ai nostri cicli e a non lasciare il DEBUG acceso in produzione. Amen.",
+    "remembrance": "Si ricorda spegnendo i servizi che nessuno usa, cancellando i .rhosts dimenticati e controllando che ogni ciclo abbia una condizione d'uscita."
+  },
+  "en": {
+    "title": "The Plague of the Morris Worm",
+    "chronicle": "On the evening of 2 November 1988 Cornell graduate student Robert Tappan Morris released, from an MIT machine, a worm that crawled through sendmail's DEBUG mode, a fingerd buffer overflow and the naive trust of rsh and rexec. A bug in its spreading logic made it reinfect the same hosts again and again, until some 6,000 machines, about a tenth of the Internet of the day, buckled under the load. Morris became the first person convicted of a felony under the US Computer Fraud and Abuse Act.",
+    "lesson": "From its ashes rose CERT/CC, the first computer emergency coordination centre, and the network learned that trust between hosts must be earned, not assumed.",
+    "prayer": "O primordial Worm, who only meant to count the machines and ended up felling them, teach us to bound our loops and never to leave DEBUG switched on in production. Amen.",
+    "remembrance": "Remembered by switching off services nobody uses, deleting forgotten .rhosts files and making sure every loop knows how to stop."
+  }
+}

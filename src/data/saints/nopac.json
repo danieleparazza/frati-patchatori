@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San noPac, che si spacciava per il domain controller",
+    "patronage": "di Active Directory, degli account macchina e di chi dimentica il simbolo del dollaro.",
+    "hagiography": "Nel dicembre 2021 comparvero i primi exploit pubblici per noPac, la combinazione di CVE-2021-42278 e CVE-2021-42287. Bastava creare un account macchina, rinominarlo come un domain controller togliendo il dollaro finale e sfruttare il modo in cui il KDC ritentava la ricerca: così veniva emesso un ticket di servizio per l'account del controller, assai più potente. Dall'utente qualunque all'amministratore di dominio in pochi passi, a rischio ransomware.",
+    "prayer": "O San noPac, che ti presenti al dominio col nome del suo custode, fa' che i nostri controller diffidino degli omonimi. Amen.",
+    "feast": "Si festeggia installando le KB di Microsoft e limitando chi può creare account macchina nel dominio.",
+    "proverb": "Un dollaro di meno, un dominio di troppo."
+  },
+  "en": {
+    "title": "Saint noPac, Who Passed Himself Off as the Domain Controller",
+    "patronage": "Active Directory, machine accounts, and everyone who forgets the dollar sign.",
+    "hagiography": "In December 2021 the first public exploits appeared for noPac, the pairing of CVE-2021-42278 and CVE-2021-42287. All it took was to create a machine account, rename it like a domain controller without the trailing dollar, and abuse the way the KDC retried its lookup: a service ticket was then issued for the controller's far more powerful account. From ordinary user to domain admin in a few steps, with ransomware in reach.",
+    "prayer": "O Saint noPac, who introduces yourself to the domain under its keeper's name, let our controllers distrust namesakes. Amen.",
+    "feast": "Celebrated by installing Microsoft's KBs and limiting who may create machine accounts in the domain.",
+    "proverb": "One dollar short, one domain too many."
+  }
+}

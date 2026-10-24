@@ -1,0 +1,10 @@
+{
+  "label": "batsignal",
+  "motto": "LUX SPOTLIGHT VOCAT",
+  "niche": [
+    "#141822",
+    "#2e3648"
+  ],
+  "accent": "#20283a",
+  "emblem": "<circle cx=\"150\" cy=\"186\" r=\"52\" fill=\"#d9ad55\"/>\n<path d=\"M150 158 q-10 -16 -24 -14 q8 6 8 14 q-10 -4 -18 2 q12 2 16 10 q-6 4 -4 14 q10 -10 26 -6 q16 -4 26 6 q2 -10 -4 -14 q4 -8 16 -10 q-8 -6 -18 -2 q0 -8 8 -14 q-14 -2 -24 14 z\" fill=\"#141822\"/>\n<g stroke=\"#e8c45c\" stroke-width=\"2\" opacity=\"0.7\"><path d=\"M150 134 V118 M118 150 L104 138 M182 150 L196 138\"/></g>"
+}

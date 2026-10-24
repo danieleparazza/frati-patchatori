@@ -1,0 +1,10 @@
+{
+  "label": "Fragnesia",
+  "motto": "MEMORIA FRACTA",
+  "niche": [
+    "#1f2a33",
+    "#3d5260"
+  ],
+  "accent": "#2a3e4a",
+  "emblem": "<path d=\"M106 150 L140 140 L148 176 L112 186 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M152 140 L190 150 L184 186 L148 176 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M148 176 L148 176\" />\n<circle cx=\"130\" cy=\"164\" r=\"3\" fill=\"#6e4b2a\"/><circle cx=\"168\" cy=\"162\" r=\"3\" fill=\"#6e4b2a\"/>\n<rect x=\"116\" y=\"196\" width=\"68\" height=\"40\" rx=\"4\" fill=\"#111\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#7ee08a\">#  su</text>\n<text x=\"150\" y=\"130\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#bfc9d1\">?</text>"
+}

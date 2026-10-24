@@ -1,0 +1,11 @@
+{
+  "label": "Ukraine 2015",
+  "motto": "LUX IN TENEBRIS REDIT",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<g stroke=\"#bfc9d1\" stroke-width=\"3\" fill=\"none\"><path d=\"M150 128 L132 240 M150 128 L168 240 M138 200 H162 M141 176 H159 M144 152 H156\"/>\n<line x1=\"112\" y1=\"152\" x2=\"188\" y2=\"152\"/><line x1=\"120\" y1=\"176\" x2=\"180\" y2=\"176\"/></g>\n<g fill=\"#fbf3dd\"><circle cx=\"112\" cy=\"152\" r=\"4\"/><circle cx=\"188\" cy=\"152\" r=\"4\"/><circle cx=\"120\" cy=\"176\" r=\"4\"/><circle cx=\"180\" cy=\"176\" r=\"4\"/></g>\n<path d=\"M190 196 L178 216 H190 L182 236\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<path d=\"M104 222 L114 212 L114 232 Z\" fill=\"#fbf3dd\"/>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "TLStorm",
+  "motto": "TEMPESTAS IN UPS",
+  "niche": [
+    "#1c2b3a",
+    "#334d6b"
+  ],
+  "accent": "#253b52",
+  "emblem": "<rect x=\"118\" y=\"150\" width=\"64\" height=\"80\" rx=\"6\" fill=\"#2b2b2b\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<rect x=\"128\" y=\"160\" width=\"44\" height=\"20\" rx=\"2\" fill=\"#7dcea0\"/>\n<text x=\"150\" y=\"175\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#1c2b3a\">UPS</text>\n<g fill=\"#bfc9d1\"><circle cx=\"134\" cy=\"200\" r=\"4\"/><circle cx=\"150\" cy=\"200\" r=\"4\"/><circle cx=\"166\" cy=\"200\" r=\"4\"/></g>\n<path d=\"M150 210 l-10 0 l6 8 l-8 0\" fill=\"none\" stroke=\"#f1c40f\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M170 128 l-14 22 h10 l-6 18 l20 -26 h-10 l6 -14 z\" fill=\"#f1c40f\" stroke=\"#2b1d14\" stroke-width=\"1\"/>\n<g fill=\"none\" stroke=\"#5dade2\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M192 152 a12 12 0 0 1 0 22\"/><path d=\"M200 146 a20 20 0 0 1 0 34\"/></g>"
+}

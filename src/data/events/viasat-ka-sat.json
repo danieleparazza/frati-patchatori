@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello dei modem satellitari",
+    "chronicle": "Il 24 febbraio 2022, verso le 3:02 UTC, nell'ora in cui la Russia invadeva l'Ucraina, degli attaccanti resero inutilizzabili decine di migliaia di modem satellitari della rete KA-SAT in tutta Europa con il wiper AcidRain. L'attacco disturbò le comunicazioni ucraine proprio nelle prime ore della guerra, ma ebbe effetti anche lontano: in Germania si perse il monitoraggio remoto di circa 5.800 turbine eoliche Enercon. L'Unione europea, gli Stati Uniti e il Regno Unito lo attribuirono alla Russia.",
+    "lesson": "Mostrò che gli attacchi informatici accompagnano ormai quelli militari, e che un colpo a un fornitore di comunicazioni può travolgere utenti e industrie di altri paesi.",
+    "prayer": "O AcidRain, pioggia che cadesti sui modem di mezza Europa, risparmia i nostri dispositivi e lascia libere le comunicazioni di chi ne ha più bisogno. Amen.",
+    "remembrance": "Si ricorda proteggendo i sistemi di gestione delle reti di comunicazione, tenendo pronti canali di riserva e chiedendosi da quale satellite dipendono le proprie turbine."
+  },
+  "en": {
+    "title": "The Scourge of the Satellite Modems",
+    "chronicle": "On 24 February 2022, at about 03:02 UTC, the hour Russia invaded Ukraine, attackers bricked tens of thousands of KA-SAT satellite modems across Europe with the AcidRain wiper. The attack disrupted Ukrainian communications in the very first hours of the war, but also struck far away: in Germany remote monitoring of about 5,800 Enercon wind turbines was lost. The EU, the US and the UK attributed it to Russia.",
+    "lesson": "It showed that cyberattacks now accompany military ones, and that a blow to a communications provider can overwhelm users and industries in other countries.",
+    "prayer": "O AcidRain, who fell on the modems of half of Europe, spare our devices and leave free the communications of those who need them most. Amen.",
+    "remembrance": "Remembered by protecting the management systems of communications networks, keeping backup channels ready and asking which satellite your wind turbines depend on."
+  }
+}

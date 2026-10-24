@@ -1,0 +1,10 @@
+{
+  "label": "NAT Slipstream",
+  "motto": "PER MURUM LABITUR",
+  "niche": [
+    "#16222e",
+    "#2e4658"
+  ],
+  "accent": "#203644",
+  "emblem": "<rect x=\"116\" y=\"162\" width=\"68\" height=\"40\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<line x1=\"132\" y1=\"162\" x2=\"128\" y2=\"138\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<line x1=\"168\" y1=\"162\" x2=\"172\" y2=\"138\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<g fill=\"#27ae60\"><circle cx=\"128\" cy=\"192\" r=\"3\"/><circle cx=\"140\" cy=\"192\" r=\"3\"/></g>\n<path d=\"M96 182 q30 0 38 0 M166 182 h40\" stroke=\"#e74c3c\" stroke-width=\"3\" fill=\"none\" stroke-dasharray=\"6 4\"/>\n<path d=\"M200 182 l-10 -5 v10 z\" fill=\"#e74c3c\"/>\n<circle cx=\"150\" cy=\"182\" r=\"9\" fill=\"#2c3e50\"/><text x=\"150\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#fbf3dd\">NAT</text>"
+}

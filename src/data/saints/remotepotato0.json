@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato RemotePotato0, l'ultima delle patate",
+    "patronage": "degli attacchi di relay in Windows, del protocollo RPC e della lunga dinastia delle patate.",
+    "hagiography": "Il 2 settembre 2021 Antonio Cocomazzi di SentinelOne descrisse RemotePotato0, l'ennesima falla di scalata di privilegi nel protocollo RPC di Windows. Ingannando un utente più privilegiato connesso alla stessa macchina, si poteva costringere il suo account ad autenticarsi e rilanciare quell'autenticazione altrove, fino a prendere il controllo del dominio. È l'ultima erede di una lunga famiglia: Hot, Rotten, Juicy, Rogue e tante altre patate.",
+    "prayer": "O Beato RemotePotato0, ultimo tubero di una stirpe gloriosa, fa' che le nostre autenticazioni non vengano mai rilanciate a chi non le merita. Amen.",
+    "feast": "Si festeggia applicando le micropatch disponibili e disattivando il relay NTLM dove non serve.",
+    "proverb": "Finché c'è RPC, c'è una patata da raccogliere."
+  },
+  "en": {
+    "title": "Blessed RemotePotato0, the Last of the Potatoes",
+    "patronage": "Windows relay attacks, the RPC protocol, and the long dynasty of potatoes.",
+    "hagiography": "On 2 September 2021 Antonio Cocomazzi of SentinelOne described RemotePotato0, yet another privilege escalation flaw in the Windows RPC protocol. By tricking a more privileged user logged onto the same machine, one could force their account to authenticate and relay that authentication elsewhere, up to taking over the domain. It is the latest heir of a long family: Hot, Rotten, Juicy, Rogue and many other potatoes.",
+    "prayer": "O Blessed RemotePotato0, last tuber of a glorious line, let our authentications never be relayed to those who don't deserve them. Amen.",
+    "feast": "Celebrated by applying the available micropatches and disabling NTLM relay where it isn't needed.",
+    "proverb": "As long as there is RPC, there is a potato to harvest."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'EUCLEAK, che estrasse la chiave dalla chiavetta",
+    "patronage": "delle chiavi di sicurezza, dei token FIDO e di chi credeva che la chiave hardware fosse inviolabile.",
+    "hagiography": "Il 3 settembre 2024 il NinjaLab rivelò EUCLEAK, un canale laterale elettromagnetico nel microcontrollore Infineon usato in molte chiavi di sicurezza, tra cui le YubiKey 5 con firmware anteriore alla 5.7. Con accesso fisico e strumentazione costosa, misurando le emissioni durante una firma, si poteva ricostruire la chiave ECDSA e clonare il token. Difficile e costoso, ma non più impossibile.",
+    "prayer": "O Sant'EUCLEAK, che ascolti il sussurro elettromagnetico della firma, fa' che le nostre moltiplicazioni modulari impieghino sempre lo stesso tempo. Amen.",
+    "feast": "Si festeggia acquistando token con firmware aggiornato e tenendo ben stretta la propria chiave di sicurezza.",
+    "proverb": "Chiave in tasca, segreto nell'etere."
+  },
+  "en": {
+    "title": "Saint EUCLEAK, Who Drew the Key From the Key",
+    "patronage": "security keys, FIDO tokens, and everyone who thought a hardware key was untouchable.",
+    "hagiography": "On 3 September 2024 NinjaLab revealed EUCLEAK, an electromagnetic side channel in the Infineon microcontroller used in many security keys, including YubiKey 5 with firmware before 5.7. With physical access and expensive equipment, measuring the emissions during a signature, one could reconstruct the ECDSA key and clone the token. Hard and costly, but no longer impossible.",
+    "prayer": "O Saint EUCLEAK, who listens to the electromagnetic whisper of the signature, let our modular multiplications always take the same time. Amen.",
+    "feast": "Celebrated by buying tokens with updated firmware and keeping your security key close.",
+    "proverb": "Key in your pocket, secret in the air."
+  }
+}

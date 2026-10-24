@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LoopyTicket, che si autenticava con sé stesso",
+    "patronage": "di SMB e Kerberos, dei biglietti che tornano al mittente e dei laboratori casalinghi fortunati.",
+    "hagiography": "Nel 2025 GuidePoint Security raccontò la nascita e la morte di LoopyTicket (CVE-2025-33073), scoperta per caso in un laboratorio domestico. Costringendo una macchina ad autenticarsi via SMB e rimandandole indietro il proprio biglietto Kerberos, la si convinceva a trattare quella connessione come locale, ottenendo i privilegi di SYSTEM su ogni host senza firma SMB obbligatoria. Microsoft chiuse il cerchio a giugno 2025.",
+    "prayer": "O San LoopyTicket, che fai autenticare la macchina con il suo stesso biglietto, insegna ai nostri host a non fidarsi di chi dice di essere loro. Amen.",
+    "feast": "Si festeggia installando la patch di giugno 2025 e imponendo la firma SMB, così nessun biglietto torni indietro per aprire la porta di casa.",
+    "proverb": "Biglietto che torna al mittente, apre la porta al malintenzionato."
+  },
+  "en": {
+    "title": "Saint LoopyTicket, Who Authenticated With Himself",
+    "patronage": "SMB and Kerberos, tickets that return to sender, and lucky home labs.",
+    "hagiography": "In 2025 GuidePoint Security told the birth and death of LoopyTicket (CVE-2025-33073), found by chance in a home lab. By coercing a machine to authenticate over SMB and relaying its own Kerberos ticket back to it, you convinced it to treat that connection as local, gaining SYSTEM on any host without enforced SMB signing. Microsoft closed the loop in June 2025.",
+    "prayer": "O Saint LoopyTicket, who makes the machine authenticate with its own ticket, teach our hosts not to trust whoever claims to be them. Amen.",
+    "feast": "Celebrated by installing the June 2025 patch and enforcing SMB signing, so no ticket comes back to open the front door.",
+    "proverb": "A ticket returned to sender opens the door to the intruder."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Smurf",
+  "motto": "UNUS PING, MILLE PONG",
+  "niche": [
+    "#1b2f5e",
+    "#2e4f8f"
+  ],
+  "accent": "#1b2f5e",
+  "frame": "papa",
+  "emblem": "<path d=\"M112 206 C108 168 128 136 160 132 C186 130 200 148 194 162 C188 154 178 152 172 158 C182 172 186 190 188 206 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M108 204 H192 V214 C170 220 130 220 108 214 Z\" fill=\"#e8dcc0\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"none\" stroke=\"#7fb3d5\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M104 236 L116 228 M150 242 V230 M196 236 L184 228\"/></g>\n<g fill=\"#7fb3d5\"><circle cx=\"100\" cy=\"240\" r=\"3\"/><circle cx=\"150\" cy=\"248\" r=\"3\"/><circle cx=\"200\" cy=\"240\" r=\"3\"/><circle cx=\"125\" cy=\"246\" r=\"3\"/><circle cx=\"175\" cy=\"246\" r=\"3\"/></g>"
+}

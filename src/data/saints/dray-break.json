@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DRAY:BREAK, che spezzò i router DrayTek",
+    "patronage": "dei router da ufficio dimenticati sotto la scrivania, dei modelli fuori supporto e dei pannelli web esposti su Internet.",
+    "hagiography": "Il 2 ottobre 2024 Forescout pubblicò quattordici vulnerabilità nei router DrayTek Vigor, una delle quali, un overflow nell'interfaccia web, con il punteggio massimo di 10. Gli apparecchi esposti su Internet erano oltre 700.000, e undici dei ventiquattro modelli colpiti erano già fuori supporto. Non era la prima processione: diversi bug DrayTek precedenti erano già finiti nel catalogo CISA delle vulnerabilità sfruttate.",
+    "prayer": "O San DRAY:BREAK, che entri dal pannello che nessuno ha chiuso, fa' che i nostri router non parlino con il mondo intero. Amen.",
+    "feast": "Si festeggia aggiornando il firmware DrayTek, togliendo l'interfaccia web da Internet e mandando in pensione, con una piccola cerimonia, il router fuori supporto.",
+    "proverb": "Router vecchio non muore: si fa bucare."
+  },
+  "en": {
+    "title": "Saint DRAY:BREAK, Who Broke the DrayTek Routers",
+    "patronage": "office routers forgotten under the desk, end-of-life models, and web panels exposed to the Internet.",
+    "hagiography": "On 2 October 2024 Forescout published fourteen vulnerabilities in DrayTek Vigor routers, one of them, an overflow in the web interface, with the maximum score of 10. Over 700,000 devices were exposed to the Internet, and eleven of the twenty-four affected models were already end-of-life. It wasn't the first procession: several earlier DrayTek bugs were already in CISA's catalogue of exploited vulnerabilities.",
+    "prayer": "O Saint DRAY:BREAK, who comes in through the panel nobody closed, let our routers not talk to the whole world. Amen.",
+    "feast": "Celebrated by updating DrayTek firmware, taking the web interface off the Internet and retiring the end-of-life router with a small ceremony.",
+    "proverb": "Old routers never die: they just get popped."
+  }
+}

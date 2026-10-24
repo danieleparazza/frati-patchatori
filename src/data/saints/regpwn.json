@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RegPwn, che dirottava la scrittura",
+    "patronage": "dell'accessibilità di Windows, dei collegamenti simbolici nel registro e dei processi di sistema troppo fiduciosi.",
+    "hagiography": "Il 10 marzo 2026 Microsoft corresse la CVE-2026-24291, raccontata da MDSec. Nell'infrastruttura di accessibilità di Windows, il componente ATBroker eseguito come SYSTEM copiava impostazioni controllabili dall'utente in una zona del registro più privilegiata. Con un collegamento simbolico piazzato al momento giusto, un utente locale poteva dirottare quella scrittura e ottenere privilegi di sistema.",
+    "prayer": "O San RegPwn, che devi aiutare e invece spalanchi, fa' che i nostri processi di sistema non scrivano mai dove l'utente comanda. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di marzo 2026 e controllando che ogni scrittura privilegiata verifichi dove sta davvero andando.",
+    "proverb": "Chi scrive dove gli indicano, firma per un altro."
+  },
+  "en": {
+    "title": "Saint RegPwn, Who Hijacked the Write",
+    "patronage": "Windows accessibility, registry symbolic links, and system processes that trust too much.",
+    "hagiography": "On 10 March 2026 Microsoft fixed CVE-2026-24291, described by MDSec. In Windows' accessibility infrastructure, the ATBroker component running as SYSTEM copied user-controllable settings into a more privileged registry location. With a symbolic link placed at the right moment, a local user could hijack that write and gain system privileges.",
+    "prayer": "O Saint RegPwn, who is meant to help and instead throws doors open, keep our system processes from ever writing where the user points. Amen.",
+    "feast": "Celebrated by installing the March 2026 updates and making sure every privileged write checks where it is actually going.",
+    "proverb": "Write where you're told, and you sign for someone else."
+  }
+}

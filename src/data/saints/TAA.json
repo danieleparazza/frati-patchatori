@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TAA, che abortiva per svelare i segreti",
+    "patronage": "delle memorie transazionali TSX, dei buffer interni della CPU e di chi aveva appena patchato per MDS.",
+    "hagiography": "Il 12 novembre 2019 VUSec e Intel rivelarono TAA, TSX Asynchronous Abort: quando una transazione TSX veniva interrotta bruscamente, il processore poteva lasciar trapelare, per esecuzione speculativa, dati residui nei suoi buffer interni, gli stessi colpiti dagli attacchi MDS. Da un programma senza privilegi si potevano così sbirciare dati di altri processi. La difesa più sicura era disattivare del tutto TSX (CVE-2019-11135).",
+    "prayer": "O San TAA, che interrompi la transazione e lasci cadere i segreti, fa' che i nostri buffer non si svuotino nelle mani sbagliate. Amen.",
+    "feast": "Si festeggia aggiornando il microcodice e, dove la prestazione lo consente, disattivando TSX.",
+    "proverb": "Transazione interrotta, segreto scappato."
+  },
+  "en": {
+    "title": "Saint TAA, Who Aborted to Reveal the Secrets",
+    "patronage": "TSX transactional memory, the CPU's internal buffers, and everyone who had just patched for MDS.",
+    "hagiography": "On 12 November 2019 VUSec and Intel revealed TAA, TSX Asynchronous Abort: when a TSX transaction was aborted abruptly, the processor could leak, through speculative execution, leftover data in its internal buffers, the same ones hit by the MDS attacks. From an unprivileged program one could thus peek at other processes' data. The safest defence was to disable TSX entirely (CVE-2019-11135).",
+    "prayer": "O Saint TAA, who aborts the transaction and lets the secrets fall, let our buffers not empty into the wrong hands. Amen.",
+    "feast": "Celebrated by updating the microcode and, where performance allows, disabling TSX.",
+    "proverb": "Aborted transaction, escaped secret."
+  }
+}

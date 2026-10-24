@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Hertzbleed, che faceva cantare la frequenza",
+    "patronage": "dei processori che accelerano e rallentano, della crittografia a tempo costante e dei cronometri pazienti.",
+    "hagiography": "Il 14 giugno 2022 un gruppo di ricercatori di più università rivelò che la frequenza dei processori Intel e AMD, che sale e scende per risparmiare energia, dipendeva anche dai dati elaborati. Così perfino il codice crittografico scritto per durare sempre lo stesso tempo finiva per tradirsi, e misurando i tempi da remoto si poteva estrarre una chiave, come mostrarono contro SIKE. I produttori non rilasciarono microcodice correttivo.",
+    "prayer": "O San Hertzbleed, che fai battere più forte il cuore della CPU quando pensa ai segreti, dona ai nostri algoritmi una frequenza imperturbabile. Amen.",
+    "feast": "Si festeggia aggiornando le librerie crittografiche con le contromisure e chiedendo al proprio processore di restare calmo.",
+    "proverb": "Cuore che accelera, segreto che si svela."
+  },
+  "en": {
+    "title": "Saint Hertzbleed, Who Made Frequency Sing",
+    "patronage": "processors that speed up and slow down, constant-time cryptography, and patient stopwatches.",
+    "hagiography": "On 14 June 2022 researchers from several universities revealed that the frequency of Intel and AMD processors, which rises and falls to save power, also depended on the data being processed. So even cryptographic code written to always take the same time gave itself away, and by timing it remotely a key could be extracted, as they showed against SIKE. The vendors did not release corrective microcode.",
+    "prayer": "O Saint Hertzbleed, who makes the CPU's heart beat faster when it thinks of secrets, grant our algorithms an unflappable frequency. Amen.",
+    "feast": "Celebrated by updating cryptographic libraries with the countermeasures and asking your processor to stay calm.",
+    "proverb": "A racing heart gives the secret away."
+  }
+}

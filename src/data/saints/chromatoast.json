@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ChromaToast, che tostava il database vettoriale",
+    "patronage": "dei database vettoriali, delle opzioni che eseguono codice remoto e dei controlli di accesso messi dopo.",
+    "hagiography": "Il 18 maggio 2026 Esteban Tonglet di HiddenLayer descrisse ChromaToast (CVE-2026-45829), un difetto nel server Python di ChromaDB. Creando una collezione si poteva passare una funzione di embedding con l'opzione trust_remote_code attivata e un modello scelto dall'attaccante: il server lo caricava ed eseguiva il suo codice, e il controllo dell'autenticazione arrivava solo dopo. Un attaccante senza credenziali otteneva così il controllo del server.",
+    "prayer": "O San ChromaToast, che carichi il codice prima di chiedere chi sei, fa' che i nostri server controllino le credenziali per primi. Amen.",
+    "feast": "Si festeggia usando la distribuzione in Rust di Chroma o chiudendo la porta del server Python a chi non è fidato.",
+    "proverb": "Prima apri il modello, poi chiedi il nome: troppo tardi."
+  },
+  "en": {
+    "title": "Saint ChromaToast, Who Toasted the Vector Database",
+    "patronage": "vector databases, options that run remote code, and access checks placed last.",
+    "hagiography": "On 18 May 2026 Esteban Tonglet of HiddenLayer described ChromaToast (CVE-2026-45829), a flaw in ChromaDB's Python server. Creating a collection, you could pass an embedding function with trust_remote_code turned on and a model of the attacker's choosing: the server loaded it and ran its code, and the authentication check only came afterward. An attacker with no credentials thus took control of the server.",
+    "prayer": "O Saint ChromaToast, who loads the code before asking who you are, let our servers check credentials first. Amen.",
+    "feast": "Celebrated by using Chroma's Rust distribution or closing the Python server's port to anyone untrusted.",
+    "proverb": "Open the model first and ask the name later: too late."
+  }
+}

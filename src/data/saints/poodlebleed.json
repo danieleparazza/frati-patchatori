@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PoodleBleed, che fece tornare SSL 3.0",
+    "patronage": "delle vecchie versioni di SSL, dei downgrade di protocollo e dei barboncini mal pettinati.",
+    "hagiography": "Il 20 settembre 2014 Bodo Möller, Thai Duong e Krzysztof Kotowicz di Google rivelarono POODLE, un attacco al vetusto SSL 3.0. Forzando un downgrade della connessione a quel protocollo e sfruttando il riempimento del CBC, un attaccante poteva decifrare un byte alla volta dati sensibili come i cookie di sessione. Una variante colpì anche alcune implementazioni di TLS che riusavano il vecchio codice.",
+    "prayer": "O San PoodleBleed, che riporti in vita i protocolli che credevamo sepolti, fa' che i nostri server rifiutino per sempre SSL 3.0. Amen.",
+    "feast": "Si festeggia disattivando SSL 3.0 ovunque e attivando TLS_FALLBACK_SCSV contro i downgrade.",
+    "proverb": "Protocollo vecchio mai sepolto, prima o poi torna a mordere."
+  },
+  "en": {
+    "title": "Saint PoodleBleed, Who Brought SSL 3.0 Back",
+    "patronage": "old SSL versions, protocol downgrades, and badly groomed poodles.",
+    "hagiography": "On 20 September 2014 Bodo Möller, Thai Duong and Krzysztof Kotowicz of Google revealed POODLE, an attack on venerable SSL 3.0. By forcing a connection to downgrade to that protocol and exploiting CBC padding, an attacker could decrypt sensitive data such as session cookies one byte at a time. A variant also hit some TLS implementations that reused the old code.",
+    "prayer": "O Saint PoodleBleed, who bring back to life the protocols we thought buried, let our servers refuse SSL 3.0 for ever. Amen.",
+    "feast": "Celebrated by disabling SSL 3.0 everywhere and enabling TLS_FALLBACK_SCSV against downgrades.",
+    "proverb": "An old protocol never buried will bite again sooner or later."
+  }
+}

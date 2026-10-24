@@ -1,0 +1,11 @@
+{
+  "label": "Sony Pictures",
+  "motto": "PAX NON CUSTODITA",
+  "niche": [
+    "#2e2924",
+    "#5b4b3f"
+  ],
+  "accent": "#5a3a2a",
+  "frame": "flagello",
+  "emblem": "<rect x=\"108\" y=\"146\" width=\"84\" height=\"64\" rx=\"3\" fill=\"#1a1a1a\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<g fill=\"#fbf3dd\"><rect x=\"116\" y=\"150\" width=\"6\" height=\"6\"/><rect x=\"116\" y=\"200\" width=\"6\" height=\"6\"/><rect x=\"132\" y=\"150\" width=\"6\" height=\"6\"/><rect x=\"132\" y=\"200\" width=\"6\" height=\"6\"/><rect x=\"148\" y=\"150\" width=\"6\" height=\"6\"/><rect x=\"148\" y=\"200\" width=\"6\" height=\"6\"/><rect x=\"164\" y=\"150\" width=\"6\" height=\"6\"/><rect x=\"164\" y=\"200\" width=\"6\" height=\"6\"/><rect x=\"180\" y=\"150\" width=\"6\" height=\"6\"/><rect x=\"180\" y=\"200\" width=\"6\" height=\"6\"/></g>\n<path d=\"M150 162 C136 162 132 172 134 182 C136 188 140 188 140 194 H160 C160 188 164 188 166 182 C168 172 164 162 150 162 Z\" fill=\"#c0392b\"/>\n<circle cx=\"144\" cy=\"178\" r=\"4\" fill=\"#1a1a1a\"/><circle cx=\"156\" cy=\"178\" r=\"4\" fill=\"#1a1a1a\"/>\n<text x=\"150\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\" >G.O.P.</text>"
+}

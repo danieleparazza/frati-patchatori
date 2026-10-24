@@ -1,0 +1,10 @@
+{
+  "label": "AgentForger",
+  "motto": "SOCIUS FABRICATUS",
+  "niche": [
+    "#2a1420",
+    "#56283e"
+  ],
+  "accent": "#401e2e",
+  "emblem": "<path d=\"M118 206 L182 206 L176 226 L124 226 Z\" fill=\"#2b1d14\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<rect x=\"144\" y=\"150\" width=\"12\" height=\"60\" fill=\"#8b5a2b\"/>\n<path d=\"M150 150 C140 150 132 158 132 168 C132 176 150 182 150 182 C150 182 168 176 168 168 C168 158 160 150 150 150 Z\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<g fill=\"#e67e22\"><path d=\"M110 150 q10 -20 20 -8 q-4 10 -16 14z\"/><path d=\"M190 150 q-10 -20 -20 -8 q4 10 16 14z\"/></g>\n<circle cx=\"150\" cy=\"128\" r=\"6\" fill=\"#d9ad55\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">1 link</text>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Dubious Disk, il ramdisk che non era mai stato creato",
+    "patronage": "dei boot manager, delle chiavi BitLocker sigillate solo nel TPM e dei flag che nessuno controlla.",
+    "hagiography": "Rivelato nel 2024 da Rairii (wack0) in un racconto che comincia come una poesia di Poe, nasceva da un bit dimenticato. Nel BCD di Windows un ramdisk segnato come \"da creare\" viene riempito all'avvio; togliendo quel bit, l'ambiente di boot si fidava di indirizzo fisico e dimensione scritti dall'attaccante, e ogni scrittura sul disco diventava una scrittura in memoria arbitraria. Ne seguivano Secure Boot aggirato e chiavi BitLocker estratte nella configurazione predefinita; Microsoft rattoppò in più puntate, con una serie di CVE.",
+    "prayer": "O San Dubious Disk, che scrivi dove nessuno guarda, fa' che i nostri boot manager verifichino ogni bit prima di fidarsi. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di Secure Boot, revocando i boot manager vulnerabili e aggiungendo un PIN a BitLocker.",
+    "proverb": "Disco dubbio, avvio torbido."
+  },
+  "en": {
+    "title": "Saint Dubious Disk, the Ramdisk That Was Never Created",
+    "patronage": "boot managers, BitLocker keys sealed by the TPM alone, and flags nobody checks.",
+    "hagiography": "Revealed in 2024 by Rairii (wack0) in a write-up that opens like a Poe poem, he was born of a forgotten bit. In the Windows BCD a ramdisk marked \"to be created\" is filled in at boot; clear that bit and the boot environment trusted the physical address and size written by the attacker, turning every disk write into an arbitrary memory write. Secure Boot fell, and BitLocker keys could be dumped in the default setup; Microsoft patched it in instalments, under a string of CVEs.",
+    "prayer": "O Saint Dubious Disk, who writes where nobody looks, let our boot managers check every bit before trusting it. Amen.",
+    "feast": "Celebrated by installing the Secure Boot updates, revoking vulnerable boot managers and adding a PIN to BitLocker.",
+    "proverb": "Dubious disk, risky boot."
+  }
+}

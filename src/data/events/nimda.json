@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Nimda, l'admin alla rovescia",
+    "chronicle": "Il 18 settembre 2001, una settimana dopo l'11 settembre, comparve Nimda, cioè 'admin' letto al contrario. Si diffondeva in ogni modo possibile: per email, attraverso le condivisioni di rete aperte, dai siti web compromessi ai loro visitatori, con un directory traversal di IIS e passando dalle backdoor lasciate da Code Red II. In poche ore diventò uno dei worm più rapidi del suo tempo, e il traffico delle sue scansioni e dei suoi invii causò disservizi in tutto il mondo.",
+    "lesson": "Mostrò che un attacco può usare molte porte insieme e che chiuderne una sola non basta: la difesa dev'essere a strati, e le macchine già compromesse vanno bonificate davvero.",
+    "prayer": "O Nimda, che rovesciasti l'amministratore e la sua giornata, chiudi le nostre condivisioni aperte e le backdoor dei worm precedenti, perché nessun male entri da cinque porte in una volta. Amen.",
+    "remembrance": "Si ricorda chiudendo le condivisioni scrivibili da chiunque, reinstallando da zero le macchine compromesse e non fidandosi di un sito solo perché lo si conosce."
+  },
+  "en": {
+    "title": "The Scourge of Nimda, Admin Backwards",
+    "chronicle": "On 18 September 2001, a week after 9/11, Nimda appeared, its name 'admin' spelled backwards. It spread every way it could: by email, through open network shares, from compromised websites to their visitors, via an IIS directory traversal and through the backdoors left by Code Red II. Within hours it became one of the fastest worms of its time, and the traffic from its scanning and mailing caused outages around the world.",
+    "lesson": "It showed that an attack can use many doors at once and that closing just one is not enough: defence has to be layered, and compromised machines must be truly cleaned.",
+    "prayer": "O Nimda, who turned the admin and his day upside down, close our open shares and the backdoors of earlier worms, so that no evil enters through five doors at once. Amen.",
+    "remembrance": "Remembered by closing world-writable shares, rebuilding compromised machines from scratch and not trusting a website just because you know it."
+  }
+}

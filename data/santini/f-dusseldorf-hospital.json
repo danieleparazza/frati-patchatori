@@ -1,0 +1,11 @@
+{
+  "label": "Düsseldorf 2020",
+  "motto": "IN MEMORIAM",
+  "niche": [
+    "#141414",
+    "#3a3a3a"
+  ],
+  "accent": "#222222",
+  "frame": "flagello-grave",
+  "emblem": "<rect x=\"138\" y=\"168\" width=\"24\" height=\"68\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#9a9086\" stroke-width=\"1.5\"/>\n<path d=\"M150 168 V160\" stroke=\"#3a3a3a\" stroke-width=\"2\"/>\n<path d=\"M150 126 C160 140 162 150 156 158 C153 162 147 162 144 158 C138 150 140 140 150 126 Z\" fill=\"#f1c40f\"/>\n<path d=\"M150 140 C155 148 155 152 152 156 C150 158 148 156 147 154 C145 150 146 146 150 140 Z\" fill=\"#fff6d0\"/>\n<path d=\"M124 236 H176\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+}

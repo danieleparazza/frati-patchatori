@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BYOVDLL, che portava le DLL da casa",
+    "patronage": "dei processi protetti, delle vecchie DLL firmate e di chi si presenta alla festa con la bottiglia già aperta.",
+    "hagiography": "Il 9 agosto 2024 Clément Labro di SCRT raccontò come iniettare codice in un processo Windows protetto (PPL) senza alcun driver: bastava convincerlo a caricare una vecchia versione di una sua DLL, ancora firmata da Microsoft ma piena di bug già corretti, come CVE-2023-36906 e CVE-2023-28229. La firma era valida, la versione no: Windows guardava il sigillo e non la data di scadenza.",
+    "prayer": "O San BYOVDLL, che porti alla mensa del PPL gli avanzi del Patch Tuesday, fa' che i nostri sistemi riconoscano una DLL vecchia anche quando è ben firmata. Amen.",
+    "feast": "Si festeggia aggiornando Windows, attivando le regole di blocco per i binari vulnerabili e controllando la data, oltre alla firma.",
+    "proverb": "Firma buona non fa DLL nuova."
+  },
+  "en": {
+    "title": "Saint BYOVDLL, Who Brought His Own DLLs",
+    "patronage": "protected processes, old signed DLLs, and guests who show up to the party with the bottle already open.",
+    "hagiography": "On 9 August 2024 Clément Labro of SCRT described how to inject code into a protected Windows process (PPL) without any driver: you just had to convince it to load an old version of one of its own DLLs, still signed by Microsoft but full of bugs long since fixed, such as CVE-2023-36906 and CVE-2023-28229. The signature was valid, the version was not: Windows checked the seal and not the expiry date.",
+    "prayer": "O Saint BYOVDLL, who brings Patch Tuesday leftovers to the PPL's table, let our systems recognise an old DLL even when it is properly signed. Amen.",
+    "feast": "Celebrated by updating Windows, enabling vulnerable-binary blocklists, and checking the date as well as the signature.",
+    "proverb": "A good signature doesn't make a DLL new."
+  }
+}

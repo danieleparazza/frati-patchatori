@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DynoRoot, che prendeva ordini dal DHCP",
+    "patronage": "dei client DHCP, degli script di sistema scritti in fretta e delle reti dove ci si fida del primo che risponde.",
+    "hagiography": "Nel maggio 2018 Felix Wilhelm del team di sicurezza di Google trovò DynoRoot (CVE-2018-1111): lo script che integrava il client DHCP con NetworkManager su Red Hat, Fedora e derivate passava alla shell i valori ricevuti dal server senza ripulirli. Un server DHCP malevolo, o un attaccante capace di rispondere per primo sulla rete, poteva così far eseguire comandi come root sul client, semplicemente assegnandogli un indirizzo.",
+    "prayer": "O San DynoRoot, che prendi per buono ogni valore che arriva dalla rete, fa' che i nostri script mettano tra virgolette ciò di cui non si fidano. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti del maggio 2018 e ricordando che anche chi dà gli indirizzi va trattato come un estraneo.",
+    "proverb": "Chi assegna gli indirizzi, non sempre è amico."
+  },
+  "en": {
+    "title": "Saint DynoRoot, Who Took Orders From the DHCP",
+    "patronage": "DHCP clients, system scripts written in haste, and networks that trust the first to answer.",
+    "hagiography": "In May 2018 Felix Wilhelm of Google's security team found DynoRoot (CVE-2018-1111): the script integrating the DHCP client with NetworkManager on Red Hat, Fedora and their derivatives passed values received from the server to the shell without sanitising them. A malicious DHCP server, or an attacker able to answer first on the network, could thus run commands as root on the client simply by handing it an address.",
+    "prayer": "O Saint DynoRoot, who takes for granted every value that arrives from the network, let our scripts quote what they do not trust. Amen.",
+    "feast": "Celebrated by installing the May 2018 updates and remembering that even the one handing out addresses is a stranger.",
+    "proverb": "The one who hands out addresses is not always a friend."
+  }
+}

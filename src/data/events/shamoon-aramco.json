@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "Il flagello di Shamoon",
+    "chronicle": "Il 15 agosto 2012, alle 11:08 ora saudita, il wiper Shamoon (Disttrack) cominciò a cancellare i dischi di circa 30.000 postazioni di Saudi Aramco, sostituendo i file con l'immagine di una bandiera americana in fiamme. L'attacco fu rivendicato da un gruppo che si faceva chiamare 'Cutting Sword of Justice'. Le reti di produzione del petrolio erano separate e non furono toccate, ma la compagnia impiegò settimane a ricostruire la propria informatica.",
+    "lesson": "Fu il primo grande wiper contro un'azienda energetica e insegnò che isolare le reti operative salva la produzione, mentre i backup salvano tutto il resto.",
+    "prayer": "O Shamoon, che bruciavi bandiere sui dischi altrui, tieni lontano il tuo fuoco dai nostri master boot record e lasciaci almeno il backup. Amen.",
+    "remembrance": "Si ricorda tenendo separate le reti di produzione, conservando backup offline e sapendo quante postazioni si possono ricostruire in un giorno."
+  },
+  "en": {
+    "title": "The Scourge of Shamoon",
+    "chronicle": "On 15 August 2012, at 11:08 Saudi time, the Shamoon (Disttrack) wiper began erasing the disks of about 30,000 Saudi Aramco workstations, replacing files with an image of a burning American flag. A group calling itself the 'Cutting Sword of Justice' claimed responsibility. The oil production networks were separate and untouched, but the company spent weeks rebuilding its IT.",
+    "lesson": "It was the first big wiper against an energy company and taught that isolating operational networks saves production, while backups save everything else.",
+    "prayer": "O Shamoon, who burned flags on other people's disks, keep your fire away from our master boot records and leave us at least the backup. Amen.",
+    "remembrance": "Remembered by keeping production networks separate, holding offline backups and knowing how many workstations you can rebuild in a day."
+  }
+}

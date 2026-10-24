@@ -1,0 +1,10 @@
+{
+  "label": "Ticket Trick",
+  "motto": "PER TESSERAM INTRAT",
+  "niche": [
+    "#2a2416",
+    "#56492a"
+  ],
+  "accent": "#423820",
+  "emblem": "<path d=\"M108 160 H192 V184 A10 10 0 0 0 192 208 V232 H108 V208 A10 10 0 0 0 108 184 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<line x1=\"150\" y1=\"162\" x2=\"150\" y2=\"230\" stroke=\"#2b1d14\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/>\n<path d=\"M118 174 L134 186 L118 198\" fill=\"none\" stroke=\"#8c6a22\" stroke-width=\"2\"/>\n<rect x=\"158\" y=\"176\" width=\"26\" height=\"18\" rx=\"2\" fill=\"#fbf3dd\" stroke=\"#8c6a22\"/><path d=\"M158 178 L171 187 L184 178\" fill=\"none\" stroke=\"#8c6a22\" stroke-width=\"1.5\"/>\n<text x=\"134\" y=\"224\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#2b1d14\">@corp</text>"
+}

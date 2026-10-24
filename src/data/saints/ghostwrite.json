@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San GhostWrite, che scriveva dove non doveva",
+    "patronage": "dei processori RISC-V, delle estensioni vettoriali e dei fantasmi che firmano al posto tuo.",
+    "hagiography": "Nell'estate del 2024 i ricercatori del CISPA scoprirono che alcune istruzioni vettoriali dei core T-Head XuanTie C910 e C920 scrivevano direttamente nella memoria fisica, ignorando quella virtuale e quindi ogni isolamento. Un programma qualsiasi, senza privilegi, poteva così scrivere ovunque: nel kernel, negli altri processi, perfino nelle periferiche. Essendo un difetto del silicio, nessuna patch poteva cancellarlo.",
+    "prayer": "O San GhostWrite, che scrivi con mano invisibile sulla memoria altrui, fa' che le nostre istruzioni passino sempre dalla MMU. Amen.",
+    "feast": "Si festeggia disabilitando l'estensione vettoriale, cioè rinunciando a metà della CPU per salvare l'altra metà.",
+    "proverb": "Chi scrive senza indirizzo virtuale, scrive nel destino di tutti."
+  },
+  "en": {
+    "title": "Saint GhostWrite, Who Wrote Where He Shouldn't",
+    "patronage": "RISC-V processors, vector extensions, and ghosts who sign on your behalf.",
+    "hagiography": "In the summer of 2024 researchers at CISPA found that some vector instructions in T-Head's XuanTie C910 and C920 cores wrote straight to physical memory, skipping virtual memory and with it every form of isolation. Any unprivileged program could write anywhere: into the kernel, into other processes, even into peripherals. Being a flaw in the silicon, no patch could erase it.",
+    "prayer": "O Saint GhostWrite, who writes with an invisible hand on other people's memory, let our instructions always go through the MMU. Amen.",
+    "feast": "Celebrated by disabling the vector extension, giving up half the CPU to save the other half.",
+    "proverb": "Write without a virtual address and you write everyone's fate."
+  }
+}
