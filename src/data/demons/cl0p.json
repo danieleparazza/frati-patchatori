@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Cl0p, ladro di trasferimenti",
+    "legend": "Legato al gruppo criminale noto come TA505/FIN11 e comparso nel 2019, dal 2020 si è specializzato nello sfruttamento di massa di zero-day nei prodotti di trasferimento file. Con MOVEit, nel 2023, rubò dati a centinaia di organizzazioni in pochi giorni, spesso senza nemmeno cifrare nulla.",
+    "exorcism": "Si esorcizza non esponendo su Internet più del necessario e aggiornando subito i software di trasferimento file. Il monitoraggio dei grandi trasferimenti in uscita aiuta a scoprire il furto in tempo."
+  },
+  "en": {
+    "title": "The Demon Cl0p, Thief of Transfers",
+    "legend": "Linked to the criminal cluster known as TA505/FIN11 and appearing in 2019, since 2020 it has specialised in mass exploitation of zero-days in file-transfer products. With MOVEit, in 2023, it stole data from hundreds of organisations in a few days, often without encrypting anything at all.",
+    "exorcism": "Cast it out by exposing no more than necessary to the internet and patching file-transfer software immediately. Monitoring large outbound transfers helps catch the theft in time."
+  }
+}

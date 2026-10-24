@@ -1,0 +1,11 @@
+{
+  "label": "Necurs",
+  "motto": "SPAM URBI ET ORBI",
+  "niche": [
+    "#160c10",
+    "#4a1424"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<rect x=\"104\" y=\"130\" width=\"64\" height=\"40\" rx=\"3\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M104 130 L136 154 L168 130\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"128\" y=\"154\" width=\"64\" height=\"40\" rx=\"3\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M128 154 L160 178 L192 154\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"110\" y=\"181\" width=\"72\" height=\"46\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M110 181 L146 208 L182 181\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M108 228 q-10 10 0 20 M190 228 q10 10 0 20 M128 240 q-4 10 4 14 M170 240 q4 10 -4 14\" fill=\"none\" stroke=\"#e4572e\" stroke-width=\"4\" stroke-linecap=\"round\"/>"
+}

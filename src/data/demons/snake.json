@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Snake, serpente di vent'anni",
+    "legend": "Usato per circa vent'anni dal gruppo Turla, attribuito al servizio di sicurezza russo FSB, rubava documenti da centinaia di sistemi in almeno 50 paesi. I computer infetti formavano una rete nascosta da pari a pari. Nel maggio 2023 l'FBI, con l'Operazione MEDUSA, lo fece autodistruggere con un comando creato apposta.",
+    "exorcism": "Si esorcizza con la caccia attiva alle minacce sui sistemi più sensibili e il monitoraggio del traffico cifrato insolito tra macchine interne. Gli avvisi tecnici delle agenzie vanno applicati appena escono."
+  },
+  "en": {
+    "title": "The Demon Snake, the Twenty-Year Serpent",
+    "legend": "Used for about twenty years by the Turla group, attributed to Russia's FSB security service, it stole documents from hundreds of systems in at least 50 countries. Infected computers formed a hidden peer-to-peer network. In May 2023 the FBI, with Operation MEDUSA, made it self-destruct with a purpose-built command.",
+    "exorcism": "Cast it out with active threat hunting on the most sensitive systems and monitoring unusual encrypted traffic between internal machines. Agencies' technical advisories should be applied as soon as they come out."
+  }
+}

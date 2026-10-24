@@ -1,0 +1,11 @@
+{
+  "label": "Duqu",
+  "motto": "FRATER STUXNETI",
+  "niche": [
+    "#0e1420",
+    "#2a2440"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<path d=\"M96 182 Q150 128 204 182 Q150 236 96 182 Z\" fill=\"#fbf3dd\" stroke=\"#e9c46a\" stroke-width=\"3\"/>\n<circle cx=\"150\" cy=\"182\" r=\"22\" fill=\"#7a1f1f\"/><circle cx=\"150\" cy=\"182\" r=\"9\" fill=\"#111\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#e9c46a\">TrueType</text>"
+}

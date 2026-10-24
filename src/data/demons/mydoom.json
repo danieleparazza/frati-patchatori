@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Mydoom, il più rapido dei postini maledetti",
+    "legend": "Apparso il 26 gennaio 2004, Mydoom divenne il verme di posta più veloce mai registrato: per un momento una parte rilevante di tutte le email del mondo lo portava con sé. Apriva una backdoor sui PC infetti e lanciava attacchi DDoS contro SCO Group. Il suo autore non è mai stato identificato, e nel 2009 sue varianti furono riesumate per colpire siti statunitensi e sudcoreani.",
+    "exorcism": "Si esorcizza filtrando sul gateway di posta gli allegati eseguibili e gli archivi sospetti. Si insegna a tutti a non aprire allegati inattesi, nemmeno quelli che sembrano un messaggio di errore, e si tengono aggiornate le firme dell'antivirus."
+  },
+  "en": {
+    "title": "The Demon Mydoom, Swiftest of the Cursed Postmen",
+    "legend": "First seen on 26 January 2004, Mydoom became the fastest-spreading email worm on record: for a while a sizeable share of all the world's email carried it. It opened a backdoor on infected PCs and launched DDoS attacks against SCO Group. Its author has never been identified, and in 2009 variants were dug up again to hit US and South Korean websites.",
+    "exorcism": "Cast it out by filtering executable attachments and suspicious archives at the mail gateway. Teach everyone not to open unexpected attachments, not even the ones that look like a delivery error, and keep antivirus signatures current."
+  }
+}

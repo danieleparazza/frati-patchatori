@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Blaster, che riavviava senza sosta",
+    "legend": "Nell'agosto 2003 un verme sfruttò un buffer overflow nell'interfaccia RPC DCOM di Windows e mise milioni di utenti davanti allo stesso conto alla rovescia: il sistema si sarebbe riavviato, e poi di nuovo, e poi ancora. Nel codice portava un messaggio rivolto a Bill Gates ed era programmato per inondare windowsupdate.com, il luogo stesso della cura. Fu anche per lui che Windows XP SP2 accese il firewall di default.",
+    "exorcism": "Si esorcizza installando le patch con prontezza, come l'MS03-026. Si accende il firewall dell'host e si blocca RPC/DCOM (TCP 135) da ogni rete non fidata: il servizio era pensato per parlare con i vicini, non con tutta Internet."
+  },
+  "en": {
+    "title": "The Demon Blaster, Who Rebooted Without Rest",
+    "legend": "In August 2003 a worm exploited a buffer overflow in the Windows DCOM RPC interface and put millions of users in front of the same countdown: the system would reboot, then again, and again. Its code carried a message for Bill Gates and it was programmed to flood windowsupdate.com, the very place of healing. It is partly thanks to it that Windows XP SP2 turned the firewall on by default.",
+    "exorcism": "Cast it out by patching promptly, as with MS03-026. Turn on the host firewall and block RPC/DCOM (TCP 135) from every untrusted network: the service was meant to talk to the neighbours, not the whole Internet."
+  }
+}

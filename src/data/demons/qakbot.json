@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Qakbot, l'anatra che dirottava le conversazioni",
+    "legend": "Nato intorno al 2007-2008 come trojan bancario, Qakbot divenne uno dei grandi caricatori di malware: si infilava nelle catene di risposte email già esistenti e rivendeva l'accesso alle bande del ransomware come Conti, Black Basta e REvil. A fine agosto 2023 l'Operazione Duck Hunt, guidata dall'FBI con Francia, Germania, Paesi Bassi, Regno Unito, Romania e Lettonia, dirottò i PC infetti verso server dell'FBI e inviò un disinstallatore a oltre 700.000 macchine. Qualche campagna minore è ricomparsa, e il presunto capo è stato incriminato nel maggio 2025.",
+    "exorcism": "Si esorcizza bloccando nelle email gli allegati con macro, HTML, OneNote e ISO. Si sorvegliano le risposte sospette dentro vecchie conversazioni e i processi strani lanciati da Office, e si impongono MFA e privilegi minimi per frenare i movimenti laterali."
+  },
+  "en": {
+    "title": "The Demon Qakbot, the Duck That Hijacked Conversations",
+    "legend": "Born around 2007-2008 as a banking trojan, Qakbot became one of the great malware loaders: it slipped into existing email reply chains and sold access to ransomware gangs such as Conti, Black Basta and REvil. In late August 2023 Operation Duck Hunt, led by the FBI with France, Germany, the Netherlands, the UK, Romania and Latvia, redirected infected PCs to FBI servers and sent an uninstaller to more than 700,000 machines. Some smaller campaigns have resurfaced, and its alleged leader was indicted in May 2025.",
+    "exorcism": "Cast it out by blocking macro, HTML, OneNote and ISO attachments in email. Watch for suspicious replies inside old threads and for odd processes spawned by Office, and enforce MFA and least privilege to slow lateral movement."
+  }
+}

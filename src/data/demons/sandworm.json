@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Sandworm, il verme delle sabbie",
+    "legend": "Gruppo distruttivo attribuito all'unità 74455 dell'intelligence militare russa, attivo almeno dal 2009. Gli vengono attribuiti i primi blackout causati da attacchi informatici in Ucraina, NotPetya e Olympic Destroyer. Nel 2020 il Dipartimento di Giustizia statunitense ne incriminò sei ufficiali.",
+    "exorcism": "Si esorcizza preparando le infrastrutture critiche all'attacco distruttivo: segmentazione tra IT e OT, backup offline, procedure manuali e piani di ripristino provati."
+  },
+  "en": {
+    "title": "The Demon Sandworm, the Worm of the Sands",
+    "legend": "A destructive group attributed to Unit 74455 of Russian military intelligence, active since at least 2009. It is credited with the first cyberattack-caused blackouts in Ukraine, NotPetya and Olympic Destroyer. In 2020 the US Justice Department indicted six of its officers.",
+    "exorcism": "Cast it out by preparing critical infrastructure for destructive attacks: IT/OT segmentation, offline backups, manual procedures and tested recovery plans."
+  }
+}

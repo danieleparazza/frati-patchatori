@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Mirai, pastore delle telecamere",
+    "legend": "Mirai scandaglia Internet in cerca di telecamere, router e altri oggetti connessi che rispondono su Telnet con le password di fabbrica, e li arruola in un esercito per attacchi DDoS. Nel 2016 firmò attacchi record, tra cui quello contro Dyn del 21 ottobre che oscurò per ore grandi siti web. Il suo codice fu pubblicato a settembre 2016 e i tre autori si dichiararono colpevoli negli Stati Uniti nel dicembre 2017, ma il gregge di varianti pascola ancora.",
+    "exorcism": "Si esorcizza cambiando le credenziali di default di ogni dispositivo IoT appena tolto dalla scatola. Si disattivano Telnet e l'amministrazione remota sui dispositivi esposti, si separano gli oggetti connessi in una rete a parte e se ne aggiorna il firmware."
+  },
+  "en": {
+    "title": "The Demon Mirai, Shepherd of Cameras",
+    "legend": "Mirai combs the Internet for cameras, routers and other connected things that answer on Telnet with factory passwords, and drafts them into an army for DDoS attacks. In 2016 it signed record attacks, including the one on Dyn on 21 October that darkened major websites for hours. Its source code was published in September 2016 and its three authors pleaded guilty in the US in December 2017, but the flock of variants still grazes.",
+    "exorcism": "Cast it out by changing the default credentials of every IoT device the moment it leaves the box. Disable Telnet and remote administration on exposed devices, put connected gadgets on a separate network and keep their firmware updated."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Necurs, gran sacerdote dello spam",
+    "legend": "Attiva dal 2012 circa, Necurs fu una delle più grandi botnet di spam mai viste: infettò oltre nove milioni di computer e riversò sul mondo ondate di Dridex, del ransomware Locky e di truffe di borsa del tipo pump-and-dump. Nel marzo 2020 Microsoft ottenne da un tribunale statunitense il sequestro della sua infrastruttura, anticipando i domini che il suo algoritmo avrebbe generato. Da allora tace quasi del tutto.",
+    "exorcism": "Si esorcizza filtrando spam e allegati malevoli sul gateway di posta. Si bloccano i domini DGA conosciuti e si tengono i computer aggiornati e sorvegliati, perché ogni PC zombi è un pulpito in più per le sue prediche."
+  },
+  "en": {
+    "title": "The Demon Necurs, High Priest of Spam",
+    "legend": "Active from around 2012, Necurs was one of the largest spam botnets ever seen: it infected more than nine million computers and poured waves of Dridex, Locky ransomware and pump-and-dump stock scams onto the world. In March 2020 Microsoft obtained a US court order to seize its infrastructure, pre-empting the domains its algorithm would generate. It has been almost silent since.",
+    "exorcism": "Cast it out by filtering spam and malicious attachments at the mail gateway. Block known DGA domains and keep computers patched and monitored, because every zombie PC is one more pulpit for its sermons."
+  }
+}

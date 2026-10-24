@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Dridex, cassiere di Evil Corp",
+    "legend": "Discendente di Cridex e Bugat, Dridex è un trojan bancario attivo dal 2014, diffuso soprattutto con documenti Office pieni di macro spediti dalla botnet Necurs, e ha rubato credenziali bancarie per oltre 100 milioni di dollari. Lo gestiva Evil Corp, il cui capo Maksim Yakubets fu incriminato e sanzionato dagli Stati Uniti nel dicembre 2019. Un intervento delle forze dell'ordine nel 2015 lo scalfì appena, e il gruppo passò poi al ransomware con BitPaymer e WastedLocker.",
+    "exorcism": "Si esorcizza bloccando le macro di Office e gli exploit RTF/OLE, e filtrando il malspam. Per i pagamenti si usa la verifica delle transazioni e si sorvegliano i furti di credenziali, perché il cassiere non deve poter firmare al posto tuo."
+  },
+  "en": {
+    "title": "The Demon Dridex, Cashier of Evil Corp",
+    "legend": "A descendant of Cridex and Bugat, Dridex is a banking trojan active since 2014, spread mainly through macro-laden Office documents sent by the Necurs botnet, and it stole more than $100 million in banking credentials. It was run by Evil Corp, whose leader Maksim Yakubets was charged and sanctioned by the US in December 2019. A 2015 law-enforcement action barely dented it, and the group later moved into ransomware with BitPaymer and WastedLocker.",
+    "exorcism": "Cast it out by blocking Office macros and RTF/OLE exploits, and filtering malspam. Use transaction verification for payments and watch for credential theft, because the cashier must never be able to sign in your place."
+  }
+}

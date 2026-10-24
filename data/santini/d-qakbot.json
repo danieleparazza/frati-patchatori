@@ -1,0 +1,11 @@
+{
+  "label": "Qakbot",
+  "motto": "ANAS CAPTA EST",
+  "niche": [
+    "#2b0f14",
+    "#6b1d1d"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<path d=\"M112 210 C112 190 130 184 146 190 C146 172 154 160 168 160 C182 160 188 172 186 182 L200 186 L186 192 C184 210 170 222 146 222 C126 222 112 220 112 210 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"172\" cy=\"174\" r=\"3\" fill=\"#2b1d14\"/><path d=\"M124 200 Q140 196 150 208\" fill=\"none\" stroke=\"#7a6656\" stroke-width=\"2\"/><g fill=\"none\" stroke=\"#e4572e\" stroke-width=\"2.5\"><circle cx=\"150\" cy=\"190\" r=\"46\"/><line x1=\"150\" y1=\"134\" x2=\"150\" y2=\"154\"/><line x1=\"150\" y1=\"226\" x2=\"150\" y2=\"246\"/><line x1=\"94\" y1=\"190\" x2=\"114\" y2=\"190\"/><line x1=\"186\" y1=\"190\" x2=\"206\" y2=\"190\"/></g>"
+}

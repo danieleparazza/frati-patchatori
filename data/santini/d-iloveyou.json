@@ -1,0 +1,11 @@
+{
+  "label": "ILOVEYOU",
+  "motto": "AMOR VINCIT OUTLOOK",
+  "niche": [
+    "#2b0f14",
+    "#6b1d1d"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<rect x=\"102\" y=\"165\" width=\"96\" height=\"62\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M102 165 L150 200 L198 165\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M150 186 C150 186 128 170 128 156 C128 146 140 140 150 150 C160 140 172 146 172 156 C172 170 150 186 150 186 Z\" fill=\"#e4572e\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"120\" y=\"226\" width=\"60\" height=\"18\" rx=\"3\" fill=\"#2b1d14\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/><text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#ff7b54\" >.TXT.vbs</text>"
+}

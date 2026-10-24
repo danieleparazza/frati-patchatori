@@ -1,0 +1,11 @@
+{
+  "label": "Lumma Stealer",
+  "motto": "NON SUM ROBOTUM",
+  "niche": [
+    "#160c10",
+    "#4a1424"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<rect x=\"100\" y=\"146\" width=\"100\" height=\"56\" rx=\"5\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"110\" y=\"162\" width=\"22\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M114 172 l6 7 l12 -16\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"3\"/><text x=\"166\" y=\"178\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#2b1d14\" >Non sono</text><text x=\"166\" y=\"191\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#2b1d14\" >un robot</text><rect x=\"104\" y=\"212\" width=\"92\" height=\"26\" rx=\"3\" fill=\"#2b1d14\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/><text x=\"150\" y=\"230\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#ff7b54\" >Win+R  Ctrl+V</text><path transform=\"translate(150 148) scale(0.9)\" d=\"M-20 0 Q-30 -14 -26 -30 Q-18 -16 -8 -6 Z M20 0 Q30 -14 26 -30 Q18 -16 8 -6 Z\" fill=\"#e4572e\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>"
+}

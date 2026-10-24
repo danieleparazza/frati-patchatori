@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Ryuk, cacciatore di grosse prede",
+    "legend": "Apparso nell'agosto 2018 e legato al gruppo Wizard Spider, arrivava di solito dopo un'infezione di TrickBot o BazarLoader e sceglieva bersagli capaci di pagare molto. Colpì ospedali, comuni e giornali, chiedendo riscatti milionari. Dal 2021 il suo posto fu preso da Conti.",
+    "exorcism": "Si esorcizza fermando prima gli apripista: un infostealer o un loader in rete sono il segnale che sta arrivando. Servono MFA sugli accessi remoti, privilegi amministrativi ridotti e backup immutabili."
+  },
+  "en": {
+    "title": "The Demon Ryuk, Big-Game Hunter",
+    "legend": "Appearing in August 2018 and linked to the Wizard Spider group, it usually arrived after a TrickBot or BazarLoader infection and picked targets able to pay a lot. It hit hospitals, municipalities and newspapers, demanding ransoms in the millions. From 2021 its place was taken by Conti.",
+    "exorcism": "Cast it out by stopping its forerunners first: a stealer or loader on the network is the sign it is coming. Use MFA on remote access, fewer admin privileges and immutable backups."
+  }
+}

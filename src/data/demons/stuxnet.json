@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Stuxnet, che fece girare la testa alle centrifughe",
+    "legend": "Scoperto nel giugno 2010, colpiva il software Siemens Step7 e i controllori delle centrifughe per l'arricchimento dell'uranio in Iran, alterandone la velocità mentre mostrava agli operatori valori normali. Si diffondeva tramite chiavette USB, sfruttando diversi zero-day di Windows. È considerato la prima vera arma informatica contro impianti fisici.",
+    "exorcism": "Si esorcizza controllando i supporti rimovibili negli impianti e separando davvero le reti industriali. I valori mostrati dai sistemi di controllo vanno verificati anche con misure indipendenti."
+  },
+  "en": {
+    "title": "The Demon Stuxnet, Who Made Centrifuges Dizzy",
+    "legend": "Discovered in June 2010, it targeted Siemens Step7 software and the controllers of Iran's uranium-enrichment centrifuges, changing their speed while showing operators normal readings. It spread via USB drives, exploiting several Windows zero-days. It is considered the first true cyberweapon against physical plants.",
+    "exorcism": "Cast it out by controlling removable media in plants and truly separating industrial networks. Readings shown by control systems should be checked against independent measurements."
+  }
+}

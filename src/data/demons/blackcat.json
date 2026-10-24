@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone BlackCat, il gatto nero arrugginito",
+    "legend": "Comparso nel novembre 2021, fu il primo grande ransomware scritto in Rust, capace di colpire Windows, Linux e VMware ESXi. Nel dicembre 2023 l'FBI lo colpì e distribuì un decifratore a centinaia di vittime. Nel 2024, dopo l'attacco a Change Healthcare, i suoi capi sparirono con il riscatto, truffando i propri affiliati.",
+    "exorcism": "Si esorcizza proteggendo gli hypervisor come i server più preziosi: accesso di gestione isolato, MFA e patch. Le credenziali rubate sono la sua porta preferita: niente accessi remoti senza secondo fattore."
+  },
+  "en": {
+    "title": "The Demon BlackCat, the Rusty Black Cat",
+    "legend": "Appearing in November 2021, it was the first major ransomware written in Rust, able to hit Windows, Linux and VMware ESXi. In December 2023 the FBI disrupted it and handed a decryptor to hundreds of victims. In 2024, after the Change Healthcare attack, its leaders vanished with the ransom, scamming their own affiliates.",
+    "exorcism": "Cast it out by guarding hypervisors like the most precious servers: isolated management access, MFA and patches. Stolen credentials are its favourite door: no remote access without a second factor."
+  }
+}

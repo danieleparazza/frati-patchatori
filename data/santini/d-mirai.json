@@ -1,0 +1,11 @@
+{
+  "label": "Mirai",
+  "motto": "ADMIN ADMIN AMEN",
+  "niche": [
+    "#160c10",
+    "#4a1424"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<rect x=\"102\" y=\"160\" width=\"84\" height=\"40\" rx=\"8\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\" transform=\"rotate(-12 144 180)\"/><circle cx=\"104\" cy=\"190\" r=\"14\" fill=\"#2b1d14\" stroke=\"#bfc9d1\" stroke-width=\"3\"/><circle cx=\"104\" cy=\"190\" r=\"6\" fill=\"#e4572e\"/><rect x=\"160\" y=\"196\" width=\"10\" height=\"40\" fill=\"#7a6656\"/><rect x=\"146\" y=\"234\" width=\"38\" height=\"8\" rx=\"2\" fill=\"#7a6656\"/><path transform=\"translate(150 164) scale(1)\" d=\"M-20 0 Q-30 -14 -26 -30 Q-18 -16 -8 -6 Z M20 0 Q30 -14 26 -30 Q18 -16 8 -6 Z\" fill=\"#e4572e\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/><text x=\"118\" y=\"234\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\" >admin/admin</text>"
+}

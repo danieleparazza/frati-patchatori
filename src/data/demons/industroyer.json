@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Industroyer, che spense Kyiv",
+    "legend": "Costruito apposta per attaccare le sottostazioni elettriche, parlava direttamente i protocolli industriali come IEC 101, IEC 104, IEC 61850 e OPC DA. Nel dicembre 2016 causò un blackout in parte di Kyiv. Una variante, Industroyer2, fu usata nel 2022 e fermata prima che facesse danni.",
+    "exorcism": "Si esorcizza separando le reti di controllo, sorvegliando i comandi anomali nei protocolli industriali e tenendo pronte procedure manuali. Nelle sottostazioni, poter operare a mano è la miglior difesa."
+  },
+  "en": {
+    "title": "The Demon Industroyer, Who Switched Off Kyiv",
+    "legend": "Built on purpose to attack electrical substations, it spoke industrial protocols such as IEC 101, IEC 104, IEC 61850 and OPC DA directly. In December 2016 it caused a blackout in part of Kyiv. A variant, Industroyer2, was used in 2022 and stopped before it did damage.",
+    "exorcism": "Cast it out by separating control networks, watching for anomalous commands in industrial protocols and keeping manual procedures ready. In substations, being able to operate by hand is the best defence."
+  }
+}

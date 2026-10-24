@@ -1,0 +1,11 @@
+{
+  "label": "Emotet",
+  "motto": "MACRO MALEDICTA",
+  "niche": [
+    "#1c0e08",
+    "#5c2410"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<path d=\"M114 128 H170 L188 146 V236 H114 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M170 128 V146 H188\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"122\" y=\"140\" width=\"22\" height=\"22\" fill=\"#1e3a5f\"/><text x=\"133\" y=\"157\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\" >W</text><path d=\"M124 176 h52 M124 186 h44 M124 196 h50\" stroke=\"#7a6656\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"218\" r=\"13\" fill=\"#e4572e\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"218\" r=\"5\" fill=\"#fbf3dd\"/><path d=\"M160 201 v-4 M160 235 v4 M143 218 h-4 M177 218 h4 M148 206 l-3 -3 M172 230 l3 3 M172 206 l3 -3 M148 230 l-3 3\" stroke=\"#e4572e\" stroke-width=\"4\"/>"
+}

@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone WhisperGate, il sussurro prima della guerra",
+    "legend": "A metà gennaio 2022 colpì enti governativi e informatici ucraini, poche settimane prima dell'invasione russa. Si fingeva un ransomware, ma sovrascriveva il settore di avvio e corrompeva i file senza alcuna possibilità di recupero. Era un messaggio, non una richiesta di denaro.",
+    "exorcism": "Si esorcizza con backup offline e immagini dei sistemi pronte al ripristino. Un riscatto che non dà istruzioni credibili per pagare è il segnale di un wiper travestito."
+  },
+  "en": {
+    "title": "The Demon WhisperGate, the Whisper Before the War",
+    "legend": "In mid-January 2022 it hit Ukrainian government and IT bodies, a few weeks before the Russian invasion. It posed as ransomware but overwrote the boot record and corrupted files with no chance of recovery. It was a message, not a demand for money.",
+    "exorcism": "Cast it out with offline backups and system images ready to restore. A ransom note with no credible way to pay is the sign of a disguised wiper."
+  }
+}

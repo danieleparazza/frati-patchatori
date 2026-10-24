@@ -298,7 +298,7 @@
    },
    "status": "exorcised",
    "exorcism": {
-    "operation": "International Emotet takedown (Dutch codename reported as Operation LadyBird)",
+    "operation": "International Emotet takedown (Europol/Eurojust)",
     "date": "2021-01-27",
     "by": "Europol/Eurojust with NL, DE, US, UK, FR, LT, CA, UA",
     "note": "Botnet resurfaced Nov 2021; low activity since 2023"
@@ -418,10 +418,10 @@
    },
    "status": "exorcised",
    "exorcism": {
-    "operation": "Operation Endgame",
-    "date": "2024-05-29",
-    "by": "Europol/Eurojust with FR, DE, NL and partners",
-    "note": "Earlier civil disruption by Microsoft in Oct 2020"
+    "operation": "Microsoft court-ordered disruption",
+    "date": "2020-10-12",
+    "by": "Microsoft with partners (civil action)",
+    "note": "Operators shifted to other tools by 2022"
    },
    "cves": [
     "CVE-2017-0144"
@@ -436,7 +436,7 @@
     "Protect credentials (LSASS protection, MFA) and segment networks"
    ],
    "attackId": "S0266",
-   "summary": "A modular banking trojan that emerged in 2016 from the Dyre lineage and became a botnet and ransomware delivery platform run by the Wizard Spider group, behind Ryuk and Conti. Microsoft led a court-ordered infrastructure disruption in October 2020, and the operators shifted to other tools by 2022. Its infrastructure was further hit by Europol's Operation Endgame in May 2024.",
+   "summary": "A modular banking trojan that emerged in 2016 from the Dyre lineage and became a botnet and ransomware delivery platform run by the Wizard Spider group, behind Ryuk and Conti. Microsoft led a court-ordered infrastructure disruption in October 2020, and the operators shifted to other tools by 2022.",
    "sources": [
     "https://attack.mitre.org/software/S0266/",
     "https://attack.mitre.org/groups/G0102/",
@@ -1019,7 +1019,7 @@
     "Restrict Group Policy and domain admin rights"
    ],
    "attackId": "S0697",
-   "summary": "A wiper deployed against Ukrainian organisations on 23 February 2022, the eve of Russia's invasion. It abused a legitimately signed EaseUS partition driver to corrupt disks and was sometimes paired with a decoy ransomware and a worm component. It is attributed to Russian state actors (Sandworm).",
+   "summary": "A wiper deployed against Ukrainian organisations on 23 February 2022, the eve of Russia's invasion. It abused a legitimately signed EaseUS partition driver to corrupt disks and was sometimes paired with a decoy ransomware and a worm component. The US and UK governments blamed Russia; some vendors and press linked it to Sandworm, while ESET found no tangible link to a known actor.",
    "sources": [
     "https://attack.mitre.org/software/S0697/",
     "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-057a"
@@ -1216,7 +1216,7 @@
     "Reboot devices regularly and use forensic checks (e.g. MVT)"
    ],
    "attackId": "S0289",
-   "summary": "Commercial spyware sold by Israel's NSO Group to governments, capable of fully compromising iPhones and Android phones, often through zero-click exploits. Investigations by Citizen Lab and Amnesty documented its use against journalists, activists and politicians. US courts found NSO liable for hacking WhatsApp users in 2025.",
+   "summary": "Commercial spyware sold by Israel's NSO Group to governments, capable of fully compromising iPhones and Android phones, often through zero-click exploits. Investigations by Citizen Lab and Amnesty documented its use against journalists, activists and politicians. A US federal court found NSO liable for hacking WhatsApp users in December 2024; a jury set damages in May 2025.",
    "sources": [
     "https://attack.mitre.org/software/S0289/",
     "https://attack.mitre.org/software/S0316/",

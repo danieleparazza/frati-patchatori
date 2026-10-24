@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone HermeticWiper, alla vigilia dell'invasione",
+    "legend": "Il 23 febbraio 2022, vigilia dell'invasione russa, fu usato contro organizzazioni ucraine. Abusava di un driver di partizionamento EaseUS firmato regolarmente per corrompere i dischi, a volte insieme a un finto ransomware e a un componente che si propagava. I governi di Stati Uniti e Regno Unito accusarono la Russia; ESET non trovò legami concreti con un gruppo noto.",
+    "exorcism": "Si esorcizza bloccando il caricamento di driver vulnerabili anche se firmati e proteggendo gli strumenti di amministrazione del dominio. Backup offline e piani di ripristino rapido limitano il danno."
+  },
+  "en": {
+    "title": "The Demon HermeticWiper, on the Eve of the Invasion",
+    "legend": "On 23 February 2022, the eve of the Russian invasion, it was used against Ukrainian organisations. It abused a legitimately signed EaseUS partitioning driver to corrupt disks, sometimes alongside a decoy ransomware and a spreading component. The US and UK governments blamed Russia; ESET found no concrete link to a known group.",
+    "exorcism": "Cast it out by blocking vulnerable drivers even when signed and protecting domain administration tools. Offline backups and fast recovery plans limit the damage."
+  }
+}

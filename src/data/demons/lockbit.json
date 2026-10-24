@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone LockBit, principe dei siti della vergogna",
+    "legend": "Comparso nel 2019, divenne tra il 2022 e il 2023 il ransomware più usato al mondo, con un programma di affiliazione gestito come un'azienda. Il 19 e 20 febbraio 2024, nell'Operazione Cronos, la NCA britannica, l'FBI e i partner internazionali ne presero il controllo dell'infrastruttura e ne svelarono i segreti. Provò a risorgere, ma con molta meno forza.",
+    "exorcism": "Si esorcizza con le difese di base fatte bene: MFA ovunque, patch rapide sui dispositivi esposti, privilegi minimi. I backup offline e immutabili tolgono al ricatto il suo potere."
+  },
+  "en": {
+    "title": "The Demon LockBit, Prince of the Leak Sites",
+    "legend": "Appearing in 2019, it became the world's most deployed ransomware in 2022 and 2023, with an affiliate programme run like a company. On 19–20 February 2024, in Operation Cronos, the UK's NCA, the FBI and international partners took over its infrastructure and exposed its secrets. It tried to rise again, with much less strength.",
+    "exorcism": "Cast it out with the basics done well: MFA everywhere, fast patching of exposed devices, least privilege. Offline, immutable backups take away the blackmail's power."
+  }
+}

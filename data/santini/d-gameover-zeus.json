@@ -1,0 +1,11 @@
+{
+  "label": "GameOver Zeus",
+  "motto": "OLYMPUS DISPERSUS",
+  "niche": [
+    "#1a0a0a",
+    "#4a1410"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<g stroke=\"#d9ad55\" stroke-width=\"2\"><line x1=\"150\" y1=\"180\" x2=\"108\" y2=\"140\"/><line x1=\"150\" y1=\"180\" x2=\"192\" y2=\"140\"/><line x1=\"150\" y1=\"180\" x2=\"104\" y2=\"222\"/><line x1=\"150\" y1=\"180\" x2=\"196\" y2=\"222\"/><line x1=\"108\" y1=\"140\" x2=\"192\" y2=\"140\"/><line x1=\"104\" y1=\"222\" x2=\"196\" y2=\"222\"/><line x1=\"108\" y1=\"140\" x2=\"104\" y2=\"222\"/><line x1=\"192\" y1=\"140\" x2=\"196\" y2=\"222\"/></g><g fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"1.5\"><circle cx=\"108\" cy=\"140\" r=\"8\"/><circle cx=\"192\" cy=\"140\" r=\"8\"/><circle cx=\"104\" cy=\"222\" r=\"8\"/><circle cx=\"196\" cy=\"222\" r=\"8\"/></g><path transform=\"translate(150 180) scale(1.05)\" d=\"M6 -40 L-14 4 H0 L-8 40 L16 -6 H2 Z\" fill=\"#f5d77a\" stroke=\"#2b1d14\" stroke-width=\"2\"/>"
+}

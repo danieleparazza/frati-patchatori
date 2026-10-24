@@ -1,0 +1,11 @@
+{
+  "label": "Blaster",
+  "motto": "REBOOTO ERGO SUM",
+  "niche": [
+    "#1c0e08",
+    "#5c2410"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<path d=\"M150 128 A52 52 0 1 1 102 160\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"9\" stroke-linecap=\"round\"/><path d=\"M90 150 L104 176 L120 152 Z\" fill=\"#fbf3dd\"/><circle cx=\"150\" cy=\"180\" r=\"30\" fill=\"#2b1d14\" stroke=\"#d9ad55\" stroke-width=\"2\"/><path d=\"M150 160 V180 L164 190\" stroke=\"#ff7b54\" stroke-width=\"4\" stroke-linecap=\"round\" fill=\"none\"/><text x=\"150\" y=\"252\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#d9ad55\" >TCP 135</text>"
+}

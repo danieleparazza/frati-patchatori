@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Zeus, padre di una stirpe di trojan",
+    "legend": "Identificato nel 2007, Zeus era un kit per trojan bancari che rubava le credenziali intercettando i moduli e iniettando campi falsi nelle pagine delle banche, venduto a innumerevoli bande. Svuotò i conti di molte piccole imprese tra il 2009 e il 2010, finché l'Operazione Trident Breach portò all'arresto di reti di money mule negli Stati Uniti, nel Regno Unito e in Ucraina. Nel 2011 il suo codice sorgente trapelò, e da lui discesero GameOver Zeus, Citadel e Zeus Panda.",
+    "exorcism": "Si esorcizza confermando le operazioni bancarie su un canale separato, così che una pagina falsificata non basti. Si tengono aggiornati browser e sistema operativo, si bloccano i domini di comando noti e si sorvegliano le iniezioni nelle pagine web."
+  },
+  "en": {
+    "title": "The Demon Zeus, Father of a Lineage of Trojans",
+    "legend": "Identified in 2007, Zeus was a banking-trojan kit that stole credentials by grabbing forms and injecting fake fields into bank pages, sold to countless crews. It drained the accounts of many small businesses in 2009-2010, until Operation Trident Breach led to the arrest of money-mule networks in the US, the UK and Ukraine. In 2011 its source code leaked, and from it descended GameOver Zeus, Citadel and Zeus Panda.",
+    "exorcism": "Cast it out by confirming banking operations on a separate channel, so that a forged page is not enough. Keep browsers and the operating system patched, block known command domains and watch for web injects."
+  }
+}

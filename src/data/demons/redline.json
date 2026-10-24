@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone RedLine, ladro di password a noleggio",
+    "legend": "Venduto come servizio dal 2020, RedLine è un infostealer che raccoglie password e cookie dei browser, portafogli di criptovalute e dati di sistema, poi rivenduti per rubare account o aprire la strada al ransomware. Viaggiava con phishing, pubblicità malevola e falsi programmi, e fu tra i più diffusi della sua specie. Nell'ottobre 2024 l'Operazione Magnus, guidata dalla polizia olandese con FBI, Eurojust e altri partner, ne prese i server, e gli Stati Uniti incriminarono il presunto sviluppatore Maxim Rudometov.",
+    "exorcism": "Si esorcizza evitando software pirata e download pubblicizzati da annunci sospetti. Le password non si salvano nel browser ma in un password manager, con l'MFA attiva, e dopo un'infezione si revocano tutte le sessioni, perché i cookie rubati aprono le porte anche senza password."
+  },
+  "en": {
+    "title": "The Demon RedLine, Password Thief for Hire",
+    "legend": "Sold as a service since 2020, RedLine is an infostealer that harvests browser passwords and cookies, cryptocurrency wallets and system data, later resold to take over accounts or open the way for ransomware. It travelled through phishing, malvertising and fake software, and was among the most widespread of its kind. In October 2024 Operation Magnus, led by the Dutch police with the FBI, Eurojust and other partners, took over its servers, and the US charged its alleged developer Maxim Rudometov.",
+    "exorcism": "Cast it out by avoiding pirated software and downloads pushed by dubious ads. Keep passwords not in the browser but in a password manager, with MFA on, and after an infection revoke every session, because stolen cookies open doors even without a password."
+  }
+}

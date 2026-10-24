@@ -1,0 +1,11 @@
+{
+  "label": "Dridex",
+  "motto": "PECUNIA HAMATA",
+  "niche": [
+    "#1a0a0a",
+    "#4a1410"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<path d=\"M150 124 V196 A20 20 0 1 1 130 216\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M130 216 l-6 -10 l12 2 z\" fill=\"#bfc9d1\"/><circle cx=\"150\" cy=\"214\" r=\"20\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"214\" r=\"16\" fill=\"none\" stroke=\"#8a6d1f\" stroke-width=\"1\"/><text x=\"150\" y=\"222.4\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"24\" font-weight=\"bold\" fill=\"#2b1d14\">$</text><circle cx=\"118\" cy=\"160\" r=\"13\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"160\" r=\"9\" fill=\"none\" stroke=\"#8a6d1f\" stroke-width=\"1\"/><text x=\"118\" y=\"165.46\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15.6\" font-weight=\"bold\" fill=\"#2b1d14\">$</text><circle cx=\"184\" cy=\"168\" r=\"13\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"184\" cy=\"168\" r=\"9\" fill=\"none\" stroke=\"#8a6d1f\" stroke-width=\"1\"/><text x=\"184\" y=\"173.46\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15.6\" font-weight=\"bold\" fill=\"#2b1d14\">$</text>"
+}

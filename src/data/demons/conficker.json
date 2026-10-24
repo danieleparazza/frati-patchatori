@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Conficker, signore dei domini generati",
+    "legend": "Rilevato nel novembre 2008, Conficker entrava dalla falla MS08-067 del servizio Server di Windows, saltava di chiavetta USB in chiavetta e indovinava le password deboli delle condivisioni di rete. Per farsi comandare generava ogni giorno migliaia di domini, tanto che l'industria fondò il Conficker Working Group per registrarli prima di lui. Costruì una botnet di milioni di PC, non sferrò mai un colpo davvero grosso, ma si è aggirato tra i sistemi non aggiornati per oltre dieci anni.",
+    "exorcism": "Si esorcizza applicando l'MS08-067 e tenendo aggiornati anche i sistemi più vecchi. Si disattivano AutoRun e AutoPlay per i supporti rimovibili, e si impongono password robuste agli account amministrativi con un blocco dopo troppi tentativi."
+  },
+  "en": {
+    "title": "The Demon Conficker, Lord of Generated Domains",
+    "legend": "Detected in November 2008, Conficker came in through the MS08-067 flaw in the Windows Server service, hopped from USB stick to USB stick and guessed weak network-share passwords. To receive orders it generated thousands of domains a day, so the industry formed the Conficker Working Group to register them before it could. It built a botnet of millions of PCs, never struck a truly big blow, yet haunted unpatched systems for more than a decade.",
+    "exorcism": "Cast it out by applying MS08-067 and keeping even the oldest systems updated. Disable AutoRun and AutoPlay for removable media, and enforce strong admin passwords with lockout after too many attempts."
+  }
+}

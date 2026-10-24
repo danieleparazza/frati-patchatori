@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Flame, il falso aggiornamento",
+    "legend": "Scoperto nel maggio 2012 soprattutto in Iran e in Medio Oriente, era un enorme strumento di spionaggio modulare: registrava audio, schermate, tasti premuti e dati Bluetooth. Si diffondeva fingendosi Windows Update, grazie a un certificato Microsoft falsificato con una collisione MD5. Dopo la scoperta, i suoi operatori lo fecero autodistruggere.",
+    "exorcism": "Si esorcizza abbandonando algoritmi crittografici deboli come MD5 e controllando da dove arrivano gli aggiornamenti. La revoca rapida dei certificati compromessi chiude la porta che usava."
+  },
+  "en": {
+    "title": "The Demon Flame, the Fake Update",
+    "legend": "Discovered in May 2012 mainly in Iran and the Middle East, it was a huge modular espionage toolkit: it recorded audio, screenshots, keystrokes and Bluetooth data. It spread by posing as Windows Update, thanks to a Microsoft certificate forged with an MD5 collision. After its discovery, its operators made it self-destruct.",
+    "exorcism": "Cast it out by retiring weak algorithms like MD5 and checking where updates come from. Quickly revoking compromised certificates closes the door it used."
+  }
+}

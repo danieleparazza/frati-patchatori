@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Duqu, fratello di Stuxnet",
+    "legend": "Scoperto nel settembre 2011, condivideva gran parte del codice con Stuxnet e raccoglieva informazioni utili per attaccare sistemi di controllo industriale. Arrivava con un documento Word che sfruttava uno zero-day nella gestione dei font TrueType. Una versione successiva, Duqu 2.0, spiò nel 2015 la stessa Kaspersky.",
+    "exorcism": "Si esorcizza aggiornando in fretta e trattando con sospetto i documenti inattesi, anche da fonti note. Il monitoraggio del traffico in uscita verso destinazioni insolite aiuta a scoprirlo."
+  },
+  "en": {
+    "title": "The Demon Duqu, Brother of Stuxnet",
+    "legend": "Discovered in September 2011, it shared much of its code with Stuxnet and gathered information useful for attacking industrial control systems. It arrived in a Word document exploiting a zero-day in TrueType font handling. A later version, Duqu 2.0, spied on Kaspersky itself in 2015.",
+    "exorcism": "Cast it out by patching fast and treating unexpected documents with suspicion, even from known senders. Monitoring outbound traffic to unusual destinations helps find it."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Ryuk",
+  "motto": "CAVE MAGNUM PISCEM",
+  "niche": [
+    "#200a0a",
+    "#5a1414"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<path d=\"M128 172 V152 A22 22 0 0 1 172 152 V172\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"9\"/>\n<rect x=\"112\" y=\"168\" width=\"76\" height=\"62\" rx=\"8\" fill=\"#e4572e\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"210\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"28\" fill=\"#fbf3dd\">R</text>\n<path d=\"M96 236 q10 -8 20 0 q10 8 20 0 M164 236 q10 -8 20 0 q10 8 20 0\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\"/>"
+}

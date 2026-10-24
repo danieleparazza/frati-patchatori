@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Morris, primo verme della Rete",
+    "legend": "Nel novembre 1988 uno studente, Robert Tappan Morris, liberò un verme che strisciava tra le macchine Unix passando dalla modalità debug di sendmail, da un buffer overflow in fingerd, dalle password deboli e dalla fiducia cieca di rsh. Doveva solo contare gli host, ma un errore nella logica di reinfezione lo fece moltiplicare senza freno, finché una stima vuole in ginocchio un decimo della giovane Internet. Da quella notte nacquero il CERT/CC e la prima condanna americana in base al Computer Fraud and Abuse Act.",
+    "exorcism": "Si esorcizza togliendo dai demoni di rete ogni funzione di debug o porta di servizio dimenticata. Niente login basati sulla fiducia come rsh e rexec: ogni accesso remoto chiede un'autenticazione vera. E password robuste, perché il verme conosceva a memoria quelle facili."
+  },
+  "en": {
+    "title": "The Demon Morris, First Worm of the Net",
+    "legend": "In November 1988 a student, Robert Tappan Morris, released a worm that crawled between Unix machines through sendmail's debug mode, a buffer overflow in fingerd, weak passwords and the blind trust of rsh. It was only meant to count hosts, but a flaw in its reinfection logic made it multiply unchecked, until by one estimate a tenth of the young Internet was on its knees. That night gave birth to CERT/CC and to the first US conviction under the Computer Fraud and Abuse Act.",
+    "exorcism": "Cast it out by stripping network daemons of every forgotten debug feature or backdoor. No trust-based logins like rsh and rexec: every remote access must demand real authentication. And strong passwords, because this worm knew the easy ones by heart."
+  }
+}

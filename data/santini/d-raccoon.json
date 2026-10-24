@@ -1,0 +1,11 @@
+{
+  "label": "Raccoon Stealer",
+  "motto": "LARVATUS PRODEO",
+  "niche": [
+    "#1c0e08",
+    "#5c2410"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<path d=\"M106 150 L114 118 L134 140 Z M194 150 L186 118 L166 140 Z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M104 170 C104 136 196 136 196 170 C196 204 172 228 150 236 C128 228 104 204 104 170 Z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M104 172 C120 156 136 164 150 172 C164 164 180 156 196 172 C184 192 166 186 150 180 C134 186 116 192 104 172 Z\" fill=\"#1c1214\"/><circle cx=\"128\" cy=\"174\" r=\"5\" fill=\"#ff7b54\"/><circle cx=\"172\" cy=\"174\" r=\"5\" fill=\"#ff7b54\"/><path d=\"M140 206 Q150 214 160 206 L150 222 Z\" fill=\"#2b1d14\"/><text x=\"150\" y=\"252\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\" >****</text>"
+}

@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone NotPetya, il falso ricattatore",
+    "legend": "Il 27 giugno 2017 partì da un aggiornamento manomesso del software contabile ucraino M.E.Doc e si diffuse con EternalBlue, EternalRomance e credenziali rubate. Fingeva di essere un ransomware, ma cancellava i dati senza possibilità di recupero. Causò circa 10 miliardi di dollari di danni nel mondo e fu attribuito ai servizi militari russi.",
+    "exorcism": "Si esorcizza segmentando la rete e limitando i movimenti laterali, perché si propagava da sola. Le patch per SMB, i privilegi ridotti e un ripristino da backup offline fanno la differenza."
+  },
+  "en": {
+    "title": "The Demon NotPetya, the False Blackmailer",
+    "legend": "On 27 June 2017 it set out from a tampered update of the Ukrainian accounting software M.E.Doc and spread with EternalBlue, EternalRomance and stolen credentials. It posed as ransomware but wiped data beyond recovery. It caused about $10 billion in damage worldwide and was attributed to Russian military intelligence.",
+    "exorcism": "Cast it out by segmenting the network and limiting lateral movement, since it spread on its own. SMB patches, reduced privileges and recovery from offline backups make the difference."
+  }
+}

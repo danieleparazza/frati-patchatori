@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone TRITON, nemico dei sistemi di sicurezza",
+    "legend": "Scoperto nel 2017 in un impianto petrolchimico saudita, prendeva di mira i sistemi di sicurezza Triconex di Schneider Electric, quelli che servono a evitare esplosioni e fughe tossiche. Fu il primo malware noto progettato per disattivare i controlli di sicurezza industriali. Venne scoperto perché un errore fece fermare l'impianto.",
+    "exorcism": "Si esorcizza tenendo i controllori di sicurezza in modalità protetta (il selettore fisico su RUN) e isolandoli dalle reti di processo. Ogni arresto inspiegato dell'impianto va indagato anche come possibile attacco."
+  },
+  "en": {
+    "title": "The Demon TRITON, Enemy of Safety Systems",
+    "legend": "Discovered in 2017 at a Saudi petrochemical plant, it targeted Schneider Electric's Triconex safety systems, the ones that prevent explosions and toxic releases. It was the first known malware designed to disable industrial safety controls. It was found because a mistake made the plant shut down.",
+    "exorcism": "Cast it out by keeping safety controllers in protected mode (the physical key switch on RUN) and isolating them from process networks. Every unexplained shutdown should also be investigated as a possible attack."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Sasser, che cadeva senza essere invitato",
+    "legend": "Tra aprile e maggio 2004 un verme sfruttò un buffer overflow nel servizio LSASS di Windows e si propagò da solo, senza bisogno che qualcuno cliccasse alcunché. Faceva crollare e riavviare le macchine in tutto il mondo, fermando banchi di compagnie aeree, ospedali e agenzie di stampa. Il suo autore era un adolescente tedesco, che aveva scritto anche varianti di Netsky e fu condannato nel 2005.",
+    "exorcism": "Si esorcizza aggiornando presto (MS04-011). Si bloccano le porte SMB e LSASS, TCP 445 e 139, da ogni rete non fidata, e si tiene acceso il firewall dell'host, perché un verme che non chiede permesso va fermato prima della porta."
+  },
+  "en": {
+    "title": "The Demon Sasser, Who Came Uninvited",
+    "legend": "Between April and May 2004 a worm exploited a buffer overflow in the Windows LSASS service and spread by itself, without anyone having to click anything. It crashed and rebooted machines around the world, halting airline desks, hospitals and news agencies. Its author was a German teenager, who had also written Netsky variants and was convicted in 2005.",
+    "exorcism": "Cast it out by patching early (MS04-011). Block the SMB and LSASS ports, TCP 445 and 139, from every untrusted network, and keep the host firewall on: a worm that never asks permission must be stopped before the door."
+  }
+}

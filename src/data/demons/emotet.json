@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Emotet, portinaio di tutti i malware",
+    "legend": "Nato nel 2014 come trojan bancario, Emotet divenne una botnet che vendeva ad altri criminali l'accesso ai PC infetti, diffusa soprattutto con documenti Office pieni di macro e portando in casa TrickBot e Ryuk. Europol lo definì il malware più pericoloso del mondo quando, il 27 gennaio 2021, un'operazione internazionale coordinata da Europol ed Eurojust con otto paesi ne prese il controllo e spinse sulle vittime un aggiornamento che lo disinstallava. Risorse nel novembre 2021 con l'aiuto di TrickBot, ma dal 2023 tace quasi del tutto.",
+    "exorcism": "Si esorcizza bloccando le macro nei documenti Office provenienti da Internet e filtrando sul gateway allegati e link di malspam. Si segmenta la rete e si limita l'accesso alle condivisioni amministrative, così che, se entra, non possa passeggiare di stanza in stanza."
+  },
+  "en": {
+    "title": "The Demon Emotet, Doorkeeper for Every Malware",
+    "legend": "Born in 2014 as a banking trojan, Emotet became a botnet that sold access to infected PCs to other criminals, spread mostly through macro-laden Office documents and letting in TrickBot and Ryuk. Europol called it the world's most dangerous malware when, on 27 January 2021, an international operation coordinated by Europol and Eurojust with eight countries took over its infrastructure and pushed victims an update that uninstalled it. It rose again in November 2021 with TrickBot's help, but has been almost silent since 2023.",
+    "exorcism": "Cast it out by blocking macros in Office documents from the Internet and filtering malspam attachments and links at the gateway. Segment the network and limit access to admin shares, so that if it gets in it cannot stroll from room to room."
+  }
+}

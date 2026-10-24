@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Lumma, falso CAPTCHA",
+    "legend": "Venduto come servizio dal 2022, Lumma ruba credenziali, cookie e portafogli di criptovalute, spesso convincendo le vittime con un finto CAPTCHA a incollare loro stesse un comando nel sistema: la truffa chiamata ClickFix. Il 21 maggio 2025 la Digital Crimes Unit di Microsoft, il Dipartimento di Giustizia statunitense, l'EC3 di Europol e il JC3 giapponese lo colpirono insieme, sequestrando circa 2.300 domini e il suo pannello di controllo. I ricercatori hanno poi segnalato una parziale ricostruzione della sua infrastruttura.",
+    "exorcism": "Si esorcizza insegnando che nessun vero CAPTCHA chiede di incollare un comando in Esegui o nel terminale. Si usano un password manager e un'MFA resistente al phishing, e dopo un'infezione si revocano le sessioni e si cambiano tutte le credenziali."
+  },
+  "en": {
+    "title": "The Demon Lumma, the Fake CAPTCHA",
+    "legend": "Sold as a service since 2022, Lumma steals credentials, cookies and crypto wallets, often by convincing victims with a fake CAPTCHA to paste a command into their own system: the trick known as ClickFix. On 21 May 2025 Microsoft's Digital Crimes Unit, the US Department of Justice, Europol's EC3 and Japan's JC3 struck it together, seizing around 2,300 domains and its control panel. Researchers later reported a partial rebuilding of its infrastructure.",
+    "exorcism": "Cast it out by teaching that no real CAPTCHA ever asks you to paste a command into Run or a terminal. Use a password manager and phishing-resistant MFA, and after an infection revoke sessions and rotate every credential."
+  }
+}

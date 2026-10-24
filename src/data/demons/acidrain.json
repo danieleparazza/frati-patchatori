@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone AcidRain, la pioggia che spense i modem",
+    "legend": "Il 24 febbraio 2022 colpì la rete satellitare KA-SAT di Viasat, cancellando la memoria di decine di migliaia di modem in Europa e rendendoli inservibili. Tra gli effetti collaterali, saltò il controllo remoto di migliaia di turbine eoliche tedesche. Era un wiper costruito per router e modem MIPS.",
+    "exorcism": "Si esorcizza proteggendo i sistemi di gestione centralizzata dei dispositivi, da cui partono gli aggiornamenti. Servono anche un piano per sostituire o riflashare in fretta i dispositivi sul campo."
+  },
+  "en": {
+    "title": "The Demon AcidRain, the Rain That Killed the Modems",
+    "legend": "On 24 February 2022 it struck Viasat's KA-SAT satellite network, wiping the memory of tens of thousands of modems across Europe and leaving them unusable. Among the side effects, remote monitoring of thousands of German wind turbines went down. It was a wiper built for MIPS routers and modems.",
+    "exorcism": "Cast it out by protecting the central device-management systems updates come from. Also have a plan to replace or reflash field devices quickly."
+  }
+}

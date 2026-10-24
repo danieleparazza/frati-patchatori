@@ -1,0 +1,11 @@
+{
+  "label": "TrickBot",
+  "motto": "TRES CHARTAE MALAE",
+  "niche": [
+    "#200c0c",
+    "#5a1a12"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<g transform=\"translate(117 186) rotate(-18)\"><rect x=\"-22\" y=\"-34\" width=\"44\" height=\"64\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/></g><g transform=\"translate(150 186) rotate(0)\"><rect x=\"-22\" y=\"-34\" width=\"44\" height=\"64\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"0\" y=\"8\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#2b1d14\" >?</text></g><g transform=\"translate(183 186) rotate(18)\"><rect x=\"-22\" y=\"-34\" width=\"44\" height=\"64\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/></g><g transform=\"translate(117 186) rotate(-18)\"><path d=\"M0 -14 L10 0 L0 14 L-10 0 Z\" fill=\"#c0392b\"/></g><g transform=\"translate(183 186) rotate(18)\"><circle cx=\"-5\" cy=\"-2\" r=\"6\" fill=\"#2b1d14\"/><circle cx=\"5\" cy=\"-2\" r=\"6\" fill=\"#2b1d14\"/><circle cx=\"0\" cy=\"-10\" r=\"6\" fill=\"#2b1d14\"/><path d=\"M0 0 l-4 12 h8 z\" fill=\"#2b1d14\"/></g><text x=\"150\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"30\" fill=\"#c0392b\" >?</text><path transform=\"translate(150 150) scale(0.9)\" d=\"M-20 0 Q-30 -14 -26 -30 Q-18 -16 -8 -6 Z M20 0 Q30 -14 26 -30 Q18 -16 8 -6 Z\" fill=\"#e4572e\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>"
+}

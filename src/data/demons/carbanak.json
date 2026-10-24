@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Carbanak, rapinatore di banche in pantofole",
+    "legend": "Dal 2013 circa una banda criminale usò la backdoor Carbanak per entrare nelle reti delle banche, osservare gli impiegati dalle loro stesse webcam e incassare facendo sputare contanti ai bancomat o con bonifici fraudolenti, con perdite stimate fino a un miliardo di euro. Kaspersky rese pubblica la campagna nel 2015. Il presunto capo fu arrestato in Spagna nel marzo 2018 in un'operazione coordinata da Europol con la polizia spagnola e l'FBI, anche se attività legate a FIN7 sono proseguite.",
+    "exorcism": "Si esorcizza bloccando gli allegati di spearphishing e aggiornando Office. Nelle banche si sorvegliano bancomat e sistemi SWIFT alla ricerca di strumenti di controllo remoto, e si segmentano le reti dei pagamenti dal resto dell'ufficio."
+  },
+  "en": {
+    "title": "The Demon Carbanak, Bank Robber in Slippers",
+    "legend": "From around 2013 a criminal gang used the Carbanak backdoor to break into bank networks, watch employees through their own webcams and cash out by making ATMs spit out money or through fraudulent transfers, with losses estimated up to a billion euros. Kaspersky made the campaign public in 2015. The suspected leader was arrested in Spain in March 2018 in an operation coordinated by Europol with the Spanish police and the FBI, though related FIN7 activity continued.",
+    "exorcism": "Cast it out by blocking spearphishing attachments and patching Office. In banks, watch ATMs and SWIFT systems for remote-control tools, and segment payment networks from the rest of the office."
+  }
+}

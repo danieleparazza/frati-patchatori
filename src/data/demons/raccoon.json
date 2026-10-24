@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Raccoon, procione delle password",
+    "legend": "Venduto come servizio dal 2019, Raccoon Stealer rubava password, cookie e portafogli di criptovalute da milioni di vittime, con oltre 50 milioni di credenziali sottratte. Nel marzo 2022 l'FBI, insieme alle autorità olandesi e italiane, ne smantellò l'infrastruttura, e il cittadino ucraino Mark Sokolovsky fu arrestato; il Dipartimento di Giustizia annunciò le accuse nell'ottobre 2022. Una versione 2, però, era già sbucata dal bidone più tardi quello stesso anno.",
+    "exorcism": "Si esorcizza evitando software craccato e pubblicità malevole. Si usano un password manager e l'MFA, e dopo un'infezione si cambiano subito le credenziali, prima che il procione le rivenda."
+  },
+  "en": {
+    "title": "The Demon Raccoon, Bandit of Passwords",
+    "legend": "Sold as a service from 2019, Raccoon Stealer stole passwords, cookies and crypto wallets from millions of victims, with more than 50 million credentials taken. In March 2022 the FBI, with Dutch and Italian authorities, dismantled its infrastructure, and Ukrainian national Mark Sokolovsky was arrested; the Department of Justice announced charges in October 2022. A version 2, however, crawled out of the bin later that same year.",
+    "exorcism": "Cast it out by avoiding cracked software and malicious ads. Use a password manager and MFA, and after an infection change credentials at once, before the raccoon resells them."
+  }
+}

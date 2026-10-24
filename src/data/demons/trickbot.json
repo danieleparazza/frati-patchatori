@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone TrickBot, giocoliere di Wizard Spider",
+    "legend": "Comparso nel 2016 dalla stirpe di Dyre, TrickBot era un trojan bancario modulare che diventò botnet e piattaforma di consegna del ransomware per il gruppo Wizard Spider, quello di Ryuk e Conti, con attacchi agli ospedali statunitensi nel 2020. Nell'ottobre 2020 Microsoft ottenne da un tribunale di smantellarne parte dell'infrastruttura, e nel 2022 gli operatori erano già passati ad altri strumenti. Nel maggio 2024 ciò che restava fu colpito anche dall'Operazione Endgame di Europol ed Eurojust.",
+    "exorcism": "Si esorcizza applicando l'MS17-010 e spegnendo SMBv1. Si bloccano gli allegati di malspam e si cercano i dropper come Emotet e BazarLoader che lo portano; si proteggono le credenziali con la protezione di LSASS e l'MFA, e si segmenta la rete."
+  },
+  "en": {
+    "title": "The Demon TrickBot, Juggler of Wizard Spider",
+    "legend": "Appearing in 2016 from the Dyre lineage, TrickBot was a modular banking trojan that grew into a botnet and ransomware delivery platform for the Wizard Spider group, the people behind Ryuk and Conti, including attacks on US hospitals in 2020. In October 2020 Microsoft won a court order to take down part of its infrastructure, and by 2022 the operators had moved to other tools. In May 2024 what remained was also hit by Europol and Eurojust's Operation Endgame.",
+    "exorcism": "Cast it out by applying MS17-010 and switching off SMBv1. Block malspam attachments and hunt for droppers such as Emotet and BazarLoader that bring it in; protect credentials with LSASS protection and MFA, and segment the network."
+  }
+}

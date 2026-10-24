@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Code Red, imbrattatore di IIS",
+    "legend": "Nel luglio 2001 un verme residente solo in memoria scoprì un buffer overflow nell'estensione dell'Indexing Service di IIS, idq.dll, e in meno di quattordici ore infettò oltre 350.000 server. Imbrattava le pagine web con un messaggio di vanto e a date fisse puntava tutti i suoi zombi contro il sito della Casa Bianca, che si salvò cambiando indirizzo. Il fratello minore, Code Red II, lasciava dietro di sé anche una backdoor.",
+    "exorcism": "Si esorcizza applicando subito le patch ai server web esposti, come l'MS01-033 che era già disponibile. Si rimuovono le estensioni e gli handler ISAPI che nessuno usa, e si tiene d'occhio il traffico in uscita: un server che all'improvviso bussa a mezzo mondo non sta facendo il suo lavoro."
+  },
+  "en": {
+    "title": "The Demon Code Red, Defacer of IIS",
+    "legend": "In July 2001 a memory-resident worm found a buffer overflow in the IIS Indexing Service extension, idq.dll, and in under fourteen hours infected more than 350,000 servers. It defaced web pages with a boastful message and, on fixed dates, aimed all its zombies at the White House website, which escaped by changing its address. Its younger sibling, Code Red II, also left a backdoor behind.",
+    "exorcism": "Cast it out by patching internet-facing web servers at once, like MS01-033, which was already available. Remove ISAPI extensions and handlers nobody uses, and watch outbound traffic: a server suddenly knocking on half the world's doors is not doing its job."
+  }
+}

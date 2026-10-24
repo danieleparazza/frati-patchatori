@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Maze, inventore della gogna",
+    "legend": "Comparso nel maggio 2019, rese popolare la doppia estorsione: chi non pagava vedeva i propri dati pubblicati. Si presentava come un \"cartello\" insieme ad altri gruppi. Nel novembre 2020 annunciò il ritiro, mentre i suoi affiliati passavano ad altri marchi.",
+    "exorcism": "Si esorcizza riducendo i dati sensibili esposti e cifrandoli a riposo, così che anche una copia rubata valga poco. Servono anche monitoraggio delle esfiltrazioni e backup offline."
+  },
+  "en": {
+    "title": "The Demon Maze, Inventor of the Pillory",
+    "legend": "Appearing in May 2019, it popularised double extortion: those who didn't pay saw their data published. It presented itself as a \"cartel\" with other gangs. In November 2020 it announced its retirement, while its affiliates moved to other brands.",
+    "exorcism": "Cast it out by reducing exposed sensitive data and encrypting it at rest, so that even a stolen copy is worth little. Add exfiltration monitoring and offline backups."
+  }
+}

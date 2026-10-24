@@ -1,0 +1,11 @@
+{
+  "label": "SQL Slammer",
+  "motto": "CCCLXXVI OCTETI",
+  "niche": [
+    "#160c10",
+    "#4a1424"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<path d=\"M92 160 h30 M86 180 h36 M92 200 h30\" stroke=\"#ff7b54\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"128\" y=\"150\" width=\"76\" height=\"60\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"166\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#2b1d14\" >UDP</text><text x=\"166\" y=\"198\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#c0392b\" >1434</text><path transform=\"translate(166 236) scale(0.5)\" d=\"M6 -40 L-14 4 H0 L-8 40 L16 -6 H2 Z\" fill=\"#f5d77a\" stroke=\"#2b1d14\" stroke-width=\"2\"/><text x=\"166\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\" >376 byte</text>"
+}

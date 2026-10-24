@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone GameOver Zeus, Zeus senza un Olimpo centrale",
+    "legend": "Variante peer-to-peer del trojan bancario ZeuS, attiva dal 2011 e gestita dal gruppo di Evgeniy Bogachev, rubava le credenziali dell'home banking e distribuiva il ransomware CryptoLocker. Senza un server centrale da abbattere, si credeva invincibile: le perdite superarono i 100 milioni di dollari. Il 2 giugno 2014 l'Operazione Tovar, guidata da FBI e DOJ con Europol, NCA e partner privati, spezzò la rete; Bogachev è ancora tra i ricercati più wanted dell'FBI.",
+    "exorcism": "Si esorcizza confermando i bonifici su un canale separato, che il trojan non può toccare. Si tengono aggiornati i computer con un EDR attivo e si bloccano i domini di comando e controllo noti e quelli generati dagli algoritmi DGA."
+  },
+  "en": {
+    "title": "The Demon GameOver Zeus, Zeus Without a Central Olympus",
+    "legend": "A peer-to-peer variant of the ZeuS banking trojan, active from 2011 and run by Evgeniy Bogachev's group, it stole online banking credentials and distributed CryptoLocker ransomware. With no central server to knock down it thought itself invincible, and losses exceeded $100 million. On 2 June 2014 Operation Tovar, led by the FBI and DOJ with Europol, the NCA and private partners, broke the network; Bogachev is still on the FBI's most-wanted list.",
+    "exorcism": "Cast it out by confirming transfers on a separate channel the trojan cannot touch. Keep endpoints patched with EDR running, and block known command-and-control domains as well as the ones spawned by its DGA."
+  }
+}

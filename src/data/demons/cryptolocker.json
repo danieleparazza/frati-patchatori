@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone CryptoLocker, padre di tutti i riscatti",
+    "legend": "Comparso nel settembre 2013, cifrava i file con chiavi RSA e chiedeva il riscatto in Bitcoin, fissando il modello che tutti i ransomware avrebbero copiato. Viaggiava a bordo della botnet GameOver Zeus. Fu esorcizzato nel giugno 2014 dall'Operazione Tovar, che smantellò la botnet e permise di recuperare le chiavi.",
+    "exorcism": "Si esorcizza con backup regolari e scollegati dalla rete, provati con un ripristino vero. Si filtrano gli allegati eseguibili nella posta e si tengono aggiornati sistema e antivirus."
+  },
+  "en": {
+    "title": "The Demon CryptoLocker, Father of All Ransoms",
+    "legend": "Born in September 2013, it encrypted files with RSA keys and demanded the ransom in Bitcoin, setting the template every ransomware would copy. It travelled aboard the GameOver Zeus botnet. It was exorcised in June 2014 by Operation Tovar, which dismantled the botnet and allowed the keys to be recovered.",
+    "exorcism": "Cast it out with regular, offline backups, tested with a real restore. Filter executable attachments in email and keep systems and antivirus up to date."
+  }
+}

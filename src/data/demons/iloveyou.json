@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone ILOVEYOU, falso innamorato",
+    "legend": "Il 4 maggio 2000 dalle Filippine partì una lettera d'amore che nessuno aveva chiesto: LOVE-LETTER-FOR-YOU.TXT.vbs, un verme in VBScript che si spediva da solo a tutta la rubrica di Outlook. Chi la apriva, credendola un testo, si vedeva sovrascrivere i file, e in pochi giorni le vittime furono decine di milioni di PC Windows. L'autore non fu mai processato: le Filippine, allora, non avevano una legge sul crimine informatico, e la approvarono di corsa subito dopo.",
+    "exorcism": "Si esorcizza diffidando degli allegati non attesi e mostrando sempre le estensioni dei file, perché .TXT.vbs non è un testo. Sul gateway di posta si bloccano gli allegati di script come .vbs e .js, e dove non serve si disattiva Windows Script Host."
+  },
+  "en": {
+    "title": "The Demon ILOVEYOU, the False Lover",
+    "legend": "On 4 May 2000 a love letter nobody had asked for left the Philippines: LOVE-LETTER-FOR-YOU.TXT.vbs, a VBScript worm that mailed itself to every Outlook address book it found. Whoever opened it, thinking it plain text, saw their files overwritten, and within days the victims numbered tens of millions of Windows PCs. Its author was never prosecuted: the Philippines had no cybercrime law at the time, and hurried to pass one soon after.",
+    "exorcism": "Cast it out by distrusting unexpected attachments and always showing file extensions, because .TXT.vbs is not text. Block script attachments such as .vbs and .js at the mail gateway, and disable Windows Script Host wherever it is not needed."
+  }
+}

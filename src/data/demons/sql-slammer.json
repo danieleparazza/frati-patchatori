@@ -1,0 +1,12 @@
+{
+  "it": {
+    "title": "Il demone Slammer, fulmine di un solo pacchetto",
+    "legend": "Il 25 gennaio 2003 un verme di appena 376 byte, tanto piccolo da stare in un solo pacchetto UDP, colpì il servizio di risoluzione di Microsoft SQL Server con un buffer overflow. In circa dieci minuti infettò 75.000 host, il verme più veloce mai visto fino ad allora, rallentando mezza Internet e mettendo in crisi bancomat e servizi di emergenza. La patch, beffa delle beffe, era uscita sei mesi prima.",
+    "exorcism": "Si esorcizza aggiornando i database (MS02-039) e soprattutto tenendoli lontani da Internet. Si blocca la porta UDP 1434 sul perimetro e si applica il filtraggio in uscita, perché un server di database non ha motivo di lanciare pacchetti verso il mondo intero."
+  },
+  "en": {
+    "title": "The Demon Slammer, Lightning in a Single Packet",
+    "legend": "On 25 January 2003 a worm of just 376 bytes, small enough to fit in a single UDP packet, struck the Microsoft SQL Server Resolution Service with a buffer overflow. In about ten minutes it infected 75,000 hosts, the fastest worm then recorded, slowing half the Internet and upsetting ATMs and emergency services. The patch, adding insult to injury, had been out for six months.",
+    "exorcism": "Cast it out by patching database servers (MS02-039) and, above all, keeping them off the Internet. Block UDP port 1434 at the perimeter and apply egress filtering, because a database server has no reason to hurl packets at the whole world."
+  }
+}

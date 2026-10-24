@@ -1,0 +1,11 @@
+{
+  "label": "Carbanak",
+  "motto": "BANCOMAT PROFLUENS",
+  "niche": [
+    "#2b0f14",
+    "#6b1d1d"
+  ],
+  "accent": "#5c1a14",
+  "frame": "demone",
+  "emblem": "<rect x=\"110\" y=\"128\" width=\"80\" height=\"96\" rx=\"5\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/><rect x=\"120\" y=\"138\" width=\"60\" height=\"32\" fill=\"#1e3a5f\"/><text x=\"150\" y=\"159\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\" >ATM</text><g fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1\"><rect x=\"122\" y=\"176\" width=\"10\" height=\"7\"/><rect x=\"136\" y=\"176\" width=\"10\" height=\"7\"/><rect x=\"150\" y=\"176\" width=\"10\" height=\"7\"/><rect x=\"122\" y=\"187\" width=\"10\" height=\"7\"/><rect x=\"136\" y=\"187\" width=\"10\" height=\"7\"/><rect x=\"150\" y=\"187\" width=\"10\" height=\"7\"/></g><rect x=\"126\" y=\"206\" width=\"48\" height=\"5\" fill=\"#2b1d14\"/><g fill=\"#7fb069\" stroke=\"#2b1d14\" stroke-width=\"1.5\"><rect x=\"128\" y=\"210\" width=\"44\" height=\"18\" transform=\"rotate(-8 150 219)\"/><rect x=\"120\" y=\"226\" width=\"44\" height=\"18\" transform=\"rotate(10 142 235)\"/><rect x=\"146\" y=\"232\" width=\"44\" height=\"18\" transform=\"rotate(-14 168 241)\"/></g>"
+}
