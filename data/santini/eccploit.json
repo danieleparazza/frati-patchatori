@@ -1,0 +1,10 @@
+{
+  "label": "ECCploit",
+  "motto": "MALLEUS SUPER ECC",
+  "niche": [
+    "#2a1a14",
+    "#523326"
+  ],
+  "accent": "#4a2d18",
+  "emblem": "<g stroke=\"#2b1d14\" stroke-width=\"1.5\"><rect x=\"110\" y=\"160\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"132\" y=\"160\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"154\" y=\"160\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"176\" y=\"160\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"110\" y=\"182\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"132\" y=\"182\" width=\"20\" height=\"20\" fill=\"#e74c3c\"/><rect x=\"154\" y=\"182\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"176\" y=\"182\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"110\" y=\"204\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"132\" y=\"204\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"154\" y=\"204\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/><rect x=\"176\" y=\"204\" width=\"20\" height=\"20\" fill=\"#dfe6e9\"/></g>\n<text x=\"120\" y=\"174\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">0</text><text x=\"186\" y=\"196\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">1</text>\n<g transform=\"translate(176 140) rotate(30)\"><rect x=\"-4\" y=\"0\" width=\"8\" height=\"40\" fill=\"#8a6d3f\"/><rect x=\"-18\" y=\"-14\" width=\"36\" height=\"18\" rx=\"3\" fill=\"#95a5a6\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/></g>"
+}

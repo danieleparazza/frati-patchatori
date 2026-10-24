@@ -1,0 +1,10 @@
+{
+  "label": "Bleichenbacher Cat",
+  "motto": "FELIS NOVEM VITAE",
+  "niche": [
+    "#1a1a26",
+    "#363650"
+  ],
+  "accent": "#28283e",
+  "emblem": "<path d=\"M118 160 l12 16 q20 -8 40 0 l12 -16 l-2 34 a34 30 0 0 1 -72 0 z\" fill=\"#2c3e50\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M118 160 l4 20 M182 160 l-4 20\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<ellipse cx=\"136\" cy=\"186\" rx=\"5\" ry=\"8\" fill=\"#e8c45c\"/><ellipse cx=\"164\" cy=\"186\" rx=\"5\" ry=\"8\" fill=\"#e8c45c\"/>\n<circle cx=\"136\" cy=\"187\" r=\"2\" fill=\"#1e272e\"/><circle cx=\"164\" cy=\"187\" r=\"2\" fill=\"#1e272e\"/>\n<path d=\"M148 200 l2 4 l2 -4\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"1.5\"><path d=\"M120 200 l-18 -4 M120 206 l-18 4 M180 200 l18 -4 M180 206 l18 4\"/></g>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#e8c45c\">9</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "PAYDAY",
+  "motto": "DIES MERCEDIS",
+  "niche": [
+    "#1a2a1e",
+    "#345436"
+  ],
+  "accent": "#244a2c",
+  "emblem": "<rect x=\"110\" y=\"156\" width=\"80\" height=\"54\" rx=\"5\" fill=\"#2a8f5a\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"183\" r=\"17\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"190\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\">$</text>\n<circle cx=\"124\" cy=\"167\" r=\"3\" fill=\"#fbf3dd\"/><circle cx=\"176\" cy=\"199\" r=\"3\" fill=\"#fbf3dd\"/>\n<g transform=\"translate(150 224)\"><circle cx=\"-12\" cy=\"0\" r=\"9\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\"/><path d=\"M-3 0 H22 M15 0 V8 M21 0 V7\" stroke=\"#d9ad55\" stroke-width=\"4\"/></g>\n<path d=\"M118 146 l10 10 M182 146 l-10 10\" stroke=\"#e8c45c\" stroke-width=\"2.5\"/>"
+}

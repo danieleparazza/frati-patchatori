@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SGX.Fail, che contò le cadute dell'enclave",
+    "patronage": "delle enclave Intel SGX, di chi vi ripone segreti preziosi e dei ricercatori che tengono il registro dei fallimenti.",
+    "hagiography": "Nel novembre 2022 un ampio gruppo di ricercatori raccolse in SGX.fail il bilancio di anni di attacchi contro Intel SGX, l'enclave sicura del processore. Mettendo in fila i tanti canali laterali e le falle di attestazione, mostrarono come molte applicazioni che vi affidavano chiavi e dati preziosi, da certi portafogli di criptovalute ai sistemi DRM, fossero in pratica aggirabili. La morale: l'enclave non è una scatola magica.",
+    "prayer": "O Beato SGX.Fail, che tieni il conto di ogni caduta dell'enclave, fa' che non riponiamo cieca fiducia in una scatola sola. Amen.",
+    "feast": "Si festeggia aggiornando microcodice e runtime SGX e non affidando a una sola enclave tutti i propri segreti.",
+    "proverb": "Nessuna scatola, per quanto sicura, custodisce da sola ogni segreto."
+  },
+  "en": {
+    "title": "Blessed SGX.Fail, Who Counted the Enclave's Falls",
+    "patronage": "Intel SGX enclaves, those who store precious secrets in them, and researchers who keep the ledger of failures.",
+    "hagiography": "In November 2022 a large group of researchers gathered in SGX.fail the tally of years of attacks against Intel SGX, the processor's secure enclave. Lining up the many side channels and attestation flaws, they showed how many applications that entrusted keys and precious data to it, from certain cryptocurrency wallets to DRM systems, were in practice bypassable. The moral: the enclave is not a magic box.",
+    "prayer": "O Blessed SGX.Fail, who keeps count of every fall of the enclave, let us not place blind trust in a single box. Amen.",
+    "feast": "Celebrated by updating SGX microcode and runtimes and not entrusting all of one's secrets to a single enclave.",
+    "proverb": "No box, however secure, guards every secret alone."
+  }
+}

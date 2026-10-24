@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PAYDAY, che saldava i conti di Oracle",
+    "patronage": "dei gestionali Oracle E-Business Suite, dei moduli di produzione e di chi tiene i conti aperti su Internet.",
+    "hagiography": "Il 19 novembre 2019 Onapsis descrisse PAYDAY, una coppia di vulnerabilità nel modulo Work in Process di Oracle E-Business Suite. Un attaccante con pochi privilegi, via HTTP, poteva creare, cancellare o modificare dati critici dei sistemi di produzione e amministrazione, fino a toccare pagamenti e ordini. Oracle le corresse nel bollettino trimestrale; il nome prometteva, all'attaccante, un vero giorno di paga (CVE-2019-2633, CVE-2019-2638).",
+    "prayer": "O San PAYDAY, che apri la cassa del gestionale, fa' che i nostri conti non siano saldati da mani estranee. Amen.",
+    "feast": "Si festeggia applicando gli aggiornamenti critici Oracle e togliendo i gestionali dalla rete pubblica.",
+    "proverb": "Gestionale esposto, giorno di paga per i ladri."
+  },
+  "en": {
+    "title": "Saint PAYDAY, Who Settled Oracle's Accounts",
+    "patronage": "Oracle E-Business Suite systems, production modules, and everyone who keeps the books open to the Internet.",
+    "hagiography": "On 19 November 2019 Onapsis described PAYDAY, a pair of vulnerabilities in the Work in Process module of Oracle E-Business Suite. A low-privileged attacker, over HTTP, could create, delete or modify critical data in production and administration systems, reaching as far as payments and orders. Oracle fixed them in the quarterly bulletin; the name promised the attacker a real payday (CVE-2019-2633, CVE-2019-2638).",
+    "prayer": "O Saint PAYDAY, who opens the ledger's cash drawer, let our accounts not be settled by strangers' hands. Amen.",
+    "feast": "Celebrated by applying the Oracle critical patch updates and taking the business systems off the public network.",
+    "proverb": "An exposed ledger is payday for thieves."
+  }
+}

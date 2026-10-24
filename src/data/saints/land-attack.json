@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Land, Padre della Chiesa che parlava da solo",
+    "patronage": "degli stack TCP/IP dei primi tempi, dei pacchetti con mittente uguale al destinatario e di chi finisce a rispondere a se stesso.",
+    "hagiography": "Nel novembre 1997 fu pubblicato l'attacco Land: bastava inviare a una macchina un singolo pacchetto SYN con indirizzo e porta di origine identici a quelli di destinazione. Molti stack TCP/IP dell'epoca, ricevendolo, cercavano di rispondere a se stessi, entrando in un ciclo che li bloccava o li rallentava fino al blocco. Un pacchetto, nessuna complicità: la macchina si metteva in ginocchio da sola (CVE-1999-0016).",
+    "prayer": "O San Land, che fai parlare la macchina con se stessa fino allo sfinimento, fa' che i nostri stack rifiutino i pacchetti che non hanno senso. Amen.",
+    "feast": "Si festeggia aggiornando lo stack di rete e filtrando i pacchetti con indirizzo di origine uguale a quello di destinazione.",
+    "proverb": "Chi risponde a se stesso non finisce più."
+  },
+  "en": {
+    "title": "Saint Land, Church Father Who Talked to Himself",
+    "patronage": "the early TCP/IP stacks, packets with sender equal to receiver, and everyone who ends up answering themselves.",
+    "hagiography": "In November 1997 the Land attack was published: it was enough to send a machine a single SYN packet with source address and port identical to the destination. Many TCP/IP stacks of the time, on receiving it, tried to answer themselves, entering a loop that froze or slowed them to a standstill. One packet, no accomplice: the machine brought itself to its knees (CVE-1999-0016).",
+    "prayer": "O Saint Land, who makes the machine talk to itself until exhaustion, let our stacks reject the packets that make no sense. Amen.",
+    "feast": "Celebrated by updating the network stack and filtering packets whose source address equals the destination.",
+    "proverb": "He who answers himself never finishes."
+  }
+}

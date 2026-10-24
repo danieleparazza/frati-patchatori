@@ -1,0 +1,10 @@
+{
+  "label": "CredManifest",
+  "motto": "CLAVIS MANIFESTA",
+  "niche": [
+    "#14263a",
+    "#2d4a6b"
+  ],
+  "accent": "#1d3b58",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"52\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"118\" y=\"158\" width=\"12\" height=\"18\" rx=\"1\" fill=\"#d9ad55\"/>\n<path d=\"M136 160 h44 M136 168 h36 M136 176 h40\" stroke=\"#7a6656\" stroke-width=\"2\"/>\n<g transform=\"translate(150 224)\"><circle cx=\"-14\" cy=\"0\" r=\"10\" fill=\"none\" stroke=\"#e8c45c\" stroke-width=\"4\"/><path d=\"M-4 0 H22 M14 0 V9 M21 0 V7\" stroke=\"#e8c45c\" stroke-width=\"4\"/></g>\n<path d=\"M150 202 l0 10\" stroke=\"#c0392b\" stroke-width=\"2\" stroke-dasharray=\"3 2\"/>\n<text x=\"150\" y=\"142\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">priv</text>"
+}

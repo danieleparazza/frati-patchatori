@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Bad Binder, che legava male la memoria",
+    "patronage": "del kernel Android, del driver binder e dei telefoni spiati senza un clic.",
+    "hagiography": "Nel settembre 2019 Maddie Stone di Project Zero individuò Bad Binder, un use-after-free nel driver binder, cuore della comunicazione tra i processi di Android. Una app locale, o un secondo bug in un'app di rete, poteva sfruttarlo per salire dal livello applicativo fino al kernel. Project Zero lo trovò già usato in attacchi reali, collegati a un fornitore di spyware. Era stato corretto in passato e poi rientrato in molti kernel (CVE-2019-2215).",
+    "prayer": "O San Bad Binder, che sciogli i legami della memoria, fa' che il nostro kernel non usi ciò che ha già liberato. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di sicurezza Android e ricordando che i bug corretti sanno tornare.",
+    "proverb": "Memoria liberata e usata ancora apre la porta al kernel."
+  },
+  "en": {
+    "title": "Saint Bad Binder, Who Bound the Memory Badly",
+    "patronage": "the Android kernel, the binder driver, and phones spied on without a click.",
+    "hagiography": "In September 2019 Maddie Stone of Project Zero found Bad Binder, a use-after-free in the binder driver, the heart of communication between Android's processes. A local app, or a second bug in a networked app, could exploit it to climb from the application level to the kernel. Project Zero found it already used in real attacks, linked to a spyware vendor. It had been fixed in the past and then crept back into many kernels (CVE-2019-2215).",
+    "prayer": "O Saint Bad Binder, who loosens the bonds of memory, let our kernel not use what it has already freed. Amen.",
+    "feast": "Celebrated by installing the Android security updates and remembering that fixed bugs know how to return.",
+    "proverb": "Memory freed and used again opens the door to the kernel."
+  }
+}

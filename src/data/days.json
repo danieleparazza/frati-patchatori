@@ -825,9 +825,9 @@
   ]
  },
  "05-03": {
-  "patron": "tlstorm-2",
+  "patron": "imagetragick",
   "others": [
-   "imagetragick",
+   "tlstorm-2",
    "owneranyone"
   ]
  },
@@ -886,22 +886,22 @@
   ]
  },
  "05-11": {
-  "patron": "doller-ticket",
+  "patron": "fragattacks",
   "others": [
-   "fragattacks",
+   "doller-ticket",
    "thunderspy",
    "pplfault"
   ]
  },
  "05-12": {
-  "patron": "longlogon",
+  "patron": "printdemon",
   "others": [
+   "longlogon",
    "deadletter",
    "breakfast",
    "rtp-bleed",
    "yellowkey",
    "greenplasma",
-   "printdemon",
    "overdos",
    "stalloris"
   ]
@@ -938,9 +938,9 @@
   ]
  },
  "05-16": {
-  "patron": "zipperdown",
+  "patron": "zombieload",
   "others": [
-   "zombieload",
+   "zipperdown",
    "marvin",
    "friendlyname",
    "llama-drama",
@@ -969,16 +969,15 @@
   "others": [
    "rambleed",
    "3shake",
-   "krack",
    "ghosttree",
    "cratedepression",
    "cookie-bite"
   ]
  },
  "05-20": {
-  "patron": "matryoshka-trap",
+  "patron": "logjam",
   "others": [
-   "logjam",
+   "matryoshka-trap",
    "linguistic-lumberjack",
    "nginx-poolslip",
    "frost",
@@ -986,12 +985,12 @@
   ]
  },
  "05-21": {
-  "patron": "fatgid",
+  "patron": "badsuccessor",
   "others": [
+   "fatgid",
    "bumsrakete",
    "zombievpn",
-   "underminr",
-   "badsuccessor"
+   "underminr"
   ]
  },
  "05-22": {
@@ -1091,6 +1090,7 @@
  "06-05": {
   "patron": "zip-slip",
   "others": [
+   "ccs-injection",
    "proto6",
    "nickname"
   ]
@@ -1113,10 +1113,9 @@
   "others": []
  },
  "06-09": {
-  "patron": "ccs-injection",
+  "patron": "smbleed",
   "others": [
    "cacheout",
-   "smbleed",
    "alpaca",
    "ghost-sender",
    "pacman",
@@ -2207,6 +2206,7 @@
   "patron": "ret2dir",
   "others": [
    "plex2shell",
+   "krack",
    "heracles",
    "big-fish",
    "ransacked",

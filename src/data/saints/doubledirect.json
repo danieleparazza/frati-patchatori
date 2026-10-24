@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DoubleDirect, che dirottava in entrambi i sensi",
+    "patronage": "dei pacchetti ICMP redirect, delle reti mobili e di chi crede che il traffico segua sempre la strada giusta.",
+    "hagiography": "Il 20 novembre 2014 Zimperium descrisse DoubleDirect, un attacco man-in-the-middle che abusava dei messaggi ICMP redirect, pensati per suggerire percorsi migliori. Inviando redirect falsi, l'attaccante dirottava verso di sé il traffico della vittima in entrambe le direzioni, intercettandolo. La tecnica fu osservata in attacchi reali contro dispositivi di vari produttori, specie in mobilità.",
+    "prayer": "O Beato DoubleDirect, che indichi scorciatoie verso di te, fa' che le nostre reti ignorino i consigli di percorso non richiesti. Amen.",
+    "feast": "Si festeggia disabilitando i redirect ICMP in entrata sui sistemi e sui gateway che non ne hanno bisogno.",
+    "proverb": "Scorciatoia consigliata da estranei porta dritta nei guai."
+  },
+  "en": {
+    "title": "Blessed DoubleDirect, Who Hijacked Both Ways",
+    "patronage": "ICMP redirect packets, mobile networks, and everyone who believes traffic always takes the right road.",
+    "hagiography": "On 20 November 2014 Zimperium described DoubleDirect, a man-in-the-middle attack that abused ICMP redirect messages, meant to suggest better routes. By sending forged redirects, the attacker diverted the victim's traffic toward themselves in both directions and intercepted it. The technique was seen in real attacks against devices from several vendors, especially on the move.",
+    "prayer": "O Blessed DoubleDirect, who points out shortcuts leading to you, let our networks ignore unrequested routing advice. Amen.",
+    "feast": "Celebrated by disabling incoming ICMP redirects on systems and gateways that do not need them.",
+    "proverb": "A shortcut suggested by strangers leads straight into trouble."
+  }
+}

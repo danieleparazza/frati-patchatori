@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SHAmbles, che falsificò le firme con SHA-1",
+    "patronage": "delle firme digitali che si ostinano con SHA-1, delle collisioni a prefisso scelto e di chi non ha ancora cambiato algoritmo.",
+    "hagiography": "Il 25 novembre 2019 Gaëtan Leurent e Thomas Peyrin presentarono SHAmbles, la prima collisione a prefisso scelto pratica su SHA-1: potevano costruire due documenti con contenuti diversi ma stessa impronta SHA-1, a un costo ormai accessibile. Lo dimostrarono falsificando firme PGP e creando chiavi GnuPG contraffatte. GnuPG corresse rifiutando le firme SHA-1 problematiche dalla versione 2.2.18 (CVE-2019-14855).",
+    "prayer": "O San SHAmbles, che dai la stessa impronta a documenti diversi, fa' che le nostre firme abbandonino SHA-1 una volta per tutte. Amen.",
+    "feast": "Si festeggia aggiornando GnuPG oltre la 2.2.18 e migrando le firme a SHA-256 e oltre.",
+    "proverb": "Due carte, una sola impronta: fidarsi è un azzardo."
+  },
+  "en": {
+    "title": "Saint SHAmbles, Who Forged the Signatures With SHA-1",
+    "patronage": "digital signatures still clinging to SHA-1, chosen-prefix collisions, and everyone who has not yet changed algorithm.",
+    "hagiography": "On 25 November 2019 Gaëtan Leurent and Thomas Peyrin presented SHAmbles, the first practical chosen-prefix collision on SHA-1: they could build two documents with different contents but the same SHA-1 digest, at a cost that had become affordable. They proved it by forging PGP signatures and creating counterfeit GnuPG keys. GnuPG fixed it by rejecting the problematic SHA-1 signatures from version 2.2.18 (CVE-2019-14855).",
+    "prayer": "O Saint SHAmbles, who gives the same fingerprint to different documents, let our signatures abandon SHA-1 once and for all. Amen.",
+    "feast": "Celebrated by updating GnuPG past 2.2.18 and migrating signatures to SHA-256 and beyond.",
+    "proverb": "Two papers, one fingerprint: trusting it is a gamble."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ECCploit, che martellò anche la memoria con correzione",
+    "patronage": "della memoria ECC, degli attacchi Rowhammer e di chi credeva che i bit corretti fossero al sicuro.",
+    "hagiography": "Il 23 novembre 2018 VUSec presentò ECCploit: la memoria ECC, che corregge automaticamente i singoli bit errati e si riteneva immune a Rowhammer, poteva comunque essere piegata. Studiando con pazienza i tempi delle correzioni, i ricercatori capirono come provocare abbastanza inversioni di bit da superare la protezione ECC e alterare la memoria. La difesa non era magica: rallentava l'attacco, non lo rendeva impossibile.",
+    "prayer": "O San ECCploit, che martelli finché la correzione cede, fa' che la nostra memoria non riponga ogni fiducia nei bit di parità. Amen.",
+    "feast": "Si festeggia scegliendo memoria e controller più resistenti a Rowhammer, senza illudersi che l'ECC basti da solo.",
+    "proverb": "Chi corregge un bit non ferma il martello."
+  },
+  "en": {
+    "title": "Saint ECCploit, Who Hammered Even Error-Correcting Memory",
+    "patronage": "ECC memory, Rowhammer attacks, and everyone who thought corrected bits were safe.",
+    "hagiography": "On 23 November 2018 VUSec presented ECCploit: ECC memory, which automatically corrects single bad bits and was believed immune to Rowhammer, could still be bent. By patiently studying the timing of the corrections, the researchers worked out how to cause enough bit flips to defeat the ECC protection and alter memory. The defence was no magic: it slowed the attack down, it did not make it impossible.",
+    "prayer": "O Saint ECCploit, who hammers until the correction gives way, let our memory not place all its trust in parity bits. Amen.",
+    "feast": "Celebrated by choosing memory and controllers more resistant to Rowhammer, without the illusion that ECC alone is enough.",
+    "proverb": "Correct one bit and you still have not stopped the hammer."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "SmashEx",
+  "motto": "ARCA PERFRACTA",
+  "niche": [
+    "#241a2e",
+    "#463458"
+  ],
+  "accent": "#352648",
+  "emblem": "<rect x=\"114\" y=\"150\" width=\"72\" height=\"64\" rx=\"6\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"124\" y=\"160\" width=\"52\" height=\"44\" rx=\"3\" fill=\"#2c3e50\"/>\n<circle cx=\"150\" cy=\"182\" r=\"9\" fill=\"#d9ad55\"/><rect x=\"146\" y=\"182\" width=\"8\" height=\"14\" fill=\"#d9ad55\"/>\n<path d=\"M118 142 L150 178 L176 150\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M150 178 l-14 -2 l8 10 z\" fill=\"#c0392b\"/>\n<g stroke=\"#e74c3c\" stroke-width=\"2\"><path d=\"M126 206 l-6 8 M150 210 l0 10 M174 206 l6 8\"/></g>"
+}

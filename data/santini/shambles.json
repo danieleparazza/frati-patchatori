@@ -1,0 +1,10 @@
+{
+  "label": "SHAmbles",
+  "motto": "IDEM SIGNUM",
+  "niche": [
+    "#2a1a22",
+    "#523246"
+  ],
+  "accent": "#4a2838",
+  "emblem": "<path d=\"M118 150 h44 v40 h-14 l-8 10 l-8 -10 h-14 z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M126 158 h28 M126 166 h28 M126 174 h20\" stroke=\"#7a6656\" stroke-width=\"2\"/>\n<path d=\"M168 150 h44 v40 h-14 l-8 10 l-8 -10 h-14 z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\" transform=\"translate(-30 40)\"/>\n<path d=\"M146 198 h28 M146 206 h28 M146 214 h20\" stroke=\"#7a6656\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#e8c45c\">= SHA-1</text>"
+}

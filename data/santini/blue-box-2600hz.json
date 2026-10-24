@@ -1,0 +1,11 @@
+{
+  "label": "2600 Hz",
+  "motto": "DATA ET IMPERIUM",
+  "niche": [
+    "#14223a",
+    "#2a4066"
+  ],
+  "accent": "#1d3158",
+  "frame": "papa",
+  "emblem": "<rect x=\"112\" y=\"156\" width=\"76\" height=\"52\" rx=\"6\" fill=\"#1d5aa8\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#d9ad55\"><circle cx=\"124\" cy=\"170\" r=\"4\"/><circle cx=\"141\" cy=\"170\" r=\"4\"/><circle cx=\"158\" cy=\"170\" r=\"4\"/><circle cx=\"175\" cy=\"170\" r=\"4\"/><circle cx=\"124\" cy=\"184\" r=\"4\"/><circle cx=\"141\" cy=\"184\" r=\"4\"/><circle cx=\"158\" cy=\"184\" r=\"4\"/><circle cx=\"175\" cy=\"184\" r=\"4\"/><circle cx=\"124\" cy=\"198\" r=\"4\"/><circle cx=\"141\" cy=\"198\" r=\"4\"/><circle cx=\"158\" cy=\"198\" r=\"4\"/><circle cx=\"175\" cy=\"198\" r=\"4\"/></g>\n<path d=\"M92 150 q12 8 2 18\" stroke=\"#fbf3dd\" stroke-width=\"2.5\" fill=\"none\"/>\n<path d=\"M196 142 q20 16 0 36\" stroke=\"#e8c45c\" stroke-width=\"2.5\" fill=\"none\"/>\n<text x=\"150\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">2600 Hz</text>"
+}

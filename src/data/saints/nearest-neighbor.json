@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Nearest Neighbor, che entrava dal Wi-Fi del vicino",
+    "patronage": "delle reti Wi-Fi d'ufficio, dei vicini di pianerottolo e degli attaccanti che non devono nemmeno essere in città.",
+    "hagiography": "Il 22 novembre 2024 Volexity descrisse l'attacco Nearest Neighbor: un gruppo di spionaggio russo, troppo lontano per raggiungere il Wi-Fi del bersaglio, bucò prima le reti di aziende vicine e, saltando da un edificio all'altro via Wi-Fi, si avvicinò fino a entrare nella rete della vittima dall'altra parte del muro. Una volta dentro usò, tra l'altro, un difetto dello spooler di stampa di Windows per salire di privilegi (CVE-2022-38028).",
+    "prayer": "O San Nearest Neighbor, che arrivi saltando di rete in rete, fa' che le nostre reti senza fili non si fidino del vicino. Amen.",
+    "feast": "Si festeggia proteggendo le reti Wi-Fi aziendali con autenticazione forte e separandole dai sistemi critici, come un buon vicinato.",
+    "proverb": "Chi non chiude il Wi-Fi apre la porta anche al vicino del vicino."
+  },
+  "en": {
+    "title": "Saint Nearest Neighbor, Who Came In Through the Neighbour's Wi-Fi",
+    "patronage": "office Wi-Fi networks, next-door neighbours, and attackers who don't even have to be in town.",
+    "hagiography": "On 22 November 2024 Volexity described the Nearest Neighbor attack: a Russian espionage group, too far away to reach the target's Wi-Fi, first breached nearby companies' networks and, hopping from building to building over Wi-Fi, drew close enough to enter the victim's network from the other side of the wall. Once inside it used, among other things, a Windows Print Spooler flaw to escalate privileges (CVE-2022-38028).",
+    "prayer": "O Saint Nearest Neighbor, who arrives hopping from network to network, let our wireless networks not trust the neighbour. Amen.",
+    "feast": "Celebrated by protecting corporate Wi-Fi with strong authentication and separating it from critical systems, like a good neighbourhood.",
+    "proverb": "Leave the Wi-Fi open and you let in the neighbour's neighbour too."
+  }
+}

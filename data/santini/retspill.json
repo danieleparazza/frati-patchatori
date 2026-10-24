@@ -1,0 +1,10 @@
+{
+  "label": "RetSpill",
+  "motto": "RELIQUIAE IN STACK",
+  "niche": [
+    "#1f1f2e",
+    "#3d3d5c"
+  ],
+  "accent": "#2e2e48",
+  "emblem": "<g stroke=\"#2b1d14\" stroke-width=\"1.5\" fill=\"#dfe6e9\"><rect x=\"122\" y=\"130\" width=\"56\" height=\"16\"/><rect x=\"122\" y=\"146\" width=\"56\" height=\"16\"/><rect x=\"122\" y=\"162\" width=\"56\" height=\"16\"/><rect x=\"122\" y=\"178\" width=\"56\" height=\"16\"/></g>\n<text x=\"150\" y=\"142\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#2b1d14\">user</text>\n<text x=\"150\" y=\"174\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#2b1d14\">user</text>\n<path d=\"M178 186 q22 6 18 30\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<g fill=\"#e74c3c\"><circle cx=\"196\" cy=\"214\" r=\"3\"/><circle cx=\"188\" cy=\"226\" r=\"3\"/><circle cx=\"200\" cy=\"228\" r=\"3\"/><circle cx=\"192\" cy=\"238\" r=\"3\"/></g>\n<text x=\"138\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">kernel</text>"
+}

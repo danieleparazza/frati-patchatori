@@ -9,13 +9,23 @@
     "12-25": "mitnick-christmas-attack",
     "12-06": "pool-party-2",
     "12-08": "kerberos-bronze-bit",
-    "12-10": "badram"
+    "12-10": "badram",
+    "05-03": "imagetragick",
+    "05-11": "fragattacks",
+    "05-12": "printdemon",
+    "05-16": "zombieload",
+    "05-20": "logjam",
+    "05-21": "badsuccessor",
+    "06-09": "smbleed"
   },
   "dates": {
     "shattered": "2017-02-23",
     "foreshadow": "2018-08-14",
     "foreshadow-ng": "2018-08-14",
-    "bleedingbit": "2018-11-01"
+    "bleedingbit": "2018-11-01",
+    "krack": "2017-10-16",
+    "ccs-injection": "2014-06-05",
+    "hole196": "2010-07-26"
   },
   "born": {
     "shellshock": 1989,
@@ -34,7 +44,13 @@
     "regresshion": 2020,
     "looney-tunables": 2021,
     "robot": 1998,
-    "postgreshell": 2014
+    "postgreshell": 2014,
+    "venom": 2004,
+    "fragattacks": 1997,
+    "sambacry": 2010,
+    "dirty-frag": 2017,
+    "refluxfs": 2017,
+    "ovswrap": 2013
   },
   "absurd": [
     "light-commands",
@@ -72,7 +88,11 @@
     "y2k22",
     "enlbufferpwn",
     "badram",
-    "dolphinattack"
+    "dolphinattack",
+    "winnuke",
+    "m1racles",
+    "billion-laughs",
+    "ueficanhazbufferoverflow"
   ],
   "exclude": [],
   "removeCves": {
@@ -88,6 +108,9 @@
     ],
     "dirtycred": [
       "CVE-2022-0847"
+    ],
+    "bitskrieg": [
+      "CVE-2026-50507"
     ]
   },
   "addCves": {

@@ -1,0 +1,10 @@
+{
+  "label": "SGX.Fail",
+  "motto": "ARCA NON SUFFICIT",
+  "niche": [
+    "#241a2e",
+    "#463458"
+  ],
+  "accent": "#352648",
+  "emblem": "<rect x=\"112\" y=\"150\" width=\"76\" height=\"64\" rx=\"6\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"124\" y=\"162\" width=\"52\" height=\"40\" rx=\"3\" fill=\"#2c3e50\"/>\n<text x=\"150\" y=\"189\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#5dade2\">SGX</text>\n<path d=\"M120 158 L180 206 M180 158 L120 206\" stroke=\"#c0392b\" stroke-width=\"3.5\" opacity=\"0.85\"/>\n<path d=\"M150 136 l4 10 l-8 0 z\" fill=\"#e8c45c\"/><text x=\"150\" y=\"134\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">!</text>"
+}

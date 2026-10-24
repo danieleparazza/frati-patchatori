@@ -16,7 +16,7 @@
 <circle cx="168" cy="166" r="3" fill="#d9ad55"/>
 <rect x="132" y="120" width="44" height="18" rx="3" fill="#bfc9d1" stroke="#fbf3dd" stroke-width="1.5" transform="rotate(-25 154 129)"/>
 <rect x="150" y="128" width="8" height="40" rx="2" fill="#8b5a2b" transform="rotate(-25 154 129)"/>
-<text x="196" y="244" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="16" fill="#d9ad55">1→0</text></g>
+<text x="180" y="246" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="18" fill="#d9ad55">1</text><path d="M188 240 h10 m-4 -4 l4 4 l-4 4" stroke="#d9ad55" stroke-width="2" fill="none"/><text x="206" y="246" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="18" fill="#d9ad55">0</text></g>
 
 
 <path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#3a3430"/>

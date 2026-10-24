@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San badmalloc, che registrava le allocazioni a root",
+    "patronage": "dei log di allocazione della memoria, dei binari suid e dei link simbolici piazzati nel momento giusto.",
+    "hagiography": "Gergely Kalman descrisse badmalloc, una elevazione di privilegi in macOS: impostando certe variabili d'ambiente, il framework MallocStackLogging veniva caricato anche in binari suid-root e scriveva i propri log in una cartella a scelta. Vincendo una corsa con un link simbolico e sfruttando un descrittore di file ereditato dai processi figli, si faceva scrivere una riga in /etc/sudoers.d che concedeva root. Apple corresse irrobustendo l'apertura dei file (CVE-2023-32428).",
+    "prayer": "O San badmalloc, che registri ogni allocazione dove vuoi, fa' che i nostri binari di root non seguano i link che trovano. Amen.",
+    "feast": "Si festeggia aggiornando macOS e diffidando delle variabili di debug che sopravvivono ai binari privilegiati.",
+    "proverb": "Chi scrive i log da root scriva dove deve."
+  },
+  "en": {
+    "title": "Saint badmalloc, Who Logged Allocations as Root",
+    "patronage": "memory-allocation logs, suid binaries, and symbolic links planted at just the right moment.",
+    "hagiography": "Gergely Kalman described badmalloc, a macOS privilege escalation: by setting certain environment variables, the MallocStackLogging framework was loaded even into suid-root binaries and wrote its logs to a folder of choice. By winning a race with a symbolic link and abusing a file descriptor inherited by child processes, one got a line written into /etc/sudoers.d granting root. Apple fixed it by hardening how the files are opened (CVE-2023-32428).",
+    "prayer": "O Saint badmalloc, who logs every allocation wherever you like, let our root binaries not follow the links they find. Amen.",
+    "feast": "Celebrated by updating macOS and distrusting debug variables that survive into privileged binaries.",
+    "proverb": "Write the logs as root and write only where you must."
+  }
+}

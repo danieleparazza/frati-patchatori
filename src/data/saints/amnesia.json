@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'Amnesia, che dimenticava gli annunci mai visti",
+    "patronage": "delle aste pubblicitarie online, delle impression che nessuno ha davvero visto e dei bilanci gonfiati.",
+    "hagiography": "Nel 2015 i ricercatori di Pixalate descrissero l'Amnesia Bug nell'implementazione del protocollo pubblicitario OpenRTB: non limitando il tempo tra la risposta a un'offerta e la notifica dell'impression, si poteva far pagare agli inserzionisti annunci mai realmente mostrati. La falla fu collegata alla botnet Xindi, capace di simulare enormi quantità di visualizzazioni fantasma e sottrarre al mercato pubblicitario cifre ingenti.",
+    "prayer": "O Sant'Amnesia, che fatturi impressioni che nessuno ricorda, fa' che i nostri annunci siano pagati solo se qualcuno li ha visti. Amen.",
+    "feast": "Si festeggia imponendo limiti di tempo tra offerta e notifica e verificando le impression con misurazioni indipendenti.",
+    "proverb": "Chi paga per ciò che nessuno ha visto paga due volte."
+  },
+  "en": {
+    "title": "Saint Amnesia, Who Forgot the Ads Nobody Saw",
+    "patronage": "online ad auctions, impressions nobody really saw, and inflated budgets.",
+    "hagiography": "In 2015 Pixalate researchers described the Amnesia Bug in the implementation of the OpenRTB advertising protocol: by not limiting the time between a bid response and the impression notification, advertisers could be billed for ads that were never actually shown. The flaw was linked to the Xindi botnet, able to simulate enormous numbers of phantom views and siphon large sums from the ad market.",
+    "prayer": "O Saint Amnesia, who bills for impressions nobody remembers, let our ads be paid for only when someone has seen them. Amen.",
+    "feast": "Celebrated by enforcing time limits between bid and notification and verifying impressions with independent measurement.",
+    "proverb": "Pay for what nobody saw and you pay twice."
+  }
+}

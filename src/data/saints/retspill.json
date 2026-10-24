@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RetSpill, che rovesciava i resti sullo stack",
+    "patronage": "dei kernel Linux, dei dati utente dimenticati sullo stack del kernel e di chi trasforma un crash in una shell.",
+    "hagiography": "Nel 2023 i ricercatori dietro RetSpill mostrarono una tecnica generale per sfruttare i bug del kernel Linux: quando il kernel passa a eseguire codice proprio, lo stack conserva ancora valori controllati dall'utente. RetSpill li «rovesciava» dentro il flusso di esecuzione del kernel, trasformando molte vulnerabilità difficili in esecuzioni di codice affidabili. Fu dimostrata su una lunga serie di vecchi bug del kernel.",
+    "prayer": "O San RetSpill, che raccogli i resti dell'utente sullo stack del kernel, fa' che il nostro kernel non si fidi di ciò che trova lì. Amen.",
+    "feast": "Si festeggia aggiornando il kernel e irrobustendo le difese che ripuliscono lo stato utente prima di entrare nel kernel.",
+    "proverb": "Resti lasciati sullo stack, shell servita al kernel."
+  },
+  "en": {
+    "title": "Saint RetSpill, Who Spilled the Leftovers Onto the Stack",
+    "patronage": "Linux kernels, user data forgotten on the kernel stack, and everyone who turns a crash into a shell.",
+    "hagiography": "In 2023 the researchers behind RetSpill showed a general technique for exploiting Linux kernel bugs: when the kernel switches to running its own code, the stack still holds user-controlled values. RetSpill \"spilled\" them into the kernel's execution flow, turning many hard vulnerabilities into reliable code execution. It was demonstrated against a long series of old kernel bugs.",
+    "prayer": "O Saint RetSpill, who gathers the user's leftovers on the kernel stack, let our kernel not trust what it finds there. Amen.",
+    "feast": "Celebrated by updating the kernel and hardening the defences that scrub user state before entering the kernel.",
+    "proverb": "Leftovers on the stack, a shell served to the kernel."
+  }
+}

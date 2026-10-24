@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CredManifest, che pubblicava le chiavi private",
+    "patronage": "delle applicazioni Azure AD, dei certificati caricati con leggerezza e delle chiavi private che non dovevano uscire.",
+    "hagiography": "Il 17 novembre 2021 NetSPI descrisse CredManifest: quando si caricava un certificato su un'applicazione o un service principal di Azure Active Directory, in certi casi anche la chiave privata finiva registrata tra gli attributi leggibili dell'oggetto. Chiunque nel tenant avesse accesso in lettura alle applicazioni poteva così recuperarla e impersonare l'identità. Microsoft corresse impedendo la divulgazione delle chiavi private aggiunte alle applicazioni (CVE-2021-42306).",
+    "prayer": "O San CredManifest, che esponi la chiave privata insieme al certificato, fa' che i nostri segreti restino dalla parte giusta del muro. Amen.",
+    "feast": "Si festeggia ruotando i certificati sospetti e verificando che nessuna chiave privata sia leggibile negli attributi delle applicazioni.",
+    "proverb": "Chi carica la chiave col certificato la regala a tutto il tenant."
+  },
+  "en": {
+    "title": "Saint CredManifest, Who Published the Private Keys",
+    "patronage": "Azure AD applications, certificates uploaded carelessly, and private keys that should never have left.",
+    "hagiography": "On 17 November 2021 NetSPI described CredManifest: when a certificate was uploaded to an Azure Active Directory application or service principal, in certain cases the private key too ended up recorded among the object's readable attributes. Anyone in the tenant with read access to applications could thus retrieve it and impersonate the identity. Microsoft fixed it by preventing disclosure of private keys added to applications (CVE-2021-42306).",
+    "prayer": "O Saint CredManifest, who exposes the private key along with the certificate, let our secrets stay on the right side of the wall. Amen.",
+    "feast": "Celebrated by rotating the suspect certificates and checking that no private key is readable in the applications' attributes.",
+    "proverb": "Upload the key with the certificate and you gift it to the whole tenant."
+  }
+}

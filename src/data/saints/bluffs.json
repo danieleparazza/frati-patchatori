@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BLUFFS, che accorciava le chiavi Bluetooth",
+    "patronage": "delle cuffie e dei dispositivi Bluetooth, delle sessioni passate e future e di chi si fida del primo accoppiamento.",
+    "hagiography": "Il 27 novembre 2023 Daniele Antonioli presentò BLUFFS, una serie di attacchi al Bluetooth classico: un uomo nel mezzo poteva forzare la negoziazione verso una chiave di sessione corta e prevedibile, violando la segretezza delle comunicazioni passate e future tra due dispositivi già accoppiati. La debolezza stava nello standard stesso, dalle versioni 4.2 alla 5.4, e permetteva di decifrare il traffico e iniettare dati.",
+    "prayer": "O San BLUFFS, che contratti chiavi corte come un baro al tavolo, fa' che i nostri Bluetooth pretendano chiavi forti. Amen.",
+    "feast": "Si festeggia aggiornando il firmware dei dispositivi Bluetooth e imponendo, dove si può, chiavi di sessione robuste.",
+    "proverb": "Chiave corta contrattata, conversazione svelata."
+  },
+  "en": {
+    "title": "Saint BLUFFS, Who Shortened the Bluetooth Keys",
+    "patronage": "Bluetooth headsets and devices, past and future sessions, and everyone who trusts the first pairing.",
+    "hagiography": "On 27 November 2023 Daniele Antonioli presented BLUFFS, a set of attacks on classic Bluetooth: a man in the middle could force the negotiation toward a short, predictable session key, breaking the secrecy of both past and future communications between two already-paired devices. The weakness lay in the standard itself, from versions 4.2 through 5.4, and allowed decrypting traffic and injecting data.",
+    "prayer": "O Saint BLUFFS, who negotiates short keys like a bluffer at the table, let our Bluetooth demand strong keys. Amen.",
+    "feast": "Celebrated by updating the firmware of Bluetooth devices and enforcing, where possible, strong session keys.",
+    "proverb": "A short key negotiated, a conversation revealed."
+  }
+}

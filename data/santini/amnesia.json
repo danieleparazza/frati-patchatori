@@ -1,0 +1,10 @@
+{
+  "label": "Amnesia",
+  "motto": "QUIS HOC VIDIT",
+  "niche": [
+    "#1f1a2e",
+    "#3e3458"
+  ],
+  "accent": "#2e2648",
+  "emblem": "<rect x=\"108\" y=\"146\" width=\"84\" height=\"60\" rx=\"5\" fill=\"#2c3e50\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"116\" y=\"154\" width=\"68\" height=\"36\" rx=\"2\" fill=\"#1e272e\"/>\n<rect x=\"124\" y=\"162\" width=\"24\" height=\"12\" rx=\"1\" fill=\"#d9ad55\"/><text x=\"136\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#2b1d14\">AD</text>\n<text x=\"168\" y=\"178\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#e74c3c\">?</text>\n<path d=\"M132 206 h36 l-6 10 h-24 z\" fill=\"#95a5a6\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"150\" cy=\"224\" r=\"10\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/><path d=\"M144 224 a6 6 0 0 1 12 0\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"2\"/><path d=\"M150 218 v6 l4 3\" stroke=\"#e74c3c\" stroke-width=\"1.5\" fill=\"none\"/></g>"
+}

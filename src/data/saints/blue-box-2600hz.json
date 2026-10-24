@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San 2600 Hz, Padre della Chiesa degli iniettori",
+    "patronage": "delle linee telefoniche a lunga distanza, dei phreaker col fischietto e di tutti i bug che confondono dati e controllo.",
+    "hagiography": "Nel novembre 1954 il Bell System Technical Journal descrisse il sistema di segnalazione in banda delle linee telefoniche a lunga distanza: il tono di controllo viaggiava sullo stesso canale della voce. Chi fischiava 2600 Hz nella cornetta poteva impossessarsi di una linea e telefonare gratis. Da qui nacquero le blue box, i phreaker e l'idea fondante di ogni bug di injection: quando dati e comandi scorrono insieme, qualcuno prima o poi li confonde di proposito.",
+    "prayer": "O San 2600 Hz, padre di ogni injection, fa' che i nostri canali tengano separati i dati dai comandi. Amen.",
+    "feast": "Si festeggia separando il canale di controllo da quello dei dati, in memoria di chi lo imparò troppo tardi.",
+    "proverb": "Dove voce e comando viaggiano insieme, qualcuno fischia."
+  },
+  "en": {
+    "title": "Saint 2600 Hz, Church Father of the Injectors",
+    "patronage": "long-distance phone lines, phreakers with a whistle, and every bug that confuses data and control.",
+    "hagiography": "In November 1954 the Bell System Technical Journal described the in-band signalling of long-distance phone lines: the control tone travelled on the same channel as the voice. Whoever whistled 2600 Hz into the handset could seize a trunk and call for free. From this came the blue boxes, the phreakers and the founding idea of every injection bug: when data and commands flow together, sooner or later someone confuses them on purpose.",
+    "prayer": "O Saint 2600 Hz, father of every injection, let our channels keep data and commands apart. Amen.",
+    "feast": "Celebrated by separating the control channel from the data channel, in memory of those who learned it too late.",
+    "proverb": "Where voice and command travel together, someone whistles."
+  }
+}

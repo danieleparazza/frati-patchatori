@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SmashEx, che irrompeva nell'enclave",
+    "patronage": "delle enclave SGX, della gestione delle eccezioni e di chi credeva inviolabile il forziere del processore.",
+    "hagiography": "Il 16 novembre 2021 un gruppo di ricercatori presentò SmashEx: un'enclave SGX, il forziere sigillato dentro il processore, poteva essere interrotta da un'eccezione asincrona proprio mentre era in uno stato fragile. Rientrando durante quell'attimo si corrompeva lo stack dell'enclave e si eseguiva codice al suo interno, violandone riservatezza e integrità. Toccava diversi runtime, tra cui l'Open Enclave SDK di Microsoft, che aggiornarono la gestione delle eccezioni (CVE-2021-33767).",
+    "prayer": "O San SmashEx, che bussi all'enclave nel suo momento più debole, fa' che il nostro forziere non apra la porta a metà di un gesto. Amen.",
+    "feast": "Si festeggia aggiornando i runtime SGX e rendendo sicura la rientranza nella gestione delle eccezioni.",
+    "proverb": "Chi interrompe al momento giusto entra dove non si entra."
+  },
+  "en": {
+    "title": "Saint SmashEx, Who Broke Into the Enclave",
+    "patronage": "SGX enclaves, exception handling, and everyone who thought the processor's vault was inviolable.",
+    "hagiography": "On 16 November 2021 a group of researchers presented SmashEx: an SGX enclave, the sealed vault inside the processor, could be interrupted by an asynchronous exception just while it was in a fragile state. Re-entering during that instant corrupted the enclave's stack and ran code inside it, breaking its confidentiality and integrity. It affected several runtimes, Microsoft's Open Enclave SDK among them, which fixed the exception handling (CVE-2021-33767).",
+    "prayer": "O Saint SmashEx, who knocks at the enclave in its weakest moment, let our vault not open the door mid-gesture. Amen.",
+    "feast": "Celebrated by updating the SGX runtimes and making exception-handling re-entry safe.",
+    "proverb": "Interrupt at the right moment and you enter where none may."
+  }
+}

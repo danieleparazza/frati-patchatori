@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Gatto di Bleichenbacher, dalle nove vite",
+    "patronage": "delle implementazioni RSA che tornano a sbagliare, degli attacchi a oracolo riciclati e dei bug con sette vite di troppo.",
+    "hagiography": "Il 30 novembre 2018 un gruppo che riuniva, tra gli altri, Eyal Ronen e Adi Shamir mostrò «le nove vite del gatto di Bleichenbacher»: il vecchio attacco a oracolo di padding su RSA, creduto sepolto, tornava sotto forma di canale laterale basato sulla cache. Diverse librerie TLS, tra cui NSS di Mozilla, perdevano di nuovo abbastanza informazione da permettere di decifrare il traffico. Come un gatto, l'attacco aveva parecchie vite di scorta (CVE-2018-12404 e altri).",
+    "prayer": "O San Gatto di Bleichenbacher, che risorgi a ogni implementazione distratta, fa' che le nostre librerie non diano un oracolo all'attaccante. Amen.",
+    "feast": "Si festeggia aggiornando NSS e le altre librerie TLS e preferendo lo scambio di chiavi che non dipende da RSA.",
+    "proverb": "Gatto crittografico ha sempre una vita in più."
+  },
+  "en": {
+    "title": "Saint Bleichenbacher's Cat, of the Nine Lives",
+    "patronage": "RSA implementations that go wrong again, recycled oracle attacks, and bugs with seven lives too many.",
+    "hagiography": "On 30 November 2018 a group that included, among others, Eyal Ronen and Adi Shamir showed \"the nine lives of Bleichenbacher's cat\": the old RSA padding-oracle attack, thought buried, returned as a cache-based side channel. Several TLS libraries, Mozilla's NSS among them, once again leaked enough information to allow decrypting traffic. Like a cat, the attack had plenty of lives to spare (CVE-2018-12404 and others).",
+    "prayer": "O Saint Bleichenbacher's Cat, who rises again at every careless implementation, let our libraries not hand the attacker an oracle. Amen.",
+    "feast": "Celebrated by updating NSS and the other TLS libraries and preferring key exchange that does not depend on RSA.",
+    "proverb": "A cryptographic cat always has one more life."
+  }
+}

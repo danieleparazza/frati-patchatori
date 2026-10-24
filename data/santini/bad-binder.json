@@ -1,0 +1,10 @@
+{
+  "label": "Bad Binder",
+  "motto": "NEXUS SOLUTUS",
+  "niche": [
+    "#1a2a1e",
+    "#345434"
+  ],
+  "accent": "#244a2c",
+  "emblem": "<rect x=\"112\" y=\"124\" width=\"60\" height=\"118\" rx=\"9\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"118\" y=\"136\" width=\"48\" height=\"84\" rx=\"3\" fill=\"#2c3e50\"/>\n<path d=\"M130 160 h24 M130 174 h24 M130 188 h16\" stroke=\"#9fb8d6\" stroke-width=\"2\"/>\n<path d=\"M188 150 l18 18 M206 150 l-18 18\" stroke=\"#c0392b\" stroke-width=\"3.5\"/>\n<path d=\"M186 180 q14 2 14 16 M200 180 q0 14 -14 16\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<circle cx=\"193\" cy=\"178\" r=\"4\" fill=\"#e74c3c\"/>"
+}

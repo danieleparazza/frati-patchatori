@@ -1,0 +1,10 @@
+{
+  "label": "Nearest Neighbor",
+  "motto": "VICINUS INTRAT",
+  "niche": [
+    "#14223a",
+    "#2c436e"
+  ],
+  "accent": "#1d3360",
+  "emblem": "<rect x=\"104\" y=\"196\" width=\"40\" height=\"46\" fill=\"#7f8c8d\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<rect x=\"156\" y=\"178\" width=\"40\" height=\"64\" fill=\"#95a5a6\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<g fill=\"#f1c40f\"><rect x=\"112\" y=\"206\" width=\"8\" height=\"8\"/><rect x=\"128\" y=\"206\" width=\"8\" height=\"8\"/><rect x=\"164\" y=\"190\" width=\"8\" height=\"8\"/><rect x=\"180\" y=\"190\" width=\"8\" height=\"8\"/></g>\n<g fill=\"none\" stroke=\"#5dade2\" stroke-width=\"2.5\"><path d=\"M138 170 q12 -12 24 0\"/><path d=\"M132 162 q18 -18 36 0\"/><path d=\"M126 154 q24 -24 48 0\"/></g>\n<circle cx=\"150\" cy=\"176\" r=\"4\" fill=\"#e74c3c\"/>"
+}

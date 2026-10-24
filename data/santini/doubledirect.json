@@ -1,0 +1,10 @@
+{
+  "label": "DoubleDirect",
+  "motto": "VIA DUPLEX FALLIT",
+  "niche": [
+    "#16222e",
+    "#2e4658"
+  ],
+  "accent": "#203644",
+  "emblem": "<circle cx=\"150\" cy=\"182\" r=\"14\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M150 182 m-7 -4 l0 8 l-7 -4 z\" fill=\"#fbf3dd\"/><path d=\"M150 182 m7 4 l0 -8 l7 4 z\" fill=\"#fbf3dd\"/>\n<g stroke=\"#5dade2\" stroke-width=\"3\" fill=\"none\"><path d=\"M108 150 q42 -20 84 0\"/><path d=\"M108 214 q42 20 84 0\"/></g>\n<path d=\"M190 148 l4 10 l-11 -2 z\" fill=\"#5dade2\"/><path d=\"M110 216 l-4 -10 l11 2 z\" fill=\"#5dade2\"/>\n<circle cx=\"104\" cy=\"150\" r=\"7\" fill=\"#d9ad55\"/><circle cx=\"196\" cy=\"214\" r=\"7\" fill=\"#d9ad55\"/>"
+}

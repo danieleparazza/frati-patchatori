@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DeleFriend, falso amico della delega",
+    "patronage": "della delega a livello di dominio in Google Workspace, degli account di servizio e di chi concede fiducia una volta per sempre.",
+    "hagiography": "Il 28 novembre 2023 i ricercatori di Hunters descrissero DeleFriend, un difetto di progettazione nella delega a livello di dominio di Google Workspace. Chi controllava un account di servizio poteva provare molte combinazioni di chiavi e ambiti per scoprire quali deleghe fossero attive, e sfruttarle per impersonare gli utenti del dominio e accedere a Gmail, Drive e gli altri servizi. La delega, pensata come comodità, diventava una scorciatoia per l'intero Workspace.",
+    "prayer": "O Beato DeleFriend, amico che impersona tutti in nome della delega, fa' che le nostre deleghe siano poche, precise e sorvegliate. Amen.",
+    "feast": "Si festeggia rivedendo le deleghe a livello di dominio, limitando gli ambiti concessi e controllando le chiavi degli account di servizio.",
+    "proverb": "Delega concessa alla leggera, amico di chiunque."
+  },
+  "en": {
+    "title": "Blessed DeleFriend, False Friend of Delegation",
+    "patronage": "domain-wide delegation in Google Workspace, service accounts, and everyone who grants trust once and for all.",
+    "hagiography": "On 28 November 2023 Hunters researchers described DeleFriend, a design flaw in Google Workspace's domain-wide delegation. Whoever controlled a service account could try many combinations of keys and scopes to discover which delegations were active, and abuse them to impersonate the domain's users and reach Gmail, Drive and the other services. Delegation, meant as a convenience, became a shortcut to the entire Workspace.",
+    "prayer": "O Blessed DeleFriend, friend who impersonates everyone in delegation's name, let our delegations be few, precise and watched. Amen.",
+    "feast": "Celebrated by reviewing domain-wide delegations, limiting the granted scopes and auditing the service-account keys.",
+    "proverb": "Delegation granted lightly is everyone's friend."
+  }
+}
