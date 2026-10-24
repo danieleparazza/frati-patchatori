@@ -2,7 +2,7 @@
 // - Pages: network first, falling back to the last copy (so new saints and fixes show up when online).
 // - Static files (/_astro, fonts, icons, images): cache first, they are immutable or rarely change.
 // - On install, the next seven days in both languages are cached, so the app works offline for a week.
-const CACHE = 'frati-v2';
+const CACHE = 'frati-v3';
 // Reader settings (push language), kept across cache versions.
 const SETTINGS = 'frati-settings';
 
@@ -83,7 +83,8 @@ async function todayNotification() {
   const mmdd = String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
   let data = { title: lang === 'it' ? 'Lunario dei Frati Patchatori' : "The Patching Friars' Almanac", body: '', url: `/${lang}/${mmdd}/` };
   try {
-    data = await (await fetch(`/push/${lang}/${mmdd}.json`)).json();
+    // Never leave a push without a notification: give up on the details after 4 seconds.
+    data = await (await fetch(`/push/${lang}/${mmdd}.json`, { signal: AbortSignal.timeout(4000) })).json();
   } catch {}
   // Cache today's page too, so tapping the notification works even on a bad connection.
   caches.open(CACHE).then((cache) => cache.add(`/${lang}/${mmdd}/`)).catch(() => {});
