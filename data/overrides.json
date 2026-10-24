@@ -1,5 +1,5 @@
 {
-  "$comment": "patrons: manual patron per day (\"MM-DD\": id). dates: corrected disclosure dates (id: \"YYYY-MM-DD\") where the source is wrong. born: year the flaw was introduced (only when well documented), for the \"longest-lived\" ranking. absurd: hand-picked absurd vulnerabilities. Ids are in src/data/vulns.json.",
+  "$comment": "patrons: manual patron per day (\"MM-DD\": id). dates: corrected disclosure dates (id: \"YYYY-MM-DD\") where the source is wrong. born: year the flaw was introduced (only when well documented), for the \"longest-lived\" ranking. absurd: hand-picked absurd vulnerabilities. exclude: ids hidden from the calendar (e.g. inappropriate content). Ids are in src/data/vulns.json.",
   "patrons": {
     "01-01": "ldapnightmare",
     "01-10": "connectaround",
@@ -45,5 +45,6 @@
     "cookie-sandwich",
     "pantsdown",
     "shitrix"
-  ]
+  ],
+  "exclude": []
 }

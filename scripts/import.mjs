@@ -186,7 +186,10 @@ syncGarden();
 const extra = JSON.parse(readFileSync(join(ROOT, 'data', 'extra-vulns.json'), 'utf8'));
 const overrides = JSON.parse(readFileSync(join(ROOT, 'data', 'overrides.json'), 'utf8'));
 
-const vulns = [...loadGarden(), ...extra.map((e) => ({ links: [], cves: [], logo: null, author: null, canonical: null, ...e, source: 'manual' }))];
+const excluded = new Set(overrides.exclude ?? []); // entries hidden by hand (e.g. inappropriate names)
+const vulns = [...loadGarden(), ...extra.map((e) => ({ links: [], cves: [], logo: null, author: null, canonical: null, ...e, source: 'manual' }))].filter(
+  (v) => !excluded.has(v.id),
+);
 uniqueIds(vulns);
 console.log(`entries: ${vulns.length}`);
 
@@ -215,10 +218,14 @@ for (const v of vulns) {
 vulns.sort((a, b) => b.fame - a.fame || a.date.localeCompare(b.date));
 
 const byId = new Map(vulns.map((v) => [v.id, v]));
+// Patrons are stable: keep the current one unless overridden; only vacant days get one automatically.
+const daysPath = join(ROOT, 'src', 'data', 'days.json');
+const previous = existsSync(daysPath) ? JSON.parse(readFileSync(daysPath, 'utf8')) : {};
 const days = {};
 for (const day of allDays()) {
   const candidates = vulns.filter((v) => v.day === day).map((v) => v.id);
-  let patron = overrides.patrons?.[day] ?? candidates[0] ?? null;
+  const kept = previous[day]?.patron && candidates.includes(previous[day].patron) ? previous[day].patron : null;
+  let patron = overrides.patrons?.[day] ?? kept ?? candidates[0] ?? null;
   if (patron && !byId.has(patron)) {
     console.warn(`override ${day} → unknown id "${patron}", ignored`);
     patron = candidates[0] ?? null;

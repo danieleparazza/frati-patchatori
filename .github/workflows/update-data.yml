@@ -1,0 +1,62 @@
+name: Monthly data update
+
+# Imports new entries from Vulnerability Garden, CISA KEV and the CVE List, commits them to main,
+# redeploys the site and opens an issue listing what changed, so new content gets a human look.
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - uses: actions/cache@v4
+        with:
+          path: .cache/cve
+          key: cve-records-${{ github.run_id }}
+          restore-keys: cve-records-
+
+      - name: Import data
+        run: |
+          cp src/data/vulns.json /tmp/vulns-before.json
+          cp src/data/days.json /tmp/days-before.json
+          node scripts/import.mjs
+
+      - name: Commit changes
+        id: commit
+        run: |
+          if git diff --quiet -- src/data; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data
+          git commit -m "Monthly data update $(date -u +%Y-%m)"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Redeploy and open review issue
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Pushes made with GITHUB_TOKEN don't trigger other workflows; dispatch the deploy explicitly.
+          gh workflow run deploy.yml --ref main
+          node scripts/diff-vulns.mjs /tmp/vulns-before.json /tmp/days-before.json > /tmp/summary.md
+          gh issue create \
+            --title "Revisione aggiornamento dati $(date -u +%Y-%m)" \
+            --body-file /tmp/summary.md \
+            --assignee danieleparazza
