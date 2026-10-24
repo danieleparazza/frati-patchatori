@@ -5,7 +5,7 @@ import Santino from './Santino.astro';
 import RelatedSaints from './RelatedSaints.astro';
 import SaintLinks from './SaintLinks.astro';
 import ShareButtons from './ShareButtons.astro';
-import { formatDate, saint, saintTitle, santinoSvg, type Vuln } from '../lib/calendar';
+import { formatDate, logoCredit, saint, saintTitle, santinoSvg, type Vuln } from '../lib/calendar';
 import { t, type Lang } from '../lib/i18n';
 
 interface Props {
@@ -27,6 +27,7 @@ const s = t(lang);
 const text = saint(vuln.id)?.[lang];
 const title = saintTitle(vuln, lang);
 const Heading = headingLevel;
+const logo = logoCredit(vuln.id);
 const nvd = (cve: string) => `https://nvd.nist.gov/vuln/detail/${cve}`;
 const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
 const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is string => !!l))];
@@ -35,7 +36,19 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
 <article class="saint">
   <div class="cardcol">
     <Santino vuln={vuln}>
-      {santinoSvg(vuln.id) ? s.aiLabel : text ? `${s.provisionalSantino} · ${s.aiTextLabel}` : s.provisionalSantino}
+      {
+        logo ? (
+          <>
+            <a href={logo.licenseSource}>{s.officialLogo(logo.author ?? '—', logo.license)}</a> · {s.aiFrameLabel}
+          </>
+        ) : santinoSvg(vuln.id) ? (
+          s.aiLabel
+        ) : text ? (
+          `${s.provisionalSantino} · ${s.aiTextLabel}`
+        ) : (
+          s.provisionalSantino
+        )
+      }
     </Santino>
     {
       image && (

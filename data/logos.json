@@ -1,0 +1,144 @@
+{
+ "$comment": "Official vulnerability logos used on holy cards: only with an explicit CC0 license from the authors. Files in src/assets/logos/.",
+ "heartbleed": {
+  "file": "heartbleed.svg",
+  "author": "Leena (Codenomicon)",
+  "license": "CC0 1.0",
+  "licenseSource": "https://heartbleed.com/",
+  "source": "https://heartbleed.com/heartbleed.svg"
+ },
+ "meltdown": {
+  "file": "meltdown.svg",
+  "author": "Natascha Eibl",
+  "license": "CC0 1.0",
+  "licenseSource": "https://meltdownattack.com/#faq-logo",
+  "source": "https://meltdownattack.com/meltdown.svg"
+ },
+ "spectre": {
+  "file": "spectre.svg",
+  "author": "Natascha Eibl",
+  "license": "CC0 1.0",
+  "licenseSource": "https://meltdownattack.com/#faq-logo",
+  "source": "https://meltdownattack.com/spectre.svg"
+ },
+ "dirty-cow": {
+  "file": "dirty-cow.svg",
+  "author": "Dirty COW project",
+  "license": "CC0 1.0",
+  "licenseSource": "https://github.com/dirtycow/dirtycow.github.io/blob/master/README.md",
+  "source": "https://raw.githubusercontent.com/dirtycow/dirtycow.github.io/master/cow.svg",
+  "scale": 2.6
+ },
+ "drown": {
+  "file": "drown.svg",
+  "author": "Sarah Madden",
+  "license": "CC0 1.0",
+  "licenseSource": "https://drownattack.com/",
+  "source": "https://drownattack.com/media/img/DROWN_logo.svg"
+ },
+ "foreshadow": {
+  "file": "foreshadow.svg",
+  "author": "Natascha Eibl",
+  "license": "CC0 1.0",
+  "licenseSource": "https://foreshadowattack.eu/",
+  "source": "https://foreshadowattack.eu/foreshadow.svg"
+ },
+ "zombieload": {
+  "file": "zombieload.svg",
+  "author": "Natascha Eibl",
+  "license": "CC0 1.0",
+  "licenseSource": "https://zombieloadattack.com/",
+  "source": "https://zombieloadattack.com/public/images/logo.svg"
+ },
+ "ridl": {
+  "file": "ridl.svg",
+  "author": "Marina Minkin",
+  "license": "CC0 1.0",
+  "licenseSource": "https://mdsattacks.com/",
+  "source": "https://mdsattacks.com/logos/mds.svg"
+ },
+ "plundervolt": {
+  "file": "plundervolt.svg",
+  "author": "Mike Stimpson",
+  "license": "CC0 1.0",
+  "licenseSource": "https://plundervolt.com/",
+  "source": "https://plundervolt.com/img/plundervolt.svg"
+ },
+ "badlock": {
+  "file": "badlock.svg",
+  "author": "SerNet",
+  "license": "CC0 1.0",
+  "licenseSource": "https://web.archive.org/web/20160415000000/http://badlock.org/",
+  "source": "https://web.archive.org/web/20160414185926im_/http://badlock.org/badlock.svg"
+ },
+ "hertzbleed": {
+  "file": "hertzbleed.svg",
+  "author": "Hertzbleed authors",
+  "license": "CC0 1.0",
+  "licenseSource": "https://www.hertzbleed.com/",
+  "source": "https://hertzbleed.com/images/Hertzbleed-logo.svg"
+ },
+ "platypus": {
+  "file": "platypus.svg",
+  "author": "Natascha Eibl",
+  "license": "CC0 1.0",
+  "licenseSource": "https://platypusattack.com/",
+  "source": "https://platypusattack.com/static/logo.svg"
+ },
+ "lvi": {
+  "file": "lvi.svg",
+  "author": "Natascha Eibl",
+  "license": "CC0 1.0",
+  "licenseSource": "https://lviattack.eu/",
+  "source": "https://lviattack.eu/static/logo.svg"
+ },
+ "cacheout": {
+  "file": "cacheout.svg",
+  "author": "Marina Minkin",
+  "license": "CC0 1.0",
+  "licenseSource": "https://cacheoutattack.com/",
+  "source": "https://cacheoutattack.com/img/cacheout.svg"
+ },
+ "sgaxe": {
+  "file": "sgaxe.svg",
+  "author": "Stephan van Schaik",
+  "license": "CC0 1.0",
+  "licenseSource": "https://cacheoutattack.com/",
+  "source": "https://cacheoutattack.com/img/sgaxe.svg"
+ },
+ "gofetch": {
+  "file": "gofetch.svg",
+  "author": "GoFetch authors",
+  "license": "CC0 1.0",
+  "licenseSource": "https://gofetch.fail/",
+  "source": "https://gofetch.fail/img/gofetch.svg"
+ },
+ "aepic-leak": {
+  "file": "aepic-leak.svg",
+  "author": "Theresa Dachauer",
+  "license": "CC0 1.0",
+  "licenseSource": "https://aepicleak.com/",
+  "source": "https://aepicleak.com/public/images/logo.svg"
+ },
+ "collide-power": {
+  "file": "collide-power.svg",
+  "author": "Graz University of Technology",
+  "license": "CC0 1.0",
+  "licenseSource": "https://collidepower.com/",
+  "source": "https://collidepower.com/images/logo.svg"
+ },
+ "cachewarp": {
+  "file": "cachewarp.svg",
+  "author": "Lea Mosbach",
+  "license": "CC0 1.0",
+  "licenseSource": "https://cachewarpattack.com/",
+  "source": "https://cachewarpattack.com/logo.svg"
+ },
+ "ghostwrite": {
+  "file": "ghostwrite.svg",
+  "author": "Lea Mosbach",
+  "license": "CC0 1.0",
+  "licenseSource": "https://ghostwriteattack.com/",
+  "source": "https://ghostwriteattack.com/ghostwrite.svg"
+ }
+}

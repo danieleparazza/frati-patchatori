@@ -3,7 +3,7 @@
 import { Resvg } from '@resvg/resvg-js';
 import { crc32 } from 'node:zlib';
 import { join } from 'node:path';
-import { day, dayLabel, saint, saintTitle } from './calendar';
+import { day, dayLabel, logoCredit, saint, saintTitle } from './calendar';
 import { t, type Lang } from './i18n';
 import { SANTINO_FONT, escapeXml, santino, vacantSantino } from './santino';
 
@@ -61,7 +61,7 @@ export function shareImage(lang: Lang, mmdd: string) {
 </svg>`;
 
   const png = new Resvg(svg, { font: { fontFiles: [FONT], loadSystemFonts: false, defaultFontFamily: 'EB Garamond' } }).render().asPng();
-  const source = card?.generated ? 'trainedAlgorithmicMedia' : text ? 'compositeWithTrainedAlgorithmicMedia' : 'algorithmicMedia';
+  const source = card?.generated && !logoCredit(patron!.id) ? 'trainedAlgorithmicMedia' : card?.generated || text ? 'compositeWithTrainedAlgorithmicMedia' : 'algorithmicMedia';
   return withXmp(Buffer.from(png), source);
 }
 

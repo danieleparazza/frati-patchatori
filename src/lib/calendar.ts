@@ -1,5 +1,6 @@
 import vulnsData from '../data/vulns.json';
 import daysData from '../data/days.json';
+import logosData from '../../data/logos.json';
 import { t, type Lang } from './i18n';
 
 export type Vuln = {
@@ -62,6 +63,11 @@ export function day(mmdd: string) {
 
 export function saint(id: string): Saint | undefined {
   return saints[`../data/saints/${id}.json`];
+}
+
+/** Credit for the official logo used on this saint's card, if any (CC0 logos only). */
+export function logoCredit(id: string): { author: string | null; license: string; licenseSource: string } | undefined {
+  return (logosData as Record<string, any>)[id];
 }
 
 export function santinoSvg(id: string): string | undefined {
