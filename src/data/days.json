@@ -189,9 +189,9 @@
   "others": []
  },
  "02-01": {
-  "patron": "access7",
+  "patron": "pizza-thief",
   "others": [
-   "pizza-thief"
+   "access7"
   ]
  },
  "02-02": {
@@ -315,9 +315,9 @@
   "others": []
  },
  "02-23": {
-  "patron": "slashandgrab",
+  "patron": "shattered",
   "others": [
-   "shattered",
+   "slashandgrab",
    "mousejack",
    "shadow-attacks",
    "dupefs",

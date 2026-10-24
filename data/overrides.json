@@ -18,7 +18,9 @@
     "05-21": "badsuccessor",
     "06-09": "smbleed",
     "11-01": "blue-box-2600hz",
-    "11-20": "land-attack"
+    "11-20": "land-attack",
+    "02-01": "pizza-thief",
+    "02-23": "shattered"
   },
   "dates": {
     "shattered": "2017-02-23",
@@ -52,7 +54,8 @@
     "sambacry": 2010,
     "dirty-frag": 2017,
     "refluxfs": 2017,
-    "ovswrap": 2013
+    "ovswrap": 2013,
+    "jasbug": 2000
   },
   "absurd": [
     "light-commands",
@@ -123,6 +126,9 @@
     "dirtycred": [
       "CVE-2021-4154",
       "CVE-2022-2588"
+    ],
+    "baddns": [
+      "CVE-2023-28451"
     ]
   }
 }
