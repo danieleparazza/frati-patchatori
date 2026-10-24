@@ -4,6 +4,8 @@ import { t, type Lang } from './i18n';
 
 export type Vuln = {
   id: string;
+  /** 'minor' for the hand-picked curious CVEs that fill vacant days. */
+  kind?: 'minor' | null;
   name: string;
   date: string;
   day: string;

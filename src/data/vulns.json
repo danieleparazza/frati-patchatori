@@ -807,6 +807,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "blue-box-2600hz",
+  "name": "2600 Hz",
+  "date": "1954-11-01",
+  "day": "11-01",
+  "category": "padre",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Bell Labs' Weaver and Newell described the in-band single-frequency signaling system for long-distance trunks in the November 1954 Bell System Technical Journal, where the control tone traveled over the same channel as the voice. Anyone who whistled 2600 Hz into the handset could seize a trunk, giving rise to blue boxes, phreakers and the founding idea of all injection bugs: data and control on the same channel.",
+  "canonical": "https://www.nokia.com/bell-labs/publications-and-media/publications/in-band-single-frequency-signaling/",
+  "links": [
+   "https://explodingthephone.com/hoppdocs/weaver1954.pdf",
+   "https://en.wikipedia.org/wiki/2600_hertz"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 8.6,
+  "source": "manual"
+ },
+ {
   "id": "eternalromance",
   "name": "EternalRomance",
   "date": "2017-04-14",
@@ -837,6 +862,34 @@
   "author": "Equation Group (NSA)",
   "fame": 8.45,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "morris-worm-fingerd-sendmail",
+  "name": "Morris Worm (fingerd)",
+  "date": "1988-11-02",
+  "day": "11-02",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0095"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "The debug command in Sendmail is enabled, allowing attackers to execute commands as root.",
+  "canonical": "https://docs.lib.purdue.edu/cstech/702/",
+  "links": [
+   "https://en.wikipedia.org/wiki/Morris_worm",
+   "https://www.sei.cmu.edu/library/1988-cert-advisories/",
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0095"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 8.4,
+  "source": "manual"
  },
  {
   "id": "spring4shell",
@@ -3817,6 +3870,30 @@
   "author": "Sina Kheirkhah",
   "fame": 6.1,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "netscape-ssl-prng",
+  "name": "Netscape SSL Seed",
+  "date": "1995-09-17",
+  "day": "09-17",
+  "category": "padre",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Ian Goldberg and David Wagner announced 'Netscape SSL implementation cracked!' on Sunday evening, 17 September 1995 (PDT; 18 Sep UTC). Netscape seeded its key generator with the time of day and process IDs, so the SSL key could be found in under a minute.",
+  "canonical": "https://people.eecs.berkeley.edu/~daw/my-posts/netscape-cracked-0",
+  "links": [
+   "https://en.wikipedia.org/wiki/Ian_Goldberg"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 6.05,
+  "source": "manual"
  },
  {
   "id": "backronym",
@@ -10954,6 +11031,32 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "tcp-sequence-prediction-1985",
+  "name": "TCP Sequence Prediction",
+  "date": "1985-02-25",
+  "day": "02-25",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0077"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Predictable TCP sequence numbers allow spoofing.",
+  "canonical": "https://pdos.csail.mit.edu/archive/rtm/papers/117-abstract.html",
+  "links": [
+   "https://pdos.csail.mit.edu/~rtm/papers/117.pdf"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.55,
+  "source": "manual"
+ },
+ {
   "id": "jasbug",
   "name": "JASBUG",
   "date": "2015-02-24",
@@ -11169,6 +11272,87 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "winnuke",
+  "name": "WinNuke",
+  "date": "1997-05-09",
+  "day": "05-09",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0153"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Windows 95/NT out of band (OOB) data denial of service through NETBIOS port, aka WinNuke.",
+  "canonical": "https://diswww.mit.edu/menelaus/bt/4430",
+  "links": [
+   "https://insecure.org/sploits/windows.OOB.DOS.html",
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0153"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.45,
+  "source": "manual"
+ },
+ {
+  "id": "teardrop",
+  "name": "Teardrop",
+  "date": "1997-11-13",
+  "day": "11-13",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0015"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Teardrop IP denial of service.",
+  "canonical": "https://seclists.org/bugtraq/1997/Nov/126",
+  "links": [
+   "https://www.sei.cmu.edu/library/1997-cert-advisories/",
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0015"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.45,
+  "source": "manual"
+ },
+ {
+  "id": "land-attack",
+  "name": "Land",
+  "date": "1997-11-20",
+  "day": "11-20",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0016"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Land IP denial of service.",
+  "canonical": "https://seclists.org/bugtraq/1997/Nov/182",
+  "links": [
+   "https://www.sei.cmu.edu/library/1997-cert-advisories/",
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0016"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.45,
+  "source": "manual"
+ },
+ {
   "id": "rohnp",
   "name": "ROHNP",
   "date": "2018-06-13",
@@ -11231,6 +11415,32 @@
   "author": "initblog",
   "fame": 3.35,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "next-me-user",
+  "name": "NeXT 'me' User",
+  "date": "1991-05-14",
+  "day": "05-14",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-1193"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "The \"me\" user in NeXT NeXTstep 2.1 and earlier has wheel group privileges, which could allow the me user to use the su command to become root.",
+  "canonical": "https://www.sei.cmu.edu/library/1991-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-1193"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.25,
+  "source": "manual"
  },
  {
   "id": "apache-killer",
@@ -11520,6 +11730,58 @@
   "author": "Amit Serper, Reuven Yakar (Sternum)",
   "fame": 3.15,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "rlogin-froot",
+  "name": "rlogin -froot",
+  "date": "1994-05-23",
+  "day": "05-23",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0113"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Some implementations of rlogin allow root access if given a -froot parameter.",
+  "canonical": "https://www.sei.cmu.edu/library/1994-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0113"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.1,
+  "source": "manual"
+ },
+ {
+  "id": "mitnick-christmas-attack",
+  "name": "Mitnick Christmas Attack",
+  "date": "1994-12-25",
+  "day": "12-25",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0077"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Predictable TCP sequence numbers allow spoofing.",
+  "canonical": "https://aeb.win.tue.nl/linux/hh/shimomura-25jan95.txt",
+  "links": [
+   "https://www.sei.cmu.edu/library/1995-cert-advisories/"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.1,
+  "source": "manual"
  },
  {
   "id": "shadowray",
@@ -11924,6 +12186,84 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "phf-cgi",
+  "name": "phf",
+  "date": "1996-03-20",
+  "day": "03-20",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0067"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "phf CGI program allows remote command execution through shell metacharacters.",
+  "canonical": "https://www.sei.cmu.edu/library/1996-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0067"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3,
+  "source": "manual"
+ },
+ {
+  "id": "syn-flood",
+  "name": "SYN Flood",
+  "date": "1996-09-19",
+  "day": "09-19",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0116"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Denial of service when an attacker sends many SYN packets to create multiple connections without ever sending an ACK to complete the connection, aka SYN flood.",
+  "canonical": "https://www.sei.cmu.edu/library/1996-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0116"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3,
+  "source": "manual"
+ },
+ {
+  "id": "ping-of-death",
+  "name": "Ping of Death",
+  "date": "1996-12-18",
+  "day": "12-18",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0128"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Oversized ICMP ping packets can result in a denial of service, aka Ping o' Death.",
+  "canonical": "https://www.sei.cmu.edu/library/1996-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0128"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3,
+  "source": "manual"
+ },
+ {
   "id": "dark-portal",
   "name": "Dark Portal",
   "date": "2016-05-09",
@@ -11950,6 +12290,31 @@
   "author": "Wei Xiao and Qinghao Tang (360 Marvel Team)",
   "fame": 3,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "whill-wheelchair",
+  "kind": "minor",
+  "name": "WHILL Wheelchair Takeover",
+  "date": "2026-01-05",
+  "day": "01-05",
+  "category": "santo",
+  "cves": [
+   "CVE-2025-14346"
+  ],
+  "cvss": 9.8,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": "WHILL",
+  "product": "Model C2 Electric Wheelchair",
+  "description": "WHILL Model C2 Electric Wheelchairs and Model F Power Chairs do not enforce authentication for Bluetooth connections. An attacker within range can pair with the device and issue movement commands, override speed restrictions, and manipulate configuration profiles without any credentials or user interaction.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2025-14346",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 3,
+  "source": "manual"
  },
  {
   "id": "bodysnatcher",
@@ -12350,6 +12715,32 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "pentium-f00f",
+  "name": "F00F",
+  "date": "1997-11-06",
+  "day": "11-06",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-1476"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "A bug in Intel Pentium processor (MMX and Overdrive) allows local users to cause a denial of service (hang) in Intel-based operating systems such as Windows NT and Windows 95, via an invalid instruction, aka the \"Invalid Operand with Locked CMPXCHG8B Instruction\" problem.",
+  "canonical": "https://seclists.org/bugtraq/1997/Nov/25",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-1476"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 2.95,
+  "source": "manual"
+ },
+ {
   "id": "spoof-on-bridge",
   "name": "Spoof on Bridge",
   "date": "2007-03-17",
@@ -12402,6 +12793,32 @@
   "author": "Dr. James Hoagland (Symantec)",
   "fame": 2.95,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "smurf",
+  "name": "Smurf",
+  "date": "1998-01-05",
+  "day": "01-05",
+  "category": "padre",
+  "cves": [
+   "CVE-1999-0513"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "ICMP messages to broadcast addresses are allowed, allowing for a Smurf attack that can cause a denial of service.",
+  "canonical": "https://www.sei.cmu.edu/library/1998-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0513"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 2.9,
+  "source": "manual"
  },
  {
   "id": "webexec",
@@ -14827,6 +15244,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "nokia-obex",
+  "kind": "minor",
+  "name": "Nokia OBEX Filename",
+  "date": "2005-09-28",
+  "day": "09-28",
+  "category": "santo",
+  "cves": [
+   "CVE-2005-3093"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "Nokia 7610 and 3210 phones allows attackers to cause a denial of service via certain characters in the filename of a Bluetooth OBEX transfer.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2005-3093",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 2.05,
+  "source": "manual"
+ },
+ {
   "id": "rowhammer",
   "name": "Rowhammer",
   "date": "2015-03-10",
@@ -14979,6 +15421,31 @@
   "author": "Safebreach",
   "fame": 2.05,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "smart-toilet-lab",
+  "kind": "minor",
+  "name": "Smart Toilet Debug Leak",
+  "date": "2025-01-09",
+  "day": "01-09",
+  "category": "santo",
+  "cves": [
+   "CVE-2024-56113"
+  ],
+  "cvss": 7.5,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "Smart Toilet Lab - Motius 1.3.11 is running with debug mode turned on (DEBUG = True) and exposing sensitive information defined in Django settings file through verbose error page.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2024-56113",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 2.05,
+  "source": "manual"
  },
  {
   "id": "cloneleak",
@@ -15283,6 +15750,56 @@
   "author": "Xiang Li, Mingming Zhang, Zuyao Xu, Fasheng Miao, Yuqi Qiu, Baojun Liu, Jia Zhang, Xiaofeng Zheng, Haixin Duan, Zheli Liu, Yunhai Zhang, Dunqiu Fan",
   "fame": 2.05,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "deck-mate-2",
+  "kind": "minor",
+  "name": "Deck Mate 2 Shuffler",
+  "date": "2025-11-03",
+  "day": "11-03",
+  "category": "santo",
+  "cves": [
+   "CVE-2025-34501"
+  ],
+  "cvss": 7,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": "Light & Wonder, Inc. / SHFL Entertainment, Inc. / Shuffle Master, Inc.",
+  "product": "Deck Mate 2",
+  "description": "Deck Mate 2 is distributed with static, hard-coded credentials for the root shell and web user interface, while multiple management services (SSH, HTTP, Telnet, SMB, X11) are enabled by default. If an attacker can reach these interfaces - most often through local or near-local access such as connecting to the USB or Ethernet ports beneath the table - the built-in credentials permit administrative login and full control of the system. Once authenticated, an attacker can access firmware utilities, modify controller software, and establish persistent compromise. Remote attack paths via network, cellular, or telemetry links may exist in specific configurations but generally require additional capabilities or operator error. The vendor reports that USB access has been disabled in current firmware builds.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2025-34501",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 2.05,
+  "source": "manual"
+ },
+ {
+  "id": "ovulation-calculator",
+  "kind": "minor",
+  "name": "Ovulation Calculator Plugin",
+  "date": "2025-11-06",
+  "day": "11-06",
+  "category": "santo",
+  "cves": [
+   "CVE-2025-60196"
+  ],
+  "cvss": 7.5,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": "Clearblue",
+  "product": "Clearblue® Ovulation Calculator",
+  "description": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in Clearblue Clearblue® Ovulation Calculator clearblue-ovulation-calculator allows PHP Local File Inclusion.This issue affects Clearblue® Ovulation Calculator: from n/a through <= 1.2.4.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2025-60196",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 2.05,
+  "source": "manual"
  },
  {
   "id": "checksum",
@@ -16499,6 +17016,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "colourful-keyboard",
+  "kind": "minor",
+  "name": "GlobeTrotter Colourful Keyboard",
+  "date": "2007-01-29",
+  "day": "01-29",
+  "category": "santo",
+  "cves": [
+   "CVE-2006-6953"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "The virtual keyboard implementation in GlobeTrotter Mobility Manager changes the color of a key as it is pressed, which allows local users to capture arbitrary keystrokes, such as for passwords, by shoulder surfing or grabbing periodic screenshots.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2006-6953",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.95,
+  "source": "manual"
+ },
+ {
   "id": "cloak-and-dagger",
   "name": "Cloak & Dagger",
   "date": "2017-05-22",
@@ -17243,6 +17785,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "energizer-duo",
+  "kind": "minor",
+  "name": "Energizer DUO Backdoor",
+  "date": "2010-03-09",
+  "day": "03-09",
+  "category": "santo",
+  "cves": [
+   "CVE-2010-0103"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "UsbCharger.dll in the Energizer DUO USB battery charger software contains a backdoor that is implemented through the Arucer.dll file in the %WINDIR%\\system32 directory, which allows remote attackers to download arbitrary programs onto a Windows PC, and execute these programs, via a request to TCP port 7777.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2010-0103",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.8,
+  "source": "manual"
+ },
+ {
   "id": "mdb-leaker",
   "name": "MDB Leaker",
   "date": "2020-01-07",
@@ -17875,6 +18442,31 @@
   "author": "Nadhem J. AlFardan and Kenneth G. Paterson",
   "fame": 1.65,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "dual-ec-drbg",
+  "kind": "minor",
+  "name": "Dual_EC_DRBG",
+  "date": "2013-10-11",
+  "day": "10-11",
+  "category": "santo",
+  "cves": [
+   "CVE-2007-6755"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "The NIST SP 800-90A default statement of the Dual Elliptic Curve Deterministic Random Bit Generation (Dual_EC_DRBG) algorithm contains point Q constants with a possible relationship to certain \"skeleton key\" values, which might allow context-dependent attackers to defeat cryptographic protection mechanisms by leveraging knowledge of those values.  NOTE: this is a preliminary CVE for Dual_EC_DRBG; future research may provide additional details about point Q and associated attacks, and could potentially lead to a RECAST or REJECT of this CVE.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2007-6755",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.65,
+  "source": "manual"
  },
  {
   "id": "itlb-multihit",
@@ -18590,6 +19182,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "energetic-wireless",
+  "kind": "minor",
+  "name": "energetic/wireless",
+  "date": "2017-04-06",
+  "day": "04-06",
+  "category": "santo",
+  "cves": [
+   "CVE-2017-7576"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "DragonWave Horizon 1.01.03 wireless radios have hardcoded login credentials (such as the username of energetic and password of wireless) meant to allow the vendor to access the devices. These credentials can be used in the web interface or by connecting to the device via TELNET. This is fixed in recent versions including 1.4.8.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2017-7576",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.45,
+  "source": "manual"
+ },
+ {
   "id": "optionsbleed",
   "name": "OptionsBleed",
   "date": "2017-09-18",
@@ -18660,6 +19277,31 @@
   "author": "Guardsquare",
   "fame": 1.45,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "homekit-smart-lock",
+  "kind": "minor",
+  "name": "HomeKit Smart Lock",
+  "date": "2017-12-25",
+  "day": "12-25",
+  "category": "santo",
+  "cves": [
+   "CVE-2017-13903"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "An issue was discovered in certain Apple products. iOS before 11.2.1 is affected. tvOS before 11.2.1 is affected. The issue involves the \"HomeKit\" component. It allows remote attackers to modify the application state by leveraging incorrect message handling, as demonstrated by use of an Apple Watch to obtain an encryption key and unlock a door.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2017-13903",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.45,
+  "source": "manual"
  },
  {
   "id": "bleichenbacher",
@@ -18928,6 +19570,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "harmony-hub",
+  "kind": "minor",
+  "name": "Harmony Hub Hardcoded Accounts",
+  "date": "2018-12-20",
+  "day": "12-20",
+  "category": "santo",
+  "cves": [
+   "CVE-2018-15720"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": "Logitech",
+  "product": "Logitech Harmony Hub",
+  "description": "Logitech Harmony Hub before version 4.15.206 contained two hard-coded accounts in the XMPP server that gave remote users access to the local API.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2018-15720",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.4,
+  "source": "manual"
+ },
+ {
   "id": "pantsdown",
   "name": "pantsdown",
   "date": "2019-01-23",
@@ -18976,6 +19643,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "m365-scooter",
+  "kind": "minor",
+  "name": "Xiaomi M365 Scooter Hijack",
+  "date": "2019-05-31",
+  "day": "05-31",
+  "category": "santo",
+  "cves": [
+   "CVE-2019-12500"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "The Xiaomi M365 scooter 2019-02-12 before 1.5.1 allows spoofing of \"suddenly accelerate\" commands. This occurs because Bluetooth Low Energy commands have no server-side authentication check. Other affected commands include suddenly braking, locking, and unlocking.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2019-12500",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.35,
+  "source": "manual"
+ },
+ {
   "id": "sack-slowness",
   "name": "SACK slowness",
   "date": "2019-06-18",
@@ -18999,6 +19691,31 @@
   "author": "Satnam Narang (Tenable)",
   "fame": 1.35,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "better-zip-bomb",
+  "kind": "minor",
+  "name": "A Better Zip Bomb",
+  "date": "2019-07-04",
+  "day": "07-04",
+  "category": "santo",
+  "cves": [
+   "CVE-2019-13232"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "Info-ZIP UnZip 6.0 mishandles the overlapping of files inside a ZIP container, leading to denial of service (resource consumption), aka a \"better zip bomb\" issue.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2019-13232",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.35,
+  "source": "manual"
  },
  {
   "id": "urgent11",
@@ -19050,6 +19767,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "xtrlock-multitouch",
+  "kind": "minor",
+  "name": "xtrlock Multitouch",
+  "date": "2019-08-16",
+  "day": "08-16",
+  "category": "santo",
+  "cves": [
+   "CVE-2016-10894"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "xtrlock through 2.10 does not block multitouch events. Consequently, an attacker at a locked screen can send input to (and thus control) various programs such as Chromium via events such as pan scrolling, \"pinch and zoom\" gestures, or even regular mouse clicks (by depressing the touchpad once and then clicking with a different finger).",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2016-10894",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.35,
+  "source": "manual"
+ },
+ {
   "id": "ghost-potato",
   "name": "Ghost Potato",
   "date": "2019-11-12",
@@ -19099,6 +19841,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "fermax-dtmf",
+  "kind": "minor",
+  "name": "Fermax DTMF Door Opener",
+  "date": "2019-12-24",
+  "day": "12-24",
+  "category": "santo",
+  "cves": [
+   "CVE-2017-16778"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "An access control weakness in the DTMF tone receiver of Fermax Outdoor Panel allows physical attackers to inject a Dual-Tone-Multi-Frequency (DTMF) tone to invoke an access grant that would allow physical access to a restricted floor/level. By design, only a residential unit owner may allow such an access grant. However, due to incorrect access control, an attacker could inject it via the speaker unit to perform an access grant to gain unauthorized access, as demonstrated by a loud DTMF tone representing '1' and a long '#' (697 Hz and 1209 Hz, followed by 941 Hz and 1477 Hz).",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2017-16778",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.35,
+  "source": "manual"
+ },
+ {
   "id": "bluegate",
   "name": "BlueGate",
   "date": "2020-01-23",
@@ -19122,6 +19889,31 @@
   "author": "Oliver Lyak",
   "fame": 1.3,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "dota2-custom-map",
+  "kind": "minor",
+  "name": "Dota 2 Custom Map",
+  "date": "2020-02-17",
+  "day": "02-17",
+  "category": "santo",
+  "cves": [
+   "CVE-2020-9005"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "meshsystem.dll in Valve Dota 2 through 2020-02-17 allows remote attackers to achieve code execution or denial of service by creating a gaming server with a crafted map, and inviting a victim to this server. A GetValue call is mishandled.",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2020-9005",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.3,
+  "source": "manual"
  },
  {
   "id": "bias",
@@ -20731,6 +21523,31 @@
   "author": "Zimperium",
   "fame": 1.1,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "evo-nano-drone",
+  "kind": "minor",
+  "name": "Autel EVO Nano Drone Crash",
+  "date": "2024-01-06",
+  "day": "01-06",
+  "category": "santo",
+  "cves": [
+   "CVE-2023-50121"
+  ],
+  "cvss": 5.7,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": "Autel EVO NANO drone flight control firmware version 1.6.5 is vulnerable to denial of service (DoS).",
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2023-50121",
+  "links": [],
+  "logo": null,
+  "author": null,
+  "fame": 1.1,
+  "source": "manual"
  },
  {
   "id": "pixiefail",

@@ -210,7 +210,7 @@ for (const v of vulns) {
   v.absurd = overrides.absurd?.includes(v.id) ?? false;
   v.vendor = infos.find((i) => i.vendor)?.vendor ?? kevHits[0]?.vendorProject ?? null;
   v.product = infos.find((i) => i.product)?.product ?? kevHits[0]?.product ?? null;
-  v.description = infos.find((i) => i.description)?.description ?? null;
+  v.description = infos.find((i) => i.description)?.description ?? v.description ?? null;
   v.day = v.date.slice(5);
   v.category = category(v);
   v.fame = fame(v);
@@ -233,7 +233,7 @@ for (const day of allDays()) {
   days[day] = { patron, others: candidates.filter((id) => id !== patron) };
 }
 
-const fields = ['id', 'name', 'date', 'day', 'category', 'cves', 'cvss', 'kev', 'ransomware', 'born', 'absurd', 'vendor', 'product', 'description', 'canonical', 'links', 'logo', 'author', 'fame', 'source'];
+const fields = ['id', 'kind', 'name', 'date', 'day', 'category', 'cves', 'cvss', 'kev', 'ransomware', 'born', 'absurd', 'vendor', 'product', 'description', 'canonical', 'links', 'logo', 'author', 'fame', 'source'];
 const slim = vulns.map((v) => Object.fromEntries(fields.map((f) => [f, v[f]])));
 mkdirSync(join(ROOT, 'src', 'data'), { recursive: true });
 writeFileSync(join(ROOT, 'src', 'data', 'vulns.json'), JSON.stringify(slim, null, 1) + '\n');

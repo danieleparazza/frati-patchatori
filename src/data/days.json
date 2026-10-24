@@ -22,11 +22,13 @@
   "others": []
  },
  "01-05": {
-  "patron": null,
-  "others": []
+  "patron": "whill-wheelchair",
+  "others": [
+   "smurf"
+  ]
  },
  "01-06": {
-  "patron": null,
+  "patron": "evo-nano-drone",
   "others": []
  },
  "01-07": {
@@ -45,7 +47,7 @@
   ]
  },
  "01-09": {
-  "patron": null,
+  "patron": "smart-toilet-lab",
   "others": []
  },
  "01-10": {
@@ -175,7 +177,7 @@
   ]
  },
  "01-29": {
-  "patron": null,
+  "patron": "colourful-keyboard",
   "others": []
  },
  "01-30": {
@@ -285,7 +287,7 @@
   ]
  },
  "02-17": {
-  "patron": null,
+  "patron": "dota2-custom-map",
   "others": []
  },
  "02-18": {
@@ -331,6 +333,7 @@
  "02-25": {
   "patron": "wallbleed",
   "others": [
+   "tcp-sequence-prediction-1985",
    "airsnitch"
   ]
  },
@@ -418,7 +421,7 @@
   ]
  },
  "03-09": {
-  "patron": null,
+  "patron": "energizer-duo",
   "others": []
  },
  "03-10": {
@@ -497,6 +500,7 @@
  "03-20": {
   "patron": "unsaflok",
   "others": [
+   "phf-cgi",
    "the-symlink-trap",
    "red-pills-attack",
    "dhcp-coerce"
@@ -616,7 +620,7 @@
   "others": []
  },
  "04-06": {
-  "patron": null,
+  "patron": "energetic-wireless",
   "others": []
  },
  "04-07": {
@@ -865,6 +869,7 @@
   "patron": "vectorsmuggle",
   "others": [
    "pwnassistant",
+   "winnuke",
    "dark-portal",
    "synlapse"
   ]
@@ -911,6 +916,7 @@
    "nats-as-c2",
    "crosstalk",
    "ridl",
+   "next-me-user",
    "ssid-confusion-attack",
    "thunderstrike-2",
    "rfdos"
@@ -996,6 +1002,7 @@
  "05-23": {
   "patron": "isapwn",
   "others": [
+   "rlogin-froot",
    "z-shave"
   ]
  },
@@ -1040,7 +1047,7 @@
   "others": []
  },
  "05-31": {
-  "patron": null,
+  "patron": "m365-scooter",
   "others": []
  },
  "06-01": {
@@ -1314,7 +1321,7 @@
   ]
  },
  "07-04": {
-  "patron": null,
+  "patron": "better-zip-bomb",
   "others": []
  },
  "07-05": {
@@ -1730,7 +1737,7 @@
   ]
  },
  "08-16": {
-  "patron": null,
+  "patron": "xtrlock-multitouch",
   "others": []
  },
  "08-17": {
@@ -1954,6 +1961,7 @@
  "09-17": {
   "patron": "phoenix",
   "others": [
+   "netscape-ssl-prng",
    "heif-heist",
    "bidi-swap",
    "skeleton-cookie",
@@ -1974,7 +1982,9 @@
  },
  "09-19": {
   "patron": "bigdiskbuster",
-  "others": []
+  "others": [
+   "syn-flood"
+  ]
  },
  "09-20": {
   "patron": "poodlebleed",
@@ -2034,7 +2044,7 @@
   ]
  },
  "09-28": {
-  "patron": null,
+  "patron": "nokia-obex",
   "others": []
  },
  "09-29": {
@@ -2127,7 +2137,7 @@
   ]
  },
  "10-11": {
-  "patron": null,
+  "patron": "dual-ec-drbg",
   "others": []
  },
  "10-12": {
@@ -2307,6 +2317,7 @@
  "11-01": {
   "patron": "risk-station",
   "others": [
+   "blue-box-2600hz",
    "braktooth",
    "oobpci",
    "badrecovery",
@@ -2314,13 +2325,14 @@
   ]
  },
  "11-02": {
-  "patron": "portsmash",
+  "patron": "morris-worm-fingerd-sendmail",
   "others": [
+   "portsmash",
    "apatchme"
   ]
  },
  "11-03": {
-  "patron": null,
+  "patron": "deck-mate-2",
   "others": []
  },
  "11-04": {
@@ -2334,8 +2346,10 @@
   "others": []
  },
  "11-06": {
-  "patron": null,
-  "others": []
+  "patron": "pentium-f00f",
+  "others": [
+   "ovulation-calculator"
+  ]
  },
  "11-07": {
   "patron": "landfall",
@@ -2381,6 +2395,7 @@
   "patron": "fallout",
   "others": [
    "tpm-fail",
+   "teardrop",
    "ekuwu",
    "janus",
    "modipwn",
@@ -2435,6 +2450,7 @@
  "11-20": {
   "patron": "doubledirect",
   "others": [
+   "land-attack",
    "ghost-tap"
   ]
  },
@@ -2611,7 +2627,9 @@
  },
  "12-18": {
   "patron": "terrapin",
-  "others": []
+  "others": [
+   "ping-of-death"
+  ]
  },
  "12-19": {
   "patron": "achilles-2",
@@ -2623,7 +2641,7 @@
   ]
  },
  "12-20": {
-  "patron": null,
+  "patron": "harmony-hub",
   "others": []
  },
  "12-21": {
@@ -2649,12 +2667,14 @@
   ]
  },
  "12-24": {
-  "patron": null,
+  "patron": "fermax-dtmf",
   "others": []
  },
  "12-25": {
-  "patron": null,
-  "others": []
+  "patron": "mitnick-christmas-attack",
+  "others": [
+   "homekit-smart-lock"
+  ]
  },
  "12-26": {
   "patron": "owassrf",

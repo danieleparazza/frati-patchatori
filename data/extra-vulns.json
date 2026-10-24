@@ -1,1 +1,386 @@
-[]
+[
+ {
+  "id": "whill-wheelchair",
+  "name": "WHILL Wheelchair Takeover",
+  "date": "2026-01-05",
+  "cves": [
+   "CVE-2025-14346"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2025-14346",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "evo-nano-drone",
+  "name": "Autel EVO Nano Drone Crash",
+  "date": "2024-01-06",
+  "cves": [
+   "CVE-2023-50121"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2023-50121",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "smart-toilet-lab",
+  "name": "Smart Toilet Debug Leak",
+  "date": "2025-01-09",
+  "cves": [
+   "CVE-2024-56113"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2024-56113",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "colourful-keyboard",
+  "name": "GlobeTrotter Colourful Keyboard",
+  "date": "2007-01-29",
+  "cves": [
+   "CVE-2006-6953"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2006-6953",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "dota2-custom-map",
+  "name": "Dota 2 Custom Map",
+  "date": "2020-02-17",
+  "cves": [
+   "CVE-2020-9005"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2020-9005",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "energizer-duo",
+  "name": "Energizer DUO Backdoor",
+  "date": "2010-03-09",
+  "cves": [
+   "CVE-2010-0103"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2010-0103",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "energetic-wireless",
+  "name": "energetic/wireless",
+  "date": "2017-04-06",
+  "cves": [
+   "CVE-2017-7576"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2017-7576",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "m365-scooter",
+  "name": "Xiaomi M365 Scooter Hijack",
+  "date": "2019-05-31",
+  "cves": [
+   "CVE-2019-12500"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2019-12500",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "better-zip-bomb",
+  "name": "A Better Zip Bomb",
+  "date": "2019-07-04",
+  "cves": [
+   "CVE-2019-13232"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2019-13232",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "xtrlock-multitouch",
+  "name": "xtrlock Multitouch",
+  "date": "2019-08-16",
+  "cves": [
+   "CVE-2016-10894"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2016-10894",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "nokia-obex",
+  "name": "Nokia OBEX Filename",
+  "date": "2005-09-28",
+  "cves": [
+   "CVE-2005-3093"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2005-3093",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "dual-ec-drbg",
+  "name": "Dual_EC_DRBG",
+  "date": "2013-10-11",
+  "cves": [
+   "CVE-2007-6755"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2007-6755",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "deck-mate-2",
+  "name": "Deck Mate 2 Shuffler",
+  "date": "2025-11-03",
+  "cves": [
+   "CVE-2025-34501"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2025-34501",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "ovulation-calculator",
+  "name": "Ovulation Calculator Plugin",
+  "date": "2025-11-06",
+  "cves": [
+   "CVE-2025-60196"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2025-60196",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "harmony-hub",
+  "name": "Harmony Hub Hardcoded Accounts",
+  "date": "2018-12-20",
+  "cves": [
+   "CVE-2018-15720"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2018-15720",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "fermax-dtmf",
+  "name": "Fermax DTMF Door Opener",
+  "date": "2019-12-24",
+  "cves": [
+   "CVE-2017-16778"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2017-16778",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "homekit-smart-lock",
+  "name": "HomeKit Smart Lock",
+  "date": "2017-12-25",
+  "cves": [
+   "CVE-2017-13903"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2017-13903",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "blue-box-2600hz",
+  "name": "2600 Hz",
+  "date": "1954-11-01",
+  "cves": [],
+  "canonical": "https://www.nokia.com/bell-labs/publications-and-media/publications/in-band-single-frequency-signaling/",
+  "links": [
+   "https://explodingthephone.com/hoppdocs/weaver1954.pdf",
+   "https://en.wikipedia.org/wiki/2600_hertz"
+  ],
+  "description": "Bell Labs' Weaver and Newell described the in-band single-frequency signaling system for long-distance trunks in the November 1954 Bell System Technical Journal, where the control tone traveled over the same channel as the voice. Anyone who whistled 2600 Hz into the handset could seize a trunk, giving rise to blue boxes, phreakers and the founding idea of all injection bugs: data and control on the same channel."
+ },
+ {
+  "id": "tcp-sequence-prediction-1985",
+  "name": "TCP Sequence Prediction",
+  "date": "1985-02-25",
+  "cves": [
+   "CVE-1999-0077"
+  ],
+  "canonical": "https://pdos.csail.mit.edu/archive/rtm/papers/117-abstract.html",
+  "links": [
+   "https://pdos.csail.mit.edu/~rtm/papers/117.pdf"
+  ],
+  "description": "In AT&T Bell Labs CSTR 117, 'A Weakness in the 4.2BSD Unix TCP/IP Software', Robert T. Morris showed that predictable initial sequence numbers let a distant host pose as a trusted one and run rsh commands without a password. Nearly ten years later it became Mitnick's weapon."
+ },
+ {
+  "id": "morris-worm-fingerd-sendmail",
+  "name": "Morris Worm (fingerd)",
+  "date": "1988-11-02",
+  "cves": [
+   "CVE-1999-0095"
+  ],
+  "canonical": "https://docs.lib.purdue.edu/cstech/702/",
+  "links": [
+   "https://en.wikipedia.org/wiki/Morris_worm",
+   "https://www.sei.cmu.edu/library/1988-cert-advisories/",
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0095"
+  ],
+  "description": "On the evening of 2 November 1988 the Morris Worm spread across the Internet by abusing the gets() buffer overflow in 4.3BSD fingerd on VAX machines, sendmail's DEBUG command and trusted rsh/rexec hosts. It was the first famous exploited stack overflow, and it led directly to the founding of CERT/CC, whose first advisory (CA-1988-01, Dec 1988) told admins to turn sendmail DEBUG off."
+ },
+ {
+  "id": "next-me-user",
+  "name": "NeXT 'me' User",
+  "date": "1991-05-14",
+  "cves": [
+   "CVE-1999-1193"
+  ],
+  "canonical": "https://www.sei.cmu.edu/library/1991-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-1193"
+  ],
+  "description": "CERT advisory CA-1991-06 revealed that NeXTstep up to 2.1 shipped with rexd enabled, a group-writable /private/etc, and a default user literally named 'me' who sat in the wheel group. One advisory, three classic sins of insecure defaults."
+ },
+ {
+  "id": "rlogin-froot",
+  "name": "rlogin -froot",
+  "date": "1994-05-23",
+  "cves": [
+   "CVE-1999-0113"
+  ],
+  "canonical": "https://www.sei.cmu.edu/library/1994-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0113"
+  ],
+  "description": "CERT advisory CA-1994-09 warned that /bin/login on IBM AIX 3 (and Linux) gave remote root, the famous 'rlogin -froot' trick where login read the user name as the -f flag ('already authenticated') followed by root. One command, no password, root shell."
+ },
+ {
+  "id": "mitnick-christmas-attack",
+  "name": "Mitnick Christmas Attack",
+  "date": "1994-12-25",
+  "cves": [
+   "CVE-1999-0077"
+  ],
+  "canonical": "https://aeb.win.tue.nl/linux/hh/shimomura-25jan95.txt",
+  "links": [
+   "https://www.sei.cmu.edu/library/1995-cert-advisories/"
+  ],
+  "description": "At about 14:09 PST on 25 December 1994, IP spoofing plus TCP sequence prediction were used to break into Tsutomu Shimomura's machines and hijack a session with a STREAMS kernel module. Shimomura posted the technical details to comp.security.misc on 25 January 1995, after CERT CA-1995-01 (23 January 1995)."
+ },
+ {
+  "id": "netscape-ssl-prng",
+  "name": "Netscape SSL Seed",
+  "date": "1995-09-17",
+  "cves": [],
+  "canonical": "https://people.eecs.berkeley.edu/~daw/my-posts/netscape-cracked-0",
+  "links": [
+   "https://en.wikipedia.org/wiki/Ian_Goldberg"
+  ],
+  "description": "Ian Goldberg and David Wagner announced 'Netscape SSL implementation cracked!' on Sunday evening, 17 September 1995 (PDT; 18 Sep UTC). Netscape seeded its key generator with the time of day and process IDs, so the SSL key could be found in under a minute."
+ },
+ {
+  "id": "phf-cgi",
+  "name": "phf",
+  "date": "1996-03-20",
+  "cves": [
+   "CVE-1999-0067"
+  ],
+  "canonical": "https://www.sei.cmu.edu/library/1996-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0067"
+  ],
+  "description": "CERT CA-1996-06 reported that the phf example CGI shipped with NCSA httpd and Apache passed shell metacharacters straight to the shell. 'GET /cgi-bin/phf?Qalias=x%0a/bin/cat%20/etc/passwd' became the most-tried URL on the 1990s web."
+ },
+ {
+  "id": "syn-flood",
+  "name": "SYN Flood",
+  "date": "1996-09-19",
+  "cves": [
+   "CVE-1999-0116"
+  ],
+  "canonical": "https://www.sei.cmu.edu/library/1996-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0116"
+  ],
+  "description": "CERT CA-1996-21 ('TCP SYN Flooding and IP Spoofing Attacks') documented how a stream of SYNs never followed by an ACK fills a server's half-open connection queue. The tool had been published that summer in Phrack 48 (Project Neptune), and the bug was later fixed with SYN cookies."
+ },
+ {
+  "id": "ping-of-death",
+  "name": "Ping of Death",
+  "date": "1996-12-18",
+  "cves": [
+   "CVE-1999-0128"
+  ],
+  "canonical": "https://www.sei.cmu.edu/library/1996-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0128"
+  ],
+  "description": "CERT CA-1996-26 ('Denial-of-Service Attack via ping') warned that an ICMP echo over 65,535 bytes, sent as fragments, overflowed the reassembly buffer and crashed or rebooted many operating systems. On Windows 95 it was as easy as 'ping -l 65510'."
+ },
+ {
+  "id": "winnuke",
+  "name": "WinNuke",
+  "date": "1997-05-09",
+  "cves": [
+   "CVE-1999-0153"
+  ],
+  "canonical": "https://diswww.mit.edu/menelaus/bt/4430",
+  "links": [
+   "https://insecure.org/sploits/windows.OOB.DOS.html",
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0153"
+  ],
+  "description": "On 9 May 1997 myst posted 'Windows 95/NT DoS' to Bugtraq with _eci's winnuke.c (code dated 05/07/97) attached: sending out-of-band TCP data to NetBIOS port 139 gave Windows 95/NT a blue screen. It became the IRC prank of the late 1990s."
+ },
+ {
+  "id": "pentium-f00f",
+  "name": "F00F",
+  "date": "1997-11-06",
+  "cves": [
+   "CVE-1999-1476"
+  ],
+  "canonical": "https://seclists.org/bugtraq/1997/Nov/25",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-1476"
+  ],
+  "description": "On 6 November 1997 (PST) an anonymous comp.os.linux.advocacy post titled 'This code will lock up any P5 machine, even usermode Linux! (F0 0F C7 C8)' showed that four bytes (lock cmpxchg8b eax) froze any Pentium solid, even from unprivileged code. It was forwarded to Bugtraq on 7 November."
+ },
+ {
+  "id": "teardrop",
+  "name": "Teardrop",
+  "date": "1997-11-13",
+  "cves": [
+   "CVE-1999-0015"
+  ],
+  "canonical": "https://seclists.org/bugtraq/1997/Nov/126",
+  "links": [
+   "https://www.sei.cmu.edu/library/1997-cert-advisories/",
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0015"
+  ],
+  "description": "On 13 November 1997 route|daemon9 published 'Linux IP fragment overlap bug' on Bugtraq: overlapping IP fragments produced a negative length during reassembly, which crashed Linux, Windows NT 4.0 and 95. teardrop.c and its patch were attached."
+ },
+ {
+  "id": "land-attack",
+  "name": "Land",
+  "date": "1997-11-20",
+  "cves": [
+   "CVE-1999-0016"
+  ],
+  "canonical": "https://seclists.org/bugtraq/1997/Nov/182",
+  "links": [
+   "https://www.sei.cmu.edu/library/1997-cert-advisories/",
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0016"
+  ],
+  "description": "On 20 November 1997 m3lt posted 'new TCP/IP bug in win95' to Bugtraq: a single SYN whose source address and port equal its destination's made the machine talk to itself until it froze. Cisco routers, many Unix systems and Windows were affected; CERT covered it together with Teardrop in CA-1997-28 (16 Dec 1997)."
+ },
+ {
+  "id": "smurf",
+  "name": "Smurf",
+  "date": "1998-01-05",
+  "cves": [
+   "CVE-1999-0513"
+  ],
+  "canonical": "https://www.sei.cmu.edu/library/1998-cert-advisories/",
+  "links": [
+   "https://nvd.nist.gov/vuln/detail/CVE-1999-0513"
+  ],
+  "description": "CERT CA-1998-01 ('Smurf IP Denial-of-Service Attacks') described spoofed ICMP echo requests sent to broadcast addresses, so that whole networks answered the victim at once. It was the first great amplification attack, named after the smurf.c program."
+ }
+]
