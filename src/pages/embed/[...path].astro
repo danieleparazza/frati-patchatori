@@ -1,0 +1,180 @@
+---
+// Embeddable card (<iframe>) for every shareable page, at embed/<same path as the page>/, plus
+// embed/<lang>/ which always shows today's saint. Light or dark from the host page's
+// prefers-color-scheme, or forced with ?theme=light|dark. Links open the full page in a new tab.
+import { DAYS, allVulns } from '../../lib/calendar';
+import { allDemons, allEvents, allPopes } from '../../lib/extras';
+import { LANGS, absolute, saintPath, t, url, type Lang } from '../../lib/i18n';
+import { dayImages, demonImages, eventImages, popeImages, saintImages, type Images } from '../../lib/og';
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => {
+    const s = t(lang);
+    const pages: { path: string; make: () => Images }[] = [
+      ...DAYS.map((d) => ({ path: `${lang}/${d}`, make: () => dayImages(lang, d) })),
+      ...allVulns().map((v) => ({ path: saintPath(lang, v.id), make: () => saintImages(lang, v) })),
+      // Mourning pages have no share buttons, so no embed either.
+      ...allEvents()
+        .filter((e) => e.tone !== 'lutto')
+        .map((e) => ({ path: `${lang}/${e.type === 'miracolo' ? s.miracleSlug : s.scourgeSlug}/${e.id}`, make: () => eventImages(lang, e) })),
+      ...allDemons().map((d) => ({ path: `${lang}/${s.demonSlug}/${d.id}`, make: () => demonImages(lang, d) })),
+      ...allPopes().map((p) => ({ path: `${lang}/${s.popeSlug}/${p.key}`, make: () => popeImages(lang, p) })),
+    ];
+    return [
+      { params: { path: lang }, props: { lang, today: true } },
+      ...pages.map((p) => ({ params: { path: p.path }, props: { lang, page: p.path, make: p.make } })),
+    ];
+  });
+}
+
+const { lang, today, page, make } = Astro.props as { lang: Lang; today?: boolean; page?: string; make?: () => Images };
+const s = t(lang);
+const entry = make?.();
+const href = page ? absolute(page) : absolute(`${lang}/`);
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>{entry ? entry.info.title : s.siteTitle} · {s.siteTitle}</title>
+    <script is:inline>
+      const theme = new URLSearchParams(location.search).get('theme');
+      if (theme === 'dark' || theme === 'light') document.documentElement.dataset.theme = theme;
+    </script>
+    {
+      today && (
+        <script is:inline define:vars={{ base: url(`embed/${lang}/`) }}>
+          const now = new Date();
+          const mmdd = String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+          location.replace(base + mmdd + '/' + location.search);
+        </script>
+      )
+    }
+  </head>
+  <body>
+    {
+      entry ? (
+        <a class="embed" href={href} target="_blank" rel="noopener">
+          <span class="card" set:html={entry.card} />
+          <span class="text">
+            <span class="kicker">{entry.info.kicker}</span>
+            <span class="title">{entry.info.title}</span>
+            <span class="subtitle">{entry.info.subtitle}</span>
+            <span class="site">
+              {s.siteTitle} · {s.domain} ↗
+            </span>
+          </span>
+        </a>
+      ) : (
+        <a class="embed" href={href} target="_blank" rel="noopener">
+          {s.siteTitle}
+        </a>
+      )
+    }
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --bg: #fffaf0;
+    --ink: #2b1d14;
+    --muted: #7a6656;
+    --red: #9e1b1b;
+    --gold: #b8892b;
+    --line: #e2d4b8;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+      --bg: #241c17;
+      --ink: #f1e6d4;
+      --muted: #b09c88;
+      --red: #e0645a;
+      --gold: #d9ad55;
+      --line: #3d3128;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme='dark'] {
+    --bg: #241c17;
+    --ink: #f1e6d4;
+    --muted: #b09c88;
+    --red: #e0645a;
+    --gold: #d9ad55;
+    --line: #3d3128;
+    color-scheme: dark;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    background: transparent;
+  }
+  body {
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  }
+  .embed {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    height: 100%;
+    padding: 10px 14px 10px 10px;
+    background: var(--bg);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .card {
+    flex: none;
+    height: 100%;
+    max-height: 200px;
+    aspect-ratio: 2 / 3;
+  }
+  .card svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+  }
+  .kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .title {
+    font-size: 1.15rem;
+    line-height: 1.2;
+    color: var(--red);
+  }
+  .subtitle {
+    font-size: 0.88rem;
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .site {
+    margin-top: 4px;
+    font-size: 0.75rem;
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  .embed:hover .title {
+    text-decoration: underline;
+  }
+</style>

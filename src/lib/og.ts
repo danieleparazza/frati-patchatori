@@ -130,13 +130,15 @@ export function backSvg(lang: Lang, cardSvg: string, b: CardBack) {
 
 // ---------- per kind ----------
 
-/** Share image (PNG) and back (SVG markup) of an entry. */
-export type Images = { share: () => Promise<Buffer>; back: () => string };
+/** Share image (JPEG), back (SVG markup), and the card and texts they are made from (used by embeds). */
+export type Images = { share: () => Promise<Buffer>; back: () => string; card: string; info: CardBack };
 
 function images(lang: Lang, cardSvg: string, b: CardBack, source: string): Images {
   return {
     share: () => renderJpeg(shareSvg(lang, cardSvg, b), 1200, source),
     back: () => backSvg(lang, cardSvg, b),
+    card: cardSvg,
+    info: b,
   };
 }
 
