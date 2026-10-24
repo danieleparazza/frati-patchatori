@@ -16,18 +16,36 @@ const s = t(Astro.props.lang);
   <div class="controls">
     <button type="button" class="flip-btn">⟲ {s.flip}</button>
     <button type="button" class="close-btn">{s.close}</button>
+    <button type="button" class="sound-btn" data-mute={s.mute} data-unmute={s.unmute}></button>
   </div>
 </dialog>
 
 <script>
   import { cardSvgs } from '../lib/card-client';
+  import { muted, playClose, playReveal, setMuted } from '../lib/sfx';
 
   const dialog = document.querySelector<HTMLDialogElement>('dialog.lightbox')!;
   const stage = dialog.querySelector<HTMLElement>('.stage')!;
   const flipBtn = dialog.querySelector<HTMLButtonElement>('.flip-btn')!;
   let card: HTMLElement | null = null;
 
-  const flip = () => card?.classList.toggle('flipped');
+  const soundBtn = dialog.querySelector<HTMLButtonElement>('.sound-btn')!;
+  function showSound() {
+    soundBtn.textContent = muted() ? '🔕' : '🔔';
+    soundBtn.setAttribute('aria-label', muted() ? soundBtn.dataset.unmute! : soundBtn.dataset.mute!);
+    soundBtn.title = soundBtn.getAttribute('aria-label')!;
+  }
+  showSound();
+  soundBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setMuted(!muted());
+    showSound();
+  });
+
+  const flip = () => {
+    if (!card) return;
+    (card.classList.toggle('flipped') ? playReveal : playClose)();
+  };
 
   function open(fig: HTMLElement) {
     const { front, back } = cardSvgs(fig);
@@ -65,7 +83,7 @@ const s = t(Astro.props.lang);
       dialog.close();
       return;
     }
-    card.classList.remove('flipped');
+    flip();
     setTimeout(() => dialog.close(), 650);
   }
 
