@@ -11826,6 +11826,36 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "dirtycred",
+  "name": "DirtyCred",
+  "date": "2022-08-22",
+  "day": "08-22",
+  "category": "santo",
+  "cves": [
+   "CVE-2021-4154",
+   "CVE-2022-2588"
+  ],
+  "cvss": 5.3,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "The Linux Kernel Organization",
+  "product": "kernel",
+  "description": "A use-after-free flaw was found in cgroup1_parse_param in kernel/cgroup/cgroup-v1.c in the Linux kernel's cgroup v1 parser. A local attacker with a user privilege could cause a privilege escalation by exploiting the fsconfig syscall parameter leading to a container breakout and a denial of service on the system.",
+  "canonical": "https://github.com/Markakd/DirtyCred",
+  "links": [
+   "https://zplin.me/papers/DirtyCred_CCS_slides.pdf",
+   "https://zplin.me/",
+   "https://github.com/Markakd/DirtyCred?tab=readme-ov-file",
+   "https://zplin.me/papers/DirtyCred.pdf"
+  ],
+  "logo": null,
+  "author": "Zhenpeng Lin, Yuhang Wu, Xinyu Xing",
+  "fame": 3.2,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "rpc-dcom",
   "name": "RPC DCOM (Blaster)",
   "date": "2003-07-16",
@@ -14919,33 +14949,6 @@
   "links": [],
   "logo": null,
   "author": "Neil Madden",
-  "fame": 2.2,
-  "source": "vulnerability-garden"
- },
- {
-  "id": "dirtycred",
-  "name": "DirtyCred",
-  "date": "2022-08-22",
-  "day": "08-22",
-  "category": "beato",
-  "cves": [],
-  "cvss": null,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": null,
-  "product": null,
-  "description": null,
-  "canonical": "https://github.com/Markakd/DirtyCred",
-  "links": [
-   "https://zplin.me/papers/DirtyCred_CCS_slides.pdf",
-   "https://zplin.me/",
-   "https://github.com/Markakd/DirtyCred?tab=readme-ov-file",
-   "https://zplin.me/papers/DirtyCred.pdf"
-  ],
-  "logo": null,
-  "author": "Zhenpeng Lin, Yuhang Wu, Xinyu Xing",
   "fame": 2.2,
   "source": "vulnerability-garden"
  },

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Kobold Letters, che riscriveva la lettera",
+    "patronage": "delle email in HTML, dei contenuti che cambiano dopo l'invio e dei folletti dispettosi.",
+    "hagiography": "Il 31 marzo 2024 Konstantin Weddige di Lutra Security descrisse le Kobold Letters. Sfruttando i fogli di stile CSS nelle email in HTML, un messaggio poteva mostrare un testo al momento della ricezione e un testo diverso dopo essere stato inoltrato: il contenuto cambiava a seconda del contesto, come un folletto che riscrive la lettera quando non guardi. Più un trucco di presentazione che un bug di un singolo prodotto, utile per l'inganno e il phishing.",
+    "prayer": "O Beato Kobold Letters, che cambi le parole quando volto lo sguardo, fa' che le nostre email dicano sempre la stessa cosa. Amen.",
+    "feast": "Si festeggia limitando il CSS nei client di posta e non fidandosi ciecamente del testo di un'email inoltrata.",
+    "proverb": "Lettera che cambia volto, folletto al lavoro."
+  },
+  "en": {
+    "title": "Blessed Kobold Letters, Who Rewrote the Letter",
+    "patronage": "HTML emails, content that changes after sending, and mischievous goblins.",
+    "hagiography": "On 31 March 2024 Konstantin Weddige of Lutra Security described Kobold Letters. Using CSS stylesheets in HTML emails, a message could show one text when received and a different text after being forwarded: the content changed with the context, like a goblin rewriting the letter when you look away. More a presentation trick than a single product's bug, handy for deception and phishing.",
+    "prayer": "O Blessed Kobold Letters, who changes the words when I turn away, let our emails always say the same thing. Amen.",
+    "feast": "Celebrated by limiting CSS in mail clients and not blindly trusting the text of a forwarded email.",
+    "proverb": "A letter that changes face means a goblin at work."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DarkSword, catena di sei lame",
+    "patronage": "dei telefoni tenuti aggiornati, dei siti civetta e di chi naviga su reti ostili.",
+    "hagiography": "Il 18 marzo 2026 Google, iVerify e Lookout pubblicarono insieme la ricerca su DarkSword, una catena di exploit per iPhone che, secondo i ricercatori, concatenava sei vulnerabilità, tre delle quali in WebKit, per colpire iOS tra la 18.4 e la 18.7. Veniva distribuita con attacchi \"a pozza d'acqua\": siti legittimi caricavano di nascosto un iframe che consegnava la catena ai visitatori. Apple aveva già corretto i difetti con una serie di aggiornamenti.",
+    "prayer": "O San DarkSword, che forgi sei lame per una sola ferita, fa' che i nostri telefoni restino aggiornati e i nostri siti puliti. Amen.",
+    "feast": "Si festeggia aggiornando iOS all'ultima versione, attivando la Modalità Isolamento per chi è più esposto e diffidando dei siti compromessi.",
+    "proverb": "Sei lame insieme, una sola ferita."
+  },
+  "en": {
+    "title": "Saint DarkSword, Chain of Six Blades",
+    "patronage": "phones kept up to date, decoy websites, and anyone browsing on hostile networks.",
+    "hagiography": "On 18 March 2026 Google, iVerify and Lookout jointly published research on DarkSword, an iPhone exploit chain that, according to the researchers, strung together six vulnerabilities, three of them in WebKit, to hit iOS from 18.4 to 18.7. It was delivered through watering-hole attacks: legitimate sites silently loaded an iframe that handed the chain to visitors. Apple had already fixed the flaws across a series of updates.",
+    "prayer": "O Saint DarkSword, who forges six blades for a single wound, keep our phones updated and our websites clean. Amen.",
+    "feast": "Celebrated by updating iOS to the latest version, turning on Lockdown Mode for those most exposed, and distrusting compromised sites.",
+    "proverb": "Six blades together, a single wound."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "GoFetch",
+  "motto": "ADFERT ARCANA",
+  "niche": [
+    "#20242f",
+    "#3b4254"
+  ],
+  "accent": "#2b3142",
+  "emblem": "<rect x=\"110\" y=\"150\" width=\"80\" height=\"60\" rx=\"6\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<g stroke=\"#fbf3dd\" stroke-width=\"2\" opacity=\"0.5\"><path d=\"M110 170 H190 M110 190 H190 M136 150 V210 M164 150 V210\"/></g>\n<g stroke=\"#fbf3dd\" stroke-width=\"2.5\" stroke-linecap=\"round\"><line x1=\"110\" y1=\"142\" x2=\"110\" y2=\"134\"/><line x1=\"150\" y1=\"142\" x2=\"150\" y2=\"134\"/><line x1=\"190\" y1=\"142\" x2=\"190\" y2=\"134\"/><line x1=\"110\" y1=\"218\" x2=\"110\" y2=\"226\"/><line x1=\"150\" y1=\"218\" x2=\"150\" y2=\"226\"/><line x1=\"190\" y1=\"218\" x2=\"190\" y2=\"226\"/></g>\n<path d=\"M150 180 q24 -4 40 24\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<path d=\"M190 204 l-9 -2 l3 -8\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<g fill=\"#d9ad55\"><rect x=\"192\" y=\"210\" width=\"12\" height=\"18\" rx=\"2\"/><rect x=\"198\" y=\"204\" width=\"6\" height=\"8\"/></g>"
+}

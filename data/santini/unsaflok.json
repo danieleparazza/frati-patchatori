@@ -1,0 +1,10 @@
+{
+  "label": "Unsaflok",
+  "motto": "UNA CHARTA, OMNES FORES",
+  "niche": [
+    "#1d2e3d",
+    "#345468"
+  ],
+  "accent": "#26404f",
+  "emblem": "<rect x=\"120\" y=\"140\" width=\"60\" height=\"96\" rx=\"6\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"168\" cy=\"188\" r=\"4\" fill=\"#d9ad55\"/>\n<rect x=\"128\" y=\"150\" width=\"36\" height=\"24\" rx=\"2\" fill=\"#2e86c1\"/>\n<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"><path d=\"M138 162 h16 M142 158 a4 4 0 0 1 8 0\"/></g>\n<text x=\"146\" y=\"200\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#2b1d14\">RFID</text>\n<g fill=\"none\" stroke=\"#5dade2\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M186 170 a10 10 0 0 1 0 20\"/><path d=\"M194 164 a18 18 0 0 1 0 32\"/></g>\n<path d=\"M132 212 l10 10 l20 -20\" fill=\"none\" stroke=\"#27ae60\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+}

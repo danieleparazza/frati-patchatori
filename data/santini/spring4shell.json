@@ -1,0 +1,10 @@
+{
+  "label": "Spring4Shell",
+  "motto": "VER IN VINCULIS",
+  "niche": [
+    "#16331f",
+    "#276340"
+  ],
+  "accent": "#1d4a2e",
+  "emblem": "<path d=\"M150 230 V150\" stroke=\"#2e7d32\" stroke-width=\"4\"/>\n<path d=\"M150 190 C130 184 122 168 128 150 C146 156 154 172 150 190 Z\" fill=\"#43a047\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M150 206 C170 200 178 184 172 166 C154 172 146 188 150 206 Z\" fill=\"#43a047\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<circle cx=\"150\" cy=\"140\" r=\"16\" fill=\"#f1c40f\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"150\" cy=\"128\" r=\"7\"/><circle cx=\"162\" cy=\"137\" r=\"7\"/><circle cx=\"158\" cy=\"151\" r=\"7\"/><circle cx=\"142\" cy=\"151\" r=\"7\"/><circle cx=\"138\" cy=\"137\" r=\"7\"/></g>\n<circle cx=\"150\" cy=\"140\" r=\"6\" fill=\"#e67e22\"/>\n<rect x=\"120\" y=\"230\" width=\"60\" height=\"12\" rx=\"3\" fill=\"#8b5a2b\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">{ }</text>"
+}

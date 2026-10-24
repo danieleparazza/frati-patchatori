@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San IngressNightmare, incubo del cancello",
+    "patronage": "dei cluster Kubernetes, dei controller di ingresso esposti e dei segreti custoditi dal portinaio.",
+    "hagiography": "Il 24 marzo 2025 i ricercatori di Wiz rivelarono IngressNightmare, una serie di vulnerabilità nel controller ingress-nginx di Kubernetes. In certe condizioni un attaccante senza credenziali, con accesso alla rete dei pod, poteva eseguire codice nel controller d'ingresso; e poiché nell'installazione predefinita quel controller può leggere tutti i segreti del cluster, da lì si arrivava a tutto. Il guardiano del cancello consegnava le chiavi di ogni stanza.",
+    "prayer": "O San IngressNightmare, che corrompi il guardiano del cancello, fa' che i nostri controller vedano solo i segreti che servono. Amen.",
+    "feast": "Si festeggia aggiornando ingress-nginx, limitando l'accesso al webhook di ammissione e restringendo i permessi del controller.",
+    "proverb": "Portinaio corrotto, palazzo spalancato."
+  },
+  "en": {
+    "title": "Saint IngressNightmare, Nightmare of the Gate",
+    "patronage": "Kubernetes clusters, exposed ingress controllers, and the secrets the gatekeeper holds.",
+    "hagiography": "On 24 March 2025 Wiz researchers revealed IngressNightmare, a set of vulnerabilities in Kubernetes' ingress-nginx controller. Under certain conditions an unauthenticated attacker with access to the pod network could run code in the ingress controller; and since in the default installation that controller can read all of the cluster's secrets, from there you reached everything. The gatekeeper handed over the keys to every room.",
+    "prayer": "O Saint IngressNightmare, who corrupts the keeper of the gate, let our controllers see only the secrets they need. Amen.",
+    "feast": "Celebrated by updating ingress-nginx, limiting access to the admission webhook, and narrowing the controller's permissions.",
+    "proverb": "Corrupt the gatekeeper, and the whole building swings open."
+  }
+}

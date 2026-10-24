@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Unsaflok, che apriva le stanze degli hotel",
+    "patronage": "delle serrature elettroniche, delle chiavi-carta degli alberghi e di chi si fida del badge.",
+    "hagiography": "Nel marzo 2024 un gruppo di ricercatori, tra cui Ian Carroll e Lennert Wouters, rivelò Unsaflok: una serie di debolezze nelle serrature RFID Saflok di Dormakaba, diffusissime negli hotel di tutto il mondo. Partendo da una sola chiave-carta della struttura, anche scaduta, si potevano forgiare due carte capaci di aprire qualsiasi porta. La correzione richiedeva di aggiornare serrature e sistemi di gestione, hotel per hotel.",
+    "prayer": "O Beato Unsaflok, che apri ogni stanza con una carta sola, fa' che le nostre serrature cambino chiave quando serve. Amen.",
+    "feast": "Si festeggia aggiornando le serrature e i sistemi delle chiavi e, in viaggio, mettendo comunque il chiavistello.",
+    "proverb": "Una carta per tutte le porte, nessuna porta davvero chiusa."
+  },
+  "en": {
+    "title": "Blessed Unsaflok, Who Opened the Hotel Rooms",
+    "patronage": "electronic locks, hotel keycards, and anyone who trusts the badge.",
+    "hagiography": "In March 2024 a group of researchers, including Ian Carroll and Lennert Wouters, revealed Unsaflok: a set of weaknesses in Dormakaba's Saflok RFID locks, found in hotels the world over. Starting from a single keycard of the property, even an expired one, two cards could be forged that opened any door. The fix meant updating locks and management systems, hotel by hotel.",
+    "prayer": "O Blessed Unsaflok, who opens every room with a single card, let our locks change their key when they must. Amen.",
+    "feast": "Celebrated by updating the locks and key systems and, when travelling, throwing the deadbolt anyway.",
+    "proverb": "One card for every door means no door truly closed."
+  }
+}

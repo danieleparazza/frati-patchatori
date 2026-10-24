@@ -1,0 +1,11 @@
+{
+  "label": "Drupalgeddon 2",
+  "motto": "FORMA FALLAX",
+  "niche": [
+    "#15314a",
+    "#255a80"
+  ],
+  "accent": "#1c4360",
+  "frame": "flagello",
+  "emblem": "<circle cx=\"150\" cy=\"178\" r=\"40\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 150 C134 150 128 164 128 178 C128 196 150 210 150 210 C150 210 172 196 172 178 C172 164 166 150 150 150 Z\" fill=\"#2e86c1\"/>\n<circle cx=\"150\" cy=\"176\" r=\"10\" fill=\"#fbf3dd\"/>\n<rect x=\"112\" y=\"220\" width=\"76\" height=\"30\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<g stroke=\"#7a6656\" stroke-width=\"2\"><line x1=\"120\" y1=\"230\" x2=\"180\" y2=\"230\"/><line x1=\"120\" y1=\"240\" x2=\"160\" y2=\"240\"/></g>\n<path d=\"M170 236 l12 8 M182 236 l-12 8\" stroke=\"#e74c3c\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#fbf3dd\">2</text>"
+}

@@ -1,0 +1,11 @@
+{
+  "label": "DarkSword",
+  "motto": "SEX GLADII, UNUM VULNUS",
+  "niche": [
+    "#1a1824",
+    "#39334e"
+  ],
+  "accent": "#2a2440",
+  "frame": "demone",
+  "emblem": "<g stroke=\"#bfc9d1\" stroke-width=\"2\" fill=\"#d6dbdf\"><path d=\"M150 118 L156 200 H144 Z\"/></g>\n<rect x=\"132\" y=\"198\" width=\"36\" height=\"8\" rx=\"2\" fill=\"#d9ad55\"/>\n<rect x=\"146\" y=\"206\" width=\"8\" height=\"30\" rx=\"2\" fill=\"#8b5a2b\"/>\n<circle cx=\"150\" cy=\"240\" r=\"6\" fill=\"#d9ad55\"/>\n<g stroke=\"#c0392b\" stroke-width=\"2\" opacity=\"0.8\"><path d=\"M150 124 L120 150 M150 124 L180 150 M150 150 L112 172 M150 150 L188 172 M150 176 L124 196 M150 176 L176 196\"/></g>"
+}

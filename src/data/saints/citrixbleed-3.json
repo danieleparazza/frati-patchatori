@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CitrixBleed 3, terzo della stirpe sanguinante",
+    "patronage": "dei gateway pubblicati su internet, delle sessioni rubate dalla memoria e delle serie di sequel.",
+    "hagiography": "Nel marzo 2026 fu divulgata la CVE-2026-3055, chiamata CitrixBleed 3 perché erede diretta di CitrixBleed e CitrixBleed 2. Sugli apparati NetScaler configurati come identity provider SAML, una richiesta malformata faceva restituire in risposta kilobyte di memoria del processo: token di sessione, asserzioni SAML, credenziali. Senza autenticazione, senza interazione. CISA la aggiunse al catalogo delle vulnerabilità sfruttate.",
+    "prayer": "O San CitrixBleed 3, che fai sanguinare la memoria del gateway, fa' che i nostri parser non raccontino ciò che hanno vicino. Amen.",
+    "feast": "Si festeggia applicando le patch di Citrix, invalidando le sessioni attive e togliendo da internet i gateway che possono starne fuori.",
+    "proverb": "Terzo sequel, stessa ferita, meno scuse."
+  },
+  "en": {
+    "title": "Saint CitrixBleed 3, Third of the Bleeding Line",
+    "patronage": "gateways published to the internet, sessions stolen from memory, and franchise sequels.",
+    "hagiography": "In March 2026 CVE-2026-3055 was disclosed, called CitrixBleed 3 as the direct heir of CitrixBleed and CitrixBleed 2. On NetScaler appliances configured as SAML identity providers, a malformed request made the response hand back kilobytes of process memory: session tokens, SAML assertions, credentials. No authentication, no interaction. CISA added it to the catalogue of exploited vulnerabilities.",
+    "prayer": "O Saint CitrixBleed 3, who makes the gateway's memory bleed, keep our parsers from telling what lies beside them. Amen.",
+    "feast": "Celebrated by applying Citrix's patches, invalidating active sessions, and taking off the internet the gateways that can stay off it.",
+    "proverb": "Third sequel, same wound, fewer excuses."
+  }
+}

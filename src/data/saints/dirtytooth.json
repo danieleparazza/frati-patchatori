@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DirtyTooth, che origliava dagli altoparlanti",
+    "patronage": "degli altoparlanti Bluetooth, dei profili che cambiano di nascosto e della rubrica lasciata in bella vista.",
+    "hagiography": "Il 26 marzo 2017 i ricercatori di ElevenPaths, con Chema Alonso, presentarono DirtyTooth. Sfruttando il modo in cui alcuni dispositivi iOS gestivano i profili Bluetooth, un altoparlante poteva cambiare profilo dopo l'accoppiamento e passare da «riproduci musica» a «accedi alla rubrica e alle chiamate». Più un uso disinvolto delle specifiche che un singolo bug, ma dall'effetto curioso: l'altoparlante si metteva ad ascoltare.",
+    "prayer": "O Beato DirtyTooth, che dalla musica passi alla rubrica, fa' che i nostri dispositivi chiedano prima di cambiare mestiere. Amen.",
+    "feast": "Si festeggia aggiornando i dispositivi, revocando gli accoppiamenti inutili e diffidando degli altoparlanti troppo curiosi.",
+    "proverb": "Altoparlante curioso, rubrica in prestito."
+  },
+  "en": {
+    "title": "Blessed DirtyTooth, Who Eavesdropped Through the Speakers",
+    "patronage": "Bluetooth speakers, profiles that switch in secret, and the address book left in plain sight.",
+    "hagiography": "On 26 March 2017 ElevenPaths researchers, with Chema Alonso, presented DirtyTooth. Exploiting the way some iOS devices handled Bluetooth profiles, a speaker could change profile after pairing and go from \"play music\" to \"access contacts and calls\". More a liberal use of the specification than a single bug, but with a curious effect: the speaker started listening.",
+    "prayer": "O Blessed DirtyTooth, who goes from music to the address book, let our devices ask before changing trade. Amen.",
+    "feast": "Celebrated by updating devices, revoking needless pairings, and distrusting speakers that are too curious.",
+    "proverb": "A curious speaker borrows the address book."
+  }
+}

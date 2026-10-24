@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San aCropalypse, che non tagliava davvero",
+    "patronage": "degli screenshot ritagliati, delle immagini modificate e di chi crede che cancellare basti.",
+    "hagiography": "Il 17 marzo 2023 Simon Aarons e David Buchanan rivelarono aCropalypse. Lo strumento Markup dei Pixel di Google, quando ritagliava o oscurava uno screenshot, salvava il file sopra l'originale senza troncarlo: la parte «cancellata» restava in coda e, in buona parte, si poteva ricostruire. Lo stesso difetto colpiva lo Strumento di cattura di Windows. Milioni di immagini condivise contenevano ancora ciò che si pensava di aver tolto.",
+    "prayer": "O San aCropalypse, che tieni ciò che credevamo tagliato, insegna ai nostri editor a troncare davvero il file. Amen.",
+    "feast": "Si festeggia aggiornando gli strumenti di cattura e, nel dubbio, ritagliando le immagini sensibili due volte.",
+    "proverb": "Immagine ritagliata male, segreto ancora in fondo."
+  },
+  "en": {
+    "title": "Saint aCropalypse, Who Did Not Really Crop",
+    "patronage": "cropped screenshots, edited images, and anyone who thinks deleting is enough.",
+    "hagiography": "On 17 March 2023 Simon Aarons and David Buchanan revealed aCropalypse. Google's Pixel Markup tool, when it cropped or redacted a screenshot, saved the file over the original without truncating it: the \"deleted\" part stayed at the end and could largely be reconstructed. The same flaw hit the Windows Snipping Tool. Millions of shared images still held what people thought they had removed.",
+    "prayer": "O Saint aCropalypse, who keeps what we thought was cut, teach our editors to truncate the file for real. Amen.",
+    "feast": "Celebrated by updating the screenshot tools and, when in doubt, cropping sensitive images twice.",
+    "proverb": "Crop an image badly, and the secret stays at the bottom."
+  }
+}

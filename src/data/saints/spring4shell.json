@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Spring4Shell, che fioriva nei binding",
+    "patronage": "delle applicazioni Java, dei framework usati da tutti e dei weekend di patch improvvisate.",
+    "hagiography": "Il 30 marzo 2022 emerse la CVE-2022-22965 nel framework Spring: manipolando il meccanismo che collega i parametri di una richiesta agli oggetti Java, su certe configurazioni, un attaccante poteva scrivere file ed eseguire codice. Serviva Spring MVC su un server Tomcat dispiegato come WAR; le applicazioni Spring Boot a jar erano al sicuro. Il nome e il periodo ricordavano Log4Shell, e scatenò la stessa corsa agli aggiornamenti.",
+    "prayer": "O San Spring4Shell, che fiorisci dove si legano i parametri, fa' che i nostri binding non concedano più di quanto chiediamo. Amen.",
+    "feast": "Si festeggia aggiornando Spring Framework alle versioni corrette e controllando come sono dispiegate le applicazioni Java.",
+    "proverb": "Primavera nei binding, grane fino all'estate."
+  },
+  "en": {
+    "title": "Saint Spring4Shell, Who Bloomed in the Bindings",
+    "patronage": "Java applications, frameworks everyone uses, and weekends of improvised patching.",
+    "hagiography": "On 30 March 2022 CVE-2022-22965 surfaced in the Spring framework: by manipulating the mechanism that binds a request's parameters to Java objects, on certain configurations, an attacker could write files and run code. It needed Spring MVC on a Tomcat server deployed as a WAR; Spring Boot jar applications were safe. The name and the timing recalled Log4Shell, and it set off the same rush to update.",
+    "prayer": "O Saint Spring4Shell, who blooms where parameters are bound, keep our bindings from granting more than we ask. Amen.",
+    "feast": "Celebrated by updating Spring Framework to the fixed versions and checking how Java applications are deployed.",
+    "proverb": "Spring in the bindings, trouble into summer."
+  }
+}

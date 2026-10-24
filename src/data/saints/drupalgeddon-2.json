@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Drupalgeddon 2, flagello dei siti",
+    "patronage": "dei siti web in Drupal, dei form che si fidano dell'input e degli amministratori di mezzo internet.",
+    "hagiography": "Il 28 marzo 2018 Drupal pubblicò l'avviso per la CVE-2018-7600, subito ribattezzata Drupalgeddon 2. Un difetto nella gestione dei parametri dei form permetteva a chiunque, senza autenticarsi, di eseguire codice sul sito. Punteggio 9.8, un sacco di siti esposti e, nel giro di pochi giorni, scanner e botnet all'opera. Finì nel catalogo CISA delle vulnerabilità sfruttate.",
+    "prayer": "O San Drupalgeddon 2, che entri dal modulo di contatto, fa' che i nostri form non prendano gli ordini dai visitatori. Amen.",
+    "feast": "Si festeggia aggiornando Drupal a 7.58, 8.5.1 o successive il giorno stesso dell'avviso, senza rimandare.",
+    "proverb": "Form che si fida, sito che cade."
+  },
+  "en": {
+    "title": "Saint Drupalgeddon 2, Scourge of Websites",
+    "patronage": "Drupal websites, forms that trust their input, and administrators across half the internet.",
+    "hagiography": "On 28 March 2018 Drupal published the advisory for CVE-2018-7600, at once nicknamed Drupalgeddon 2. A flaw in how form parameters were handled let anyone, without authenticating, run code on the site. Scored 9.8, with countless exposed sites and, within days, scanners and botnets at work. It ended up in CISA's catalogue of exploited vulnerabilities.",
+    "prayer": "O Saint Drupalgeddon 2, who enters through the contact form, keep our forms from taking orders from visitors. Amen.",
+    "feast": "Celebrated by updating Drupal to 7.58, 8.5.1 or later on the very day of the advisory, without delay.",
+    "proverb": "A form that trusts is a site that falls."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'xzorcist, che scacciava la backdoor",
+    "patronage": "delle librerie open source, dei contributori troppo gentili e di chi guarda i benchmark con sospetto.",
+    "hagiography": "Il 29 marzo 2024 Andres Freund annunciò la CVE-2024-3094: nel codice sorgente della libreria di compressione xz, a partire dalla 5.6.0, era stata nascosta una backdoor. Attraverso una serie di offuscamenti, la compilazione estraeva un file oggetto da un finto file di test e alterava liblzma, aprendo una porta negli accessi SSH. L'aveva introdotta, con pazienza lunga anni, un contributore fidato; fu scoperta per caso, notando qualche millisecondo di troppo.",
+    "prayer": "O Sant'xzorcist, che scacci la backdoor dalla libreria posseduta, dacci occhi per vedere il male nascosto nel codice fidato. Amen.",
+    "feast": "Si festeggia tornando a una versione sana di xz, verificando la catena di fornitura e ringraziando chi nota i millisecondi di troppo.",
+    "proverb": "Contributore troppo gentile, codice da guardare due volte."
+  },
+  "en": {
+    "title": "Saint xzorcist, Who Cast Out the Backdoor",
+    "patronage": "open source libraries, over-helpful contributors, and those who eye benchmarks with suspicion.",
+    "hagiography": "On 29 March 2024 Andres Freund announced CVE-2024-3094: a backdoor had been hidden in the source of the xz compression library, starting from 5.6.0. Through a chain of obfuscations, the build extracted an object file from a fake test file and altered liblzma, opening a door in SSH access. It had been introduced, over years of patience, by a trusted contributor; it was found by chance, after noticing a few milliseconds too many.",
+    "prayer": "O Saint xzorcist, who casts the backdoor out of the possessed library, give us eyes to see the evil hidden in trusted code. Amen.",
+    "feast": "Celebrated by reverting to a clean version of xz, verifying the supply chain, and thanking whoever notices the milliseconds too many.",
+    "proverb": "An over-helpful contributor is code to read twice."
+  }
+}

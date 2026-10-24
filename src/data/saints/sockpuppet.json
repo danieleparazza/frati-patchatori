@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SockPuppet, il burattino dei socket",
+    "patronage": "dei socket del kernel, delle versioni di iOS appena superate e dei jailbreak di una volta.",
+    "hagiography": "Il 19 marzo 2019 Ned Williamson di Google Project Zero descrisse la CVE-2019-8605, un uso di memoria dopo la liberazione nel kernel di Apple, raggiungibile attraverso i socket. Corretto in iOS 12.3, divenne una delle basi dei jailbreak dell'epoca: un'app malevola poteva eseguire codice con privilegi di sistema. Un burattino mosso dai fili dei socket.",
+    "prayer": "O San SockPuppet, che muovi il kernel come un pupazzo, fa' che la nostra memoria non venga usata dopo essere stata liberata. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 12.3 e seguenti, in memoria di chi ci faceva girare i temi senza permesso.",
+    "proverb": "Memoria liberata e ancora usata, burattino in mano all'attaccante."
+  },
+  "en": {
+    "title": "Saint SockPuppet, Puppet of the Sockets",
+    "patronage": "kernel sockets, iOS versions just left behind, and jailbreaks of old.",
+    "hagiography": "On 19 March 2019 Ned Williamson of Google Project Zero described CVE-2019-8605, a use-after-free in Apple's kernel reachable through sockets. Fixed in iOS 12.3, it became one of the foundations of the jailbreaks of the time: a malicious app could run code with system privileges. A puppet moved by the strings of the sockets.",
+    "prayer": "O Saint SockPuppet, who moves the kernel like a doll, let our memory not be used after it is freed. Amen.",
+    "feast": "Celebrated by updating to iOS 12.3 and later, in memory of those who ran custom themes without permission.",
+    "proverb": "Memory freed and still used is a puppet in the attacker's hand."
+  }
+}

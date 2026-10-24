@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato GoFetch, che carpiva le chiavi dal prefetcher",
+    "patronage": "dei processori Apple Silicon, dei prefetcher troppo zelanti e delle chiavi crittografiche in memoria.",
+    "hagiography": "Nel marzo 2024 un gruppo di ricercatori di varie università presentò GoFetch, un attacco ai chip Apple delle serie M. Un particolare prefetcher, pensato per indovinare quali dati serviranno, trattava certi valori come se fossero indirizzi e li caricava in anticipo; osservando questo comportamento, un programma malevolo sulla stessa macchina poteva ricostruire, poco a poco, le chiavi usate da alcune librerie di crittografia. Il difetto sta nel silicio, quindi si mitiga solo con accortezze nel software.",
+    "prayer": "O Beato GoFetch, che vai a prendere ciò che non dovresti, insegna ai nostri prefetcher a non toccare i segreti. Amen.",
+    "feast": "Si festeggia aggiornando le librerie crittografiche con le contromisure e tenendo lontani i segreti dagli ospiti indesiderati.",
+    "proverb": "Chi va a prendere troppo, riporta anche i segreti."
+  },
+  "en": {
+    "title": "Blessed GoFetch, Who Fetched the Keys From the Prefetcher",
+    "patronage": "Apple Silicon processors, over-eager prefetchers, and cryptographic keys in memory.",
+    "hagiography": "In March 2024 a group of researchers from several universities presented GoFetch, an attack on Apple's M-series chips. A particular prefetcher, meant to guess which data will be needed, treated certain values as if they were addresses and loaded them ahead of time; by watching this behaviour, a malicious program on the same machine could reconstruct, little by little, the keys used by some cryptography libraries. The flaw is in the silicon, so it can only be mitigated with care in software.",
+    "prayer": "O Blessed GoFetch, who fetches what he shouldn't, teach our prefetchers not to touch the secrets. Amen.",
+    "feast": "Celebrated by updating cryptographic libraries with the countermeasures and keeping secrets away from unwanted guests.",
+    "proverb": "Fetch too much, and you bring back the secrets too."
+  }
+}

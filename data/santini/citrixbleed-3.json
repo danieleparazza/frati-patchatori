@@ -1,0 +1,10 @@
+{
+  "label": "CitrixBleed 3",
+  "motto": "TERTIUM CRUENTUM",
+  "niche": [
+    "#3a1620",
+    "#6b2a38"
+  ],
+  "accent": "#7a2033",
+  "emblem": "<rect x=\"110\" y=\"150\" width=\"80\" height=\"56\" rx=\"4\" fill=\"#2b2b2b\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<g fill=\"#7dcea0\"><rect x=\"120\" y=\"160\" width=\"40\" height=\"5\"/><rect x=\"120\" y=\"170\" width=\"52\" height=\"5\"/><rect x=\"120\" y=\"180\" width=\"30\" height=\"5\"/><rect x=\"120\" y=\"190\" width=\"46\" height=\"5\"/></g>\n<text x=\"176\" y=\"146\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\">3</text>\n<g fill=\"#c0392b\"><path d=\"M134 208 C128 220 128 226 134 228 C140 226 140 220 134 208 Z\"/><path d=\"M158 212 C152 226 152 234 158 236 C164 234 164 226 158 212 Z\"/><path d=\"M182 208 C176 220 176 226 182 228 C188 226 188 220 182 208 Z\"/></g>"
+}

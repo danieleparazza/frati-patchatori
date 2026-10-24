@@ -1,0 +1,10 @@
+{
+  "label": "SUN:DOWN",
+  "motto": "SOL OCCIDIT",
+  "niche": [
+    "#3a2a10",
+    "#6e521c"
+  ],
+  "accent": "#5a4418",
+  "emblem": "<circle cx=\"150\" cy=\"180\" r=\"24\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g stroke=\"#f1c40f\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"128\"/><line x1=\"178\" y1=\"152\" x2=\"186\" y2=\"144\"/><line x1=\"122\" y1=\"152\" x2=\"114\" y2=\"144\"/><line x1=\"190\" y1=\"180\" x2=\"202\" y2=\"180\"/><line x1=\"110\" y1=\"180\" x2=\"98\" y2=\"180\"/></g>\n<path d=\"M112 216 H188 L198 240 H102 Z\" fill=\"#2b3a4a\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<g stroke=\"#5dade2\" stroke-width=\"1\"><path d=\"M120 216 L116 240 M140 216 L138 240 M160 216 L162 240 M180 216 L184 240 M104 228 H196\"/></g>\n<path d=\"M150 204 V216\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M130 248 l20 -8 l20 8\" fill=\"none\" stroke=\"#e74c3c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+}

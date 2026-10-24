@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SUN:DOWN, che spegneva il sole",
+    "patronage": "degli inverter solari, delle app che cifrano male e delle reti elettriche che contano sul bel tempo.",
+    "hagiography": "Il 27 marzo 2025 Forescout Vedere Labs pubblicò SUN:DOWN, una ricerca che raccoglieva 46 vulnerabilità negli inverter solari di tre grandi produttori. Tra queste, l'app iSolarCloud di SunGrow cifrava i dati con una chiave AES troppo debole, permettendo di decifrare le comunicazioni intercettate. I ricercatori avvertirono che una grande flotta di inverter dirottati potrebbe essere usata per destabilizzare la rete elettrica. I difetti furono poi corretti.",
+    "prayer": "O San SUN:DOWN, che fai calare il sole quando vuoi tu, fa' che i nostri inverter cifrino con chiavi degne del nome. Amen.",
+    "feast": "Si festeggia aggiornando firmware e app degli inverter e togliendo dalla rete pubblica i pannelli che non devono starci.",
+    "proverb": "Chiave debole, rete che trema."
+  },
+  "en": {
+    "title": "Saint SUN:DOWN, Who Switched Off the Sun",
+    "patronage": "solar inverters, apps that encrypt badly, and power grids that count on good weather.",
+    "hagiography": "On 27 March 2025 Forescout Vedere Labs published SUN:DOWN, research gathering 46 vulnerabilities in the solar inverters of three major vendors. Among them, SunGrow's iSolarCloud app encrypted data with too weak an AES key, allowing intercepted communications to be decrypted. The researchers warned that a large fleet of hijacked inverters could be used to destabilise the power grid. The flaws were later fixed.",
+    "prayer": "O Saint SUN:DOWN, who makes the sun set at will, let our inverters encrypt with keys worthy of the name. Amen.",
+    "feast": "Celebrated by updating inverter firmware and apps and taking off the public network the panels that don't belong there.",
+    "proverb": "Weak key, trembling grid."
+  }
+}
