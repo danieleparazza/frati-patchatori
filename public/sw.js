@@ -2,7 +2,9 @@
 // - Pages: network first, falling back to the last copy (so new saints and fixes show up when online).
 // - Static files (/_astro, fonts, icons, images): cache first, they are immutable or rarely change.
 // - On install, the next seven days in both languages are cached, so the app works offline for a week.
-const CACHE = 'frati-v1';
+const CACHE = 'frati-v2';
+// Reader settings (push language), kept across cache versions.
+const SETTINGS = 'frati-settings';
 
 function upcomingDays(n) {
   const days = [];
@@ -27,7 +29,7 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== SETTINGS).map((k) => caches.delete(k))))
       .then(() => self.clients.claim()),
   );
 });
@@ -70,4 +72,39 @@ self.addEventListener('fetch', (event) => {
       ),
     );
   }
+});
+
+// Daily notification: the push carries no data, so look up today's saint in the reader's language
+// (saved by the page when they subscribed) and show it.
+async function todayNotification() {
+  const saved = await caches.match('/__push/lang');
+  const lang = saved ? await saved.text() : 'it';
+  const now = new Date();
+  const mmdd = String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+  let data = { title: lang === 'it' ? 'Lunario dei Frati Patchatori' : "The Patching Friars' Almanac", body: '', url: `/${lang}/${mmdd}/` };
+  try {
+    data = await (await fetch(`/push/${lang}/${mmdd}.json`)).json();
+  } catch {}
+  // Cache today's page too, so tapping the notification works even on a bad connection.
+  caches.open(CACHE).then((cache) => cache.add(`/${lang}/${mmdd}/`)).catch(() => {});
+  return self.registration.showNotification(data.title, {
+    body: data.body,
+    icon: '/icons/icon-192.png',
+    badge: '/icons/icon-192.png',
+    tag: `santo-${mmdd}`,
+    data: { url: data.url },
+  });
+}
+
+self.addEventListener('push', (event) => event.waitUntil(todayNotification()));
+
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  const url = event.notification.data?.url ?? '/';
+  event.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((wins) => {
+      const win = wins.find((w) => new URL(w.url).origin === location.origin);
+      return win ? win.navigate(url).then((w) => w?.focus()) : self.clients.openWindow(url);
+    }),
+  );
 });

@@ -1,0 +1,145 @@
+---
+// "Install the app" and "Get the day's saint every morning", shown on every page by the layout.
+// Install uses the browser's prompt where there is one (Chrome, Edge, Android) and explains the Share
+// menu on iOS; it hides once the app is installed. Notifications go through the push Worker (src/lib/push.ts).
+import { t, type Lang } from '../lib/i18n';
+import { PUSH_URL, VAPID_PUBLIC } from '../lib/push';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+---
+
+<section class="applinks" data-lang={lang} data-push={PUSH_URL} data-key={VAPID_PUBLIC}>
+  <button type="button" class="app-install" hidden>📲 {s.appInstall}</button>
+  <button type="button" class="push-toggle" hidden data-on={`🔔 ${s.pushOn}`} data-off={`🔕 ${s.pushOff}`}></button>
+  <button type="button" class="push-test" hidden>{s.pushTest}</button>
+  <p class="app-note" hidden data-ios-install={s.appInstallIos} data-ios-push={s.pushIos} data-denied={s.pushDenied} data-error={s.pushError}></p>
+</section>
+
+<script is:inline>
+  (() => {
+    const box = document.querySelector('.applinks');
+    if (!box) return;
+    const install = box.querySelector('.app-install');
+    const toggle = box.querySelector('.push-toggle');
+    const test = box.querySelector('.push-test');
+    const note = box.querySelector('.app-note');
+    const say = (msg) => {
+      note.textContent = msg;
+      note.hidden = !msg;
+    };
+    const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+    const ios = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+    // ---- install ----
+    let deferred = null;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferred = e;
+      install.hidden = false;
+    });
+    window.addEventListener('appinstalled', () => (install.hidden = true));
+    if (ios && !standalone) install.hidden = false;
+    install.addEventListener('click', async () => {
+      if (deferred) {
+        deferred.prompt();
+        const { outcome } = await deferred.userChoice;
+        if (outcome === 'accepted') install.hidden = true;
+        deferred = null;
+      } else say(note.dataset.iosInstall);
+    });
+
+    // ---- daily notifications ----
+    const api = box.dataset.push;
+    if (!api || !('serviceWorker' in navigator)) return;
+    const supported = 'PushManager' in window && 'Notification' in window;
+    if (!supported && !(ios && !standalone)) return;
+    toggle.hidden = false;
+
+    const key = () => {
+      const raw = atob(box.dataset.key.replace(/-/g, '+').replace(/_/g, '/'));
+      return Uint8Array.from(raw, (c) => c.charCodeAt(0));
+    };
+    const post = (path, body) => fetch(api + path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    async function current() {
+      if (!supported) return null;
+      const reg = await navigator.serviceWorker.ready;
+      return reg.pushManager.getSubscription();
+    }
+    async function show() {
+      const sub = await current();
+      toggle.textContent = sub ? toggle.dataset.off : toggle.dataset.on;
+      test.hidden = !sub;
+    }
+    show();
+
+    toggle.addEventListener('click', async () => {
+      say('');
+      if (!supported) return say(note.dataset.iosPush);
+      try {
+        const sub = await current();
+        if (sub) {
+          await post('/unsubscribe', { endpoint: sub.endpoint }).catch(() => {});
+          await sub.unsubscribe();
+        } else {
+          if ((await Notification.requestPermission()) !== 'granted') return say(note.dataset.denied);
+          const reg = await navigator.serviceWorker.ready;
+          const created = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: key() });
+          const lang = box.dataset.lang;
+          // The service worker reads the language when the (empty) push arrives.
+          await (await caches.open('frati-settings')).put('/__push/lang', new Response(lang));
+          const res = await post('/subscribe', { subscription: created.toJSON(), lang, tz: Intl.DateTimeFormat().resolvedOptions().timeZone });
+          if (!res.ok) throw new Error(String(res.status));
+        }
+      } catch {
+        say(note.dataset.error);
+      }
+      show();
+    });
+
+    test.addEventListener('click', async () => {
+      const sub = await current();
+      if (sub) post('/test', { endpoint: sub.endpoint }).then((r) => !r.ok && say(note.dataset.error));
+    });
+  })();
+</script>
+
+<style>
+  .applinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 14px;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 16px 12px;
+    font-size: 0.9rem;
+  }
+  .applinks button {
+    font: inherit;
+    color: var(--red);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 4px 14px;
+    cursor: pointer;
+  }
+  .applinks .push-test {
+    border: 0;
+    background: none;
+    padding: 4px 0;
+    text-decoration: underline;
+    font-size: 0.8rem;
+  }
+  .app-note {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+</style>

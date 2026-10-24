@@ -1,0 +1,157 @@
+openapi: 3.1.0
+info:
+  title: Lunario dei Frati Patchatori API
+  version: '1'
+  summary: The saint of the day, where every saint is a famous vulnerability.
+  description: |
+    Read-only, free, no key. Every day of the year has a patron saint (a famous vulnerability, on the
+    day it was disclosed), other saints remembered that day, and observances (scourges and miracles).
+
+    Day files and the year file are static JSON on GitHub Pages, with CORS open to any origin.
+    `today` is served by a small Cloudflare Worker, because a static site can't know what day it is.
+
+    Parody texts and holy cards are AI-generated (CC BY-NC-SA 4.0); vulnerability data is CC BY-SA 4.0,
+    derived from Vulnerability Garden by Shellsharks. Non-commercial use.
+  license:
+    name: CC BY-NC-SA 4.0 (texts) · CC BY-SA 4.0 (vulnerability data)
+    url: https://github.com/danieleparazza/frati-patchatori/blob/main/LICENSE
+servers:
+  - url: https://fratipatchatori.it/api/v1
+paths:
+  /{lang}/days/{day}.json:
+    get:
+      summary: One day
+      description: The day's patron, the other saints remembered that day and its observances.
+      operationId: getDay
+      parameters:
+        - $ref: '#/components/parameters/lang'
+        - name: day
+          in: path
+          required: true
+          description: Month and day, MM-DD (02-29 included).
+          schema: { type: string, pattern: '^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$', example: '10-24' }
+      responses:
+        '200':
+          description: The day.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Day' }
+        '404': { description: No such day. }
+  /{lang}/year.json:
+    get:
+      summary: The whole year
+      description: All 366 days, same shape as a single day. About 800 KB.
+      operationId: getYear
+      parameters:
+        - $ref: '#/components/parameters/lang'
+      responses:
+        '200':
+          description: 366 days, from 01-01 to 12-31.
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/Day' }
+  /{lang}/today:
+    servers:
+      - url: https://PUSH_WORKER/api/v1
+    get:
+      summary: Today
+      description: The day file for today's date in the given timezone.
+      operationId: getToday
+      parameters:
+        - $ref: '#/components/parameters/lang'
+        - name: tz
+          in: query
+          required: false
+          description: IANA timezone. Defaults to Europe/Rome.
+          schema: { type: string, example: Europe/Rome }
+      responses:
+        '200':
+          description: Today.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Day' }
+        '400': { description: Unknown language or timezone. }
+components:
+  parameters:
+    lang:
+      name: lang
+      in: path
+      required: true
+      description: Language of titles and texts.
+      schema: { type: string, enum: [it, en] }
+  schemas:
+    Day:
+      type: object
+      required: [day, lang, label, url, image, embed, patron, others, observances]
+      properties:
+        day: { type: string, example: '10-24' }
+        lang: { type: string, enum: [it, en] }
+        label: { type: string, example: 24 ottobre }
+        url: { type: string, format: uri, description: The day's page. }
+        image: { type: string, format: uri, description: 1200×630 JPEG share image. }
+        embed: { type: string, format: uri, description: Embeddable card, for an iframe. }
+        patron:
+          oneOf:
+            - $ref: '#/components/schemas/Saint'
+            - type: 'null'
+          description: Null on a vacant day.
+        others:
+          type: array
+          description: Other vulnerabilities disclosed on this day.
+          items: { $ref: '#/components/schemas/SaintRef' }
+        observances:
+          type: array
+          items: { $ref: '#/components/schemas/Observance' }
+    Saint:
+      type: object
+      properties:
+        id: { type: string, example: citrixbleed }
+        name: { type: string, example: Citrix Bleed }
+        title: { type: string, example: San Citrix Bleed, che perdeva i token di sessione }
+        category:
+          type: string
+          enum: [santo, beato, padre, minor]
+          description: santo = has a CVE; beato = named but no CVE; padre = pre-CVE classic; minor = curious CVE filling a vacant day.
+        disclosed: { type: string, format: date }
+        cves: { type: array, items: { type: string, example: CVE-2023-4966 } }
+        cvss: { type: [number, 'null'], description: Highest CVSS base score among its CVEs. }
+        kev: { type: boolean, description: In the CISA Known Exploited Vulnerabilities catalog. }
+        ransomware: { type: boolean, description: KEV marks known ransomware use. }
+        vendor: { type: [string, 'null'] }
+        product: { type: [string, 'null'] }
+        author: { type: [string, 'null'], description: Who found or named it. }
+        canonical: { type: [string, 'null'], format: uri, description: The original write-up. }
+        links: { type: array, items: { type: string, format: uri } }
+        papal: { type: string, description: The parody line "Canonized by Pope …". }
+        texts:
+          description: Parody texts (AI-generated). Null when the saint has none yet.
+          oneOf:
+            - type: 'null'
+            - type: object
+              properties:
+                patronage: { type: string }
+                hagiography: { type: string }
+                prayer: { type: string }
+                feast: { type: string }
+                proverb: { type: [string, 'null'] }
+        url: { type: string, format: uri }
+        image: { type: string, format: uri }
+    SaintRef:
+      type: object
+      properties:
+        id: { type: string }
+        name: { type: string }
+        title: { type: string }
+        cves: { type: array, items: { type: string } }
+        url: { type: string, format: uri }
+    Observance:
+      type: object
+      properties:
+        id: { type: string, example: wannacry-2017 }
+        type: { type: string, enum: [scourge, miracle] }
+        title: { type: string }
+        date: { type: string, format: date, description: Date of the original event. }
+        mourning: { type: boolean, description: An event with human victims; shown soberly. }
+        url: { type: string, format: uri }

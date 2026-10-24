@@ -1,0 +1,19 @@
+# Daily push notifications and the API's "today" endpoint (see push/worker.js and the README).
+# Deploy: npx wrangler deploy (from this folder). The VAPID private key is a secret: wrangler secret put VAPID_PRIVATE_JWK
+name = "frati-push"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+VAPID_PUBLIC = "BG_s_GVUfk6AD45yu5qRGFxMWDQj7S1m1hSftmBWB_rDk84k6fVrSaUMZrJOMeeKAmNf3F9e8vBWhCy175OMjI8"
+VAPID_SUBJECT = "https://fratipatchatori.it"
+SITE = "https://fratipatchatori.it"
+ALLOWED_ORIGINS = "https://fratipatchatori.it,http://localhost:4321,http://localhost:4322"
+
+[[kv_namespaces]]
+binding = "SUBS"
+id = "KV_ID"
+
+[triggers]
+# Every hour: each subscriber gets the push when it is 8 in the morning in their own timezone.
+crons = ["0 * * * *"]
