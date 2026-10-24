@@ -1,0 +1,78 @@
+# The Conclave (scripts/conclave.mjs): opens on 1 December, voting closes on the 21st, white smoke on the 31st.
+name: Conclave
+
+on:
+  schedule:
+    - cron: '0 9 1 12 *'    # open
+    - cron: '5 0 21 12 *'   # close the vote
+    - cron: '0 18 31 12 *'  # elect
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: open, close or elect
+        required: true
+        type: choice
+        options: [open, close, elect]
+
+permissions:
+  contents: write
+  discussions: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: conclave
+  cancel-in-progress: false
+
+jobs:
+  conclave:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pick the step
+        id: mode
+        run: |
+          if [ -n "${{ inputs.mode }}" ]; then mode="${{ inputs.mode }}"
+          else case "${{ github.event.schedule }}" in
+            '0 9 1 12 *') mode=open ;;
+            '5 0 21 12 *') mode=close ;;
+            *) mode=elect ;;
+          esac; fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+      - name: Run the Conclave
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/conclave.mjs ${{ steps.mode.outputs.mode }}
+      - name: Commit and deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/conclave.json data/popes.json
+          if git diff --cached --quiet; then exit 0; fi
+          if [ -f .conclave-result ]; then
+            IFS='|' read -r name id votes < .conclave-result
+            git commit -m "Habemus Papam: $name is the Pope of $(date -u +%Y)"
+          else
+            git commit -m "Conclave $(date -u +%Y): ${{ steps.mode.outputs.mode }}"
+          fi
+          git push
+          # Pushes made with GITHUB_TOKEN don't trigger other workflows: start the deploy explicitly.
+          gh workflow run deploy.yml --ref main
+      - name: Ask for the encyclical
+        if: steps.mode.outputs.mode == 'elect'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          IFS='|' read -r name id votes < .conclave-result
+          year=$(date -u +%Y)
+          gh issue create \
+            --title "Habemus Papam: $name, Papa del $year" \
+            --assignee danieleparazza \
+            --body "Il Conclave ha eletto **$name** ($id) con $votes voti. La pagina è online con il testo provvisorio: https://fratipatchatori.it/it/papa/$year/
+
+          Da fare: titolo ed enciclica in \`src/data/popes/$year.json\` (IT/EN), santino con tiara in \`data/santini/papa-$year.json\`, papa del decennio se è il 2029."

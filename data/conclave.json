@@ -1,0 +1,6 @@
+{
+  "$comment": "Conclave state, written by scripts/conclave.mjs: the year being elected, its GitHub Discussion, and status (open, closed, elected).",
+  "year": null,
+  "status": null,
+  "discussion": null
+}
