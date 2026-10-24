@@ -2,14 +2,14 @@
   "it": {
     "title": "San EVO Nano, che perse la bussola",
     "patronage": "dei droni da tasca, delle no-fly zone e di chi atterra dove capita.",
-    "hagiography": "Il 6 gennaio 2024 fu pubblicata la CVE-2023-50121: il firmware di volo 1.6.5 del piccolo drone Autel EVO Nano poteva essere mandato in negazione di servizio da un attaccante sulla stessa rete. L'unico riferimento del CVE è un repository che raccoglie segnalazioni di droni Autel che perdono il controllo al confine delle zone di divieto di volo: un santo che, come i Magi del giorno, seguiva una stella ma non sempre la trovava.",
+    "hagiography": "Il 6 gennaio 2024 fu pubblicata la CVE-2023-50121: il firmware di volo 1.6.5 del piccolo drone Autel EVO Nano poteva essere mandato in negazione di servizio. L'unico riferimento del CVE è un repository che raccoglie segnalazioni di droni Autel che perdono il controllo al confine delle zone di divieto di volo: un santo che, come i Magi del giorno, seguiva una stella ma non sempre la trovava.",
     "prayer": "O San EVO Nano, che voli leggero e cadi pesante, fa' che i nostri firmware conoscano i confini e non ci si schiantino contro. Amen.",
     "feast": "Si festeggia aggiornando il firmware del drone, se il produttore ne pubblica uno, e facendolo volare lontano dalle teste."
   },
   "en": {
     "title": "Saint EVO Nano, Who Lost His Compass",
     "patronage": "pocket drones, no-fly zones, and those who land wherever they happen to.",
-    "hagiography": "On 6 January 2024 CVE-2023-50121 was published: flight-control firmware 1.6.5 of the tiny Autel EVO Nano drone could be knocked into denial of service by an attacker on the same network. The CVE's only reference is a repository collecting reports of Autel drones losing control at the edge of no-fly zones: a saint who, like the Magi of the day, followed a star but did not always find it.",
+    "hagiography": "On 6 January 2024 CVE-2023-50121 was published: flight-control firmware 1.6.5 of the tiny Autel EVO Nano drone could be knocked into denial of service. The CVE's only reference is a repository collecting reports of Autel drones losing control at the edge of no-fly zones: a saint who, like the Magi of the day, followed a star but did not always find it.",
     "prayer": "O Saint EVO Nano, who flies light and falls heavy, let our firmware know its borders and not crash into them. Amen.",
     "feast": "Celebrated by updating the drone's firmware, if the vendor ever publishes one, and flying it well away from people's heads."
   }

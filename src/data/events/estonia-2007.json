@@ -2,14 +2,14 @@
   "it": {
     "title": "L'assedio di Tallinn",
     "chronicle": "Il 27 aprile 2007, mentre il governo estone spostava il memoriale del Soldato di bronzo dal centro di Tallinn, cominciò un'ondata di attacchi DDoS e defacement che durò settimane. Furono colpiti il parlamento, i ministeri, le banche, i provider e i giornali di uno dei paesi più digitalizzati d'Europa. Gran parte del traffico proveniva dalla Russia, ma nessuna responsabilità statale fu mai provata.",
-    "lesson": "È considerato il primo attacco informatico contro un'intera nazione: portò alla fondazione a Tallinn del centro d'eccellenza NATO per la difesa cibernetica (CCDCOE) e a ripensare la resilienza dei servizi pubblici.",
+    "lesson": "È considerato il primo attacco informatico contro un'intera nazione: accelerò la fondazione a Tallinn, nel 2008, del centro d'eccellenza NATO per la difesa cibernetica (CCDCOE) e a ripensare la resilienza dei servizi pubblici.",
     "prayer": "O Pikk Hermann, torre che hai visto ogni assedio, proteggi i server di chi vive in rete e manda un filtro a chi assedia senza mai firmarsi. Amen.",
     "remembrance": "Si ricorda con piani nazionali di risposta agli incidenti, accordi con i provider per filtrare il traffico e servizi pubblici progettati per reggere a un assedio."
   },
   "en": {
     "title": "The Siege of Tallinn",
     "chronicle": "On 27 April 2007, as the Estonian government moved the Bronze Soldier memorial out of central Tallinn, a wave of DDoS attacks and defacements began that lasted for weeks. It hit the parliament, ministries, banks, ISPs and newspapers of one of Europe's most digital countries. Most of the traffic came from Russia, but no state responsibility was ever proven.",
-    "lesson": "It is regarded as the first cyberattack on an entire nation: it led to the founding in Tallinn of NATO's Cooperative Cyber Defence Centre of Excellence (CCDCOE) and to a rethink of how resilient public services must be.",
+    "lesson": "It is regarded as the first cyberattack on an entire nation: it hastened the founding in Tallinn, in 2008, of NATO's Cooperative Cyber Defence Centre of Excellence (CCDCOE) and to a rethink of how resilient public services must be.",
     "prayer": "O Tall Hermann, tower that has seen every siege, shield the servers of a people who live online, and send a filter to those who besiege without ever signing their name. Amen.",
     "remembrance": "Remembered with national incident-response plans, agreements with ISPs to filter traffic and public services designed to withstand a siege."
   }

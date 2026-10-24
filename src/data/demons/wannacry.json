@@ -1,12 +1,12 @@
 {
   "it": {
     "title": "Il demone WannaCry, il verme che piangeva in Bitcoin",
-    "legend": "Il 12 maggio 2017 si diffuse da solo usando EternalBlue, l'exploit trafugato alla NSA, e in un giorno colpì oltre 200.000 computer in 150 paesi, compresi gli ospedali del servizio sanitario britannico. La sua corsa si fermò quando un ricercatore registrò un dominio che faceva da interruttore. Stati Uniti e Regno Unito lo attribuirono alla Corea del Nord.",
+    "legend": "Il 12 maggio 2017 si diffuse da solo usando EternalBlue, l'exploit attribuito alla NSA e diffuso dagli Shadow Brokers, e in pochi giorni colpì oltre 200.000 computer in 150 paesi, compresi gli ospedali del servizio sanitario britannico. La sua corsa si fermò quando un ricercatore registrò un dominio che faceva da interruttore. Stati Uniti e Regno Unito lo attribuirono alla Corea del Nord.",
     "exorcism": "Si esorcizza applicando le patch (MS17-010 era uscita due mesi prima) e disattivando SMBv1. La porta 445 non va mai esposta su Internet, e i backup offline salvano il resto."
   },
   "en": {
     "title": "The Demon WannaCry, the Worm That Wept in Bitcoin",
-    "legend": "On 12 May 2017 it spread by itself using EternalBlue, the exploit stolen from the NSA, and in a day hit over 200,000 computers in 150 countries, including the hospitals of the UK's health service. Its run stopped when a researcher registered a domain that acted as a kill switch. The US and UK attributed it to North Korea.",
+    "legend": "On 12 May 2017 it spread by itself using EternalBlue, the exploit attributed to the NSA and leaked by the Shadow Brokers, and within days hit over 200,000 computers in 150 countries, including the hospitals of the UK's health service. Its run stopped when a researcher registered a domain that acted as a kill switch. The US and UK attributed it to North Korea.",
     "exorcism": "Cast it out by patching (MS17-010 had been out for two months) and disabling SMBv1. Port 445 must never face the internet, and offline backups save the rest."
   }
 }

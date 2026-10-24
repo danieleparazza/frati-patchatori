@@ -1,0 +1,70 @@
+---
+// Opens any holy card (figure.santino) full screen when clicked; click or Esc closes it.
+// Included once by the layout.
+---
+
+<dialog class="lightbox" aria-label="Santino">
+  <div class="frame"></div>
+</dialog>
+
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('dialog.lightbox')!;
+  const frame = dialog.querySelector('.frame')!;
+  document.querySelectorAll<HTMLElement>('figure.santino').forEach((fig) => {
+    const svg = fig.querySelector('svg');
+    if (!svg) return;
+    svg.setAttribute('tabindex', '0');
+    svg.setAttribute('role', 'button');
+    svg.classList.add('zoomable');
+    const open = () => {
+      const copy = svg.cloneNode(true) as SVGElement;
+      copy.removeAttribute('tabindex');
+      copy.removeAttribute('role');
+      // Gradient ids must stay unique in the page: suffix them in the copy.
+      copy.querySelectorAll('[id]').forEach((el) => {
+        const id = el.id;
+        el.id = `${id}-zoom`;
+        copy.querySelectorAll('*').forEach((n) => {
+          for (const attr of ['fill', 'stroke', 'clip-path']) {
+            const v = n.getAttribute(attr);
+            if (v === `url(#${id})`) n.setAttribute(attr, `url(#${id}-zoom)`);
+          }
+        });
+      });
+      frame.replaceChildren(copy);
+      dialog.showModal();
+    };
+    svg.addEventListener('click', open);
+    svg.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        open();
+      }
+    });
+  });
+  dialog.addEventListener('click', () => dialog.close());
+</script>
+
+<style>
+  :global(svg.zoomable) {
+    cursor: zoom-in;
+  }
+  .lightbox {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    max-width: 100vw;
+    max-height: 100vh;
+    cursor: zoom-out;
+  }
+  .lightbox::backdrop {
+    background: rgb(20 14 10 / 0.85);
+  }
+  .frame :global(svg) {
+    display: block;
+    height: min(92vh, 150vw);
+    width: auto;
+    max-width: 96vw;
+    filter: drop-shadow(0 10px 30px rgb(0 0 0 / 0.5));
+  }
+</style>

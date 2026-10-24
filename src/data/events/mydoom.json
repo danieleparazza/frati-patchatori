@@ -1,14 +1,14 @@
 {
   "it": {
     "title": "Il flagello di MyDoom",
-    "chronicle": "Il 26 gennaio 2004 fu identificato MyDoom, un worm di posta che si presentava come una notifica di consegna fallita. Diventò il worm via email più rapido mai registrato: al suo picco circa un messaggio su dieci in circolazione era una sua copia. Apriva una backdoor sulle macchine infettate ed era programmato per lanciare un DDoS contro il sito del SCO Group. Il suo autore non è mai stato identificato.",
+    "chronicle": "Il 26 gennaio 2004 fu identificato MyDoom, un worm di posta che si presentava come una notifica di consegna fallita. Diventò il worm via email più rapido mai registrato: al suo picco, secondo MessageLabs, circa un messaggio su dodici era una sua copia. Apriva una backdoor sulle macchine infettate ed era programmato per lanciare un DDoS contro il sito del SCO Group. Il suo autore non è mai stato identificato.",
     "lesson": "Mostrò che i worm di massa non erano più bravate ma strumenti al servizio di qualcuno, con backdoor pronte a trasformare i PC in macchine da spam.",
     "prayer": "O MyDoom, che ti travestivi da errore di consegna, fa' che i nostri filtri riconoscano gli allegati vestiti da notifiche. Amen.",
     "remembrance": "Si ricorda filtrando gli allegati eseguibili alla porta della posta e non aprendo mai lo .zip di un \"Mail Delivery System\" sconosciuto."
   },
   "en": {
     "title": "The Scourge of MyDoom",
-    "chronicle": "On 26 January 2004 MyDoom was identified, a mass-mailing worm disguised as a failed-delivery notice. It became the fastest-spreading email worm on record: at its peak about one in ten messages in circulation was a copy of it. It opened a backdoor on infected machines and was programmed to launch a DDoS against the SCO Group's website. Its author has never been identified.",
+    "chronicle": "On 26 January 2004 MyDoom was identified, a mass-mailing worm disguised as a failed-delivery notice. It became the fastest-spreading email worm on record: at its peak, according to MessageLabs, about one in twelve messages was a copy of it. It opened a backdoor on infected machines and was programmed to launch a DDoS against the SCO Group's website. Its author has never been identified.",
     "lesson": "It showed that mass worms were no longer pranks but tools working for someone, with backdoors ready to turn PCs into spam machines.",
     "prayer": "O MyDoom, who dressed up as a bounce message, let our filters recognise attachments disguised as notifications. Amen.",
     "remembrance": "Remembered by filtering executable attachments at the mail gateway and never opening the .zip from an unknown \"Mail Delivery System\"."

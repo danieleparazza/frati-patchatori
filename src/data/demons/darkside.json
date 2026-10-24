@@ -1,12 +1,12 @@
 {
   "it": {
     "title": "Il demone DarkSide, che prosciugò un oleodotto",
-    "legend": "Comparso nell'agosto 2020 come ransomware in affitto, nel maggio 2021 colpì Colonial Pipeline, causando la chiusura dell'oleodotto e code ai distributori sulla costa orientale degli Stati Uniti. Il Dipartimento di Giustizia recuperò poi gran parte del riscatto. Poco dopo il gruppo annunciò la chiusura.",
+    "legend": "Comparso nell'agosto 2020 come ransomware in affitto, nel maggio 2021 colpì Colonial Pipeline, causando la chiusura dell'oleodotto e code ai distributori sulla costa orientale degli Stati Uniti. Il Dipartimento di Giustizia recuperò poi 63,7 dei 75 bitcoin del riscatto, circa 2,3 milioni di dollari. Poco dopo il gruppo annunciò la chiusura.",
     "exorcism": "Si esorcizza separando la rete IT da quella operativa e chiudendo gli accessi VPN dimenticati o senza MFA. Un piano di continuità che non dipenda dalla fatturazione online evita di fermare tutto per prudenza."
   },
   "en": {
     "title": "The Demon DarkSide, Who Drained a Pipeline",
-    "legend": "Appearing in August 2020 as ransomware for hire, in May 2021 it hit Colonial Pipeline, causing the pipeline to shut down and queues at petrol stations on the US East Coast. The Justice Department later recovered most of the ransom. Shortly afterwards the group announced it was shutting down.",
+    "legend": "Appearing in August 2020 as ransomware for hire, in May 2021 it hit Colonial Pipeline, causing the pipeline to shut down and queues at petrol stations on the US East Coast. The Justice Department later recovered 63.7 of the 75 bitcoin paid, about $2.3 million. Shortly afterwards the group announced it was shutting down.",
     "exorcism": "Cast it out by separating IT from operational networks and closing forgotten VPN accounts or those without MFA. A continuity plan that does not depend on online billing avoids stopping everything out of caution."
   }
 }

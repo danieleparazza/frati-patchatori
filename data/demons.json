@@ -536,7 +536,7 @@
     "Keep offline backups"
    ],
    "attackId": "S0366",
-   "summary": "A ransomware worm released on 12 May 2017 that spread automatically via the leaked NSA exploit EternalBlue, infecting over 200,000 computers in 150 countries including NHS hospitals. Spread was halted when a researcher registered its kill-switch domain. The US and UK attributed it to North Korea's Lazarus Group.",
+   "summary": "A ransomware worm released on 12 May 2017 that spread automatically via EternalBlue, the exploit attributed to the NSA and leaked by the Shadow Brokers, infecting over 200,000 computers in 150 countries including NHS hospitals. Spread was halted when a researcher registered its kill-switch domain. The US and UK attributed it to North Korea's Lazarus Group.",
    "sources": [
     "https://attack.mitre.org/software/S0366/",
     "https://attack.mitre.org/groups/G0032/",
@@ -608,7 +608,7 @@
     "Keep offline backups"
    ],
    "attackId": "S0496",
-   "summary": "A ransomware-as-a-service operation run by GOLD SOUTHFIELD that emerged in 2019 as the likely successor of GandCrab and pioneered double extortion at scale. Its July 2021 attack via Kaseya VSA hit up to 1,500 businesses. Affiliates were arrested in Romania and elsewhere in Europol's Operation GoldDust in November 2021, and Russia's FSB detained members in January 2022.",
+   "summary": "A ransomware-as-a-service operation run by GOLD SOUTHFIELD that emerged in 2019 as the likely successor of GandCrab and embraced double extortion at scale. Its July 2021 attack via Kaseya VSA hit up to 1,500 businesses. Affiliates were arrested in Romania and elsewhere in Europol's Operation GoldDust in November 2021, and Russia's FSB detained members in January 2022.",
    "sources": [
     "https://attack.mitre.org/software/S0496/",
     "https://attack.mitre.org/groups/G0115/",
@@ -791,7 +791,7 @@
     "Keep offline backups"
    ],
    "attackId": null,
-   "summary": "A ransomware-as-a-service operation first seen in August 2020. Its May 2021 attack on Colonial Pipeline caused fuel shortages on the US East Coast; the DOJ later recovered most of the ransom paid. DarkSide announced it was shutting down days later and is widely seen as having rebranded as BlackMatter.",
+   "summary": "A ransomware-as-a-service operation first seen in August 2020. Its May 2021 attack on Colonial Pipeline caused fuel shortages on the US East Coast; the DOJ later recovered 63.7 of the 75 bitcoin paid (about $2.3 million). DarkSide announced it was shutting down days later and is widely seen as having rebranded as BlackMatter.",
    "sources": [
     "https://www.justice.gov/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside",
     "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-131a"
@@ -828,7 +828,7 @@
     "Keep offline backups"
    ],
    "attackId": null,
-   "summary": "Ransomware-as-a-service first seen in June 2021 that heavily targeted hospitals and critical infrastructure, extorting over 1,500 victims. The FBI infiltrated its network in July 2022, passed decryption keys to victims, and with German and Dutch partners seized its servers in January 2023. It is believed to have rebranded as Hunters International.",
+   "summary": "Ransomware-as-a-service first seen in June 2021 that targeted hospitals, schools, financial firms and critical infrastructure, extorting over 1,500 victims. The FBI infiltrated its network in July 2022, passed decryption keys to victims, and with German and Dutch partners seized its servers in January 2023. It is believed to have rebranded as Hunters International.",
    "sources": [
     "https://www.justice.gov/opa/pr/us-department-justice-disrupts-hive-ransomware-variant",
     "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a"
@@ -1019,7 +1019,7 @@
     "Restrict Group Policy and domain admin rights"
    ],
    "attackId": "S0697",
-   "summary": "A wiper deployed against Ukrainian organisations on 23 February 2022, the eve of Russia's invasion. It abused a legitimately signed EaseUS partition driver to corrupt disks and was sometimes paired with a decoy ransomware and a worm component. The US and UK governments blamed Russia; some vendors and press linked it to Sandworm, while ESET found no tangible link to a known actor.",
+   "summary": "A wiper deployed against Ukrainian organisations on 23 February 2022, the eve of Russia's invasion. It abused a legitimately signed EaseUS partition driver to corrupt disks and was sometimes paired with a decoy ransomware and a worm component. Microsoft linked it with moderate confidence to IRIDIUM (Sandworm), which the US attributes to GRU Unit 74455; some vendors and press linked it to Sandworm, while ESET found no tangible link to a known actor.",
    "sources": [
     "https://attack.mitre.org/software/S0697/",
     "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-057a"
@@ -1438,7 +1438,7 @@
     "Block known C2 domains and monitor web injects"
    ],
    "attackId": null,
-   "summary": "A banking trojan kit first identified in 2007 that stole credentials through form grabbing and web injects, sold to many criminal crews. Its source code leaked in 2011, spawning descendants such as GameOver Zeus, Citadel and Zeus Panda. The 2010 Operation Trident Breach led to arrests of money-mule networks in the US, UK and Ukraine.",
+   "summary": "A banking trojan kit first identified in 2007 that stole credentials through form grabbing and web injects, sold to many criminal crews. Its source code leaked in 2011; descendants include GameOver Zeus (built by Bogachev's group), Citadel and Zeus Panda, Citadel and Zeus Panda. The 2010 Operation Trident Breach led to arrests of money-mule networks in the US, UK and Ukraine.",
    "sources": [
     "https://en.wikipedia.org/wiki/Zeus_(malware)",
     "https://www.fbi.gov/news/stories/cyber-banking-fraud"
@@ -1514,7 +1514,7 @@
     "Segment payment networks"
    ],
    "attackId": "S0030",
-   "summary": "Backdoor malware used from about 2013 by a criminal group to infiltrate bank networks, watch employees, and cash out via ATMs and fraudulent transfers, with losses estimated up to a billion euros. Kaspersky exposed the campaign in 2015. The suspected leader was arrested in Spain in March 2018 in a Europol-coordinated operation.",
+   "summary": "Backdoor malware used from about 2013 by a criminal group to infiltrate bank networks, record employees' screens, and cash out via ATMs and fraudulent transfers, with losses estimated up to a billion euros. Kaspersky exposed the campaign in 2015. The suspected leader was arrested in Spain in March 2018 in a Europol-coordinated operation.",
    "sources": [
     "https://attack.mitre.org/software/S0030/",
     "https://attack.mitre.org/groups/G0008/",

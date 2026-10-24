@@ -7,6 +7,7 @@ import ViewNav from '../../components/ViewNav.astro';
 import { DAYS, day, dayLabel, neighbours, saint, saintTitle } from '../../lib/calendar';
 import { LANGS, absolute, saintPath, t, url, type Lang } from '../../lib/i18n';
 import { vacantSantino } from '../../lib/santino';
+import { eventText, eventsOn } from '../../lib/extras';
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => DAYS.map((d) => ({ params: { lang, day: d } })));
@@ -20,6 +21,10 @@ const { prev, next } = neighbours(mmdd);
 const title = patron ? saintTitle(patron, lang) : s.vacant;
 const label = dayLabel(mmdd, lang);
 const image = `og/${lang}/${mmdd}.png`;
+const commemorations = eventsOn(mmdd).map((e) => ({
+  text: `${e.type === 'miracolo' ? '☀' : e.tone === 'lutto' ? '✝' : '⚔'} ${s.commemorated}: ${eventText(e, lang)?.title ?? e.name} (${e.date.slice(0, 4)})`,
+  href: '#commemorations',
+}));
 ---
 
 <Base
@@ -46,7 +51,10 @@ const image = `og/${lang}/${mmdd}.png`;
         shareText={`${label} · ${title}`}
         image={url(image)}
         imageName={`${mmdd}-${patron.id}.png`}
-      />
+        notes={commemorations}
+      >
+        <Commemorations slot="after-tech" lang={lang} mmdd={mmdd} />
+      </SaintProfile>
     ) : (
       <article class="card vacant">
         <div class="vacant-card" set:html={vacantSantino(s.vacant)} />
@@ -56,7 +64,7 @@ const image = `og/${lang}/${mmdd}.png`;
     )
   }
 
-  <Commemorations lang={lang} mmdd={mmdd} />
+  {!patron && <Commemorations lang={lang} mmdd={mmdd} />}
 
   {
     others.length > 0 && (

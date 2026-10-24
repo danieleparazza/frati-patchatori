@@ -2,7 +2,7 @@
   "it": {
     "title": "Beato GreenSection, che condivise troppa memoria",
     "patronage": "dei driver grafici, delle sezioni di memoria condivise e degli zero-day pubblicati senza avviso.",
-    "hagiography": "Nel settembre 2026 un ricercatore che si firma Nightmare Eclipse pubblicò GreenSection, uno zero-day nei componenti grafici di NVIDIA per Windows. Diverse librerie in modalità utente condividevano una stessa sezione di memoria leggibile e scrivibile da chiunque, e quei dati venivano riusati a runtime causando una scrittura fuori dai limiti. L'autore stesso disse che non dava subito privilegi di sistema, ma poteva servire per passare da un utente all'altro; altri osservarono soprattutto crash.",
+    "hagiography": "Alla fine di agosto 2026 un ricercatore che si firma Nightmare Eclipse pubblicò GreenSection, uno zero-day nei componenti grafici di NVIDIA per Windows. Diverse librerie in modalità utente condividevano una stessa sezione di memoria leggibile e scrivibile da chiunque, e quei dati venivano riusati a runtime causando una scrittura fuori dai limiti. L'autore stesso disse che non dava subito privilegi di sistema, ma poteva servire per passare da un utente all'altro; altri osservarono soprattutto crash.",
     "prayer": "O Beato GreenSection, che lasci aperta a tutti la stessa stanza di memoria, fa' che i nostri driver non si fidino mai dei dati condivisi. Amen.",
     "feast": "Si festeggia aggiornando i driver NVIDIA non appena esce la correzione e limitando i processi non fidati.",
     "proverb": "Stanza condivisa, segreti di nessuno."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Blessed GreenSection, Who Shared Too Much Memory",
     "patronage": "graphics drivers, shared memory sections, and zero-days published without warning.",
-    "hagiography": "In September 2026 a researcher signing as Nightmare Eclipse published GreenSection, a zero-day in NVIDIA's Windows graphics components. Several user-mode libraries shared a single memory section readable and writable by anyone, and that data was reused at runtime, causing an out-of-bounds write. The author said it did not immediately grant system privileges but could help cross from one user to another; others mostly observed crashes.",
+    "hagiography": "At the end of August 2026 a researcher signing as Nightmare Eclipse published GreenSection, a zero-day in NVIDIA's Windows graphics components. Several user-mode libraries shared a single memory section readable and writable by anyone, and that data was reused at runtime, causing an out-of-bounds write. The author said it did not immediately grant system privileges but could help cross from one user to another; others mostly observed crashes.",
     "prayer": "O Blessed GreenSection, who leaves the same memory room open to all, let our drivers never trust shared data. Amen.",
     "feast": "Celebrated by updating NVIDIA drivers as soon as the fix ships and constraining untrusted processes.",
     "proverb": "A shared room, nobody's secrets."

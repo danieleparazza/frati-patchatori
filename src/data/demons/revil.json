@@ -1,12 +1,12 @@
 {
   "it": {
     "title": "Il demone REvil, il ricattatore in franchising",
-    "legend": "Nato nel 2019 come probabile erede di GandCrab, offriva il suo ransomware in affitto agli affiliati e rese di massa la doppia estorsione: cifrare e minacciare di pubblicare. Nel luglio 2021, attraverso Kaseya VSA, colpì fino a 1.500 aziende in un colpo solo. Fu esorcizzato a fine 2021 con l'Operazione GoldDust, che portò ad arresti di affiliati.",
+    "legend": "Nato nel 2019 come probabile erede di GandCrab, offriva il suo ransomware in affitto agli affiliati e adottò in grande la doppia estorsione: cifrare e minacciare di pubblicare. Nel luglio 2021, attraverso Kaseya VSA, colpì fino a 1.500 aziende in un colpo solo. Fu colpito a fine 2021 dall'Operazione GoldDust, che portò ad arresti di affiliati.",
     "exorcism": "Si esorcizza controllando la catena di fornitura: gli strumenti di gestione remota dei fornitori sono porte di casa. Si aggiornano subito i prodotti esposti e si tengono backup che un attaccante non possa cancellare."
   },
   "en": {
     "title": "The Demon REvil, the Franchised Blackmailer",
-    "legend": "Born in 2019 as the likely heir of GandCrab, it rented its ransomware to affiliates and made double extortion mainstream: encrypt, then threaten to publish. In July 2021, through Kaseya VSA, it hit up to 1,500 businesses in one go. It was exorcised in late 2021 by Operation GoldDust, which led to affiliate arrests.",
+    "legend": "Born in 2019 as the likely heir of GandCrab, it rented its ransomware to affiliates and embraced double extortion at scale: encrypt, then threaten to publish. In July 2021, through Kaseya VSA, it hit up to 1,500 businesses in one go. It was hit in late 2021 by Operation GoldDust, which led to affiliate arrests.",
     "exorcism": "Cast it out by watching the supply chain: vendors' remote-management tools are front doors. Patch exposed products fast and keep backups an attacker cannot delete."
   }
 }

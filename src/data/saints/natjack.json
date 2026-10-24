@@ -2,7 +2,7 @@
   "it": {
     "title": "San NatJack, dirottatore delle tabelle NAT",
     "patronage": "dei router di casa, delle reti condivise in cloud e di chi credeva che il NAT fosse un firewall.",
-    "hagiography": "Il 6 agosto 2026 Malcolm Stagg presentò a Black Hat una famiglia di attacchi contro le tabelle di traduzione degli indirizzi, quelle che router, hotspot, macchine virtuali e gateway cloud usano per condividere un solo IP. Chi stava dietro lo stesso NAT poteva dirottare le connessioni TCP degli altri, falsificarne le risposte DNS o riempire la tabella fino a bloccare tutti. Quasi ogni implementazione provata risultò vulnerabile almeno in parte.",
+    "hagiography": "Il 6 agosto 2026 Malcolm Stagg presentò a Black Hat una famiglia di attacchi contro le tabelle di traduzione degli indirizzi, quelle che router, hotspot, macchine virtuali e gateway cloud usano per condividere un solo IP. Chi stava dietro lo stesso NAT poteva dirottare le connessioni TCP degli altri, falsificarne le risposte DNS o riempire la tabella fino a bloccare tutti. Ogni implementazione provata risultò vulnerabile ad almeno una delle tecniche.",
     "prayer": "O San NatJack, che nuoti tra le porte effimere del vicino, fa' che il nostro traffico sia cifrato anche quando il router dice di proteggerci. Amen.",
     "feast": "Si festeggia aggiornando Windows, Hyper-V e il kernel Linux, usando TLS e DNS cifrato ovunque e tenendo gli ospiti in una sottorete tutta loro.",
     "proverb": "Stesso NAT, stesso destino."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint NatJack, Hijacker of NAT Tables",
     "patronage": "home routers, shared cloud networks, and everyone who thought NAT was a firewall.",
-    "hagiography": "On 6 August 2026 Malcolm Stagg presented at Black Hat a family of attacks on address translation tables, the ones routers, hotspots, virtual machines and cloud gateways use to share a single IP. Anyone behind the same NAT could hijack other users' TCP connections, spoof their DNS replies or fill the table until nobody could connect. Nearly every implementation tested turned out to be at least partly vulnerable.",
+    "hagiography": "On 6 August 2026 Malcolm Stagg presented at Black Hat a family of attacks on address translation tables, the ones routers, hotspots, virtual machines and cloud gateways use to share a single IP. Anyone behind the same NAT could hijack other users' TCP connections, spoof their DNS replies or fill the table until nobody could connect. Every implementation tested turned out to be vulnerable to at least one of the techniques.",
     "prayer": "O Saint NatJack, who swims among the neighbour's ephemeral ports, keep our traffic encrypted even when the router claims to protect us. Amen.",
     "feast": "Celebrated by updating Windows, Hyper-V and the Linux kernel, using TLS and encrypted DNS everywhere, and giving guests a subnet of their own.",
     "proverb": "Same NAT, same fate."

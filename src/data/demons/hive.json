@@ -1,12 +1,12 @@
 {
   "it": {
     "title": "Il demone Hive, regina di un alveare infiltrato",
-    "legend": "Comparso nel giugno 2021, prese di mira soprattutto ospedali e infrastrutture critiche, estorcendo oltre 1.500 vittime. Dal luglio 2022 l'FBI era dentro la sua rete e passava di nascosto le chiavi di decifrazione alle vittime. Nel gennaio 2023, con la Germania e i Paesi Bassi, ne sequestrò i server.",
+    "legend": "Comparso nel giugno 2021, prese di mira anche ospedali, scuole e infrastrutture critiche, estorcendo oltre 1.500 vittime. Dal luglio 2022 l'FBI era dentro la sua rete e passava di nascosto le chiavi di decifrazione alle vittime. Nel gennaio 2023, con la Germania e i Paesi Bassi, ne sequestrò i server.",
     "exorcism": "Si esorcizza aggiornando VPN e firewall esposti e proteggendo l'RDP. In caso di attacco conviene rivolgersi alle forze dell'ordine: a volte, come qui, hanno già le chiavi."
   },
   "en": {
     "title": "The Demon Hive, Queen of an Infiltrated Hive",
-    "legend": "Appearing in June 2021, it mainly targeted hospitals and critical infrastructure, extorting more than 1,500 victims. From July 2022 the FBI was inside its network, quietly passing decryption keys to victims. In January 2023, with Germany and the Netherlands, it seized its servers.",
+    "legend": "Appearing in June 2021, it targeted hospitals, schools and critical infrastructure among others, extorting more than 1,500 victims. From July 2022 the FBI was inside its network, quietly passing decryption keys to victims. In January 2023, with Germany and the Netherlands, it seized its servers.",
     "exorcism": "Cast it out by patching exposed VPNs and firewalls and protecting RDP. If hit, talk to law enforcement: sometimes, as here, they already have the keys."
   }
 }

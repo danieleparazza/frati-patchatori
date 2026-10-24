@@ -2,7 +2,7 @@
   "it": {
     "title": "San MSC EvilTwin, dal gemello malvagio",
     "patronage": "delle console di gestione, dei file che sembrano innocui e dei doppi che fingono di essere te.",
-    "hagiography": "Il 25 marzo 2025 Microsoft corresse la CVE-2025-26633, raccontata da Trend Micro e attribuita al gruppo Water Gamayun. Il difetto stava nel modo in cui la Microsoft Management Console trattava i file .msc: con un gemello malevolo piazzato nel posto giusto, si aggirava un controllo di sicurezza e si eseguiva codice. Era già usata in attacchi reali, e finì nel catalogo CISA delle vulnerabilità sfruttate.",
+    "hagiography": "L'11 marzo 2025 Microsoft corresse la CVE-2025-26633, raccontata poi da Trend Micro e attribuita al gruppo Water Gamayun. Il difetto stava nel modo in cui la Microsoft Management Console trattava i file .msc: con un gemello malevolo piazzato nel posto giusto, si aggirava un controllo di sicurezza e si eseguiva codice. Era già usata in attacchi reali, e finì nel catalogo CISA delle vulnerabilità sfruttate.",
     "prayer": "O San MSC EvilTwin, che metti un gemello cattivo al posto del buono, insegna ai nostri strumenti a riconoscere il vero file. Amen.",
     "feast": "Si festeggia installando gli aggiornamenti di marzo 2025 e diffidando dei file .msc che arrivano da fuori.",
     "proverb": "Dove c'è un gemello buono, qualcuno ne piazza uno cattivo."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint MSC EvilTwin, of the Evil Twin",
     "patronage": "management consoles, files that look harmless, and doubles that pretend to be you.",
-    "hagiography": "On 25 March 2025 Microsoft fixed CVE-2025-26633, described by Trend Micro and attributed to the Water Gamayun group. The flaw was in how the Microsoft Management Console handled .msc files: with a malicious twin placed in the right spot, a security check was bypassed and code ran. It was already used in real attacks, and ended up in CISA's catalogue of exploited vulnerabilities.",
+    "hagiography": "On 11 March 2025 Microsoft fixed CVE-2025-26633, later described by Trend Micro and attributed to the Water Gamayun group. The flaw was in how the Microsoft Management Console handled .msc files: with a malicious twin placed in the right spot, a security check was bypassed and code ran. It was already used in real attacks, and ended up in CISA's catalogue of exploited vulnerabilities.",
     "prayer": "O Saint MSC EvilTwin, who puts an evil twin in the good one's place, teach our tools to recognise the real file. Amen.",
     "feast": "Celebrated by installing the March 2025 updates and distrusting .msc files that arrive from outside.",
     "proverb": "Where there's a good twin, someone plants an evil one."

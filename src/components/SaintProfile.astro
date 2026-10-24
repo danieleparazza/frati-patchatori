@@ -20,9 +20,11 @@ interface Props {
   headingLevel?: 'h1' | 'h2';
   /** Passed to RelatedSaints: list the other saints of the same day. */
   showSameDay?: boolean;
+  /** Short notes shown under the card (e.g. today's commemorations), each with an optional link. */
+  notes?: { text: string; href?: string }[];
 }
 
-const { vuln, lang, shareUrl, shareText, image, imageName, headingLevel = 'h2', showSameDay = false } = Astro.props;
+const { vuln, lang, shareUrl, shareText, image, imageName, headingLevel = 'h2', showSameDay = false, notes = [] } = Astro.props;
 const s = t(lang);
 const text = saint(vuln.id)?.[lang];
 const title = saintTitle(vuln, lang);
@@ -55,6 +57,17 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
         <a class="download" href={image} download={imageName}>
           ⬇ {s.download}
         </a>
+      )
+    }
+    {
+      notes.map((n) =>
+        n.href ? (
+          <a class="card-note" href={n.href}>
+            {n.text}
+          </a>
+        ) : (
+          <span class="card-note">{n.text}</span>
+        ),
       )
     }
   </div>
@@ -137,6 +150,7 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
   }
 </section>
 
+<slot name="after-tech" />
 <SaintLinks vuln={vuln} lang={lang} />
 <RelatedSaints vuln={vuln} lang={lang} showSameDay={showSameDay} />
 
@@ -168,6 +182,14 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
     border-radius: 6px;
     padding: 4px 12px;
     background: var(--paper);
+  }
+  .card-note {
+    font-size: 0.85rem;
+    text-align: center;
+    color: var(--red);
+    font-variant: small-caps;
+    text-decoration: none;
+    line-height: 1.3;
   }
   .body {
     min-width: 0;
