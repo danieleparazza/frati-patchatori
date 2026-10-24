@@ -9,7 +9,7 @@ const oldVulns = new Map(load(oldVulnsPath).map((v) => [v.id, v]));
 const oldDays = load(oldDaysPath);
 const vulns = load('src/data/vulns.json');
 const days = load('src/data/days.json');
-const site = 'https://danieleparazza.github.io/frati-patchatori';
+const site = 'https://fratipatchatori.it';
 
 const added = vulns.filter((v) => !oldVulns.has(v.id));
 const redated = vulns.filter((v) => oldVulns.has(v.id) && oldVulns.get(v.id).date !== v.date);
