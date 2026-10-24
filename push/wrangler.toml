@@ -1,5 +1,5 @@
 # Daily push notifications and the API's "today" endpoint (see push/worker.js and the README).
-# Deploy: npx wrangler deploy (from this folder). The VAPID private key is a secret: wrangler secret put VAPID_PRIVATE_JWK
+# Deploy: npx wrangler deploy (from this folder). Secrets: wrangler secret put VAPID_PRIVATE_JWK, wrangler secret put BATCH_KEY
 name = "frati-push"
 main = "worker.js"
 compatibility_date = "2026-10-01"
@@ -13,6 +13,11 @@ ALLOWED_ORIGINS = "https://fratipatchatori.it,http://localhost:4321,http://local
 [[kv_namespaces]]
 binding = "SUBS"
 id = "KV_ID"
+
+# The Worker calls itself (/batch) through a service binding: workers.dev doesn't allow fetching its own URL.
+[[services]]
+binding = "SELF"
+service = "frati-push"
 
 [triggers]
 # Every hour: each subscriber gets the push when it is 8 in the morning in their own timezone.
