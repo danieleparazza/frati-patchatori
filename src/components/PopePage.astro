@@ -16,6 +16,7 @@ interface Props {
 
 const { lang, pope: p } = Astro.props;
 const s = t(lang);
+const image = `og/${lang}/p/${p.key}.png`;
 const other: Lang = lang === 'it' ? 'en' : 'it';
 const text = popeText(p.key, lang);
 const title = text?.title ?? `${p.kind === 'anti' ? s.antipope : s.pope} ${p.vuln.name}`;
@@ -23,10 +24,10 @@ const { svg, generated } = card(popeCardKey(p.key), p.vuln.name, 'papa', p.kind 
 const kicker = p.kind === 'year' ? s.popeOf(p.key) : p.kind === 'decade' ? s.popeOfDecade(p.label) : s.antipope;
 ---
 
-<Base lang={lang} title={title} description={p.why ?? undefined} alt={`${other}/${t(other).popeSlug}/${p.key}`}>
+<Base lang={lang} title={title} image={image} description={p.why ?? undefined} alt={`${other}/${t(other).popeSlug}/${p.key}`}>
   <p class="back"><a href={url(`${lang}/${s.popesSlug}`)}>← {s.chronotaxis}</a></p>
   <EntryLayout>
-    <Card slot="card" svg={svg}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    <Card slot="card" svg={svg} download={url(image)} downloadName={`${p.key}.png`} downloadLabel={s.download}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
     <p class="kicker">{kicker}</p>
     <h1>{title}</h1>
     {

@@ -17,7 +17,7 @@ const other: Lang = lang === 'it' ? 'en' : 'it';
 const title = saintTitle(vuln, lang);
 const label = dayLabel(vuln.day, lang);
 const isPatron = day(vuln.day).patron?.id === vuln.id;
-const image = isPatron ? `og/${lang}/${vuln.day}.png` : undefined;
+const image = `og/${lang}/s/${vuln.id}.png`;
 ---
 
 <Base
@@ -36,7 +36,7 @@ const image = isPatron ? `og/${lang}/${vuln.day}.png` : undefined;
     lang={lang}
     shareUrl={absolute(saintPath(lang, vuln.id))}
     shareText={`${title} · ${label}`}
-    image={image && url(image)}
+    image={url(image)}
     imageName={`${vuln.day}-${vuln.id}.png`}
     headingLevel="h1"
     showSameDay

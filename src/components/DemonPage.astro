@@ -16,6 +16,7 @@ interface Props {
 
 const { lang, demon: d } = Astro.props;
 const s = t(lang);
+const image = `og/${lang}/d/${d.id}.png`;
 const other: Lang = lang === 'it' ? 'en' : 'it';
 const text = demonText(d, lang);
 const { svg, generated } = card(demonCardKey(d), d.name, 'demone', String(d.firstSeen.year));
@@ -26,9 +27,9 @@ const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
 const ex = d.exorcism;
 ---
 
-<Base lang={lang} title={title} description={d.summary} alt={`${other}/${t(other).demonSlug}/${d.id}`}>
+<Base lang={lang} title={title} image={image} description={d.summary} alt={`${other}/${t(other).demonSlug}/${d.id}`}>
   <EntryLayout>
-    <Card slot="card" svg={svg}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    <Card slot="card" svg={svg} download={url(image)} downloadName={`${d.id}.png`} downloadLabel={s.download}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
     <p class="kicker"><a href={url(`${lang}/${s.bestiarySlug}#${d.primary}`)}>{s.circles[d.primary]}</a></p>
     <h1>{title}</h1>
     {

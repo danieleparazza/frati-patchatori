@@ -12,7 +12,7 @@ const { svg, download, downloadName, downloadLabel } = Astro.props;
 ---
 
 <div class="cardcol">
-  <figure class="santino">
+  <figure class="santino" data-full={download}>
     <Fragment set:html={svg} />
     <figcaption><slot /></figcaption>
   </figure>

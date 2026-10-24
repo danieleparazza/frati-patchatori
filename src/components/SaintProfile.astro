@@ -37,7 +37,7 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
 
 <article class="saint">
   <div class="cardcol">
-    <Santino vuln={vuln}>
+    <Santino vuln={vuln} full={image}>
       {
         logo ? (
           <>

@@ -17,6 +17,15 @@
     svg.setAttribute('role', 'button');
     svg.classList.add('zoomable');
     const open = () => {
+      // Prefer the complete holy card (share image with title and patronage) when the page has one.
+      if (fig.dataset.full) {
+        const img = document.createElement('img');
+        img.src = fig.dataset.full;
+        img.alt = svg.getAttribute('aria-label') ?? '';
+        frame.replaceChildren(img);
+        dialog.showModal();
+        return;
+      }
       const copy = svg.cloneNode(true) as SVGElement;
       copy.removeAttribute('tabindex');
       copy.removeAttribute('role');
@@ -59,6 +68,15 @@
   }
   .lightbox::backdrop {
     background: rgb(20 14 10 / 0.85);
+  }
+  .frame :global(img) {
+    display: block;
+    width: min(96vw, 1200px);
+    height: auto;
+    max-height: 92vh;
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 0.5);
   }
   .frame :global(svg) {
     display: block;

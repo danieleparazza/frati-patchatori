@@ -5,12 +5,15 @@ import { santino } from '../lib/santino';
 
 interface Props {
   vuln: Vuln;
+  /** Complete holy card (share image) shown full screen on click. */
+  full?: string;
 }
 
 const { svg } = santino(Astro.props.vuln);
+const { full } = Astro.props;
 ---
 
-<figure class="santino">
+<figure class="santino" data-full={full}>
   <Fragment set:html={svg} />
   <figcaption><slot /></figcaption>
 </figure>
