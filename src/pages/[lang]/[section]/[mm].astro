@@ -50,11 +50,25 @@ const webcal = ics.replace(/^https:/, 'webcal:');
   </div>
   <section class="subscribe">
     <span>{s.subscribe}:</span>
-    <a href={`https://calendar.google.com/calendar/r?cid=${encodeURIComponent(webcal)}`} target="_blank" rel="noopener noreferrer">{s.subscribeGoogle}</a>
+    <!-- Google expects the feed URL unencoded in cid. -->
+    <a href={`https://calendar.google.com/calendar/render?cid=${webcal}`} target="_blank" rel="noopener noreferrer">{s.subscribeGoogle}</a>
     <a href={webcal}>{s.subscribeIcs}</a>
+    <button type="button" class="copy-ics" data-url={ics} data-done={s.copied}>{s.copyIcs}</button>
   </section>
+  <p class="subscribe-note">{s.subscribeNote}</p>
   <p class="hint">{s.keyboardHint}</p>
   <script is:inline>
+    document.querySelector('.copy-ics').addEventListener('click', async (e) => {
+      const b = e.currentTarget;
+      try {
+        await navigator.clipboard.writeText(b.dataset.url);
+        const label = b.textContent;
+        b.textContent = b.dataset.done;
+        setTimeout(() => (b.textContent = label), 1800);
+      } catch {
+        prompt('', b.dataset.url);
+      }
+    });
     (() => {
       const cal = document.querySelector('.cal');
       const month = Number(cal.dataset.month);
@@ -187,6 +201,23 @@ const webcal = ics.replace(/^https:/, 'webcal:');
   .subscribe span {
     font-variant: small-caps;
     color: var(--gold);
+  }
+  .copy-ics {
+    font: inherit;
+    font-size: 0.9rem;
+    color: var(--red);
+    background: none;
+    border: 0;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .subscribe-note {
+    margin: 6px auto 0;
+    max-width: 60ch;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
   }
   .hint {
     margin-top: 16px;
