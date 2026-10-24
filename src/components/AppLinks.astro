@@ -15,7 +15,7 @@ const s = t(lang);
 
 <section class="applinks" data-lang={lang} data-push={PUSH_URL} data-key={VAPID_PUBLIC}>
   <button type="button" class="app-install" hidden>📲 {s.appInstall}</button>
-  <button type="button" class="push-toggle" hidden data-on={`🔔 ${s.pushOn}`} data-off={`🔕 ${s.pushOff}`}></button>
+  <button type="button" class="push-toggle" hidden data-on={`🔔 ${s.pushOn}`} data-off={`🔕 ${s.pushOff}`}>🔔 {s.pushOn}</button>
   <button type="button" class="push-test" hidden>{s.pushTest}</button>
   <p class="app-note" hidden data-ios-install={s.appInstallIos} data-ios-push={s.pushIos} data-denied={s.pushDenied} data-error={s.pushError}></p>
 </section>
@@ -116,7 +116,8 @@ const s = t(lang);
     gap: 8px 14px;
     max-width: 880px;
     margin: 0 auto;
-    padding: 0 16px 12px;
+    padding: 14px 16px 8px;
+    border-top: 1px solid var(--line);
     font-size: 0.9rem;
   }
   .applinks button {

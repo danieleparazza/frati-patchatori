@@ -25,6 +25,8 @@ interface Props {
 }
 
 const { vuln, lang, shareUrl, shareText, back, headingLevel = 'h2', showSameDay = false, notes = [] } = Astro.props;
+// Section headings sit one level below the title.
+const Sub = headingLevel === 'h1' ? 'h2' : 'h3';
 const s = t(lang);
 const text = saint(vuln.id)?.[lang];
 const title = saintTitle(vuln, lang);
@@ -74,11 +76,11 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
           <p class="patronage">
             <em>{s.patronage}</em> {text.patronage}
           </p>
-          <h3>{s.hagiography}</h3>
+          <Sub>{s.hagiography}</Sub>
           <p>{text.hagiography}</p>
-          <h3>{s.prayer}</h3>
+          <Sub>{s.prayer}</Sub>
           <p class="prayer">{text.prayer}</p>
-          <h3>{s.feast}</h3>
+          <Sub>{s.feast}</Sub>
           <p>{text.feast}</p>
           {text.proverb && <blockquote class="proverb">{text.proverb}</blockquote>}
         </>
@@ -90,7 +92,7 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
 </article>
 
 <section class="card tech">
-  <h3>{s.technical}</h3>
+  <Sub>{s.technical}</Sub>
   <dl>
     <dt>{s.disclosed}</dt>
     <dd>{formatDate(vuln.date, lang)}</dd>
@@ -194,7 +196,7 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
     font-size: 1.8rem;
     line-height: 1.2;
   }
-  .body h3 {
+  .body :is(h2, h3) {
     margin: 16px 0 4px;
     font-variant: small-caps;
     color: var(--gold);
@@ -219,8 +221,9 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
   .tech {
     margin-top: 32px;
   }
-  .tech h3 {
+  .tech :is(h2, h3) {
     margin: 0 0 8px;
+    font-size: 1.15rem;
     font-variant: small-caps;
     color: var(--gold);
   }

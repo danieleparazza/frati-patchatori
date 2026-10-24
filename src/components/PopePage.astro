@@ -36,7 +36,7 @@ const kicker = p.kind === 'year' ? s.popeOf(p.key) : p.kind === 'decade' ? s.pop
     {
       text ? (
         <>
-          <h3>{s.encyclical}</h3>
+          <h2>{s.encyclical}</h2>
           <p>{text.encyclical}</p>
         </>
       ) : (
@@ -52,7 +52,7 @@ const kicker = p.kind === 'year' ? s.popeOf(p.key) : p.kind === 'decade' ? s.pop
     {
       p.cardinals.length > 0 && (
         <>
-          <h3>{s.cardinals}</h3>
+          <h2>{s.cardinals}</h2>
           <p>
             {p.cardinals.map((c, i) => (
               <>

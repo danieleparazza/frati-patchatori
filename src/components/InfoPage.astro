@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { t, type Lang } from '../lib/i18n';
+import { t, url, type Lang } from '../lib/i18n';
 
 interface Props {
   lang: Lang;
@@ -38,6 +38,19 @@ const other: Lang = lang === 'it' ? 'en' : 'it';
             <strong>Sono invece dati reali</strong>: nomi delle vulnerabilità, date di divulgazione, identificativi CVE,
             punteggi CVSS, prodotti, presenza nel catalogo CISA KEV e link alle fonti.
           </p>
+          <h2>App, notifiche e riuso</h2>
+          <ul>
+            <li><strong>App</strong>: il sito si installa come app ("Installa l'app" in fondo alla pagina; su iPhone da Condividi → Aggiungi alla schermata Home) e tiene offline i prossimi sette giorni.</li>
+            <li>
+              <strong>Notifiche</strong>: ogni mattina alle 8 il santo del giorno. Per inviarle conserviamo solo l'indirizzo
+              anonimo che il browser assegna alle notifiche, la lingua e il fuso orario: niente email, nomi o dati di
+              navigazione. Disattivandole l'iscrizione viene cancellata.
+            </li>
+            <li><strong>Calendari</strong>: santi e ricorrenze come feed iCal, per Google, Apple e Outlook.</li>
+            <li><strong>Embed</strong>: il pulsante <code>&lt;/&gt;</code> tra quelli di condivisione dà il codice per mettere un santo, o sempre il santo del giorno, nel proprio sito.</li>
+            <li><strong>API</strong>: dati di ogni giorno in JSON, gratuiti e senza chiave. <a href={url('api/')}>Documentazione</a>.</li>
+            <li><strong>Conclave</strong>: a dicembre la community elegge il Papa dell'anno su <a href="https://github.com/danieleparazza/frati-patchatori/discussions">GitHub Discussions</a>.</li>
+          </ul>
           <h2>Fonti e licenze</h2>
           <ul>
             <li>
@@ -80,6 +93,19 @@ const other: Lang = lang === 'it' ? 'en' : 'it';
             <strong>Real data</strong>: vulnerability names, disclosure dates, CVE IDs, CVSS scores, products, CISA KEV
             status and source links.
           </p>
+          <h2>App, notifications and reuse</h2>
+          <ul>
+            <li><strong>App</strong>: the site installs as an app ("Install the app" at the bottom of the page; on iPhone via Share → Add to Home Screen) and keeps the next seven days offline.</li>
+            <li>
+              <strong>Notifications</strong>: the day's saint at 8 every morning. To send them we keep only the anonymous
+              address your browser assigns for notifications, your language and your timezone: no email, names or browsing
+              data. Turning them off deletes the subscription.
+            </li>
+            <li><strong>Calendars</strong>: saints and observances as iCal feeds, for Google, Apple and Outlook.</li>
+            <li><strong>Embed</strong>: the <code>&lt;/&gt;</code> button among the share buttons gives the code to put a saint, or always today's saint, on your own site.</li>
+            <li><strong>API</strong>: every day's data as JSON, free and keyless. <a href={url('api/')}>Documentation</a>.</li>
+            <li><strong>Conclave</strong>: in December the community elects the Pope of the year on <a href="https://github.com/danieleparazza/frati-patchatori/discussions">GitHub Discussions</a>.</li>
+          </ul>
           <h2>Sources and licenses</h2>
           <ul>
             <li>

@@ -22,13 +22,15 @@ const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
 const desc = description ?? s.siteBlurb;
 const other: Lang = lang === 'it' ? 'en' : 'it';
 // Menu entry for this page: Popes and demons belong to their lists, everything else to the calendar.
-const first = Astro.url.pathname.split('/').filter(Boolean)[1] ?? '';
+const [langSeg, first = ''] = Astro.url.pathname.split('/').filter(Boolean);
+const calendarPages = [s.weekSlug, s.monthSlug, s.saintSlug, s.scourgeSlug, s.miracleSlug, ''];
 const section =
   first === s.searchSlug ? 'search'
   : first === s.popesSlug || first === s.popeSlug ? 'popes'
   : first === s.bestiarySlug || first === s.demonSlug ? 'bestiary'
   : first === s.infoSlug ? 'info'
-  : 'calendar';
+  : langSeg === lang && (/^\d\d-\d\d$/.test(first) || calendarPages.includes(first)) ? 'calendar'
+  : null;
 const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
 ---
 
@@ -56,7 +58,9 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
     <meta name="twitter:title" content={title ?? s.siteTitle} />
     <meta name="twitter:description" content={desc} />
     <meta name="twitter:image" content={imageUrl} />
-    {alt && <link rel="alternate" hreflang={other} href={url(alt)} />}
+    {alt && <link rel="alternate" hreflang={lang} href={pageUrl} />}
+    {alt && <link rel="alternate" hreflang={other} href={new URL(url(alt), Astro.site).href} />}
+    {alt && <link rel="alternate" hreflang="x-default" href={new URL(url(''), Astro.site).href} />}
     <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
     <link rel="manifest" href={url(`manifest-${lang}.webmanifest`)} />
     <link rel="apple-touch-icon" href={url('icons/apple-touch-icon.png')} />
@@ -91,8 +95,8 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
     <main>
       <slot />
     </main>
-    <SubscribeLinks lang={lang} />
     <AppLinks lang={lang} />
+    <SubscribeLinks lang={lang} />
     <CardLightbox lang={lang} />
     <footer>
       <p>
@@ -318,8 +322,19 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
     font-weight: 700;
     color: var(--gold);
   }
+  /* Rank, title and score on one row (the title wraps in its own column), details under the title. */
+  .saint-list.ranked li {
+    display: grid;
+    grid-template-columns: 2.2ch 1fr auto;
+  }
+  .saint-list.ranked li > :not(.score):not(.meta) {
+    grid-column: 2;
+  }
+  .saint-list.ranked .score {
+    grid-column: 3;
+    grid-row: 1;
+  }
   .saint-list.ranked .meta {
-    width: 100%;
-    padding-left: calc(2.2ch + 12px);
+    grid-column: 2 / 4;
   }
 </style>

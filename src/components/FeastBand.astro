@@ -1,6 +1,8 @@
 ---
-// Band above the saint listing the movable feasts of this day. Feasts depend on the year
-// (Patch Tuesday moves every month), so they are computed in the browser for the current year.
+// Band above the saint listing the movable feasts of this day. Feasts depend on the year (Patch Tuesday
+// moves every month): they are rendered at build time for the build year, so nothing shifts on load, and
+// recomputed in the browser only when the year differs (?y= or a new year before the next deploy).
+import { feastsOn } from '../lib/feasts';
 import type { Lang } from '../lib/i18n';
 
 interface Props {
@@ -9,31 +11,46 @@ interface Props {
 }
 
 const { lang, mmdd } = Astro.props;
+const year = new Date().getFullYear();
+const [m, d] = mmdd.split('-').map(Number);
+const feasts = feastsOn(new Date(year, m - 1, d)).map((f) => f[lang]);
 ---
 
-<aside class="feasts" data-lang={lang} data-mmdd={mmdd} hidden></aside>
+<aside class="feasts" data-lang={lang} data-mmdd={mmdd} data-year={year} hidden={feasts.length === 0}>
+  {
+    feasts.map((f) => (
+      <div class="feast">
+        <strong>✠ {f.name}</strong> <span>{f.text} </span>
+        <em>{f.proverb}</em>
+      </div>
+    ))
+  }
+</aside>
 
 <script>
   import { feastsOn } from '../lib/feasts';
 
   document.querySelectorAll<HTMLElement>('.feasts').forEach((band) => {
+    const year = Number(new URLSearchParams(location.search).get('y')) || new Date().getFullYear();
+    if (year === Number(band.dataset.year)) return;
     const lang = band.dataset.lang as 'it' | 'en';
     const [m, d] = band.dataset.mmdd!.split('-').map(Number);
-    const year = Number(new URLSearchParams(location.search).get('y')) || new Date().getFullYear();
     const feasts = feastsOn(new Date(year, m - 1, d));
-    for (const f of feasts) {
-      const t = f[lang];
-      const item = document.createElement('div');
-      item.className = 'feast';
-      const name = document.createElement('strong');
-      name.textContent = `✠ ${t.name}`;
-      const text = document.createElement('span');
-      text.textContent = ` ${t.text} `;
-      const proverb = document.createElement('em');
-      proverb.textContent = t.proverb;
-      item.append(name, text, proverb);
-      band.append(item);
-    }
+    band.replaceChildren(
+      ...feasts.map((f) => {
+        const t = f[lang];
+        const item = document.createElement('div');
+        item.className = 'feast';
+        const name = document.createElement('strong');
+        name.textContent = `✠ ${t.name}`;
+        const text = document.createElement('span');
+        text.textContent = ` ${t.text} `;
+        const proverb = document.createElement('em');
+        proverb.textContent = t.proverb;
+        item.append(name, text, proverb);
+        return item;
+      }),
+    );
     band.hidden = feasts.length === 0;
   });
 </script>
@@ -55,7 +72,8 @@ const { lang, mmdd } = Astro.props;
     border-top: 1px dotted var(--line);
   }
   .feasts :global(strong) {
-    color: var(--red);
+    /* Pulled towards the ink colour: plain red is too faint on the gold-tinted band in dark mode. */
+    color: color-mix(in srgb, var(--red) 70%, var(--ink));
     font-variant: small-caps;
   }
   .feasts :global(em) {

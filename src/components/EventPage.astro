@@ -43,26 +43,26 @@ const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
       text ? (
         miracle ? (
           <>
-            <h3>{s.prodigy}</h3>
+            <h2>{s.prodigy}</h2>
             <p>{text.prodigy}</p>
-            <h3>{s.thaumaturge}</h3>
+            <h2>{s.thaumaturge}</h2>
             <p>{text.thaumaturge}</p>
-            <h3>{s.thanksgiving}</h3>
+            <h2>{s.thanksgiving}</h2>
             <p class="prayer">{text.thanksgiving}</p>
           </>
         ) : (
           <>
-            <h3>{s.chronicle}</h3>
+            <h2>{s.chronicle}</h2>
             <p>{text.chronicle}</p>
-            <h3>{s.lesson}</h3>
+            <h2>{s.lesson}</h2>
             <p>{text.lesson}</p>
             {text.prayer && (
               <>
-                <h3>{s.reparation}</h3>
+                <h2>{s.reparation}</h2>
                 <p class="prayer">{text.prayer}</p>
               </>
             )}
-            <h3>{s.remembrance}</h3>
+            <h2>{s.remembrance}</h2>
             <p>{text.remembrance}</p>
           </>
         )
@@ -76,7 +76,7 @@ const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
   </EntryLayout>
 
   <section class="card tech">
-    <h3>{s.technical}</h3>
+    <h2>{s.technical}</h2>
     <p class="desc">{e.summary}</p>
     {
       saints.length > 0 && (
@@ -120,8 +120,9 @@ const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
   .tech {
     margin-top: 32px;
   }
-  .tech h3 {
+  .tech h2 {
     margin: 0 0 8px;
+    font-size: 1.15rem;
     font-variant: small-caps;
     color: var(--gold);
   }

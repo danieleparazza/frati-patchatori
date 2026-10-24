@@ -38,9 +38,9 @@ const ex = d.exorcism;
     {
       text ? (
         <>
-          <h3>{s.legend}</h3>
+          <h2>{s.legend}</h2>
           <p>{text.legend}</p>
-          <h3>{s.exorcismTitle}</h3>
+          <h2>{s.exorcismTitle}</h2>
           <p>{text.exorcism}</p>
         </>
       ) : (
@@ -53,7 +53,7 @@ const ex = d.exorcism;
   </EntryLayout>
 
   <section class="card tech">
-    <h3>{s.technical}</h3>
+    <h2>{s.technical}</h2>
     <dl>
       {
         d.aliases.length > 0 && (
@@ -131,8 +131,9 @@ const ex = d.exorcism;
   .tech {
     margin-top: 32px;
   }
-  .tech h3 {
+  .tech h2 {
     margin: 0 0 8px;
+    font-size: 1.15rem;
     font-variant: small-caps;
     color: var(--gold);
   }

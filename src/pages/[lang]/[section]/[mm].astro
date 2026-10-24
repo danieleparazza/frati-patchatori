@@ -20,6 +20,13 @@ const rows = monthDays(mm).map((d) => ({ d, ...day(d) }));
 // Weekday alignment for the build year; the inline script re-aligns it for the visitor's year.
 const year = new Date().getFullYear();
 const offset = (new Date(year, i, 1).getDay() + 6) % 7;
+// Narrow cells: let names wrap where a reader would (camelCase humps, after : / - _), not mid-letter.
+const breakable = (name: string) =>
+  name
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/([a-z])([A-Z])/g, '$1<wbr>$2')
+    .replace(/([:/_-])/g, '$1<wbr>');
 ---
 
 <Base lang={lang} title={name} alt={`${other}/${t(other).monthSlug}/${mm}`}>
@@ -41,7 +48,7 @@ const offset = (new Date(year, i, 1).getDay() + 6) % 7;
         >
           <span class="num">{Number(d.slice(3))}</span>
           <span class="name long">{patron ? saintTitle(patron, lang) : s.vacant}</span>
-          <span class="name short">{patron ? patron.name : '—'}</span>
+          <span class="name short" set:html={patron ? breakable(patron.name) : '—'} />
           {others.length > 0 && <span class="more">+{others.length}</span>}
         </a>
       ))
@@ -227,6 +234,7 @@ const offset = (new Date(year, i, 1).getDay() + 6) % 7;
     .name {
       font-size: 0.62rem;
       -webkit-line-clamp: 3;
+      hyphens: auto;
     }
     .more {
       display: none;

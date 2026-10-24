@@ -1,0 +1,62 @@
+---
+// Not found (GitHub Pages serves 404.html for any missing path), in both languages.
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/i18n';
+import { vacantSantino } from '../lib/santino';
+---
+
+<Base lang="it" title="404">
+  <article class="lost">
+    <div class="card" set:html={vacantSantino('404')} />
+    <div>
+      <h1>Pagina non trovata</h1>
+      <p>
+        Nemmeno San Directory Traversal saprebbe arrivarci. Forse il santo è stato spostato in un altro giorno, o il link è
+        sbagliato.
+      </p>
+      <p class="go">
+        <a href={url('it/')}>Il santo di oggi</a> · <a href={url('it/cerca/')}>Cerca</a>
+      </p>
+      <h2 lang="en">Page not found</h2>
+      <p lang="en">Not even Saint Directory Traversal could get here. The saint may have moved to another day, or the link is wrong.</p>
+      <p class="go" lang="en">
+        <a href={url('en/')}>Today's saint</a> · <a href={url('en/search/')}>Search</a>
+      </p>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .lost {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    max-width: 720px;
+    margin: 24px auto;
+  }
+  .card {
+    flex: none;
+    width: 180px;
+  }
+  .card :global(svg) {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  h2 {
+    margin-top: 28px;
+    font-size: 1.3rem;
+  }
+  .go {
+    font-variant: small-caps;
+  }
+  @media (max-width: 640px) {
+    .lost {
+      flex-direction: column;
+      text-align: center;
+    }
+    .card {
+      width: 140px;
+    }
+  }
+</style>

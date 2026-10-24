@@ -11,7 +11,7 @@ interface Props {
 const s = t(Astro.props.lang);
 ---
 
-<dialog class="lightbox" aria-label="Santino">
+<dialog class="lightbox" aria-label="Santino" data-open-label={s.flip}>
   <div class="stage"></div>
   <div class="controls">
     <button type="button" class="flip-btn">⟲ {s.flip}</button>
@@ -94,6 +94,9 @@ const s = t(Astro.props.lang);
     if (!svg) return;
     svg.setAttribute('tabindex', '0');
     svg.setAttribute('role', 'button');
+    // The accessible name must contain the card's visible text (name, motto) plus what clicking does.
+    const words = [...svg.querySelectorAll('text')].map((t) => t.textContent?.trim()).filter(Boolean).join(' · ');
+    svg.setAttribute('aria-label', `${words} · ${dialog.dataset.openLabel}`);
     svg.classList.add('zoomable');
     svg.addEventListener('click', () => open(fig));
     svg.addEventListener('keydown', (e) => {
