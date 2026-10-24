@@ -1,0 +1,72 @@
+---
+// Links to subscribe to the iCal feed, shown on every page by the layout.
+import { absolute, t, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+const ics = absolute(`calendar/${lang}.ics`);
+const webcal = ics.replace(/^https:/, 'webcal:');
+---
+
+<section class="subscribe">
+  <span class="label">📅 {s.subscribe}:</span>
+  <!-- Google expects the feed URL unencoded in cid. -->
+  <a href={`https://calendar.google.com/calendar/render?cid=${webcal}`} target="_blank" rel="noopener noreferrer">{s.subscribeGoogle}</a>
+  <a href={webcal}>{s.subscribeIcs}</a>
+  <button type="button" class="copy-ics" data-url={ics} data-done={s.copied}>{s.copyIcs}</button>
+  <p class="note">{s.subscribeNote}</p>
+</section>
+
+<script is:inline>
+  document.querySelectorAll('.copy-ics').forEach((b) =>
+    b.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(b.dataset.url);
+        const label = b.textContent;
+        b.textContent = b.dataset.done;
+        setTimeout(() => (b.textContent = label), 1800);
+      } catch {
+        prompt('', b.dataset.url);
+      }
+    }),
+  );
+</script>
+
+<style>
+  .subscribe {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 12px 16px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 0.9rem;
+  }
+  .label {
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  .copy-ics {
+    font: inherit;
+    color: var(--red);
+    background: none;
+    border: 0;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .note {
+    width: 100%;
+    margin: 2px 0 0;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>

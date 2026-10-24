@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import ViewNav from '../../../components/ViewNav.astro';
 import { MONTHS, day, monthDays, saintTitle } from '../../../lib/calendar';
-import { LANGS, absolute, t, url, type Lang } from '../../../lib/i18n';
+import { LANGS, t, url, type Lang } from '../../../lib/i18n';
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => MONTHS.map((mm) => ({ params: { lang, section: t(lang).monthSlug, mm } })));
@@ -20,8 +20,6 @@ const rows = monthDays(mm).map((d) => ({ d, ...day(d) }));
 // Weekday alignment for the build year; the inline script re-aligns it for the visitor's year.
 const year = new Date().getFullYear();
 const offset = (new Date(year, i, 1).getDay() + 6) % 7;
-const ics = absolute(`calendar/${lang}.ics`);
-const webcal = ics.replace(/^https:/, 'webcal:');
 ---
 
 <Base lang={lang} title={name} alt={`${other}/${t(other).monthSlug}/${mm}`}>
@@ -48,27 +46,8 @@ const webcal = ics.replace(/^https:/, 'webcal:');
       ))
     }
   </div>
-  <section class="subscribe">
-    <span>{s.subscribe}:</span>
-    <!-- Google expects the feed URL unencoded in cid. -->
-    <a href={`https://calendar.google.com/calendar/render?cid=${webcal}`} target="_blank" rel="noopener noreferrer">{s.subscribeGoogle}</a>
-    <a href={webcal}>{s.subscribeIcs}</a>
-    <button type="button" class="copy-ics" data-url={ics} data-done={s.copied}>{s.copyIcs}</button>
-  </section>
-  <p class="subscribe-note">{s.subscribeNote}</p>
   <p class="hint">{s.keyboardHint}</p>
   <script is:inline>
-    document.querySelector('.copy-ics').addEventListener('click', async (e) => {
-      const b = e.currentTarget;
-      try {
-        await navigator.clipboard.writeText(b.dataset.url);
-        const label = b.textContent;
-        b.textContent = b.dataset.done;
-        setTimeout(() => (b.textContent = label), 1800);
-      } catch {
-        prompt('', b.dataset.url);
-      }
-    });
     (() => {
       const cal = document.querySelector('.cal');
       const month = Number(cal.dataset.month);
@@ -194,35 +173,6 @@ const webcal = ics.replace(/^https:/, 'webcal:');
     .more {
       display: none;
     }
-  }
-  .subscribe {
-    margin-top: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px 16px;
-    justify-content: center;
-    font-size: 0.9rem;
-  }
-  .subscribe span {
-    font-variant: small-caps;
-    color: var(--gold);
-  }
-  .copy-ics {
-    font: inherit;
-    font-size: 0.9rem;
-    color: var(--red);
-    background: none;
-    border: 0;
-    padding: 0;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  .subscribe-note {
-    margin: 6px auto 0;
-    max-width: 60ch;
-    font-size: 0.75rem;
-    color: var(--muted);
-    text-align: center;
   }
   .hint {
     margin-top: 16px;
