@@ -35,8 +35,8 @@ export function GET({ params }: { params: { lang: Lang } }) {
     'METHOD:PUBLISH',
     `X-WR-CALNAME:${escape(s.siteTitle)}`,
     `X-WR-CALDESC:${escape(s.tagline)}`,
-    'REFRESH-INTERVAL;VALUE=DURATION:P7D',
-    'X-PUBLISHED-TTL:P7D',
+    'REFRESH-INTERVAL;VALUE=DURATION:P1D',
+    'X-PUBLISHED-TTL:P1D',
   ];
   for (const d of DAYS) {
     const { patron } = day(d);
