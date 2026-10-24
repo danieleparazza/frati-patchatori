@@ -1,6 +1,6 @@
 // "Sacred" sound effects for the card viewer, synthesized with Web Audio (no audio files):
-// a short choir swell with a bell when the card turns to its back, a single soft bell when it closes.
-// Muting is remembered in the browser.
+// an organ-and-choir "Amen" (plagal cadence, F → C) in a long church reverb when the card turns to its
+// back, a church bell toll when it turns back. Muting is remembered in the browser.
 
 let ctx: AudioContext | null = null;
 const KEY = 'sfx-muted';
@@ -26,109 +26,160 @@ function audio() {
   return ctx;
 }
 
-/** Church bell: inharmonic partials with long, staggered decays. */
-function bell(a: AudioContext, out: AudioNode, freq: number, at: number, gain: number) {
-  for (const [ratio, level, decay] of [
-    [0.5, 0.5, 3.2],
-    [1, 1, 2.6],
-    [1.19, 0.45, 2],
-    [1.5, 0.35, 1.6],
-    [2, 0.4, 1.3],
-    [2.74, 0.2, 0.9],
-    [4.07, 0.12, 0.6],
-  ]) {
-    const osc = a.createOscillator();
-    const g = a.createGain();
-    osc.frequency.value = freq * ratio;
-    g.gain.setValueAtTime(0, at);
-    g.gain.linearRampToValueAtTime(gain * level, at + 0.005);
-    g.gain.exponentialRampToValueAtTime(0.0001, at + decay);
-    osc.connect(g).connect(out);
-    osc.start(at);
-    osc.stop(at + decay + 0.05);
-  }
-}
+const midi = (n: number) => 440 * 2 ** ((n - 69) / 12);
 
-/** Choir "aah": detuned sawtooth voices through vowel formants, swelling in and out. */
-function choir(a: AudioContext, out: AudioNode, notes: number[], at: number, length: number, gain: number) {
+/** Pipe organ: sine ranks at 8', 4', 2 2/3', 2' and 16', slow speech and a little wind noise. */
+function organ(a: AudioContext, out: AudioNode, notes: number[], at: number, length: number, gain: number) {
   const env = a.createGain();
   env.gain.setValueAtTime(0, at);
-  env.gain.linearRampToValueAtTime(gain, at + length * 0.35);
-  env.gain.linearRampToValueAtTime(gain * 0.8, at + length * 0.7);
-  env.gain.exponentialRampToValueAtTime(0.0001, at + length);
-  const formants = [
-    [800, 1],
-    [1150, 0.5],
-    [2900, 0.18],
-  ].map(([f, level]) => {
-    const bp = a.createBiquadFilter();
-    bp.type = 'bandpass';
-    bp.frequency.value = f;
-    bp.Q.value = 6;
-    const g = a.createGain();
-    g.gain.value = level;
-    bp.connect(g).connect(env);
-    return bp;
-  });
+  env.gain.linearRampToValueAtTime(gain, at + 0.08);
+  env.gain.setValueAtTime(gain, at + length - 0.15);
+  env.gain.linearRampToValueAtTime(0, at + length);
   env.connect(out);
-  for (const freq of notes) {
-    for (const detune of [-9, 0, 8]) {
+  for (const n of notes) {
+    for (const [ratio, level] of [
+      [0.5, 0.35],
+      [1, 1],
+      [2, 0.55],
+      [3, 0.22],
+      [4, 0.28],
+      [6, 0.08],
+    ]) {
       const osc = a.createOscillator();
-      osc.type = 'sawtooth';
-      osc.frequency.value = freq;
-      osc.detune.value = detune;
-      // Slow vibrato, like many singers not quite together.
-      const lfo = a.createOscillator();
-      const depth = a.createGain();
-      lfo.frequency.value = 4.5 + Math.random();
-      depth.gain.value = 6;
-      lfo.connect(depth).connect(osc.detune);
-      for (const f of formants) osc.connect(f);
+      const g = a.createGain();
+      osc.frequency.value = midi(n) * ratio;
+      osc.detune.value = (Math.random() - 0.5) * 4;
+      g.gain.value = level / notes.length;
+      osc.connect(g).connect(env);
       osc.start(at);
-      lfo.start(at);
-      osc.stop(at + length + 0.1);
-      lfo.stop(at + length + 0.1);
+      osc.stop(at + length + 0.05);
     }
   }
 }
 
-/** Simple reverb tail: decaying noise as an impulse response. */
-function reverb(a: AudioContext) {
-  const len = a.sampleRate * 2.5;
+/** Choir "aah": many slightly out-of-tune voices per note, through the formants of an open A. */
+function choir(a: AudioContext, out: AudioNode, notes: number[], at: number, length: number, gain: number) {
+  const env = a.createGain();
+  env.gain.setValueAtTime(0, at);
+  env.gain.linearRampToValueAtTime(gain, at + 0.25);
+  env.gain.setValueAtTime(gain, at + length - 0.2);
+  env.gain.linearRampToValueAtTime(0, at + length);
+  const lowpass = a.createBiquadFilter();
+  lowpass.type = 'lowpass';
+  lowpass.frequency.value = 3200;
+  lowpass.connect(env).connect(out);
+  const formants = [
+    [730, 1, 8],
+    [1090, 0.45, 9],
+    [2440, 0.12, 10],
+  ].map(([f, level, q]) => {
+    const bp = a.createBiquadFilter();
+    bp.type = 'bandpass';
+    bp.frequency.value = f;
+    bp.Q.value = q;
+    const g = a.createGain();
+    g.gain.value = level;
+    bp.connect(g).connect(lowpass);
+    return bp;
+  });
+  for (const n of notes) {
+    for (let v = 0; v < 6; v++) {
+      const osc = a.createOscillator();
+      osc.type = 'sawtooth';
+      osc.frequency.value = midi(n);
+      osc.detune.value = (Math.random() - 0.5) * 22;
+      const lfo = a.createOscillator();
+      const depth = a.createGain();
+      lfo.frequency.value = 4.8 + Math.random() * 1.2;
+      depth.gain.value = 9;
+      lfo.connect(depth).connect(osc.detune);
+      for (const f of formants) osc.connect(f);
+      const start = at + Math.random() * 0.06;
+      osc.start(start);
+      lfo.start(start);
+      osc.stop(at + length + 0.05);
+      lfo.stop(at + length + 0.05);
+    }
+  }
+}
+
+/** Church bell: hum, prime, minor-third tierce, quint, nominal and upper partials, each with its own decay. */
+function bell(a: AudioContext, out: AudioNode, nominal: number, at: number, gain: number, ring = 1) {
+  for (const [ratio, level, decay] of [
+    [0.25, 0.55, 7],
+    [0.5, 0.7, 5],
+    [0.6, 0.6, 3.5],
+    [0.75, 0.3, 3],
+    [1, 1, 2.6],
+    [1.5, 0.35, 1.5],
+    [2, 0.25, 1.1],
+    [2.6, 0.12, 0.7],
+  ]) {
+    const osc = a.createOscillator();
+    const g = a.createGain();
+    osc.frequency.value = nominal * ratio;
+    g.gain.setValueAtTime(0, at);
+    g.gain.linearRampToValueAtTime(gain * level, at + 0.004);
+    g.gain.exponentialRampToValueAtTime(0.0001, at + decay * ring);
+    osc.connect(g).connect(out);
+    osc.start(at);
+    osc.stop(at + decay * ring + 0.05);
+  }
+}
+
+/** Nave reverb: a short pre-delay and a long, darkening noise tail. */
+function reverb(a: AudioContext, seconds: number) {
+  const len = Math.floor(a.sampleRate * seconds);
+  const pre = Math.floor(a.sampleRate * 0.03);
   const ir = a.createBuffer(2, len, a.sampleRate);
   for (let ch = 0; ch < 2; ch++) {
     const data = ir.getChannelData(ch);
-    for (let i = 0; i < len; i++) data[i] = (Math.random() * 2 - 1) * (1 - i / len) ** 3;
+    let lp = 0;
+    for (let i = pre; i < len; i++) {
+      const tt = (i - pre) / (len - pre);
+      // Low-pass that closes as the tail goes on: stone absorbs the highs first.
+      const k = 0.6 - 0.5 * tt;
+      lp += k * (Math.random() * 2 - 1 - lp);
+      data[i] = lp * (1 - tt) ** 2.2;
+    }
   }
   const conv = a.createConvolver();
   conv.buffer = ir;
   return conv;
 }
 
-function bus(a: AudioContext) {
+function bus(a: AudioContext, wetLevel: number, tail = 3) {
   const master = a.createGain();
-  master.gain.value = 1.5;
+  master.gain.value = 1;
+  const dry = a.createGain();
+  dry.gain.value = 0.55;
   const wet = a.createGain();
-  wet.gain.value = 0.45;
-  const verb = reverb(a);
-  master.connect(a.destination);
-  master.connect(verb).connect(wet).connect(a.destination);
+  wet.gain.value = wetLevel;
+  const comp = a.createDynamicsCompressor();
+  master.connect(dry).connect(comp);
+  master.connect(reverb(a, tail)).connect(wet).connect(comp);
+  comp.connect(a.destination);
   return master;
 }
 
-/** The card turns to its back: choir in C major and a bell. */
+/** The card turns to its back: "A-men" on organ and choir, F major then C major, and a high bell. */
 export function playReveal() {
   const a = audio();
   if (!a) return;
-  const out = bus(a);
+  const out = bus(a, 1.4);
   const t = a.currentTime + 0.02;
-  choir(a, out, [261.63, 329.63, 392, 523.25], t, 1.8, 0.09);
-  bell(a, out, 1046.5, t + 0.35, 0.05);
+  const F = [53, 60, 65, 69]; // F3 C4 F4 A4
+  const C = [48, 60, 64, 67]; // C3 C4 E4 G4
+  organ(a, out, F, t, 0.5, 0.32);
+  organ(a, out, C, t + 0.47, 1, 0.32);
+  choir(a, out, [65, 69, 72], t, 0.53, 0.22);
+  choir(a, out, [64, 67, 72], t + 0.47, 1.07, 0.22);
+  bell(a, out, midi(84), t, 0.07, 0.4);
 }
 
-/** The card turns back and closes: one soft, lower bell. */
+/** The card turns back and closes: one church bell toll. */
 export function playClose() {
   const a = audio();
   if (!a) return;
-  bell(a, bus(a), 784, a.currentTime + 0.02, 0.04);
+  bell(a, bus(a, 1.1), midi(67), a.currentTime + 0.02, 0.22, 0.47);
 }
