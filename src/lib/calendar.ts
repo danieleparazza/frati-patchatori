@@ -11,6 +11,10 @@ export type Vuln = {
   cves: string[];
   cvss: number | null;
   kev: boolean;
+  ransomware: boolean;
+  /** Year the flaw was introduced, when documented. */
+  born: number | null;
+  absurd: boolean;
   vendor: string | null;
   product: string | null;
   description: string | null;

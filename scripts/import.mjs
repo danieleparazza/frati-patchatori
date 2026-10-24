@@ -202,6 +202,9 @@ for (const v of vulns) {
   const scores = infos.map((i) => i.cvss).filter((x) => x != null);
   v.cvss = scores.length ? Math.max(...scores) : null;
   v.kev = kevHits.length > 0;
+  v.ransomware = kevHits.some((k) => k.knownRansomwareCampaignUse === 'Known');
+  v.born = overrides.born?.[v.id] ?? null;
+  v.absurd = overrides.absurd?.includes(v.id) ?? false;
   v.vendor = infos.find((i) => i.vendor)?.vendor ?? kevHits[0]?.vendorProject ?? null;
   v.product = infos.find((i) => i.product)?.product ?? kevHits[0]?.product ?? null;
   v.description = infos.find((i) => i.description)?.description ?? null;
@@ -223,7 +226,7 @@ for (const day of allDays()) {
   days[day] = { patron, others: candidates.filter((id) => id !== patron) };
 }
 
-const fields = ['id', 'name', 'date', 'day', 'category', 'cves', 'cvss', 'kev', 'vendor', 'product', 'description', 'canonical', 'links', 'logo', 'author', 'fame', 'source'];
+const fields = ['id', 'name', 'date', 'day', 'category', 'cves', 'cvss', 'kev', 'ransomware', 'born', 'absurd', 'vendor', 'product', 'description', 'canonical', 'links', 'logo', 'author', 'fame', 'source'];
 const slim = vulns.map((v) => Object.fromEntries(fields.map((f) => [f, v[f]])));
 mkdirSync(join(ROOT, 'src', 'data'), { recursive: true });
 writeFileSync(join(ROOT, 'src', 'data', 'vulns.json'), JSON.stringify(slim, null, 1) + '\n');

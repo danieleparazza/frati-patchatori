@@ -1,5 +1,5 @@
 {
-  "$comment": "patrons: manual patron per day (\"MM-DD\": id). dates: corrected disclosure dates (id: \"YYYY-MM-DD\") where the source is wrong. Ids are in src/data/vulns.json.",
+  "$comment": "patrons: manual patron per day (\"MM-DD\": id). dates: corrected disclosure dates (id: \"YYYY-MM-DD\") where the source is wrong. born: year the flaw was introduced (only when well documented), for the \"longest-lived\" ranking. absurd: hand-picked absurd vulnerabilities. Ids are in src/data/vulns.json.",
   "patrons": {
     "01-01": "ldapnightmare",
     "01-10": "connectaround",
@@ -10,5 +10,40 @@
     "shattered": "2017-02-23",
     "foreshadow": "2018-08-14",
     "foreshadow-ng": "2018-08-14"
-  }
+  },
+  "born": {
+    "shellshock": 1989,
+    "meltdown": 1995,
+    "spectre": 1995,
+    "poodle": 1996,
+    "ghost": 2000,
+    "sigred": 2003,
+    "sinkclose": 2006,
+    "dirty-cow": 2007,
+    "pwnkit": 2009,
+    "baron-samedit": 2011,
+    "heartbleed": 2012,
+    "log4shell": 2013,
+    "dirty-pipe": 2020,
+    "regresshion": 2020,
+    "looney-tunables": 2021
+  },
+  "absurd": [
+    "light-commands",
+    "glowworm-attack",
+    "gairoscope",
+    "thrangrycat",
+    "antbleed",
+    "ghostbutt",
+    "epicbanana",
+    "kindledrip",
+    "mousejack",
+    "pizza-thief",
+    "screams-of-power",
+    "noreboot",
+    "chameleon",
+    "cookie-sandwich",
+    "pantsdown",
+    "shitrix"
+  ]
 }
