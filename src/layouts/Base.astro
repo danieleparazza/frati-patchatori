@@ -57,6 +57,11 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
     <meta name="twitter:image" content={imageUrl} />
     {alt && <link rel="alternate" hreflang={other} href={url(alt)} />}
     <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
+    <link rel="manifest" href={url(`manifest-${lang}.webmanifest`)} />
+    <link rel="apple-touch-icon" href={url('icons/apple-touch-icon.png')} />
+    <meta name="theme-color" content="#f6efe0" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1411" media="(prefers-color-scheme: dark)" />
+    <meta name="apple-mobile-web-app-title" content={lang === 'it' ? 'Frati Patchatori' : 'Patching Friars'} />
   </head>
   <body>
     <header class="masthead">
@@ -98,6 +103,9 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
         {s.footerLicense} · <a href="https://github.com/danieleparazza/frati-patchatori">github.com/danieleparazza/frati-patchatori</a>
       </p>
     </footer>
+    <script is:inline>
+      if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(() => {});
+    </script>
   </body>
 </html>
 
