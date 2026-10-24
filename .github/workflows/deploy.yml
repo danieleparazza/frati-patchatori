@@ -24,6 +24,12 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      # Rendered share images, keyed by content hash: only changed cards are redrawn.
+      - uses: actions/cache@v4
+        with:
+          path: .cache/og
+          key: og-images-${{ github.run_id }}
+          restore-keys: og-images-
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -7,6 +7,7 @@ import ViewNav from '../../components/ViewNav.astro';
 import { DAYS, day, dayLabel, neighbours, saint, saintTitle } from '../../lib/calendar';
 import { LANGS, absolute, saintPath, t, url, type Lang } from '../../lib/i18n';
 import { vacantSantino } from '../../lib/santino';
+import { dayImages } from '../../lib/og';
 import { eventText, eventsOn } from '../../lib/extras';
 
 export function getStaticPaths() {
@@ -20,7 +21,8 @@ const { patron, others } = day(mmdd);
 const { prev, next } = neighbours(mmdd);
 const title = patron ? saintTitle(patron, lang) : s.vacant;
 const label = dayLabel(mmdd, lang);
-const image = `og/${lang}/${mmdd}.png`;
+const image = `img/${lang}/day/${mmdd}.jpg`;
+const back = dayImages(lang, mmdd).back();
 const commemorations = eventsOn(mmdd).map((e) => ({
   text: `${e.type === 'miracolo' ? '☀' : e.tone === 'lutto' ? '✝' : '⚔'} ${s.commemorated}: ${eventText(e, lang)?.title ?? e.name} (${e.date.slice(0, 4)})`,
   href: '#commemorations',
@@ -49,8 +51,7 @@ const commemorations = eventsOn(mmdd).map((e) => ({
         lang={lang}
         shareUrl={absolute(`${lang}/${mmdd}`)}
         shareText={`${label} · ${title}`}
-        image={url(image)}
-        imageName={`${mmdd}-${patron.id}.png`}
+        back={back}
         notes={commemorations}
       >
         <Commemorations slot="after-tech" lang={lang} mmdd={mmdd} />

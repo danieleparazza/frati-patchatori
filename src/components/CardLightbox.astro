@@ -1,57 +1,85 @@
 ---
-// Opens any holy card (figure.santino) full screen when clicked; click or Esc closes it.
-// Included once by the layout.
+// Full-screen viewer for holy cards (figure.santino). When the figure carries a back (SVG in a
+// <template>), it shows the vertical card and turns it over (CSS 3D) on click or with the button.
+// Esc or a click outside closes it. Included once by the layout.
+import { t, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const s = t(Astro.props.lang);
 ---
 
 <dialog class="lightbox" aria-label="Santino">
-  <div class="frame"></div>
+  <div class="stage"></div>
+  <div class="controls">
+    <button type="button" class="flip-btn">⟲ {s.flip}</button>
+    <button type="button" class="close-btn">{s.close}</button>
+  </div>
 </dialog>
 
 <script>
+  import { cardSvgs } from '../lib/card-client';
+
   const dialog = document.querySelector<HTMLDialogElement>('dialog.lightbox')!;
-  const frame = dialog.querySelector('.frame')!;
+  const stage = dialog.querySelector<HTMLElement>('.stage')!;
+  const flipBtn = dialog.querySelector<HTMLButtonElement>('.flip-btn')!;
+  let card: HTMLElement | null = null;
+
+  const flip = () => card?.classList.toggle('flipped');
+
+  function open(fig: HTMLElement) {
+    const { front, back } = cardSvgs(fig);
+    if (!front) return;
+    if (back) {
+      // Vertical card that turns over: front is the card, back the prayer side.
+      card = document.createElement('div');
+      card.className = 'flipcard';
+      const inner = document.createElement('div');
+      inner.className = 'inner';
+      front.classList.add('face', 'front');
+      back.classList.add('face', 'back');
+      inner.append(front, back);
+      card.append(inner);
+      card.addEventListener('click', (e) => {
+        e.stopPropagation();
+        flip();
+      });
+      stage.replaceChildren(card);
+      flipBtn.hidden = false;
+    } else {
+      card = null;
+      front.classList.add('svgcard');
+      stage.replaceChildren(front);
+      flipBtn.hidden = true;
+    }
+    dialog.showModal();
+  }
+
   document.querySelectorAll<HTMLElement>('figure.santino').forEach((fig) => {
-    const svg = fig.querySelector('svg');
+    const svg = fig.querySelector<SVGElement>(':scope > svg');
     if (!svg) return;
     svg.setAttribute('tabindex', '0');
     svg.setAttribute('role', 'button');
     svg.classList.add('zoomable');
-    const open = () => {
-      // Prefer the complete holy card (share image with title and patronage) when the page has one.
-      if (fig.dataset.full) {
-        const img = document.createElement('img');
-        img.src = fig.dataset.full;
-        img.alt = svg.getAttribute('aria-label') ?? '';
-        frame.replaceChildren(img);
-        dialog.showModal();
-        return;
-      }
-      const copy = svg.cloneNode(true) as SVGElement;
-      copy.removeAttribute('tabindex');
-      copy.removeAttribute('role');
-      // Gradient ids must stay unique in the page: suffix them in the copy.
-      copy.querySelectorAll('[id]').forEach((el) => {
-        const id = el.id;
-        el.id = `${id}-zoom`;
-        copy.querySelectorAll('*').forEach((n) => {
-          for (const attr of ['fill', 'stroke', 'clip-path']) {
-            const v = n.getAttribute(attr);
-            if (v === `url(#${id})`) n.setAttribute(attr, `url(#${id}-zoom)`);
-          }
-        });
-      });
-      frame.replaceChildren(copy);
-      dialog.showModal();
-    };
-    svg.addEventListener('click', open);
+    svg.addEventListener('click', () => open(fig));
     svg.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
-        open();
+        open(fig);
       }
     });
   });
-  dialog.addEventListener('click', () => dialog.close());
+
+  flipBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    flip();
+  });
+  dialog.querySelector('.close-btn')!.addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog || e.target === stage) dialog.close();
+  });
 </script>
 
 <style>
@@ -64,25 +92,78 @@
     background: transparent;
     max-width: 100vw;
     max-height: 100vh;
-    cursor: zoom-out;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
   }
   .lightbox::backdrop {
-    background: rgb(20 14 10 / 0.85);
+    background: rgb(20 14 10 / 0.88);
   }
-  .frame :global(img) {
-    display: block;
-    width: min(96vw, 1200px);
-    height: auto;
-    max-height: 92vh;
-    object-fit: contain;
-    border-radius: 6px;
-    box-shadow: 0 10px 30px rgb(0 0 0 / 0.5);
+  .stage {
+    width: 100%;
+    height: calc(100% - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1600px;
   }
-  .frame :global(svg) {
+  .controls {
+    height: 64px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .controls button {
+    font: inherit;
+    font-size: 0.95rem;
+    font-variant: small-caps;
+    color: #fbf3dd;
+    background: rgb(255 255 255 / 0.08);
+    border: 1px solid rgb(251 243 221 / 0.4);
+    border-radius: 999px;
+    padding: 6px 16px;
+    cursor: pointer;
+  }
+  /* Vertical card, 2:3, as large as the viewport allows. */
+  .stage :global(.flipcard) {
+    height: min(100%, calc((100vw - 32px) * 1.5));
+    aspect-ratio: 2 / 3;
+    cursor: pointer;
+  }
+  .stage :global(.inner) {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.7s cubic-bezier(0.3, 0.7, 0.2, 1);
+  }
+  .stage :global(.flipcard.flipped .inner) {
+    transform: rotateY(180deg);
+  }
+  .stage :global(.face) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 14px;
+    box-shadow: 0 12px 40px rgb(0 0 0 / 0.5);
+  }
+  .stage :global(.face.back) {
+    transform: rotateY(180deg);
+  }
+  .stage :global(.svgcard) {
     display: block;
-    height: min(92vh, 150vw);
+    height: min(100%, 150vw);
     width: auto;
     max-width: 96vw;
     filter: drop-shadow(0 10px 30px rgb(0 0 0 / 0.5));
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .stage :global(.inner) {
+      transition: none;
+    }
   }
 </style>

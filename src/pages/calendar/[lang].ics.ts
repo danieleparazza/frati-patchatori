@@ -42,6 +42,8 @@ export function GET({ params }: { params: { lang: Lang } }) {
       `SUMMARY:${escape(saintTitle(patron, lang))}`,
       `DESCRIPTION:${escape(desc)}`,
       `URL:${page}`,
+      // The complete holy card; Apple Calendar and Outlook show attachments, Google ignores them.
+      `ATTACH;FMTTYPE=image/jpeg:${absolute(`img/${lang}/day/${d}.jpg`)}`,
       'TRANSP:TRANSPARENT',
       'END:VEVENT',
     );

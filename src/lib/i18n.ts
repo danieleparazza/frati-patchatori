@@ -4,6 +4,8 @@ export type Lang = (typeof LANGS)[number];
 export const strings = {
   it: {
     siteTitle: 'Lunario dei Frati Patchatori',
+    /** Domain printed on the holy-card images. */
+    domain: 'fratipatchatori.it',
     tagline: 'Il calendario dei santi delle CVE',
     today: 'Oggi',
     calendar: 'Calendario',
@@ -37,6 +39,10 @@ export const strings = {
     aiFrameLabel: '🤖 cornice e testi generati con AI',
     provisionalSantino: 'Santino provvisorio',
     download: 'Scarica il santino',
+    front: 'Fronte',
+    back: 'Retro',
+    flip: 'Gira il santino',
+    close: 'Chiudi',
     share: 'Condividi',
     shareNative: 'Condividi…',
     copyLink: 'Copia link',
@@ -162,6 +168,7 @@ export const strings = {
   },
   en: {
     siteTitle: "The Patching Friars' Almanac",
+    domain: 'patchingfriars.com',
     tagline: 'A calendar of CVE saints',
     today: 'Today',
     calendar: 'Calendar',
@@ -195,6 +202,10 @@ export const strings = {
     aiFrameLabel: '🤖 frame and text generated with AI',
     provisionalSantino: 'Provisional holy card',
     download: 'Download holy card',
+    front: 'Front',
+    back: 'Back',
+    flip: 'Turn the card over',
+    close: 'Close',
     share: 'Share',
     shareNative: 'Share…',
     copyLink: 'Copy link',

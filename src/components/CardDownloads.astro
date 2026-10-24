@@ -1,0 +1,91 @@
+---
+// "Download: front · back" under a holy card. The PNG is rasterized in the browser from the card's SVG
+// (front) or the back SVG in the figure's <template>, with EB Garamond embedded for the text.
+import { t, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const s = t(Astro.props.lang);
+---
+
+<p class="downloads">
+  ⬇ {s.download}: <button type="button" data-side="front">{s.front}</button> ·
+  <button type="button" data-side="back">{s.back}</button>
+</p>
+
+<script>
+  import { cardSvgs } from '../lib/card-client';
+
+  let fontCss: Promise<string> | null = null;
+  // The site doesn't load EB Garamond; embed it only when a card is downloaded.
+  function embeddedFont() {
+    fontCss ??= fetch(`${import.meta.env.BASE_URL.replace(/\/$/, '')}/fonts/EBGaramond.ttf`)
+      .then((r) => r.arrayBuffer())
+      .then((buf) => {
+        let bin = '';
+        const bytes = new Uint8Array(buf);
+        for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+        return `@font-face{font-family:'EB Garamond';src:url(data:font/ttf;base64,${btoa(bin)}) format('truetype');}`;
+      });
+    return fontCss;
+  }
+
+  async function download(svg: SVGElement, name: string) {
+    const copy = svg.cloneNode(true) as SVGElement;
+    copy.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+    copy.setAttribute('width', '1080');
+    copy.setAttribute('height', '1620');
+    const style = document.createElementNS('http://www.w3.org/2000/svg', 'style');
+    style.textContent = await embeddedFont();
+    copy.insertBefore(style, copy.firstChild);
+    const blob = new Blob([new XMLSerializer().serializeToString(copy)], { type: 'image/svg+xml' });
+    const img = new Image();
+    img.src = URL.createObjectURL(blob);
+    await img.decode();
+    // Give the embedded font a moment to apply before drawing.
+    await new Promise((r) => setTimeout(r, 150));
+    const canvas = document.createElement('canvas');
+    canvas.width = 1080;
+    canvas.height = 1620;
+    canvas.getContext('2d')!.drawImage(img, 0, 0, 1080, 1620);
+    URL.revokeObjectURL(img.src);
+    canvas.toBlob((png) => {
+      if (!png) return;
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(png);
+      a.download = `${name}.png`;
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    }, 'image/png');
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.downloads button[data-side]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const fig = button.closest('.cardcol')?.querySelector<HTMLElement>('figure.santino');
+      if (!fig) return;
+      const { front, back } = cardSvgs(fig);
+      const side = button.dataset.side as 'front' | 'back';
+      const svg = side === 'front' ? front : back;
+      if (svg) download(svg, `${fig.dataset.name ?? 'santino'}-${button.textContent!.trim().toLowerCase()}`);
+    });
+  });
+</script>
+
+<style>
+  .downloads {
+    margin: 0;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+  .downloads button {
+    font: inherit;
+    color: var(--red);
+    background: none;
+    border: 0;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+</style>

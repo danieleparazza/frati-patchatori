@@ -5,6 +5,7 @@ import SaintProfile from './SaintProfile.astro';
 import ViewNav from './ViewNav.astro';
 import { day, dayLabel, saint, saintTitle, type Vuln } from '../lib/calendar';
 import { absolute, saintPath, t, url, type Lang } from '../lib/i18n';
+import { saintImages } from '../lib/og';
 
 interface Props {
   lang: Lang;
@@ -17,7 +18,8 @@ const other: Lang = lang === 'it' ? 'en' : 'it';
 const title = saintTitle(vuln, lang);
 const label = dayLabel(vuln.day, lang);
 const isPatron = day(vuln.day).patron?.id === vuln.id;
-const image = `og/${lang}/s/${vuln.id}.png`;
+const image = `img/${lang}/s/${vuln.id}.jpg`;
+const back = saintImages(lang, vuln).back();
 ---
 
 <Base
@@ -36,8 +38,7 @@ const image = `og/${lang}/s/${vuln.id}.png`;
     lang={lang}
     shareUrl={absolute(saintPath(lang, vuln.id))}
     shareText={`${title} · ${label}`}
-    image={url(image)}
-    imageName={`${vuln.day}-${vuln.id}.png`}
+        back={back}
     headingLevel="h1"
     showSameDay
   />

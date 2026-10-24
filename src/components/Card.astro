@@ -2,27 +2,23 @@
 // A holy card (any kind) with a caption under it.
 interface Props {
   svg: string;
-  /** Downloadable image URL, if any. */
-  download?: string;
-  downloadName?: string;
-  downloadLabel?: string;
+  /** Back of the card (SVG markup): full-screen flip viewer and downloads. */
+  back?: string;
+  name?: string;
+  lang: 'it' | 'en';
 }
 
-const { svg, download, downloadName, downloadLabel } = Astro.props;
+import CardDownloads from './CardDownloads.astro';
+const { svg, back, name = 'santino', lang } = Astro.props;
 ---
 
 <div class="cardcol">
-  <figure class="santino" data-full={download}>
+  <figure class="santino" data-name={name}>
     <Fragment set:html={svg} />
+    {back && <template class="card-back" set:html={back} />}
     <figcaption><slot /></figcaption>
   </figure>
-  {
-    download && (
-      <a class="download" href={download} download={downloadName}>
-        ⬇ {downloadLabel}
-      </a>
-    )
-  }
+  {back && <CardDownloads lang={lang} />}
 </div>
 
 <style>
@@ -49,13 +45,5 @@ const { svg, download, downloadName, downloadLabel } = Astro.props;
     color: var(--muted);
     text-align: center;
     margin-top: 8px;
-  }
-  .download {
-    font-size: 0.85rem;
-    text-decoration: none;
-    border: 1px solid var(--line);
-    border-radius: 6px;
-    padding: 4px 12px;
-    background: var(--paper);
   }
 </style>

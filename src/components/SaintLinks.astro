@@ -1,7 +1,7 @@
 ---
 // Links from a saint to the Popes, scourges and demons it is part of.
 import type { Vuln } from '../lib/calendar';
-import { demonText, demonsForVuln, eventText, eventsForVuln, popeText, popesForVuln } from '../lib/extras';
+import { demonText, demonsForVuln, eventText, eventsForVuln, papalLine, popeText, popesForVuln } from '../lib/extras';
 import { t, url, type Lang } from '../lib/i18n';
 
 interface Props {
@@ -14,12 +14,16 @@ const s = t(lang);
 const popes = popesForVuln(vuln);
 const events = eventsForVuln(vuln);
 const demons = demonsForVuln(vuln);
+const papal = papalLine(vuln, lang);
 ---
 
 {
-  (popes.length > 0 || events.length > 0 || demons.length > 0) && (
+  (
     <section class="links">
-      {popes.map((p) => (
+      <p class="papal">
+        {papal.popeKey ? <a href={url(`${lang}/${s.popeSlug}/${papal.popeKey}`)}>{papal.text}</a> : papal.text}
+      </p>
+      {popes.filter((p) => p.kind !== 'year').map((p) => (
         <p class="pope">
           <span>♛</span>{' '}
           <a href={url(`${lang}/${s.popeSlug}/${p.key}`)}>
@@ -68,5 +72,9 @@ const demons = demonsForVuln(vuln);
   }
   .pope span {
     color: var(--gold);
+  }
+  .papal {
+    font-variant: small-caps;
+    color: var(--muted);
   }
 </style>

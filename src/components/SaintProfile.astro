@@ -1,6 +1,7 @@
 ---
 // A saint's full profile: holy card, texts, share links and technical record.
 // Used by the day page (for the patron) and by the saint page.
+import CardDownloads from './CardDownloads.astro';
 import Santino from './Santino.astro';
 import RelatedSaints from './RelatedSaints.astro';
 import SaintLinks from './SaintLinks.astro';
@@ -14,9 +15,8 @@ interface Props {
   /** Absolute URL of the page, for sharing. */
   shareUrl: string;
   shareText: string;
-  /** Downloadable share image (site URL), if this saint has one. */
-  image?: string;
-  imageName?: string;
+  /** Back of the card (SVG markup): full-screen flip viewer and downloads. */
+  back?: string;
   headingLevel?: 'h1' | 'h2';
   /** Passed to RelatedSaints: list the other saints of the same day. */
   showSameDay?: boolean;
@@ -24,7 +24,7 @@ interface Props {
   notes?: { text: string; href?: string }[];
 }
 
-const { vuln, lang, shareUrl, shareText, image, imageName, headingLevel = 'h2', showSameDay = false, notes = [] } = Astro.props;
+const { vuln, lang, shareUrl, shareText, back, headingLevel = 'h2', showSameDay = false, notes = [] } = Astro.props;
 const s = t(lang);
 const text = saint(vuln.id)?.[lang];
 const title = saintTitle(vuln, lang);
@@ -37,7 +37,7 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
 
 <article class="saint">
   <div class="cardcol">
-    <Santino vuln={vuln} full={image}>
+    <Santino vuln={vuln} back={back}>
       {
         logo ? (
           <>
@@ -52,13 +52,7 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
         )
       }
     </Santino>
-    {
-      image && (
-        <a class="download" href={image} download={imageName}>
-          ⬇ {s.download}
-        </a>
-      )
-    }
+    {back && <CardDownloads lang={lang} />}
     {
       notes.map((n) =>
         n.href ? (
@@ -72,6 +66,7 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
     }
   </div>
   <div class="body">
+    <ShareButtons lang={lang} href={shareUrl} text={shareText} />
     <Heading class="title">{title}</Heading>
     {
       text ? (
@@ -91,7 +86,6 @@ const sources = [...new Set([vuln.canonical, ...vuln.links].filter((l): l is str
         <p class="pending">{s.contentPending}</p>
       )
     }
-    <ShareButtons lang={lang} href={shareUrl} text={shareText} />
   </div>
 </article>
 

@@ -5,16 +5,17 @@ import { santino } from '../lib/santino';
 
 interface Props {
   vuln: Vuln;
-  /** Complete holy card (share image) shown full screen on click. */
-  full?: string;
+  /** Back of the card (SVG markup) for the full-screen flip viewer and downloads. */
+  back?: string;
 }
 
 const { svg } = santino(Astro.props.vuln);
-const { full } = Astro.props;
+const { back } = Astro.props;
 ---
 
-<figure class="santino" data-full={full}>
+<figure class="santino" data-name={Astro.props.vuln.id}>
   <Fragment set:html={svg} />
+  {back && <template class="card-back" set:html={back} />}
   <figcaption><slot /></figcaption>
 </figure>
 

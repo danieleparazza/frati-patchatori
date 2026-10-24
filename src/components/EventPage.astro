@@ -8,6 +8,7 @@ import { formatDate, saintTitle } from '../lib/calendar';
 import { demonText, demonsForEvent, eventCardKey, eventText, vulnsForCves, type CalendarEvent } from '../lib/extras';
 import { absolute, saintPath, t, url, type Lang } from '../lib/i18n';
 import { card } from '../lib/santino';
+import { eventImages } from '../lib/og';
 
 interface Props {
   lang: Lang;
@@ -16,7 +17,8 @@ interface Props {
 
 const { lang, event: e } = Astro.props;
 const s = t(lang);
-const image = `og/${lang}/e/${e.id}.png`;
+const image = `img/${lang}/e/${e.id}.jpg`;
+const back = eventImages(lang, e).back();
 const other: Lang = lang === 'it' ? 'en' : 'it';
 const miracle = e.type === 'miracolo';
 const slug = (l: Lang) => (miracle ? t(l).miracleSlug : t(l).scourgeSlug);
@@ -30,7 +32,8 @@ const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
 
 <Base lang={lang} title={title} image={image} description={e.summary} alt={`${other}/${slug(other)}/${e.id}`}>
   <EntryLayout tone={e.tone}>
-    <Card slot="card" svg={svg} download={url(image)} downloadName={`${e.id}.png`} downloadLabel={s.download}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    <Card slot="card" svg={svg} back={back} name={e.id} lang={lang}>{generated ? s.aiLabel : s.provisionalSantino}</Card>
+    {e.tone !== 'lutto' && <ShareButtons lang={lang} href={absolute(`${lang}/${slug(lang)}/${e.id}`)} text={title} />}
     <p class="kicker">
       {miracle ? s.miracle : s.scourge}
       {e.noCulprit && ` · ${s.calamity}`} · <a href={url(`${lang}/${e.date.slice(5)}`)}>{formatDate(e.date, lang)}</a>
@@ -70,7 +73,6 @@ const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
         </>
       )
     }
-    {e.tone !== 'lutto' && <ShareButtons lang={lang} href={absolute(`${lang}/${slug(lang)}/${e.id}`)} text={title} />}
   </EntryLayout>
 
   <section class="card tech">

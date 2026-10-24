@@ -1,6 +1,6 @@
 ---
-// Share links for a page. No third-party scripts: plain intent URLs, plus copy-link and the
-// native share sheet (shown only where the browser supports it).
+// Compact share bar with icons, shown at the top of a page. No third-party scripts: plain intent URLs,
+// plus copy-link and the native share sheet (shown only where the browser supports it).
 import { t, type Lang } from '../lib/i18n';
 
 interface Props {
@@ -13,28 +13,35 @@ interface Props {
 const { lang, href, text } = Astro.props;
 const s = t(lang);
 const e = encodeURIComponent;
+// Simple line icons (24×24), not brand logos.
 const links = [
-  { label: 'WhatsApp', url: `https://wa.me/?text=${e(`${text} ${href}`)}` },
-  { label: 'Telegram', url: `https://t.me/share/url?url=${e(href)}&text=${e(text)}` },
-  { label: 'X', url: `https://x.com/intent/post?text=${e(text)}&url=${e(href)}` },
-  { label: 'Bluesky', url: `https://bsky.app/intent/compose?text=${e(`${text} ${href}`)}` },
-  { label: 'LinkedIn', url: `https://www.linkedin.com/sharing/share-offsite/?url=${e(href)}` },
-  { label: 'Facebook', url: `https://www.facebook.com/sharer/sharer.php?u=${e(href)}` },
-  { label: 'Email', url: `mailto:?subject=${e(text)}&body=${e(`${text}\n${href}`)}` },
+  { label: 'WhatsApp', url: `https://wa.me/?text=${e(`${text} ${href}`)}`, icon: '<path d="M4 20l1.3-3.9A8 8 0 1 1 8 18.8z"/><path d="M9 9.5c.5 2.5 2.5 4.5 5 5l1.2-1.2-2-1-.8.8a4 4 0 0 1-2-2l.8-.8-1-2z"/>' },
+  { label: 'Telegram', url: `https://t.me/share/url?url=${e(href)}&text=${e(text)}`, icon: '<path d="M21 4L3 11l6 2.2L11 20l3.2-4 4.8 3.5z"/><path d="M9 13.2L21 4"/>' },
+  { label: 'X', url: `https://x.com/intent/post?text=${e(text)}&url=${e(href)}`, icon: '<path d="M5 4l14 16M19 4L5 20"/>' },
+  { label: 'Bluesky', url: `https://bsky.app/intent/compose?text=${e(`${text} ${href}`)}`, icon: '<path d="M12 11C10 7 6.5 4.5 4.5 5.3 3 6 4.5 11 8 12.3 5 13.5 5.5 17 8.5 17.3 10.5 17.5 12 14 12 11zm0 0c2-4 5.5-6.5 7.5-5.7 1.5.7 0 5.7-3.5 7 3 1.2 2.5 4.7-.5 5-2 .2-3.5-3.3-3.5-6.3z"/>' },
+  { label: 'LinkedIn', url: `https://www.linkedin.com/sharing/share-offsite/?url=${e(href)}`, icon: '<rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M8 10v6M8 7.5v.01M12 16v-6M12 12.5a2.5 2.5 0 0 1 5 0V16"/>' },
+  { label: 'Facebook', url: `https://www.facebook.com/sharer/sharer.php?u=${e(href)}`, icon: '<path d="M14.5 8H17V4.5h-2.5A4 4 0 0 0 10.5 8.5V11H8v3.5h2.5V21H14v-6.5h2.6l.6-3.5H14V8.6a.6.6 0 0 1 .5-.6z"/>' },
+  { label: 'Email', url: `mailto:?subject=${e(text)}&body=${e(`${text}\n${href}`)}`, icon: '<rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3.5 6.5L12 13l8.5-6.5"/>' },
 ];
+const linkIcon = '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>';
+const shareIcon = '<circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.3 10.8l7.4-3.6M8.3 13.2l7.4 3.6"/>';
 ---
 
-<div class="share" data-href={href} data-text={text}>
-  <span class="share-label">{s.share}</span>
-  <button type="button" class="pill native" hidden>{s.shareNative}</button>
+<div class="share" data-href={href} data-text={text} aria-label={s.share}>
+  <button type="button" class="ic native" title={s.shareNative} aria-label={s.shareNative} hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true" set:html={shareIcon} />
+  </button>
   {
     links.map((l) => (
-      <a class="pill" href={l.url} target="_blank" rel="noopener noreferrer">
-        {l.label}
+      <a class="ic" href={l.url} target="_blank" rel="noopener noreferrer" title={l.label} aria-label={`${s.share}: ${l.label}`}>
+        <svg viewBox="0 0 24 24" aria-hidden="true" set:html={l.icon} />
       </a>
     ))
   }
-  <button type="button" class="pill copy" data-done={s.copied}>{s.copyLink}</button>
+  <button type="button" class="ic copy" title={s.copyLink} aria-label={s.copyLink} data-done={s.copied}>
+    <svg viewBox="0 0 24 24" aria-hidden="true" set:html={linkIcon} />
+  </button>
+  <span class="copied" role="status" hidden>{s.copied}</span>
 </div>
 
 <script is:inline>
@@ -45,13 +52,12 @@ const links = [
       native.hidden = false;
       native.addEventListener('click', () => navigator.share({ title: text, text, url: href }).catch(() => {}));
     }
-    const copy = box.querySelector('.copy');
-    copy.addEventListener('click', async () => {
+    const done = box.querySelector('.copied');
+    box.querySelector('.copy').addEventListener('click', async () => {
       try {
         await navigator.clipboard.writeText(href);
-        const label = copy.textContent;
-        copy.textContent = copy.dataset.done;
-        setTimeout(() => (copy.textContent = label), 1800);
+        done.hidden = false;
+        setTimeout(() => (done.hidden = true), 1800);
       } catch {
         prompt('', href);
       }
@@ -63,27 +69,38 @@ const links = [
   .share {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 4px;
     align-items: center;
-    margin-top: 20px;
+    margin: 0 0 10px;
   }
-  .share-label {
-    font-variant: small-caps;
-    color: var(--gold);
-    margin-right: 4px;
-  }
-  .pill {
-    font: inherit;
-    font-size: 0.8rem;
-    color: var(--red);
-    background: var(--paper);
+  .ic {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
     border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: 2px 12px;
-    text-decoration: none;
+    border-radius: 50%;
+    background: var(--paper);
+    color: var(--red);
     cursor: pointer;
   }
-  .pill:hover {
+  .ic:hover {
     border-color: var(--gold);
+  }
+  .ic svg {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .copied {
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-left: 4px;
   }
 </style>

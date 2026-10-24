@@ -126,3 +126,18 @@ export function allPopes(): PopeEntry[] {
 export const popeText = (key: string, lang: Lang) => popeTexts[`../data/popes/${key}.json`]?.[lang];
 export const popesForVuln = (v: Vuln) => allPopes().filter((p) => p.vuln.id === v.id);
 export const popeCardKey = (key: string) => `papa-${key}`;
+
+/** "Canonized by Pope X": the Pope of the saint's year, or the saint's own election. */
+export function papalLine(v: Vuln, lang: Lang): { text: string; popeKey?: string } {
+  const it = lang === 'it';
+  const year = v.date.slice(0, 4);
+  const own = popesForVuln(v).find((p) => p.kind === 'year');
+  const title = (key: string, fallback: string) => popeText(key, lang)?.title ?? fallback;
+  if (own) return { text: it ? `Eletto ${title(own.key, `Papa ${v.name}`)} nel ${year}` : `Elected ${title(own.key, `Pope ${v.name}`)} in ${year}`, popeKey: own.key };
+  if (v.category === 'padre') return { text: it ? 'Padre della Chiesa, prima dei Papi' : 'Father of the Church, before the Popes' };
+  const pope = allPopes().find((p) => p.kind === 'year' && p.key === year);
+  const blessed = v.category === 'beato';
+  if (!pope) return { text: it ? `${blessed ? 'Beatificato' : 'Canonizzato'} in sede vacante` : `${blessed ? 'Beatified' : 'Canonized'} during the vacant see` };
+  const name = title(pope.key, `${it ? 'Papa' : 'Pope'} ${pope.vuln.name}`);
+  return { text: it ? `${blessed ? 'Beatificato' : 'Canonizzato'} da ${name}` : `${blessed ? 'Beatified' : 'Canonized'} by ${name}`, popeKey: pope.key };
+}
