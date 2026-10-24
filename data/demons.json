@@ -1,0 +1,1628 @@
+{
+ "$comment": "Bestiary demons: malware families and groups. Sources include MITRE ATT&CK (© The MITRE Corporation; reproduced and distributed with permission). status: active | exorcised (law-enforcement takedown, see exorcism) | dormant.",
+ "attackTerms": "MITRE ATT&CK Terms of Use grant 'a non-exclusive, royalty-free license to use ATT&CK for research, development, and commercial purposes'; 'Any copy you make for such purposes is authorized provided that you reproduce MITRE's copyright designation and this license in any such copy.' Verdict: reuse on a public non-commercial site is allowed (non-commercial use is a fortiori covered) provided the site reproduces the copyright notice ('© <year> The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.') and the license text, and respects MITRE trademark rules (ATT&CK® is a registered trademark; no implied endorsement). Source: https://attack.mitre.org/resources/legal-and-branding/terms-of-use/ (fetched 2026-10-24).",
+ "demons": [
+  {
+   "id": "morris-worm",
+   "name": "Morris Worm",
+   "aliases": [
+    "Internet Worm of 1988"
+   ],
+   "primary": "worm",
+   "secondary": [],
+   "firstSeen": {
+    "year": 1988
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "1988 Internet worm outage"
+   ],
+   "defenses": [
+    "Remove debug/backdoor features from network daemons",
+    "Avoid trust-based remote login (rsh/rexec); require authentication",
+    "Enforce strong passwords"
+   ],
+   "attackId": null,
+   "summary": "Released by Robert Tappan Morris in November 1988, it spread across Unix hosts via a sendmail debug mode, a fingerd buffer overflow and weak passwords/rsh trust. A re-infection bug made it overload thousands of machines, an estimated tenth of the early Internet. It led to the first US conviction under the Computer Fraud and Abuse Act and to the creation of CERT/CC.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Morris_worm",
+    "https://www.fbi.gov/history/famous-cases/morris-worm"
+   ]
+  },
+  {
+   "id": "iloveyou",
+   "name": "ILOVEYOU",
+   "aliases": [
+    "Love Bug",
+    "Love Letter",
+    "VBS/LoveLetter"
+   ],
+   "primary": "worm",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2000
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "ILOVEYOU mass-mailing outbreak (May 2000)"
+   ],
+   "defenses": [
+    "Do not open unexpected attachments; show file extensions",
+    "Block script attachments (.vbs, .js) at the mail gateway",
+    "Disable Windows Script Host where unneeded"
+   ],
+   "attackId": null,
+   "summary": "A VBScript mass-mailing worm released from the Philippines on 4 May 2000, spreading as 'LOVE-LETTER-FOR-YOU.TXT.vbs' through Outlook address books. It overwrote local files and infected tens of millions of Windows PCs within days. Its author could not be prosecuted because the Philippines lacked a cybercrime law at the time.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/ILOVEYOU"
+   ]
+  },
+  {
+   "id": "code-red",
+   "name": "Code Red",
+   "aliases": [
+    "CodeRed",
+    "Code Red II"
+   ],
+   "primary": "worm",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2001
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2001-0500"
+   ],
+   "relatedEvents": [
+    "Code Red outbreak (July 2001)",
+    "DDoS attempt on whitehouse.gov"
+   ],
+   "defenses": [
+    "Patch internet-facing web servers promptly (MS01-033)",
+    "Remove unused ISAPI extensions/handlers",
+    "Filter and monitor anomalous outbound traffic"
+   ],
+   "attackId": null,
+   "summary": "A memory-resident worm that exploited a buffer overflow in the IIS Indexing Service (idq.dll) in July 2001. It defaced pages with 'Hacked By Chinese!' and launched a DDoS against the White House website, infecting over 350,000 hosts in under 14 hours. The variant Code Red II installed a backdoor.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Code_Red_(computer_worm)",
+    "https://nvd.nist.gov/vuln/detail/CVE-2001-0500"
+   ]
+  },
+  {
+   "id": "sql-slammer",
+   "name": "SQL Slammer",
+   "aliases": [
+    "Sapphire",
+    "W32.SQLExp.Worm"
+   ],
+   "primary": "worm",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2003
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2002-0649"
+   ],
+   "relatedEvents": [
+    "SQL Slammer outbreak (January 2003)"
+   ],
+   "defenses": [
+    "Patch database servers (MS02-039) and keep them off the internet",
+    "Block UDP 1434 at the perimeter",
+    "Apply egress filtering"
+   ],
+   "attackId": null,
+   "summary": "A 376-byte worm that hit on 25 January 2003, exploiting a buffer overflow in the Microsoft SQL Server Resolution Service over a single UDP packet. It infected about 75,000 hosts in roughly ten minutes, the fastest-spreading worm then recorded, slowing large parts of the Internet and disrupting ATMs and emergency services. The patch had been available for six months.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/SQL_Slammer",
+    "https://nvd.nist.gov/vuln/detail/CVE-2002-0649"
+   ]
+  },
+  {
+   "id": "blaster",
+   "name": "Blaster",
+   "aliases": [
+    "MSBlast",
+    "Lovesan",
+    "Lovsan"
+   ],
+   "primary": "worm",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2003
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2003-0352"
+   ],
+   "relatedEvents": [
+    "Blaster outbreak (August 2003)",
+    "SYN flood against windowsupdate.com"
+   ],
+   "defenses": [
+    "Patch promptly (MS03-026)",
+    "Enable host firewall and block RPC/DCOM (TCP 135) from untrusted networks"
+   ],
+   "attackId": null,
+   "summary": "A worm that spread in August 2003 by exploiting a buffer overflow in the Windows DCOM RPC interface, causing repeated reboots on infected machines. It carried a message to Bill Gates and was programmed to flood windowsupdate.com. It pushed Microsoft toward enabling the Windows Firewall by default in XP SP2.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Blaster_(computer_worm)",
+    "https://nvd.nist.gov/vuln/detail/CVE-2003-0352"
+   ]
+  },
+  {
+   "id": "sasser",
+   "name": "Sasser",
+   "aliases": [
+    "W32.Sasser"
+   ],
+   "primary": "worm",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2004
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2003-0533"
+   ],
+   "relatedEvents": [
+    "Sasser outbreak (May 2004)"
+   ],
+   "defenses": [
+    "Patch promptly (MS04-011)",
+    "Block SMB/LSASS ports (TCP 445, 139) from untrusted networks",
+    "Enable host firewall"
+   ],
+   "attackId": null,
+   "summary": "A self-propagating worm released in April-May 2004 that exploited a buffer overflow in the Windows LSASS service, requiring no user interaction. It crashed and rebooted machines worldwide, disrupting airlines, hospitals and news agencies. Its author, a German teenager, also wrote Netsky variants and was convicted in 2005.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sasser_(computer_worm)",
+    "https://nvd.nist.gov/vuln/detail/CVE-2003-0533"
+   ]
+  },
+  {
+   "id": "mydoom",
+   "name": "Mydoom",
+   "aliases": [
+    "Novarg",
+    "Shimgapi"
+   ],
+   "primary": "worm",
+   "secondary": [
+    "botnet"
+   ],
+   "firstSeen": {
+    "year": 2004
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Mydoom outbreak (January 2004)",
+    "DDoS against SCO Group",
+    "2009 DDoS on US and South Korean sites"
+   ],
+   "defenses": [
+    "Filter executable and archive attachments at the mail gateway",
+    "User awareness on unexpected attachments",
+    "Keep antivirus signatures current"
+   ],
+   "attackId": null,
+   "summary": "A mass-mailing worm first seen on 26 January 2004 that became the fastest-spreading email worm on record, at one point carried by a large share of all email. It opened a backdoor and launched DDoS attacks against SCO Group. Its author was never identified, and variants were reused in 2009 DDoS attacks on US and South Korean websites.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mydoom"
+   ]
+  },
+  {
+   "id": "conficker",
+   "name": "Conficker",
+   "aliases": [
+    "Downadup",
+    "Kido"
+   ],
+   "primary": "worm",
+   "secondary": [
+    "botnet"
+   ],
+   "firstSeen": {
+    "year": 2008
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2008-4250"
+   ],
+   "relatedEvents": [
+    "Conficker outbreak (2008-2009)",
+    "Infections at UK Ministry of Defence and French Navy"
+   ],
+   "defenses": [
+    "Patch MS08-067 and keep legacy systems updated",
+    "Disable AutoRun/AutoPlay for removable media",
+    "Enforce strong admin passwords and account lockout"
+   ],
+   "attackId": "S0608",
+   "summary": "A worm first detected in November 2008 that exploited the Windows Server service flaw MS08-067, spread via USB drives and weak network-share passwords, and used domain-generation algorithms for command and control. It built a botnet of millions of PCs, prompting the industry Conficker Working Group to pre-register its domains. It never delivered a major payload but lingered on unpatched systems for over a decade.",
+   "sources": [
+    "https://attack.mitre.org/software/S0608/",
+    "https://en.wikipedia.org/wiki/Conficker",
+    "https://nvd.nist.gov/vuln/detail/CVE-2008-4250"
+   ]
+  },
+  {
+   "id": "mirai",
+   "name": "Mirai",
+   "aliases": [],
+   "primary": "botnet",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2016
+   },
+   "status": "active",
+   "cves": [],
+   "relatedEvents": [
+    "Krebs on Security DDoS (Sept 2016)",
+    "OVH DDoS (Sept 2016)",
+    "Dyn DNS outage (21 Oct 2016)",
+    "Deutsche Telekom router outage (Nov 2016)"
+   ],
+   "defenses": [
+    "Change default credentials on IoT devices",
+    "Disable Telnet/remote admin on internet-facing devices",
+    "Segment and firmware-update IoT devices"
+   ],
+   "attackId": null,
+   "summary": "IoT botnet malware that scans for devices such as cameras and routers using factory-default Telnet credentials and enlists them for DDoS attacks. In 2016 it produced record attacks, including the Dyn DNS outage that disrupted major websites. Its source code was published in September 2016 and its three authors pleaded guilty in the US in December 2017; countless variants remain active.",
+   "sources": [
+    "https://www.justice.gov/opa/pr/justice-department-announces-charges-and-guilty-pleas-three-computer-crime-cases-involving",
+    "https://en.wikipedia.org/wiki/Mirai_(malware)",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/ta16-288a"
+   ]
+  },
+  {
+   "id": "emotet",
+   "name": "Emotet",
+   "aliases": [
+    "Geodo",
+    "Heodo",
+    "Mealybug (operators)"
+   ],
+   "primary": "botnet",
+   "secondary": [
+    "banking"
+   ],
+   "firstSeen": {
+    "year": 2014
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "International Emotet takedown (Dutch codename reported as Operation LadyBird)",
+    "date": "2021-01-27",
+    "by": "Europol/Eurojust with NL, DE, US, UK, FR, LT, CA, UA",
+    "note": "Botnet resurfaced Nov 2021; low activity since 2023"
+   },
+   "cves": [],
+   "relatedEvents": [
+    "Malspam campaigns delivering TrickBot and Ryuk",
+    "Allentown city network infection (2018)"
+   ],
+   "defenses": [
+    "Block macros in Office documents from the internet",
+    "Filter malspam attachments and links at the mail gateway",
+    "Segment networks and limit admin share access to slow lateral movement"
+   ],
+   "attackId": "S0367",
+   "summary": "Emotet began in 2014 as a banking trojan and evolved into a malware-loading botnet sold as access to other criminals, spread mostly by malicious Office documents. Europol called it the world's most dangerous malware when an international operation took over its infrastructure on 27 January 2021 and pushed an uninstall update. It re-emerged in November 2021 with TrickBot's help but has been largely quiet since 2023.",
+   "sources": [
+    "https://attack.mitre.org/software/S0367/",
+    "https://www.europol.europa.eu/media-press/newsroom/news/world%E2%80%99s-most-dangerous-malware-emotet-disrupted-through-global-action"
+   ]
+  },
+  {
+   "id": "gameover-zeus",
+   "name": "GameOver Zeus",
+   "aliases": [
+    "P2P ZeuS",
+    "GOZ",
+    "Peer-to-Peer Zeus"
+   ],
+   "primary": "botnet",
+   "secondary": [
+    "banking"
+   ],
+   "firstSeen": {
+    "year": 2011
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Operation Tovar",
+    "date": "2014-06-02",
+    "by": "FBI/DOJ with Europol, NCA and private partners"
+   },
+   "cves": [],
+   "relatedEvents": [
+    "Theft of over $100 million from bank accounts",
+    "Distribution of CryptoLocker"
+   ],
+   "defenses": [
+    "Use out-of-band transaction verification for online banking",
+    "Keep endpoints patched and run EDR",
+    "Block known C2 and DGA domains"
+   ],
+   "attackId": "S0016",
+   "summary": "A peer-to-peer variant of the ZeuS banking trojan operated by Evgeniy Bogachev's group, used to steal online banking credentials and to distribute CryptoLocker ransomware. Its decentralised design made it resilient to takedown. The US-led Operation Tovar disrupted both GameOver Zeus and CryptoLocker in June 2014, and Bogachev remains on the FBI's most-wanted list.",
+   "sources": [
+    "https://attack.mitre.org/software/S0016/",
+    "https://www.justice.gov/opa/pr/us-leads-multi-national-action-against-gameover-zeus-botnet-and-cryptolocker-ransomware"
+   ]
+  },
+  {
+   "id": "qakbot",
+   "name": "Qakbot",
+   "aliases": [
+    "QakBot",
+    "QBot",
+    "Pinkslipbot",
+    "Quakbot"
+   ],
+   "primary": "botnet",
+   "secondary": [
+    "banking",
+    "ransomware"
+   ],
+   "firstSeen": {
+    "year": 2007,
+    "approx": true
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Operation Duck Hunt",
+    "date": "2023-08-29",
+    "by": "FBI/DOJ with FR, DE, NL, UK, RO, LV",
+    "note": "Date is the DOJ announcement; takedown action ran in the preceding days"
+   },
+   "cves": [
+    "CVE-2022-30190"
+   ],
+   "relatedEvents": [
+    "Initial access for Conti, Black Basta, REvil and ProLock ransomware"
+   ],
+   "defenses": [
+    "Block macro and HTML/OneNote/ISO attachments from email",
+    "Monitor for email thread hijacking and suspicious child processes of Office",
+    "Enforce MFA and least-privilege to blunt lateral movement"
+   ],
+   "attackId": "S0650",
+   "summary": "Qakbot started around 2007-2008 as a banking trojan and became a major malware loader, often hijacking email reply chains to spread and selling access to ransomware gangs. In the FBI-led Operation Duck Hunt in late August 2023, agents redirected infected computers to FBI servers and issued an uninstaller to over 700,000 machines. Smaller campaigns reappeared afterwards and its alleged leader was indicted in May 2025.",
+   "sources": [
+    "https://attack.mitre.org/software/S0650/",
+    "https://www.justice.gov/opa/pr/qakbot-malware-disrupted-international-cyber-takedown"
+   ]
+  },
+  {
+   "id": "trickbot",
+   "name": "TrickBot",
+   "aliases": [
+    "Trickster",
+    "TrickLoader"
+   ],
+   "primary": "botnet",
+   "secondary": [
+    "banking",
+    "ransomware"
+   ],
+   "firstSeen": {
+    "year": 2016
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Operation Endgame",
+    "date": "2024-05-29",
+    "by": "Europol/Eurojust with FR, DE, NL and partners",
+    "note": "Earlier civil disruption by Microsoft in Oct 2020"
+   },
+   "cves": [
+    "CVE-2017-0144"
+   ],
+   "relatedEvents": [
+    "Ryuk and Conti attacks on US hospitals (2020)",
+    "Universal Health Services attack (2020)"
+   ],
+   "defenses": [
+    "Patch MS17-010 and disable SMBv1",
+    "Block malspam attachments and monitor for Emotet/BazarLoader droppers",
+    "Protect credentials (LSASS protection, MFA) and segment networks"
+   ],
+   "attackId": "S0266",
+   "summary": "A modular banking trojan that emerged in 2016 from the Dyre lineage and became a botnet and ransomware delivery platform run by the Wizard Spider group, behind Ryuk and Conti. Microsoft led a court-ordered infrastructure disruption in October 2020, and the operators shifted to other tools by 2022. Its infrastructure was further hit by Europol's Operation Endgame in May 2024.",
+   "sources": [
+    "https://attack.mitre.org/software/S0266/",
+    "https://attack.mitre.org/groups/G0102/",
+    "https://www.europol.europa.eu/media-press/newsroom/news/largest-ever-operation-against-botnets-hits-dropper-malware-ecosystem"
+   ]
+  },
+  {
+   "id": "necurs",
+   "name": "Necurs",
+   "aliases": [],
+   "primary": "botnet",
+   "secondary": [
+    "ransomware",
+    "banking"
+   ],
+   "firstSeen": {
+    "year": 2012,
+    "approx": true
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Locky ransomware spam waves (2016)",
+    "Dridex distribution",
+    "Pump-and-dump stock spam"
+   ],
+   "defenses": [
+    "Filter spam and malicious attachments at the gateway",
+    "Block known DGA domains",
+    "Keep endpoints patched and monitored"
+   ],
+   "attackId": null,
+   "summary": "One of the largest spam botnets, active from about 2012, which infected over nine million computers and distributed Dridex, Locky ransomware and fraud spam. Microsoft obtained a US court order in March 2020 to seize its infrastructure and pre-empt its domain generation algorithm. It has been largely inactive since.",
+   "sources": [
+    "https://blogs.microsoft.com/on-the-issues/2020/03/10/necurs-botnet-cyber-crime-disrupt/",
+    "https://en.wikipedia.org/wiki/Necurs_botnet"
+   ]
+  },
+  {
+   "id": "cryptolocker",
+   "name": "CryptoLocker",
+   "aliases": [],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2013
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Operation Tovar",
+    "date": "2014-06-02",
+    "by": "FBI/DOJ with Europol, NCA and private partners"
+   },
+   "cves": [],
+   "relatedEvents": [
+    "CryptoLocker extortion wave (2013-2014)"
+   ],
+   "defenses": [
+    "Keep offline, tested backups",
+    "Block executable attachments in email",
+    "Restrict write access to network shares"
+   ],
+   "attackId": null,
+   "summary": "Ransomware first seen in September 2013 that encrypted files with RSA keys and demanded payment in Bitcoin, setting the template for modern ransomware. It was distributed largely through the GameOver Zeus botnet and reportedly extorted millions of dollars. Operation Tovar disrupted it in June 2014, after which a decryption service was released.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/CryptoLocker",
+    "https://www.justice.gov/opa/pr/us-leads-multi-national-action-against-gameover-zeus-botnet-and-cryptolocker-ransomware"
+   ]
+  },
+  {
+   "id": "wannacry",
+   "name": "WannaCry",
+   "aliases": [
+    "WanaCry",
+    "WanaCrypt0r",
+    "WCry"
+   ],
+   "primary": "ransomware",
+   "secondary": [
+    "worm",
+    "spionaggio"
+   ],
+   "firstSeen": {
+    "year": 2017
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2017-0144"
+   ],
+   "relatedEvents": [
+    "WannaCry outbreak (12 May 2017)",
+    "NHS England disruption"
+   ],
+   "defenses": [
+    "Patch MS17-010 and disable SMBv1",
+    "Block TCP 445 from the internet",
+    "Keep offline backups"
+   ],
+   "attackId": "S0366",
+   "summary": "A ransomware worm released on 12 May 2017 that spread automatically via the leaked NSA exploit EternalBlue, infecting over 200,000 computers in 150 countries including NHS hospitals. Spread was halted when a researcher registered its kill-switch domain. The US and UK attributed it to North Korea's Lazarus Group.",
+   "sources": [
+    "https://attack.mitre.org/software/S0366/",
+    "https://attack.mitre.org/groups/G0032/",
+    "https://www.justice.gov/opa/pr/north-korean-regime-backed-programmer-charged-conspiracy-conduct-multiple-cyber-attacks-and"
+   ]
+  },
+  {
+   "id": "ryuk",
+   "name": "Ryuk",
+   "aliases": [],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2018
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2020-1472"
+   ],
+   "relatedEvents": [
+    "Tribune Publishing attack (2018)",
+    "Universal Health Services attack (2020)",
+    "Attacks on US hospitals during COVID-19"
+   ],
+   "defenses": [
+    "Remove TrickBot/Emotet/BazarLoader footholds quickly",
+    "Protect domain admin credentials and patch Zerologon",
+    "Keep offline backups"
+   ],
+   "attackId": "S0446",
+   "summary": "Big-game-hunting ransomware first seen in August 2018, operated by Wizard Spider and typically deployed after TrickBot or BazarLoader infections. It targeted hospitals, municipalities and newspapers and demanded large ransoms. It faded in 2021 as the operators moved to Conti.",
+   "sources": [
+    "https://attack.mitre.org/software/S0446/",
+    "https://attack.mitre.org/groups/G0102/",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-302a"
+   ]
+  },
+  {
+   "id": "revil",
+   "name": "REvil",
+   "aliases": [
+    "Sodinokibi",
+    "Sodin"
+   ],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2019
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Operation GoldDust",
+    "date": "2021-11-08",
+    "by": "Europol/Eurojust with 17 countries; DOJ charges vs Kaseya attacker",
+    "note": "FSB arrests followed on 2022-01-14"
+   },
+   "cves": [
+    "CVE-2021-30116",
+    "CVE-2019-2725"
+   ],
+   "relatedEvents": [
+    "Kaseya VSA supply-chain attack (July 2021)",
+    "JBS Foods attack (2021)",
+    "Travelex attack (2019-2020)"
+   ],
+   "defenses": [
+    "Patch and restrict internet-exposed management software (RMM, WebLogic)",
+    "Enforce MFA on remote access",
+    "Keep offline backups"
+   ],
+   "attackId": "S0496",
+   "summary": "A ransomware-as-a-service operation run by GOLD SOUTHFIELD that emerged in 2019 as the likely successor of GandCrab and pioneered double extortion at scale. Its July 2021 attack via Kaseya VSA hit up to 1,500 businesses. Affiliates were arrested in Romania and elsewhere in Europol's Operation GoldDust in November 2021, and Russia's FSB detained members in January 2022.",
+   "sources": [
+    "https://attack.mitre.org/software/S0496/",
+    "https://attack.mitre.org/groups/G0115/",
+    "https://www.europol.europa.eu/media-press/newsroom/news/five-affiliates-to-sodinokibi/revil-unplugged",
+    "https://www.justice.gov/opa/pr/ukrainian-arrested-and-charged-ransomware-attack-kaseya"
+   ]
+  },
+  {
+   "id": "conti",
+   "name": "Conti",
+   "aliases": [],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2019,
+    "approx": true
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2021-44228",
+    "CVE-2020-1472",
+    "CVE-2021-34473"
+   ],
+   "relatedEvents": [
+    "Ireland HSE attack (May 2021)",
+    "Costa Rica government attack (2022)",
+    "Conti chat leaks (2022)"
+   ],
+   "defenses": [
+    "Patch internet-facing systems (Log4j, ProxyShell, Zerologon)",
+    "Detect Cobalt Strike and remove TrickBot/BazarLoader footholds",
+    "Keep offline backups"
+   ],
+   "attackId": "S0575",
+   "summary": "A ransomware-as-a-service operation linked to Wizard Spider, first seen in late 2019 and one of the most prolific gangs of 2020-2022. It crippled Ireland's health service in 2021 and led Costa Rica to declare a national emergency in 2022. After internal chats leaked in early 2022 it shut down in May-June 2022, with members dispersing to other groups.",
+   "sources": [
+    "https://attack.mitre.org/software/S0575/",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-265a"
+   ]
+  },
+  {
+   "id": "lockbit",
+   "name": "LockBit",
+   "aliases": [
+    "ABCD ransomware",
+    "LockBit 2.0",
+    "LockBit 3.0",
+    "LockBit Black"
+   ],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2019
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Operation Cronos",
+    "date": "2024-02-19",
+    "by": "UK NCA, FBI, Europol and partners"
+   },
+   "cves": [
+    "CVE-2023-4966",
+    "CVE-2023-0669",
+    "CVE-2023-27350",
+    "CVE-2021-44228",
+    "CVE-2018-13379"
+   ],
+   "relatedEvents": [
+    "Royal Mail attack (2023)",
+    "ICBC US attack (2023)",
+    "Boeing attack (2023)"
+   ],
+   "defenses": [
+    "Patch edge devices quickly (Citrix, Fortinet, PaperCut)",
+    "Enforce MFA on RDP/VPN and restrict RDP exposure",
+    "Keep offline backups and test restores"
+   ],
+   "attackId": "S1202",
+   "summary": "A ransomware-as-a-service operation first seen in 2019 that became the most deployed ransomware worldwide in 2022-2023. In Operation Cronos the UK NCA, FBI and international partners took control of its infrastructure on 19-20 February 2024, recovered decryption keys and later named its alleged administrator. The group attempted relaunches afterwards but with far lower impact.",
+   "sources": [
+    "https://attack.mitre.org/software/S1202/",
+    "https://attack.mitre.org/software/S1199/",
+    "https://www.nationalcrimeagency.gov.uk/news/nca-leads-international-investigation-targeting-worlds-most-harmful-ransomware-group",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a"
+   ]
+  },
+  {
+   "id": "cl0p",
+   "name": "Cl0p",
+   "aliases": [
+    "Clop"
+   ],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2019
+   },
+   "status": "active",
+   "cves": [
+    "CVE-2023-34362",
+    "CVE-2023-0669",
+    "CVE-2021-27101",
+    "CVE-2024-50623",
+    "CVE-2025-61882"
+   ],
+   "relatedEvents": [
+    "Accellion FTA breaches (2020-2021)",
+    "GoAnywhere MFT campaign (2023)",
+    "MOVEit Transfer mass exploitation (2023)",
+    "Cleo file-transfer campaign (2024)",
+    "Oracle E-Business Suite extortion (2025)"
+   ],
+   "defenses": [
+    "Patch and isolate managed file transfer servers",
+    "Restrict internet exposure of file-transfer and ERP systems",
+    "Monitor for webshells and large outbound transfers"
+   ],
+   "attackId": "S0611",
+   "summary": "Ransomware linked to the financially motivated TA505/FIN11 cluster, first seen in 2019. Since 2020 the group has specialised in mass exploitation of zero-days in file-transfer products, stealing data from hundreds of organisations at once and extorting them, as in the 2023 MOVEit campaign. It remains active.",
+   "sources": [
+    "https://attack.mitre.org/software/S0611/",
+    "https://attack.mitre.org/groups/G0092/",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a"
+   ]
+  },
+  {
+   "id": "blackcat",
+   "name": "BlackCat",
+   "aliases": [
+    "ALPHV",
+    "Noberus"
+   ],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2021
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "FBI disruption of ALPHV/BlackCat",
+    "date": "2023-12-19",
+    "by": "FBI/DOJ",
+    "note": "Group exit-scammed in March 2024"
+   },
+   "cves": [],
+   "relatedEvents": [
+    "MGM Resorts attack (2023, with Scattered Spider)",
+    "Change Healthcare attack (2024)"
+   ],
+   "defenses": [
+    "Enforce phishing-resistant MFA and harden help-desk identity verification",
+    "Monitor for remote access tools and ESXi encryption",
+    "Keep offline backups"
+   ],
+   "attackId": "S1068",
+   "summary": "Ransomware-as-a-service first seen in November 2021, notable as the first major ransomware written in Rust and able to target Windows, Linux and VMware ESXi. The FBI disrupted it in December 2023 and released a decryptor to over 500 victims. After the 2024 Change Healthcare attack its operators staged an apparent exit scam and went dark.",
+   "sources": [
+    "https://attack.mitre.org/software/S1068/",
+    "https://www.justice.gov/opa/pr/justice-department-disrupts-prolific-alphvblackcat-ransomware-variant",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-353a"
+   ]
+  },
+  {
+   "id": "darkside",
+   "name": "DarkSide",
+   "aliases": [],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2020
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Colonial Pipeline attack (May 2021)"
+   ],
+   "defenses": [
+    "Enforce MFA on VPNs and disable unused accounts",
+    "Separate IT from OT networks",
+    "Keep offline backups"
+   ],
+   "attackId": null,
+   "summary": "A ransomware-as-a-service operation first seen in August 2020. Its May 2021 attack on Colonial Pipeline caused fuel shortages on the US East Coast; the DOJ later recovered most of the ransom paid. DarkSide announced it was shutting down days later and is widely seen as having rebranded as BlackMatter.",
+   "sources": [
+    "https://www.justice.gov/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-131a"
+   ]
+  },
+  {
+   "id": "hive",
+   "name": "Hive",
+   "aliases": [],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2021
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Hive takedown",
+    "date": "2023-01-26",
+    "by": "FBI/DOJ with DE, NL and Europol"
+   },
+   "cves": [
+    "CVE-2021-34473",
+    "CVE-2021-34523",
+    "CVE-2021-31207",
+    "CVE-2020-12812"
+   ],
+   "relatedEvents": [
+    "Memorial Health System attack (2021)",
+    "Costa Rica public health service attack (2022)"
+   ],
+   "defenses": [
+    "Patch Exchange (ProxyShell) and FortiOS",
+    "Enforce MFA on remote access",
+    "Keep offline backups"
+   ],
+   "attackId": null,
+   "summary": "Ransomware-as-a-service first seen in June 2021 that heavily targeted hospitals and critical infrastructure, extorting over 1,500 victims. The FBI infiltrated its network in July 2022, passed decryption keys to victims, and with German and Dutch partners seized its servers in January 2023. It is believed to have rebranded as Hunters International.",
+   "sources": [
+    "https://www.justice.gov/opa/pr/us-department-justice-disrupts-hive-ransomware-variant",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-321a"
+   ]
+  },
+  {
+   "id": "maze",
+   "name": "Maze",
+   "aliases": [
+    "ChaCha ransomware"
+   ],
+   "primary": "ransomware",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2019
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2019-11510"
+   ],
+   "relatedEvents": [
+    "Allied Universal attack (2019)",
+    "Cognizant attack (2020)"
+   ],
+   "defenses": [
+    "Patch VPN appliances (Pulse Secure)",
+    "Restrict RDP exposure and enforce MFA",
+    "Monitor large outbound data transfers"
+   ],
+   "attackId": "S0449",
+   "summary": "Ransomware first seen in May 2019 that popularised double extortion, publishing stolen data when victims refused to pay. It operated as a 'cartel' with other gangs. Its operators announced retirement in November 2020, with affiliates moving to Egregor.",
+   "sources": [
+    "https://attack.mitre.org/software/S0449/",
+    "https://en.wikipedia.org/wiki/Maze_(ransomware)"
+   ]
+  },
+  {
+   "id": "shamoon",
+   "name": "Shamoon",
+   "aliases": [
+    "Disttrack"
+   ],
+   "primary": "wiper",
+   "secondary": [
+    "spionaggio"
+   ],
+   "firstSeen": {
+    "year": 2012
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Saudi Aramco wiper attack (August 2012)",
+    "RasGas attack (2012)",
+    "Shamoon 2 (2016-2017)",
+    "Saipem attack (2018)"
+   ],
+   "defenses": [
+    "Keep offline backups and rebuild plans for workstations",
+    "Protect and monitor privileged credentials",
+    "Segment networks to limit wiper propagation"
+   ],
+   "attackId": "S0140",
+   "summary": "A destructive wiper used in August 2012 against Saudi Aramco, where it rendered around 30,000 workstations unusable and displayed a burning-flag image. New versions struck Gulf targets in 2016-2017 and Italy's Saipem in 2018. The attacks are associated with Iranian state-linked actors.",
+   "sources": [
+    "https://attack.mitre.org/software/S0140/",
+    "https://attack.mitre.org/groups/G0064/"
+   ]
+  },
+  {
+   "id": "notpetya",
+   "name": "NotPetya",
+   "aliases": [
+    "ExPetr",
+    "Nyetya",
+    "Petrwrap"
+   ],
+   "primary": "wiper",
+   "secondary": [
+    "worm",
+    "spionaggio"
+   ],
+   "firstSeen": {
+    "year": 2017
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2017-0144",
+    "CVE-2017-0145"
+   ],
+   "relatedEvents": [
+    "NotPetya attack (27 June 2017)",
+    "Maersk shutdown",
+    "Merck and FedEx/TNT losses"
+   ],
+   "defenses": [
+    "Patch MS17-010 and disable SMBv1",
+    "Vet and monitor software update channels (supply chain)",
+    "Limit admin credentials reuse and keep offline backups"
+   ],
+   "attackId": "S0368",
+   "summary": "A wiper disguised as ransomware launched on 27 June 2017 through a trojanised update of the Ukrainian accounting software M.E.Doc. It spread with EternalBlue, EternalRomance and stolen credentials, causing an estimated $10 billion in damage worldwide. The US, UK and others attributed it to Russia's GRU Sandworm unit, whose officers were indicted in 2020.",
+   "sources": [
+    "https://attack.mitre.org/software/S0368/",
+    "https://attack.mitre.org/groups/G0034/",
+    "https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware-and"
+   ]
+  },
+  {
+   "id": "olympic-destroyer",
+   "name": "Olympic Destroyer",
+   "aliases": [],
+   "primary": "wiper",
+   "secondary": [
+    "spionaggio"
+   ],
+   "firstSeen": {
+    "year": 2018
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "PyeongChang 2018 Winter Olympics opening ceremony disruption"
+   ],
+   "defenses": [
+    "Protect credentials (LSASS protection, unique admin passwords)",
+    "Keep offline backups and incident playbooks for events",
+    "Segment event networks"
+   ],
+   "attackId": "S0365",
+   "summary": "A wiper that disrupted IT systems during the opening ceremony of the PyeongChang Winter Olympics on 9 February 2018. It contained deliberate false flags pointing to other countries' hackers. The US DOJ indicted Russian GRU (Sandworm) officers for the attack in 2020.",
+   "sources": [
+    "https://attack.mitre.org/software/S0365/",
+    "https://attack.mitre.org/groups/G0034/",
+    "https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware-and"
+   ]
+  },
+  {
+   "id": "whispergate",
+   "name": "WhisperGate",
+   "aliases": [],
+   "primary": "wiper",
+   "secondary": [
+    "spionaggio"
+   ],
+   "firstSeen": {
+    "year": 2022
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Attacks on Ukrainian government networks (January 2022)"
+   ],
+   "defenses": [
+    "Keep offline backups",
+    "Enforce MFA and patch internet-facing systems",
+    "Monitor for MBR overwrites and mass file corruption"
+   ],
+   "attackId": "S0689",
+   "summary": "A wiper disguised as ransomware that hit Ukrainian government and IT organisations in mid-January 2022, ahead of Russia's full-scale invasion. It overwrote the master boot record and corrupted files with no real recovery option. The US charged a Russian national and GRU officers in connection with it in 2024.",
+   "sources": [
+    "https://attack.mitre.org/software/S0689/",
+    "https://www.justice.gov/opa/pr/russian-military-intelligence-officers-and-civilian-charged-conspiring-hack-and-destroy-ukrainian"
+   ]
+  },
+  {
+   "id": "hermeticwiper",
+   "name": "HermeticWiper",
+   "aliases": [
+    "FoxBlade",
+    "KillDisk.NCV"
+   ],
+   "primary": "wiper",
+   "secondary": [
+    "spionaggio"
+   ],
+   "firstSeen": {
+    "year": 2022
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Attacks on Ukrainian organisations (23 February 2022)"
+   ],
+   "defenses": [
+    "Keep offline backups",
+    "Monitor abuse of legitimate signed drivers",
+    "Restrict Group Policy and domain admin rights"
+   ],
+   "attackId": "S0697",
+   "summary": "A wiper deployed against Ukrainian organisations on 23 February 2022, the eve of Russia's invasion. It abused a legitimately signed EaseUS partition driver to corrupt disks and was sometimes paired with a decoy ransomware and a worm component. It is attributed to Russian state actors (Sandworm).",
+   "sources": [
+    "https://attack.mitre.org/software/S0697/",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-057a"
+   ]
+  },
+  {
+   "id": "acidrain",
+   "name": "AcidRain",
+   "aliases": [],
+   "primary": "wiper",
+   "secondary": [
+    "spionaggio"
+   ],
+   "firstSeen": {
+    "year": 2022
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Viasat KA-SAT satellite modem outage (24 February 2022)",
+    "Enercon wind turbine remote-monitoring loss"
+   ],
+   "defenses": [
+    "Harden and segment management networks of service providers",
+    "Secure VPN access (patching, MFA)",
+    "Monitor firmware/update pushes to customer devices"
+   ],
+   "attackId": "S1125",
+   "summary": "A wiper for MIPS-based modems and routers used on 24 February 2022 against Viasat's KA-SAT network, bricking tens of thousands of satellite modems across Europe. The outage also cut remote monitoring of thousands of German wind turbines. The EU, US and UK attributed the attack to Russia.",
+   "sources": [
+    "https://attack.mitre.org/software/S1125/",
+    "https://www.ncsc.gov.uk/news/russia-behind-cyber-attack-with-europe-wide-impact-hour-before-ukraine-invasion"
+   ]
+  },
+  {
+   "id": "stuxnet",
+   "name": "Stuxnet",
+   "aliases": [
+    "W32.Stuxnet"
+   ],
+   "primary": "spionaggio",
+   "secondary": [
+    "worm"
+   ],
+   "firstSeen": {
+    "year": 2010,
+    "approx": true
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2010-2568",
+    "CVE-2010-2729",
+    "CVE-2008-4250",
+    "CVE-2010-2743",
+    "CVE-2010-3338"
+   ],
+   "relatedEvents": [
+    "Sabotage of Natanz uranium-enrichment centrifuges"
+   ],
+   "defenses": [
+    "Air-gap discipline and control of removable media",
+    "Whitelist applications and monitor PLC logic changes",
+    "Patch engineering workstations"
+   ],
+   "attackId": "S0603",
+   "summary": "A sophisticated worm discovered in June 2010 that targeted Siemens Step7 software and PLCs controlling Iranian uranium-enrichment centrifuges, subtly altering their speed while hiding its changes. It spread via USB drives using several Windows zero-days and stolen code-signing certificates. It is widely reported as a joint US-Israeli operation and was the first known cyberweapon to cause physical destruction.",
+   "sources": [
+    "https://attack.mitre.org/software/S0603/",
+    "https://en.wikipedia.org/wiki/Stuxnet"
+   ]
+  },
+  {
+   "id": "flame",
+   "name": "Flame",
+   "aliases": [
+    "Flamer",
+    "sKyWIper"
+   ],
+   "primary": "spionaggio",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2012
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2010-2568",
+    "CVE-2010-2729"
+   ],
+   "relatedEvents": [
+    "Espionage in Iran and the Middle East (discovered 2012)"
+   ],
+   "defenses": [
+    "Monitor for unusual Windows Update/proxy activity",
+    "Retire MD5-based certificates",
+    "Control removable media"
+   ],
+   "attackId": "S0143",
+   "summary": "A large modular espionage toolkit publicly discovered in May 2012, mainly in Iran and the Middle East, able to record audio, screenshots, keystrokes and Bluetooth data. It spread through fake Windows Update using a forged Microsoft certificate created with an MD5 collision attack. Its operators sent a self-destruct command shortly after its exposure.",
+   "sources": [
+    "https://attack.mitre.org/software/S0143/",
+    "https://en.wikipedia.org/wiki/Flame_(malware)"
+   ]
+  },
+  {
+   "id": "duqu",
+   "name": "Duqu",
+   "aliases": [
+    "Duqu 2.0"
+   ],
+   "primary": "spionaggio",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2011
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2011-3402"
+   ],
+   "relatedEvents": [
+    "Espionage on industrial firms (2011)",
+    "Kaspersky Lab intrusion (Duqu 2.0, 2015)",
+    "Iran nuclear talks venues (2015)"
+   ],
+   "defenses": [
+    "Patch font-parsing and kernel vulnerabilities",
+    "Block malicious Word attachments",
+    "Hunt for memory-resident implants"
+   ],
+   "attackId": "S0038",
+   "summary": "An espionage toolkit discovered in September 2011 that shared much code with Stuxnet and collected information useful for attacking industrial control systems. It was delivered via a Word document exploiting a TrueType font zero-day in the Windows kernel. A memory-only successor, Duqu 2.0, was found inside Kaspersky Lab and at venues of the Iran nuclear negotiations in 2015.",
+   "sources": [
+    "https://attack.mitre.org/software/S0038/",
+    "https://en.wikipedia.org/wiki/Duqu"
+   ]
+  },
+  {
+   "id": "regin",
+   "name": "Regin",
+   "aliases": [
+    "Prax",
+    "QWERTY"
+   ],
+   "primary": "spionaggio",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2008,
+    "approx": true
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Belgacom intrusion (2013)",
+    "Espionage on telecoms and governments"
+   ],
+   "defenses": [
+    "Monitor telecom management networks (GSM base station controllers)",
+    "Hunt for stealthy kernel drivers and encrypted virtual file systems",
+    "Segment and monitor admin access"
+   ],
+   "attackId": "S0019",
+   "summary": "A highly stealthy, multi-stage espionage platform publicly exposed in November 2014 but active since at least 2008. It targeted telecom operators, governments and researchers, including Belgacom, and could monitor GSM networks. Reporting links it to the Five Eyes intelligence agencies.",
+   "sources": [
+    "https://attack.mitre.org/software/S0019/",
+    "https://en.wikipedia.org/wiki/Regin_(malware)"
+   ]
+  },
+  {
+   "id": "pegasus",
+   "name": "Pegasus",
+   "aliases": [],
+   "primary": "spionaggio",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2016
+   },
+   "status": "active",
+   "cves": [
+    "CVE-2016-4655",
+    "CVE-2016-4656",
+    "CVE-2016-4657",
+    "CVE-2021-30860",
+    "CVE-2023-41064",
+    "CVE-2023-41061"
+   ],
+   "relatedEvents": [
+    "Trident exploit against Ahmed Mansoor (2016)",
+    "Pegasus Project revelations (2021)",
+    "FORCEDENTRY zero-click (2021)",
+    "BLASTPASS (2023)"
+   ],
+   "defenses": [
+    "Keep iOS/Android updated promptly",
+    "Enable Lockdown Mode for high-risk users",
+    "Reboot devices regularly and use forensic checks (e.g. MVT)"
+   ],
+   "attackId": "S0289",
+   "summary": "Commercial spyware sold by Israel's NSO Group to governments, capable of fully compromising iPhones and Android phones, often through zero-click exploits. Investigations by Citizen Lab and Amnesty documented its use against journalists, activists and politicians. US courts found NSO liable for hacking WhatsApp users in 2025.",
+   "sources": [
+    "https://attack.mitre.org/software/S0289/",
+    "https://attack.mitre.org/software/S0316/",
+    "https://citizenlab.ca/2021/09/forcedentry-nso-group-imessage-zero-click-exploit-captured-in-the-wild/"
+   ]
+  },
+  {
+   "id": "industroyer",
+   "name": "Industroyer",
+   "aliases": [
+    "CrashOverride",
+    "Win32/Industroyer",
+    "Industroyer2"
+   ],
+   "primary": "spionaggio",
+   "secondary": [
+    "wiper"
+   ],
+   "firstSeen": {
+    "year": 2016
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2015-5374"
+   ],
+   "relatedEvents": [
+    "Kyiv power outage (December 2016)",
+    "Attempted attack on Ukrainian grid (April 2022, Industroyer2)"
+   ],
+   "defenses": [
+    "Segment OT networks and monitor IEC 104/61850 traffic",
+    "Restrict engineering access with MFA",
+    "Prepare manual operation fallbacks"
+   ],
+   "attackId": "S0604",
+   "summary": "Malware purpose-built to attack electrical substations by speaking industrial protocols such as IEC 101, IEC 104, IEC 61850 and OPC DA directly. It caused a power outage in part of Kyiv in December 2016. A variant, Industroyer2, was used in a foiled attack on a Ukrainian energy company in April 2022; both are attributed to Sandworm.",
+   "sources": [
+    "https://attack.mitre.org/software/S0604/",
+    "https://attack.mitre.org/software/S1072/",
+    "https://attack.mitre.org/groups/G0034/"
+   ]
+  },
+  {
+   "id": "triton",
+   "name": "Triton",
+   "aliases": [
+    "TRISIS",
+    "HatMan"
+   ],
+   "primary": "spionaggio",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2017
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Attack on a Saudi petrochemical plant's safety systems (2017)"
+   ],
+   "defenses": [
+    "Keep safety controllers in program mode only when needed (physical key switch)",
+    "Isolate safety instrumented systems from IT",
+    "Monitor engineering workstations"
+   ],
+   "attackId": "S1009",
+   "summary": "Malware discovered in 2017 that targeted Schneider Electric Triconex safety instrumented systems at a Saudi petrochemical facility, the first known malware designed to disable industrial safety controls. It was discovered when a flaw triggered a plant shutdown. It is attributed to TEMP.Veles, linked to a Russian state research institute (TsNIIKhM) sanctioned by the US.",
+   "sources": [
+    "https://attack.mitre.org/software/S1009/",
+    "https://attack.mitre.org/groups/G0088/",
+    "https://www.justice.gov/opa/pr/four-russian-government-employees-charged-two-historical-hacking-schemes-targeting-critical"
+   ]
+  },
+  {
+   "id": "snake",
+   "name": "Snake",
+   "aliases": [
+    "Uroburos",
+    "Turla rootkit"
+   ],
+   "primary": "spionaggio",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2003,
+    "approx": true
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Operation MEDUSA",
+    "date": "2023-05-09",
+    "by": "FBI/DOJ with Five Eyes partners"
+   },
+   "cves": [],
+   "relatedEvents": [
+    "Espionage against NATO governments and journalists (≈20 years)"
+   ],
+   "defenses": [
+    "Hunt for kernel-level implants and covert P2P traffic",
+    "Apply vendor/CISA detection guidance",
+    "Restrict and monitor privileged access"
+   ],
+   "attackId": "S0022",
+   "summary": "A sophisticated cyber-espionage implant used for about two decades by Turla, a unit of Russia's FSB, to steal documents from hundreds of systems in at least 50 countries. Infected machines formed a covert peer-to-peer network. The FBI's Operation MEDUSA used a tool called PERSEUS to make the implants disable themselves in May 2023.",
+   "sources": [
+    "https://attack.mitre.org/software/S0022/",
+    "https://attack.mitre.org/groups/G0010/",
+    "https://www.justice.gov/opa/pr/justice-department-announces-court-authorized-disruption-snake-malware-network-controlled",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a"
+   ]
+  },
+  {
+   "id": "sandworm",
+   "name": "Sandworm Team",
+   "aliases": [
+    "Sandworm",
+    "GRU Unit 74455",
+    "Voodoo Bear",
+    "IRIDIUM",
+    "Seashell Blizzard",
+    "ELECTRUM",
+    "APT44"
+   ],
+   "primary": "spionaggio",
+   "secondary": [
+    "wiper"
+   ],
+   "firstSeen": {
+    "year": 2009,
+    "approx": true
+   },
+   "status": "active",
+   "cves": [
+    "CVE-2014-4114",
+    "CVE-2019-10149"
+   ],
+   "relatedEvents": [
+    "Ukrainian power grid attacks (2015, 2016, 2022)",
+    "NotPetya (2017)",
+    "Olympic Destroyer (2018)"
+   ],
+   "defenses": [
+    "Patch edge and mail servers quickly (e.g. Exim)",
+    "Segment and monitor OT networks",
+    "Keep offline backups against wipers"
+   ],
+   "attackId": "G0034",
+   "summary": "A destructive threat group attributed to Russia's GRU Unit 74455, active since at least 2009. It is responsible for the first blackouts caused by cyberattacks in Ukraine, NotPetya and Olympic Destroyer. Six of its officers were indicted by the US in 2020.",
+   "sources": [
+    "https://attack.mitre.org/groups/G0034/",
+    "https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware-and"
+   ]
+  },
+  {
+   "id": "lazarus",
+   "name": "Lazarus Group",
+   "aliases": [
+    "HIDDEN COBRA",
+    "Guardians of Peace",
+    "ZINC",
+    "Diamond Sleet",
+    "Labyrinth Chollima"
+   ],
+   "primary": "spionaggio",
+   "secondary": [
+    "ransomware",
+    "banking",
+    "wiper"
+   ],
+   "firstSeen": {
+    "year": 2009,
+    "approx": true
+   },
+   "status": "active",
+   "cves": [
+    "CVE-2017-0144",
+    "CVE-2021-44228"
+   ],
+   "relatedEvents": [
+    "Sony Pictures hack (2014)",
+    "Bangladesh Bank heist (2016)",
+    "WannaCry (2017)",
+    "Ronin bridge theft (2022)",
+    "Bybit theft (2025)"
+   ],
+   "defenses": [
+    "Verify job offers and software from unsolicited contacts",
+    "Harden SWIFT and crypto signing infrastructure with multi-party approval",
+    "Patch internet-facing services"
+   ],
+   "attackId": "G0032",
+   "summary": "A North Korean state-sponsored group active since at least 2009 that combines espionage, destruction and large-scale financial theft. It is blamed for the Sony Pictures hack, the $81 million Bangladesh Bank heist, WannaCry and billions in cryptocurrency theft. The US has charged several North Korean operatives in connection with its activity.",
+   "sources": [
+    "https://attack.mitre.org/groups/G0032/",
+    "https://www.justice.gov/opa/pr/three-north-korean-military-hackers-indicted-wide-ranging-scheme-commit-cyberattacks-and"
+   ]
+  },
+  {
+   "id": "zeus",
+   "name": "Zeus",
+   "aliases": [
+    "ZeuS",
+    "Zbot"
+   ],
+   "primary": "banking",
+   "secondary": [
+    "botnet"
+   ],
+   "firstSeen": {
+    "year": 2007
+   },
+   "status": "dormant",
+   "cves": [],
+   "relatedEvents": [
+    "Theft from small business bank accounts (2009-2010)",
+    "Operation Trident Breach arrests (2010)"
+   ],
+   "defenses": [
+    "Use out-of-band confirmation for banking transactions",
+    "Keep browsers and OS patched",
+    "Block known C2 domains and monitor web injects"
+   ],
+   "attackId": null,
+   "summary": "A banking trojan kit first identified in 2007 that stole credentials through form grabbing and web injects, sold to many criminal crews. Its source code leaked in 2011, spawning descendants such as GameOver Zeus, Citadel and Zeus Panda. The 2010 Operation Trident Breach led to arrests of money-mule networks in the US, UK and Ukraine.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Zeus_(malware)",
+    "https://www.fbi.gov/news/stories/cyber-banking-fraud"
+   ]
+  },
+  {
+   "id": "dridex",
+   "name": "Dridex",
+   "aliases": [
+    "Bugat",
+    "Cridex"
+   ],
+   "primary": "banking",
+   "secondary": [
+    "botnet",
+    "ransomware"
+   ],
+   "firstSeen": {
+    "year": 2014
+   },
+   "status": "dormant",
+   "cves": [
+    "CVE-2017-0199"
+   ],
+   "relatedEvents": [
+    "Bank credential theft of over $100 million",
+    "Evil Corp sanctions (2019)",
+    "BitPaymer and WastedLocker ransomware"
+   ],
+   "defenses": [
+    "Block Office macros and RTF/OLE exploits",
+    "Filter malspam",
+    "Use transaction verification and monitor for credential theft"
+   ],
+   "attackId": "S0384",
+   "summary": "A banking trojan derived from Cridex/Bugat, active since 2014 and spread mainly by Office macro malspam via Necurs. It was operated by Evil Corp, whose leader Maksim Yakubets was charged and sanctioned by the US in December 2019. A 2015 law-enforcement disruption had limited effect; the group later moved into ransomware.",
+   "sources": [
+    "https://attack.mitre.org/software/S0384/",
+    "https://attack.mitre.org/groups/G0119/",
+    "https://www.justice.gov/opa/pr/russian-national-charged-decade-long-series-hacking-and-bank-fraud-offenses-resulting-tens"
+   ]
+  },
+  {
+   "id": "carbanak",
+   "name": "Carbanak",
+   "aliases": [
+    "Anunak"
+   ],
+   "primary": "banking",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2013
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Arrest of Carbanak/Cobalt leader in Spain",
+    "date": "2018-03-26",
+    "by": "Spanish National Police with Europol and FBI",
+    "note": "Related FIN7 activity continued"
+   },
+   "cves": [
+    "CVE-2012-0158",
+    "CVE-2013-3906",
+    "CVE-2014-1761"
+   ],
+   "relatedEvents": [
+    "Theft of up to $1 billion from banks (2013-2018)",
+    "ATM jackpotting campaigns"
+   ],
+   "defenses": [
+    "Block spearphishing attachments and patch Office",
+    "Monitor bank internal systems (ATM, SWIFT) for remote control tools",
+    "Segment payment networks"
+   ],
+   "attackId": "S0030",
+   "summary": "Backdoor malware used from about 2013 by a criminal group to infiltrate bank networks, watch employees, and cash out via ATMs and fraudulent transfers, with losses estimated up to a billion euros. Kaspersky exposed the campaign in 2015. The suspected leader was arrested in Spain in March 2018 in a Europol-coordinated operation.",
+   "sources": [
+    "https://attack.mitre.org/software/S0030/",
+    "https://attack.mitre.org/groups/G0008/",
+    "https://www.europol.europa.eu/media-press/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain"
+   ]
+  },
+  {
+   "id": "redline",
+   "name": "RedLine Stealer",
+   "aliases": [
+    "RedLine"
+   ],
+   "primary": "banking",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2020
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Operation Magnus",
+    "date": "2024-10-28",
+    "by": "Dutch National Police with FBI, Eurojust and partners"
+   },
+   "cves": [],
+   "relatedEvents": [
+    "Mass credential theft feeding account takeovers and ransomware access"
+   ],
+   "defenses": [
+    "Avoid pirated software and malvertised downloads",
+    "Do not store passwords in browsers; use a password manager and MFA",
+    "Revoke session tokens after infection"
+   ],
+   "attackId": "S1240",
+   "summary": "An infostealer sold as malware-as-a-service since 2020 that harvests browser passwords, cookies, crypto wallets and system data. It was one of the most widespread stealers, spread via phishing, malvertising and fake software. Operation Magnus, led by Dutch police with the FBI, took over its servers in October 2024 and the US charged alleged developer Maxim Rudometov.",
+   "sources": [
+    "https://attack.mitre.org/software/S1240/",
+    "https://www.justice.gov/usao-wdtx/pr/us-joins-international-action-against-redline-and-meta-infostealers"
+   ]
+  },
+  {
+   "id": "lumma",
+   "name": "Lumma Stealer",
+   "aliases": [
+    "LummaC2",
+    "LummaC"
+   ],
+   "primary": "banking",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2022
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Lumma disruption",
+    "date": "2025-05-21",
+    "by": "Microsoft DCU, DOJ, Europol EC3, JC3",
+    "note": "Partial resurgence reported"
+   },
+   "cves": [],
+   "relatedEvents": [
+    "ClickFix/fake CAPTCHA campaigns",
+    "Credential theft at scale (2023-2025)"
+   ],
+   "defenses": [
+    "Train users against 'paste this command' fake CAPTCHA lures",
+    "Use a password manager and phishing-resistant MFA",
+    "Revoke sessions and rotate credentials after infection"
+   ],
+   "attackId": "S1213",
+   "summary": "An infostealer sold as malware-as-a-service since 2022 that steals browser credentials, cookies and crypto wallets, often delivered through fake CAPTCHA 'ClickFix' lures. Microsoft, the DOJ, Europol and Japan's JC3 disrupted it on 21 May 2025, seizing around 2,300 domains and its control panel. Researchers reported partial rebuilding of its infrastructure afterwards.",
+   "sources": [
+    "https://attack.mitre.org/software/S1213/",
+    "https://blogs.microsoft.com/on-the-issues/2025/05/21/microsoft-leads-global-action-against-favored-cybercrime-tool/"
+   ]
+  },
+  {
+   "id": "raccoon",
+   "name": "Raccoon Stealer",
+   "aliases": [
+    "Racealer"
+   ],
+   "primary": "banking",
+   "secondary": [],
+   "firstSeen": {
+    "year": 2019
+   },
+   "status": "exorcised",
+   "exorcism": {
+    "operation": "Raccoon infrastructure takedown",
+    "date": "2022-03",
+    "by": "FBI with NL and IT authorities",
+    "note": "Charges announced 2022-10-25; Raccoon v2 emerged mid-2022"
+   },
+   "cves": [],
+   "relatedEvents": [
+    "Theft of over 50 million credentials"
+   ],
+   "defenses": [
+    "Avoid cracked software and malicious ads",
+    "Use password manager and MFA",
+    "Rotate credentials after infection"
+   ],
+   "attackId": "S1148",
+   "summary": "An infostealer sold as malware-as-a-service from 2019, stealing passwords, cookies and crypto wallets from millions of victims. In March 2022 the FBI and Dutch and Italian authorities dismantled its infrastructure, and Ukrainian national Mark Sokolovsky was arrested; the DOJ announced charges in October 2022. A version 2 appeared later in 2022.",
+   "sources": [
+    "https://attack.mitre.org/software/S1148/",
+    "https://www.justice.gov/usao-wdtx/pr/newly-unsealed-indictment-charges-ukrainian-national-international-cybercrime-operation"
+   ]
+  }
+ ]
+}

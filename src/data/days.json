@@ -451,7 +451,9 @@
  },
  "03-13": {
   "patron": "regpwn",
-  "others": []
+  "others": [
+   "amdflaws"
+  ]
  },
  "03-14": {
   "patron": "bad-appointment",
@@ -565,6 +567,7 @@
  "03-29": {
   "patron": "xzorcist",
   "others": [
+   "ani-cursor",
    "bingbang",
    "insomniacunwinding"
   ]
@@ -669,6 +672,7 @@
  "04-13": {
   "patron": "name-wreck",
   "others": [
+   "lsass-sasser",
    "frozen-heart",
    "airstrike-attack"
   ]
@@ -1074,6 +1078,7 @@
  "06-03": {
   "patron": "sgxpectre",
   "others": [
+   "flame-collision",
    "local-mess",
    "comodos",
    "pwnd-blaster"
@@ -1197,6 +1202,7 @@
   "others": [
    "squidbleed",
    "usbliter8",
+   "code-red-ida",
    "sack-slowness",
    "dfscoerce",
    "autojack"
@@ -1414,6 +1420,8 @@
  "07-16": {
   "patron": "port-shadow",
   "others": [
+   "stuxnet-lnk",
+   "rpc-dcom",
    "badpower",
    "golden-dmsa",
    "hollowbyte"
@@ -1443,6 +1451,7 @@
  "07-19": {
   "patron": "lobster",
   "others": [
+   "mdac-rds",
    "passbleed"
   ]
  },
@@ -1480,6 +1489,7 @@
  "07-24": {
   "patron": "tetra-burst",
   "others": [
+   "ms02-039",
    "certighost",
    "zenbleed",
    "confusedfunction",
@@ -1624,6 +1634,7 @@
   "others": [
    "tunnelcrack",
    "milk-sad",
+   "ms06-040",
    "route-of-root",
    "voracle"
   ]
@@ -2209,6 +2220,7 @@
   "patron": "zippyreads",
   "others": [
    "syscallrevenant",
+   "iis-unicode",
    "hm-surf",
    "phantombuffer",
    "frozen-privilege"
@@ -2338,6 +2350,7 @@
  "11-04": {
   "patron": "certpotato",
   "others": [
+   "tls-renegotiation",
    "lidattack"
   ]
  },
@@ -2685,7 +2698,9 @@
  },
  "12-27": {
   "patron": "triangulation",
-  "others": []
+  "others": [
+   "wmf-setabortproc"
+  ]
  },
  "12-28": {
   "patron": "dmafail",

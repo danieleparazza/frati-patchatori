@@ -1,0 +1,316 @@
+{
+ "$comment": "Popes: the vulnerability of each year and decade (ids in src/data/vulns.json; cardinals may be ids or plain names). The current year and decade are \"sede vacante\" until they end. Antipopes: overhyped vulnerabilities.",
+ "years": [
+  {
+   "year": 1999,
+   "pope": "mdac-rds",
+   "cardinals": [
+    "Scriptlet.typelib / Eyedog ActiveX 'safe for scripting' (MS99-032, BubbleBoy/KAK)",
+    "BIND 8.2 NXT record overflow"
+   ],
+   "why": "Rain Forest Puppy's RDS/MDAC hole let anyone run commands on IIS 3/4 servers and was the most mass-exploited web-server bug of the late 90s, a staple of web defacements for years."
+  },
+  {
+   "year": 2000,
+   "pope": "iis-unicode",
+   "cardinals": [
+    "wu-ftpd SITE EXEC format string (Ramen worm)"
+   ],
+   "why": "The '..%c0%af' Unicode traversal gave remote command execution on IIS 4/5 and was later weaponised by the sadmind/IIS and Nimda worms."
+  },
+  {
+   "year": 2001,
+   "pope": "code-red-ida",
+   "cardinals": [
+    "BIND 8 TSIG buffer overflow (Lion worm)",
+    "IE incorrect MIME header auto-execution (MS01-020, Nimda/Klez)"
+   ],
+   "why": "Found by eEye and exploited a month later by Code Red, which infected ~359,000 hosts in 14 hours; together with Nimda it pushed Microsoft into the 2002 Trustworthy Computing memo."
+  },
+  {
+   "year": 2002,
+   "pope": "ms02-039",
+   "cardinals": [
+    "OpenSSL SSLv2 client master key overflow (Slapper worm)",
+    "Apache chunked-encoding overflow"
+   ],
+   "why": "David Litchfield's single-UDP-packet SQL Server bug became SQL Slammer in January 2003, the fastest worm ever recorded (doubling every 8.5 s, ~75,000 hosts in 10 minutes), knocking out ATMs and parts of the internet."
+  },
+  {
+   "year": 2003,
+   "pope": "rpc-dcom",
+   "cardinals": [
+    "WebDAV / ntdll.dll overflow in IIS 5 (MS03-007), exploited as a zero-day",
+    "Sendmail crackaddr header overflow"
+   ],
+   "why": "Found by The Last Stage of Delirium, it affected essentially every Windows NT/2000/XP/2003 box and became the Blaster and Welchia worms, the event that led Microsoft to ship XP SP2 with the firewall on by default."
+  },
+  {
+   "year": 2004,
+   "pope": "lsass-sasser",
+   "cardinals": [
+    "Microsoft ASN.1 library integer overflows (MS04-007)",
+    "GDI+ JPEG parsing overflow (MS04-028)"
+   ],
+   "why": "eEye's LSASS bug became Sasser within about 17 days; Sasser crashed millions of PCs and disrupted airlines, banks and hospitals."
+  },
+  {
+   "year": 2005,
+   "pope": "wmf-setabortproc",
+   "cardinals": [
+    "Windows Plug and Play overflow (MS05-039, Zotob)",
+    "Cisco IOS IPv6 exploitation (Michael Lynn, 'Ciscogate')"
+   ],
+   "why": "A zero-day exploited in the wild just by viewing an image; it pushed Microsoft into one of its first out-of-band patches (5 Jan 2006). Disclosure date is in 2005 even though the patch came in 2006."
+  },
+  {
+   "year": 2006,
+   "pope": "ms06-040",
+   "cardinals": [
+    "IE VML vgx.dll zero-day (MS06-055)",
+    "Bleichenbacher RSA e=3 signature forgery"
+   ],
+   "why": "A wormable, anonymous remote bug in the SMB Server service on every supported Windows; it was quickly exploited by Mocbot/IRCbot. It is the direct ancestor of MS08-067."
+  },
+  {
+   "year": 2007,
+   "pope": "ani-cursor",
+   "cardinals": [
+    "Windows DNS Server RPC overflow (MS07-029), exploited as a zero-day"
+   ],
+   "why": "A zero-day mass-exploited through web pages and email before Microsoft released an out-of-band fix; it is a reprise of a 2005 ANI bug."
+  },
+  {
+   "year": 2008,
+   "pope": "kaminsky-bug",
+   "cardinals": [
+    "Windows Server service RPC overflow (MS08-067, Conficker)",
+    "Debian OpenSSL predictable PRNG (weak keys)"
+   ],
+   "why": "Dan Kaminsky's attack made cache poisoning of practically every DNS resolver on the internet trivial, and triggered the largest coordinated multi-vendor patch day ever up to that point."
+  },
+  {
+   "year": 2009,
+   "pope": "tls-renegotiation",
+   "cardinals": [
+    "SMBv2 srv2.sys negotiate overflow (MS09-050)"
+   ],
+   "why": "Marsh Ray's protocol-level flaw broke every TLS implementation at once, forced a change to the protocol itself (RFC 5746), and opened the era of attacks on TLS itself."
+  },
+  {
+   "year": 2010,
+   "pope": "stuxnet-lnk",
+   "cardinals": [
+    "Internet Explorer use-after-free (Operation Aurora)",
+    "ASP.NET padding oracle (Rizzo & Duong)"
+   ],
+   "why": "This was the USB-spreading zero-day Stuxnet used to reach air-gapped Iranian centrifuges, the first known cyber-weapon to cause physical damage. July 16 is the date of Microsoft Advisory 2286198; VirusBlokAda first reported it in June."
+  },
+  {
+   "year": 2011,
+   "pope": "beast",
+   "cardinals": [
+    "Hash-collision DoS (HashDoS, n.runs at 28C3)",
+    "Win32k TrueType font parsing zero-day (Duqu)"
+   ],
+   "why": "Rizzo and Duong turned a theoretical CBC IV weakness into live HTTPS cookie theft, pushing the industry toward TLS 1.1/1.2 (and briefly toward RC4)."
+  },
+  {
+   "year": 2012,
+   "pope": "flame-collision",
+   "cardinals": [
+    "CRIME (TLS/SPDY compression side channel)",
+    "RDP remote code execution (MS12-020), wormable with a leaked PoC"
+   ],
+   "why": "Flame forged a Windows Update-valid certificate through a new MD5 collision against Terminal Server Licensing certificates, the first state-level cryptanalytic attack seen in the wild. It has no CVE; it is tracked as Microsoft Security Advisory 2718704."
+  },
+  {
+   "year": 2013,
+   "pope": "dual-ec-drbg",
+   "cardinals": [
+    "Lucky Thirteen (TLS CBC timing attack)",
+    "Android 'Master Key' APK signature bypass (Bluebox)"
+   ],
+   "why": "Snowden documents confirmed suspicions that the NIST-standardised Dual_EC_DRBG generator, the RSA BSAFE default, was backdoored. NIST withdrew it, and it became the textbook case of a backdoored standard. The CVE was assigned retroactively in Oct 2013; Shumow and Ferguson had raised the risk in 2007."
+  },
+  {
+   "year": 2014,
+   "pope": "heartbleed",
+   "cardinals": [
+    "shellshock",
+    "poodle"
+   ],
+   "why": null
+  },
+  {
+   "year": 2015,
+   "pope": "stagefright",
+   "cardinals": [
+    "freak",
+    "logjam",
+    "venom"
+   ],
+   "why": null
+  },
+  {
+   "year": 2016,
+   "pope": "dirty-cow",
+   "cardinals": [
+    "drown",
+    "badlock"
+   ],
+   "why": null
+  },
+  {
+   "year": 2017,
+   "pope": "eternalblue",
+   "cardinals": [
+    "krack",
+    "efail"
+   ],
+   "why": null
+  },
+  {
+   "year": 2018,
+   "pope": "meltdown",
+   "cardinals": [
+    "spectre",
+    "foreshadow"
+   ],
+   "why": null
+  },
+  {
+   "year": 2019,
+   "pope": "bluekeep",
+   "cardinals": [
+    "shitrix"
+   ],
+   "why": null
+  },
+  {
+   "year": 2020,
+   "pope": "zerologon",
+   "cardinals": [
+    "sigred",
+    "ghostcat"
+   ],
+   "why": null
+  },
+  {
+   "year": 2021,
+   "pope": "log4shell",
+   "cardinals": [
+    "proxylogon",
+    "printnightmare"
+   ],
+   "why": null
+  },
+  {
+   "year": 2022,
+   "pope": "follina",
+   "cardinals": [
+    "spring4shell",
+    "proxynotshell",
+    "pwnkit"
+   ],
+   "why": null
+  },
+  {
+   "year": 2023,
+   "pope": "citrixbleed",
+   "cardinals": [
+    "rapid-reset",
+    "looney-tunables"
+   ],
+   "why": null
+  },
+  {
+   "year": 2024,
+   "pope": "xzorcist",
+   "cardinals": [
+    "regresshion",
+    "connectaround"
+   ],
+   "why": null
+  },
+  {
+   "year": 2025,
+   "pope": "citrixbleed-2",
+   "cardinals": [
+    "toolshell",
+    "worstfit"
+   ],
+   "why": null
+  }
+ ],
+ "decades": [
+  {
+   "decade": 2000,
+   "pope": "kaminsky-bug",
+   "runnerUp": "MS08-067 (Conficker)"
+  },
+  {
+   "decade": 2010,
+   "pope": "eternalblue",
+   "runnerUp": "heartbleed"
+  }
+ ],
+ "antipopes": [
+  {
+   "id": "badlock",
+   "why": "This is the classic antipope. A logo, website and three-week teaser built expectations of a wormable RCE, but it turned out to be an MITM/DoS bug that Microsoft rated only Important.",
+   "sources": [
+    "https://www.cve.org/CVERecord?id=CVE-2016-2118",
+    "https://www.cve.org/CVERecord?id=CVE-2016-0128",
+    "https://threatpost.com/badlock-vulnerability-falls-flat-against-its-hype",
+    "https://www.csoonline.com/article/555711/badlock-vulnerability-viewed-as-more-hype-than-threat.html",
+    "https://www.theregister.com/2016/04/12/badlock_bug_windows_samba"
+   ]
+  },
+  {
+   "id": "amdflaws",
+   "why": "13 'critical' flaws were dropped with a slick site and only 24 hours' notice to AMD, but all of them required admin access first. Linus Torvalds said it looked 'more like stock manipulation than a security advisory'.",
+   "sources": [
+    "https://www.cve.org/CVERecord?id=CVE-2018-8930",
+    "https://www.cve.org/CVERecord?id=CVE-2018-8931",
+    "https://www.cve.org/CVERecord?id=CVE-2018-8932",
+    "https://www.cve.org/CVERecord?id=CVE-2018-8933",
+    "https://www.cve.org/CVERecord?id=CVE-2018-8934",
+    "https://www.cve.org/CVERecord?id=CVE-2018-8935",
+    "https://www.cve.org/CVERecord?id=CVE-2018-8936",
+    "https://hothardware.com/news/linus-torvalds-calls-bs-on-cts-labs-amd-ryzen-security-flaw",
+    "https://www.eweek.com/security/researchers-claim-amd-cpus-at-risk-from-13-critical-flaws/"
+   ]
+  },
+  {
+   "id": "ghost",
+   "why": "It was billed as the next Heartbleed, but it affected obsolete functions and was exploitable in very few real programs (mainly Exim). LWN said Qualys and the press had overblown it greatly.",
+   "sources": [
+    "https://www.cve.org/CVERecord?id=CVE-2015-0235",
+    "https://lwn.net/Articles/630866/",
+    "https://www.rapid7.com/blog/post/2015/01/27/ghost-in-the-machine-is-cve-2015-0235-another-heartbleed/",
+    "https://www.channelfutures.com/open-source/ghost-another-security-bug-hits-linux-but-is-it-that-bad"
+   ]
+  },
+  {
+   "id": "venom",
+   "why": "A pre-embargoed media campaign compared it to Heartbleed, but exploitation needed root in a guest, and no exploitation in the wild was seen. CSO and SANS ISC openly questioned the hype.",
+   "sources": [
+    "https://www.cve.org/CVERecord?id=CVE-2015-3456",
+    "https://www.csoonline.com/article/551455/venom-hype-and-pre-planned-marketing-campaign-panned-by-experts.html",
+    "https://isc.sans.edu/diary/VENOM+Does+it+live+up+to+the+hype/19701"
+   ]
+  },
+  {
+   "id": "efail",
+   "why": "The EFF's 'disable PGP now' alarm was called 'overblown and disproportionate'. The bugs were mostly in mail-client HTML handling, and some (Enigmail) had long been mitigated.",
+   "sources": [
+    "https://www.cve.org/CVERecord?id=CVE-2017-17688",
+    "https://www.cve.org/CVERecord?id=CVE-2017-17689",
+    "https://techbeacon.com/eff-has-egg-face-over-pgp-smime-efail-hyberbole",
+    "https://portswigger.net/daily-swig/blame-game-infosec-community-divided-over-efail-bug",
+    "https://www.infosecurity-magazine.com/news/pgp-founder-dont-disable/"
+   ]
+  }
+ ]
+}

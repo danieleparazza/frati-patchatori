@@ -382,5 +382,198 @@
    "https://nvd.nist.gov/vuln/detail/CVE-1999-0513"
   ],
   "description": "CERT CA-1998-01 ('Smurf IP Denial-of-Service Attacks') described spoofed ICMP echo requests sent to broadcast addresses, so that whole networks answered the victim at once. It was the first great amplification attack, named after the smurf.c program."
+ },
+ {
+  "id": "mdac-rds",
+  "name": "MDAC RDS",
+  "date": "1999-07-19",
+  "cves": [
+   "CVE-1999-1011"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-1999-1011",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-025",
+   "https://www.cvedetails.com/cve/CVE-1999-1011/"
+  ],
+  "description": "Rain Forest Puppy's RDS/MDAC hole let anyone run commands on IIS 3/4 servers and was the most mass-exploited web-server bug of the late 90s, a staple of web defacements for years."
+ },
+ {
+  "id": "iis-unicode",
+  "name": "IIS Unicode Traversal",
+  "date": "2000-10-17",
+  "cves": [
+   "CVE-2000-0884"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2000-0884",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-078",
+   "https://www.kb.cert.org/vuls/id/111677"
+  ],
+  "description": "The '..%c0%af' Unicode traversal gave remote command execution on IIS 4/5 and was later weaponised by the sadmind/IIS and Nimda worms."
+ },
+ {
+  "id": "code-red-ida",
+  "name": "Code Red's .ida",
+  "date": "2001-06-18",
+  "cves": [
+   "CVE-2001-0500"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2001-0500",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-033",
+   "https://www.caida.org/catalog/papers/2002_codered/"
+  ],
+  "description": "Found by eEye and exploited a month later by Code Red, which infected ~359,000 hosts in 14 hours; together with Nimda it pushed Microsoft into the 2002 Trustworthy Computing memo."
+ },
+ {
+  "id": "ms02-039",
+  "name": "MS02-039 (Slammer)",
+  "date": "2002-07-24",
+  "cves": [
+   "CVE-2002-0649"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2002-0649",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-039",
+   "https://www.caida.org/catalog/papers/2003_sapphire/"
+  ],
+  "description": "David Litchfield's single-UDP-packet SQL Server bug became SQL Slammer in January 2003, the fastest worm ever recorded (doubling every 8.5 s, ~75,000 hosts in 10 minutes), knocking out ATMs and parts of the internet."
+ },
+ {
+  "id": "rpc-dcom",
+  "name": "RPC DCOM (Blaster)",
+  "date": "2003-07-16",
+  "cves": [
+   "CVE-2003-0352"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2003-0352",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2003/ms03-026",
+   "https://www.kb.cert.org/vuls/id/568148"
+  ],
+  "description": "Found by The Last Stage of Delirium, it affected essentially every Windows NT/2000/XP/2003 box and became the Blaster and Welchia worms, the event that led Microsoft to ship XP SP2 with the firewall on by default."
+ },
+ {
+  "id": "lsass-sasser",
+  "name": "LSASS (Sasser)",
+  "date": "2004-04-13",
+  "cves": [
+   "CVE-2003-0533"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2003-0533",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2004/ms04-011",
+   "https://www.kb.cert.org/vuls/id/753212"
+  ],
+  "description": "eEye's LSASS bug became Sasser within about 17 days; Sasser crashed millions of PCs and disrupted airlines, banks and hospitals."
+ },
+ {
+  "id": "wmf-setabortproc",
+  "name": "WMF SetAbortProc",
+  "date": "2005-12-27",
+  "cves": [
+   "CVE-2005-4560"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2005-4560",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2006/ms06-001",
+   "https://www.kb.cert.org/vuls/id/181038",
+   "https://isc.sans.edu/diary/WMF+FAQ/994"
+  ],
+  "description": "A zero-day exploited in the wild just by viewing an image; it pushed Microsoft into one of its first out-of-band patches (5 Jan 2006). Disclosure date is in 2005 even though the patch came in 2006."
+ },
+ {
+  "id": "ms06-040",
+  "name": "MS06-040",
+  "date": "2006-08-08",
+  "cves": [
+   "CVE-2006-3439"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2006-3439",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2006/ms06-040",
+   "https://www.kb.cert.org/vuls/id/650769"
+  ],
+  "description": "A wormable, anonymous remote bug in the SMB Server service on every supported Windows; it was quickly exploited by Mocbot/IRCbot. It is the direct ancestor of MS08-067."
+ },
+ {
+  "id": "ani-cursor",
+  "name": "ANI Cursor",
+  "date": "2007-03-29",
+  "cves": [
+   "CVE-2007-0038"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2007-0038",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2007/ms07-017",
+   "https://www.kb.cert.org/vuls/id/191609"
+  ],
+  "description": "A zero-day mass-exploited through web pages and email before Microsoft released an out-of-band fix; it is a reprise of a 2005 ANI bug."
+ },
+ {
+  "id": "tls-renegotiation",
+  "name": "TLS Renegotiation",
+  "date": "2009-11-04",
+  "cves": [
+   "CVE-2009-3555"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2009-3555",
+  "links": [
+   "https://www.kb.cert.org/vuls/id/120541",
+   "https://www.rfc-editor.org/rfc/rfc5746"
+  ],
+  "description": "Marsh Ray's protocol-level flaw broke every TLS implementation at once, forced a change to the protocol itself (RFC 5746), and opened the era of attacks on TLS itself."
+ },
+ {
+  "id": "stuxnet-lnk",
+  "name": "Stuxnet LNK",
+  "date": "2010-07-16",
+  "cves": [
+   "CVE-2010-2568"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2010-2568",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securityadvisories/2010/2286198",
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-046"
+  ],
+  "description": "This was the USB-spreading zero-day Stuxnet used to reach air-gapped Iranian centrifuges, the first known cyber-weapon to cause physical damage. July 16 is the date of Microsoft Advisory 2286198; VirusBlokAda first reported it in June."
+ },
+ {
+  "id": "flame-collision",
+  "name": "Flame MD5 Collision",
+  "date": "2012-06-03",
+  "cves": [],
+  "canonical": "https://msrc.microsoft.com/blog/2012/06/microsoft-releases-security-advisory-2718704",
+  "links": [
+   "https://msrc.microsoft.com/blog/2012/06/flame-malware-collision-attack-explained",
+   "https://ir.cwi.nl/pub/21029/Fulltext"
+  ],
+  "description": "Flame forged a Windows Update-valid certificate through a new MD5 collision against Terminal Server Licensing certificates, the first state-level cryptanalytic attack seen in the wild. It has no CVE; it is tracked as Microsoft Security Advisory 2718704."
+ },
+ {
+  "id": "amdflaws",
+  "name": "AMDFlaws (CTS-Labs)",
+  "date": "2018-03-13",
+  "cves": [
+   "CVE-2018-8930",
+   "CVE-2018-8931",
+   "CVE-2018-8932",
+   "CVE-2018-8933",
+   "CVE-2018-8934",
+   "CVE-2018-8935",
+   "CVE-2018-8936"
+  ],
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2018-8930",
+  "links": [
+   "https://www.cve.org/CVERecord?id=CVE-2018-8931",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8932",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8933",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8934",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8935",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8936",
+   "https://hothardware.com/news/linus-torvalds-calls-bs-on-cts-labs-amd-ryzen-security-flaw",
+   "https://www.eweek.com/security/researchers-claim-amd-cpus-at-risk-from-13-critical-flaws/"
+  ],
+  "description": "13 'critical' flaws were dropped with a slick site and only 24 hours' notice to AMD, but all of them required admin access first. Linus Torvalds said it looked 'more like stock manipulation than a security advisory'."
  }
 ]

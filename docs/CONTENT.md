@@ -51,3 +51,54 @@ Lunghezza: come gennaio, circa 120–180 parole per lingua in totale.
 - `exclude`: voci da nascondere.
 
 Poi `npm run import -- --offline` rigenera `src/data/`.
+
+## Flagelli e miracoli: `src/data/events/<id>.json`
+
+`<id>` e i fatti sono in `data/events.json`. Il campo `tone` decide il registro:
+
+- `normale`: parodia come per i santi, sugli attaccanti e sulle tecnologie.
+- `sobrio` (danni seri a persone o servizi essenziali): niente battute su pazienti, utenti o vittime; ironia solo, e con misura, sugli attaccanti; la preghiera diventa una vera preghiera di riparazione.
+- `lutto` (morti confermate o presunte): tono da necrologio, **nessuna parodia e nessuna preghiera** (ometti il campo); dire con precisione cosa è accertato e cosa no.
+
+Flagello:
+```json
+{ "it": { "title": "", "chronicle": "", "lesson": "", "prayer": "", "remembrance": "" }, "en": { … } }
+```
+- **title**: "Il flagello di X" o un titolo da cronaca medievale ("La grande piaga di WannaCry"); per `lutto` un titolo sobrio ("In memoria: l'attacco a Synnovis").
+- **chronicle** (*Cronaca*): 3–5 frasi, cosa è successo, quando, quanto è durato, chi ne è stato colpito.
+- **lesson** (*Lezione appresa*): 1–3 frasi, cosa ha cambiato o insegnato.
+- **prayer** (*Preghiera di riparazione*): breve, finisce con "Amen." (assente per `lutto`).
+- **remembrance** (*Come si ricorda*): "Si ricorda …" / "Remembered by …", un gesto pratico (backup offline, MFA, piano di continuità…).
+- Calamità (`noCulprit: true`): ricordare che non c'è stato attacco.
+
+Miracolo:
+```json
+{ "it": { "title": "", "prodigy": "", "thaumaturge": "", "thanksgiving": "" }, "en": { … } }
+```
+- **title**: "Il miracolo di …"; **prodigy** (*Il prodigio*): 3–5 frasi; **thaumaturge** (*Il taumaturgo*): chi l'ha compiuto, come riconosciuto pubblicamente (persone, aziende, forze dell'ordine), con rispetto; **thanksgiving** (*Rendimento di grazie*): breve, finisce con "Amen.".
+
+Immagini: `data/santini/f-<id>.json` per i flagelli (`frame`: `flagello`, o `flagello-grave` per `lutto`, con un emblema sobrio come un cero o un giglio) e `data/santini/m-<id>.json` per i miracoli (`frame`: `miracolo`).
+
+## Demoni: `src/data/demons/<id>.json`
+
+`<id>` e i fatti sono in `data/demons.json`.
+```json
+{ "it": { "title": "", "legend": "", "exorcism": "" }, "en": { … } }
+```
+- **title**: "Il demone X, <epiteto>" ("Il demone LockBit, principe dei leak site").
+- **legend**: 3–5 frasi: origine, cosa fa, opere più note, e per gli esorcizzati come è stato fermato.
+- **exorcism** (*Esorcismo*): 2–4 consigli pratici di difesa, in prosa, basati su `defenses`.
+- Mai link a leak site o nomi di vittime private; i demoni si descrivono, non si celebrano.
+
+Immagine: `data/santini/d-<id>.json` con `frame: "demone"`.
+
+## Papi: `src/data/popes/<chiave>.json`
+
+Chiavi: l'anno (`2014`), il decennio (`decade-2000`, `decade-2010`) o l'antipapa (`anti-<id>`). La cronotassi è in `data/popes.json`.
+```json
+{ "it": { "title": "", "encyclical": "" }, "en": { … } }
+```
+- **title**: "Papa Heartbleed I" (dinastie: "Papa CitrixBleed I" nel 2023, "Papa CitrixBleed II" nel 2025); "Antipapa Badlock".
+- **encyclical** (*Enciclica*): si apre con un titolo latino tra virgolette (*"Heartbeat Sanguinis"*), poi 3–5 frasi su cosa quell'anno ha insegnato al mondo della sicurezza; per gli antipapi, perché l'hype ha superato l'impatto (senza deridere i ricercatori).
+
+Immagine: `data/santini/papa-<chiave>.json` con `frame: "papa"` (`papa-2014`, `papa-decade-2000`, `papa-anti-badlock`).

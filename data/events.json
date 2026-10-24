@@ -1,0 +1,1571 @@
+{
+ "$comment": "Scourges (flagello, incl. calamities with noCulprit) and miracles (miracolo). tone: lutto (confirmed or alleged deaths: black frame, no parody) | sobrio (serious harm: no jokes on victims) | normale.",
+ "events": [
+  {
+   "id": "morris-worm",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Morris Worm",
+   "date": "1988-11-02",
+   "dateMeaning": "release (evening, launched from an MIT machine)",
+   "summary": "Cornell graduate student Robert Tappan Morris released a self-replicating worm that exploited sendmail's DEBUG mode, a fingerd buffer overflow and weak rsh/rexec trust. A propagation bug made it reinfect hosts repeatedly, crippling an estimated 6,000 machines (about 10% of the Internet). It led to the first felony conviction under the US Computer Fraud and Abuse Act and to the creation of CERT/CC.",
+   "cves": [],
+   "malware": [
+    "Morris Worm"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.fbi.gov/news/stories/morris-worm-30-years-since-first-major-attack-on-internet-110218",
+    "https://www.controleng.com/throwback-attack-the-morris-worm-launches-the-first-major-attack-on-the-internet"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "att-network-collapse-1990",
+   "type": "flagello",
+   "noCulprit": true,
+   "name": "AT&T long-distance network collapse",
+   "date": "1990-01-15",
+   "dateMeaning": "incident day",
+   "summary": "A one-line bug (a misplaced C 'break') in a December 1989 update to the recovery software of AT&T's 4ESS switches caused a cascading crash that started at a Manhattan switch. For about nine hours roughly half of AT&T's long-distance network failed and some 70 million calls went uncompleted. No attacker was involved.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse",
+    "https://www.cs.umb.edu/~emm/crackdown/crashing.html"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "melissa-virus",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Melissa virus",
+   "date": "1999-03-26",
+   "dateMeaning": "release (posted to the alt.sex Usenet newsgroup)",
+   "summary": "David L. Smith posted a Word document carrying a macro virus that mailed itself to the first 50 entries of victims' Outlook address books. The mail flood forced companies and government agencies to shut down email gateways; the FBI estimated about $80 million in damage. Smith was arrested on 1999-04-01 and later sentenced to 20 months in federal prison.",
+   "cves": [],
+   "malware": [
+    "W97M/Melissa"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.fbi.gov/history/famous-cases/melissa-virus",
+    "https://en.wikipedia.org/wiki/Melissa_(computer_virus)"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "mafiaboy-ddos",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Mafiaboy DDoS (Project Rivolta)",
+   "date": "2000-02-07",
+   "dateMeaning": "attack start (Yahoo! knocked offline)",
+   "summary": "A 15-year-old Canadian known as Mafiaboy (Michael Calce) used a botnet of compromised university machines to flood Yahoo!, then the web's second most popular site, knocking it offline. Over the following days Amazon, CNN, Dell and eBay were also hit. Calce was sentenced in 2001 to eight months of youth detention.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Michael_Calce",
+    "https://www.infoworld.com/article/2168126/mafiaboy-grows-up-a-hacker-seeks-redemption-2.html"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "iloveyou",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "ILOVEYOU (Love Bug)",
+   "date": "2000-05-04",
+   "dateMeaning": "outbreak start (released from Manila)",
+   "summary": "A VBScript worm sent as 'LOVE-LETTER-FOR-YOU.TXT.vbs' spread through Outlook address books, overwriting files and stealing passwords as it went. It went around the world in about a day, forcing the Pentagon, the UK Parliament and many companies to shut down email; damage estimates range from several to over ten billion dollars. The author, Filipino student Onel de Guzman, was never prosecuted because the Philippines then had no applicable cybercrime law.",
+   "cves": [],
+   "malware": [
+    "VBS/LoveLetter"
+   ],
+   "people": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/ILOVEYOU",
+    "https://grahamcluley.com/memories-love-bug-worm/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "code-red",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Code Red worm (CRv2)",
+   "date": "2001-07-19",
+   "dateMeaning": "mass infection day (CRv2 variant)",
+   "summary": "Code Red exploited a buffer overflow in Microsoft IIS's indexing service and defaced pages with 'Hacked By Chinese!'. Its random-seed variant CRv2 infected more than 359,000 hosts in under 14 hours on 19 July 2001, at a peak of over 2,000 new hosts per minute (the first version, CRv1, appeared on 12 July). It was also programmed to flood whitehouse.gov.",
+   "cves": [
+    "CVE-2001-0500"
+   ],
+   "malware": [
+    "Code Red"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.caida.org/archive/code-red/coderedv2_analysis/",
+    "https://www.caida.org/archive/code-red/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "nimda",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Nimda worm",
+   "date": "2001-09-18",
+   "dateMeaning": "outbreak start / CERT advisory CA-2001-26",
+   "summary": "Nimda ('admin' backwards) spread through email, open network shares, compromised websites, IIS directory traversal and backdoors left by Code Red II, which made it one of the fastest-spreading worms of its time. The traffic from its scanning and mailing caused denial-of-service effects worldwide. It appeared one week after 9/11.",
+   "cves": [
+    "CVE-2000-0884",
+    "CVE-2001-0154"
+   ],
+   "malware": [
+    "Nimda"
+   ],
+   "people": [],
+   "sources": [
+    "https://seclists.org/cert/2001/22",
+    "https://en.wikipedia.org/wiki/Nimda"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "sql-slammer",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "SQL Slammer (Sapphire)",
+   "date": "2003-01-25",
+   "dateMeaning": "outbreak start (~05:30 UTC)",
+   "summary": "A 376-byte UDP worm exploited a buffer overflow in Microsoft SQL Server / MSDE 2000. A patch had been available for six months. Its population doubled every 8.5 seconds and it infected over 90% of vulnerable hosts within about 10 minutes. The flood caused network outages, cancelled flights and ATM failures, and was reported to disrupt some 911 emergency call services.",
+   "cves": [
+    "CVE-2002-0649"
+   ],
+   "malware": [
+    "SQL Slammer"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.caida.org/catalog/papers/2003_sapphire2/sapphire/",
+    "https://www.caida.org/archive/sapphire/"
+   ],
+   "confidence": "high",
+   "tone": "sobrio"
+  },
+  {
+   "id": "blaster",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Blaster worm (MSBlast/Lovsan)",
+   "date": "2003-08-11",
+   "dateMeaning": "first observed / outbreak start",
+   "summary": "Blaster exploited the Windows DCOM RPC buffer overflow that MS03-026 had patched a month earlier. Infected PCs rebooted endlessly and were set to SYN-flood windowsupdate.com. Its code contained the message 'billy gates why do you make this possible? Stop making money and fix your software!!'. Infections peaked on 13 August.",
+   "cves": [
+    "CVE-2003-0352"
+   ],
+   "malware": [
+    "Blaster",
+    "MSBlast",
+    "Lovsan"
+   ],
+   "people": [],
+   "sources": [
+    "https://seclists.org/cert/2003/22",
+    "https://support.microsoft.com/kb/826955"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "mydoom",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "MyDoom",
+   "date": "2004-01-26",
+   "dateMeaning": "first identified / outbreak start",
+   "summary": "MyDoom, a mass-mailing worm, became the fastest-spreading email worm on record; at its peak about one in ten emails was a copy of it. It opened a backdoor on infected machines and was programmed to launch a DDoS against the SCO Group's website.",
+   "cves": [],
+   "malware": [
+    "MyDoom",
+    "Novarg"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.helpnetsecurity.com/2004/01/27/central-command-warns-of-new-worm-named-wormmydoom/",
+    "https://en.wikipedia.org/wiki/Mydoom"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "sasser",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Sasser worm",
+   "date": "2004-04-30",
+   "dateMeaning": "outbreak start",
+   "summary": "Sasser spread with no user interaction by exploiting the Windows LSASS buffer overflow patched 17 days earlier in MS04-011, making infected machines crash and reboot. It disrupted airlines, coast guards, rail operators and businesses worldwide. Its author, German teenager Sven Jaschan, was caught after a reward was offered by Microsoft.",
+   "cves": [
+    "CVE-2003-0533"
+   ],
+   "malware": [
+    "Sasser"
+   ],
+   "people": [],
+   "sources": [
+    "https://news.microsoft.com/2004/05/02/microsoft-joins-law-enforcement-to-track-perpetrators-of-emerging-worm-attacks-against-computer-users/",
+    "https://isc.sans.edu/diary/181"
+   ],
+   "confidence": "medium",
+   "tone": "normale"
+  },
+  {
+   "id": "estonia-2007",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Cyberattacks on Estonia",
+   "date": "2007-04-27",
+   "dateMeaning": "attack start",
+   "summary": "When the Bronze Soldier war memorial was moved in Tallinn, a weeks-long wave of DDoS attacks and defacements hit Estonia's parliament, ministries, banks, ISPs and news media. Most of the traffic came from Russia, though no state culprit was ever proven. It is widely regarded as the first cyberattack against a whole nation, and it led to the founding of the NATO CCDCOE in Tallinn.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://cyberlaw.ccdcoe.org/wiki/Cyber_attacks_against_Estonia_(2007)",
+    "https://en.wikipedia.org/wiki/2007_cyberattacks_on_Estonia"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "kaminsky-dns-patch",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Kaminsky's coordinated DNS patch",
+   "date": "2008-07-08",
+   "dateMeaning": "coordinated multi-vendor patch release",
+   "summary": "Dan Kaminsky found a fundamental DNS cache-poisoning flaw that affected nearly every resolver. Instead of publishing it, he worked secretly with CERT/CC and vendors, including Microsoft, ISC, Cisco and others, on a simultaneous patch adding source-port randomization. It was one of the largest coordinated disclosures in Internet history.",
+   "cves": [
+    "CVE-2008-1447"
+   ],
+   "malware": [],
+   "people": [
+    "Dan Kaminsky"
+   ],
+   "sources": [
+    "https://redmondmag.com/articles/2008/07/08/massive-patch-coming-for-dns-vulnerability.aspx",
+    "https://www.kb.cert.org/vuls/id/800113"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "conficker",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Conficker worm",
+   "date": "2008-11-21",
+   "dateMeaning": "first detection (Conficker.A)",
+   "summary": "Conficker spread through the Windows Server service flaw patched in MS08-067, as well as weak admin passwords and USB drives. It used domain-generation algorithms to contact its controllers. It infected millions of computers in more than 190 countries, including military and government networks, making it the largest worm outbreak since Slammer.",
+   "cves": [
+    "CVE-2008-4250"
+   ],
+   "malware": [
+    "Conficker",
+    "Downadup",
+    "Kido"
+   ],
+   "people": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Conficker",
+    "https://learn.microsoft.com/en-us/archive/blogs/chitpro-en/conficker-are-you-patched"
+   ],
+   "confidence": "medium",
+   "tone": "normale"
+  },
+  {
+   "id": "operation-aurora",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Operation Aurora",
+   "date": "2010-01-12",
+   "dateMeaning": "public disclosure (Google blog 'A new approach to China')",
+   "summary": "Google disclosed a highly sophisticated, targeted attack from China that stole intellectual property and targeted the Gmail accounts of human-rights activists. At least twenty other companies were also hit. The attackers used a zero-day in Internet Explorer.",
+   "cves": [
+    "CVE-2010-0249"
+   ],
+   "malware": [
+    "Hydraq"
+   ],
+   "people": [],
+   "sources": [
+    "https://googleblog.blogspot.com/2010/01/new-approach-to-china.html",
+    "https://jvnrss.ise.chuo-u.ac.jp/jtg/trn/en/JVNTR-2010-06.html"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "stuxnet-discovery",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Stuxnet discovered",
+   "date": "2010-06-17",
+   "dateMeaning": "discovery (VirusBlokAda, Minsk)",
+   "summary": "Sergey Ulasen of Belarusian antivirus firm VirusBlokAda began analysing a sample after an Iranian customer's machines kept rebooting. The sample turned out to be Stuxnet, a worm that used several Windows zero-days and targeted Siemens Step7/PLC systems. It had been built to sabotage uranium-enrichment centrifuges at Natanz, making it the first publicly known digital weapon to cause physical damage.",
+   "cves": [
+    "CVE-2010-2568",
+    "CVE-2010-2729",
+    "CVE-2010-2743",
+    "CVE-2010-3338"
+   ],
+   "malware": [
+    "Stuxnet"
+   ],
+   "people": [],
+   "sources": [
+    "https://eugene.kaspersky.com/2011/11/02/the-man-who-found-stuxnet-sergey-ulasen-in-the-spotlight/",
+    "https://en.wikipedia.org/wiki/Stuxnet"
+   ],
+   "confidence": "medium",
+   "tone": "normale"
+  },
+  {
+   "id": "rustock-takedown",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Rustock botnet takedown (Operation b107)",
+   "date": "2011-03-16",
+   "dateMeaning": "takedown day (spam stopped mid-morning)",
+   "summary": "Microsoft's Digital Crimes Unit, with Pfizer, FireEye, the University of Washington and US Marshals, seized Rustock's command servers under a civil court order. Rustock, a botnet of over a million PCs, had been responsible for a large share of the world's spam, and global spam volume dropped noticeably overnight.",
+   "cves": [],
+   "malware": [
+    "Rustock"
+   ],
+   "people": [
+    "Microsoft Digital Crimes Unit"
+   ],
+   "sources": [
+    "https://www.scworld.com/news/microsoft-prevails-rustock-botnet-shut-down",
+    "https://www.ecommercetimes.com/story/microsoft-beheads-rustock-72102.html"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "rsa-securid-breach",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "RSA SecurID breach",
+   "date": "2011-03-17",
+   "dateMeaning": "public disclosure (open letter by Art Coviello)",
+   "summary": "RSA disclosed an 'advanced persistent threat' intrusion that stole information related to its SecurID two-factor tokens. The attackers got in through phishing emails titled '2011 Recruitment Plan' carrying an Excel file with a Flash zero-day. The stolen data was later linked to an attempted attack on Lockheed Martin, and RSA offered to replace tokens for customers.",
+   "cves": [
+    "CVE-2011-0609"
+   ],
+   "malware": [
+    "Poison Ivy"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/790070/000119312511070159/0001193125-11-070159.txt",
+    "https://www.helpnetsecurity.com/2011/03/18/rsa-hacked-securid-users-possibly-affected"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "coreflood-takedown",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Coreflood botnet takedown",
+   "date": "2011-04-13",
+   "dateMeaning": "DOJ/FBI announcement (TRO obtained)",
+   "summary": "The US DOJ and FBI got a court order to seize Coreflood's command-and-control servers and 29 domains, replacing them with government servers that sent 'stop' commands to infected PCs. It was the first time US authorities remotely disabled malware on victims' machines. Coreflood had infected about 2.3 million computers to steal banking credentials.",
+   "cves": [],
+   "malware": [
+    "Coreflood"
+   ],
+   "people": [
+    "FBI",
+    "US Department of Justice"
+   ],
+   "sources": [
+    "https://www.computerworld.com/article/1452656/doj-gets-court-permission-to-attack-botnet.html",
+    "https://www.virusbulletin.com/blog/2011/04/department-justice-shuts-down-coreflood-botnet/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "psn-outage-2011",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "PlayStation Network breach",
+   "date": "2011-04-20",
+   "dateMeaning": "service shutdown (intrusion 17-19 April)",
+   "summary": "Sony took the PlayStation Network and Qriocity offline after intruders stole personal data from about 77 million accounts. The service stayed down for 23 days, and Sony waited until 26 April to tell users that their data had been exposed.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2011_PlayStation_Network_outage",
+    "https://www.eweek.com/security/sony-playstation-network-data-breach-compromises-77-million-user-accounts/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "flame-discovery",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Flame espionage malware disclosed",
+   "date": "2012-05-28",
+   "dateMeaning": "public disclosure (Kaspersky Lab / ITU, CrySyS, Iran MAHER)",
+   "summary": "While investigating a data-wiping incident at the ITU's request, Kaspersky found Flame, a modular espionage toolkit of about 20 MB. It could record audio, take screenshots, log keystrokes and steal files, mostly from targets in Iran and the Middle East. It spread through Windows Update using a forged Microsoft certificate obtained with an MD5 collision attack.",
+   "cves": [],
+   "malware": [
+    "Flame",
+    "Flamer",
+    "sKyWIper"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.kaspersky.com/about/press-releases/2012_kaspersky-lab-and-itu-research-reveals-new-advanced-cyber-threat",
+    "https://en.wikipedia.org/wiki/Flame_(malware)"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "knight-capital",
+   "type": "flagello",
+   "noCulprit": true,
+   "name": "Knight Capital trading meltdown",
+   "date": "2012-08-01",
+   "dateMeaning": "incident day (NYSE open)",
+   "summary": "A faulty deployment of new trading software reactivated dormant 'Power Peg' code on one of eight servers. Within about 45 minutes Knight Capital had sent millions of erroneous orders and lost about $440 million, pushing the firm to the brink of collapse. No attacker was involved.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001060749/000119312512346917/d361681d10q.htm",
+    "https://www.sec.gov/litigation/admin/2013/34-70694.pdf"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "shamoon-aramco",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Shamoon wiper at Saudi Aramco",
+   "date": "2012-08-15",
+   "dateMeaning": "attack start (11:08 Saudi time)",
+   "summary": "The Shamoon (Disttrack) wiper erased about 30,000 Saudi Aramco workstations and replaced files with an image of a burning American flag. A group calling itself the 'Cutting Sword of Justice' claimed the attack. Oil production networks were isolated and unaffected, but the company spent weeks rebuilding its IT.",
+   "cves": [],
+   "malware": [
+    "Shamoon",
+    "Disttrack"
+   ],
+   "people": [],
+   "sources": [
+    "https://threatpost.com/saudi-aramco-confirms-scope-malware-attack-082712",
+    "https://www.darkreading.com/cyberattacks-data-breaches/30-000-machines-infected-in-targeted-attack-on-saudi-aramco"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "target-breach",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Target payment-card breach",
+   "date": "2013-12-19",
+   "dateMeaning": "public disclosure (theft ran 2013-11-27 to 12-15)",
+   "summary": "Target confirmed that attackers had stolen data from about 40 million credit and debit cards used at US stores during the holiday season. The attackers got into the network with credentials stolen from an HVAC contractor. A later disclosure added personal data of up to 70 million customers.",
+   "cves": [],
+   "malware": [
+    "BlackPOS",
+    "Kaptoxa"
+   ],
+   "people": [],
+   "sources": [
+    "https://corporate.target.com/press/release/2013/12/target-confirms-unauthorized-access-to-payment-card-data-in-u-s-stores",
+    "https://www.malwarebytes.com/blog/news/2013/12/target-us-stores-suffer-from-massive-data-breach"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "operation-tovar",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Operation Tovar (GameOver Zeus & CryptoLocker)",
+   "date": "2014-06-02",
+   "dateMeaning": "public announcement (takeover began 30 May)",
+   "summary": "The FBI, the UK's NCA, Europol and private researchers including CrowdStrike, Dell SecureWorks, Shadowserver and Fox-IT took over the peer-to-peer GameOver Zeus botnet and cut off CryptoLocker's distribution. Charges were unsealed against Evgeniy Bogachev, and researchers later released a free CryptoLocker decryption service.",
+   "cves": [],
+   "malware": [
+    "GameOver Zeus",
+    "CryptoLocker"
+   ],
+   "people": [
+    "FBI",
+    "UK National Crime Agency",
+    "Europol EC3",
+    "Shadowserver"
+   ],
+   "sources": [
+    "https://www.shadowserver.org/news/gameover-zeus-cryptolocker/",
+    "https://www.asisonline.org/security-management-magazine/articles/2014/06/doj-announces-disruption-of-sophisticated-botnet/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "sony-pictures-hack",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Sony Pictures hack",
+   "date": "2014-11-24",
+   "dateMeaning": "attack day (wiper triggered, 'GOP' skull screens)",
+   "summary": "A group calling itself the Guardians of Peace wiped thousands of Sony Pictures computers and leaked unreleased films, executives' emails and employee data. They also threatened cinemas showing 'The Interview'. The FBI attributed the attack to North Korea within weeks.",
+   "cves": [],
+   "malware": [
+    "Destover"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.hollywoodreporter.com/features/five-years-who-hacked-sony-1257591",
+    "https://www.securityweek.com/feedback-friday-north-korea-behind-sony-hack/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "opm-breach",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "OPM data breach",
+   "date": "2015-06-04",
+   "dateMeaning": "public disclosure",
+   "summary": "The US Office of Personnel Management announced an intrusion, detected in April 2015, that exposed records of about 4.2 million federal employees. A related intrusion into background-investigation files was later found to affect 21.5 million people, including 5.6 million fingerprint records.",
+   "cves": [],
+   "malware": [
+    "PlugX",
+    "Sakula"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.opm.gov/news/releases/2015/06/opm-to-notify-employees-of-cybersecurity-incident/",
+    "https://www.odni.gov/index.php/newsroom/news-articles/news-articles-2015/1203-opm-responds-to-cyberattack-information-about-the-recent-cybersecurity-incident"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "ukraine-grid-2015",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Ukraine power grid attack",
+   "date": "2015-12-23",
+   "dateMeaning": "attack day",
+   "summary": "Attackers remotely opened breakers at three Ukrainian regional power distribution companies, cutting power to about 225,000 customers in winter for several hours. They also wiped systems and flooded call centres with calls to stop customers from reporting outages. It was the first confirmed cyberattack to take down a power grid; the US government later attributed it to Russian state actors (Sandworm).",
+   "cves": [],
+   "malware": [
+    "BlackEnergy 3",
+    "KillDisk"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.cisa.gov/news-events/ics-alerts/ir-alert-h-16-056-01",
+    "https://www.theregister.com/2016/03/04/ukraine_blackenergy_confirmation/"
+   ],
+   "confidence": "high",
+   "tone": "sobrio"
+  },
+  {
+   "id": "bangladesh-bank-heist",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Bangladesh Bank heist",
+   "date": "2016-02-04",
+   "dateMeaning": "fraudulent SWIFT orders sent (night of 4-5 Feb)",
+   "summary": "Attackers used Bangladesh Bank's SWIFT credentials to send 35 fraudulent transfer orders worth nearly $1 billion from its account at the New York Fed. Most were blocked, partly because of a spelling error, but $81 million reached the Philippines and was laundered through casinos. The theft was later attributed to North Korea's Lazarus Group.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bangladesh_Bank_robbery",
+    "https://www.thedailystar.net/business/banking/bangladesh-bank-cyber-hacking-billion-dollar-hit-job-1863310"
+   ],
+   "confidence": "medium",
+   "tone": "normale"
+  },
+  {
+   "id": "no-more-ransom",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "No More Ransom launched",
+   "date": "2016-07-25",
+   "dateMeaning": "launch",
+   "summary": "The Dutch National Police, Europol's EC3, Intel Security (McAfee) and Kaspersky Lab launched NoMoreRansom.org, a free portal of ransomware decryptors and advice. In its first year more than 28,000 devices were decrypted for free, and the project has since grown to hundreds of partners.",
+   "cves": [],
+   "malware": [],
+   "people": [
+    "Dutch National Police",
+    "Europol EC3",
+    "Kaspersky",
+    "McAfee"
+   ],
+   "sources": [
+    "https://www.kaspersky.com/about/press-releases/2016_no-more-ransom-law-enforcement-and-it-security-companies-join-forces-to-fight-ransomware",
+    "https://www.kaspersky.com/about/press-releases/2017_over-28-000-devices-decrypted-and-100-global-partners-no-more-ransom-celebrates-its-first-year"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "mirai-dyn",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Mirai botnet attack on Dyn",
+   "date": "2016-10-21",
+   "dateMeaning": "attack day (two waves, 11:10 and 15:50 UTC)",
+   "summary": "A huge DDoS from the Mirai botnet, made of hijacked IoT devices such as cameras and DVRs, hit DNS provider Dyn. Twitter, Netflix, Reddit, GitHub and many other sites became unreachable for large parts of the US and Europe. Mirai's authors later pleaded guilty in US federal court.",
+   "cves": [],
+   "malware": [
+    "Mirai"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.infosecurity-magazine.com/news/dyn-statement-ddos-attack",
+    "https://blog.apnic.net/2016/10/26/quick-look-attack-dyn/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "avalanche-takedown",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Avalanche network dismantled",
+   "date": "2016-11-30",
+   "dateMeaning": "action day (announced 1 Dec)",
+   "summary": "After four years of investigation led by German police and prosecutors with the FBI, Europol and Eurojust, a coordinated action across 30 countries seized, sinkholed or blocked over 800,000 domains. The operation shut down Avalanche, a bulletproof infrastructure that had served more than 20 malware families. Five people were arrested and 39 servers seized.",
+   "cves": [],
+   "malware": [
+    "GozNym",
+    "TeslaCrypt",
+    "Avalanche"
+   ],
+   "people": [
+    "Lüneburg police / Verden prosecutors",
+    "FBI",
+    "Europol",
+    "Eurojust",
+    "Shadowserver"
+   ],
+   "sources": [
+    "https://www.europol.europa.eu/media-press/newsroom/news/%E2%80%98avalanche%E2%80%99-network-dismantled-in-international-cyber-operation",
+    "https://krebsonsecurity.com/2016/12/avalanche-global-fraud-ring-dismantled/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "industroyer-kyiv",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Industroyer blackout in Kyiv",
+   "date": "2016-12-17",
+   "dateMeaning": "attack day (late evening)",
+   "summary": "Malware built to speak electric-grid protocols directly (IEC 104, IEC 61850, OPC DA) opened breakers at the Pivnichna transmission substation and cut power to part of Kyiv for about an hour. ESET and Dragos attributed it to the Sandworm group.",
+   "cves": [
+    "CVE-2015-5374"
+   ],
+   "malware": [
+    "Industroyer",
+    "CrashOverride"
+   ],
+   "people": [],
+   "sources": [
+    "https://cyberlaw.ccdcoe.org/wiki/Industroyer_-_Crash_Override_(2016)",
+    "https://www.esecurityplanet.com/threats/malware-behind-ukraine-blackout-analyzed/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "wannacry",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "WannaCry ransomware worm",
+   "date": "2017-05-12",
+   "dateMeaning": "outbreak start",
+   "summary": "A ransomware worm spread through EternalBlue, an NSA exploit leaked by the Shadow Brokers, and hit about 200,000 computers in 150 countries in a single day. The UK's NHS was among the worst affected: operations and appointments were cancelled and some ambulances diverted. The US and UK attributed the attack to North Korea.",
+   "cves": [
+    "CVE-2017-0144",
+    "CVE-2017-0145"
+   ],
+   "malware": [
+    "WannaCry",
+    "EternalBlue",
+    "DoublePulsar"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.nao.org.uk/reports/investigation-wannacry-cyber-attack-and-the-nhs/",
+    "https://techcrunch.com/2019/07/08/the-wannacry-sinkhole/"
+   ],
+   "confidence": "high",
+   "tone": "sobrio"
+  },
+  {
+   "id": "wannacry-kill-switch",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "WannaCry kill switch",
+   "date": "2017-05-12",
+   "dateMeaning": "kill-switch domain registered (afternoon UK time)",
+   "summary": "While analysing WannaCry samples on the day of the outbreak, 22-year-old researcher Marcus Hutchins (MalwareTech) noticed the worm queried an unregistered domain and registered it for about $10.69. That accidentally triggered the worm's built-in kill switch and stopped new infections from spreading. He and colleagues then kept the sinkhole online under botnet DDoS attacks.",
+   "cves": [
+    "CVE-2017-0144"
+   ],
+   "malware": [
+    "WannaCry"
+   ],
+   "people": [
+    "Marcus Hutchins (MalwareTech)",
+    "Darien Huss (Proofpoint)"
+   ],
+   "sources": [
+    "https://www.malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-attacks.html",
+    "https://techcrunch.com/2019/07/08/the-wannacry-sinkhole/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "notpetya",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "NotPetya",
+   "date": "2017-06-27",
+   "dateMeaning": "outbreak start (via M.E.Doc update)",
+   "summary": "A destructive wiper disguised as ransomware was pushed through a hijacked update of M.E.Doc, Ukrainian tax-accounting software, and then spread using EternalBlue, EternalRomance and stolen credentials. It crippled Maersk, Merck, FedEx/TNT and many others, with damage estimated at about $10 billion, and disrupted US hospital services at Heritage Valley Health System. The US, UK and others attributed it to Russia's GRU (Sandworm).",
+   "cves": [
+    "CVE-2017-0144",
+    "CVE-2017-0145"
+   ],
+   "malware": [
+    "NotPetya",
+    "EternalBlue",
+    "EternalRomance",
+    "Mimikatz"
+   ],
+   "people": [],
+   "sources": [
+    "https://cyberlaw.ccdcoe.org/wiki/NotPetya_(2017)",
+    "https://www.voanews.com/amp/companies-still-hobbled-from-fearsome-cyberattack-/3924049.html"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "equifax-breach",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Equifax breach",
+   "date": "2017-09-07",
+   "dateMeaning": "public disclosure",
+   "summary": "Equifax disclosed that attackers had stolen personal data, including Social Security numbers, of about 147 million people. They had broken in through an unpatched Apache Struts flaw, two months after a fix was released. The intrusion ran from mid-May to late July 2017 and was later attributed to members of China's PLA.",
+   "cves": [
+    "CVE-2017-5638"
+   ],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://securityaffairs.com/63043/hacking/equifax-data-breach.html",
+    "https://www.malwarebytes.com/blog/news/2017/09/equifax-breach-what-you-need-to-know"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "triton-trisis",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "TRITON/TRISIS safety-system attack disclosed",
+   "date": "2017-12-14",
+   "dateMeaning": "public disclosure (FireEye and Dragos reports)",
+   "summary": "Researchers revealed malware that had reprogrammed Schneider Electric Triconex safety instrumented systems at a Saudi petrochemical plant. These controllers exist to prevent explosions and toxic releases; the intrusion was discovered because it accidentally triggered a plant shutdown in 2017. FireEye later linked it to a Russian government research institute (TsNIIKhM).",
+   "cves": [],
+   "malware": [
+    "TRITON",
+    "TRISIS",
+    "HatMan"
+   ],
+   "people": [],
+   "sources": [
+    "https://tagteam.harvard.edu/hub_feeds/4280/feed_items/2841545",
+    "https://www.securityweek.com/new-ics-malware-triton-used-critical-infrastructure-attack/"
+   ],
+   "confidence": "high",
+   "tone": "sobrio"
+  },
+  {
+   "id": "atlanta-samsam",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "City of Atlanta ransomware",
+   "date": "2018-03-22",
+   "dateMeaning": "attack day (outages detected 05:40)",
+   "summary": "SamSam ransomware shut down Atlanta's municipal systems for bill payment, courts, parking and job applications, so city staff went back to paper forms for weeks. The attackers demanded about $51,000 in bitcoin; recovery cost the city millions. Two Iranian nationals were indicted for the SamSam campaign later in 2018.",
+   "cves": [],
+   "malware": [
+    "SamSam"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.bleepingcomputer.com/news/security/city-of-atlanta-it-systems-hit-by-samsam-ransomware/",
+    "https://www.csoonline.com/article/3264654/atlanta-officials-still-working-around-the-clock-to-resolve-ransomware-attack.html"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "norsk-hydro",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Norsk Hydro ransomware",
+   "date": "2019-03-19",
+   "dateMeaning": "attack day (detected overnight 18-19 March)",
+   "summary": "LockerGoga ransomware hit the Norwegian aluminium producer, forcing plants in several countries into manual operation. Hydro refused to pay, restored from backups and gave unusually open public updates. The attack cost it about $70 million.",
+   "cves": [],
+   "malware": [
+    "LockerGoga"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.bleepingcomputer.com/news/security/lockergoga-ransomware-sends-norsk-hydro-into-manual-mode/",
+    "https://www.industrialcyber.co/features/the-norsk-hydro-attack/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "capital-one-breach",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Capital One breach",
+   "date": "2019-07-29",
+   "dateMeaning": "public disclosure and arrest",
+   "summary": "A former AWS engineer exploited a misconfigured web application firewall (an SSRF to the cloud metadata service) to steal data on about 106 million Capital One customers and applicants in the US and Canada. A GitHub user tipped off the bank on 17 July. The attacker was convicted in 2022.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://securityaffairs.com/89114/data-breach/capital-one-data-breach.html",
+    "https://komonews.com/news/local/seattle-woman-found-guilty-in-massive-2019-hack-of-capital-one-data"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "twitter-hack-2020",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Twitter celebrity-account hijack",
+   "date": "2020-07-15",
+   "dateMeaning": "attack day",
+   "summary": "After phone spear-phishing Twitter employees to reach internal admin tools, attackers took over 130 high-profile accounts, including those of Barack Obama, Joe Biden, Elon Musk and Apple. They used them to post a 'double your bitcoin' scam that collected about $117,000. A 17-year-old from Florida and two others were charged.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://www.sophos.com/en-us/blog/twitter-hack-three-suspects-charged-in-the-us",
+    "https://www.hackread.com/juvenile-4-charged-over-july-15th-twitter-hack/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "dusseldorf-hospital",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Düsseldorf University Hospital ransomware",
+   "date": "2020-09-10",
+   "dateMeaning": "attack day (systems failed early on 10 Sept)",
+   "summary": "Ransomware got in through a Citrix vulnerability and disabled about 30 servers at University Hospital Düsseldorf, which had to deregister from emergency care. A patient diverted to a hospital in Wuppertal died, and prosecutors opened a negligent-homicide investigation, which was later dropped after they concluded the delay was not the decisive cause. The ransom note was addressed to the university; once police told the attackers they had hit a hospital, they handed over the decryption key.",
+   "cves": [
+    "CVE-2019-19781"
+   ],
+   "malware": [
+    "DoppelPaymer"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.technologyreview.com/2020/09/18/1008582/a-patient-has-died-after-ransomware-hackers-hit-a-german-hospital/",
+    "https://www.computerweekly.com/news/252489247/German-authorities-probe-ransomware-hospital-death"
+   ],
+   "confidence": "medium",
+   "tone": "lutto"
+  },
+  {
+   "id": "solarwinds-sunburst",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "SolarWinds / SUNBURST supply-chain compromise",
+   "date": "2020-12-13",
+   "dateMeaning": "public disclosure (FireEye report, CISA Emergency Directive 21-01)",
+   "summary": "Attackers had inserted the SUNBURST backdoor into SolarWinds Orion updates shipped between March and June 2020, reaching about 18,000 customers. A smaller set of high-value targets were then exploited, including the US Treasury, Commerce, DHS and Microsoft. The US government attributed the operation to Russia's SVR (APT29).",
+   "cves": [],
+   "malware": [
+    "SUNBURST",
+    "SUNSPOT",
+    "TEARDROP"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.solarwinds.com/sa-overview/certadvisory",
+    "https://www.cisa.gov/news-events/directives/ed-21-01-mitigate-solarwinds-orion-code-compromise"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "emotet-takedown",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Emotet takedown (Operation Ladybird)",
+   "date": "2021-01-27",
+   "dateMeaning": "public announcement by Europol/Eurojust",
+   "summary": "Police from eight countries took control of Emotet's infrastructure and redirected infected machines to law-enforcement servers. Emotet was a 'loader' botnet that rented out access to ransomware gangs such as Ryuk and Conti. Investigators later pushed an update that uninstalled Emotet from victims on 25 April 2021.",
+   "cves": [],
+   "malware": [
+    "Emotet"
+   ],
+   "people": [
+    "Europol",
+    "Eurojust",
+    "Dutch, German, US, UK, French, Lithuanian, Canadian and Ukrainian police"
+   ],
+   "sources": [
+    "https://www.welivesecurity.com/2021/01/28/emotet-botnet-disrupted-global-operation/",
+    "https://krebsonsecurity.com/2021/01/international-action-targets-emotet-crimeware/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "proxylogon-hafnium",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Exchange ProxyLogon / HAFNIUM",
+   "date": "2021-03-02",
+   "dateMeaning": "disclosure and emergency patch by Microsoft",
+   "summary": "Microsoft released emergency patches for four Exchange Server zero-days that the China-based HAFNIUM group was using to plant web shells. Mass exploitation by many groups followed, compromising tens of thousands of on-premises servers worldwide, and the FBI later removed web shells from US servers under court order.",
+   "cves": [
+    "CVE-2021-26855",
+    "CVE-2021-26857",
+    "CVE-2021-26858",
+    "CVE-2021-27065"
+   ],
+   "malware": [
+    "China Chopper"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.microsoft.com/en-us/security/blog/2021/03/02/hafnium-targeting-exchange-servers/",
+    "https://www.tenable.com/blog/cve-2021-26855-cve-2021-26857-cve-2021-26858-cve-2021-27065-four-microsoft-exchange-server-zero-day-vulnerabilities"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "colonial-pipeline",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Colonial Pipeline ransomware",
+   "date": "2021-05-07",
+   "dateMeaning": "attack day / pipeline shutdown",
+   "summary": "DarkSide ransomware hit Colonial Pipeline's IT network, and the company shut down the largest fuel pipeline in the US for several days, causing panic buying and shortages across the Southeast. The attackers got in through an old VPN account without MFA. Colonial paid about 75 BTC, most of which the DOJ later recovered.",
+   "cves": [],
+   "malware": [
+    "DarkSide"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.bleepingcomputer.com/news/security/largest-us-pipeline-shuts-down-operations-after-ransomware-attack/",
+    "https://www.justice.gov/archives/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "hse-ireland-conti",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Ireland HSE ransomware",
+   "date": "2021-05-14",
+   "dateMeaning": "ransomware detonation (just after midnight)",
+   "summary": "Conti ransomware encrypted most of the IT systems of Ireland's national Health Service Executive, cancelling appointments and forcing hospitals onto paper during the COVID-19 pandemic. The attackers had first got in eight weeks earlier through a phishing Excel file. Ireland refused to pay; Conti eventually handed over a decryptor, but full recovery took months.",
+   "cves": [],
+   "malware": [
+    "Conti",
+    "Cobalt Strike"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.theregister.com/2021/12/10/ireland_health_conti_ransomware_attack_report/",
+    "https://krebsonsecurity.com/2021/12/inside-irelands-public-healthcare-ransomware-scare/"
+   ],
+   "confidence": "high",
+   "tone": "sobrio"
+  },
+  {
+   "id": "colonial-ransom-recovered",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Colonial Pipeline ransom recovered",
+   "date": "2021-06-07",
+   "dateMeaning": "DOJ announcement",
+   "summary": "The DOJ announced it had seized 63.7 bitcoin, worth about $2.3 million and the majority of the ransom Colonial Pipeline paid to DarkSide, after the FBI obtained the private key to the receiving wallet. It was the first operation of the DOJ's new Ransomware and Digital Extortion Task Force.",
+   "cves": [],
+   "malware": [
+    "DarkSide"
+   ],
+   "people": [
+    "FBI",
+    "US Department of Justice"
+   ],
+   "sources": [
+    "https://www.justice.gov/archives/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside",
+    "https://cyberscoop.com/doj-darkside-colonial-cryptocurrency-seizure/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "fastly-outage",
+   "type": "flagello",
+   "noCulprit": true,
+   "name": "Fastly CDN outage",
+   "date": "2021-06-08",
+   "dateMeaning": "incident day (09:47 UTC)",
+   "summary": "A latent bug introduced in a May software deployment was triggered by one customer's valid configuration change, making 85% of Fastly's network return errors. Sites including the New York Times, the Guardian, Reddit, Twitch and gov.uk went down for up to an hour. No attacker was involved.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://www.fastly.com/blog/summary-of-june-8-outage",
+    "https://www.bleepingcomputer.com/news/security/stackoverflow-twitch-reddit-others-down-in-fastly-cdn-outage/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "kaseya-vsa-revil",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Kaseya VSA supply-chain ransomware",
+   "date": "2021-07-02",
+   "dateMeaning": "attack day (Friday before US Independence Day)",
+   "summary": "REvil exploited zero-days in Kaseya's VSA remote-management software to push ransomware through about 60 managed service providers to roughly 1,500 downstream businesses, including Sweden's Coop supermarket chain. The Dutch DIVD had already reported the flaw and was coordinating disclosure. The attackers demanded $70 million for a universal decryptor.",
+   "cves": [
+    "CVE-2021-30116"
+   ],
+   "malware": [
+    "REvil",
+    "Sodinokibi"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.cisa.gov/uscert/kaseya-ransomware-attack",
+    "https://blog.talosintelligence.com/revil-ransomware-actors-attack-kaseya/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "kaseya-decryptor",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Kaseya obtains REvil universal decryptor",
+   "date": "2021-07-22",
+   "dateMeaning": "announcement",
+   "summary": "Three weeks after the VSA attack, Kaseya announced it had obtained a universal decryptor for all REvil victims from a 'trusted third party'. Emsisoft confirmed it worked, and recovery of the roughly 1,500 affected businesses began without paying the $70 million demand. It was later reported that the FBI had obtained the key by accessing REvil's servers.",
+   "cves": [],
+   "malware": [
+    "REvil"
+   ],
+   "people": [
+    "Kaseya",
+    "Emsisoft"
+   ],
+   "sources": [
+    "https://www.bleepingcomputer.com/news/security/kaseya-obtains-universal-decryptor-for-revil-ransomware-victims/",
+    "https://therecord.media/kaseya-obtains-revil-decryptor-starts-customer-data-recovery-operations/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "facebook-bgp-outage",
+   "type": "flagello",
+   "noCulprit": true,
+   "name": "Facebook global outage",
+   "date": "2021-10-04",
+   "dateMeaning": "incident day (~15:40 UTC)",
+   "summary": "A maintenance command meant to assess backbone capacity accidentally disconnected all of Facebook's data centres, and a bug in an audit tool failed to block it. Facebook's DNS servers then withdrew their BGP routes, so Facebook, Instagram and WhatsApp vanished from the Internet for about six hours. Engineers had to get physical access to routers. No attacker was involved.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/",
+    "https://blog.cloudflare.com/october-2021-facebook-outage/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "log4shell-reported",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Log4Shell privately reported",
+   "date": "2021-11-24",
+   "dateMeaning": "private report to the Apache Software Foundation",
+   "summary": "Chen Zhaojun of the Alibaba Cloud Security Team privately emailed Apache Log4j maintainers about the JNDI lookup remote code execution flaw, giving them time to prepare a fix before the bug went public in December. China's MIIT later suspended a partnership with Alibaba Cloud for not reporting it to the government first.",
+   "cves": [
+    "CVE-2021-44228"
+   ],
+   "malware": [],
+   "people": [
+    "Chen Zhaojun (Alibaba Cloud Security Team)"
+   ],
+   "sources": [
+    "https://thehackernews.com/2021/12/china-suspends-deal-with-alibaba-for.html",
+    "https://www.petefreitag.com/blog/log4shell-vulnerability/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "log4shell",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Log4Shell",
+   "date": "2021-12-09",
+   "dateMeaning": "public disclosure (exploit published, mass scanning began)",
+   "summary": "A remote code execution flaw in Apache Log4j 2 JNDI lookups let attackers take over servers just by getting a crafted string into a log. Scanning and exploitation started within hours and hit countless applications, from Minecraft servers to enterprise products. CISA called it one of the most serious flaws its director had seen.",
+   "cves": [
+    "CVE-2021-44228"
+   ],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://www.petefreitag.com/blog/log4shell-vulnerability/",
+    "https://www.cisa.gov/news-events/news/apache-log4j-vulnerability-guidance"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "bitfinex-recovery",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Bitfinex hack proceeds seized",
+   "date": "2022-02-08",
+   "dateMeaning": "DOJ announcement of arrests and seizure",
+   "summary": "The DOJ arrested Ilya Lichtenstein and Heather Morgan and seized about 94,000 bitcoin, then worth about $3.6 billion, stolen in the 2016 Bitfinex hack. IRS-CI agents traced the funds on the blockchain and decrypted a cloud file holding the wallet keys. At the time it was the department's largest financial seizure ever.",
+   "cves": [],
+   "malware": [],
+   "people": [
+    "IRS Criminal Investigation",
+    "FBI",
+    "US Department of Justice"
+   ],
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2022-02-08/doj-seizes-3-6-billion-in-bitcoin-stolen-in-2016-bitfinex-hack",
+    "https://therecord.media/doj-seizes-3-6-billion-from-2016-bitfinex-hack-arrests-new-york-couple/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "viasat-ka-sat",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Viasat KA-SAT attack",
+   "date": "2022-02-24",
+   "dateMeaning": "attack day (~03:02 UTC, hour of the Russian invasion)",
+   "summary": "As Russia invaded Ukraine, attackers bricked tens of thousands of KA-SAT satellite modems across Europe using the AcidRain wiper. The attack disrupted Ukrainian communications and cut remote monitoring of about 5,800 Enercon wind turbines in Germany. The EU, US and UK attributed it to Russia.",
+   "cves": [],
+   "malware": [
+    "AcidRain"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.viasat.com/perspectives/corporate/2022/ka-sat-network-cyber-attack-overview/",
+    "https://www.sentinelone.com/labs/acidrain-a-modem-wiper-rains-down-on-europe/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "costa-rica-conti",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Costa Rica government ransomware",
+   "date": "2022-04-17",
+   "dateMeaning": "attack start (Ministry of Finance)",
+   "summary": "Conti hit Costa Rica's Ministry of Finance, disrupting tax collection and customs, and then attacked more than two dozen other government institutions. On 8 May the new president declared a national emergency, a first for a ransomware attack. Conti demanded up to $20 million and leaked the stolen data when the government refused to pay.",
+   "cves": [],
+   "malware": [
+    "Conti"
+   ],
+   "people": [],
+   "sources": [
+    "https://therecord.media/costa-ricas-new-president-declares-state-of-emergency-after-conti-ransomware-attack/",
+    "https://www.techradar.com/news/costa-rica-says-its-at-war-with-conti-ransomware"
+   ],
+   "confidence": "medium",
+   "tone": "normale"
+  },
+  {
+   "id": "hive-takedown",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Hive ransomware infiltrated and shut down",
+   "date": "2023-01-26",
+   "dateMeaning": "DOJ announcement",
+   "summary": "The FBI had secretly been inside Hive's infrastructure since July 2022, quietly giving more than 300 decryption keys to victims under attack and over 1,000 to earlier victims. This prevented about $130 million in ransom payments. With German and Dutch police, it then seized Hive's servers and leak site.",
+   "cves": [],
+   "malware": [
+    "Hive"
+   ],
+   "people": [
+    "FBI Tampa",
+    "German BKA",
+    "Dutch National High Tech Crime Unit"
+   ],
+   "sources": [
+    "https://www.justice.gov/archives/opa/pr/us-department-justice-disrupts-hive-ransomware-variant",
+    "https://www.bleepingcomputer.com/news/security/hive-ransomware-dark-web-sites-seized-by-law-enforcement/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "moveit-cl0p",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "MOVEit Transfer mass exploitation",
+   "date": "2023-05-31",
+   "dateMeaning": "public disclosure by Progress (exploitation began 2023-05-27)",
+   "summary": "Progress Software disclosed a critical SQL injection flaw in its MOVEit Transfer file-transfer product. The Cl0p gang had already been exploiting it as a zero-day for several days to plant the LEMURLOOT web shell and steal data. More than 2,500 organisations and tens of millions of individuals were ultimately affected.",
+   "cves": [
+    "CVE-2023-34362"
+   ],
+   "malware": [
+    "LEMURLOOT",
+    "Cl0p"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a",
+    "https://www.tenable.com/blog/cve-2023-34362-moveit-transfer-critical-zero-day-vulnerability-exploited-in-the-wild"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "qakbot-takedown",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Qakbot takedown (Operation Duck Hunt)",
+   "date": "2023-08-29",
+   "dateMeaning": "public announcement (FBI/DOJ)",
+   "summary": "The FBI, led by its Los Angeles field office, took over Qakbot's infrastructure and redirected about 700,000 infected computers to FBI servers. Those servers sent an uninstaller that removed the malware. $8.6 million in cryptocurrency was seized; Qakbot had been a major entry point for ransomware gangs.",
+   "cves": [],
+   "malware": [
+    "Qakbot",
+    "QBot"
+   ],
+   "people": [
+    "FBI Los Angeles",
+    "Eurojust partners (FR, DE, NL, RO, LV, UK)"
+   ],
+   "sources": [
+    "https://www.infosecurity-magazine.com/news/fbi-operation-duck-hunt-qakbot/",
+    "https://therecord.media/qakbot-cybercrime-botnet-takedown-fbi"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "mgm-resorts",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "MGM Resorts cyberattack",
+   "date": "2023-09-10",
+   "dateMeaning": "ransomware deployment (Sunday)",
+   "summary": "Scattered Spider, an ALPHV/BlackCat affiliate, got in by impersonating an employee in a call to MGM's IT help desk and then encrypted more than 100 ESXi hypervisors. Slot machines, room keys and booking systems failed across MGM's casinos for about ten days. The company estimated about $100 million in impact.",
+   "cves": [],
+   "malware": [
+    "ALPHV",
+    "BlackCat"
+   ],
+   "people": [],
+   "sources": [
+    "https://techcrunch.com/2023/09/14/mgm-cyberattack-outage-scattered-spider/",
+    "https://socradar.io/blog/mgm-resorts-hacked-by-blackcat-affiliate-scattered-spider/"
+   ],
+   "confidence": "medium",
+   "tone": "normale"
+  },
+  {
+   "id": "british-library-rhysida",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "British Library ransomware",
+   "date": "2023-10-28",
+   "dateMeaning": "main attack (Saturday)",
+   "summary": "Rhysida encrypted or destroyed much of the British Library's servers and leaked about 600 GB of data when the Library refused a ransom of 20 bitcoin. The catalogue and many services were down for months. The Library's candid incident review blamed legacy IT, among other factors.",
+   "cves": [],
+   "malware": [
+    "Rhysida"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.bl.uk/home/british-library-cyber-incident-review-8-march-2024.pdf",
+    "https://www.theregister.com/2024/03/11/british_library_slaps_the_cloud"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "lockbit-cronos",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "LockBit takedown (Operation Cronos)",
+   "date": "2024-02-19",
+   "dateMeaning": "takedown (leak site seized; announced 20 Feb)",
+   "summary": "The UK's NCA, the FBI and partners in ten countries seized LockBit's infrastructure, including its source code and decryption keys. They turned its own leak site into a countdown of the gang's secrets, and later named its leader, Dmitry Khoroshev.",
+   "cves": [],
+   "malware": [
+    "LockBit"
+   ],
+   "people": [
+    "UK National Crime Agency",
+    "FBI",
+    "Europol"
+   ],
+   "sources": [
+    "https://www.theregister.com/2024/02/20/nca_lockbit_takedown/",
+    "https://www.infosecurity-magazine.com/news/operation-cronos-lockbit-takedown/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "change-healthcare",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Change Healthcare ransomware",
+   "date": "2024-02-21",
+   "dateMeaning": "attack detected / outage start",
+   "summary": "ALPHV/BlackCat affiliates used stolen credentials on a Citrix portal without MFA to break into Change Healthcare, a UnitedHealth subsidiary, and deploy ransomware. Claims processing and pharmacy services across the US were disrupted for weeks, leaving providers without payment and patients without prescriptions. About 190 million people's health data was ultimately reported affected, the largest US healthcare breach on record.",
+   "cves": [],
+   "malware": [
+    "ALPHV",
+    "BlackCat"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.healthcaredive.com/news/change-healthcare-cyberattack-unitedhealth-group-provider-impact/708950/",
+    "https://www.cybersecuritydive.com/news/change-healthcare-providers-impact/709236/"
+   ],
+   "confidence": "high",
+   "tone": "sobrio"
+  },
+  {
+   "id": "xz-backdoor-found",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "xz-utils backdoor discovered",
+   "date": "2024-03-29",
+   "dateMeaning": "public disclosure (oss-security post)",
+   "summary": "Microsoft engineer and PostgreSQL developer Andres Freund noticed SSH logins taking about 500 ms too long and valgrind errors on Debian sid. He traced them to a backdoor hidden in xz/liblzma 5.6.0-5.6.1 by 'Jia Tan' after a years-long social-engineering campaign against the project. The backdoor was caught just before it reached stable releases of major Linux distributions.",
+   "cves": [
+    "CVE-2024-3094"
+   ],
+   "malware": [],
+   "people": [
+    "Andres Freund"
+   ],
+   "sources": [
+    "https://www.openwall.com/lists/oss-security/2024/03/29/4",
+    "https://en.wikipedia.org/wiki/XZ_Utils_backdoor"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "operation-endgame",
+   "type": "miracolo",
+   "noCulprit": false,
+   "name": "Operation Endgame",
+   "date": "2024-05-30",
+   "dateMeaning": "public announcement (actions 27-29 May)",
+   "summary": "In what Europol called the largest-ever operation against botnets, police from several countries hit the 'dropper' ecosystem: IcedID, SmokeLoader, Pikabot, SystemBC, Bumblebee and Trickbot. They took down or disrupted more than 100 servers, seized over 2,000 domains and made four arrests.",
+   "cves": [],
+   "malware": [
+    "IcedID",
+    "SmokeLoader",
+    "Pikabot",
+    "SystemBC",
+    "Bumblebee",
+    "Trickbot"
+   ],
+   "people": [
+    "Europol",
+    "Eurojust",
+    "French, German and Dutch police"
+   ],
+   "sources": [
+    "https://therecord.media/dropper-malware-takedown-europol-operation-endgame",
+    "https://www.infosecurity-magazine.com/news/europol-operation-endgame-hits/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "synnovis-london",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Synnovis pathology ransomware (London hospitals)",
+   "date": "2024-06-03",
+   "dateMeaning": "attack day",
+   "summary": "Qilin ransomware disabled Synnovis, the pathology provider for Guy's and St Thomas' and King's College Hospital trusts. More than 800 planned operations and 700 outpatient appointments were cancelled, and blood-transfusion services were severely disrupted, prompting an NHS appeal for O-type blood donors. Qilin later leaked about 400 GB of patient-related data.",
+   "cves": [],
+   "malware": [
+    "Qilin",
+    "Agenda"
+   ],
+   "people": [],
+   "sources": [
+    "https://therecord.media/qilin-ransomware-gang-darknet-site-down-london-hospitals",
+    "https://www.bleepingcomputer.com/news/security/synnovis-notifies-of-data-breach-after-2024-ransomware-attack/"
+   ],
+   "confidence": "high",
+   "tone": "lutto"
+  },
+  {
+   "id": "cdk-global",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "CDK Global ransomware",
+   "date": "2024-06-19",
+   "dateMeaning": "attack day / systems shutdown",
+   "summary": "BlackSuit ransomware hit CDK Global, whose software runs about 15,000 North American car dealerships. Dealers went back to pen and paper for about two weeks, and a second incident during recovery forced a fresh shutdown. Losses were estimated at hundreds of millions of dollars.",
+   "cves": [],
+   "malware": [
+    "BlackSuit"
+   ],
+   "people": [],
+   "sources": [
+    "https://www.bleepingcomputer.com/news/security/cdk-global-outage-caused-by-blacksuit-ransomware-attack/",
+    "https://www.techtarget.com/whatis/feature/The-CDK-Global-outage-Explaining-how-it-happened"
+   ],
+   "confidence": "medium",
+   "tone": "normale"
+  },
+  {
+   "id": "crowdstrike-outage",
+   "type": "flagello",
+   "noCulprit": true,
+   "name": "CrowdStrike faulty update",
+   "date": "2024-07-19",
+   "dateMeaning": "incident day (bad Channel File 291 pushed 04:09 UTC)",
+   "summary": "A defective content update to CrowdStrike's Falcon sensor (Channel File 291) crashed about 8.5 million Windows machines into boot loops. Airlines, banks, broadcasters, hospitals and some 911 call centres were disrupted worldwide. It is often called the largest IT outage in history. There was no attacker: the cause was a logic error that the content validator missed.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://www.cisa.gov/news-events/alerts/2024/07/19/widespread-it-outage-due-crowdstrike-update",
+    "https://www.crowdstrike.com/blog/falcon-update-for-windows-hosts-technical-details/"
+   ],
+   "confidence": "high",
+   "tone": "sobrio"
+  },
+  {
+   "id": "bybit-heist",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Bybit crypto heist",
+   "date": "2025-02-21",
+   "dateMeaning": "theft day",
+   "summary": "North Korean hackers (TraderTraitor/Lazarus) compromised a Safe{Wallet} developer machine and tricked Bybit's multisig signers into approving a malicious transaction. About $1.5 billion in ETH was drained from the exchange's cold wallet, the largest crypto theft on record. The FBI attributed the theft to North Korea within days.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://www.ic3.gov/PSA/2025/PSA250226",
+    "https://thehackernews.com/2025/02/bybit-hack-traced-to-safewallet-supply.html"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  },
+  {
+   "id": "jaguar-land-rover",
+   "type": "flagello",
+   "noCulprit": false,
+   "name": "Jaguar Land Rover cyberattack",
+   "date": "2025-08-31",
+   "dateMeaning": "attack start (Sunday; production halted from 1 Sept)",
+   "summary": "A cyberattack forced JLR to shut down its systems, stopping car production in the UK, Slovakia, Brazil and India for weeks, along with many suppliers. The shutdown began on the eve of the UK's September number-plate change, one of the busiest sales periods. The UK government later backed a £1.5 billion loan guarantee to support the supply chain.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://www.bleepingcomputer.com/news/security/jaguar-land-rover-says-cyberattack-severely-disrupted-production/",
+    "https://techcrunch.com/2025/09/17/jaguar-land-rover-to-pause-production-for-third-week-due-to-cyberattack/"
+   ],
+   "confidence": "medium",
+   "tone": "normale"
+  },
+  {
+   "id": "aws-us-east-1-outage-2025",
+   "type": "flagello",
+   "noCulprit": true,
+   "name": "AWS us-east-1 outage",
+   "date": "2025-10-20",
+   "dateMeaning": "incident day (began 23:48 PDT on 19 Oct)",
+   "summary": "A latent defect in DynamoDB's automated DNS management left an empty DNS record for the regional DynamoDB endpoint. The resulting failures cascaded through EC2, Network Load Balancer and many other AWS services for about 15 hours. Snapchat, Fortnite, banks, Alexa and thousands of other services were disrupted. No attacker was involved.",
+   "cves": [],
+   "malware": [],
+   "people": [],
+   "sources": [
+    "https://aws.amazon.com/message/101925/",
+    "https://ppc.land/amazon-outage-breaks-the-internet-snapchat-fortnite-banks-go-dark/"
+   ],
+   "confidence": "high",
+   "tone": "normale"
+  }
+ ]
+}

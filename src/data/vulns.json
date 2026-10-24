@@ -1989,6 +1989,33 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "stuxnet-lnk",
+  "name": "Stuxnet LNK",
+  "date": "2010-07-16",
+  "day": "07-16",
+  "category": "santo",
+  "cves": [
+   "CVE-2010-2568"
+  ],
+  "cvss": 7.8,
+  "kev": true,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "Microsoft",
+  "product": "Windows",
+  "description": "Windows Shell in Microsoft Windows XP SP3, Server 2003 SP2, Vista SP1 and SP2, Server 2008 SP2 and R2, and Windows 7 allows local users or remote attackers to execute arbitrary code via a crafted (1) .LNK or (2) .PIF shortcut file, which is not properly handled during icon display in Windows Explorer, as demonstrated in the wild in July 2010, and originally reported for malware that leverages CVE-2010-2772 in Siemens WinCC SCADA systems.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2010-2568",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securityadvisories/2010/2286198",
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2010/ms10-046"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 6.8,
+  "source": "manual"
+ },
+ {
   "id": "smbghost",
   "name": "SMBGhost / CoronaBlue / SMBleedingGhost / EternalDarkness",
   "date": "2020-03-10",
@@ -8486,6 +8513,33 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "tls-renegotiation",
+  "name": "TLS Renegotiation",
+  "date": "2009-11-04",
+  "day": "11-04",
+  "category": "santo",
+  "cves": [
+   "CVE-2009-3555"
+  ],
+  "cvss": 9.8,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "The TLS protocol, and the SSL protocol 3.0 and possibly earlier, as used in Microsoft Internet Information Services (IIS) 7.0, mod_ssl in the Apache HTTP Server 2.2.14 and earlier, OpenSSL before 0.9.8l, GnuTLS 2.8.5 and earlier, Mozilla Network Security Services (NSS) 3.12.4 and earlier, multiple Cisco products, and other products, does not properly associate renegotiation handshakes with an existing connection, which allows man-in-the-middle attackers to insert data into HTTPS sessions, and possibly other types of sessions protected by TLS or SSL, by sending an unauthenticated request that is processed retroactively by a server in a post-renegotiation context, related to a \"plaintext injection\" attack, aka the \"Project Mogul\" issue.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2009-3555",
+  "links": [
+   "https://www.kb.cert.org/vuls/id/120541",
+   "https://www.rfc-editor.org/rfc/rfc5746"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 4.85,
+  "source": "manual"
+ },
+ {
   "id": "smotherspectre",
   "name": "SMoTherSpectre",
   "date": "2019-03-06",
@@ -9727,6 +9781,45 @@
   "author": "Dan Kaminsky (IOActive)",
   "fame": 4.4,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "amdflaws",
+  "name": "AMDFlaws (CTS-Labs)",
+  "date": "2018-03-13",
+  "day": "03-13",
+  "category": "santo",
+  "cves": [
+   "CVE-2018-8930",
+   "CVE-2018-8931",
+   "CVE-2018-8932",
+   "CVE-2018-8933",
+   "CVE-2018-8934",
+   "CVE-2018-8935",
+   "CVE-2018-8936"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "The AMD EPYC Server, Ryzen, Ryzen Pro, and Ryzen Mobile processor chips have insufficient enforcement of Hardware Validated Boot, aka MASTERKEY-1, MASTERKEY-2, and MASTERKEY-3.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2018-8930",
+  "links": [
+   "https://www.cve.org/CVERecord?id=CVE-2018-8931",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8932",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8933",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8934",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8935",
+   "https://www.cve.org/CVERecord?id=CVE-2018-8936",
+   "https://hothardware.com/news/linus-torvalds-calls-bs-on-cts-labs-amd-ryzen-security-flaw",
+   "https://www.eweek.com/security/researchers-claim-amd-cpus-at-risk-from-13-critical-flaws/"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 4.4,
+  "source": "manual"
  },
  {
   "id": "thunderclap",
@@ -11057,6 +11150,34 @@
   "source": "manual"
  },
  {
+  "id": "wmf-setabortproc",
+  "name": "WMF SetAbortProc",
+  "date": "2005-12-27",
+  "day": "12-27",
+  "category": "santo",
+  "cves": [
+   "CVE-2005-4560"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "The Windows Graphical Device Interface library (GDI32.DLL) in Microsoft Windows allows remote attackers to execute arbitrary code via a Windows Metafile (WMF) format image with a crafted SETABORTPROC GDI Escape function call, related to the Windows Picture and Fax Viewer (SHIMGVW.DLL), a different vulnerability than CVE-2005-2123 and CVE-2005-2124, and as originally discovered in the wild on unionseek.com.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2005-4560",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2006/ms06-001",
+   "https://www.kb.cert.org/vuls/id/181038",
+   "https://isc.sans.edu/diary/WMF+FAQ/994"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.55,
+  "source": "manual"
+ },
+ {
   "id": "jasbug",
   "name": "JASBUG",
   "date": "2015-02-24",
@@ -11390,6 +11511,33 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "mdac-rds",
+  "name": "MDAC RDS",
+  "date": "1999-07-19",
+  "day": "07-19",
+  "category": "santo",
+  "cves": [
+   "CVE-1999-1011"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "The Remote Data Service (RDS) DataFactory component of Microsoft Data Access Components (MDAC) in IIS 3.x and 4.x exposes unsafe methods, which allows remote attackers to execute arbitrary commands.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-1999-1011",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-025",
+   "https://www.cvedetails.com/cve/CVE-1999-1011/"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.35,
+  "source": "manual"
+ },
+ {
   "id": "dirty-sock",
   "name": "Dirty Sock",
   "date": "2019-02-13",
@@ -11417,6 +11565,33 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "iis-unicode",
+  "name": "IIS Unicode Traversal",
+  "date": "2000-10-17",
+  "day": "10-17",
+  "category": "santo",
+  "cves": [
+   "CVE-2000-0884"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "IIS 4.0 and 5.0 allows remote attackers to read documents outside of the web root, and possibly execute arbitrary commands, via malformed URLs that contain UNICODE encoded characters, aka the \"Web Server Folder Traversal\" vulnerability.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2000-0884",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-078",
+   "https://www.kb.cert.org/vuls/id/111677"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.3,
+  "source": "manual"
+ },
+ {
   "id": "next-me-user",
   "name": "NeXT 'me' User",
   "date": "1991-05-14",
@@ -11436,6 +11611,33 @@
   "canonical": "https://www.sei.cmu.edu/library/1991-cert-advisories/",
   "links": [
    "https://nvd.nist.gov/vuln/detail/CVE-1999-1193"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.25,
+  "source": "manual"
+ },
+ {
+  "id": "code-red-ida",
+  "name": "Code Red's .ida",
+  "date": "2001-06-18",
+  "day": "06-18",
+  "category": "santo",
+  "cves": [
+   "CVE-2001-0500"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Buffer overflow in ISAPI extension (idq.dll) in Index Server 2.0 and Indexing Service 2000 in IIS 6.0 beta and earlier allows remote attackers to execute arbitrary commands via a long argument to Internet Data Administration (.ida) and Internet Data Query (.idq) files such as default.ida, as commonly exploited by Code Red.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2001-0500",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-033",
+   "https://www.caida.org/catalog/papers/2002_codered/"
   ],
   "logo": null,
   "author": null,
@@ -11523,6 +11725,33 @@
   "author": "Manfred Kaiser, Simon Tatham, Matt Johnston",
   "fame": 3.25,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "ms02-039",
+  "name": "MS02-039 (Slammer)",
+  "date": "2002-07-24",
+  "day": "07-24",
+  "category": "santo",
+  "cves": [
+   "CVE-2002-0649"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Multiple buffer overflows in the Resolution Service for Microsoft SQL Server 2000 and Microsoft Desktop Engine 2000 (MSDE) allow remote attackers to cause a denial of service or execute arbitrary code via UDP packets to port 1434 in which (1) a 0x04 byte that causes the SQL Monitor thread to generate a long registry key name, or (2) a 0x08 byte with a long string causes heap corruption, as exploited by the Slammer/Sapphire worm.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2002-0649",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-039",
+   "https://www.caida.org/catalog/papers/2003_sapphire/"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.2,
+  "source": "manual"
  },
  {
   "id": "access7",
@@ -11656,6 +11885,33 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "rpc-dcom",
+  "name": "RPC DCOM (Blaster)",
+  "date": "2003-07-16",
+  "day": "07-16",
+  "category": "santo",
+  "cves": [
+   "CVE-2003-0352"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Buffer overflow in a certain DCOM interface for RPC in Microsoft Windows NT 4.0, 2000, XP, and Server 2003 allows remote attackers to execute arbitrary code via a malformed message, as exploited by the Blaster/MSblast/LovSAN and Nachi/Welchia worms.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2003-0352",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2003/ms03-026",
+   "https://www.kb.cert.org/vuls/id/568148"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.15,
+  "source": "manual"
+ },
+ {
   "id": "coreplague",
   "name": "CorePlague",
   "date": "2023-03-08",
@@ -11777,6 +12033,33 @@
   "canonical": "https://aeb.win.tue.nl/linux/hh/shimomura-25jan95.txt",
   "links": [
    "https://www.sei.cmu.edu/library/1995-cert-advisories/"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3.1,
+  "source": "manual"
+ },
+ {
+  "id": "lsass-sasser",
+  "name": "LSASS (Sasser)",
+  "date": "2004-04-13",
+  "day": "04-13",
+  "category": "santo",
+  "cves": [
+   "CVE-2003-0533"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Stack-based buffer overflow in certain Active Directory service functions in LSASRV.DLL of the Local Security Authority Subsystem Service (LSASS) in Microsoft Windows NT 4.0 SP6a, 2000 SP2 through SP4, XP SP1, Server 2003, NetMeeting, Windows 98, and Windows ME, allows remote attackers to execute arbitrary code via a packet that causes the DsRolerUpgradeDownlevelServer function to create long debug entries for the DCPROMO.LOG log file, as exploited by the Sasser worm.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2003-0533",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2004/ms04-011",
+   "https://www.kb.cert.org/vuls/id/753212"
   ],
   "logo": null,
   "author": null,
@@ -12257,6 +12540,33 @@
   "canonical": "https://www.sei.cmu.edu/library/1996-cert-advisories/",
   "links": [
    "https://nvd.nist.gov/vuln/detail/CVE-1999-0128"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 3,
+  "source": "manual"
+ },
+ {
+  "id": "ms06-040",
+  "name": "MS06-040",
+  "date": "2006-08-08",
+  "day": "08-08",
+  "category": "santo",
+  "cves": [
+   "CVE-2006-3439"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Buffer overflow in the Server Service in Microsoft Windows 2000 SP4, XP SP1 and SP2, and Server 2003 SP1 allows remote attackers, including anonymous users, to execute arbitrary code via a crafted RPC message, a different vulnerability than CVE-2006-1314.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2006-3439",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2006/ms06-040",
+   "https://www.kb.cert.org/vuls/id/650769"
   ],
   "logo": null,
   "author": null,
@@ -12793,6 +13103,33 @@
   "author": "Dr. James Hoagland (Symantec)",
   "fame": 2.95,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "ani-cursor",
+  "name": "ANI Cursor",
+  "date": "2007-03-29",
+  "day": "03-29",
+  "category": "santo",
+  "cves": [
+   "CVE-2007-0038"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Stack-based buffer overflow in the animated cursor code in Microsoft Windows 2000 SP4 through Vista allows remote attackers to execute arbitrary code or cause a denial of service (persistent reboot) via a large length value in the second (or later) anih block of a RIFF .ANI, cur, or .ico file, which results in memory corruption when processing cursors, animated cursors, and icons, a variant of CVE-2005-0416, as originally demonstrated using Internet Explorer 6 and 7. NOTE: this might be a duplicate of CVE-2007-1765; if so, then CVE-2007-0038 should be preferred.",
+  "canonical": "https://www.cve.org/CVERecord?id=CVE-2007-0038",
+  "links": [
+   "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2007/ms07-017",
+   "https://www.kb.cert.org/vuls/id/191609"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 2.95,
+  "source": "manual"
  },
  {
   "id": "smurf",
@@ -18209,6 +18546,31 @@
   "author": "Forescout",
   "fame": 1.75,
   "source": "vulnerability-garden"
+ },
+ {
+  "id": "flame-collision",
+  "name": "Flame MD5 Collision",
+  "date": "2012-06-03",
+  "day": "06-03",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "Flame forged a Windows Update-valid certificate through a new MD5 collision against Terminal Server Licensing certificates, the first state-level cryptanalytic attack seen in the wild. It has no CVE; it is tracked as Microsoft Security Advisory 2718704.",
+  "canonical": "https://msrc.microsoft.com/blog/2012/06/microsoft-releases-security-advisory-2718704",
+  "links": [
+   "https://msrc.microsoft.com/blog/2012/06/flame-malware-collision-attack-explained",
+   "https://ir.cwi.nl/pub/21029/Fulltext"
+  ],
+  "logo": null,
+  "author": null,
+  "fame": 1.7,
+  "source": "manual"
  },
  {
   "id": "frozen-heart",
