@@ -200,6 +200,7 @@ const cves = await loadCves(cveIds);
 
 for (const v of vulns) {
   if (overrides.dates?.[v.id]) v.date = overrides.dates[v.id];
+  if (overrides.removeCves?.[v.id]) v.cves = v.cves.filter((c) => !overrides.removeCves[v.id].includes(c));
   const infos = v.cves.map((id) => cves.get(id)).filter(Boolean);
   const kevHits = v.cves.map((id) => kev.get(id)).filter(Boolean);
   const scores = infos.map((i) => i.cvss).filter((x) => x != null);

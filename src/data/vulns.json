@@ -1289,35 +1289,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "dirtycred",
-  "name": "DirtyCred",
-  "date": "2022-08-22",
-  "day": "08-22",
-  "category": "santo",
-  "cves": [
-   "CVE-2022-0847"
-  ],
-  "cvss": 7.8,
-  "kev": true,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": "Linux",
-  "product": "kernel",
-  "description": "A flaw was found in the way the \"flags\" member of the new pipe buffer structure was lacking proper initialization in copy_page_to_iter_pipe and push_pipe functions in the Linux kernel and could thus contain stale values. An unprivileged local user could use this flaw to write to pages in the page cache backed by read only files and as such escalate their privileges on the system.",
-  "canonical": "https://github.com/Markakd/DirtyCred",
-  "links": [
-   "https://zplin.me/papers/DirtyCred_CCS_slides.pdf",
-   "https://zplin.me/",
-   "https://github.com/Markakd/DirtyCred?tab=readme-ov-file",
-   "https://zplin.me/papers/DirtyCred.pdf"
-  ],
-  "logo": null,
-  "author": "Zhenpeng Lin, Yuhang Wu, Xinyu Xing",
-  "fame": 7.2,
-  "source": "vulnerability-garden"
- },
- {
   "id": "enlbufferpwn",
   "name": "ENLBufferPwn",
   "date": "2022-12-22",
@@ -3330,34 +3301,6 @@
   ],
   "logo": "aepicleak.svg",
   "author": "Borrello, Pietro and Kogler, Andreas and Schwarzl, Martin and Lipp, Moritz and Gruss, Daniel and Schwarz, Michael",
-  "fame": 6.2,
-  "source": "vulnerability-garden"
- },
- {
-  "id": "gairoscope",
-  "name": "GAIROSCOPE",
-  "date": "2022-08-21",
-  "day": "08-21",
-  "category": "santo",
-  "cves": [
-   "CVE-2021-1905",
-   "CVE-2021-1906"
-  ],
-  "cvss": 8.4,
-  "kev": true,
-  "ransomware": false,
-  "born": null,
-  "absurd": true,
-  "vendor": "Qualcomm, Inc.",
-  "product": "Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables",
-  "description": "Possible use after free due to improper handling of memory mapping of multiple processes simultaneously. in Snapdragon Auto, Snapdragon Compute, Snapdragon Connectivity, Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile, Snapdragon Voice & Music, Snapdragon Wearables",
-  "canonical": "https://ar5iv.labs.arxiv.org/html/2208.09764",
-  "links": [
-   "https://www.covertchannels.com",
-   "https://arxiv.org/pdf/2208.09764"
-  ],
-  "logo": null,
-  "author": "Mordechai Guri and Ben-Gurion",
   "fame": 6.2,
   "source": "vulnerability-garden"
  },
@@ -14019,7 +13962,7 @@
   "cvss": 7.2,
   "kev": false,
   "ransomware": false,
-  "born": null,
+  "born": 2014,
   "absurd": false,
   "vendor": null,
   "product": "PostgreSQL",
@@ -14976,6 +14919,33 @@
   "links": [],
   "logo": null,
   "author": "Neil Madden",
+  "fame": 2.2,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "dirtycred",
+  "name": "DirtyCred",
+  "date": "2022-08-22",
+  "day": "08-22",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://github.com/Markakd/DirtyCred",
+  "links": [
+   "https://zplin.me/papers/DirtyCred_CCS_slides.pdf",
+   "https://zplin.me/",
+   "https://github.com/Markakd/DirtyCred?tab=readme-ov-file",
+   "https://zplin.me/papers/DirtyCred.pdf"
+  ],
+  "logo": null,
+  "author": "Zhenpeng Lin, Yuhang Wu, Xinyu Xing",
   "fame": 2.2,
   "source": "vulnerability-garden"
  },
@@ -21257,6 +21227,31 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "gairoscope",
+  "name": "GAIROSCOPE",
+  "date": "2022-08-21",
+  "day": "08-21",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": true,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://ar5iv.labs.arxiv.org/html/2208.09764",
+  "links": [
+   "https://www.covertchannels.com",
+   "https://arxiv.org/pdf/2208.09764"
+  ],
+  "logo": null,
+  "author": "Mordechai Guri and Ben-Gurion",
+  "fame": 1.2,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "fabrixss",
   "name": "FabriXss",
   "date": "2022-10-19",
@@ -26091,7 +26086,7 @@
   "kev": false,
   "ransomware": false,
   "born": null,
-  "absurd": false,
+  "absurd": true,
   "vendor": null,
   "product": null,
   "description": null,

@@ -33,7 +33,8 @@
     "dirty-pipe": 2020,
     "regresshion": 2020,
     "looney-tunables": 2021,
-    "robot": 1998
+    "robot": 1998,
+    "postgreshell": 2014
   },
   "absurd": [
     "light-commands",
@@ -70,7 +71,8 @@
     "homekit-smart-lock",
     "y2k22",
     "enlbufferpwn",
-    "badram"
+    "badram",
+    "dolphinattack"
   ],
   "exclude": [],
   "removeCves": {
@@ -79,6 +81,13 @@
     ],
     "triangulation": [
       "CVE-2023-38606"
+    ],
+    "gairoscope": [
+      "CVE-2021-1905",
+      "CVE-2021-1906"
+    ],
+    "dirtycred": [
+      "CVE-2022-0847"
     ]
   }
 }
