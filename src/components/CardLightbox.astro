@@ -32,11 +32,6 @@ const s = t(Astro.props.lang);
   function open(fig: HTMLElement) {
     const { front, back } = cardSvgs(fig);
     if (!front) return;
-    // Once someone has found the viewer, the main card stops hinting that it can be opened.
-    document.documentElement.classList.add('card-known');
-    try {
-      localStorage.setItem('card-known', '1');
-    } catch {}
     if (back) {
       // Vertical card that turns over: front is the card, back the prayer side.
       card = document.createElement('div');
@@ -60,11 +55,19 @@ const s = t(Astro.props.lang);
       flipBtn.hidden = true;
     }
     dialog.showModal();
+    // Opening turns the card over: the back is the side people haven't seen yet.
+    if (card) requestAnimationFrame(() => requestAnimationFrame(flip));
   }
 
-  try {
-    if (localStorage.getItem('card-known')) document.documentElement.classList.add('card-known');
-  } catch {}
+  /** Turns the card back to its front, then closes. */
+  function close() {
+    if (!card?.classList.contains('flipped') || matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      dialog.close();
+      return;
+    }
+    card.classList.remove('flipped');
+    setTimeout(() => dialog.close(), 650);
+  }
 
   document.querySelectorAll<HTMLElement>('figure.santino').forEach((fig) => {
     const svg = fig.querySelector<SVGElement>(':scope > svg');
@@ -85,9 +88,13 @@ const s = t(Astro.props.lang);
     e.stopPropagation();
     flip();
   });
-  dialog.querySelector('.close-btn')!.addEventListener('click', () => dialog.close());
+  dialog.querySelector('.close-btn')!.addEventListener('click', close);
   dialog.addEventListener('click', (e) => {
-    if (e.target === dialog || e.target === stage) dialog.close();
+    if (e.target === dialog || e.target === stage) close();
+  });
+  dialog.addEventListener('cancel', (e) => {
+    e.preventDefault();
+    close();
   });
 </script>
 
@@ -99,9 +106,9 @@ const s = t(Astro.props.lang);
   :global(svg.zoomable:hover) {
     transform: translateY(-3px) scale(1.015);
   }
-  /* The page's main card hints that it turns over: a small tilt every few seconds, a few times. */
-  :global(html:not(.card-known) .cardcol svg.zoomable) {
-    animation: card-hint 6s ease-in-out 1.5s 4;
+  /* The page's main card hints that it turns over: a small tilt every few seconds. */
+  :global(.cardcol svg.zoomable) {
+    animation: card-hint 5s ease-in-out 1s infinite;
   }
   @keyframes card-hint {
     0%,
@@ -110,10 +117,10 @@ const s = t(Astro.props.lang);
       transform: perspective(900px) rotateY(0);
     }
     84% {
-      transform: perspective(900px) rotateY(-16deg) scale(1.02);
+      transform: perspective(900px) rotateY(-22deg) scale(1.03);
     }
     90% {
-      transform: perspective(900px) rotateY(9deg) scale(1.02);
+      transform: perspective(900px) rotateY(12deg) scale(1.03);
     }
     95% {
       transform: perspective(900px) rotateY(-3deg);
