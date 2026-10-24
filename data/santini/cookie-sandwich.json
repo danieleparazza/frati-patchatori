@@ -1,0 +1,10 @@
+{
+  "label": "Cookie Sandwich",
+  "motto": "INTER DUAS VIRGULAS",
+  "niche": [
+    "#4a2f17",
+    "#8a5a2e"
+  ],
+  "accent": "#7a4e24",
+  "emblem": "<path d=\"M104 160 Q104 132 150 132 Q196 132 196 160 V166 H104 Z\" fill=\"#e0b16b\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"150\" cy=\"182\" rx=\"50\" ry=\"14\" fill=\"#8b5a2b\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#3b2412\"><circle cx=\"128\" cy=\"180\" r=\"3\"/><circle cx=\"146\" cy=\"186\" r=\"3\"/><circle cx=\"164\" cy=\"178\" r=\"3\"/><circle cx=\"178\" cy=\"185\" r=\"2.5\"/></g>\n<rect x=\"104\" y=\"198\" width=\"92\" height=\"22\" rx=\"6\" fill=\"#e0b16b\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"88\" y=\"196\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"30\" fill=\"#fbf3dd\">\"</text>\n<text x=\"200\" y=\"196\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"30\" fill=\"#fbf3dd\">\"</text>"
+}

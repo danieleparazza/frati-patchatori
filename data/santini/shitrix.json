@@ -1,0 +1,10 @@
+{
+  "label": "Shitrix",
+  "motto": "PER ASPERA AD ROOT",
+  "niche": [
+    "#4a3420",
+    "#8a6440"
+  ],
+  "accent": "#6e4b2a",
+  "emblem": "<path d=\"M100 244 H130 V222 H160 V200 H190 V178 H210\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n<text x=\"146\" y=\"184\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"66\" fill=\"#fbf3dd\">../</text>\n<path d=\"M196 130 L204 150 L212 130 Z\" fill=\"#d9ad55\"/><rect x=\"200\" y=\"150\" width=\"8\" height=\"10\" fill=\"#d9ad55\"/>\n<text x=\"204\" y=\"126\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\">root</text>"
+}

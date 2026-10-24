@@ -1,0 +1,10 @@
+{
+  "label": "Etherleak",
+  "motto": "ZERO NON IMPLEVIT",
+  "niche": [
+    "#14394a",
+    "#2f6d87"
+  ],
+  "accent": "#1d5168",
+  "emblem": "<path d=\"M150 118 V140\" stroke=\"#3498db\" stroke-width=\"10\" stroke-linecap=\"round\"/>\n<rect x=\"122\" y=\"140\" width=\"56\" height=\"58\" rx=\"4\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"138\" y=\"198\" width=\"24\" height=\"10\" fill=\"#dfe6e9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#d9ad55\"><rect x=\"127\" y=\"184\" width=\"3\" height=\"12\"/><rect x=\"133\" y=\"184\" width=\"3\" height=\"12\"/><rect x=\"139\" y=\"184\" width=\"3\" height=\"12\"/><rect x=\"145\" y=\"184\" width=\"3\" height=\"12\"/><rect x=\"151\" y=\"184\" width=\"3\" height=\"12\"/><rect x=\"157\" y=\"184\" width=\"3\" height=\"12\"/><rect x=\"163\" y=\"184\" width=\"3\" height=\"12\"/><rect x=\"169\" y=\"184\" width=\"3\" height=\"12\"/></g>\n<g fill=\"#5dade2\"><path d=\"M136 216 q-6 10 0 14 q6 -4 0 -14z\"/><path d=\"M152 222 q-7 12 0 16 q7 -4 0 -16z\"/><path d=\"M166 214 q-5 9 0 12 q5 -3 0 -12z\"/></g>\n<text x=\"196\" y=\"236\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">0x?</text>"
+}

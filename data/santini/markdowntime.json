@@ -1,0 +1,10 @@
+{
+  "label": "MarkDownTime",
+  "motto": "FESTINA LENTE",
+  "niche": [
+    "#4a1f2b",
+    "#80374d"
+  ],
+  "accent": "#6b2a3d",
+  "emblem": "<rect x=\"112\" y=\"118\" width=\"76\" height=\"10\" rx=\"3\" fill=\"#d9ad55\"/><rect x=\"112\" y=\"234\" width=\"76\" height=\"10\" rx=\"3\" fill=\"#d9ad55\"/>\n<path d=\"M120 128 C120 166 146 170 146 181 C146 192 120 196 120 234 H180 C180 196 154 192 154 181 C154 170 180 166 180 128 Z\" fill=\"#fbf3dd\" fill-opacity=\"0.9\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"30\" fill=\"#2b1d14\">#</text>\n<path d=\"M128 232 Q150 206 172 232 Z\" fill=\"#e2b866\"/><line x1=\"150\" y1=\"184\" x2=\"150\" y2=\"214\" stroke=\"#e2b866\" stroke-width=\"2\"/>\n<text x=\"206\" y=\"150\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">*</text><text x=\"88\" y=\"214\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">*</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "CurveBall",
+  "motto": "CURVA NON RECTA",
+  "niche": [
+    "#1e3a5f",
+    "#3d6a9e"
+  ],
+  "accent": "#1e3a5f",
+  "emblem": "<path d=\"M96 120 C130 150 120 176 150 180 C180 184 170 210 204 242\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-dasharray=\"7 5\"/>\n<circle cx=\"150\" cy=\"180\" r=\"44\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M124 146 C140 166 140 194 124 214\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M176 146 C160 166 160 194 176 214\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<g stroke=\"#c0392b\" stroke-width=\"2\"><path d=\"M131 152 l7 -3 M169 152 l-7 -3\"/><path d=\"M134 162 l7 -3 M166 162 l-7 -3\"/><path d=\"M134 172 l7 -3 M166 172 l-7 -3\"/><path d=\"M131 182 l7 -3 M169 182 l-7 -3\"/><path d=\"M134 192 l7 -3 M166 192 l-7 -3\"/><path d=\"M134 202 l7 -3 M166 202 l-7 -3\"/></g>"
+}

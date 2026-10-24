@@ -1,0 +1,10 @@
+{
+  "label": "NoReboot",
+  "motto": "DORMIO SED VIGILO",
+  "niche": [
+    "#26262e",
+    "#4a4a58"
+  ],
+  "accent": "#3a3a48",
+  "emblem": "<rect x=\"117\" y=\"118\" width=\"66\" height=\"124\" rx=\"12\" fill=\"#111\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<rect x=\"140\" y=\"124\" width=\"20\" height=\"4\" rx=\"2\" fill=\"#333\"/>\n<path d=\"M130 180 Q150 162 170 180 Q150 198 130 180 Z\" fill=\"#fbf3dd\"/>\n<circle cx=\"150\" cy=\"180\" r=\"7\" fill=\"#9e1b1b\"/>\n<circle cx=\"150\" cy=\"180\" r=\"3\" fill=\"#111\"/>\n<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\" stroke-linecap=\"round\" opacity=\"0.8\"><path d=\"M143 212 A12 12 0 1 0 157 212\"/><path d=\"M150 204 V216\"/></g>"
+}

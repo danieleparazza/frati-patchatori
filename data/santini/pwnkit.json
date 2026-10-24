@@ -1,0 +1,10 @@
+{
+  "label": "PwnKit",
+  "motto": "ARGC NULLUS",
+  "niche": [
+    "#3d1f0f",
+    "#7a4220"
+  ],
+  "accent": "#8a4a1e",
+  "emblem": "<path d=\"M108 196 L100 140 L126 164 L150 128 L174 164 L200 140 L192 196 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"106\" y=\"196\" width=\"88\" height=\"16\" rx=\"3\" fill=\"#b8892b\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#c0392b\"><circle cx=\"150\" cy=\"178\" r=\"7\"/></g><g fill=\"#2980b9\"><circle cx=\"124\" cy=\"182\" r=\"5\"/><circle cx=\"176\" cy=\"182\" r=\"5\"/></g>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\">argc = 0</text>"
+}

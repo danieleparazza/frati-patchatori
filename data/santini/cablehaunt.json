@@ -1,0 +1,10 @@
+{
+  "label": "Cable Haunt",
+  "motto": "SPIRITUS IN MODEMO",
+  "niche": [
+    "#2c3e50",
+    "#4f6d7a"
+  ],
+  "accent": "#34495e",
+  "emblem": "<path d=\"M150 238 C176 238 196 226 204 214\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<rect x=\"198\" y=\"198\" width=\"16\" height=\"20\" rx=\"3\" fill=\"#d9ad55\" transform=\"rotate(-30 206 208)\"/>\n<path d=\"M112 232 V164 A38 38 0 0 1 188 164 V232 L175 220 L162 232 L150 220 L138 232 L125 220 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"136\" cy=\"168\" rx=\"7\" ry=\"10\" fill=\"#2b1d14\"/><ellipse cx=\"164\" cy=\"168\" rx=\"7\" ry=\"10\" fill=\"#2b1d14\"/>\n<ellipse cx=\"150\" cy=\"196\" rx=\"9\" ry=\"7\" fill=\"#2b1d14\"/>"
+}

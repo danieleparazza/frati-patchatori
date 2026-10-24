@@ -1,0 +1,10 @@
+{
+  "label": "Chameleon",
+  "motto": "MUTATIS MUTANDIS",
+  "niche": [
+    "#1e3d26",
+    "#3e7a4c"
+  ],
+  "accent": "#2e6b3e",
+  "emblem": "<path d=\"M118 196 C100 196 98 228 116 230 C130 232 132 212 120 212 C112 212 112 222 118 222\" fill=\"none\" stroke=\"#e67e22\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<path d=\"M118 196 C126 158 176 150 196 172 C204 182 200 196 188 198 C170 202 140 204 118 196 Z\" fill=\"#27ae60\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 160 C156 176 160 186 160 200\" fill=\"none\" stroke=\"#9b59b6\" stroke-width=\"5\"/>\n<circle cx=\"184\" cy=\"178\" r=\"8\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/><circle cx=\"186\" cy=\"178\" r=\"3\" fill=\"#2b1d14\"/>\n<path d=\"M140 200 L136 214 M170 199 L172 214\" stroke=\"#2b1d14\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<path d=\"M150 128 l4 8 l9 1 l-7 6 l2 9 l-8 -5 l-8 5 l2 -9 l-7 -6 l9 -1 z\" fill=\"#d9ad55\"/>"
+}

@@ -12,15 +12,15 @@
 <circle cx="150" cy="180" r="112" fill="url(#s-cookie-sandwich-halo)"/>
 <g stroke="#e8c45c" stroke-width="2.5" stroke-linecap="round" opacity="0.85"><line x1="228.0" y1="180.0" x2="266.0" y2="180.0"/><line x1="222.1" y1="209.8" x2="246.1" y2="219.8"/><line x1="205.2" y1="235.2" x2="232.0" y2="262.0"/><line x1="179.8" y1="252.1" x2="189.8" y2="276.1"/><line x1="150.0" y1="258.0" x2="150.0" y2="296.0"/><line x1="120.2" y1="252.1" x2="110.2" y2="276.1"/><line x1="94.8" y1="235.2" x2="68.0" y2="262.0"/><line x1="77.9" y1="209.8" x2="53.9" y2="219.8"/><line x1="72.0" y1="180.0" x2="34.0" y2="180.0"/><line x1="77.9" y1="150.2" x2="53.9" y2="140.2"/><line x1="94.8" y1="124.8" x2="68.0" y2="98.0"/><line x1="120.2" y1="107.9" x2="110.2" y2="83.9"/><line x1="150.0" y1="102.0" x2="150.0" y2="64.0"/><line x1="179.8" y1="107.9" x2="189.8" y2="83.9"/><line x1="205.2" y1="124.8" x2="232.0" y2="98.0"/><line x1="222.1" y1="150.2" x2="246.1" y2="140.2"/></g>
 <circle cx="150" cy="180" r="76" fill="none" stroke="#e8c45c" stroke-width="2"/>
-<g>
-      <path d="M104 160 Q104 132 150 132 Q196 132 196 160 V166 H104 Z" fill="#e0b16b" stroke="#2b1d14" stroke-width="2"/>
-      <ellipse cx="150" cy="182" rx="50" ry="14" fill="#8b5a2b" stroke="#2b1d14" stroke-width="2"/>
-      <g fill="#3b2412"><circle cx="128" cy="180" r="3"/><circle cx="146" cy="186" r="3"/><circle cx="164" cy="178" r="3"/><circle cx="178" cy="185" r="2.5"/></g>
-      <rect x="104" y="198" width="92" height="22" rx="6" fill="#e0b16b" stroke="#2b1d14" stroke-width="2"/>
-      <text x="88" y="196" font-family="'EB Garamond', Georgia, serif" font-size="30" fill="#fbf3dd">"</text>
-      <text x="200" y="196" font-family="'EB Garamond', Georgia, serif" font-size="30" fill="#fbf3dd">"</text></g>
+<g><path d="M104 160 Q104 132 150 132 Q196 132 196 160 V166 H104 Z" fill="#e0b16b" stroke="#2b1d14" stroke-width="2"/>
+<ellipse cx="150" cy="182" rx="50" ry="14" fill="#8b5a2b" stroke="#2b1d14" stroke-width="2"/>
+<g fill="#3b2412"><circle cx="128" cy="180" r="3"/><circle cx="146" cy="186" r="3"/><circle cx="164" cy="178" r="3"/><circle cx="178" cy="185" r="2.5"/></g>
+<rect x="104" y="198" width="92" height="22" rx="6" fill="#e0b16b" stroke="#2b1d14" stroke-width="2"/>
+<text x="88" y="196" font-family="'EB Garamond', Georgia, serif" font-size="30" fill="#fbf3dd">"</text>
+<text x="200" y="196" font-family="'EB Garamond', Georgia, serif" font-size="30" fill="#fbf3dd">"</text></g>
+
+
 <path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#7a4e24"/>
-<path d="M28 340 l14 22 l-14 22" fill="none" stroke="#00000033" stroke-width="1"/>
 <text x="150" y="369" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="20" fill="#fbf3dd">Cookie Sandwich</text>
 <text x="150" y="414" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" letter-spacing="1.5" fill="#7a6656">INTER DUAS VIRGULAS</text>
 </svg>

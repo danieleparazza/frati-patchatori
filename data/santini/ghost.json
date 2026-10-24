@@ -1,0 +1,10 @@
+{
+  "label": "GHOST",
+  "motto": "SPIRITUS GLIBCI",
+  "niche": [
+    "#2a2a3a",
+    "#545470"
+  ],
+  "accent": "#45455e",
+  "emblem": "<path d=\"M110 240 V170 A40 40 0 0 1 190 170 V240 L177 228 L164 240 L150 228 L136 240 L123 228 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"136\" cy=\"172\" r=\"8\" fill=\"#2b1d14\"/><circle cx=\"164\" cy=\"172\" r=\"8\" fill=\"#2b1d14\"/>\n<path d=\"M134 202 Q150 192 166 202 Q150 216 134 202 Z\" fill=\"#2b1d14\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"><ellipse cx=\"198\" cy=\"226\" rx=\"6\" ry=\"4\"/><ellipse cx=\"208\" cy=\"234\" rx=\"6\" ry=\"4\"/><ellipse cx=\"218\" cy=\"242\" rx=\"6\" ry=\"4\"/></g>\n<text x=\"150\" y=\"132\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">gethostbyname()</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "SGAxe",
+  "motto": "CLAUSTRUM FRACTUM",
+  "niche": [
+    "#0f2d40",
+    "#24597a"
+  ],
+  "accent": "#1b4a66",
+  "emblem": "<path d=\"M112 176 L150 160 L188 176 L150 192 Z\" fill=\"#5dade2\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M112 176 V222 L150 238 V192 Z\" fill=\"#2e86c1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M188 176 V222 L150 238 V192 Z\" fill=\"#1b4f72\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 192 L144 206 L154 214 L146 236\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<rect x=\"160\" y=\"118\" width=\"8\" height=\"74\" rx=\"3\" fill=\"#8b5a2b\" transform=\"rotate(30 164 155)\"/>\n<path d=\"M172 118 C190 112 206 124 204 142 L182 136 Z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"212\" r=\"5\" fill=\"#d9ad55\"/>"
+}

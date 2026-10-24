@@ -1,0 +1,10 @@
+{
+  "label": "LeftoverLocals",
+  "motto": "NIHIL DELETUR",
+  "niche": [
+    "#2b3a1f",
+    "#56713c"
+  ],
+  "accent": "#46602f",
+  "emblem": "<ellipse cx=\"150\" cy=\"200\" rx=\"66\" ry=\"30\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"150\" cy=\"198\" rx=\"46\" ry=\"19\" fill=\"none\" stroke=\"#c9b98f\" stroke-width=\"2\"/>\n<rect x=\"126\" y=\"160\" width=\"48\" height=\"34\" rx=\"4\" fill=\"#2f2f2f\"/>\n<circle cx=\"150\" cy=\"177\" r=\"11\" fill=\"none\" stroke=\"#76b041\" stroke-width=\"3\"/><path d=\"M150 166 V188 M139 177 H161\" stroke=\"#76b041\" stroke-width=\"2\"/>\n<g fill=\"#a67c52\"><circle cx=\"118\" cy=\"204\" r=\"3\"/><circle cx=\"128\" cy=\"210\" r=\"2\"/><circle cx=\"176\" cy=\"206\" r=\"3\"/><circle cx=\"186\" cy=\"200\" r=\"2\"/><circle cx=\"160\" cy=\"212\" r=\"2\"/></g>\n<path d=\"M212 150 V214 M206 150 V170 M212 150 V170 M218 150 V170 M206 170 Q212 176 218 170\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>"
+}

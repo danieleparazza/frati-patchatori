@@ -1,0 +1,10 @@
+{
+  "label": "LDAPNightmare",
+  "motto": "NOX SINE LDAP",
+  "niche": [
+    "#1d2a4d",
+    "#3b4c7a"
+  ],
+  "accent": "#1d2a4d",
+  "emblem": "<path d=\"M150 122 A58 58 0 1 0 150 238 A72 72 0 0 1 150 122 Z\" fill=\"#f4e3a1\"/>\n<g stroke=\"#fbf3dd\" stroke-width=\"3\" fill=\"none\"><path d=\"M178 150 V172 M178 172 L162 196 M178 172 L194 196\"/></g>\n<g fill=\"#fbf3dd\"><circle cx=\"178\" cy=\"148\" r=\"7\"/><circle cx=\"162\" cy=\"200\" r=\"7\"/><circle cx=\"194\" cy=\"200\" r=\"7\"/></g>\n<path d=\"M190 196 l8 8 M198 196 l-8 8\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<g fill=\"#fff8d6\"><circle cx=\"112\" cy=\"132\" r=\"2\"/><circle cx=\"200\" cy=\"128\" r=\"2.5\"/><circle cx=\"208\" cy=\"232\" r=\"2\"/></g>"
+}

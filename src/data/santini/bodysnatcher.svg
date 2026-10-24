@@ -12,16 +12,16 @@
 <circle cx="150" cy="180" r="112" fill="url(#s-bodysnatcher-halo)"/>
 <g stroke="#e8c45c" stroke-width="2.5" stroke-linecap="round" opacity="0.85"><line x1="228.0" y1="180.0" x2="266.0" y2="180.0"/><line x1="222.1" y1="209.8" x2="246.1" y2="219.8"/><line x1="205.2" y1="235.2" x2="232.0" y2="262.0"/><line x1="179.8" y1="252.1" x2="189.8" y2="276.1"/><line x1="150.0" y1="258.0" x2="150.0" y2="296.0"/><line x1="120.2" y1="252.1" x2="110.2" y2="276.1"/><line x1="94.8" y1="235.2" x2="68.0" y2="262.0"/><line x1="77.9" y1="209.8" x2="53.9" y2="219.8"/><line x1="72.0" y1="180.0" x2="34.0" y2="180.0"/><line x1="77.9" y1="150.2" x2="53.9" y2="140.2"/><line x1="94.8" y1="124.8" x2="68.0" y2="98.0"/><line x1="120.2" y1="107.9" x2="110.2" y2="83.9"/><line x1="150.0" y1="102.0" x2="150.0" y2="64.0"/><line x1="179.8" y1="107.9" x2="189.8" y2="83.9"/><line x1="205.2" y1="124.8" x2="232.0" y2="98.0"/><line x1="222.1" y1="150.2" x2="246.1" y2="140.2"/></g>
 <circle cx="150" cy="180" r="76" fill="none" stroke="#e8c45c" stroke-width="2"/>
-<g>
-      <line x1="150" y1="124" x2="150" y2="140" stroke="#bfc9d1" stroke-width="4"/><circle cx="150" cy="120" r="6" fill="#e74c3c"/>
-      <rect x="112" y="140" width="76" height="70" rx="14" fill="#bfc9d1" stroke="#2b1d14" stroke-width="2"/>
-      <path d="M104 170 Q114 156 132 162 L150 170 L168 162 Q186 156 196 170 Q186 186 168 180 L150 176 L132 180 Q114 186 104 170 Z" fill="#2b1d14"/>
-      <circle cx="132" cy="170" r="5" fill="#5dade2"/><circle cx="168" cy="170" r="5" fill="#5dade2"/>
-      <rect x="132" y="192" width="36" height="6" rx="3" fill="#2b1d14"/>
-      <path d="M120 210 L112 244 H188 L180 210 Z" fill="#7f8c8d"/>
-      <text x="150" y="236" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="12" fill="#fbf3dd">@ admin</text></g>
+<g><line x1="150" y1="124" x2="150" y2="140" stroke="#bfc9d1" stroke-width="4"/><circle cx="150" cy="120" r="6" fill="#e74c3c"/>
+<rect x="112" y="140" width="76" height="70" rx="14" fill="#bfc9d1" stroke="#2b1d14" stroke-width="2"/>
+<path d="M104 170 Q114 156 132 162 L150 170 L168 162 Q186 156 196 170 Q186 186 168 180 L150 176 L132 180 Q114 186 104 170 Z" fill="#2b1d14"/>
+<circle cx="132" cy="170" r="5" fill="#5dade2"/><circle cx="168" cy="170" r="5" fill="#5dade2"/>
+<rect x="132" y="192" width="36" height="6" rx="3" fill="#2b1d14"/>
+<path d="M120 210 L112 244 H188 L180 210 Z" fill="#7f8c8d"/>
+<text x="150" y="236" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="12" fill="#fbf3dd">@ admin</text></g>
+
+
 <path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#214d68"/>
-<path d="M28 340 l14 22 l-14 22" fill="none" stroke="#00000033" stroke-width="1"/>
 <text x="150" y="369" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="20" fill="#fbf3dd">BodySnatcher</text>
 <text x="150" y="414" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" letter-spacing="1.5" fill="#7a6656">EGO SUM TU</text>
 </svg>

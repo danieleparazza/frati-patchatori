@@ -1,0 +1,10 @@
+{
+  "label": "Baron Samedit",
+  "motto": "SUDO ERGO SUM",
+  "niche": [
+    "#1c1424",
+    "#3d2a52"
+  ],
+  "accent": "#3d2a52",
+  "emblem": "<circle cx=\"150\" cy=\"194\" r=\"32\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"138\" cy=\"190\" rx=\"8\" ry=\"9\" fill=\"#2b1d14\"/><ellipse cx=\"162\" cy=\"190\" rx=\"8\" ry=\"9\" fill=\"#2b1d14\"/>\n<path d=\"M146 204 L150 198 L154 204 Z\" fill=\"#2b1d14\"/>\n<path d=\"M134 216 H166 M140 212 V220 M147 212 V221 M153 212 V221 M160 212 V220\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"116\" y=\"164\" width=\"68\" height=\"8\" rx=\"3\" fill=\"#111\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<rect x=\"126\" y=\"120\" width=\"48\" height=\"46\" fill=\"#111\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/><rect x=\"126\" y=\"152\" width=\"48\" height=\"8\" fill=\"#8e44ad\"/>\n<text x=\"206\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"30\" fill=\"#d9ad55\">\\</text>"
+}

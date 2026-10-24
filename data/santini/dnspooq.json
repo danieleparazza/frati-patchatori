@@ -1,0 +1,10 @@
+{
+  "label": "DNSpooq",
+  "motto": "VIA FALSA",
+  "niche": [
+    "#20203a",
+    "#45456e"
+  ],
+  "accent": "#38385e",
+  "emblem": "<rect x=\"146\" y=\"130\" width=\"8\" height=\"118\" fill=\"#6e4b2a\"/>\n<path d=\"M152 140 H204 L216 152 L204 164 H152 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"180\" y=\"157\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#2b1d14\">bank.com</text>\n<path d=\"M148 176 H96 L84 188 L96 200 H148 Z\" fill=\"#c0392b\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"193\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">bank.com</text>\n<path d=\"M184 236 V212 A14 14 0 0 1 212 212 V236 l-5 -5 l-4 5 l-5 -5 l-4 5 l-5 -5 z\" fill=\"#fbf3dd\" opacity=\"0.9\"/>\n<circle cx=\"194\" cy=\"214\" r=\"2.5\" fill=\"#2b1d14\"/><circle cx=\"202\" cy=\"214\" r=\"2.5\" fill=\"#2b1d14\"/>"
+}

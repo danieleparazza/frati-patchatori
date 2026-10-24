@@ -1,0 +1,10 @@
+{
+  "label": "Leaky Vessels",
+  "motto": "NAVIS PERFORATA",
+  "niche": [
+    "#0f3a4a",
+    "#1f6f87"
+  ],
+  "accent": "#17566b",
+  "emblem": "<rect x=\"118\" y=\"158\" width=\"30\" height=\"22\" fill=\"#e74c3c\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"158\" width=\"30\" height=\"22\" fill=\"#2980b9\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<rect x=\"134\" y=\"136\" width=\"30\" height=\"22\" fill=\"#f39c12\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M100 180 H204 L190 212 H112 Z\" fill=\"#34495e\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"160\" cy=\"198\" r=\"4\" fill=\"#111\"/>\n<g fill=\"#5dade2\"><path d=\"M160 204 q-5 9 0 12 q5 -3 0 -12z\"/><path d=\"M160 222 q-4 7 0 10 q4 -3 0 -10z\"/></g>\n<path d=\"M90 232 Q105 222 120 232 T150 232 T180 232 T210 232\" fill=\"none\" stroke=\"#aed6f1\" stroke-width=\"3\"/>"
+}

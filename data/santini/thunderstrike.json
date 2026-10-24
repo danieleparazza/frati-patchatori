@@ -1,0 +1,10 @@
+{
+  "label": "Thunderstrike",
+  "motto": "FULGUR IN FIRMWARE",
+  "niche": [
+    "#1d1d33",
+    "#3c3c66"
+  ],
+  "accent": "#2f2f55",
+  "emblem": "<rect x=\"112\" y=\"196\" width=\"76\" height=\"44\" rx=\"4\" fill=\"#1e8449\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"136\" y=\"206\" width=\"28\" height=\"24\" fill=\"#2f2f2f\"/><text x=\"150\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#d9ad55\">EFI</text>\n<g stroke=\"#d9ad55\" stroke-width=\"2\"><line x1=\"120\" y1=\"240\" x2=\"120\" y2=\"246\"/><line x1=\"134\" y1=\"240\" x2=\"134\" y2=\"246\"/><line x1=\"148\" y1=\"240\" x2=\"148\" y2=\"246\"/><line x1=\"162\" y1=\"240\" x2=\"162\" y2=\"246\"/><line x1=\"176\" y1=\"240\" x2=\"176\" y2=\"246\"/></g>\n<path d=\"M164 120 L130 170 H152 L138 210 L180 156 H158 L172 120 Z\" fill=\"#f1c40f\" stroke=\"#2b1d14\" stroke-width=\"2\" stroke-linejoin=\"round\"/>"
+}

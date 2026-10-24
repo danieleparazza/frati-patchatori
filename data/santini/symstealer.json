@@ -1,0 +1,10 @@
+{
+  "label": "SymStealer",
+  "motto": "SEQUERE NEXUM",
+  "niche": [
+    "#153a3a",
+    "#2f6b66"
+  ],
+  "accent": "#1f5753",
+  "emblem": "<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"9\">\n<rect x=\"102\" y=\"150\" width=\"58\" height=\"30\" rx=\"15\" transform=\"rotate(-25 131 165)\"/>\n<rect x=\"138\" y=\"168\" width=\"58\" height=\"30\" rx=\"15\" transform=\"rotate(-25 167 183)\"/>\n</g>\n<path d=\"M118 222 C140 240 172 238 186 222\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/>\n<g transform=\"translate(186 212)\"><circle r=\"9\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/><path d=\"M8 4 L26 14 M18 9 L22 2 M23 12 L27 5\" stroke=\"#fbf3dd\" stroke-width=\"4\" stroke-linecap=\"round\"/></g>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "BodySnatcher",
+  "motto": "EGO SUM TU",
+  "niche": [
+    "#173548",
+    "#2d5f7c"
+  ],
+  "accent": "#214d68",
+  "emblem": "<line x1=\"150\" y1=\"124\" x2=\"150\" y2=\"140\" stroke=\"#bfc9d1\" stroke-width=\"4\"/><circle cx=\"150\" cy=\"120\" r=\"6\" fill=\"#e74c3c\"/>\n<rect x=\"112\" y=\"140\" width=\"76\" height=\"70\" rx=\"14\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M104 170 Q114 156 132 162 L150 170 L168 162 Q186 156 196 170 Q186 186 168 180 L150 176 L132 180 Q114 186 104 170 Z\" fill=\"#2b1d14\"/>\n<circle cx=\"132\" cy=\"170\" r=\"5\" fill=\"#5dade2\"/><circle cx=\"168\" cy=\"170\" r=\"5\" fill=\"#5dade2\"/>\n<rect x=\"132\" y=\"192\" width=\"36\" height=\"6\" rx=\"3\" fill=\"#2b1d14\"/>\n<path d=\"M120 210 L112 244 H188 L180 210 Z\" fill=\"#7f8c8d\"/>\n<text x=\"150\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">@ admin</text>"
+}

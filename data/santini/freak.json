@@ -1,0 +1,10 @@
+{
+  "label": "FREAK",
+  "motto": "CLAVIS BREVIS",
+  "niche": [
+    "#3d2f12",
+    "#7a5d22"
+  ],
+  "accent": "#7a5d22",
+  "emblem": "<path d=\"M122 172 V150 A28 28 0 0 1 178 150 V172\" fill=\"none\" stroke=\"#8a8a8a\" stroke-width=\"10\"/>\n<rect x=\"110\" y=\"168\" width=\"80\" height=\"66\" rx=\"8\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"210\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#2b1d14\">512</text>\n<path d=\"M200 132 V170 M190 160 L200 172 L210 160\" stroke=\"#c0392b\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>\n<text x=\"96\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">1995</text>"
+}
