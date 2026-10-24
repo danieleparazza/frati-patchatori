@@ -12,10 +12,15 @@ npm run import   # aggiorna src/data/ da Vulnerability Garden, CISA KEV e cvelis
 npm run dev
 ```
 
-- `data/overrides.json`: patrono scelto a mano per un giorno (`"MM-DD": "id"`).
-- `data/extra-vulns.json`: voci aggiunte a mano (santi minori, Padri della Chiesa).
-- `src/data/saints/<id>.json`: testi parodistici IT/EN di un santo.
-- `src/data/santini/<id>.svg`: santino del santo.
+Dati e contenuti:
+
+- `data/overrides.json`: correzioni manuali (patroni, date, CVE, longevità, assurde, esclusioni).
+- `data/extra-vulns.json`: voci aggiunte a mano (santi minori, Padri della Chiesa, Papi mancanti).
+- `data/events.json`, `data/demons.json`, `data/popes.json`, `data/logos.json`: flagelli e miracoli, Bestiario, Papi, loghi CC0.
+- `src/data/saints/`, `src/data/events/`, `src/data/demons/`, `src/data/popes/`: testi IT/EN.
+- `data/santini/<id>.json` → `node scripts/build-santini.mjs` → `src/data/santini/<id>.svg`.
+
+Come si scrivono i contenuti: [docs/CONTENT.md](docs/CONTENT.md).
 
 ## Licenze
 

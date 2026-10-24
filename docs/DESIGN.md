@@ -45,39 +45,41 @@ Più un **box tecnico serio**: CVE-ID, CVSS, prodotto, link NVD.
 - **PNG di condivisione** (1200×630) per ogni giorno e lingua: anteprima OpenGraph e pulsante di download.
 - **Feed iCalendar** per lingua (`calendar/<lang>.ics`), un evento annuale per patrono, con link per l'iscrizione su ogni pagina.
 - Il 29 febbraio è un giorno normale con il suo santo.
+- **Loghi ufficiali** solo con licenza CC0 esplicita (20, in `data/logos.json` e `src/assets/logos/`): sostituiscono l'emblema disegnato, con credito nella didascalia.
+- **Aggiornamento mensile** (`.github/workflows/update-data.yml`): import il 1° del mese, commit, deploy e una issue di revisione assegnata al maintainer. I patroni esistenti non cambiano mai automaticamente.
 
-## Prossime sezioni (decise, da fare in quest'ordine)
+## Sezioni oltre i santi
 
-### 1. Feste mobili
-- Patch Tuesday (secondo martedì del mese), Data Privacy Day (28/1), Safer Internet Day (febbraio), World Backup Day (31/3), World Password Day (primo giovedì di maggio), Sysadmin Day (ultimo venerdì di luglio), Programmers' Day (256° giorno), ottobre mese della sicurezza, Computer Security Day (30/11), Venerdì 13.
-- Calcolate nel codice, mostrate in una fascia sopra il santo.
+### Feste mobili
+- Patch Tuesday (secondo martedì del mese), Data Privacy Day (28/1), World Backup Day (31/3), World Password Day (primo giovedì di maggio), Sysadmin Day (ultimo venerdì di luglio), Programmers' Day (256° giorno), ottobre mese della sicurezza, Computer Security Day (30/11), Venerdì 13.
+- Calcolate nel codice (`src/lib/feasts.ts`), mostrate in una fascia sopra il santo, nel mese e nella settimana. Safer Internet Day escluso: la data è decisa ogni anno dagli organizzatori.
 - Feed `.ics` separato **Ricorrenze** (feste mobili, flagelli e miracoli).
 
-### 2. Flagelli e miracoli
+### Flagelli e miracoli
 - **Flagelli**: grandi attacchi e incidenti con data precisa; comprendono le calamità senza attaccante, con l'etichetta "senza colpevole" (es. CrowdStrike, 19/7/2024).
 - **Miracoli**: le volte in cui è andata bene (kill switch di WannaCry, backdoor di xz).
 - Campi propri. Flagelli: *Cronaca*, *Lezione appresa*, *Preghiera di riparazione*, *Come si ricorda*. Miracoli: *Il prodigio*, *Il taumaturgo*, *Rendimento di grazie*.
 - Casi con conseguenze sulle persone (ospedali, emergenze): tono sobrio, niente preghiera parodistica, cornice scura.
 - Nella pagina del giorno sotto il santo; immagini nello stile dei santini con cornici dedicate.
-- Processo: un agente propone ~60 eventi verificati su fonti primarie, la lista si approva, poi si scrivono i testi.
-- Modello dati: `data/events.json` con `{ id, type, name, date | rule, cves[], links[], description }`.
+- 73 eventi approvati in `data/events.json` (56 flagelli, 17 miracoli), testi in `src/data/events/`.
+- Toni: `lutto` (Synnovis, Düsseldorf: cornice nera, niente parodia né condivisione), `sobrio` (danni seri a persone o servizi essenziali), `normale`.
 
-### 3. Papi
+### Papi
 - **Papa dell'anno** (dal 1999) e **Papa del decennio** (dagli anni Duemila), periodi allineati al calendario. **Antipapi**: vulnerabilità sopravvalutate, poche e con fonti.
 - Un Papa può essere anche santo. Numerazione a dinastie (*Papa CitrixBleed I*, *II*).
 - Anno in corso "sede vacante" fino al 31 dicembre; decennio in corso fino alla sua fine.
-- Storico: 1999–2013 proposto da un agente con fonti, dal 2014 dal punteggio di fama; approvazione manuale.
+- Cronotassi approvata in `data/popes.json`, encicliche in `src/data/popes/`. Antipapi: Badlock, AMDFlaws, GHOST, VENOM, EFAIL.
 - **Conclave** dal 2026: 5 candidate col punteggio più alto + proposte della community, voto su GitHub Discussions dall'1 al 20 dicembre, "fumata bianca" il 31 con un commit.
 - Pagine: cronotassi (decenni in evidenza, Antipapi a parte) e pagina per Papa (santino con tiara, enciclica, link alla scheda da santo, "cardinali" dell'anno).
 
-### 4. Bestiario
+### Bestiario
 - Pagina unica senza tab, con indice e sezioni: Demoni (per girone), Flagelli, Miracoli, Padri della Chiesa, Beati, Santi minori. Le stesse categorie sono anche filtri in Cerca.
 - **Gironi**: worm, botnet, ransomware ed estorsione, wiper, spionaggio di Stato, trojan bancari e infostealer. Un girone principale per demone, altri come etichetta.
 - Scheda del demone: nomi e alias, girone, prima apparizione, opere (flagelli), armi (CVE, con link ai santi), esorcismo (difese), stato (attivo / esorcizzato / dormiente).
-- Fonte: MITRE ATT&CK. Niente link ai leak site né classifiche delle vittime; i demoni non stanno nel calendario.
+- 47 demoni in `data/demons.json`, testi in `src/data/demons/`. Fonte: MITRE ATT&CK (con la nota di copyright MITRE sulle pagine che lo citano). Niente link ai leak site né classifiche delle vittime; i demoni non stanno nel calendario.
 
 ### Trasversale
-- Menu: nuove voci **Papi** e **Bestiario**.
+- Menu: Calendario, Cerca, Papi, Bestiario, Info; su telefono menu a scomparsa.
 - Collegamenti incrociati santi ↔ flagelli ↔ demoni (es. EternalBlue → WannaCry, NotPetya).
 - Si scherza sugli attaccanti e sulle tecnologie, mai sulle vittime.
 
