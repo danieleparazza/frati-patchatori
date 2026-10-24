@@ -32,7 +32,7 @@ API pubblica in sola lettura, gratuita e senza chiave. Riferimento interattivo (
 |---|---|
 | `GET https://fratipatchatori.it/api/v1/{lang}/days/{MM-DD}.json` | Un giorno: patrono, altri santi del giorno, ricorrenze |
 | `GET https://fratipatchatori.it/api/v1/{lang}/year.json` | Tutti i 366 giorni (circa 800 KB) |
-| `GET https://<worker>/api/v1/{lang}/today?tz=Europe/Rome` | Il giorno di oggi nel fuso indicato (predefinito Europe/Rome) |
+| `GET https://frati-push.fratipatchatori.workers.dev/api/v1/{lang}/today?tz=Europe/Rome` | Il giorno di oggi nel fuso indicato (predefinito Europe/Rome) |
 
 `lang` è `it` o `en`. I file dei giorni sono statici su GitHub Pages, con CORS aperto; `today` passa dal Worker in `push/`, perché un sito statico non sa che giorno è.
 

@@ -12,7 +12,7 @@ ALLOWED_ORIGINS = "https://fratipatchatori.it,http://localhost:4321,http://local
 
 [[kv_namespaces]]
 binding = "SUBS"
-id = "KV_ID"
+id = "ae9d1526311b495f907035b92a4f902f"
 
 # The Worker calls itself (/batch) through a service binding: workers.dev doesn't allow fetching its own URL.
 [[services]]

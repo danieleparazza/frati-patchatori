@@ -54,7 +54,7 @@ paths:
                 items: { $ref: '#/components/schemas/Day' }
   /{lang}/today:
     servers:
-      - url: https://PUSH_WORKER/api/v1
+      - url: https://frati-push.fratipatchatori.workers.dev/api/v1
     get:
       summary: Today
       description: The day file for today's date in the given timezone.
