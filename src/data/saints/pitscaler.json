@@ -2,7 +2,7 @@
   "it": {
     "title": "San PitScaler, che scava fosse nel perimetro",
     "patronage": "dei gateway VPN, degli amministratori Citrix che non hanno ancora disfatto le valigie dall'ultima volta e di chi applica la patch ma non cerca le backdoor.",
-    "hagiography": "Alla fine di settembre 2026 Citrix pubblicò un bollettino con otto CVE per NetScaler ADC e Gateway, due delle quali già sfruttate da settimane: CVE-2026-88771 permetteva a chiunque di eseguire comandi senza autenticarsi, CVE-2026-88772 era un overflow di memoria nel DTLS. Kevin Beaumont la battezzò PitScaler, la CISA la mise subito nel catalogo degli exploit in circolazione e il copione fu quello noto: dispositivi bucati prima della patch e backdoor che la patch non rimuove.",
+    "hagiography": "Alla fine di settembre 2026 Citrix pubblicò un bollettino con otto CVE per NetScaler ADC e Gateway, due delle quali già sfruttate prima della patch: CVE-2026-88771 permetteva a chiunque di eseguire comandi senza autenticarsi, CVE-2026-88772 era un overflow di memoria nel DTLS. Kevin Beaumont la battezzò PitScaler, la CISA la mise subito nel catalogo degli exploit in circolazione e il copione fu quello noto: dispositivi bucati prima della patch e backdoor che la patch non rimuove.",
     "prayer": "O San PitScaler, che apri fosse proprio sul ponte levatoio, fa' che i nostri gateway siano aggiornati prima che qualcuno ci caschi dentro. Amen.",
     "feast": "Si festeggia aggiornando NetScaler almeno a 14.1-73.46 o 13.1-64.29 e poi cercando le backdoor: la patch chiude la porta, non caccia chi è già entrato.",
     "proverb": "Per San PitScaler, chi cade nella fossa ci trova già compagnia."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint PitScaler, Who Digs Pits in the Perimeter",
     "patronage": "VPN gateways, Citrix admins who haven't unpacked their bags since the last time, and everyone who patches but never hunts for backdoors.",
-    "hagiography": "At the end of September 2026 Citrix published a bulletin with eight CVEs for NetScaler ADC and Gateway, two of them already exploited for weeks: CVE-2026-88771 let anyone run commands without authentication, CVE-2026-88772 was a memory overflow in DTLS. Kevin Beaumont named it PitScaler, CISA added it to its catalogue of exploited flaws at once, and the script was the familiar one: boxes breached before the patch, and backdoors the patch does not remove.",
+    "hagiography": "At the end of September 2026 Citrix published a bulletin with eight CVEs for NetScaler ADC and Gateway, two of them already exploited before the patch: CVE-2026-88771 let anyone run commands without authentication, CVE-2026-88772 was a memory overflow in DTLS. Kevin Beaumont named it PitScaler, CISA added it to its catalogue of exploited flaws at once, and the script was the familiar one: boxes breached before the patch, and backdoors the patch does not remove.",
     "prayer": "O Saint PitScaler, who digs pits right on the drawbridge, let our gateways be patched before anyone falls in. Amen.",
     "feast": "Celebrated by upgrading NetScaler to at least 14.1-73.46 or 13.1-64.29 and then hunting for backdoors: the patch closes the door, it does not evict whoever is already inside.",
     "proverb": "On PitScaler's day, whoever falls in the pit finds company already there."

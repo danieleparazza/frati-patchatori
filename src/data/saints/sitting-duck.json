@@ -2,7 +2,7 @@
   "it": {
     "title": "Beato Sitting Duck, che lasciava i domini in balìa",
     "patronage": "dei nomi di dominio, delle deleghe DNS abbandonate e di chi non controlla mai chi gestisce il proprio nome.",
-    "hagiography": "Nel 2024 Brian Krebs e vari ricercatori descrissero Sitting Duck, una tecnica di dirottamento dei domini. Quando un dominio delega la propria gestione DNS a un provider ma la configurazione resta incompleta o abbandonata, un attaccante può rivendicarla presso quel provider e prendere il controllo del nome senza toccarne il proprietario. Un'anatra ferma e indifesa, da cui il nome: intere eredità digitali dimenticate, pronte da raccogliere.",
+    "hagiography": "Nel 2024 i ricercatori di Infoblox ed Eclypsium, raccontati da Brian Krebs, descrissero Sitting Duck, una tecnica di dirottamento dei domini. Quando un dominio delega la propria gestione DNS a un provider ma la configurazione resta incompleta o abbandonata, un attaccante può rivendicarla presso quel provider e prendere il controllo del nome senza toccarne il proprietario. Un'anatra ferma e indifesa, da cui il nome: intere eredità digitali dimenticate, pronte da raccogliere.",
     "prayer": "O Beato Sitting Duck, che raccogli i domini lasciati soli, insegnaci a vigilare su chi gestisce i nostri nomi. Amen.",
     "feast": "Si festeggia verificando le deleghe DNS dei propri domini, rimuovendo quelle inutilizzate e scegliendo provider che impediscono le rivendicazioni abusive.",
     "proverb": "Dominio lasciato solo, anatra per il cacciatore."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Blessed Sitting Duck, Who Left Domains Defenceless",
     "patronage": "domain names, abandoned DNS delegations, and those who never check who runs their name.",
-    "hagiography": "In 2024 Brian Krebs and various researchers described Sitting Duck, a domain-hijacking technique. When a domain delegates its DNS management to a provider but the configuration is left incomplete or abandoned, an attacker can claim it at that provider and take control of the name without ever touching its owner. A still, defenceless duck, hence the name: whole forgotten digital estates, ready to be picked up.",
+    "hagiography": "In 2024 researchers at Infoblox and Eclypsium, reported by Brian Krebs, described Sitting Duck, a domain-hijacking technique. When a domain delegates its DNS management to a provider but the configuration is left incomplete or abandoned, an attacker can claim it at that provider and take control of the name without ever touching its owner. A still, defenceless duck, hence the name: whole forgotten digital estates, ready to be picked up.",
     "prayer": "O Blessed Sitting Duck, who gathers up the domains left alone, teach us to watch over whoever manages our names. Amen.",
     "feast": "Celebrated by checking your domains' DNS delegations, removing unused ones and choosing providers that prevent abusive claims.",
     "proverb": "A domain left alone is a duck for the hunter."

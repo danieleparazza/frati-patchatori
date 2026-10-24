@@ -87,6 +87,36 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "esxicape",
+  "name": "ESXicape",
+  "date": "2025-03-05",
+  "day": "03-05",
+  "category": "santo",
+  "cves": [
+   "CVE-2025-22224",
+   "CVE-2025-22225",
+   "CVE-2025-22226"
+  ],
+  "cvss": 9.3,
+  "kev": true,
+  "ransomware": true,
+  "born": null,
+  "absurd": false,
+  "vendor": "VMware",
+  "product": "ESXi",
+  "description": "VMware ESXi, and Workstation contain a TOCTOU (Time-of-Check Time-of-Use) vulnerability that leads to an out-of-bounds write. A malicious actor with local administrative privileges on a virtual machine may exploit this issue to execute code as the virtual machine's VMX process running on the host.",
+  "canonical": "https://doublepulsar.com/use-one-virtual-machine-to-own-them-all-active-exploitation-of-esxicape-0091ccc5bdfc",
+  "links": [
+   "https://cyberplace.social/@GossiTheDog/114105463027700916",
+   "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390",
+   "https://techcrunch.com/2025/03/05/broadcom-urges-vmware-customers-to-patch-emergency-zero-day-bugs-under-active-exploitation/#:~:text=Broadcom%20did%20not%20share%20any,t%20respond%20by%20press%20time."
+  ],
+  "logo": "esxicape.png",
+  "author": null,
+  "fame": 11.55,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "pitscaler",
   "name": "PitScaler",
   "date": "2026-10-02",
@@ -1007,6 +1037,32 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "space-attack",
+  "name": "sPACE Attack",
+  "date": "2024-02-15",
+  "day": "02-15",
+  "category": "santo",
+  "cves": [
+   "CVE-2024-23674"
+  ],
+  "cvss": 9.6,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "The Online-Ausweis-Funktion eID scheme in the German National Identity card through 2024-02-15 allows authentication bypass by spoofing. A man-in-the-middle attacker can assume a victim's identify for access to government, medical, and financial resources, and can also extract personal data from the card, aka the \"sPACE (Spoofing Password Authenticated Connection Establishment)\" issue. This occurs because of a combination of factors, such as insecure PIN entry (for basic readers) and eid:// deeplinking. The victim must be using a modified eID kernel, which may occur if the victim is tricked into installing a fake version of an official app. NOTE: the BSI position is \"ensuring a secure operational environment at the client side is an obligation of the ID card owner.\"",
+  "canonical": "https://ctrlalt.medium.com/space-attack-spoofing-eids-password-authenticated-connection-establishment-11561e5657b1",
+  "links": [
+   "https://www.dropbox.com/scl/fi/2powlii0dnmr7p7v5ijhc/2024_German_eID_02_Spoofing_PACE_final.pdf?rlkey=nx0ffmmbq3hffgxsuqwf0f45z&e=1&dl=0"
+  ],
+  "logo": "spaceattack.png",
+  "author": "CtrlAlt",
+  "fame": 7.6,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "sigy",
   "name": "Sigy",
   "date": "2024-04-04",
@@ -1119,6 +1175,32 @@
   "logo": null,
   "author": "Dinh Ho Anh Khoa",
   "fame": 7.55,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "ill-bloom",
+  "name": "Ill Bloom",
+  "date": "2026-07-05",
+  "day": "07-05",
+  "category": "santo",
+  "cves": [
+   "CVE-2026-71851"
+  ],
+  "cvss": 9,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "brix",
+  "product": "crypto-js",
+  "description": "crypto-js is a JavaScript library of crypto standards. Versions of crypto-js prior to 4.0.0 generate randomness in CryptoJS.lib.WordArray.random() using a custom variation of the Multiply-With-Carry pseudorandom number generator, seeded from Math.random(), instead of a cryptographically secure source. This generator was introduced in version 3.1.2-4 and remained present in nearly every 3.x release. Nominal requests for 128 or 256 bits of entropy through this function produce effective search spaces of approximately 2 to the 39th and 2 to the 47th possibilities, small enough to enumerate on commodity hardware. Downstream wallet applications that used CryptoJS.lib.WordArray.random() as the entropy source for BIP39 recovery phrases are affected, and an attacker who enumerates the reduced output space can recover the resulting private keys and control the associated funds. This issue is fixed in version 4.0.0.",
+  "canonical": "https://illbloom.org",
+  "links": [
+   "https://x.com/coinspect/status/2073935687770890458"
+  ],
+  "logo": "illbloom.png",
+  "author": "Coinspect",
+  "fame": 7.5,
   "source": "vulnerability-garden"
  },
  {
@@ -1781,7 +1863,7 @@
   "cves": [
    "CVE-2026-67276",
    "CVE-2026-86060",
-   "CVE-2026-67277"
+   "CVE-2026-67279"
   ],
   "cvss": 9.2,
   "kev": true,
@@ -5231,11 +5313,12 @@
   "day": "07-18",
   "category": "santo",
   "cves": [
-   "CVE-2022-26925"
+   "CVE-2022-26925",
+   "CVE-2021-36942"
   ],
   "cvss": 8.1,
   "kev": true,
-  "ransomware": false,
+  "ransomware": true,
   "born": null,
   "absurd": false,
   "vendor": "Microsoft",
@@ -5804,32 +5887,6 @@
   "links": [],
   "logo": "thunderstrike.png",
   "author": "Trammell Hudson",
-  "fame": 5.55,
-  "source": "vulnerability-garden"
- },
- {
-  "id": "esxicape",
-  "name": "ESXicape",
-  "date": "2025-03-05",
-  "day": "03-05",
-  "category": "beato",
-  "cves": [],
-  "cvss": null,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": null,
-  "product": null,
-  "description": null,
-  "canonical": "https://doublepulsar.com/use-one-virtual-machine-to-own-them-all-active-exploitation-of-esxicape-0091ccc5bdfc",
-  "links": [
-   "https://cyberplace.social/@GossiTheDog/114105463027700916",
-   "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25390",
-   "https://techcrunch.com/2025/03/05/broadcom-urges-vmware-customers-to-patch-emergency-zero-day-bugs-under-active-exploitation/#:~:text=Broadcom%20did%20not%20share%20any,t%20respond%20by%20press%20time."
-  ],
-  "logo": "esxicape.png",
-  "author": null,
   "fame": 5.55,
   "source": "vulnerability-garden"
  },
@@ -8943,30 +9000,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "space-attack",
-  "name": "sPACE Attack",
-  "date": "2024-02-15",
-  "day": "02-15",
-  "category": "beato",
-  "cves": [],
-  "cvss": null,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": null,
-  "product": null,
-  "description": null,
-  "canonical": "https://ctrlalt.medium.com/space-attack-spoofing-eids-password-authenticated-connection-establishment-11561e5657b1",
-  "links": [
-   "https://www.dropbox.com/scl/fi/2powlii0dnmr7p7v5ijhc/2024_German_eID_02_Spoofing_PACE_final.pdf?rlkey=nx0ffmmbq3hffgxsuqwf0f45z&e=1&dl=0"
-  ],
-  "logo": "spaceattack.png",
-  "author": "CtrlAlt",
-  "fame": 4.6,
-  "source": "vulnerability-garden"
- },
- {
   "id": "gofetch",
   "name": "GoFetch",
   "date": "2024-03-21",
@@ -9447,30 +9480,6 @@
   ],
   "logo": "ghostsender.png",
   "author": "Lucas Dodgson, Tobias Oberdörfer, Robin Hilber (InfoGuard Labs)",
-  "fame": 4.5,
-  "source": "vulnerability-garden"
- },
- {
-  "id": "ill-bloom",
-  "name": "Ill Bloom",
-  "date": "2026-07-05",
-  "day": "07-05",
-  "category": "beato",
-  "cves": [],
-  "cvss": null,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": null,
-  "product": null,
-  "description": null,
-  "canonical": "https://illbloom.org",
-  "links": [
-   "https://x.com/coinspect/status/2073935687770890458"
-  ],
-  "logo": "illbloom.png",
-  "author": "Coinspect",
   "fame": 4.5,
   "source": "vulnerability-garden"
  },
@@ -11029,36 +11038,6 @@
   ],
   "logo": null,
   "author": "@JiaT75",
-  "fame": 3.6,
-  "source": "vulnerability-garden"
- },
- {
-  "id": "fluidfaults",
-  "name": "FluidFaults",
-  "date": "2024-06-08",
-  "day": "06-08",
-  "category": "santo",
-  "cves": [
-   "CVE-2022-2970",
-   "CVE-2022-2971",
-   "CVE-2022-2972",
-   "CVE-2022-2973",
-   "CVE-2022-38138"
-  ],
-  "cvss": 10,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": "MZ Automation",
-  "product": "libIEC61850",
-  "description": "MZ Automation's libIEC61850 (versions 1.4 and prior; version 1.5 prior to commit a3b04b7bc4872a5a39e5de3fdc5fbde52c09e10e) does not sanitize input before memcpy is used, which could allow an attacker to crash the device or remotely execute arbitrary code.",
-  "canonical": "https://www.nozominetworks.com/blog/37-vulnerabilities-in-openflow-libfluid-msg-parsing-library",
-  "links": [
-   "https://thehackernews.com/2024/10/researchers-uncover-major-security.html"
-  ],
-  "logo": null,
-  "author": "Nozomi Networks",
   "fame": 3.6,
   "source": "vulnerability-garden"
  },
@@ -17632,6 +17611,32 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "transferflaw",
+  "name": "transferFlaw",
+  "date": "2018-04-28",
+  "day": "04-28",
+  "category": "santo",
+  "cves": [
+   "CVE-2018-10468"
+  ],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": "The transferFrom function of a smart contract implementation for Useless Ethereum Token (UET), an Ethereum ERC20 token, allows attackers to steal assets (e.g., transfer all victims' balances into their account) because certain computations involving _value are incorrect, as exploited in the wild starting in December 2017, aka the \"transferFlaw\" issue.",
+  "canonical": "https://www.peckshield.com/2018/04/28/transferFlaw/",
+  "links": [
+   "https://web.archive.org/web/20180520105144/https://www.peckshield.com/2018/04/28/transferFlaw/"
+  ],
+  "logo": null,
+  "author": "PeckShield",
+  "fame": 1.9,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "owneranyone",
   "name": "ownerAnyone",
   "date": "2018-05-03",
@@ -22150,6 +22155,30 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "gazeploit",
+  "name": "GAZEploit",
+  "date": "2024-09-12",
+  "day": "09-12",
+  "category": "santo",
+  "cves": [
+   "CVE-2024-40865"
+  ],
+  "cvss": 5.3,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "Apple",
+  "product": "visionOS",
+  "description": "The issue was addressed by suspending Persona when the virtual keyboard is active. This issue is fixed in visionOS 1.3. Inputs to the virtual keyboard may be inferred from Persona.",
+  "canonical": "https://sites.google.com/view/Gazeploit/",
+  "links": [],
+  "logo": null,
+  "author": "Hanqiu Wang, Siqi Dai, Max Panoff, Shuo Wang, Haoqi Shan, Zihao Zhan",
+  "fame": 1.1,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "kart-lan-pwn",
   "name": "Kart\"LAN\"Pwn",
   "date": "2024-09-30",
@@ -22925,30 +22954,6 @@
   "logo": null,
   "author": "Mimecast",
   "fame": 0.95,
-  "source": "vulnerability-garden"
- },
- {
-  "id": "transferflaw",
-  "name": "transferFlaw",
-  "date": "2018-04-28",
-  "day": "04-28",
-  "category": "beato",
-  "cves": [],
-  "cvss": null,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": null,
-  "product": null,
-  "description": null,
-  "canonical": "https://www.peckshield.com/2018/04/28/transferFlaw/",
-  "links": [
-   "https://web.archive.org/web/20180520105144/https://www.peckshield.com/2018/04/28/transferFlaw/"
-  ],
-  "logo": null,
-  "author": "PeckShield",
-  "fame": 0.9,
   "source": "vulnerability-garden"
  },
  {
@@ -24574,6 +24579,30 @@
   ],
   "logo": null,
   "author": "Dario Pasquini, Martin Strohmeier and Carmela Troncoso",
+  "fame": 0.6,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "fluidfaults",
+  "name": "FluidFaults",
+  "date": "2024-06-08",
+  "day": "06-08",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://www.nozominetworks.com/blog/37-vulnerabilities-in-openflow-libfluid-msg-parsing-library",
+  "links": [
+   "https://thehackernews.com/2024/10/researchers-uncover-major-security.html"
+  ],
+  "logo": null,
+  "author": "Nozomi Networks",
   "fame": 0.6,
   "source": "vulnerability-garden"
  },
@@ -29068,28 +29097,6 @@
   "links": [],
   "logo": null,
   "author": "JFrog",
-  "fame": 0.1,
-  "source": "vulnerability-garden"
- },
- {
-  "id": "gazeploit",
-  "name": "GAZEploit",
-  "date": "2024-09-12",
-  "day": "09-12",
-  "category": "beato",
-  "cves": [],
-  "cvss": null,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": null,
-  "product": null,
-  "description": null,
-  "canonical": "https://sites.google.com/view/Gazeploit/",
-  "links": [],
-  "logo": null,
-  "author": "Hanqiu Wang, Siqi Dai, Max Panoff, Shuo Wang, Haoqi Shan, Zihao Zhan",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },

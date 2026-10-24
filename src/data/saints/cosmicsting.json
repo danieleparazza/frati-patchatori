@@ -2,7 +2,7 @@
   "it": {
     "title": "San CosmicSting, la puntura che svuotava i negozi",
     "patronage": "dei negozi online, delle entità esterne XML e dei cataloghi che leggono più del dovuto.",
-    "hagiography": "Nel giugno 2024 Sansec rivelò una XXE in Adobe Commerce e Magento (CVE-2024-34102): un documento confezionato faceva leggere al negozio file del server, comprese le chiavi segrete, e concatenandola a un vecchio difetto di glibc si arrivava all'esecuzione di codice. Migliaia di vetrine furono svuotate prima che tutti applicassero la patch, e il bug finì nel catalogo delle vulnerabilità sfruttate di CISA.",
+    "hagiography": "Nel giugno 2024 Sansec rivelò una XXE in Adobe Commerce e Magento (CVE-2024-34102): un documento confezionato faceva leggere al negozio file del server, comprese le chiavi segrete, e concatenandola a un vecchio difetto di glibc si arrivava all'esecuzione di codice. Migliaia di negozi furono violati prima che tutti applicassero la patch, e il bug finì nel catalogo delle vulnerabilità sfruttate di CISA.",
     "prayer": "O San CosmicSting, che pungi i negozi dal cielo delle entità esterne, insegna ai nostri parser a non andare a cercare file lontani. Amen.",
     "feast": "Si festeggia applicando la patch di Adobe, ruotando le chiavi di cifratura del negozio e controllando di non essere già stati visitati.",
     "proverb": "Negozio che legge troppo, cliente che paga il doppio."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint CosmicSting, the Sting That Emptied the Shops",
     "patronage": "online shops, XML external entities, and catalogues that read more than they should.",
-    "hagiography": "In June 2024 Sansec revealed an XXE in Adobe Commerce and Magento (CVE-2024-34102): a crafted document made the shop read files off the server, secret keys included, and chained to an old glibc flaw it reached code execution. Thousands of storefronts were drained before everyone patched, and the bug landed in CISA's catalogue of exploited vulnerabilities.",
+    "hagiography": "In June 2024 Sansec revealed an XXE in Adobe Commerce and Magento (CVE-2024-34102): a crafted document made the shop read files off the server, secret keys included, and chained to an old glibc flaw it reached code execution. Thousands of stores were hacked before everyone patched, and the bug landed in CISA's catalogue of exploited vulnerabilities.",
     "prayer": "O Saint CosmicSting, who stings shops from the heaven of external entities, teach our parsers not to go fetching distant files. Amen.",
     "feast": "Celebrated by applying Adobe's patch, rotating the shop's encryption key and checking you have not already had visitors.",
     "proverb": "A shop that reads too much makes the customer pay double."

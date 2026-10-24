@@ -2,7 +2,7 @@
   "it": {
     "title": "San Phoenix, che risorse dalle ceneri della DDR5",
     "patronage": "dei moduli di memoria DDR5, delle difese anti-Rowhammer e di chi credeva che la memoria moderna fosse al sicuro.",
-    "hagiography": "Il 17 settembre 2025 il gruppo COMSEC del Politecnico di Zurigo, con Google, rivelò Phoenix, un attacco Rowhammer contro la memoria DDR5 di SK Hynix. Sincronizzando il martellamento con il ritmo delle difese interne, riusciva a provocare bit ribaltati anche là dove le protezioni erano considerate solide, e su un PC normale otteneva privilegi di root in meno di due minuti. Come l'araba fenice, Rowhammer risorgeva dalle proprie ceneri.",
+    "hagiography": "Il 15 settembre 2025 il gruppo COMSEC del Politecnico di Zurigo, con Google, rivelò Phoenix, un attacco Rowhammer contro la memoria DDR5 di SK Hynix. Sincronizzando il martellamento con il ritmo delle difese interne, riusciva a provocare bit ribaltati anche là dove le protezioni erano considerate solide, e su un PC normale otteneva privilegi di root in meno di due minuti. Come l'araba fenice, Rowhammer risorgeva dalle proprie ceneri.",
     "prayer": "O San Phoenix, che risorgi a ogni nuova generazione di memoria, fa' che le nostre DIMM si aggiornino più in fretta dei tuoi schemi. Amen.",
     "feast": "Si festeggia triplicando il tasso di refresh dove serve e attendendo contatori di attivazione per riga nel silicio futuro.",
     "proverb": "Difesa nuova, fenice che rinasce."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint Phoenix, Who Rose From the Ashes of DDR5",
     "patronage": "DDR5 memory modules, anti-Rowhammer defences, and everyone who thought modern memory was safe.",
-    "hagiography": "On 17 September 2025 the COMSEC group at ETH Zurich, with Google, revealed Phoenix, a Rowhammer attack on SK Hynix DDR5 memory. By synchronising the hammering with the rhythm of the in-DRAM defences, it produced bit flips even where protections were thought solid, and on an ordinary PC reached root privileges in under two minutes. Like the phoenix, Rowhammer rose again from its own ashes.",
+    "hagiography": "On 15 September 2025 the COMSEC group at ETH Zurich, with Google, revealed Phoenix, a Rowhammer attack on SK Hynix DDR5 memory. By synchronising the hammering with the rhythm of the in-DRAM defences, it produced bit flips even where protections were thought solid, and on an ordinary PC reached root privileges in under two minutes. Like the phoenix, Rowhammer rose again from its own ashes.",
     "prayer": "O Saint Phoenix, who rise with every new generation of memory, let our DIMMs be patched faster than your patterns. Amen.",
     "feast": "Celebrated by tripling the refresh rate where needed and awaiting per-row activation counters in future silicon.",
     "proverb": "A new defence, a reborn phoenix."

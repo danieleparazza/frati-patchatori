@@ -2,7 +2,7 @@
   "it": {
     "title": "San FluidFaults, che fece colare le reti programmabili",
     "patronage": "delle reti definite dal software, dei controller OpenFlow e delle librerie premiate e poi dimenticate.",
-    "hagiography": "Nel 2024 Nozomi Networks Labs rivelò 37 vulnerabilità in libfluid_msg, la parte di libfluid che interpreta i messaggi OpenFlow. La libreria aveva vinto nel 2013 un concorso della Open Networking Foundation e da allora era finita dentro prodotti SDN, anche di vendor noti. Bastava un pacchetto OpenFlow malformato per far crollare controller e switch; al momento della pubblicazione non esisteva una patch ufficiale.",
+    "hagiography": "Nel 2024 Nozomi Networks Labs rivelò 37 vulnerabilità in libfluid_msg, la parte di libfluid che interpreta i messaggi OpenFlow. La libreria aveva vinto nel 2013 un concorso della Open Networking Foundation e da allora era finita dentro prodotti SDN, tra cui l'appliance di un vendor noto. Bastava un pacchetto OpenFlow malformato per far crollare controller e switch; al momento della pubblicazione non esisteva una patch ufficiale.",
     "prayer": "O San FluidFaults, che fai traboccare i parser più fiduciosi, fa' che i nostri controller controllino almeno le lunghezze. Amen.",
     "feast": "Si festeggia tenendo i nodi OpenFlow lontani dalle reti non fidate e correggendo da sé il codice che il progetto originale non correggerà.",
     "proverb": "Libreria premiata, rete allagata."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint FluidFaults, Who Made Programmable Networks Leak",
     "patronage": "software-defined networks, OpenFlow controllers, and libraries that won a prize and were then forgotten.",
-    "hagiography": "In 2024 Nozomi Networks Labs revealed 37 vulnerabilities in libfluid_msg, the part of libfluid that parses OpenFlow messages. The library had won an Open Networking Foundation contest in 2013 and had since ended up inside SDN products, including some from well-known vendors. A single malformed OpenFlow packet could bring down controllers and switches; when the research was published, no official patch existed.",
+    "hagiography": "In 2024 Nozomi Networks Labs revealed 37 vulnerabilities in libfluid_msg, the part of libfluid that parses OpenFlow messages. The library had won an Open Networking Foundation contest in 2013 and had since ended up inside SDN products, including an appliance from a well-known vendor. A single malformed OpenFlow packet could bring down controllers and switches; when the research was published, no official patch existed.",
     "prayer": "O Saint FluidFaults, who makes the most trusting parsers overflow, let our controllers at least check the lengths. Amen.",
     "feast": "Celebrated by keeping OpenFlow nodes away from untrusted networks and fixing yourself the code the original project never will.",
     "proverb": "Prize-winning code, flooded node."

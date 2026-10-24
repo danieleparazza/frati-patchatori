@@ -2,7 +2,7 @@
   "it": {
     "title": "Beato Certificato Zombie, che sopravvive alla revoca",
     "patronage": "delle PKI aziendali, delle liste di revoca che nessuno consulta e degli amministratori convinti che revocare bastasse.",
-    "hagiography": "Il 7 ottobre 2026 Jake Hildreth di Semperis descrisse una persistenza «ancora più inquietante» per Active Directory Certificate Services. Un attaccante già amministratore toglie ai certificati emessi il puntatore alla lista di revoca e convince i controller di dominio a ignorare gli stati sconosciuti: i certificati così nati continuano a valere per il logon PKINIT anche dopo la revoca e dopo che l'account è stato disattivato. Morti per l'anagrafe, vivissimi per Kerberos.",
+    "hagiography": "Il 7 ottobre 2026 Jake Hildreth di Semperis descrisse una persistenza «ancora più inquietante» per Active Directory Certificate Services. Un attaccante già amministratore toglie ai certificati emessi il puntatore alla lista di revoca e convince i controller di dominio a ignorare gli stati sconosciuti: i certificati così nati continuano a valere per il logon PKINIT anche dopo la revoca, che nessun verificatore riesce più a trovare. Morti per l'anagrafe, vivissimi per Kerberos.",
     "prayer": "O Beato Certificato Zombie, che cammini tra i vivi senza lista di revoca, fa' che i nostri controller di dominio, nel dubbio, dicano di no. Amen.",
     "feast": "Si festeggia svuotando DisableExtensionList sulle CA, togliendo UseCachedCRLOnlyAndIgnoreRevocationUnknownErrors dai controller di dominio e sostituendo i certificati emessi nel frattempo, perché revocarli non basta.",
     "proverb": "Morto che cammina non legge la lista di revoca."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Blessed Zombie Certificate, Who Survives Revocation",
     "patronage": "corporate PKIs, revocation lists nobody checks, and admins who thought revoking was enough.",
-    "hagiography": "On 7 October 2026 Jake Hildreth of Semperis described an \"even creepier\" persistence trick for Active Directory Certificate Services. An attacker who is already an admin strips the revocation-list pointer from issued certificates and talks the domain controllers into ignoring unknown status: certificates born this way keep working for PKINIT logon even after revocation and after the account is disabled. Dead to the registry, very much alive to Kerberos.",
+    "hagiography": "On 7 October 2026 Jake Hildreth of Semperis described an \"even creepier\" persistence trick for Active Directory Certificate Services. An attacker who is already an admin strips the revocation-list pointer from issued certificates and talks the domain controllers into ignoring unknown status: certificates born this way keep working for PKINIT logon even after revocation, which no verifier can find any more. Dead to the registry, very much alive to Kerberos.",
     "prayer": "O Blessed Zombie Certificate, who walks among the living without a revocation list, let our domain controllers say no when in doubt. Amen.",
     "feast": "Celebrated by emptying DisableExtensionList on the CAs, removing UseCachedCRLOnlyAndIgnoreRevocationUnknownErrors from the domain controllers and replacing every certificate issued meanwhile, because revoking them is not enough.",
     "proverb": "The walking dead don't read revocation lists."

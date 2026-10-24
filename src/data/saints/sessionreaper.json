@@ -2,7 +2,7 @@
   "it": {
     "title": "San SessionReaper, mietitore di sessioni",
     "patronage": "dei negozi online Magento, delle sessioni salvate su file e dei commercianti bucati sotto le feste.",
-    "hagiography": "Nel settembre 2025 Adobe corresse in emergenza un difetto di Adobe Commerce e Magento che Sansec aveva battezzato SessionReaper: una deserializzazione annidata nell'API REST permetteva il furto di sessione e, in certe configurazioni, l'esecuzione di codice senza autenticazione. La patch trapelò per errore, molti negozi tardarono ad applicarla, e dal 22 ottobre partirono attacchi di massa: in pochi giorni la maggioranza dei negozi Magento risultava colpita.",
+    "hagiography": "Nel settembre 2025 Adobe corresse in emergenza un difetto di Adobe Commerce e Magento che Sansec aveva battezzato SessionReaper: una deserializzazione annidata nell'API REST permetteva il furto di sessione e, in certe configurazioni, l'esecuzione di codice senza autenticazione. La patch trapelò per errore, molti negozi tardarono ad applicarla, e dal 22 ottobre partirono attacchi di massa: in pochi giorni gli attacchi avevano raggiunto circa metà dei negozi Magento.",
     "prayer": "O San SessionReaper, che mieti le sessioni come grano maturo, fa' che i nostri negozi applichino la patch prima del raccolto. Amen.",
     "feast": "Si festeggia applicando le patch APSB25-88 e APSB25-94 e passando lo scanner antimalware, perché il mietitore lascia spesso dietro di sé una backdoor.",
     "proverb": "Chi tarda la patch raccoglie backdoor."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint SessionReaper, Harvester of Sessions",
     "patronage": "Magento online shops, file-based sessions, and merchants breached just before the holidays.",
-    "hagiography": "In September 2025 Adobe emergency-fixed a flaw in Adobe Commerce and Magento that Sansec had named SessionReaper: a nested deserialization in the REST API allowed session takeover and, in certain setups, unauthenticated code execution. The patch leaked by accident, many shops were slow to apply it, and from 22 October mass attacks began: within days most Magento shops had been hit.",
+    "hagiography": "In September 2025 Adobe emergency-fixed a flaw in Adobe Commerce and Magento that Sansec had named SessionReaper: a nested deserialization in the REST API allowed session takeover and, in certain setups, unauthenticated code execution. The patch leaked by accident, many shops were slow to apply it, and from 22 October mass attacks began: within days the attacks had reached about half of all Magento shops.",
     "prayer": "O Saint SessionReaper, who harvests sessions like ripe grain, let our shops apply the patch before the reaping. Amen.",
     "feast": "Celebrated by applying patches APSB25-88 and APSB25-94 and running a malware scan, because the reaper often leaves a backdoor behind.",
     "proverb": "Delay the patch and you harvest backdoors."

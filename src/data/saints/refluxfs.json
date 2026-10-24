@@ -2,7 +2,7 @@
   "it": {
     "title": "San RefluXFS, che rifluiva nei file che leggevi",
     "patronage": "del filesystem XFS, della copia su scrittura e dei lock rilasciati un istante di troppo.",
-    "hagiography": "Nel luglio 2026 Saeed Abbasi di Qualys rivelò RefluXFS (CVE-2026-64600), una corsa critica nel percorso reflink di XFS. Rilasciando e riprendendo il lock, le mappe del file diventavano obsolete, e un utente locale poteva così sovrascrivere il contenuto su disco di qualunque file leggibile, /etc/passwd compreso, per diventare root in pochi secondi. Il difetto era nel kernel dal 2017 e colpiva per impostazione predefinita molte distribuzioni con radice XFS.",
+    "hagiography": "Nel luglio 2026 Saeed Abbasi di Qualys rivelò RefluXFS (CVE-2026-64600), una corsa critica nel percorso reflink di XFS. Rilasciando e riprendendo il lock, le mappe del file diventavano obsolete, e un utente locale poteva così sovrascrivere il contenuto su disco di qualunque file leggibile, /etc/passwd compreso, per diventare root. Il difetto era nel kernel dal 2017 e colpiva per impostazione predefinita molte distribuzioni con radice XFS.",
     "prayer": "O San RefluXFS, che fai rifluire i tuoi dati nei file degli altri, insegna ai nostri filesystem a rileggere le mappe dopo ogni pausa. Amen.",
     "feast": "Si festeggia aggiornando il kernel con la patch del 16 luglio 2026 e controllando se la propria radice è davvero XFS con reflink.",
     "proverb": "Lock lasciato un istante, mappa già cambiata."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint RefluXFS, Who Refluxed Into the Files You Read",
     "patronage": "the XFS filesystem, copy-on-write, and locks released a moment too long.",
-    "hagiography": "In July 2026 Saeed Abbasi of Qualys revealed RefluXFS (CVE-2026-64600), a race condition in the XFS reflink path. By releasing and reacquiring the lock, the file mappings went stale, and a local user could thus overwrite the on-disk contents of any readable file, /etc/passwd included, to become root in seconds. The flaw had been in the kernel since 2017 and hit many distributions with an XFS root by default.",
+    "hagiography": "In July 2026 Saeed Abbasi of Qualys revealed RefluXFS (CVE-2026-64600), a race condition in the XFS reflink path. By releasing and reacquiring the lock, the file mappings went stale, and a local user could thus overwrite the on-disk contents of any readable file, /etc/passwd included, to become root. The flaw had been in the kernel since 2017 and hit many distributions with an XFS root by default.",
     "prayer": "O Saint RefluXFS, who refluxes your data into other people's files, teach our filesystems to re-read the mappings after every pause. Amen.",
     "feast": "Celebrated by updating the kernel with the 16 July 2026 patch and checking whether your root really is XFS with reflink.",
     "proverb": "Release the lock an instant, and the map has already changed."

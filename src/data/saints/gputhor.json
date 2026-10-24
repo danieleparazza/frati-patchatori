@@ -2,7 +2,7 @@
   "it": {
     "title": "Beato GPUThor, che martellò la memoria delle schede",
     "patronage": "delle GPU nei datacenter, della memoria con correzione d'errore e di chi affitta la stessa scheda a estranei.",
-    "hagiography": "Il 25 agosto 2026 un gruppo dell'Università di Toronto presentò GPUThor, un attacco Rowhammer contro le GPU NVIDIA capace di superare anche la memoria con correzione d'errore. Martellando le righe di memoria con schemi non uniformi, riusciva a provocare un numero di bit ribaltati di gran lunga superiore agli attacchi precedenti, fino a corrompere le tabelle delle pagine e arrivare a una shell di root sull'host. NVIDIA pubblicò un avviso di sicurezza alla data concordata.",
+    "hagiography": "Il 25 agosto 2026 un gruppo dell'Università di Toronto presentò GPUThor, un attacco Rowhammer contro le GPU NVIDIA capace di superare anche la memoria con correzione d'errore. Martellando le righe di memoria con schemi non uniformi, riusciva a provocare un numero di bit ribaltati di gran lunga superiore agli attacchi precedenti, fino a corrompere le tabelle delle pagine e arrivare a una shell di root sull'host. NVIDIA aveva pubblicato un avviso di sicurezza pochi giorni prima.",
     "prayer": "O Beato GPUThor, che impugni il martello sopra la DRAM, fa' che le nostre schede non ospitino mai, insieme, un inquilino fidato e uno sconosciuto. Amen.",
     "feast": "Si festeggia non condividendo una stessa GPU tra tenant non fidati e sorvegliando i contatori di errori corretti.",
     "proverb": "Chi martella la riga vicina, sveglia il bit del vicino."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Blessed GPUThor, Who Hammered the Cards' Memory",
     "patronage": "datacenter GPUs, error-correcting memory, and everyone who rents the same card to strangers.",
-    "hagiography": "On 25 August 2026 a group from the University of Toronto presented GPUThor, a Rowhammer attack on NVIDIA GPUs able to defeat even error-correcting memory. Hammering memory rows with non-uniform patterns, it produced far more bit flips than earlier attacks, enough to corrupt page tables and reach a root shell on the host. NVIDIA published a security notice on the agreed date.",
+    "hagiography": "On 25 August 2026 a group from the University of Toronto presented GPUThor, a Rowhammer attack on NVIDIA GPUs able to defeat even error-correcting memory. Hammering memory rows with non-uniform patterns, it produced far more bit flips than earlier attacks, enough to corrupt page tables and reach a root shell on the host. NVIDIA had published a security notice a few days earlier.",
     "prayer": "O Blessed GPUThor, who wields the hammer over the DRAM, let our cards never host a trusted tenant and a stranger together. Amen.",
     "feast": "Celebrated by not sharing one GPU across untrusted tenants and watching the corrected-error counters.",
     "proverb": "Hammer the neighbouring row and you wake the neighbour's bit."

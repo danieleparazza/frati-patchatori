@@ -2,14 +2,14 @@
   "it": {
     "title": "San Deck Mate 2, che mescolava a carte scoperte",
     "patronage": "delle mescolatrici da casinò, delle credenziali cablate uguali per tutti e dei bari con un cavo USB.",
-    "hagiography": "Nel novembre 2025 si rese pubblica una vulnerabilità nella mescolatrice di carte Deck Mate 2, usata ai tavoli di poker: il dispositivo arrivava con credenziali di root e dell'interfaccia web fisse e identiche per tutti gli esemplari, con SSH, HTTP, Telnet, SMB e X11 attivi di serie. Chi raggiungeva le porte USB o Ethernet sotto il tavolo poteva entrare, leggere dalla telecamera interna l'ordine del mazzo e modificare il firmware. Il produttore dice di aver disabilitato l'accesso USB nelle versioni recenti.",
+    "hagiography": "Nel novembre 2025 si rese pubblica una vulnerabilità nella mescolatrice di carte Deck Mate 2, usata ai tavoli di poker: il dispositivo arrivava con credenziali di root e dell'interfaccia web fisse e identiche per tutti gli esemplari, con SSH, HTTP, Telnet, SMB e X11 attivi di serie. Chi raggiungeva le porte USB o Ethernet sotto il tavolo poteva entrare e modificare il firmware; già nel 2023 IOActive aveva mostrato che così si legge l'ordine del mazzo dalla telecamera interna. Il produttore dice di aver disabilitato l'accesso USB nelle versioni recenti.",
     "prayer": "O San Deck Mate 2, che mescoli le carte e sveli il mazzo, fa' che nessuna macchina nasca con la stessa password di tutte le altre. Amen.",
     "feast": "Si festeggia aggiornando il firmware, cambiando ogni credenziale di default e tenendo le porte sotto il tavolo fuori dalla portata degli ospiti."
   },
   "en": {
     "title": "Saint Deck Mate 2, Who Shuffled With the Cards Face Up",
     "patronage": "casino card shufflers, hard-coded credentials identical for everyone, and cheats with a USB cable.",
-    "hagiography": "In November 2025 a vulnerability became public in the Deck Mate 2 card shuffler, used at poker tables: the device shipped with fixed root and web-interface credentials, identical across every unit, and SSH, HTTP, Telnet, SMB and X11 enabled by default. Whoever reached the USB or Ethernet ports beneath the table could log in, read the deck order from the internal camera and modify the firmware. The vendor says USB access has been disabled in recent builds.",
+    "hagiography": "In November 2025 a vulnerability became public in the Deck Mate 2 card shuffler, used at poker tables: the device shipped with fixed root and web-interface credentials, identical across every unit, and SSH, HTTP, Telnet, SMB and X11 enabled by default. Whoever reached the USB or Ethernet ports beneath the table could log in and modify the firmware; back in 2023 IOActive had shown this lets you read the deck order from the internal camera. The vendor says USB access has been disabled in recent builds.",
     "prayer": "O Saint Deck Mate 2, who shuffles the cards and reveals the deck, let no machine be born with the same password as all the others. Amen.",
     "feast": "Celebrated by updating the firmware, changing every default credential and keeping the ports under the table out of guests' reach."
   }

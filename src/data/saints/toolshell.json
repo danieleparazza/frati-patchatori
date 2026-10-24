@@ -2,7 +2,7 @@
   "it": {
     "title": "San ToolShell, che prese le chiavi di SharePoint",
     "patronage": "dei server SharePoint locali, dei form di deserializzazione e degli amministratori richiamati nel weekend.",
-    "hagiography": "Nel luglio 2025 Dinh Ho Anh Khoa e altri ricercatori resero nota ToolShell (CVE-2025-53770), una catena contro SharePoint Server installato in azienda. Senza autenticazione si arrivava all'esecuzione di codice, e peggio ancora si potevano rubare le chiavi crittografiche del server, che consentivano di forgiare richieste valide e mantenere l'accesso anche dopo la patch. Decine di organizzazioni furono compromesse prima che tutte aggiornassero; CISA la mise tra le vulnerabilità sfruttate.",
+    "hagiography": "Nel luglio 2025 Dinh Ho Anh Khoa e altri ricercatori resero nota ToolShell (CVE-2025-53770), una catena contro SharePoint Server installato in azienda. Senza autenticazione si arrivava all'esecuzione di codice, e peggio ancora si potevano rubare le chiavi crittografiche del server, che consentivano di forgiare richieste valide e mantenere l'accesso anche dopo la patch. Centinaia di organizzazioni furono compromesse prima che tutte aggiornassero; CISA la mise tra le vulnerabilità sfruttate.",
     "prayer": "O San ToolShell, che rubi le chiavi di casa e poi le riforgi a piacere, insegna ai nostri server a ruotare i segreti dopo ogni ferita. Amen.",
     "feast": "Si festeggia applicando le patch di SharePoint, ruotando le chiavi ASP.NET e cercando con cura segni di ospiti già passati.",
     "proverb": "Chi ruba le chiavi, torna anche dopo la serratura nuova."
@@ -10,7 +10,7 @@
   "en": {
     "title": "Saint ToolShell, Who Took SharePoint's Keys",
     "patronage": "on-premises SharePoint servers, deserialization forms, and administrators called back in on weekends.",
-    "hagiography": "In July 2025 Dinh Ho Anh Khoa and other researchers made known ToolShell (CVE-2025-53770), a chain against on-premises SharePoint Server. Without authentication it reached code execution, and worse still it let attackers steal the server's cryptographic keys, which allowed forging valid requests and keeping access even after the patch. Dozens of organisations were compromised before everyone updated; CISA listed it among exploited vulnerabilities.",
+    "hagiography": "In July 2025 Dinh Ho Anh Khoa and other researchers made known ToolShell (CVE-2025-53770), a chain against on-premises SharePoint Server. Without authentication it reached code execution, and worse still it let attackers steal the server's cryptographic keys, which allowed forging valid requests and keeping access even after the patch. Hundreds of organisations were compromised before everyone updated; CISA listed it among exploited vulnerabilities.",
     "prayer": "O Saint ToolShell, who steals the house keys and then reforges them at will, teach our servers to rotate their secrets after every wound. Amen.",
     "feast": "Celebrated by applying the SharePoint patches, rotating the ASP.NET keys and carefully looking for signs of guests already passed through.",
     "proverb": "Who steals the keys comes back even after the new lock."
