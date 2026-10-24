@@ -17,7 +17,6 @@ const imageUrl = image ? new URL(url(image), Astro.site).href : undefined;
 const s = t(lang);
 const other: Lang = lang === 'it' ? 'en' : 'it';
 const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
-const month = String(new Date().getMonth() + 1).padStart(2, '0');
 ---
 
 <!doctype html>
@@ -43,9 +42,10 @@ const month = String(new Date().getMonth() + 1).padStart(2, '0');
         <span class="brand-title">{s.siteTitle}</span>
         <span class="brand-tagline">{s.tagline}</span>
       </a>
-      <nav>
-        <a href={url(`${lang}/`)}>{s.today}</a>
-        <a href={url(`${lang}/${s.monthSlug}/${month}`)} data-current-month>{s.month}</a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true" />
+      <label for="menu-toggle" class="menu-button" aria-label={s.menu}>☰</label>
+      <nav class="mainnav">
+        <a href={url(`${lang}/`)}>{s.calendar}</a>
         <a href={url(`${lang}/${s.searchSlug}`)}>{s.search}</a>
         <a href={url(`${lang}/${s.popesSlug}`)}>{s.popes}</a>
         <a href={url(`${lang}/${s.bestiarySlug}`)}>{s.bestiary}</a>
@@ -66,11 +66,6 @@ const month = String(new Date().getMonth() + 1).padStart(2, '0');
       <p>{s.footerAi}</p>
       <p>{s.footerLicense}</p>
     </footer>
-    <script is:inline>
-      // The month link is rendered at build time; point it at the visitor's current month.
-      const m = String(new Date().getMonth() + 1).padStart(2, '0');
-      document.querySelectorAll('[data-current-month]').forEach((a) => (a.href = a.href.replace(/\/\d{2}\/?$/, '/' + m + '/')));
-    </script>
   </body>
 </html>
 
@@ -147,16 +142,50 @@ const month = String(new Date().getMonth() + 1).padStart(2, '0');
     color: var(--muted);
     font-style: italic;
   }
-  nav {
+  .mainnav {
     display: flex;
     flex-wrap: wrap;
     gap: 4px 16px;
     font-variant: small-caps;
   }
-  nav a {
+  .mainnav a {
     text-decoration: none;
   }
-  nav .lang {
+  .menu-toggle,
+  .menu-button {
+    display: none;
+  }
+  @media (max-width: 640px) {
+    .masthead {
+      align-items: center;
+    }
+    .menu-button {
+      display: block;
+      font-size: 1.6rem;
+      line-height: 1;
+      cursor: pointer;
+      color: var(--red);
+      padding: 4px 8px;
+    }
+    .mainnav {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      gap: 0;
+    }
+    .mainnav a {
+      padding: 8px 0;
+      border-top: 1px solid var(--line);
+    }
+    .menu-toggle:checked ~ .mainnav {
+      display: flex;
+    }
+    .mainnav .lang {
+      align-self: flex-start;
+      margin-top: 8px;
+    }
+  }
+  .mainnav .lang {
     border: 1px solid var(--line);
     border-radius: 4px;
     padding: 0 6px;
