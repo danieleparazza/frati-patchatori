@@ -1,8 +1,11 @@
 // Service worker: makes the almanac installable and readable offline.
 // - Pages: network first, falling back to the last copy (so new saints and fixes show up when online).
-// - Static files (/_astro, fonts, icons, images): cache first, they are immutable or rarely change.
-// - On install, the next seven days in both languages are cached, so the app works offline for a week.
-const CACHE = 'frati-v3';
+// - /_astro files have content hashes in their names: cache first, they never change.
+// - Fonts, icons, images keep their names when they change: served from cache and refreshed in the background.
+// - The next seven days in both languages are cached on install and topped up once a day while the app is used,
+//   so it always works offline for about a week ahead.
+// The browser checks this file for changes on every visit; a new version installs and takes over at once.
+const CACHE = 'frati-v4';
 // Reader settings (push language), kept across cache versions.
 const SETTINGS = 'frati-settings';
 
@@ -15,14 +18,23 @@ function upcomingDays(n) {
   return days;
 }
 
-self.addEventListener('install', (event) => {
+function cacheUpcoming() {
   const pages = ['/it/', '/en/', ...upcomingDays(7).flatMap((d) => [`/it/${d}/`, `/en/${d}/`])];
-  event.waitUntil(
-    caches
-      .open(CACHE)
-      .then((cache) => Promise.allSettled(pages.map((p) => cache.add(p))))
-      .then(() => self.skipWaiting()),
-  );
+  return caches.open(CACHE).then((cache) => Promise.allSettled(pages.map((p) => cache.add(p))));
+}
+
+/** Tops up the week ahead at most once a day (the date of the last top-up is kept in SETTINGS). */
+async function refreshUpcoming() {
+  const today = new Date().toDateString();
+  const settings = await caches.open(SETTINGS);
+  const last = await settings.match('/__sw/upcoming');
+  if (last && (await last.text()) === today) return;
+  await settings.put('/__sw/upcoming', new Response(today));
+  await cacheUpcoming();
+}
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(cacheUpcoming().then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (event) => {
@@ -53,6 +65,7 @@ self.addEventListener('fetch', (event) => {
       fetch(req)
         .then((res) => {
           if (res.ok) caches.open(CACHE).then((cache) => cache.put(req, res.clone()));
+          event.waitUntil(refreshUpcoming().catch(() => {}));
           return res;
         })
         .catch(() => caches.match(req).then((hit) => hit ?? offline())),
@@ -60,16 +73,30 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  if (/^\/(_astro|fonts|icons|img)\//.test(url.pathname) || url.pathname === '/favicon.svg') {
+  const save = (res) => {
+    if (res.ok) {
+      const copy = res.clone();
+      caches.open(CACHE).then((cache) => cache.put(req, copy));
+    }
+    return res;
+  };
+
+  if (url.pathname.startsWith('/_astro/')) {
+    event.respondWith(caches.match(req).then((hit) => hit ?? fetch(req).then(save)));
+    return;
+  }
+
+  if (/^\/(fonts|icons|img)\//.test(url.pathname) || url.pathname === '/favicon.svg') {
+    // Stale-while-revalidate: answer from cache right away, fetch the current version for next time.
     event.respondWith(
-      caches.match(req).then(
-        (hit) =>
-          hit ??
-          fetch(req).then((res) => {
-            if (res.ok) caches.open(CACHE).then((cache) => cache.put(req, res.clone()));
-            return res;
-          }),
-      ),
+      caches.match(req).then((hit) => {
+        const fresh = fetch(req).then(save);
+        if (hit) {
+          event.waitUntil(fresh.catch(() => {}));
+          return hit;
+        }
+        return fresh;
+      }),
     );
   }
 });
