@@ -612,5 +612,27 @@
   "canonical": "https://www.nccgroup.com/research/technical-advisory-arbitrary-signature-forgery-in-stark-bank-ecdsa-libraries-cve-2021-43572-cve-2021-43570-cve-2021-43569-cve-2021-43568-cve-2021-43571/",
   "links": [],
   "kind": "minor"
+ },
+ {
+  "id": "forticlient-hardcoded-key",
+  "name": "FortiClient Hardcoded Key",
+  "date": "2015-02-02",
+  "cves": [
+   "CVE-2015-1453"
+  ],
+  "canonical": "https://seclists.org/fulldisclosure/2015/Jan/124",
+  "links": [],
+  "kind": "minor"
+ },
+ {
+  "id": "bisecur",
+  "name": "Hörmann BiSecur",
+  "date": "2017-12-29",
+  "cves": [
+   "CVE-2017-17910"
+  ],
+  "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2017-17910",
+  "links": [],
+  "kind": "minor"
  }
 ]

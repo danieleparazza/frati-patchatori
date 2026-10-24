@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato whoAMI, che si scambiò d'immagine",
+    "patronage": "delle immagini cloud scelte per nome, degli script Terraform che si fidano del più recente e degli impostori in vetrina sul marketplace.",
+    "hagiography": "Il 12 febbraio 2025 Seth Art di Datadog Security Labs raccontò whoAMI, un attacco di confusione dei nomi nelle immagini AWS. Chi cercava un'AMI solo per nome, prendendo la più recente e senza indicare il proprietario, poteva ritrovarsi a lanciare l'immagine pubblica di uno sconosciuto con lo stesso nome. Il trucco funzionava persino su sistemi interni di AWS, non di produzione, che corresse in pochi giorni.",
+    "prayer": "O Beato whoAMI, che rispondevi a ogni nome, insegnaci a chiedere sempre chi ha firmato l'immagine prima di avviarla. Amen.",
+    "feast": "Si festeggia indicando sempre il proprietario nelle ricerche di AMI e attivando gli Allowed AMIs di AWS, che chiudono la porta agli sconosciuti.",
+    "proverb": "Chi l'immagine sceglie per nome, si porta a casa l'impostore."
+  },
+  "en": {
+    "title": "Blessed whoAMI, Who Swapped Images",
+    "patronage": "cloud images picked by name, Terraform scripts that trust the most recent one, and impostors on display in the marketplace.",
+    "hagiography": "On 12 February 2025 Seth Art of Datadog Security Labs described whoAMI, a name-confusion attack on AWS machine images. Anyone who looked up an AMI by name alone, taking the most recent and naming no owner, could end up launching a stranger's public image with the same name. The trick even worked on some internal, non-production AWS systems, which AWS fixed within days.",
+    "prayer": "O Blessed whoAMI, who answered to any name, teach us always to ask who signed the image before we boot it. Amen.",
+    "feast": "Celebrated by always naming the owner in AMI lookups and turning on AWS Allowed AMIs, which shuts the door on strangers.",
+    "proverb": "Pick your image by its name, and the impostor is yours to claim."
+  }
+}

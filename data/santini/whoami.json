@@ -1,0 +1,10 @@
+{
+  "label": "whoAMI",
+  "motto": "QUIS IMAGO SUM",
+  "niche": [
+    "#2a2340",
+    "#4a3f6b"
+  ],
+  "accent": "#2a2340",
+  "emblem": "<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"><rect x=\"98\" y=\"132\" width=\"44\" height=\"56\" rx=\"4\"/><rect x=\"158\" y=\"132\" width=\"44\" height=\"56\" rx=\"4\"/></g>\n<g fill=\"#d9ad55\"><circle cx=\"120\" cy=\"152\" r=\"9\"/><path d=\"M104 182 Q120 162 136 182 Z\"/></g>\n<g fill=\"#c0392b\"><circle cx=\"180\" cy=\"152\" r=\"9\"/><path d=\"M164 182 Q180 162 196 182 Z\"/></g>\n<text x=\"150\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"34\" fill=\"#fbf3dd\">?</text>\n<path d=\"M118 200 Q150 220 182 200\" stroke=\"#bfc9d1\" stroke-width=\"2.5\" fill=\"none\"/>"
+}

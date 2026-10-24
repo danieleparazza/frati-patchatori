@@ -1,0 +1,10 @@
+{
+  "label": "BitErrant",
+  "motto": "TORRENS ERRANS",
+  "niche": [
+    "#173a3a",
+    "#2f6060"
+  ],
+  "accent": "#173a3a",
+  "emblem": "<g fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"><path d=\"M96 150 Q123 135 150 150 T204 150\"/><path d=\"M96 172 Q123 157 150 172 T204 172\"/></g>\n<g stroke=\"#fbf3dd\" stroke-width=\"2\"><rect x=\"104\" y=\"196\" width=\"22\" height=\"22\" fill=\"#d9ad55\"/><rect x=\"128\" y=\"196\" width=\"22\" height=\"22\" fill=\"#d9ad55\"/><rect x=\"152\" y=\"196\" width=\"22\" height=\"22\" fill=\"#c0392b\"/><rect x=\"176\" y=\"196\" width=\"22\" height=\"22\" fill=\"#d9ad55\"/></g>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">SHA-1</text>"
+}

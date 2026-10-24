@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Spook.js, spettro del browser",
+    "patronage": "delle schede aperte sullo stesso dominio, delle estensioni troppo vicine tra loro e dei processori che indovinano il futuro.",
+    "hagiography": "L'8 settembre 2021 ricercatori delle università del Michigan, di Adelaide, di Georgia Tech e di Tel Aviv, tra cui Daniel Genkin e Yuval Yarom, presentarono Spook.js. Era un attacco di tipo Spectre scritto in JavaScript che aggirava la Site Isolation di Chrome quando pagine o estensioni finivano nello stesso processo: nelle prove riuscirono a leggere credenziali dalla memoria di un'estensione di gestione password. Google aveva già rafforzato l'isolamento in Chrome 92.",
+    "prayer": "O Beato Spook.js, spettro che abiti la cache, resta chiuso nel tuo processo e non affacciarti nelle schede dei vicini. Amen.",
+    "feast": "Si festeggia tenendo Chrome aggiornato, con l'isolamento stretto delle estensioni attivo, e installando meno estensioni.",
+    "proverb": "Processo condiviso, segreto diviso."
+  },
+  "en": {
+    "title": "Blessed Spook.js, Specter of the Browser",
+    "patronage": "tabs open on the same domain, extensions living too close together, and processors that guess the future.",
+    "hagiography": "On 8 September 2021 researchers from the University of Michigan, the University of Adelaide, Georgia Tech and Tel Aviv University, among them Daniel Genkin and Yuval Yarom, unveiled Spook.js. It was a Spectre-style attack written in JavaScript that got around Chrome's Site Isolation when pages or extensions ended up sharing a process: in their tests they read credentials from the memory of a password manager extension. Google had already tightened isolation in Chrome 92.",
+    "prayer": "O Blessed Spook.js, specter who haunts the cache, stay shut in your own process and do not peer into the neighbours' tabs. Amen.",
+    "feast": "Celebrated by keeping Chrome up to date with strict extension isolation on, and installing fewer extensions.",
+    "proverb": "A process shared is a secret halved."
+  }
+}

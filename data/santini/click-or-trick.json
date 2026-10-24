@@ -1,0 +1,10 @@
+{
+  "label": "Click or Trick",
+  "motto": "UNO ICTU EVASIT",
+  "niche": [
+    "#1d2a4d",
+    "#3a4f80"
+  ],
+  "accent": "#1d2a4d",
+  "emblem": "<rect x=\"100\" y=\"134\" width=\"70\" height=\"70\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-dasharray=\"8 5\"/>\n<path d=\"M150 170 L150 232 L164 218 L176 244 L186 238 L174 214 L194 214 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"140\" y1=\"160\" x2=\"130\" y2=\"150\"/><line x1=\"160\" y1=\"156\" x2=\"164\" y2=\"142\"/><line x1=\"138\" y1=\"176\" x2=\"124\" y2=\"178\"/></g>"
+}

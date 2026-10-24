@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San FortiClient, che firmava la chiave col proprio nome",
+    "patronage": "delle chiavi scritte nel codice, delle password che somigliano al nome dell'azienda e delle app che custodiscono segreti sotto lo zerbino.",
+    "hagiography": "Il 2 febbraio 2015 la CVE-2015-1453, nata da un advisory di Security-Assessment.com pubblicato a fine gennaio, rese ufficiale una piccola ingenuità di FortiClient 5.2.3 per Android. Per cifrare le password e gli altri dati salvati nelle preferenze, l'app usava una chiave fissa, identica su ogni telefono: il nome del produttore, a maiuscole e minuscole alterne, con un punto esclamativo e la parola «Android». Chi trovava la chiave nel codice poteva decifrare i dati di tutti.",
+    "prayer": "O San FortiClient, che nascondesti la chiave dove tutti potevano leggerla, insegnaci a custodire i segreti nel portachiavi del sistema e non nel codice. Amen.",
+    "feast": "Si festeggia aggiornando FortiClient e lasciando la cifratura al Keystore di Android, che una chiave diversa per ogni telefono la sa generare da solo."
+  },
+  "en": {
+    "title": "Saint FortiClient, Who Signed the Key With His Own Name",
+    "patronage": "keys written into code, passwords that look like the company name, and apps that keep secrets under the doormat.",
+    "hagiography": "On 2 February 2015 CVE-2015-1453, born of a Security-Assessment.com advisory published in late January, made official a small naivety in FortiClient 5.2.3 for Android. To encrypt the passwords and other data saved in its preferences, the app used a fixed key, identical on every phone: the vendor's own name in alternating upper and lower case, with an exclamation mark and the word \"Android\". Anyone who found the key in the code could decrypt everyone's data.",
+    "prayer": "O Saint FortiClient, who hid the key where anyone could read it, teach us to keep secrets in the system keychain and not in the code. Amen.",
+    "feast": "Celebrated by updating FortiClient and leaving encryption to the Android Keystore, which can generate a different key for every phone all by itself."
+  }
+}

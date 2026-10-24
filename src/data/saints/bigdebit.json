@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BigDebIT, che mise mano al libro mastro",
+    "patronage": "dei contabili, dei sistemi ERP mai aggiornati e dei bilanci che quadrano troppo bene.",
+    "hagiography": "Il 16 giugno 2020 Onapsis rese pubbliche BigDebIT, due vulnerabilità (CVE-2020-2586 e CVE-2020-2587) nel componente Hierarchy Diagrammer di Oracle E-Business Suite, con punteggio 9,9. Un attaccante senza credenziali poteva arrivare fino alla contabilità generale e alterare i registri finanziari, scavalcando i controlli su cui si reggono i bilanci certificati. Oracle le aveva corrette a gennaio, ma secondo i ricercatori più di metà dei clienti non aveva ancora applicato la patch.",
+    "prayer": "O San BigDebIT, custode del dare e dell'avere, tieni lontane le mani estranee dai nostri registri e fa' che i conti tornino per le ragioni giuste. Amen.",
+    "feast": "Si festeggia applicando le Critical Patch Update di Oracle a ogni trimestre, non a ogni lustro.",
+    "proverb": "Patch rimandata, bilancio ritoccato."
+  },
+  "en": {
+    "title": "Saint BigDebIT, Who Laid Hands on the Ledger",
+    "patronage": "accountants, ERP systems never updated, and balance sheets that add up a little too well.",
+    "hagiography": "On 16 June 2020 Onapsis disclosed BigDebIT, two vulnerabilities (CVE-2020-2586 and CVE-2020-2587) in the Hierarchy Diagrammer component of Oracle E-Business Suite, scored 9.9. An attacker with no credentials could reach the General Ledger and alter financial records, getting around the controls that audited accounts depend on. Oracle had fixed them in January, but according to the researchers more than half of customers had yet to apply the patch.",
+    "prayer": "O Saint BigDebIT, keeper of debit and credit, keep stranger hands off our ledgers and let the books balance for the right reasons. Amen.",
+    "feast": "Celebrated by applying Oracle's Critical Patch Updates every quarter, not every five years.",
+    "proverb": "A patch put off is a ledger touched up."
+  }
+}

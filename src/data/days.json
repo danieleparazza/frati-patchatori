@@ -195,7 +195,7 @@
   ]
  },
  "02-02": {
-  "patron": "blast-radius",
+  "patron": "forticlient-hardcoded-key",
   "others": [
    "mutagen-astronomy",
    "unbridled-optimism"
@@ -257,16 +257,16 @@
   ]
  },
  "02-12": {
-  "patron": "keytrap",
+  "patron": "whoami",
   "others": [
    "number-jack",
-   "duality",
-   "whoami"
+   "duality"
   ]
  },
  "02-13": {
   "patron": "dirty-sock",
   "others": [
+   "keytrap",
    "cold-attack"
   ]
  },
@@ -366,6 +366,7 @@
  "03-01": {
   "patron": "drown",
   "others": [
+   "trigon",
    "timeroasting",
    "alter"
   ]
@@ -385,13 +386,13 @@
  "03-04": {
   "patron": "evilloader",
   "others": [
+   "esxicape",
    "last-challenge-attack"
   ]
  },
  "03-05": {
-  "patron": "esxicape",
+  "patron": "biterrant",
   "others": [
-   "biterrant",
    "contextcrush",
    "perplexedbrowser"
   ]
@@ -1035,10 +1036,8 @@
   ]
  },
  "05-28": {
-  "patron": "zapocalypse",
-  "others": [
-   "click-or-trick"
-  ]
+  "patron": "click-or-trick",
+  "others": []
  },
  "05-29": {
   "patron": "bitskrieg",
@@ -1058,6 +1057,7 @@
   "patron": "dubious-disk",
   "others": [
    "gammaphish",
+   "zapocalypse",
    "fusee-gelee",
    "zipjar"
   ]
@@ -1182,9 +1182,8 @@
   ]
  },
  "06-16": {
-  "patron": "trigon",
+  "patron": "bigdebit",
   "others": [
-   "bigdebit",
    "pickle-in-the-middle"
   ]
  },
@@ -1368,6 +1367,7 @@
  "07-09": {
   "patron": "ghostcommit",
   "others": [
+   "blast-radius",
    "tlbleed"
   ]
  },
@@ -1614,12 +1614,11 @@
   ]
  },
  "08-07": {
-  "patron": "pagejack",
+  "patron": "quadrooter",
   "others": [
    "proxyoracle",
    "2tetra2burst",
    "plug-and-pwn",
-   "quadrooter",
    "sloth",
    "drop-the-mic-2",
    "drop-the-mic",
@@ -1632,6 +1631,7 @@
  "08-08": {
   "patron": "downfall",
   "others": [
+   "pagejack",
    "tunnelcrack",
    "milk-sad",
    "ms06-040",
@@ -1900,9 +1900,8 @@
   ]
  },
  "09-08": {
-  "patron": "pixnapping",
+  "patron": "spookjs",
   "others": [
-   "spookjs",
    "weworm",
    "frostbyte10",
    "overpass",
@@ -1954,6 +1953,7 @@
  "09-15": {
   "patron": "parashells",
   "others": [
+   "phoenix",
    "lies-in-the-loop",
    "heapjack",
    "overpatch",
@@ -1971,9 +1971,8 @@
   ]
  },
  "09-17": {
-  "patron": "phoenix",
+  "patron": "netscape-ssl-prng",
   "others": [
-   "netscape-ssl-prng",
    "heif-heist",
    "bidi-swap",
    "skeleton-cookie",
@@ -2049,6 +2048,7 @@
  "09-27": {
   "patron": "mystique",
   "others": [
+   "pitscaler",
    "tldr-fail",
    "tempest",
    "checkm8"
@@ -2087,9 +2087,8 @@
   ]
  },
  "10-02": {
-  "patron": "pitscaler",
+  "patron": "dray-break",
   "others": [
-   "dray-break",
    "gatebleed"
   ]
  },
@@ -2165,6 +2164,7 @@
  "10-13": {
   "patron": "rmpocalypse",
   "others": [
+   "pixnapping",
    "bad-neighbor",
    "ping-of-death-2020",
    "text4shell",
@@ -2648,6 +2648,7 @@
  "12-19": {
   "patron": "achilles-2",
   "others": [
+   "mongobleed",
    "stack-clash",
    "meshyjson",
    "blindside",
@@ -2711,7 +2712,7 @@
   ]
  },
  "12-29": {
-  "patron": "mongobleed",
+  "patron": "bisecur",
   "others": []
  },
  "12-30": {

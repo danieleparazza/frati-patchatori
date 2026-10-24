@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BitErrant, pellegrino del torrente",
+    "patronage": "dei file scaricati da sconosciuti, degli hash che invecchiano male e di chi controlla l'antivirus ma non lo SHA-256.",
+    "hagiography": "Il 5 marzo 2017, appena dieci giorni dopo che Google e il CWI avevano mostrato la prima collisione SHA-1 con SHAttered, Tamas Jos pubblicò BitErrant. Il suo esperimento creava due eseguibili diversi, uno innocuo e uno malevolo, che producevano lo stesso file .torrent: un pezzo del download poteva essere scambiato senza che il client se ne accorgesse. L'autore stesso lo definì un exploit per gioco, non grave, ma la lezione era seria: SHA-1 non bastava più.",
+    "prayer": "O Beato BitErrant, che vagavi da un peer all'altro, fa' che i nostri download arrivino interi e che ogni pezzo sia quello promesso. Amen.",
+    "feast": "Si festeggia verificando i file scaricati con hash moderni e passando a BitTorrent v2, che usa SHA-256.",
+    "proverb": "Torrente che scorre con SHA-1, porta acqua di nessuno."
+  },
+  "en": {
+    "title": "Blessed BitErrant, Pilgrim of the Torrent",
+    "patronage": "files downloaded from strangers, hashes that age badly, and anyone who checks the antivirus but not the SHA-256.",
+    "hagiography": "On 5 March 2017, barely ten days after Google and CWI produced the first SHA-1 collision with SHAttered, Tamas Jos published BitErrant. His experiment built two different executables, one harmless and one malicious, that yielded the same .torrent file: one piece of the download could be swapped without the client noticing. The author himself called it a fun little exploit, not a serious one, but the lesson was serious enough: SHA-1 was no longer enough.",
+    "prayer": "O Blessed BitErrant, who wandered from peer to peer, let our downloads arrive whole and every piece be the one promised. Amen.",
+    "feast": "Celebrated by checking downloads against modern hashes and moving to BitTorrent v2, which uses SHA-256.",
+    "proverb": "A torrent hashed with SHA-1 carries water from anyone."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "BiSecur",
+  "motto": "PORTA APERTA AUDITU",
+  "niche": [
+    "#2b2b2b",
+    "#4f4a40"
+  ],
+  "accent": "#3a352c",
+  "emblem": "<path d=\"M100 196 L150 150 L200 196 V242 H100 Z\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"2\"><line x1=\"114\" y1=\"206\" x2=\"186\" y2=\"206\"/><line x1=\"114\" y1=\"218\" x2=\"186\" y2=\"218\"/><line x1=\"114\" y1=\"230\" x2=\"186\" y2=\"230\"/></g>\n<rect x=\"138\" y=\"120\" width=\"24\" height=\"36\" rx=\"5\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"134\" r=\"5\" fill=\"#c0392b\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M172 124 a12 12 0 0 1 0 22\"/><path d=\"M180 118 a20 20 0 0 1 0 34\"/><path d=\"M128 124 a12 12 0 0 0 0 22\"/><path d=\"M120 118 a20 20 0 0 0 0 34\"/></g>"
+}

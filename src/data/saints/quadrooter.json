@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San QuadRooter, dalle quattro radici",
+    "patronage": "degli smartphone con chip Qualcomm, delle patch che dipendono dall'operatore e delle app che non chiedono permessi.",
+    "hagiography": "Il 7 agosto 2016, al DEF CON di Las Vegas, Check Point presentò QuadRooter, quattro vulnerabilità nei driver che Qualcomm forniva insieme ai suoi chip. Un'app malevola, anche senza permessi speciali, poteva sfruttarne una per ottenere i privilegi di root. I dispositivi Android a rischio erano circa 900 milioni, e le correzioni dovevano risalire la lunga catena da Qualcomm ai produttori e agli operatori prima di arrivare ai telefoni.",
+    "prayer": "O San QuadRooter, che mettesti radici in novecento milioni di tasche, fa' che le patch scendano dal chip al telefono più in fretta delle app malevole. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di sicurezza Android appena il produttore li concede e scaricando app solo dagli store ufficiali.",
+    "proverb": "Quattro radici sotto il chip, un solo root sopra tutti."
+  },
+  "en": {
+    "title": "Saint QuadRooter, of the Four Roots",
+    "patronage": "smartphones with Qualcomm chips, patches that wait on the carrier, and apps that ask for no permissions.",
+    "hagiography": "On 7 August 2016, at DEF CON in Las Vegas, Check Point unveiled QuadRooter, four vulnerabilities in the drivers Qualcomm shipped with its chipsets. A malicious app, even without special permissions, could use any one of them to gain root privileges. Some 900 million Android devices were at risk, and the fixes had to travel the long chain from Qualcomm to manufacturers and carriers before reaching the phones.",
+    "prayer": "O Saint QuadRooter, who put down roots in nine hundred million pockets, let patches travel from chip to phone faster than malicious apps. Amen.",
+    "feast": "Celebrated by installing Android security updates as soon as the manufacturer allows and getting apps only from official stores.",
+    "proverb": "Four roots beneath the chip, one root above them all."
+  }
+}

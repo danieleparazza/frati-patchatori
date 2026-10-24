@@ -27,7 +27,17 @@
     "06-08": "zoom-giphy",
     "11-09": "starkbank-ecdsa",
     "09-25": "forcedleak",
-    "03-22": "doubleagent"
+    "03-22": "doubleagent",
+    "02-02": "forticlient-hardcoded-key",
+    "02-12": "whoami",
+    "03-05": "biterrant",
+    "05-28": "click-or-trick",
+    "06-16": "bigdebit",
+    "08-07": "quadrooter",
+    "09-08": "spookjs",
+    "09-17": "netscape-ssl-prng",
+    "10-02": "dray-break",
+    "12-29": "bisecur"
   },
   "dates": {
     "shattered": "2017-02-23",
@@ -42,7 +52,17 @@
     "fluidfaults": "2024-08-20",
     "curse-of-silence": "2008-12-30",
     "entrysign": "2025-02-03",
-    "explodingcan": "2017-03-27"
+    "explodingcan": "2017-03-27",
+    "blast-radius": "2024-07-09",
+    "keytrap": "2024-02-13",
+    "esxicape": "2025-03-04",
+    "trigon": "2025-03-01",
+    "zapocalypse": "2026-06-01",
+    "pixnapping": "2025-10-13",
+    "phoenix": "2025-09-15",
+    "pagejack": "2024-08-08",
+    "pitscaler": "2026-09-27",
+    "mongobleed": "2025-12-19"
   },
   "born": {
     "shellshock": 1989,
@@ -113,7 +133,9 @@
     "ueficanhazbufferoverflow",
     "px4-geofence",
     "zoom-giphy",
-    "starkbank-ecdsa"
+    "starkbank-ecdsa",
+    "forticlient-hardcoded-key",
+    "bisecur"
   ],
   "exclude": [
     "halos-gate"
@@ -148,6 +170,9 @@
     ],
     "mikrotrick": [
       "CVE-2026-67277"
+    ],
+    "quadrooter": [
+      "CVE-2106-2504"
     ]
   },
   "addCves": {
@@ -180,6 +205,9 @@
     ],
     "mikrotrick": [
       "CVE-2026-67279"
+    ],
+    "quadrooter": [
+      "CVE-2016-2504"
     ]
   }
 }

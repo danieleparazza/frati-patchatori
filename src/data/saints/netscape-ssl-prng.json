@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Netscape del Caso, Padre della Chiesa",
+    "patronage": "dei generatori di numeri casuali, degli orologi di sistema e di chi crede che l'ora esatta sia un segreto.",
+    "hagiography": "La sera del 17 settembre 1995 Ian Goldberg e David Wagner, dottorandi a Berkeley, annunciarono di aver violato l'SSL di Netscape Navigator. Le chiavi di cifratura nascevano da un seme fatto di ora del giorno e numeri di processo, valori facili da indovinare: una sessione «sicura» si poteva decifrare in pochi minuti, a volte in meno di uno. Netscape corresse in fretta e il web imparò la sua prima lezione: la crittografia vale quanto il caso che la alimenta.",
+    "prayer": "O San Netscape del Caso, che leggevi l'orologio per inventare segreti, donaci entropia vera e semi che nessuno possa indovinare. Amen.",
+    "feast": "Si festeggia usando il generatore crittografico del sistema operativo e mai, per nessun motivo, l'ora come seme.",
+    "proverb": "Seme d'orologio, raccolto di ladri."
+  },
+  "en": {
+    "title": "Saint Netscape of Chance, Father of the Church",
+    "patronage": "random number generators, system clocks, and anyone who thinks the time of day is a secret.",
+    "hagiography": "On the evening of 17 September 1995 Ian Goldberg and David Wagner, graduate students at Berkeley, announced that they had broken Netscape Navigator's SSL. Its encryption keys grew from a seed made of the time of day and process numbers, values that were easy to guess: a \"secure\" session could be decrypted in minutes, sometimes in under one. Netscape fixed it quickly and the web learned its first lesson: cryptography is only as good as the randomness that feeds it.",
+    "prayer": "O Saint Netscape of Chance, who read the clock to invent secrets, grant us true entropy and seeds no one can guess. Amen.",
+    "feast": "Celebrated by using the operating system's cryptographic generator and never, for any reason, the clock as a seed.",
+    "proverb": "Sow seeds from the clock, and thieves reap the crop."
+  }
+}

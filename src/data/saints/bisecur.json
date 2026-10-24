@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San BiSecur, che apriva i garage con un solo sussurro",
+    "patronage": "dei cancelli automatici, dei telecomandi tutti uguali e dei sistemi «sicuri come l'home banking».",
+    "hagiography": "Il 29 dicembre 2017, mentre a Lipsia si teneva il 34° Chaos Communication Congress, la CVE-2017-17910 rese pubblica la scoperta di Markus Müllner e Markus Kammerstetter sui radiocomandi Hörmann BiSecur per garage e cancelli. La cifratura AES era progettata bene, ma il seme casuale non veniva inizializzato: tutti i telecomandi esaminati partivano dallo stesso valore. Così bastava ascoltare una sola trasmissione con una radio economica per ricavare la chiave e clonare il telecomando.",
+    "prayer": "O San BiSecur, guardiano dei garage, fa' che i nostri cancelli si aprano solo per chi ha le chiavi, e non per chi ha buone orecchie. Amen.",
+    "feast": "Si festeggia sostituendo i vecchi trasmettitori con modelli prodotti dal 2018 e ricordando che un algoritmo forte non salva un seme sempre uguale."
+  },
+  "en": {
+    "title": "Saint BiSecur, Who Opened Garages With a Single Whisper",
+    "patronage": "automatic gates, remote controls that are all alike, and systems \"as secure as online banking\".",
+    "hagiography": "On 29 December 2017, while the 34th Chaos Communication Congress was under way in Leipzig, CVE-2017-17910 made public what Markus Müllner and Markus Kammerstetter had found in Hörmann's BiSecur remotes for garages and gates. The AES encryption was well designed, but the random seed was never initialised: every remote they examined started from the same value. So listening to a single transmission with a cheap radio was enough to work out the key and clone the remote.",
+    "prayer": "O Saint BiSecur, guardian of garages, let our gates open only for those who hold the keys, not for those with good ears. Amen.",
+    "feast": "Celebrated by replacing old transmitters with models made from 2018 on, and remembering that a strong algorithm cannot save a seed that never changes."
+  }
+}

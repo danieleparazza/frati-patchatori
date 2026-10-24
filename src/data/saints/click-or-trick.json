@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Click-or-Trick, che evase con un clic",
+    "patronage": "dei processi a bassa integrità, dei collegamenti che aprono altre app e di chi clicca prima di leggere.",
+    "hagiography": "Il 28 maggio 2026 SafeBreach Labs raccontò Click or Trick, la storia di CVE-2025-59199, una vulnerabilità nella Software Protection Platform di Windows corretta da Microsoft il 14 ottobre 2025. Combinando l'attivazione dei server COM con la gestione degli URI delle applicazioni, un processo confinato al livello di integrità bassa poteva, con un solo clic dell'utente, scrivere file e far eseguire codice a livello medio. Un dolcetto per gli attaccanti, uno scherzetto per la sandbox.",
+    "prayer": "O San Click-or-Trick, che passavi di app in app, fa' che ogni collegamento ci porti solo dove vogliamo andare. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti cumulativi di Windows di ottobre 2025 e non trattando un clic come un permesso.",
+    "proverb": "Clic senza pensiero, sandbox senza muro."
+  },
+  "en": {
+    "title": "Saint Click-or-Trick, Who Escaped With a Click",
+    "patronage": "low-integrity processes, links that open other apps, and anyone who clicks before reading.",
+    "hagiography": "On 28 May 2026 SafeBreach Labs told the story of Click or Trick, CVE-2025-59199, a flaw in the Windows Software Protection Platform that Microsoft fixed on 14 October 2025. By combining COM server activation with the way Windows handles application URIs, a process confined to low integrity could, with a single click from the user, write files and get code running at medium integrity. A treat for attackers, a trick on the sandbox.",
+    "prayer": "O Saint Click-or-Trick, who hopped from app to app, let every link take us only where we mean to go. Amen.",
+    "feast": "Celebrated by installing Windows' October 2025 cumulative updates and not treating a click as consent.",
+    "proverb": "Click without a thought, and the sandbox walls are naught."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "QuadRooter",
+  "motto": "QUATTUOR RADICES",
+  "niche": [
+    "#1f3324",
+    "#3b5e43"
+  ],
+  "accent": "#1f3324",
+  "emblem": "<rect x=\"118\" y=\"128\" width=\"64\" height=\"64\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"132\" y=\"142\" width=\"36\" height=\"36\" fill=\"#2b1d14\"/>\n<text x=\"150\" y=\"167\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#d9ad55\">IV</text>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\" stroke-linecap=\"round\"><path d=\"M128 192 Q120 214 104 236\"/><path d=\"M144 192 Q140 220 132 244\"/><path d=\"M156 192 Q160 220 168 244\"/><path d=\"M172 192 Q180 214 196 236\"/></g>"
+}

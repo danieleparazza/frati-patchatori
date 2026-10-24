@@ -1,0 +1,10 @@
+{
+  "label": "Spook.js",
+  "motto": "SPECTRUM IN CACHE",
+  "niche": [
+    "#1e1e33",
+    "#3c3c5e"
+  ],
+  "accent": "#26263f",
+  "emblem": "<path d=\"M118 238 V170 A32 32 0 0 1 182 170 V238 L171 228 L160 238 L150 228 L140 238 L129 228 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#26263f\"><ellipse cx=\"138\" cy=\"172\" rx=\"6\" ry=\"9\"/><ellipse cx=\"162\" cy=\"172\" rx=\"6\" ry=\"9\"/></g>\n<text x=\"150\" y=\"208\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#26263f\">JS</text>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"><rect x=\"96\" y=\"128\" width=\"16\" height=\"16\"/><rect x=\"188\" y=\"128\" width=\"16\" height=\"16\"/></g>"
+}
