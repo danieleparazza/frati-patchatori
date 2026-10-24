@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import TodayRedirect from '../../components/TodayRedirect.astro';
+import { LANGS, type Lang } from '../../lib/i18n';
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Lang;
+---
+
+<Base lang={lang}>
+  <TodayRedirect lang={lang} />
+</Base>

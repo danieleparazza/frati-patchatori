@@ -1,0 +1,108 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { MONTHS, day, monthDays, saintTitle } from '../../../lib/calendar';
+import { LANGS, t, url, type Lang } from '../../../lib/i18n';
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => MONTHS.map((mm) => ({ params: { lang, section: t(lang).monthSlug, mm } })));
+}
+
+const lang = Astro.params.lang as Lang;
+const mm = Astro.params.mm as string;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+const i = MONTHS.indexOf(mm);
+const prev = MONTHS[(i + 11) % 12];
+const next = MONTHS[(i + 1) % 12];
+const name = s.months[i];
+const rows = monthDays(mm).map((d) => ({ d, ...day(d) }));
+---
+
+<Base lang={lang} title={name} alt={`${other}/${t(other).monthSlug}/${mm}`}>
+  <div class="monthhead">
+    <a href={url(`${lang}/${s.monthSlug}/${prev}`)} aria-label={s.months[(i + 11) % 12]}>‹</a>
+    <h1>{name}</h1>
+    <a href={url(`${lang}/${s.monthSlug}/${next}`)} aria-label={s.months[(i + 1) % 12]}>›</a>
+  </div>
+  <ol class="lunario card">
+    {
+      rows.map(({ d, patron, others }) => (
+        <li data-day={d}>
+          <span class="num">{Number(d.slice(3))}</span>
+          <a href={url(`${lang}/${d}`)}>{patron ? saintTitle(patron, lang) : <em>{s.vacant}</em>}</a>
+          {patron && <span class="year">{patron.date.slice(0, 4)}</span>}
+          {others.length > 0 && <span class="more">+{others.length}</span>}
+        </li>
+      ))
+    }
+  </ol>
+  <script is:inline>
+    const now = new Date();
+    const today = String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+    document.querySelector(`[data-day="${today}"]`)?.classList.add('today');
+  </script>
+</Base>
+
+<style>
+  .monthhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .monthhead h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-variant: small-caps;
+    min-width: 8ch;
+    text-align: center;
+  }
+  .monthhead a {
+    font-size: 2.4rem;
+    text-decoration: none;
+    line-height: 1;
+  }
+  .lunario {
+    list-style: none;
+    margin: 0;
+    padding: 8px 20px;
+  }
+  .lunario li {
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+    padding: 6px 0;
+    border-bottom: 1px dotted var(--line);
+  }
+  .lunario li:last-child {
+    border-bottom: 0;
+  }
+  .lunario li:global(.today) {
+    background: color-mix(in srgb, var(--gold) 18%, transparent);
+    margin: 0 -20px;
+    padding: 6px 20px;
+  }
+  .num {
+    width: 2ch;
+    text-align: right;
+    font-weight: 700;
+    color: var(--red);
+    flex: none;
+  }
+  .lunario a {
+    text-decoration: none;
+    color: var(--ink);
+    flex: 1;
+    min-width: 0;
+  }
+  .lunario a:hover {
+    color: var(--red);
+  }
+  .year,
+  .more {
+    color: var(--muted);
+    font-size: 0.8rem;
+    flex: none;
+  }
+</style>

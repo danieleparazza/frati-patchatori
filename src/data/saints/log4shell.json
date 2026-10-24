@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Log4Shell, martire del JNDI",
+    "patronage": "dei sistemisti richiamati in servizio nel weekend, dei log che eseguono ciò che leggono e di chi non sapeva di avere Java in casa.",
+    "hagiography": "Nato in una libreria di logging che nessuno ricordava di aver installato, si manifestò al mondo il 9 dicembre 2021 in una stringa di Minecraft. Bastò scrivere il suo nome tra ${ } perché i server di mezzo pianeta lo accogliessero, lo interrogassero via LDAP e gli consegnassero le chiavi di casa.",
+    "prayer": "O San Log4Shell, che entri da ogni campo di testo, fa' che i nostri user-agent restino stringhe e non diventino lookup. Liberaci dal JNDI e dalle dipendenze transitive. Amen.",
+    "feast": "Si festeggia aggiornando Log4j alla 2.17.1, cercando il JAR in tutti i fat-JAR del datacenter e trascorrendo il Natale a compilare l'inventario delle dipendenze.",
+    "proverb": "Per San Log4j, se il JNDI è aperto, l'attaccante è già dentro."
+  },
+  "en": {
+    "title": "Saint Log4Shell, Martyr of JNDI",
+    "patronage": "sysadmins recalled to duty on weekends, logs that execute what they read, and everyone who didn't know they had Java at home.",
+    "hagiography": "Born in a logging library nobody remembered installing, he revealed himself to the world on 9 December 2021 in a Minecraft chat line. It was enough to write his name between ${ } for half the planet's servers to welcome him, query him over LDAP and hand over the keys to the house.",
+    "prayer": "O Saint Log4Shell, who enters through every text field, keep our user-agents strings and never lookups. Deliver us from JNDI and from transitive dependencies. Amen.",
+    "feast": "Celebrated by upgrading Log4j to 2.17.1, grepping every fat JAR in the datacenter, and spending Christmas building a software bill of materials.",
+    "proverb": "Log4Shell's day brings no rest: if JNDI's open, the attacker's a guest."
+  }
+}

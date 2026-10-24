@@ -1,0 +1,117 @@
+---
+import Base from '../layouts/Base.astro';
+import { t, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+---
+
+<Base lang={lang} title={s.info} alt={`${other}/${t(other).infoSlug}`}>
+  <article class="info">
+    {
+      lang === 'it' ? (
+        <>
+          <h1>Il Lunario dei Frati Patchatori</h1>
+          <p>
+            Un calendario dei santi in cui ogni giorno è dedicato a una vulnerabilità famosa, nel giorno in cui è stata
+            divulgata. Gli altri candidati del giorno sono ricordati sotto il santo patrono.
+          </p>
+          <h2>Santi, beati e Padri della Chiesa</h2>
+          <ul>
+            <li><strong>Santi</strong>: vulnerabilità con un CVE, cioè canonizzate dal MITRE.</li>
+            <li><strong>Beati</strong>: vulnerabilità con un nome ma senza CVE, in attesa di canonizzazione.</li>
+            <li><strong>Padri della Chiesa</strong>: vulnerabilità storiche precedenti al sistema CVE (1999).</li>
+          </ul>
+          <h2>Trasparenza sull'uso dell'AI</h2>
+          <p>
+            In conformità con lo spirito dell'art. 50 del Regolamento UE 2024/1689 (AI Act): <strong>santini, titoli,
+            agiografie, preghiere, proverbi e "come si festeggia" sono generati con AI</strong> (Claude, Anthropic) e
+            rivisti a mano. Sono etichettati sotto ogni santino e marcati nei metadati delle immagini (IPTC
+            <code>trainedAlgorithmicMedia</code>).
+          </p>
+          <p>
+            <strong>Sono invece dati reali</strong>: nomi delle vulnerabilità, date di divulgazione, identificativi CVE,
+            punteggi CVSS, prodotti, presenza nel catalogo CISA KEV e link alle fonti.
+          </p>
+          <h2>Fonti e licenze</h2>
+          <ul>
+            <li>
+              <a href="https://vulnerability.garden">Vulnerability Garden</a> di Shellsharks, CC BY-SA 4.0: elenco delle
+              vulnerabilità con nome e data. Modifiche: selezione di un patrono per giorno e aggiunta di testi parodistici.
+            </li>
+            <li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a>: vulnerabilità sfruttate attivamente.</li>
+            <li><a href="https://github.com/CVEProject/cvelistV5">CVE List V5</a>: CVSS, descrizioni e prodotti.</li>
+          </ul>
+          <p>
+            Dati, testi e santini sono rilasciati con licenza <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC BY-SA 4.0</a>,
+            il codice con licenza MIT. I loghi ufficiali delle vulnerabilità restano dei rispettivi autori.
+          </p>
+          <p class="disclaimer">Progetto parodistico personale, senza intenti offensivi verso alcuna religione né verso chi ha scoperto o corretto queste vulnerabilità.</p>
+        </>
+      ) : (
+        <>
+          <h1>The Patching Friars' Almanac</h1>
+          <p>
+            A calendar of saints where every day is dedicated to a famous vulnerability, on the day it was disclosed. The
+            other candidates for the day are remembered below the patron saint.
+          </p>
+          <h2>Saints, blesseds and Fathers of the Church</h2>
+          <ul>
+            <li><strong>Saints</strong>: vulnerabilities with a CVE, i.e. canonized by MITRE.</li>
+            <li><strong>Blesseds</strong>: named vulnerabilities without a CVE, awaiting canonization.</li>
+            <li><strong>Fathers of the Church</strong>: historic vulnerabilities from before the CVE system (1999).</li>
+          </ul>
+          <h2>AI transparency</h2>
+          <p>
+            In the spirit of Article 50 of EU Regulation 2024/1689 (AI Act): <strong>holy cards, titles, hagiographies,
+            prayers, proverbs and "how to celebrate" are generated with AI</strong> (Claude, Anthropic) and reviewed by
+            hand. They are labelled under each holy card and marked in image metadata (IPTC
+            <code>trainedAlgorithmicMedia</code>).
+          </p>
+          <p>
+            <strong>Real data</strong>: vulnerability names, disclosure dates, CVE IDs, CVSS scores, products, CISA KEV
+            status and source links.
+          </p>
+          <h2>Sources and licenses</h2>
+          <ul>
+            <li>
+              <a href="https://vulnerability.garden">Vulnerability Garden</a> by Shellsharks, CC BY-SA 4.0: list of named
+              vulnerabilities and dates. Changes: one patron chosen per day, parody texts added.
+            </li>
+            <li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a>: actively exploited vulnerabilities.</li>
+            <li><a href="https://github.com/CVEProject/cvelistV5">CVE List V5</a>: CVSS, descriptions and products.</li>
+          </ul>
+          <p>
+            Data, texts and holy cards are licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>,
+            code is MIT. Official vulnerability logos belong to their respective authors.
+          </p>
+          <p class="disclaimer">A personal parody project, meant without offence to any religion or to the people who found and fixed these vulnerabilities.</p>
+        </>
+      )
+    }
+  </article>
+</Base>
+
+<style>
+  .info h1 {
+    font-variant: small-caps;
+    color: var(--red);
+  }
+  .info h2 {
+    font-variant: small-caps;
+    color: var(--gold);
+    font-size: 1.2rem;
+    margin-top: 28px;
+  }
+  .disclaimer {
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 28px;
+  }
+</style>

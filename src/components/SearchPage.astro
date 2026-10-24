@@ -1,0 +1,100 @@
+---
+import Base from '../layouts/Base.astro';
+import { t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+---
+
+<Base lang={lang} title={s.search} alt={`${other}/${t(other).searchSlug}`}>
+  <h1>{s.search}</h1>
+  <input id="q" type="search" placeholder={s.searchPlaceholder} autofocus autocomplete="off" />
+  <ul id="results"></ul>
+  <p id="empty" hidden>{s.searchEmpty}</p>
+</Base>
+
+<script
+  is:inline
+  define:vars={{
+    lang,
+    base: url(''),
+    months: s.months,
+    labels: { santo: s.titleSanto('X'), beato: s.titleBeato('X'), padre: s.titlePadre('X') },
+    patronLabel: s.patron,
+  }}
+>
+  const q = document.getElementById('q');
+  const results = document.getElementById('results');
+  const empty = document.getElementById('empty');
+  let index = [];
+  const norm = (x) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const label = (d) => {
+    const [m, day] = d.split('-').map(Number);
+    return lang === 'it' ? `${day} ${months[m - 1]}` : `${months[m - 1]} ${day}`;
+  };
+  function render() {
+    const term = norm(q.value.trim());
+    results.replaceChildren();
+    empty.hidden = true;
+    if (term.length < 2) return;
+    const hits = index.filter((v) => norm([v.n, ...v.c, v.p].join(' ')).includes(term)).slice(0, 50);
+    empty.hidden = hits.length > 0;
+    for (const v of hits) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = base + lang + '/' + v.d;
+      a.textContent = labels[v.k].replace('X', v.n);
+      const meta = document.createElement('span');
+      meta.className = 'meta';
+      meta.textContent = `${label(v.d)} ${v.y}${v.s ? ' · ' + patronLabel : ''}${v.c.length ? ' · ' + v.c[0] : ''}`;
+      li.append(a, meta);
+      results.append(li);
+    }
+    history.replaceState(null, '', '?q=' + encodeURIComponent(q.value));
+  }
+  q.value = new URLSearchParams(location.search).get('q') ?? '';
+  q.addEventListener('input', render);
+  fetch(base + 'search-index.json')
+    .then((r) => r.json())
+    .then((data) => {
+      index = data.sort((a, b) => b.s - a.s);
+      render();
+    });
+</script>
+
+<style>
+  h1 {
+    font-variant: small-caps;
+  }
+  input {
+    width: 100%;
+    font: inherit;
+    padding: 10px 14px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--paper);
+    color: var(--ink);
+  }
+  #results {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0;
+  }
+  #results :global(li) {
+    padding: 8px 0;
+    border-bottom: 1px dotted var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    align-items: baseline;
+  }
+  #results :global(.meta) {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>

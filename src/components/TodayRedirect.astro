@@ -1,0 +1,22 @@
+---
+// Static pages cannot know "today": redirect in the visitor's own timezone.
+// With `lang` unset, pick Italian for Italian browsers and English otherwise.
+import { url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<p class="redirect">…</p>
+<script is:inline define:vars={{ lang, base: url('') }}>
+  const l = lang ?? ((navigator.language || '').toLowerCase().startsWith('it') ? 'it' : 'en');
+  const now = new Date();
+  const mmdd = String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+  location.replace(base + l + '/' + mmdd);
+</script>
+<noscript>
+  <p><a href={url('it/01-01')}>Italiano</a> · <a href={url('en/01-01')}>English</a></p>
+</noscript>

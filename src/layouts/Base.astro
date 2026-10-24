@@ -1,0 +1,183 @@
+---
+import { t, url, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+  /** Path of this page in the other language, without base. */
+  alt?: string;
+}
+
+const { lang, title, description, alt } = Astro.props;
+const s = t(lang);
+const other: Lang = lang === 'it' ? 'en' : 'it';
+const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
+const month = String(new Date().getMonth() + 1).padStart(2, '0');
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description ?? s.tagline} />
+    <meta property="og:title" content={title ?? s.siteTitle} />
+    <meta property="og:description" content={description ?? s.tagline} />
+    <meta property="og:site_name" content={s.siteTitle} />
+    {alt && <link rel="alternate" hreflang={other} href={url(alt)} />}
+    <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="brand" href={url(`${lang}/`)}>
+        <span class="brand-title">{s.siteTitle}</span>
+        <span class="brand-tagline">{s.tagline}</span>
+      </a>
+      <nav>
+        <a href={url(`${lang}/`)}>{s.today}</a>
+        <a href={url(`${lang}/${s.monthSlug}/${month}`)} data-current-month>{s.month}</a>
+        <a href={url(`${lang}/${s.searchSlug}`)}>{s.search}</a>
+        <a href={url(`${lang}/${s.infoSlug}`)}>{s.info}</a>
+        <a class="lang" href={url(alt ?? `${other}/`)} hreflang={other}>{other.toUpperCase()}</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>
+        {s.footerData} <a href="https://vulnerability.garden">Vulnerability Garden</a> (Shellsharks, CC BY-SA 4.0),{' '}
+        <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a>,{' '}
+        <a href="https://github.com/CVEProject/cvelistV5">CVE List</a>.
+      </p>
+      <p>{s.footerAi}</p>
+      <p>{s.footerLicense}</p>
+    </footer>
+    <script is:inline>
+      // The month link is rendered at build time; point it at the visitor's current month.
+      const m = String(new Date().getMonth() + 1).padStart(2, '0');
+      document.querySelectorAll('[data-current-month]').forEach((a) => (a.href = a.href.replace(/\/\d{2}$/, '/' + m)));
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --bg: #f6efe0;
+    --paper: #fffaf0;
+    --ink: #2b1d14;
+    --muted: #7a6656;
+    --red: #9e1b1b;
+    --gold: #b8892b;
+    --line: #e2d4b8;
+    --kev: #9e1b1b;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1411;
+      --paper: #241c17;
+      --ink: #f1e6d4;
+      --muted: #b09c88;
+      --red: #e0645a;
+      --gold: #d9ad55;
+      --line: #3d3128;
+      --kev: #e0645a;
+      color-scheme: dark;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  a {
+    color: var(--red);
+  }
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+  }
+  .masthead {
+    border-bottom: 3px double var(--gold);
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .brand {
+    text-decoration: none;
+    color: var(--ink);
+    display: flex;
+    flex-direction: column;
+  }
+  .brand-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+    color: var(--red);
+  }
+  .brand-tagline {
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    font-variant: small-caps;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  nav .lang {
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 0 6px;
+  }
+  footer {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 16px;
+    border-top: 1px solid var(--line);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  footer p {
+    margin: 4px 0;
+  }
+  .card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px 20px;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-family: ui-monospace, Menlo, monospace;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 0 6px;
+    white-space: nowrap;
+  }
+  .badge.kev {
+    border-color: var(--kev);
+    color: var(--kev);
+  }
+</style>

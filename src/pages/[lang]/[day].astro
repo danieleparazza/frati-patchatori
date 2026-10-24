@@ -1,0 +1,256 @@
+---
+import Base from '../../layouts/Base.astro';
+import Santino from '../../components/Santino.astro';
+import { DAYS, day, dayLabel, formatDate, neighbours, saint, saintTitle, santinoSvg } from '../../lib/calendar';
+import { LANGS, t, url, type Lang } from '../../lib/i18n';
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => DAYS.map((d) => ({ params: { lang, day: d } })));
+}
+
+const lang = Astro.params.lang as Lang;
+const mmdd = Astro.params.day as string;
+const s = t(lang);
+const { patron, others } = day(mmdd);
+const { prev, next } = neighbours(mmdd);
+const text = patron ? saint(patron.id)?.[lang] : undefined;
+const title = patron ? saintTitle(patron, lang) : s.vacant;
+const label = dayLabel(mmdd, lang);
+const nvd = (cve: string) => `https://nvd.nist.gov/vuln/detail/${cve}`;
+const host = (link: string) => new URL(link).hostname.replace(/^www\./, '');
+const sources = patron ? [...new Set([patron.canonical, ...patron.links].filter((l): l is string => !!l))] : [];
+---
+
+<Base lang={lang} title={`${label} · ${title}`} description={text?.patronage ?? patron?.description ?? s.vacantText} alt={`${lang === 'it' ? 'en' : 'it'}/${mmdd}`}>
+  <div class="dayhead">
+    <a href={url(`${lang}/${prev}`)} aria-label={s.prevDay} rel="prev">‹</a>
+    <h1>{label}</h1>
+    <a href={url(`${lang}/${next}`)} aria-label={s.nextDay} rel="next">›</a>
+  </div>
+
+  {
+    patron ? (
+      <article class="saint">
+        <Santino vuln={patron} title={title}>
+          {santinoSvg(patron.id) ? s.aiLabel : text ? `${s.provisionalSantino} · ${s.aiTextLabel}` : s.provisionalSantino}
+        </Santino>
+        <div class="body">
+          <h2>{title}</h2>
+          {text ? (
+            <>
+              <p class="patronage">
+                <em>{s.patronage}</em> {text.patronage}
+              </p>
+              <h3>{s.hagiography}</h3>
+              <p>{text.hagiography}</p>
+              <h3>{s.prayer}</h3>
+              <p class="prayer">{text.prayer}</p>
+              <h3>{s.feast}</h3>
+              <p>{text.feast}</p>
+              {text.proverb && <blockquote class="proverb">{text.proverb}</blockquote>}
+            </>
+          ) : (
+            <p class="pending">{s.contentPending}</p>
+          )}
+        </div>
+      </article>
+    ) : (
+      <article class="card vacant">
+        <h2>{s.vacant}</h2>
+        <p>{s.vacantText}</p>
+      </article>
+    )
+  }
+
+  {
+    patron && (
+      <section class="card tech">
+        <h3>{s.technical}</h3>
+        <dl>
+          <dt>{s.disclosed}</dt>
+          <dd>{formatDate(patron.date, lang)}</dd>
+          <dt>CVE</dt>
+          <dd>
+            {patron.cves.length ? (
+              patron.cves.map((c) => (
+                <a class="badge" href={nvd(c)}>
+                  {c}
+                </a>
+              ))
+            ) : (
+              <em>{s.noCve}</em>
+            )}
+          </dd>
+          {patron.cvss != null && (
+            <>
+              <dt>CVSS</dt>
+              <dd>
+                <span class="badge">{patron.cvss.toFixed(1)}</span>
+                {patron.kev && <span class="badge kev">{s.exploited}</span>}
+              </dd>
+            </>
+          )}
+          {patron.product && (
+            <>
+              <dt>{s.product}</dt>
+              <dd>{[patron.vendor, patron.product].filter(Boolean).join(' · ')}</dd>
+            </>
+          )}
+        </dl>
+        {patron.description && <p class="desc">{patron.description}</p>}
+        {sources.length > 0 && (
+          <p class="sources">
+            {s.sources}:{' '}
+            {sources.map((l, i) => (
+              <>
+                {i > 0 && ' · '}
+                <a href={l}>{host(l)}</a>
+              </>
+            ))}
+          </p>
+        )}
+      </section>
+    )
+  }
+
+  {
+    others.length > 0 && (
+      <section class="others">
+        <h3>{s.alsoRemembered}</h3>
+        <ul>
+          {others.map((o) => (
+            <li>
+              <a href={o.canonical ?? (o.cves[0] ? nvd(o.cves[0]) : '#')}>{saintTitle(o, lang)}</a>
+              <span class="year">({o.date.slice(0, 4)})</span>
+              {o.cves.slice(0, 2).map((c) => (
+                <a class="badge" href={nvd(c)}>
+                  {c}
+                </a>
+              ))}
+              {o.kev && <span class="badge kev">KEV</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+</Base>
+
+<style>
+  .dayhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .dayhead h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-variant: small-caps;
+    text-align: center;
+  }
+  .dayhead a {
+    font-size: 2.4rem;
+    text-decoration: none;
+    line-height: 1;
+    padding: 0 8px;
+  }
+  .saint {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+  @media (max-width: 640px) {
+    .saint {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }
+  .body h2 {
+    margin: 0 0 8px;
+    color: var(--red);
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  .body h3 {
+    margin: 16px 0 4px;
+    font-variant: small-caps;
+    color: var(--gold);
+    font-size: 1rem;
+  }
+  .body p {
+    margin: 0;
+  }
+  .prayer {
+    font-style: italic;
+  }
+  .proverb {
+    margin: 20px 0 0;
+    padding: 8px 16px;
+    border-left: 3px solid var(--gold);
+    font-style: italic;
+  }
+  .pending {
+    color: var(--muted);
+    font-style: italic;
+  }
+  .tech {
+    margin-top: 32px;
+  }
+  .tech h3,
+  .others h3 {
+    margin: 0 0 8px;
+    font-variant: small-caps;
+    color: var(--gold);
+  }
+  dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 4px 16px;
+    margin: 0;
+  }
+  dt {
+    color: var(--muted);
+  }
+  dd {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }
+  .desc {
+    font-size: 0.9rem;
+    margin: 12px 0 0;
+  }
+  .sources {
+    font-size: 0.85rem;
+    margin: 12px 0 0;
+    overflow-wrap: anywhere;
+  }
+  .others {
+    margin-top: 32px;
+  }
+  .others ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .others li {
+    padding: 6px 0;
+    border-bottom: 1px dotted var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: baseline;
+  }
+  .year {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .vacant {
+    text-align: center;
+  }
+</style>
