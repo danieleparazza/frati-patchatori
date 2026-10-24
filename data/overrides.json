@@ -1,0 +1,4 @@
+{
+  "$comment": "Manual patron choices: \"MM-DD\": \"vulnerability id\". Ids are in src/data/vulns.json.",
+  "patrons": {}
+}

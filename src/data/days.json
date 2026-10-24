@@ -1,0 +1,2695 @@
+{
+ "01-01": {
+  "patron": "doorlock",
+  "others": [
+   "ldapbleed",
+   "ldapnightmare",
+   "tors-hammer"
+  ]
+ },
+ "01-02": {
+  "patron": "chronomaly",
+  "others": []
+ },
+ "01-03": {
+  "patron": "meltdown",
+  "others": [
+   "spectre"
+  ]
+ },
+ "01-04": {
+  "patron": "noreboot",
+  "others": []
+ },
+ "01-05": {
+  "patron": null,
+  "others": []
+ },
+ "01-06": {
+  "patron": null,
+  "others": []
+ },
+ "01-07": {
+  "patron": "cablehaunt",
+  "others": [
+   "smtp-smuggling",
+   "ni8mare",
+   "mdb-leaker"
+  ]
+ },
+ "01-08": {
+  "patron": "freak",
+  "others": [
+   "zombieagent",
+   "aslrnt"
+  ]
+ },
+ "01-09": {
+  "patron": null,
+  "others": []
+ },
+ "01-10": {
+  "patron": "worstfit",
+  "others": [
+   "connectaround",
+   "localpotato",
+   "powerdir"
+  ]
+ },
+ "01-11": {
+  "patron": "symstealer",
+  "others": []
+ },
+ "01-12": {
+  "patron": "shitrix",
+  "others": [
+   "all-guests-are-admin"
+  ]
+ },
+ "01-13": {
+  "patron": "bodysnatcher",
+  "others": [
+   "n8scape",
+   "pmfault",
+   "superglue",
+   "breakingformation",
+   "sh1mmer"
+  ]
+ },
+ "01-14": {
+  "patron": "curveball",
+  "others": []
+ },
+ "01-15": {
+  "patron": "whisperpair",
+  "others": [
+   "glueball",
+   "codebreach"
+  ]
+ },
+ "01-16": {
+  "patron": "leftoverlocals",
+  "others": [
+   "pixiefail",
+   "crashfix"
+  ]
+ },
+ "01-17": {
+  "patron": "stackwarp",
+  "others": [
+   "shattered",
+   "etherleak",
+   "itlb-multihit",
+   "shazlocate",
+   "mavengate"
+  ]
+ },
+ "01-18": {
+  "patron": "markdowntime",
+  "others": []
+ },
+ "01-19": {
+  "patron": "dnspooq",
+  "others": [
+   "blank-image",
+   "emojideploy"
+  ]
+ },
+ "01-20": {
+  "patron": "evilesp",
+  "others": [
+   "chainleak",
+   "crashxts"
+  ]
+ },
+ "01-21": {
+  "patron": "skip-tls",
+  "others": [
+   "kindledrip",
+   "evil-maid",
+   "myflaw",
+   "fedmua"
+  ]
+ },
+ "01-22": {
+  "patron": "cookie-sandwich",
+  "others": []
+ },
+ "01-23": {
+  "patron": "foreshadow",
+  "others": [
+   "foreshadow-ng",
+   "pantsdown",
+   "bluegate",
+   "eventlogcrasher"
+  ]
+ },
+ "01-24": {
+  "patron": "chameleon",
+  "others": [
+   "sysall"
+  ]
+ },
+ "01-25": {
+  "patron": "pwnkit",
+  "others": []
+ },
+ "01-26": {
+  "patron": "baron-samedit",
+  "others": [
+   "cloneleak",
+   "nat-slipstreaming-2",
+   "aof",
+   "cellbreak",
+   "reprompt"
+  ]
+ },
+ "01-27": {
+  "patron": "sgaxe",
+  "others": []
+ },
+ "01-28": {
+  "patron": "ghost",
+  "others": [
+   "flop",
+   "slap",
+   "exfil-out-and-look",
+   "gatewaytoheaven"
+  ]
+ },
+ "01-29": {
+  "patron": null,
+  "others": []
+ },
+ "01-30": {
+  "patron": "thunderstrike",
+  "others": []
+ },
+ "01-31": {
+  "patron": "leaky-vessels",
+  "others": []
+ },
+ "02-01": {
+  "patron": "access7",
+  "others": [
+   "pizza-thief"
+  ]
+ },
+ "02-02": {
+  "patron": "blast-radius",
+  "others": [
+   "mutagen-astronomy",
+   "unbridled-optimism"
+  ]
+ },
+ "02-03": {
+  "patron": "metro4shell",
+  "others": [
+   "dockerdash"
+  ]
+ },
+ "02-04": {
+  "patron": "xmpp-stanza-smuggling",
+  "others": [
+   "goldendoodle",
+   "zombie-poodle",
+   "lookout"
+  ]
+ },
+ "02-05": {
+  "patron": "cdpwn",
+  "others": []
+ },
+ "02-06": {
+  "patron": "bluefrag",
+  "others": [
+   "bitpixie",
+   "nullifai"
+  ]
+ },
+ "02-07": {
+  "patron": "brokenwire",
+  "others": []
+ },
+ "02-08": {
+  "patron": "spoolfool",
+  "others": [
+   "alert",
+   "em-eye",
+   "printlistener"
+  ]
+ },
+ "02-09": {
+  "patron": "four-bytes-of-power",
+  "others": [
+   "grp-obliteration",
+   "clinejection"
+  ]
+ },
+ "02-10": {
+  "patron": "promptware",
+  "others": []
+ },
+ "02-11": {
+  "patron": "sweyntooth",
+  "others": [
+   "gitbleed"
+  ]
+ },
+ "02-12": {
+  "patron": "keytrap",
+  "others": [
+   "number-jack",
+   "duality",
+   "whoami"
+  ]
+ },
+ "02-13": {
+  "patron": "dirty-sock",
+  "others": [
+   "cold-attack"
+  ]
+ },
+ "02-14": {
+  "patron": "monikerlink",
+  "others": []
+ },
+ "02-15": {
+  "patron": "space-attack",
+  "others": [
+   "evict-time",
+   "mms-fingerprint"
+  ]
+ },
+ "02-16": {
+  "patron": "ice-phishing",
+  "others": [
+   "roguepilot"
+  ]
+ },
+ "02-17": {
+  "patron": null,
+  "others": []
+ },
+ "02-18": {
+  "patron": "voltschemer",
+  "others": []
+ },
+ "02-19": {
+  "patron": "cloudbleed",
+  "others": []
+ },
+ "02-20": {
+  "patron": "ghostcat",
+  "others": [
+   "superfish"
+  ]
+ },
+ "02-21": {
+  "patron": "talkative-marmot",
+  "others": [
+   "alphadog"
+  ]
+ },
+ "02-22": {
+  "patron": "gotofail",
+  "others": []
+ },
+ "02-23": {
+  "patron": "slashandgrab",
+  "others": [
+   "mousejack",
+   "shadow-attacks",
+   "dupefs",
+   "bad-update"
+  ]
+ },
+ "02-24": {
+  "patron": "jasbug",
+  "others": [
+   "kernelsnitch"
+  ]
+ },
+ "02-25": {
+  "patron": "wallbleed",
+  "others": [
+   "airsnitch"
+  ]
+ },
+ "02-26": {
+  "patron": "kr00k",
+  "others": [
+   "thunderclap",
+   "badbluetooth",
+   "torpedo",
+   "clawjacked"
+  ]
+ },
+ "02-27": {
+  "patron": "shim-shady",
+  "others": [
+   "lucky-thirteen"
+  ]
+ },
+ "02-28": {
+  "patron": "brokenprint",
+  "others": [
+   "esc14"
+  ]
+ },
+ "02-29": {
+  "patron": "silver-saml",
+  "others": []
+ },
+ "03-01": {
+  "patron": "drown",
+  "others": [
+   "timeroasting",
+   "alter"
+  ]
+ },
+ "03-02": {
+  "patron": "golden-gmsa-attack",
+  "others": []
+ },
+ "03-03": {
+  "patron": "mail2shell",
+  "others": [
+   "gargoyle",
+   "sleeping-beauty",
+   "pleasefix"
+  ]
+ },
+ "03-04": {
+  "patron": "evilloader",
+  "others": [
+   "last-challenge-attack"
+  ]
+ },
+ "03-05": {
+  "patron": "esxicape",
+  "others": [
+   "biterrant",
+   "contextcrush",
+   "perplexedbrowser"
+  ]
+ },
+ "03-06": {
+  "patron": "smotherspectre",
+  "others": [
+   "polynonce",
+   "installfix"
+  ]
+ },
+ "03-07": {
+  "patron": "dirty-pipe",
+  "others": [
+   "autowarp"
+  ]
+ },
+ "03-08": {
+  "patron": "tlstorm",
+  "others": [
+   "tp240phonehome",
+   "coreplague",
+   "branch-history-injection",
+   "pwnagent",
+   "iris",
+   "casper",
+   "imposter-commits"
+  ]
+ },
+ "03-09": {
+  "patron": null,
+  "others": []
+ },
+ "03-10": {
+  "patron": "smbghost",
+  "others": [
+   "lvi",
+   "rowhammer",
+   "trrespass",
+   "wall-escape",
+   "zombie-zip",
+   "leakylooker"
+  ]
+ },
+ "03-11": {
+  "patron": "baddns",
+  "others": []
+ },
+ "03-12": {
+  "patron": "proxylogon",
+  "others": [
+   "angrypolarbearbug",
+   "indirector",
+   "ghostrace",
+   "lnkmemaybe",
+   "crackarmor"
+  ]
+ },
+ "03-13": {
+  "patron": "regpwn",
+  "others": []
+ },
+ "03-14": {
+  "patron": "bad-appointment",
+  "others": [
+   "samlstorm",
+   "fermat-attack"
+  ]
+ },
+ "03-15": {
+  "patron": "cr8escape",
+  "others": [
+   "browser-in-the-browser"
+  ]
+ },
+ "03-16": {
+  "patron": "macdirtycow",
+  "others": [
+   "smash"
+  ]
+ },
+ "03-17": {
+  "patron": "acropalypse",
+  "others": [
+   "the-riddle",
+   "spoof-on-bridge",
+   "total-spoof",
+   "cursorjack",
+   "polyshell"
+  ]
+ },
+ "03-18": {
+  "patron": "darksword",
+  "others": [
+   "deba",
+   "rules-file-backdoor",
+   "claudy-day"
+  ]
+ },
+ "03-19": {
+  "patron": "sockpuppet",
+  "others": [
+   "loop-dos",
+   "graphvulns"
+  ]
+ },
+ "03-20": {
+  "patron": "unsaflok",
+  "others": [
+   "the-symlink-trap",
+   "red-pills-attack",
+   "dhcp-coerce"
+  ]
+ },
+ "03-21": {
+  "patron": "gofetch",
+  "others": [
+   "flowfixation",
+   "fmm-attack"
+  ]
+ },
+ "03-22": {
+  "patron": "explodingcan",
+  "others": [
+   "doubleagent",
+   "hookchain",
+   "nvbleed"
+  ]
+ },
+ "03-23": {
+  "patron": "citrixbleed-3",
+  "others": [
+   "out-of-cancel",
+   "bad-spin",
+   "ghost-spn"
+  ]
+ },
+ "03-24": {
+  "patron": "ingressnightmare",
+  "others": [
+   "metaphor",
+   "branchscope"
+  ]
+ },
+ "03-25": {
+  "patron": "msc-eviltwin",
+  "others": [
+   "zenhammer"
+  ]
+ },
+ "03-26": {
+  "patron": "dirtytooth",
+  "others": [
+   "shadowray",
+   "strongswan",
+   "shadowprompt"
+  ]
+ },
+ "03-27": {
+  "patron": "sun-down",
+  "others": [
+   "open-sesame"
+  ]
+ },
+ "03-28": {
+  "patron": "drupalgeddon-2",
+  "others": [
+   "tsshock"
+  ]
+ },
+ "03-29": {
+  "patron": "xzorcist",
+  "others": [
+   "bingbang",
+   "insomniacunwinding"
+  ]
+ },
+ "03-30": {
+  "patron": "spring4shell",
+  "others": [
+   "super-fabrixss"
+  ]
+ },
+ "03-31": {
+  "patron": "kobold-letters",
+  "others": [
+   "voices-from-the-deep",
+   "barmitzvah"
+  ]
+ },
+ "04-01": {
+  "patron": "imagerunner",
+  "others": []
+ },
+ "04-02": {
+  "patron": "bluehammer",
+  "others": [
+   "gddrhammer",
+   "geforge",
+   "gpubreach",
+   "shadow-ban"
+  ]
+ },
+ "04-03": {
+  "patron": "holey-beep",
+  "others": [
+   "carpe-diem",
+   "doppelganger",
+   "continuation-flood",
+   "can-injection",
+   "nomshub"
+  ]
+ },
+ "04-04": {
+  "patron": "sigy",
+  "others": [
+   "heckler",
+   "wesee",
+   "stringbleed",
+   "pentah0wnage",
+   "crescendo"
+  ]
+ },
+ "04-05": {
+  "patron": "headroll",
+  "others": []
+ },
+ "04-06": {
+  "patron": null,
+  "others": []
+ },
+ "04-07": {
+  "patron": "heartbleed",
+  "others": [
+   "grafanaghost"
+  ]
+ },
+ "04-08": {
+  "patron": "warpattack",
+  "others": [
+   "slopsquatting",
+   "remotemonologue"
+  ]
+ },
+ "04-09": {
+  "patron": "rootpipe",
+  "others": [
+   "react2dos",
+   "native-bhi",
+   "alloc8",
+   "batbadbut"
+  ]
+ },
+ "04-10": {
+  "patron": "sirenjack",
+  "others": []
+ },
+ "04-11": {
+  "patron": "notgitbleed",
+  "others": [
+   "queuejumper",
+   "blue-klotski",
+   "endofdays"
+  ]
+ },
+ "04-12": {
+  "patron": "jekyllbot-5",
+  "others": [
+   "badlock",
+   "electric-chrome",
+   "sadlock",
+   "undefend"
+  ]
+ },
+ "04-13": {
+  "patron": "name-wreck",
+  "others": [
+   "frozen-heart",
+   "airstrike-attack"
+  ]
+ },
+ "04-14": {
+  "patron": "eternalblue",
+  "others": [
+   "eternalromance",
+   "eternalchampion",
+   "eternalsynergy",
+   "epme",
+   "fabricked",
+   "educatedscholar",
+   "ebbisland",
+   "extremeparr"
+  ]
+ },
+ "04-15": {
+  "patron": "redsun",
+  "others": [
+   "mcpwn",
+   "packet-of-the-death",
+   "shareleak",
+   "pipeleak",
+   "comment-and-control"
+  ]
+ },
+ "04-16": {
+  "patron": "leakycli",
+  "others": [
+   "trustjacking",
+   "godpotato",
+   "fontleak"
+  ]
+ },
+ "04-17": {
+  "patron": "ring-road",
+  "others": [
+   "fp-dss",
+   "clickfix"
+  ]
+ },
+ "04-18": {
+  "patron": "magicdot",
+  "others": [
+   "homage",
+   "FINDMYPWN",
+   "LATENTIMAGE",
+   "PWNYOURHOME"
+  ]
+ },
+ "04-19": {
+  "patron": "squiblydoo",
+  "others": [
+   "psychic-signatures",
+   "plexfiltration",
+   "starjacking",
+   "brokensesame",
+   "asset-key-thief"
+  ]
+ },
+ "04-20": {
+  "patron": "ghosttoken",
+  "others": []
+ },
+ "04-21": {
+  "patron": "bridge-break",
+  "others": [
+   "alhack",
+   "line-jumping"
+  ]
+ },
+ "04-22": {
+  "patron": "pack2theroot",
+  "others": [
+   "batchoverflow",
+   "confusedcomposer"
+  ]
+ },
+ "04-23": {
+  "patron": "halos-gate",
+  "others": []
+ },
+ "04-24": {
+  "patron": "shittrix",
+  "others": [
+   "silverpotato",
+   "policy-puppetry",
+   "phantomrpc"
+  ]
+ },
+ "04-25": {
+  "patron": "proxyoverflow",
+  "others": []
+ },
+ "04-26": {
+  "patron": "double-kill",
+  "others": [
+   "antbleed",
+   "nimbuspwn",
+   "atteq-nn",
+   "packetprint",
+   "package-planting"
+  ]
+ },
+ "04-27": {
+  "patron": "pathfinder",
+  "others": []
+ },
+ "04-28": {
+  "patron": "transferflaw",
+  "others": [
+   "outtatune"
+  ]
+ },
+ "04-29": {
+  "patron": "copy-fail",
+  "others": [
+   "airborne",
+   "splitsshell",
+   "badalloc",
+   "extrareplica",
+   "augury"
+  ]
+ },
+ "04-30": {
+  "patron": "backronym",
+  "others": [
+   "tiny-udp-cannon",
+   "crackpipe",
+   "machswap",
+   "faxhell"
+  ]
+ },
+ "05-01": {
+  "patron": "landa",
+  "others": [
+   "psychic-paper",
+   "power-supplay",
+   "dirty-stream",
+   "pleak"
+  ]
+ },
+ "05-02": {
+  "patron": "smith",
+  "others": [
+   "gro-packet-of-death",
+   "faultpm",
+   "neural-exec"
+  ]
+ },
+ "05-03": {
+  "patron": "tlstorm-2",
+  "others": [
+   "imagetragick",
+   "owneranyone"
+  ]
+ },
+ "05-04": {
+  "patron": "strandhogg-2",
+  "others": [
+   "21nails",
+   "epochalypse",
+   "ouroboros"
+  ]
+ },
+ "05-05": {
+  "patron": "bleeding-llama",
+  "others": [
+   "ko",
+   "trustissues",
+   "mousetrap",
+   "bring-your-own-installer"
+  ]
+ },
+ "05-06": {
+  "patron": "tunnelvision",
+  "others": [
+   "llmjacking",
+   "tsuname"
+  ]
+ },
+ "05-07": {
+  "patron": "dirty-frag",
+  "others": [
+   "ghostlock",
+   "copy-fail-2",
+   "trustfall",
+   "glitch",
+   "claudebleed"
+  ]
+ },
+ "05-08": {
+  "patron": "basestriker",
+  "others": []
+ },
+ "05-09": {
+  "patron": "vectorsmuggle",
+  "others": [
+   "pwnassistant",
+   "dark-portal",
+   "synlapse"
+  ]
+ },
+ "05-10": {
+  "patron": "certifried",
+  "others": [
+   "multioverflow",
+   "ai-fi"
+  ]
+ },
+ "05-11": {
+  "patron": "doller-ticket",
+  "others": [
+   "fragattacks",
+   "thunderspy",
+   "pplfault"
+  ]
+ },
+ "05-12": {
+  "patron": "longlogon",
+  "others": [
+   "deadletter",
+   "breakfast",
+   "rtp-bleed",
+   "yellowkey",
+   "greenplasma",
+   "printdemon",
+   "overdos",
+   "stalloris"
+  ]
+ },
+ "05-13": {
+  "patron": "fragnesia",
+  "others": [
+   "explosion",
+   "nginx-rift",
+   "nethammer"
+  ]
+ },
+ "05-14": {
+  "patron": "bluekeep",
+  "others": [
+   "nats-as-c2",
+   "crosstalk",
+   "ridl",
+   "ssid-confusion-attack",
+   "thunderstrike-2",
+   "rfdos"
+  ]
+ },
+ "05-15": {
+  "patron": "venom",
+  "others": [
+   "miniplasma",
+   "claw-chain",
+   "route-of-death",
+   "commit-stomping",
+   "eris",
+   "qemutiny"
+  ]
+ },
+ "05-16": {
+  "patron": "zipperdown",
+  "others": [
+   "zombieload",
+   "marvin",
+   "friendlyname",
+   "llama-drama",
+   "dirtydecrypt",
+   "tlbfail",
+   "pastejacking"
+  ]
+ },
+ "05-17": {
+  "patron": "dynoroot",
+  "others": [
+   "requiem"
+  ]
+ },
+ "05-18": {
+  "patron": "chromatoast",
+  "others": [
+   "burnoverflow",
+   "bias",
+   "bruteprint",
+   "pintheft"
+  ]
+ },
+ "05-19": {
+  "patron": "ghostbutt",
+  "others": [
+   "rambleed",
+   "3shake",
+   "krack",
+   "ghosttree",
+   "cratedepression",
+   "cookie-bite"
+  ]
+ },
+ "05-20": {
+  "patron": "matryoshka-trap",
+  "others": [
+   "logjam",
+   "linguistic-lumberjack",
+   "nginx-poolslip",
+   "frost",
+   "vaultjacking"
+  ]
+ },
+ "05-21": {
+  "patron": "fatgid",
+  "others": [
+   "bumsrakete",
+   "zombievpn",
+   "underminr",
+   "badsuccessor"
+  ]
+ },
+ "05-22": {
+  "patron": "badhost",
+  "others": [
+   "dnsbomb",
+   "coldintro",
+   "cloak-and-dagger",
+   "coldinvite"
+  ]
+ },
+ "05-23": {
+  "patron": "isapwn",
+  "others": [
+   "z-shave"
+  ]
+ },
+ "05-24": {
+  "patron": "sambacry",
+  "others": []
+ },
+ "05-25": {
+  "patron": "m1racles",
+  "others": [
+   "half-double"
+  ]
+ },
+ "05-26": {
+  "patron": "towelroot",
+  "others": [
+   "symjack"
+  ]
+ },
+ "05-27": {
+  "patron": "follina",
+  "others": [
+   "snailload",
+   "cifswitch",
+   "failstrike"
+  ]
+ },
+ "05-28": {
+  "patron": "zapocalypse",
+  "others": [
+   "click-or-trick"
+  ]
+ },
+ "05-29": {
+  "patron": "bitskrieg",
+  "others": [
+   "chatgphish"
+  ]
+ },
+ "05-30": {
+  "patron": "migraine",
+  "others": []
+ },
+ "05-31": {
+  "patron": null,
+  "others": []
+ },
+ "06-01": {
+  "patron": "dubious-disk",
+  "others": [
+   "gammaphish",
+   "fusee-gelee",
+   "zipjar"
+  ]
+ },
+ "06-02": {
+  "patron": "ripple20",
+  "others": [
+   "hells-gate",
+   "http2-bomb",
+   "darkreplica",
+   "flagleft",
+   "dogwalk",
+   "cloudburst",
+   "spyhammer",
+   "byorwxdll"
+  ]
+ },
+ "06-03": {
+  "patron": "sgxpectre",
+  "others": [
+   "local-mess",
+   "comodos",
+   "pwnd-blaster"
+  ]
+ },
+ "06-04": {
+  "patron": "crowhammer",
+  "others": []
+ },
+ "06-05": {
+  "patron": "zip-slip",
+  "others": [
+   "proto6",
+   "nickname"
+  ]
+ },
+ "06-06": {
+  "patron": "senter-sandman",
+  "others": [
+   "recache"
+  ]
+ },
+ "06-07": {
+  "patron": "plundervolt",
+  "others": [
+   "artprompt",
+   "edrchoker"
+  ]
+ },
+ "06-08": {
+  "patron": "fluidfaults",
+  "others": []
+ },
+ "06-09": {
+  "patron": "ccs-injection",
+  "others": [
+   "cacheout",
+   "smbleed",
+   "alpaca",
+   "ghost-sender",
+   "pacman",
+   "danableed",
+   "rogueplanet",
+   "agentjacking"
+  ]
+ },
+ "06-10": {
+  "patron": "itscape",
+  "others": [
+   "greatxml",
+   "smartattack",
+   "maxss",
+   "spyder"
+  ]
+ },
+ "06-11": {
+  "patron": "echoleak",
+  "others": [
+   "tradetrap",
+   "sleepy-pickle",
+   "dcomillusionist"
+  ]
+ },
+ "06-12": {
+  "patron": "billion-laughs",
+  "others": [
+   "fortibleed",
+   "hydroph0bia",
+   "fallingskies",
+   "tokenbreak",
+   "sls",
+   "evilprinter"
+  ]
+ },
+ "06-13": {
+  "patron": "xortigate",
+  "others": [
+   "rohnp",
+   "screams-of-power",
+   "allocateAny",
+   "mintAny",
+   "overBuy",
+   "overMint",
+   "owner-underflow",
+   "undersell",
+   "zerofont"
+  ]
+ },
+ "06-14": {
+  "patron": "hertzbleed",
+  "others": []
+ },
+ "06-15": {
+  "patron": "collateral-damage",
+  "others": [
+   "the-grafana-ghost",
+   "boomerang",
+   "demonic",
+   "searchleak",
+   "process-ghosting"
+  ]
+ },
+ "06-16": {
+  "patron": "trigon",
+  "others": [
+   "bigdebit",
+   "pickle-in-the-middle"
+  ]
+ },
+ "06-17": {
+  "patron": "slubstick",
+  "others": [
+   "sack-panic",
+   "gerriscary",
+   "pedit-cow",
+   "AgentSmith"
+  ]
+ },
+ "06-18": {
+  "patron": "cosmicsting",
+  "others": [
+   "squidbleed",
+   "usbliter8",
+   "sack-slowness",
+   "dfscoerce",
+   "autojack"
+  ]
+ },
+ "06-19": {
+  "patron": "trivial-authentication",
+  "others": [
+   "rowpress"
+  ]
+ },
+ "06-20": {
+  "patron": "ueficanhazbufferoverflow",
+  "others": [
+   "wavethrough",
+   "noauth"
+  ]
+ },
+ "06-21": {
+  "patron": "mega-awry",
+  "others": [
+   "ot-icefall",
+   "repojacking",
+   "grimresource"
+  ]
+ },
+ "06-22": {
+  "patron": "ghosthook",
+  "others": [
+   "difytap",
+   "pixelsmash"
+  ]
+ },
+ "06-23": {
+  "patron": "orm-leaks",
+  "others": [
+   "bluetrust",
+   "evilreflex",
+   "netcat",
+   "the-miracle-exploit",
+   "filefix",
+   "echo-chamber",
+   "phantom-persistence",
+   "cordyceps"
+  ]
+ },
+ "06-24": {
+  "patron": "citrixbleed-2",
+  "others": [
+   "probllama",
+   "bad-epoll"
+  ]
+ },
+ "06-25": {
+  "patron": "dirtyclone",
+  "others": [
+   "sylkin",
+   "neighborjack",
+   "dirtyslide"
+  ]
+ },
+ "06-26": {
+  "patron": "copycat",
+  "others": [
+   "airkeylogger",
+   "skeleton-key"
+  ]
+ },
+ "06-27": {
+  "patron": "loopyticket",
+  "others": [
+   "epod",
+   "mockingjay",
+   "bandroid",
+   "manifest-confusion"
+  ]
+ },
+ "06-28": {
+  "patron": "rampage",
+  "others": [
+   "ThinkPwn",
+   "fabricscape",
+   "pgc"
+  ]
+ },
+ "06-29": {
+  "patron": "printnightmare",
+  "others": [
+   "longinus",
+   "risc-h",
+   "bioshocking"
+  ]
+ },
+ "06-30": {
+  "patron": "chroot-to-root",
+  "others": [
+   "citrixbleed-to-infinity-and-beyond",
+   "c4-attack",
+   "guardfall",
+   "phantom-squatting"
+  ]
+ },
+ "07-01": {
+  "patron": "duneslide",
+  "others": [
+   "regresshion",
+   "fatfs-chance",
+   "inkject",
+   "kirin"
+  ]
+ },
+ "07-02": {
+  "patron": "bigspender",
+  "others": [
+   "roguepuppet"
+  ]
+ },
+ "07-03": {
+  "patron": "printerleak",
+  "others": [
+   "stealtooth"
+  ]
+ },
+ "07-04": {
+  "patron": null,
+  "others": []
+ },
+ "07-05": {
+  "patron": "ill-bloom",
+  "others": [
+   "stackrot"
+  ]
+ },
+ "07-06": {
+  "patron": "januscape",
+  "others": [
+   "taptrap",
+   "gitlost",
+   "tootroot"
+  ]
+ },
+ "07-07": {
+  "patron": "rolling-pwn",
+  "others": [
+   "phwned",
+   "ghostlock-2",
+   "bit2watt",
+   "rogue-agent",
+   "writeout"
+  ]
+ },
+ "07-08": {
+  "patron": "opossum-attack",
+  "others": [
+   "kaminsky-bug",
+   "hallusquatting",
+   "ghostapproval",
+   "icmp-land-attack",
+   "notlogon",
+   "xring"
+  ]
+ },
+ "07-09": {
+  "patron": "ghostcommit",
+  "others": [
+   "tlbleed"
+  ]
+ },
+ "07-10": {
+  "patron": "perfektblue",
+  "others": [
+   "cookie-cutter",
+   "dirty-pagetable",
+   "thermanator"
+  ]
+ },
+ "07-11": {
+  "patron": "opheus-lyre",
+  "others": [
+   "throwhammer"
+  ]
+ },
+ "07-12": {
+  "patron": "follina-2",
+  "others": [
+   "breach",
+   "phantom"
+  ]
+ },
+ "07-13": {
+  "patron": "crit-ix",
+  "others": [
+   "visisploit",
+   "cd-leak"
+  ]
+ },
+ "07-14": {
+  "patron": "sigred",
+  "others": [
+   "recon",
+   "echoh-no",
+   "legacyhive",
+   "claudebleed-reopened"
+  ]
+ },
+ "07-15": {
+  "patron": "cookie-tossing",
+  "others": [
+   "satan",
+   "rc4-nomore",
+   "there-and-back-again",
+   "promptfiction"
+  ]
+ },
+ "07-16": {
+  "patron": "port-shadow",
+  "others": [
+   "badpower",
+   "golden-dmsa",
+   "hollowbyte"
+  ]
+ },
+ "07-17": {
+  "patron": "toolshell",
+  "others": [
+   "bad-taste",
+   "nvidiascape",
+   "wp2shell",
+   "wifidemon",
+   "presshammer",
+   "sapwned"
+  ]
+ },
+ "07-18": {
+  "patron": "petitpotam",
+  "others": [
+   "httpoxy",
+   "devils-ivy",
+   "counter-strike",
+   "firmwarebleed",
+   "badbuild"
+  ]
+ },
+ "07-19": {
+  "patron": "lobster",
+  "others": [
+   "passbleed"
+  ]
+ },
+ "07-20": {
+  "patron": "hivenightmare",
+  "others": [
+   "sequoia",
+   "physpuppet",
+   "meow-attack",
+   "spectrersb",
+   "xs-leaks"
+  ]
+ },
+ "07-21": {
+  "patron": "bailiwicked",
+  "others": []
+ },
+ "07-22": {
+  "patron": "refluxfs",
+  "others": [
+   "sitecloak",
+   "hermeticreader",
+   "dark-elevator",
+   "unholy-PAC",
+   "fake-chain-of-thought",
+   "evilvideo"
+  ]
+ },
+ "07-23": {
+  "patron": "agentforger",
+  "others": [
+   "sharedroot"
+  ]
+ },
+ "07-24": {
+  "patron": "tetra-burst",
+  "others": [
+   "certighost",
+   "zenbleed",
+   "confusedfunction",
+   "cfor",
+   "volt-boot"
+  ]
+ },
+ "07-25": {
+  "patron": "pkfail",
+  "others": [
+   "thread-name-calling"
+  ]
+ },
+ "07-26": {
+  "patron": "hole196",
+  "others": [
+   "shadowbunny",
+   "broadpwn"
+  ]
+ },
+ "07-27": {
+  "patron": "gameoverlay",
+  "others": [
+   "netspectre"
+  ]
+ },
+ "07-28": {
+  "patron": "ovswrap",
+  "others": [
+   "sploitlight",
+   "parsethru",
+   "androcon"
+  ]
+ },
+ "07-29": {
+  "patron": "rufroot",
+  "others": [
+   "boothole",
+   "esxith",
+   "bleedingpipe",
+   "echospoofing",
+   "cdn-tsunami"
+  ]
+ },
+ "07-30": {
+  "patron": "deathsleep",
+  "others": [
+   "kindarails2shell",
+   "sleepwalk",
+   "cosmosescape"
+  ]
+ },
+ "07-31": {
+  "patron": "sitting-duck",
+  "others": [
+   "layered-syscall"
+  ]
+ },
+ "08-01": {
+  "patron": "ghostwrite",
+  "others": [
+   "collide-power",
+   "curxecute",
+   "trusting-trust",
+   "bleichenbacher",
+   "unauthd"
+  ]
+ },
+ "08-02": {
+  "patron": "pwnedpiper",
+  "others": [
+   "notoken",
+   "fake-potato",
+   "phishforce",
+   "first-sequence-sync"
+  ]
+ },
+ "08-03": {
+  "patron": "codechism",
+  "others": [
+   "hpack-bomb",
+   "badtunnel",
+   "pwn-requests",
+   "pass-ta-key"
+  ]
+ },
+ "08-04": {
+  "patron": "infra-halt",
+  "others": [
+   "hotcobalt"
+  ]
+ },
+ "08-05": {
+  "patron": "stagefright",
+  "others": [
+   "etheroops",
+   "wp2root",
+   "resetnightmare",
+   "revault",
+   "mcpoison",
+   "kerberloss",
+   "dark-skippy",
+   "pass-the-passkey"
+  ]
+ },
+ "08-06": {
+  "patron": "natjack",
+  "others": [
+   "zapscape",
+   "vault-fault",
+   "sctphantom",
+   "xss2shell",
+   "segmentsmack",
+   "swapgs",
+   "callstranger",
+   "achilles",
+   "certifi-gate",
+   "agentflayer",
+   "tontou",
+   "ecscape",
+   "ghost-calls"
+  ]
+ },
+ "08-07": {
+  "patron": "pagejack",
+  "others": [
+   "proxyoracle",
+   "2tetra2burst",
+   "plug-and-pwn",
+   "quadrooter",
+   "sloth",
+   "drop-the-mic-2",
+   "drop-the-mic",
+   "shadow-resources",
+   "branch-privilege-injection",
+   "0-0-0-0-day",
+   "rovoblast"
+  ]
+ },
+ "08-08": {
+  "patron": "downfall",
+  "others": [
+   "tunnelcrack",
+   "milk-sad",
+   "route-of-root",
+   "voracle"
+  ]
+ },
+ "08-09": {
+  "patron": "byovdll",
+  "others": [
+   "madlicense",
+   "sinkclose",
+   "bad-io-uring",
+   "turning-page-tables",
+   "urgent11",
+   "squip",
+   "baton-drop",
+   "bitforge",
+   "bucket-monopoly",
+   "extension-resurrection",
+   "ghostjacking"
+  ]
+ },
+ "08-10": {
+  "patron": "maginotdns",
+  "others": [
+   "quickshell",
+   "win-ddos",
+   "copyescape",
+   "flip-feng-shui",
+   "powerhook",
+   "nuit"
+  ]
+ },
+ "08-11": {
+  "patron": "zoomsday",
+  "others": [
+   "cipherleaks",
+   "spamchannel",
+   "voltpillager",
+   "ghosttouch",
+   "shieldbreak",
+   "inception",
+   "demons",
+   "diskfiltration",
+   "magsound",
+   "video-jacking",
+   "onelogon",
+   "nvleak",
+   "delutaya"
+  ]
+ },
+ "08-12": {
+  "patron": "aepic-leak",
+  "others": [
+   "revolte",
+   "gpuhammer",
+   "nxnsattack",
+   "cain",
+   "shadowpanel",
+   "retbleed",
+   "faxploit",
+   "exprace",
+   "man-in-the-disk",
+   "prime-probe",
+   "adfsjacking"
+  ]
+ },
+ "08-13": {
+  "patron": "epicbanana",
+  "others": [
+   "extrabacon",
+   "benigncertain",
+   "loongleak",
+   "glowworm-attack",
+   "dejablue",
+   "evil-plc",
+   "data-dribble",
+   "ping-flood",
+   "reset-flood",
+   "resource-loop",
+   "settings-flood",
+   "empty-frames-flood",
+   "madeyoureset",
+   "fortmajeure",
+   "egregioiusblunder",
+   "escalateplowman",
+   "bitunlocker",
+   "download-more-ram",
+   "artipacked"
+  ]
+ },
+ "08-14": {
+  "patron": "ecc-fail",
+  "others": [
+   "light-commands",
+   "choicejacking",
+   "knob",
+   "zombie-card",
+   "bgp-vortex"
+  ]
+ },
+ "08-15": {
+  "patron": "dragonblood",
+  "others": [
+   "copy2pwn",
+   "spoiler",
+   "flush-reload",
+   "posthammer",
+   "xlate",
+   "oneflip"
+  ]
+ },
+ "08-16": {
+  "patron": null,
+  "others": []
+ },
+ "08-17": {
+  "patron": "juice-jacking",
+  "others": [
+   "nofilter"
+  ]
+ },
+ "08-18": {
+  "patron": "proxyshell",
+  "others": [
+   "clkscrew",
+   "cosnitch"
+  ]
+ },
+ "08-19": {
+  "patron": "wireserving",
+  "others": [
+   "shar"
+  ]
+ },
+ "08-20": {
+  "patron": "albeast",
+  "others": [
+   "cryptographic-context-injection"
+  ]
+ },
+ "08-21": {
+  "patron": "gairoscope",
+  "others": [
+   "etherled"
+  ]
+ },
+ "08-22": {
+  "patron": "dirtycred",
+  "others": [
+   "paracosme"
+  ]
+ },
+ "08-23": {
+  "patron": "windows-dirty-pipe",
+  "others": [
+   "pppwn",
+   "ropemaker"
+  ]
+ },
+ "08-24": {
+  "patron": "apache-killer",
+  "others": [
+   "wor",
+   "gifshell",
+   "injecmem"
+  ]
+ },
+ "08-25": {
+  "patron": "gputhor",
+  "others": [
+   "nemoclaw"
+  ]
+ },
+ "08-26": {
+  "patron": "chaosdb",
+  "others": [
+   "clickexfil"
+  ]
+ },
+ "08-27": {
+  "patron": "unibleed",
+  "others": [
+   "mcpjacking",
+   "guardbreaker",
+   "skyjack",
+   "sparrow",
+   "tetsuji"
+  ]
+ },
+ "08-28": {
+  "patron": "maldoc-in-pdf",
+  "others": []
+ },
+ "08-29": {
+  "patron": "greensection",
+  "others": [
+   "hardbreacher"
+  ]
+ },
+ "08-30": {
+  "patron": "proxytoken",
+  "others": [
+   "tdxploit",
+   "prettyprague",
+   "sonarsnoop"
+  ]
+ },
+ "08-31": {
+  "patron": "dolphinattack",
+  "others": []
+ },
+ "09-01": {
+  "patron": "postgreshell",
+  "others": [
+   "gitspawn"
+  ]
+ },
+ "09-02": {
+  "patron": "remotepotato0",
+  "others": [
+   "falconflank"
+  ]
+ },
+ "09-03": {
+  "patron": "eucleak",
+  "others": [
+   "rambo",
+   "byotc"
+  ]
+ },
+ "09-04": {
+  "patron": "injecteave",
+  "others": [
+   "revival-hijack"
+  ]
+ },
+ "09-05": {
+  "patron": "mikrotrick",
+  "others": [
+   "stylesmuggler"
+  ]
+ },
+ "09-06": {
+  "patron": "demons-cries",
+  "others": [
+   "the-return-of-the-wizard",
+   "draconian-fear",
+   "seventh-inferno",
+   "beast",
+   "fragmentsmack",
+   "smblost",
+   "heist"
+  ]
+ },
+ "09-07": {
+  "patron": "blastpass",
+  "others": [
+   "zcopyreaper",
+   "wiki-eve",
+   "pixhell"
+  ]
+ },
+ "09-08": {
+  "patron": "pixnapping",
+  "others": [
+   "spookjs",
+   "weworm",
+   "frostbyte10",
+   "overpass",
+   "s4get",
+   "shieldcrash"
+  ]
+ },
+ "09-09": {
+  "patron": "raccoon",
+  "others": [
+   "azurescape",
+   "nicraft"
+  ]
+ },
+ "09-10": {
+  "patron": "ticket-trick",
+  "others": [
+   "spade",
+   "puzzlemask"
+  ]
+ },
+ "09-11": {
+  "patron": "zerologon",
+  "others": [
+   "vmscape",
+   "beltdown",
+   "bashware",
+   "tagbleed"
+  ]
+ },
+ "09-12": {
+  "patron": "gazeploit",
+  "others": []
+ },
+ "09-13": {
+  "patron": "forcedentry",
+  "others": [
+   "themebleed",
+   "ssid-stripping",
+   "scriptblock-smuggling"
+  ]
+ },
+ "09-14": {
+  "patron": "omigod",
+  "others": [
+   "ddrop"
+  ]
+ },
+ "09-15": {
+  "patron": "parashells",
+  "others": [
+   "lies-in-the-loop",
+   "heapjack",
+   "overpatch",
+   "brokenpipe",
+   "repeat-after-me"
+  ]
+ },
+ "09-16": {
+  "patron": "chaotic-deputy",
+  "others": [
+   "bragjack",
+   "spell-jacking",
+   "cloudimposer",
+   "trustsink"
+  ]
+ },
+ "09-17": {
+  "patron": "phoenix",
+  "others": [
+   "heif-heist",
+   "bidi-swap",
+   "skeleton-cookie",
+   "peekaboo",
+   "plugin4shell"
+  ]
+ },
+ "09-18": {
+  "patron": "diagspill",
+  "others": [
+   "ppoeject",
+   "tunderflow",
+   "dirtyah6",
+   "optionsbleed",
+   "shadowleak",
+   "click2shell"
+  ]
+ },
+ "09-19": {
+  "patron": "bigdiskbuster",
+  "others": []
+ },
+ "09-20": {
+  "patron": "poodlebleed",
+  "others": [
+   "zapescape",
+   "poodle",
+   "attachme",
+   "spaiware"
+  ]
+ },
+ "09-21": {
+  "patron": "crime-time",
+  "others": [
+   "comment2shell",
+   "wibattack",
+   "not-a-mused"
+  ]
+ },
+ "09-22": {
+  "patron": "blacknurse",
+  "others": []
+ },
+ "09-23": {
+  "patron": "crowbleed",
+  "others": []
+ },
+ "09-24": {
+  "patron": "shellshock",
+  "others": [
+   "uncrew",
+   "salesbleed"
+  ]
+ },
+ "09-25": {
+  "patron": "entrysign",
+  "others": [
+   "forcedleak",
+   "berserk",
+   "hashhiding",
+   "qr-jacking"
+  ]
+ },
+ "09-26": {
+  "patron": "qu1ckr00t",
+  "others": [
+   "gpu-zip",
+   "unipwn",
+   "rotten-potato"
+  ]
+ },
+ "09-27": {
+  "patron": "mystique",
+  "others": [
+   "tldr-fail",
+   "tempest",
+   "checkm8"
+  ]
+ },
+ "09-28": {
+  "patron": null,
+  "others": []
+ },
+ "09-29": {
+  "patron": "branch-target-reuse",
+  "others": [
+   "flipswitch",
+   "pixelleak"
+  ]
+ },
+ "09-30": {
+  "patron": "wiretap-fail",
+  "others": [
+   "battering-ram",
+   "blurtooth",
+   "vscalation",
+   "kart-lan-pwn",
+   "chypnosis",
+   "lantenna",
+   "gemini-trifecta",
+   "relapse"
+  ]
+ },
+ "10-01": {
+  "patron": "stagefright-2",
+  "others": [
+   "VRS",
+   "dllparty",
+   "prying-eye"
+  ]
+ },
+ "10-02": {
+  "patron": "pitscaler",
+  "others": [
+   "dray-break",
+   "gatebleed"
+  ]
+ },
+ "10-03": {
+  "patron": "looney-tunables",
+  "others": [
+   "shelltorch",
+   "minerva",
+   "simjacker",
+   "drammer",
+   "cometjacking"
+  ]
+ },
+ "10-04": {
+  "patron": "proxynotshell",
+  "others": [
+   "dirtynib"
+  ]
+ },
+ "10-05": {
+  "patron": "spoolsample",
+  "others": [
+   "collide-probe"
+  ]
+ },
+ "10-06": {
+  "patron": "redishell",
+  "others": [
+   "kraken"
+  ]
+ },
+ "10-07": {
+  "patron": "zombie-certificates",
+  "others": [
+   "ascii-smuggling"
+  ]
+ },
+ "10-08": {
+  "patron": "samfail",
+  "others": [
+   "anypwn",
+   "camoleak",
+   "agentcorruption"
+  ]
+ },
+ "10-09": {
+  "patron": "adception",
+  "others": []
+ },
+ "10-10": {
+  "patron": "rapid-reset",
+  "others": [
+   "sandbreak",
+   "mailslot-dos",
+   "shadowlogic"
+  ]
+ },
+ "10-11": {
+  "patron": null,
+  "others": []
+ },
+ "10-12": {
+  "patron": "ghostpat",
+  "others": [
+   "callbackhell",
+   "vghost",
+   "nucleus-13",
+   "pork-explosion",
+   "plug-n-pwn",
+   "vercellbreak"
+  ]
+ },
+ "10-13": {
+  "patron": "rmpocalypse",
+  "others": [
+   "bad-neighbor",
+   "ping-of-death-2020",
+   "text4shell",
+   "rebirthday-attack",
+   "dheat",
+   "bits-please",
+   "bleedingtooth",
+   "badchoice",
+   "badkarma",
+   "badvibes",
+   "dos2rce",
+   "confusedpilot",
+   "slugfest"
+  ]
+ },
+ "10-14": {
+  "patron": "sandworm",
+  "others": [
+   "pwnescape",
+   "specrop",
+   "counterseveillance",
+   "wi-peep",
+   "sneakpeek"
+  ]
+ },
+ "10-15": {
+  "patron": "sad-dns",
+  "others": [
+   "tdxdown",
+   "blockstrap",
+   "badusb",
+   "containerdrip",
+   "drupalgeddon",
+   "sysbumps",
+   "early-cascade-injection",
+   "adfection"
+  ]
+ },
+ "10-16": {
+  "patron": "ret2dir",
+  "others": [
+   "plex2shell",
+   "heracles",
+   "big-fish",
+   "ransacked",
+   "roca",
+   "wpsplinter",
+   "tbone",
+   "etherhiding"
+  ]
+ },
+ "10-17": {
+  "patron": "zippyreads",
+  "others": [
+   "syscallrevenant",
+   "hm-surf",
+   "phantombuffer",
+   "frozen-privilege"
+  ]
+ },
+ "10-18": {
+  "patron": "trojan-source",
+  "others": [
+   "single-packet-attack",
+   "boundhook",
+   "ghostshares"
+  ]
+ },
+ "10-19": {
+  "patron": "proxyrelay",
+  "others": [
+   "fabrixss",
+   "gummy-browsers"
+  ]
+ },
+ "10-20": {
+  "patron": "dirty-cow",
+  "others": [
+   "4",
+   "header-accordions",
+   "gateway2hell"
+  ]
+ },
+ "10-21": {
+  "patron": "php2shell",
+  "others": [
+   "tarmageddon",
+   "phpbleed"
+  ]
+ },
+ "10-22": {
+  "patron": "sessionreaper",
+  "others": [
+   "cpdos",
+   "fortijump",
+   "imprompter"
+  ]
+ },
+ "10-23": {
+  "patron": "duhk",
+  "others": [
+   "deceptive-delight"
+  ]
+ },
+ "10-24": {
+  "patron": "citrixbleed",
+  "others": [
+   "bigsig"
+  ]
+ },
+ "10-25": {
+  "patron": "sweet32",
+  "others": [
+   "L1DES",
+   "efail",
+   "ileakage",
+   "overlog",
+   "logcrusher"
+  ]
+ },
+ "10-26": {
+  "patron": "ticketbleed",
+  "others": [
+   "sirispy",
+   "homehack"
+  ]
+ },
+ "10-27": {
+  "patron": "pixie-dust",
+  "others": [
+   "atombombing"
+  ]
+ },
+ "10-28": {
+  "patron": "spooky-ssl",
+  "others": [
+   "tee-fail",
+   "shrootless",
+   "brash"
+  ]
+ },
+ "10-29": {
+  "patron": "lightspeed",
+  "others": [
+   "shadow-escape"
+  ]
+ },
+ "10-30": {
+  "patron": "batsignal",
+  "others": [
+   "latentbreak",
+   "crossbarking"
+  ]
+ },
+ "10-31": {
+  "patron": "nat-slipstreaming",
+  "others": [
+   "agent-session-smuggling"
+  ]
+ },
+ "11-01": {
+  "patron": "risk-station",
+  "others": [
+   "braktooth",
+   "oobpci",
+   "badrecovery",
+   "cosmiss"
+  ]
+ },
+ "11-02": {
+  "patron": "portsmash",
+  "others": [
+   "apatchme"
+  ]
+ },
+ "11-03": {
+  "patron": null,
+  "others": []
+ },
+ "11-04": {
+  "patron": "certpotato",
+  "others": [
+   "lidattack"
+  ]
+ },
+ "11-05": {
+  "patron": "hackedgpt",
+  "others": []
+ },
+ "11-06": {
+  "patron": null,
+  "others": []
+ },
+ "11-07": {
+  "patron": "landfall",
+  "others": [
+   "whisper-leak"
+  ]
+ },
+ "11-08": {
+  "patron": "thrangrycat",
+  "others": [
+   "webexec"
+  ]
+ },
+ "11-09": {
+  "patron": "curse-of-silence",
+  "others": []
+ },
+ "11-10": {
+  "patron": "platypus",
+  "others": [
+   "avgater",
+   "masque-attack",
+   "sleep-attack"
+  ]
+ },
+ "11-11": {
+  "patron": "voltjockey",
+  "others": [
+   "mistune",
+   "winshock",
+   "checksum",
+   "cream"
+  ]
+ },
+ "11-12": {
+  "patron": "TAA",
+  "others": [
+   "ghost-potato",
+   "modeleak"
+  ]
+ },
+ "11-13": {
+  "patron": "fallout",
+  "others": [
+   "tpm-fail",
+   "ekuwu",
+   "janus",
+   "modipwn",
+   "echogram"
+  ]
+ },
+ "11-14": {
+  "patron": "fortijump-higher",
+  "others": [
+   "blueborne",
+   "randstorm",
+   "cachewarp",
+   "lateralus",
+   "reptar"
+  ]
+ },
+ "11-15": {
+  "patron": "sqlol",
+  "others": [
+   "pcspoof"
+  ]
+ },
+ "11-16": {
+  "patron": "smashex",
+  "others": [
+   "carsblues",
+   "koffee"
+  ]
+ },
+ "11-17": {
+  "patron": "credmanifest",
+  "others": [
+   "mic-e-mouse",
+   "supapwn"
+  ]
+ },
+ "11-18": {
+  "patron": "amnesia",
+  "others": [
+   "smbea",
+   "smgea",
+   "syncjacking"
+  ]
+ },
+ "11-19": {
+  "patron": "payday",
+  "others": [
+   "r-u-dead-yet",
+   "villainnet"
+  ]
+ },
+ "11-20": {
+  "patron": "doubledirect",
+  "others": [
+   "ghost-tap"
+  ]
+ },
+ "11-21": {
+  "patron": "bad-binder",
+  "others": [
+   "golden-saml",
+   "memjam",
+   "tilemask"
+  ]
+ },
+ "11-22": {
+  "patron": "nearest-neighbor",
+  "others": [
+   "joltandbleed",
+   "badaml"
+  ]
+ },
+ "11-23": {
+  "patron": "eccploit",
+  "others": []
+ },
+ "11-24": {
+  "patron": "badmalloc",
+  "others": []
+ },
+ "11-25": {
+  "patron": "shambles",
+  "others": []
+ },
+ "11-26": {
+  "patron": "retspill",
+  "others": [
+   "port-fail",
+   "flowbreaking",
+   "epilepticar",
+   "hashjack"
+  ]
+ },
+ "11-27": {
+  "patron": "bluffs",
+  "others": []
+ },
+ "11-28": {
+  "patron": "delefriend",
+  "others": []
+ },
+ "11-29": {
+  "patron": "sgx-fail",
+  "others": [
+   "logofail"
+  ]
+ },
+ "11-30": {
+  "patron": "bleichenbachers-cat",
+  "others": [
+   "naptha",
+   "printing-shellz"
+  ]
+ },
+ "12-01": {
+  "patron": "iohideous",
+  "others": [
+   "hells-keychain",
+   "artifact-poisoning"
+  ]
+ },
+ "12-02": {
+  "patron": "tudoor",
+  "others": []
+ },
+ "12-03": {
+  "patron": "react2shell",
+  "others": [
+   "psfree",
+   "strandhogg",
+   "paragowned",
+   "breakingwaf"
+  ]
+ },
+ "12-04": {
+  "patron": "garlicrust",
+  "others": [
+   "dogereaper",
+   "promptpwnd"
+  ]
+ },
+ "12-05": {
+  "patron": "damagecard",
+  "others": [
+   "slam"
+  ]
+ },
+ "12-06": {
+  "patron": "bleedingbit",
+  "others": [
+   "sierra21",
+   "idesaster",
+   "autospill",
+   "pool-party-2"
+  ]
+ },
+ "12-07": {
+  "patron": "5ghoul",
+  "others": [
+   "covid-bit",
+   "ot-attack"
+  ]
+ },
+ "12-08": {
+  "patron": "lcdpwn",
+  "others": [
+   "kerberos-bronze-bit",
+   "dirty-vanity",
+   "geminijack",
+   "zeroboot"
+  ]
+ },
+ "12-09": {
+  "patron": "log4shell",
+  "others": [
+   "json-juggling",
+   "zombie-workflows"
+  ]
+ },
+ "12-10": {
+  "patron": "spectra",
+  "others": [
+   "badram",
+   "airdos"
+  ]
+ },
+ "12-11": {
+  "patron": "magellan-2",
+  "others": [
+   "consentfix",
+   "authquake",
+   "quadattack"
+  ]
+ },
+ "12-12": {
+  "patron": "robot",
+  "others": [
+   "air-fi",
+   "dirtyclr"
+  ]
+ },
+ "12-13": {
+  "patron": "nopac",
+  "others": []
+ },
+ "12-14": {
+  "patron": "magellan",
+  "others": []
+ },
+ "12-15": {
+  "patron": "badwinmail",
+  "others": [
+   "v0ltpwn",
+   "amnesia-33",
+   "pool-party",
+   "doubleclickjacking"
+  ]
+ },
+ "12-16": {
+  "patron": "entrybleed",
+  "others": [
+   "dirty-dag"
+  ]
+ },
+ "12-17": {
+  "patron": "link-trap",
+  "others": []
+ },
+ "12-18": {
+  "patron": "terrapin",
+  "others": []
+ },
+ "12-19": {
+  "patron": "achilles-2",
+  "others": [
+   "stack-clash",
+   "meshyjson",
+   "blindside",
+   "kyberslash"
+  ]
+ },
+ "12-20": {
+  "patron": null,
+  "others": []
+ },
+ "12-21": {
+  "patron": "dirtycred-remastered",
+  "others": [
+   "leeloo-multipath",
+   "notlegit"
+  ]
+ },
+ "12-22": {
+  "patron": "enlbufferpwn",
+  "others": [
+   "puckungfu",
+   "acsessed"
+  ]
+ },
+ "12-23": {
+  "patron": "oh-snap-more-lemmings",
+  "others": [
+   "file-notification-attacks",
+   "sockstress",
+   "g-door"
+  ]
+ },
+ "12-24": {
+  "patron": null,
+  "others": []
+ },
+ "12-25": {
+  "patron": null,
+  "others": []
+ },
+ "12-26": {
+  "patron": "owassrf",
+  "others": [
+   "langgrinch",
+   "tabshell"
+  ]
+ },
+ "12-27": {
+  "patron": "triangulation",
+  "others": []
+ },
+ "12-28": {
+  "patron": "dmafail",
+  "others": [
+   "shadowcoerce",
+   "prompt-poaching"
+  ]
+ },
+ "12-29": {
+  "patron": "mongobleed",
+  "others": []
+ },
+ "12-30": {
+  "patron": "pwnscriptum",
+  "others": [
+   "misfortune-cookie",
+   "wind3x"
+  ]
+ },
+ "12-31": {
+  "patron": "y2k22",
+  "others": [
+   "reveal",
+   "bad-likert-judge"
+  ]
+ }
+}
