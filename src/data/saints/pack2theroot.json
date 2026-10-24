@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Pack2TheRoot, che spediva pacchi a root",
+    "patronage": "dei gestori di pacchetti, dei controlli fatti un attimo troppo presto e delle distribuzioni che installano senza chiedere.",
+    "hagiography": "Il 22 aprile 2026 Telekom Security rivelò Pack2TheRoot, una corsa critica in PackageKit, il servizio che installa software su molte distribuzioni Linux. Fra il momento in cui una transazione veniva autorizzata e quello in cui veniva eseguita, le sue opzioni potevano cambiare: un utente locale senza privilegi poteva così far installare pacchetti come root, senza autenticarsi. Il difetto riguardava le versioni dalla 1.0.2 alla 1.3.4.",
+    "prayer": "O San Pack2TheRoot, che consegni a root pacchi mai ordinati, fa' che i nostri servizi rileggano l'ordine al momento della spedizione. Amen.",
+    "feast": "Si festeggia aggiornando PackageKit alla 1.3.5 e controllando chi può davvero installare cosa.",
+    "proverb": "Pacco firmato a mezzogiorno, contenuto cambiato all'una."
+  },
+  "en": {
+    "title": "Saint Pack2TheRoot, Who Shipped Parcels to Root",
+    "patronage": "package managers, checks made a moment too early, and distributions that install without asking.",
+    "hagiography": "On 22 April 2026 Telekom Security revealed Pack2TheRoot, a race condition in PackageKit, the service that installs software on many Linux distributions. Between the moment a transaction was authorised and the moment it ran, its options could change: an unprivileged local user could thus get packages installed as root, without authenticating. The flaw affected versions 1.0.2 through 1.3.4.",
+    "prayer": "O Saint Pack2TheRoot, who delivers to root parcels nobody ordered, let our services reread the order at dispatch time. Amen.",
+    "feast": "Celebrated by updating PackageKit to 1.3.5 and checking who can really install what.",
+    "proverb": "Signed for at noon, swapped by one."
+  }
+}

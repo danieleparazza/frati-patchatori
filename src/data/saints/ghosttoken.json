@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato GhostToken, l'app fantasma",
+    "patronage": "delle app OAuth, dei progetti cloud in attesa di cancellazione e degli ospiti che non se ne vanno mai.",
+    "hagiography": "Il 20 aprile 2023 Astrix Security raccontò GhostToken, un difetto di Google Cloud segnalato nel giugno 2022. Un'app malevola, una volta autorizzata da un utente, poteva rendersi invisibile e impossibile da rimuovere dalla pagina degli accessi dell'account Google, mettendo il proprio progetto in attesa di cancellazione e riportandolo in vita quando le serviva. Google corresse il problema nell'aprile 2023: ora anche le app in quello stato compaiono nell'elenco.",
+    "prayer": "O Beato GhostToken, che abiti l'account senza farti vedere, fa' che ogni spirito autorizzato abbia un nome e un pulsante per scacciarlo. Amen.",
+    "feast": "Si festeggia aprendo la pagina delle app collegate all'account Google e congedando, con gentilezza, chi non serve più.",
+    "proverb": "Ospite invisibile, ospite eterno."
+  },
+  "en": {
+    "title": "Blessed GhostToken, the Phantom App",
+    "patronage": "OAuth apps, cloud projects pending deletion, and guests who never leave.",
+    "hagiography": "On 20 April 2023 Astrix Security described GhostToken, a Google Cloud flaw reported in June 2022. A malicious app, once authorised by a user, could make itself invisible and impossible to remove from the Google account's access page, by putting its own project into pending deletion and bringing it back to life when needed. Google fixed it in April 2023: apps in that state now show up in the list too.",
+    "prayer": "O Blessed GhostToken, who dwells in the account unseen, let every authorised spirit have a name and a button to cast it out. Amen.",
+    "feast": "Celebrated by opening your Google account's connected apps page and kindly dismissing those no longer needed.",
+    "proverb": "An unseen guest is a guest forever."
+  }
+}

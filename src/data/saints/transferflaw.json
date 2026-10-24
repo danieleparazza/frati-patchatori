@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato transferFlaw, terzo della trinità di aprile",
+    "patronage": "dei contratti intelligenti copiati e incollati, dei controlli sul saldo e dei revisori di codice Solidity.",
+    "hagiography": "Il 28 aprile 2018, dopo batchOverflow e proxyOverflow, PeckShield annunciò transferFlaw, un altro difetto aritmetico nelle funzioni di trasferimento di alcuni token ERC20. Il copione era lo stesso: un conto che non tornava permetteva di spostare gettoni che non si possedevano. In una sola settimana l'ecosistema imparò che il codice copiato si porta dietro anche i peccati dell'originale.",
+    "prayer": "O Beato transferFlaw, che chiudi il trittico dei conti sbagliati, fa' che chi copia un contratto ne copi anche i controlli. Amen.",
+    "feast": "Si festeggia facendo revisionare i contratti prima del lancio e usando librerie aritmetiche sicure.",
+    "proverb": "Non c'è due senza tre, e il terzo costa caro."
+  },
+  "en": {
+    "title": "Blessed transferFlaw, Third of the April Trinity",
+    "patronage": "copy-pasted smart contracts, balance checks, and Solidity code reviewers.",
+    "hagiography": "On 28 April 2018, after batchOverflow and proxyOverflow, PeckShield announced transferFlaw, another arithmetic flaw in the transfer functions of some ERC20 tokens. The script was the same: a calculation that didn't add up allowed moving tokens one did not own. In a single week the ecosystem learned that copied code carries the original's sins along with it.",
+    "prayer": "O Blessed transferFlaw, who completes the triptych of bad sums, let whoever copies a contract copy its checks as well. Amen.",
+    "feast": "Celebrated by having contracts audited before launch and using safe arithmetic libraries.",
+    "proverb": "Bad things come in threes, and the third one costs."
+  }
+}

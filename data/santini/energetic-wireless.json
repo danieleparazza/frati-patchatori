@@ -1,0 +1,10 @@
+{
+  "label": "energetic/wireless",
+  "motto": "CLAVIS IN FABRICA",
+  "niche": [
+    "#3a2a10",
+    "#6e5224"
+  ],
+  "accent": "#5a4018",
+  "emblem": "<path d=\"M150 132 L132 240 M150 132 L168 240 M138 206 H162 M142 176 H158 M135 222 L165 222\" stroke=\"#bfc9d1\" stroke-width=\"3\" fill=\"none\"/>\n<circle cx=\"150\" cy=\"130\" r=\"6\" fill=\"#d9ad55\"/>\n<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M134 116 Q126 130 134 144\"/><path d=\"M166 116 Q174 130 166 144\"/><path d=\"M122 108 Q108 130 122 152\"/><path d=\"M178 108 Q192 130 178 152\"/></g>\n<circle cx=\"104\" cy=\"200\" r=\"10\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/><path d=\"M104 210 V240 M104 226 H112 M104 234 H110\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<circle cx=\"196\" cy=\"200\" r=\"10\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/><path d=\"M196 210 V240 M196 226 H204 M196 234 H202\" stroke=\"#d9ad55\" stroke-width=\"3\"/>"
+}

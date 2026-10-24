@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'EternalBlue, fuggito dall'arsenale",
+    "patronage": "dei server SMBv1 dimenticati, delle armi digitali smarrite e dei sistemisti che rimandarono l'aggiornamento di marzo.",
+    "hagiography": "Nato negli arsenali dell'NSA, fu reso pubblico dagli Shadow Brokers il 14 aprile 2017. Colpiva SMBv1, il vecchio protocollo di condivisione file di Windows, e permetteva di eseguire codice da remoto senza credenziali. Microsoft aveva già pubblicato la cura un mese prima, con il bollettino MS17-010, ma molti non l'avevano installata: a maggio venne WannaCry, a giugno NotPetya, e il mondo imparò quanto costa un aggiornamento rimandato.",
+    "prayer": "O Sant'EternalBlue, che passasti dall'arsenale alla piazza, fa' che i nostri server non parlino più SMBv1 e che le patch di marzo siano installate entro aprile. Amen.",
+    "feast": "Si festeggia installando MS17-010, disattivando SMBv1 e chiudendo la porta 445 verso Internet.",
+    "proverb": "Arma smarrita, flagello trovato."
+  },
+  "en": {
+    "title": "Saint EternalBlue, Escaped From the Arsenal",
+    "patronage": "forgotten SMBv1 servers, lost digital weapons, and sysadmins who postponed March's update.",
+    "hagiography": "Born in the NSA's arsenals, he was made public by the Shadow Brokers on 14 April 2017. He struck SMBv1, Windows' old file-sharing protocol, and allowed remote code execution without credentials. Microsoft had already published the cure a month earlier in bulletin MS17-010, but many had not installed it: in May came WannaCry, in June NotPetya, and the world learned what a postponed update costs.",
+    "prayer": "O Saint EternalBlue, who passed from the arsenal to the town square, let our servers never speak SMBv1 again, and let March's patches be installed by April. Amen.",
+    "feast": "Celebrated by installing MS17-010, disabling SMBv1, and closing port 445 to the internet.",
+    "proverb": "A weapon lost is a plague found."
+  }
+}

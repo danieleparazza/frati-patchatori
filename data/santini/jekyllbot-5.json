@@ -1,0 +1,10 @@
+{
+  "label": "JekyllBot:5",
+  "motto": "DUAE ANIMAE",
+  "niche": [
+    "#14363a",
+    "#2c6a72"
+  ],
+  "accent": "#1e4e54",
+  "emblem": "<rect x=\"116\" y=\"150\" width=\"68\" height=\"74\" rx=\"8\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"124\" y=\"124\" width=\"52\" height=\"30\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"138\" cy=\"139\" r=\"5\" fill=\"#3498db\"/><circle cx=\"162\" cy=\"139\" r=\"5\" fill=\"#c0392b\"/>\n<path d=\"M150 124 V114\" stroke=\"#bfc9d1\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"112\" r=\"3\" fill=\"#d9ad55\"/>\n<rect x=\"144\" y=\"170\" width=\"12\" height=\"36\" fill=\"#c0392b\"/><rect x=\"132\" y=\"182\" width=\"36\" height=\"12\" fill=\"#c0392b\"/>\n<g fill=\"#2b1d14\"><circle cx=\"128\" cy=\"232\" r=\"8\"/><circle cx=\"172\" cy=\"232\" r=\"8\"/></g><g fill=\"#d9ad55\"><circle cx=\"128\" cy=\"232\" r=\"3\"/><circle cx=\"172\" cy=\"232\" r=\"3\"/></g>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San NAME:WRECK, naufrago del DNS",
+    "patronage": "degli stack TCP/IP incorporati, dei nomi di dominio compressi e dei dispositivi che nessuno aggiornerà mai.",
+    "hagiography": "Il 13 aprile 2021 Forescout e JSOF, nell'ambito del Project Memoria, rivelarono NAME:WRECK: nove vulnerabilità nel modo in cui quattro stack TCP/IP (FreeBSD, Nucleus NET, NetX e IPnet) interpretavano le risposte DNS. A naufragare era la vecchia compressione dei nomi di dominio, che fa risparmiare byte e regala guai. I ricercatori stimarono oltre cento milioni di dispositivi coinvolti, dai server ai sistemi industriali.",
+    "prayer": "O San NAME:WRECK, che fai affondare le navi leggendo male un nome, fa' che i nostri parser contino i puntatori prima di seguirli. Amen.",
+    "feast": "Si festeggia applicando le patch di FreeBSD, Siemens e Microsoft, e facendo l'inventario dei dispositivi con uno stack TCP/IP di cui non si sa nulla.",
+    "proverb": "Nome storpiato, nave affondata."
+  },
+  "en": {
+    "title": "Saint NAME:WRECK, Castaway of DNS",
+    "patronage": "embedded TCP/IP stacks, compressed domain names, and devices nobody will ever update.",
+    "hagiography": "On 13 April 2021 Forescout and JSOF, as part of Project Memoria, revealed NAME:WRECK: nine vulnerabilities in how four TCP/IP stacks (FreeBSD, Nucleus NET, NetX and IPnet) parsed DNS responses. What ran aground was the old compression of domain names, which saves bytes and gifts trouble. The researchers estimated over a hundred million devices involved, from servers to industrial systems.",
+    "prayer": "O Saint NAME:WRECK, who sinks ships by misreading a name, let our parsers count the pointers before following them. Amen.",
+    "feast": "Celebrated by applying the FreeBSD, Siemens and Microsoft patches, and taking stock of the devices running a TCP/IP stack nobody knows anything about.",
+    "proverb": "Mangle the name, sink the ship."
+  }
+}

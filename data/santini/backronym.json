@@ -1,0 +1,10 @@
+{
+  "label": "BACKRONYM",
+  "motto": "SSL AD LIBITUM",
+  "niche": [
+    "#14283a",
+    "#2c5274"
+  ],
+  "accent": "#1e3c56",
+  "emblem": "<rect x=\"118\" y=\"168\" width=\"64\" height=\"52\" rx=\"5\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M130 168 V150 C130 128 166 128 166 146\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"7\"/>\n<circle cx=\"150\" cy=\"190\" r=\"6\" fill=\"#2b1d14\"/><rect x=\"147\" y=\"192\" width=\"6\" height=\"16\" fill=\"#2b1d14\"/>\n<text x=\"150\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#fbf3dd\">--ssl ?</text>"
+}

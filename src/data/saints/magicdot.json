@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San MagicDot, illusionista dei puntini",
+    "patronage": "dei percorsi di Windows, dei punti e spazi in fondo ai nomi e dei file che ci sono ma non si vedono.",
+    "hagiography": "Nell'aprile 2024, alla Black Hat Asia, Or Yair di SafeBreach mostrò MagicDot. Quando Windows converte i vecchi percorsi in stile DOS, toglie in silenzio punti e spazi finali dai nomi: un dettaglio che permetteva di nascondere file e processi o di confondere gli strumenti, come un piccolo rootkit, senza diritti di amministratore. Lungo la strada trovò anche vulnerabilità vere, tra cui una nell'estrazione degli archivi compressi, che Microsoft corresse.",
+    "prayer": "O San MagicDot, che fai sparire i file con un puntino, fa' che i nostri sistemi chiamino ogni cosa con il suo nome, fino all'ultimo carattere. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di Windows e diffidando dei file il cui nome finisce con un punto.",
+    "proverb": "Un punto in fondo, e il file va a fondo."
+  },
+  "en": {
+    "title": "Saint MagicDot, Illusionist of Dots",
+    "patronage": "Windows paths, trailing dots and spaces, and files that are there but cannot be seen.",
+    "hagiography": "In April 2024, at Black Hat Asia, Or Yair of SafeBreach presented MagicDot. When Windows converts old DOS-style paths, it silently strips trailing dots and spaces from names: a detail that let files and processes be hidden, or tools be confused, rootkit-style, without admin rights. Along the way he also found real vulnerabilities, including one in compressed-folder extraction, which Microsoft fixed.",
+    "prayer": "O Saint MagicDot, who makes files vanish with a single dot, let our systems call everything by its name, down to the last character. Amen.",
+    "feast": "Celebrated by installing Windows updates and distrusting any file whose name ends in a dot.",
+    "proverb": "One dot at the end, and the file is gone."
+  }
+}

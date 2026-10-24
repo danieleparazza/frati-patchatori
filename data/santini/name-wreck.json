@@ -1,0 +1,10 @@
+{
+  "label": "NAME:WRECK",
+  "motto": "NAUFRAGIUM NOMINIS",
+  "niche": [
+    "#0f2a3a",
+    "#245a78"
+  ],
+  "accent": "#163f56",
+  "emblem": "<g transform=\"rotate(18 150 196)\"><path d=\"M108 196 H192 L180 220 H120 Z\" fill=\"#8b5a2b\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 196 V128\" stroke=\"#6e4b2a\" stroke-width=\"4\"/><path d=\"M152 132 L186 186 H152 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<text x=\"166\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#2b1d14\">DNS</text>\n</g>\n<path d=\"M98 222 Q112 214 126 222 T154 222 T182 222 T210 222\" fill=\"none\" stroke=\"#5dade2\" stroke-width=\"3\"/>\n<path d=\"M98 236 Q112 228 126 236 T154 236 T182 236 T210 236\" fill=\"none\" stroke=\"#5dade2\" stroke-width=\"3\"/>"
+}

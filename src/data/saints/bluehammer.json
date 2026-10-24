@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BlueHammer, martello sul guardiano",
+    "patronage": "degli antivirus con troppi privilegi, delle divulgazioni senza preavviso e dei guardiani che hanno bisogno di guardiani.",
+    "hagiography": "Il 2 aprile 2026 un ricercatore che si firma Chaotic Eclipse pubblicò su GitHub BlueHammer, in aperta polemica con il Microsoft Security Response Center e senza attendere una correzione. Il difetto stava in Microsoft Defender, proprio il programma che dovrebbe proteggere Windows: un utente locale poteva servirsene per ottenere privilegi elevati. Microsoft lo corresse come CVE-2026-33825, e la CISA lo inserì tra le vulnerabilità sfruttate, anche in campagne ransomware.",
+    "prayer": "O San BlueHammer, che colpisci con il martello del guardiano stesso, fa' che chi ci difende non diventi la porta d'ingresso. Amen.",
+    "feast": "Si festeggia verificando che la piattaforma antimalware di Defender si sia aggiornata davvero, invece di fidarsi della sua parola.",
+    "proverb": "Chi custodisce il castello ha le chiavi di tutte le stanze."
+  },
+  "en": {
+    "title": "Saint BlueHammer, the Hammer on the Guardian",
+    "patronage": "over-privileged antivirus, disclosures without warning, and guardians who need guardians.",
+    "hagiography": "On 2 April 2026 a researcher signing as Chaotic Eclipse published BlueHammer on GitHub, in open dispute with the Microsoft Security Response Center and without waiting for a fix. The flaw lay in Microsoft Defender, the very program meant to protect Windows: a local user could use it to gain elevated privileges. Microsoft fixed it as CVE-2026-33825, and CISA listed it as exploited in the wild, ransomware campaigns included.",
+    "prayer": "O Saint BlueHammer, who strikes with the guardian's own hammer, let those who defend us never become the front door. Amen.",
+    "feast": "Celebrated by checking that the Defender antimalware platform really did update, rather than taking its word for it.",
+    "proverb": "Whoever guards the castle holds the key to every room."
+  }
+}

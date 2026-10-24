@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Ring-Road, che misurava le password da fuori",
+    "patronage": "dei protocolli veloci, dei pacchetti senza imbottitura e delle password corte.",
+    "hagiography": "Nel 2017 Robert Morton, Austin Klasa e Daniel Sokoler della Purdue University descrissero Ring-Road: in QUIC, il protocollo sperimentale di Google, la cifratura AES-GCM lascia il messaggio lungo esattamente quanto l'originale. Chi osservava il traffico poteva così dedurre la lunghezza di una password durante l'accesso, senza leggerla. Secondo i ricercatori, quanto basta per rendere molto più facile indovinarla.",
+    "prayer": "O Beato Ring-Road, che conti i caratteri senza vederli, fa' che i nostri protocolli imbottiscano i segreti e che le nostre password siano lunghe. Amen.",
+    "feast": "Si festeggia attivando la verifica in due passaggi e scegliendo una password così lunga che misurarla non serva a niente.",
+    "proverb": "Chi conosce la lunghezza, ha già fatto metà strada."
+  },
+  "en": {
+    "title": "Blessed Ring-Road, Who Measured Passwords From Outside",
+    "patronage": "fast protocols, unpadded packets, and short passwords.",
+    "hagiography": "In 2017 Robert Morton, Austin Klasa and Daniel Sokoler of Purdue University described Ring-Road: in QUIC, Google's experimental protocol, AES-GCM encryption leaves the message exactly as long as the original. Anyone watching the traffic could therefore infer the length of a password during sign-in, without reading it. According to the researchers, that was enough to make guessing it much easier.",
+    "prayer": "O Blessed Ring-Road, who counts characters without seeing them, let our protocols pad their secrets and our passwords be long. Amen.",
+    "feast": "Celebrated by turning on two-step verification and choosing a password so long that measuring it is pointless.",
+    "proverb": "Know the length, and you're halfway there."
+  }
+}

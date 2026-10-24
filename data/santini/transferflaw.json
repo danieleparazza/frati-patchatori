@@ -1,0 +1,10 @@
+{
+  "label": "transferFlaw",
+  "motto": "TRES FALSAE SUMMAE",
+  "niche": [
+    "#24241a",
+    "#4c4c34"
+  ],
+  "accent": "#383826",
+  "emblem": "<circle cx=\"150\" cy=\"176\" r=\"42\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"176\" r=\"32\" fill=\"none\" stroke=\"#8b6914\" stroke-width=\"2\"/>\n<polygon points=\"150,150 166,176 150,186 134,176\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/><polygon points=\"134,180 150,190 166,180 150,204\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M168 136 L158 162 L172 178 L160 200 L170 218\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#2b1d14\" font-weight=\"bold\">III</text>"
+}

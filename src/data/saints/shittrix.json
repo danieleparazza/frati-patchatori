@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Shittrix, dal nome poco liturgico",
+    "patronage": "degli hypervisor, delle API di gestione invecchiate male e dei nomi che non si possono dire in chiesa.",
+    "hagiography": "Il 24 aprile 2026 il ricercatore indipendente Jakob Wolffhechel pubblicò Shittrix, frutto di nove settimane di analisi di XAPI, il software di gestione di Citrix XenServer e di XCP-ng. Secondo il suo resoconto, 89 problemi di convalida dell'input, alcuni risalenti a circa il 2006, permettevano a un ruolo delegato con pochi privilegi di arrivare al controllo dell'host e dell'intero pool. La divulgazione avvenne senza embargo, citando dispute precedenti con i fornitori, e al momento non c'erano patch pubbliche.",
+    "prayer": "O Beato Shittrix, dal nome che fa arrossire i chierichetti, fa' che le nostre API controllino ogni parametro e che i fornitori rispondano presto. Amen.",
+    "feast": "Si festeggia seguendo gli avvisi di Citrix e Vates, isolando la rete di gestione degli hypervisor e concedendo i ruoli delegati con parsimonia.",
+    "proverb": "Nome brutto, lavoro lungo."
+  },
+  "en": {
+    "title": "Blessed Shittrix, of Unliturgical Name",
+    "patronage": "hypervisors, management APIs that aged badly, and names you can't say in church.",
+    "hagiography": "On 24 April 2026 independent researcher Jakob Wolffhechel published Shittrix, the result of a nine-week review of XAPI, the management software behind Citrix XenServer and XCP-ng. By his account, 89 input-validation problems, some dating back to around 2006, let a low-privilege delegated role reach control of the host and the whole pool. Disclosure came without an embargo, citing earlier disputes with the vendors, and at the time there were no public patches.",
+    "prayer": "O Blessed Shittrix, whose name makes altar boys blush, let our APIs check every parameter and let vendors answer soon. Amen.",
+    "feast": "Celebrated by following Citrix and Vates advisories, isolating the hypervisor management network, and handing out delegated roles sparingly.",
+    "proverb": "Ugly name, long job."
+  }
+}

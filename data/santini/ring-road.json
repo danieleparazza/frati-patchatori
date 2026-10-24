@@ -1,0 +1,10 @@
+{
+  "label": "Ring-Road",
+  "motto": "LONGITUDO PRODIT",
+  "niche": [
+    "#1e2a3a",
+    "#3c5470"
+  ],
+  "accent": "#2a3e56",
+  "emblem": "<circle cx=\"150\" cy=\"180\" r=\"50\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"14\"/>\n<circle cx=\"150\" cy=\"180\" r=\"50\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\" stroke-dasharray=\"6 6\"/>\n<text x=\"150\" y=\"190\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" fill=\"#d9ad55\">*****</text>\n<path d=\"M116 246 H184 M116 240 V250 M184 240 V250 M133 243 V249 M150 243 V249 M167 243 V249\" stroke=\"#2b1d14\" stroke-width=\"2\"/>"
+}

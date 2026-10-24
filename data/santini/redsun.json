@@ -1,0 +1,10 @@
+{
+  "label": "RedSun",
+  "motto": "SOL RUBER ORITUR",
+  "niche": [
+    "#3a140f",
+    "#7a2a1e"
+  ],
+  "accent": "#5c1e14",
+  "emblem": "<g stroke=\"#e67e22\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"150\" y1=\"116\" x2=\"150\" y2=\"132\"/><line x1=\"104\" y1=\"162\" x2=\"120\" y2=\"162\"/><line x1=\"180\" y1=\"162\" x2=\"196\" y2=\"162\"/><line x1=\"118\" y1=\"130\" x2=\"129\" y2=\"141\"/><line x1=\"182\" y1=\"130\" x2=\"171\" y2=\"141\"/></g>\n<circle cx=\"150\" cy=\"166\" r=\"26\" fill=\"#e74c3c\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M150 196 L184 208 V226 C184 240 168 248 150 252 C132 248 116 240 116 226 V208 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\" transform=\"translate(0 -8)\"/>\n<path d=\"M100 192 H200\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>"
+}

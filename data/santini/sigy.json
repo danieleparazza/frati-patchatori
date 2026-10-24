@@ -1,0 +1,10 @@
+{
+  "label": "Sigy",
+  "motto": "SIGNUM FALLAX",
+  "niche": [
+    "#2a1a40",
+    "#4e3478"
+  ],
+  "accent": "#3c2860",
+  "emblem": "<rect x=\"112\" y=\"178\" width=\"76\" height=\"60\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M132 178 V164 C132 146 168 146 168 164 V178\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"6\"/>\n<circle cx=\"150\" cy=\"202\" r=\"7\" fill=\"#2b1d14\"/><rect x=\"147\" y=\"204\" width=\"6\" height=\"18\" fill=\"#2b1d14\"/>\n<polygon points=\"188,118 166,160 182,160 162,206 204,150 186,150 204,118\" fill=\"#f1c40f\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>"
+}

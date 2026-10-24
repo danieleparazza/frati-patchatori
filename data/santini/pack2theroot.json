@@ -1,0 +1,10 @@
+{
+  "label": "Pack2TheRoot",
+  "motto": "SARCINA AD RADICEM",
+  "niche": [
+    "#3a2410",
+    "#704a24"
+  ],
+  "accent": "#56381a",
+  "emblem": "<path d=\"M110 168 L150 152 L190 168 V222 L150 238 L110 222 Z\" fill=\"#c8a165\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M110 168 L150 184 L190 168 M150 184 V238\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M130 160 L170 176\" stroke=\"#8b5a2b\" stroke-width=\"5\"/>\n<path d=\"M124 146 L130 120 L142 136 L150 114 L158 136 L170 120 L176 146 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"170\" y=\"216\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2b1d14\" font-weight=\"bold\">root</text>"
+}

@@ -18,7 +18,7 @@
 <circle cx="150" cy="202" r="6" fill="#bfc9d1"/>
 <g stroke="#8e44ad" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M186 150 L200 162 L192 170 V146 L200 154 L186 166"/></g>
 <g fill="#d9ad55"><path d="M118 134 l-4 -16 l10 4 z"/></g>
-<text x="104" y="210" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="18" fill="#8e44ad">&#9834;</text></g>
+<text x="104" y="210" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="18" fill="#8e44ad">La</text></g>
 
 
 <path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#36234a"/>

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Pathfinder, lettore delle strade prese",
+    "patronage": "dei predittori di salto, delle immagini JPEG decodificate in segreto e dei processori che ricordano ogni bivio.",
+    "hagiography": "All'ASPLOS 2024 un gruppo di ricercatori guidato dalla UC San Diego presentò Pathfinder, un attacco al predittore dei salti condizionali dei processori moderni. Leggendo e manipolando la storia dei percorsi che la CPU conserva per indovinare il futuro, si poteva ricostruire quale strada avesse preso un altro programma, e da lì dedurre dati segreti: nelle dimostrazioni, chiavi AES e perfino immagini in corso di decodifica. Intel e AMD pubblicarono i propri avvisi.",
+    "prayer": "O Beato Pathfinder, che segui le orme del processore a ogni bivio, fa' che i nostri programmi segreti camminino senza lasciare tracce. Amen.",
+    "feast": "Si festeggia scrivendo codice crittografico a tempo costante, che prende sempre la stessa strada qualunque sia il segreto.",
+    "proverb": "Dimmi che strada fai e ti dirò cosa nascondi."
+  },
+  "en": {
+    "title": "Blessed Pathfinder, Reader of Roads Taken",
+    "patronage": "branch predictors, JPEG images decoded in secret, and processors that remember every fork in the road.",
+    "hagiography": "At ASPLOS 2024 a team of researchers led by UC San Diego presented Pathfinder, an attack on the conditional branch predictor of modern processors. By reading and manipulating the path history the CPU keeps to guess the future, one could reconstruct which road another program had taken, and from that infer secret data: in the demonstrations, AES keys and even images being decoded. Intel and AMD published their own advisories.",
+    "prayer": "O Blessed Pathfinder, who follows the processor's footsteps at every fork, let our secret programs walk without leaving tracks. Amen.",
+    "feast": "Celebrated by writing constant-time cryptographic code, which always takes the same road whatever the secret.",
+    "proverb": "Tell me the road you take and I'll tell you what you hide."
+  }
+}

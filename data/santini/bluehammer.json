@@ -1,0 +1,10 @@
+{
+  "label": "BlueHammer",
+  "motto": "MALLEUS CUSTODIS",
+  "niche": [
+    "#0f2340",
+    "#25508a"
+  ],
+  "accent": "#1b3d6e",
+  "emblem": "<path d=\"M150 126 L190 140 V180 C190 214 170 232 150 244 C130 232 110 214 110 180 V140 Z\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M150 128 L144 160 L156 176 L146 206\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<rect x=\"146\" y=\"164\" width=\"10\" height=\"80\" rx=\"3\" fill=\"#a0522d\" stroke=\"#2b1d14\" stroke-width=\"1.5\" transform=\"rotate(-35 151 204)\"/>\n<rect x=\"118\" y=\"146\" width=\"56\" height=\"24\" rx=\"4\" fill=\"#3498db\" stroke=\"#fbf3dd\" stroke-width=\"2\" transform=\"rotate(-35 146 158)\"/>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BRIDGE:BREAK, che spezzò il ponte seriale",
+    "patronage": "dei convertitori seriale-Ethernet, dei PLC che parlano ancora RS-232 e delle scatolette dimenticate in fondo all'armadio.",
+    "hagiography": "Il 21 aprile 2026 Forescout Vedere Labs pubblicò BRIDGE:BREAK, uno studio sui convertitori che collegano vecchie apparecchiature seriali, come PLC e relè di protezione, alle reti IP. Nei dispositivi di Lantronix e silex technology trovò 22 nuove vulnerabilità, alcune capaci di prendere il controllo dell'apparecchio da remoto. In laboratorio i ricercatori fecero oscillare un termometro tra -40 e +40 gradi: un ponte che, una volta spezzato, falsa ciò che passa da una sponda all'altra.",
+    "prayer": "O San BRIDGE:BREAK, che vegli sui ponti tra il mondo vecchio e quello nuovo, fa' che nessuno li attraversi senza permesso e che restino lontani da Internet. Amen.",
+    "feast": "Si festeggia aggiornando il firmware dei convertitori, cambiando le credenziali di fabbrica e segmentando la rete industriale.",
+    "proverb": "Ponte vecchio, pedaggio nuovo."
+  },
+  "en": {
+    "title": "Saint BRIDGE:BREAK, Who Broke the Serial Bridge",
+    "patronage": "serial-to-Ethernet converters, PLCs that still speak RS-232, and little boxes forgotten at the back of the cabinet.",
+    "hagiography": "On 21 April 2026 Forescout Vedere Labs published BRIDGE:BREAK, a study of the converters that connect legacy serial equipment, such as PLCs and protective relays, to IP networks. In devices from Lantronix and silex technology they found 22 new vulnerabilities, some able to take over the device remotely. In the lab the researchers made a thermometer swing between -40 and +40 degrees: a bridge that, once broken, falsifies whatever crosses from one bank to the other.",
+    "prayer": "O Saint BRIDGE:BREAK, who watches over the bridges between the old world and the new, let no one cross them without leave, and keep them far from the internet. Amen.",
+    "feast": "Celebrated by updating converter firmware, changing factory credentials and segmenting the industrial network.",
+    "proverb": "Old bridge, new toll."
+  }
+}

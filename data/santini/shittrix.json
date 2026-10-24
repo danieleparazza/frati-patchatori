@@ -1,0 +1,10 @@
+{
+  "label": "Shittrix",
+  "motto": "XAPI MALE OLET",
+  "niche": [
+    "#2e2414",
+    "#5a4628"
+  ],
+  "accent": "#44341c",
+  "emblem": "<g stroke=\"#2b1d14\" stroke-width=\"2\"><rect x=\"112\" y=\"200\" width=\"76\" height=\"22\" rx=\"3\" fill=\"#bfc9d1\"/><rect x=\"112\" y=\"174\" width=\"76\" height=\"22\" rx=\"3\" fill=\"#bfc9d1\"/><rect x=\"112\" y=\"148\" width=\"76\" height=\"22\" rx=\"3\" fill=\"#bfc9d1\"/></g>\n<g fill=\"#27ae60\"><circle cx=\"124\" cy=\"159\" r=\"3\"/><circle cx=\"124\" cy=\"185\" r=\"3\"/></g><circle cx=\"124\" cy=\"211\" r=\"3\" fill=\"#c0392b\"/>\n<path d=\"M160 146 L152 166 L164 178 L154 200 L162 224\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<g fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M128 140 C122 130 134 124 128 114\"/><path d=\"M150 140 C144 130 156 124 150 114\"/><path d=\"M172 140 C166 130 178 124 172 114\"/></g>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#2b1d14\" font-weight=\"bold\">89</text>"
+}

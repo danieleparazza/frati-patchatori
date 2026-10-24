@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato NotGitBleed, che firmava i commit con la password",
+    "patronage": "dei metadati di Git, delle finestre che sembrano un login e non lo sono, e di chi si chiama di cognome hunter2.",
+    "hagiography": "Nell'aprile 2022 Aaron Devaney di MDSec, con Will Deane, rese pubblico NotGitBleed: migliaia di sviluppatori avevano scritto nome utente e password di GitHub nei campi autore ed email dei propri commit, spesso ingannati da un prompt dell'IDE che pareva una schermata di accesso. I ricercatori stimarono fra 50.000 e 100.000 credenziali esposte nella storia dei repository. Niente sangue, come dice il nome: solo un modulo compilato con troppa fiducia.",
+    "prayer": "O Beato NotGitBleed, che scrivi la password dove andava l'email, fa' che i nostri strumenti controllino la chiocciola prima di salvare. Amen.",
+    "feast": "Si festeggia guardando il proprio git config, cambiando le password riutilizzate e lodando GitHub, che ora revoca da solo i token trovati nei metadati.",
+    "proverb": "Ciò che firmi, resta scritto."
+  },
+  "en": {
+    "title": "Blessed NotGitBleed, Who Signed Commits With a Password",
+    "patronage": "Git metadata, dialogs that look like a login but aren't, and people whose surname is hunter2.",
+    "hagiography": "In April 2022 Aaron Devaney of MDSec, with Will Deane, went public with NotGitBleed: thousands of developers had typed their GitHub username and password into the author and email fields of their commits, often fooled by an IDE prompt that looked like a sign-in screen. The researchers estimated between 50,000 and 100,000 credentials exposed in repository histories. No bleeding, as the name says: just a form filled in with too much trust.",
+    "prayer": "O Blessed NotGitBleed, who writes the password where the email belongs, let our tools look for the @ before they save. Amen.",
+    "feast": "Celebrated by checking your git config, rotating reused passwords, and praising GitHub, which now revokes tokens it finds in commit metadata.",
+    "proverb": "What you sign stays written."
+  }
+}

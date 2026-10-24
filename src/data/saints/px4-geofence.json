@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San PX4 Geofence, il drone che non rispettava i divieti",
+    "patronage": "dei droni che sconfinano, dei recinti virtuali e dei piloti convinti che il cartello non valesse per loro.",
+    "hagiography": "Il 23 aprile 2024 fu pubblicato un difetto di PX4 Autopilot 1.14, il software di volo open source che guida molti droni: secondo la scheda CVE, sfruttando una falla nel controllo del geofence si poteva portare il drone dentro le zone di volo vietate. Il recinto virtuale, che doveva essere invalicabile, si scoprì aggirabile come una siepe bassa.",
+    "prayer": "O San PX4 Geofence, custode dei confini disegnati sulla mappa, fa' che i nostri droni conoscano il limite e lo rispettino anche quando nessuno guarda. Amen.",
+    "feast": "Si festeggia aggiornando il firmware di volo e non affidando mai la sicurezza di un'area solo al recinto virtuale del drone."
+  },
+  "en": {
+    "title": "Saint PX4 Geofence, the Drone That Ignored the Signs",
+    "patronage": "trespassing drones, virtual fences, and pilots sure the sign didn't apply to them.",
+    "hagiography": "On 23 April 2024 a flaw was published in PX4 Autopilot 1.14, the open-source flight software that guides many drones: according to the CVE record, a weakness in the geofence check let the drone be flown into no-fly zones. The virtual fence, meant to be impassable, turned out to be as easy to step over as a low hedge.",
+    "prayer": "O Saint PX4 Geofence, keeper of borders drawn on the map, let our drones know their limits and respect them even when nobody is watching. Amen.",
+    "feast": "Celebrated by updating flight firmware and never trusting a drone's virtual fence alone to keep an area safe."
+  }
+}

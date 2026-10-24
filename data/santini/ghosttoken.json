@@ -1,0 +1,10 @@
+{
+  "label": "GhostToken",
+  "motto": "SPIRITUS MANET",
+  "niche": [
+    "#1a2234",
+    "#38486a"
+  ],
+  "accent": "#283450",
+  "emblem": "<path d=\"M120 236 V164 C120 120 180 120 180 164 V236 L170 226 L160 236 L150 226 L140 236 L130 226 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\" opacity=\"0.92\"/>\n<ellipse cx=\"138\" cy=\"164\" rx=\"6\" ry=\"9\" fill=\"#2b1d14\"/><ellipse cx=\"162\" cy=\"164\" rx=\"6\" ry=\"9\" fill=\"#2b1d14\"/>\n<circle cx=\"150\" cy=\"202\" r=\"15\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"208\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2b1d14\">G</text>"
+}

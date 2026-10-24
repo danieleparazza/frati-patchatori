@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ImageRunner, corriere delle immagini altrui",
+    "patronage": "dei container privati, dei service agent troppo servizievoli e di chi può aggiornare ma non dovrebbe leggere.",
+    "hagiography": "Il 1° aprile 2025, e non era uno scherzo, Liv Matan di Tenable raccontò ImageRunner, un difetto di Cloud Run su Google Cloud. Chi poteva modificare una revisione, ma non leggere il registro delle immagini, poteva comunque farsi distribuire un'immagine privata dello stesso progetto: a prelevarla ci pensava il service agent di Cloud Run, con i suoi permessi. Un fattorino che consegna il pacco a chiunque firmi la ricevuta.",
+    "prayer": "O Beato ImageRunner, che porti a chi chiede ciò che non potrebbe vedere, fa' che ogni consegna controlli prima il destinatario. Amen.",
+    "feast": "Si festeggia ricordando che dal 28 gennaio 2025 Cloud Run esige che chi crea la revisione abbia accesso in lettura all'immagine, e rileggendo i ruoli IAM con calma.",
+    "proverb": "Corriere zelante, magazzino vuoto."
+  },
+  "en": {
+    "title": "Blessed ImageRunner, Courier of Other People's Images",
+    "patronage": "private containers, overly helpful service agents, and people allowed to update but not to read.",
+    "hagiography": "On 1 April 2025, and it was no joke, Liv Matan of Tenable described ImageRunner, a flaw in Google Cloud Run. Someone who could edit a revision, but not read the image registry, could still get a private image from the same project deployed: Cloud Run's service agent fetched it with its own permissions. A delivery driver who hands the parcel to whoever signs the slip.",
+    "prayer": "O Blessed ImageRunner, who brings people what they were not allowed to see, let every delivery check the recipient first. Amen.",
+    "feast": "Celebrated by recalling that since 28 January 2025 Cloud Run requires whoever creates a revision to have read access to the image, and by reviewing IAM roles at leisure.",
+    "proverb": "Eager courier, empty warehouse."
+  }
+}

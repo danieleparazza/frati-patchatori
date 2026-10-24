@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Squiblydoo, che parlava con la voce dei programmi fidati",
+    "patronage": "dei binari firmati da Microsoft, delle whitelist troppo ottimiste e di chi vive della terra altrui.",
+    "hagiography": "Nell'aprile 2016 Casey Smith, noto come subTee, mostrò che regsvr32, un vecchio strumento di Windows per registrare componenti, poteva caricare uno scriptlet da un indirizzo remoto ed eseguirlo, scavalcando AppLocker. Non era un bug con patch ma una tecnica: usare un programma fidato per fare ciò che un programma sconosciuto non potrebbe. Il nome buffo restò, e la tecnica divenne un classico del living off the land.",
+    "prayer": "O Beato Squiblydoo, che fai dire ai programmi fidati parole che non sono loro, fa' che le nostre regole guardino cosa si fa e non solo chi lo fa. Amen.",
+    "feast": "Si festeggia limitando regsvr32 con WDAC, bloccandone il traffico in uscita e leggendo con affetto il catalogo LOLBAS.",
+    "proverb": "Non è l'abito firmato a fare il monaco."
+  },
+  "en": {
+    "title": "Blessed Squiblydoo, Who Spoke in the Voice of Trusted Programs",
+    "patronage": "Microsoft-signed binaries, over-optimistic allowlists, and those who live off other people's land.",
+    "hagiography": "In April 2016 Casey Smith, known as subTee, showed that regsvr32, an old Windows tool for registering components, could load a scriptlet from a remote address and run it, getting past AppLocker. It was not a bug with a patch but a technique: using a trusted program to do what an unknown one could not. The silly name stuck, and the technique became a living-off-the-land classic.",
+    "prayer": "O Blessed Squiblydoo, who puts words in trusted programs' mouths, let our rules watch what is done and not only who does it. Amen.",
+    "feast": "Celebrated by restricting regsvr32 with WDAC, blocking its outbound traffic, and fondly browsing the LOLBAS catalogue.",
+    "proverb": "A signed habit does not make the monk."
+  }
+}

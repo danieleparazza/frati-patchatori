@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LeakyCLI, il terminale che parlava troppo",
+    "patronage": "dei log delle pipeline, delle variabili d'ambiente in chiaro e dei comportamenti \"previsti dal design\".",
+    "hagiography": "Nel 2023 Orca Security segnalò che alcuni comandi della CLI di Azure stampavano nei log segreti e credenziali, e quei log spesso finivano visibili nelle build pubbliche, per esempio su GitHub Actions. Microsoft lo corresse come CVE-2023-36052. Il 16 aprile 2024 Orca mostrò che le CLI di AWS e di Google Cloud facevano lo stesso, ma i due fornitori risposero che era il comportamento atteso e aggiornarono la documentazione.",
+    "prayer": "O San LeakyCLI, che reciti ad alta voce ciò che dovevi tacere, fa' che i nostri terminali sappiano mantenere un segreto. Amen.",
+    "feast": "Si festeggia aggiornando la CLI di Azure, silenziando l'output nelle pipeline e cercando nei vecchi log ciò che non doveva esserci.",
+    "proverb": "Terminale loquace, segreto fugace."
+  },
+  "en": {
+    "title": "Saint LeakyCLI, the Terminal That Talked Too Much",
+    "patronage": "pipeline logs, plaintext environment variables, and behaviour that is \"working as designed\".",
+    "hagiography": "In 2023 Orca Security reported that some Azure CLI commands printed secrets and credentials into logs, and those logs often ended up visible in public builds, for instance on GitHub Actions. Microsoft fixed it as CVE-2023-36052. On 16 April 2024 Orca showed that the AWS and Google Cloud CLIs did the same, but both vendors replied that this was expected behaviour and updated their documentation.",
+    "prayer": "O Saint LeakyCLI, who recites aloud what should stay unspoken, let our terminals learn to keep a secret. Amen.",
+    "feast": "Celebrated by updating the Azure CLI, silencing output in pipelines, and searching old logs for things that should not be there.",
+    "proverb": "A chatty shell keeps no secrets well."
+  }
+}

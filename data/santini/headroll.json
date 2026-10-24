@@ -1,0 +1,10 @@
+{
+  "label": "Headroll",
+  "motto": "SINE CAPITE",
+  "niche": [
+    "#1d3340",
+    "#3c6478"
+  ],
+  "accent": "#2a4a5c",
+  "emblem": "<rect x=\"104\" y=\"130\" width=\"92\" height=\"76\" rx=\"5\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"104\" y=\"130\" width=\"92\" height=\"14\" rx=\"5\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#2b1d14\"><circle cx=\"113\" cy=\"137\" r=\"2.5\"/><circle cx=\"121\" cy=\"137\" r=\"2.5\"/><circle cx=\"129\" cy=\"137\" r=\"2.5\"/></g>\n<text x=\"150\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"28\" fill=\"#2b1d14\">{ }</text>\n<circle cx=\"168\" cy=\"232\" r=\"14\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/><path d=\"M160 228 h4 M172 228 h4 M162 238 q6 4 12 0\" stroke=\"#2b1d14\" stroke-width=\"2\" fill=\"none\"/>\n<path d=\"M120 246 H200\" stroke=\"#d9ad55\" stroke-width=\"2\"/>"
+}

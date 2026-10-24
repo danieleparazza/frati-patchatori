@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BACKRONYM, patrono dei nomi con logo",
+    "patronage": "di MySQL, delle opzioni che sembrano obbligatorie ma sono facoltative e degli acronimi costruiti al contrario.",
+    "hagiography": "Il 30 aprile 2015 Adam Goodman di Duo Security rivelò che in MySQL e MariaDB l'opzione --ssl rendeva la cifratura solo facoltativa: un intermediario poteva indurre il client a ripiegare sulla connessione in chiaro. Per farsi notare il difetto ricevette nome, sito e logo, con un acronimo volutamente assurdo: Bad Authentication Causes Kritical Risk Over Networks, Yikes MySQL. Una parodia affettuosa della moda dei bug con il marchio.",
+    "prayer": "O San BACKRONYM, che leggi i nomi alla rovescia, fa' che le nostre opzioni significhino ciò che dicono e che la cifratura non sia mai un optional. Amen.",
+    "feast": "Si festeggia aggiornando MySQL, Connector/C e MariaDB e pretendendo una connessione cifrata invece di chiederla per favore.",
+    "proverb": "Opzione facoltativa, sicurezza decorativa."
+  },
+  "en": {
+    "title": "Saint BACKRONYM, Patron of Names With Logos",
+    "patronage": "MySQL, options that look mandatory but are optional, and acronyms built backwards.",
+    "hagiography": "On 30 April 2015 Adam Goodman of Duo Security revealed that in MySQL and MariaDB the --ssl option made encryption merely optional: a man in the middle could make the client fall back to a cleartext connection. To get noticed the flaw got a name, a website and a logo, with a deliberately absurd acronym: Bad Authentication Causes Kritical Risk Over Networks, Yikes MySQL. An affectionate parody of the branded-bug fashion.",
+    "prayer": "O Saint BACKRONYM, who reads names backwards, let our options mean what they say and never let encryption be an optional extra. Amen.",
+    "feast": "Celebrated by updating MySQL, Connector/C and MariaDB, and requiring an encrypted connection instead of asking for one nicely.",
+    "proverb": "Optional encryption, decorative protection."
+  }
+}

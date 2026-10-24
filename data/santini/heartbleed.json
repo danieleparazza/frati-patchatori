@@ -1,0 +1,10 @@
+{
+  "label": "Heartbleed",
+  "motto": "COR SANGUINANS",
+  "niche": [
+    "#3a0f14",
+    "#6e1f28"
+  ],
+  "accent": "#7a1520",
+  "emblem": "<path d=\"M150 228 C110 196 102 172 112 156 C122 140 144 142 150 160 C156 142 178 140 188 156 C198 172 190 196 150 228 Z\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M150 230 C144 240 144 246 150 248 C156 246 156 240 150 230 Z\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"136\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">64 KB</text>"
+}

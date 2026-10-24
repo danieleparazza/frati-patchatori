@@ -1,0 +1,10 @@
+{
+  "label": "MagicDot",
+  "motto": "PUNCTUM EVANESCIT",
+  "niche": [
+    "#24143a",
+    "#4a2c74"
+  ],
+  "accent": "#36205a",
+  "emblem": "<rect x=\"124\" y=\"140\" width=\"52\" height=\"56\" fill=\"#111\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<rect x=\"108\" y=\"194\" width=\"84\" height=\"10\" rx=\"3\" fill=\"#111\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<rect x=\"124\" y=\"180\" width=\"52\" height=\"8\" fill=\"#8e44ad\"/>\n<line x1=\"176\" y1=\"236\" x2=\"206\" y2=\"150\" stroke=\"#111\" stroke-width=\"5\"/><line x1=\"200\" y1=\"167\" x2=\"206\" y2=\"150\" stroke=\"#fbf3dd\" stroke-width=\"5\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"120\" cy=\"226\" r=\"5\"/><circle cx=\"138\" cy=\"228\" r=\"4\"/><circle cx=\"154\" cy=\"230\" r=\"3\"/><circle cx=\"166\" cy=\"231\" r=\"2\"/><circle cx=\"175\" cy=\"232\" r=\"1.2\"/></g>\n<text x=\"150\" y=\"130\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"17\" fill=\"#2b1d14\" font-weight=\"bold\">file. .</text>"
+}

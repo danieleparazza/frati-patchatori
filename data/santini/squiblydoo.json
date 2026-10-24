@@ -1,0 +1,10 @@
+{
+  "label": "Squiblydoo",
+  "motto": "VOX ALIENA",
+  "niche": [
+    "#2a2410",
+    "#5a4c22"
+  ],
+  "accent": "#463a18",
+  "emblem": "<path d=\"M116 134 H186 V226 H116 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<ellipse cx=\"116\" cy=\"134\" rx=\"8\" ry=\"8\" fill=\"#e8dcb8\" stroke=\"#2b1d14\" stroke-width=\"2\"/><ellipse cx=\"186\" cy=\"226\" rx=\"8\" ry=\"8\" fill=\"#e8dcb8\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M128 156 Q136 146 144 156 T160 156 T176 156\" fill=\"none\" stroke=\"#8e44ad\" stroke-width=\"3\"/>\n<path d=\"M128 176 H174 M128 188 H166 M128 200 H170\" stroke=\"#6e4b2a\" stroke-width=\"2\"/>\n<circle cx=\"168\" cy=\"214\" r=\"8\" fill=\"#c0392b\"/>"
+}

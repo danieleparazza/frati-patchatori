@@ -20,7 +20,8 @@
     "11-01": "blue-box-2600hz",
     "11-20": "land-attack",
     "02-01": "pizza-thief",
-    "02-23": "shattered"
+    "02-23": "shattered",
+    "04-23": "px4-geofence"
   },
   "dates": {
     "shattered": "2017-02-23",
@@ -97,9 +98,12 @@
     "winnuke",
     "m1racles",
     "billion-laughs",
-    "ueficanhazbufferoverflow"
+    "ueficanhazbufferoverflow",
+    "px4-geofence"
   ],
-  "exclude": [],
+  "exclude": [
+    "halos-gate"
+  ],
   "removeCves": {
     "react2shell": [
       "CVE-2025-66478"

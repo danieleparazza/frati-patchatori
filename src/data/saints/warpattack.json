@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato WarpAttack, che piegava il tempo dei compilatori",
+    "patronage": "delle tabelle di salto, dei controlli fatti una volta e letti due, e della Control-Flow Integrity presa alla lettera.",
+    "hagiography": "Al simposio IEEE Security & Privacy del 2023 i ricercatori di HexHive all'EPFL, con Mathias Payer, presentarono WarpAttack. Mostrarono che i compilatori, ottimizzando gli switch, a volte leggono due volte lo stesso valore: una volta per controllarlo e una per usarlo. In quell'istante di distrazione un attaccante poteva cambiarlo e deviare il programma, anche con la Control-Flow Integrity attiva.",
+    "prayer": "O Beato WarpAttack, che vivi nell'attimo tra il controllo e l'uso, fa' che i nostri compilatori leggano una volta sola e ricordino ciò che hanno letto. Amen.",
+    "feast": "Si festeggia aggiornando il compilatore e ripetendo, prima di dormire: controlla ciò che usi, usa ciò che hai controllato.",
+    "proverb": "Chi legge due volte, la seconda legge altro."
+  },
+  "en": {
+    "title": "Blessed WarpAttack, Who Bent the Compilers' Time",
+    "patronage": "jump tables, checks done once and read twice, and Control-Flow Integrity taken too literally.",
+    "hagiography": "At IEEE Security & Privacy 2023, researchers from HexHive at EPFL, with Mathias Payer, presented WarpAttack. They showed that compilers, when optimising switch statements, sometimes read the same value twice: once to check it and once to use it. In that moment of distraction an attacker could swap it and divert the program, even with Control-Flow Integrity switched on.",
+    "prayer": "O Blessed WarpAttack, who dwells in the instant between check and use, let our compilers read once and remember what they read. Amen.",
+    "feast": "Celebrated by updating the compiler and repeating at bedtime: check what you use, use what you checked.",
+    "proverb": "Read it twice, and the second time it says something else."
+  }
+}

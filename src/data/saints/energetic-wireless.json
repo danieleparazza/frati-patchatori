@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Energetic, protettore del Wireless",
+    "patronage": "delle radio a microonde, delle password scritte in fabbrica e dei tecnici che vogliono entrare sempre.",
+    "hagiography": "Nel 2017 si scoprì che le radio DragonWave Horizon contenevano credenziali fisse, pensate per l'accesso del produttore: nome utente energetic, password wireless. Funzionavano dall'interfaccia web e via Telnet, su ogni apparecchio uguale all'altro. Una coppia di parole così allegra da sembrare uno slogan, e così nota da diventare una CVE.",
+    "prayer": "O San Energetic, che apri ogni radio con il tuo nome e quello di tuo fratello Wireless, fa' che nessun produttore lasci più la chiave sotto lo zerbino. Amen.",
+    "feast": "Si festeggia aggiornando il firmware alla 1.4.8 o successive e chiudendo Telnet, per sempre."
+  },
+  "en": {
+    "title": "Saint Energetic, Protector of Wireless",
+    "patronage": "microwave radios, factory-written passwords, and engineers who always want a way in.",
+    "hagiography": "In 2017 it emerged that DragonWave Horizon radios contained hardcoded credentials meant for vendor access: username energetic, password wireless. They worked through the web interface and over Telnet, on every unit alike. A pair of words so cheerful it sounds like a slogan, and so well known it became a CVE.",
+    "prayer": "O Saint Energetic, who opens every radio with your name and your brother Wireless's, let no vendor ever leave the key under the doormat again. Amen.",
+    "feast": "Celebrated by updating the firmware to 1.4.8 or later and closing Telnet, for good."
+  }
+}

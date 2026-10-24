@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Holey Beep, il bucato che suona",
+    "patronage": "dei programmi minuscoli con il bit setuid, dei siti parodia con logo e dei terminali che fanno bip.",
+    "hagiography": "Il 3 aprile 2018 il mondo scoprì che anche beep, il comando che fa emettere un bip al computer, aveva il suo buco: nelle versioni fino alla 1.3.4, se installato setuid come su Debian, una corsa critica permetteva a un utente locale di diventare root. Il sito holeybeep.ninja lo celebrò con logo e nome alla Heartbleed, in piena parodia. E secondo le cronache persino la \"patch\" proposta dal sito nascondeva uno scherzo che sfruttava un difetto di GNU patch.",
+    "prayer": "O San Holey Beep, che fai suonare root con un semplice bip, fa' che i nostri programmi più piccoli restino umili e senza setuid. Amen.",
+    "feast": "Si festeggia aggiornando il pacchetto beep, togliendogli il setuid e leggendo le patch prima di applicarle.",
+    "proverb": "Anche il più piccolo bip può svegliare root."
+  },
+  "en": {
+    "title": "Saint Holey Beep, the Hole That Beeps",
+    "patronage": "tiny programs with the setuid bit, parody sites with logos, and terminals that go beep.",
+    "hagiography": "On 3 April 2018 the world learned that even beep, the command that makes the computer go beep, had a hole: in versions up to 1.3.4, when installed setuid as on Debian, a race condition let a local user become root. The site holeybeep.ninja celebrated it with a Heartbleed-style name and logo, in full parody. And by most accounts even the site's own \"patch\" hid a prank abusing a flaw in GNU patch.",
+    "prayer": "O Saint Holey Beep, who makes root ring with a simple beep, keep our smallest programs humble and free of setuid. Amen.",
+    "feast": "Celebrated by updating the beep package, removing its setuid bit, and reading patches before applying them.",
+    "proverb": "Even the smallest beep can wake root."
+  }
+}

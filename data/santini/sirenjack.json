@@ -1,0 +1,10 @@
+{
+  "label": "SirenJack",
+  "motto": "SIRENA RAPTA",
+  "niche": [
+    "#3a1a0f",
+    "#78381e"
+  ],
+  "accent": "#5c2a14",
+  "emblem": "<rect x=\"146\" y=\"176\" width=\"8\" height=\"70\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"1.5\"/>\n<path d=\"M150 150 L118 132 V176 L150 158 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M150 150 L182 132 V176 L150 158 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"140\" y=\"148\" width=\"20\" height=\"30\" rx=\"3\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M106 136 Q98 154 106 172\"/><path d=\"M96 128 Q84 154 96 180\"/><path d=\"M194 136 Q202 154 194 172\"/><path d=\"M204 128 Q216 154 204 180\"/></g>"
+}

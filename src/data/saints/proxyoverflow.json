@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San proxyOverflow, moltiplicatore di gettoni",
+    "patronage": "dei token ERC20, degli interi che traboccano e dei contratti che non si possono correggere.",
+    "hagiography": "Il 25 aprile 2018 PeckShield descrisse proxyOverflow, un overflow di interi nella funzione transferProxy del token SmartMesh (SMT), già sfruttato in quei giorni. Grazie a una somma che traboccava, qualcuno si ritrovò con una quantità astronomica di gettoni creati dal nulla, e diversi exchange sospesero depositi e scambi di SMT. Arrivava tre giorni dopo il caso gemello batchOverflow: aprile 2018 fu un mese di miracoli aritmetici.",
+    "prayer": "O San proxyOverflow, che moltiplichi i gettoni come i pani ma senza il permesso, fa' che i nostri contratti usino SafeMath e contino come si deve. Amen.",
+    "feast": "Si festeggia controllando ogni somma prima di farla e ricordando che un contratto pubblicato non si aggiorna con una patch.",
+    "proverb": "Somma che trabocca, portafoglio che si gonfia."
+  },
+  "en": {
+    "title": "Saint proxyOverflow, Multiplier of Tokens",
+    "patronage": "ERC20 tokens, overflowing integers, and contracts that cannot be patched.",
+    "hagiography": "On 25 April 2018 PeckShield described proxyOverflow, an integer overflow in the transferProxy function of the SmartMesh (SMT) token, already exploited in those days. Thanks to a sum that overflowed, someone found themselves holding an astronomical number of tokens created from nothing, and several exchanges suspended SMT deposits and trading. It came three days after its twin, batchOverflow: April 2018 was a month of arithmetic miracles.",
+    "prayer": "O Saint proxyOverflow, who multiplies tokens like loaves but without permission, let our contracts use SafeMath and count properly. Amen.",
+    "feast": "Celebrated by checking every sum before doing it, and remembering that a deployed contract does not take patches.",
+    "proverb": "An overflowing sum makes a swollen purse."
+  }
+}

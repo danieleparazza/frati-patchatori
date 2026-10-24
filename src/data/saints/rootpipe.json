@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Rootpipe, il fumatore di root",
+    "patronage": "delle API nascoste, delle patch che arrivano solo alla versione più nuova e dei Mac che si credevano invulnerabili.",
+    "hagiography": "Il 9 aprile 2015 Emil Kvarnhammar di TrueSec rivelò Rootpipe, una \"backdoor\" nascosta nel framework di amministrazione di OS X: un utente qualsiasi poteva ottenere i privilegi di root senza password. Apple lo corresse in OS X 10.10.3, ma solo su Yosemite, lasciando le versioni precedenti senza cura. Poco dopo Patrick Wardle mostrò che la correzione si poteva aggirare, e servì un'altra patch.",
+    "prayer": "O San Rootpipe, che fumi in silenzio la pipa dei privilegi, fa' che le nostre API nascoste non restino nascoste a chi cerca. Amen.",
+    "feast": "Si festeggia aggiornando macOS e chiedendosi, ogni tanto, quali porte di servizio ci siano in casa.",
+    "proverb": "Pipa nascosta, fumo che esce comunque."
+  },
+  "en": {
+    "title": "Saint Rootpipe, the Root Smoker",
+    "patronage": "hidden APIs, patches that only reach the newest version, and Macs that thought they were invulnerable.",
+    "hagiography": "On 9 April 2015 Emil Kvarnhammar of TrueSec revealed Rootpipe, a hidden \"backdoor\" API in the OS X admin framework: any user could gain root privileges without a password. Apple fixed it in OS X 10.10.3, but only on Yosemite, leaving older versions without a cure. Shortly afterwards Patrick Wardle showed the fix could be bypassed, and another patch was needed.",
+    "prayer": "O Saint Rootpipe, who quietly smokes the pipe of privilege, let our hidden APIs not stay hidden from those who look. Amen.",
+    "feast": "Celebrated by updating macOS and wondering, now and then, what service doors the house might have.",
+    "proverb": "A hidden pipe still lets out smoke."
+  }
+}

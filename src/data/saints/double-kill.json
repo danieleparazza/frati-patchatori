@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Double Kill, che uccideva due volte",
+    "patronage": "di Internet Explorer, del VBScript che non voleva morire e dei documenti Office aperti con troppa fiducia.",
+    "hagiography": "Nell'aprile 2018 i ricercatori di Qihoo 360 scoprirono Double Kill, uno zero-day nel motore VBScript di Windows sfruttato tramite documenti Office malevoli che caricavano una pagina web. Un oggetto liberato dalla memoria ma ancora usato permetteva di eseguire codice sul computer della vittima appena apriva il file. Microsoft lo corresse con gli aggiornamenti di maggio 2018 come CVE-2018-8174, e la CISA lo annovera tra le vulnerabilità usate anche dai ransomware.",
+    "prayer": "O San Double Kill, che colpisci due volte con un oggetto già morto, fa' che la nostra memoria liberata resti libera e che VBScript riposi in pace. Amen.",
+    "feast": "Si festeggia installando le patch di maggio 2018, disattivando VBScript e aprendo gli allegati solo con la visualizzazione protetta.",
+    "proverb": "Oggetto morto, colpo vivo."
+  },
+  "en": {
+    "title": "Saint Double Kill, Who Killed Twice",
+    "patronage": "Internet Explorer, VBScript that refused to die, and Office documents opened with too much trust.",
+    "hagiography": "In April 2018 researchers at Qihoo 360 discovered Double Kill, a zero-day in Windows' VBScript engine exploited through malicious Office documents that loaded a web page. An object freed from memory but still in use allowed code to run on the victim's computer as soon as they opened the file. Microsoft fixed it in the May 2018 updates as CVE-2018-8174, and CISA lists it among the vulnerabilities used by ransomware too.",
+    "prayer": "O Saint Double Kill, who strikes twice with an object already dead, let our freed memory stay free and let VBScript rest in peace. Amen.",
+    "feast": "Celebrated by installing the May 2018 patches, disabling VBScript and opening attachments only in Protected View.",
+    "proverb": "Dead object, live blow."
+  }
+}

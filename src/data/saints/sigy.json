@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Sigy, che mandava segnali falsi",
+    "patronage": "delle enclavi, delle macchine virtuali confidenziali e dei programmi che credono a ogni segnale che ricevono.",
+    "hagiography": "Il 4 aprile 2024 il gruppo di Shweta Shinde all'ETH di Zurigo presentò Sigy, uno degli attacchi della famiglia Ahoi. Nel confidential computing il sistema ospite è considerato nemico, eppure un hypervisor malevolo poteva iniettare segnali fasulli nelle enclavi e nelle macchine virtuali protette (SGX, SEV-SNP, TDX), e i programmi dentro li prendevano per veri, deviando dal loro corso. Gramine, Occlum e altri runtime ricevettero CVE e correzioni.",
+    "prayer": "O San Sigy, che bussi alla cella con segnali che nessuno ha mandato, insegna alle nostre enclavi a distinguere l'eccezione vera dalla voce del tentatore. Amen.",
+    "feast": "Si festeggia aggiornando Gramine e gli altri runtime per enclavi, e ripetendo che l'host non è un amico.",
+    "proverb": "Non ogni segnale viene dal cielo."
+  },
+  "en": {
+    "title": "Saint Sigy, Who Sent False Signals",
+    "patronage": "enclaves, confidential virtual machines, and programs that believe every signal they receive.",
+    "hagiography": "On 4 April 2024 Shweta Shinde's group at ETH Zurich presented Sigy, one of the Ahoi family of attacks. In confidential computing the host is treated as hostile, yet a malicious hypervisor could inject fake signals into protected enclaves and virtual machines (SGX, SEV-SNP, TDX), and the programs inside took them for real and strayed from their path. Gramine, Occlum and other runtimes got CVEs and fixes.",
+    "prayer": "O Saint Sigy, who knocks on the cell with signals nobody sent, teach our enclaves to tell a true exception from the tempter's voice. Amen.",
+    "feast": "Celebrated by updating Gramine and the other enclave runtimes, and repeating that the host is no friend.",
+    "proverb": "Not every signal comes from heaven."
+  }
+}

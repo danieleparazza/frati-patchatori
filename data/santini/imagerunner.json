@@ -1,0 +1,10 @@
+{
+  "label": "ImageRunner",
+  "motto": "IMAGO CURRIT",
+  "niche": [
+    "#13304a",
+    "#2c5f86"
+  ],
+  "accent": "#1f4767",
+  "emblem": "<path d=\"M116 156 C100 156 100 134 118 134 C120 118 144 114 152 128 C160 116 186 120 184 138 C200 138 200 156 184 156 Z\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<rect x=\"108\" y=\"176\" width=\"84\" height=\"48\" rx=\"3\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g stroke=\"#5d6d7e\" stroke-width=\"2\"><line x1=\"120\" y1=\"180\" x2=\"120\" y2=\"220\"/><line x1=\"132\" y1=\"180\" x2=\"132\" y2=\"220\"/><line x1=\"144\" y1=\"180\" x2=\"144\" y2=\"220\"/><line x1=\"156\" y1=\"180\" x2=\"156\" y2=\"220\"/><line x1=\"168\" y1=\"180\" x2=\"168\" y2=\"220\"/><line x1=\"180\" y1=\"180\" x2=\"180\" y2=\"220\"/></g>\n<path d=\"M150 158 V172\" stroke=\"#d9ad55\" stroke-width=\"3\"/><path d=\"M144 166 L150 174 L156 166\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<circle cx=\"196\" cy=\"236\" r=\"9\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/><path d=\"M188 236 H160 M166 236 V244 M172 236 V242\" stroke=\"#d9ad55\" stroke-width=\"3\"/>"
+}

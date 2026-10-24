@@ -1,0 +1,10 @@
+{
+  "label": "BRIDGE:BREAK",
+  "motto": "PONS FRACTUS",
+  "niche": [
+    "#1e2a2a",
+    "#3c5656"
+  ],
+  "accent": "#2a3e3e",
+  "emblem": "<path d=\"M96 192 H140 L136 202 H96 Z M204 192 H162 L168 202 H204 Z\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M100 202 V240 M128 202 V240 M176 202 V240 M200 202 V240\" stroke=\"#bfc9d1\" stroke-width=\"5\"/>\n<path d=\"M100 240 Q114 214 128 240 M176 240 Q188 214 200 240\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M140 192 L146 198 L142 204 M162 192 L156 198 L160 204\" stroke=\"#d9ad55\" stroke-width=\"2\" fill=\"none\"/>\n<path d=\"M120 140 H180 L174 168 H126 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g fill=\"#2b1d14\"><circle cx=\"134\" cy=\"150\" r=\"2.5\"/><circle cx=\"146\" cy=\"150\" r=\"2.5\"/><circle cx=\"158\" cy=\"150\" r=\"2.5\"/><circle cx=\"170\" cy=\"150\" r=\"2.5\"/><circle cx=\"140\" cy=\"160\" r=\"2.5\"/><circle cx=\"152\" cy=\"160\" r=\"2.5\"/><circle cx=\"164\" cy=\"160\" r=\"2.5\"/></g>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SirenJack, che rubò la voce alle sirene",
+    "patronage": "delle sirene d'allarme, dei protocolli radio senza cifratura e dei cittadini svegliati alle quattro di notte.",
+    "hagiography": "Il 10 aprile 2018 Balint Seeber di Bastille rivelò SirenJack: i sistemi di allarme pubblico di ATI Systems, usati anche a San Francisco, comandavano le sirene via radio senza cifrare i messaggi. Ascoltando le prove settimanali, un malintenzionato con una radio programmabile avrebbe potuto far suonare falsi allarmi. ATI preparò un aggiornamento che aggiungeva la cifratura.",
+    "prayer": "O Beato SirenJack, che insegnasti alle sirene il canto degli sconosciuti, fa' che i nostri allarmi suonino solo per chi ha il diritto di chiamarli. Amen.",
+    "feast": "Si festeggia cifrando i comandi radio e ascoltando, il martedì a mezzogiorno, la sirena di prova con orecchio critico.",
+    "proverb": "Sirena che ascolta tutti, inganna tutti."
+  },
+  "en": {
+    "title": "Blessed SirenJack, Who Stole the Sirens' Voice",
+    "patronage": "warning sirens, unencrypted radio protocols, and citizens woken at four in the morning.",
+    "hagiography": "On 10 April 2018 Balint Seeber of Bastille revealed SirenJack: ATI Systems' public warning systems, used in San Francisco among other places, controlled their sirens over radio without encrypting the messages. By listening to the weekly tests, someone with a software-defined radio could have triggered false alarms. ATI prepared an update that added encryption.",
+    "prayer": "O Blessed SirenJack, who taught the sirens to sing for strangers, let our alarms sound only for those entitled to call them. Amen.",
+    "feast": "Celebrated by encrypting radio commands and listening to the noon test siren with a critical ear.",
+    "proverb": "A siren that heeds everyone deceives everyone."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Headroll, il senza testa",
+    "patronage": "dei browser headless, delle porte di debug lasciate aperte e dei servizi che renderizzano pagine altrui.",
+    "hagiography": "Il 5 aprile 2023 gli ingegneri di Canva raccontarono Headroll, scoperto mentre usavano Chromium senza interfaccia per generare immagini e documenti. Una pagina web ostile poteva parlare con gli strumenti di sviluppo del browser stesso, aggirando la same-origin policy e le impostazioni del proxy. Google lo registrò come CVE-2023-0704 e lo corresse in Chrome 110: un browser senza testa, ma non più senza giudizio.",
+    "prayer": "O Beato Headroll, che giri senza testa tra le pagine del mondo, fa' che i nostri DevTools rispondano solo a chi li ha chiamati. Amen.",
+    "feast": "Si festeggia aggiornando Chromium e chiudendo le porte di debug remoto che nessuno ricorda di aver aperto.",
+    "proverb": "Chi perde la testa apre la porta."
+  },
+  "en": {
+    "title": "Blessed Headroll, the Headless One",
+    "patronage": "headless browsers, debug ports left open, and services that render other people's pages.",
+    "hagiography": "On 5 April 2023 Canva's engineers described Headroll, found while running Chromium without a user interface to render images and documents. A hostile web page could talk to the browser's own developer tools, bypassing the same-origin policy and the proxy settings. Google tracked it as CVE-2023-0704 and fixed it in Chrome 110: a browser still headless, but no longer witless.",
+    "prayer": "O Blessed Headroll, who roams headless among the world's pages, let our DevTools answer only those who called them. Amen.",
+    "feast": "Celebrated by updating Chromium and closing the remote debugging ports nobody remembers opening.",
+    "proverb": "Lose your head, and the door swings open."
+  }
+}

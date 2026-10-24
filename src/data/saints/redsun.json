@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RedSun, che sorse dopo il martello",
+    "patronage": "dei collegamenti simbolici, delle correzioni contestate e dei ricercatori che mantengono le promesse.",
+    "hagiography": "Il 15 aprile 2026, pochi giorni dopo la correzione di BlueHammer, lo stesso ricercatore che si firma Chaotic Eclipse pubblicò RedSun, accompagnandolo con un'altra lettera polemica verso il Microsoft Security Response Center. Anche questa volta il difetto stava in Microsoft Defender: seguendo collegamenti nel file system senza le dovute cautele, permetteva a un utente locale di ottenere privilegi elevati. Microsoft lo registrò come CVE-2026-41091, e la CISA lo segnò come sfruttato.",
+    "prayer": "O San RedSun, che sorgi rosso sull'orizzonte di Defender, fa' che i nostri servizi guardino dove porta un collegamento prima di seguirlo. Amen.",
+    "feast": "Si festeggia aggiornando ancora una volta Defender e controllando che i servizi privilegiati non seguano link scritti da altri.",
+    "proverb": "Rosso di sera, patch si spera."
+  },
+  "en": {
+    "title": "Saint RedSun, Who Rose After the Hammer",
+    "patronage": "symbolic links, disputed fixes, and researchers who keep their promises.",
+    "hagiography": "On 15 April 2026, days after the BlueHammer fix, the same researcher signing as Chaotic Eclipse published RedSun, along with another pointed letter to the Microsoft Security Response Center. Once again the flaw lay in Microsoft Defender: by following file system links without due care, it let a local user gain elevated privileges. Microsoft tracked it as CVE-2026-41091, and CISA marked it as exploited.",
+    "prayer": "O Saint RedSun, rising red over Defender's horizon, let our services look where a link leads before following it. Amen.",
+    "feast": "Celebrated by updating Defender once more and checking that privileged services don't follow links written by others.",
+    "proverb": "Red sun at night, patch in sight."
+  }
+}

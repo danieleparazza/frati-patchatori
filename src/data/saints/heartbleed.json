@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Heartbleed, cuore sanguinante di OpenSSL",
+    "patronage": "degli amministratori che rinnovano certificati a mezzanotte, dei progetti open source tenuti in piedi da pochi volontari e dei loghi per le vulnerabilità.",
+    "hagiography": "Il 7 aprile 2014 OpenSSL annunciò un difetto nell'estensione Heartbeat, trovato indipendentemente da Neel Mehta di Google e dai ricercatori di Codenomicon. A ogni battito di cuore un server poteva restituire fino a 64 KB della propria memoria: password, cookie, perfino chiavi private. Era lì dal 2012, colpiva una larga parte del web cifrato e fu il bug che rese di moda nome, sito e logo: da allora ogni vulnerabilità sogna un cuore che sanguina.",
+    "prayer": "O San Heartbleed, che a ogni battito lasci sfuggire un segreto, fa' che i nostri server chiedano sempre quanto è lungo ciò che ricevono. E manda fondi a chi mantiene le librerie su cui poggia il mondo. Amen.",
+    "feast": "Si festeggia aggiornando OpenSSL alla 1.0.1g, revocando i certificati, cambiando le password e donando qualcosa a un progetto open source.",
+    "proverb": "Cuore che batte troppo, parla troppo."
+  },
+  "en": {
+    "title": "Saint Heartbleed, the Bleeding Heart of OpenSSL",
+    "patronage": "sysadmins renewing certificates at midnight, open source projects held up by a few volunteers, and logos for vulnerabilities.",
+    "hagiography": "On 7 April 2014 OpenSSL announced a flaw in the Heartbeat extension, found independently by Neel Mehta of Google and by researchers at Codenomicon. With every heartbeat a server could hand back up to 64 KB of its memory: passwords, cookies, even private keys. It had been there since 2012, hit a large share of the encrypted web, and was the bug that made names, websites and logos fashionable: ever since, every vulnerability dreams of a bleeding heart.",
+    "prayer": "O Saint Heartbleed, who lets a secret slip with every beat, let our servers always check how long the thing they received really is. And send funding to those who maintain the libraries the world rests on. Amen.",
+    "feast": "Celebrated by upgrading OpenSSL to 1.0.1g, revoking certificates, changing passwords and donating to an open source project.",
+    "proverb": "A heart that beats too much says too much."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Pathfinder",
+  "motto": "SEMITA PRODITA",
+  "niche": [
+    "#14302a",
+    "#2c6054"
+  ],
+  "accent": "#1e463c",
+  "emblem": "<circle cx=\"150\" cy=\"176\" r=\"46\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"176\" r=\"38\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<polygon points=\"150,140 158,176 150,212 142,176\" fill=\"#c0392b\" stroke=\"#2b1d14\" stroke-width=\"1\"/>\n<polygon points=\"150,140 158,176 142,176\" fill=\"#7b241c\"/>\n<polygon points=\"114,176 150,170 186,176 150,182\" fill=\"#5d6d7e\"/>\n<circle cx=\"150\" cy=\"176\" r=\"4\" fill=\"#2b1d14\"/>\n<path d=\"M104 246 L124 232 L112 220 M196 246 L176 232 L188 220\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2.5\"/>"
+}

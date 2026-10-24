@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Copy Fail, che sbagliò a copiare",
+    "patronage": "dei kernel Linux dal 2017 in poi, delle ottimizzazioni che nessuno ricorda e dei container che condividono lo stesso nucleo.",
+    "hagiography": "Il 29 aprile 2026 il team di Xint Code, strumento di analisi di Theori, rivelò Copy Fail: un errore di logica nel codice crittografico del kernel Linux, introdotto nel 2017 da un'ottimizzazione che lavorava \"sul posto\". Permetteva a un utente locale senza privilegi di diventare root su praticamente tutte le distribuzioni principali, e di evadere dai container. Lo strumento lo trovò in circa un'ora di scansione; la CISA lo aggiunse ai difetti sfruttati pochi giorni dopo.",
+    "prayer": "O San Copy Fail, che per risparmiare una copia ne sbagliasti una, fa' che le nostre ottimizzazioni siano rilette con la stessa cura del resto. Amen.",
+    "feast": "Si festeggia installando il kernel aggiornato, che torna a copiare come si deve, o almeno disattivando il modulo algif_aead finché non si riavvia.",
+    "proverb": "Chi copia bene non si fa mai male."
+  },
+  "en": {
+    "title": "Saint Copy Fail, Who Got the Copy Wrong",
+    "patronage": "Linux kernels from 2017 onwards, optimisations nobody remembers, and containers sharing the same kernel.",
+    "hagiography": "On 29 April 2026 the team behind Xint Code, Theori's analysis tool, revealed Copy Fail: a logic error in the Linux kernel's crypto code, introduced in 2017 by an optimisation that worked \"in place\". It let an unprivileged local user become root on practically every major distribution, and escape from containers. The tool found it in about an hour of scanning; CISA added it to its exploited list a few days later.",
+    "prayer": "O Saint Copy Fail, who to save one copy got one wrong, let our optimisations be reviewed as carefully as everything else. Amen.",
+    "feast": "Celebrated by installing the updated kernel, which goes back to copying properly, or at least disabling the algif_aead module until the reboot.",
+    "proverb": "Copy with care, and you'll never despair."
+  }
+}

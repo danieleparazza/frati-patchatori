@@ -1,0 +1,10 @@
+{
+  "label": "WarpAttack",
+  "motto": "BIS LECTUM",
+  "niche": [
+    "#1a2a3a",
+    "#3a5a74"
+  ],
+  "accent": "#28425a",
+  "emblem": "<path d=\"M126 130 H174 V138 C174 160 156 170 156 180 C156 190 174 200 174 222 V230 H126 V222 C126 200 144 190 144 180 C144 170 126 160 126 138 Z\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<path d=\"M132 146 H168 C166 158 150 170 150 176 C150 170 134 158 132 146 Z\" fill=\"#fbf3dd\"/>\n<path d=\"M150 184 L150 212 M136 222 C140 212 160 212 164 222 Z\" stroke=\"#fbf3dd\" stroke-width=\"2\" fill=\"#fbf3dd\"/>\n<rect x=\"120\" y=\"124\" width=\"60\" height=\"6\" fill=\"#d9ad55\"/><rect x=\"120\" y=\"230\" width=\"60\" height=\"6\" fill=\"#d9ad55\"/>\n<text x=\"108\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#bfc9d1\">1</text>\n<text x=\"194\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"22\" fill=\"#bfc9d1\">2</text>"
+}

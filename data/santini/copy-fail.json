@@ -1,0 +1,10 @@
+{
+  "label": "Copy Fail",
+  "motto": "COPIA FALLAX",
+  "niche": [
+    "#1a2a1a",
+    "#345634"
+  ],
+  "accent": "#264026",
+  "emblem": "<rect x=\"110\" y=\"132\" width=\"58\" height=\"76\" rx=\"3\" fill=\"#bfc9d1\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<rect x=\"132\" y=\"152\" width=\"58\" height=\"76\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<path d=\"M140 168 H182 M140 180 H176 M140 192 H182 M140 204 H170\" stroke=\"#6e4b2a\" stroke-width=\"2\"/>\n<path d=\"M150 186 L178 216 M178 186 L150 216\" stroke=\"#c0392b\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<text x=\"150\" y=\"250\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#2b1d14\" font-weight=\"bold\">algif_aead</text>"
+}

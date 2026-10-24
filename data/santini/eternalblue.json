@@ -1,0 +1,10 @@
+{
+  "label": "EternalBlue",
+  "motto": "IGNIS AETERNUS",
+  "niche": [
+    "#0f1a3a",
+    "#22387a"
+  ],
+  "accent": "#182a5c",
+  "emblem": "<path d=\"M150 118 C176 148 186 166 176 192 C170 206 158 212 150 212 C142 212 128 206 124 192 C116 168 136 160 140 138 C146 152 150 152 150 118 Z\" fill=\"#3498db\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M150 154 C162 172 166 182 160 196 C156 204 144 204 140 196 C136 186 144 178 150 154 Z\" fill=\"#aed6f1\"/>\n<path d=\"M114 212 H186 L176 236 H124 Z\" fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"230\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#2b1d14\">SMB</text>"
+}

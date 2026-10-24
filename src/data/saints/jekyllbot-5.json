@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San JekyllBot:5, il robot dalla doppia vita",
+    "patronage": "dei robot di corsia, dei server di controllo esposti in rete e delle macchine che consegnano farmaci senza fare domande.",
+    "hagiography": "Il 12 aprile 2022 Cynerio rivelò cinque vulnerabilità nei robot autonomi TUG di Aethon, che negli ospedali portano medicine, biancheria e pasti. Il server che li governa poteva essere raggiunto senza autenticazione: un estraneo avrebbe potuto prenderne il controllo, guardare dalle loro telecamere o disturbarne il lavoro. Di giorno dottor Jekyll, servizievole, di notte potenzialmente Mr. Hyde: Aethon corresse tutto con la versione 24 del Home Base Server.",
+    "prayer": "O San JekyllBot, che percorri le corsie con due anime, fa' che i nostri robot rispondano soltanto a chi li ha in cura. Amen.",
+    "feast": "Si festeggia aggiornando il Home Base Server e togliendo da Internet tutto ciò che ha ruote e un'interfaccia web.",
+    "proverb": "Robot fedele di giorno, ma chi lo comanda di notte?"
+  },
+  "en": {
+    "title": "Saint JekyllBot:5, the Robot With a Double Life",
+    "patronage": "hospital robots, control servers left on the internet, and machines that deliver medicine without asking questions.",
+    "hagiography": "On 12 April 2022 Cynerio revealed five vulnerabilities in Aethon's TUG autonomous robots, which carry medicine, linen and meals around hospitals. The server that runs them could be reached without authentication: a stranger could have taken control, watched through their cameras or disrupted their rounds. Helpful Dr Jekyll by day, potentially Mr Hyde by night: Aethon fixed it all in version 24 of the Home Base Server.",
+    "prayer": "O Saint JekyllBot, who walks the wards with two souls, let our robots answer only to those who care for them. Amen.",
+    "feast": "Celebrated by updating the Home Base Server and taking off the internet anything with wheels and a web interface.",
+    "proverb": "A faithful robot by day, but who drives it by night?"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "LeakyCLI",
+  "motto": "TERMINALIS LOQUAX",
+  "niche": [
+    "#1a1a24",
+    "#3a3a52"
+  ],
+  "accent": "#2a2a3c",
+  "emblem": "<rect x=\"104\" y=\"132\" width=\"92\" height=\"66\" rx=\"5\" fill=\"#111\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"128\" y=\"166\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#7dcea0\">&gt;_</text>\n<path d=\"M146 176 H186 M120 186 H170\" stroke=\"#7dcea0\" stroke-width=\"2\"/>\n<g fill=\"#5dade2\"><path d=\"M128 206 q-6 10 0 14 q6 -4 0 -14z\"/><path d=\"M150 210 q-7 12 0 16 q7 -4 0 -16z\"/><path d=\"M172 206 q-5 9 0 12 q5 -3 0 -12z\"/><path d=\"M160 232 q-5 9 0 12 q5 -3 0 -12z\"/></g>\n<text x=\"150\" y=\"126\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">SECRET=</text>"
+}
