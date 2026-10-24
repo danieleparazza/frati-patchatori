@@ -21,5 +21,5 @@
 
 <path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="#38223e"/>
 <text x="150" y="369" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="20" fill="#fbf3dd">DoubleAgent</text>
-<text x="150" y="414" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="13" letter-spacing="1.5" fill="#7a6656">SERVUS DUORUM DOMINORUM</text>
+<text x="150" y="414" text-anchor="middle" font-family="'EB Garamond', Georgia, serif" font-size="12.7" letter-spacing="0.5" fill="#7a6656">SERVUS DUORUM DOMINORUM</text>
 </svg>

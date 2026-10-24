@@ -17,6 +17,14 @@ const { lang, title, description, alt, image } = Astro.props;
 const imageUrl = image ? new URL(url(image), Astro.site).href : undefined;
 const s = t(lang);
 const other: Lang = lang === 'it' ? 'en' : 'it';
+// Menu entry for this page: Popes and demons belong to their lists, everything else to the calendar.
+const first = Astro.url.pathname.split('/').filter(Boolean)[1] ?? '';
+const section =
+  first === s.searchSlug ? 'search'
+  : first === s.popesSlug || first === s.popeSlug ? 'popes'
+  : first === s.bestiarySlug || first === s.demonSlug ? 'bestiary'
+  : first === s.infoSlug ? 'info'
+  : 'calendar';
 const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
 ---
 
@@ -46,13 +54,13 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
       <nav class="mainnav">
         {
           [
-            { href: url(`${lang}/`), label: s.calendar, icon: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>' },
-            { href: url(`${lang}/${s.searchSlug}`), label: s.search, icon: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>' },
-            { href: url(`${lang}/${s.popesSlug}`), label: s.popes, icon: '<path d="M6 21h12M7.5 21V12a4.5 4.5 0 0 1 9 0v9M8 15h8M8.5 12h7M12 3.5v3M10.5 5h3"/>' },
-            { href: url(`${lang}/${s.bestiarySlug}`), label: s.bestiary, icon: '<path d="M6 3.5l2.5 5M18 3.5l-2.5 5"/><circle cx="12" cy="14" r="6.5"/><path d="M9.5 13h.01M14.5 13h.01M10 17.5h4"/>' },
-            { href: url(`${lang}/${s.infoSlug}`), label: s.info, icon: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/>' },
+            { key: 'calendar', href: url(`${lang}/`), label: s.calendar, icon: '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>' },
+            { key: 'search', href: url(`${lang}/${s.searchSlug}`), label: s.search, icon: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>' },
+            { key: 'popes', href: url(`${lang}/${s.popesSlug}`), label: s.popes, icon: '<path d="M6 21h12M7.5 21V12a4.5 4.5 0 0 1 9 0v9M8 15h8M8.5 12h7M12 3.5v3M10.5 5h3"/>' },
+            { key: 'bestiary', href: url(`${lang}/${s.bestiarySlug}`), label: s.bestiary, icon: '<path d="M6 3.5l2.5 5M18 3.5l-2.5 5"/><circle cx="12" cy="14" r="6.5"/><path d="M9.5 13h.01M14.5 13h.01M10 17.5h4"/>' },
+            { key: 'info', href: url(`${lang}/${s.infoSlug}`), label: s.info, icon: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5h.01"/>' },
           ].map((item) => (
-            <a href={item.href}>
+            <a href={item.href} class:list={{ active: item.key === section }} aria-current={item.href === Astro.url.pathname ? 'page' : undefined}>
               <svg class="ico" viewBox="0 0 24 24" aria-hidden="true" set:html={item.icon} />
               <span class="lbl">{item.label}</span>
             </a>
@@ -159,6 +167,16 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
   }
   .mainnav a {
     text-decoration: none;
+    color: var(--muted);
+    border-bottom: 2px solid transparent;
+  }
+  .mainnav a:hover {
+    color: var(--red);
+  }
+  .mainnav a.active {
+    color: var(--red);
+    font-weight: 600;
+    border-bottom-color: var(--gold);
   }
   .mainnav .ico {
     display: none;

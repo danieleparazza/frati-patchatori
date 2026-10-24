@@ -1,6 +1,6 @@
 # Lunario dei Frati Patchatori
 
-*The Patching Friars' Almanac* — un calendario dei santi in cui ogni giorno è dedicato a una vulnerabilità famosa, nel giorno in cui è stata divulgata.
+*The Patching Friars' Almanac* — un calendario dei santi in cui ogni giorno è dedicato a una vulnerabilità famosa, nel giorno in cui è stata divulgata. Online su [fratipatchatori.it](https://fratipatchatori.it).
 
 Design e decisioni: [docs/DESIGN.md](docs/DESIGN.md).
 
@@ -14,11 +14,13 @@ npm run dev
 
 Dati e contenuti:
 
-- `data/overrides.json`: correzioni manuali (patroni, date, CVE, longevità, assurde, esclusioni).
+- `data/overrides.json`: correzioni manuali (patroni, date, CVE, campi sbagliati della fonte, longevità, assurde, esclusioni).
 - `data/extra-vulns.json`: voci aggiunte a mano (santi minori, Padri della Chiesa, Papi mancanti).
 - `data/events.json`, `data/demons.json`, `data/popes.json`, `data/logos.json`: flagelli e miracoli, Bestiario, Papi, loghi CC0.
 - `src/data/saints/`, `src/data/events/`, `src/data/demons/`, `src/data/popes/`: testi IT/EN.
 - `data/santini/<id>.json` → `node scripts/build-santini.mjs` → `src/data/santini/<id>.svg`.
+
+Le immagini di condivisione sono in cache in `.cache/og` (per hash del contenuto): la prima build impiega qualche minuto, le successive pochi secondi.
 
 Come si scrivono i contenuti: [docs/CONTENT.md](docs/CONTENT.md).
 

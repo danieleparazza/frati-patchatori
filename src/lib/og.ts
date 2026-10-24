@@ -7,7 +7,7 @@
 import { Resvg } from '@resvg/resvg-js';
 import sharp from 'sharp';
 import { createHash } from 'node:crypto';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, utimesSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { day, logoCredit, type Vuln } from './calendar';
 import { demonBack, eventBack, popeBack, saintBack, vacantBack, type CardBack } from './cardback';
@@ -40,13 +40,20 @@ function wrap(text: string, maxChars: number, maxLines: number) {
 
 const tspans = (lines: string[], x: number, lineHeight: number) => lines.map((l, i) => `<tspan x="${x}" dy="${i ? lineHeight : 0}">${escapeXml(l)}</tspan>`).join('');
 const clip = (line: string, n: number) => (line.length > n ? `${line.slice(0, n - 1).replace(/\s*\S*$/, '')}…` : line);
+/** Shrinks a font size so a line of `chars` characters fits where `maxChars` fit at `size`. */
+const fit = (size: number, chars: number, maxChars: number) => (chars > maxChars ? Math.max(14, Math.floor((size * maxChars) / chars)) : size);
 const innerOf = (svg: string) => svg.replace(/^<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '');
 
 /** Renders an SVG to JPEG with the XMP source tag, reusing the cached file when the input is unchanged. */
 async function renderJpeg(svg: string, width: number, source: string) {
   const key = createHash('sha1').update(`jpg|${width}|${source}|${svg}`).digest('hex');
   const file = join(CACHE, `${key}.jpg`);
-  if (existsSync(file)) return readFileSync(file);
+  if (existsSync(file)) {
+    // Mark it as used, so the end-of-build prune (astro.config.mjs) keeps it.
+    const now = new Date();
+    utimesSync(file, now, now);
+    return readFileSync(file);
+  }
   const png = new Resvg(svg, { fitTo: { mode: 'width', value: width }, font: { fontFiles: [FONT], loadSystemFonts: false, defaultFontFamily: 'EB Garamond' } }).render().asPng();
   const out = await sharp(png).jpeg({ quality: 82, mozjpeg: true }).withXmp(xmpPacket(source)).toBuffer();
   writeFileSync(file, out);
@@ -77,7 +84,7 @@ function shareSvg(lang: Lang, cardSvg: string, b: CardBack) {
     <text x="530" y="200" font-size="${titleSize}" fill="${b.mourning ? '#2b1d14' : '#9e1b1b'}">${tspans(titleLines, 530, titleLead)}</text>
     <text x="530" y="${subtitleY}" font-size="28" fill="#2b1d14">${tspans(wrap(b.subtitle, 46, subtitleLines), 530, 38)}</text>
     ${relations.length ? `<text x="530" y="490" font-size="23" fill="#7a1f1f">${tspans(relations, 530, 30)}</text>` : ''}
-    <text x="530" y="580" font-size="24" fill="#b8892b" font-variant="small-caps">${escapeXml(b.footer)}<tspan fill="#7a6656" font-variant="normal" font-size="20">&#160;· ${escapeXml(s.domain)}</tspan></text>
+    <text x="530" y="580" font-size="${fit(24, b.footer.length + s.domain.length * 0.85 + 3, 60)}" fill="#b8892b" font-variant="small-caps">${escapeXml(b.footer)}<tspan fill="#7a6656" font-variant="normal" font-size="20">&#160;· ${escapeXml(s.domain)}</tspan></text>
   </g>
 </svg>`;
 }
@@ -114,8 +121,9 @@ export function backSvg(lang: Lang, cardSvg: string, b: CardBack) {
   <circle cx="540" cy="215" r="105" fill="none" stroke="#b8892b" stroke-width="4"/>
   <g font-family="${SANTINO_FONT}" text-anchor="middle">
     ${parts.join('\n    ')}
-    ${relations.length ? `<text x="540" y="${Math.min(y + 10, 1440 - (relations.length - 1) * 34)}" font-size="25" fill="#7a1f1f">${tspans(relations, 540, 34)}</text>` : ''}
-    <text x="540" y="1515" font-size="26" fill="#b8892b" font-variant="small-caps">${escapeXml(b.kicker)} · ${escapeXml(b.footer)}<tspan font-variant="normal" fill="#7a6656">&#160;· ${escapeXml(s.domain)}</tspan></text>
+    ${relations.length ? `<text x="540" y="${Math.min(y + 10, 1420 - (relations.length - 1) * 34)}" font-size="25" fill="#7a1f1f">${tspans(relations, 540, 34)}</text>` : ''}
+    <text x="540" y="1478" font-size="${fit(24, b.kicker.length, 50)}" fill="#7a6656" letter-spacing="2">${escapeXml(b.kicker.toUpperCase())}</text>
+    <text x="540" y="1522" font-size="${fit(26, b.footer.length + s.domain.length * 0.85 + 3, 62)}" fill="#b8892b" font-variant="small-caps">${escapeXml(b.footer)}<tspan font-variant="normal" fill="#7a6656">&#160;· ${escapeXml(s.domain)}</tspan></text>
   </g>
 </svg>`;
 }

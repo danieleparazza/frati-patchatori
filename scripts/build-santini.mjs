@@ -101,7 +101,7 @@ ${def.frame === 'demone' ? flames : ''}
 ${def.frame === 'papa' ? tiara : ''}
 <path d="M28 340 h244 l-14 22 l14 22 h-244 l14 -22 z" fill="${def.accent}"/>
 <text x="150" y="${fontSize > 17 ? 369 : 368}" text-anchor="middle" font-family="${FONT}" font-size="${fontSize}" fill="#fbf3dd">${esc(def.label)}</text>
-<text x="150" y="414" text-anchor="middle" font-family="${FONT}" font-size="13" letter-spacing="1.5" fill="${f.motto}">${esc(def.motto)}</text>
+<text x="150" y="414" text-anchor="middle" font-family="${FONT}" ${mottoSize(def.motto)} fill="${f.motto}">${esc(def.motto)}</text>
 </svg>
 `;
 }
@@ -110,6 +110,12 @@ const only = new Set(process.argv.slice(2));
 mkdirSync(OUT, { recursive: true });
 let n = 0;
 const defs = new Map(readdirSync(SRC).filter((f) => f.endsWith('.json')).map((f) => [f.replace(/\.json$/, ''), join(SRC, f)]));
+// Capitals are about 0.68em wide: long mottos lose letter-spacing and shrink to stay inside the ~210px frame.
+function mottoSize(motto) {
+  if (motto.length * (13 * 0.68 + 1.5) <= 210) return 'font-size="13" letter-spacing="1.5"';
+  return `font-size="${Math.max(9, (210 / motto.length - 0.5) / 0.68).toFixed(1)}" letter-spacing="0.5"`;
+}
+
 // Logo cards don't need a hand-written definition: default label and motto.
 for (const id of Object.keys(LOGOS).filter((k) => !k.startsWith('$') && !defs.has(k))) defs.set(id, null);
 for (const [id, path] of [...defs].sort()) {

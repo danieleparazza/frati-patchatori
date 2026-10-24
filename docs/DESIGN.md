@@ -2,7 +2,7 @@
 
 *The Patching Friars' Almanac.* Un calendario dei santi parodistico: ogni giorno dell'anno ha come "santo" una vulnerabilità famosa.
 
-Repo: `danieleparazza/frati-patchatori` · Hosting: GitHub Pages.
+Repo: `danieleparazza/frati-patchatori` · Hosting: GitHub Pages su [fratipatchatori.it](https://fratipatchatori.it). Il dominio inglese `patchingfriars.com` (stampato sulle immagini EN) andrà rediretto a `/en/`.
 Pubblico: colleghi (Slack) e community infosec. Ricerca preliminare: non esiste nulla di equivalente.
 
 ## Dati
@@ -42,8 +42,11 @@ Più un **box tecnico serio**: CVE-ID, CVSS, prodotto, link NVD.
 - **Scheda di ogni vulnerabilità** (`/it/santo/<id>/`, `/en/saint/<id>/`), con **santi affini**: stessa famiglia di nome (bleed, dirty, ghost…), stesso prodotto, stesso anno, stesso giorno.
 - **Cerca**: testo più categorie come filtri combinabili (più famose, più pericolose, più sfruttate, più longeve, più assurde), con punteggio e posizione. Longevità (`born`) e "assurde" sono curate a mano in `data/overrides.json`.
 - **Condivisione**: WhatsApp, Telegram, X, Bluesky, LinkedIn, Facebook, email, copia link, menu di condivisione nativo.
-- **PNG di condivisione** (1200×630) per ogni giorno e lingua: anteprima OpenGraph e pulsante di download.
-- **Feed iCalendar** per lingua (`calendar/<lang>.ics`), un evento annuale per patrono, con link per l'iscrizione su ogni pagina.
+- **Pulsanti di condivisione** a icone, in cima a ogni scheda (centrati sul telefono).
+- **Santino fronte/retro**: ogni scheda (santo, giorno, flagello, miracolo, demone, Papa) ha il santino SVG (fronte) e un retro verticale 1080×1620 (titolo, patronato, preghiera o esorcismo, relazioni, dominio della lingua), incorporato nella pagina in un `<template class="card-back">` (`src/lib/cardback.ts` decide il contenuto, `src/lib/og.ts` lo disegna). Clic sul santino → visore a schermo intero che gira la carta in CSS 3D (`CardLightbox.astro`). "Scarica il santino: Fronte · Retro" rasterizza il PNG nel browser con EB Garamond incorporato (`CardDownloads.astro`).
+- **Immagini di condivisione** JPEG 1200×630 (`img/<lang>/<day|s|e|d|p>/<id>.jpg`): il santino a tutta altezza a sinistra, titolo, sottotitolo, relazioni e dominio della lingua (`fratipatchatori.it` / `patchingfriars.com`) a destra. Sono l'`og:image` e l'allegato degli eventi iCal. Rese con resvg + sharp e messe in cache per hash del contenuto in `.cache/og` (salvata anche dalla Action di deploy); a fine build un'integrazione in `astro.config.mjs` cancella le immagini non più usate.
+- Riga "Canonizzato da Papa…" (o "Beatificato…", "Eletto Papa…", "in sede vacante") sotto il santino, collegata alla pagina del Papa dell'anno.
+- **Feed iCalendar** per lingua: patroni (`calendar/<lang>.ics`) e ricorrenze (`calendar/feasts/<lang>.ics`: feste mobili, flagelli, miracoli), con link per l'iscrizione su ogni pagina e l'immagine del giorno in `ATTACH` (Google la ignora).
 - Il 29 febbraio è un giorno normale con il suo santo.
 - **Loghi ufficiali** solo con licenza CC0 esplicita (20, in `data/logos.json` e `src/assets/logos/`): sostituiscono l'emblema disegnato, con credito nella didascalia.
 - **Aggiornamento mensile** (`.github/workflows/update-data.yml`): import il 1° del mese, commit, deploy e una issue di revisione assegnata al maintainer. I patroni esistenti non cambiano mai automaticamente.
@@ -79,7 +82,7 @@ Più un **box tecnico serio**: CVE-ID, CVSS, prodotto, link NVD.
 - 47 demoni in `data/demons.json`, testi in `src/data/demons/`. Fonte: MITRE ATT&CK (con la nota di copyright MITRE sulle pagine che lo citano). Niente link ai leak site né classifiche delle vittime; i demoni non stanno nel calendario.
 
 ### Trasversale
-- Menu: Calendario, Cerca, Papi, Bestiario, Info; su telefono menu a scomparsa.
+- Menu: Calendario, Cerca, Papi, Bestiario, Info, con la sezione corrente evidenziata; su telefono diventa una riga di icone con etichetta.
 - Collegamenti incrociati santi ↔ flagelli ↔ demoni (es. EternalBlue → WannaCry, NotPetya).
 - Si scherza sugli attaccanti e sulle tecnologie, mai sulle vittime.
 
@@ -90,7 +93,7 @@ Più un **box tecnico serio**: CVE-ID, CVSS, prodotto, link NVD.
 
 - Etichetta visibile "🤖 Immagine e testi generati con AI" sotto ogni santino.
 - Pagina "Info" + footer: cosa è generato (santini, agiografie, preghiere, proverbi), cosa è dato reale (CVE, date, CVSS, link), con quale modello.
-- Metadati IPTC `DigitalSourceType = trainedAlgorithmicMedia`: `<metadata>` negli SVG, XMP/IPTC nei PNG. Niente firma C2PA.
+- Metadati IPTC `DigitalSourceType` (`trainedAlgorithmicMedia`, o `compositeWithTrainedAlgorithmicMedia` quando ci sono logo o testi): `<metadata>` negli SVG, XMP nelle JPEG di condivisione. Niente firma C2PA.
 
 ## Licenze
 
