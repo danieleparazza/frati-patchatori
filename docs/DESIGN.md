@@ -40,15 +40,20 @@ Più un **box tecnico serio**: CVE-ID, CVSS, prodotto, link NVD.
 - Home: santo di oggi, nel fuso orario del visitatore, nella lingua del browser (IT per browser italiani, altrimenti EN).
 - **Viste del calendario**: giorno, settimana (costruita nel browser per qualsiasi settimana e anno) e mese (griglia allineata ai giorni della settimana dell'anno di chi guarda). Cambio vista e tasto "Oggi" su ogni pagina; scorciatoie ← → G/S/M T (D/W/M in inglese).
 - **Scheda di ogni vulnerabilità** (`/it/santo/<id>/`, `/en/saint/<id>/`), con **santi affini**: stessa famiglia di nome (bleed, dirty, ghost…), stesso prodotto, stesso anno, stesso giorno.
-- **Cerca**: testo più categorie come filtri combinabili (più famose, più pericolose, più sfruttate, più longeve, più assurde), con punteggio e posizione. Longevità (`born`) e "assurde" sono curate a mano in `data/overrides.json`.
+- **Cerca**: testo più categorie come filtri combinabili (più famose, più pericolose, più sfruttate, più longeve, più assurde), con punteggio e posizione. Senza testo né filtri mostra i 20 santi più famosi. Longevità (`born`) e "assurde" sono curate a mano in `data/overrides.json`.
 - **Condivisione**: WhatsApp, Telegram, X, Bluesky, LinkedIn, Facebook, email, copia link, menu di condivisione nativo.
-- **Pulsanti di condivisione** a icone, in cima a ogni scheda (centrati sul telefono).
-- **Santino fronte/retro**: ogni scheda (santo, giorno, flagello, miracolo, demone, Papa) ha il santino SVG (fronte) e un retro verticale 1080×1620 (titolo, patronato, preghiera o esorcismo, relazioni, dominio della lingua), incorporato nella pagina in un `<template class="card-back">` (`src/lib/cardback.ts` decide il contenuto, `src/lib/og.ts` lo disegna). Clic sul santino → visore a schermo intero che gira la carta in CSS 3D (`CardLightbox.astro`). "Scarica il santino: Fronte · Retro" rasterizza il PNG nel browser con EB Garamond incorporato (`CardDownloads.astro`).
+- **Pulsanti di condivisione** a icone, in cima a ogni scheda (centrati sul telefono). Il pulsante `</>` apre l'**embed**: anteprima e codice `<iframe>` per la pagina corrente o per "sempre il santo del giorno" (`embed/<stesso percorso>/`, `embed/<lang>/`), tema chiaro/scuro automatico o forzato con `?theme=`. Niente embed per le pagine di lutto.
+- **Santino fronte/retro**: ogni scheda (santo, giorno, flagello, miracolo, demone, Papa) ha il santino SVG (fronte) e un retro verticale 1080×1620 (titolo, patronato, preghiera o esorcismo, relazioni, dominio della lingua), incorporato nella pagina in un `<template class="card-back">` (`src/lib/cardback.ts` decide il contenuto, `src/lib/og.ts` lo disegna). Il santino principale accenna a girarsi ogni 5 secondi (fermo con "riduci animazioni"); al clic si apre a schermo intero e si gira subito sul retro, alla chiusura torna sul fronte (`CardLightbox.astro`, CSS 3D). Durante il giro suonano effetti "sacri" sintetizzati con Web Audio (`src/lib/sfx.ts`, nessun file audio), diversi per categoria: santo (Amen di organo e coro), beato (solo coro), Padre (canto gregoriano), Papa (fanfara e scampanio), demone (organo dissonante e rombo), flagello (Amen in minore), miracolo (arpa e coro); il lutto è in silenzio. Pulsante 🔔/🔕 per silenziarli, ricordato nel browser. "Scarica il santino: Fronte · Retro" rasterizza il PNG nel browser con EB Garamond incorporato (`CardDownloads.astro`).
 - **Immagini di condivisione** JPEG 1200×630 (`img/<lang>/<day|s|e|d|p>/<id>.jpg`): il santino a tutta altezza a sinistra, titolo, sottotitolo, relazioni e dominio della lingua (`fratipatchatori.it` / `patchingfriars.com`) a destra. Sono l'`og:image` e l'allegato degli eventi iCal. Rese con resvg + sharp e messe in cache per hash del contenuto in `.cache/og` (salvata anche dalla Action di deploy); a fine build un'integrazione in `astro.config.mjs` cancella le immagini non più usate.
 - Riga "Canonizzato da Papa…" (o "Beatificato…", "Eletto Papa…", "in sede vacante") sotto il santino, collegata alla pagina del Papa dell'anno.
 - **Feed iCalendar** per lingua: patroni (`calendar/<lang>.ics`) e ricorrenze (`calendar/feasts/<lang>.ics`: feste mobili, flagelli, miracoli), con link per l'iscrizione su ogni pagina e l'immagine del giorno in `ATTACH` (Google la ignora).
 - Il 29 febbraio è un giorno normale con il suo santo.
 - **Loghi ufficiali** solo con licenza CC0 esplicita (20, in `data/logos.json` e `src/assets/logos/`): sostituiscono l'emblema disegnato, con credito nella didascalia.
+- **App installabile (PWA)**: manifest per lingua (`manifest-<lang>.webmanifest`), icone da `scripts/build-icons.mjs`, service worker `public/sw.js` (pagine prima dalla rete con copia offline, file statici dalla cache, prossimi sette giorni salvati all'installazione). Pulsante "Installa l'app" (prompt del browser; istruzioni Condividi → Home su iOS).
+- **Notifiche giornaliere** alle 8 nel fuso di chi si iscrive, tramite il Cloudflare Worker `push/` (piano gratuito): iscrizioni in KV come metadati delle chiavi, cron orario, push senza contenuto firmato VAPID; il service worker scarica `push/<lang>/<mmdd>.json` e mostra la notifica. Invii a blocchi di 40 per il limite di 50 richieste per esecuzione. Si conservano solo endpoint, lingua e fuso. Il Worker si pubblica da `.github/workflows/push-worker.yml` (secret `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID`).
+- **API pubblica** (README, Swagger su `/api/`, `public/api/openapi.yaml`): `api/v1/<lang>/days/<MM-DD>.json` e `year.json` statici, `api/v1/<lang>/today?tz=` dal Worker.
+- **Anteprime social**: ogni pagina ha `og:*`, `twitter:*`, canonical e hreflang assoluti; le pagine senza santino usano la copertina `img/<lang>/site/home.jpg`.
+- **Pagina 404** bilingue.
 - **Aggiornamento mensile** (`.github/workflows/update-data.yml`): import il 1° del mese, commit, deploy e una issue di revisione assegnata al maintainer. I patroni esistenti non cambiano mai automaticamente.
 
 ## Sezioni oltre i santi
@@ -72,7 +77,7 @@ Più un **box tecnico serio**: CVE-ID, CVSS, prodotto, link NVD.
 - Un Papa può essere anche santo. Numerazione a dinastie (*Papa CitrixBleed I*, *II*).
 - Anno in corso "sede vacante" fino al 31 dicembre; decennio in corso fino alla sua fine.
 - Cronotassi approvata in `data/popes.json`, encicliche in `src/data/popes/`. Antipapi: Badlock, AMDFlaws, GHOST, VENOM, EFAIL.
-- **Conclave** dal 2026: 5 candidate col punteggio più alto + proposte della community, voto su GitHub Discussions dall'1 al 20 dicembre, "fumata bianca" il 31 con un commit.
+- **Conclave** dal 2026 (`scripts/conclave.mjs`, `.github/workflows/conclave.yml`, stato in `data/conclave.json`): il 1° dicembre si apre la discussione "Conclave <anno>" (categoria "conclave" se esiste, altrimenti Announcements) con le 5 candidate col punteggio più alto, un commento ciascuna; la community propone altre vulnerabilità dell'anno con un commento e vota con 👍. Il 21 la discussione si blocca; il 31 la "fumata bianca" conta i voti (parità: vince il punteggio), scrive Papa e cardinali in `data/popes.json`, pubblica il sito e apre una issue per enciclica e santino. La cronotassi collega la votazione mentre è aperta.
 - Pagine: cronotassi (decenni in evidenza, Antipapi a parte) e pagina per Papa (santino con tiara, enciclica, link alla scheda da santo, "cardinali" dell'anno).
 
 ### Bestiario
@@ -83,6 +88,8 @@ Più un **box tecnico serio**: CVE-ID, CVSS, prodotto, link NVD.
 
 ### Trasversale
 - Menu: Calendario, Cerca, Papi, Bestiario, Info, con la sezione corrente evidenziata; su telefono diventa una riga di icone con etichetta.
+- Footer: link al repository e all'API; sopra, i pulsanti app e notifiche e i feed del calendario come pillole.
+- Accessibilità e prestazioni verificate con Lighthouse (100 su giorno, santo, demone e ricerca, ottobre 2026): feste mobili rese in build per evitare spostamenti, gerarchia dei titoli senza salti, nome accessibile del santino con il suo testo.
 - Collegamenti incrociati santi ↔ flagelli ↔ demoni (es. EternalBlue → WannaCry, NotPetya).
 - Si scherza sugli attaccanti e sulle tecnologie, mai sulle vittime.
 
