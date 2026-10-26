@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /embed/
+Disallow: /push/
+
+Sitemap: https://fratipatchatori.it/sitemap.xml
