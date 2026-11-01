@@ -1562,6 +1562,7 @@
   "patron": "pwnedpiper",
   "others": [
    "notoken",
+   "iscshell",
    "fake-potato",
    "phishforce",
    "first-sequence-sync"
@@ -2158,7 +2159,8 @@
    "nucleus-13",
    "pork-explosion",
    "plug-n-pwn",
-   "vercellbreak"
+   "vercellbreak",
+   "bad-uvm"
   ]
  },
  "10-13": {
@@ -2238,6 +2240,7 @@
  "10-19": {
   "patron": "proxyrelay",
   "others": [
+   "phantomtac",
    "fabrixss",
    "gummy-browsers"
   ]
@@ -2247,7 +2250,8 @@
   "others": [
    "4",
    "header-accordions",
-   "gateway2hell"
+   "gateway2hell",
+   "specter"
   ]
  },
  "10-21": {
@@ -2260,6 +2264,8 @@
  "10-22": {
   "patron": "sessionreaper",
   "others": [
+   "broccoli2shell",
+   "node2shell",
    "cpdos",
    "fortijump",
    "imprompter"
@@ -2274,6 +2280,7 @@
  "10-24": {
   "patron": "citrixbleed",
   "others": [
+   "tailworm",
    "bigsig"
   ]
  },
@@ -2284,13 +2291,15 @@
    "efail",
    "ileakage",
    "overlog",
-   "logcrusher"
+   "logcrusher",
+   "wake-and-break"
   ]
  },
  "10-26": {
   "patron": "ticketbleed",
   "others": [
    "sirispy",
+   "compaction-smuggling",
    "homehack"
   ]
  },
@@ -2311,7 +2320,9 @@
  "10-29": {
   "patron": "lightspeed",
   "others": [
-   "shadow-escape"
+   "sms-of-death",
+   "shadow-escape",
+   "embrace"
   ]
  },
  "10-30": {
@@ -2626,7 +2637,8 @@
    "v0ltpwn",
    "amnesia-33",
    "pool-party",
-   "doubleclickjacking"
+   "doubleclickjacking",
+   "ghostpairing"
   ]
  },
  "12-16": {

@@ -27,6 +27,44 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "php2shell",
+  "name": "PHP2Shell (PHPocalypse)",
+  "date": "2026-10-21",
+  "day": "10-21",
+  "category": "santo",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619",
+   "CVE-2026-115560"
+  ],
+  "cvss": 9.2,
+  "kev": true,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "PHP Group",
+  "product": "PHP",
+  "description": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).",
+  "canonical": "https://www.php2shell.com",
+  "links": [
+   "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+   "https://www.openwall.com/lists/oss-security/2026/10/20/34",
+   "https://www.php.net/archive/2026.php#2026-10-20-1",
+   "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "https://jackalsyn.com/posts/php-up-2026.html",
+   "https://www.wiz.io/blog/php2shell-php-rce",
+   "https://calif.io/php2shell/",
+   "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+   "https://hadrian.io/vulnerability-alerts/php2shell-leaked-critical-php-rce-cve-2026-109618-cve-2026-109619",
+   "https://php2shell.aikido.io",
+   "https://php2shell.censys.com"
+  ],
+  "logo": "php2shell.svg",
+  "author": "Sagi Tzadik, Shir Tamari, Nir Ohfeld and Tomer Schwartz (Wiz); Amy Burnett (OpenAI); Ryan A. (Calif)",
+  "fame": 13,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "log4shell",
   "name": "Log4Shell",
   "date": "2021-12-09",
@@ -422,6 +460,32 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "broccoli2shell",
+  "name": "Broccoli2Shell",
+  "date": "2026-10-22",
+  "day": "10-22",
+  "category": "santo",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "cvss": 9.2,
+  "kev": true,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "Google",
+  "product": "Brotli",
+  "description": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n\n\n\n\n\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.",
+  "canonical": "https://broccoli2shell.com",
+  "links": [
+   "https://www.tenable.com/blog/brotli2shell-frequently-asked-questions-for-google-brotli-decoder-cve-2026-111497"
+  ],
+  "logo": "broccoli.png",
+  "author": "Juliano Rizzo",
+  "fame": 10.5,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "sigred",
   "name": "SIGRed",
   "date": "2020-07-14",
@@ -528,38 +592,29 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "php2shell",
-  "name": "PHP2Shell (PHPocalypse)",
-  "date": "2026-10-21",
-  "day": "10-21",
+  "id": "fragnesia",
+  "name": "Fragnesia",
+  "date": "2026-05-13",
+  "day": "05-13",
   "category": "santo",
   "cves": [
-   "CVE-2026-109618",
-   "CVE-2026-109619"
+   "CVE-2026-46300"
   ],
-  "cvss": 9.2,
-  "kev": false,
+  "cvss": 7.8,
+  "kev": true,
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "PHP Group",
-  "product": "PHP",
-  "description": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).",
-  "canonical": "https://www.php2shell.com",
+  "vendor": "Linux",
+  "product": "Linux",
+  "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: skbuff: preserve shared-frag marker during coalescing\n\nskb_try_coalesce() can attach paged frags from @from to @to.  If @from\nhas SKBFL_SHARED_FRAG set, the resulting @to skb can contain the same\nexternally-owned or page-cache-backed frags, but the shared-frag marker\nis currently lost.\n\nThat breaks the invariant relied on by later in-place writers.  In\nparticular, ESP input checks skb_has_shared_frag() before deciding\nwhether an uncloned nonlinear skb can skip skb_cow_data().  If TCP\nreceive coalescing has moved shared frags into an unmarked skb, ESP can\nsee skb_has_shared_frag() as false and decrypt in place over page-cache\nbacked frags.\n\nPropagate SKBFL_SHARED_FRAG when skb_try_coalesce() transfers paged\nfrags.  The tailroom copy path does not need the marker because it copies\nbytes into @to's linear data rather than transferring frag descriptors.",
+  "canonical": "https://github.com/v12-security/pocs/blob/main/fragnesia%2FREADME.md",
   "links": [
-   "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-   "https://www.openwall.com/lists/oss-security/2026/10/20/34",
-   "https://www.php.net/archive/2026.php#2026-10-20-1",
-   "https://cert.europa.eu/publications/security-advisories/2026-018/",
-   "https://jackalsyn.com/posts/php-up-2026.html",
-   "https://www.wiz.io/blog/php2shell-php-rce",
-   "https://calif.io/php2shell/",
-   "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-   "https://hadrian.io/vulnerability-alerts/php2shell-leaked-critical-php-rce-cve-2026-109618-cve-2026-109619",
-   "https://php2shell.aikido.io"
+   "https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp",
+   "https://github.com/v12-security/pocs/tree/main/fragnesia-5db89c99566fc"
   ],
-  "logo": "php2shell.svg",
-  "author": "Sagi Tzadik, Shir Tamari, Nir Ohfeld and Tomer Schwartz (Wiz); Amy Burnett (OpenAI); Ryan A. (Calif)",
+  "logo": "fragnesia.png",
+  "author": "William Bowling (V12 team)",
   "fame": 10,
   "source": "vulnerability-garden"
  },
@@ -1731,33 +1786,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "fragnesia",
-  "name": "Fragnesia",
-  "date": "2026-05-13",
-  "day": "05-13",
-  "category": "santo",
-  "cves": [
-   "CVE-2026-46300"
-  ],
-  "cvss": 7.8,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": "Linux",
-  "product": "Linux",
-  "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: skbuff: preserve shared-frag marker during coalescing\n\nskb_try_coalesce() can attach paged frags from @from to @to.  If @from\nhas SKBFL_SHARED_FRAG set, the resulting @to skb can contain the same\nexternally-owned or page-cache-backed frags, but the shared-frag marker\nis currently lost.\n\nThat breaks the invariant relied on by later in-place writers.  In\nparticular, ESP input checks skb_has_shared_frag() before deciding\nwhether an uncloned nonlinear skb can skip skb_cow_data().  If TCP\nreceive coalescing has moved shared frags into an unmarked skb, ESP can\nsee skb_has_shared_frag() as false and decrypt in place over page-cache\nbacked frags.\n\nPropagate SKBFL_SHARED_FRAG when skb_try_coalesce() transfers paged\nfrags.  The tailroom copy path does not need the marker because it copies\nbytes into @to's linear data rather than transferring frag descriptors.",
-  "canonical": "https://github.com/v12-security/pocs/blob/main/fragnesia%2FREADME.md",
-  "links": [
-   "https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp",
-   "https://github.com/v12-security/pocs/tree/main/fragnesia-5db89c99566fc"
-  ],
-  "logo": "fragnesia.png",
-  "author": "William Bowling (V12 team)",
-  "fame": 7,
-  "source": "vulnerability-garden"
- },
- {
   "id": "chromatoast",
   "name": "ChromaToast",
   "date": "2026-05-18",
@@ -1904,6 +1932,33 @@
   "links": [],
   "logo": "ghostpat.svg",
   "author": "Peter Molnar and Krisztian Hozak",
+  "fame": 7,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "node2shell",
+  "name": "Node2Shell / HTTP2Shell",
+  "date": "2026-10-22",
+  "day": "10-22",
+  "category": "santo",
+  "cves": [
+   "CVE-2026-111497"
+  ],
+  "cvss": 9.2,
+  "kev": true,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "Google",
+  "product": "Brotli",
+  "description": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n\n\n\n\n\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.",
+  "canonical": "https://www.imperva.com/blog/node2shell-from-brotli-data-to-remote-code-execution/",
+  "links": [
+   "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+   "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
+  ],
+  "logo": null,
+  "author": "Matteo Collina",
   "fame": 7,
   "source": "vulnerability-garden"
  },
@@ -6116,6 +6171,32 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "tailworm",
+  "name": "Tailworm",
+  "date": "2026-10-24",
+  "day": "10-24",
+  "category": "santo",
+  "cves": [
+   "CVE-2025-14282"
+  ],
+  "cvss": 5.4,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "https://github.com/mkj/dropbear/",
+  "product": "dropbear",
+  "description": "A flaw was found in Dropbear. When running in multi-user mode and authenticating users, the dropbear ssh server does the socket forwardings requested by the remote client as root,\nonly switching to the logged-in user upon spawning a shell or performing\nsome operations like reading the user's files.\nWith the recent ability of also using unix domain sockets as the forwarding destination any user able to log in via ssh can connect to any unix socket with the root's credentials, bypassing both file system restrictions and any SO_PEERCRED / SO_PASSCRED checks performed by the peer.",
+  "canonical": "https://tailworm.com",
+  "links": [
+   "https://www.reddit.com/r/Tailscale/comments/1xeoj1l/recent_tailscale_vulnerability_reports/"
+  ],
+  "logo": "tailworm.png",
+  "author": "Erica Windisch (Cyberdione Labs Corporation)",
+  "fame": 5.5,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "cloudbleed",
   "name": "Cloudbleed",
   "date": "2017-02-19",
@@ -9550,6 +9631,30 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "phantomtac",
+  "name": "PhantomTac",
+  "date": "2026-10-19",
+  "day": "10-19",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://phantomtac.org",
+  "links": [
+   "https://arxiv.org/html/2610.26174#bib.bib2"
+  ],
+  "logo": "phantomtac.png",
+  "author": "Binbin Zhang, Yifeng Zhang, Xiaomeng Chen, Dongyao Chen",
+  "fame": 4.5,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "educatedscholar",
   "name": "EDUCATEDSCHOLAR",
   "date": "2017-04-14",
@@ -10687,6 +10792,28 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "iscshell",
+  "name": "iSCSHELL",
+  "date": "2026-08-02",
+  "day": "08-02",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://warez.sl0p.foo/tgt-iscsi-rce/",
+  "links": [],
+  "logo": "iscshell.png",
+  "author": "blasty",
+  "fame": 4,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "gputhor",
   "name": "GPUThor",
   "date": "2026-08-25",
@@ -10793,6 +10920,28 @@
   "links": [],
   "logo": "bigfish.jpg",
   "author": "Andrew Griffiths (Calif)",
+  "fame": 4,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "sms-of-death",
+  "name": "SMS of Death",
+  "date": "2026-10-29",
+  "day": "10-29",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://smsofdeath.com",
+  "links": [],
+  "logo": "smsofdeath.png",
+  "author": "Mark B",
   "fame": 4,
   "source": "vulnerability-garden"
  },
@@ -17285,7 +17434,7 @@
    "CVE-2026-111943",
    "CVE-2026-113470"
   ],
-  "cvss": 5.4,
+  "cvss": 6.8,
   "kev": false,
   "ransomware": false,
   "born": null,
@@ -26240,6 +26389,30 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "compaction-smuggling",
+  "name": "Compaction Smuggling",
+  "date": "2026-10-26",
+  "day": "10-26",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://xint.io/blog/compaction-smuggling-reasoning-traces",
+  "links": [
+   "https://arxiv.org/abs/2608.09867"
+  ],
+  "logo": null,
+  "author": "Tim Becker (Xint)",
+  "fame": 0.5,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "alloc8",
   "name": "alloc8",
   "date": "2017-04-09",
@@ -30772,6 +30945,28 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "ghostpairing",
+  "name": "GhostPairing",
+  "date": "2025-12-15",
+  "day": "12-15",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://www.gendigital.com/blog/insights/research/ghostpairing-whatsapp-attack",
+  "links": [],
+  "logo": null,
+  "author": "Luis Corrons, Martin Chlumecký (Gen Digital)",
+  "fame": 0.05,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "codebreach",
   "name": "CodeBreach",
   "date": "2026-01-15",
@@ -32620,6 +32815,28 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "bad-uvm",
+  "name": "Bad UVM",
+  "date": "2026-10-12",
+  "day": "10-12",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://medium.com/@guoziyi114/bad-uvm-hijack-readonly-page-cache-via-nvidia-uvm-7accc7e3181e",
+  "links": [],
+  "logo": null,
+  "author": "Ziyi Guo",
+  "fame": 0,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "slugfest",
   "name": "SlugFest",
   "date": "2026-10-13",
@@ -32730,6 +32947,28 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "specter",
+  "name": "SPECTER",
+  "date": "2026-10-20",
+  "day": "10-20",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://arxiv.org/html/2610.28401v1",
+  "links": [],
+  "logo": null,
+  "author": "Hyeongjun Choi, Ji Hyuk Jung, Ji Won Yoon",
+  "fame": 0,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "phpbleed",
   "name": "phpbleed",
   "date": "2026-10-21",
@@ -32748,6 +32987,50 @@
   "links": [],
   "logo": null,
   "author": null,
+  "fame": 0,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "wake-and-break",
+  "name": "Wake & Break",
+  "date": "2026-10-25",
+  "day": "10-25",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://github.com/blasty/wake-and-break",
+  "links": [],
+  "logo": null,
+  "author": "blasty",
+  "fame": 0,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "embrace",
+  "name": "EMBRACE",
+  "date": "2026-10-29",
+  "day": "10-29",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": null,
+  "product": null,
+  "description": null,
+  "canonical": "https://forever.security/blog/embrace-hacking-5-ai-assistants-embedded-browsers-technical",
+  "links": [],
+  "logo": null,
+  "author": "Gal Weizman (Forever)",
   "fame": 0,
   "source": "vulnerability-garden"
  }
