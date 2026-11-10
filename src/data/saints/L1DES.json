@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San L1DES, spigolatore della cache L1",
+    "patronage": "delle cache L1, dei processori Intel e delle mitigazioni che chiudono la porta lasciando aperta la finestra.",
+    "hagiography": "Il 27 gennaio 2020 VUSec, il gruppo di sicurezza della Vrije Universiteit di Amsterdam, rese pubblico L1DES (L1D Eviction Sampling, CVE-2020-0549), una variante di RIDL che lascia trapelare i dati appena espulsi dalla cache L1 dei processori Intel. VUSec ne aveva dato una dimostrazione a Intel già nel maggio 2019, e il 25 ottobre 2019 mostrò che aggirava anche la nuova mitigazione basata su VERW. Lo stesso giorno della pubblicazione il gruppo di CacheOut ne presentò un'analisi indipendente.",
+    "prayer": "O San L1DES, che raccogli le briciole cadute dalla cache, fa' che i nostri processori svuotino i cesti prima di passarli ad altri. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti del microcodice Intel e del sistema operativo, sapendo che ogni toppa su RIDL ne ha chiamata un'altra.",
+    "proverb": "Quel che la cache scarta, qualcuno lo spigola."
+  },
+  "en": {
+    "title": "Saint L1DES, Gleaner of the L1 Cache",
+    "patronage": "L1 caches, Intel processors, and mitigations that shut the door while leaving the window open.",
+    "hagiography": "On 27 January 2020 VUSec, the security group of Vrije Universiteit Amsterdam, made public L1DES (L1D Eviction Sampling, CVE-2020-0549), a RIDL variant that leaks data just evicted from the L1 cache of Intel processors. VUSec had already shown Intel a proof of concept in May 2019, and on 25 October 2019 demonstrated that it also bypassed the new VERW-based mitigation. On the day of disclosure the CacheOut team presented an independent analysis of it.",
+    "prayer": "O Saint L1DES, who gather the crumbs fallen from the cache, let our processors empty their baskets before handing them on. Amen.",
+    "feast": "Celebrated by installing Intel's microcode and operating system updates, knowing that every patch for RIDL has summoned another.",
+    "proverb": "What the cache throws away, someone will glean."
+  }
+}

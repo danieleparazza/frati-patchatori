@@ -1,0 +1,10 @@
+{
+  "label": "PhantomBuffer",
+  "motto": "SCRIPTUM ERGO INIECTUM",
+  "niche": [
+    "#221a2c",
+    "#463656"
+  ],
+  "accent": "#33283f",
+  "emblem": "<rect x=\"100\" y=\"150\" width=\"100\" height=\"34\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<text x=\"112\" y=\"173\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#463656\">WM_SETTEXT</text>\n<line x1=\"192\" y1=\"156\" x2=\"192\" y2=\"178\" stroke=\"#463656\" stroke-width=\"2\"/>\n<path d=\"M126 248 L126 214 Q126 194 150 194 Q174 194 174 214 L174 248 L166 240 L158 248 L150 240 L142 248 L134 240 Z\" fill=\"#bfc9d1\" opacity=\"0.85\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<g fill=\"#221a2c\"><circle cx=\"142\" cy=\"214\" r=\"3.5\"/><circle cx=\"158\" cy=\"214\" r=\"3.5\"/></g>\n<path d=\"M150 146 L150 126 M142 132 L150 124 L158 132\" stroke=\"#e8c45c\" stroke-width=\"2.5\" fill=\"none\"/>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "FortiJump",
+  "motto": "SALTUS IN CASTELLUM",
+  "niche": [
+    "#2b1a1a",
+    "#5a3232"
+  ],
+  "accent": "#3f2222",
+  "emblem": "<path d=\"M152 240 V150 h8 v-10 h10 v10 h8 v-10 h10 v10 h8 V240 Z\" fill=\"#5e3a3a\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<rect x=\"166\" y=\"196\" width=\"16\" height=\"22\" rx=\"8\" fill=\"#2b1a1a\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<rect x=\"96\" y=\"214\" width=\"40\" height=\"26\" fill=\"#5e3a3a\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M104 222 h24 M104 230 h24\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>\n<path d=\"M116 210 Q118 128 170 136\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-dasharray=\"6 4\"/>\n<path d=\"M162 128 l10 8 l-12 5\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<text x=\"116\" y=\"256\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">541</text>"
+}

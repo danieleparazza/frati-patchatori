@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Drammer, che martellava la memoria dei telefoni",
+    "patronage": "dei telefoni Android, della DRAM sotto stress e dei bit che cadono come fichi maturi.",
+    "hagiography": "Nell'ottobre 2016, alla conferenza CCS di Vienna, VUSec della Vrije Universiteit Amsterdam presentò con l'Università della California a Santa Barbara Drammer, il primo attacco Rowhammer su telefoni Android con processore ARM. Un'app senza permessi chiedeva all'allocatore ION memoria fuori dalla cache, martellava le righe della DRAM e faceva cambiare un bit in una tabella delle pagine, fino a diventare root senza sfruttare alcun bug software. Google, avvisata a luglio, la giudicò critica (CVE-2016-6728) e con il bollettino di novembre rese l'attacco più difficile, senza poterlo eliminare del tutto.",
+    "prayer": "O San Drammer, che a colpi di martello fai cadere i bit, fa' che la nostra memoria resti salda anche quando qualcuno la martella. Amen.",
+    "feast": "Si festeggia installando le patch di sicurezza Android da novembre 2016 in poi e ricordando che a volte il difetto sta nel silicio, non nel codice.",
+    "proverb": "Martella oggi, martella domani, il bit ti cade nelle mani."
+  },
+  "en": {
+    "title": "Saint Drammer, Who Hammered Phone Memory",
+    "patronage": "Android phones, DRAM under stress, and bits that drop like ripe figs.",
+    "hagiography": "In October 2016, at the CCS conference in Vienna, VUSec of Vrije Universiteit Amsterdam and the University of California, Santa Barbara presented Drammer, the first Rowhammer attack on ARM-based Android phones. An app with no permissions asked the ION allocator for uncached memory, hammered DRAM rows and flipped a bit in a page table until it became root, without exploiting any software bug. Google, told in July, rated it critical (CVE-2016-6728) and made the attack harder in its November bulletin, without being able to eradicate it.",
+    "prayer": "O Saint Drammer, who knock bits loose with your hammer, keep our memory steady even when someone pounds on it. Amen.",
+    "feast": "Celebrated by installing Android security patches from November 2016 onwards and remembering that sometimes the flaw is in the silicon, not in the code.",
+    "proverb": "Keep on hammering and even memory gives way."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "BleedingTooth",
+  "motto": "DENS SANGUINANS",
+  "niche": [
+    "#14243a",
+    "#2d4d78"
+  ],
+  "accent": "#1f3554",
+  "emblem": "<path d=\"M124 132 q26 -12 52 0 q14 10 8 38 q-6 22 -12 56 q-4 12 -10 0 l-8 -30 q-4 -8 -8 0 l-8 30 q-6 12 -10 0 q-6 -34 -12 -56 q-6 -28 8 -38 z\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M146 152 l12 10 l-12 10 l12 10 M146 142 v50\" stroke=\"#1f3554\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/>\n<g fill=\"#e8a0a8\"><path d=\"M138 232 q-5 9 0 12 q5 -3 0 -12 z\"/><path d=\"M164 236 q-4 8 0 10 q4 -2 0 -10 z\"/></g>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Bad Neighbor, vicino molesto dell'IPv6",
+    "patronage": "degli stack TCP/IP di Windows, dei Router Advertisement e di chi non ha mai conosciuto i propri vicini di rete.",
+    "hagiography": "Il 13 ottobre 2020, nel Patch Tuesday di Microsoft, fu corretta la CVE-2020-16898: lo stack TCP/IP di Windows leggeva male i pacchetti ICMPv6 Router Advertisement con un'opzione RDNSS di lunghezza pari, e gli ultimi byte dell'opzione venivano scambiati per l'inizio di un'opzione nuova. McAfee la battezzò Bad Neighbor, Sophos la chiamò Ping of Death Redux. Un pacchetto dalla stessa rete locale bastava per una schermata blu; l'esecuzione di codice, con il suo CVSS 8.8, restava possibile sulla carta ma molto più difficile da ottenere.",
+    "prayer": "O San Bad Neighbor, che bussi alla porta con un annuncio di router, insegna ai nostri stack a contare le opzioni prima di fidarsi. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di ottobre 2020 o, in attesa, disattivando la configurazione DNS da RDNSS con netsh (rabaseddnsconfig=disable) e bloccando i Router Advertisement estranei.",
+    "proverb": "Vicino che annuncia troppo, tienilo d'occhio."
+  },
+  "en": {
+    "title": "Saint Bad Neighbor, Nuisance of the IPv6 Block",
+    "patronage": "Windows TCP/IP stacks, Router Advertisements, and everyone who has never met their network neighbours.",
+    "hagiography": "On 13 October 2020, Microsoft's Patch Tuesday fixed CVE-2020-16898: the Windows TCP/IP stack misread ICMPv6 Router Advertisement packets carrying an RDNSS option with an even length, so the option's last bytes were taken for the start of a brand-new option. McAfee named it Bad Neighbor, Sophos called it Ping of Death Redux. One packet from the same local network was enough for a blue screen; code execution, with its CVSS of 8.8, was possible on paper but far harder to pull off.",
+    "prayer": "O Saint Bad Neighbor, who knocks at the door with a router announcement, teach our stacks to count the options before trusting them. Amen.",
+    "feast": "Celebrated by installing the October 2020 updates or, meanwhile, turning off RDNSS-based DNS configuration with netsh (rabaseddnsconfig=disable) and blocking stray Router Advertisements.",
+    "proverb": "A neighbour who announces too much bears watching."
+  }
+}

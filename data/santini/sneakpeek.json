@@ -1,0 +1,10 @@
+{
+  "label": "SneakPeek",
+  "motto": "PRAEVISIO VIDET TE",
+  "niche": [
+    "#23202e",
+    "#48425e"
+  ],
+  "accent": "#332f44",
+  "emblem": "<rect x=\"104\" y=\"136\" width=\"92\" height=\"76\" rx=\"4\" fill=\"#332f44\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M104 150 h92\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<g fill=\"#d9ad55\"><circle cx=\"112\" cy=\"143\" r=\"2.5\"/><circle cx=\"120\" cy=\"143\" r=\"2.5\"/><circle cx=\"128\" cy=\"143\" r=\"2.5\"/></g>\n<path d=\"M122 182 q28 -24 56 0 q-28 24 -56 0 z\" fill=\"#fbf3dd\"/>\n<circle cx=\"150\" cy=\"182\" r=\"9\" fill=\"#332f44\"/>\n<path d=\"M150 212 v18 M138 230 h24\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"250\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">256 KB</text>"
+}

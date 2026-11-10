@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Early Cascade, che arrivava prima dei guardiani",
+    "patronage": "dei processi appena nati, del motore degli shim di Windows e degli EDR che arrivano a messa finita.",
+    "hagiography": "Il 15 ottobre 2024 Guido Miggelenbrink di Outflank presentò Early Cascade Injection, una tecnica per iniettare codice nei processi Windows appena creati. Invece delle APC remote della vecchia Early Bird, si accende il motore degli shim di ntdll (il flag g_ShimsEnabled) e se ne dirotta la callback g_pfnSE_DllLoaded verso il proprio codice, che parte durante il caricamento delle DLL, secondo Outflank prima che molti EDR abbiano messo i loro ganci. Non un bug da correggere, ma un'arte nuova per chi vuole passare inosservato.",
+    "prayer": "O Beato Early Cascade, che scendi a cascata prima che arrivi la sentinella, fa' che i nostri difensori si sveglino presto quanto gli intrusi. Amen.",
+    "feast": "Si festeggia insegnando agli EDR a sorvegliare le scritture nella memoria di processi appena creati e ancora sospesi, comprese quelle sui dati di ntdll.",
+    "proverb": "Chi arriva prima dei guardiani, entra dalla porta principale."
+  },
+  "en": {
+    "title": "Blessed Early Cascade, Who Arrived Before the Guards",
+    "patronage": "newborn processes, the Windows shim engine, and EDRs that turn up after the service is over.",
+    "hagiography": "On 15 October 2024 Guido Miggelenbrink of Outflank introduced Early Cascade Injection, a technique for injecting code into freshly created Windows processes. Instead of the remote APCs of the old Early Bird, it switches on ntdll's shim engine (the g_ShimsEnabled flag) and redirects its g_pfnSE_DllLoaded callback to its own code, which runs while DLLs load, before, according to Outflank, many EDRs have set their hooks. Not a bug to patch, but a new art for those who wish to go unnoticed.",
+    "prayer": "O Blessed Early Cascade, who tumbles down before the sentry arrives, let our defenders rise as early as the intruders. Amen.",
+    "feast": "Celebrated by teaching EDRs to watch for writes into the memory of newly created, still-suspended processes, including those to ntdll's data.",
+    "proverb": "Beat the guards there and you walk in through the front door."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Prying-Eye, che sbirciava nelle riunioni",
+    "patronage": "delle videoconferenze, degli ID numerici delle riunioni e di chi si dimentica la password della call.",
+    "hagiography": "Il 1° ottobre 2019 il team di ricerca CQ Prime di Cequence Security descrisse Prying-Eye, un attacco di enumerazione diretto alle API di grandi piattaforme di videoconferenza: un bot provava uno dopo l'altro gli ID numerici delle riunioni finché non ne trovava di validi. Se l'organizzatore non aveva impostato una password o aveva spento le protezioni, l'intruso poteva vedere o ascoltare la riunione in corso. Pochi mesi dopo, quando mezzo mondo si trasferì in videochiamata, la stessa debolezza tornò di gran moda.",
+    "prayer": "O Beato Prying-Eye, che conti le porte finché ne trovi una aperta, fa' che ogni nostra riunione abbia la sua password e la sua sala d'attesa. Amen.",
+    "feast": "Si festeggia proteggendo le riunioni con password o sala d'attesa, usando ID lunghi e imprevedibili e limitando i tentativi sulle API.",
+    "proverb": "Chi non chiude la stanza trova ospiti alla riunione."
+  },
+  "en": {
+    "title": "Blessed Prying-Eye, Who Peeked Into Meetings",
+    "patronage": "video conferences, numeric meeting IDs, and everyone who forgets to set a meeting password.",
+    "hagiography": "On 1 October 2019 the CQ Prime research team at Cequence Security described Prying-Eye, a direct-to-API enumeration attack on major web conferencing platforms: a bot cycled through numeric meeting IDs until it found valid ones. If the host had set no password or switched off the protections, the intruder could watch or listen to the meeting in progress. A few months later, when half the world moved onto video calls, the same weakness became very fashionable.",
+    "prayer": "O Blessed Prying-Eye, who count the doors until one is open, let every meeting of ours have its password and its waiting room. Amen.",
+    "feast": "Celebrated by protecting meetings with a password or waiting room, using long unpredictable IDs and rate-limiting API attempts.",
+    "proverb": "Leave the room unlocked and the meeting gets extra guests."
+  }
+}

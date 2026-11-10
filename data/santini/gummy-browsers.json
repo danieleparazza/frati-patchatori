@@ -1,0 +1,10 @@
+{
+  "label": "Gummy Browsers",
+  "motto": "VESTIGIUM GELATINUM",
+  "niche": [
+    "#2c1a24",
+    "#5a3448"
+  ],
+  "accent": "#422636",
+  "emblem": "<rect x=\"100\" y=\"130\" width=\"100\" height=\"110\" rx=\"6\" fill=\"#3a2230\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<line x1=\"100\" y1=\"146\" x2=\"200\" y2=\"146\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<g fill=\"#bfc9d1\"><circle cx=\"110\" cy=\"138\" r=\"2.5\"/><circle cx=\"118\" cy=\"138\" r=\"2.5\"/><circle cx=\"126\" cy=\"138\" r=\"2.5\"/></g>\n<g fill=\"none\" stroke=\"#e8a0a8\" stroke-width=\"3\" stroke-linecap=\"round\"><ellipse cx=\"150\" cy=\"194\" rx=\"10\" ry=\"14\"/><ellipse cx=\"150\" cy=\"194\" rx=\"19\" ry=\"25\"/><ellipse cx=\"150\" cy=\"194\" rx=\"28\" ry=\"34\" stroke-dasharray=\"60 8\"/><path d=\"M150 180 v14\"/></g>"
+}

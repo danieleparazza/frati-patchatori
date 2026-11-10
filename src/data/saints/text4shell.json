@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Text4Shell, interpolatore di troppo",
+    "patronage": "delle librerie Java di utilità, dei dollari tra parentesi graffe e dei titoli che annunciano il nuovo Log4Shell.",
+    "hagiography": "Il 13 ottobre 2022 la Apache Software Foundation annunciò la CVE-2022-42889 in Apache Commons Text, segnalata a marzo da Alvaro Muñoz del GitHub Security Lab: dalla versione 1.5 alla 1.9 l'interpolazione predefinita accettava prefissi come \"script\", \"dns\" e \"url\", e una stringa ${script:javascript:…} finita lì da fuori diventava codice eseguito. Il mondo, ancora scottato da Log4Shell, gridò al bis; poi si vide che serviva un'applicazione che desse in pasto all'interpolatore dati non fidati, e il bis fu più breve del previsto.",
+    "prayer": "O San Text4Shell, che trasformi un testo in un comando, insegna alle nostre librerie a non interpretare ciò che dovrebbero solo copiare. Amen.",
+    "feast": "Si festeggia aggiornando Apache Commons Text alla 1.10.0, che disattiva per impostazione predefinita gli interpolatori pericolosi, e non passando mai input esterno a StringSubstitutor.",
+    "proverb": "Non ogni dollaro tra graffe è un tesoro: a volte è una shell."
+  },
+  "en": {
+    "title": "Saint Text4Shell, the Over-Eager Interpolator",
+    "patronage": "Java utility libraries, dollar signs in curly braces, and headlines announcing the next Log4Shell.",
+    "hagiography": "On 13 October 2022 the Apache Software Foundation announced CVE-2022-42889 in Apache Commons Text, reported back in March by Alvaro Muñoz of the GitHub Security Lab: from version 1.5 to 1.9 the default interpolation accepted prefixes such as \"script\", \"dns\" and \"url\", so a ${script:javascript:…} string arriving from outside turned into executed code. Still smarting from Log4Shell, the world cried encore; then it turned out an application had to feed untrusted data to the interpolator, and the encore was shorter than billed.",
+    "prayer": "O Saint Text4Shell, who turns text into commands, teach our libraries not to interpret what they should merely copy. Amen.",
+    "feast": "Celebrated by upgrading Apache Commons Text to 1.10.0, which disables the dangerous interpolators by default, and by never handing outside input to StringSubstitutor.",
+    "proverb": "Not every dollar in braces is treasure; sometimes it's a shell."
+  }
+}

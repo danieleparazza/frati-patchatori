@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Frozen Privilege, che scongelava i superpoteri",
+    "patronage": "dei database gestiti, dei lavori pianificati e dei ruoli che si promuovono da soli.",
+    "hagiography": "Nell'ottobre 2026 Lior Adar di Varonis Threat Labs descrisse Frozen Privilege, una catena di funzioni standard di PostgreSQL che in Snowflake Postgres, il servizio gestito di Snowflake, trasformava un ruolo qualunque con CREATEROLE in esecuzione di comandi sulla macchina. Il ruolo si concedeva i ruoli predefiniti per leggere e scrivere tutti i dati, riscriveva un lavoro di pg_cron perché girasse come postgres e da lì arrivava a superutente; infine un archive_command scritto nella configurazione faceva eseguire il carico a /bin/sh. Varonis lo segnalò a maggio 2026 e Snowflake corresse tutto lato server.",
+    "prayer": "O Beato Frozen Privilege, che sciogli i privilegi congelati un cron alla volta, fa' che nessun ruolo possa nominarsi superutente da solo. Amen.",
+    "feast": "Si festeggia concedendo CREATEROLE con parsimonia e sorvegliando la tabella cron.job; i clienti di Snowflake non devono fare nulla, la correzione è già arrivata dal fornitore.",
+    "proverb": "Chi può creare ruoli, prima o poi si incorona."
+  },
+  "en": {
+    "title": "Blessed Frozen Privilege, Who Thawed the Superpowers",
+    "patronage": "managed databases, scheduled jobs, and roles that promote themselves.",
+    "hagiography": "In October 2026 Lior Adar of Varonis Threat Labs described Frozen Privilege, a chain of standard PostgreSQL features that, in Snowflake's managed Snowflake Postgres service, turned an ordinary role with CREATEROLE into command execution on the host. The role granted itself the predefined roles to read and write all data, rewrote a pg_cron job to run as postgres and climbed from there to superuser; finally an archive_command written into the configuration had /bin/sh run the payload. Varonis reported it in May 2026 and Snowflake fixed everything server-side.",
+    "prayer": "O Blessed Frozen Privilege, who thaw frozen privileges one cron job at a time, let no role ever appoint itself superuser. Amen.",
+    "feast": "Celebrated by granting CREATEROLE sparingly and watching the cron.job table; Snowflake customers need do nothing, as the vendor has already shipped the fix.",
+    "proverb": "Whoever can create roles will crown themselves sooner or later."
+  }
+}

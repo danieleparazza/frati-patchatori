@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Drupalgeddon, apocalisse della goccia",
+    "patronage": "dei siti Drupal 7, delle query preparate e degli amministratori che aggiornano il lunedì.",
+    "hagiography": "Il 15 ottobre 2014 il team di sicurezza di Drupal pubblicò SA-CORE-2014-005: la funzione expandArguments dell'API di database di Drupal 7, pensata proprio per proteggere dalle SQL injection, costruiva male le query preparate davanti a un array con chiavi confezionate ad arte. Scoperto da Stefan Horst di SektionEins durante un audit, il difetto permetteva a chiunque, senza account, di eseguire SQL a piacere. Gli attacchi automatici cominciarono nel giro di poche ore, e Drupal avvertì poi che i siti non aggiornati in tempo andavano considerati compromessi.",
+    "prayer": "O San Drupalgeddon, che entri dalla porta costruita per tenerti fuori, fa' che i nostri siti si aggiornino prima che arrivi il diluvio. Amen.",
+    "feast": "Si festeggia con Drupal 7.32 o successive e, per chi aggiornò tardi, ripristinando un backup precedente al 15 ottobre 2014 invece di fidarsi della sola patch.",
+    "proverb": "La goccia scava la pietra, la SQL scava il database."
+  },
+  "en": {
+    "title": "Saint Drupalgeddon, Apocalypse of the Drop",
+    "patronage": "Drupal 7 sites, prepared statements, and admins who patch on Mondays.",
+    "hagiography": "On 15 October 2014 the Drupal security team published SA-CORE-2014-005: the expandArguments function in Drupal 7's database API, built precisely to guard against SQL injection, assembled prepared statements badly when handed an array with crafted keys. Found by Stefan Horst of SektionEins during an audit, the flaw let anyone, with no account, run arbitrary SQL. Automated attacks began within hours, and Drupal later warned that sites not updated in time should be considered compromised.",
+    "prayer": "O Saint Drupalgeddon, who enters by the very door built to keep you out, let our sites update before the flood. Amen.",
+    "feast": "Celebrated with Drupal 7.32 or later and, for late patchers, restoring a backup from before 15 October 2014 rather than trusting the patch alone.",
+    "proverb": "Drops wear down stone; SQL wears down databases."
+  }
+}

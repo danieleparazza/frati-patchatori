@@ -1,0 +1,10 @@
+{
+  "label": "NUCLEUS:13",
+  "motto": "TREDECIM IN ACERVO",
+  "niche": [
+    "#1a2630",
+    "#344c5c"
+  ],
+  "accent": "#263a48",
+  "emblem": "<g fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\"><ellipse cx=\"150\" cy=\"176\" rx=\"56\" ry=\"18\"/><ellipse cx=\"150\" cy=\"176\" rx=\"56\" ry=\"18\" transform=\"rotate(60 150 176)\"/><ellipse cx=\"150\" cy=\"176\" rx=\"56\" ry=\"18\" transform=\"rotate(-60 150 176)\"/></g>\n<circle cx=\"150\" cy=\"176\" r=\"14\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"206\" cy=\"176\" r=\"4\"/><circle cx=\"122\" cy=\"128\" r=\"4\"/><circle cx=\"122\" cy=\"224\" r=\"4\"/></g>\n<text x=\"150\" y=\"250\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">XIII</text>"
+}

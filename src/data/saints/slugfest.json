@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SlugFest, lumaca dei nomi abbandonati",
+    "patronage": "dei pacchetti npm, dei repository rinominati e degli agenti AI che installano dipendenze senza chiedere.",
+    "hagiography": "Il 13 ottobre 2026 Golan Myers di Bloom Security raccontò SlugFest: il Trusted Publishing di npm autorizzava le pubblicazioni guardando il nome owner/repo del repository GitHub e il file del workflow, non gli identificativi numerici che non cambiano mai. Se il repository legato a un pacchetto veniva rinominato, trasferito o cancellato, chiunque poteva prenderne il nome e ottenere credenziali di pubblicazione valide, almeno finché una prima pubblicazione non avesse registrato gli identificativi. Secondo Bloom i pacchetti esposti erano oltre 1.500, con più di dieci milioni di download, a portata di agenti che installano da soli.",
+    "prayer": "O Beato SlugFest, che strisci nei nomi lasciati vuoti, fa' che i nostri registri ricordino chi c'era prima del nome. Amen.",
+    "feast": "Si festeggia ricreando i legami di Trusted Publishing dopo ogni rinomina o trasferimento, togliendoli prima di cancellare un repository, pubblicando subito dopo averli creati e sorvegliando le versioni inattese.",
+    "proverb": "Nome lasciato per strada, la lumaca se lo prende."
+  },
+  "en": {
+    "title": "Blessed SlugFest, Slug of Abandoned Names",
+    "patronage": "npm packages, renamed repositories, and AI agents that install dependencies without asking.",
+    "hagiography": "On 13 October 2026 Golan Myers of Bloom Security described SlugFest: npm's Trusted Publishing authorised releases by looking at the GitHub owner/repo name and the workflow file, not at the numeric IDs that never change. If the repository bound to a package was renamed, transferred or deleted, anyone could claim the name and obtain valid publishing credentials, at least until a first release had recorded the IDs. According to Bloom more than 1,500 packages were exposed, with over ten million downloads, within reach of agents that install things by themselves.",
+    "prayer": "O Blessed SlugFest, who crawls into names left empty, let our registries remember who was there before the name. Amen.",
+    "feast": "Celebrated by recreating Trusted Publishing bindings after every rename or transfer, removing them before deleting a repository, publishing right after creating them, and watching for unexpected versions.",
+    "proverb": "Leave a name lying on the path and a slug will move in."
+  }
+}

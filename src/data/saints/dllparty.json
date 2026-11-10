@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DLLParty, che invitava le DLL alla festa",
+    "patronage": "dei pool di thread di Windows, di LoadLibraryA e di chi si imbuca alle feste senza portare nemmeno lo shellcode.",
+    "hagiography": "Nel 2026 epersic pubblicò DLLParty, una tecnica dimostrativa di iniezione di DLL nei processi Windows, sulla scia delle iniezioni via thread pool rese celebri da PoolParty. Invece di scrivere shellcode nel processo bersaglio, manipola le strutture interne in cui il pool di thread conserva le istanze delle callback, così che sia un thread operaio dello stesso processo a chiamare LoadLibraryA e a caricare la DLL scelta dall'attaccante. Si appoggia a dettagli interni non documentati, diversi da versione a versione, ed è presentata come ricerca educativa e difensiva.",
+    "prayer": "O Beato DLLParty, che fai ballare i thread operai al ritmo altrui, fa' che i nostri strumenti di difesa riconoscano gli imbucati alla festa. Amen.",
+    "feast": "Si festeggia sorvegliando chi apre e scrive la memoria di altri processi e le DLL caricate da percorsi insoliti, perché per entrare alla festa serve comunque una porta socchiusa.",
+    "proverb": "Alla festa del pool, chi non è invitato entra dalla cucina."
+  },
+  "en": {
+    "title": "Blessed DLLParty, Who Invited DLLs to the Party",
+    "patronage": "Windows thread pools, LoadLibraryA, and gatecrashers who don't even bring their own shellcode.",
+    "hagiography": "In 2026 epersic published DLLParty, a proof-of-concept DLL injection technique for Windows processes, in the line of the thread-pool injections made famous by PoolParty. Instead of writing shellcode into the target, it tampers with the internal structures where the thread pool keeps its callback instances, so that one of the process's own worker threads calls LoadLibraryA and loads the attacker's DLL. It relies on undocumented, version-specific internals and is presented as educational and defensive research.",
+    "prayer": "O Blessed DLLParty, who make worker threads dance to someone else's tune, let our defences spot the gatecrashers. Amen.",
+    "feast": "Celebrated by watching for processes that open and write other processes' memory and for DLLs loaded from odd paths, because even a party crasher needs a door left ajar.",
+    "proverb": "At a pool party, the uninvited come in through the kitchen."
+  }
+}

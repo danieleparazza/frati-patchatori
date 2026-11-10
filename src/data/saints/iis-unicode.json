@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'IIS Unicode, che risaliva le cartelle",
+    "patronage": "dei server IIS del 2000, delle barre travestite e dei visitatori anonimi che entrano dal retro.",
+    "hagiography": "Il 17 ottobre 2000 Microsoft pubblicò il bollettino MS00-078 su un difetto di IIS 4.0 e 5.0: un URL con caratteri Unicode codificati in modo malformato, come il celebre %c0%af al posto della barra, sfuggiva al controllo dei percorsi e risaliva fino a cartelle fuori dalla radice del sito. Così un visitatore anonimo poteva leggere file ed eseguire i comandi di sistema, cmd.exe compreso, con i privilegi dell'account IUSR. Microsoft ringraziò Rain Forest Puppy, e la patch esisteva già da agosto; eppure un anno dopo il verme Nimda ci passava ancora.",
+    "prayer": "O Sant'IIS Unicode, che con una barra travestita sali fino a cmd.exe, fa' che i nostri server normalizzino gli URL prima di fidarsi. Amen.",
+    "feast": "Si festeggia installando la patch di MS00-057, tenendo il sito su un disco diverso da quello di sistema e togliendo all'account anonimo i comandi che non servono, come raccomandava Microsoft già allora.",
+    "proverb": "La barra travestita passa la dogana."
+  },
+  "en": {
+    "title": "Saint IIS Unicode, Climber of Folders",
+    "patronage": "IIS servers of the year 2000, slashes in disguise, and anonymous visitors who come in through the back.",
+    "hagiography": "On 17 October 2000 Microsoft published bulletin MS00-078 on a flaw in IIS 4.0 and 5.0: a URL with malformed Unicode-encoded characters, like the famous %c0%af standing in for a slash, slipped past the path check and climbed into folders outside the web root. An anonymous visitor could thus read files and run system commands, cmd.exe included, with the privileges of the IUSR account. Microsoft thanked Rain Forest Puppy, and the patch had existed since August; yet a year later the Nimda worm was still walking through.",
+    "prayer": "O Saint IIS Unicode, who climb up to cmd.exe on a disguised slash, let our servers normalise URLs before trusting them. Amen.",
+    "feast": "Celebrated by installing the MS00-057 patch, keeping the site on a different drive from the system, and stripping the anonymous account of commands it doesn't need, as Microsoft advised even then.",
+    "proverb": "A slash in disguise gets through customs."
+  }
+}

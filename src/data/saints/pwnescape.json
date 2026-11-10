@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PwnEscape, evaso dalla macchina virtuale",
+    "patronage": "delle microVM, dei checksum delegati alla scheda di rete e delle sandbox che promettevano un milione di dollari.",
+    "hagiography": "Durante la sfida da un milione di dollari lanciata da Vercel nell'agosto 2026 per evadere da Vercel Sandbox, Paulos Yibelo di PWN.AI trovò al terzo giorno un difetto nello stack di rete del kernel Linux: metadati di checksum malformati, ammessi dal percorso virtio, portavano skb_checksum_help a scrivere sopra l'intestazione di rete. Dall'interno di una microVM si poteva far trapelare memoria dell'host, cosa dimostrata anche sulle sandbox di produzione, e in un laboratorio di PWN.AI mandare in crash l'host o eseguirvi codice. La correzione entrò nel ramo principale di Linux il 14 ottobre 2026, con la CVE-2026-99999.",
+    "prayer": "O San PwnEscape, che esci dalla cella passando per un checksum, fa' che i nostri host controllino da dove comincia ciò che sommano. Amen.",
+    "feast": "Si festeggia aggiornando il kernel degli host a una versione stabile con il commit 6785011f8b16 (\"ipv4: validate checksum_start before completing checksum\") o con il backport della propria distribuzione.",
+    "proverb": "Chi non controlla il conto, apre la cella al prigioniero."
+  },
+  "en": {
+    "title": "Saint PwnEscape, Fugitive From the Virtual Machine",
+    "patronage": "microVMs, checksums offloaded to the network card, and sandboxes that promised a million dollars.",
+    "hagiography": "During the million-dollar challenge Vercel launched in August 2026 to break out of Vercel Sandbox, Paulos Yibelo of PWN.AI found, on day three, a flaw in the Linux kernel's network stack: malformed checksum metadata, admitted through the virtio path, led skb_checksum_help to scribble over the network header. From inside a microVM one could leak host memory, which was shown against the production sandboxes too, and, in a lab of PWN.AI's own, crash the host or run code on it. The fix reached Linux mainline on 14 October 2026, as CVE-2026-99999.",
+    "prayer": "O Saint PwnEscape, who leaves the cell by way of a checksum, let our hosts check where their sums begin. Amen.",
+    "feast": "Celebrated by updating host kernels to a stable release with commit 6785011f8b16 (\"ipv4: validate checksum_start before completing checksum\") or your distribution's backport.",
+    "proverb": "Skip the head count and the prisoner walks."
+  }
+}

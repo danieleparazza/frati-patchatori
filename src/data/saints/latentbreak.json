@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato LatentBreak, che parlava con parole innocenti",
+    "patronage": "dei modelli linguistici allineati, dei filtri sulla perplessità e dei sinonimi messi al posto giusto.",
+    "hagiography": "Nell'ottobre 2025 Raffaele Mura, Giorgio Piras, Kamilė Lukošiūtė, Maura Pintor, Amin Karbasi e Battista Biggio pubblicarono LatentBreak, un jailbreak che non aggiunge suffissi astrusi né lunghi copioni: sostituisce alcune parole della richiesta con altre di significato equivalente, scelte guardando dentro il modello perché la sua rappresentazione interna somigli a quella delle domande innocue. Ne escono richieste brevi e naturali, che passano i filtri basati sulla perplessità e che, secondo lo studio, battono gli altri attacchi su diversi modelli allineati.",
+    "prayer": "O Beato LatentBreak, che cambi una parola e passi inosservato, fa' che i nostri guardiani leggano il senso e non solo la forma. Amen.",
+    "feast": "Si festeggia affiancando ai filtri sulla perplessità difese che guardano il significato, perché un sinonimo ben scelto passa qualunque dogana.",
+    "proverb": "Cambia l'abito e non il cuore: il lupo entra lo stesso."
+  },
+  "en": {
+    "title": "Blessed LatentBreak, Who Spoke in Innocent Words",
+    "patronage": "aligned language models, perplexity filters, and synonyms in just the right place.",
+    "hagiography": "In October 2025 Raffaele Mura, Giorgio Piras, Kamilė Lukošiūtė, Maura Pintor, Amin Karbasi and Battista Biggio published LatentBreak, a jailbreak that adds no gibberish suffixes or lengthy templates: it swaps some words of the request for others with the same meaning, chosen by looking inside the model so that its internal representation resembles that of harmless questions. The result is short, natural requests that slip past perplexity-based filters and, according to the study, beat other attacks on several aligned models.",
+    "prayer": "O Blessed LatentBreak, who change one word and pass unnoticed, let our guardians read the meaning and not just the form. Amen.",
+    "feast": "Celebrated by pairing perplexity filters with defences that look at meaning, because a well-chosen synonym gets through any customs post.",
+    "proverb": "A wolf in a new coat is still a wolf at the door."
+  }
+}

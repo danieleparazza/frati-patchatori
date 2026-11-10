@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Ping of Death 2020, il gemello che fa solo cadere",
+    "patronage": "dei server che smettono di rispondere, delle opzioni ICMPv6 e dei fratelli minori dei bug famosi.",
+    "hagiography": "Nello stesso Patch Tuesday del 13 ottobre 2020 Microsoft corresse anche la CVE-2020-16899, gemella meno celebre di Bad Neighbor: un altro errore dello stack TCP/IP di Windows nel trattare i Router Advertisement ICMPv6. Qui niente esecuzione di codice né privilegi rubati: un pacchetto preparato faceva soltanto smettere di rispondere il sistema. Secondo l'analisi di ExtraHop il difetto stava nella lettura dei nomi di dominio dell'opzione DNSSL. Il soprannome di Ping of Death, a dire il vero, la stampa l'aveva cucito soprattutto addosso al fratello maggiore.",
+    "prayer": "O San Ping of Death 2020, che non rubi nulla ma fai tacere tutto, concedi ai nostri server di restare svegli anche quando i vicini parlano strano. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti di Windows di ottobre 2020 e filtrando i Router Advertisement non attesi, per esempio con RA Guard sugli switch.",
+    "proverb": "Non tutti i colpi rubano: alcuni fanno solo addormentare."
+  },
+  "en": {
+    "title": "Saint Ping of Death 2020, the Twin Who Only Knocks You Down",
+    "patronage": "servers that stop answering, ICMPv6 options, and the younger siblings of famous bugs.",
+    "hagiography": "In the same Patch Tuesday of 13 October 2020, Microsoft also fixed CVE-2020-16899, Bad Neighbor's less famous twin: another mistake in how the Windows TCP/IP stack handled ICMPv6 Router Advertisements. No code execution and no stolen privileges here: a crafted packet merely made the system stop responding. According to ExtraHop's analysis, the flaw lay in parsing the domain names of the DNSSL option. To be fair, the press had mostly hung the Ping of Death nickname on the elder brother.",
+    "prayer": "O Saint Ping of Death 2020, who steals nothing but silences everything, keep our servers awake even when the neighbours talk funny. Amen.",
+    "feast": "Celebrated with the October 2020 Windows updates and by filtering unexpected Router Advertisements, for instance with RA Guard on the switches.",
+    "proverb": "Not every blow is a robbery; some just put you to sleep."
+  }
+}

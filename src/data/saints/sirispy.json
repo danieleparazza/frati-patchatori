@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SiriSpy, orecchio indiscreto delle cuffie",
+    "patronage": "degli AirPods, della dettatura vocale e delle app che chiedono il Bluetooth per ascoltare ben altro.",
+    "hagiography": "Il 26 ottobre 2022 Guilherme Rambo raccontò SiriSpy (CVE-2022-32946): qualunque app con accesso al Bluetooth poteva ricevere l'audio delle richieste a Siri e della dettatura passato dagli AirPods o dalle cuffie Beats, senza permesso al microfono e senza lasciare traccia. Su macOS un secondo difetto permetteva a qualsiasi processo di chiedere quell'audio a comando, aggirando le protezioni della privacy. Segnalato il 26 agosto, fu corretto con iOS 16.1 e gli aggiornamenti del 24 ottobre 2022, e Apple pagò in tutto 29.500 dollari di ricompensa.",
+    "prayer": "O San SiriSpy, che porgi l'orecchio dove nessuno ti ha invitato, fa' che ogni microfono chieda il permesso prima di ascoltare. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 16.1 e alle versioni coeve degli altri sistemi Apple, e chiedendosi perché l'app della torcia vuole il Bluetooth.",
+    "proverb": "Le cuffie parlano anche a chi non le indossa."
+  },
+  "en": {
+    "title": "Saint SiriSpy, the Eavesdropping Ear",
+    "patronage": "AirPods, voice dictation, and apps that ask for Bluetooth to listen to something else entirely.",
+    "hagiography": "On 26 October 2022 Guilherme Rambo described SiriSpy (CVE-2022-32946): any app with Bluetooth access could receive the audio of Siri requests and dictation coming through AirPods or Beats headphones, with no microphone permission and no trace. On macOS a second flaw let any process request that audio on demand, sidestepping privacy protections. Reported on 26 August, it was fixed in iOS 16.1 and the 24 October 2022 updates, and Apple paid $29,500 in bounties in total.",
+    "prayer": "O Saint SiriSpy, who lend an ear where nobody invited you, let every microphone ask permission before it listens. Amen.",
+    "feast": "Celebrated by updating to iOS 16.1 and the matching releases of Apple's other systems, and wondering why the flashlight app wants Bluetooth.",
+    "proverb": "Headphones talk even to those who aren't wearing them."
+  }
+}

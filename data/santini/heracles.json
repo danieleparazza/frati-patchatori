@@ -1,0 +1,10 @@
+{
+  "label": "Heracles",
+  "motto": "XII LABORES PAGINARUM",
+  "niche": [
+    "#2b1a14",
+    "#5a3626"
+  ],
+  "accent": "#43271b",
+  "emblem": "<g fill=\"#3a2a22\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"><rect x=\"96\" y=\"128\" width=\"26\" height=\"22\"/><rect x=\"126\" y=\"128\" width=\"26\" height=\"22\"/><rect x=\"96\" y=\"154\" width=\"26\" height=\"22\"/><rect x=\"126\" y=\"154\" width=\"26\" height=\"22\"/><rect x=\"96\" y=\"180\" width=\"26\" height=\"22\"/><rect x=\"126\" y=\"180\" width=\"26\" height=\"22\" fill=\"#d9ad55\"/></g>\n<path d=\"M156 191 h18\" stroke=\"#fbf3dd\" stroke-width=\"2\"/><polygon points=\"174,186 182,191 174,196\" fill=\"#fbf3dd\"/>\n<path d=\"M150 246 L176 150 Q182 126 198 134 Q206 148 190 160 L160 248 Z\" fill=\"#a8743a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"186\" cy=\"140\" r=\"2.5\"/><circle cx=\"194\" cy=\"150\" r=\"2.5\"/><circle cx=\"180\" cy=\"160\" r=\"2.5\"/></g>\n<text x=\"118\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\">XEX</text>"
+}

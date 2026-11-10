@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato TBONE, che scendeva dal cielo sulle auto",
+    "patronage": "delle auto connesse, dei parcheggi all'aperto e dei droni che non consegnano pacchi.",
+    "hagiography": "Nel 2020 Ralf-Philipp Weinmann e Benedikt Schmotzle prepararono TBONE per Pwn2Own, che fu poi annullato per la pandemia: una catena senza clic, attraverso il Wi-Fi, contro ConnMan, il gestore di rete dell'infotainment delle Tesla. Un overflow nel proxy DNS e una fuga di memoria nel DHCP permettevano, anche da un drone in volo vicino a un'auto parcheggiata, di sbloccarla e di fare tutto quello che si comanda dallo schermo centrale. Tesla corresse con l'aggiornamento 2020.44 a fine ottobre 2020, e la storia fu raccontata nella primavera del 2021.",
+    "prayer": "O Beato TBONE, che scendi dal cielo come un drone su un'auto parcheggiata, fa' che i nostri veicoli non si fidino di ogni Wi-Fi che passa. Amen.",
+    "feast": "Si festeggia aggiornando l'auto (per le Tesla, dalla 2020.44) e ConnMan alla 1.39 o successiva ovunque lo si usi, e alzando ogni tanto gli occhi sopra il parcheggio.",
+    "proverb": "Auto ferma e Wi-Fi acceso: il ladro arriva in volo."
+  },
+  "en": {
+    "title": "Blessed TBONE, Who Descended on Cars From the Sky",
+    "patronage": "connected cars, open-air car parks, and drones that don't deliver parcels.",
+    "hagiography": "In 2020 Ralf-Philipp Weinmann and Benedikt Schmotzle built TBONE for Pwn2Own, which was then cancelled because of the pandemic: a zero-click chain over Wi-Fi against ConnMan, the network manager in Tesla's infotainment system. A DNS proxy overflow and a DHCP memory leak let an attacker, even from a drone hovering near a parked car, unlock it and do anything the central screen can do. Tesla fixed it in update 2020.44 in late October 2020, and the story was told in spring 2021.",
+    "prayer": "O Blessed TBONE, who descend like a drone upon a parked car, let our vehicles not trust every Wi-Fi that flies by. Amen.",
+    "feast": "Celebrated by updating the car (for Teslas, 2020.44 onward) and ConnMan to 1.39 or later wherever it runs, and glancing at the sky above the car park now and then.",
+    "proverb": "Car parked, Wi-Fi on: the thief arrives by air."
+  }
+}

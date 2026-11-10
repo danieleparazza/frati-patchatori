@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TARmageddon, contrabbandiere di archivi",
+    "patronage": "degli archivi tar, delle dipendenze Rust dimenticate e di chi apre i pacchi senza guardare il doppio fondo.",
+    "hagiography": "Il 21 ottobre 2025 Edera rivelò TARmageddon (CVE-2025-62518), un difetto nella famiglia di librerie Rust nata da async-tar, da cui discendono tokio-tar e astral-tokio-tar. Quando un'intestazione PAX indicava la vera dimensione di un file, il parser seguiva invece quella ustar, spesso zero, e scambiava il contenuto del file per nuove intestazioni: un archivio annidato faceva così spuntare voci nascoste, capaci di sovrascrivere file, avvelenare immagini di test o sfuggire ai controlli. Il ramo più scaricato, tokio-tar, secondo Edera sembrava abbandonato e restò senza correzione.",
+    "prayer": "O San TARmageddon, che nascondi un archivio dentro l'altro come una matrioska, fa' che i nostri parser contino i byte giusti. Amen.",
+    "feast": "Si festeggia aggiornando astral-tokio-tar alla 0.5.6 e lasciando tokio-tar per un fork curato, perché un pacco orfano non lo ricuce nessuno.",
+    "proverb": "Archivio dentro archivio, sorpresa dentro sorpresa."
+  },
+  "en": {
+    "title": "Saint TARmageddon, Smuggler of Archives",
+    "patronage": "tar archives, forgotten Rust dependencies, and everyone who opens parcels without checking for a false bottom.",
+    "hagiography": "On 21 October 2025 Edera disclosed TARmageddon (CVE-2025-62518), a flaw in the family of Rust libraries descended from async-tar, including tokio-tar and astral-tokio-tar. When a PAX header gave a file's real size, the parser followed the ustar size instead, often zero, and mistook the file's contents for fresh headers: a nested archive could thus conjure hidden entries able to overwrite files, poison test images or slip past scanners. The most downloaded branch, tokio-tar, looked abandoned according to Edera and stayed unpatched.",
+    "prayer": "O Saint TARmageddon, who hide one archive inside another like nesting dolls, teach our parsers to count the right bytes. Amen.",
+    "feast": "Celebrated by updating astral-tokio-tar to 0.5.6 and leaving tokio-tar for a maintained fork, because nobody mends an orphaned parcel.",
+    "proverb": "An archive in an archive is a surprise in a surprise."
+  }
+}

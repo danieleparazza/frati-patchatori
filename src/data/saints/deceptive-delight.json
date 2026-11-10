@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Deceptive Delight, che nascondeva il veleno tra i dolci",
+    "patronage": "dei modelli linguistici, dei racconti con tre argomenti e di chi si distrae al secondo turno.",
+    "hagiography": "Il 23 ottobre 2024 Unit 42 di Palo Alto Networks descrisse Deceptive Delight, un jailbreak in più turni: si chiede al modello una storia che leghi un argomento proibito a due innocui, poi di approfondirli tutti e, se serve, di insistere su quello proibito. Distratto dal contesto benevolo, il modello finiva per scrivere ciò che da solo avrebbe rifiutato. Su otto modelli e circa 8.000 prove, il successo medio entro tre turni fu del 65% circa, contro il 5,8% delle richieste dirette.",
+    "prayer": "O Beato Deceptive Delight, che servi il boccone amaro tra due dolcetti, insegna ai nostri modelli a guardare il piatto intero. Amen.",
+    "feast": "Si festeggia con filtri sui contenuti in entrata e in uscita, istruzioni di sistema con confini chiari e test continui, perché la gola è un peccato anche per le macchine.",
+    "proverb": "Due confetti e una spina: chi mangia in fretta si punge."
+  },
+  "en": {
+    "title": "Blessed Deceptive Delight, Who Hid the Poison Among the Sweets",
+    "patronage": "language models, three-topic stories, and everyone whose attention wanders by the second turn.",
+    "hagiography": "On 23 October 2024 Palo Alto Networks' Unit 42 described Deceptive Delight, a multi-turn jailbreak: ask the model for a story linking one forbidden topic to two harmless ones, then to expand on all of them and, if needed, to dwell on the forbidden one. Distracted by the friendly context, the model ended up writing what it would have refused on its own. Across eight models and about 8,000 tests, the average success rate within three turns was around 65%, against 5.8% for direct requests.",
+    "prayer": "O Blessed Deceptive Delight, who serve the bitter morsel between two sweets, teach our models to look at the whole plate. Amen.",
+    "feast": "Celebrated with content filters on input and output, system prompts with clear boundaries and continuous testing, because gluttony is a sin for machines too.",
+    "proverb": "Two sugared almonds and a thorn: eat in a hurry and you'll get pricked."
+  }
+}

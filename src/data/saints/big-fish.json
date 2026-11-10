@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Big Fish, pesce antico dei sorgenti BSD",
+    "patronage": "della memoria condivisa System V, dei contatori a 16 bit e di chi contava solo i buchi da remoto.",
+    "hagiography": "Il 16 ottobre 2026 Andrew Griffiths di Calif pubblicò Big Fish, un exploit che porta un utente locale di OpenBSD fino a root. Il contatore degli attaccamenti a un segmento di memoria condivisa era uno short con segno a 16 bit, eredità dei sorgenti BSD di circa 37 anni prima: a forza di fork lo si fa traboccare in negativo, e una corsa trasforma l'errore in un use-after-free. Insieme a una scrittura fuori dai limiti nel kernel bastava per una shell di root, anche con KARL, SMAP e SMEP attivi.",
+    "prayer": "O Beato Big Fish, che nuoti da decenni nel mare dei sorgenti BSD, fa' che i nostri contatori siano abbastanza grandi per tutti i figli che facciamo. Amen.",
+    "feast": "Si festeggia applicando con syspatch gli errata 018 e 026 di OpenBSD 7.9, e ricordando che anche i pesci più vecchi, prima o poi, abboccano.",
+    "proverb": "Pesce grande, contatore piccolo: prima o poi la rete si rompe."
+  },
+  "en": {
+    "title": "Blessed Big Fish, Ancient Swimmer of the BSD Sources",
+    "patronage": "System V shared memory, 16-bit counters, and everyone who only counted remote holes.",
+    "hagiography": "On 16 October 2026 Andrew Griffiths of Calif published Big Fish, an exploit that takes a local OpenBSD user all the way to root. The counter of attachments to a shared memory segment was a signed 16-bit short, inherited from BSD sources some 37 years old: fork often enough and it wraps negative, and a race turns the mistake into a use-after-free. Paired with an out-of-bounds write in the kernel it yielded a root shell, even with KARL, SMAP and SMEP enabled.",
+    "prayer": "O Blessed Big Fish, who have swum for decades in the sea of BSD sources, let our counters be big enough for all the children we fork. Amen.",
+    "feast": "Celebrated by applying OpenBSD 7.9 errata 018 and 026 with syspatch, remembering that even the oldest fish bites in the end.",
+    "proverb": "Big fish, small counter: sooner or later the net gives way."
+  }
+}

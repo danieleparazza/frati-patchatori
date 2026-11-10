@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San HM Surf, navigatore senza permesso",
+    "patronage": "delle fotocamere dei Mac, dei permessi TCC e di chi credeva che il browser chiedesse sempre prima.",
+    "hagiography": "Il 17 ottobre 2024 Jonathan Bar Or di Microsoft Threat Intelligence raccontò HM Surf, un difetto di macOS che aggirava TCC, il guardiano che chiede il consenso prima di concedere fotocamera, microfono e posizione. Il trucco: togliere la protezione alla cartella di Safari nella home e ritoccare il suo database delle preferenze per sito, così Safari, che gode di permessi speciali, faceva da tramite per fotocamera, microfono, posizione e cronologia senza chiedere niente all'utente. Apple lo corresse come CVE-2024-44133 negli aggiornamenti di macOS Sequoia del 16 settembre 2024; secondo Apple riguardava i Mac gestiti con MDM.",
+    "prayer": "O San HM Surf, che navighi con la fotocamera degli altri, fa' che ogni permesso venga chiesto davvero e non preso in prestito. Amen.",
+    "feast": "Si festeggia aggiornando a macOS Sequoia 15 o successivo e tenendo d'occhio chi mette le mani nella cartella di Safari.",
+    "proverb": "Chi entra dalla porta di servizio non chiede permesso a nessuno."
+  },
+  "en": {
+    "title": "Saint HM Surf, Navigator Without Permission",
+    "patronage": "Mac cameras, TCC permissions, and everyone who thought the browser always asked first.",
+    "hagiography": "On 17 October 2024 Jonathan Bar Or of Microsoft Threat Intelligence described HM Surf, a macOS flaw that bypassed TCC, the gatekeeper that asks for consent before granting camera, microphone and location. The trick: strip the protection from Safari's folder in the home directory and tweak its per-site preferences database, so Safari, which enjoys special permissions, became a go-between for camera, microphone, location and browsing history without asking the user anything. Apple fixed it as CVE-2024-44133 in the macOS Sequoia updates of 16 September 2024; according to Apple it affected MDM-managed Macs.",
+    "prayer": "O Saint HM Surf, who browse with other people's cameras, let every permission be truly asked for, never borrowed. Amen.",
+    "feast": "Celebrated by updating to macOS Sequoia 15 or later and keeping an eye on whoever meddles with Safari's folder.",
+    "proverb": "Who comes in by the service door asks no one's leave."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San VRS, che campionava i registri vettoriali",
+    "patronage": "dei registri vettoriali, dei buffer nascosti delle CPU Intel e di chi pensava che un dato mai scritto in memoria fosse al sicuro.",
+    "hagiography": "Il 1° ottobre 2019 VUSec, il gruppo di sicurezza della Vrije Universiteit Amsterdam, segnalò a Intel una piccola variante di RIDL, poi chiamata Vector Register Sampling: cambiando una sola riga di una vecchia prova di concetto, si leggevano valori rimasti nei registri vettoriali, anche se non erano mai stati scritti in memoria. Dopo un altro embargo la falla fu resa pubblica il 27 gennaio 2020, insieme a L1DES, come CVE-2020-0548. La gravità era bassa, la lezione no: in una CPU speculativa anche i registri hanno orecchie.",
+    "prayer": "O San VRS, che ascolti i sussurri dei registri, fa' che ciò che resta nei nostri buffer non arrivi a orecchie altrui. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti del microcodice Intel dell'avviso INTEL-SA-00329, via BIOS o sistema operativo, e ricordando che anche un registro può avere la lingua lunga.",
+    "proverb": "Non c'è registro tanto chiuso che non lasci un'eco."
+  },
+  "en": {
+    "title": "Saint VRS, Sampler of Vector Registers",
+    "patronage": "vector registers, the hidden buffers of Intel CPUs, and everyone who thought data never written to memory was safe.",
+    "hagiography": "On 1 October 2019 VUSec, the security group of Vrije Universiteit Amsterdam, reported to Intel a small variant of RIDL, later named Vector Register Sampling: changing a single line of an old proof of concept leaked values left in vector registers, even values never stored to memory. After yet another embargo it went public on 27 January 2020, alongside L1DES, as CVE-2020-0548. The severity was low, the lesson was not: in a speculative CPU even the registers have ears.",
+    "prayer": "O Saint VRS, who hear the whispers of the registers, let what lingers in our buffers never reach a stranger's ear. Amen.",
+    "feast": "Celebrated by installing Intel's microcode updates from advisory INTEL-SA-00329, via BIOS or operating system, and remembering that even a register can be a gossip.",
+    "proverb": "No register is sealed so tight that it leaves no echo."
+  }
+}

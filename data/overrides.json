@@ -243,6 +243,10 @@
     ]
   },
   "fields": {
+    "4": {
+      "vendor": "eMudhra",
+      "product": "Intermediate CA certificates"
+    },
     "leakycli": {
       "vendor": "AWS, Google Cloud, Microsoft",
       "product": "AWS CLI, Google Cloud CLI (gcloud), Azure CLI"
@@ -299,6 +303,76 @@
     "tailworm": {
       "vendor": "Tailscale",
       "product": "Tailscale SSH (tailscaled), headscale"
+    },
+    "gateway2hell": {
+      "vendor": "Citrix"
+    },
+    "iis-unicode": {
+      "vendor": "Microsoft",
+      "product": "IIS",
+      "author": "Rain Forest Puppy"
+    },
+    "ransacked": {
+      "author": "Nathaniel Bennett, Weidong Zhu, Benjamin Simon, Ryon Kennedy, William Enck, Patrick Traynor and Kevin Butler"
+    },
+    "fabrixss": {
+      "author": "Lidor Ben Shitrit and Roee Sagi (Orca Security)"
+    },
+    "hm-surf": {
+      "author": "Jonathan Bar Or (Microsoft)"
+    },
+    "header-accordions": {
+      "vendor": "Multiple",
+      "product": "HTTP/3 QPACK (quic-go, Wireshark, quiche)"
+    },
+    "bigsig": {
+      "author": "Tavis Ormandy (Google Project Zero)"
+    },
+    "cpdos": {
+      "author": "Hoai Viet Nguyen, Luigi Lo Iacono, Hannes Federrath"
+    },
+    "efail": {
+      "author": "Damian Poddebniak, Christian Dresen, Jens Müller, Fabian Ising, Sebastian Schinzel, Simon Friedberger, Juraj Somorovsky and Jörg Schwenk"
+    },
+    "deceptive-delight": {
+      "author": "Unit 42 (Palo Alto Networks)"
+    },
+    "drammer": {
+      "author": "VUSec (Vrije Universiteit Amsterdam) and UC Santa Barbara"
+    },
+    "nucleus-13": {
+      "product": "Nucleus NET (Nucleus RTOS TCP/IP stack)"
+    },
+    "minerva": {
+      "vendor": "Multiple",
+      "product": "ECDSA implementations (smart cards, libgcrypt, wolfSSL, Java…)"
+    },
+    "bits-please": {
+      "author": "Jonas Lykkegård"
+    },
+    "counterseveillance": {
+      "author": "Stefan Gast, Hannes Weissteiner, Robin Leander Schröder and Daniel Gruss"
+    },
+    "specrop": {
+      "author": "Atri Bhattacharyya, Andrés Sánchez, Esmaeil M. Koruyeh, Nael Abu-Ghazaleh, Chengyu Song and Mathias Payer"
+    },
+    "confusedpilot": {
+      "author": "Ayush RoyChowdhury, Mulong Luo, Prateek Sahu, Sarbartha Banerjee and Mohit Tiwari (UT Austin)"
+    },
+    "dheat": {
+      "author": "Szilárd Pfeiffer"
+    },
+    "tdxdown": {
+      "vendor": "Intel, wolfSSL"
+    },
+    "bleedingtooth": {
+      "product": "BlueZ"
+    },
+    "badvibes": {
+      "product": "BlueZ"
+    },
+    "blockstrap": {
+      "author": "vozec (analysis: Sansec)"
     }
   }
 }

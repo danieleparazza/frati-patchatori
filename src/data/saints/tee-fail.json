@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato TEE.fail, che origliava il bus della memoria",
+    "patronage": "delle enclave fidate, dei moduli DDR5 e dei data center dove qualcuno può mettere le mani nel rack.",
+    "hagiography": "Nell'ottobre 2025 Jalen Chuang, Alex Seto, Nicolas Berrios, Stephan van Schaik, Christina Garman e Daniel Genkin presentarono TEE.fail: con un dispositivo che intercetta il traffico tra processore e memoria DDR5, che secondo il gruppo costa meno di mille dollari, la cifratura deterministica della memoria lasciava trapelare segreti da Intel TDX e SGX e da AMD SEV-SNP. Estrassero una chiave di attestazione di Intel, con cui falsificare le prove di affidabilità, e chiavi di firma da una macchina virtuale AMD. Intel e AMD considerano questi attacchi fisici fuori dal loro modello di minaccia.",
+    "prayer": "O Beato TEE.fail, che con una sonda sul bus ascolti le confessioni dell'enclave, fa' che i nostri segreti non si ripetano sempre con le stesse parole. Amen.",
+    "feast": "Si festeggia custodendo fisicamente i server, come raccomandano Intel e AMD, e non fidandosi di un'attestazione solo perché è firmata.",
+    "proverb": "Chi cifra sempre allo stesso modo, prima o poi si fa imparare a memoria."
+  },
+  "en": {
+    "title": "Blessed TEE.fail, Who Eavesdropped on the Memory Bus",
+    "patronage": "trusted enclaves, DDR5 modules, and data centres where someone can get their hands into the rack.",
+    "hagiography": "In October 2025 Jalen Chuang, Alex Seto, Nicolas Berrios, Stephan van Schaik, Christina Garman and Daniel Genkin presented TEE.fail: with a device that taps the traffic between processor and DDR5 memory, which by the team's estimate costs under a thousand dollars, deterministic memory encryption leaked secrets from Intel TDX and SGX and from AMD SEV-SNP. They extracted an Intel attestation key, good for forging proofs of trustworthiness, and signing keys from an AMD virtual machine. Intel and AMD consider such physical attacks outside their threat model.",
+    "prayer": "O Blessed TEE.fail, who with a probe on the bus overhear the enclave's confessions, keep our secrets from always repeating the same words. Amen.",
+    "feast": "Celebrated by physically guarding the servers, as Intel and AMD advise, and never trusting an attestation just because it is signed.",
+    "proverb": "Encrypt the same way every time and someone will learn you by heart."
+  }
+}

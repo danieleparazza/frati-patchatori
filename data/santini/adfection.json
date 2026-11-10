@@ -1,0 +1,10 @@
+{
+  "label": "AdFection",
+  "motto": "RECLAMA INFECTA",
+  "niche": [
+    "#2e1a22",
+    "#5c3444"
+  ],
+  "accent": "#432630",
+  "emblem": "<rect x=\"102\" y=\"134\" width=\"96\" height=\"58\" rx=\"3\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#432630\">AD</text>\n<text x=\"150\" y=\"180\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#432630\">clicca? no.</text>\n<path d=\"M150 192 v26 q0 16 -14 16 q-12 0 -12 -12\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<path d=\"M124 222 l-5 8 l9 -2\" fill=\"#bfc9d1\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "LogCrusher",
+  "motto": "CHRONICA CONTRITA",
+  "niche": [
+    "#26201c",
+    "#4e4238"
+  ],
+  "accent": "#382e28",
+  "emblem": "<path d=\"M108 206 h84 l-6 30 h-72 Z\" fill=\"#f3e6c4\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M114 214 l10 6 l8 -6 l10 8 l12 -8 l10 6 l12 -6 M118 226 h64\" fill=\"none\" stroke=\"#9a8664\" stroke-width=\"1.5\"/>\n<rect x=\"116\" y=\"138\" width=\"68\" height=\"34\" rx=\"4\" fill=\"#6b5a4c\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<rect x=\"144\" y=\"172\" width=\"12\" height=\"26\" fill=\"#bfc9d1\"/>\n<g stroke=\"#e8c45c\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M100 196 l-10 -6 M100 210 l-12 0 M200 196 l10 -6 M200 210 l12 0\"/></g>\n<text x=\"150\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">LOG</text>"
+}

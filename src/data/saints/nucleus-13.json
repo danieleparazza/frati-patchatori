@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San NUCLEUS:13, che faceva tremare il cuore degli apparecchi",
+    "patronage": "dei sistemi embedded, degli stack TCP/IP nascosti negli apparecchi e di chi a tavola non vuole mai essere in tredici.",
+    "hagiography": "Il 9 novembre 2021 Forescout Research Labs e Medigate Labs pubblicarono NUCLEUS:13, tredici vulnerabilità nello stack TCP/IP di Nucleus, il sistema operativo in tempo reale di Siemens usato da quasi trent'anni in apparecchi medici, industriali e automobilistici. La più grave, CVE-2021-31886 (CVSS 9,8), era un overflow nel server FTP, che non controllava la lunghezza del comando USER; altre permettevano negazioni del servizio o fughe di informazioni, come CVE-2021-31344 con i pacchetti ICMP dalle opzioni IP fasulle. Siemens pubblicò le correzioni, ma ogni produttore doveva poi portarle sui propri apparecchi.",
+    "prayer": "O San NUCLEUS:13, che in tredici modi scuoti il cuore degli apparecchi, fa' che i produttori portino la patch fino all'ultimo dispositivo. Amen.",
+    "feast": "Si festeggia aggiornando Nucleus NET alla V2017.02.4 o successiva, o al firmware corretto del produttore, e spegnendo FTP e TFTP dove non servono.",
+    "proverb": "Tredici a tavola porta male, tredici nello stack porta peggio."
+  },
+  "en": {
+    "title": "Saint NUCLEUS:13, Who Shook the Heart of Devices",
+    "patronage": "embedded systems, TCP/IP stacks hidden inside devices, and everyone who refuses to sit thirteen at table.",
+    "hagiography": "On 9 November 2021 Forescout Research Labs and Medigate Labs published NUCLEUS:13, thirteen vulnerabilities in the TCP/IP stack of Nucleus, the Siemens real-time operating system used for almost thirty years in medical, industrial and automotive devices. The worst, CVE-2021-31886 (CVSS 9.8), was an overflow in the FTP server, which did not check the length of the USER command; others allowed denial of service or information leaks, such as CVE-2021-31344 with ICMP packets carrying fake IP options. Siemens released fixes, but every manufacturer then had to bring them to its own devices.",
+    "prayer": "O Saint NUCLEUS:13, who shake the heart of devices in thirteen ways, let manufacturers carry the patch to the very last one. Amen.",
+    "feast": "Celebrated by updating Nucleus NET to V2017.02.4 or later, or to the manufacturer's fixed firmware, and switching off FTP and TFTP where they aren't needed.",
+    "proverb": "Thirteen at the table is bad luck; thirteen in the stack is worse."
+  }
+}

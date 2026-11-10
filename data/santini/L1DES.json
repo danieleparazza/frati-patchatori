@@ -1,0 +1,10 @@
+{
+  "label": "L1DES",
+  "motto": "QUOD EVICTUM EST, LEGITUR",
+  "niche": [
+    "#1a2230",
+    "#34465e"
+  ],
+  "accent": "#26344a",
+  "emblem": "<rect x=\"108\" y=\"128\" width=\"84\" height=\"56\" fill=\"#26344a\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M108 142 h84 M108 156 h84 M108 170 h84 M129 128 v56 M150 128 v56 M171 128 v56\" stroke=\"#bfc9d1\" stroke-width=\"1\"/>\n<g fill=\"#d9ad55\"><rect x=\"110\" y=\"130\" width=\"17\" height=\"10\"/><rect x=\"152\" y=\"144\" width=\"17\" height=\"10\"/><rect x=\"131\" y=\"158\" width=\"17\" height=\"10\"/></g>\n<rect x=\"173\" y=\"172\" width=\"17\" height=\"10\" fill=\"none\" stroke=\"#d9ad55\" stroke-dasharray=\"2 2\"/>\n<g fill=\"#e8c45c\"><rect x=\"176\" y=\"192\" width=\"8\" height=\"5\" transform=\"rotate(20 180 194)\"/><rect x=\"168\" y=\"206\" width=\"8\" height=\"5\" transform=\"rotate(-15 172 208)\"/><rect x=\"178\" y=\"218\" width=\"8\" height=\"5\"/></g>\n<path d=\"M112 236 q38 18 76 0 l-6 -12 h-64 Z\" fill=\"#8a6a3a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"210\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">L1D</text>"
+}

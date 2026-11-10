@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SandBreak, che usciva dal recinto di sabbia",
+    "patronage": "delle sandbox JavaScript, dei messaggi d'errore troppo personalizzabili e di chi fa girare codice altrui nello stesso processo.",
+    "hagiography": "Il 16 agosto 2022 i ricercatori di Oxeye trovarono SandBreak (CVE-2022-36067, punteggio CVSS 10) in vm2, una sandbox per Node.js molto diffusa. vm2 aveva avvolto Error.prepareStackTrace, il metodo che personalizza la traccia degli errori, per impedire al codice ospite di sovrascriverlo; ma non copriva tutti i casi, e un codice malevolo poteva fornire la propria versione, uscire dalla sandbox ed eseguire comandi sul server che la ospitava. La correzione arrivò con vm2 3.9.11 a fine agosto e la ricerca fu pubblicata il 10 ottobre.",
+    "prayer": "O San SandBreak, che esci dal recinto passando per i messaggi d'errore, fa' che le nostre sandbox siano mura e non staccionate. Amen.",
+    "feast": "Si festeggia aggiornando vm2 almeno alla 3.9.11 e, meglio ancora, mettendo il codice non fidato in un processo o in un contenitore separato.",
+    "proverb": "Chi scava nella sabbia, prima o poi trova il fondo."
+  },
+  "en": {
+    "title": "Saint SandBreak, Who Climbed Out of the Sandbox",
+    "patronage": "JavaScript sandboxes, overly customisable error messages, and everyone who runs other people's code in the same process.",
+    "hagiography": "On 16 August 2022 Oxeye's researchers found SandBreak (CVE-2022-36067, CVSS score 10) in vm2, a widely used sandbox for Node.js. vm2 wrapped Error.prepareStackTrace, the method that customises error stack traces, to stop guest code from overriding it; but it did not cover every case, and malicious code could supply its own version, escape the sandbox and run commands on the host server. The fix shipped in vm2 3.9.11 at the end of August, and the research was published on 10 October.",
+    "prayer": "O Saint SandBreak, who leave the enclosure through the error messages, let our sandboxes be walls and not picket fences. Amen.",
+    "feast": "Celebrated by upgrading vm2 to at least 3.9.11 and, better still, putting untrusted code in a separate process or container.",
+    "proverb": "Dig in the sandbox long enough and you hit the floor."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SpecROP, che incatenava fantasmi",
+    "patronage": "dei predittori di salto, dei gadget sparsi nelle librerie e delle catene che esistono solo nell'immaginazione del processore.",
+    "hagiography": "Al simposio RAID di ottobre 2020 Atri Bhattacharyya e Andrés Sánchez dell'EPFL, con Esmaeil M. Koruyeh, Nael Abu-Ghazaleh e Chengyu Song della UC Riverside e Mathias Payer dell'EPFL, presentarono SpecROP. Invece di cercare un unico gadget capace di fare da solo tutto il lavoro di un attacco speculativo, si avvelenano più istruzioni di salto e si concatenano piccoli gadget, passando dall'uno all'altro su bersagli soltanto speculativi: una catena ROP che esiste solo nella fantasia del processore. Gli autori mostrarono che questi gadget sono comuni nelle librerie e che la catena aumenta la fuga d'informazioni di SMoTherSpectre.",
+    "prayer": "O Beato SpecROP, che leghi tra loro anelli che non ci sono, fa' che i nostri processori dimentichino in fretta ciò che hanno solo immaginato. Amen.",
+    "feast": "Si festeggia tenendo attive le mitigazioni contro l'esecuzione speculativa su firmware, sistema operativo e compilatore, sapendo che contro le catene di fantasmi non basta un solo esorcismo.",
+    "proverb": "Anelli di fumo, catene vere."
+  },
+  "en": {
+    "title": "Blessed SpecROP, Who Chained Ghosts Together",
+    "patronage": "branch predictors, gadgets scattered through libraries, and chains that exist only in the processor's imagination.",
+    "hagiography": "At the RAID symposium in October 2020, Atri Bhattacharyya and Andrés Sánchez of EPFL, with Esmaeil M. Koruyeh, Nael Abu-Ghazaleh and Chengyu Song of UC Riverside and Mathias Payer of EPFL, presented SpecROP. Rather than hunting for a single gadget able to do all the work of a speculative attack, it poisons several branch instructions and chains small gadgets, hopping from one to the next along purely speculative targets: a ROP chain that exists only in the processor's fancy. The authors showed such gadgets are common in libraries and that chaining boosts SMoTherSpectre's leakage.",
+    "prayer": "O Blessed SpecROP, who links rings that are not there, let our processors quickly forget what they only imagined. Amen.",
+    "feast": "Celebrated by keeping speculative-execution mitigations enabled in firmware, operating system and compiler, knowing one exorcism is not enough against chains of ghosts.",
+    "proverb": "Rings of smoke can still make a chain."
+  }
+}

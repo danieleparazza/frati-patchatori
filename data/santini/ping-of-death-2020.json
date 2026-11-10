@@ -1,0 +1,10 @@
+{
+  "label": "Ping of Death 2020",
+  "motto": "PING ERGO MORIOR",
+  "niche": [
+    "#2a1f33",
+    "#4f3d63"
+  ],
+  "accent": "#3a2c48",
+  "emblem": "<path d=\"M120 200 q0 -58 30 -62 q30 4 30 62 l8 12 h-76 z\" fill=\"#3a2c48\" stroke=\"#fbf3dd\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<circle cx=\"150\" cy=\"132\" r=\"5\" fill=\"#d9ad55\"/>\n<circle cx=\"150\" cy=\"222\" r=\"8\" fill=\"#d9ad55\"/>\n<path d=\"M150 150 l-6 18 l8 6 l-6 20\" stroke=\"#bfc9d1\" stroke-width=\"2\" fill=\"none\"/>\n<path d=\"M104 160 q-8 16 0 32 M196 160 q8 16 0 32\" stroke=\"#bfc9d1\" stroke-width=\"2\" fill=\"none\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">ICMPv6</text>"
+}

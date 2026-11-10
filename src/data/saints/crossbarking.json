@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato CrossBarking, che abbaiava da un negozio all'altro",
+    "patronage": "di Opera, delle estensioni con il cucciolo in copertina e delle API private lasciate alla portata di troppi domini.",
+    "hagiography": "Il 30 ottobre 2024 Guardio Labs pubblicò CrossBarking: Opera concedeva API private alle pagine di alcuni domini, tra cui opera.com, e un'estensione malevola poteva iniettarvi script e usarle. Nella prova di concetto venivano cambiate le impostazioni DNS del browser verso un server ostile; altre API permettevano di leggere i cookie, fotografare le schede o gestire le estensioni. L'estensione dimostrativa, a tema cuccioli, superò in circa un giorno la revisione del Chrome Web Store, da cui anche Opera installa. Opera aveva corretto il 24 settembre 2024.",
+    "prayer": "O Beato CrossBarking, che ti presenti come un cagnolino e ti comporti da lupo, fa' che le nostre estensioni non abbiano le chiavi di casa altrui. Amen.",
+    "feast": "Si festeggia aggiornando Opera e installando solo estensioni di cui ci si fida davvero, anche quando hanno gli occhi dolci.",
+    "proverb": "Can che abbaia in un negozio, morde nel browser accanto."
+  },
+  "en": {
+    "title": "Blessed CrossBarking, Who Barked from Store to Store",
+    "patronage": "Opera, extensions with a puppy on the cover, and private APIs left within reach of too many domains.",
+    "hagiography": "On 30 October 2024 Guardio Labs published CrossBarking: Opera granted private APIs to pages on certain domains, opera.com among them, and a malicious extension could inject scripts there and use them. The proof of concept switched the browser's DNS settings to a hostile server; other APIs could read cookies, screenshot tabs or manage extensions. The demo extension, puppy-themed, passed Chrome Web Store review in about a day, and Opera can install from that store too. Opera had fixed it on 24 September 2024.",
+    "prayer": "O Blessed CrossBarking, who look like a puppy and behave like a wolf, keep our extensions from holding the keys to other people's houses. Amen.",
+    "feast": "Celebrated by updating Opera and installing only extensions you truly trust, even the ones with puppy eyes.",
+    "proverb": "The dog you adopt in one store may bite in another's yard."
+  }
+}

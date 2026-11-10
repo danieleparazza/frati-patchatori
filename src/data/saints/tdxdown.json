@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TDXdown, che inciampava contando i passi",
+    "patronage": "delle macchine virtuali riservate Intel, dei nonce ECDSA troncati e degli hypervisor che camminano in punta di piedi.",
+    "hagiography": "Al convegno ACM CCS di ottobre 2024 Luca Wilke, Florian Sieck e Thomas Eisenbarth dell'Università di Lubecca presentarono TDXdown. Mostrarono che la difesa di Intel TDX contro il single-stepping, cioè il far avanzare una macchina virtuale riservata un'istruzione alla volta, poteva essere aggirata da un hypervisor malevolo (CVE-2024-27457). Con StumbleStepping, poi, contavano le istruzioni eseguite e trovarono fughe nel troncamento dei nonce ECDSA di wolfSSL (CVE-2024-1544) e di OpenSSL, abbastanza da ricostruire chiavi private.",
+    "prayer": "O San TDXdown, che conti i passi di chi cammina al buio, fa' che le nostre librerie facciano sempre lo stesso numero di passi. Amen.",
+    "feast": "Si festeggia aggiornando il modulo Intel TDX alla 1.5.06, wolfSSL alla 5.6.6 e OpenSSL almeno alla 3.3.1; per StumbleStepping Intel non ha una correzione e rimanda alle sue linee guida per il software.",
+    "proverb": "Chi inciampa contando, insegna la strada al ladro."
+  },
+  "en": {
+    "title": "Saint TDXdown, Who Stumbled While Counting Steps",
+    "patronage": "Intel confidential virtual machines, truncated ECDSA nonces, and hypervisors tiptoeing about.",
+    "hagiography": "At ACM CCS in October 2024, Luca Wilke, Florian Sieck and Thomas Eisenbarth of the University of Lübeck presented TDXdown. They showed that Intel TDX's defence against single-stepping, that is, advancing a confidential virtual machine one instruction at a time, could be bypassed by a malicious hypervisor (CVE-2024-27457). With StumbleStepping they then counted executed instructions and found leaks in ECDSA nonce truncation in wolfSSL (CVE-2024-1544) and OpenSSL, enough to rebuild private keys.",
+    "prayer": "O Saint TDXdown, who counts the steps of those walking in the dark, let our libraries always take the same number of steps. Amen.",
+    "feast": "Celebrated by updating the Intel TDX module to 1.5.06, wolfSSL to 5.6.6 and OpenSSL to at least 3.3.1; for StumbleStepping Intel has no fix and points to its software guidance.",
+    "proverb": "Stumble while counting and you show the thief the way."
+  }
+}

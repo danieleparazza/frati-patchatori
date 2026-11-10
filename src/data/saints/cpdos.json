@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CPDoS, avvelenatore delle cache",
+    "patronage": "delle CDN, delle pagine d'errore e di chi credeva che la cache ricordasse solo le cose belle.",
+    "hagiography": "Nell'ottobre 2019 Hoai Viet Nguyen, Luigi Lo Iacono e Hannes Federrath del TH Köln resero pubblico CPDoS, il Cache-Poisoned Denial of Service, poi presentato al convegno ACM CCS. Bastava una richiesta con un'intestazione troppo lunga, un carattere di controllo o un finto cambio di metodo: la cache la lasciava passare, il server d'origine rispondeva con un errore e la cache conservava quell'errore, servendolo a tutti i visitatori successivi. Su quindici soluzioni di caching studiate, un proxy e cinque servizi CDN risultarono vulnerabili.",
+    "prayer": "O San CPDoS, che con una sola richiesta storta riempi la cache di pagine d'errore, fa' che i nostri proxy ricordino solo ciò che merita. Amen.",
+    "feast": "Si festeggia non mettendo in cache le risposte 400, usando il codice 431 per le intestazioni troppo grandi e aggiungendo Cache-Control: no-store alle pagine d'errore, perché un errore in cache lo vedono tutti.",
+    "proverb": "Uno sbaglio detto a uno lo sentono in cento, se passa dalla cache."
+  },
+  "en": {
+    "title": "Saint CPDoS, Poisoner of Caches",
+    "patronage": "CDNs, error pages, and everyone who thought the cache only remembered the good times.",
+    "hagiography": "In October 2019 Hoai Viet Nguyen, Luigi Lo Iacono and Hannes Federrath of TH Köln made public CPDoS, the Cache-Poisoned Denial of Service, later presented at ACM CCS. One request with an oversized header, a control character or a fake method override was enough: the cache let it through, the origin server answered with an error, and the cache kept that error and served it to every visitor who came after. Of fifteen caching solutions studied, one proxy cache and five CDN services turned out to be vulnerable.",
+    "prayer": "O Saint CPDoS, who with a single crooked request fill the cache with error pages, let our proxies remember only what deserves remembering. Amen.",
+    "feast": "Celebrated by not caching 400 responses, answering oversized headers with 431 and adding Cache-Control: no-store to error pages, because a cached mistake is everyone's mistake.",
+    "proverb": "Tell one person a mistake and a hundred hear it, if it goes through the cache."
+  }
+}

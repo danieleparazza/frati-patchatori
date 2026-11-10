@@ -1,0 +1,10 @@
+{
+  "label": "SysBumps",
+  "motto": "PER SALEBRAS AD NUCLEUM",
+  "niche": [
+    "#262626",
+    "#4a4a4a"
+  ],
+  "accent": "#363636",
+  "emblem": "<polygon points=\"150,126 202,206 98,206\" fill=\"#fbf3dd\" stroke=\"#8b2d1e\" stroke-width=\"5\" stroke-linejoin=\"round\"/>\n<path d=\"M114 190 q9 -18 18 0 q9 -18 18 0 q9 -18 18 0 q9 -18 18 0\" fill=\"none\" stroke=\"#363636\" stroke-width=\"4\"/>\n<rect x=\"138\" y=\"216\" width=\"24\" height=\"28\" fill=\"#bfc9d1\"/>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#363636\">KASLR</text>"
+}

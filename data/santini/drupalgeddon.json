@@ -1,0 +1,10 @@
+{
+  "label": "Drupalgeddon",
+  "motto": "GUTTA SQL CAVAT",
+  "niche": [
+    "#14283a",
+    "#2a5478"
+  ],
+  "accent": "#1e3c58",
+  "emblem": "<path d=\"M150 124 q-50 52 -48 82 q2 34 48 36 q46 -2 48 -36 q2 -30 -48 -82 z\" fill=\"#5aa0d8\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M150 150 l-10 24 l14 10 l-12 26 l8 18\" stroke=\"#fbf3dd\" stroke-width=\"3\" fill=\"none\"/>\n<text x=\"150\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"15\" fill=\"#fbf3dd\" font-weight=\"bold\">' OR</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "SandBreak",
+  "motto": "EX HARENA EVASIT",
+  "niche": [
+    "#2c2418",
+    "#5c4a30"
+  ],
+  "accent": "#423624",
+  "emblem": "<path d=\"M108 160 V226 H192 V160\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\"/>\n<path d=\"M110 206 q20 -10 40 -2 q20 8 40 -4 V224 H110 Z\" fill=\"#d9ad55\"/>\n<path d=\"M192 160 L182 182 L192 196\" fill=\"none\" stroke=\"#2c2418\" stroke-width=\"5\"/>\n<path d=\"M150 196 Q160 150 200 132\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\" stroke-dasharray=\"5 4\"/>\n<polygon points=\"204,128 190,128 198,140\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">vm2</text>"
+}

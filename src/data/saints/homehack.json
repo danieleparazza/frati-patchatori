@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato HomeHack, che guardava dall'aspirapolvere",
+    "patronage": "degli elettrodomestici connessi, dei robot aspirapolvere con telecamera e di chi accende la lavatrice dall'ufficio.",
+    "hagiography": "Il 26 ottobre 2017 Check Point Research, con Roman Zaikin, Dikla Barda e Oded Vanunu, rivelò HomeHack, un difetto nell'accesso all'app LG SmartThinQ: l'autenticazione non era legata ai passaggi successivi, così chi entrava con il proprio nome utente poteva sostituirlo con quello di un'altra persona e prenderne l'account. Da lì si comandavano tutti gli elettrodomestici collegati e si guardava dalla telecamera del robot aspirapolvere Hom-Bot. LG, avvisata il 31 luglio, pubblicò la correzione a fine settembre 2017.",
+    "prayer": "O Beato HomeHack, che sbirci in salotto dagli occhi del robot che pulisce, fa' che le nostre case connesse riconoscano chi entra. Amen.",
+    "feast": "Si festeggia aggiornando l'app SmartThinQ alla 1.9.23 o successiva insieme ai dispositivi, e ricordando che anche l'aspirapolvere, ormai, ha gli occhi.",
+    "proverb": "Casa intelligente, serratura sveglia."
+  },
+  "en": {
+    "title": "Blessed HomeHack, Who Watched from the Vacuum",
+    "patronage": "connected appliances, robot vacuums with cameras, and everyone who starts the washing machine from the office.",
+    "hagiography": "On 26 October 2017 Check Point Research, with Roman Zaikin, Dikla Barda and Oded Vanunu, revealed HomeHack, a flaw in the LG SmartThinQ app's login: authentication wasn't tied to the steps that followed, so someone logging in with their own username could swap in another person's and take over that account. From there every connected appliance obeyed, and the Hom-Bot robot vacuum's camera became a window into the home. LG, notified on 31 July, shipped the fix at the end of September 2017.",
+    "prayer": "O Blessed HomeHack, who peek into the living room through the eyes of the robot that cleans it, let our connected homes recognise who walks in. Amen.",
+    "feast": "Celebrated by updating the SmartThinQ app to 1.9.23 or later along with the devices, remembering that even the vacuum cleaner has eyes now.",
+    "proverb": "A smart home needs a smarter lock."
+  }
+}

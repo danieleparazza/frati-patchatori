@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AdFection, il banner che non vendeva niente",
+    "patronage": "delle aste pubblicitarie, degli identificativi pubblicitari e dei banner che non vendono nulla ma prendono tutto.",
+    "hagiography": "Il 15 ottobre 2026 Citizen Lab (Bill Marczak, Wolfie Christl, John Scott-Railton, Astrid Perry, Siena Anstis e Ron Deibert) pubblicò AdFection, la prima conferma tecnica pubblica di spyware mercenario consegnato con la pubblicità mirata, senza clic. Secondo il rapporto l'azienda israeliana Discover-Tech, presentandosi come società pubblicitaria, vinceva le aste e mostrava annunci che interrogavano il suo server: ai bersagli, scelti per identificativo pubblicitario o indirizzo IP, arrivava il codice che portava allo spyware di Candiru, a tutti gli altri una risposta vuota. Almeno 45 dispositivi di Al Jazeera furono presi di mira. Google, IAB Europe e altre piattaforme tolsero poi l'accesso a Discover-Tech.",
+    "prayer": "O Beato AdFection, che ti travesti da réclame per portare il male, fa' che i nostri telefoni guardino gli annunci senza farsi guardare. Amen.",
+    "feast": "Si festeggia azzerando o disattivando l'ID pubblicitario del telefono, riducendo il tracciamento pubblicitario e, per chi è a rischio, attivando la modalità Isolamento di iOS o la Protezione avanzata di Android.",
+    "proverb": "Quando l'annuncio è gratis, il prodotto sei tu; a volte anche il bersaglio."
+  },
+  "en": {
+    "title": "Blessed AdFection, the Banner That Sold Nothing",
+    "patronage": "ad auctions, advertising IDs, and banners that sell nothing but take everything.",
+    "hagiography": "On 15 October 2026 Citizen Lab (Bill Marczak, Wolfie Christl, John Scott-Railton, Astrid Perry, Siena Anstis and Ron Deibert) published AdFection, the first public technical confirmation of mercenary spyware delivered through targeted ads, with zero clicks. According to the report, the Israeli firm Discover-Tech, posing as an ad company, won auctions and served ads that queried its server: targets, picked by advertising ID or IP address, received code leading to Candiru's spyware, everyone else an empty reply. At least 45 Al Jazeera devices were targeted. Google, IAB Europe and other platforms later cut Discover-Tech off.",
+    "prayer": "O Blessed AdFection, who dresses as an advert to deliver harm, let our phones look at ads without being looked at. Amen.",
+    "feast": "Celebrated by resetting or disabling the phone's advertising ID, cutting down ad tracking and, for those at risk, turning on iOS Lockdown Mode or Android Advanced Protection.",
+    "proverb": "If the ad is free, you're the product, and sometimes the target."
+  }
+}

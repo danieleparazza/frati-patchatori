@@ -1,0 +1,10 @@
+{
+  "label": "ShellTorch",
+  "motto": "FIAT LUX ET SHELL",
+  "niche": [
+    "#2e1d16",
+    "#5c3a28"
+  ],
+  "accent": "#462a1c",
+  "emblem": "<path d=\"M140 172 L146 246 L154 246 L160 172 Z\" fill=\"#8a5a3a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"134\" y=\"164\" width=\"32\" height=\"10\" rx=\"3\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M150 116 C130 136 128 150 136 164 L164 164 C172 150 168 134 150 116 Z\" fill=\"#e07b39\"/>\n<path d=\"M150 134 C140 146 140 156 144 164 L156 164 C160 156 160 146 150 134 Z\" fill=\"#f5d77a\"/>\n<text x=\"182\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">$_</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Shrootless",
+  "motto": "HEREDITAS RADICIS",
+  "niche": [
+    "#22222a",
+    "#46465a"
+  ],
+  "accent": "#32323f",
+  "emblem": "<path d=\"M150 124 L196 140 V184 Q196 226 150 246 Q104 226 104 184 V140 Z\" fill=\"#46465a\" stroke=\"#bfc9d1\" stroke-width=\"2.5\"/>\n<path d=\"M150 124 L144 160 L156 176 L146 204 L152 246\" fill=\"none\" stroke=\"#1a1a20\" stroke-width=\"3\"/>\n<path d=\"M150 124 L144 160 L156 176 L146 204 L152 246\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"1.2\"/>\n<text x=\"150\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">SIP</text>\n<rect x=\"114\" y=\"198\" width=\"72\" height=\"20\" rx=\"3\" fill=\"#1a1a20\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"212\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#d9ad55\">/etc/zshenv</text>"
+}

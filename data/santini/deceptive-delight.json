@@ -1,0 +1,10 @@
+{
+  "label": "Deceptive Delight",
+  "motto": "VENENUM IN DULCIBUS",
+  "niche": [
+    "#2e1a28",
+    "#5c3450"
+  ],
+  "accent": "#42243a",
+  "emblem": "<ellipse cx=\"150\" cy=\"210\" rx=\"58\" ry=\"18\" fill=\"#e8dcc0\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<ellipse cx=\"150\" cy=\"206\" rx=\"40\" ry=\"10\" fill=\"none\" stroke=\"#bfa070\" stroke-width=\"1.5\"/>\n<g stroke=\"#fbf3dd\" stroke-width=\"2\"><circle cx=\"122\" cy=\"190\" r=\"14\" fill=\"#f2b8c6\"/><circle cx=\"178\" cy=\"190\" r=\"14\" fill=\"#f2b8c6\"/><circle cx=\"150\" cy=\"182\" r=\"15\" fill=\"#3a2a2e\"/></g>\n<path d=\"M144 176 l12 12 M156 176 l-12 12\" stroke=\"#c0392b\" stroke-width=\"2.5\"/>\n<path d=\"M150 167 v-14 M144 154 l6 -8 l6 8\" fill=\"none\" stroke=\"#7fae6a\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"146\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">I · II · III</text>"
+}

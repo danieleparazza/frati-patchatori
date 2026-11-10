@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BadUSB, chiavetta dal doppio volto",
+    "patronage": "delle chiavette trovate nel parcheggio, dei firmware che nessuno controlla e delle tastiere che spuntano dal nulla.",
+    "hagiography": "Alla Black Hat USA dell'agosto 2014 Karsten Nohl, Sascha Krißler e Jakob Lell di SR Labs presentarono BadUSB: il firmware di molti controller USB, come i Phison che avevano provato, si poteva riscrivere, e una chiavetta qualunque diventava una tastiera che digita comandi, una scheda di rete che devia il traffico o un portatore d'infezione. Nessun antivirus guardava dentro il firmware. Il codice non fu pubblicato; a fine settembre, alla DerbyCon, Adam Caudill e Brandon Wilson mostrarono una propria versione e la misero su GitHub, per spingere i produttori a proteggere il firmware.",
+    "prayer": "O San BadUSB, che ti presenti come memoria e ti riveli tastiera, fa' che i nostri computer chiedano i documenti a ogni dispositivo che si annuncia. Amen.",
+    "feast": "Si festeggia non collegando chiavette di origine ignota, limitando con criteri di sistema i nuovi dispositivi USB (specie le tastiere che compaiono all'improvviso) e preferendo dispositivi con firmware firmato.",
+    "proverb": "Chiavetta trovata, tastiera mascherata."
+  },
+  "en": {
+    "title": "Saint BadUSB, the Two-Faced Thumb Drive",
+    "patronage": "thumb drives found in car parks, firmware nobody checks, and keyboards that appear out of nowhere.",
+    "hagiography": "At Black Hat USA in August 2014, Karsten Nohl, Sascha Krißler and Jakob Lell of SR Labs presented BadUSB: the firmware of many USB controllers, such as the Phison ones they tested, could be rewritten, turning any thumb drive into a keyboard typing commands, a network card diverting traffic or a carrier of infection. No antivirus looked inside the firmware. Their code stayed private; in late September at DerbyCon, Adam Caudill and Brandon Wilson showed their own version and put it on GitHub to push vendors into protecting firmware.",
+    "prayer": "O Saint BadUSB, who shows up as storage and turns out to be a keyboard, let our computers ask every new device for its papers. Amen.",
+    "feast": "Celebrated by not plugging in drives of unknown origin, restricting new USB devices by policy (especially keyboards that suddenly appear) and preferring devices with signed firmware.",
+    "proverb": "Found a drive? Mind the keyboard in disguise."
+  }
+}

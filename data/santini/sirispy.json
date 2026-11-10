@@ -1,0 +1,10 @@
+{
+  "label": "SiriSpy",
+  "motto": "AURIS IN AURICULIS",
+  "niche": [
+    "#1c2430",
+    "#384a62"
+  ],
+  "accent": "#283448",
+  "emblem": "<path d=\"M162 136 q-40 -6 -46 34 q-4 22 12 36 q10 8 8 22 q-2 14 14 16 q16 2 20 -14\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<path d=\"M150 158 q-12 2 -12 16 q0 10 8 12\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M176 162 q8 12 0 24\"/><path d=\"M186 154 q14 20 0 40\"/><path d=\"M196 146 q20 28 0 56\"/></g>\n<rect x=\"104\" y=\"206\" width=\"12\" height=\"28\" rx=\"6\" fill=\"#bfc9d1\"/><circle cx=\"110\" cy=\"204\" r=\"8\" fill=\"#bfc9d1\"/>"
+}

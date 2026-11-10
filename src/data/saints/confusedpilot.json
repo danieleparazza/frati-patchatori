@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ConfusedPilot, che depistava il copilota",
+    "patronage": "dei sistemi RAG, delle cartelle condivise aziendali e degli assistenti che credono all'ultimo documento letto.",
+    "hagiography": "Presentato all'AI Village del DEF CON dal gruppo dello Spark Research Lab dell'Università del Texas ad Austin, sotto la guida di Mohit Tiwari, ConfusedPilot fu raccontato da Symmetry Systems il 13 ottobre 2024. Bastava poter caricare un documento in uno spazio indicizzato da un sistema RAG come Microsoft 365 Copilot: quando una domanda lo richiamava, le stringhe nascoste al suo interno diventavano istruzioni, capaci di zittire i documenti veri, produrre informazioni false o attribuirle a fonti credibili. E la confusione, a volte, restava anche dopo aver tolto il documento.",
+    "prayer": "O Beato ConfusedPilot, che sussurri al copilota la rotta sbagliata, fa' che i nostri assistenti distinguano un dato da un ordine. Amen.",
+    "feast": "Si festeggia limitando chi può scrivere nei dati indicizzati, verificandone l'integrità, aggiungendo controlli sulle risposte e lasciando a una persona l'ultima parola sui contenuti importanti.",
+    "proverb": "Chi legge tutto quel che trova, crede a chi ha scritto per ultimo."
+  },
+  "en": {
+    "title": "Blessed ConfusedPilot, Who Led the Copilot Astray",
+    "patronage": "RAG systems, corporate shared folders, and assistants who believe the last document they read.",
+    "hagiography": "Presented at the DEF CON AI Village by the Spark Research Lab at the University of Texas at Austin, led by Mohit Tiwari, ConfusedPilot was written up by Symmetry Systems on 13 October 2024. All it took was the ability to drop a document somewhere indexed by a RAG system such as Microsoft 365 Copilot: when a question pulled it in, the strings hidden inside became instructions, able to silence the genuine documents, produce falsehoods or pin them on credible sources. And the confusion sometimes lingered even after the document was removed.",
+    "prayer": "O Blessed ConfusedPilot, who whispers the wrong heading to the copilot, let our assistants tell data from orders. Amen.",
+    "feast": "Celebrated by limiting who can write to indexed data, checking its integrity, adding checks on the answers, and leaving the last word on important content to a human.",
+    "proverb": "Read whatever you find and you'll believe whoever wrote last."
+  }
+}

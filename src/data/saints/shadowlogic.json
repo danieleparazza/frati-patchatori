@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ShadowLogic, che nascondeva la logica nell'ombra del grafo",
+    "patronage": "dei modelli di machine learning scaricati dalla rete, dei file ONNX e di chi non guarda mai dentro la scatola.",
+    "hagiography": "Il 10 ottobre 2024 Eoin Wickens, Kasimir Schulz e Tom Bonner di HiddenLayer presentarono ShadowLogic, un modo di nascondere una backdoor nel grafo computazionale di un modello di machine learning, per esempio in formato ONNX, senza toccare i pesi né rifare l'addestramento. Il modello si comporta normalmente finché non vede l'innesco scelto dall'attaccante: una zona di pixel rossi per un classificatore ResNet, una persona con una tazza per YOLO, una parola chiave per Phi-3 Mini. Secondo gli autori, la backdoor sopravvive anche al fine-tuning.",
+    "prayer": "O Beato ShadowLogic, che fai dire al modello ciò che vuoi tu solo alla vista del segnale, fa' che i nostri modelli vengano da fonti fidate e controllate. Amen.",
+    "feast": "Si festeggia scaricando modelli solo da fonti verificate, controllandone l'integrità e ispezionandone il grafo in cerca di rami che non dovrebbero esserci.",
+    "proverb": "Il modello sorride a tutti, ma obbedisce a uno solo."
+  },
+  "en": {
+    "title": "Blessed ShadowLogic, Who Hid Logic in the Graph's Shadow",
+    "patronage": "machine learning models downloaded from the web, ONNX files, and everyone who never looks inside the box.",
+    "hagiography": "On 10 October 2024 Eoin Wickens, Kasimir Schulz and Tom Bonner of HiddenLayer presented ShadowLogic, a way to hide a backdoor in the computational graph of a machine learning model, for instance in ONNX format, without touching the weights or retraining. The model behaves normally until it sees the attacker's trigger: a patch of red pixels for a ResNet classifier, a person holding a cup for YOLO, a keyword for Phi-3 Mini. According to the authors, the backdoor even survives fine-tuning.",
+    "prayer": "O Blessed ShadowLogic, who make the model do your will at the sight of a signal, let our models come from trusted, verified sources. Amen.",
+    "feast": "Celebrated by downloading models only from verified sources, checking their integrity and inspecting their graphs for branches that shouldn't be there.",
+    "proverb": "The model smiles at everyone but obeys only one."
+  }
+}

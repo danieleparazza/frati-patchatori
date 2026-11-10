@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BadChoice, che lasciava sfuggire lo stack",
+    "patronage": "delle risposte di errore, delle strutture inizializzate a metà e dei pettegoli del kernel.",
+    "hagiography": "Fra i difetti di BleedingTooth svelati da Andy Nguyen il 13 ottobre 2020, BadChoice (CVE-2020-12352) era quello che parlava troppo: in a2mp_getinfo_req(), nel codice A2MP del Bluetooth di Linux presente dalla versione 3.6, la risposta a una richiesta d'informazioni sbagliata veniva riempita solo in parte, e circa 16 byte dello stack del kernel partivano verso l'attaccante. Non bastavano per entrare, ma rivelavano indirizzi del kernel e di oggetti in memoria: proprio ciò che serviva per aggirare il KASLR e preparare il colpo di BadKarma.",
+    "prayer": "O San BadChoice, che con sedici byte racconti tutto, insegna alle nostre funzioni ad azzerare le risposte prima di spedirle. Amen.",
+    "feast": "Si festeggia con un kernel aggiornato, dove le correzioni disattivano anche il Bluetooth High Speed per impostazione predefinita; i kernel compilati con CONFIG_INIT_STACK_ALL_PATTERN, nella prova su ChromeOS, non erano vulnerabili.",
+    "proverb": "Chi risponde a metà, rivela il resto."
+  },
+  "en": {
+    "title": "Saint BadChoice, Who Let the Stack Slip",
+    "patronage": "error replies, half-initialised structs, and kernel gossips.",
+    "hagiography": "Among the BleedingTooth flaws revealed by Andy Nguyen on 13 October 2020, BadChoice (CVE-2020-12352) was the chatty one: in a2mp_getinfo_req(), in the Linux Bluetooth A2MP code present since version 3.6, the reply to a bad information request was only partly filled in, and about 16 bytes of kernel stack went off to the attacker. Not enough to get in, but enough to reveal addresses of the kernel and of objects in memory: exactly what was needed to defeat KASLR and set up BadKarma's blow.",
+    "prayer": "O Saint BadChoice, who tells everything in sixteen bytes, teach our functions to zero their replies before sending them. Amen.",
+    "feast": "Celebrated with an updated kernel, whose fixes also turn Bluetooth High Speed off by default; kernels built with CONFIG_INIT_STACK_ALL_PATTERN were not vulnerable in the ChromeOS test.",
+    "proverb": "Half an answer gives the rest away."
+  }
+}

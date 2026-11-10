@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Kraken, che si nascondeva nella Segnalazione errori",
+    "patronage": "di WerFault.exe, dei documenti con le macro e di chi crede che ogni crash sia solo un crash.",
+    "hagiography": "Nell'ottobre 2020 Hossein Jazi e Jérôme Segura di Malwarebytes descrissero Kraken, una campagna individuata il 17 settembre. Una mail che prometteva un risarcimento ai lavoratori portava un documento Word con una macro, che caricava in memoria una libreria .NET chiamata Kraken.dll; questa iniettava il codice malevolo dentro WerFault.exe, il processo della Segnalazione errori di Windows, senza lasciare file sul disco. Chi vedeva WerFault al lavoro pensava a un semplice errore, non a un attacco. Malwarebytes notò somiglianze con il gruppo APT32, senza poterlo indicare con certezza.",
+    "prayer": "O Beato Kraken, che ti nascondi tra i rapporti d'errore, fa' che le nostre difese guardino anche dove tutto sembra rotto per conto suo. Amen.",
+    "feast": "Si festeggia bloccando le macro nei documenti arrivati da Internet e sorvegliando WerFault.exe quando fa cose che un rapporto d'errore non dovrebbe fare.",
+    "proverb": "Non ogni errore è un incidente."
+  },
+  "en": {
+    "title": "Blessed Kraken, Who Hid in Error Reporting",
+    "patronage": "WerFault.exe, macro-laden documents, and everyone who believes a crash is just a crash.",
+    "hagiography": "In October 2020 Hossein Jazi and Jérôme Segura of Malwarebytes described Kraken, a campaign spotted on 17 September. An email promising a workers' compensation claim carried a Word document with a macro, which loaded a .NET library called Kraken.dll into memory; it then injected the malicious code into WerFault.exe, the Windows Error Reporting process, without leaving files on disk. Anyone who saw WerFault busy assumed a simple error, not an attack. Malwarebytes noted similarities with the APT32 group, without being able to attribute it with certainty.",
+    "prayer": "O Blessed Kraken, who hide among the error reports, let our defences look even where things seem broken all by themselves. Amen.",
+    "feast": "Celebrated by blocking macros in documents from the Internet and watching WerFault.exe when it does things no error report should do.",
+    "proverb": "Not every crash is an accident."
+  }
+}

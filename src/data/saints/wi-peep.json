@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Wi-Peep, che guardava attraverso i muri",
+    "patronage": "dei droni curiosi, dei dispositivi Wi-Fi troppo educati e di chi pensava che una parete bastasse a nascondersi.",
+    "hagiography": "Nell'ottobre 2022, alla conferenza MobiCom, Ali Abedi dell'University of Waterloo e Deepak Vasisht presentarono Wi-Peep: un drone comprato in negozio, con circa 20 dollari di componenti, sorvolava un edificio e localizzava i dispositivi Wi-Fi all'interno con un errore di circa un metro. Sfruttava la \"Polite WiFi\": i dispositivi rispondono ai messaggi anche di sconosciuti e anche su reti protette da password, e misurando i tempi delle risposte il drone ne ricavava la posizione, muri compresi.",
+    "prayer": "O Beato Wi-Peep, che senti rispondere chi non hai mai chiamato, insegna ai nostri dispositivi a non dare confidenza agli sconosciuti. Amen.",
+    "feast": "Si festeggia aspettando che i produttori di chip Wi-Fi chiudano la scappatoia della Polite WiFi o, come chiesto da chi l'ha scoperta, aggiungano ai tempi di risposta una variazione casuale.",
+    "proverb": "Chi risponde a tutti, dice anche dove sta."
+  },
+  "en": {
+    "title": "Blessed Wi-Peep, Who Saw Through Walls",
+    "patronage": "nosy drones, overly polite Wi-Fi devices, and anyone who thought a wall was enough to hide behind.",
+    "hagiography": "In October 2022, at the MobiCom conference, Ali Abedi of the University of Waterloo and Deepak Vasisht presented Wi-Peep: an off-the-shelf drone carrying about 20 dollars' worth of parts flew around a building and located the Wi-Fi devices inside to within about a metre. It exploited \"Polite WiFi\": devices answer messages even from strangers, even on password-protected networks, and by timing those answers the drone worked out where they were, walls and all.",
+    "prayer": "O Blessed Wi-Peep, who hears answers from those you never called, teach our devices not to chat with strangers. Amen.",
+    "feast": "Celebrated by waiting for Wi-Fi chip makers to close the Polite WiFi loophole or, as its discoverers asked, to add random jitter to response times.",
+    "proverb": "Answer everyone and you tell them where you live."
+  }
+}

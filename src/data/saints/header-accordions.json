@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Header Accordions, fisarmonica di HTTP/3",
+    "patronage": "di HTTP/3, delle tabelle di compressione e dei server che si fidano delle dimensioni dichiarate.",
+    "hagiography": "Il 20 ottobre 2026 Sébastien Féry di FoxIO pubblicò Header Accordions, attacchi di amplificazione contro QPACK, la compressione degli header di HTTP/3. Si mette nella tabella dinamica una voce di circa 4 KiB e poi la si richiama migliaia di volte con riferimenti da un byte: il server ricopia la voce intera a ogni richiamo, e pochi byte in rete diventano tanta memoria, fino a circa 4000 volte nel caso di Bun. Ne uscirono colpiti quic-go (CVE-2025-64702), Cloudflare quiche (CVE-2026-12523), lsquic, aioquic e Bun, e perfino il dissettore QPACK di Wireshark (CVE-2025-13945).",
+    "prayer": "O San Header Accordions, che apri il mantice e suoni mille header da un byte, fa' che i nostri server misurino la musica e non solo lo spartito. Amen.",
+    "feast": "Si festeggia aggiornando quic-go alla 0.57.0, quiche alla 0.29.3, lsquic alla 4.9.0 e Wireshark alla 4.6.2 o 4.4.12, e mettendo un limite agli header una volta decompressi.",
+    "proverb": "Fisarmonica chiusa sta in tasca, aperta riempie la piazza."
+  },
+  "en": {
+    "title": "Saint Header Accordions, Squeezebox of HTTP/3",
+    "patronage": "HTTP/3, compression tables, and servers that trust declared sizes.",
+    "hagiography": "On 20 October 2026 Sébastien Féry of FoxIO published Header Accordions, amplification attacks against QPACK, HTTP/3's header compression. You put an entry of about 4 KiB into the dynamic table, then reference it thousands of times with one-byte pointers: the server copies the whole entry on every reference, and a few bytes on the wire turn into a lot of memory, up to roughly 4000 times in Bun's case. Affected were quic-go (CVE-2025-64702), Cloudflare quiche (CVE-2026-12523), lsquic, aioquic and Bun, and even Wireshark's QPACK dissector (CVE-2025-13945).",
+    "prayer": "O Saint Header Accordions, who open the bellows and play a thousand headers from one byte, let our servers measure the music, not just the score. Amen.",
+    "feast": "Celebrated by updating quic-go to 0.57.0, quiche to 0.29.3, lsquic to 4.9.0 and Wireshark to 4.6.2 or 4.4.12, and capping headers once they are decompressed.",
+    "proverb": "Folded, the accordion fits in a pocket; opened, it fills the square."
+  }
+}

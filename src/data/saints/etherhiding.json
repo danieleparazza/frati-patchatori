@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato EtherHiding, che nascondeva il veleno nella catena",
+    "patronage": "delle blockchain pubbliche, dei falsi selezionatori del personale e dei registri che non dimenticano niente.",
+    "hagiography": "EtherHiding nacque nel settembre 2023 con la campagna CLEARFAKE: nascondere codice malevolo dentro smart contract su blockchain pubbliche come BNB Smart Chain ed Ethereum, da leggere con chiamate in sola lettura che non costano nulla e non lasciano transazioni. Il 16 ottobre 2025 il Google Threat Intelligence Group raccontò che lo aveva adottato anche UNC5342, un gruppo nordcoreano: la prima volta, per GTIG, di un attore statale. Nella campagna \"Contagious Interview\" falsi colloqui di lavoro e test di programmazione portano il downloader JADESNOW e la backdoor INVISIBLEFERRET, guidati da un server di comando che nessuno può spegnere, perché sta nel registro di tutti.",
+    "prayer": "O Beato EtherHiding, che nascondi il veleno nel libro mastro di tutti, fa' che ogni offerta di lavoro troppo bella venga guardata due volte. Amen.",
+    "feast": "Si festeggia eseguendo il codice ricevuto per un colloquio solo in una macchina isolata, e osservando quali programmi interrogano nodi blockchain da dove non dovrebbero.",
+    "proverb": "Ciò che è scritto nel registro di tutti non lo cancella nessuno."
+  },
+  "en": {
+    "title": "Blessed EtherHiding, Who Hid Poison in the Chain",
+    "patronage": "public blockchains, fake recruiters, and ledgers that never forget.",
+    "hagiography": "EtherHiding was born in September 2023 with the CLEARFAKE campaign: hiding malicious code inside smart contracts on public blockchains such as BNB Smart Chain and Ethereum, fetched with read-only calls that cost nothing and leave no transaction. On 16 October 2025 Google Threat Intelligence Group reported that UNC5342, a North Korean group, had adopted it too: the first nation-state actor GTIG had seen doing so. In the \"Contagious Interview\" campaign, fake job interviews and coding tests deliver the JADESNOW downloader and the INVISIBLEFERRET backdoor, steered by a command server nobody can take down, because it lives in everyone's ledger.",
+    "prayer": "O Blessed EtherHiding, who hide poison in everyone's ledger, let every job offer that looks too good be looked at twice. Amen.",
+    "feast": "Celebrated by running interview code only on an isolated machine, and watching which programs query blockchain nodes from places they shouldn't.",
+    "proverb": "What's written in everyone's ledger, no one can erase."
+  }
+}

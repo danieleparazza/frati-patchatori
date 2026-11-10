@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CallbackHell, che risaliva dall'inferno delle callback",
+    "patronage": "del sottosistema Win32k, delle callback in modalità utente e di chi riusa ciò che è già stato liberato.",
+    "hagiography": "Tra la fine di agosto e l'inizio di settembre 2021 Kaspersky scoprì, sfruttato in attacchi reali, un use-after-free nel componente Win32k di Windows: durante il ripristino di un contesto di dispositivo, una callback in modalità utente poteva distruggere l'oggetto che il kernel avrebbe poi riutilizzato, regalando i privilegi di sistema. Gli attaccanti, che Kaspersky collegò a un gruppo di lingua cinese, lo usavano per installare il trojan MysterySnail. Microsoft lo corresse il 12 ottobre 2021 (CVE-2021-40449), e poco dopo Oliver Lyak pubblicò la prova di concetto CallbackHell.",
+    "prayer": "O San CallbackHell, che dall'inferno delle callback risali fino al kernel, fa' che i nostri driver ricontrollino ciò che hanno lasciato in mano all'utente. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti di Windows dell'ottobre 2021, perché all'inferno delle callback si scende in un attimo e si risale solo con la patch.",
+    "proverb": "Chi richiama l'utente si ritrova il diavolo al telefono."
+  },
+  "en": {
+    "title": "Saint CallbackHell, Who Climbed Out of Callback Hell",
+    "patronage": "the Win32k subsystem, user-mode callbacks, and everyone who reuses what has already been freed.",
+    "hagiography": "Between late August and early September 2021 Kaspersky found, exploited in real attacks, a use-after-free in Windows' Win32k component: while a device context was being reset, a user-mode callback could destroy the object the kernel would later reuse, handing out system privileges. The attackers, whom Kaspersky linked to a Chinese-speaking group, used it to install the MysterySnail trojan. Microsoft fixed it on 12 October 2021 (CVE-2021-40449), and shortly afterwards Oliver Lyak published the CallbackHell proof of concept.",
+    "prayer": "O Saint CallbackHell, who climb from callback hell all the way up to the kernel, let our drivers double-check what they left in the user's hands. Amen.",
+    "feast": "Celebrated with the October 2021 Windows updates, because it takes a moment to fall into callback hell and only a patch to climb out.",
+    "proverb": "Call back to user mode and the devil picks up."
+  }
+}

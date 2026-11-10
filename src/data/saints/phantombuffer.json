@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato PhantomBuffer, che entrava da una casella di testo",
+    "patronage": "delle caselle di testo, dei messaggi tra finestre e degli EDR che aspettavano WriteProcessMemory.",
+    "hagiography": "Il 17 ottobre 2026 Zero Salarium pubblicò PhantomBuffer, uno strumento sperimentale per Windows che porta codice dentro un altro processo senza le chiamate che gli EDR sorvegliano di più. Invece di allocare e scrivere memoria altrui, manda a un campo di testo del processo bersaglio un messaggio WM_SETTEXT: è Windows stesso a copiare i dati nella memoria di quel processo, e un debugger fa il resto. Secondo chi l'ha scritto ha superato senza allarmi un EDR di fascia alta, ma prodotto e condizioni del test non sono stati resi noti.",
+    "prayer": "O Beato PhantomBuffer, che entri in casa d'altri scrivendo in una casella di testo, fa' che i nostri difensori leggano anche ciò che sembra soltanto testo. Amen.",
+    "feast": "Si festeggia osservando le catene di comportamenti, come messaggi WM_SETTEXT insoliti e debugger lanciati da cartelle strane, invece di aspettare soltanto la solita scrittura in memoria.",
+    "proverb": "Non serve forzare la serratura se ti aprono la cassetta della posta."
+  },
+  "en": {
+    "title": "Blessed PhantomBuffer, Who Came In Through a Text Box",
+    "patronage": "text boxes, window messages, and EDRs waiting for WriteProcessMemory.",
+    "hagiography": "On 17 October 2026 Zero Salarium published PhantomBuffer, an experimental Windows tool that moves code into another process without the calls EDRs watch most closely. Instead of allocating and writing someone else's memory, it sends a WM_SETTEXT message to a text field in the target process: Windows itself copies the data into that process's memory, and a debugger does the rest. According to its author it got past a high-end EDR without alerts, though the product and test conditions were not disclosed.",
+    "prayer": "O Blessed PhantomBuffer, who enter other people's houses by typing in a text box, let our defenders read even what looks like mere text. Amen.",
+    "feast": "Celebrated by watching chains of behaviour, such as unusual WM_SETTEXT messages and debuggers launched from odd folders, rather than waiting only for the usual memory write.",
+    "proverb": "No need to pick the lock when they open the letterbox for you."
+  }
+}

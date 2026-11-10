@@ -1,0 +1,10 @@
+{
+  "label": "Header Accordions",
+  "motto": "PARVUM INTRAT MAGNUM EXIT",
+  "niche": [
+    "#2c1820",
+    "#5a3040"
+  ],
+  "accent": "#42222f",
+  "emblem": "<rect x=\"96\" y=\"146\" width=\"22\" height=\"70\" rx=\"3\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"182\" y=\"146\" width=\"22\" height=\"70\" rx=\"3\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M118 150 L128 214 L138 150 L148 214 L158 150 L168 214 L178 150 L182 150 L182 212 L118 212 Z\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"103\" cy=\"160\" r=\"2\"/><circle cx=\"111\" cy=\"160\" r=\"2\"/><circle cx=\"103\" cy=\"170\" r=\"2\"/><circle cx=\"111\" cy=\"170\" r=\"2\"/><circle cx=\"103\" cy=\"180\" r=\"2\"/><circle cx=\"111\" cy=\"180\" r=\"2\"/></g>\n<text x=\"150\" y=\"136\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\">QPACK</text>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">1 → 4000</text>"
+}
