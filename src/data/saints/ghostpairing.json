@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato GhostPairing, che si accoppiava come un fantasma",
+    "patronage": "delle chat di WhatsApp, dei dispositivi collegati e dei codici che non vanno mai scritti dove li chiede un sito.",
+    "hagiography": "Il 15 dicembre 2025 Luis Corrons e Martin Chlumecký di Gen Digital descrissero GhostPairing, una truffa nata in Repubblica Ceca: un messaggio come \"ho appena trovato una tua foto\" portava a una finta pagina che chiedeva il numero di telefono e lo passava alla funzione vera di WhatsApp per collegare un dispositivo. Il codice di accoppiamento compariva sulla pagina, e inserendolo si aggiungeva il browser dei truffatori ai dispositivi collegati: potevano leggere i messaggi e scriverne a nome della persona. Nessun difetto del software, solo una funzione legittima usata con l'inganno.",
+    "prayer": "O Beato GhostPairing, che entri nelle chat come un ospite invisibile, fa' che controlliamo spesso chi siede alla nostra tavola. Amen.",
+    "feast": "Si festeggia aprendo Impostazioni → Dispositivi collegati, scollegando quelli che non si riconoscono e attivando la verifica in due passaggi.",
+    "proverb": "Il codice che ti chiedono gli altri non è mai per te."
+  },
+  "en": {
+    "title": "Blessed GhostPairing, Who Paired Like a Ghost",
+    "patronage": "WhatsApp chats, linked devices, and codes that should never be typed where a website asks for them.",
+    "hagiography": "On 15 December 2025 Luis Corrons and Martin Chlumecký of Gen Digital described GhostPairing, a scam first seen in Czechia: a message like \"I just found your photo\" led to a fake page that asked for a phone number and passed it to WhatsApp's real device-linking feature. The pairing code showed up on the page, and entering it added the scammers' browser to the linked devices: they could read messages and write in the person's name. No software flaw, just a legitimate feature used through deceit.",
+    "prayer": "O Blessed GhostPairing, who enter chats as an invisible guest, let us check often who is sitting at our table. Amen.",
+    "feast": "Celebrated by opening Settings → Linked devices, logging out the ones you don't recognize and turning on two-step verification.",
+    "proverb": "A code someone else asks you for is never meant for you."
+  }
+}

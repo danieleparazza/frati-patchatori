@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Broccoli2Shell, che traboccava dal cesto",
+    "patronage": "delle risposte compresse, dei decompressori fidati e di chi credeva che il broccolo fosse solo una verdura.",
+    "hagiography": "Il 21 ottobre 2026 Node.js e il progetto Brotli pubblicarono la correzione di un difetto scoperto da Khai Tran e Sylvie Mayer di OpenAI Codex Security: il decoder C di Brotli, davanti a un cambio di blocco non valido, credeva di dover solo aspettare altri dati e continuava a versare byte dell'attaccante in un buffer interno di 8 byte. Bastava far decomprimere un flusso preparato, in una risposta HTTP, in una richiesta o in un file, per far cadere il programma, leggerne la memoria o, nei casi peggiori, eseguire codice. Il 27 ottobre la CISA lo aggiunse al catalogo KEV.",
+    "prayer": "O San Broccoli2Shell, che da un cesto di otto byte fai traboccare l'universo, insegna ai nostri decoder a dire \"errore\" quando non capiscono. Amen.",
+    "feast": "Si festeggia aggiornando Brotli alla 1.0.10, 1.1.1 o 1.2.1 (e i runtime che lo incorporano), poi riavviando i processi, perché la libreria vecchia resta in memoria come il broccolo nel frigo.",
+    "proverb": "Chi decomprime senza controllare, raccoglie quel che non ha seminato."
+  },
+  "en": {
+    "title": "Saint Broccoli2Shell, Who Overflowed the Basket",
+    "patronage": "compressed responses, trusted decompressors, and everyone who thought broccoli was just a vegetable.",
+    "hagiography": "On 21 October 2026 Node.js and the Brotli project shipped the fix for a flaw found by Khai Tran and Sylvie Mayer of OpenAI Codex Security: faced with an invalid block switch, Brotli's C decoder believed it merely needed more input and kept pouring attacker bytes into an 8-byte internal buffer. Getting a crafted stream decompressed, in an HTTP response, a request body or a file, was enough to crash the program, leak its memory or, at worst, run code. On 27 October CISA added it to the KEV catalog.",
+    "prayer": "O Saint Broccoli2Shell, who make the universe overflow from an eight-byte basket, teach our decoders to say \"error\" when they don't understand. Amen.",
+    "feast": "Celebrated by updating Brotli to 1.0.10, 1.1.1 or 1.2.1 (and every runtime that bundles it), then restarting processes, because the old library lingers in memory like broccoli in the fridge.",
+    "proverb": "Decompress without checking and you reap what you never sowed."
+  }
+}

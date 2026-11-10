@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SPECTER, che parlava con le lucine USB",
+    "patronage": "dei computer isolati dalla rete, delle spie di ricarica e dei telefoni lasciati vicino alle macchine sbagliate.",
+    "hagiography": "Il 20 ottobre 2026 Hyeongjun Choi, Ji Hyuk Jung e Ji Won Yoon della Korea University descrissero SPECTER, un canale nascosto per far uscire dati da computer isolati dalla rete: chi aveva già il controllo della macchina accendeva e spegneva le porte USB, e l'informazione si leggeva nell'indicatore di ricarica di un telefono collegato, nelle luci di mouse e periferiche o con una radio vicino al cavo. Lentissimo, tra 0,2 e 1 bit al secondo, ma sufficiente per una chiave.",
+    "prayer": "O Beato SPECTER, che sussurri segreti un bit alla volta attraverso un cavo di ricarica, fa' che le nostre macchine isolate restino davvero sole. Amen.",
+    "feast": "Si festeggia registrando le accensioni e gli spegnimenti ripetuti dei dispositivi USB, chiudendo le porte che non servono e tenendo i telefoni personali lontano dai sistemi sensibili.",
+    "proverb": "Anche una lucina, se ammicca troppo, sta dicendo qualcosa."
+  },
+  "en": {
+    "title": "Blessed SPECTER, Who Spoke Through USB Lights",
+    "patronage": "air-gapped computers, charging indicators, and phones left next to the wrong machines.",
+    "hagiography": "On 20 October 2026 Hyeongjun Choi, Ji Hyuk Jung and Ji Won Yoon of Korea University described SPECTER, a covert channel for getting data out of air-gapped computers: someone already in control of the machine switched USB ports on and off, and the information could be read from the charging indicator of a connected phone, the lights of a mouse or other peripherals, or with a radio near the cable. Painfully slow, between 0.2 and 1 bit per second, but enough for a key.",
+    "prayer": "O Blessed SPECTER, who whisper secrets one bit at a time through a charging cable, let our isolated machines truly stay alone. Amen.",
+    "feast": "Celebrated by logging repeated enabling and disabling of USB devices, closing ports that aren't needed and keeping personal phones away from sensitive systems.",
+    "proverb": "Even a little light, if it winks too much, is saying something."
+  }
+}

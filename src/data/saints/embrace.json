@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato EMBRACE, che abbracciava troppo forte",
+    "patronage": "degli assistenti di programmazione con l'AI, dei browser incorporati e dei clic che sembrano innocui.",
+    "hagiography": "Il 29 ottobre 2026 Gal Weizman di Forever pubblicò EMBRACE: i browser incorporati negli assistenti AI per programmatori avevano poteri che un browser normale non ha. In Cursor una pagina qualsiasi poteva scrivere all'agente e, con un solo Invio, far eseguire codice sul computer; in GitHub Copilot poteva falsare l'indirizzo mostrato; in Claude Desktop, Codex e VS Code una pagina locale aperta con un clic poteva leggere file fuori dal progetto. Cursor e Copilot corressero; secondo l'articolo Codex e VS Code no.",
+    "prayer": "O Beato EMBRACE, che stringi in un solo abbraccio browser, agente e disco, insegna ai nostri strumenti a dare a ogni pagina solo i poteri di una pagina. Amen.",
+    "feast": "Si festeggia aggiornando gli assistenti AI, leggendo le schede prima di premere Invio e non aprendo file che l'assistente ha collegato senza sapere da dove vengono.",
+    "proverb": "Chi abbraccia tutto, apre tutto."
+  },
+  "en": {
+    "title": "Blessed EMBRACE, Who Hugged Too Tight",
+    "patronage": "AI coding assistants, embedded browsers, and clicks that look harmless.",
+    "hagiography": "On 29 October 2026 Gal Weizman of Forever published EMBRACE: the browsers embedded in AI coding assistants had powers an ordinary browser doesn't. In Cursor any page could write to the agent and, with a single Enter, get code run on the computer; in GitHub Copilot it could fake the address shown; in Claude Desktop, Codex and VS Code a local page opened with one click could read files outside the project. Cursor and Copilot fixed it; according to the article Codex and VS Code did not.",
+    "prayer": "O Blessed EMBRACE, who hold browser, agent and disk in a single hug, teach our tools to give every page only the powers of a page. Amen.",
+    "feast": "Celebrated by updating AI assistants, reading the cards before pressing Enter and not opening files the assistant has linked without knowing where they came from.",
+    "proverb": "Embrace everything and you open everything."
+  }
+}

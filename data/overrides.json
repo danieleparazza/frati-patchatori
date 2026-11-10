@@ -185,6 +185,9 @@
       "CVE-2021-42911",
       "CVE-2020-15415",
       "CVE-2020-8515"
+    ],
+    "tailworm": [
+      "CVE-2025-14282"
     ]
   },
   "addCves": {
@@ -283,6 +286,18 @@
     "dray-break": {
       "vendor": "DrayTek",
       "product": "Vigor routers"
+    },
+    "broccoli2shell": {
+      "author": "Khai Tran and Sylvie Mayer (OpenAI Codex Security)"
+    },
+    "node2shell": {
+      "vendor": "OpenJS Foundation",
+      "product": "Node.js (bundled Brotli)",
+      "author": "Khai Tran and Sylvie Mayer (OpenAI Codex Security); exploitation by Ron Masas (Imperva)"
+    },
+    "tailworm": {
+      "vendor": "Tailscale",
+      "product": "Tailscale SSH (tailscaled), headscale"
     }
   }
 }

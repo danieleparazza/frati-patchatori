@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Compaction Smuggling, che contrabbandava i pensieri",
+    "patronage": "dei modelli che ragionano in segreto, delle API che riassumono e di chi custodisce i propri pensieri cifrati.",
+    "hagiography": "Il 26 ottobre 2026 Tim Becker e i ricercatori di Xint raccontarono Compaction Smuggling: nell'API di OpenAI, chiedendo all'endpoint che compatta le conversazioni di ricopiare alla lettera il ragionamento cifrato del modello, e facendolo poi ripetere a un altro modello, si otteneva in chiaro il ragionamento che doveva restare nascosto, aggirando le difese contro la distillazione. Scoperto ad agosto, fu confermato da OpenAI, che lo corresse il 23 ottobre e pagò una ricompensa.",
+    "prayer": "O Beato Compaction Smuggling, che fai uscire i pensieri nascosti dentro un riassunto, fa' che ciò che è cifrato resti cifrato anche quando lo si comprime. Amen.",
+    "feast": "Si festeggia trattando ogni funzione che riassume o trasforma dati riservati come una possibile via d'uscita, e verificando chi può leggerne il risultato.",
+    "proverb": "Riassumi un segreto, e il segreto ti riassume."
+  },
+  "en": {
+    "title": "Blessed Compaction Smuggling, Who Smuggled Thoughts",
+    "patronage": "models that reason in secret, APIs that summarize, and everyone who keeps their thoughts encrypted.",
+    "hagiography": "On 26 October 2026 Tim Becker and the Xint researchers described Compaction Smuggling: in the OpenAI API, asking the endpoint that compacts conversations to copy the model's encrypted reasoning word for word, then having another model repeat it, revealed in plain text the reasoning meant to stay hidden, sidestepping anti-distillation defences. Found in August, it was confirmed by OpenAI, which fixed it on 23 October and paid a bounty.",
+    "prayer": "O Blessed Compaction Smuggling, who carry hidden thoughts out inside a summary, let what is encrypted stay encrypted even when compressed. Amen.",
+    "feast": "Celebrated by treating every feature that summarizes or transforms confidential data as a possible way out, and checking who can read what it produces.",
+    "proverb": "Summarize a secret and the secret summarizes you."
+  }
+}

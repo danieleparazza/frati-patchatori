@@ -481,7 +481,7 @@
    "https://www.tenable.com/blog/brotli2shell-frequently-asked-questions-for-google-brotli-decoder-cve-2026-111497"
   ],
   "logo": "broccoli.png",
-  "author": "Juliano Rizzo",
+  "author": "Khai Tran and Sylvie Mayer (OpenAI Codex Security)",
   "fame": 10.5,
   "source": "vulnerability-garden"
  },
@@ -1949,8 +1949,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "Google",
-  "product": "Brotli",
+  "vendor": "OpenJS Foundation",
+  "product": "Node.js (bundled Brotli)",
   "description": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n\n\n\n\n\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.",
   "canonical": "https://www.imperva.com/blog/node2shell-from-brotli-data-to-remote-code-execution/",
   "links": [
@@ -1958,7 +1958,7 @@
    "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
   ],
   "logo": null,
-  "author": "Matteo Collina",
+  "author": "Khai Tran and Sylvie Mayer (OpenAI Codex Security); exploitation by Ron Masas (Imperva)",
   "fame": 7,
   "source": "vulnerability-garden"
  },
@@ -6171,32 +6171,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "tailworm",
-  "name": "Tailworm",
-  "date": "2026-10-24",
-  "day": "10-24",
-  "category": "santo",
-  "cves": [
-   "CVE-2025-14282"
-  ],
-  "cvss": 5.4,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": "https://github.com/mkj/dropbear/",
-  "product": "dropbear",
-  "description": "A flaw was found in Dropbear. When running in multi-user mode and authenticating users, the dropbear ssh server does the socket forwardings requested by the remote client as root,\nonly switching to the logged-in user upon spawning a shell or performing\nsome operations like reading the user's files.\nWith the recent ability of also using unix domain sockets as the forwarding destination any user able to log in via ssh can connect to any unix socket with the root's credentials, bypassing both file system restrictions and any SO_PEERCRED / SO_PASSCRED checks performed by the peer.",
-  "canonical": "https://tailworm.com",
-  "links": [
-   "https://www.reddit.com/r/Tailscale/comments/1xeoj1l/recent_tailscale_vulnerability_reports/"
-  ],
-  "logo": "tailworm.png",
-  "author": "Erica Windisch (Cyberdione Labs Corporation)",
-  "fame": 5.5,
-  "source": "vulnerability-garden"
- },
- {
   "id": "cloudbleed",
   "name": "Cloudbleed",
   "date": "2017-02-19",
@@ -9651,6 +9625,30 @@
   ],
   "logo": "phantomtac.png",
   "author": "Binbin Zhang, Yifeng Zhang, Xiaomeng Chen, Dongyao Chen",
+  "fame": 4.5,
+  "source": "vulnerability-garden"
+ },
+ {
+  "id": "tailworm",
+  "name": "Tailworm",
+  "date": "2026-10-24",
+  "day": "10-24",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "Tailscale",
+  "product": "Tailscale SSH (tailscaled), headscale",
+  "description": null,
+  "canonical": "https://tailworm.com",
+  "links": [
+   "https://www.reddit.com/r/Tailscale/comments/1xeoj1l/recent_tailscale_vulnerability_reports/"
+  ],
+  "logo": "tailworm.png",
+  "author": "Erica Windisch (Cyberdione Labs Corporation)",
   "fame": 4.5,
   "source": "vulnerability-garden"
  },

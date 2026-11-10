@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Bad UVM, che scriveva dove era vietato",
+    "patronage": "delle schede grafiche NVIDIA, delle pagine in sola lettura e di chi pensava che il driver video si occupasse solo dei pixel.",
+    "hagiography": "Il 12 ottobre 2026 il ricercatore Ziyi Guo pubblicò Bad UVM. Secondo il titolo del suo resoconto, attraverso UVM, la memoria virtuale unificata con cui il driver NVIDIA condivide la memoria tra processore e scheda grafica, si poteva dirottare la cache delle pagine di file aperti in sola lettura: lo stesso genere di danno di Dirty Pipe, che permette di cambiare file che non si potrebbero modificare.",
+    "prayer": "O Beato Bad UVM, che passi dalla scheda grafica per scrivere sui file proibiti, fa' che la sola lettura resti tale, anche quando la memoria è condivisa. Amen.",
+    "feast": "Si festeggia tenendo aggiornati i driver NVIDIA, seguendo i bollettini di sicurezza del produttore e limitando chi può usare la GPU sulle macchine condivise.",
+    "proverb": "Memoria condivisa, guai divisi in parti uguali."
+  },
+  "en": {
+    "title": "Blessed Bad UVM, Who Wrote Where It Was Forbidden",
+    "patronage": "NVIDIA graphics cards, read-only pages, and everyone who thought the video driver only cared about pixels.",
+    "hagiography": "On 12 October 2026 researcher Ziyi Guo published Bad UVM. According to the title of the write-up, UVM, the unified virtual memory the NVIDIA driver uses to share memory between the processor and the graphics card, could be used to hijack the page cache of files opened read-only: the same kind of damage as Dirty Pipe, which lets you change files you shouldn't be able to modify.",
+    "prayer": "O Blessed Bad UVM, who go through the graphics card to write on forbidden files, let read-only stay read-only, even when memory is shared. Amen.",
+    "feast": "Celebrated by keeping NVIDIA drivers up to date, following the vendor's security bulletins and limiting who can use the GPU on shared machines.",
+    "proverb": "Shared memory, shared misery."
+  }
+}

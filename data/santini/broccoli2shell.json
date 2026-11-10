@@ -1,0 +1,10 @@
+{
+  "label": "Broccoli2Shell",
+  "motto": "BROCCOLI ERGO SHELL",
+  "niche": [
+    "#1f3324",
+    "#3f6146"
+  ],
+  "accent": "#2d4a33",
+  "emblem": "<rect x=\"143\" y=\"186\" width=\"14\" height=\"44\" rx=\"5\" fill=\"#cfe3b0\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M150 200 l-16 -14 M150 206 l16 -16\" stroke=\"#fbf3dd\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<g fill=\"#8fbf6a\" stroke=\"#fbf3dd\" stroke-width=\"2\"><circle cx=\"122\" cy=\"172\" r=\"20\"/><circle cx=\"178\" cy=\"172\" r=\"20\"/><circle cx=\"150\" cy=\"150\" r=\"24\"/><circle cx=\"132\" cy=\"140\" r=\"15\"/><circle cx=\"168\" cy=\"140\" r=\"15\"/></g>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\">&gt;_</text>"
+}

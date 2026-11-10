@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SMS of Death, che faceva cadere la linea",
+    "patronage": "dei telefoni Android, dei messaggi che nessuno vede e delle chiamate che non dovrebbero mai interrompersi.",
+    "hagiography": "Il 29 ottobre 2026 il ricercatore Mark B raccontò SMS of Death: un solo SMS WAP Push malformato, senza che l'utente facesse nulla, mandava in crash il servizio telefonico di Android dalla 12 alla 17, perché una lunghezza letta dal messaggio non veniva controllata. Il telefono perdeva la rete per un paio di secondi e le chiamate in corso cadevano, comprese quelle di emergenza; il messaggio, riletto all'avvio, poteva causare riavvii a ripetizione. Segnalato a Google a maggio, fu corretto nell'aggiornamento di sicurezza di ottobre 2026 per Android 14–17.",
+    "prayer": "O Beato SMS of Death, che con un messaggio invisibile zittisci il telefono, fa' che le nostre chiamate arrivino sempre a destinazione, soprattutto quelle che contano. Amen.",
+    "feast": "Si festeggia installando l'aggiornamento di sicurezza Android di ottobre 2026 e, per chi ha Android 12 o 13 senza correzione, pensando seriamente a un telefono nuovo.",
+    "proverb": "Non serve gridare per far tacere un telefono: basta un messaggio storto."
+  },
+  "en": {
+    "title": "Blessed SMS of Death, Who Dropped the Line",
+    "patronage": "Android phones, messages nobody sees, and calls that should never be cut off.",
+    "hagiography": "On 29 October 2026 researcher Mark B described SMS of Death: a single malformed WAP Push SMS, with no action from the user, crashed the phone service on Android 12 through 17, because a length read from the message went unchecked. The phone lost signal for a couple of seconds and active calls dropped, emergency calls included; the message, reread at boot, could cause a reboot loop. Reported to Google in May, it was fixed in the October 2026 security update for Android 14–17.",
+    "prayer": "O Blessed SMS of Death, who silence the phone with an invisible message, let our calls always get through, above all the ones that matter. Amen.",
+    "feast": "Celebrated by installing the October 2026 Android security update and, for anyone on Android 12 or 13 with no fix, seriously considering a new phone.",
+    "proverb": "No need to shout to silence a phone: one crooked message will do."
+  }
+}
