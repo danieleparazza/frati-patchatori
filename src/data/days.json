@@ -2262,10 +2262,10 @@
   ]
  },
  "10-22": {
-  "patron": "sessionreaper",
+  "patron": "broccoli2shell",
   "others": [
-   "broccoli2shell",
    "node2shell",
+   "sessionreaper",
    "cpdos",
    "fortijump",
    "imprompter"

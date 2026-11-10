@@ -37,7 +37,8 @@
     "09-08": "spookjs",
     "09-17": "netscape-ssl-prng",
     "10-02": "dray-break",
-    "12-29": "bisecur"
+    "12-29": "bisecur",
+    "10-22": "broccoli2shell"
   },
   "dates": {
     "shattered": "2017-02-23",
