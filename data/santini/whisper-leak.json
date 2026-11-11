@@ -1,0 +1,10 @@
+{
+  "label": "Whisper Leak",
+  "motto": "SUSURRUS PER PACCHETTOS",
+  "niche": [
+    "#1c2230",
+    "#363f58"
+  ],
+  "accent": "#2a3248",
+  "emblem": "<path d=\"M110 128 h80 a10 10 0 0 1 10 10 v34 a10 10 0 0 1 -10 10 h-46 l-16 14 v-14 h-18 a10 10 0 0 1 -10 -10 v-34 a10 10 0 0 1 10 -10 Z\" fill=\"#2f3a4a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"#bfc9d1\"><circle cx=\"130\" cy=\"155\" r=\"4\"/><circle cx=\"150\" cy=\"155\" r=\"4\"/><circle cx=\"170\" cy=\"155\" r=\"4\"/></g>\n<g fill=\"#d9ad55\"><rect x=\"104\" y=\"226\" width=\"8\" height=\"12\"/><rect x=\"116\" y=\"214\" width=\"8\" height=\"24\"/><rect x=\"128\" y=\"222\" width=\"8\" height=\"16\"/><rect x=\"140\" y=\"206\" width=\"8\" height=\"32\"/><rect x=\"152\" y=\"218\" width=\"8\" height=\"20\"/><rect x=\"164\" y=\"210\" width=\"8\" height=\"28\"/><rect x=\"176\" y=\"224\" width=\"8\" height=\"14\"/><rect x=\"188\" y=\"216\" width=\"8\" height=\"22\"/></g>\n<line x1=\"100\" y1=\"240\" x2=\"200\" y2=\"240\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>"
+}

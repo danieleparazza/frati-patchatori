@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato NotLegit, che lasciava il .git in piazza",
+    "patronage": "dei deploy con Git, delle cartelle nascoste che non lo sono e di chi pensava che un web.config bastasse a ogni server.",
+    "hagiography": "Il 21 dicembre 2021 Wiz rivelò NotLegit: in Azure App Service, le applicazioni pubblicate con \"Local Git\" avevano il repository dentro la cartella pubblica del sito, e chiunque poteva scaricare la cartella /.git e ricostruirne il codice sorgente. La protezione di Microsoft era un file web.config, che però vale solo per IIS: restavano esposte app PHP, Python, Ruby e Node, alcune fin dal 2017. In pochi giorni l'app di prova dei ricercatori ricevette richieste per il suo .git da sconosciuti.",
+    "prayer": "O Beato NotLegit, che mostri il sorgente a chi passa per strada, fa' che i nostri repository restino in sacrestia e non sull'altare. Amen.",
+    "feast": "Si festeggia verificando che /.git non risponda, controllando le email di Microsoft e cambiando i segreti finiti nel codice.",
+    "proverb": "Cartella nascosta in piazza, segreto di tutti."
+  },
+  "en": {
+    "title": "Blessed NotLegit, Who Left .git in the Square",
+    "patronage": "Git deployments, hidden folders that aren't, and everyone who thought a web.config would do for every server.",
+    "hagiography": "On 21 December 2021 Wiz disclosed NotLegit: in Azure App Service, apps deployed with \"Local Git\" kept the repository inside the site's public folder, so anyone could download /.git and rebuild the source code. Microsoft's safeguard was a web.config file, which only IIS honours: PHP, Python, Ruby and Node apps stayed exposed, some since 2017. Within days, the researchers' test app received requests for its .git from strangers.",
+    "prayer": "O Blessed NotLegit, who show the source to every passer-by, keep our repositories in the sacristy and off the altar. Amen.",
+    "feast": "Celebrated by checking that /.git doesn't answer, reading Microsoft's emails and rotating any secrets that ended up in the code.",
+    "proverb": "A hidden folder in the town square is everyone's secret."
+  }
+}

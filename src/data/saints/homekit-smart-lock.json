@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San HomeKit, che apriva le serrature altrui",
+    "patronage": "delle serrature smart, degli utenti condivisi della casa e degli orologi che sanno troppo.",
+    "hagiography": "Il 7 dicembre 2017 9to5Mac rivelò che in iOS 11.2 un difetto di HomeKit permetteva di comandare a distanza gli accessori di casa altrui, comprese serrature e apriporta del garage. Secondo la descrizione ufficiale, un messaggio gestito male consentiva di alterare lo stato dell'app, come mostrato usando un Apple Watch per ottenere una chiave di cifratura e aprire una porta. Lo sviluppatore che l'aveva scoperto l'aveva segnalato ad Apple circa sei settimane prima.",
+    "prayer": "O San HomeKit, che sussurri alle porte di casa, fa' che le nostre serrature ascoltino solo chi abita dentro. Amen.",
+    "feast": "Si festeggia con iOS e tvOS 11.2.1, usciti il 13 dicembre 2017 dopo una prima correzione lato server che aveva sospeso l'accesso remoto per gli utenti condivisi."
+  },
+  "en": {
+    "title": "Saint HomeKit, Who Opened Other People's Locks",
+    "patronage": "smart locks, shared home users, and watches that know too much.",
+    "hagiography": "On 7 December 2017 9to5Mac revealed that a HomeKit flaw in iOS 11.2 let attackers remotely control other people's home accessories, including locks and garage door openers. According to the official description, mishandled messages allowed the app's state to be altered, as demonstrated by using an Apple Watch to obtain an encryption key and unlock a door. The developer who found it had reported it to Apple about six weeks earlier.",
+    "prayer": "O Saint HomeKit, who whisper to front doors, let our locks listen only to those who live inside. Amen.",
+    "feast": "Celebrated with iOS and tvOS 11.2.1, released on 13 December 2017 after an initial server-side fix that suspended remote access for shared users."
+  }
+}

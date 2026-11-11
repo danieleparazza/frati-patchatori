@@ -1,0 +1,10 @@
+{
+  "label": "Flowbreaking",
+  "motto": "DICTUM RETRACTUM MANET",
+  "niche": [
+    "#1a2224",
+    "#36484c"
+  ],
+  "accent": "#263436",
+  "emblem": "<path d=\"M104 132 h92 q8 0 8 8 v52 q0 8 -8 8 h-60 l-18 18 v-18 h-14 q-8 0 -8 -8 v-52 q0 -8 8 -8 z\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M114 150 h72 M114 164 h56 M114 178 h66\" stroke=\"#7a6656\" stroke-width=\"2\"/>\n<path d=\"M112 172 l80 -32\" stroke=\"#c0392b\" stroke-width=\"2.5\"/>\n<rect x=\"166\" y=\"210\" width=\"30\" height=\"30\" rx=\"4\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"174\" y=\"218\" width=\"14\" height=\"14\" fill=\"#263436\"/>"
+}

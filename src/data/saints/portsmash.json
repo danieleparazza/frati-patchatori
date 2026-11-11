@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PortSmash, che origliava dal thread accanto",
+    "patronage": "dei processori con Hyper-Threading, delle chiavi P-384 e dei vicini di core troppo curiosi.",
+    "hagiography": "Il 2 novembre 2018 Billy Bob Brumley e i colleghi della Tampere University of Technology e dell'Università Tecnologica dell'Avana (CUJAE) annunciarono PortSmash: sui processori con SMT due thread sullo stesso core si contendono le porte di esecuzione, e misurando i ritardi un processo malevolo può spiare quello accanto. Su processori Skylake e Kaby Lake lo dimostrarono rubando la chiave privata P-384 di un server TLS basato su OpenSSL.",
+    "prayer": "O San PortSmash, che conti gli attimi del tuo vicino di core, fa' che il nostro codice crittografico impieghi sempre lo stesso tempo. Amen.",
+    "feast": "Si festeggia aggiornando OpenSSL alla 1.1.1 (o 1.1.0i) e, dove serve, spegnendo l'Hyper-Threading nel BIOS.",
+    "proverb": "Chi divide il core divide anche i segreti."
+  },
+  "en": {
+    "title": "Saint PortSmash, Who Eavesdropped From the Next Thread",
+    "patronage": "Hyper-Threaded processors, P-384 keys, and overly curious core neighbours.",
+    "hagiography": "On 2 November 2018 Billy Bob Brumley and colleagues from Tampere University of Technology and the Technological University of Havana (CUJAE) announced PortSmash: on SMT processors two threads on the same core compete for execution ports, and by timing the delays a malicious process can spy on its neighbour. On Skylake and Kaby Lake processors they proved it by stealing the P-384 private key of an OpenSSL-based TLS server.",
+    "prayer": "O Saint PortSmash, who count the instants of your core neighbour, let our crypto code always take the same time. Amen.",
+    "feast": "Celebrated by updating OpenSSL to 1.1.1 (or 1.1.0i) and, where it matters, turning off Hyper-Threading in the BIOS.",
+    "proverb": "Share a core and you share your secrets."
+  }
+}

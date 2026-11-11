@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato OT-Attack, che confondeva immagini e parole",
+    "patronage": "dei modelli che guardano e leggono, delle didascalie e di chi crede che un'immagine valga sempre mille parole giuste.",
+    "hagiography": "Il 7 dicembre 2023 Dongchen Han, Xiaojun Jia, Yang Bai, Jindong Gu, Yang Liu e Xiaochun Cao pubblicarono OT-Attack, un metodo per creare esempi avversari contro i modelli visione-linguaggio, quelli che abbinano immagini e testi. Trattando le caratteristiche di immagini ritoccate e dei testi associati come due distribuzioni, e cercando con il trasporto ottimo il modo più efficiente di accoppiarle, gli esempi costruiti su un modello ingannano meglio anche gli altri. Non è il bug di un prodotto ma una tecnica di ricerca, che ricorda quanto sia facile confondere un'IA che vede e legge.",
+    "prayer": "O Beato OT-Attack, che trasporti con cura il falso fino al vero, fa' che i nostri modelli non scambino un ritocco per una verità. Amen.",
+    "feast": "Si festeggia mettendo alla prova i modelli con attacchi avversari prima di usarli e non affidando a loro soli decisioni importanti.",
+    "proverb": "Basta un granello ben messo per scambiare il gatto per una teiera."
+  },
+  "en": {
+    "title": "Blessed OT-Attack, Who Muddled Pictures and Words",
+    "patronage": "models that look and read, captions, and everyone who thinks a picture is always worth a thousand right words.",
+    "hagiography": "On 7 December 2023 Dongchen Han, Xiaojun Jia, Yang Bai, Jindong Gu, Yang Liu and Xiaochun Cao published OT-Attack, a method for crafting adversarial examples against vision-language models, the ones that match images with text. By treating the features of augmented images and their paired texts as two distributions, and using optimal transport to find the most efficient way to match them, examples built on one model fool other models better too. It is not a product bug but a research technique, a reminder of how easily an AI that sees and reads can be confused.",
+    "prayer": "O Blessed OT-Attack, who carefully transport the false all the way to the true, let our models never mistake a retouch for the truth. Amen.",
+    "feast": "Celebrated by testing models against adversarial attacks before deploying them, and never leaving important decisions to them alone.",
+    "proverb": "One well-placed speck and the cat becomes a teapot."
+  }
+}

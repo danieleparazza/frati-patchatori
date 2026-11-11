@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Teardrop, Padre della Chiesa dei frammenti",
+    "patronage": "dei frammenti IP, dei kernel degli anni Novanta e delle schermate blu sulle reti di casa e d'ufficio.",
+    "hagiography": "Il 13 novembre 1997 route pubblicò su Bugtraq un programma chiamato teardrop: due datagrammi IP frammentati in modo che il secondo si sovrapponesse al primo senza abbastanza dati da coprirlo. Il codice di riassemblaggio di Linux calcolava una lunghezza negativa e copiava troppa memoria, fino al blocco o al riavvio della macchina; secondo l'autore anche Windows NT e 95 sembravano colpiti. Fu uno dei grandi classici del denial of service.",
+    "prayer": "O San Teardrop, che con una goccia sovrapposta facevi crollare i sistemi, insegna ai nostri stack a contare bene i pezzi prima di rimetterli insieme. Amen.",
+    "feast": "Si festeggia scartando i frammenti malformati e controllando le lunghezze prima di ogni copia, come ogni kernel moderno ormai fa.",
+    "proverb": "Goccia su goccia si scava la pietra; goccia sopra goccia si pianta il kernel."
+  },
+  "en": {
+    "title": "Saint Teardrop, Father of the Church of Fragments",
+    "patronage": "IP fragments, nineties kernels, and blue screens on home and office networks.",
+    "hagiography": "On 13 November 1997 route posted a program called teardrop to Bugtraq: two IP datagrams fragmented so that the second overlapped the first without enough data to cover it. Linux's reassembly code computed a negative length and copied far too much memory, until the machine froze or rebooted; according to the author, Windows NT and 95 seemed affected too. It became one of the great classics of denial of service.",
+    "prayer": "O Saint Teardrop, who brought systems down with one overlapping drop, teach our stacks to count the pieces before putting them back together. Amen.",
+    "feast": "Celebrated by dropping malformed fragments and checking lengths before every copy, as every modern kernel now does.",
+    "proverb": "Drop by drop wears the stone; drop over drop crashes the kernel."
+  }
+}

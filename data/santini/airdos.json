@@ -1,0 +1,10 @@
+{
+  "label": "AirDoS",
+  "motto": "NOLI ME AIRDROPPARE",
+  "niche": [
+    "#16243a",
+    "#2e4a72"
+  ],
+  "accent": "#203658",
+  "emblem": "<rect x=\"126\" y=\"138\" width=\"48\" height=\"96\" rx=\"9\" fill=\"#203658\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<g fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"1\"><rect x=\"132\" y=\"156\" width=\"36\" height=\"14\" rx=\"3\"/><rect x=\"132\" y=\"174\" width=\"36\" height=\"14\" rx=\"3\"/><rect x=\"132\" y=\"192\" width=\"36\" height=\"14\" rx=\"3\"/><rect x=\"132\" y=\"210\" width=\"36\" height=\"14\" rx=\"3\"/></g>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M116 166 q-8 20 0 40\"/><path d=\"M104 158 q-14 28 0 56\"/><path d=\"M184 166 q8 20 0 40\"/><path d=\"M196 158 q14 28 0 56\"/></g>"
+}

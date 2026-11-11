@@ -1,0 +1,10 @@
+{
+  "label": "badRecovery",
+  "motto": "SIGILLUM PAC FRACTUM",
+  "niche": [
+    "#2a1418",
+    "#52282e"
+  ],
+  "accent": "#401e24",
+  "emblem": "<circle cx=\"150\" cy=\"172\" r=\"40\" fill=\"#7a1f1f\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<circle cx=\"150\" cy=\"172\" r=\"30\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"180\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\" font-weight=\"bold\">PAC</text>\n<path d=\"M128 132 L146 160 L138 176 L158 192 L150 214\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<path d=\"M136 222 h28 l-12 12 12 12 h-28 l12 -12 Z\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M142 225 h16 l-8 8 Z\" fill=\"#d9ad55\"/><path d=\"M144 244 h12 l-6 -5 Z\" fill=\"#d9ad55\"/>"
+}

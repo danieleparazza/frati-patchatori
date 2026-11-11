@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato EchoGram, che corrompeva i guardiani con un caffè",
+    "patronage": "dei guardrail per l'intelligenza artificiale, dei classificatori di prompt e dei giudici che si lasciano convincere da una parola.",
+    "hagiography": "Il 13 novembre 2025 Kasimir Schulz e Kenneth Yeung di HiddenLayer descrissero EchoGram: brevi sequenze di token, spesso senza senso, che aggiunte a un prompt ribaltano il verdetto dei guardrail, sia classificatori sia modelli usati come giudici. In un loro test, aggiungere \"=coffee\" a un'iniezione di prompt la faceva passare inosservata su una vecchia versione del loro stesso classificatore; altre sequenze facevano scattare falsi allarmi su richieste innocue.",
+    "prayer": "O Beato EchoGram, che con una parola strana addormenti la sentinella, fa' che i nostri guardrail non siano l'unica difesa. Amen.",
+    "feast": "Si festeggia mettendo alla prova i guardrail di continuo e affiancandoli ad altre difese, invece di fidarsi di un solo verdetto.",
+    "proverb": "Sentinella che si compra con un caffè non fa la guardia."
+  },
+  "en": {
+    "title": "Blessed EchoGram, Who Bribed the Guards With Coffee",
+    "patronage": "AI guardrails, prompt classifiers, and judges who can be swayed by a single word.",
+    "hagiography": "On 13 November 2025 Kasimir Schulz and Kenneth Yeung of HiddenLayer described EchoGram: short sequences of tokens, often nonsensical, which appended to a prompt flip the verdict of guardrails, whether classifiers or models acting as judges. In one of their tests, adding \"=coffee\" to a prompt injection let it slip past an older version of their own classifier; other sequences triggered false alarms on harmless requests.",
+    "prayer": "O Blessed EchoGram, who lull the sentry with one odd word, let our guardrails never be the only defence. Amen.",
+    "feast": "Celebrated by testing guardrails continuously and pairing them with other defences, instead of trusting a single verdict.",
+    "proverb": "A guard you can buy with a coffee is no guard at all."
+  }
+}

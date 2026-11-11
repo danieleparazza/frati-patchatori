@@ -1,0 +1,10 @@
+{
+  "label": "HomeKit",
+  "motto": "DOMUS APERTA",
+  "niche": [
+    "#23262e",
+    "#4b5160"
+  ],
+  "accent": "#333844",
+  "emblem": "<path d=\"M108 178 l42 -40 l42 40 v54 h-84 z\" fill=\"#333844\" stroke=\"#fbf3dd\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/>\n<rect x=\"134\" y=\"196\" width=\"32\" height=\"26\" rx=\"3\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M140 196 v-8 a10 10 0 0 1 20 0\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<circle cx=\"150\" cy=\"208\" r=\"3\" fill=\"#333844\"/>\n<rect x=\"186\" y=\"128\" width=\"18\" height=\"22\" rx=\"5\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M190 128 v-6 h10 v6 M190 150 v6 h10 v-6\" stroke=\"#bfc9d1\" stroke-width=\"2\" fill=\"none\"/>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "AMNESIA:33",
+  "motto": "MEMENTO LONGITUDINEM",
+  "niche": [
+    "#2a1c1c",
+    "#563a3a"
+  ],
+  "accent": "#442a2a",
+  "emblem": "<path d=\"M150 132 q-42 -4 -44 32 q-14 10 -4 28 q2 22 26 22 q10 12 22 2 q12 10 22 -2 q24 0 26 -22 q10 -18 -4 -28 q-2 -36 -44 -32 Z\" fill=\"#e8b0b0\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M150 136 v74 M126 160 q12 6 6 18 M174 160 q-12 6 -6 18 M118 190 q14 -2 18 8 M182 190 q-14 -2 -18 8\" fill=\"none\" stroke=\"#8a4a4a\" stroke-width=\"2\"/>\n<path d=\"M172 150 l14 -14 m-6 0 h6 v6\" fill=\"none\" stroke=\"#442a2a\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#d9ad55\">33</text>"
+}

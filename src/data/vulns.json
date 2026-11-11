@@ -1653,7 +1653,7 @@
   "canonical": "https://cyata.ai/blog/langgrinch-langchain-core-cve-2025-68664/",
   "links": [],
   "logo": "langgrinch.png",
-  "author": "Cyata",
+  "author": "Yarden Porat (Cyata)",
   "fame": 7.05,
   "source": "vulnerability-garden"
  },
@@ -5717,8 +5717,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "BitcoinJS",
+  "product": "BitcoinJS (JSBN SecureRandom), browser wallets 2011–2015",
   "description": null,
   "canonical": "https://www.randstorm.com/",
   "links": [
@@ -5777,7 +5777,7 @@
   "born": null,
   "absurd": false,
   "vendor": "Apple",
-  "product": "Safari (v and )",
+  "product": "WebKit (Safari, iOS, macOS)",
   "description": "A use after free issue was addressed with improved memory management. This issue is fixed in macOS Monterey 12.2.1, iOS 15.3.1 and iPadOS 15.3.1, Safari 15.3 (v. 16612.4.9.1.8 and 15612.4.9.1.8). Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited..",
   "canonical": "https://x.com/CelesteBlue123/status/1731446753017074004",
   "links": [
@@ -5829,8 +5829,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "AllegroSoft",
+  "product": "RomPager",
   "description": "AllegroSoft RomPager 4.34 and earlier, as used in Huawei Home Gateway products and other vendors and products, allows remote attackers to gain privileges via a crafted cookie that triggers memory corruption, aka the \"Misfortune Cookie\" vulnerability.",
   "canonical": "https://sc1.checkpoint.com/misfortune-cookie/index.html",
   "links": [],
@@ -7340,7 +7340,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "MediaTek, Inc.",
+  "vendor": "Multiple (Espressif, MediaTek, …)",
   "product": "MT6580, MT6630, MT6735, MT6737, MT6739, MT6750S, MT6753, MT6755S, MT6757, MT6757C, MT6757CD, MT6757CH, MT6763, MT6771, MT7662T, MT7663, MT7668, MT8163, MT8167, MT8167S, MT8173, MT8183, MT8321, MT8362A, MT8362B, MT8385, MT8765, MT8788",
   "description": "The Bluetooth Classic implementation in Espressif ESP-IDF 4.4 and earlier does not properly handle the reception of continuous unsolicited LMP responses, allowing attackers in radio range to trigger a denial of service (crash) in ESP32 by flooding the target device with LMP Feature Response data.",
   "canonical": "https://asset-group.github.io/disclosures/braktooth/",
@@ -7763,12 +7763,12 @@
   "born": null,
   "absurd": false,
   "vendor": "AMD",
-  "product": "1st Gen AMD EPYC™ Processors",
+  "product": "AMD SEV-ES / SEV-SNP (EPYC processors)",
   "description": "Improper or unexpected behavior of the INVD instruction in some AMD CPUs may allow an attacker with a malicious hypervisor to affect cache line write-back behavior of the CPU leading to a potential loss of guest virtual machine (VM) memory integrity.\n\n\n\n\n\n\n\n\n\n\n\n\n",
   "canonical": "https://cachewarpattack.com/",
   "links": [],
   "logo": "cachewarp.svg",
-  "author": null,
+  "author": "Ruiyi Zhang, Lukas Gerlach, Daniel Weber, Lorenz Hetterich, Youheng Lü, Andreas Kogler, Michael Schwarz (CISPA, Graz University of Technology)",
   "fame": 5.15,
   "source": "vulnerability-garden"
  },
@@ -8553,7 +8553,7 @@
    "https://web.archive.org/web/20190203161449/https://privacy4cars.com/can-my-car-be-hacked/default.aspx"
   ],
   "logo": "carsblues.png",
-  "author": "Privacy4Cars founder Andrea Amico",
+  "author": "Andrea Amico (Privacy4Cars)",
   "fame": 4.9,
   "source": "vulnerability-garden"
  },
@@ -8580,7 +8580,7 @@
    "https://www.rfc-editor.org/rfc/rfc5746"
   ],
   "logo": null,
-  "author": null,
+  "author": "Marsh Ray (PhoneFactor); independently Martin Rex (SAP)",
   "fame": 4.85,
   "source": "manual"
  },
@@ -8986,8 +8986,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "AMI, Insyde, Phoenix",
+  "product": "UEFI firmware",
   "description": null,
   "canonical": "https://www.binarly.io/blog/the-far-reaching-consequences-of-logofail",
   "links": [
@@ -11198,8 +11198,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Microsoft",
+  "product": "Windows (GDI32)",
   "description": "The Windows Graphical Device Interface library (GDI32.DLL) in Microsoft Windows allows remote attackers to execute arbitrary code via a Windows Metafile (WMF) format image with a crafted SETABORTPROC GDI Escape function call, related to the Windows Picture and Fax Viewer (SHIMGVW.DLL), a different vulnerability than CVE-2005-2123 and CVE-2005-2124, and as originally discovered in the wild on unionseek.com.",
   "canonical": "https://www.cve.org/CVERecord?id=CVE-2005-4560",
   "links": [
@@ -11477,7 +11477,7 @@
    "https://nvd.nist.gov/vuln/detail/CVE-1999-0015"
   ],
   "logo": null,
-  "author": null,
+  "author": "route",
   "fame": 3.45,
   "source": "manual"
  },
@@ -13274,7 +13274,7 @@
   "born": null,
   "absurd": false,
   "vendor": "Cisco",
-  "product": "Cisco WebEx Event Center",
+  "product": "Cisco Webex Meetings Desktop App",
   "description": "A vulnerability in the update service of Cisco Webex Meetings Desktop App for Windows could allow an authenticated, local attacker to execute arbitrary commands as a privileged user. The vulnerability is due to insufficient validation of user-supplied parameters. An attacker could exploit this vulnerability by invoking the update service command with a crafted argument. An exploit could allow the attacker to run arbitrary commands with SYSTEM user privileges. While the CVSS Attack Vector metric denotes the requirement for an attacker to have local access, administrators should be aware that in Active Directory deployments, the vulnerability could be exploited remotely by leveraging the operating system remote management tools.",
   "canonical": "https://webexec.org/",
   "links": [
@@ -15018,7 +15018,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
+  "vendor": "HP Inc.",
   "product": "HP LaserJet; HP LaserJet Managed; HP PageWide; HP PageWide Managed printers",
   "description": "Certain HP LaserJet, HP LaserJet Managed, HP PageWide, and HP PageWide Managed printers may be vulnerable to potential information disclosure.",
   "canonical": "https://labs.f-secure.com/publications/printing-shellz",
@@ -15423,7 +15423,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "sierrawireless",
+  "vendor": "Sierra Wireless",
   "product": "ALEOS",
   "description": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Sierra Wireless, Inc ALEOS could potentially allow a remote attacker to trigger a \nDenial of Service (DoS) condition for ACEManager without impairing \nother router functions. This condition is cleared by restarting the \ndevice.\n\n",
   "canonical": "https://www.forescout.com/research-labs/sierra21/",
@@ -16258,7 +16258,7 @@
   "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2025-60196",
   "links": [],
   "logo": null,
-  "author": null,
+  "author": "Nguyen Xuan Chien (Patchstack Bug Bounty)",
   "fame": 2.05,
   "source": "manual"
  },
@@ -16282,7 +16282,7 @@
   "canonical": "https://www.silverfort.com/blog/you-win-some-you-checksum-kerberos-delegation-vulnerability-cve-2025-60704/",
   "links": [],
   "logo": null,
-  "author": "Silverfort Research Team",
+  "author": "Eliran Partush (Silverfort Research Team)",
   "fame": 2.05,
   "source": "vulnerability-garden"
  },
@@ -16302,13 +16302,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "getcursor",
-  "product": "cursor",
+  "vendor": "Multiple",
+  "product": "AI IDEs (Cursor, GitHub Copilot, …)",
   "description": "Cursor is a code editor built for programming with AI. Prior to 0.51.0, by default, the setting json.schemaDownload.enable was set to True. This means that by writing a JSON file, an attacker can trigger an arbitrary HTTP GET request that does not require user confirmation. Since the Cursor Agent can edit JSON files, this means a malicious agent, for example, after a prompt injection attack already succeeded, could trigger a GET request to an attacker controlled URL, potentially exfiltrating other data the agent may have access to. This vulnerability is fixed in 0.51.0.",
   "canonical": "https://maccarita.com/posts/idesaster/",
   "links": [],
   "logo": null,
-  "author": "MaccariTA",
+  "author": "Ari Marzouk (MaccariTA)",
   "fame": 2.05,
   "source": "vulnerability-garden"
  },
@@ -17681,7 +17681,7 @@
   "canonical": "https://defuse.ca/sockstress.htm",
   "links": [],
   "logo": null,
-  "author": "Jack C. Louis",
+  "author": "Jack C. Louis (Outpost24)",
   "fame": 1.9,
   "source": "vulnerability-garden"
  },
@@ -18056,7 +18056,7 @@
    "https://github.com/bbbrumley/portsmash"
   ],
   "logo": null,
-  "author": "Billy Brumley",
+  "author": "Billy Bob Brumley, Cesar Pereida García, Sohaib ul Hassan, Nicola Tuveri (Tampere University of Technology), Alejandro Cabrera Aldaya (CUJAE)",
   "fame": 1.9,
   "source": "vulnerability-garden"
  },
@@ -18259,7 +18259,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
+  "vendor": "Intel",
   "product": "Intel(R) Processors",
   "description": "Improper conditions check in voltage settings for some Intel(R) Processors may allow a privileged user to potentially enable escalation of privilege and/or information disclosure via local access.",
   "canonical": "https://github.com/zkenjar/v0ltpwn",
@@ -18500,8 +18500,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Multiple",
+  "product": "uIP, FNET, picoTCP, Nut/Net TCP/IP stacks",
   "description": "An issue was discovered in Contiki through 3.0 and Contiki-NG through 4.5. The code for parsing Type A domain name answers in ip64-dns64.c doesn't verify whether the address in the answer's length is sane. Therefore, when copying an address of an arbitrary length, a buffer overflow can occur. This bug can be exploited whenever NAT64 is enabled.",
   "canonical": "https://www.forescout.com/research-labs/amnesia33/",
   "links": [
@@ -19785,7 +19785,7 @@
   "canonical": "https://www.guardsquare.com/blog/new-android-vulnerability-allows-attackers-to-modify-apps-without-affecting-their-signatures-guardsquare",
   "links": [],
   "logo": null,
-  "author": "Guardsquare",
+  "author": "Eric Lafortune (Guardsquare)",
   "fame": 1.45,
   "source": "vulnerability-garden"
  },
@@ -19804,8 +19804,8 @@
   "ransomware": false,
   "born": null,
   "absurd": true,
-  "vendor": null,
-  "product": null,
+  "vendor": "Apple",
+  "product": "HomeKit (iOS, tvOS)",
   "description": "An issue was discovered in certain Apple products. iOS before 11.2.1 is affected. tvOS before 11.2.1 is affected. The issue involves the \"HomeKit\" component. It allows remote attackers to modify the application state by leveraging incorrect message handling, as demonstrated by use of an Apple Watch to obtain an encryption key and unlock a door.",
   "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2017-13903",
   "links": [],
@@ -20708,7 +20708,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
+  "vendor": "Intel",
   "product": "Intel(R) Boot Guard, Intel(R) CSME, Intel(R) TXE, Intel(R) SPS",
   "description": "Insecure default initialization of resource in Intel(R) Boot Guard in Intel(R) CSME versions before 11.8.80, 11.12.80, 11.22.80, 12.0.70, 13.0.40, 13.30.10, 14.0.45 and 14.5.25, Intel(R) TXE versions before 3.1.80 and 4.0.30, Intel(R) SPS versions before E5_04.01.04.400, E3_04.01.04.200, SoC-X_04.00.04.200 and SoC-A_04.00.04.300 may allow an unauthenticated user to potentially enable escalation of privileges via physical access.",
   "canonical": "https://trmm.net/Sleep_attack/",
@@ -21670,8 +21670,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Multiple",
+  "product": "Linux and other Unix-like systems",
   "description": "An issue was discovered in the size of the stack guard page on Linux, specifically a 4k stack guard page is not sufficiently large and can be \"jumped\" over (the stack guard page is bypassed), this affects Linux Kernel versions 4.11.5 and earlier (the stackguard page was introduced in 2010).",
   "canonical": "https://blog.qualys.com/vulnerabilities-threat-research/2017/06/19/the-stack-clash",
   "links": [],
@@ -21696,7 +21696,7 @@
   "born": null,
   "absurd": false,
   "vendor": null,
-  "product": null,
+  "product": "multipath-tools",
   "description": "multipath-tools 0.7.0 through 0.9.x before 0.9.2 allows local users to obtain root access, as exploited alone or in conjunction with CVE-2022-41973. Local users able to write to UNIX domain sockets can bypass access controls and manipulate the multipath setup. This can lead to local privilege escalation to root. This occurs because an attacker can repeat a keyword, which is mishandled because arithmetic ADD is used instead of bitwise OR.",
   "canonical": "https://blog.qualys.com/vulnerabilities-threat-research/2022/10/25/leeloo-multipath-authorization-bypass-and-symlink-attack-in-multipathd-cve-2022-41974-and-cve-2022-41973",
   "links": [],
@@ -22723,7 +22723,7 @@
    "https://github.com/AICPS/Mic-E-Mouse"
   ],
   "logo": null,
-  "author": null,
+  "author": "Mohamad Fakih, Rahul Dharmaji, Youssef Mahmoud, Halima Bouzidi, Mohammad Abdullah Al Faruque",
   "fame": 1.05,
   "source": "vulnerability-garden"
  },
@@ -22748,7 +22748,7 @@
    "https://www.youtube.com/watch?v=H1fyPD8vWDo"
   ],
   "logo": null,
-  "author": "Abhinav Vemulapalli, Animesh Agrawal, Debopam Sanyal, Alexey Tumanov and Brendan Saltaformaggio",
+  "author": "David Oygenblik, Abhinav Vemulapalli, Animesh Agrawal, Debopam Sanyal, Alexey Tumanov, Brendan Saltaformaggio",
   "fame": 1.05,
   "source": "vulnerability-garden"
  },
@@ -22773,7 +22773,7 @@
    "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/"
   ],
   "logo": null,
-  "author": "Push Security",
+  "author": "Luke Jennings (Push Security)",
   "fame": 1.05,
   "source": "vulnerability-garden"
  },
@@ -23542,7 +23542,7 @@
    "https://github.com/CZHQuality/AAA-Pix2pix"
   ],
   "logo": null,
-  "author": "CZHQuality",
+  "author": "Zhaohui Che, Ali Borji, Guangtao Zhai, Suiyi Ling, Jing Li, Xiongkuo Min, Guodong Guo, Patrick Le Callet",
   "fame": 0.85,
   "source": "vulnerability-garden"
  },
@@ -23822,15 +23822,15 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Kia Motors",
+  "product": "Head Unit (Kia Ceed Gen 5.0 iAVN)",
   "description": null,
   "canonical": "https://sowhat.iit.cnr.it/pdf/IIT-20-2020.pdf",
   "links": [
    "https://web.archive.org/web/20201116163643/https://sowhat.iit.cnr.it/pdf/IIT-20-2020.pdf"
   ],
   "logo": null,
-  "author": "Dr. Gianpiero Costantino, Dr. Ilaria Matteucci",
+  "author": "Gianpiero Costantino, Ilaria Matteucci (IIT-CNR)",
   "fame": 0.8,
   "source": "vulnerability-garden"
  },
@@ -23854,7 +23854,7 @@
    "https://www.covertchannels.com"
   ],
   "logo": null,
-  "author": "Mordechai Guri and Ben-Gurion",
+  "author": "Mordechai Guri (Ben-Gurion University of the Negev)",
   "fame": 0.8,
   "source": "vulnerability-garden"
  },
@@ -23972,7 +23972,7 @@
    "https://web.archive.org/web/20211231035537/https://research.ece.ncsu.edu/aaysu/wp-content/uploads/DATE_2022_camera_ready_file.pdf"
   ],
   "logo": null,
-  "author": "Furkan Aydin†, Emre Karabulut†, Seetal Potluri†, Erdem Alkim‡, Aydin Aysu",
+  "author": "Furkan Aydin, Emre Karabulut, Seetal Potluri, Erdem Alkim, Aydin Aysu",
   "fame": 0.75,
   "source": "vulnerability-garden"
  },
@@ -25620,7 +25620,7 @@
    "https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection"
   ],
   "logo": null,
-  "author": "Annex",
+  "author": "John Tuckner (Secure Annex)",
   "fame": 0.55,
   "source": "vulnerability-garden"
  },
@@ -27110,7 +27110,7 @@
   "canonical": "https://brave.com/privacy-updates/13-pool-party-side-channels/",
   "links": [],
   "logo": null,
-  "author": "Brave",
+  "author": "Soroush Karami, Peter Snyder (Brave)",
   "fame": 0.25,
   "source": "vulnerability-garden"
  },
@@ -27132,7 +27132,7 @@
   "canonical": "https://www.wiz.io/blog/azure-app-service-source-code-leak",
   "links": [],
   "logo": null,
-  "author": "Wiz",
+  "author": "Shir Tamari (Wiz)",
   "fame": 0.25,
   "source": "vulnerability-garden"
  },
@@ -27638,7 +27638,7 @@
   "canonical": "https://www.semperis.com/blog/syncjacking-azure-ad-account-takeover/",
   "links": [],
   "logo": null,
-  "author": "Semperis",
+  "author": "Tomer Nahum (Semperis)",
   "fame": 0.2,
   "source": "vulnerability-garden"
  },
@@ -27660,7 +27660,7 @@
   "canonical": "https://www.wiz.io/blog/hells-keychain-supply-chain-attack-in-ibm-cloud-databases-for-postgresql",
   "links": [],
   "logo": null,
-  "author": "Wiz",
+  "author": "Ronen Shustin, Shir Tamari (Wiz)",
   "fame": 0.2,
   "source": "vulnerability-garden"
  },
@@ -27704,7 +27704,7 @@
   "canonical": "https://cymulate.com/blog/blindside-a-new-technique-for-edr-evasion-with-hardware-breakpoints/",
   "links": [],
   "logo": null,
-  "author": "Cymulate",
+  "author": "Ilan Kalendarov (Cymulate)",
   "fame": 0.2,
   "source": "vulnerability-garden"
  },
@@ -27726,7 +27726,7 @@
   "canonical": "https://www.mnemonic.io/resources/blog/acsessed-cross-tenant-network-bypass-in-azure-cognitive-search/",
   "links": [],
   "logo": null,
-  "author": "mnemonic",
+  "author": "Emilien Socchi (mnemonic)",
   "fame": 0.2,
   "source": "vulnerability-garden"
  },
@@ -28270,13 +28270,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Intel",
+  "product": "Intel processors with FSRM (Ice Lake and later)",
   "description": null,
   "canonical": "https://lock.cmpxchg8b.com/reptar.html",
   "links": [],
   "logo": null,
-  "author": "Tavis Ormandy",
+  "author": "Tavis Ormandy, Josh Eads, Eduardo Vela Nava, Alexandra Sandulescu, Daniel Moghimi (Google)",
   "fame": 0.15,
   "source": "vulnerability-garden"
  },
@@ -28298,7 +28298,7 @@
   "canonical": "https://dl.acm.org/doi/10.1145/3576915.3616661",
   "links": [],
   "logo": null,
-  "author": null,
+  "author": "Yi Zhu, Chenglin Miao, Hongfei Xue, Zhengxiong Li, Yunnan Yu, Wenyao Xu, Lu Su, Chunming Qiao",
   "fame": 0.15,
   "source": "vulnerability-garden"
  },
@@ -28386,7 +28386,7 @@
   "canonical": "https://thomaspaniagua.github.io/quadattack_web/",
   "links": [],
   "logo": null,
-  "author": "Thomas Paniagua",
+  "author": "Thomas Paniagua, Ryan Grainger, Tianfu Wu (NC State University)",
   "fame": 0.15,
   "source": "vulnerability-garden"
  },
@@ -29596,7 +29596,7 @@
   "canonical": "https://unit42.paloaltonetworks.com/privilege-escalation-llm-model-exfil-vertex-ai/",
   "links": [],
   "logo": null,
-  "author": "Palo Alto",
+  "author": "Ofir Balassiano, Ofir Shaty (Palo Alto Networks Unit 42)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29618,7 +29618,7 @@
   "canonical": "https://www.threatfabric.com/blogs/ghost-tap-new-cash-out-tactic-with-nfc-relay",
   "links": [],
   "logo": null,
-  "author": "Threat Fabric",
+  "author": "ThreatFabric",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29640,7 +29640,7 @@
   "canonical": "https://www.knostic.ai/blog/flowbreaking-ai-attack",
   "links": [],
   "logo": null,
-  "author": "Knostic",
+  "author": "Gadi Evron (Knostic)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29794,7 +29794,7 @@
   "canonical": "https://unit42.paloaltonetworks.com/multi-turn-technique-jailbreaks-llms/",
   "links": [],
   "logo": null,
-  "author": "Palo Alto",
+  "author": "Yongzhe Huang, Yang Ji, Wenjun Hu, Akshata Rao, Danny Tsechansky, Jay Chen (Palo Alto Networks Unit 42)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -30784,7 +30784,7 @@
   "canonical": "https://www.microsoft.com/en-us/security/blog/2025/11/07/whisper-leak-a-novel-side-channel-cyberattack-on-remote-language-models/",
   "links": [],
   "logo": null,
-  "author": "Microsoft",
+  "author": "Jonathan Bar Or, Geoff McDonald (Microsoft Defender Security Research Team)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30806,7 +30806,7 @@
   "canonical": "https://www.hiddenlayer.com/research/echogram-the-hidden-vulnerability-undermining-ai-guardrails",
   "links": [],
   "logo": null,
-  "author": "HiddenLayer",
+  "author": "Kasimir Schulz, Kenneth Yeung (HiddenLayer)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30828,7 +30828,7 @@
   "canonical": "https://www.hacktron.ai/blog/supapwn",
   "links": [],
   "logo": null,
-  "author": "Hacktron",
+  "author": "Hacktron (Mohan Pedhapati, Harsh Jaiswal, Zayne Zhang, Fabian Faessler)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30850,7 +30850,7 @@
   "canonical": "https://teamwin.in/hashjack-new-attack-technique-tricks-ai-browsers-using-a-simple/",
   "links": [],
   "logo": null,
-  "author": "Teamwin",
+  "author": "Vitaly Simonovich (Cato CTRL, Cato Networks)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30872,7 +30872,7 @@
   "canonical": "https://www.aikido.dev/blog/promptpwnd-github-actions-ai-agents",
   "links": [],
   "logo": null,
-  "author": "Aikido",
+  "author": "Rein Daelman (Aikido Security)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30894,7 +30894,7 @@
   "canonical": "https://noma.security/blog/geminijack-google-gemini-zero-click-vulnerability/",
   "links": [],
   "logo": null,
-  "author": "Noma Security",
+  "author": "Sasi Levi (Noma Labs)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30938,7 +30938,7 @@
   "canonical": "https://www.sonarsource.com/blog/zombie-workflows-a-github-actions-horror-story/",
   "links": [],
   "logo": null,
-  "author": "Sonarsource",
+  "author": "Paul Gerste (SonarSource)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Puckungfu, maestro del colpo dalla WAN",
+    "patronage": "dei router che cercano aggiornamenti, dei certificati mai controllati e di chi metteva gli apici dentro una shell.",
+    "hagiography": "Il 22 dicembre 2022 McCaulay Hudson di NCC Group pubblicò Puckungfu, preparato per Pwn2Own Toronto 2022 contro il Netgear RAX30. All'avvio il programma pucfu chiedeva informazioni sugli aggiornamenti a un server Netgear, senza verificarne il certificato; chi controllava il DHCP e il DNS sul lato WAN poteva rispondere al suo posto con un JSON preparato, il cui campo url finiva in un comando di shell. Risultato: comandi eseguiti come root. Netgear corresse il difetto il giorno prima della gara.",
+    "prayer": "O Beato Puckungfu, che colpisci da fuori senza toccare la porta, insegna ai nostri router a chiedere i documenti a chi risponde. Amen.",
+    "feast": "Si festeggia aggiornando il RAX30 al firmware 1.0.9.90 o successivo e ricordando che curl ha un'opzione per verificare i certificati.",
+    "proverb": "Chi non guarda chi risponde, esegue quel che gli dicono."
+  },
+  "en": {
+    "title": "Blessed Puckungfu, Master of the WAN Strike",
+    "patronage": "routers that check for updates, certificates never verified, and everyone who put quotes inside a shell.",
+    "hagiography": "On 22 December 2022 McCaulay Hudson of NCC Group published Puckungfu, prepared for Pwn2Own Toronto 2022 against the Netgear RAX30. At boot the pucfu program asked a Netgear server for update information without verifying its certificate; anyone controlling DHCP and DNS on the WAN side could answer instead with crafted JSON, whose url field ended up in a shell command. Result: commands run as root. Netgear fixed the flaw the day before the contest.",
+    "prayer": "O Blessed Puckungfu, who strike from outside without touching the door, teach our routers to ask for papers from whoever answers. Amen.",
+    "feast": "Celebrated by updating the RAX30 to firmware 1.0.9.90 or later and remembering that curl has an option to verify certificates.",
+    "proverb": "Never check who's answering, and you'll do whatever you're told."
+  }
+}

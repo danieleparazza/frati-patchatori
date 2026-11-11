@@ -1,0 +1,10 @@
+{
+  "label": "COVID-bit",
+  "motto": "SERVA DISTANTIAM",
+  "niche": [
+    "#1a2a2a",
+    "#365656"
+  ],
+  "accent": "#264242",
+  "emblem": "<rect x=\"100\" y=\"150\" width=\"44\" height=\"34\" rx=\"3\" fill=\"#264242\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<rect x=\"114\" y=\"184\" width=\"16\" height=\"10\" fill=\"#fbf3dd\"/><rect x=\"106\" y=\"194\" width=\"32\" height=\"5\" rx=\"2\" fill=\"#fbf3dd\"/>\n<rect x=\"174\" y=\"150\" width=\"22\" height=\"38\" rx=\"4\" fill=\"#264242\" stroke=\"#bfc9d1\" stroke-width=\"2.5\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"><path d=\"M150 158 q6 9 0 18\"/><path d=\"M157 152 q10 15 0 30\"/><path d=\"M164 146 q14 21 0 42\"/></g>\n<path d=\"M106 222 h88\" stroke=\"#bfc9d1\" stroke-width=\"2\"/><path d=\"M106 216 v12 M194 216 v12\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"242\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">2 m</text>"
+}

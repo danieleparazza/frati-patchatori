@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Misfortune Cookie, biscotto della sventura",
+    "patronage": "dei router domestici, dei server web incorporati e dei firmware che non aggiornano una libreria da un decennio.",
+    "hagiography": "Il 18 dicembre 2014 Check Point rivelò Misfortune Cookie, la CVE-2014-9222: RomPager, il piccolo server web di Allegro usato nelle pagine di amministrazione di molti router, nelle versioni precedenti alla 4.34 si lasciava corrompere la memoria da un cookie HTTP preparato, consegnando all'attaccante il controllo del dispositivo con diritti di amministratore. Allegro aveva corretto il codice nel 2005, ma i produttori avevano continuato a spedire firmware con la versione vecchia: secondo Check Point, circa 12 milioni di apparecchi esposti su Internet.",
+    "prayer": "O San Misfortune Cookie, che nascondi la sventura dentro un biscotto, fa' che i nostri firmware leggano i bigliettini senza crederci. Amen.",
+    "feast": "Si festeggia installando il firmware aggiornato del produttore e chiudendo da Internet l'interfaccia di amministrazione, che è meglio che nessuno assaggi.",
+    "proverb": "Biscotto vecchio di dieci anni, sventura assicurata."
+  },
+  "en": {
+    "title": "Saint Misfortune Cookie, the Unlucky Biscuit",
+    "patronage": "home routers, embedded web servers, and firmware that hasn't updated a library in a decade.",
+    "hagiography": "On 18 December 2014 Check Point revealed Misfortune Cookie, CVE-2014-9222: RomPager, Allegro's tiny web server used for the admin pages of many routers, let a crafted HTTP cookie corrupt its memory in versions before 4.34, handing the attacker control of the device with administrator rights. Allegro had fixed the code in 2005, but vendors kept shipping firmware with the old version: according to Check Point, about 12 million devices exposed on the Internet.",
+    "prayer": "O Saint Misfortune Cookie, who hide misfortune inside a biscuit, let our firmware read the little slips without believing them. Amen.",
+    "feast": "Celebrated by installing the vendor's updated firmware and keeping the admin interface off the Internet, where it's best that nobody takes a bite.",
+    "proverb": "A ten-year-old cookie brings guaranteed bad luck."
+  }
+}

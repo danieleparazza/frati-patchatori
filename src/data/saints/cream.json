@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato CREAM, che leggeva le chiavi nella cache",
+    "patronage": "delle tabelle S-box, delle implementazioni software di AES e dei cronometri pazienti.",
+    "hagiography": "L'11 novembre 2014 Tony Arcieri battezzò per scherzo CREAM, \"Cache Rules Everything Around Me\", un attacco descritto da Daniel J. Bernstein già nel 2005: le tabelle di AES consultate in base alla chiave lasciano tracce nei tempi della cache. Misurando i tempi di risposta a testi noti, Bernstein aveva estratto una chiave AES da un server attraverso la rete. Arcieri voleva solo ricordare che quel problema, senza logo, era ancora lì.",
+    "prayer": "O Beato CREAM, che conti i microsecondi come grani di rosario, fa' che i nostri cifrari impieghino sempre lo stesso tempo. Amen.",
+    "feast": "Si festeggia usando AES in hardware, codice a tempo costante e cifrari pensati per esserlo, come ChaCha20.",
+    "proverb": "La cache ricorda quello che il codice vorrebbe dimenticare."
+  },
+  "en": {
+    "title": "Blessed CREAM, Who Read Keys in the Cache",
+    "patronage": "S-box tables, software AES implementations, and patient stopwatches.",
+    "hagiography": "On 11 November 2014 Tony Arcieri jokingly christened CREAM, \"Cache Rules Everything Around Me\", an attack Daniel J. Bernstein had described back in 2005: AES tables looked up according to the key leave traces in cache timings. By timing the responses to known plaintexts, Bernstein had pulled an AES key out of a server across the network. Arcieri simply wanted to remind everyone that this logo-less problem was still around.",
+    "prayer": "O Blessed CREAM, who count microseconds like rosary beads, let our ciphers always take the same time. Amen.",
+    "feast": "Celebrated by using hardware AES, constant-time code and ciphers designed to be constant-time, such as ChaCha20.",
+    "proverb": "The cache remembers what the code would rather forget."
+  }
+}

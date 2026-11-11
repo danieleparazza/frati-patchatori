@@ -1,0 +1,10 @@
+{
+  "label": "Leeloo Multipath",
+  "motto": "MULTAE VIAE AD ROOT",
+  "niche": [
+    "#2a1d2e",
+    "#5a3f60"
+  ],
+  "accent": "#3f2c45",
+  "emblem": "<g fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"><path d=\"M150 236 C150 210 112 200 112 168\"/><path d=\"M150 236 C150 200 150 190 150 160\"/><path d=\"M150 236 C150 210 188 200 188 168\"/></g>\n<g fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"><rect x=\"100\" y=\"146\" width=\"24\" height=\"22\" rx=\"3\"/><rect x=\"138\" y=\"138\" width=\"24\" height=\"22\" rx=\"3\"/><rect x=\"176\" y=\"146\" width=\"24\" height=\"22\" rx=\"3\"/></g>\n<text x=\"150\" y=\"128\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">ADD ≠ OR</text>\n<circle cx=\"150\" cy=\"236\" r=\"6\" fill=\"#fbf3dd\"/>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SyncJacking, ladro di gemelli",
+    "patronage": "degli account sincronizzati con il cloud, degli attributi che fanno da ancora e degli amministratori globali ignari.",
+    "hagiography": "Nel 2022 Tomer Nahum di Semperis descrisse SyncJacking, un abuso del \"hard matching\" di Azure AD Connect, oggi Entra Connect. Con pochi permessi nell'Active Directory locale, chi copiava l'ancora di un utente sincronizzato su un account proprio e cancellava l'originale poteva farsi riagganciare l'account cloud, Global Administrator compresi, e imporgli la propria password. Microsoft lo considerò a lungo un comportamento previsto, per poi riconoscerlo come vulnerabilità nel 2025 e annunciare un irrigidimento di Entra Connect.",
+    "prayer": "O Beato SyncJacking, che scambi i gemelli nella culla della sincronizzazione, fa' che ogni account nel cloud riconosca il suo vero gemello. Amen.",
+    "feast": "Si festeggia con l'MFA per tutti gli utenti sincronizzati, un Entra Connect aggiornato e meno deleghe pericolose nell'AD locale.",
+    "proverb": "Chi copia l'ancora si porta via la nave."
+  },
+  "en": {
+    "title": "Blessed SyncJacking, Thief of Twins",
+    "patronage": "cloud-synced accounts, anchor attributes, and unsuspecting global administrators.",
+    "hagiography": "In 2022 Tomer Nahum of Semperis described SyncJacking, an abuse of \"hard matching\" in Azure AD Connect, now Entra Connect. With a few permissions in on-premises Active Directory, someone who copied a synced user's anchor onto their own account and deleted the original could get the cloud account relinked to it, Global Administrators included, and push their own password. Microsoft long treated it as by design, then acknowledged it as a vulnerability in 2025 and announced Entra Connect hardening.",
+    "prayer": "O Blessed SyncJacking, who swap twins in the cradle of synchronisation, let every cloud account recognise its true twin. Amen.",
+    "feast": "Celebrated with MFA for every synced user, an up-to-date Entra Connect and fewer risky delegations in on-prem AD.",
+    "proverb": "Copy the anchor and you sail off with the ship."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ApatchMe, che scriveva nei flussi d'aria",
+    "patronage": "dei servizi Airflow gestiti, dei dettagli delle task e delle versioni rimaste indietro nel cloud.",
+    "hagiography": "Il 2 novembre 2023 Liv Matan di Tenable raccontò ApatchMe: Apache Airflow aveva già corretto ad aprile una XSS memorizzata nella pagina dei dettagli delle task, ma AWS MWAA e Google Cloud Composer usavano ancora versioni vecchie. Un utente autenticato poteva lasciare uno script che si eseguiva nella sessione di chi apriva la pagina, anche di un amministratore. AWS rilasciò una versione corretta e una Content Security Policy; Google stava preparando la sua.",
+    "prayer": "O San ApatchMe, che ti nascondi nei dettagli di una task, fa' che i nostri servizi gestiti seguano le patch del progetto da cui nascono. Amen.",
+    "feast": "Si festeggia portando Airflow alla 2.6.0 o successive e aggiornando gli ambienti gestiti invece di lasciarli dove sono.",
+    "proverb": "La patch a monte non serve se la valle non la beve."
+  },
+  "en": {
+    "title": "Saint ApatchMe, Who Wrote in the Airflow",
+    "patronage": "managed Airflow services, task detail pages, and versions left behind in the cloud.",
+    "hagiography": "On 2 November 2023 Liv Matan of Tenable told the story of ApatchMe: Apache Airflow had already fixed, back in April, a stored XSS in the task instance details page, but AWS MWAA and Google Cloud Composer were still running old versions. An authenticated user could plant a script that ran in the session of whoever opened the page, an administrator included. AWS shipped a fixed version and a Content Security Policy; Google was still preparing its own.",
+    "prayer": "O Saint ApatchMe, who hide in the details of a task, let our managed services follow the patches of the project they came from. Amen.",
+    "feast": "Celebrated by moving to Airflow 2.6.0 or later and upgrading managed environments instead of leaving them where they are.",
+    "proverb": "An upstream patch is no use if downstream never drinks it."
+  }
+}

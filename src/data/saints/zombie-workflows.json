@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Zombie Workflows, che risorgeva dai rami secchi",
+    "patronage": "delle GitHub Actions, dei rami dimenticati e di chi corregge il bug solo dove lo vede.",
+    "hagiography": "Il 9 dicembre 2025 Paul Gerste di Sonar raccontò gli Zombie Workflows: workflow di GitHub Actions vulnerabili, corretti nel ramo principale ma rimasti vivi in altri rami. Con il trigger pull_request_target, chi apriva una pull request verso un ramo vecchio faceva girare il workflow vecchio, con accesso ai segreti e a un token in scrittura. Su circa 14.000 repository popolari i ricercatori trovarono 188 workflow vulnerabili, 67 dei quali veri zombi, in progetti di Microsoft, NVIDIA, LLVM, llama.cpp, Apache e altri.",
+    "prayer": "O Beato Zombie Workflows, che cammini nei rami che credevamo morti, fa' che le nostre correzioni arrivino anche dove nessuno guarda più. Amen.",
+    "feast": "Si festeggia con GitHub, che dall'8 dicembre 2025 esegue i workflow pull_request_target dal ramo predefinito: e potando i rami vecchi, con permessi in sola lettura dove si può.",
+    "proverb": "Il workflow sepolto in un ramo secco, a mezzanotte cammina ancora."
+  },
+  "en": {
+    "title": "Blessed Zombie Workflows, Risen From Dead Branches",
+    "patronage": "GitHub Actions, forgotten branches, and everyone who fixes a bug only where they can see it.",
+    "hagiography": "On 9 December 2025 Paul Gerste of Sonar told the tale of Zombie Workflows: vulnerable GitHub Actions workflows, fixed on the main branch but still alive on others. With the pull_request_target trigger, opening a pull request against an old branch ran the old workflow, with access to secrets and a write-capable token. Across about 14,000 popular repositories the researchers found 188 vulnerable workflows, 67 of them true zombies, in projects from Microsoft, NVIDIA, LLVM, llama.cpp, Apache and others.",
+    "prayer": "O Blessed Zombie Workflows, who walk the branches we thought were dead, let our fixes reach even where nobody looks anymore. Amen.",
+    "feast": "Celebrated with GitHub, which since 8 December 2025 runs pull_request_target workflows from the default branch: and by pruning old branches, with read-only permissions wherever possible.",
+    "proverb": "Bury a workflow in a dead branch and at midnight it walks again."
+  }
+}

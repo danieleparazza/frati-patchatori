@@ -1,0 +1,10 @@
+{
+  "label": "Hell's Keychain",
+  "motto": "CLAVES INFERNI",
+  "niche": [
+    "#2a1614",
+    "#55302a"
+  ],
+  "accent": "#4a221c",
+  "emblem": "<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"5\"><circle cx=\"150\" cy=\"140\" r=\"20\"/></g>\n<g stroke=\"#fbf3dd\" stroke-width=\"5\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M138 156 L118 214\"/><path d=\"M150 160 L150 226\"/><path d=\"M162 156 L182 214\"/></g>\n<g fill=\"#fbf3dd\"><rect x=\"110\" y=\"208\" width=\"10\" height=\"5\" transform=\"rotate(20 115 210)\"/><rect x=\"104\" y=\"198\" width=\"10\" height=\"5\" transform=\"rotate(20 109 200)\"/><rect x=\"150\" y=\"216\" width=\"11\" height=\"5\"/><rect x=\"150\" y=\"204\" width=\"8\" height=\"5\"/><rect x=\"182\" y=\"206\" width=\"10\" height=\"5\" transform=\"rotate(-20 187 208)\"/><rect x=\"186\" y=\"196\" width=\"8\" height=\"5\" transform=\"rotate(-20 190 198)\"/></g>\n<path d=\"M120 246 q8 -18 14 -6 q6 -20 16 -4 q10 -18 16 4 q6 -12 14 6 Z\" fill=\"#c0392b\" stroke=\"#e8c45c\" stroke-width=\"1.5\"/>"
+}

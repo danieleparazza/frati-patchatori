@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BrakTooth, che spezzava i denti blu",
+    "patronage": "dei chip Bluetooth Classic, degli auricolari e dei microcontrollori, e di chi teneva il Bluetooth acceso \"tanto non costa niente\".",
+    "hagiography": "Il 31 agosto 2021 il gruppo ASSET della Singapore University of Technology and Design presentò BrakTooth, una famiglia di difetti nello stack Bluetooth Classic dei chip di molti produttori, scovati con un fuzzer costruito apposta. A chiunque fosse nel raggio radio bastava inviare messaggi LMP fuori posto per bloccare o mandare in crash il dispositivo; sull'ESP32 di Espressif si arrivava fino all'esecuzione di codice. All'inizio di novembre i ricercatori pubblicarono lo strumento di prova, come avevano promesso.",
+    "prayer": "O San BrakTooth, che con un messaggio storto fai tacere le cuffie e piantare le schede, fa' che i nostri stack rispondano solo a ciò che hanno chiesto. Amen.",
+    "feast": "Si festeggia aggiornando il firmware Bluetooth dei dispositivi e spegnendo il Bluetooth dove la patch non arriverà mai.",
+    "proverb": "Dente blu senza patch, prima o poi si spezza."
+  },
+  "en": {
+    "title": "Saint BrakTooth, Breaker of Blue Teeth",
+    "patronage": "Bluetooth Classic chips, earbuds and microcontrollers, and everyone who left Bluetooth on because \"it costs nothing\".",
+    "hagiography": "On 31 August 2021 the ASSET group at the Singapore University of Technology and Design unveiled BrakTooth, a family of flaws in the Bluetooth Classic stacks of chips from many vendors, found with a purpose-built fuzzer. Anyone within radio range could send out-of-place LMP messages to freeze or crash a device; on Espressif's ESP32 it went as far as code execution. In early November the researchers released their proof-of-concept tool, as promised.",
+    "prayer": "O Saint BrakTooth, who with one crooked message silences headphones and stalls boards, let our stacks answer only what they actually asked for. Amen.",
+    "feast": "Celebrated by updating device Bluetooth firmware and switching Bluetooth off wherever the patch will never arrive.",
+    "proverb": "An unpatched blue tooth breaks sooner or later."
+  }
+}

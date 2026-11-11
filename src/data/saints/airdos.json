@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AirDoS, molesto dei vicini",
+    "patronage": "degli iPhone in metropolitana, delle condivisioni AirDrop e di chi lascia la ricezione aperta a \"Tutti\".",
+    "hagiography": "Il 10 dicembre 2019, con l'uscita di iOS 13.3, Kishan Bagaria rese nota AirDoS, segnalata ad Apple ad agosto. Chiunque nelle vicinanze poteva inondare un iPhone o un iPad di richieste AirDrop: la finestra copriva lo schermo, si poteva solo accettare o rifiutare, e tornava all'infinito, anche dopo aver bloccato e sbloccato il dispositivo. Bastava che AirDrop fosse impostato per ricevere da tutti. Apple riconobbe la segnalazione senza assegnare una CVE.",
+    "prayer": "O Beato AirDoS, che bussi mille volte alla stessa porta, insegna ai nostri telefoni l'arte di dire di no una volta per tutte. Amen.",
+    "feast": "Si festeggia con iOS 13.3 e macOS Catalina 10.15.2, che dopo tre rifiuti allo stesso mittente rifiutano da soli le richieste successive, e tenendo AirDrop su \"Solo contatti\".",
+    "proverb": "Tre volte no, e il seccatore resta fuori."
+  },
+  "en": {
+    "title": "Blessed AirDoS, Pest of the Neighbourhood",
+    "patronage": "iPhones on the underground, AirDrop shares, and everyone who leaves receiving open to \"Everyone\".",
+    "hagiography": "On 10 December 2019, as iOS 13.3 came out, Kishan Bagaria revealed AirDoS, reported to Apple in August. Anyone nearby could flood an iPhone or iPad with AirDrop requests: the prompt covered the screen, offered only accept or decline, and came back endlessly, even after locking and unlocking the device. All it took was AirDrop set to receive from everyone. Apple acknowledged the report without assigning a CVE.",
+    "prayer": "O Blessed AirDoS, who knock a thousand times at the same door, teach our phones the art of saying no once and for all. Amen.",
+    "feast": "Celebrated with iOS 13.3 and macOS Catalina 10.15.2, which after three declines from the same sender reject further requests automatically, and by keeping AirDrop on \"Contacts Only\".",
+    "proverb": "Say no three times and the pest stays outside."
+  }
+}

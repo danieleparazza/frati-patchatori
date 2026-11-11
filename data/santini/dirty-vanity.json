@@ -1,0 +1,10 @@
+{
+  "label": "Dirty Vanity",
+  "motto": "VANITAS VANITATUM",
+  "niche": [
+    "#2a1824",
+    "#56344a"
+  ],
+  "accent": "#44263a",
+  "emblem": "<ellipse cx=\"150\" cy=\"168\" rx=\"36\" ry=\"46\" fill=\"#bfc9d1\" stroke=\"#d9ad55\" stroke-width=\"5\"/>\n<ellipse cx=\"150\" cy=\"168\" rx=\"28\" ry=\"38\" fill=\"#56344a\"/>\n<path d=\"M134 152 q16 -16 32 0 v30 h-32 Z\" fill=\"#bfc9d1\" opacity=\"0.35\"/>\n<rect x=\"140\" y=\"146\" width=\"20\" height=\"26\" rx=\"2\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"146\" y=\"154\" width=\"20\" height=\"26\" rx=\"2\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\" stroke-dasharray=\"3 2\"/>\n<path d=\"M150 214 v22 M134 240 h32\" stroke=\"#d9ad55\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<path d=\"M122 132 l-6 -8 M178 132 l6 -8\" stroke=\"#d9ad55\" stroke-width=\"3\"/>"
+}

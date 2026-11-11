@@ -1,0 +1,10 @@
+{
+  "label": "Misfortune Cookie",
+  "motto": "FORTUNA ADVERSA",
+  "niche": [
+    "#2e1f16",
+    "#634330"
+  ],
+  "accent": "#452e21",
+  "emblem": "<path d=\"M106 196 q4 -50 44 -54 q-4 30 -6 54 q-20 6 -38 0 z\" fill=\"#d9a85a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M194 196 q-4 -50 -44 -54 q4 30 6 54 q20 6 38 0 z\" fill=\"#c99848\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g stroke=\"#8a5a2b\" stroke-width=\"1.5\"><path d=\"M150 150 l-6 10 l8 8 l-6 12\"/></g>\n<rect x=\"112\" y=\"206\" width=\"76\" height=\"20\" rx=\"1\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"220\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#452e21\">RomPager 4.07</text>\n<text x=\"150\" y=\"134\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">Cookie:</text>"
+}

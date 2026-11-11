@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Dirty DAG, che sporcava il grafo",
+    "patronage": "dei flussi di dati gestiti, dei file DAG lasciati scrivibili e di chi dava all'operaio di turno le chiavi di tutto il cantiere.",
+    "hagiography": "Il 16 dicembre 2024 Ofir Balassiano e David Orlovsky di Unit 42 descrissero i difetti dell'Apache Airflow integrato in Azure Data Factory. Chi poteva scrivere nella cartella dei DAG, anche con una chiave SAS o credenziali Git trapelate, faceva eseguire il proprio codice su un worker; da lì un account Kubernetes con diritti di amministratore del cluster apriva la strada al nodo come root e poi a Geneva, il servizio interno di log di Azure. Microsoft classificò i problemi come di bassa gravità e li corresse con i ricercatori.",
+    "prayer": "O Beato Dirty DAG, che entri da un file di flusso e esci padrone del cluster, insegnaci a dare a ogni servizio solo i permessi che gli servono. Amen.",
+    "feast": "Si festeggia proteggendo chi può scrivere i DAG, ruotando chiavi SAS e credenziali Git e togliendo i ruoli di amministratore ai worker.",
+    "proverb": "Grafo sporco, cluster nudo."
+  },
+  "en": {
+    "title": "Blessed Dirty DAG, Who Soiled the Graph",
+    "patronage": "managed data pipelines, writable DAG files, and anyone who gave the shift worker the keys to the whole site.",
+    "hagiography": "On 16 December 2024 Ofir Balassiano and David Orlovsky of Unit 42 described flaws in the Apache Airflow built into Azure Data Factory. Anyone able to write to the DAG folder, even through a SAS token or leaked Git credentials, got their code run on a worker; from there a Kubernetes service account with cluster-admin rights led to root on the node and then to Geneva, Azure's internal logging service. Microsoft rated the issues low severity and fixed them with the researchers.",
+    "prayer": "O Blessed Dirty DAG, who enter through a workflow file and leave as master of the cluster, teach us to give every service only what it needs. Amen.",
+    "feast": "Celebrated by guarding who can write DAGs, rotating SAS tokens and Git credentials, and stripping admin roles from workers.",
+    "proverb": "Dirty graph, naked cluster."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato VillainNet, cattivo nascosto nella sottorete",
+    "patronage": "delle supernet, delle auto che guidano da sole e dei modelli che cambiano idea quando piove.",
+    "hagiography": "Nell'ottobre 2025, alla conferenza ACM CCS, David Oygenblik e colleghi del Georgia Tech, con Brendan Saltaformaggio, presentarono VillainNet. Le \"supernet\" passano da una sottorete specializzata all'altra secondo la situazione di guida; i ricercatori mostrarono che una backdoor poteva annidarsi in una sola di esse e restare dormiente finché quella non veniva scelta, per esempio con la pioggia. Secondo gli autori l'attacco riusciva nel 99% dei casi una volta attivato, e scovarlo richiedeva decine di volte più calcolo di un controllo normale.",
+    "prayer": "O Beato VillainNet, che dormi in un angolo della rete finché non arriva il tuo temporale, fa' che ogni sottorete venga esaminata, non solo quella del bel tempo. Amen.",
+    "feast": "Si festeggia verificando ogni configurazione della supernet e diffidando dei modelli di provenienza incerta.",
+    "proverb": "Il cattivo non abita in tutta la casa: gli basta una stanza."
+  },
+  "en": {
+    "title": "Blessed VillainNet, Villain Hidden in a Subnetwork",
+    "patronage": "SuperNets, self-driving cars, and models that change their minds when it rains.",
+    "hagiography": "In October 2025, at ACM CCS, David Oygenblik and colleagues at Georgia Tech, with Brendan Saltaformaggio, presented VillainNet. SuperNets switch between specialised subnetworks depending on the driving situation; the researchers showed that a backdoor could hide in just one of them and stay dormant until that one was chosen, for instance in the rain. According to the authors the attack succeeded 99% of the time once triggered, and finding it took tens of times more computation than a normal check.",
+    "prayer": "O Blessed VillainNet, who sleep in a corner of the network until your storm arrives, let every subnetwork be examined, not just the fair-weather one. Amen.",
+    "feast": "Celebrated by verifying every SuperNet configuration and distrusting models of uncertain origin.",
+    "proverb": "A villain needn't own the whole house: one room will do."
+  }
+}

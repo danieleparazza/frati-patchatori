@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San WMF SetAbortProc, che uccideva con un'immagine",
+    "patronage": "dei metafile di Windows, delle anteprime delle immagini e delle funzioni a 16 bit che nessuno ricordava di avere.",
+    "hagiography": "Il 27 dicembre 2005 divenne pubblica una falla già sfruttata da siti malevoli: un'immagine WMF con una chiamata alla vecchia funzione SETABORTPROC faceva eseguire codice alla libreria grafica di Windows, anche su un Windows XP SP2 aggiornato. Bastava visualizzarla, persino nell'anteprima o nell'indicizzazione dei file. In attesa di Microsoft circolarono il consiglio di disattivare il Visualizzatore immagini e fax e una patch non ufficiale di Ilfak Guilfanov; la correzione MS06-001 uscì fuori ciclo il 5 gennaio 2006.",
+    "prayer": "O San WMF SetAbortProc, che nascondi la lama in un disegno, insegna ai nostri visualizzatori a guardare senza obbedire. Amen.",
+    "feast": "Si festeggia ricordando MS06-001, che disattivò SETABORTPROC nelle immagini WMF, e spegnendo le funzioni di compatibilità che non servono più.",
+    "proverb": "Non ogni quadro è da appendere: certi vanno solo guardati da lontano."
+  },
+  "en": {
+    "title": "Saint WMF SetAbortProc, Who Killed With a Picture",
+    "patronage": "Windows metafiles, image previews, and 16-bit functions nobody remembered having.",
+    "hagiography": "On 27 December 2005 a flaw already exploited by malicious websites went public: a WMF image calling the old SETABORTPROC function made the Windows graphics library run code, even on fully updated Windows XP SP2. Merely viewing it was enough, even in a preview or while files were indexed. While waiting for Microsoft, people were advised to disable the Picture and Fax Viewer, and Ilfak Guilfanov released an unofficial patch; the MS06-001 fix shipped out of band on 5 January 2006.",
+    "prayer": "O Saint WMF SetAbortProc, who hide the blade inside a drawing, teach our viewers to look without obeying. Amen.",
+    "feast": "Celebrated by remembering MS06-001, which disabled SETABORTPROC in WMF images, and switching off compatibility features no longer needed.",
+    "proverb": "Not every picture should be hung: some are best admired from afar."
+  }
+}

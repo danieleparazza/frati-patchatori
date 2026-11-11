@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AuthQuake, che faceva tremare le sei cifre",
+    "patronage": "delle app di autenticazione, dei codici a sei cifre e di chi pensava che \"tanto non lo indovina nessuno\".",
+    "hagiography": "L'11 dicembre 2024 Oasis Security, in un articolo firmato da Tal Hason, raccontò come aggirare l'MFA degli account Microsoft indovinando i codici a sei cifre delle app di autenticazione. Ogni sessione concedeva dieci tentativi, ma se ne potevano aprire molte in parallelo senza un vero limite, e un codice restava valido circa tre minuti invece di trenta secondi. In circa 70 minuti le probabilità di indovinare superavano il 50%, senza che il titolare ricevesse alcun avviso.",
+    "prayer": "O Beato AuthQuake, che scuoti le sei cifre finché una cede, fa' che i nostri sistemi contino i tentativi e chiudano la porta in tempo. Amen.",
+    "feast": "Si festeggia come Microsoft, che introdusse un limite molto più severo, con un blocco di circa mezza giornata, definitivo dal 9 ottobre 2024: e preferendo metodi resistenti al phishing, con avvisi per i tentativi falliti.",
+    "proverb": "A forza di tirare a indovinare, anche sei cifre crollano."
+  },
+  "en": {
+    "title": "Blessed AuthQuake, Who Shook the Six Digits",
+    "patronage": "authenticator apps, six-digit codes, and everyone who thought \"nobody will ever guess it\".",
+    "hagiography": "On 11 December 2024 Oasis Security, in a post by Tal Hason, explained how to bypass MFA on Microsoft accounts by guessing authenticator apps' six-digit codes. Each session allowed ten attempts, but many could be opened in parallel with no real limit, and a code stayed valid for about three minutes instead of thirty seconds. In about 70 minutes the odds of a correct guess passed 50%, with no alert reaching the account owner.",
+    "prayer": "O Blessed AuthQuake, who shake the six digits until one gives way, let our systems count the attempts and shut the door in time. Amen.",
+    "feast": "Celebrated like Microsoft, which introduced a far stricter limit, with a lockout of about half a day, permanent since 9 October 2024: and by preferring phishing-resistant methods, with alerts on failed attempts.",
+    "proverb": "Keep guessing long enough and even six digits come tumbling down."
+  }
+}

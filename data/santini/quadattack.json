@@ -1,0 +1,10 @@
+{
+  "label": "QuadAttacK",
+  "motto": "ORDO EX QUADRATO",
+  "niche": [
+    "#1e2430",
+    "#3c4860"
+  ],
+  "accent": "#2c3648",
+  "emblem": "<path d=\"M102 132 q48 120 96 0\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<g fill=\"#3c4860\" stroke=\"#fbf3dd\" stroke-width=\"2\"><rect x=\"108\" y=\"206\" width=\"26\" height=\"30\"/><rect x=\"137\" y=\"190\" width=\"26\" height=\"46\"/><rect x=\"166\" y=\"216\" width=\"26\" height=\"20\"/></g>\n<text x=\"121\" y=\"226\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">3</text>\n<text x=\"150\" y=\"212\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">1</text>\n<text x=\"179\" y=\"231\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">2</text>\n<path d=\"M118 168 q32 -26 64 0\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/>\n<path d=\"M176 160 l6 8 l-10 2\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" font-style=\"italic\" fill=\"#bfc9d1\">x²</text>"
+}

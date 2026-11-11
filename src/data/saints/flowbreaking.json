@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Flowbreaking, che rompeva il filo",
+    "patronage": "delle risposte in streaming, dei guardiani che arrivano tardi e di chi preme Stop al momento giusto.",
+    "hagiography": "Il 26 novembre 2024 Gadi Evron e Knostic proposero il Flowbreaking come terza famiglia di attacchi ai modelli linguistici, accanto a jailbreak e prompt injection: non colpisce il modello ma l'architettura intorno, come una corsa critica. Con \"Second Thoughts\" la risposta veniva mostrata e poi ritirata dal filtro, ma restava leggibile nel flusso; con \"Stop and Roll\", premendo Stop durante la generazione, il filtro di secondo livello non partiva e la risposta parziale restava sullo schermo. Lo dimostrarono su ChatGPT e Microsoft 365 Copilot.",
+    "prayer": "O Beato Flowbreaking, che passi tra la parola e il suo ripensamento, fa' che i nostri guardiani controllino prima di parlare, non dopo. Amen.",
+    "feast": "Si festeggia controllando la risposta intera prima di mostrarla e dando a ciascuno l'accesso solo ai dati che può vedere.",
+    "proverb": "Parola detta e poi ritirata, resta comunque ascoltata."
+  },
+  "en": {
+    "title": "Blessed Flowbreaking, Who Broke the Thread",
+    "patronage": "streamed answers, guardrails that arrive late, and anyone who hits Stop at the right moment.",
+    "hagiography": "On 26 November 2024 Gadi Evron and Knostic proposed Flowbreaking as a third family of attacks on language models, alongside jailbreaks and prompt injection: it targets not the model but the architecture around it, like a race condition. With \"Second Thoughts\" an answer was shown and then retracted by the guardrail, yet stayed readable in the stream; with \"Stop and Roll\", pressing Stop mid-generation meant the second-line guardrail never ran and the partial answer stayed on screen. They demonstrated it on ChatGPT and Microsoft 365 Copilot.",
+    "prayer": "O Blessed Flowbreaking, who slip between a word and its retraction, let our guardians check before speaking, not after. Amen.",
+    "feast": "Celebrated by checking the whole answer before showing it and giving each user access only to the data they may see.",
+    "proverb": "A word unsaid after it's read has still been read."
+  }
+}

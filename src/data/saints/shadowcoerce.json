@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ShadowCoerce, che costringeva dall'ombra",
+    "patronage": "delle copie shadow, dei relay NTLM e dei server che si presentano a chiunque li chiami.",
+    "hagiography": "Alla fine di dicembre 2021 Lionel Gilles, noto come Topotam, mostrò ShadowCoerce: sui server con attivo il servizio File Server VSS Agent, il protocollo MS-FSRVP per le copie shadow poteva essere usato per costringere la macchina ad autenticarsi verso un indirizzo scelto dall'attaccante. Quell'autenticazione NTLM poteva poi essere inoltrata altrove, per esempio ai servizi di certificati di Active Directory, una tecnica cugina di PetitPotam. Nel giugno 2022 Microsoft lo mitigò in silenzio con la correzione per CVE-2022-30154.",
+    "prayer": "O San ShadowCoerce, che chiami il server dall'ombra e lo fai rispondere col suo nome, insegna ai nostri sistemi a non presentarsi agli sconosciuti. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti di giugno 2022, spegnendo il servizio VSS Agent dove non serve e proteggendo AD CS con EPA e firma SMB.",
+    "proverb": "Chi risponde a ogni chiamata, prima o poi parla con il ladro."
+  },
+  "en": {
+    "title": "Saint ShadowCoerce, Who Compelled From the Shadows",
+    "patronage": "shadow copies, NTLM relays, and servers that introduce themselves to anyone who calls.",
+    "hagiography": "At the end of December 2021 Lionel Gilles, known as Topotam, showed ShadowCoerce: on servers running the File Server VSS Agent service, the MS-FSRVP shadow-copy protocol could be used to force the machine to authenticate to an address chosen by the attacker. That NTLM authentication could then be relayed elsewhere, for example to Active Directory Certificate Services, a cousin of PetitPotam. In June 2022 Microsoft quietly mitigated it with the fix for CVE-2022-30154.",
+    "prayer": "O Saint ShadowCoerce, who call the server from the shadows and make it answer with its own name, teach our systems not to introduce themselves to strangers. Amen.",
+    "feast": "Celebrated with the June 2022 updates, turning off the VSS Agent service where unneeded and protecting AD CS with EPA and SMB signing.",
+    "proverb": "Answer every call and sooner or later you'll chat with the thief."
+  }
+}

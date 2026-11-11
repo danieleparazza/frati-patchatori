@@ -1,0 +1,10 @@
+{
+  "label": "Golden SAML",
+  "motto": "SIGILLUM AUREUM FURATUM",
+  "niche": [
+    "#2a2010",
+    "#5a4520"
+  ],
+  "accent": "#3e3016",
+  "emblem": "<path d=\"M100 146 h100 v12 a8 8 0 0 0 0 16 v12 a8 8 0 0 0 0 16 v12 h-100 v-12 a8 8 0 0 0 0 -16 v-12 a8 8 0 0 0 0 -16 z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"182\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#3e3016\">SAML</text>\n<path d=\"M114 194 h56\" stroke=\"#3e3016\" stroke-width=\"1.5\"/>\n<circle cx=\"180\" cy=\"218\" r=\"16\" fill=\"#a8321e\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M172 232 l-4 18 l12 -6 l12 6 l-4 -18\" fill=\"#a8321e\"/>\n<path d=\"M174 218 l4 4 l8 -8\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>"
+}

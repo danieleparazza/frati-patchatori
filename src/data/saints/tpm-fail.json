@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TPM-Fail, che cronometrava le firme",
+    "patronage": "dei chip TPM, delle certificazioni FIPS e Common Criteria e delle chiavi ECDSA che credevano di essere al sicuro.",
+    "hagiography": "Nel novembre 2019 Daniel Moghimi, Berk Sunar, Thomas Eisenbarth e Nadia Heninger mostrarono che il TPM firmware di Intel e un chip TPM di STMicroelectronics impiegavano tempi diversi a seconda dei segreti nel firmare con le curve ellittiche. In locale la chiave ECDSA del TPM Intel si ricavava in 4–20 minuti; da remoto, su reti veloci, recuperarono in circa cinque ore la chiave di autenticazione di un server VPN. Entrambi i chip erano certificati.",
+    "prayer": "O San TPM-Fail, che misuri il tempo come un orologiaio, fa' che le nostre firme durino sempre lo stesso istante. Amen.",
+    "feast": "Si festeggia aggiornando il firmware fTPM di Intel e del chip STMicroelectronics e ricordando che un bollino non è una prova.",
+    "proverb": "Il tempo è denaro, e a volte anche chiave privata."
+  },
+  "en": {
+    "title": "Saint TPM-Fail, Who Timed the Signatures",
+    "patronage": "TPM chips, FIPS and Common Criteria certificates, and ECDSA keys that thought they were safe.",
+    "hagiography": "In November 2019 Daniel Moghimi, Berk Sunar, Thomas Eisenbarth and Nadia Heninger showed that Intel's firmware TPM and an STMicroelectronics TPM chip took secret-dependent time to produce elliptic-curve signatures. Locally, the Intel TPM's ECDSA key fell in 4 to 20 minutes; remotely, over fast networks, they recovered a VPN server's authentication key in about five hours. Both chips were certified.",
+    "prayer": "O Saint TPM-Fail, who measure time like a watchmaker, let our signatures always last the same instant. Amen.",
+    "feast": "Celebrated by updating the firmware of Intel's fTPM and the STMicroelectronics chip and remembering that a sticker is not a proof.",
+    "proverb": "Time is money, and sometimes a private key too."
+  }
+}

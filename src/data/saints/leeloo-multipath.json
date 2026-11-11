@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Leeloo Multipath, che aveva molti percorsi",
+    "patronage": "dei demoni che gestiscono i dischi, delle parole chiave ripetute e di chi confondeva la somma con l'OR.",
+    "hagiography": "Il 24 ottobre 2022 la Qualys Research Team rivelò due difetti di multipathd, il demone che governa i percorsi multipli verso lo storage. Con CVE-2022-41974 un utente locale scavalcava il controllo di autorizzazione ripetendo una parola chiave, perché i permessi venivano sommati invece che combinati con un OR; con CVE-2022-41973 poteva poi creare file e cartelle dove voleva grazie a un link simbolico in /dev/shm. Unite a un terzo difetto di Ubuntu Server, rivelato più tardi, portavano fino a root.",
+    "prayer": "O San Leeloo Multipath, che trovi sempre un'altra strada, insegna ai nostri demoni a contare i permessi una volta sola. Amen.",
+    "feast": "Si festeggia aggiornando multipath-tools alla 0.9.2 o alle versioni corrette della propria distribuzione.",
+    "proverb": "Chi somma due volte la stessa chiave, apre porte che non ha."
+  },
+  "en": {
+    "title": "Saint Leeloo Multipath, Who Had Many Paths",
+    "patronage": "daemons that manage disks, repeated keywords, and everyone who mixed up addition with OR.",
+    "hagiography": "On 24 October 2022 the Qualys Research Team disclosed two flaws in multipathd, the daemon that manages multiple paths to storage. With CVE-2022-41974 a local user bypassed the authorisation check by repeating a keyword, because permissions were added together instead of combined with OR; with CVE-2022-41973 they could then create files and directories anywhere through a symlink in /dev/shm. Chained with a third flaw in Ubuntu Server, disclosed later, they led all the way to root.",
+    "prayer": "O Saint Leeloo Multipath, who always find another way, teach our daemons to count each permission only once. Amen.",
+    "feast": "Celebrated by updating multipath-tools to 0.9.2 or your distribution's fixed packages.",
+    "proverb": "Add the same key twice and doors open that were never yours."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DogeReaper, mietitore di nodi",
+    "patronage": "dei nodi Dogecoin, dei portatili d'annata e di chi rimanda l'aggiornamento perché \"tanto è una moneta per scherzo\".",
+    "hagiography": "Il 4 dicembre 2024 l'account \"Department of DOGE Efficiency\" rese pubblico DogeReaper, un difetto di Dogecoin Core che permetteva a chiunque di far cadere un nodo da remoto con un errore di segmentazione. L'aveva trovato Tobias Ruck, sviluppatore di eCash, lavorando a doged, un'implementazione alternativa. Il 12 dicembre il cofondatore di un progetto concorrente ne rivendicò lo sfruttamento da un vecchio portatile: secondo i dati di Blockchair circa il 69% dei nodi attivi andò offline.",
+    "prayer": "O Beato DogeReaper, che falci i nodi come erba d'inverno, fa' che i nostri demoni si aggiornino prima che passi la tua lama. Amen.",
+    "feast": "Si festeggia installando Dogecoin Core 1.14.9, che correggeva già il difetto ma che la gran parte dei nodi non aveva ancora adottato.",
+    "proverb": "Il cane che non si aggiorna, il mietitore lo manda a cuccia."
+  },
+  "en": {
+    "title": "Blessed DogeReaper, Reaper of Nodes",
+    "patronage": "Dogecoin nodes, vintage laptops, and everyone who postpones the update because \"it's just a joke coin\".",
+    "hagiography": "On 4 December 2024 the \"Department of DOGE Efficiency\" account made DogeReaper public: a flaw in Dogecoin Core that let anyone crash a node remotely with a segmentation fault. It had been found by Tobias Ruck, an eCash developer, while working on doged, an alternative implementation. On 12 December the co-founder of a rival project claimed to have exploited it from an old laptop: according to Blockchair data about 69% of active nodes went offline.",
+    "prayer": "O Blessed DogeReaper, who mow down nodes like winter grass, let our daemons update before your blade comes by. Amen.",
+    "feast": "Celebrated by installing Dogecoin Core 1.14.9, which already fixed the flaw but which most nodes had not yet adopted.",
+    "proverb": "A dog that won't update gets sent to its kennel by the reaper."
+  }
+}

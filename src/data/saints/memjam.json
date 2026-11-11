@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato MemJam, marmellata di memoria",
+    "patronage": "delle implementazioni crittografiche a tempo costante, delle enclave SGX e delle dipendenze che non esistono.",
+    "hagiography": "Il 21 novembre 2017 Ahmad Moghimi, Thomas Eisenbarth e Berk Sunar pubblicarono MemJam. Sfruttava una falsa dipendenza tra una lettura in memoria e una scrittura precedente: quando gli indirizzi si somigliavano, il processore Intel rallentava la lettura, e quel ritardo rivelava dove leggeva il programma vittima, con una precisione più fine della singola riga di cache. Così recuperarono chiavi da implementazioni di AES e SM4 della libreria Intel IPP ritenute protette, anche dentro un'enclave SGX.",
+    "prayer": "O Beato MemJam, che inceppi le letture per spiare le chiavi, fa' che i nostri algoritmi a tempo costante lo siano davvero. Amen.",
+    "feast": "Si festeggia scegliendo implementazioni crittografiche senza accessi alla memoria dipendenti dal segreto, e con un cucchiaio di confettura.",
+    "proverb": "Anche la marmellata più dolce si attacca dove non dovrebbe."
+  },
+  "en": {
+    "title": "Blessed MemJam, Jam of Memory",
+    "patronage": "constant-time crypto implementations, SGX enclaves, and dependencies that don't exist.",
+    "hagiography": "On 21 November 2017 Ahmad Moghimi, Thomas Eisenbarth and Berk Sunar published MemJam. It exploited a false dependency between a memory read and an earlier write: when the addresses looked alike, the Intel processor slowed the read down, and that delay revealed where the victim program was reading, at a finer grain than a single cache line. With it they recovered keys from AES and SM4 implementations in Intel's IPP library that were thought to be protected, even inside an SGX enclave.",
+    "prayer": "O Blessed MemJam, who jam reads to spy on keys, let our constant-time algorithms truly be so. Amen.",
+    "feast": "Celebrated by choosing crypto implementations with no secret-dependent memory accesses, and a spoonful of jam.",
+    "proverb": "Even the sweetest jam sticks where it shouldn't."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San V0LTpwn, che toglieva tensione alla verità",
+    "patronage": "dei processori x86, delle enclave SGX e degli strumenti di overclock usati al contrario.",
+    "hagiography": "Nel dicembre 2019 Zijo Kenjar, Tommaso Frassetto e Ahmad-Reza Sadeghi della TU Darmstadt, con David Gens e Michael Franz della University of California, Irvine, descrissero V0LTpwn, poi presentato a USENIX Security 2020. Un processo privilegiato usa l'interfaccia software che regola la tensione dei core, la stessa degli strumenti di overclock, per abbassarla fino al punto in cui la CPU continua a lavorare ma sbaglia i conti. Con quegli errori si alteravano i risultati anche dentro le enclave SGX di Intel, che avrebbero dovuto essere inviolabili. Intel lo registrò come CVE-2019-11157 nell'avviso INTEL-SA-00289.",
+    "prayer": "O San V0LTpwn, che a bassa tensione fai mentire i processori, fa' che le nostre CPU dicano il vero anche quando sono a corto di energia. Amen.",
+    "feast": "Si festeggia aggiornando microcodice e BIOS, che permettono di bloccare la regolazione della tensione dal software.",
+    "proverb": "A tensione bassa, il conto non torna."
+  },
+  "en": {
+    "title": "Saint V0LTpwn, Who Took the Voltage Out of Truth",
+    "patronage": "x86 processors, SGX enclaves, and overclocking tools used in reverse.",
+    "hagiography": "In December 2019 Zijo Kenjar, Tommaso Frassetto and Ahmad-Reza Sadeghi of TU Darmstadt, with David Gens and Michael Franz of the University of California, Irvine, described V0LTpwn, later presented at USENIX Security 2020. A privileged process uses the software interface that sets core voltage, the same one overclocking tools rely on, to lower it to the point where the CPU keeps working but gets its sums wrong. Those faults could alter results even inside Intel SGX enclaves, which were supposed to be untouchable. Intel tracked it as CVE-2019-11157 in advisory INTEL-SA-00289.",
+    "prayer": "O Saint V0LTpwn, who make processors lie at low voltage, let our CPUs tell the truth even when they're short on power. Amen.",
+    "feast": "Celebrated by updating microcode and BIOS, which allow software voltage control to be locked.",
+    "proverb": "Low voltage, wrong sums."
+  }
+}

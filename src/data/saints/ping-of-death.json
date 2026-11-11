@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Ping of Death, Padre della Chiesa dei pacchetti",
+    "patronage": "dei comandi ping, dei frammenti IP rimessi insieme alla cieca e di chi pensava che un semplice \"ci sei?\" non potesse far male.",
+    "hagiography": "Il 18 dicembre 1996 il CERT pubblicò l'avviso CA-96.26: inviando con ping datagrammi ICMP più grandi del consentito, divisi in frammenti, si potevano far bloccare, congelare o riavviare molti sistemi, perché nel rimontarli superavano il limite di 65.535 byte di un pacchetto IP. Server Unix, Windows, router e stampanti cadevano per un saluto troppo lungo. Fu uno dei primi attacchi di massa a far capire che il codice di rete deve diffidare anche dei pacchetti più banali.",
+    "prayer": "O San Ping of Death, che con una sola eco hai steso le macchine di mezzo mondo, insegna ai nostri stack a contare i byte prima di rimontarli. Amen.",
+    "feast": "Si festeggia installando le patch dei produttori, come chiese il CERT, e filtrando i frammenti anomali, in memoria dei server caduti per un ping.",
+    "proverb": "Un saluto troppo lungo può essere l'ultimo."
+  },
+  "en": {
+    "title": "Saint Ping of Death, Church Father of Packets",
+    "patronage": "ping commands, IP fragments reassembled blindly, and everyone who thought a simple \"are you there?\" could do no harm.",
+    "hagiography": "On 18 December 1996 CERT published advisory CA-96.26: by using ping to send oversized ICMP datagrams, split into fragments, an attacker could make many systems crash, freeze or reboot, because once reassembled they exceeded the 65,535-byte limit of an IP packet. Unix servers, Windows machines, routers and printers fell to an overlong greeting. It was one of the first mass attacks to show that network code must distrust even the most ordinary packets.",
+    "prayer": "O Saint Ping of Death, who with a single echo felled machines across half the world, teach our stacks to count the bytes before putting them back together. Amen.",
+    "feast": "Celebrated by installing vendor patches, as CERT asked, and filtering malformed fragments, in memory of the servers felled by a ping.",
+    "proverb": "An overlong greeting may be the last one."
+  }
+}

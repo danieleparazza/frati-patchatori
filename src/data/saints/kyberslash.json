@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato KyberSlash, che divideva per tradire",
+    "patronage": "della crittografia post-quantistica, delle divisioni che durano più del dovuto e di chi compila con -Os senza pensarci.",
+    "hagiography": "Nel dicembre 2023 emerse KyberSlash: nel codice di riferimento di Kyber, l'algoritmo poi standardizzato come ML-KEM, e in molte implementazioni derivate c'erano divisioni per q = 3329 su valori segreti, che su molte CPU impiegano tempi diversi a seconda dell'operando. Il primo problema fu notato da Goutam Tamvada, Karthikeyan Bhargavan e Franziskus Kiefer, un secondo da Prasanna Ravi e Matthias Kannwischer; con Daniel J. Bernstein e altri gli autori mostrarono poi che misurando i tempi si recuperava la chiave segreta in minuti od ore.",
+    "prayer": "O Beato KyberSlash, che fai parlare il cronometro al posto della chiave, insegna al nostro codice a impiegare sempre lo stesso tempo. Amen.",
+    "feast": "Si festeggia aggiornando le librerie Kyber e ML-KEM alle versioni corrette, che hanno tolto le divisioni segrete.",
+    "proverb": "Chi divide il segreto con il tempo, lo divide con tutti."
+  },
+  "en": {
+    "title": "Blessed KyberSlash, Who Divided to Betray",
+    "patronage": "post-quantum cryptography, divisions that take longer than they should, and anyone who compiles with -Os without thinking.",
+    "hagiography": "In December 2023 KyberSlash came to light: Kyber's reference code, the algorithm later standardised as ML-KEM, and many implementations derived from it divided secret values by q = 3329, an operation whose timing on many CPUs depends on the operand. The first issue was spotted by Goutam Tamvada, Karthikeyan Bhargavan and Franziskus Kiefer, a second by Prasanna Ravi and Matthias Kannwischer; with Daniel J. Bernstein and others, the authors then showed that timing alone recovered the secret key in minutes or hours.",
+    "prayer": "O Blessed KyberSlash, who let the stopwatch speak in place of the key, teach our code to take the same time, always. Amen.",
+    "feast": "Celebrated by updating Kyber and ML-KEM libraries to the fixed releases, which removed the secret divisions.",
+    "proverb": "Share a secret with the clock and you share it with everyone."
+  }
+}

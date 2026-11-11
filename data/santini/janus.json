@@ -1,0 +1,10 @@
+{
+  "label": "Janus",
+  "motto": "BIFRONS ET FIRMATUS",
+  "niche": [
+    "#201c2a",
+    "#3e3650"
+  ],
+  "accent": "#30293e",
+  "emblem": "<path d=\"M150 124 a42 42 0 0 0 0 84 Z\" fill=\"#d9ad55\"/>\n<path d=\"M150 124 a42 42 0 0 1 0 84 Z\" fill=\"#bfc9d1\"/>\n<path d=\"M150 124 Q138 136 142 150 L132 160 L142 166 Q138 180 146 186 L142 196 Q146 206 150 208\" fill=\"none\" stroke=\"#2a2030\" stroke-width=\"2.5\"/>\n<path d=\"M150 124 Q162 136 158 150 L168 160 L158 166 Q162 180 154 186 L158 196 Q154 206 150 208\" fill=\"none\" stroke=\"#2a2030\" stroke-width=\"2.5\"/>\n<text x=\"122\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\">DEX</text>\n<text x=\"178\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#bfc9d1\">APK</text>"
+}

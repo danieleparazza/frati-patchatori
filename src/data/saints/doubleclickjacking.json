@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DoubleClickjacking, che rubava il secondo clic",
+    "patronage": "dei doppi clic frettolosi, delle finte verifiche \"non sono un robot\" e di chi pensava che le cornici fossero l'unico pericolo.",
+    "hagiography": "Nel dicembre 2024 Paulos Yibelo descrisse il DoubleClickjacking: una pagina apre una finestra che chiede un doppio clic, poi sostituisce la pagina sottostante con una schermata delicata, come l'autorizzazione OAuth di un'app. Il primo clic chiude la finestra, il secondo atterra sul pulsante \"Consenti\". Sfruttando lo scarto fra mousedown e click, la tecnica aggira X-Frame-Options, frame-ancestors e i cookie SameSite, e secondo l'autore poteva portare al furto di account su molti siti.",
+    "prayer": "O Beato DoubleClickjacking, che trasformi un gesto innocente in un consenso, fa' che i nostri pulsanti aspettino un vero segno di vita prima di attivarsi. Amen.",
+    "feast": "Si festeggia tenendo disattivati i pulsanti sensibili finché l'utente non muove il mouse o la tastiera, come suggerisce l'autore.",
+    "proverb": "Il primo clic apre la porta, il secondo firma il contratto."
+  },
+  "en": {
+    "title": "Blessed DoubleClickjacking, Who Stole the Second Click",
+    "patronage": "hasty double-clicks, fake \"I'm not a robot\" checks, and everyone who thought frames were the only danger.",
+    "hagiography": "In December 2024 Paulos Yibelo described DoubleClickjacking: a page opens a window asking for a double-click, then swaps the page underneath for a sensitive screen, such as an app's OAuth authorisation. The first click closes the window, the second lands on \"Allow\". By exploiting the gap between mousedown and click, the trick sidesteps X-Frame-Options, frame-ancestors and SameSite cookies, and according to the author it could lead to account takeover on many sites.",
+    "prayer": "O Blessed DoubleClickjacking, who turn an innocent gesture into consent, let our buttons wait for a real sign of life before they wake. Amen.",
+    "feast": "Celebrated by keeping sensitive buttons disabled until the user moves the mouse or presses a key, as the author suggests.",
+    "proverb": "The first click opens the door; the second signs the contract."
+  }
+}

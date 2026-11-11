@@ -1,0 +1,10 @@
+{
+  "label": "MemJam",
+  "motto": "CONFECTURA MEMORIAE",
+  "niche": [
+    "#2c1420",
+    "#5a2a40"
+  ],
+  "accent": "#401c2e",
+  "emblem": "<path d=\"M118 152 h64 v66 q0 16 -16 16 h-32 q-16 0 -16 -16 z\" fill=\"#a8324e\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<rect x=\"114\" y=\"138\" width=\"72\" height=\"16\" rx=\"3\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M114 138 q36 -18 72 0\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>\n<rect x=\"126\" y=\"176\" width=\"48\" height=\"32\" rx=\"3\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"198\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#401c2e\">4K</text>\n<g fill=\"#e8a0a8\"><circle cx=\"130\" cy=\"222\" r=\"3\"/><circle cx=\"168\" cy=\"164\" r=\"3\"/></g>"
+}

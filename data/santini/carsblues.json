@@ -1,0 +1,10 @@
+{
+  "label": "CarsBlues",
+  "motto": "CURRUS OMNIA MEMINIT",
+  "niche": [
+    "#142236",
+    "#2e4a70"
+  ],
+  "accent": "#1e3350",
+  "emblem": "<path d=\"M98 214 v-18 q0 -8 8 -10 l16 -4 l14 -18 q4 -4 10 -4 h28 q6 0 10 4 l14 18 l2 0 q8 2 8 10 v22 z\" fill=\"#3a5b85\" stroke=\"#fbf3dd\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/>\n<path d=\"M138 180 l10 -14 h24 l10 14 z\" fill=\"#bfc9d1\"/>\n<circle cx=\"122\" cy=\"216\" r=\"12\" fill=\"#1e3350\" stroke=\"#fbf3dd\" stroke-width=\"3\"/><circle cx=\"182\" cy=\"216\" r=\"12\" fill=\"#1e3350\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M140 124 l20 16 l-10 8 v-32 l10 8 l-20 16\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">contatti</text>"
+}

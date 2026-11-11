@@ -1,0 +1,10 @@
+{
+  "label": "Winshock",
+  "motto": "FULMEN IN SCHANNEL",
+  "niche": [
+    "#182238",
+    "#324468"
+  ],
+  "accent": "#263656",
+  "emblem": "<g fill=\"#3a5a8a\" stroke=\"#bfc9d1\" stroke-width=\"2\"><rect x=\"110\" y=\"134\" width=\"38\" height=\"38\"/><rect x=\"152\" y=\"134\" width=\"38\" height=\"38\"/><rect x=\"110\" y=\"176\" width=\"38\" height=\"38\"/><rect x=\"152\" y=\"176\" width=\"38\" height=\"38\"/></g>\n<path d=\"M164 118 L136 172 L156 172 L132 236 L176 160 L154 160 L176 118 Z\" fill=\"#e8c45c\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BlueBorne, che viaggiava nell'aria",
+    "patronage": "dei telefoni con il Bluetooth acceso, degli altoparlanti intelligenti e di chi non ha mai accoppiato nulla eppure è stato raggiunto.",
+    "hagiography": "Nel settembre 2017 Armis rivelò BlueBorne, una serie di vulnerabilità negli stack Bluetooth di Android, iOS, Windows e Linux sfruttabili da vicino senza accoppiamento e senza alcun gesto dell'utente. Una di queste, la CVE-2017-14315, colpiva il protocollo audio LEAP di iOS fino alla versione 9. A metà novembre Armis aggiunse che anche milioni di Amazon Echo e Google Home erano esposti, poi aggiornati in automatico dai produttori.",
+    "prayer": "O San BlueBorne, che passi da un dispositivo all'altro senza farti invitare, fa' che i nostri stack Bluetooth chiedano sempre permesso. Amen.",
+    "feast": "Si festeggia aggiornando sistemi e dispositivi e spegnendo il Bluetooth quando non serve.",
+    "proverb": "Quel che vola nell'aria entra da ogni finestra aperta."
+  },
+  "en": {
+    "title": "Saint BlueBorne, Who Travelled on the Air",
+    "patronage": "phones with Bluetooth on, smart speakers, and people who never paired anything yet were reached anyway.",
+    "hagiography": "In September 2017 Armis revealed BlueBorne, a set of vulnerabilities in the Bluetooth stacks of Android, iOS, Windows and Linux that could be exploited from nearby without pairing and without any action by the user. One of them, CVE-2017-14315, hit the LEAP audio protocol in iOS up to version 9. In mid-November Armis added that millions of Amazon Echo and Google Home devices were exposed too, later updated automatically by their makers.",
+    "prayer": "O Saint BlueBorne, who pass from device to device uninvited, let our Bluetooth stacks always ask permission. Amen.",
+    "feast": "Celebrated by updating systems and devices and switching Bluetooth off when it isn't needed.",
+    "proverb": "What travels on the air comes in through every open window."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Artifact Poisoning, avvelenatore di pipeline",
+    "patronage": "delle GitHub Actions, degli artefatti scaricati da altri workflow e di chi beve dal primo calice che trova.",
+    "hagiography": "Nel 2022 Noam Dotan di Legit Security mostrò che un workflow del progetto Rust, nel repository rustc_codegen_gcc, scaricava una libreria prodotta dai workflow di un altro repository senza distinguere gli artefatti caricati dall'originale da quelli caricati da un fork. Bastava fare un fork, far caricare un artefatto malevolo e aprire una pull request: la pipeline privilegiata lo avrebbe usato, con accesso ai segreti e a un token dai permessi ampi. Lo stesso difetto si annidava in diverse action popolari per scaricare artefatti, una delle quali usata da oltre 12.000 repository.",
+    "prayer": "O Beato Artifact Poisoning, che versi veleno nel calice della build, fa' che le nostre pipeline chiedano sempre da quale run arriva ciò che bevono. Amen.",
+    "feast": "Si festeggia come il team di sicurezza di Rust, che sospese le Actions del repository e corresse il workflow nel settembre 2022: scaricando artefatti solo da run o commit precisi e trattandone il contenuto come non fidato.",
+    "proverb": "Non bere dal pozzo se non sai chi ci ha versato l'acqua."
+  },
+  "en": {
+    "title": "Blessed Artifact Poisoning, Poisoner of Pipelines",
+    "patronage": "GitHub Actions, artifacts downloaded from other workflows, and everyone who drinks from the first chalice in sight.",
+    "hagiography": "In 2022 Noam Dotan of Legit Security showed that a Rust project workflow, in the rustc_codegen_gcc repository, downloaded a library built by another repository's workflows without telling apart artifacts uploaded by the original from those uploaded by a fork. Fork the repo, have it upload a malicious artifact, open a pull request: the privileged pipeline would use it, with access to secrets and a broadly scoped token. The same flaw lurked in several popular artifact-download actions, one of them used by over 12,000 repositories.",
+    "prayer": "O Blessed Artifact Poisoning, who pour venom into the build's chalice, let our pipelines always ask which run brewed what they drink. Amen.",
+    "feast": "Celebrated like Rust's security team, which disabled Actions on the repository and fixed the workflow in September 2022: by downloading artifacts only from a specific run or commit and treating their contents as untrusted.",
+    "proverb": "Never drink from a well when you don't know who filled it."
+  }
+}

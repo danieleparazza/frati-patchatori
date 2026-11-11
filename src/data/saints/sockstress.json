@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Sockstress, dalla finestra chiusa",
+    "patronage": "delle connessioni TCP, delle finestre di ricezione a zero e di chi credeva che i SYN cookie bastassero a tutto.",
+    "hagiography": "Nel 2008 Jack C. Louis di Outpost24 scoprì Sockstress, presentato in autunno insieme ai colleghi: invece di inondare un server di richieste a metà, l'attaccante completava l'handshake TCP e poi annunciava una finestra di ricezione pari a zero. Il server, educato, teneva aperta la connessione e continuava a chiedere se poteva parlare, consumando memoria a ogni nuovo ospite muto, mentre l'attaccante non teneva traccia di nulla. Il difetto, registrato come CVE-2008-4609, stava nel modo in cui molti stack TCP gestivano queste connessioni.",
+    "prayer": "O San Sockstress, che apri la porta e poi resti zitto sulla soglia, insegna ai nostri server a congedare chi non vuole ascoltare. Amen.",
+    "feast": "Si festeggia con le patch dei produttori, come MS09-048 di Microsoft, e limitando le connessioni per indirizzo, sapendo che contro una folla basta poco.",
+    "proverb": "Ospite muto, casa piena."
+  },
+  "en": {
+    "title": "Saint Sockstress, of the Closed Window",
+    "patronage": "TCP connections, zero receive windows, and everyone who thought SYN cookies solved everything.",
+    "hagiography": "In 2008 Jack C. Louis of Outpost24 discovered Sockstress, presented that autumn with colleagues: instead of flooding a server with half-open requests, the attacker completed the TCP handshake and then advertised a receive window of zero. The polite server kept the connection open and kept asking whether it could speak, spending memory on every silent guest, while the attacker kept track of nothing. The flaw, recorded as CVE-2008-4609, lay in how many TCP stacks handled such connections.",
+    "prayer": "O Saint Sockstress, who open the door then stand silent on the threshold, teach our servers to dismiss those who won't listen. Amen.",
+    "feast": "Celebrated with vendor patches, such as Microsoft's MS09-048, and per-address connection limits, knowing that against a crowd they only go so far.",
+    "proverb": "A silent guest still fills the house."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "SupaPwn",
+  "motto": "SUPER USOR PER MOMENTUM",
+  "niche": [
+    "#13261f",
+    "#2c5546"
+  ],
+  "accent": "#1c3a2f",
+  "emblem": "<ellipse cx=\"150\" cy=\"168\" rx=\"38\" ry=\"11\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M112 168 v52 a38 11 0 0 0 76 0 v-52\" fill=\"#3a7a5f\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M112 186 a38 11 0 0 0 76 0 M112 204 a38 11 0 0 0 76 0\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>\n<path d=\"M124 152 l-4 -26 l16 12 l14 -20 l14 20 l16 -12 l-4 26 z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"120\" cy=\"126\" r=\"3\"/><circle cx=\"150\" cy=\"118\" r=\"3\"/><circle cx=\"180\" cy=\"126\" r=\"3\"/></g>\n<text x=\"150\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">postgres</text>"
+}

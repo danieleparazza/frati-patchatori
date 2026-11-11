@@ -1,0 +1,10 @@
+{
+  "label": "Teardrop",
+  "motto": "LACRIMA FRAGMENTORUM",
+  "niche": [
+    "#1a2232",
+    "#34445e"
+  ],
+  "accent": "#28364e",
+  "emblem": "<path d=\"M150 118 Q120 160 120 182 a30 30 0 0 0 60 0 Q180 160 150 118 Z\" fill=\"#8fb8e8\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M138 170 q-6 10 -2 20\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<rect x=\"100\" y=\"222\" width=\"62\" height=\"14\" fill=\"#d9ad55\" opacity=\"0.9\"/>\n<rect x=\"136\" y=\"232\" width=\"64\" height=\"14\" fill=\"#e05a47\" opacity=\"0.85\"/>\n<rect x=\"136\" y=\"232\" width=\"26\" height=\"4\" fill=\"#fbf3dd\"/>"
+}

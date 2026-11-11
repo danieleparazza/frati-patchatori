@@ -1,0 +1,16 @@
+{
+  "it": {
+    "title": "San Calcolatore, che includeva file a sproposito",
+    "patronage": "dei plugin WordPress, delle istruzioni include di PHP e dei siti che si fidano di ogni parametro.",
+    "hagiography": "Il 6 novembre 2025 fu pubblicata la CVE-2025-60196, segnalata da Nguyen Xuan Chien tramite il programma di bug bounty di Patchstack: il plugin WordPress Clearblue Ovulation Calculator, fino alla versione 1.2.4, non controllava il nome del file da includere. Un attaccante poteva così far caricare file locali del server, con il rischio di leggerne i contenuti o di eseguire codice. Punteggio: 7,5.",
+    "prayer": "O San Calcolatore, che apri qualunque file ti venga indicato, insegna ai nostri plugin a includere solo ciò che conoscono. Amen.",
+    "feast": "Si festeggia aggiornando o rimuovendo il plugin secondo le indicazioni di Patchstack e passando ogni nome di file per una lista di quelli ammessi."
+  },
+  "en": {
+    "title": "Saint Calculator, Who Included Files at Random",
+    "patronage": "WordPress plugins, PHP include statements, and sites that trust every parameter.",
+    "hagiography": "On 6 November 2025 CVE-2025-60196 was published, reported by Nguyen Xuan Chien through the Patchstack bug bounty programme: the Clearblue Ovulation Calculator WordPress plugin, up to version 1.2.4, did not check the name of the file it included. An attacker could make it load local files from the server, risking disclosure of their contents or code execution. Score: 7.5.",
+    "prayer": "O Saint Calculator, who open any file you are pointed to, teach our plugins to include only what they know. Amen.",
+    "feast": "Celebrated by updating or removing the plugin as Patchstack advises and checking every file name against an allow-list."
+  }
+}

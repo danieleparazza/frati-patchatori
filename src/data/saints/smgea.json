@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SMGEA, che ingannava a piccoli gruppi",
+    "patronage": "dei sistemi di previsione dello sguardo, delle reti che stimano la profondità e degli occhi artificiali troppo sicuri di sé.",
+    "hagiography": "SMGEA, Serial-Minigroup-Ensemble-Attack, è la versione estesa di SMBEA, firmata da Zhaohui Che, Ali Borji, Guangtao Zhai, Suiyi Ling, Jing Li, Xiongkuo Min, Guodong Guo e Patrick Le Callet e pubblicata su IEEE Transactions on Neural Networks and Learning Systems. Divideva molti modelli di partenza in \"minigruppi\" attaccati in serie, conservando una memoria dei gradienti, per creare immagini avversarie che funzionassero a scatola nera. Secondo gli autori ingannò anche due sistemi online di previsione della salienza, DeepGaze-II e SALICON.",
+    "prayer": "O Beato SMGEA, che raduni i modelli in piccoli cenacoli per ingannarli meglio, fa' che i nostri occhi artificiali non si lascino confondere da un po' di rumore. Amen.",
+    "feast": "Si festeggia mettendo alla prova i modelli con attacchi avversari prima di affidar loro decisioni importanti.",
+    "proverb": "Gruppo piccolo, inganno grande."
+  },
+  "en": {
+    "title": "Blessed SMGEA, Who Deceived in Small Groups",
+    "patronage": "gaze prediction systems, depth-estimation networks, and overconfident artificial eyes.",
+    "hagiography": "SMGEA, the Serial-Minigroup-Ensemble-Attack, is the extended version of SMBEA, by Zhaohui Che, Ali Borji, Guangtao Zhai, Suiyi Ling, Jing Li, Xiongkuo Min, Guodong Guo and Patrick Le Callet, published in IEEE Transactions on Neural Networks and Learning Systems. It split many source models into \"minigroups\" attacked in series, keeping a memory of the gradients, to craft adversarial images that work in a black-box setting. According to the authors it also fooled two online saliency prediction systems, DeepGaze-II and SALICON.",
+    "prayer": "O Blessed SMGEA, who gather models in small circles to deceive them better, let our artificial eyes not be confused by a little noise. Amen.",
+    "feast": "Celebrated by testing models against adversarial attacks before trusting them with important decisions.",
+    "proverb": "Small group, big deception."
+  }
+}

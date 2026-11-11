@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San badRecovery, che rompeva il sigillo dei puntatori",
+    "patronage": "dei processori Apple con Pointer Authentication, delle corse tra thread e di chi credeva che una firma bastasse a tutto.",
+    "hagiography": "Sempre Linus Henze di Pinauten scoprì nel kernel di Apple una race condition che, a chi aveva già lettura e scrittura arbitrarie, permetteva di aggirare la Pointer Authentication, il sigillo crittografico che protegge i puntatori sui chip arm64e. Nel jailbreak Fugu15 badRecovery faceva da secondo anello della catena, subito dopo oobPCI. Apple la corresse nel maggio 2022 con iOS 15.5, come CVE-2022-26765.",
+    "prayer": "O San badRecovery, che arrivi primo dove gli altri controllano tardi, fa' che i nostri thread non lascino mai il sigillo incustodito. Amen.",
+    "feast": "Si festeggia aggiornando a iOS 15.5 o successivi e ricordando che una difesa in profondità vale quanto il suo anello più lento.",
+    "proverb": "Il sigillo regge finché nessuno arriva prima di lui."
+  },
+  "en": {
+    "title": "Saint badRecovery, Breaker of the Pointer Seal",
+    "patronage": "Apple processors with Pointer Authentication, races between threads, and everyone who thought a signature solved everything.",
+    "hagiography": "Linus Henze of Pinauten also found a race condition in Apple's kernel that let anyone who already had arbitrary read and write bypass Pointer Authentication, the cryptographic seal that guards pointers on arm64e chips. In the Fugu15 jailbreak badRecovery was the second link in the chain, right after oobPCI. Apple fixed it in May 2022 with iOS 15.5, as CVE-2022-26765.",
+    "prayer": "O Saint badRecovery, who arrive first where others check too late, let our threads never leave the seal unguarded. Amen.",
+    "feast": "Celebrated by updating to iOS 15.5 or later and remembering that defence in depth is only as good as its slowest layer.",
+    "proverb": "A seal holds only until someone beats it to the door."
+  }
+}

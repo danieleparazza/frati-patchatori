@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'IDEsaster, flagello degli editor intelligenti",
+    "patronage": "degli editor con assistente IA, dei file di impostazioni e degli apprendisti che obbediscono a chiunque.",
+    "hagiography": "Il 6 dicembre 2025 Ari \"MaccariTA\" Marzouk presentò IDEsaster, una classe di vulnerabilità degli editor con agenti di intelligenza artificiale: una prompt injection guida l'agente, e l'agente usa funzioni del tutto legittime dell'IDE sottostante per esfiltrare dati o eseguire codice. Un file JSON con uno schema remoto faceva partire una richiesta verso l'attaccante (CVE-2025-49150 in Cursor); una modifica alle impostazioni puntava un eseguibile verso uno script (CVE-2025-53773 in GitHub Copilot, CVE-2025-54130 in Cursor). Oltre trenta segnalazioni, 24 CVE, e tutti i prodotti provati, da Copilot a Cursor, Windsurf, Zed, Kiro e Claude Code, risultarono vulnerabili.",
+    "prayer": "O Sant'IDEsaster, che trasformi le comodità dell'editor in porte aperte, fa' che i nostri agenti chiedano permesso prima di toccare le impostazioni. Amen.",
+    "feast": "Si festeggia aggiornando gli editor (Cursor dalla 0.51.0 in poi, per esempio), aprendo con l'agente solo progetti fidati e lasciando accesa l'approvazione umana.",
+    "proverb": "L'apprendista che obbedisce a tutti, prima o poi incendia la bottega."
+  },
+  "en": {
+    "title": "Saint IDEsaster, Scourge of Smart Editors",
+    "patronage": "AI-assisted editors, settings files, and apprentices who obey anyone.",
+    "hagiography": "On 6 December 2025 Ari \"MaccariTA\" Marzouk presented IDEsaster, a vulnerability class in editors with AI agents: a prompt injection steers the agent, and the agent uses perfectly legitimate features of the underlying IDE to exfiltrate data or run code. A JSON file with a remote schema fired a request to the attacker (CVE-2025-49150 in Cursor); a settings change pointed an executable path at a script (CVE-2025-53773 in GitHub Copilot, CVE-2025-54130 in Cursor). Over thirty reports, 24 CVEs, and every product tested, from Copilot to Cursor, Windsurf, Zed, Kiro and Claude Code, proved vulnerable.",
+    "prayer": "O Saint IDEsaster, who turn an editor's conveniences into open doors, let our agents ask permission before touching the settings. Amen.",
+    "feast": "Celebrated by updating editors (Cursor 0.51.0 or later, for instance), opening only trusted projects with the agent and keeping human approval switched on.",
+    "proverb": "An apprentice who obeys everyone will burn down the workshop."
+  }
+}

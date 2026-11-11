@@ -1,0 +1,10 @@
+{
+  "label": "Blindside",
+  "motto": "OCULUS EDR CAECATUS",
+  "niche": [
+    "#1f1f2a",
+    "#45455c"
+  ],
+  "accent": "#2e2e3f",
+  "emblem": "<path d=\"M100 182 q50 -48 100 0 q-50 48 -100 0 z\" fill=\"#2e2e3f\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<circle cx=\"150\" cy=\"182\" r=\"16\" fill=\"#bfc9d1\"/><circle cx=\"150\" cy=\"182\" r=\"7\" fill=\"#1f1f2a\"/>\n<path d=\"M92 168 q58 -14 116 0 l0 22 q-58 -14 -116 0 z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M208 172 l10 -12 M208 184 l12 4\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<text x=\"150\" y=\"236\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">DR0 · DR7</text>"
+}

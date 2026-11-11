@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Ghost Tap, il tocco del fantasma",
+    "patronage": "dei portafogli digitali, dei lettori contactless e dei truffatori che pagano col telefono degli altri.",
+    "hagiography": "Il 20 novembre 2024 ThreatFabric descrisse Ghost Tap, una tecnica con cui i criminali incassano carte rubate. Dopo aver carpito i dati della carta e il codice monouso con malware bancario o phishing, la collegavano a Google Pay o Apple Pay sul proprio telefono e, con lo strumento pubblico NFCGate, inoltravano la comunicazione NFC al telefono di un complice davanti a una cassa, anche in un altro paese. Più complici potevano così fare piccoli acquisti in negozi diversi in poco tempo.",
+    "prayer": "O Beato Ghost Tap, che tocchi i terminali da lontano, fa' che le nostre banche riconoscano il fantasma prima che paghi. Amen.",
+    "feast": "Si festeggia non dando mai a nessuno i codici monouso e, per le banche, controllando le carte appena collegate a un nuovo dispositivo e i viaggi impossibili tra un pagamento e l'altro.",
+    "proverb": "Il fantasma paga sempre col portafoglio degli altri."
+  },
+  "en": {
+    "title": "Blessed Ghost Tap, the Phantom's Touch",
+    "patronage": "mobile wallets, contactless readers, and fraudsters who pay with other people's phones.",
+    "hagiography": "On 20 November 2024 ThreatFabric described Ghost Tap, a technique criminals use to cash out stolen cards. Having obtained card details and the one-time code through banking malware or phishing, they linked the card to Google Pay or Apple Pay on their own phone and, with the public NFCGate tool, relayed the NFC traffic to an accomplice's phone at a till, even in another country. Several accomplices could thus make small purchases in different shops within a short time.",
+    "prayer": "O Blessed Ghost Tap, who touch terminals from afar, let our banks recognise the phantom before it pays. Amen.",
+    "feast": "Celebrated by never giving anyone your one-time codes and, for banks, by checking cards newly linked to a device and impossible travel between payments.",
+    "proverb": "The phantom always pays with someone else's wallet."
+  }
+}

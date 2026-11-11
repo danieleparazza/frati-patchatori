@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CheckSum, che faceva i conti senza Cerbero",
+    "patronage": "di Kerberos, della delega vincolata e degli uomini nel mezzo che sanno contare meglio dei controller di dominio.",
+    "hagiography": "L'11 novembre 2025 Microsoft corresse la CVE-2025-60704, che Eliran Partush e il team di ricerca di Silverfort chiamarono CheckSum: nei flussi S4U2Self e S4U2Proxy della delega vincolata di Kerberos l'identità richiesta non era legata crittograficamente alla richiesta. Con una posizione da uomo nel mezzo e un primo accesso alla rete, i ricercatori riuscivano a impersonare utenti a piacere, fino al controllo del dominio. Punteggio: 7,5.",
+    "prayer": "O San CheckSum, che ti infili tra il cane e il suo padrone, fa' che ogni biglietto porti una firma che nessuno possa cambiare. Amen.",
+    "feast": "Si festeggia applicando le patch di novembre 2025 e tenendo d'occhio ogni uso della delega vincolata.",
+    "proverb": "Anche Cerbero, con tre teste, sbaglia a contare."
+  },
+  "en": {
+    "title": "Saint CheckSum, Who Did the Sums Behind Cerberus's Back",
+    "patronage": "Kerberos, constrained delegation, and men in the middle who count better than domain controllers.",
+    "hagiography": "On 11 November 2025 Microsoft fixed CVE-2025-60704, which Eliran Partush and the Silverfort research team called CheckSum: in the S4U2Self and S4U2Proxy flows of Kerberos constrained delegation, the requested identity was not cryptographically bound to the request. From a man-in-the-middle position and with an initial foothold, the researchers could impersonate any user they liked, up to control of the domain. Score: 7.5.",
+    "prayer": "O Saint CheckSum, who slip between the dog and its master, let every ticket carry a signature nobody can change. Amen.",
+    "feast": "Celebrated by applying the November 2025 patches and keeping an eye on every use of constrained delegation.",
+    "proverb": "Three heads, and Cerberus still miscounts."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Port Fail",
+  "motto": "PORTA PRODITRIX",
+  "niche": [
+    "#14202a",
+    "#2e4656"
+  ],
+  "accent": "#1e303e",
+  "emblem": "<path d=\"M96 200 v-30 a54 54 0 0 1 108 0 v30\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"12\"/>\n<path d=\"M96 200 v-30 a54 54 0 0 1 108 0 v30\" fill=\"none\" stroke=\"#1e303e\" stroke-width=\"6\"/>\n<rect x=\"138\" y=\"114\" width=\"24\" height=\"18\" rx=\"2\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M150 136 q-8 12 0 18 q8 -6 0 -18 z\" fill=\"#fbf3dd\"/>\n<path d=\"M150 158 v40\" stroke=\"#fbf3dd\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/>\n<text x=\"150\" y=\"222\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">IP</text>\n<text x=\"150\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#d9ad55\">VPN</text>"
+}

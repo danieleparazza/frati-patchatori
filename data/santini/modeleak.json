@@ -1,0 +1,10 @@
+{
+  "label": "ModeLeak",
+  "motto": "PONDERA EFFUGIUNT",
+  "niche": [
+    "#18222e",
+    "#30445a"
+  ],
+  "accent": "#24364a",
+  "emblem": "<g stroke=\"#bfc9d1\" stroke-width=\"1.2\"><path d=\"M114 140 L150 128 M114 140 L150 156 M114 140 L150 184 M114 172 L150 128 M114 172 L150 156 M114 172 L150 184 M150 128 L186 144 M150 156 L186 144 M150 184 L186 144 M150 128 L186 172 M150 156 L186 172 M150 184 L186 172\"/></g>\n<g fill=\"#2a3a4a\" stroke=\"#fbf3dd\" stroke-width=\"2\"><circle cx=\"114\" cy=\"140\" r=\"7\"/><circle cx=\"114\" cy=\"172\" r=\"7\"/><circle cx=\"150\" cy=\"128\" r=\"7\"/><circle cx=\"150\" cy=\"156\" r=\"7\"/><circle cx=\"150\" cy=\"184\" r=\"7\"/><circle cx=\"186\" cy=\"144\" r=\"7\"/><circle cx=\"186\" cy=\"172\" r=\"7\"/></g>\n<path d=\"M150 198 q-12 18 0 26 q12 -8 0 -26 Z\" fill=\"#d9ad55\"/>\n<path d=\"M150 228 q-8 10 0 14 q8 -4 0 -14 Z\" fill=\"#d9ad55\" opacity=\"0.7\"/>"
+}

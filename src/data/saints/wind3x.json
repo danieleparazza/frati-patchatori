@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato wInd3x, che liberava gli iPod",
+    "patronage": "degli iPod nano, delle ROM di avvio che non si possono correggere e di chi tiene in un cassetto i lettori musicali di un tempo.",
+    "hagiography": "Nel dicembre 2021 Serge Bazanski, noto come q3k, trovò e sfruttò wInd3x, un difetto nella ROM di avvio degli iPod nano dalla terza alla quinta generazione. In modalità DFU lo stack USB usava il campo wIndex di certe richieste come indice in una tabella senza controllarne i limiti: con un pacchetto preparato si dirottava l'esecuzione. Il trucco va ripetuto via cavo a ogni avvio e non tocca il dispositivo in modo permanente, ma permette di leggerne la memoria e di avviare firmware personalizzati, perfino Linux.",
+    "prayer": "O Beato wInd3x, che apri la cassaforte incisa nel silicio, fa' che i nostri vecchi lettori suonino ancora la musica che scegliamo noi. Amen.",
+    "feast": "Si festeggia senza patch, perché la ROM non si aggiorna: chi teme il cavo USB può solo tenersi il suo iPod in tasca.",
+    "proverb": "Quel che è scritto nella pietra non si cancella, ma si può aggirare."
+  },
+  "en": {
+    "title": "Blessed wInd3x, Who Set the iPods Free",
+    "patronage": "iPod nanos, boot ROMs that can't be patched, and everyone keeping old music players in a drawer.",
+    "hagiography": "In December 2021 Serge Bazanski, known as q3k, found and exploited wInd3x, a flaw in the boot ROM of the third- to fifth-generation iPod nano. In DFU mode, the USB stack used the wIndex field of certain requests as a table index without bounds checks: a crafted packet hijacked execution. The trick must be repeated over the cable at every boot and leaves no permanent change, but it allows dumping memory and booting custom firmware, even Linux.",
+    "prayer": "O Blessed wInd3x, who open the safe carved in silicon, let our old players still play the music we choose. Amen.",
+    "feast": "Celebrated without a patch, since ROM can't be updated: whoever fears the USB cable can only keep their iPod in their pocket.",
+    "proverb": "What is carved in stone can't be erased, only walked around."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Sierra:21, dalle ventuno ferite",
+    "patronage": "dei router cellulari industriali, delle librerie abbandonate e di chi espone l'interfaccia di gestione a tutto il mondo.",
+    "hagiography": "Il 6 dicembre 2023 Forescout Vedere Labs pubblicò Sierra:21, ventuno vulnerabilità nei router cellulari Sierra Wireless AirLink con sistema ALEOS e nei componenti open source TinyXML e OpenNDS. Una era critica e nove gravi: permettevano di rubare credenziali, prendere il controllo del router iniettando codice, restarci e usarlo come porta verso reti critiche; altre, come CVE-2023-40458, bastavano a bloccare l'interfaccia ACEManager. I ricercatori trovarono online oltre 86.000 di questi router, anche in sanità, distribuzione elettrica e logistica.",
+    "prayer": "O San Sierra:21, che porti ventuno ferite su un solo router, fa' che i nostri apparati in campo ricevano gli aggiornamenti che meritano. Amen.",
+    "feast": "Si festeggia aggiornando ad ALEOS 4.17.0 (o 4.9.9) e OpenNDS 10.1.3; per TinyXML, abbandonato, tocca ai produttori correggerlo per conto proprio.",
+    "proverb": "Ventuno buchi in un router fanno una porta."
+  },
+  "en": {
+    "title": "Saint Sierra:21, of the Twenty-One Wounds",
+    "patronage": "industrial cellular routers, abandoned libraries, and everyone who exposes the management interface to the whole world.",
+    "hagiography": "On 6 December 2023 Forescout Vedere Labs published Sierra:21, twenty-one vulnerabilities in Sierra Wireless AirLink cellular routers running ALEOS and in the open-source components TinyXML and OpenNDS. One was critical and nine high: they allowed credential theft, taking over the router by injecting code, persisting on it and using it as a gateway into critical networks; others, such as CVE-2023-40458, were enough to freeze the ACEManager interface. The researchers found over 86,000 of these routers online, including in healthcare, power distribution and logistics.",
+    "prayer": "O Saint Sierra:21, who bear twenty-one wounds on a single router, let our field devices get the updates they deserve. Amen.",
+    "feast": "Celebrated by upgrading to ALEOS 4.17.0 (or 4.9.9) and OpenNDS 10.1.3; TinyXML is abandoned, so vendors must patch it themselves.",
+    "proverb": "Twenty-one holes in a router make a door."
+  }
+}

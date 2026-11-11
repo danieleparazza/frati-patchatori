@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato R.U.D.Y., che scriveva piano piano",
+    "patronage": "dei server web a thread, dei moduli POST e di chi compila i form con grande calma.",
+    "hagiography": "R-U-Dead-Yet, R.U.D.Y. per gli amici, è lo strumento di Raviv Raz che ha reso popolare l'attacco \"slow POST\", con un nome preso in prestito dall'album dei Children of Bodom. Annuncia una richiesta POST con un corpo enorme e poi lo invia un byte alla volta, con lunghe pause; ogni connessione resta aperta in attesa, e con abbastanza connessioni i server a thread come Apache esauriscono i posti per gli utenti veri. Il traffico non è malformato, quindi i filtri faticano a distinguerlo da un utente lentissimo.",
+    "prayer": "O Beato R.U.D.Y., che con santa pazienza tieni occupato ogni sportello, fa' che i nostri server sappiano chiudere la porta a chi non finisce mai di parlare. Amen.",
+    "feast": "Si festeggia con timeout sui corpi delle richieste, mod_reqtimeout su Apache o un proxy a eventi davanti al server.",
+    "proverb": "Chi va piano va lontano, e intanto blocca la fila."
+  },
+  "en": {
+    "title": "Blessed R.U.D.Y., Who Wrote Very, Very Slowly",
+    "patronage": "threaded web servers, POST forms, and people who fill in forms with great calm.",
+    "hagiography": "R-U-Dead-Yet, R.U.D.Y. to its friends, is Raviv Raz's tool that popularised the \"slow POST\" attack, named after a Children of Bodom album. It announces a POST request with a huge body, then sends it one byte at a time with long pauses; each connection stays open and waiting, and with enough of them threaded servers such as Apache run out of slots for real users. The traffic is not malformed, so filters struggle to tell it from a very slow user.",
+    "prayer": "O Blessed R.U.D.Y., who keep every counter busy with holy patience, let our servers know how to shut the door on those who never finish talking. Amen.",
+    "feast": "Celebrated with request-body timeouts, mod_reqtimeout on Apache or an event-driven proxy in front of the server.",
+    "proverb": "Slow and steady wins the race, and blocks the queue meanwhile."
+  }
+}

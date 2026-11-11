@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato TileMask, che velava le auto",
+    "patronage": "dei radar a onde millimetriche, delle reti neurali che riconoscono veicoli e dei lavoretti con la stagnola.",
+    "hagiography": "A ACM CCS 2023, nel novembre di quell'anno, Yi Zhu, Chenglin Miao, Hongfei Xue, Zhengxiong Li, Yunnan Yu, Wenyao Xu, Lu Su e Chunming Qiao presentarono TileMask. Piccoli oggetti geometrici, stampati in 3D e ricoperti di lamina metallica, applicati in punti precisi di un veicolo ne alteravano i riflessi radar abbastanza da farlo sparire agli occhi del rilevatore basato su reti neurali di un'auto autonoma. Nessuna elettronica, solo riflessione passiva; secondo i resoconti, però, l'attaccante doveva conoscere bene il sistema di rilevamento della vittima.",
+    "prayer": "O Beato TileMask, che con poche tessere di metallo rendi invisibile un'auto, fa' che i nostri radar non si lascino ingannare dai riflessi. Amen.",
+    "feast": "Si festeggia combinando radar, telecamere e lidar e addestrando i rilevatori anche contro oggetti riflettenti avversari.",
+    "proverb": "Non serve il mantello dell'invisibilità: basta la stagnola giusta."
+  },
+  "en": {
+    "title": "Blessed TileMask, Who Veiled the Cars",
+    "patronage": "millimetre-wave radars, vehicle-detecting neural networks, and tinfoil craft projects.",
+    "hagiography": "At ACM CCS 2023, in November that year, Yi Zhu, Chenglin Miao, Hongfei Xue, Zhengxiong Li, Yunnan Yu, Wenyao Xu, Lu Su and Chunming Qiao presented TileMask. Small 3D-printed geometric objects covered in metal foil, placed at precise spots on a vehicle, altered its radar reflections enough to make it vanish for the neural-network detector of a self-driving car. No electronics, just passive reflection; according to reports, though, the attacker needed solid knowledge of the victim's detection system.",
+    "prayer": "O Blessed TileMask, who make a car invisible with a few metal tiles, let our radars not be fooled by reflections. Amen.",
+    "feast": "Celebrated by fusing radar, cameras and lidar and training detectors against adversarial reflective objects too.",
+    "proverb": "No invisibility cloak needed: just the right tinfoil."
+  }
+}

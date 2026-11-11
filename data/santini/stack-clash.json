@@ -1,0 +1,10 @@
+{
+  "label": "Stack Clash",
+  "motto": "ACERVI COLLIDUNT",
+  "niche": [
+    "#2b1f1a",
+    "#5a4236"
+  ],
+  "accent": "#3f2e26",
+  "emblem": "<g fill=\"#5a4236\" stroke=\"#fbf3dd\" stroke-width=\"2\"><rect x=\"112\" y=\"122\" width=\"76\" height=\"14\" rx=\"2\"/><rect x=\"112\" y=\"138\" width=\"76\" height=\"14\" rx=\"2\"/><rect x=\"112\" y=\"154\" width=\"76\" height=\"14\" rx=\"2\"/></g>\n<g fill=\"#4a5a66\" stroke=\"#bfc9d1\" stroke-width=\"2\"><rect x=\"112\" y=\"204\" width=\"76\" height=\"14\" rx=\"2\"/><rect x=\"112\" y=\"220\" width=\"76\" height=\"14\" rx=\"2\"/></g>\n<line x1=\"104\" y1=\"186\" x2=\"196\" y2=\"186\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<path d=\"M150 170 q22 16 0 32\" fill=\"none\" stroke=\"#e07a5f\" stroke-width=\"3\"/>\n<polygon points=\"150,202 144,194 156,196\" fill=\"#e07a5f\"/>\n<text x=\"206\" y=\"190\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#d9ad55\">4k</text>"
+}

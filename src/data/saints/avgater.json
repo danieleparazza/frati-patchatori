@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AVGater, che evadeva dalla quarantena",
+    "patronage": "degli antivirus, delle cartelle di quarantena e dei collegamenti NTFS che portano dove non dovrebbero.",
+    "hagiography": "Il 10 novembre 2017 Florian Bogner descrisse AVGater: un utente senza privilegi metteva una DLL malevola in quarantena e poi, con le giunzioni di directory NTFS, deviava il ripristino verso una cartella protetta di Windows. Il servizio dell'antivirus, che girava come SYSTEM, la ricollocava obbediente, e un processo privilegiato finiva per caricarla. Diversi antivirus risultarono vulnerabili e vari produttori rilasciarono correzioni.",
+    "prayer": "O Beato AVGater, che usi il carceriere per aprirti la cella, fa' che i nostri antivirus guardino bene dove rimettono ciò che hanno sequestrato. Amen.",
+    "feast": "Si festeggia aggiornando l'antivirus e impedendo agli utenti standard di ripristinare file dalla quarantena.",
+    "proverb": "Il carceriere distratto è la miglior chiave del prigioniero."
+  },
+  "en": {
+    "title": "Blessed AVGater, Who Broke Out of Quarantine",
+    "patronage": "antivirus products, quarantine folders, and NTFS links that lead where they shouldn't.",
+    "hagiography": "On 10 November 2017 Florian Bogner described AVGater: an unprivileged user put a malicious DLL into quarantine and then, with NTFS directory junctions, redirected the restore into a protected Windows folder. The antivirus service, running as SYSTEM, dutifully put it back, and a privileged process ended up loading it. Several antivirus products turned out to be vulnerable and a number of vendors shipped fixes.",
+    "prayer": "O Blessed AVGater, who use the jailer to open your own cell, let our antivirus look carefully at where it returns what it seized. Amen.",
+    "feast": "Celebrated by updating the antivirus and stopping standard users from restoring files from quarantine.",
+    "proverb": "A careless jailer is the prisoner's best key."
+  }
+}

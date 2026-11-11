@@ -1,0 +1,10 @@
+{
+  "label": "Randstorm",
+  "motto": "ALEA NON IACTA EST",
+  "niche": [
+    "#2a2214",
+    "#54452a"
+  ],
+  "accent": "#3e321c",
+  "emblem": "<circle cx=\"138\" cy=\"176\" r=\"40\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<circle cx=\"138\" cy=\"176\" r=\"32\" fill=\"none\" stroke=\"#8a6a2a\" stroke-width=\"2\"/>\n<text x=\"138\" y=\"191\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"42\" font-weight=\"bold\" fill=\"#5a4020\">B</text>\n<path d=\"M132 146 v8 M144 146 v8 M132 198 v8 M144 198 v8\" stroke=\"#5a4020\" stroke-width=\"3\"/>\n<rect x=\"160\" y=\"196\" width=\"40\" height=\"40\" rx=\"6\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"2\" transform=\"rotate(14 180 216)\"/>\n<g fill=\"#3e321c\"><circle cx=\"171\" cy=\"206\" r=\"3.5\"/><circle cx=\"180\" cy=\"216\" r=\"3.5\"/><circle cx=\"189\" cy=\"226\" r=\"3.5\"/></g>"
+}

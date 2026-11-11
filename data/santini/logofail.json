@@ -1,0 +1,10 @@
+{
+  "label": "LogoFAIL",
+  "motto": "IMAGO VENENATA",
+  "niche": [
+    "#2a1a14",
+    "#56382a"
+  ],
+  "accent": "#3e281e",
+  "emblem": "<rect x=\"104\" y=\"136\" width=\"92\" height=\"80\" fill=\"#3e281e\" stroke=\"#d9ad55\" stroke-width=\"6\"/>\n<rect x=\"104\" y=\"136\" width=\"92\" height=\"80\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<circle cx=\"132\" cy=\"160\" r=\"9\" fill=\"#f3d36b\"/>\n<path d=\"M112 208 l26 -26 l16 14 l14 -20 l22 32 z\" fill=\"#bfc9d1\"/>\n<path d=\"M162 140 l-8 20 l10 8 l-12 22 l6 14\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\" letter-spacing=\"2\">UEFI</text>"
+}

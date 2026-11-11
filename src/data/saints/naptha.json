@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Naptha, che accendeva connessioni senza memoria",
+    "patronage": "degli stack TCP/IP, delle code di connessione e di chi stringe mani senza ricordarsi di chi.",
+    "hagiography": "Il 30 novembre 2000 Bob Keyes del gruppo RAZOR di BindView pubblicò l'avviso su NAPTHA, ripreso lo stesso giorno dal CERT, oggi CVE-2000-1039. Lo strumento completava l'handshake TCP rispondendo ai pacchetti solo in base ai flag, senza conservare alcuno stato; la vittima, invece, teneva in memoria ogni connessione e finiva per esaurire risorse e servizi. Così un singolo attaccante poteva mettere in ginocchio molti sistemi operativi e applicazioni di rete dell'epoca.",
+    "prayer": "O San Naptha, che accendi mille connessioni senza tenerne a mente nessuna, fa' che i nostri server sappiano lasciar andare chi non parla. Amen.",
+    "feast": "Si festeggia con le patch degli stack TCP, limiti alle connessioni per indirizzo e timeout brevi per quelle inattive.",
+    "proverb": "Chi stringe tutte le mani resta senza braccia."
+  },
+  "en": {
+    "title": "Saint Naptha, Who Lit Connections Without Memory",
+    "patronage": "TCP/IP stacks, connection queues, and anyone who shakes hands without remembering whose.",
+    "hagiography": "On 30 November 2000 Bob Keyes of BindView's RAZOR team published the NAPTHA advisory, echoed the same day by CERT and now CVE-2000-1039. The tool completed the TCP handshake by answering packets based on their flags alone, keeping no state at all; the victim, by contrast, held every connection in memory until it ran out of resources and services. A single attacker could thus bring many operating systems and network applications of the day to their knees.",
+    "prayer": "O Saint Naptha, who light a thousand connections and remember none, let our servers know how to let go of those who never speak. Amen.",
+    "feast": "Celebrated with TCP stack patches, per-address connection limits and short timeouts for idle connections.",
+    "proverb": "Shake every hand and you'll run out of arms."
+  }
+}

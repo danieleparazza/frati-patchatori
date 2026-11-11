@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AutoSpill, che versava le password",
+    "patronage": "dei gestori di password su Android, delle WebView e di chi compila automaticamente senza guardare dove.",
+    "hagiography": "Il 6 dicembre 2023, alla Black Hat Europe, Ankit Gangwal, Shubham Singh e Abhijeet Srivastava dell'IIIT Hyderabad presentarono AutoSpill. Quando un'app Android mostra una pagina di login dentro una WebView, i gestori di password che compilano i campi in automatico potevano consegnare le credenziali anche all'app che la ospita, non solo alla pagina. Secondo i ricercatori la maggior parte dei gestori provati era vulnerabile anche con l'iniezione di JavaScript disattivata; tra i nomi citati, 1Password, LastPass, Keeper ed Enpass.",
+    "prayer": "O Beato AutoSpill, che versi le chiavi nel bicchiere sbagliato, fa' che i nostri gestori di password guardino bene chi tende la mano. Amen.",
+    "feast": "Si festeggia aggiornando il gestore di password, che deve controllare il dominio prima di compilare, e diffidando dei login dentro le app che non siano quelle del servizio.",
+    "proverb": "Chi versa senza guardare il bicchiere, bagna anche la tovaglia."
+  },
+  "en": {
+    "title": "Blessed AutoSpill, Who Spilled the Passwords",
+    "patronage": "Android password managers, WebViews, and everyone who autofills without looking where.",
+    "hagiography": "On 6 December 2023, at Black Hat Europe, Ankit Gangwal, Shubham Singh and Abhijeet Srivastava of IIIT Hyderabad presented AutoSpill. When an Android app shows a login page inside a WebView, password managers that autofill the fields could hand the credentials to the host app as well, not just to the page. According to the researchers most of the managers tested were vulnerable even with JavaScript injection turned off; those named included 1Password, LastPass, Keeper and Enpass.",
+    "prayer": "O Blessed AutoSpill, who pour the keys into the wrong glass, let our password managers look closely at who holds out a hand. Amen.",
+    "feast": "Celebrated by updating the password manager, which should check the domain before filling, and distrusting logins inside apps that don't belong to the service.",
+    "proverb": "Pour without watching the glass and you'll soak the tablecloth."
+  }
+}

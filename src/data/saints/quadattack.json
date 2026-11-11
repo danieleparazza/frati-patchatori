@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato QuadAttacK, che riordinava le classifiche",
+    "patronage": "delle reti neurali che riconoscono immagini, delle classifiche dei primi K e di chi si fida ciecamente del primo risultato.",
+    "hagiography": "Nel dicembre 2023 Thomas Paniagua, Ryan Grainger e Tianfu Wu della North Carolina State University presentarono a NeurIPS QuadAttacK, un metodo che usa la programmazione quadratica per costruire attacchi avversari \"top-K ordinati\": non solo far sbagliare una rete neurale, ma decidere quali K risposte darà e in quale ordine. Provato su ResNet-50, DenseNet-121, ViT-B e DeiT-S, portò gli attacchi riusciti fino a K = 20; secondo gli autori tutte e quattro le reti si rivelarono molto vulnerabili. Lo strumento è pubblico, perché chiunque possa mettere alla prova i propri modelli.",
+    "prayer": "O Beato QuadAttacK, che con un tocco invisibile riscrivi l'intera classifica, fa' che i nostri modelli non si lascino dettare l'ordine da un rumore. Amen.",
+    "feast": "Si festeggia mettendo alla prova i modelli con attacchi avversari, addestrandoli a resistere e non affidando loro da soli decisioni che contano.",
+    "proverb": "Chi governa la classifica, governa la rete."
+  },
+  "en": {
+    "title": "Blessed QuadAttacK, Who Reordered the Rankings",
+    "patronage": "image-recognition neural networks, top-K rankings, and everyone who blindly trusts the first result.",
+    "hagiography": "In December 2023 Thomas Paniagua, Ryan Grainger and Tianfu Wu of North Carolina State University presented QuadAttacK at NeurIPS, a method that uses quadratic programming to build \"ordered top-K\" adversarial attacks: not just making a neural network wrong, but choosing which K answers it gives and in what order. Tested on ResNet-50, DenseNet-121, ViT-B and DeiT-S, it pushed successful attacks up to K = 20; according to the authors all four networks proved highly vulnerable. The tool is public, so anyone can test their own models.",
+    "prayer": "O Blessed QuadAttacK, who rewrite the whole ranking with an invisible touch, let our models never take their orders from noise. Amen.",
+    "feast": "Celebrated by testing models against adversarial attacks, training them to resist and never leaving decisions that matter to them alone.",
+    "proverb": "Whoever controls the ranking controls the network."
+  }
+}

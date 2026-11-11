@@ -1,0 +1,10 @@
+{
+  "label": "AutoSpill",
+  "motto": "CLAVIS EFFUSA",
+  "niche": [
+    "#16262a",
+    "#2e5058"
+  ],
+  "accent": "#203a40",
+  "emblem": "<path d=\"M120 128 h36 l-4 12 q22 10 22 40 q0 24 -18 30 h-36 q-18 -6 -18 -30 q0 -30 22 -40 Z\" fill=\"#2e5058\" stroke=\"#fbf3dd\" stroke-width=\"2.5\" transform=\"rotate(-30 140 170)\"/>\n<g transform=\"rotate(-30 140 170)\"><circle cx=\"138\" cy=\"176\" r=\"9\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/><path d=\"M147 176 h20 M159 176 v7 M165 176 v6\" stroke=\"#d9ad55\" stroke-width=\"3\"/></g>\n<g fill=\"#bfc9d1\"><path d=\"M178 196 q6 10 0 14 q-6 -4 0 -14 Z\"/><path d=\"M188 214 q6 10 0 14 q-6 -4 0 -14 Z\"/><path d=\"M172 222 q5 8 0 11 q-5 -3 0 -11 Z\"/></g>\n<g fill=\"#d9ad55\"><text x=\"176\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\">* * *</text></g>"
+}

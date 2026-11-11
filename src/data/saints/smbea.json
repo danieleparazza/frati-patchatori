@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SMBEA, che addestrava gli inganni in fila",
+    "patronage": "dei modelli di salienza, delle reti neurali pixel-per-pixel e di chi pensava che un'immagine si guardasse e basta.",
+    "hagiography": "Il 18 novembre 2019 Zhaohui Che, Ali Borji, Guangtao Zhai, Suiyi Ling, Jing Li e Patrick Le Callet pubblicarono SMBEA, Serial-Mini-Batch-Ensemble-Attack, presentato ad AAAI 2020. Era un attacco avversario a scatola nera: invece di ingannare pochi modelli insieme, ne divideva molti in piccoli gruppi e li attaccava uno dopo l'altro, portando avanti la \"memoria\" dei gradienti. Le immagini ritoccate in modo quasi invisibile ingannavano così anche modelli mai visti, in compiti come la previsione della salienza o la traduzione di immagini.",
+    "prayer": "O Beato SMBEA, che insegni a un rumore impercettibile a ingannare molti occhi, fa' che i nostri modelli vedano ciò che c'è davvero. Amen.",
+    "feast": "Si festeggia con l'addestramento avversario e verificando i modelli anche su immagini ritoccate ad arte.",
+    "proverb": "Chi inganna un modello alla volta, alla fine li inganna tutti."
+  },
+  "en": {
+    "title": "Blessed SMBEA, Who Trained Deceptions in Line",
+    "patronage": "saliency models, pixel-to-pixel neural networks, and anyone who thought an image was just for looking at.",
+    "hagiography": "On 18 November 2019 Zhaohui Che, Ali Borji, Guangtao Zhai, Suiyi Ling, Jing Li and Patrick Le Callet published SMBEA, the Serial-Mini-Batch-Ensemble-Attack, presented at AAAI 2020. It was a black-box adversarial attack: instead of fooling a few models at once, it split many of them into small batches and attacked them one after another, carrying forward a \"memory\" of the gradients. Almost invisibly altered images thus fooled even unseen models, in tasks such as saliency prediction or image translation.",
+    "prayer": "O Blessed SMBEA, who teach an imperceptible noise to deceive many eyes, let our models see what is really there. Amen.",
+    "feast": "Celebrated with adversarial training and by testing models on artfully altered images too.",
+    "proverb": "Fool one model at a time and you'll end up fooling them all."
+  }
+}

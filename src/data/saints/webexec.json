@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San WebExec, servitore di tutti",
+    "patronage": "dei client di videoconferenza, dei servizi Windows con permessi troppo larghi e degli aggiornamenti che obbediscono a chiunque.",
+    "hagiography": "Nel 2018 Ron Bowes e Jeff McJunkin di Counter Hack scoprirono che Webex Meetings Desktop App installava un servizio Windows, WebExService, capace di eseguire comandi come SYSTEM e avviabile da qualunque utente. Bastava chiedergli di \"aggiornare\" un programma a scelta; nei domini Active Directory si poteva farlo anche da remoto, con gli strumenti di gestione di Windows. Lo segnalarono a Cisco ad agosto e lo battezzarono WebExec, una vulnerabilità remota in un client che non ascolta su nessuna porta.",
+    "prayer": "O San WebExec, che esegui ogni ordine senza chiedere chi lo dà, insegna ai nostri servizi a obbedire solo a chi ne ha diritto. Amen.",
+    "feast": "Si festeggia aggiornando Webex Meetings Desktop App alla 33.6.0 o successive e restringendo chi può avviare i servizi.",
+    "proverb": "Servo di tutti, padrone di nessuno: finché arriva quello sbagliato."
+  },
+  "en": {
+    "title": "Saint WebExec, Servant of All",
+    "patronage": "video conferencing clients, Windows services with loose permissions, and updaters that obey anyone.",
+    "hagiography": "In 2018 Ron Bowes and Jeff McJunkin of Counter Hack found that Webex Meetings Desktop App installed a Windows service, WebExService, that ran commands as SYSTEM and could be started by any user. You just asked it to \"update\" a program of your choice; in Active Directory domains it worked remotely too, through Windows' own management tools. They reported it to Cisco in August and named it WebExec: a remote vulnerability in a client that listens on no port at all.",
+    "prayer": "O Saint WebExec, who carry out every order without asking who gives it, teach our services to obey only those entitled to command. Amen.",
+    "feast": "Celebrated by updating Webex Meetings Desktop App to 33.6.0 or later and limiting who can start services.",
+    "proverb": "Servant of all, master of none, until the wrong one rings the bell."
+  }
+}

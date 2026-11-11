@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Golden SAML, falsario di lasciapassare",
+    "patronage": "dei server ADFS, delle chiavi di firma dei token e delle applicazioni cloud che si fidano di un timbro.",
+    "hagiography": "Il 21 novembre 2017 Shaked Reiner di CyberArk descrisse Golden SAML, cugino del Golden Ticket di Kerberos. Chi rubava la chiave privata con cui il server di federazione, per esempio ADFS, firma le asserzioni SAML poteva fabbricarne di proprie, per qualsiasi utente e con qualsiasi privilegio, e presentarsi alle applicazioni cloud federate senza password né MFA; insieme arrivò lo strumento shimit. La tecnica divenne celebre nel 2020, quando gli attaccanti della campagna SolarWinds la usarono davvero.",
+    "prayer": "O Beato Golden SAML, che stampi lasciapassare d'oro con un sigillo rubato, fa' che le nostre chiavi di firma restino chiuse nella cassaforte. Amen.",
+    "feast": "Si festeggia proteggendo il server di federazione come un controllore di dominio, custodendo le chiavi di firma in un HSM e sorvegliando i token che non trovano riscontro negli accessi.",
+    "proverb": "Chi ha il sigillo non ha bisogno della chiave."
+  },
+  "en": {
+    "title": "Blessed Golden SAML, Forger of Passes",
+    "patronage": "ADFS servers, token-signing keys, and cloud apps that trust a stamp.",
+    "hagiography": "On 21 November 2017 Shaked Reiner of CyberArk described Golden SAML, cousin of the Kerberos Golden Ticket. Whoever stole the private key a federation server such as ADFS uses to sign SAML assertions could forge their own, for any user with any privilege, and walk into federated cloud apps with no password or MFA; the shimit tool came along with it. The technique became famous in 2020, when the attackers behind the SolarWinds campaign used it for real.",
+    "prayer": "O Blessed Golden SAML, who print golden passes with a stolen seal, let our signing keys stay locked in the vault. Amen.",
+    "feast": "Celebrated by guarding the federation server like a domain controller, keeping signing keys in an HSM and watching for tokens with no matching sign-in.",
+    "proverb": "Who holds the seal needs no key."
+  }
+}

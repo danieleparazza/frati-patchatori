@@ -373,6 +373,182 @@
     },
     "blockstrap": {
       "author": "vozec (analysis: Sansec)"
+    },
+    "reveal": {
+      "author": "Furkan Aydin, Emre Karabulut, Seetal Potluri, Erdem Alkim, Aydin Aysu"
+    },
+    "bad-likert-judge": {
+      "author": "Yongzhe Huang, Yang Ji, Wenjun Hu, Akshata Rao, Danny Tsechansky, Jay Chen (Palo Alto Networks Unit 42)"
+    },
+    "acsessed": {
+      "author": "Emilien Socchi (mnemonic)"
+    },
+    "blindside": {
+      "author": "Ilan Kalendarov (Cymulate)"
+    },
+    "prompt-poaching": {
+      "author": "John Tuckner (Secure Annex)"
+    },
+    "langgrinch": {
+      "author": "Yarden Porat (Cyata)"
+    },
+    "pool-party": {
+      "author": "Soroush Karami, Peter Snyder (Brave)"
+    },
+    "notlegit": {
+      "author": "Shir Tamari (Wiz)"
+    },
+    "sockstress": {
+      "author": "Jack C. Louis (Outpost24)"
+    },
+    "homekit-smart-lock": {
+      "vendor": "Apple",
+      "product": "HomeKit (iOS, tvOS)"
+    },
+    "misfortune-cookie": {
+      "vendor": "AllegroSoft",
+      "product": "RomPager"
+    },
+    "wmf-setabortproc": {
+      "vendor": "Microsoft",
+      "product": "Windows (GDI32)"
+    },
+    "stack-clash": {
+      "vendor": "Multiple",
+      "product": "Linux and other Unix-like systems"
+    },
+    "leeloo-multipath": {
+      "product": "multipath-tools"
+    },
+    "cachewarp": {
+      "author": "Ruiyi Zhang, Lukas Gerlach, Daniel Weber, Lorenz Hetterich, Youheng Lü, Andreas Kogler, Michael Schwarz (CISPA, Graz University of Technology)",
+      "product": "AMD SEV-ES / SEV-SNP (EPYC processors)"
+    },
+    "reptar": {
+      "vendor": "Intel",
+      "product": "Intel processors with FSRM (Ice Lake and later)",
+      "author": "Tavis Ormandy, Josh Eads, Eduardo Vela Nava, Alexandra Sandulescu, Daniel Moghimi (Google)"
+    },
+    "mic-e-mouse": {
+      "author": "Mohamad Fakih, Rahul Dharmaji, Youssef Mahmoud, Halima Bouzidi, Mohammad Abdullah Al Faruque"
+    },
+    "smgea": {
+      "author": "Zhaohui Che, Ali Borji, Guangtao Zhai, Suiyi Ling, Jing Li, Xiongkuo Min, Guodong Guo, Patrick Le Callet"
+    },
+    "hashjack": {
+      "author": "Vitaly Simonovich (Cato CTRL, Cato Networks)"
+    },
+    "villainnet": {
+      "author": "David Oygenblik, Abhinav Vemulapalli, Animesh Agrawal, Debopam Sanyal, Alexey Tumanov, Brendan Saltaformaggio"
+    },
+    "tilemask": {
+      "author": "Yi Zhu, Chenglin Miao, Hongfei Xue, Zhengxiong Li, Yunnan Yu, Wenyao Xu, Lu Su, Chunming Qiao"
+    },
+    "ghost-tap": {
+      "author": "ThreatFabric"
+    },
+    "carsblues": {
+      "author": "Andrea Amico (Privacy4Cars)"
+    },
+    "koffee": {
+      "author": "Gianpiero Costantino, Ilaria Matteucci (IIT-CNR)",
+      "vendor": "Kia Motors",
+      "product": "Head Unit (Kia Ceed Gen 5.0 iAVN)"
+    },
+    "printing-shellz": {
+      "vendor": "HP Inc."
+    },
+    "syncjacking": {
+      "author": "Tomer Nahum (Semperis)"
+    },
+    "supapwn": {
+      "author": "Hacktron (Mohan Pedhapati, Harsh Jaiswal, Zayne Zhang, Fabian Faessler)"
+    },
+    "flowbreaking": {
+      "author": "Gadi Evron (Knostic)"
+    },
+    "randstorm": {
+      "vendor": "BitcoinJS",
+      "product": "BitcoinJS (JSBN SecureRandom), browser wallets 2011–2015"
+    },
+    "logofail": {
+      "vendor": "AMI, Insyde, Phoenix",
+      "product": "UEFI firmware"
+    },
+    "checksum": {
+      "author": "Eliran Partush (Silverfort Research Team)"
+    },
+    "modeleak": {
+      "author": "Ofir Balassiano, Ofir Shaty (Palo Alto Networks Unit 42)"
+    },
+    "echogram": {
+      "author": "Kasimir Schulz, Kenneth Yeung (HiddenLayer)"
+    },
+    "whisper-leak": {
+      "author": "Jonathan Bar Or, Geoff McDonald (Microsoft Defender Security Research Team)"
+    },
+    "janus": {
+      "author": "Eric Lafortune (Guardsquare)"
+    },
+    "portsmash": {
+      "author": "Billy Bob Brumley, Cesar Pereida García, Sohaib ul Hassan, Nicola Tuveri (Tampere University of Technology), Alejandro Cabrera Aldaya (CUJAE)"
+    },
+    "tls-renegotiation": {
+      "author": "Marsh Ray (PhoneFactor); independently Martin Rex (SAP)"
+    },
+    "teardrop": {
+      "author": "route"
+    },
+    "ovulation-calculator": {
+      "author": "Nguyen Xuan Chien (Patchstack Bug Bounty)"
+    },
+    "sleep-attack": {
+      "vendor": "Intel"
+    },
+    "webexec": {
+      "product": "Cisco Webex Meetings Desktop App"
+    },
+    "braktooth": {
+      "vendor": "Multiple (Espressif, MediaTek, …)"
+    },
+    "psfree": {
+      "product": "WebKit (Safari, iOS, macOS)"
+    },
+    "idesaster": {
+      "vendor": "Multiple",
+      "product": "AI IDEs (Cursor, GitHub Copilot, …)",
+      "author": "Ari Marzouk (MaccariTA)"
+    },
+    "hells-keychain": {
+      "author": "Ronen Shustin, Shir Tamari (Wiz)"
+    },
+    "promptpwnd": {
+      "author": "Rein Daelman (Aikido Security)"
+    },
+    "zombie-workflows": {
+      "author": "Paul Gerste (SonarSource)"
+    },
+    "geminijack": {
+      "author": "Sasi Levi (Noma Labs)"
+    },
+    "consentfix": {
+      "author": "Luke Jennings (Push Security)"
+    },
+    "air-fi": {
+      "author": "Mordechai Guri (Ben-Gurion University of the Negev)"
+    },
+    "quadattack": {
+      "author": "Thomas Paniagua, Ryan Grainger, Tianfu Wu (NC State University)"
+    },
+    "v0ltpwn": {
+      "vendor": "Intel"
+    },
+    "sierra21": {
+      "vendor": "Sierra Wireless"
+    },
+    "amnesia-33": {
+      "vendor": "Multiple",
+      "product": "uIP, FNET, picoTCP, Nut/Net TCP/IP stacks"
     }
   }
 }

@@ -1,0 +1,10 @@
+{
+  "label": "PromptPwnd",
+  "motto": "PROMPTUS AD PECCANDUM",
+  "niche": [
+    "#1a2030",
+    "#36425e"
+  ],
+  "accent": "#26304a",
+  "emblem": "<rect x=\"114\" y=\"140\" width=\"72\" height=\"58\" rx=\"12\" fill=\"#36425e\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"140\" x2=\"150\" y2=\"124\" stroke=\"#fbf3dd\" stroke-width=\"3\"/><circle cx=\"150\" cy=\"120\" r=\"5\" fill=\"#d9ad55\"/>\n<circle cx=\"134\" cy=\"164\" r=\"7\" fill=\"#d9ad55\"/><circle cx=\"166\" cy=\"164\" r=\"7\" fill=\"#d9ad55\"/>\n<path d=\"M134 184 h32\" stroke=\"#bfc9d1\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<path d=\"M118 212 h64 v28 h-64 Z\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<text x=\"124\" y=\"230\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#26304a\">&gt;_</text>\n<path d=\"M140 226 h34 M140 234 h22\" stroke=\"#c0392b\" stroke-width=\"2\"/>"
+}

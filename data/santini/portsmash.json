@@ -1,0 +1,10 @@
+{
+  "label": "PortSmash",
+  "motto": "DUO FILA, UNA PORTA",
+  "niche": [
+    "#22222c",
+    "#44445a"
+  ],
+  "accent": "#33334a",
+  "emblem": "<rect x=\"120\" y=\"150\" width=\"60\" height=\"60\" rx=\"4\" fill=\"#2e2e3a\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"2\"><path d=\"M130 150 v-8 M142 150 v-8 M158 150 v-8 M170 150 v-8 M130 210 v8 M142 210 v8 M158 210 v8 M170 210 v8\"/></g>\n<path d=\"M92 128 Q130 132 146 172\" fill=\"none\" stroke=\"#e8c45c\" stroke-width=\"4\"/><path d=\"M208 128 Q170 132 154 172\" fill=\"none\" stroke=\"#e05a47\" stroke-width=\"4\"/>\n<rect x=\"142\" y=\"172\" width=\"16\" height=\"16\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"202\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">PORT</text>\n<text x=\"150\" y=\"242\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">SMT</text>"
+}

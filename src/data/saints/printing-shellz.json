@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Printing Shellz, che stampava conchiglie",
+    "patronage": "delle stampanti multifunzione HP, dei font incorporati e degli uffici in cui nessuno aggiorna la stampante.",
+    "hagiography": "Il 30 novembre 2021 Alexander Bolshev e Timo Hirvonen di F-Secure Labs pubblicarono Printing Shellz, due difetti segnalati a HP ad aprile in circa 150 modelli di multifunzione. CVE-2021-39238, nel parsing dei font, permetteva di eseguire codice facendo stampare un documento preparato o perfino con un attacco di stampa da una pagina web, e secondo i ricercatori poteva diventare un worm capace di passare da una stampante all'altra; CVE-2021-39237 richiedeva invece l'accesso fisico alle porte.",
+    "prayer": "O San Printing Shellz, che nascondi una shell in ogni carattere, fa' che le nostre stampanti stampino solo ciò che chiediamo. Amen.",
+    "feast": "Si festeggia aggiornando il firmware secondo gli avvisi HP, mettendo le stampanti in una rete separata e controllando chi può avvicinarsi alle loro porte.",
+    "proverb": "La stampante tace, ma non è detto che dorma."
+  },
+  "en": {
+    "title": "Saint Printing Shellz, Who Printed Seashells",
+    "patronage": "HP multifunction printers, embedded fonts, and offices where nobody updates the printer.",
+    "hagiography": "On 30 November 2021 Alexander Bolshev and Timo Hirvonen of F-Secure Labs published Printing Shellz, two flaws reported to HP in April across about 150 multifunction printer models. CVE-2021-39238, in font parsing, allowed code execution by getting a crafted document printed or even through cross-site printing from a web page, and according to the researchers could become a worm hopping from printer to printer; CVE-2021-39237 instead required physical access to the ports.",
+    "prayer": "O Saint Printing Shellz, who hide a shell in every glyph, let our printers print only what we ask. Amen.",
+    "feast": "Celebrated by updating firmware per HP's advisories, moving printers to a separate network and controlling who can reach their ports.",
+    "proverb": "The printer is quiet, but that doesn't mean it's asleep."
+  }
+}

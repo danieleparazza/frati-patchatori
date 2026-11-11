@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'EKUwu, che riscriveva gli scopi dei certificati",
+    "patronage": "di Active Directory Certificate Services, dei modelli di certificato versione 1 e degli scopi aggiunti all'ultimo minuto.",
+    "hagiography": "L'8 ottobre 2024 Justin Bollinger di TrustedSec descrisse EKUwu, che classificò come ESC15: con un modello di certificato versione 1 che lascia scegliere il soggetto, chi poteva iscriversi aggiungeva alla richiesta delle Application Policies, che Windows preferisce agli usi previsti dal modello. Un certificato da server web diventava così buono per autenticarsi come amministratore o per firmare codice. Microsoft lo corresse il 12 novembre 2024, come CVE-2024-49019.",
+    "prayer": "O Sant'EKUwu, che trasformi un certificato da server in un lasciapassare per tutto, fa' che ogni modello dica una cosa sola. Amen.",
+    "feast": "Si festeggia applicando la patch di novembre 2024 e clonando o disattivando i modelli versione 1 che lasciano scegliere il soggetto.",
+    "proverb": "Certificato che fa tutto non garantisce niente."
+  },
+  "en": {
+    "title": "Saint EKUwu, Who Rewrote Certificate Purposes",
+    "patronage": "Active Directory Certificate Services, version 1 certificate templates, and purposes added at the last minute.",
+    "hagiography": "On 8 October 2024 Justin Bollinger of TrustedSec described EKUwu, catalogued in the post as ESC15: with a version 1 template that lets the requester supply the subject, anyone with enrollment rights could add Application Policies to the request, which Windows prefers over the template's intended usages. A web server certificate thus became good for authenticating as an administrator or signing code. Microsoft fixed it on 12 November 2024, as CVE-2024-49019.",
+    "prayer": "O Saint EKUwu, who turn a server certificate into a pass for everything, let every template say one thing only. Amen.",
+    "feast": "Celebrated by applying the November 2024 patch and cloning or disabling version 1 templates that let requesters choose the subject.",
+    "proverb": "A certificate good for everything vouches for nothing."
+  }
+}

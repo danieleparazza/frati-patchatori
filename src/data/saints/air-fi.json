@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AIR-FI, che trasmetteva senza antenna",
+    "patronage": "dei computer isolati dalla rete, dei bus della memoria e di chi pensava che togliere la scheda Wi-Fi bastasse.",
+    "hagiography": "Il 12 dicembre 2020 Mordechai Guri, dell'Università Ben-Gurion del Negev, pubblicò AIR-FI. Un malware su un computer isolato dalla rete, anche senza alcun hardware Wi-Fi, poteva far emettere ai bus della memoria segnali nelle bande del Wi-Fi e modularvi i dati. Telefoni, portatili e dispositivi IoT nelle vicinanze potevano captarli a qualche metro di distanza. Era un capitolo in più della lunga serie di canali nascosti dello stesso laboratorio, tra luci, suoni, calore e onde.",
+    "prayer": "O Beato AIR-FI, che fai cantare la memoria nelle frequenze del Wi-Fi, fa' che i nostri sistemi isolati restino muti anche quando nessuno li ascolta. Amen.",
+    "feast": "Si festeggia vietando dispositivi con Wi-Fi vicino ai sistemi isolati, sorvegliando lo spettro radio e, dove serve, schermando le stanze.",
+    "proverb": "Anche il computer senza antenna trova il modo di chiacchierare."
+  },
+  "en": {
+    "title": "Blessed AIR-FI, Who Broadcast Without an Antenna",
+    "patronage": "air-gapped computers, memory buses, and everyone who thought pulling the Wi-Fi card was enough.",
+    "hagiography": "On 12 December 2020 Mordechai Guri of Ben-Gurion University of the Negev published AIR-FI. Malware on an air-gapped computer, even one with no Wi-Fi hardware at all, could make the memory buses emit signals in the Wi-Fi bands and modulate data onto them. Nearby phones, laptops and IoT devices could pick them up a few metres away. It was one more chapter in the same lab's long series of covert channels, through light, sound, heat and waves.",
+    "prayer": "O Blessed AIR-FI, who make memory sing on Wi-Fi frequencies, let our isolated systems stay silent even when nobody is listening. Amen.",
+    "feast": "Celebrated by banning Wi-Fi devices near isolated systems, monitoring the radio spectrum and, where needed, shielding the rooms.",
+    "proverb": "Even a computer without an antenna finds a way to gossip."
+  }
+}

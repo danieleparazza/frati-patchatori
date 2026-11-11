@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PsFree, liberatore delle console",
+    "patronage": "dei browser delle PlayStation, dei bug resuscitati e di chi non aggiorna il firmware per devozione.",
+    "hagiography": "Il 3 dicembre 2023 CelesteBlue annunciò PsFree, un exploit del browser delle PlayStation 4 (firmware da 6.00 a 9.60) e, in forma meno collaudata, delle PS5 fino alla 5.50, nato dal lavoro di uno sviluppatore noto come \"abc\". Sfruttava CVE-2022-22620, un use-after-free nella History API di WebKit che Apple aveva corretto in Safari nel febbraio 2022 dopo attacchi reali; secondo Project Zero era un bug \"zombie\", già corretto nel 2013 e riapparso nel 2016. Da solo dava l'esecuzione di codice nel browser: il primo gradino, insieme a un exploit del kernel, verso lo sblocco della console.",
+    "prayer": "O San PsFree, che resusciti i bug sepolti nel 2013, ricorda agli sviluppatori che una correzione senza test di regressione è solo un sonno. Amen.",
+    "feast": "Si festeggia installando Safari 15.3, iOS 15.3.1 o macOS 12.2.1 e, sulle console, firmware più recenti: salvo chi tiene la PS4 ferma da anni aspettando proprio questo miracolo.",
+    "proverb": "Il bug sepolto male risorge sempre."
+  },
+  "en": {
+    "title": "Saint PsFree, Liberator of Consoles",
+    "patronage": "PlayStation browsers, resurrected bugs, and everyone who refuses firmware updates out of devotion.",
+    "hagiography": "On 3 December 2023 CelesteBlue announced PsFree, a browser exploit for the PlayStation 4 (firmware 6.00 to 9.60) and, less tested, the PS5 up to 5.50, built on work by a developer known as \"abc\". It used CVE-2022-22620, a use-after-free in WebKit's History API that Apple had fixed in Safari in February 2022 after real-world attacks; Project Zero called it a \"zombie\" bug, fixed in 2013 and reintroduced in 2016. On its own it gave code execution in the browser: the first rung, paired with a kernel exploit, towards unlocking the console.",
+    "prayer": "O Saint PsFree, who raise bugs buried in 2013, remind developers that a fix without a regression test is only a nap. Amen.",
+    "feast": "Celebrated by installing Safari 15.3, iOS 15.3.1 or macOS 12.2.1 and, on consoles, newer firmware: except by those who have kept a PS4 frozen for years waiting for exactly this miracle.",
+    "proverb": "A bug buried badly always rises again."
+  }
+}

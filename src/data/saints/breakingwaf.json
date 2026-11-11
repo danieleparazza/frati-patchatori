@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BreakingWAF, che passava dal retro",
+    "patronage": "dei firewall applicativi, dei server d'origine e di chi blinda il portone lasciando aperta la porta di servizio.",
+    "hagiography": "Il 3 dicembre 2024 Zafran rese nota BreakingWAF, una configurazione sbagliata molto diffusa: tante applicazioni protette da CDN e WAF come Akamai, Cloudflare, Fastly e Imperva lasciavano il server d'origine raggiungibile da Internet, senza verificare che il traffico arrivasse davvero dal fornitore. Chi scopriva l'indirizzo dell'origine aggirava il muro: niente filtri contro gli attacchi, e la strada libera per un DDoS. Secondo i ricercatori, su oltre 140.000 domini di aziende Fortune 1000 protetti così, circa 8.000 portavano a 36.000 server di backend raggiungibili direttamente.",
+    "prayer": "O Beato BreakingWAF, che giri attorno alle mura invece di scalarle, fa' che i nostri server aprano solo a chi arriva dalla porta principale. Amen.",
+    "feast": "Si festeggia accettando sull'origine solo gli indirizzi del CDN, aggiungendo un header segreto da ruotare o, meglio ancora, il TLS mutuo.",
+    "proverb": "Inutile il portone blindato, se la porta sul retro è socchiusa."
+  },
+  "en": {
+    "title": "Blessed BreakingWAF, Who Came In Through the Back",
+    "patronage": "web application firewalls, origin servers, and everyone who armours the front gate and leaves the service door open.",
+    "hagiography": "On 3 December 2024 Zafran disclosed BreakingWAF, a widespread misconfiguration: many applications protected by CDN and WAF providers such as Akamai, Cloudflare, Fastly and Imperva left their origin server reachable from the internet, without checking that traffic really came from the provider. Whoever found the origin's address walked around the wall: no attack filtering, and a clear road for DDoS. According to the researchers, out of more than 140,000 Fortune 1000 domains protected this way, about 8,000 led to 36,000 directly reachable backend servers.",
+    "prayer": "O Blessed BreakingWAF, who walk around the walls instead of climbing them, let our servers open only to those who come through the main gate. Amen.",
+    "feast": "Celebrated by letting the origin accept only the CDN's addresses, adding a rotated secret header or, better still, mutual TLS.",
+    "proverb": "An armoured gate is worthless when the back door is ajar."
+  }
+}

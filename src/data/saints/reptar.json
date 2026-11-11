@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Reptar, re dei prefissi superflui",
+    "patronage": "dei processori Intel con FSRM, dei prefissi REX ridondanti e dei fornitori cloud che dormivano tranquilli.",
+    "hagiography": "Il 14 novembre 2023 Tavis Ormandy e altri ricercatori di Google descrissero Reptar (CVE-2023-23583). Su x86 un prefisso REX inutile dovrebbe essere ignorato, ma sui processori Intel con Fast Short Repeat Move, da Ice Lake in poi, un rex.r superfluo davanti a un rep movsb confondeva il processore: salti in posti inattesi, puntatori d'istruzione sbagliati e, se più core inciampavano insieme, eccezioni machine check e blocco della macchina. I ricercatori lo provocarono anche da una macchina virtuale ospite non privilegiata.",
+    "prayer": "O Beato Reptar, che con un solo byte di troppo fai ruggire il silicio, fa' che i nostri processori ignorino davvero ciò che va ignorato. Amen.",
+    "feast": "Si festeggia installando il microcode Intel dell'avviso INTEL-SA-00950 tramite BIOS o sistema operativo, e rileggendo con sospetto ogni prefisso.",
+    "proverb": "Un prefisso di troppo e il re dei rettili si sveglia."
+  },
+  "en": {
+    "title": "Blessed Reptar, King of Redundant Prefixes",
+    "patronage": "Intel processors with FSRM, redundant REX prefixes, and cloud providers who used to sleep soundly.",
+    "hagiography": "On 14 November 2023 Tavis Ormandy and fellow Google researchers described Reptar (CVE-2023-23583). On x86 a useless REX prefix should be ignored, but on Intel processors with Fast Short Repeat Move, from Ice Lake onwards, a redundant rex.r in front of rep movsb confused the CPU: jumps to unexpected places, wrong instruction pointers and, when several cores tripped at once, machine check exceptions and a halted machine. The researchers triggered it even from an unprivileged guest VM.",
+    "prayer": "O Blessed Reptar, who make silicon roar with a single byte too many, let our processors truly ignore what should be ignored. Amen.",
+    "feast": "Celebrated by installing the Intel microcode from advisory INTEL-SA-00950 through BIOS or OS updates, and eyeing every prefix with suspicion.",
+    "proverb": "One prefix too many and the lizard king wakes up."
+  }
+}
