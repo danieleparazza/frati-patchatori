@@ -1,0 +1,10 @@
+{
+  "label": "PrintListener",
+  "motto": "DIGITUS SUSURRAT",
+  "niche": [
+    "#24182a",
+    "#4a3456"
+  ],
+  "accent": "#36243f",
+  "emblem": "<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\" stroke-linecap=\"round\">\n<path d=\"M150 140 C126 140 116 160 116 182 C116 206 128 226 146 236\"/>\n<path d=\"M150 152 C134 152 128 166 128 182 C128 202 138 216 152 224\"/>\n<path d=\"M150 164 C142 164 140 172 140 182 C140 196 146 206 158 212\"/>\n<path d=\"M150 140 C174 140 184 160 184 182 C184 196 180 206 174 214\"/>\n<path d=\"M150 152 C166 152 172 166 172 182 C172 190 170 198 166 204\"/>\n<path d=\"M152 176 C156 186 156 194 152 200\"/></g>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\"><path d=\"M194 168 q8 12 0 24\"/><path d=\"M202 160 q12 20 0 40\"/></g>"
+}

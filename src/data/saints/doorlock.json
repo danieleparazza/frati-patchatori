@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato doorLock, che chiudeva fuori i padroni di casa",
+    "patronage": "delle app Casa di Apple, dei nomi troppo lunghi e di chi accetta inviti senza leggerli.",
+    "hagiography": "Il 1° gennaio 2022 Trevor Spiniolas pubblicò doorLock: bastava dare a un accessorio HomeKit un nome di centinaia di migliaia di caratteri perché iPhone e iPad si bloccassero ogni volta che leggevano i dati di Casa. Con un invito malevolo a una casa condivisa il blocco poteva colpire anche altri, e a volte solo il ripristino del dispositivo restituiva la pace. Segnalato ad Apple nell'agosto 2021, il difetto fu corretto pochi giorni dopo la pubblicazione, in iOS 15.2.1 (CVE-2022-22588).",
+    "prayer": "O Beato doorLock, che col nome più lungo del mondo sbarri la porta di casa, fa' che i nostri telefoni leggano solo nomi di misura umana. Amen.",
+    "feast": "Si festeggia aggiornando a iOS e iPadOS 15.2.1 o successivi e rifiutando gli inviti di case sconosciute, per quanto ospitali sembrino.",
+    "proverb": "Nome lungo, porta chiusa."
+  },
+  "en": {
+    "title": "Blessed doorLock, Who Locked Owners Out of Their Homes",
+    "patronage": "Apple's Home app, overlong names, and everyone who accepts invitations without reading them.",
+    "hagiography": "On 1 January 2022 Trevor Spiniolas published doorLock: giving a HomeKit accessory a name hundreds of thousands of characters long was enough to make iPhones and iPads freeze every time they loaded Home data. Through a malicious invitation to a shared home the freeze could reach other people too, and sometimes only a device restore brought peace back. Reported to Apple in August 2021, it was fixed a few days after publication in iOS 15.2.1 (CVE-2022-22588).",
+    "prayer": "O Blessed doorLock, who bars the front door with the longest name in the world, let our phones read only names of human proportions. Amen.",
+    "feast": "Celebrated by updating to iOS and iPadOS 15.2.1 or later and declining invitations from unknown homes, however welcoming they look.",
+    "proverb": "The longer the name, the tighter the lock."
+  }
+}

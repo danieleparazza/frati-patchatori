@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato COLD-Attack, seduttore a sangue freddo",
+    "patronage": "dei modelli linguistici, dei filtri anti-jailbreak e di chi riconosceva un attacco solo dai caratteri a caso.",
+    "hagiography": "Nel febbraio 2024 Xingang Guo, Fangxu Yu, Huan Zhang, Lianhui Qin e Bin Hu pubblicarono COLD-Attack, poi accettato a ICML 2024. Gli autori adattarono COLD, un algoritmo di generazione controllata basato su energia e dinamica di Langevin, per costruire jailbreak su misura: non più suffissi illeggibili, ma frasi fluenti e discrete, con il tono, il sentimento o la coerenza col contesto voluti. La prova toccò Llama-2, Mistral, Vicuna, Guanaco, GPT-3.5 e GPT-4.",
+    "prayer": "O Beato COLD-Attack, che inganni con frasi educate e voce pacata, fa' che i nostri modelli giudichino la richiesta e non le buone maniere. Amen.",
+    "feast": "Si festeggia mettendo alla prova i modelli anche con attacchi fluenti e naturali, non solo con quelli che sembrano rumore, perché un filtro che cerca il gergo non vede la cortesia.",
+    "proverb": "Il lupo più pericoloso è quello che parla bene."
+  },
+  "en": {
+    "title": "Blessed COLD-Attack, Cold-Blooded Charmer",
+    "patronage": "language models, anti-jailbreak filters, and everyone who spotted attacks only by their gibberish.",
+    "hagiography": "In February 2024 Xingang Guo, Fangxu Yu, Huan Zhang, Lianhui Qin and Bin Hu published COLD-Attack, later accepted at ICML 2024. The authors adapted COLD, a controllable text-generation algorithm based on energy models and Langevin dynamics, to craft jailbreaks to order: no longer unreadable suffixes, but fluent, discreet sentences with the tone, sentiment or contextual coherence they wanted. They tested it on Llama-2, Mistral, Vicuna, Guanaco, GPT-3.5 and GPT-4.",
+    "prayer": "O Blessed COLD-Attack, who deceive with polite words and a calm voice, let our models judge the request, not its manners. Amen.",
+    "feast": "Celebrated by red-teaming models with fluent, natural attacks too, not only ones that look like noise, because a filter hunting for gibberish never notices courtesy.",
+    "proverb": "The most dangerous wolf is the one who speaks well."
+  }
+}

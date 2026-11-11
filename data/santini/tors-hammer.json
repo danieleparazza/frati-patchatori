@@ -1,0 +1,10 @@
+{
+  "label": "Tor's Hammer",
+  "motto": "LENTE SED SINE FINE",
+  "niche": [
+    "#1d1a26",
+    "#3d3550"
+  ],
+  "accent": "#3a2f52",
+  "emblem": "<rect x=\"112\" y=\"128\" width=\"76\" height=\"34\" rx=\"4\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M118 138 h64 M118 152 h64\" stroke=\"#7d8790\" stroke-width=\"2\"/>\n<rect x=\"144\" y=\"162\" width=\"12\" height=\"62\" rx=\"3\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<g fill=\"none\" stroke=\"#c9a7e0\" stroke-width=\"2\"><ellipse cx=\"150\" cy=\"234\" rx=\"16\" ry=\"14\"/><ellipse cx=\"150\" cy=\"234\" rx=\"10\" ry=\"14\"/><ellipse cx=\"150\" cy=\"234\" rx=\"4\" ry=\"14\"/></g>\n<path d=\"M150 220 q-4 -6 2 -10\" stroke=\"#c9a7e0\" stroke-width=\"2\" fill=\"none\"/>"
+}

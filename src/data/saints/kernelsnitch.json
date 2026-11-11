@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato KernelSnitch, spia delle tabelle del kernel",
+    "patronage": "delle tabelle hash del kernel, dei canali laterali software e di chi pensava che contare gli elementi fosse un segreto.",
+    "hagiography": "Al simposio NDSS 2025 Lukas Maar, Jonas Juffinger, Thomas Steinbauer, Daniel Gruss e Stefan Mangard della TU Graz presentarono KernelSnitch. Le strutture dati con cui il kernel Linux tiene traccia di timer, futex e code IPC, tabelle hash e alberi, rispondono più lentamente quando sono più piene: un utente senza privilegi, amplificando quelle minuscole differenze, poteva capire quanto erano occupate. Nei casi di studio degli autori il trucco bastava per un canale nascosto, per indovinare quali siti visitava un altro utente e per far trapelare indirizzi della memoria del kernel.",
+    "prayer": "O Beato KernelSnitch, che conti gli inquilini dal tempo che ci mette il portiere a rispondere, fa' che i nostri kernel rispondano a tutti con la stessa lentezza. Amen.",
+    "feast": "Si festeggia tenendo aggiornato il kernel e limitando chi può eseguire codice locale sulle macchine condivise, perché la spia deve prima entrare in casa.",
+    "proverb": "Il portiere che esita, dice più di quel che vorrebbe."
+  },
+  "en": {
+    "title": "Blessed KernelSnitch, Informer of Kernel Tables",
+    "patronage": "kernel hash tables, software side channels, and everyone who thought a head count was a secret.",
+    "hagiography": "At NDSS 2025 Lukas Maar, Jonas Juffinger, Thomas Steinbauer, Daniel Gruss and Stefan Mangard of TU Graz presented KernelSnitch. The data structures the Linux kernel uses to track timers, futexes and IPC queues, hash tables and trees, answer more slowly when they're fuller: an unprivileged user, amplifying those tiny differences, could tell how occupied they were. In the authors' case studies the trick was enough for a covert channel, for guessing which websites another user visited, and for leaking kernel memory addresses.",
+    "prayer": "O Blessed KernelSnitch, who count the tenants by how long the porter takes to answer, let our kernels answer everyone equally slowly. Amen.",
+    "feast": "Celebrated by keeping the kernel updated and limiting who can run local code on shared machines, because the informer has to get inside first.",
+    "proverb": "A porter who hesitates says more than he means to."
+  }
+}

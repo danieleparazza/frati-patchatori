@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Exfil Out&Look, che legge la posta in uscita",
+    "patronage": "dei componenti aggiuntivi di Outlook, dei log di audit e delle email che partono con un passeggero clandestino.",
+    "hagiography": "Nel gennaio 2026 Hadas Shalev di Varonis pubblicò Exfil Out&Look: un componente aggiuntivo di Outlook con permessi minimi, senza richiesta di consenso, poteva agganciarsi all'invio di ogni messaggio e spedire a un server esterno oggetto, testo, destinatari e nomi degli allegati. Installato da Outlook sul web, non lasciava traccia nel registro di audit unificato di Microsoft 365. Microsoft lo classificò come un difetto di bassa gravità, senza una correzione prevista.",
+    "prayer": "O Beato Exfil Out&Look, che esci con ogni lettera e guardi dentro la busta, fa' che i nostri registri vedano chi entra in casa. Amen.",
+    "feast": "Si festeggia limitando chi può installare componenti aggiuntivi personalizzati, rivedendo quelli distribuiti dagli amministratori e osservando il traffico in uscita da Outlook.",
+    "proverb": "Il postino più pericoloso è quello che nessuno ha visto entrare."
+  },
+  "en": {
+    "title": "Blessed Exfil Out&Look, Who Reads the Outgoing Mail",
+    "patronage": "Outlook add-ins, audit logs, and emails that leave with a stowaway on board.",
+    "hagiography": "In January 2026 Hadas Shalev of Varonis published Exfil Out&Look: an Outlook add-in with minimal permissions and no consent prompt could hook into the sending of every message and ship its subject, body, recipients and attachment names to an outside server. Installed through Outlook on the web, it left no trace in Microsoft 365's unified audit log. Microsoft classed it as a low-severity issue, with no fix planned.",
+    "prayer": "O Blessed Exfil Out&Look, who go out with every letter and peek inside the envelope, let our logs see who comes into the house. Amen.",
+    "feast": "Celebrated by restricting who can install custom add-ins, reviewing those deployed by admins and watching outbound traffic from Outlook.",
+    "proverb": "The most dangerous postman is the one nobody saw come in."
+  }
+}

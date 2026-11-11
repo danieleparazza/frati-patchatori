@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Reprompt, che chiede due volte",
+    "patronage": "degli assistenti IA personali, dei link dall'aria innocua e di chi clicca perché il dominio è quello giusto.",
+    "hagiography": "Nel gennaio 2026 Dolev Taler di Varonis Threat Labs descrisse Reprompt, un attacco a un clic contro Microsoft Copilot Personal. Un link a un vero dominio Microsoft portava nel parametro \"q\" un prompt che partiva da solo all'apertura della pagina; le protezioni valevano solo per la prima richiesta, così bastava chiedere a Copilot di fare ogni cosa due volte, mentre il server dell'attaccante inviava nuove istruzioni in base alle risposte. Ne usciva una fuga silenziosa di dati personali, che continuava anche a scheda chiusa.",
+    "prayer": "O Beato Reprompt, che chiedi una volta per finta e la seconda sul serio, fa' che i nostri assistenti ricordino le regole anche al secondo giro. Amen.",
+    "feast": "Si festeggia ricordando che Microsoft ha corretto il difetto prima della pubblicazione, e guardando bene i link che portano un prompt già scritto.",
+    "proverb": "Chi chiede due volte ottiene la prima risposta che non doveva avere."
+  },
+  "en": {
+    "title": "Blessed Reprompt, Who Asks Twice",
+    "patronage": "personal AI assistants, harmless-looking links, and anyone who clicks because the domain looks right.",
+    "hagiography": "In January 2026 Dolev Taler of Varonis Threat Labs described Reprompt, a one-click attack on Microsoft Copilot Personal. A link to a genuine Microsoft domain carried a prompt in its \"q\" parameter that ran by itself when the page opened; the safeguards only applied to the first request, so it was enough to ask Copilot to do everything twice, while the attacker's server sent fresh instructions based on each answer. The result was a silent leak of personal data that carried on even after the tab was closed.",
+    "prayer": "O Blessed Reprompt, who ask once for show and the second time for real, let our assistants remember the rules on the second round too. Amen.",
+    "feast": "Celebrated by remembering that Microsoft fixed the flaw before it was published, and by looking closely at links that arrive with a prompt already written.",
+    "proverb": "Ask twice, and the second answer is the one you shouldn't get."
+  }
+}

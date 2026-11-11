@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BlueGate, custode del cancello azzurro",
+    "patronage": "dei gateway Desktop remoto, della porta UDP 3391 e di chi apre un solo cancello per non tenere aperte cento porte.",
+    "hagiography": "Il 14 gennaio 2020 Microsoft corresse CVE-2020-0609 e CVE-2020-0610, due difetti di Remote Desktop Gateway nel trasporto UDP: un indice di frammento non controllato permetteva a chiunque, senza autenticazione, di scrivere fuori dalla memoria prevista ed eseguire codice con i massimi privilegi. Pochi giorni dopo Oliver Lyak, allora noto come ollypwn, pubblicò una prova di concetto che mandava in crash il servizio e battezzò i bug BlueGate, in omaggio a BlueKeep.",
+    "prayer": "O San BlueGate, che spalanchi il cancello prima di chiedere chi bussa, fa' che i nostri gateway contino ogni frammento. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti di gennaio 2020 per Windows Server 2012, 2012 R2, 2016 e 2019 o, in attesa, spegnendo il trasporto UDP del gateway: meglio un cancello lento che uno spalancato.",
+    "proverb": "Cancello senza guardia, casa senza padrone."
+  },
+  "en": {
+    "title": "Saint BlueGate, Keeper of the Blue Gate",
+    "patronage": "Remote Desktop gateways, UDP port 3391, and anyone who opens one gate to avoid opening a hundred doors.",
+    "hagiography": "On 14 January 2020 Microsoft fixed CVE-2020-0609 and CVE-2020-0610, two flaws in Remote Desktop Gateway's UDP transport: an unchecked fragment index let anyone, without authentication, write outside the intended memory and run code with the highest privileges. A few days later Oliver Lyak, then known as ollypwn, published a proof of concept that crashed the service and named the bugs BlueGate, in homage to BlueKeep.",
+    "prayer": "O Saint BlueGate, who fling the gate open before asking who knocks, let our gateways count every fragment. Amen.",
+    "feast": "Celebrated with the January 2020 updates for Windows Server 2012, 2012 R2, 2016 and 2019 or, meanwhile, by turning off the gateway's UDP transport: a slow gate beats an open one.",
+    "proverb": "An unguarded gate makes an unguarded house."
+  }
+}

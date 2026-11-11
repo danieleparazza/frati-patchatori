@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SH1MMER, liberatore di Chromebook",
+    "patronage": "dei Chromebook delle scuole, delle chiavette di ripristino e dei computer che non vogliono più obbedire.",
+    "hagiography": "Il 13 gennaio 2023 il gruppo Mercury Workshop pubblicò SH1MMER, un exploit costruito sulle immagini di ripristino RMA trapelate di alcuni modelli di Chromebook. Avviando in modalità di ripristino un'immagine modificata da una chiavetta USB, si apriva un menu che permetteva, fra l'altro, di togliere il dispositivo dalla gestione della scuola o dell'azienda e di usarlo come un computer personale. Google chiuse poi la strada del downgrade e della rimozione della gestione: secondo gli autori, sui dispositivi aggiornati alla versione 112 o successive il metodo può non funzionare più.",
+    "prayer": "O Beato SH1MMER, che sciogli i Chromebook dalle catene dell'amministratore, fa' che le nostre immagini di ripristino non escano dall'officina. Amen.",
+    "feast": "Si festeggia aggiornando ChromeOS alla versione 112 o successive e controllando dalla console quali dispositivi spariscono dalla gestione.",
+    "proverb": "Dove entra una chiavetta, esce la gestione."
+  },
+  "en": {
+    "title": "Blessed SH1MMER, Liberator of Chromebooks",
+    "patronage": "school Chromebooks, recovery sticks, and computers that no longer wish to obey.",
+    "hagiography": "On 13 January 2023 the Mercury Workshop group released SH1MMER, an exploit built on the leaked RMA recovery images of some Chromebook models. Booting a modified image from a USB stick in recovery mode opened a menu that, among other things, could remove the device from school or company management and turn it into a personal computer. Google later closed the downgrade and unenrollment route: according to the authors, devices updated to version 112 or later may no longer work with the method.",
+    "prayer": "O Blessed SH1MMER, who frees Chromebooks from the administrator's chains, let our recovery images never leave the workshop. Amen.",
+    "feast": "Celebrated by updating ChromeOS to version 112 or later and checking in the console which devices drop out of management.",
+    "proverb": "Where a USB stick goes in, management goes out."
+  }
+}

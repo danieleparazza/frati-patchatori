@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PixieFAIL, folletto dell'avvio di rete",
+    "patronage": "di EDK II, dell'avvio PXE e dei firmware che parlano IPv6 prima ancora del sistema operativo.",
+    "hagiography": "Il 16 gennaio 2024 Francisco Falcón e Iván Arce di Quarkslab pubblicarono PixieFAIL: nove vulnerabilità, da CVE-2023-45229 a CVE-2023-45237, nello stack di rete IPv6 di EDK II, il firmware UEFI open source di TianoCore su cui si basano molti produttori. Durante l'avvio da rete, risposte DHCPv6 o messaggi IPv6 costruiti ad arte potevano provocare letture e scritture fuori dai limiti, cicli infiniti e, nei casi peggiori, esecuzione di codice da remoto, prima ancora che partisse il sistema operativo; completavano il quadro numeri pseudocasuali prevedibili.",
+    "prayer": "O San PixieFAIL, folletto che si sveglia prima del sistema, fa' che i nostri firmware leggano i pacchetti con giudizio. Amen.",
+    "feast": "Si festeggia installando i firmware aggiornati dei produttori e disattivando l'avvio PXE su IPv6 dove non serve.",
+    "proverb": "Chi si avvia dalla rete, si fida di troppi sconosciuti."
+  },
+  "en": {
+    "title": "Saint PixieFAIL, Sprite of Network Boot",
+    "patronage": "EDK II, PXE boot, and firmware that speaks IPv6 before the operating system even wakes.",
+    "hagiography": "On 16 January 2024 Francisco Falcón and Iván Arce of Quarkslab published PixieFAIL: nine vulnerabilities, CVE-2023-45229 through CVE-2023-45237, in the IPv6 network stack of EDK II, TianoCore's open-source UEFI firmware that many vendors build on. During network boot, crafted DHCPv6 replies or IPv6 messages could cause out-of-bounds reads and writes, infinite loops and, in the worst cases, remote code execution before the operating system had even started; predictable pseudo-random numbers completed the picture.",
+    "prayer": "O Saint PixieFAIL, sprite who wakes before the system, let our firmware read packets with good judgement. Amen.",
+    "feast": "Celebrated by installing vendors' updated firmware and disabling PXE boot over IPv6 where it isn't needed.",
+    "proverb": "Boot from the network and you trust too many strangers."
+  }
+}

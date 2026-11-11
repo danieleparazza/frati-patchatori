@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ChainLeak, che scioglie le catene dei chatbot",
+    "patronage": "dei framework per chatbot, dei server che leggono troppo volentieri e di chi mette in produzione un prototipo fatto nel weekend.",
+    "hagiography": "Il 20 gennaio 2026 Gal Zaban e Ido Shani di Zafran Labs presentarono ChainLeak, due difetti di Chainlit, il framework Python per costruire applicazioni di chat con l'IA. Con il primo (CVE-2026-22218) un utente autenticato poteva farsi copiare nella sessione qualunque file leggibile dal server; con il secondo (CVE-2026-22219), quando si usa il livello dati SQLAlchemy, il server diventava un messaggero SSRF verso servizi interni. Secondo i ricercatori, la coppia poteva arrivare fino al furto di credenziali cloud.",
+    "prayer": "O San ChainLeak, che con un elemento ben scelto apri ogni cassetto del server, fa' che i nostri chatbot custodiscano i file come i segreti di confessione. Amen.",
+    "feast": "Si festeggia aggiornando Chainlit alla 2.9.4 o successiva, uscita il 24 dicembre 2025, e chiedendo al chatbot di leggere solo i file che gli spettano.",
+    "proverb": "Dove la catena perde, il segreto gocciola."
+  },
+  "en": {
+    "title": "Saint ChainLeak, Who Unchains the Chatbots",
+    "patronage": "chatbot frameworks, servers that read a little too eagerly, and anyone who ships a weekend prototype to production.",
+    "hagiography": "On 20 January 2026 Gal Zaban and Ido Shani of Zafran Labs presented ChainLeak, two flaws in Chainlit, the Python framework for building AI chat apps. With the first (CVE-2026-22218) an authenticated user could have any file the server could read copied into their own session; with the second (CVE-2026-22219), when the SQLAlchemy data layer was in use, the server turned into an SSRF messenger towards internal services. According to the researchers, together they could lead all the way to stolen cloud credentials.",
+    "prayer": "O Saint ChainLeak, who open every drawer of the server with one well-chosen element, let our chatbots keep files as closely as the secrets of the confessional. Amen.",
+    "feast": "Celebrated by upgrading Chainlit to 2.9.4 or later, released on 24 December 2025, and asking the chatbot to read only the files that belong to it.",
+    "proverb": "Where the chain leaks, the secrets drip."
+  }
+}

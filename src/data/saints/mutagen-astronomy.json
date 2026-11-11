@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Mutagen Astronomy, risvegliato dopo sette anni",
+    "patronage": "del kernel Linux, dei programmi SUID e delle immagini di base che nessuno aggiorna mai.",
+    "hagiography": "Nel settembre 2018 Qualys rese noto Mutagen Astronomy (CVE-2018-14634), un overflow di interi nella funzione create_elf_tables() del kernel Linux: un utente locale con accesso a un programma SUID poteva ottenere i privilegi di root sui sistemi a 64 bit, con kernel 2.6.x, 3.10.x e 4.14.x. Il nome è un anagramma di \"too many arguments\", la causa del bug, in omaggio alla \"Setec Astronomy\" del film I signori della truffa. Il 26 gennaio 2026, più di sette anni dopo, la CISA lo aggiunse al catalogo delle vulnerabilità sfruttate davvero.",
+    "prayer": "O San Mutagen Astronomy, che conti troppi argomenti e trovi la via per root, fa' che i nostri kernel vecchi vengano aggiornati prima che le stelle si allineino. Amen.",
+    "feast": "Si festeggia aggiornando il kernel con le correzioni del 2018 delle distribuzioni, soprattutto Red Hat e CentOS, e ricostruendo le immagini e i modelli rimasti indietro.",
+    "proverb": "Il bug che dorme non è morto: aspetta il catalogo."
+  },
+  "en": {
+    "title": "Saint Mutagen Astronomy, Awakened After Seven Years",
+    "patronage": "the Linux kernel, SUID programs, and base images nobody ever updates.",
+    "hagiography": "In September 2018 Qualys disclosed Mutagen Astronomy (CVE-2018-14634), an integer overflow in the Linux kernel's create_elf_tables() function: a local user with access to a SUID program could gain root on 64-bit systems running 2.6.x, 3.10.x and 4.14.x kernels. The name is an anagram of \"too many arguments\", the bug's cause, a nod to \"Setec Astronomy\" in the film Sneakers. On 26 January 2026, more than seven years later, CISA added it to its catalogue of actively exploited vulnerabilities.",
+    "prayer": "O Saint Mutagen Astronomy, who count too many arguments and find the road to root, let our old kernels be updated before the stars align. Amen.",
+    "feast": "Celebrated by applying the distributions' 2018 kernel fixes, especially on Red Hat and CentOS, and by rebuilding the images and templates left behind.",
+    "proverb": "A sleeping bug isn't dead: it's waiting for the catalogue."
+  }
+}

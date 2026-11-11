@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato FedMUA, che fa dimenticare troppo",
+    "patronage": "dell'apprendimento federato, del diritto all'oblio e dei modelli che dimenticano più di quanto gli si chieda.",
+    "hagiography": "Il 21 gennaio 2025 Jian Chen, Zehui Lin, Wanyu Lin e colleghi pubblicarono FedMUA, uno studio sugli attacchi di disapprendimento malevolo nell'apprendimento federato. Quando un partecipante chiede di cancellare i propri dati, il modello comune deve \"dimenticarli\"; un partecipante malintenzionato può però scegliere con cura cosa far dimenticare, così che il modello sbagli proprio sugli esempi di un bersaglio altrui. Secondo gli autori bastava lo 0,3% di richieste malevole per un successo di circa l'80%.",
+    "prayer": "O Beato FedMUA, che trasformi l'oblio in un'arma, fa' che i nostri modelli dimentichino solo ciò che devono. Amen.",
+    "feast": "Si festeggia controllando chi chiede di dimenticare e che effetto avrà la richiesta, sul modello della difesa proposta nello stesso articolo: anche l'oblio va sorvegliato.",
+    "proverb": "Chi chiede l'oblio con astuzia ottiene l'errore su misura."
+  },
+  "en": {
+    "title": "Blessed FedMUA, Who Makes Models Forget Too Much",
+    "patronage": "federated learning, the right to be forgotten, and models that forget more than they were asked to.",
+    "hagiography": "On 21 January 2025 Jian Chen, Zehui Lin, Wanyu Lin and colleagues published FedMUA, a study of malicious unlearning attacks on federated learning. When a participant asks for its data to be deleted, the shared model must \"forget\" it; a malicious participant, however, can carefully pick what to have forgotten, so that the model fails precisely on someone else's target examples. According to the authors, 0.3% of malicious requests were enough for about 80% success.",
+    "prayer": "O Blessed FedMUA, who turn forgetting into a weapon, let our models forget only what they must. Amen.",
+    "feast": "Celebrated by checking who asks to be forgotten and what the request will do, along the lines of the defence proposed in the same paper: even forgetting needs watching.",
+    "proverb": "Ask cleverly to be forgotten and you get mistakes made to measure."
+  }
+}

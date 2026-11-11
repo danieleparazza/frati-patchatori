@@ -1,0 +1,10 @@
+{
+  "label": "MDB Leaker",
+  "motto": "MEMORIA STILLANS",
+  "niche": [
+    "#2a1616",
+    "#56302a"
+  ],
+  "accent": "#6a2a22",
+  "emblem": "<ellipse cx=\"150\" cy=\"134\" rx=\"36\" ry=\"10\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M114 134 v54 a36 10 0 0 0 72 0 v-54\" fill=\"#e8d6b0\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M114 152 a36 10 0 0 0 72 0 M114 170 a36 10 0 0 0 72 0\" fill=\"none\" stroke=\"#b8892b\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#6a2a22\">.mdb</text>\n<g fill=\"#bfc9d1\"><path d=\"M136 204 q-5 8 0 12 q5 -4 0 -12 z\"/><path d=\"M160 210 q-5 8 0 12 q5 -4 0 -12 z\"/><path d=\"M148 226 q-5 8 0 12 q5 -4 0 -12 z\"/></g>"
+}

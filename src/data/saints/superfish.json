@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Superfish, pesce che sbirciava nell'HTTPS",
+    "patronage": "dei portatili con software preinstallato, dei certificati radice e di chi voleva solo vedere pubblicità più pertinenti.",
+    "hagiography": "Nel febbraio 2015 si scoprì che Lenovo aveva preinstallato su alcuni portatili consumer Superfish VisualDiscovery, un adware che per infilare annunci anche nelle pagine HTTPS installava un proprio certificato radice. La chiave privata, presa dall'SDK di Komodia, era la stessa su ogni macchina e protetta dalla password \"komodia\", trovata presto: chiunque poteva fingersi qualsiasi sito sicuro agli occhi di quei computer. US-CERT invitò a rimuoverlo, Lenovo pubblicò uno strumento di disinstallazione e disse di aver smesso di preinstallarlo a gennaio. CVE-2015-2077 ricorda che la stessa chiave condivisa viveva anche in altri prodotti basati su Komodia.",
+    "prayer": "O San Superfish, che nuoti tra noi e ogni sito sicuro, fa' che il lucchetto del browser dica la verità. Amen.",
+    "feast": "Si festeggia disinstallando Superfish e togliendo a mano il suo certificato radice dall'archivio di Windows, perché il primo disinstallatore se lo dimenticava.",
+    "proverb": "Pesce regalato con il portatile, puzza fin dal primo avvio."
+  },
+  "en": {
+    "title": "Saint Superfish, Fish Who Peeked Into HTTPS",
+    "patronage": "laptops with preinstalled software, root certificates, and everyone who just wanted more relevant ads.",
+    "hagiography": "In February 2015 it emerged that Lenovo had preinstalled Superfish VisualDiscovery on some consumer laptops, an adware that, to slip ads even into HTTPS pages, installed its own root certificate. The private key, taken from Komodia's SDK, was the same on every machine and protected by the password \"komodia\", which was soon found: anyone could pose as any secure site to those computers. US-CERT urged its removal, Lenovo released a removal tool and said it had stopped preloading it in January. CVE-2015-2077 records that the same shared-key trick lived in other Komodia-based products too.",
+    "prayer": "O Saint Superfish, who swim between us and every secure site, let the browser's padlock tell the truth. Amen.",
+    "feast": "Celebrated by uninstalling Superfish and removing its root certificate from the Windows store by hand, because the first uninstaller forgot it.",
+    "proverb": "A fish that comes free with your laptop stinks from first boot."
+  }
+}

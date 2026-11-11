@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SLAP, che schiaffeggia l'indirizzo",
+    "patronage": "dei chip Apple M2 e A15, di Safari e delle schede che dividono la stessa casa.",
+    "hagiography": "Il 28 gennaio 2025 Jason Kim, Daniel Genkin e Yuval Yarom resero pubblico SLAP, un attacco al Load Address Predictor dei processori Apple dall'M2 e dall'A15 in poi. La CPU prova a indovinare quale indirizzo di memoria verrà letto; quando sbaglia, per un attimo lavora su dati fuori dai limiti. In Safari, quando due pagine finivano nello stesso processo, una pagina malevola poteva così leggere i dati dell'altra: nelle dimostrazioni, contenuti di posta e cronologia. Gli M1 non risultavano colpiti.",
+    "prayer": "O Beato SLAP, che con uno schiaffo fai voltare il processore verso l'indirizzo sbagliato, fa' che ogni pagina resti in casa sua. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti di sistema e di Safari che Apple ha promesso, e sperando in un isolamento dei siti sempre più completo: il resto tocca ai produttori.",
+    "proverb": "Chi guarda dove non deve vede quello che non è suo."
+  },
+  "en": {
+    "title": "Blessed SLAP, Who Slaps the Address",
+    "patronage": "Apple M2 and A15 chips, Safari, and tabs that share the same house.",
+    "hagiography": "On 28 January 2025 Jason Kim, Daniel Genkin and Yuval Yarom went public with SLAP, an attack on the Load Address Predictor in Apple processors from the M2 and A15 onwards. The CPU tries to guess which memory address will be read next; when it guesses wrong, it briefly works on out-of-bounds data. In Safari, when two pages ended up in the same process, a malicious page could read the other page's data: the demos showed email contents and browsing history. M1 chips were not affected.",
+    "prayer": "O Blessed SLAP, who slap the processor into looking at the wrong address, let every page stay in its own home. Amen.",
+    "feast": "Celebrated with the system and Safari updates Apple has promised, and by hoping for ever fuller site isolation: the rest is up to the vendors.",
+    "proverb": "Look where you shouldn't and you'll see what isn't yours."
+  }
+}

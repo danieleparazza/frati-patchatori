@@ -1,0 +1,10 @@
+{
+  "label": "powerdir",
+  "motto": "DOMUS MIGRAT LEX MUTATUR",
+  "niche": [
+    "#14202a",
+    "#2c4558"
+  ],
+  "accent": "#21384a",
+  "emblem": "<path d=\"M104 152 h34 l8 10 h50 v62 h-92 z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M128 206 v-20 l22 -16 l22 16 v20 z\" fill=\"#fbf3dd\" stroke=\"#21384a\" stroke-width=\"2\"/>\n<rect x=\"144\" y=\"194\" width=\"12\" height=\"12\" fill=\"#21384a\"/>\n<path d=\"M112 136 q38 -22 76 0\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2.5\" stroke-dasharray=\"4 4\"/>\n<path d=\"M188 136 l-10 -2 l4 9\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2.5\"/>"
+}

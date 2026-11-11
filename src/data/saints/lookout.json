@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LookOut, vedetta che guardava dentro",
+    "patronage": "delle piattaforme di business intelligence, dei database interni e di chi crede che un nome riservato basti a proteggere.",
+    "hagiography": "Il 4 febbraio 2026 Liv Matan di Tenable, con il contributo di Moshe Bernstein, presentò LookOut, due difetti in Google Looker. Il primo era una catena di path traversal, creazione di cartelle e race condition che, tramite gli hook di Git, portava all'esecuzione di codice sul server. Il secondo (CVE-2025-12743) permetteva a chi aveva permessi da sviluppatore di collegarsi al database MySQL interno di Looker, usando il nome di connessione riservato \"looker\", e di estrarne dati con una SQL injection.",
+    "prayer": "O San LookOut, vedetta che invece del mare scruta la cantina, fa' che i nostri database interni restino fuori dalla vista. Amen.",
+    "feast": "Si festeggia ricordando che Google ha corretto le istanze ospitate da Looker e aggiornando quelle installate in proprio alle versioni indicate nel bollettino GCP-2025-052, o alla 25.14 e successive.",
+    "proverb": "Chi guarda dalla torre vede anche dentro casa."
+  },
+  "en": {
+    "title": "Saint LookOut, the Watchman Who Looked Inside",
+    "patronage": "business intelligence platforms, internal databases, and anyone who thinks a reserved name is protection enough.",
+    "hagiography": "On 4 February 2026 Liv Matan of Tenable, with help from Moshe Bernstein, presented LookOut, two flaws in Google Looker. The first was a chain of path traversal, directory creation and a race condition that, through Git hooks, led to code execution on the server. The second (CVE-2025-12743) let users with developer permissions connect to Looker's internal MySQL database, using the reserved connection name \"looker\", and pull data out of it through SQL injection.",
+    "prayer": "O Saint LookOut, watchman who scans the cellar instead of the sea, let our internal databases stay out of sight. Amen.",
+    "feast": "Celebrated by remembering that Google fixed the Looker-hosted instances, and by updating self-hosted ones to the versions listed in bulletin GCP-2025-052, or to 25.14 and later.",
+    "proverb": "From the tower you see into the house as well."
+  }
+}

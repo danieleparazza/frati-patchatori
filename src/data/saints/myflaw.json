@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato MyFlaw, difetto del mio flusso",
+    "patronage": "del browser Opera, delle pagine dimenticate sui server e delle estensioni che promettono troppo.",
+    "hagiography": "A metà gennaio 2024 Oleg Zaytsev di Guardio Labs raccontò MyFlaw, un difetto di My Flow, la funzione con cui Opera scambia file tra telefono e computer. Un'estensione malevola poteva iniettare codice in una vecchia pagina di My Flow, dimenticata e senza protezioni, che dialogava con un'estensione interna capace di scaricare e aprire file. Con un solo clic su una pagina ingannevole, l'attaccante eseguiva un file a sua scelta su Windows o macOS. Opera lo corresse lato server pochi giorni dopo la segnalazione, nel novembre 2023.",
+    "prayer": "O Beato MyFlaw, che scorri nel mio flusso e lo fai tuo, fa' che le pagine vecchie vengano spente prima di essere ricordate. Amen.",
+    "feast": "Si festeggia ricordando che la correzione è arrivata lato server, senza aggiornamenti da installare, e accettando solo estensioni di cui ci si fida.",
+    "proverb": "Pagina dimenticata, porta spalancata."
+  },
+  "en": {
+    "title": "Blessed MyFlaw, the Flaw in My Flow",
+    "patronage": "the Opera browser, pages forgotten on servers, and extensions that promise too much.",
+    "hagiography": "In mid-January 2024 Oleg Zaytsev of Guardio Labs told the story of MyFlaw, a flaw in My Flow, the feature Opera uses to pass files between phone and computer. A malicious extension could inject code into an old, forgotten and unprotected My Flow page that talked to a built-in extension able to download and open files. With a single click on a deceptive page, the attacker ran a file of their choosing on Windows or macOS. Opera fixed it server-side a few days after the report, in November 2023.",
+    "prayer": "O Blessed MyFlaw, who flow through my Flow and make it yours, let old pages be switched off before anyone remembers them. Amen.",
+    "feast": "Celebrated by remembering that the fix came server-side, with nothing to install, and by accepting only extensions you trust.",
+    "proverb": "A forgotten page is an open gate."
+  }
+}

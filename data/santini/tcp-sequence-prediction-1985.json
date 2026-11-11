@@ -1,0 +1,10 @@
+{
+  "label": "TCP Seq. 1985",
+  "motto": "SEQUENTIA PRAEDICTA",
+  "niche": [
+    "#2a2016",
+    "#56422c"
+  ],
+  "accent": "#3e2e1e",
+  "emblem": "<path d=\"M108 132 Q108 120 122 120 L178 120 Q192 120 192 132 L192 236 L108 236 Z\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"124\" x2=\"150\" y2=\"232\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<g font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#3e2e1e\" text-anchor=\"middle\">\n<text x=\"129\" y=\"146\">ISN</text><text x=\"129\" y=\"166\">n</text><text x=\"129\" y=\"186\">n+1</text><text x=\"129\" y=\"206\">n+2</text>\n<text x=\"171\" y=\"146\">4.2</text><text x=\"171\" y=\"166\">BSD</text><text x=\"171\" y=\"186\">1985</text><text x=\"171\" y=\"206\">?</text></g>\n<path d=\"M118 220 h64\" stroke=\"#8a6d1f\" stroke-width=\"1.5\"/>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Superglue, che incollava gli account altrui",
+    "patronage": "di AWS Glue, dei ruoli di servizio e dei confini tra clienti che si scoprono di carta.",
+    "hagiography": "Il 13 gennaio 2022 Yanir Tsarimi di Orca Security raccontò Superglue: una funzione di AWS Glue permetteva di ottenere le credenziali di un ruolo nell'account di servizio di AWS stesso, e una configurazione interna sbagliata trasformò quell'accesso in pieni poteri sulle risorse Glue della regione. Da lì si potevano assumere i ruoli che gli account dei clienti affidano a Glue. AWS riprodusse il problema in poche ore, lo mitigò in parte la mattina dopo e del tutto pochi giorni più tardi, confermando che nessun account di clienti era stato toccato.",
+    "prayer": "O Beato Superglue, che attacchi fra loro account che dovevano restare separati, fa' che i confini del nostro cloud tengano più della colla. Amen.",
+    "feast": "Si festeggia senza dover installare nulla, perché la correzione l'ha applicata AWS, ma rivedendo comunque di quali servizi si fidano i ruoli del proprio account.",
+    "proverb": "Colla forte, confini deboli."
+  },
+  "en": {
+    "title": "Blessed Superglue, Who Stuck Other People's Accounts Together",
+    "patronage": "AWS Glue, service roles, and tenant boundaries that turn out to be made of paper.",
+    "hagiography": "On 13 January 2022 Yanir Tsarimi of Orca Security described Superglue: a feature of AWS Glue made it possible to obtain credentials for a role in AWS's own service account, and an internal misconfiguration turned that access into full powers over the region's Glue resources. From there one could assume the roles that customer accounts entrust to Glue. AWS reproduced the issue within hours, partly mitigated it the next morning and fully a few days later, confirming that no customer account had been touched.",
+    "prayer": "O Blessed Superglue, who sticks together accounts meant to stay apart, let the walls of our cloud hold better than glue. Amen.",
+    "feast": "Celebrated without installing anything, since AWS applied the fix, but still reviewing which services the roles in one's own account trust.",
+    "proverb": "Strong glue, weak walls."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Unbridled Optimism",
+  "motto": "OPTIMISMUS SINE FRENO",
+  "niche": [
+    "#2c1414",
+    "#5e2a2a"
+  ],
+  "accent": "#4a1f1f",
+  "emblem": "<g fill=\"#d9ad55\" stroke=\"#2b1d14\" stroke-width=\"1.5\"><ellipse cx=\"150\" cy=\"232\" rx=\"30\" ry=\"7\"/><ellipse cx=\"150\" cy=\"224\" rx=\"30\" ry=\"7\"/><ellipse cx=\"150\" cy=\"216\" rx=\"30\" ry=\"7\"/><ellipse cx=\"150\" cy=\"208\" rx=\"30\" ry=\"7\"/><ellipse cx=\"150\" cy=\"200\" rx=\"30\" ry=\"7\"/></g>\n<path d=\"M124 156 c0 -20 22 -20 26 0 c4 20 26 20 26 0 c0 -20 -22 -20 -26 0 c-4 20 -26 20 -26 0z\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"5\"/>\n<path d=\"M150 122 v10 M120 128 l6 8 M180 128 l-6 8\" stroke=\"#e8c45c\" stroke-width=\"3\" stroke-linecap=\"round\"/>"
+}

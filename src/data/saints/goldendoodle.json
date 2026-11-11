@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San GOLDENDOODLE, oracolo dal pelo dorato",
+    "patronage": "dei cifrari CBC, dei bilanciatori di carico e dei protocolli che dovevano essere andati in pensione.",
+    "hagiography": "Nel 2019 Craig Young di Tripwire VERT mostrò che molti dispositivi TLS rispondevano in modo diverso a messaggi con padding errato, offrendo un oracolo con cui un attaccante in posizione intermedia poteva ricostruire pezzo per pezzo il testo cifrato con CBC. A una delle varianti diede il nome GOLDENDOODLE, più rapida e potente della sorella Zombie POODLE; tra i prodotti colpiti c'era F5 BIG-IP (CVE-2019-6593). Il lavoro fu presentato a Black Hat Asia il 29 marzo 2019.",
+    "prayer": "O San GOLDENDOODLE, che fiuti il padding come un cane da tartufi, fa' che le nostre connessioni non abbaino a ogni errore. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti dei produttori, a partire dall'avviso F5 K10065173, spegnendo le suite CBC e passando a TLS 1.3, dove il padding da fiutare non c'è più.",
+    "proverb": "Cane che risponde a ogni fischio porta il ladro fino al tesoro."
+  },
+  "en": {
+    "title": "Saint GOLDENDOODLE, the Golden-Haired Oracle",
+    "patronage": "CBC ciphers, load balancers, and protocols that should have retired long ago.",
+    "hagiography": "In 2019 Craig Young of Tripwire VERT showed that many TLS devices reacted differently to messages with bad padding, offering an oracle that a man-in-the-middle could use to rebuild CBC-encrypted text piece by piece. He named one variant GOLDENDOODLE, faster and more powerful than its sibling Zombie POODLE; F5 BIG-IP was among the affected products (CVE-2019-6593). The work was presented at Black Hat Asia on 29 March 2019.",
+    "prayer": "O Saint GOLDENDOODLE, who sniff out padding like a truffle hound, let our connections not bark at every mistake. Amen.",
+    "feast": "Celebrated with vendor updates, starting with F5 advisory K10065173, by disabling CBC suites and moving to TLS 1.3, where there is no padding left to sniff.",
+    "proverb": "A dog that answers every whistle leads the thief to the treasure."
+  }
+}

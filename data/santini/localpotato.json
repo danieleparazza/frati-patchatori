@@ -1,0 +1,10 @@
+{
+  "label": "LocalPotato",
+  "motto": "SOLANUM AD SYSTEMA",
+  "niche": [
+    "#21180f",
+    "#4a3820"
+  ],
+  "accent": "#3e2c16",
+  "emblem": "<path d=\"M120 138 l10 14 l10 -16 l10 16 l10 -16 l10 16 l10 -14 v20 h-60 z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<ellipse cx=\"150\" cy=\"196\" rx=\"40\" ry=\"34\" fill=\"#c9a06a\" stroke=\"#fbf3dd\" stroke-width=\"2\" transform=\"rotate(-8 150 196)\"/>\n<g fill=\"#7a5a33\"><circle cx=\"134\" cy=\"184\" r=\"3\"/><circle cx=\"164\" cy=\"178\" r=\"2.5\"/><circle cx=\"146\" cy=\"212\" r=\"3\"/><circle cx=\"172\" cy=\"206\" r=\"2.5\"/></g>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">SYSTEM</text>"
+}

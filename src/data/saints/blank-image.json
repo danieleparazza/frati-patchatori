@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Blank Image, che non mostrava nulla",
+    "patronage": "degli allegati HTML, delle immagini SVG vuote e delle finte richieste di firma.",
+    "hagiography": "Nel gennaio 2023 Avanan, società di Check Point, descrisse il «Blank Image attack»: email che fingevano di arrivare da DocuSign portavano un allegato HTML con dentro un'immagine SVG vuota, codificata in Base64, che nascondeva un JavaScript. Aperto l'allegato, l'immagine non mostrava nulla, ma il codice portava la vittima su una pagina malevola; intanto il link restava invisibile ai controlli che cercano indirizzi sospetti nei messaggi.",
+    "prayer": "O Beato Blank Image, che dentro il vuoto nascondi la strada verso la trappola, fa' che i nostri filtri guardino anche dove non c'è niente da vedere. Amen.",
+    "feast": "Si festeggia trattando gli allegati HTML come eseguibili e firmando i documenti solo dal sito ufficiale, mai partendo da un allegato.",
+    "proverb": "Anche un'immagine vuota può avere il doppio fondo."
+  },
+  "en": {
+    "title": "Blessed Blank Image, Who Showed Nothing",
+    "patronage": "HTML attachments, empty SVG images, and fake signature requests.",
+    "hagiography": "In January 2023 Avanan, a Check Point company, described the \"Blank Image attack\": emails pretending to come from DocuSign carried an HTML attachment holding an empty, Base64-encoded SVG image that hid a piece of JavaScript. Once the attachment was opened the image showed nothing, but the code sent the victim to a malicious page, while the link stayed invisible to checks that look for suspicious addresses in messages.",
+    "prayer": "O Blessed Blank Image, who hides the road to the trap inside emptiness, let our filters look even where there is nothing to see. Amen.",
+    "feast": "Celebrated by treating HTML attachments like executables and signing documents only on the official site, never starting from an attachment.",
+    "proverb": "Even an empty picture can have a false bottom."
+  }
+}

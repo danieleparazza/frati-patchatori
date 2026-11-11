@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato MouseJack, topo che si credeva tastiera",
+    "patronage": "dei mouse senza fili, delle chiavette USB a 2,4 GHz e di chi lascia il PC sbloccato perché \"tanto è solo un mouse\".",
+    "hagiography": "Il 23 febbraio 2016 Marc Newlin di Bastille presentò MouseJack. Molti mouse e tastiere senza fili non Bluetooth, di Logitech, Dell, HP, Lenovo, Microsoft, Gigabyte e AmazonBasics, parlavano con la loro chiavetta USB su protocolli proprietari a 2,4 GHz, e i pacchetti dei mouse non erano cifrati. Fingendosi il mouse, un attaccante poteva far arrivare alla chiavetta anche battute di tastiera e scrivere comandi sul computer altrui. Secondo Bastille bastavano una radio USB da circa 15 dollari, poche righe di Python e, nei casi migliori, una distanza fino a un centinaio di metri.",
+    "prayer": "O Beato MouseJack, che squittisci comandi da lontano, fa' che i nostri ricevitori ascoltino solo il loro topo. Amen.",
+    "feast": "Si festeggia aggiornando il firmware dei ricevitori dove il produttore lo permette, sostituendo quelli che non si aggiornano e bloccando lo schermo quando ci si alza.",
+    "proverb": "Topo che non cifra, gatto che scrive."
+  },
+  "en": {
+    "title": "Blessed MouseJack, Mouse Who Thought It Was a Keyboard",
+    "patronage": "wireless mice, 2.4 GHz USB dongles, and everyone who leaves their PC unlocked because \"it's just a mouse\".",
+    "hagiography": "On 23 February 2016 Marc Newlin of Bastille presented MouseJack. Many non-Bluetooth wireless mice and keyboards from Logitech, Dell, HP, Lenovo, Microsoft, Gigabyte and AmazonBasics talked to their USB dongle over proprietary 2.4 GHz protocols, and mouse packets weren't encrypted. By posing as the mouse, an attacker could slip keystrokes to the dongle as well and type commands on someone else's computer. According to Bastille, all it took was a USB radio costing about 15 dollars, a few lines of Python and, at best, a range of up to around a hundred metres.",
+    "prayer": "O Blessed MouseJack, who squeak commands from afar, let our receivers listen only to their own mouse. Amen.",
+    "feast": "Celebrated by updating receiver firmware where the vendor allows it, replacing the ones that can't be updated, and locking the screen whenever you stand up.",
+    "proverb": "An unencrypted mouse lets the cat do the typing."
+  }
+}

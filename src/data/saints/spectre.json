@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Spectre, fantasma della speculazione",
+    "patronage": "dei processori moderni, dei predittori di salto e di chi credeva che il futuro, se annullato, non lasciasse tracce.",
+    "hagiography": "Il 3 gennaio 2018, qualche giorno prima della fine dell'embargo, il mondo conobbe Spectre, scoperto indipendentemente da Jann Horn di Google Project Zero e da Paul Kocher insieme a un gruppo di ricercatori accademici. Per correre, il processore esegue in anticipo istruzioni che forse non serviranno; un attaccante può ingannarne i predittori, facendo saltare un controllo sui limiti (CVE-2017-5753) o avvelenando i salti indiretti (CVE-2017-5715), e poi leggere dalla cache i segreti toccati in quell'esecuzione fantasma. Colpiva processori Intel, AMD e Arm, e nessuna patch singola bastava a scacciarlo.",
+    "prayer": "O San Spectre, fantasma di ciò che il processore ha solo immaginato, fa' che i nostri segreti non lascino orme nella cache. Amen.",
+    "feast": "Si festeggia con microcode aggiornato, retpoline e barriere di speculazione nel kernel, siti isolati nei browser e una certa rassegnazione: come dissero i suoi scopritori, ci perseguiterà a lungo.",
+    "proverb": "Il futuro annullato lascia comunque le impronte."
+  },
+  "en": {
+    "title": "Saint Spectre, Ghost of Speculation",
+    "patronage": "modern processors, branch predictors, and everyone who believed a cancelled future leaves no trace.",
+    "hagiography": "On 3 January 2018, a few days before the embargo ended, the world met Spectre, found independently by Jann Horn of Google Project Zero and by Paul Kocher with a group of academic researchers. To go faster, a processor runs ahead with instructions it may not need; an attacker can trick its predictors, skipping a bounds check (CVE-2017-5753) or poisoning indirect branches (CVE-2017-5715), and then read from the cache the secrets touched by that phantom execution. It hit Intel, AMD and Arm processors, and no single patch could drive it out.",
+    "prayer": "O Saint Spectre, ghost of what the processor merely imagined, let our secrets leave no footprints in the cache. Amen.",
+    "feast": "Celebrated with updated microcode, retpolines and speculation barriers in the kernel, site isolation in browsers, and a certain resignation: as its discoverers put it, it will haunt us for quite some time.",
+    "proverb": "Even a future that never happened leaves footprints."
+  }
+}

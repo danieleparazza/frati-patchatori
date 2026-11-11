@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San WorstFit, che adattava male i caratteri",
+    "patronage": "delle code page di Windows, delle virgolette a larghezza piena e delle righe di comando che cambiano strada facendo.",
+    "hagiography": "Il 9 gennaio 2025 Orange Tsai e splitline di DEVCORE pubblicarono WorstFit, già presentato a Black Hat Europe 2024: quando una stringa Unicode passa per le API «ANSI» di Windows, i caratteri che la code page non conosce vengono sostituiti con il più somigliante, il cosiddetto Best-Fit. Così una virgoletta a larghezza piena diventa una virgoletta vera e un trattino morbido diventa un trattino, spezzando argomenti e aggirando filtri. Ne nacque CVE-2024-4577 in PHP-CGI, sfruttata in massa anche da bande ransomware, e problemi in svn, Perforce, Excel e altri programmi.",
+    "prayer": "O San WorstFit, che trovi a ogni carattere un sosia pericoloso, fa' che i nostri programmi parlino Unicode fino in fondo. Amen.",
+    "feast": "Si festeggia aggiornando PHP (8.1.29, 8.2.20, 8.3.8 o successivi), usando le API Unicode «W» al posto di quelle «A» e diffidando delle virgolette che sembrano vere.",
+    "proverb": "Il sosia più somigliante è il peggiore impostore."
+  },
+  "en": {
+    "title": "Saint WorstFit, Who Fitted Characters Badly",
+    "patronage": "Windows code pages, fullwidth quotation marks, and command lines that change along the way.",
+    "hagiography": "On 9 January 2025 Orange Tsai and splitline of DEVCORE published WorstFit, first presented at Black Hat Europe 2024: when a Unicode string goes through Windows \"ANSI\" APIs, characters the code page does not know are replaced with their closest look-alike, the so-called Best-Fit. A fullwidth quotation mark becomes a real one and a soft hyphen becomes a hyphen, splitting arguments and dodging filters. Out of it came CVE-2024-4577 in PHP-CGI, mass-exploited by ransomware gangs among others, and flaws in svn, Perforce, Excel and other programs.",
+    "prayer": "O Saint WorstFit, who finds a dangerous double for every character, let our programs speak Unicode all the way through. Amen.",
+    "feast": "Celebrated by updating PHP (8.1.29, 8.2.20, 8.3.8 or later), using the Unicode \"W\" APIs instead of the \"A\" ones, and distrusting quotation marks that look genuine.",
+    "proverb": "The closest look-alike makes the worst impostor."
+  }
+}

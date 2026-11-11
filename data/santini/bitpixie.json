@@ -1,0 +1,10 @@
+{
+  "label": "bitpixie",
+  "motto": "PIXIS CLAVEM FURATUR",
+  "niche": [
+    "#1e1430",
+    "#43306a"
+  ],
+  "accent": "#33244f",
+  "emblem": "<path d=\"M150 196 q-28 -30 -44 -10 q10 26 44 10z\" fill=\"#bfc9d1\" opacity=\"0.8\"/><path d=\"M150 196 q28 -30 44 -10 q-10 26 -44 10z\" fill=\"#bfc9d1\" opacity=\"0.8\"/>\n<circle cx=\"150\" cy=\"172\" r=\"10\" fill=\"#fbf3dd\"/><path d=\"M144 182 h12 l6 36 h-24z\" fill=\"#e8c45c\"/>\n<line x1=\"160\" y1=\"190\" x2=\"186\" y2=\"146\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<path d=\"M186 138 l3 6 l7 1 l-5 5 l1 7 l-6 -3 l-6 3 l1 -7 l-5 -5 l7 -1z\" fill=\"#e8c45c\"/>\n<circle cx=\"116\" cy=\"230\" r=\"8\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\"/><path d=\"M124 230 h26 M142 230 v8 M148 230 v6\" stroke=\"#d9ad55\" stroke-width=\"4\"/>\n<text x=\"120\" y=\"138\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">PXE</text>"
+}

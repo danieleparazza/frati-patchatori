@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San iTLB multihit, che dava due risposte a una domanda",
+    "patronage": "degli hypervisor, delle pagine grandi e piccole e dei server che si fermano per un errore di controllo macchina.",
+    "hagiography": "Il 12 novembre 2019 Intel rese pubblico CVE-2018-12207: quando una macchina virtuale cambia insieme indirizzo e dimensione di una pagina, il TLB delle istruzioni può ritrovarsi con due voci valide per lo stesso indirizzo, una per ciascuna dimensione, e il processore risponde con un errore di controllo macchina che blocca l'intero host. Tacito Security l'aveva trovato già nel 2017 facendo fuzzing su Hyper-V, e Intel lo riscoprì per conto suo. Il microcode non può correggerlo: la difesa spetta all'hypervisor.",
+    "prayer": "O San iTLB multihit, che dai al processore due verità e lo mandi in crisi, fa' che i nostri hypervisor spezzino le pagine prima che sia tardi. Amen.",
+    "feast": "Si festeggia attivando nell'hypervisor la mitigazione che rende non eseguibili le pagine grandi e le divide in pagine da 4 KB quando serve: KVM la applica da sé, Hyper-V ed ESXi vanno istruiti.",
+    "proverb": "Due risposte giuste fanno un errore."
+  },
+  "en": {
+    "title": "Saint iTLB multihit, Who Gave Two Answers to One Question",
+    "patronage": "hypervisors, pages large and small, and servers halted by a machine check.",
+    "hagiography": "On 12 November 2019 Intel disclosed CVE-2018-12207: when a virtual machine changes both the address and the size of a page, the instruction TLB can end up with two valid entries for the same address, one for each size, and the processor answers with a machine check that freezes the whole host. Tacito Security had already found it in 2017 while fuzzing Hyper-V, and Intel rediscovered it independently. Microcode cannot fix it: the defence falls to the hypervisor.",
+    "prayer": "O Saint iTLB multihit, who gives the processor two truths and sends it into crisis, let our hypervisors split the pages before it is too late. Amen.",
+    "feast": "Celebrated by enabling the hypervisor mitigation that marks large pages non-executable and splits them into 4 KB pages when needed: KVM does it on its own, Hyper-V and ESXi must be told.",
+    "proverb": "Two right answers make one machine check."
+  }
+}

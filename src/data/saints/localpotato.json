@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LocalPotato, tubero dei privilegi",
+    "patronage": "dell'autenticazione NTLM locale, delle condivisioni SMB e della famiglia delle patate, notoriamente ambiziosa.",
+    "hagiography": "Nel gennaio 2023 Microsoft corresse CVE-2023-21746, scoperta da Andrea Pierini (decoder_it) e Antonio Cocomazzi (splinter_code) e battezzata LocalPotato, ultima di una lunga stirpe di «patate» per Windows. Durante un'autenticazione NTLM locale, un utente qualsiasi poteva scambiare i contesti di sicurezza e attribuire alla propria connessione l'identità di un processo privilegiato, ottenendo per esempio di leggere e scrivere file come SYSTEM attraverso SMB. Da lì, diventare padroni della macchina era questione di poco.",
+    "prayer": "O San LocalPotato, che germogli dove nessuno ha seminato, fa' che i nostri contesti NTLM restino a chi li ha chiesti. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti di Windows di gennaio 2023 e, potendo, riducendo l'uso di NTLM, la terra dove le patate crescono meglio.",
+    "proverb": "Dove c'è NTLM, una patata nasce sempre."
+  },
+  "en": {
+    "title": "Saint LocalPotato, Tuber of Privileges",
+    "patronage": "local NTLM authentication, SMB shares, and the famously ambitious potato family.",
+    "hagiography": "In January 2023 Microsoft fixed CVE-2023-21746, found by Andrea Pierini (decoder_it) and Antonio Cocomazzi (splinter_code) and christened LocalPotato, the latest of a long line of Windows \"potatoes\". During local NTLM authentication, any user could swap security contexts and give their own connection the identity of a privileged process, gaining for instance the ability to read and write files as SYSTEM over SMB. From there, owning the machine was a short step.",
+    "prayer": "O Saint LocalPotato, who sprouts where nobody sowed, let our NTLM contexts stay with those who asked for them. Amen.",
+    "feast": "Celebrated with the January 2023 Windows updates and, where possible, by cutting down on NTLM, the soil where potatoes grow best.",
+    "proverb": "Wherever NTLM grows, a potato sprouts."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "WorstFit",
+  "motto": "SIMILIS SED PESSIMUS",
+  "niche": [
+    "#231a12",
+    "#4c3a26"
+  ],
+  "accent": "#4a3320",
+  "emblem": "<circle cx=\"150\" cy=\"200\" r=\"32\" fill=\"#2a1e14\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<rect x=\"126\" y=\"136\" width=\"48\" height=\"48\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"2\" transform=\"rotate(8 150 160)\"/>\n<text x=\"150\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"34\" fill=\"#4a3320\">\"</text>\n<text x=\"150\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"20\" fill=\"#fbf3dd\">-</text>\n<path d=\"M98 130 l14 10 M202 130 l-14 10\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>"
+}

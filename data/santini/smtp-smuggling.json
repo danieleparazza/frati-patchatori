@@ -1,0 +1,10 @@
+{
+  "label": "SMTP Smuggling",
+  "motto": "EPISTOLA IN EPISTOLA",
+  "niche": [
+    "#1a2024",
+    "#36454c"
+  ],
+  "accent": "#2a3a42",
+  "emblem": "<rect x=\"104\" y=\"140\" width=\"92\" height=\"62\" rx=\"4\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M104 142 l46 34 l46 -34\" fill=\"none\" stroke=\"#b8892b\" stroke-width=\"2\"/>\n<rect x=\"130\" y=\"174\" width=\"40\" height=\"26\" rx=\"2\" fill=\"#d9ad55\" stroke=\"#7a5a1f\" stroke-width=\"1.5\"/>\n<path d=\"M130 176 l20 13 l20 -13\" fill=\"none\" stroke=\"#7a5a1f\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"228\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">&lt;LF&gt;.&lt;CR&gt;&lt;LF&gt;</text>"
+}

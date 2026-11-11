@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ShazLocate, che riconosceva la canzone e il posto",
+    "patronage": "dell'app Shazam, dei deep link e delle webview con ponti JavaScript troppo generosi.",
+    "hagiography": "Il 17 gennaio 2021 Ashley King raccontò ShazLocate (CVE-2019-8791 e CVE-2019-8792): l'app Shazam accettava un link shazam://launchurl che apriva qualunque indirizzo in una webview, senza controllarlo. A quella webview era collegato un ponte JavaScript verso le funzioni dell'app, così una pagina malevola poteva leggere informazioni sul dispositivo e l'ultima posizione precisa dell'utente con un solo clic. Segnalato a dicembre 2018, fu corretto a marzo 2019.",
+    "prayer": "O San ShazLocate, che oltre al titolo del brano indovini anche dove lo stiamo ascoltando, fa' che le nostre webview aprano solo le pagine di casa. Amen.",
+    "feast": "Si festeggia aggiornando Shazam (9.25.0 o successive su Android, 12.11.0 o successive su iOS) e non esponendo ponti JavaScript a pagine esterne.",
+    "proverb": "Dimmi cosa ascolti e ti dirò dove sei."
+  },
+  "en": {
+    "title": "Saint ShazLocate, Who Recognised the Song and the Place",
+    "patronage": "the Shazam app, deep links, and webviews with overly generous JavaScript bridges.",
+    "hagiography": "On 17 January 2021 Ashley King described ShazLocate (CVE-2019-8791 and CVE-2019-8792): the Shazam app accepted a shazam://launchurl link that opened any address in a webview without checking it. That webview was wired to a JavaScript bridge into the app's functions, so a malicious page could read device information and the user's last precise location with a single click. Reported in December 2018, it was fixed in March 2019.",
+    "prayer": "O Saint ShazLocate, who guesses not only the song but where we are listening to it, let our webviews open only pages from home. Amen.",
+    "feast": "Celebrated by updating Shazam (9.25.0 or later on Android, 12.11.0 or later on iOS) and never exposing JavaScript bridges to outside pages.",
+    "proverb": "Tell me what you're listening to and I'll tell you where you are."
+  }
+}

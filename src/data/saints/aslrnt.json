@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ASLRn't, che metteva in fila il caso",
+    "patronage": "delle librerie grandi, delle pagine da 2 MB e del caso che, a forza di ordine, smette di essere tale.",
+    "hagiography": "L'8 gennaio 2024 Jennifer Miller (zolutal) raccontò ASLRn't: da Linux 5.18 il kernel allineava a 2 MB tutte le mappature di file grandi almeno 2 MB, una cortesia pensata per le pagine enormi, e così librerie come la libc perdevano i bit bassi della loro posizione casuale. Sui sistemi a 64 bit l'entropia scendeva da circa 28 a 19 bit; sulle librerie a 32 bit l'ASLR spariva del tutto, con la libc sempre allo stesso indirizzo. Il difetto fu riprodotto su Ubuntu, Arch e Fedora.",
+    "prayer": "O Beato ASLRn't, che metti in fila ciò che doveva nascondersi, restituisci ai nostri indirizzi la loro sana confusione. Amen.",
+    "feast": "Si festeggia con un kernel che abbia ripristinato la casualità (Ubuntu alzò i bit di mmap_rnd_bits) e ricordando che anche un'ottimizzazione può avere un prezzo.",
+    "proverb": "Troppo ordine, poco mistero."
+  },
+  "en": {
+    "title": "Blessed ASLRn't, Who Lined Up Chance",
+    "patronage": "large libraries, 2 MB pages, and randomness that stops being random under too much order.",
+    "hagiography": "On 8 January 2024 Jennifer Miller (zolutal) described ASLRn't: since Linux 5.18 the kernel aligned to 2 MB every mapping of a file at least 2 MB in size, a courtesy meant for huge pages, so libraries such as libc lost the low bits of their random placement. On 64-bit systems entropy fell from about 28 to 19 bits; for 32-bit libraries ASLR vanished altogether, with libc always at the same address. The flaw was reproduced on Ubuntu, Arch and Fedora.",
+    "prayer": "O Blessed ASLRn't, who lines up what was meant to hide, give our addresses back their healthy confusion. Amen.",
+    "feast": "Celebrated with a kernel that has restored the randomness (Ubuntu raised mmap_rnd_bits) and by remembering that even an optimisation has a price.",
+    "proverb": "Too much order, too little mystery."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Ni8mare, incubo dei flussi di lavoro",
+    "patronage": "degli automatismi n8n, dei moduli web e delle intestazioni Content-Type prese in parola.",
+    "hagiography": "Il 7 gennaio 2026 Dor Attias di Cyera Research Labs raccontò Ni8mare (CVE-2026-21858, CVSS 10): nei flussi n8n basati su moduli, il codice che gestiva i file caricati non verificava che la richiesta fosse davvero multipart, così un attaccante senza credenziali poteva mandare un JSON con un finto elenco di file e farsi copiare qualsiasi file del server. Dalla configurazione si ricavava il segreto che firma i cookie, da lì una sessione di amministratore e infine l'esecuzione di comandi. Segnalato a novembre 2025, fu corretto in n8n 1.121.0.",
+    "prayer": "O San Ni8mare, che entri dal modulo dei contatti ed esci con le chiavi di casa, fa' che i nostri automatismi guardino chi bussa e cosa porta. Amen.",
+    "feast": "Si festeggia aggiornando a n8n 1.121.0 o successivi e non lasciando su Internet i moduli pubblici di istanze che custodiscono le credenziali di mezza azienda.",
+    "proverb": "Chi automatizza tutto, automatizza anche il ladro."
+  },
+  "en": {
+    "title": "Saint Ni8mare, Nightmare of Workflows",
+    "patronage": "n8n automations, web forms, and Content-Type headers taken at their word.",
+    "hagiography": "On 7 January 2026 Dor Attias of Cyera Research Labs described Ni8mare (CVE-2026-21858, CVSS 10): in form-based n8n workflows, the code handling uploaded files did not check that the request was really multipart, so an attacker without credentials could send JSON with a fake list of files and have any file on the server copied out. The configuration yielded the secret that signs cookies, then an admin session, and finally command execution. Reported in November 2025, it was fixed in n8n 1.121.0.",
+    "prayer": "O Saint Ni8mare, who comes in through the contact form and leaves with the house keys, let our automations look at who knocks and what they carry. Amen.",
+    "feast": "Celebrated by updating to n8n 1.121.0 or later and not leaving public forms online on instances that hold the credentials of half the company.",
+    "proverb": "Automate everything and you automate the burglar too."
+  }
+}

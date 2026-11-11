@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BadBluetooth, cuffia che diventava tastiera",
+    "patronage": "delle periferiche Bluetooth, dei profili cambiati in silenzio e di chi abbina tutto ciò che gli chiede di abbinarsi.",
+    "hagiography": "Al simposio NDSS del febbraio 2019 Fenghao Xu, Wenrui Diao, Zhou Li, Jiongyi Chen e Kehuan Zhang, della Chinese University of Hong Kong, della Jinan University e della University of California, Irvine, presentarono BadBluetooth. Android si fidava di un dispositivo abbinato nel suo insieme, non profilo per profilo: una periferica in apparenza innocua poteva cambiare profilo dopo l'abbinamento senza avvisare nessuno, per esempio fingersi tastiera e mouse e toccare le impostazioni, oppure offrirsi come rete o come vivavoce per intercettare traffico e chiamate. Gli autori proposero una verifica più fine e la provarono su un Google Pixel 2.",
+    "prayer": "O Beato BadBluetooth, che entri come cuffia ed esci come tastiera, fa' che i nostri telefoni chiedano permesso a ogni travestimento. Amen.",
+    "feast": "Si festeggia controllando spesso l'elenco dei dispositivi abbinati, togliendo quelli che non si riconoscono e lasciando il Bluetooth spento quando non serve.",
+    "proverb": "Chi si abbina a tutto, si ritrova a scrivere sotto dettatura."
+  },
+  "en": {
+    "title": "Blessed BadBluetooth, Headset Turned Keyboard",
+    "patronage": "Bluetooth peripherals, silently swapped profiles, and everyone who pairs with whatever asks.",
+    "hagiography": "At NDSS in February 2019 Fenghao Xu, Wenrui Diao, Zhou Li, Jiongyi Chen and Kehuan Zhang, of the Chinese University of Hong Kong, Jinan University and the University of California, Irvine, presented BadBluetooth. Android trusted a paired device as a whole, not profile by profile: a harmless-looking peripheral could switch profiles after pairing without telling anyone, for instance posing as a keyboard and mouse to tamper with settings, or offering itself as a network or hands-free kit to intercept traffic and calls. The authors proposed finer-grained checks and tested them on a Google Pixel 2.",
+    "prayer": "O Blessed BadBluetooth, who come in as a headset and leave as a keyboard, let our phones ask permission for every disguise. Amen.",
+    "feast": "Celebrated by checking the list of paired devices often, removing the ones you don't recognise, and keeping Bluetooth off when you don't need it.",
+    "proverb": "Pair with everything and you'll end up typing to dictation."
+  }
+}

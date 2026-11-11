@@ -1,0 +1,10 @@
+{
+  "label": "EmojiDeploy",
+  "motto": "SUBRIDE ET EXSEQUERE",
+  "niche": [
+    "#14243a",
+    "#2f4f78"
+  ],
+  "accent": "#1f3a5c",
+  "emblem": "<path d=\"M104 222 q-14 0 -14 -14 q0 -14 16 -14 q4 -18 24 -18 q14 -16 34 -6 q22 -4 28 16 q16 2 16 18 q0 18 -18 18 z\" fill=\"#2a4466\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"150\" r=\"30\" fill=\"#e8c45c\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"140\" cy=\"143\" r=\"4\" fill=\"#2b1d14\"/><circle cx=\"160\" cy=\"143\" r=\"4\" fill=\"#2b1d14\"/>\n<path d=\"M134 156 q16 16 32 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<text x=\"150\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#fbf3dd\">._.</text>"
+}

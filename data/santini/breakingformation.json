@@ -1,0 +1,10 @@
+{
+  "label": "BreakingFormation",
+  "motto": "ENTITAS EXTERNA FRANGIT",
+  "niche": [
+    "#16202c",
+    "#304660"
+  ],
+  "accent": "#233a56",
+  "emblem": "<path d=\"M112 196 a22 22 0 0 1 8 -42 a30 30 0 0 1 56 -4 a22 22 0 0 1 10 46 z\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M150 130 l-8 22 l12 8 l-10 20 l8 16\" fill=\"none\" stroke=\"#233a56\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"230\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#d9ad55\">&lt;!ENTITY&gt;</text>"
+}

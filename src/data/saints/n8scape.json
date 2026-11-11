@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San N8Scape, evaso dalla sabbiera",
+    "patronage": "dei nodi Code di n8n, di Pyodide e delle liste nere che dimenticano sempre qualcosa.",
+    "hagiography": "Il 13 gennaio 2026 Vladimir Tokarev e Ofek Itach di Cyera Research Labs raccontarono N8Scape (CVE-2025-68668, CVSS 9.9): il nodo Code di n8n eseguiva Python con Pyodide e lo teneva a bada con una lista nera di funzioni pericolose. Bastava passare da ctypes per chiamare direttamente system(), oppure da una funzione interna di Pyodide non sorvegliata, e chi poteva creare o modificare flussi eseguiva comandi con i privilegi del processo n8n. Riguardava le versioni dalla 1.0.0 fino alla 2.0.0 esclusa.",
+    "prayer": "O San N8Scape, serpente che scavalchi il recinto di sabbia, fa' che i nostri sandbox chiudano tutte le porte e non solo le più note. Amen.",
+    "feast": "Si festeggia passando a n8n 2.0.0 o successivi oppure, nell'attesa, disattivando Python nel nodo Code (N8N_PYTHON_ENABLED=false) o usando i task runner.",
+    "proverb": "Lista nera corta, serpente contento."
+  },
+  "en": {
+    "title": "Saint N8Scape, Escapee From the Sandbox",
+    "patronage": "n8n Code nodes, Pyodide, and blocklists that always forget something.",
+    "hagiography": "On 13 January 2026 Vladimir Tokarev and Ofek Itach of Cyera Research Labs described N8Scape (CVE-2025-68668, CVSS 9.9): n8n's Code node ran Python through Pyodide and kept it in check with a blocklist of dangerous functions. Going through ctypes to call system() directly, or through an unguarded internal Pyodide function, was enough, and anyone able to create or edit workflows could run commands with the n8n process's privileges. It affected versions from 1.0.0 up to, but not including, 2.0.0.",
+    "prayer": "O Saint N8Scape, serpent who climbs over the sandpit fence, let our sandboxes shut every door and not just the famous ones. Amen.",
+    "feast": "Celebrated by moving to n8n 2.0.0 or later or, in the meantime, disabling Python in the Code node (N8N_PYTHON_ENABLED=false) or using task runners.",
+    "proverb": "A short blocklist makes a happy snake."
+  }
+}

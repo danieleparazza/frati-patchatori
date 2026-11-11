@@ -549,6 +549,181 @@
     "amnesia-33": {
       "vendor": "Multiple",
       "product": "uIP, FNET, picoTCP, Nut/Net TCP/IP stacks"
+    },
+    "ldapbleed": {
+      "author": "Yuki Chen"
+    },
+    "spectre": {
+      "vendor": "Intel, AMD, Arm",
+      "canonical": "https://spectreattack.com"
+    },
+    "smtp-smuggling": {
+      "author": "Timo Longin (SEC Consult)"
+    },
+    "ni8mare": {
+      "author": "Dor Attias (Cyera)"
+    },
+    "n8scape": {
+      "author": "Vladimir Tokarev, Ofek Itach (Cyera)"
+    },
+    "zombieagent": {
+      "author": "Zvika Babo (Radware)"
+    },
+    "worstfit": {
+      "author": "Orange Tsai, splitline (DEVCORE)"
+    },
+    "localpotato": {
+      "author": "Andrea Pierini, Antonio Cocomazzi"
+    },
+    "powerdir": {
+      "author": "Jonathan Bar Or (Microsoft)"
+    },
+    "superglue": {
+      "author": "Yanir Tsarimi (Orca Security)"
+    },
+    "sh1mmer": {
+      "author": "Mercury Workshop"
+    },
+    "glueball": {
+      "author": "Bernardo Quintero, Francisco Santos (VirusTotal)"
+    },
+    "codebreach": {
+      "author": "Yuval Avrahami, Nir Ohfeld (Wiz)"
+    },
+    "itlb-multihit": {
+      "vendor": "Intel",
+      "product": "Intel processors"
+    },
+    "stackwarp": {
+      "product": "AMD processors (Zen 1 to Zen 5)"
+    },
+    "mavengate": {
+      "canonical": "https://oversecured.com/blog/introducing-mavengate-a-supply-chain-attack-method-for-java-and-android-applications"
+    },
+    "mdb-leaker": {
+      "canonical": "https://mimecast.com/blog/mimecast-discovers-mdb-leaker-microsoft-access-vulnerability-cve-2019-1463"
+    },
+    "evil-maid": {
+      "author": "Joanna Rutkowska (Invisible Things Lab)"
+    },
+    "fedmua": {
+      "author": "Jian Chen, Zehui Lin, Wanyu Lin, Wenlong Shi, Xiaoyan Yin, Di Wang"
+    },
+    "cloneleak": {
+      "vendor": "GitHub",
+      "product": "Git credential helpers (GitHub Desktop, Git Credential Manager, Git LFS, GitHub CLI, Git)",
+      "author": "RyotaK (GMO Flatt Security)"
+    },
+    "nat-slipstreaming-2": {
+      "product": "Web browsers (Chrome, Edge, Firefox, Safari)",
+      "author": "Ben Seri and Gregory Vishnepolsky (Armis), with Samy Kamkar"
+    },
+    "cellbreak": {
+      "vendor": "Grist Labs",
+      "product": "Grist (grist-core)",
+      "author": "Vladimir Tokarev (Cyera Research Labs)"
+    },
+    "crashxts": {
+      "product": "Windows (BitLocker)"
+    },
+    "mutagen-astronomy": {
+      "vendor": "Linux",
+      "product": "Linux kernel"
+    },
+    "zombie-poodle": {
+      "vendor": "Citrix",
+      "product": "NetScaler Gateway and ADC"
+    },
+    "emojideploy": {
+      "vendor": "Microsoft",
+      "product": "Azure App Service & Functions (Kudu)"
+    },
+    "kindledrip": {
+      "vendor": "Amazon",
+      "product": "Kindle e-reader"
+    },
+    "myflaw": {
+      "vendor": "Opera",
+      "product": "Opera browser (My Flow)",
+      "author": "Oleg Zaytsev (Guardio Labs)"
+    },
+    "eventlogcrasher": {
+      "vendor": "Microsoft",
+      "product": "Windows (Event Log service)"
+    },
+    "sysall": {
+      "vendor": "Google",
+      "product": "Google Kubernetes Engine"
+    },
+    "reprompt": {
+      "vendor": "Microsoft",
+      "product": "Copilot Personal",
+      "author": "Dolev Taler (Varonis Threat Labs)"
+    },
+    "flop": {
+      "vendor": "Apple",
+      "product": "Apple silicon (M3/A17 and later)"
+    },
+    "slap": {
+      "vendor": "Apple",
+      "product": "Apple silicon (M2/A15 and later)"
+    },
+    "exfil-out-and-look": {
+      "vendor": "Microsoft",
+      "product": "Outlook add-ins",
+      "author": "Hadas Shalev (Varonis)"
+    },
+    "unbridled-optimism": {
+      "vendor": "Optimism",
+      "product": "l2geth"
+    },
+    "dockerdash": {
+      "vendor": "Docker",
+      "product": "Docker Desktop (Ask Gordon)",
+      "author": "Sasi Levi (Noma Labs)"
+    },
+    "nullifai": {
+      "vendor": "Hugging Face",
+      "product": "Picklescan",
+      "author": "Karlo Zanki (ReversingLabs)"
+    },
+    "chainleak": {
+      "author": "Gal Zaban & Ido Shani (Zafran Labs)"
+    },
+    "lookout": {
+      "author": "Liv Matan, Moshe Bernstein (Tenable)"
+    },
+    "bitpixie": {
+      "product": "Windows Boot Manager / BitLocker (Windows 7–11, Server 2008–2022)"
+    },
+    "em-eye": {
+      "author": "Yan Long, Qinhong Jiang, Chen Yan, Tobias Alam, Xiaoyu Ji, Wenyuan Xu, Kevin Fu"
+    },
+    "printlistener": {
+      "author": "Man Zhou, Shuao Su, Qian Wang, Qi Li, Yuting Zhou, Xiaojing Ma, Zhengxiong Li"
+    },
+    "airsnitch": {
+      "author": "Xin'an Zhou, Juefei Pu, Zhutian Liu, Zhiyun Qian, Zhaowei Tan, Srikanth V. Krishnamurthy, Mathy Vanhoef"
+    },
+    "thunderclap": {
+      "author": "A. Theodore Markettos, Colin Rothwell, Brett F. Gutstein, Allison Pearce, Peter G. Neumann, Simon W. Moore, Robert N. M. Watson"
+    },
+    "tcp-sequence-prediction-1985": {
+      "author": "Robert T. Morris (AT&T Bell Labs)"
+    },
+    "mms-fingerprint": {
+      "author": "Cathal McDaid (Enea)"
+    },
+    "clawjacked": {
+      "author": "Elad Luz (Oasis Security)"
+    },
+    "dupefs": {
+      "author": "Andrei Bacs, Saidgani Musaev, Kaveh Razavi, Cristiano Giuffrida, Herbert Bos (VU Amsterdam / ETH Zurich)"
+    },
+    "superfish": {
+      "vendor": "Lenovo",
+      "product": "Superfish VisualDiscovery (Komodia SDK)",
+      "author": null
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beata Evil Maid, cameriera infedele",
+    "patronage": "dei portatili lasciati in albergo, dei bootloader e di chi appende il cartello \"non disturbare\" convinto che basti.",
+    "hagiography": "Il 21 gennaio 2009 Joanna Rutkowska, di Invisible Things Lab, immaginò una \"cameriera malvagia\" che entra nella stanza d'albergo mentre il portatile cifrato resta incustodito: pochi minuti di accesso fisico per alterare il codice d'avvio e registrare la passphrase, poi il ritorno per raccoglierla. Nell'ottobre dello stesso anno, con Alex Tereshkin, ne mostrò una versione funzionante contro la cifratura di sistema di TrueCrypt, su una semplice chiavetta USB. Da allora ogni attacco di questo genere porta il suo nome.",
+    "prayer": "O Beata Evil Maid, che rifai il letto e il bootloader, fa' che i nostri dischi si accorgano di chi li ha toccati. Amen.",
+    "feast": "Si festeggia con l'avvio misurato o Secure Boot e un TPM che sigilla le chiavi, e senza perdere di vista il portatile: nessuna serratura sostituisce la custodia.",
+    "proverb": "Portatile lasciato in camera, segreto partito col bucato."
+  },
+  "en": {
+    "title": "Blessed Evil Maid, the Faithless Housekeeper",
+    "patronage": "laptops left in hotel rooms, bootloaders, and anyone who hangs the \"do not disturb\" sign and thinks that's enough.",
+    "hagiography": "On 21 January 2009 Joanna Rutkowska of Invisible Things Lab imagined an \"evil maid\" who walks into the hotel room while the encrypted laptop sits unattended: a few minutes of physical access to tamper with the boot code and record the passphrase, then a second visit to collect it. In October of that year, with Alex Tereshkin, she showed a working version against TrueCrypt system encryption, on a plain USB stick. Every attack of this kind has carried the name ever since.",
+    "prayer": "O Blessed Evil Maid, who make the bed and the bootloader, let our disks notice who has touched them. Amen.",
+    "feast": "Celebrated with measured or Secure Boot and a TPM that seals the keys, and by keeping the laptop in sight: no lock replaces custody.",
+    "proverb": "Leave the laptop with the towels and your secrets go out with the laundry."
+  }
+}

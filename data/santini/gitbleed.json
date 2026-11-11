@@ -1,0 +1,10 @@
+{
+  "label": "GitBleed",
+  "motto": "RAMUS CAESUS SANGUINAT",
+  "niche": [
+    "#2a1416",
+    "#55292d"
+  ],
+  "accent": "#3f1d20",
+  "emblem": "<g stroke=\"#bfc9d1\" stroke-width=\"4\" fill=\"none\"><line x1=\"130\" y1=\"236\" x2=\"130\" y2=\"128\"/><path d=\"M130 200 C130 180 170 184 170 160\"/><path d=\"M130 160 C130 146 106 146 106 132\" stroke-dasharray=\"5 4\"/></g>\n<g fill=\"#2a1416\" stroke=\"#fbf3dd\" stroke-width=\"3\"><circle cx=\"130\" cy=\"228\" r=\"8\"/><circle cx=\"130\" cy=\"190\" r=\"8\"/><circle cx=\"130\" cy=\"140\" r=\"8\"/><circle cx=\"170\" cy=\"156\" r=\"8\"/></g>\n<circle cx=\"106\" cy=\"128\" r=\"8\" fill=\"none\" stroke=\"#7f8c8d\" stroke-width=\"2.5\" stroke-dasharray=\"4 3\"/>\n<path d=\"M182 186 C182 186 170 204 170 212 a12 12 0 0 0 24 0 C194 204 182 186 182 186 Z\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>"
+}

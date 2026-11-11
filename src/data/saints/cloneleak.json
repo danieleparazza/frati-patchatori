@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Clone2Leak, che clona e lascia trapelare",
+    "patronage": "degli helper per le credenziali di Git, dei sottomoduli e di chi clona repository sconosciuti per curiosità.",
+    "hagiography": "Il 26 gennaio 2025 RyotaK di GMO Flatt Security pubblicò Clone2Leak, una famiglia di bug nel modo in cui gli strumenti di Git dialogano con gli helper per le credenziali. Nascondendo ritorni a capo nell'URL di un repository o di un sottomodulo, un attaccante poteva confondere il protocollo e farsi consegnare le credenziali destinate a un altro host, come il token di GitHub. Erano coinvolti GitHub Desktop, Git Credential Manager, Git LFS, GitHub CLI e Git stesso, con cinque CVE.",
+    "prayer": "O San Clone2Leak, che con un ritorno a capo cambi strada al pellegrino, fa' che le nostre credenziali tornino solo a casa loro. Amen.",
+    "feast": "Si festeggia aggiornando Git alla 2.48.1, GitHub Desktop alla 3.4.12, Git Credential Manager alla 2.6.1, Git LFS alla 3.6.1 e GitHub CLI alla 2.63.0, e revocando i token che potrebbero essere usciti.",
+    "proverb": "Chi clona alla cieca presta le chiavi."
+  },
+  "en": {
+    "title": "Saint Clone2Leak, Who Clones and Leaks",
+    "patronage": "Git credential helpers, submodules, and anyone who clones strange repositories out of curiosity.",
+    "hagiography": "On 26 January 2025 RyotaK of GMO Flatt Security published Clone2Leak, a family of bugs in the way Git tools talk to credential helpers. By hiding carriage returns or newlines in the URL of a repository or submodule, an attacker could confuse the protocol and be handed the credentials meant for another host, such as a GitHub token. GitHub Desktop, Git Credential Manager, Git LFS, GitHub CLI and Git itself were involved, with five CVEs.",
+    "prayer": "O Saint Clone2Leak, who turn the pilgrim down another road with a single line break, let our credentials go home and nowhere else. Amen.",
+    "feast": "Celebrated by updating Git to 2.48.1, GitHub Desktop to 3.4.12, Git Credential Manager to 2.6.1, Git LFS to 3.6.1 and GitHub CLI to 2.63.0, and by revoking any token that may have escaped.",
+    "proverb": "Clone blind and you lend out your keys."
+  }
+}

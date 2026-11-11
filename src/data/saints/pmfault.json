@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San PMFault, che dava la scossa ai server",
+    "patronage": "dei controller BMC, del bus PMBus e dei processori Xeon che non sopportano i 2,84 volt.",
+    "hagiography": "Nel gennaio 2023 Zitai Chen e David Oswald dell'Università di Birmingham presentarono PMFault: sfruttando le debolezze software del BMC di una scheda Supermicro X11SSL-CF, senza accesso fisico né credenziali, si poteva parlare con il regolatore di tensione della CPU attraverso il PMBus. Abbassando la tensione si aggiravano le difese di Intel contro Plundervolt e si violava l'integrità delle enclave SGX; alzandola fino a 2,84 volt il processore Xeon veniva distrutto per sempre. I permessi insicuri del firmware BMC presero la CVE-2022-43309.",
+    "prayer": "O San PMFault, che regoli la tensione come un sacrestano l'incenso, fa' che i nostri regolatori non diano retta a qualunque controller. Amen.",
+    "feast": "Si festeggia aggiornando il firmware del BMC, tenendo l'interfaccia di gestione su una rete separata e controllando con PMBusDetect se il regolatore è raggiungibile.",
+    "proverb": "Troppa corrente, processore assente."
+  },
+  "en": {
+    "title": "Saint PMFault, Who Gave Servers a Shock",
+    "patronage": "BMC controllers, the PMBus, and Xeon processors that cannot stand 2.84 volts.",
+    "hagiography": "In January 2023 Zitai Chen and David Oswald of the University of Birmingham presented PMFault: by abusing software weaknesses in the BMC of a Supermicro X11SSL-CF board, with no physical access and no credentials, one could talk to the CPU's voltage regulator over the PMBus. Lowering the voltage got around Intel's defences against Plundervolt and broke the integrity of SGX enclaves; raising it to 2.84 volts destroyed the Xeon processor for good. The insecure permissions of the BMC firmware became CVE-2022-43309.",
+    "prayer": "O Saint PMFault, who handles voltage like a sacristan handles incense, let our regulators not heed just any controller. Amen.",
+    "feast": "Celebrated by updating BMC firmware, keeping the management interface on a separate network, and checking with PMBusDetect whether the regulator can be reached.",
+    "proverb": "Too many volts, and the Xeon bolts."
+  }
+}

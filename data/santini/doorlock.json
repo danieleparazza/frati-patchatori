@@ -1,0 +1,10 @@
+{
+  "label": "doorLock",
+  "motto": "NOMEN LONGUM PORTA CLAUSA",
+  "niche": [
+    "#1c2230",
+    "#3a4560"
+  ],
+  "accent": "#2a3350",
+  "emblem": "<path d=\"M126 160 v-18 a24 24 0 0 1 48 0 v18\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"7\"/>\n<rect x=\"114\" y=\"158\" width=\"72\" height=\"56\" rx=\"6\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"180\" r=\"6\" fill=\"#2a3350\"/><rect x=\"147\" y=\"182\" width=\"6\" height=\"16\" fill=\"#2a3350\"/>\n<path d=\"M106 224 h88\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"242\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">AAAAAAAAA…</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "DockerDash",
+  "motto": "TITULUS IMPERAT",
+  "niche": [
+    "#0f2236",
+    "#1e4a74"
+  ],
+  "accent": "#173a5c",
+  "emblem": "<g fill=\"#2a5a88\" stroke=\"#fbf3dd\" stroke-width=\"2\"><rect x=\"116\" y=\"162\" width=\"20\" height=\"18\"/><rect x=\"138\" y=\"162\" width=\"20\" height=\"18\"/><rect x=\"160\" y=\"162\" width=\"20\" height=\"18\"/><rect x=\"138\" y=\"142\" width=\"20\" height=\"18\"/></g>\n<path d=\"M100 184 h104 q-4 34 -52 38 q-46 -2 -52 -38z\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M176 140 h30 l6 9 l-6 9 h-30z\" fill=\"#d9ad55\"/><circle cx=\"182\" cy=\"149\" r=\"2.5\" fill=\"#2b1d14\"/>\n<text x=\"196\" y=\"153\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"8\" fill=\"#2b1d14\">LABEL</text>\n<path d=\"M104 238 q12 -6 24 0 t24 0 t24 0 t24 0\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2.5\"/>"
+}

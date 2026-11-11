@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DupeFS, che ascoltava i doppioni",
+    "patronage": "dei file system con deduplicazione, dei log dei server web e di chi pensava che scrivere due volte la stessa cosa fosse innocuo.",
+    "hagiography": "Al convegno FAST del febbraio 2022 Andrei Bacs, Saidgani Musaev, Kaveh Razavi, Cristiano Giuffrida e Herbert Bos, della Vrije Universiteit di Amsterdam e dell'ETH di Zurigo, presentarono DupeFS. I file system che deduplicano, come ZFS e btrfs, trattano diversamente i dati che esistono già, e la differenza si sente nei tempi: scrivendo tentativi e misurando, si può capire se un contenuto è già sul disco. Gli autori mostrarono l'attacco anche da remoto, ricavando un token OAuth dal log di accesso di nginx su ZFS, al passo paziente di circa un byte e mezzo all'ora.",
+    "prayer": "O Beato DupeFS, che riconosci i gemelli dal tempo che impiegano a nascere, fa' che i nostri dischi rispondano sempre con la stessa calma. Amen.",
+    "feast": "Si festeggia, come propongono gli autori, rendendo le scritture costanti nei tempi e sovrascrivendo i dati duplicati, oppure valutando se la deduplicazione valga i segreti che custodisce.",
+    "proverb": "Chi copia in fretta si fa riconoscere."
+  },
+  "en": {
+    "title": "Blessed DupeFS, Who Listened for Duplicates",
+    "patronage": "deduplicating file systems, web server logs, and everyone who thought writing the same thing twice was harmless.",
+    "hagiography": "At the FAST conference in February 2022 Andrei Bacs, Saidgani Musaev, Kaveh Razavi, Cristiano Giuffrida and Herbert Bos, of Vrije Universiteit Amsterdam and ETH Zurich, presented DupeFS. Deduplicating file systems such as ZFS and btrfs handle data that already exists differently, and the difference shows in timing: by writing guesses and measuring, one can tell whether some content is already on disk. The authors showed the attack remotely too, pulling an OAuth token out of an nginx access log on ZFS, at the patient pace of about one and a half bytes per hour.",
+    "prayer": "O Blessed DupeFS, who know twins by how long they take to be born, let our disks always answer with the same calm. Amen.",
+    "feast": "Celebrated, as the authors propose, by making writes constant-time and overwriting duplicate data, or by asking whether deduplication is worth the secrets it guards.",
+    "proverb": "Copy in a hurry and you give yourself away."
+  }
+}

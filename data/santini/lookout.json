@@ -1,0 +1,10 @@
+{
+  "label": "LookOut",
+  "motto": "SPECULA PERFORATA",
+  "niche": [
+    "#1c2230",
+    "#3e4a66"
+  ],
+  "accent": "#2c3550",
+  "emblem": "<path d=\"M126 240 l8 -84 h32 l8 84z\" fill=\"#3a4358\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<rect x=\"122\" y=\"140\" width=\"56\" height=\"16\" fill=\"#3a4358\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M118 140 l32 -22 l32 22z\" fill=\"#d9ad55\"/>\n<circle cx=\"150\" cy=\"190\" r=\"10\" fill=\"#e8c45c\"/>\n<path d=\"M144 216 h12 v24 h-12z\" fill=\"#2b1d14\"/>\n<text x=\"150\" y=\"210\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#fbf3dd\">' OR 1=1</text>"
+}

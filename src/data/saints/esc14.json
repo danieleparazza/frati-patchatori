@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ESC14, che cuciva il certificato sull'account altrui",
+    "patronage": "di Active Directory Certificate Services, dell'attributo altSecurityIdentities e di chi concede permessi di scrittura con leggerezza.",
+    "hagiography": "Il 28 febbraio 2024 Jonas Bülow Knudsen di SpecterOps diede un nome, ESC14, a una tecnica già documentata da Géraud de Drouas nel 2019. In Active Directory l'attributo altSecurityIdentities contiene le mappature esplicite dei certificati: chi poteva scriverci poteva legare un certificato in proprio possesso a un altro account e autenticarsi come quello, anche con la mappatura forte attiva. Altre varianti sfruttavano mappature deboli, basate su email o soggetto, che un attaccante poteva far combaciare con un certificato richiesto a nome di un altro utente.",
+    "prayer": "O Beato ESC14, che cuci il nome di un altro sul tuo certificato, fa' che i nostri attributi abbiano custodi gelosi. Amen.",
+    "feast": "Si festeggia limitando chi può scrivere altSecurityIdentities, sostituendo le mappature deboli con emittente e numero di serie o con l'hash della chiave pubblica e applicando la mappatura forte di KB5014754.",
+    "proverb": "Chi può scrivere il tuo nome, prima o poi lo firma."
+  },
+  "en": {
+    "title": "Blessed ESC14, Who Stitched a Certificate to Someone Else's Account",
+    "patronage": "Active Directory Certificate Services, the altSecurityIdentities attribute, and everyone who hands out write permissions lightly.",
+    "hagiography": "On 28 February 2024 Jonas Bülow Knudsen of SpecterOps gave a name, ESC14, to a technique already documented by Géraud de Drouas in 2019. In Active Directory the altSecurityIdentities attribute holds explicit certificate mappings: anyone who could write to it could bind a certificate they owned to another account and log in as that account, even with strong mapping enforced. Other variants abused weak mappings, based on email or subject, which an attacker could make match a certificate requested under another user's name.",
+    "prayer": "O Blessed ESC14, who stitch another's name onto your certificate, let our attributes have jealous guardians. Amen.",
+    "feast": "Celebrated by limiting who can write altSecurityIdentities, replacing weak mappings with issuer and serial number or a public key hash, and enforcing the strong mapping of KB5014754.",
+    "proverb": "Whoever can write your name will sign it sooner or later."
+  }
+}
