@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ConsentFix, che si faceva incollare il consenso",
+    "patronage": "degli account Microsoft, degli indirizzi localhost e di chi incolla tutto quello che una pagina gli chiede.",
+    "hagiography": "L'11 dicembre 2025 Luke Jennings di Push Security descrisse ConsentFix, una variante di ClickFix che si svolge tutta nel browser. Una pagina malevola, raggiunta da siti compromessi trovati con Google, chiedeva l'email aziendale e poi faceva accedere l'utente all'app Azure CLI di Microsoft; l'utente copiava l'indirizzo localhost con il codice di autorizzazione e lo incollava nella pagina. Così l'account finiva collegato all'Azure CLI dell'attaccante, senza password né richiesta MFA, e nemmeno le passkey bastavano a fermarlo.",
+    "prayer": "O Beato ConsentFix, che ottieni il consenso con un copia e incolla, fa' che le nostre mani si fermino prima di incollare ciò che non capiscono. Amen.",
+    "feast": "Si festeggia controllando chi accede all'app Azure CLI, che di solito usano solo amministratori e sviluppatori, sorvegliando i log di Entra ID e non incollando mai in una pagina un indirizzo che contiene un codice.",
+    "proverb": "Non incollare mai quello che uno sconosciuto ti chiede di copiare."
+  },
+  "en": {
+    "title": "Blessed ConsentFix, Who Had Consent Pasted In",
+    "patronage": "Microsoft accounts, localhost addresses, and everyone who pastes whatever a page asks for.",
+    "hagiography": "On 11 December 2025 Luke Jennings of Push Security described ConsentFix, a ClickFix variant that plays out entirely in the browser. A malicious page, reached through compromised sites found via Google, asked for a work email and then had the user sign in to Microsoft's Azure CLI app; the user copied the localhost address carrying the authorisation code and pasted it back into the page. The account was thereby linked to the attacker's Azure CLI, with no password or MFA prompt, and even passkeys could not stop it.",
+    "prayer": "O Blessed ConsentFix, who win consent with copy and paste, let our hands pause before pasting what they don't understand. Amen.",
+    "feast": "Celebrated by checking who signs in to the Azure CLI app, usually only admins and developers, watching the Entra ID logs, and never pasting an address containing a code into a web page.",
+    "proverb": "Never paste what a stranger asks you to copy."
+  }
+}

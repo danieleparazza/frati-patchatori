@@ -37,7 +37,8 @@
     "09-08": "spookjs",
     "09-17": "netscape-ssl-prng",
     "10-02": "dray-break",
-    "12-29": "bisecur"
+    "12-29": "bisecur",
+    "10-22": "broccoli2shell"
   },
   "dates": {
     "shattered": "2017-02-23",
@@ -185,6 +186,9 @@
       "CVE-2021-42911",
       "CVE-2020-15415",
       "CVE-2020-8515"
+    ],
+    "tailworm": [
+      "CVE-2025-14282"
     ]
   },
   "addCves": {
@@ -239,6 +243,10 @@
     ]
   },
   "fields": {
+    "4": {
+      "vendor": "eMudhra",
+      "product": "Intermediate CA certificates"
+    },
     "leakycli": {
       "vendor": "AWS, Google Cloud, Microsoft",
       "product": "AWS CLI, Google Cloud CLI (gcloud), Azure CLI"
@@ -283,6 +291,439 @@
     "dray-break": {
       "vendor": "DrayTek",
       "product": "Vigor routers"
+    },
+    "broccoli2shell": {
+      "author": "Khai Tran and Sylvie Mayer (OpenAI Codex Security)"
+    },
+    "node2shell": {
+      "vendor": "OpenJS Foundation",
+      "product": "Node.js (bundled Brotli)",
+      "author": "Khai Tran and Sylvie Mayer (OpenAI Codex Security); exploitation by Ron Masas (Imperva)"
+    },
+    "tailworm": {
+      "vendor": "Tailscale",
+      "product": "Tailscale SSH (tailscaled), headscale"
+    },
+    "gateway2hell": {
+      "vendor": "Citrix"
+    },
+    "iis-unicode": {
+      "vendor": "Microsoft",
+      "product": "IIS",
+      "author": "Rain Forest Puppy"
+    },
+    "ransacked": {
+      "author": "Nathaniel Bennett, Weidong Zhu, Benjamin Simon, Ryon Kennedy, William Enck, Patrick Traynor and Kevin Butler"
+    },
+    "fabrixss": {
+      "author": "Lidor Ben Shitrit and Roee Sagi (Orca Security)"
+    },
+    "hm-surf": {
+      "author": "Jonathan Bar Or (Microsoft)"
+    },
+    "header-accordions": {
+      "vendor": "Multiple",
+      "product": "HTTP/3 QPACK (quic-go, Wireshark, quiche)"
+    },
+    "bigsig": {
+      "author": "Tavis Ormandy (Google Project Zero)"
+    },
+    "cpdos": {
+      "author": "Hoai Viet Nguyen, Luigi Lo Iacono, Hannes Federrath"
+    },
+    "efail": {
+      "author": "Damian Poddebniak, Christian Dresen, Jens Müller, Fabian Ising, Sebastian Schinzel, Simon Friedberger, Juraj Somorovsky and Jörg Schwenk"
+    },
+    "deceptive-delight": {
+      "author": "Unit 42 (Palo Alto Networks)"
+    },
+    "drammer": {
+      "author": "VUSec (Vrije Universiteit Amsterdam) and UC Santa Barbara"
+    },
+    "nucleus-13": {
+      "product": "Nucleus NET (Nucleus RTOS TCP/IP stack)"
+    },
+    "minerva": {
+      "vendor": "Multiple",
+      "product": "ECDSA implementations (smart cards, libgcrypt, wolfSSL, Java…)"
+    },
+    "bits-please": {
+      "author": "Jonas Lykkegård"
+    },
+    "counterseveillance": {
+      "author": "Stefan Gast, Hannes Weissteiner, Robin Leander Schröder and Daniel Gruss"
+    },
+    "specrop": {
+      "author": "Atri Bhattacharyya, Andrés Sánchez, Esmaeil M. Koruyeh, Nael Abu-Ghazaleh, Chengyu Song and Mathias Payer"
+    },
+    "confusedpilot": {
+      "author": "Ayush RoyChowdhury, Mulong Luo, Prateek Sahu, Sarbartha Banerjee and Mohit Tiwari (UT Austin)"
+    },
+    "dheat": {
+      "author": "Szilárd Pfeiffer"
+    },
+    "tdxdown": {
+      "vendor": "Intel, wolfSSL"
+    },
+    "bleedingtooth": {
+      "product": "BlueZ"
+    },
+    "badvibes": {
+      "product": "BlueZ"
+    },
+    "blockstrap": {
+      "author": "vozec (analysis: Sansec)"
+    },
+    "reveal": {
+      "author": "Furkan Aydin, Emre Karabulut, Seetal Potluri, Erdem Alkim, Aydin Aysu"
+    },
+    "bad-likert-judge": {
+      "author": "Yongzhe Huang, Yang Ji, Wenjun Hu, Akshata Rao, Danny Tsechansky, Jay Chen (Palo Alto Networks Unit 42)"
+    },
+    "acsessed": {
+      "author": "Emilien Socchi (mnemonic)"
+    },
+    "blindside": {
+      "author": "Ilan Kalendarov (Cymulate)"
+    },
+    "prompt-poaching": {
+      "author": "John Tuckner (Secure Annex)"
+    },
+    "langgrinch": {
+      "author": "Yarden Porat (Cyata)"
+    },
+    "pool-party": {
+      "author": "Soroush Karami, Peter Snyder (Brave)"
+    },
+    "notlegit": {
+      "author": "Shir Tamari (Wiz)"
+    },
+    "sockstress": {
+      "author": "Jack C. Louis (Outpost24)"
+    },
+    "homekit-smart-lock": {
+      "vendor": "Apple",
+      "product": "HomeKit (iOS, tvOS)"
+    },
+    "misfortune-cookie": {
+      "vendor": "AllegroSoft",
+      "product": "RomPager"
+    },
+    "wmf-setabortproc": {
+      "vendor": "Microsoft",
+      "product": "Windows (GDI32)"
+    },
+    "stack-clash": {
+      "vendor": "Multiple",
+      "product": "Linux and other Unix-like systems"
+    },
+    "leeloo-multipath": {
+      "product": "multipath-tools"
+    },
+    "cachewarp": {
+      "author": "Ruiyi Zhang, Lukas Gerlach, Daniel Weber, Lorenz Hetterich, Youheng Lü, Andreas Kogler, Michael Schwarz (CISPA, Graz University of Technology)",
+      "product": "AMD SEV-ES / SEV-SNP (EPYC processors)"
+    },
+    "reptar": {
+      "vendor": "Intel",
+      "product": "Intel processors with FSRM (Ice Lake and later)",
+      "author": "Tavis Ormandy, Josh Eads, Eduardo Vela Nava, Alexandra Sandulescu, Daniel Moghimi (Google)"
+    },
+    "mic-e-mouse": {
+      "author": "Mohamad Fakih, Rahul Dharmaji, Youssef Mahmoud, Halima Bouzidi, Mohammad Abdullah Al Faruque"
+    },
+    "smgea": {
+      "author": "Zhaohui Che, Ali Borji, Guangtao Zhai, Suiyi Ling, Jing Li, Xiongkuo Min, Guodong Guo, Patrick Le Callet"
+    },
+    "hashjack": {
+      "author": "Vitaly Simonovich (Cato CTRL, Cato Networks)"
+    },
+    "villainnet": {
+      "author": "David Oygenblik, Abhinav Vemulapalli, Animesh Agrawal, Debopam Sanyal, Alexey Tumanov, Brendan Saltaformaggio"
+    },
+    "tilemask": {
+      "author": "Yi Zhu, Chenglin Miao, Hongfei Xue, Zhengxiong Li, Yunnan Yu, Wenyao Xu, Lu Su, Chunming Qiao"
+    },
+    "ghost-tap": {
+      "author": "ThreatFabric"
+    },
+    "carsblues": {
+      "author": "Andrea Amico (Privacy4Cars)"
+    },
+    "koffee": {
+      "author": "Gianpiero Costantino, Ilaria Matteucci (IIT-CNR)",
+      "vendor": "Kia Motors",
+      "product": "Head Unit (Kia Ceed Gen 5.0 iAVN)"
+    },
+    "printing-shellz": {
+      "vendor": "HP Inc."
+    },
+    "syncjacking": {
+      "author": "Tomer Nahum (Semperis)"
+    },
+    "supapwn": {
+      "author": "Hacktron (Mohan Pedhapati, Harsh Jaiswal, Zayne Zhang, Fabian Faessler)"
+    },
+    "flowbreaking": {
+      "author": "Gadi Evron (Knostic)"
+    },
+    "randstorm": {
+      "vendor": "BitcoinJS",
+      "product": "BitcoinJS (JSBN SecureRandom), browser wallets 2011–2015"
+    },
+    "logofail": {
+      "vendor": "AMI, Insyde, Phoenix",
+      "product": "UEFI firmware"
+    },
+    "checksum": {
+      "author": "Eliran Partush (Silverfort Research Team)"
+    },
+    "modeleak": {
+      "author": "Ofir Balassiano, Ofir Shaty (Palo Alto Networks Unit 42)"
+    },
+    "echogram": {
+      "author": "Kasimir Schulz, Kenneth Yeung (HiddenLayer)"
+    },
+    "whisper-leak": {
+      "author": "Jonathan Bar Or, Geoff McDonald (Microsoft Defender Security Research Team)"
+    },
+    "janus": {
+      "author": "Eric Lafortune (Guardsquare)"
+    },
+    "portsmash": {
+      "author": "Billy Bob Brumley, Cesar Pereida García, Sohaib ul Hassan, Nicola Tuveri (Tampere University of Technology), Alejandro Cabrera Aldaya (CUJAE)"
+    },
+    "tls-renegotiation": {
+      "author": "Marsh Ray (PhoneFactor); independently Martin Rex (SAP)"
+    },
+    "teardrop": {
+      "author": "route"
+    },
+    "ovulation-calculator": {
+      "author": "Nguyen Xuan Chien (Patchstack Bug Bounty)"
+    },
+    "sleep-attack": {
+      "vendor": "Intel"
+    },
+    "webexec": {
+      "product": "Cisco Webex Meetings Desktop App"
+    },
+    "braktooth": {
+      "vendor": "Multiple (Espressif, MediaTek, …)"
+    },
+    "psfree": {
+      "product": "WebKit (Safari, iOS, macOS)"
+    },
+    "idesaster": {
+      "vendor": "Multiple",
+      "product": "AI IDEs (Cursor, GitHub Copilot, …)",
+      "author": "Ari Marzouk (MaccariTA)"
+    },
+    "hells-keychain": {
+      "author": "Ronen Shustin, Shir Tamari (Wiz)"
+    },
+    "promptpwnd": {
+      "author": "Rein Daelman (Aikido Security)"
+    },
+    "zombie-workflows": {
+      "author": "Paul Gerste (SonarSource)"
+    },
+    "geminijack": {
+      "author": "Sasi Levi (Noma Labs)"
+    },
+    "consentfix": {
+      "author": "Luke Jennings (Push Security)"
+    },
+    "air-fi": {
+      "author": "Mordechai Guri (Ben-Gurion University of the Negev)"
+    },
+    "quadattack": {
+      "author": "Thomas Paniagua, Ryan Grainger, Tianfu Wu (NC State University)"
+    },
+    "v0ltpwn": {
+      "vendor": "Intel"
+    },
+    "sierra21": {
+      "vendor": "Sierra Wireless"
+    },
+    "amnesia-33": {
+      "vendor": "Multiple",
+      "product": "uIP, FNET, picoTCP, Nut/Net TCP/IP stacks"
+    },
+    "ldapbleed": {
+      "author": "Yuki Chen"
+    },
+    "spectre": {
+      "vendor": "Intel, AMD, Arm",
+      "canonical": "https://spectreattack.com"
+    },
+    "smtp-smuggling": {
+      "author": "Timo Longin (SEC Consult)"
+    },
+    "ni8mare": {
+      "author": "Dor Attias (Cyera)"
+    },
+    "n8scape": {
+      "author": "Vladimir Tokarev, Ofek Itach (Cyera)"
+    },
+    "zombieagent": {
+      "author": "Zvika Babo (Radware)"
+    },
+    "worstfit": {
+      "author": "Orange Tsai, splitline (DEVCORE)"
+    },
+    "localpotato": {
+      "author": "Andrea Pierini, Antonio Cocomazzi"
+    },
+    "powerdir": {
+      "author": "Jonathan Bar Or (Microsoft)"
+    },
+    "superglue": {
+      "author": "Yanir Tsarimi (Orca Security)"
+    },
+    "sh1mmer": {
+      "author": "Mercury Workshop"
+    },
+    "glueball": {
+      "author": "Bernardo Quintero, Francisco Santos (VirusTotal)"
+    },
+    "codebreach": {
+      "author": "Yuval Avrahami, Nir Ohfeld (Wiz)"
+    },
+    "itlb-multihit": {
+      "vendor": "Intel",
+      "product": "Intel processors"
+    },
+    "stackwarp": {
+      "product": "AMD processors (Zen 1 to Zen 5)"
+    },
+    "mavengate": {
+      "canonical": "https://oversecured.com/blog/introducing-mavengate-a-supply-chain-attack-method-for-java-and-android-applications"
+    },
+    "mdb-leaker": {
+      "canonical": "https://mimecast.com/blog/mimecast-discovers-mdb-leaker-microsoft-access-vulnerability-cve-2019-1463"
+    },
+    "evil-maid": {
+      "author": "Joanna Rutkowska (Invisible Things Lab)"
+    },
+    "fedmua": {
+      "author": "Jian Chen, Zehui Lin, Wanyu Lin, Wenlong Shi, Xiaoyan Yin, Di Wang"
+    },
+    "cloneleak": {
+      "vendor": "GitHub",
+      "product": "Git credential helpers (GitHub Desktop, Git Credential Manager, Git LFS, GitHub CLI, Git)",
+      "author": "RyotaK (GMO Flatt Security)"
+    },
+    "nat-slipstreaming-2": {
+      "product": "Web browsers (Chrome, Edge, Firefox, Safari)",
+      "author": "Ben Seri and Gregory Vishnepolsky (Armis), with Samy Kamkar"
+    },
+    "cellbreak": {
+      "vendor": "Grist Labs",
+      "product": "Grist (grist-core)",
+      "author": "Vladimir Tokarev (Cyera Research Labs)"
+    },
+    "crashxts": {
+      "product": "Windows (BitLocker)"
+    },
+    "mutagen-astronomy": {
+      "vendor": "Linux",
+      "product": "Linux kernel"
+    },
+    "zombie-poodle": {
+      "vendor": "Citrix",
+      "product": "NetScaler Gateway and ADC"
+    },
+    "emojideploy": {
+      "vendor": "Microsoft",
+      "product": "Azure App Service & Functions (Kudu)"
+    },
+    "kindledrip": {
+      "vendor": "Amazon",
+      "product": "Kindle e-reader"
+    },
+    "myflaw": {
+      "vendor": "Opera",
+      "product": "Opera browser (My Flow)",
+      "author": "Oleg Zaytsev (Guardio Labs)"
+    },
+    "eventlogcrasher": {
+      "vendor": "Microsoft",
+      "product": "Windows (Event Log service)"
+    },
+    "sysall": {
+      "vendor": "Google",
+      "product": "Google Kubernetes Engine"
+    },
+    "reprompt": {
+      "vendor": "Microsoft",
+      "product": "Copilot Personal",
+      "author": "Dolev Taler (Varonis Threat Labs)"
+    },
+    "flop": {
+      "vendor": "Apple",
+      "product": "Apple silicon (M3/A17 and later)"
+    },
+    "slap": {
+      "vendor": "Apple",
+      "product": "Apple silicon (M2/A15 and later)"
+    },
+    "exfil-out-and-look": {
+      "vendor": "Microsoft",
+      "product": "Outlook add-ins",
+      "author": "Hadas Shalev (Varonis)"
+    },
+    "unbridled-optimism": {
+      "vendor": "Optimism",
+      "product": "l2geth"
+    },
+    "dockerdash": {
+      "vendor": "Docker",
+      "product": "Docker Desktop (Ask Gordon)",
+      "author": "Sasi Levi (Noma Labs)"
+    },
+    "nullifai": {
+      "vendor": "Hugging Face",
+      "product": "Picklescan",
+      "author": "Karlo Zanki (ReversingLabs)"
+    },
+    "chainleak": {
+      "author": "Gal Zaban & Ido Shani (Zafran Labs)"
+    },
+    "lookout": {
+      "author": "Liv Matan, Moshe Bernstein (Tenable)"
+    },
+    "bitpixie": {
+      "product": "Windows Boot Manager / BitLocker (Windows 7–11, Server 2008–2022)"
+    },
+    "em-eye": {
+      "author": "Yan Long, Qinhong Jiang, Chen Yan, Tobias Alam, Xiaoyu Ji, Wenyuan Xu, Kevin Fu"
+    },
+    "printlistener": {
+      "author": "Man Zhou, Shuao Su, Qian Wang, Qi Li, Yuting Zhou, Xiaojing Ma, Zhengxiong Li"
+    },
+    "airsnitch": {
+      "author": "Xin'an Zhou, Juefei Pu, Zhutian Liu, Zhiyun Qian, Zhaowei Tan, Srikanth V. Krishnamurthy, Mathy Vanhoef"
+    },
+    "thunderclap": {
+      "author": "A. Theodore Markettos, Colin Rothwell, Brett F. Gutstein, Allison Pearce, Peter G. Neumann, Simon W. Moore, Robert N. M. Watson"
+    },
+    "tcp-sequence-prediction-1985": {
+      "author": "Robert T. Morris (AT&T Bell Labs)"
+    },
+    "mms-fingerprint": {
+      "author": "Cathal McDaid (Enea)"
+    },
+    "clawjacked": {
+      "author": "Elad Luz (Oasis Security)"
+    },
+    "dupefs": {
+      "author": "Andrei Bacs, Saidgani Musaev, Kaveh Razavi, Cristiano Giuffrida, Herbert Bos (VU Amsterdam / ETH Zurich)"
+    },
+    "superfish": {
+      "vendor": "Lenovo",
+      "product": "Superfish VisualDiscovery (Komodia SDK)",
+      "author": null
     }
   }
 }

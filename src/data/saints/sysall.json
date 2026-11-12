@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Sys:All, che apriva il cluster al mondo intero",
+    "patronage": "dei cluster Kubernetes su Google Cloud, dei ruoli RBAC e degli amministratori convinti che \"autenticato\" volesse dire \"dei nostri\".",
+    "hagiography": "Il 24 gennaio 2024 Orca Security descrisse Sys:All, una trappola di configurazione di Google Kubernetes Engine: il gruppo system:authenticated non comprende solo gli utenti dell'organizzazione, ma chiunque abbia un account Google. Gli amministratori che gli assegnavano permessi aprivano così il cluster a tutti. I ricercatori trovarono oltre mille cluster esposti, con chiavi cloud, token e credenziali a portata di chiunque.",
+    "prayer": "O Beato Sys:All, che accogli nel cluster ogni anima munita di account Google, fa' che i nostri permessi conoscano il nome dei fedeli. Amen.",
+    "feast": "Si festeggia con GKE 1.28 o successivo, che vieta di legare system:authenticated al ruolo cluster-admin, e passando in rassegna tutti gli altri binding RBAC: il resto tocca all'amministratore.",
+    "proverb": "Porta aperta a tutti i fedeli, chiesa piena di ladri."
+  },
+  "en": {
+    "title": "Blessed Sys:All, Who Opened the Cluster to the Whole World",
+    "patronage": "Kubernetes clusters on Google Cloud, RBAC roles, and admins who thought \"authenticated\" meant \"one of us\".",
+    "hagiography": "On 24 January 2024 Orca Security described Sys:All, a configuration trap in Google Kubernetes Engine: the system:authenticated group does not cover just the organisation's users, but anyone with a Google account. Admins who granted it permissions thereby opened the cluster to everybody. The researchers found more than a thousand exposed clusters, with cloud keys, tokens and credentials free for the taking.",
+    "prayer": "O Blessed Sys:All, who welcome into the cluster every soul with a Google account, let our permissions know the faithful by name. Amen.",
+    "feast": "Celebrated with GKE 1.28 or later, which forbids binding system:authenticated to cluster-admin, and by reviewing every other RBAC binding: the rest is the admin's job.",
+    "proverb": "Open the doors to all the faithful and the thieves come in too."
+  }
+}

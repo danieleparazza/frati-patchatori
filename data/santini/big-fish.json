@@ -1,0 +1,10 @@
+{
+  "label": "Big Fish",
+  "motto": "PISCIS MAGNUS SHORT PARVUS",
+  "niche": [
+    "#14233a",
+    "#2e4a6e"
+  ],
+  "accent": "#1e3452",
+  "emblem": "<path d=\"M100 180 Q140 130 186 172 L208 150 L204 180 L208 210 L186 188 Q140 230 100 180 Z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<circle cx=\"122\" cy=\"174\" r=\"5\" fill=\"#14233a\"/><circle cx=\"123\" cy=\"173\" r=\"1.5\" fill=\"#fbf3dd\"/>\n<g stroke=\"#14233a\" stroke-width=\"1.5\" fill=\"none\"><path d=\"M140 160 q8 20 0 40\"/><path d=\"M152 158 q8 22 0 44\"/><path d=\"M164 162 q7 18 0 36\"/></g>\n<g fill=\"#14233a\"><path d=\"M118 156 l-4 -8 l8 4 Z\"/><path d=\"M150 152 l0 -9 l6 7 Z\"/><path d=\"M118 204 l-4 8 l8 -4 Z\"/></g>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">-32768</text>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BadKarma, che scambiava un oggetto per un altro",
+    "patronage": "dei canali L2CAP, dei filtri dei socket e di chi crede che il karma non arrivi fino al kernel.",
+    "hagiography": "BadKarma (CVE-2020-12351), il cuore di BleedingTooth svelato da Andy Nguyen il 13 ottobre 2020, era una confusione di tipo nello heap del Bluetooth di Linux, presente dalla versione 4.8: un canale A2MP portava con sé una struttura amp_mgr, ma l2cap_data_rcv() la passava a sk_filter() come se fosse un socket. Con lo heap ben preparato e gli indirizzi rivelati da BadChoice, pacchetti L2CAP mandati a portata di Bluetooth bastavano per prendere il controllo del flusso del kernel ed eseguire comandi da root, senza un solo clic della vittima.",
+    "prayer": "O San BadKarma, che chiami socket ciò che socket non è, fa' che i nostri puntatori sappiano sempre chi sono. Amen.",
+    "feast": "Si festeggia aggiornando il kernel alle versioni con le correzioni di BleedingTooth (entrate nella 5.10 e nei backport) e spegnendo il Bluetooth sui server che non ne hanno bisogno.",
+    "proverb": "Chi confonde i tipi, raccoglie root."
+  },
+  "en": {
+    "title": "Saint BadKarma, Who Took One Object for Another",
+    "patronage": "L2CAP channels, socket filters, and anyone who thinks karma stops short of the kernel.",
+    "hagiography": "BadKarma (CVE-2020-12351), the heart of BleedingTooth revealed by Andy Nguyen on 13 October 2020, was a heap type confusion in Linux Bluetooth dating back to version 4.8: an A2MP channel carried an amp_mgr struct, but l2cap_data_rcv() handed it to sk_filter() as though it were a socket. With the heap well groomed and the addresses leaked by BadChoice, L2CAP packets sent within Bluetooth range were enough to hijack the kernel's control flow and run commands as root, without a single click from the victim.",
+    "prayer": "O Saint BadKarma, who calls a socket what is no socket, let our pointers always know who they are. Amen.",
+    "feast": "Celebrated by updating to kernels with the BleedingTooth fixes (merged for 5.10 and backported) and turning Bluetooth off on servers that don't need it.",
+    "proverb": "Mix up your types and you'll reap root."
+  }
+}

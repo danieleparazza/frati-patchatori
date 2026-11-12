@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato RevEAL, che leggeva in una sola traccia",
+    "patronage": "della crittografia omomorfica, del rumore gaussiano e di chi credeva che i dati cifrati restassero muti anche mentre li si cifra.",
+    "hagiography": "Fra la fine del 2021 e il marzo 2022, alla conferenza DATE, Furkan Aydin, Emre Karabulut, Seetal Potluri, Erdem Alkim e Aydin Aysu presentarono RevEAL: misurando il consumo elettrico durante la cifratura con la libreria Microsoft SEAL, nello schema BFV, ricostruivano il messaggio da una sola traccia. Il punto debole era il campionamento del rumore gaussiano, i cui rami e valori lasciavano impronte nel consumo. Sulla FPGA RISC-V dei ricercatori la sicurezza scendeva da 2^128 a circa 2^4,4.",
+    "prayer": "O Beato RevEAL, che ascolti il respiro del processore mentre sussurra un segreto, insegna al nostro codice a respirare sempre allo stesso modo. Amen.",
+    "feast": "Si festeggia usando versioni recenti di SEAL, che campionano il rumore in modo diverso, e scrivendo codice che non cambi passo a seconda dei segreti.",
+    "proverb": "Basta un sospiro per tradire chi trattiene il fiato."
+  },
+  "en": {
+    "title": "Blessed RevEAL, Who Read It in a Single Trace",
+    "patronage": "homomorphic encryption, Gaussian noise, and anyone who thought encrypted data stayed silent even while being encrypted.",
+    "hagiography": "Between late 2021 and March 2022, at the DATE conference, Furkan Aydin, Emre Karabulut, Seetal Potluri, Erdem Alkim and Aydin Aysu presented RevEAL: by measuring power consumption while Microsoft's SEAL library encrypted with the BFV scheme, they rebuilt the message from a single trace. The weak spot was the Gaussian noise sampling, whose branches and values left fingerprints in the power draw. On the researchers' RISC-V FPGA, security dropped from 2^128 to about 2^4.4.",
+    "prayer": "O Blessed RevEAL, who listen to the processor breathe as it whispers a secret, teach our code to breathe the same way, always. Amen.",
+    "feast": "Celebrated by using recent releases of SEAL, which sample noise differently, and writing code that never changes pace with its secrets.",
+    "proverb": "One sigh is enough to betray whoever holds their breath."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AgentCorruption, che con una frase corrompeva tutti gli agenti",
+    "patronage": "degli agenti di intelligenza artificiale nel cloud, dei ruoli predefiniti troppo generosi e dei ricordi che nessuno ha mai vissuto.",
+    "hagiography": "L'8 ottobre 2026 Tamir Ishay Sharbat e Lana Salameh di Zenity Labs pubblicarono AgentCorruption, su Amazon Bedrock AgentCore. Un agente dotato di uno strumento per fare richieste HTTP poteva essere convinto, con una prompt injection, a interrogare il servizio di metadati dell'istanza e a consegnare le credenziali temporanee del suo ruolo; e il ruolo predefinito valeva per tutte le risorse AgentCore della regione. Con quelle chiavi si leggevano le conversazioni degli altri agenti, si piantavano falsi ricordi nella loro memoria e si estraevano segreti. AWS, pur definendo il comportamento documentato e previsto, passò a IMDSv2 a febbraio e restrinse il ruolo predefinito entro settembre.",
+    "prayer": "O Beato AgentCorruption, che con una sola frase fai parlare un agente a nome di tutti, fa' che i nostri ruoli siano stretti come il saio di un novizio. Amen.",
+    "feast": "Si festeggia dando a ogni agente un ruolo con i soli permessi necessari e impedendo ai suoi strumenti di raggiungere i metadati dell'istanza.",
+    "proverb": "Basta un agente corrotto a guastare tutto il convento."
+  },
+  "en": {
+    "title": "Blessed AgentCorruption, Who Corrupted Every Agent With One Sentence",
+    "patronage": "cloud AI agents, overly generous default roles, and memories nobody ever lived.",
+    "hagiography": "On 8 October 2026 Tamir Ishay Sharbat and Lana Salameh of Zenity Labs published AgentCorruption, about Amazon Bedrock AgentCore. An agent with a tool that makes HTTP requests could be talked, through prompt injection, into querying the instance metadata service and handing over its role's temporary credentials; and the default role covered every AgentCore resource in the region. With those keys one could read other agents' conversations, plant false memories in them and extract secrets. AWS, while calling the behaviour documented and expected, moved to IMDSv2 in February and narrowed the default role by September.",
+    "prayer": "O Blessed AgentCorruption, who make one agent speak for all with a single sentence, let our roles be as narrow as a novice's habit. Amen.",
+    "feast": "Celebrated by giving each agent a role with only the permissions it needs and keeping its tools away from the instance metadata.",
+    "proverb": "One bad agent spoils the whole abbey."
+  }
+}

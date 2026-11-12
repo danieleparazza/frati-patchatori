@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AtomBombing, che iniettava per mezzo degli atomi",
+    "patronage": "della tabella globale degli atomi di Windows, delle code APC e degli antivirus che guardano dalla parte sbagliata.",
+    "hagiography": "Il 27 ottobre 2016 Tal Liberman di enSilo pubblicò AtomBombing, una tecnica di iniezione di codice per Windows. Il codice veniva depositato nella tabella globale degli atomi, condivisa da tutti i processi, e con una chiamata APC il processo bersaglio era costretto a ricopiarselo in memoria; poi una catena ROP aggirava DEP e lo eseguiva. Non sfruttava un errore ma funzioni previste dal sistema: per questo, secondo enSilo, non c'era una patch da aspettare e molti prodotti di sicurezza non se ne accorgevano.",
+    "prayer": "O Beato AtomBombing, che spedisci codice per posta interna come fosse un'etichetta qualunque, fa' che i nostri difensori guardino anche dentro i processi fidati. Amen.",
+    "feast": "Si festeggia sorvegliando il comportamento dei processi più che le firme dei file, perché per le funzioni previste dal sistema la patch non arriva.",
+    "proverb": "Non serve forzare la porta, se la posta interna consegna tutto."
+  },
+  "en": {
+    "title": "Blessed AtomBombing, Who Injected by Way of Atoms",
+    "patronage": "the Windows global atom table, APC queues, and antivirus software looking the wrong way.",
+    "hagiography": "On 27 October 2016 Tal Liberman of enSilo published AtomBombing, a code injection technique for Windows. The code was dropped into the global atom table, shared by every process, and an APC call forced the target process to copy it into its own memory; a ROP chain then sidestepped DEP and ran it. It exploited no bug, only features the system offers on purpose: according to enSilo there was therefore no patch to wait for, and many security products didn't notice.",
+    "prayer": "O Blessed AtomBombing, who send code through the internal mail like any other label, let our defenders look inside trusted processes too. Amen.",
+    "feast": "Celebrated by watching how processes behave rather than file signatures, because no patch is coming for features working as designed.",
+    "proverb": "No need to force the door when the internal mail delivers everything."
+  }
+}

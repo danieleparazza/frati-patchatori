@@ -1,0 +1,10 @@
+{
+  "label": "Wi-Peep",
+  "motto": "PER MUROS VIDEO",
+  "niche": [
+    "#1a2c2c",
+    "#345858"
+  ],
+  "accent": "#264040",
+  "emblem": "<rect x=\"128\" y=\"132\" width=\"44\" height=\"12\" rx=\"4\" fill=\"#bfc9d1\"/>\n<path d=\"M128 138 h-22 M172 138 h22\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<ellipse cx=\"102\" cy=\"132\" rx=\"14\" ry=\"3\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/><ellipse cx=\"198\" cy=\"132\" rx=\"14\" ry=\"3\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M136 160 q14 10 28 0\"/><path d=\"M128 170 q22 16 44 0\"/></g>\n<g stroke=\"#fbf3dd\" stroke-width=\"2\"><rect x=\"98\" y=\"192\" width=\"104\" height=\"10\" fill=\"#264040\"/><path d=\"M98 202 v40 M202 202 v40\"/></g>\n<rect x=\"142\" y=\"218\" width=\"16\" height=\"24\" rx=\"2\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"/>"
+}

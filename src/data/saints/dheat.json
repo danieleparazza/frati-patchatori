@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San D(HE)at, che scaldava le CPU altrui",
+    "patronage": "dei server TLS e SSH, delle esponenziazioni modulari e di chi d'inverno risparmia sul riscaldamento.",
+    "hagiography": "Il D(HE)at attack, descritto da Szilárd Pfeiffer, sfrutta uno squilibrio antico quanto lo scambio di chiavi Diffie-Hellman su campi finiti: il client spedisce numeri qualsiasi spacciandoli per chiavi pubbliche e il server, per rispondere, si lancia in costose esponenziazioni modulari. Al client non costa quasi niente, al server una CPU in fiamme, in TLS come in SSH. Il difetto è del protocollo stesso, tanto che quando nel 2021 gli fu assegnata una CVE, questa portava l'anno 2002: CVE-2002-20001.",
+    "prayer": "O San D(HE)at, che accendi i processori senza consumare i tuoi, insegna ai nostri server a non fare conti costosi per chi non ha detto nulla di serio. Amen.",
+    "feast": "Si festeggia preferendo ECDHE, togliendo o limitando i gruppi DHE (soprattutto quelli più grandi) nei server TLS e in OpenSSH e limitando le connessioni nuove per client.",
+    "proverb": "Chi fa i conti per tutti, d'estate e d'inverno suda."
+  },
+  "en": {
+    "title": "Saint D(HE)at, Who Warmed Other People's CPUs",
+    "patronage": "TLS and SSH servers, modular exponentiations, and those who save on heating in winter.",
+    "hagiography": "The D(HE)at attack, described by Szilárd Pfeiffer, exploits an imbalance as old as finite-field Diffie-Hellman key exchange: the client sends arbitrary numbers posing as public keys, and the server, to reply, launches into costly modular exponentiations. It costs the client almost nothing and the server a blazing CPU, in TLS and SSH alike. The flaw lies in the protocol itself, so when it was given a CVE in 2021, the ID carried the year 2002: CVE-2002-20001.",
+    "prayer": "O Saint D(HE)at, who sets processors alight without spending your own, teach our servers not to do expensive sums for those who said nothing serious. Amen.",
+    "feast": "Celebrated by preferring ECDHE, removing or limiting DHE groups (especially the largest) in TLS servers and OpenSSH, and rate-limiting new connections per client.",
+    "proverb": "Do everyone's sums and you'll sweat all year round."
+  }
+}

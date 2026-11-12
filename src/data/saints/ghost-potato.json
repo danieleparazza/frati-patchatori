@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Ghost Potato, tubero fantasma",
+    "patronage": "della riflessione NTLM, delle cache di challenge e della lunga stirpe delle patate che diventano SYSTEM.",
+    "hagiography": "Il 12 novembre 2019 Danyal Drew di Shenanigans Labs pubblicò Ghost Potato, nel giorno in cui Microsoft correggeva la CVE-2019-1384. Windows ricordava le challenge NTLM per riconoscere la riflessione, ma le cancellava solo dopo 300 secondi: tenendo aperta una sessione abbastanza a lungo, e facendo sparire la challenge con un'autenticazione fallita, si poteva rimandare l'autenticazione di un processo locale a sé stesso. Con un utente amministratore si arrivava alla condivisione C$.",
+    "prayer": "O San Ghost Potato, che ritorni dopo cinque minuti come un fantasma, fa' che le nostre cache non dimentichino troppo presto. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di novembre 2019, che lasciano le patate fantasma a raffreddarsi da sole.",
+    "proverb": "La patata dimenticata nel forno torna sempre a farsi sentire."
+  },
+  "en": {
+    "title": "Saint Ghost Potato, the Phantom Tuber",
+    "patronage": "NTLM reflection, challenge caches, and the long lineage of potatoes that become SYSTEM.",
+    "hagiography": "On 12 November 2019 Danyal Drew of Shenanigans Labs published Ghost Potato, on the day Microsoft fixed CVE-2019-1384. Windows remembered NTLM challenges in order to spot reflection, but only cleared them after 300 seconds: by holding a session open long enough, and flushing the challenge with a failed authentication, one could bounce a local process's authentication back to itself. With an administrator account that meant reaching the C$ share.",
+    "prayer": "O Saint Ghost Potato, who come back after five minutes like a ghost, let our caches not forget too soon. Amen.",
+    "feast": "Celebrated by installing the November 2019 updates, which leave ghost potatoes to cool off on their own.",
+    "proverb": "A potato forgotten in the oven always makes itself known."
+  }
+}

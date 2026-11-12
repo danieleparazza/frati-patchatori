@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'AMNESIA:33, che dimenticava le lunghezze",
+    "patronage": "degli stack TCP/IP embedded, dei dispositivi IoT e OT e del codice copiato da un progetto all'altro senza ricordarne l'origine.",
+    "hagiography": "Nel dicembre 2020 Forescout pubblicò AMNESIA:33, trentatré vulnerabilità in quattro stack TCP/IP open source, uIP, FNET, picoTCP e Nut/Net, primo capitolo del suo Project Memoria. Erano per lo più errori di corruzione della memoria, che permettevano esecuzione di codice da remoto, denial of service e furto di informazioni su oltre un milione di dispositivi IoT, OT e IT di più di 150 produttori. Fra queste CVE-2020-24336: in Contiki e Contiki-NG, con NAT64 attivo, il codice che legge le risposte DNS non controllava la lunghezza dell'indirizzo e traboccava dal buffer.",
+    "prayer": "O Sant'AMNESIA:33, che dimentichi di misurare ciò che copi, fa' che i nostri stack ricordino sempre quanto è lungo un pacchetto. Amen.",
+    "feast": "Si festeggia aggiornando stack e firmware dove esistono le correzioni, sapendo quali componenti girano nei propri dispositivi e separando in rete quelli che non si possono aggiornare.",
+    "proverb": "Chi dimentica di misurare, ricorda l'overflow per sempre."
+  },
+  "en": {
+    "title": "Saint AMNESIA:33, Who Forgot the Lengths",
+    "patronage": "embedded TCP/IP stacks, IoT and OT devices, and code copied from project to project with no memory of where it came from.",
+    "hagiography": "In December 2020 Forescout published AMNESIA:33, thirty-three vulnerabilities in four open-source TCP/IP stacks, uIP, FNET, picoTCP and Nut/Net, the first chapter of its Project Memoria. Mostly memory-corruption bugs, they allowed remote code execution, denial of service and information theft on more than a million IoT, OT and IT devices from over 150 vendors. Among them was CVE-2020-24336: in Contiki and Contiki-NG, with NAT64 enabled, the code reading DNS answers never checked the address length and overflowed its buffer.",
+    "prayer": "O Saint AMNESIA:33, who forget to measure what you copy, let our stacks always remember how long a packet is. Amen.",
+    "feast": "Celebrated by updating stacks and firmware where fixes exist, knowing which components run inside your devices and isolating on the network those that can't be updated.",
+    "proverb": "Forget to measure once and you'll remember the overflow forever."
+  }
+}

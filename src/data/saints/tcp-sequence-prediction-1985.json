@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Numero di Sequenza, Padre della Chiesa degli spoofer",
+    "patronage": "dei numeri di sequenza TCP, degli host \"fidati\" e di chi crede all'indirizzo IP scritto sulla busta.",
+    "hagiography": "Il 25 febbraio 1985 Robert T. Morris, ai Bell Labs di AT&T, firmò il rapporto tecnico 117, \"A Weakness in the 4.2BSD Unix TCP/IP Software\". Gli Unix di Berkeley si fidavano di altri host in base all'indirizzo IP, e i numeri di sequenza iniziali delle connessioni TCP erano prevedibili: senza nemmeno vedere le risposte, un attaccante poteva fingersi un host fidato, indovinare il numero giusto ed eseguire comandi senza password. Fu una delle prime descrizioni dell'attacco, che dieci anni dopo divenne famoso nell'intrusione di Kevin Mitnick del Natale 1994.",
+    "prayer": "O San Numero di Sequenza, padre di tutti gli spoofer, fa' che i nostri contatori non siano mai una profezia e che la fiducia non abiti negli indirizzi. Amen.",
+    "feast": "Si festeggia generando numeri di sequenza imprevedibili come chiedono le RFC 1948 e 6528, e mandando in pensione rsh e la fiducia basata sull'indirizzo IP.",
+    "proverb": "Chi si fida della busta, apre la lettera al primo che passa."
+  },
+  "en": {
+    "title": "Saint Sequence Number, Church Father of Spoofers",
+    "patronage": "TCP sequence numbers, \"trusted\" hosts, and everyone who believes the IP address on the envelope.",
+    "hagiography": "On 25 February 1985 Robert T. Morris, at AT&T Bell Labs, signed technical report 117, \"A Weakness in the 4.2BSD Unix TCP/IP Software\". Berkeley Unix trusted other hosts by IP address, and TCP initial sequence numbers were predictable: without even seeing the replies, an attacker could pose as a trusted host, guess the right number and run commands with no password. It was one of the first descriptions of the attack, which ten years later became famous in Kevin Mitnick's Christmas 1994 intrusion.",
+    "prayer": "O Saint Sequence Number, father of all spoofers, let our counters never be a prophecy and let trust not live in addresses. Amen.",
+    "feast": "Celebrated by generating unpredictable sequence numbers as RFC 1948 and 6528 require, and by retiring rsh and IP-based trust.",
+    "proverb": "Trust the envelope and anyone can read your letters."
+  }
+}

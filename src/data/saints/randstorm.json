@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Randstorm, tempesta del caso finto",
+    "patronage": "dei portafogli bitcoin d'antan, delle librerie JavaScript prese in prestito e di chi lanciava i dadi con Math.random().",
+    "hagiography": "Il 14 novembre 2023 Unciphered rese pubblico Randstorm: i portafogli creati nel browser tra il 2011 e il 2015 con le prime versioni di BitcoinJS potevano avere chiavi molto meno casuali del previsto. La colpa era della funzione SecureRandom() della libreria JSBN, che per un errore di tipo saltava il generatore crittografico e finiva per attingere a Math.random(), allora debole in molti browser. Il problema era stato segnalato già nel 2018, ma secondo i ricercatori riguardava potenzialmente milioni di portafogli.",
+    "prayer": "O Beato Randstorm, che riveli quanto poco caso c'era nel caso, fa' che le nostre chiavi nascano da entropia vera e non da un dado truccato. Amen.",
+    "feast": "Si festeggia spostando i fondi dai vecchi portafogli generati nel browser a uno creato con software moderno, e brindando al CSPRNG.",
+    "proverb": "Chi semina caso finto raccoglie tempesta vera."
+  },
+  "en": {
+    "title": "Blessed Randstorm, Storm of Fake Chance",
+    "patronage": "vintage bitcoin wallets, borrowed JavaScript libraries, and everyone who rolled dice with Math.random().",
+    "hagiography": "On 14 November 2023 Unciphered went public with Randstorm: wallets created in the browser between 2011 and 2015 with early versions of BitcoinJS could have keys far less random than they should. The culprit was the SecureRandom() function of the JSBN library, which through a type error skipped the cryptographic generator and fell back on Math.random(), then weak in many browsers. The issue had been raised back in 2018, but according to the researchers it potentially affected millions of wallets.",
+    "prayer": "O Blessed Randstorm, who reveal how little chance there was in chance, let our keys be born of true entropy and not of loaded dice. Amen.",
+    "feast": "Celebrated by moving funds out of old browser-generated wallets into one created with modern software, and raising a glass to the CSPRNG.",
+    "proverb": "Sow fake randomness, reap a real storm."
+  }
+}

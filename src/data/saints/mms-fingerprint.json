@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato MMS Fingerprint, che chiedeva il nome al telefono",
+    "patronage": "degli MMS dimenticati, degli operatori mobili e di chi pensava che il telefono non parlasse con gli sconosciuti.",
+    "hagiography": "Il 15 febbraio 2024 Cathal McDaid di Enea svelò il segreto di \"MMS Fingerprint\", una voce comparsa in un contratto del 2015 tra un rivenditore di NSO Group e l'autorità delle telecomunicazioni del Ghana, depositato nella causa di WhatsApp contro NSO. Il contratto prometteva di scoprire modello e sistema operativo di un telefono con un MMS, senza alcuna interazione. Enea riprodusse il trucco: una notifica MMS mandata come SMS binario indicava un server dell'attaccante, e il telefono andava a scaricare il messaggio da solo, presentando lo user agent e il profilo del dispositivo. Non se ne videro usi reali.",
+    "prayer": "O Beato MMS Fingerprint, che con un messaggio mai letto scopri chi c'è dall'altra parte, fa' che i nostri telefoni non rispondano a chi non conoscono. Amen.",
+    "feast": "Si festeggia bloccando nella rete dell'operatore le notifiche MMS binarie in arrivo dall'esterno e, dove si può, spegnendo il download automatico degli MMS.",
+    "proverb": "Chi apre la porta al postino gli dice anche come si chiama."
+  },
+  "en": {
+    "title": "Blessed MMS Fingerprint, Who Asked the Phone Its Name",
+    "patronage": "forgotten MMS, mobile operators, and everyone who thought their phone never talked to strangers.",
+    "hagiography": "On 15 February 2024 Cathal McDaid of Enea uncovered the secret of \"MMS Fingerprint\", an item listed in a 2015 contract between an NSO Group reseller and Ghana's telecom regulator, filed as evidence in WhatsApp's lawsuit against NSO. The contract promised to reveal a phone's model and operating system with one MMS, no interaction needed. Enea reproduced the trick: an MMS notification sent as a binary SMS pointed to an attacker's server, and the phone went off to fetch the message by itself, showing its user agent and device profile. No real-world use was seen.",
+    "prayer": "O Blessed MMS Fingerprint, who learn who's on the other end from a message never read, let our phones not answer those they don't know. Amen.",
+    "feast": "Celebrated by blocking inbound binary MMS notifications from outside in the operator's network and, where possible, turning off automatic MMS download.",
+    "proverb": "Open the door to the postman and he learns your name too."
+  }
+}

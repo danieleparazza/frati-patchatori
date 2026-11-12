@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San 4, la chiave che si contava sulle dita",
+    "patronage": "delle autorità di certificazione, dei numeri piccoli e di chi teneva le chiavi private sulle dita di una mano.",
+    "hagiography": "Il 17 ottobre 2026 una persona nota come Wayne segnalò ai programmi root di Apple, Google, Microsoft e Mozilla che otto certificati intermedi della CA indiana eMudhra avevano chiavi private ridicole: numeri sotto 256, invece di numeri casuali lunghi oltre cento cifre. Una era proprio 4. Con quelle chiavi chiunque avrebbe potuto firmare certificati HTTPS per qualunque sito; Chrome e Firefox le bloccarono il giorno stesso, e Mozilla rese pubblico il caso il 20 ottobre. Il 22 ottobre eMudhra, che dà la colpa a un errore nella generazione delle chiavi dell'aprile 2025, annunciò l'uscita dal mercato globale dei certificati TLS. Le CVE sono quelle dei programmi, come Go, che hanno dovuto mettere quegli intermedi in lista nera.",
+    "prayer": "O San 4, chiave privata che sta in una mano sola, fa' che i nostri segreti abbiano più cifre dei nostri anni. Amen.",
+    "feast": "Si festeggia aggiornando browser, sistemi e runtime (Go 1.27.3 o 1.26.10, per esempio) perché smettano di fidarsi di quegli intermedi.",
+    "proverb": "Chiave corta, fiducia corta."
+  },
+  "en": {
+    "title": "Saint 4, the Key You Could Count on Your Fingers",
+    "patronage": "certificate authorities, small numbers, and everyone who kept their private keys on the fingers of one hand.",
+    "hagiography": "On 17 October 2026 someone known as Wayne told the Apple, Google, Microsoft and Mozilla root programs that eight intermediate certificates of the Indian CA eMudhra had absurd private keys: numbers below 256, instead of random numbers over a hundred digits long. One was literally 4. With those keys anyone could have signed HTTPS certificates for any site; Chrome and Firefox blocked them that same day, and Mozilla made the case public on 20 October. On 22 October eMudhra, which blamed a flaw in its April 2025 key generation, announced it was leaving the global TLS certificate business. The CVEs belong to software, such as Go, that had to denylist those intermediates.",
+    "prayer": "O Saint 4, private key that fits in a single hand, let our secrets have more digits than our birthdays. Amen.",
+    "feast": "Celebrated by updating browsers, systems and runtimes (Go 1.27.3 or 1.26.10, for example) so they stop trusting those intermediates.",
+    "proverb": "Short key, short trust."
+  }
+}

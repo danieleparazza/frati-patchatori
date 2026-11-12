@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Brash, che stordiva i browser a colpi di titoli",
+    "patronage": "dei browser basati su Chromium, delle schede che cambiano titolo di continuo e di chi apre i link per curiosità.",
+    "hagiography": "Nell'ottobre 2025 Jose Pino pubblicò Brash, una prova di concetto che sfrutta l'assenza di limiti agli aggiornamenti di document.title in Blink, il motore di Chromium: una pagina che cambiava a raffica il titolo della scheda saturava il browser fino a bloccarlo o farlo cadere, in genere entro 15–60 secondi secondo le prove pubblicate. Colpiva Chrome, Edge, Brave, Opera, Vivaldi e altri, ma non Firefox né Safari. Jose Pino riferì di aver segnalato il problema a Chromium il 28 agosto senza ricevere risposta.",
+    "prayer": "O Beato Brash, che rinomini la scheda finché il browser non sa più chi è, fa' che ogni API conosca la misura. Amen.",
+    "feast": "Si festeggia tenendo aggiornato il browser e chiudendo le schede che non smettono di cambiare nome, perché chi si presenta mille volte al secondo non viene in pace.",
+    "proverb": "Chi cambia nome troppo spesso, finisce per non rispondere più."
+  },
+  "en": {
+    "title": "Blessed Brash, Who Stunned Browsers with Titles",
+    "patronage": "Chromium-based browsers, tabs whose titles never sit still, and everyone who clicks links out of curiosity.",
+    "hagiography": "In October 2025 Jose Pino published Brash, a proof of concept exploiting the lack of any limit on document.title updates in Blink, Chromium's engine: a page that changed the tab title in rapid bursts swamped the browser until it froze or crashed, usually within 15–60 seconds according to the published tests. It hit Chrome, Edge, Brave, Opera, Vivaldi and others, but not Firefox or Safari. Jose Pino said the issue had been reported to Chromium on 28 August without reply.",
+    "prayer": "O Blessed Brash, who rename the tab until the browser forgets who it is, let every API know its limits. Amen.",
+    "feast": "Celebrated by keeping the browser updated and closing tabs that won't stop changing their name, because whoever introduces themselves a thousand times a second doesn't come in peace.",
+    "proverb": "Change your name too often and you'll stop answering to any."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato G-Door, porta laterale con la G",
+    "patronage": "degli account Google creati con l'email di lavoro, degli accessi condizionali aggirati e degli ex colleghi che non se ne vanno mai del tutto.",
+    "hagiography": "Nel dicembre 2024 Jeremy Pot di Pot Solutions descrisse la G-Door: in un'azienda che usa Microsoft 365, chiunque può creare un account Google \"non gestito\" con il proprio indirizzo di lavoro e usarlo per accedere alle app di terze parti che accettano l'accesso con Google. Quelle entrate sfuggono all'accesso condizionale, all'MFA e ai controlli sui dispositivi impostati in Microsoft 365, non compaiono nei suoi registri e possono restare valide anche dopo che l'account aziendale è stato chiuso.",
+    "prayer": "O Beato G-Door, che apri una porta di servizio in un muro che credevamo intero, fa' che ogni identità aziendale abbia un solo padrone. Amen.",
+    "feast": "Si festeggia registrando il dominio in un Google Workspace gestito, bloccando la creazione di account non gestiti e passando in rassegna quelli esistenti.",
+    "proverb": "Chiudi il portone, ma conta anche le porticine."
+  },
+  "en": {
+    "title": "Blessed G-Door, the Side Door Marked G",
+    "patronage": "Google accounts made with work email, sidestepped conditional access, and former colleagues who never quite leave.",
+    "hagiography": "In December 2024 Jeremy Pot of Pot Solutions described the G-Door: in a company running Microsoft 365, anyone can create an \"unmanaged\" Google account with their work address and use it to sign in to third-party apps that accept Google login. Those sign-ins escape the conditional access, MFA and device checks set up in Microsoft 365, never show in its logs, and may keep working even after the company account has been closed.",
+    "prayer": "O Blessed G-Door, who open a service door in a wall we thought solid, let every company identity have a single master. Amen.",
+    "feast": "Celebrated by claiming the domain in a managed Google Workspace, blocking new unmanaged accounts and reviewing the ones that exist.",
+    "proverb": "Lock the gate, but count the little doors too."
+  }
+}

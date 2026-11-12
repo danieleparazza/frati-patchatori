@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San MDB Leaker, che sgocciolava memoria",
+    "patronage": "dei database Access, dei file .mdb dimenticati negli archivi e dei byte che nessuno aveva invitato.",
+    "hagiography": "Nel gennaio 2020 Mimecast raccontò MDB Leaker (CVE-2019-1463): Microsoft Access, salvando un database, poteva scriverci dentro pezzi di memoria che non c'entravano nulla, e quei frammenti finivano poi in file condivisi e spediti per posta. I ricercatori ci arrivarono quasi per caso, indagando su un falso positivo dell'analisi statica: un file .mdb che conteneva frammenti di codice. Il difetto, secondo Mimecast presente fin da Access 2002, fu corretto con gli aggiornamenti di dicembre 2019.",
+    "prayer": "O San MDB Leaker, che lasci cadere nei file le briciole della memoria, fa' che i nostri database contengano solo ciò che vi abbiamo messo. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di Office di dicembre 2019 e poi riaprendo e salvando di nuovo i vecchi file .mdb, perché le briciole già cadute restano lì.",
+    "proverb": "Chi salva in fretta, salva anche quel che non sa."
+  },
+  "en": {
+    "title": "Saint MDB Leaker, Who Dripped Memory",
+    "patronage": "Access databases, .mdb files forgotten in archives, and bytes nobody invited.",
+    "hagiography": "In January 2020 Mimecast described MDB Leaker (CVE-2019-1463): when saving a database, Microsoft Access could write into it chunks of memory that had nothing to do with it, and those fragments then travelled in shared and emailed files. The researchers found it almost by chance, while chasing a static-analysis false positive: an .mdb file containing bits of code. The flaw, present according to Mimecast since Access 2002, was fixed in the December 2019 updates.",
+    "prayer": "O Saint MDB Leaker, who drops crumbs of memory into our files, let our databases hold only what we put in them. Amen.",
+    "feast": "Celebrated by installing the December 2019 Office updates and then opening and re-saving old .mdb files, because the crumbs already dropped stay put.",
+    "proverb": "Save in haste, and you save more than you know."
+  }
+}

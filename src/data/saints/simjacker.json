@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Simjacker, che parlava alla SIM sottovoce",
+    "patronage": "delle SIM card, dei vecchi programmi dimenticati al loro interno e degli SMS che nessuno vede arrivare.",
+    "hagiography": "Il 12 settembre 2019 AdaptiveMobile Security annunciò Simjacker e il 3 ottobre ne presentò i dettagli alla conferenza Virus Bulletin di Londra. Un SMS con comandi nascosti raggiungeva lo S@T Browser, un vecchio programma presente in molte SIM, che eseguiva senza chiedere nulla: rispediva la cella in cui si trovava il telefono e il suo IMEI e, in teoria, poteva anche avviare chiamate o aprire pagine web. Secondo i ricercatori, una società privata che lavorava per governi lo usava da almeno due anni per sorvegliare persone.",
+    "prayer": "O Beato Simjacker, che sussurri alla SIM ordini che nessuno legge, fa' che i nostri operatori fermino i messaggi che nessun umano dovrebbe ricevere. Amen.",
+    "feast": "Si festeggia con operatori che filtrano gli SMS binari sospetti e con SIM che non si portano più dietro lo S@T Browser.",
+    "proverb": "Non tutti i messaggi si leggono: alcuni leggono te."
+  },
+  "en": {
+    "title": "Blessed Simjacker, Who Whispered to SIM Cards",
+    "patronage": "SIM cards, the old programs forgotten inside them, and text messages nobody sees arriving.",
+    "hagiography": "On 12 September 2019 AdaptiveMobile Security announced Simjacker, and on 3 October it presented the details at the Virus Bulletin conference in London. A text message carrying hidden commands reached the S@T Browser, an old program present on many SIM cards, which obeyed without asking: it sent back the phone's current cell and its IMEI and, in principle, could also place calls or open web pages. According to the researchers, a private company working for governments had been using it for at least two years to track people.",
+    "prayer": "O Blessed Simjacker, who whisper orders to the SIM that no one reads, let our carriers stop the messages no human should ever receive. Amen.",
+    "feast": "Celebrated by carriers filtering suspicious binary SMS and by SIM cards that no longer carry the S@T Browser around.",
+    "proverb": "Some messages you read; some messages read you."
+  }
+}

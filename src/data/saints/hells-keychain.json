@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Hell's Keychain, portachiavi dell'inferno",
+    "patronage": "dei database gestiti nel cloud, dei token di Kubernetes e di chi appende tutte le chiavi allo stesso anello.",
+    "hagiography": "Il 1° dicembre 2022 Ronen Shustin e Shir Tamari di Wiz raccontarono Hell's Keychain, una catena di difetti in IBM Cloud Databases for PostgreSQL. Un'iniezione SQL in una funzione del servizio dava i poteri del superutente e l'esecuzione di comandi sulla macchina; lì un token di Kubernetes apriva i segreti, tra cui le credenziali dei registri di container, e nella storia delle immagini comparivano in chiaro quelle dei repository interni di build. Alla fine i ricercatori potevano scrivere nei repository da cui si costruivano le immagini PostgreSQL: la porta d'ingresso per un attacco alla catena di fornitura.",
+    "prayer": "O Beato Hell's Keychain, che da una sola chiave risali a tutto il mazzo, fa' che ogni segreto stia nella sua serratura e non nella storia delle immagini. Amen.",
+    "feast": "Si festeggia come IBM, che corresse tutto entro il 3 settembre 2022 senza chiedere nulla ai clienti: togliendo le credenziali dalle immagini e dando a ogni token solo i permessi che servono.",
+    "proverb": "Chi appende tutte le chiavi a un anello, apre l'inferno con un gesto solo."
+  },
+  "en": {
+    "title": "Blessed Hell's Keychain, Key Ring of the Underworld",
+    "patronage": "managed cloud databases, Kubernetes tokens, and everyone who hangs every key on the same ring.",
+    "hagiography": "On 1 December 2022 Ronen Shustin and Shir Tamari of Wiz described Hell's Keychain, a chain of flaws in IBM Cloud Databases for PostgreSQL. A SQL injection in a service function granted superuser powers and command execution on the machine; there, a Kubernetes token unlocked secrets including container registry credentials, and the image build history revealed plaintext credentials for internal build repositories. In the end the researchers could write to the repositories used to build the PostgreSQL images: an open door to a supply-chain attack.",
+    "prayer": "O Blessed Hell's Keychain, who climb from a single key to the whole bunch, let every secret stay in its own lock and out of the image history. Amen.",
+    "feast": "Celebrated like IBM, which fixed everything by 3 September 2022 with no action needed from customers: by scrubbing credentials from images and giving each token only the permissions it needs.",
+    "proverb": "Hang every key on one ring and a single turn opens hell."
+  }
+}

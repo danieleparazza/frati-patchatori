@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Collide+Probe, che indovinava la via della cache",
+    "patronage": "delle cache L1 dei processori AMD, dei predittori troppo sicuri di sé e di chi segue sempre la stessa strada.",
+    "hagiography": "Nel marzo 2020 ricercatori della TU Graz e di istituti francesi pubblicarono «Take A Way», presentato poi a ottobre alla conferenza AsiaCCS: avevano ricostruito la funzione non documentata con cui il predittore di via della cache dati L1 delle CPU AMD, dal 2011 al 2019, decide dove guardare. Ne nacquero due attacchi, Collide+Probe e Load+Reload, capaci di osservare gli accessi alla memoria di altri programmi, indebolire l'ASLR e recuperare la chiave da un'implementazione AES vulnerabile. AMD rispose che non erano nuovi attacchi speculativi e che bastavano le mitigazioni esistenti; i ricercatori non erano d'accordo.",
+    "prayer": "O Beato Collide+Probe, che conosci la via prima ancora di percorrerla, fa' che le nostre cache non tradiscano i passi di chi le usa. Amen.",
+    "feast": "Si festeggia aggiornando microcodice e sistema operativo e usando librerie crittografiche a tempo costante, perché la cache, si sa, ha buona memoria.",
+    "proverb": "Chi indovina la strada scopre anche chi l'ha percorsa."
+  },
+  "en": {
+    "title": "Blessed Collide+Probe, Who Guessed the Cache's Way",
+    "patronage": "AMD L1 caches, overconfident predictors, and everyone who always takes the same road.",
+    "hagiography": "In March 2020 researchers from TU Graz and French institutions published \"Take A Way\", later presented in October at the AsiaCCS conference: they had reverse-engineered the undocumented function that the L1 data cache way predictor of AMD CPUs from 2011 to 2019 uses to decide where to look. Two attacks came out of it, Collide+Probe and Load+Reload, able to observe other programs' memory accesses, weaken ASLR and recover the key from a vulnerable AES implementation. AMD replied that these were not new speculative attacks and existing mitigations sufficed; the researchers disagreed.",
+    "prayer": "O Blessed Collide+Probe, who know the way before it is taken, let our caches never betray the footsteps of those who use them. Amen.",
+    "feast": "Celebrated by updating microcode and operating system and using constant-time crypto libraries, because caches, as everyone knows, never forget.",
+    "proverb": "Guess the road and you learn who walked it."
+  }
+}

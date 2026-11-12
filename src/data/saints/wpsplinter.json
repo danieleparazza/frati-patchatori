@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato WPSplinter, scheggia sedicenne nel router",
+    "patronage": "dei router di casa, del pulsante WPS e dei bug che compiono sedici anni senza festa.",
+    "hagiography": "Il 16 ottobre 2026, a Hexacon, Quentin Kaiser presentò WPSplinter: due difetti nella gestione proprietaria del WPS di Broadcom, la funzione che doveva rendere facile collegarsi al Wi-Fi. Messaggi WPS costruiti ad arte corrompono la memoria del router e permettono a chiunque sia nel raggio del Wi-Fi di eseguire codice, senza password e senza che il proprietario tocchi nulla. Il difetto vive nel software di Broadcom almeno dal 2010; Broadcom ha rifiutato di assegnargli una CVE e ha rimandato ai produttori, e sui chip eCos più vecchi rischia di non essere corretto mai.",
+    "prayer": "O Beato WPSplinter, scheggia rimasta nel firmware da sedici anni, fa' che i nostri router ricevano un aggiornamento prima del tuo prossimo compleanno. Amen.",
+    "feast": "Si festeggia spegnendo il WPS sul router, chiedendo al fornitore un firmware corretto e, per i produttori, passando a hostapd come consiglia la stessa Broadcom.",
+    "proverb": "Il pulsante facile apre a tutti, non solo a te."
+  },
+  "en": {
+    "title": "Blessed WPSplinter, Sixteen-Year Splinter in the Router",
+    "patronage": "home routers, the WPS button, and bugs that turn sixteen without a party.",
+    "hagiography": "On 16 October 2026, at Hexacon, Quentin Kaiser presented WPSplinter: two flaws in Broadcom's proprietary WPS handling, the feature meant to make joining Wi-Fi easy. Crafted WPS messages corrupt the router's memory and let anyone within Wi-Fi range run code, with no password and no action from the owner. The flaw has lived in Broadcom's software since at least 2010; Broadcom declined to assign a CVE and pointed to the manufacturers, and on older eCos chips it may never be fixed at all.",
+    "prayer": "O Blessed WPSplinter, splinter lodged in the firmware for sixteen years, let our routers get an update before your next birthday. Amen.",
+    "feast": "Celebrated by switching off WPS on the router, asking the vendor for fixed firmware and, for manufacturers, moving to hostapd as Broadcom itself recommends.",
+    "proverb": "The easy button opens for everyone, not just for you."
+  }
+}

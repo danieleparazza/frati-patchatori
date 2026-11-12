@@ -1,0 +1,10 @@
+{
+  "label": "Reptar",
+  "motto": "REX PRAEFIXUS REGNAT",
+  "niche": [
+    "#14261e",
+    "#2f5240"
+  ],
+  "accent": "#1f3a2c",
+  "emblem": "<g stroke=\"#bfc9d1\" stroke-width=\"3\"><path d=\"M120 140 v-12 M136 140 v-12 M152 140 v-12 M168 140 v-12 M184 140 v-12 M120 220 v12 M136 220 v12 M152 220 v12 M168 220 v12 M184 220 v12 M110 150 h-12 M110 166 h-12 M110 182 h-12 M110 198 h-12 M110 214 h-12 M194 150 h12 M194 166 h12 M194 182 h12 M194 198 h12 M194 214 h12\"/></g>\n<rect x=\"110\" y=\"140\" width=\"84\" height=\"80\" rx=\"6\" fill=\"#2f5240\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M124 160 l8 -10 l8 10 l8 -10 l8 10 l8 -10 l8 10 l8 -10 l4 6\" fill=\"#d9ad55\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n<text x=\"152\" y=\"198\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"26\" font-weight=\"bold\" fill=\"#fbf3dd\">REX</text>\n<text x=\"152\" y=\"213\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#bfc9d1\">rep movsb</text>"
+}

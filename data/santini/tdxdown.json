@@ -1,0 +1,10 @@
+{
+  "label": "TDXdown",
+  "motto": "GRADATIM AD CLAVEM",
+  "niche": [
+    "#1a2236",
+    "#34446c"
+  ],
+  "accent": "#263252",
+  "emblem": "<path d=\"M100 140 h26 v24 h26 v24 h26 v24 h26\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n<g fill=\"#fbf3dd\"><ellipse cx=\"114\" cy=\"134\" rx=\"5\" ry=\"8\"/><ellipse cx=\"140\" cy=\"158\" rx=\"5\" ry=\"8\"/><ellipse cx=\"166\" cy=\"182\" rx=\"5\" ry=\"8\" transform=\"rotate(30 166 182)\"/></g>\n<circle cx=\"188\" cy=\"234\" r=\"9\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\"/><path d=\"M180 234 h-28 M160 234 v8 M168 234 v6\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<text x=\"118\" y=\"226\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">TDX</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Drammer",
+  "motto": "MALLEUS MEMORIAE",
+  "niche": [
+    "#26201c",
+    "#524238"
+  ],
+  "accent": "#3a2f28",
+  "emblem": "<rect x=\"106\" y=\"196\" width=\"88\" height=\"34\" rx=\"3\" fill=\"#2a3a2e\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<g fill=\"#d9ad55\"><rect x=\"114\" y=\"204\" width=\"14\" height=\"18\"/><rect x=\"134\" y=\"204\" width=\"14\" height=\"18\"/><rect x=\"154\" y=\"204\" width=\"14\" height=\"18\"/><rect x=\"174\" y=\"204\" width=\"12\" height=\"18\"/></g>\n<g stroke=\"#bfc9d1\" stroke-width=\"2\"><path d=\"M114 230 v8 M126 230 v8 M138 230 v8 M150 230 v8 M162 230 v8 M174 230 v8 M186 230 v8\"/></g>\n<rect x=\"146\" y=\"128\" width=\"8\" height=\"58\" rx=\"3\" fill=\"#8a5a3a\" stroke=\"#fbf3dd\" stroke-width=\"1.5\" transform=\"rotate(-35 150 158)\"/>\n<rect x=\"112\" y=\"118\" width=\"44\" height=\"20\" rx=\"3\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"1.5\" transform=\"rotate(-35 134 128)\"/>\n<text x=\"166\" y=\"192\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">0→1</text>"
+}

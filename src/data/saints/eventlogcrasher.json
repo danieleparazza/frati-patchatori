@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato EventLogCrasher, che fa tacere il cronista",
+    "patronage": "del Registro eventi di Windows, dei SIEM e degli attaccanti che preferiscono lavorare al buio.",
+    "hagiography": "Il 23 gennaio 2024 Florian, noto in rete come @floesen_, pubblicò EventLogCrasher: qualunque utente autenticato del dominio poteva far cadere il servizio Registro eventi di qualsiasi macchina Windows raggiungibile, controller di dominio compresi, con una sola chiamata remota malformata. Dopo due riavvii automatici il servizio restava spento, e con lui i log e il loro inoltro al SIEM. Microsoft non lo ritenne da correggere con un aggiornamento di sicurezza, e 0patch distribuì una micropatch gratuita.",
+    "prayer": "O Beato EventLogCrasher, che con un nome vuoto ammutolisci il cronista, fa' che i nostri registri si rialzino sempre e raccontino tutto. Amen.",
+    "feast": "Si festeggia con la micropatch di 0patch o con versioni di Windows già corrette, come Windows 11 24H2, e controllando che il Registro eventi sia vivo: il silenzio dei log non è pace.",
+    "proverb": "Quando il cronista tace, il ladro lavora."
+  },
+  "en": {
+    "title": "Blessed EventLogCrasher, Who Silences the Chronicler",
+    "patronage": "the Windows Event Log, SIEMs, and attackers who prefer to work in the dark.",
+    "hagiography": "On 23 January 2024 Florian, known online as @floesen_, published EventLogCrasher: any authenticated domain user could bring down the Event Log service on any reachable Windows machine, domain controllers included, with a single malformed remote call. After two automatic restarts the service stayed down, and with it the logs and their forwarding to the SIEM. Microsoft did not consider it worth a security update, and 0patch shipped a free micropatch.",
+    "prayer": "O Blessed EventLogCrasher, who mute the chronicler with an empty name, let our logs always rise again and tell everything. Amen.",
+    "feast": "Celebrated with the 0patch micropatch or Windows versions that are already fixed, such as Windows 11 24H2, and by checking the Event Log is alive: silent logs are not peace.",
+    "proverb": "When the chronicler falls silent, the thief gets busy."
+  }
+}

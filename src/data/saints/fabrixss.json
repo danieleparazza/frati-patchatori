@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San FabriXss, sarto dei cluster",
+    "patronage": "delle console di amministrazione, dei nomi delle applicazioni e dei permessi che sembravano innocui.",
+    "hagiography": "Nell'ottobre 2022 Lidor Ben Shitrit e Roee Sagi di Orca Security descrissero FabriXss (CVE-2022-35829), un XSS in Service Fabric Explorer, la console web dei cluster Azure Service Fabric. Chi aveva soltanto il permesso di creare applicazioni poteva cucire codice nel nome di un deployment; quando un amministratore apriva la dashboard, quel codice agiva con i suoi poteri, fino a forzare il reset di un nodo del cluster e prenderne il pieno controllo. Microsoft lo corresse con il Patch Tuesday dell'11 ottobre 2022.",
+    "prayer": "O San FabriXss, che ricami codice nei nomi delle applicazioni, fa' che le nostre dashboard leggano i nomi senza eseguirli. Amen.",
+    "feast": "Si festeggia aggiornando Service Fabric Explorer (vulnerabili le versioni 8.1.316 e precedenti) e lasciando nel cassetto la vecchia interfaccia \"old.html\".",
+    "proverb": "Nome ricamato, amministratore incastrato."
+  },
+  "en": {
+    "title": "Saint FabriXss, Tailor of Clusters",
+    "patronage": "admin consoles, application names, and permissions that looked harmless.",
+    "hagiography": "In October 2022 Lidor Ben Shitrit and Roee Sagi of Orca Security described FabriXss (CVE-2022-35829), an XSS in Service Fabric Explorer, the web console for Azure Service Fabric clusters. Anyone with mere permission to create applications could stitch code into a deployment name; when an administrator opened the dashboard, that code acted with the administrator's powers, up to forcing a cluster node reset and taking full control. Microsoft fixed it in the Patch Tuesday of 11 October 2022.",
+    "prayer": "O Saint FabriXss, who embroider code into application names, let our dashboards read names without running them. Amen.",
+    "feast": "Celebrated by updating Service Fabric Explorer (versions 8.1.316 and earlier were vulnerable) and leaving the old \"old.html\" interface in the drawer.",
+    "proverb": "A stitch in the name, and the admin's to blame."
+  }
+}

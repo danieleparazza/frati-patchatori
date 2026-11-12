@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato iLeakage, che leggeva tra le schede di Safari",
+    "patronage": "di Safari, dei chip Apple delle serie A e M e di chi apre pagine sconosciute con la posta aperta nella scheda accanto.",
+    "hagiography": "Il 25 ottobre 2023 Jason Kim, Stephan van Schaik, Daniel Genkin e Yuval Yarom presentarono iLeakage, un attacco di tipo Spectre contro Safari sui dispositivi con processori Apple. Una pagina malevola poteva indurre il browser a leggere per speculazione i dati di altre pagine: nelle dimostrazioni, gli oggetti delle email di Gmail, la cronologia di YouTube e le password inserite dal gestore di credenziali. Segnalato ad Apple il 12 settembre 2022, fu risolto con Safari 17.2.",
+    "prayer": "O Beato iLeakage, che indovini il futuro del processore per leggere il presente dei nostri segreti, fa' che ogni scheda resti nella sua cella. Amen.",
+    "feast": "Si festeggia aggiornando a Safari 17.2 o successivo, oppure attivando la Modalità di isolamento, che spegne il JIT e con lui buona parte del divertimento.",
+    "proverb": "Chi indovina prima di sapere, a volte sa troppo."
+  },
+  "en": {
+    "title": "Blessed iLeakage, Who Read Between Safari's Tabs",
+    "patronage": "Safari, Apple's A- and M-series chips, and everyone who opens strange pages with their inbox in the next tab.",
+    "hagiography": "On 25 October 2023 Jason Kim, Stephan van Schaik, Daniel Genkin and Yuval Yarom presented iLeakage, a Spectre-style attack on Safari running on Apple-silicon devices. A malicious page could make the browser speculatively read data from other pages: in the demos, Gmail subject lines, YouTube watch history and passwords filled in by a credential manager. Reported to Apple on 12 September 2022, it was resolved in Safari 17.2.",
+    "prayer": "O Blessed iLeakage, who guess the processor's future to read our secrets' present, keep every tab in its own cell. Amen.",
+    "feast": "Celebrated by updating to Safari 17.2 or later, or turning on Lockdown Mode, which switches off the JIT and much of the fun with it.",
+    "proverb": "Guess before you know, and sometimes you know too much."
+  }
+}

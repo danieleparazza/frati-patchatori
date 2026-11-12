@@ -1,0 +1,10 @@
+{
+  "label": "ClawJacked",
+  "motto": "CHELA RAPTA",
+  "niche": [
+    "#2a1614",
+    "#582e28"
+  ],
+  "accent": "#3f201c",
+  "emblem": "<path d=\"M110 236 C104 206 112 186 132 176 C126 160 128 138 146 124 C150 142 148 156 142 166 C160 150 182 152 196 164 C180 168 166 174 156 184 C150 198 136 214 126 236 Z\" fill=\"#c0503a\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M142 166 C146 172 150 178 156 184\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"160\" y=\"208\" width=\"34\" height=\"22\" rx=\"3\" fill=\"#3f201c\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<path d=\"M166 208 v-8 M188 208 v-8\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<text x=\"177\" y=\"224\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"9\" fill=\"#fbf3dd\">127.0</text>"
+}

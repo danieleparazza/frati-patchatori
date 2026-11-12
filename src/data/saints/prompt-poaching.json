@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Prompt Poaching, bracconiere di conversazioni",
+    "patronage": "delle estensioni del browser, delle chat con l'intelligenza artificiale e delle condizioni d'uso che nessuno rilegge dopo l'aggiornamento.",
+    "hagiography": "A fine dicembre 2025 John Tuckner di Secure Annex chiamò prompt poaching l'abitudine di certe estensioni del browser di copiare di nascosto le conversazioni con i chatbot e mandarle ai propri server. Poche settimane prima Koi Security aveva mostrato che Urban VPN Proxy, installata da milioni di persone, dal luglio 2025 raccoglieva le chat di ChatGPT, Claude, Gemini e altri servizi per fini di analisi di mercato, senza un interruttore per disattivarlo. Non un bug di un programma, ma un'estensione che fa più di quanto promette.",
+    "prayer": "O Beato Prompt Poaching, che ascolti dietro la porta mentre confidiamo i nostri dubbi a una macchina, fa' che ogni parola arrivi solo a chi l'abbiamo rivolta. Amen.",
+    "feast": "Si festeggia facendo l'inventario delle estensioni installate, togliendo quelle che non servono e diffidando delle VPN gratuite troppo generose.",
+    "proverb": "Chi ti offre la porta gratis può tenersi le chiavi."
+  },
+  "en": {
+    "title": "Blessed Prompt Poaching, Poacher of Conversations",
+    "patronage": "browser extensions, chats with artificial intelligence, and terms of service nobody rereads after an update.",
+    "hagiography": "In late December 2025 John Tuckner of Secure Annex coined the name prompt poaching for browser extensions that quietly copy conversations with chatbots and send them to their own servers. A few weeks earlier Koi Security had shown that Urban VPN Proxy, installed by millions of people, had since July 2025 been collecting chats from ChatGPT, Claude, Gemini and other services for market analytics, with no switch to turn it off. Not a bug in a program, but an extension doing more than it promises.",
+    "prayer": "O Blessed Prompt Poaching, who listen at the door while we confide our doubts to a machine, let every word reach only the one we spoke to. Amen.",
+    "feast": "Celebrated by taking stock of installed extensions, removing the ones you don't need and distrusting free VPNs that seem too generous.",
+    "proverb": "Whoever hands you a free door may keep the keys."
+  }
+}

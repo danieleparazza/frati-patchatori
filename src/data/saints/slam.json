@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SLAM, maschera degli indirizzi",
+    "patronage": "dei processori che verranno, dei bit alti degli indirizzi e dei gadget che si credevano innocui.",
+    "hagiography": "Nel dicembre 2023 il gruppo VUSec della Vrije Universiteit Amsterdam presentò SLAM, \"Spectre based on Linear Address Masking\", poi pubblicato a IEEE S&P 2024. Le funzioni che permettono al software di usare i bit alti dei puntatori, come LAM di Intel, UAI di AMD e TBI di Arm, saltano in esecuzione transitoria i controlli sugli indirizzi non canonici, e lo stesso fanno i processori AMD esistenti con CVE-2020-12965. Così decine di migliaia di gadget \"non mascherati\" del kernel Linux diventano sfruttabili: nella dimostrazione, su un sistema che emulava LAM, l'hash della password di root trapelava in circa mezzo minuto.",
+    "prayer": "O San SLAM, che dietro la maschera degli indirizzi nascondi i segreti del kernel, fa' che i nostri processori controllino anche ciò che eseguono per finta. Amen.",
+    "feast": "Si festeggia con Linux, che lasciò LAM disattivato in attesa di indicazioni; Intel suggerisce di abbinarlo a LASS, AMD rimanda alle mitigazioni di Spectre v2.",
+    "proverb": "Chi maschera l'indirizzo, smaschera il segreto."
+  },
+  "en": {
+    "title": "Saint SLAM, Mask of Addresses",
+    "patronage": "processors yet to come, the high bits of addresses, and gadgets that thought themselves harmless.",
+    "hagiography": "In December 2023 VUSec at Vrije Universiteit Amsterdam presented SLAM, \"Spectre based on Linear Address Masking\", later published at IEEE S&P 2024. Features that let software use a pointer's high bits, such as Intel LAM, AMD UAI and Arm TBI, skip non-canonical address checks during transient execution, and existing AMD processors do the same through CVE-2020-12965. That makes tens of thousands of \"unmasked\" gadgets in the Linux kernel exploitable: in the demo, on a system emulating LAM, the root password hash leaked in about half a minute.",
+    "prayer": "O Saint SLAM, who hide kernel secrets behind the mask of addresses, let our processors check even what they only pretend to execute. Amen.",
+    "feast": "Celebrated with Linux, which kept LAM disabled pending guidance; Intel suggests pairing it with LASS, and AMD points to its Spectre v2 mitigations.",
+    "proverb": "Mask the address and you unmask the secret."
+  }
+}

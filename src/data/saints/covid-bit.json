@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato COVID-bit, che chiedeva due metri di distanza",
+    "patronage": "dei computer isolati dalla rete, degli alimentatori ronzanti e di chi tiene lo smartphone accanto alla tastiera.",
+    "hagiography": "Il 7 dicembre 2022 Mordechai Guri, dell'Università Ben-Gurion del Negev, pubblicò COVID-bit, l'ennesimo modo di far parlare un computer isolato dalla rete. Un malware modula il carico dei core della CPU così da generare emissioni elettromagnetiche a bassa frequenza, tra 0 e 60 kHz, che uno smartphone o un portatile con un'antenna da un dollaro può captare a due metri e oltre, fino a 1.000 bit al secondo. Il titolo raccomandava, con spirito pandemico, di stare ad almeno due metri dal computer air-gapped.",
+    "prayer": "O Beato COVID-bit, che sussurri segreti attraverso l'aria, fa' che i nostri computer isolati restino davvero in quarantena. Amen.",
+    "feast": "Si festeggia tenendo telefoni e ricevitori lontani dai sistemi isolati, schermando i locali e sorvegliando i carichi anomali della CPU.",
+    "proverb": "Distanziamento anche per i computer: due metri, e la mascherina all'alimentatore."
+  },
+  "en": {
+    "title": "Blessed COVID-bit, Who Asked for Two Metres",
+    "patronage": "air-gapped computers, humming power supplies, and everyone who leaves a smartphone next to the keyboard.",
+    "hagiography": "On 7 December 2022 Mordechai Guri of Ben-Gurion University of the Negev published COVID-bit, yet another way to make an air-gapped computer talk. Malware modulates the load on the CPU cores to produce low-frequency electromagnetic emissions, between 0 and 60 kHz, which a smartphone or laptop with a one-dollar antenna can pick up from two metres and beyond, at up to 1,000 bits per second. The title advised, in pandemic spirit, keeping at least two metres from the air-gapped machine.",
+    "prayer": "O Blessed COVID-bit, who whisper secrets through the air, let our isolated computers truly stay in quarantine. Amen.",
+    "feast": "Celebrated by keeping phones and receivers away from isolated systems, shielding rooms and watching for unusual CPU load.",
+    "proverb": "Social distancing for computers too: two metres, and a mask on the power supply."
+  }
+}

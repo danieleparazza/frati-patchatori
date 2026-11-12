@@ -1,0 +1,10 @@
+{
+  "label": "Plex2Shell",
+  "motto": "PELLICULA AD SHELLAM",
+  "niche": [
+    "#2a1f12",
+    "#544024"
+  ],
+  "accent": "#3e2e18",
+  "emblem": "<rect x=\"108\" y=\"126\" width=\"84\" height=\"108\" rx=\"4\" fill=\"#2a1f12\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<g fill=\"#d9ad55\"><rect x=\"112\" y=\"132\" width=\"8\" height=\"8\"/><rect x=\"112\" y=\"150\" width=\"8\" height=\"8\"/><rect x=\"112\" y=\"168\" width=\"8\" height=\"8\"/><rect x=\"112\" y=\"186\" width=\"8\" height=\"8\"/><rect x=\"112\" y=\"204\" width=\"8\" height=\"8\"/><rect x=\"112\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"180\" y=\"132\" width=\"8\" height=\"8\"/><rect x=\"180\" y=\"150\" width=\"8\" height=\"8\"/><rect x=\"180\" y=\"168\" width=\"8\" height=\"8\"/><rect x=\"180\" y=\"186\" width=\"8\" height=\"8\"/><rect x=\"180\" y=\"204\" width=\"8\" height=\"8\"/><rect x=\"180\" y=\"222\" width=\"8\" height=\"8\"/></g>\n<rect x=\"126\" y=\"134\" width=\"48\" height=\"40\" fill=\"#544024\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<polygon points=\"142,144 142,164 160,154\" fill=\"#fbf3dd\"/>\n<rect x=\"126\" y=\"184\" width=\"48\" height=\"40\" fill=\"#14100a\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"211\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#e8c45c\">&gt;_</text>"
+}

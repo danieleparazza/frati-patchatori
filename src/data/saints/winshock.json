@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Winshock, folgore del canale sicuro",
+    "patronage": "di Schannel, dei server Windows esposti in TLS e dei Patch Tuesday da non rimandare.",
+    "hagiography": "L'11 novembre 2014 Microsoft pubblicò il bollettino MS14-066 per un difetto in Schannel, la libreria che gestisce TLS in Windows: pacchetti costruiti apposta potevano portare all'esecuzione di codice remoto su un server, senza autenticazione. Erano coinvolte tutte le versioni supportate, da Windows Server 2003 a Windows 8.1, e Microsoft non indicò né mitigazioni né soluzioni alternative. Il mondo, ancora scosso da Heartbleed e Shellshock, lo soprannominò Winshock.",
+    "prayer": "O San Winshock, che colpisci proprio dove dovremmo essere al sicuro, fa' che le nostre librerie crittografiche controllino ogni pacchetto. Amen.",
+    "feast": "Si festeggia installando l'aggiornamento KB2992611 e non lasciando passare un Patch Tuesday senza riavvio.",
+    "proverb": "Anche il canale più sicuro ha le sue piene."
+  },
+  "en": {
+    "title": "Saint Winshock, Lightning of the Secure Channel",
+    "patronage": "Schannel, Windows servers exposed over TLS, and Patch Tuesdays that must not be postponed.",
+    "hagiography": "On 11 November 2014 Microsoft published bulletin MS14-066 for a flaw in Schannel, the library that handles TLS in Windows: specially crafted packets could lead to remote code execution on a server, with no authentication. Every supported version was affected, from Windows Server 2003 to Windows 8.1, and Microsoft listed neither mitigating factors nor workarounds. A world still shaken by Heartbleed and Shellshock nicknamed it Winshock.",
+    "prayer": "O Saint Winshock, who strike exactly where we should be safe, let our crypto libraries check every packet. Amen.",
+    "feast": "Celebrated by installing update KB2992611 and never letting a Patch Tuesday go by without a reboot.",
+    "proverb": "Even the safest channel floods now and then."
+  }
+}

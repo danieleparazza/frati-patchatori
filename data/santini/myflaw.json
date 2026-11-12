@@ -1,0 +1,10 @@
+{
+  "label": "MyFlaw",
+  "motto": "FLUXUS MEUS, CULPA MEA",
+  "niche": [
+    "#2a1418",
+    "#5a2a32"
+  ],
+  "accent": "#45202a",
+  "emblem": "<ellipse cx=\"150\" cy=\"170\" rx=\"34\" ry=\"42\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"10\"/>\n<rect x=\"132\" y=\"196\" width=\"36\" height=\"44\" rx=\"3\" fill=\"#3a2228\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M140 208 h20 M140 216 h20 M140 224 h14\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<path d=\"M186 220 q20 -10 14 -36\" fill=\"none\" stroke=\"#e8c45c\" stroke-width=\"3\"/><path d=\"M194 186 l6 -6 l4 8\" fill=\"none\" stroke=\"#e8c45c\" stroke-width=\"3\"/>"
+}

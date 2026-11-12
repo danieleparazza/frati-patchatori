@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DirtyCLR, amministratore abusivo di domini",
+    "patronage": "delle applicazioni .NET Framework, dei file di configurazione dimenticati accanto agli eseguibili e dei programmi firmati che ospitano chiunque.",
+    "hagiography": "Il 12 dicembre 2023 ipSlav pubblicò DirtyCLR, un proof of concept di \"AppDomainManager injection\" per le applicazioni .NET Framework. La tecnica, nota fin dal 2017 grazie a Casey Smith, sfrutta il fatto che un'applicazione .NET può farsi indicare da un file di configurazione un gestore di AppDomain personalizzato: un programma legittimo, magari firmato, finisce così per caricare una DLL dell'attaccante. DirtyCLR la rifiniva per mimetizzarsi meglio, con uno stack di chiamate pulito e senza chiamate dirette alle API di Windows.",
+    "prayer": "O Beato DirtyCLR, che ti presenti come amministratore senza che nessuno ti abbia nominato, fa' che i nostri programmi controllino chi li gestisce. Amen.",
+    "feast": "Si festeggia sorvegliando i file .config che compaiono accanto agli eseguibili .NET e il caricamento di DLL insolite da parte di programmi fidati.",
+    "proverb": "Chi si fa amministrare dal primo che passa, si ritrova la casa piena di ospiti."
+  },
+  "en": {
+    "title": "Blessed DirtyCLR, Unauthorised Domain Manager",
+    "patronage": ".NET Framework applications, config files left lying next to executables, and signed programs that host anyone at all.",
+    "hagiography": "On 12 December 2023 ipSlav published DirtyCLR, a proof of concept of \"AppDomainManager injection\" for .NET Framework applications. The technique, known since 2017 thanks to Casey Smith, relies on the fact that a .NET application can be told by a config file to use a custom AppDomain manager: a legitimate, perhaps signed, program thus ends up loading an attacker's DLL. DirtyCLR polished it to blend in better, with a clean call stack and no direct Windows API calls.",
+    "prayer": "O Blessed DirtyCLR, who show up as manager though nobody appointed you, let our programs check who is running them. Amen.",
+    "feast": "Celebrated by watching for .config files appearing next to .NET executables and for trusted programs loading unusual DLLs.",
+    "proverb": "Let the first passer-by manage your house and it fills up with guests."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Plug'nPwn, che apriva il Mac con un cavo",
+    "patronage": "dei chip di sicurezza T2, dei cavi USB-C dall'aria innocente e di chi attacca al computer qualunque cosa trovi sulla scrivania.",
+    "hagiography": "Il 12 ottobre 2020 il team t8012 pubblicò Plug'nPwn: un cavo USB-C modificato bastava a mettere il chip di sicurezza T2 dei Mac in modalità DFU e a lanciarvi checkra1n, sfruttando checkm8, il difetto nella ROM di avvio che Apple non può correggere con un aggiornamento. Così si otteneva il controllo del T2 e, per esempio, si poteva installare un keylogger. Serviva l'accesso fisico al Mac e, secondo i resoconti, senza il cavo l'attacco non sopravviveva a un riavvio.",
+    "prayer": "O Beato Plug'nPwn, che con un cavo dall'aria innocente apri il cuore del Mac, fa' che non colleghiamo mai cavi di cui non conosciamo la storia. Amen.",
+    "feast": "Si festeggia non lasciando il Mac incustodito in mani altrui, diffidando dei cavi trovati in giro e, potendo, passando ai Mac con chip Apple, che non hanno il T2.",
+    "proverb": "Non attaccare la spina a ogni cavo che trovi."
+  },
+  "en": {
+    "title": "Blessed Plug'nPwn, Who Opened Macs With a Cable",
+    "patronage": "T2 security chips, innocent-looking USB-C cables, and everyone who plugs in whatever they find on the desk.",
+    "hagiography": "On 12 October 2020 the t8012 team published Plug'nPwn: a modified USB-C cable was enough to put a Mac's T2 security chip into DFU mode and run checkra1n on it, exploiting checkm8, the boot ROM flaw Apple cannot fix with an update. That gave control of the T2 and made it possible, for instance, to install a keylogger. It required physical access to the Mac and, according to reports, without the cable the attack did not survive a reboot.",
+    "prayer": "O Blessed Plug'nPwn, who open the Mac's heart with an innocent-looking cable, let us never plug in a cable whose past we don't know. Amen.",
+    "feast": "Celebrated by never leaving a Mac unattended in other hands, distrusting stray cables and, where possible, moving to Apple silicon Macs, which have no T2.",
+    "proverb": "Never plug in a cable you didn't bring."
+  }
+}

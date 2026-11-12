@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ModeLeak, che faceva gocciolare i modelli",
+    "patronage": "delle piattaforme di intelligenza artificiale, degli agenti di servizio con troppi permessi e dei modelli addestrati con fatica.",
+    "hagiography": "Il 12 novembre 2024 Ofir Balassiano e Ofir Shaty dell'Unit 42 di Palo Alto Networks descrissero ModeLeak, due difetti in Vertex AI di Google Cloud. Il codice di un job personalizzato girava con un agente di servizio dai permessi eccessivi e raggiungeva bucket e tabelle BigQuery del progetto; un modello avvelenato, una volta pubblicato, permetteva di copiare le immagini di altri modelli e gli adattatori dei modelli linguistici rifiniti. Google corresse entrambi i problemi.",
+    "prayer": "O Beato ModeLeak, che porti via i pesi come acqua da un secchio bucato, fa' che i nostri agenti abbiano solo i permessi che servono. Amen.",
+    "feast": "Si festeggia restringendo i permessi di chi crea job e pubblica modelli e controllando ogni modello prima di metterlo in produzione.",
+    "proverb": "Il modello va custodito come il pane: si raffredda presto e si porta via in fretta."
+  },
+  "en": {
+    "title": "Blessed ModeLeak, Who Made Models Drip",
+    "patronage": "AI platforms, over-privileged service agents, and models trained at great effort.",
+    "hagiography": "On 12 November 2024 Ofir Balassiano and Ofir Shaty of Palo Alto Networks Unit 42 described ModeLeak, two flaws in Google Cloud's Vertex AI. A custom job's code ran under a service agent with excessive permissions and could reach the project's storage buckets and BigQuery tables; a poisoned model, once deployed, let an attacker copy images of other models and the adapters of fine-tuned language models. Google fixed both issues.",
+    "prayer": "O Blessed ModeLeak, who carry off weights like water from a leaky bucket, let our agents hold only the permissions they need. Amen.",
+    "feast": "Celebrated by tightening who may create jobs and deploy models, and vetting every model before it goes to production.",
+    "proverb": "Guard your model like fresh bread: it walks off the moment you look away."
+  }
+}

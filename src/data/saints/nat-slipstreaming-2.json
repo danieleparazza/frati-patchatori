@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San NAT Slipstreaming, che scivola tra le maglie del router",
+    "patronage": "dei router domestici, dei protocolli H.323 e dei dispositivi convinti che il NAT fosse un muro.",
+    "hagiography": "Nel gennaio 2021 Ben Seri e Gregory Vishnepolsky di Armis, con Samy Kamkar, presentarono la seconda versione di NAT Slipstreaming. Bastava visitare una pagina web: il suo JavaScript, passando per connessioni WebRTC TURN che ignoravano le porte vietate dai browser, imitava protocolli come H.323 e ingannava gli ALG di router e firewall. Questi aprivano varchi verso l'interno, e non solo verso il computer della vittima: stampanti, telecamere e controllori industriali dietro il NAT diventavano raggiungibili da Internet.",
+    "prayer": "O San NAT Slipstreaming, che scivoli nella corrente dei pacchetti, fa' che i nostri router non aprano porte a chi le chiede con gentilezza. Amen.",
+    "feast": "Si festeggia con Chrome 87.0.4280.141, Edge 87.0.664.75, Firefox 85 e Safari 14.0.3, e spegnendo gli ALG che non servono: il NAT non è un firewall.",
+    "proverb": "Chi segue la corrente passa dove il muro non c'è."
+  },
+  "en": {
+    "title": "Saint NAT Slipstreaming, Who Slips Through the Router's Mesh",
+    "patronage": "home routers, H.323, and devices convinced that NAT was a wall.",
+    "hagiography": "In January 2021 Ben Seri and Gregory Vishnepolsky of Armis, with Samy Kamkar, presented the second version of NAT Slipstreaming. Visiting a web page was enough: its JavaScript, going through WebRTC TURN connections that ignored the browsers' restricted ports, mimicked protocols such as H.323 and fooled the ALGs in routers and firewalls. These opened holes inwards, and not only towards the victim's computer: printers, cameras and industrial controllers behind the NAT became reachable from the internet.",
+    "prayer": "O Saint NAT Slipstreaming, who slip along the current of packets, let our routers never open doors just because someone asks nicely. Amen.",
+    "feast": "Celebrated with Chrome 87.0.4280.141, Edge 87.0.664.75, Firefox 85 and Safari 14.0.3, and by turning off ALGs nobody needs: NAT is not a firewall.",
+    "proverb": "Ride the stream and you pass where no wall stands."
+  }
+}

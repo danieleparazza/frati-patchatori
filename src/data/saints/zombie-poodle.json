@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Zombie POODLE, barboncino risorto",
+    "patronage": "degli appliance di rete, dei cifrari CBC e dei bug che si credevano sepolti con SSLv3.",
+    "hagiography": "POODLE aveva affossato SSLv3 nel 2014; nel 2019 Craig Young di Tripwire VERT mostrò che il barboncino si aggirava ancora, da non morto, in implementazioni TLS che tradivano la validità del padding con risposte diverse. Un attaccante in posizione intermedia poteva così recuperare parti del testo cifrato con CBC. Tra i primi a correggere ci fu Citrix, per NetScaler Gateway e ADC (CVE-2019-6485); secondo le scansioni di Young, il problema riguardava migliaia di siti tra i più visitati.",
+    "prayer": "O San Zombie POODLE, che esci dalla tomba di SSLv3 a ogni padding sbagliato, fa' che i nostri cifrari vecchi riposino davvero in pace. Amen.",
+    "feast": "Si festeggia aggiornando Citrix ADC e NetScaler Gateway alle build indicate nell'avviso CTX240139, spegnendo le suite CBC e preferendo TLS 1.3: i barboncini zombie temono l'AEAD.",
+    "proverb": "Il cane che seppellisci male torna a scavare."
+  },
+  "en": {
+    "title": "Saint Zombie POODLE, the Risen Poodle",
+    "patronage": "network appliances, CBC ciphers, and bugs we thought were buried with SSLv3.",
+    "hagiography": "POODLE had sunk SSLv3 in 2014; in 2019 Craig Young of Tripwire VERT showed that the poodle was still prowling, undead, in TLS implementations that gave away padding validity through different responses. A man-in-the-middle could thus recover parts of CBC-encrypted text. Citrix was among the first to fix it, for NetScaler Gateway and ADC (CVE-2019-6485); according to Young's scans, thousands of the most popular sites were affected.",
+    "prayer": "O Saint Zombie POODLE, who rise from SSLv3's grave at every bad padding, let our old ciphers truly rest in peace. Amen.",
+    "feast": "Celebrated by updating Citrix ADC and NetScaler Gateway to the builds listed in advisory CTX240139, disabling CBC suites and preferring TLS 1.3: zombie poodles fear AEAD.",
+    "proverb": "Bury the dog badly and it comes back digging."
+  }
+}

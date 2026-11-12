@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ASCII Smuggling, che scriveva con l'inchiostro invisibile",
+    "patronage": "dei caratteri tag di Unicode, degli inviti di calendario e dei modelli che leggono anche ciò che noi non vediamo.",
+    "hagiography": "Il 6 ottobre 2025 Viktor Markopoulos di FireTail pubblicò una prova dell'ASCII smuggling su vari modelli linguistici: istruzioni scritte con i caratteri «tag» di Unicode, invisibili nell'interfaccia ma letti dal modello. Gemini, Grok e DeepSeek le eseguivano, mentre ChatGPT, Copilot e Claude le ripulivano. In Google Workspace un invito di calendario dal titolo innocuo poteva nascondere un altro titolo, un altro link e un altro organizzatore, che Gemini leggeva senza che l'invito fosse nemmeno accettato. Google, avvisata il 18 settembre, rispose che non avrebbe preso provvedimenti.",
+    "prayer": "O Beato ASCII Smuggling, che scrivi tra le righe con inchiostro invisibile, fa' che i nostri modelli obbediscano solo a ciò che anche noi possiamo leggere. Amen.",
+    "feast": "Si festeggia ripulendo i testi dai caratteri tag di Unicode e dagli altri caratteri invisibili prima che arrivino al modello.",
+    "proverb": "Occhio non vede, modello obbedisce."
+  },
+  "en": {
+    "title": "Blessed ASCII Smuggling, Who Wrote in Invisible Ink",
+    "patronage": "Unicode tag characters, calendar invites, and models that read what we cannot see.",
+    "hagiography": "On 6 October 2025 Viktor Markopoulos of FireTail published a test of ASCII smuggling across several language models: instructions written in Unicode \"tag\" characters, invisible in the interface but read by the model. Gemini, Grok and DeepSeek followed them, while ChatGPT, Copilot and Claude stripped them out. In Google Workspace, a calendar invite with a harmless title could hide another title, another link and another organiser, which Gemini read without the invite even being accepted. Google, notified on 18 September, replied that it would take no action.",
+    "prayer": "O Blessed ASCII Smuggling, who write between the lines in invisible ink, let our models obey only what we can read too. Amen.",
+    "feast": "Celebrated by stripping Unicode tag characters and other invisible characters from text before it reaches the model.",
+    "proverb": "What the eye can't see, the model will still obey."
+  }
+}

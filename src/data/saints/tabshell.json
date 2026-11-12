@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San TabShell, che completava troppo",
+    "patronage": "delle sessioni PowerShell remote, del tasto Tab e di chi pensava che una shell limitata restasse limitata.",
+    "hagiography": "Nel dicembre 2022 rskvp93 di Viettel Security raccontò TabShell, la CVE-2022-41076 di PowerShell. Exchange offre agli utenti sessioni PowerShell remote ristrette, in un recinto di comandi ammessi; ma la funzione di completamento con il tasto Tab, attiva anche lì, poteva essere piegata per uscire dal recinto ed eseguire codice sul server. Concatenata con OWASSRF (CVE-2022-41080), che apriva la strada fino al backend di Exchange, permetteva a un utente autenticato di prendere il controllo del server.",
+    "prayer": "O San TabShell, che finisci le frasi meglio di chi le comincia, fa' che i nostri recinti valgano anche per i suggerimenti. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti di Windows del 13 dicembre 2022 o con PowerShell 7.2.8 e 7.3.1, insieme alle patch di Exchange contro OWASSRF.",
+    "proverb": "Chi completa le tue frasi può anche finire i tuoi comandi."
+  },
+  "en": {
+    "title": "Saint TabShell, Who Completed Too Much",
+    "patronage": "remote PowerShell sessions, the Tab key, and everyone who thought a restricted shell stayed restricted.",
+    "hagiography": "In December 2022 rskvp93 of Viettel Security wrote up TabShell, PowerShell's CVE-2022-41076. Exchange gives users restricted remote PowerShell sessions, fenced in by a list of allowed commands; but Tab completion, still available there, could be bent to escape the fence and run code on the server. Chained with OWASSRF (CVE-2022-41080), which opened the way to Exchange's backend, it let an authenticated user take over the server.",
+    "prayer": "O Saint TabShell, who finish sentences better than those who start them, let our fences hold for suggestions too. Amen.",
+    "feast": "Celebrated with the Windows updates of 13 December 2022 or PowerShell 7.2.8 and 7.3.1, together with Exchange's OWASSRF patches.",
+    "proverb": "Whoever finishes your sentences can finish your commands too."
+  }
+}

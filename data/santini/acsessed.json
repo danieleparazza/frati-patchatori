@@ -1,0 +1,10 @@
+{
+  "label": "ACSESSED",
+  "motto": "PER PORTALE INTRAVIT",
+  "niche": [
+    "#1b2636",
+    "#3a5072"
+  ],
+  "accent": "#283a54",
+  "emblem": "<path d=\"M112 176 a22 22 0 0 1 10 -36 a28 28 0 0 1 52 -4 a20 20 0 0 1 16 36 z\" fill=\"#283a54\" stroke=\"#bfc9d1\" stroke-width=\"2.5\"/>\n<circle cx=\"140\" cy=\"200\" r=\"20\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\"/>\n<line x1=\"154\" y1=\"214\" x2=\"176\" y2=\"236\" stroke=\"#fbf3dd\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<path d=\"M128 200 h24\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/><path d=\"M140 188 v24\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"164\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#d9ad55\">ACS</text>"
+}

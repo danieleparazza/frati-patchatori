@@ -1,0 +1,10 @@
+{
+  "label": "HashJack",
+  "motto": "POST CANCELLOS INSIDIAE",
+  "niche": [
+    "#20182c",
+    "#443460"
+  ],
+  "accent": "#2e2242",
+  "emblem": "<text x=\"140\" y=\"214\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"110\" font-weight=\"bold\" fill=\"#fbf3dd\">#</text>\n<path d=\"M186 128 v58 q0 18 -16 18 q-12 0 -14 -12\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<path d=\"M150 186 l6 8 l8 -6\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<circle cx=\"186\" cy=\"126\" r=\"5\" fill=\"#d9ad55\"/>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato CounterSEVeillance, che contava i passi della VM",
+    "patronage": "delle macchine virtuali riservate, dei contatori di prestazioni e degli hypervisor che guardano dal buco della serratura.",
+    "hagiography": "Nell'ottobre 2024 Stefan Gast, Hannes Weissteiner, Robin Leander Schröder e Daniel Gruss (TU Graz e Fraunhofer SIT) resero pubblico CounterSEVeillance, poi presentato a NDSS 2025: un hypervisor malevolo poteva leggere 228 contatori di prestazioni di una macchina virtuale protetta da AMD SEV-SNP e, facendola avanzare un'istruzione alla volta, ricavarne tracce di ciò che eseguiva. Così estrassero una chiave RSA-4096 da una sola firma di Mbed TLS in meno di otto minuti e indovinarono codici TOTP a sei cifre in circa 31 tentativi in media. AMD, dal canto suo, ricorda che SEV-SNP non protegge da tutti i canali laterali.",
+    "prayer": "O Beato CounterSEVeillance, che conti ogni passo della macchina cifrata, fa' che il nostro codice cammini sempre con lo stesso passo, qualunque segreto porti. Amen.",
+    "feast": "Si festeggia scrivendo codice crittografico a tempo costante, senza salti che dipendano dai segreti, perché AMD lascia questa difesa a chi possiede la VM.",
+    "proverb": "Chi conta i tuoi passi, presto sa dove vai."
+  },
+  "en": {
+    "title": "Blessed CounterSEVeillance, Who Counted the VM's Steps",
+    "patronage": "confidential virtual machines, performance counters, and hypervisors peeking through the keyhole.",
+    "hagiography": "In October 2024 Stefan Gast, Hannes Weissteiner, Robin Leander Schröder and Daniel Gruss (TU Graz and Fraunhofer SIT) published CounterSEVeillance, later presented at NDSS 2025: a malicious hypervisor could read 228 performance counters of a virtual machine protected by AMD SEV-SNP and, single-stepping it one instruction at a time, trace what it was executing. That way they pulled an RSA-4096 key out of a single Mbed TLS signature in under eight minutes and guessed six-digit TOTP codes in about 31 tries on average. AMD, for its part, notes that SEV-SNP does not protect against every side channel.",
+    "prayer": "O Blessed CounterSEVeillance, who counts every step of the encrypted machine, let our code always walk at the same pace, whatever secret it carries. Amen.",
+    "feast": "Celebrated by writing constant-time cryptographic code with no secret-dependent branches, since AMD leaves this defence to whoever owns the VM.",
+    "proverb": "Whoever counts your steps soon knows where you're going."
+  }
+}

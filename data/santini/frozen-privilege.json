@@ -1,0 +1,10 @@
+{
+  "label": "Frozen Privilege",
+  "motto": "EX GLACIE SUPERUSER",
+  "niche": [
+    "#142636",
+    "#2e5068"
+  ],
+  "accent": "#1e3a50",
+  "emblem": "<g stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"><line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"246\"/><line x1=\"108\" y1=\"174\" x2=\"192\" y2=\"222\"/><line x1=\"108\" y1=\"222\" x2=\"192\" y2=\"174\"/></g>\n<g stroke=\"#bfc9d1\" stroke-width=\"3\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M140 160 l10 10 l10 -10\"/><path d=\"M140 236 l10 -10 l10 10\"/><path d=\"M114 186 l14 -2 l-4 -12\"/><path d=\"M186 186 l-14 -2 l4 -12\"/><path d=\"M114 210 l14 2 l-4 12\"/><path d=\"M186 210 l-14 2 l4 12\"/></g>\n<circle cx=\"150\" cy=\"198\" r=\"7\" fill=\"#fbf3dd\"/>\n<path d=\"M124 146 L124 122 L137 134 L150 116 L163 134 L176 122 L176 146 Z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>"
+}

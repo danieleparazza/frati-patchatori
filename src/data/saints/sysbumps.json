@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SysBumps, che trovava il kernel a tentoni",
+    "patronage": "dei Mac con Apple Silicon, delle chiamate di sistema e del KASLR, che nasconde il kernel come un bambino dietro la tenda.",
+    "hagiography": "Al convegno ACM CCS di ottobre 2024 Hyerean Jang, Taehun Kim e Youngjoo Shin della Korea University presentarono SysBumps, secondo gli autori il primo attacco capace di rompere il KASLR di macOS sui chip Apple Silicon nonostante l'isolamento del kernel. Sfruttava l'esecuzione speculativa dentro le chiamate di sistema e poi osservava lo stato del TLB per distinguere gli indirizzi validi del kernel da quelli non validi. Scoperta la posizione del kernel, ogni altro exploit trova la strada già spianata.",
+    "prayer": "O Beato SysBumps, che tasti il buio finché senti il kernel, fa' che i nostri processori non lascino impronte dove passano. Amen.",
+    "feast": "Si festeggia tenendo macOS aggiornato e ricordando che il KASLR è un velo, non un muro: la vera difesa è non avere bug da sfruttare dopo.",
+    "proverb": "Conta i dossi e troverai la casa."
+  },
+  "en": {
+    "title": "Blessed SysBumps, Who Found the Kernel by Feel",
+    "patronage": "Apple Silicon Macs, system calls, and KASLR, which hides the kernel like a child behind the curtain.",
+    "hagiography": "At ACM CCS in October 2024, Hyerean Jang, Taehun Kim and Youngjoo Shin of Korea University presented SysBumps, by the authors' account the first attack to break macOS KASLR on Apple Silicon despite kernel isolation. It abused speculative execution inside system calls, then watched the TLB state to tell valid kernel addresses from invalid ones. Once the kernel's location is known, every other exploit finds the road already paved.",
+    "prayer": "O Blessed SysBumps, who gropes in the dark until you feel the kernel, let our processors leave no footprints where they pass. Amen.",
+    "feast": "Celebrated by keeping macOS up to date and remembering that KASLR is a veil, not a wall: the real defence is having no bug to exploit afterwards.",
+    "proverb": "Count the bumps and you'll find the house."
+  }
+}

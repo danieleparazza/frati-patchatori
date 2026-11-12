@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LangGrinch, che rubava i segreti sotto l'albero",
+    "patronage": "degli agenti di intelligenza artificiale, dei dizionari con la chiave \"lc\" e delle variabili d'ambiente piene di chiavi API.",
+    "hagiography": "Il 4 dicembre 2025 Yarden Porat di Cyata segnalò a LangChain un difetto di langchain-core, reso pubblico a fine dicembre con il nome LangGrinch. Le funzioni dumps() e dumpd() non proteggevano i dizionari con la chiave \"lc\", che LangChain usa per marcare i propri oggetti serializzati: dati controllati da un attaccante, anche campi di una risposta del modello manipolata con una prompt injection, venivano poi ricaricati come oggetti veri. Ne potevano derivare furto di segreti dalle variabili d'ambiente e, in certi casi, esecuzione di codice. Punteggio: 9,3.",
+    "prayer": "O San LangGrinch, che ti travesti da dato per entrare in casa, insegna ai nostri serializzatori a distinguere i regali dai pacchi bomba. Amen.",
+    "feast": "Si festeggia aggiornando langchain-core alla 0.3.81 o alla 1.2.5 e, per JavaScript, @langchain/core per la gemella CVE-2025-68665.",
+    "proverb": "Non tutto quel che porta la chiave giusta è di famiglia."
+  },
+  "en": {
+    "title": "Saint LangGrinch, Who Stole Secrets From Under the Tree",
+    "patronage": "AI agents, dictionaries with an \"lc\" key, and environment variables full of API keys.",
+    "hagiography": "On 4 December 2025 Yarden Porat of Cyata reported a langchain-core flaw to LangChain, made public in late December under the name LangGrinch. The dumps() and dumpd() functions didn't escape dictionaries with the \"lc\" key, which LangChain uses to mark its own serialised objects: attacker-controlled data, even fields in a model response steered by prompt injection, were later reloaded as real objects. The outcome could be theft of secrets from environment variables and, in some cases, code execution. Score: 9.3.",
+    "prayer": "O Saint LangGrinch, who dress up as data to get into the house, teach our serialisers to tell presents from parcel bombs. Amen.",
+    "feast": "Celebrated by updating langchain-core to 0.3.81 or 1.2.5 and, for JavaScript, @langchain/core for its twin CVE-2025-68665.",
+    "proverb": "Not everything with the right key belongs to the family."
+  }
+}

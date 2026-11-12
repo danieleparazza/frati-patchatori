@@ -1,0 +1,10 @@
+{
+  "label": "ApatchMe",
+  "motto": "SCRIPTUM IN FLUXU AERIS",
+  "niche": [
+    "#1a2a30",
+    "#34525c"
+  ],
+  "accent": "#28444c",
+  "emblem": "<g fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"><path d=\"M150 168 L150 124 Q176 132 150 168 Z\"/><path d=\"M150 168 L194 168 Q186 194 150 168 Z\"/><path d=\"M150 168 L150 212 Q124 204 150 168 Z\"/><path d=\"M150 168 L106 168 Q114 142 150 168 Z\"/></g>\n<circle cx=\"150\" cy=\"168\" r=\"5\" fill=\"#d9ad55\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#e8a07a\">&lt;script&gt;</text>"
+}

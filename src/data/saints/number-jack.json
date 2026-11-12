@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San NUMBER:JACK, che indovinava i numeri",
+    "patronage": "degli stack TCP/IP embedded, dei numeri di sequenza iniziali e di chi chiama \"casuale\" un contatore.",
+    "hagiography": "Il 10 febbraio 2021 Forescout Research Labs, nel secondo capitolo di Project Memoria, rivelò che 9 stack TCP/IP su 11 esaminati generavano numeri di sequenza iniziali deboli: Nut/Net, uC/TCP-IP, CycloneTCP, NDKTCPIP, FNET, uIP, picoTCP, MPLAB Net e Nucleus NET. Chi indovinava quei numeri poteva dirottare connessioni TCP esistenti o falsificarne di nuove verso dispositivi embedded, gli stessi che girano in apparecchi medicali, turbine eoliche e sistemi industriali. Era la stessa lezione impartita nel 1985, dimenticata per trentacinque anni.",
+    "prayer": "O San NUMBER:JACK, che leggi il futuro nei nostri contatori, fa' che i nostri stack tirino dadi veri. Amen.",
+    "feast": "Si festeggia aggiornando lo stack (per esempio CycloneTCP 2.0.0, MPLAB Net 3.6.4, Nucleus NET 5.2), generando gli ISN come vuole la RFC 6528 e cifrando le sessioni, così un dirottamento resta un dispetto.",
+    "proverb": "Numero che si indovina, connessione che si ruba."
+  },
+  "en": {
+    "title": "Saint NUMBER:JACK, Who Guessed the Numbers",
+    "patronage": "embedded TCP/IP stacks, initial sequence numbers, and everyone who calls a counter \"random\".",
+    "hagiography": "On 10 February 2021 Forescout Research Labs, in the second chapter of Project Memoria, revealed that 9 of the 11 TCP/IP stacks it studied generated weak initial sequence numbers: Nut/Net, uC/TCP-IP, CycloneTCP, NDKTCPIP, FNET, uIP, picoTCP, MPLAB Net and Nucleus NET. Anyone who guessed those numbers could hijack existing TCP connections or spoof new ones to embedded devices, the kind found in medical equipment, wind turbines and industrial systems. It was the lesson taught in 1985, forgotten for thirty-five years.",
+    "prayer": "O Saint NUMBER:JACK, who read the future in our counters, let our stacks roll real dice. Amen.",
+    "feast": "Celebrated by updating the stack (for example CycloneTCP 2.0.0, MPLAB Net 3.6.4, Nucleus NET 5.2), generating ISNs the RFC 6528 way, and encrypting sessions so a hijack stays a mere nuisance.",
+    "proverb": "A number you can guess is a connection you can steal."
+  }
+}

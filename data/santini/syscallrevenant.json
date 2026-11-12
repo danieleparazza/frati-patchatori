@@ -1,0 +1,10 @@
+{
+  "label": "SyscallRevenant",
+  "motto": "PASSU PASSU REDIVIVUS",
+  "niche": [
+    "#1a1a24",
+    "#3a3a52"
+  ],
+  "accent": "#2a2a3c",
+  "emblem": "<line x1=\"118\" y1=\"124\" x2=\"118\" y2=\"246\" stroke=\"#bfc9d1\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<path d=\"M120 126 L180 136 L166 150 L180 164 L120 160 Z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"146\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#1a1a24\">TF</text>\n<g fill=\"#fbf3dd\"><ellipse cx=\"140\" cy=\"236\" rx=\"5\" ry=\"8\"/><ellipse cx=\"156\" cy=\"218\" rx=\"5\" ry=\"8\"/><ellipse cx=\"170\" cy=\"200\" rx=\"5\" ry=\"8\"/><ellipse cx=\"186\" cy=\"182\" rx=\"5\" ry=\"8\"/></g>\n<text x=\"172\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#bfc9d1\">syscall</text>"
+}

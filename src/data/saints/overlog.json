@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'OverLog, che riempiva i dischi di registri",
+    "patronage": "dei registri eventi di Windows, dei dischi pieni e dei log di Internet Explorer che nessuno ricordava di avere.",
+    "hagiography": "Nell'ottobre 2022 Dolev Taler di Varonis Threat Labs raccontò due difetti del registro eventi di Windows, raggiungibili tramite il protocollo MS-EVEN grazie a un registro di Internet Explorer che ogni utente del dominio poteva aprire da remoto. Il primo, OverLog (CVE-2022-37981), abusava della funzione BackupEventLogW per riempire di copie il disco di una macchina del dominio fino a esaurirne lo spazio. Microsoft lo aveva corretto con gli aggiornamenti dell'11 ottobre 2022.",
+    "prayer": "O Sant'OverLog, che scrivi verbali finché non resta un byte libero, fa' che i nostri dischi sappiano dire basta. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di ottobre 2022 e controllando chi può leggere i registri da remoto, perché Internet Explorer se n'era andato ma il suo registro era rimasto.",
+    "proverb": "Chi tutto annota, presto resta senza carta."
+  },
+  "en": {
+    "title": "Saint OverLog, Who Filled Disks with Logs",
+    "patronage": "Windows event logs, full disks, and Internet Explorer logs nobody remembered having.",
+    "hagiography": "In October 2022 Dolev Taler of Varonis Threat Labs described two flaws in the Windows event log, reachable over the MS-EVEN protocol thanks to an Internet Explorer log that any domain user could open remotely. The first, OverLog (CVE-2022-37981), abused the BackupEventLogW function to fill a domain machine's disk with copies until it ran out of space. Microsoft had fixed it in the 11 October 2022 updates.",
+    "prayer": "O Saint OverLog, who write minutes until not a byte is left, teach our disks to say enough. Amen.",
+    "feast": "Celebrated by installing the October 2022 updates and checking who can read logs remotely, because Internet Explorer had left but its log had stayed behind.",
+    "proverb": "Write down everything and you'll soon run out of paper."
+  }
+}

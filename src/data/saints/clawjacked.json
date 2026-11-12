@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ClawJacked, che strappava la chela all'agente",
+    "patronage": "degli agenti di intelligenza artificiale locali, dei WebSocket su localhost e di chi crede che la propria macchina sia fuori dalla portata del web.",
+    "hagiography": "Il 26 febbraio 2026 Elad Luz di Oasis Security raccontò ClawJacked, una falla di OpenClaw, l'agente di intelligenza artificiale open source che si installa sul proprio computer. Qualsiasi sito visitato poteva aprire dal browser una connessione WebSocket verso il gateway locale dell'agente; il limite ai tentativi non valeva per le connessioni da localhost, così la password si poteva provare centinaia di volte al secondo, e una volta dentro il nuovo \"dispositivo\" veniva approvato in automatico. Il sito otteneva così il controllo amministrativo dell'agente e dei nodi collegati. Il team di OpenClaw corresse in meno di 24 ore.",
+    "prayer": "O Beato ClawJacked, che afferri l'agente dalla finestra del browser, fa' che i nostri servizi locali non aprano a chiunque bussi da casa. Amen.",
+    "feast": "Si festeggia aggiornando OpenClaw alla 2026.2.25 o successiva, scegliendo una password robusta per il gateway e trattando localhost come una porta sulla strada.",
+    "proverb": "Chi apre a chi bussa da casa sua, apre al mondo intero."
+  },
+  "en": {
+    "title": "Blessed ClawJacked, Who Snatched the Agent's Claw",
+    "patronage": "local AI agents, localhost WebSockets, and everyone who thinks their own machine is out of the web's reach.",
+    "hagiography": "On 26 February 2026 Elad Luz of Oasis Security described ClawJacked, a flaw in OpenClaw, the open-source AI agent you run on your own computer. Any website you visited could open a WebSocket from the browser to the agent's local gateway; the rate limit didn't apply to localhost connections, so the password could be guessed hundreds of times per second, and once in, the new \"device\" was approved automatically. The site thus gained admin control of the agent and its connected nodes. The OpenClaw team shipped a fix in under 24 hours.",
+    "prayer": "O Blessed ClawJacked, who seize the agent through the browser window, let our local services not open to anyone knocking from home. Amen.",
+    "feast": "Celebrated by updating OpenClaw to 2026.2.25 or later, choosing a strong gateway password, and treating localhost like a door onto the street.",
+    "proverb": "Open to whoever knocks from inside and you've opened to the world."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Pork Explosion, che dal maiale non buttava niente",
+    "patronage": "dei bootloader di fabbrica, delle funzioni di debug dimenticate e delle vulnerabilità con un nome più rumoroso del necessario.",
+    "hagiography": "Il 12 ottobre 2016 Jon Sawyer, noto come jcase, rivelò Pork Explosion: nel bootloader che Foxconn personalizzava per alcuni telefoni Android, tra cui l'InFocus M810 e il Nextbit Robin, era rimasta una funzione di debug di fabbrica. Con il telefono collegato via USB, un comando fastboot lo faceva ripartire in una modalità di test con una shell di root e SELinux disattivato, utile per estrarre dati o tentare di forzare la cifratura. Il nome fu scelto apposta per prendere in giro le vulnerabilità con logo e grancassa; Nextbit aveva rilasciato la correzione il giorno prima.",
+    "prayer": "O Beato Pork Explosion, che dalla fabbrica porti fino a noi una porta di servizio, fa' che i produttori puliscano i bootloader prima di spedirli. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti del produttore e controllando se il telefono ha le partizioni ftmboot e ftmdata, segno di una possibile porta di servizio.",
+    "proverb": "Del maiale non si butta via niente, nemmeno il codice di debug."
+  },
+  "en": {
+    "title": "Blessed Pork Explosion, Who Wasted No Part of the Pig",
+    "patronage": "factory bootloaders, forgotten debug features, and vulnerabilities with names louder than necessary.",
+    "hagiography": "On 12 October 2016 Jon Sawyer, known as jcase, disclosed Pork Explosion: the bootloader Foxconn customised for some Android phones, including the InFocus M810 and the Nextbit Robin, still contained a factory debug feature. With the phone connected over USB, a fastboot command rebooted it into a test mode with a root shell and SELinux disabled, handy for extracting data or trying to brute-force encryption. The name was chosen on purpose to mock vulnerabilities that come with a logo and a marching band; Nextbit had shipped a fix the day before.",
+    "prayer": "O Blessed Pork Explosion, who carry a back door all the way from the factory, let manufacturers clean their bootloaders before shipping. Amen.",
+    "feast": "Celebrated by installing vendor updates and checking whether the phone has ftmboot and ftmdata partitions, the telltale sign of a possible back door.",
+    "proverb": "Every part of the pig gets used, even the debug code."
+  }
+}

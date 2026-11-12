@@ -1,0 +1,10 @@
+{
+  "label": "iTLB multihit",
+  "motto": "DUO VERA UNUM ERRATUM",
+  "niche": [
+    "#1c1c22",
+    "#3e3e4c"
+  ],
+  "accent": "#33334a",
+  "emblem": "<rect x=\"104\" y=\"140\" width=\"66\" height=\"66\" fill=\"#bfc9d1\" fill-opacity=\"0.8\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"140\" y=\"170\" width=\"30\" height=\"30\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"137\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#33334a\">2 MB</text>\n<text x=\"155\" y=\"190\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#33334a\">4 KB</text>\n<path d=\"M194 136 l-14 30 h12 l-10 30 l24 -38 h-12 l10 -22 z\" fill=\"#e05a4f\" stroke=\"#fbf3dd\" stroke-width=\"1\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">#MC</text>"
+}

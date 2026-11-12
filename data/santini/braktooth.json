@@ -1,0 +1,10 @@
+{
+  "label": "BrakTooth",
+  "motto": "DENS CAERULEUS FRACTUS",
+  "niche": [
+    "#1c2236",
+    "#3a4466"
+  ],
+  "accent": "#2a3252",
+  "emblem": "<path d=\"M118 132 Q150 118 182 132 Q196 160 184 196 L176 240 Q170 248 164 238 L156 206 Q150 196 144 206 L136 238 Q130 248 124 240 L116 196 Q104 160 118 132 Z\" fill=\"#2c3550\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M150 124 L142 146 L158 160 L144 178 L156 196\" fill=\"none\" stroke=\"#e05a47\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/>\n<path d=\"M170 150 l10 10 -5 5 0 -20 5 5 -10 10\" fill=\"none\" stroke=\"#8fb8e8\" stroke-width=\"2\"/>"
+}

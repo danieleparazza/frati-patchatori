@@ -1,0 +1,10 @@
+{
+  "label": "EM Eye",
+  "motto": "OCULUS PER PARIETEM",
+  "niche": [
+    "#14222a",
+    "#2f4b57"
+  ],
+  "accent": "#1f3540",
+  "emblem": "<g stroke=\"#7f8c8d\" stroke-width=\"2\"><line x1=\"92\" y1=\"130\" x2=\"92\" y2=\"230\"/><line x1=\"100\" y1=\"130\" x2=\"100\" y2=\"230\"/></g>\n<g fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2.5\"><path d=\"M108 162 q8 18 0 36\"/><path d=\"M118 154 q12 26 0 52\"/></g>\n<path d=\"M126 180 Q164 140 206 180 Q164 220 126 180 Z\" fill=\"#1f3540\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<circle cx=\"166\" cy=\"180\" r=\"16\" fill=\"#d9ad55\"/>\n<circle cx=\"166\" cy=\"180\" r=\"7\" fill=\"#14222a\"/>\n<circle cx=\"171\" cy=\"175\" r=\"3\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">&gt; 2 m</text>"
+}

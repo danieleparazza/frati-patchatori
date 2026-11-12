@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Shadow Attacks, ombra dietro la firma",
+    "patronage": "dei PDF firmati, dei lettori di documenti e di chi firma senza chiedersi cosa c'è sotto.",
+    "hagiography": "Nel luglio 2020 Christian Mainka, Vladislav Mladenov e Simon Rohlmann della Ruhr-Universität Bochum svelarono gli Shadow Attacks, poi presentati al simposio NDSS 2021. L'attaccante prepara un PDF con un contenuto nascosto nell'ombra e lo fa firmare alla vittima; dopo la firma aggiunge un aggiornamento incrementale innocuo all'apparenza, che scopre o sostituisce quel contenuto, e la firma resta valida. Tre famiglie, hide, replace e hide-and-replace, con cui gli autori ingannarono 16 lettori PDF su 29, tra cui Adobe Acrobat e Foxit Reader. Adobe corresse con le CVE-2020-9592 e CVE-2020-9596.",
+    "prayer": "O San Shadow Attacks, che cammini un passo dietro la firma, fa' che i nostri lettori mostrino ciò che è stato firmato e non ciò che è arrivato dopo. Amen.",
+    "feast": "Si festeggia aggiornando Acrobat e gli altri lettori PDF e non firmando documenti preparati da altri senza averli aperti con uno strumento che li sappia ispezionare.",
+    "proverb": "Firma ciò che vedi, ma chiediti cosa c'è all'ombra."
+  },
+  "en": {
+    "title": "Saint Shadow Attacks, Shade Behind the Signature",
+    "patronage": "signed PDFs, document readers, and everyone who signs without wondering what lies underneath.",
+    "hagiography": "In July 2020 Christian Mainka, Vladislav Mladenov and Simon Rohlmann of Ruhr University Bochum unveiled the Shadow Attacks, later presented at NDSS 2021. The attacker prepares a PDF with content hidden in the shadows and has the victim sign it; after signing, they append an innocent-looking incremental update that reveals or replaces that content, and the signature stays valid. Three families, hide, replace and hide-and-replace, fooled 16 of 29 PDF viewers, including Adobe Acrobat and Foxit Reader. Adobe fixed CVE-2020-9592 and CVE-2020-9596.",
+    "prayer": "O Saint Shadow Attacks, who walk one step behind the signature, let our viewers show what was signed and not what came after. Amen.",
+    "feast": "Celebrated by updating Acrobat and other PDF viewers, and by never signing a document someone else prepared without opening it in a tool that can inspect it.",
+    "proverb": "Sign what you see, but ask what sits in the shade."
+  }
+}

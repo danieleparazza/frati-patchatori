@@ -1,0 +1,10 @@
+{
+  "label": "Naptha",
+  "motto": "MANUS SINE MEMORIA",
+  "niche": [
+    "#2a1c10",
+    "#5a3c1e"
+  ],
+  "accent": "#3e2a16",
+  "emblem": "<path d=\"M106 206 q0 -18 44 -18 q44 0 44 18 q-10 16 -44 16 q-34 0 -44 -16 z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M194 204 q16 -4 14 -16\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<path d=\"M120 222 h60 l-8 14 h-44 z\" fill=\"#b8892b\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M112 196 q-4 -26 8 -42 q2 18 10 22 q-2 -22 14 -40 q0 26 12 30 q2 -14 10 -20 q4 20 -6 50\" fill=\"#f3a03b\" stroke=\"#fbf3dd\" stroke-width=\"2\" stroke-linejoin=\"round\"/>"
+}

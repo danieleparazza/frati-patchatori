@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ShellTorch, che entrava con la torcia accesa",
+    "patronage": "dei server di modelli PyTorch, delle interfacce di gestione dimenticate aperte e di chi carica modelli da qualunque indirizzo.",
+    "hagiography": "Il 3 ottobre 2023 Oligo Security rivelò ShellTorch, una catena di falle in TorchServe, il server di modelli di PyTorch. L'interfaccia di gestione, che la documentazione diceva raggiungibile solo in locale, ascoltava di default su tutte le interfacce e senza autenticazione; accettava modelli da qualunque URL (CVE-2023-43654), e un file YAML malevolo sfruttava la deserializzazione insicura di SnakeYAML (CVE-2022-1471) per eseguire codice. Oligo contò decine di migliaia di istanze esposte, e vulnerabili erano anche le immagini predefinite di Amazon e Google.",
+    "prayer": "O San ShellTorch, che con la torcia in mano entri nella stanza dei modelli, fa' che le nostre interfacce di gestione restino al buio, dentro casa. Amen.",
+    "feast": "Si festeggia aggiornando TorchServe almeno alla 0.8.2, limitando allowed_urls alle sole fonti fidate e legando l'interfaccia di gestione a 127.0.0.1.",
+    "proverb": "Chi lascia aperta la porta di servizio si ritrova la torcia in cantina."
+  },
+  "en": {
+    "title": "Saint ShellTorch, Who Came In Carrying a Torch",
+    "patronage": "PyTorch model servers, management interfaces left open, and everyone who loads models from any old URL.",
+    "hagiography": "On 3 October 2023 Oligo Security disclosed ShellTorch, a chain of flaws in TorchServe, PyTorch's model server. The management interface, documented as reachable only locally, actually listened on all interfaces by default and without authentication; it accepted models from any URL (CVE-2023-43654), and a malicious YAML file abused SnakeYAML's unsafe deserialization (CVE-2022-1471) to run code. Oligo counted tens of thousands of exposed instances, and Amazon's and Google's default images were vulnerable too.",
+    "prayer": "O Saint ShellTorch, who walk into the model room holding a torch, let our management interfaces stay dark and indoors. Amen.",
+    "feast": "Celebrated by upgrading TorchServe to at least 0.8.2, restricting allowed_urls to trusted sources and binding the management interface to 127.0.0.1.",
+    "proverb": "Leave the back door open and you'll find a torch in the cellar."
+  }
+}

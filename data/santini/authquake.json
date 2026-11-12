@@ -1,0 +1,10 @@
+{
+  "label": "AuthQuake",
+  "motto": "TERRAEMOTUS CODICUM",
+  "niche": [
+    "#2a2016",
+    "#56422e"
+  ],
+  "accent": "#44321f",
+  "emblem": "<rect x=\"122\" y=\"128\" width=\"56\" height=\"100\" rx=\"9\" fill=\"#44321f\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<rect x=\"128\" y=\"142\" width=\"44\" height=\"72\" rx=\"3\" fill=\"#56422e\" stroke=\"#bfc9d1\" stroke-width=\"1\"/>\n<text x=\"150\" y=\"176\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#fbf3dd\">4 8 1</text>\n<text x=\"150\" y=\"194\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#fbf3dd\">? ? ?</text>\n<path d=\"M150 214 l-6 10 l8 6 l-6 12\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M110 150 l-6 6 l6 6 l-6 6\"/><path d=\"M190 150 l6 6 l-6 6 l6 6\"/><path d=\"M108 190 l-6 6 l6 6\"/><path d=\"M192 190 l6 6 l-6 6\"/></g>"
+}

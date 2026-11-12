@@ -1,0 +1,10 @@
+{
+  "label": "SPECTER",
+  "motto": "LUX USB LOQUITUR",
+  "niche": [
+    "#1f2233",
+    "#3f4566"
+  ],
+  "accent": "#2d3250",
+  "emblem": "<rect x=\"134\" y=\"120\" width=\"32\" height=\"24\" rx=\"2\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<rect x=\"142\" y=\"126\" width=\"6\" height=\"6\" fill=\"#bfc9d1\"/><rect x=\"152\" y=\"126\" width=\"6\" height=\"6\" fill=\"#bfc9d1\"/>\n<rect x=\"126\" y=\"144\" width=\"48\" height=\"44\" rx=\"6\" fill=\"#3d4258\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M150 188 v22 q0 14 -14 18\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<circle cx=\"150\" cy=\"166\" r=\"7\" fill=\"#f5d77a\"/>\n<g stroke=\"#f5d77a\" stroke-width=\"2.5\" stroke-linecap=\"round\"><path d=\"M110 160 h-12 M112 146 l-10 -6 M112 174 l-10 6 M190 160 h12 M188 146 l10 -6 M188 174 l10 6\"/></g>\n<text x=\"168\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" letter-spacing=\"2\" fill=\"#d9ad55\">1 0 1 1</text>"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "Sierra:21",
+  "motto": "VIGINTI UNUM VULNERA",
+  "niche": [
+    "#1e2a24",
+    "#3d574a"
+  ],
+  "accent": "#2c4236",
+  "emblem": "<rect x=\"112\" y=\"176\" width=\"76\" height=\"40\" rx=\"5\" fill=\"#3d574a\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<g stroke=\"#fbf3dd\" stroke-width=\"4\" stroke-linecap=\"round\"><line x1=\"124\" y1=\"176\" x2=\"116\" y2=\"128\"/><line x1=\"176\" y1=\"176\" x2=\"184\" y2=\"128\"/></g>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"><path d=\"M106 124 q10 -10 20 0\"/><path d=\"M100 118 q16 -16 32 0\"/><path d=\"M174 124 q10 -10 20 0\"/><path d=\"M168 118 q16 -16 32 0\"/></g>\n<g fill=\"#7fd36a\"><circle cx=\"124\" cy=\"206\" r=\"3\"/><circle cx=\"134\" cy=\"206\" r=\"3\"/></g><circle cx=\"144\" cy=\"206\" r=\"3\" fill=\"#c0392b\"/>\n<text x=\"166\" y=\"204\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" font-weight=\"bold\" fill=\"#d9ad55\">21</text>\n<g stroke=\"#c0392b\" stroke-width=\"2\"><path d=\"M130 228 l6 10 M150 226 v12 M170 228 l-6 10\"/></g>"
+}

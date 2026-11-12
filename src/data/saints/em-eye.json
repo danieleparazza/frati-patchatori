@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato EM Eye, occhio che vede oltre il muro",
+    "patronage": "delle telecamere di sicurezza, delle dash cam e di chi pensava che un cavo fosse solo un cavo.",
+    "hagiography": "Al simposio NDSS del 2024 Yan Long dell'Università del Michigan, con colleghi della Zhejiang University e della Northeastern University, presentò EM Eye. I fili che portano le immagini dal sensore al processore di una telecamera si comportano come antenne involontarie: captandone le emissioni elettromagnetiche si potevano ricostruire i fotogrammi in tempo reale, in molti casi da oltre due metri e, secondo gli autori, anche dall'altra parte di una parete. Furono provati 4 kit di sviluppo e 12 dispositivi in commercio, tra smartphone, dash cam e telecamere domestiche.",
+    "prayer": "O Beato EM Eye, che guardi senza essere guardato, fa' che i nostri cavi tacciano ciò che le nostre lenti vedono. Amen.",
+    "feast": "Si festeggia proteggendo e schermando l'interfaccia che porta i dati dall'obiettivo al processore, come suggeriscono gli autori, perché cifrare solo l'upload non basta.",
+    "proverb": "Il muro ferma l'occhio, non l'onda."
+  },
+  "en": {
+    "title": "Blessed EM Eye, Eye That Sees Through Walls",
+    "patronage": "security cameras, dash cams, and everyone who thought a wire was just a wire.",
+    "hagiography": "At NDSS 2024 Yan Long of the University of Michigan, with colleagues from Zhejiang University and Northeastern University, presented EM Eye. The wires carrying images from a camera's sensor to its processor act as accidental antennas: by capturing their electromagnetic emissions one could rebuild the frames in real time, often from more than two metres away and, according to the authors, even from the other side of a wall. They tested 4 development kits and 12 commercial devices, including smartphones, dash cams and home cameras.",
+    "prayer": "O Blessed EM Eye, who watches without being watched, let our cables keep quiet about what our lenses see. Amen.",
+    "feast": "Celebrated by protecting and shielding the link that carries data from lens to processor, as the authors suggest, because encrypting the upload alone is not enough.",
+    "proverb": "Walls stop eyes, not waves."
+  }
+}

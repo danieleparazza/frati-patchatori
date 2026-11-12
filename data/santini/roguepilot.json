@@ -1,0 +1,10 @@
+{
+  "label": "RoguePilot",
+  "motto": "GUBERNATOR REBELLIS",
+  "niche": [
+    "#1a2230",
+    "#36465e"
+  ],
+  "accent": "#263348",
+  "emblem": "<path d=\"M150 168 C128 150 104 150 92 156 C110 160 124 168 134 180 Z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M150 168 C172 150 196 150 208 156 C190 160 176 168 166 180 Z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M108 158 l22 10 M100 162 l24 10 M192 158 l-22 10 M200 162 l-24 10\" stroke=\"#8a6d1f\" stroke-width=\"1.5\"/>\n<circle cx=\"150\" cy=\"174\" r=\"14\" fill=\"#263348\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<path d=\"M142 172 q8 -8 16 0 M144 178 h12\" stroke=\"#fbf3dd\" stroke-width=\"2\" fill=\"none\"/>\n<g fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"><circle cx=\"150\" cy=\"212\" r=\"10\"/><line x1=\"150\" y1=\"222\" x2=\"150\" y2=\"244\"/><line x1=\"150\" y1=\"234\" x2=\"160\" y2=\"234\"/><line x1=\"150\" y1=\"242\" x2=\"158\" y2=\"242\"/></g>"
+}

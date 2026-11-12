@@ -1,0 +1,10 @@
+{
+  "label": "Lucky Thirteen",
+  "motto": "TREDECIM FELICES",
+  "niche": [
+    "#1f2416",
+    "#40492c"
+  ],
+  "accent": "#2e3520",
+  "emblem": "<circle cx=\"150\" cy=\"176\" r=\"50\" fill=\"#2e3520\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"2\"><path d=\"M150 130 v8 M150 214 v8 M104 176 h8 M188 176 h8 M117 143 l6 6 M183 143 l-6 6 M117 209 l6 -6 M183 209 l-6 -6\"/></g>\n<text x=\"150\" y=\"190\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"40\" fill=\"#fbf3dd\">13</text>\n<path d=\"M150 200 L168 212\" stroke=\"#d9ad55\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#fbf3dd\">CBC · MAC</text>"
+}

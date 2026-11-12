@@ -1,0 +1,10 @@
+{
+  "label": "AnC",
+  "motto": "MMU VESTIGIA PRODIT",
+  "niche": [
+    "#1e1a2c",
+    "#3e3658"
+  ],
+  "accent": "#2c2642",
+  "emblem": "<g fill=\"#2c2642\" stroke=\"#bfc9d1\" stroke-width=\"2\">\n<rect x=\"100\" y=\"124\" width=\"100\" height=\"22\"/><rect x=\"100\" y=\"152\" width=\"100\" height=\"22\"/><rect x=\"100\" y=\"180\" width=\"100\" height=\"22\"/><rect x=\"100\" y=\"208\" width=\"100\" height=\"22\"/></g>\n<g stroke=\"#bfc9d1\" stroke-width=\"1\"><path d=\"M125 124 v22 M150 124 v22 M175 124 v22 M125 152 v22 M150 152 v22 M175 152 v22 M125 180 v22 M150 180 v22 M175 180 v22 M125 208 v22 M150 208 v22 M175 208 v22\"/></g>\n<g fill=\"#d9ad55\"><rect x=\"126\" y=\"125\" width=\"23\" height=\"20\"/><rect x=\"151\" y=\"153\" width=\"23\" height=\"20\"/><rect x=\"101\" y=\"181\" width=\"23\" height=\"20\"/><rect x=\"176\" y=\"209\" width=\"23\" height=\"20\"/></g>\n<path d=\"M137 146 L162 152 M162 174 L112 180 M112 202 L187 208\" stroke=\"#fbf3dd\" stroke-width=\"2.5\" fill=\"none\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#fbf3dd\">ASLR · CACHE</text>"
+}

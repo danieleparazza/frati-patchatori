@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato KindleDrip, che sgocciolava dalle pagine",
+    "patronage": "dei lettori di e-book, degli indirizzi \"Send to Kindle\" e di chi accetta libri da sconosciuti.",
+    "hagiography": "Il 21 gennaio 2021 Yogev Bar-On di Realmode Labs descrisse KindleDrip, una catena di tre bug nei lettori Kindle di Amazon. L'indirizzo \"Send to Kindle\" accettava mittenti falsificati, un e-book costruito ad arte mandava in overflow il decoder di immagini JPEG XR quando si toccava un link, e un terzo difetto portava a root. L'attaccante poteva così prendere il lettore e usare l'account della vittima per acquisti sul Kindle Store. Amazon pagò 18.000 dollari di ricompensa.",
+    "prayer": "O Beato KindleDrip, che sgoccioli dentro i nostri libri, fa' che ogni pagina che riceviamo sia solo da leggere. Amen.",
+    "feast": "Si festeggia con il firmware 5.13.4, uscito nel dicembre 2020, e con la verifica che Amazon ha aggiunto per i mittenti non autorizzati: un libro inatteso si apre con sospetto.",
+    "proverb": "A libro donato, guarda nel codice."
+  },
+  "en": {
+    "title": "Blessed KindleDrip, Who Dripped From the Pages",
+    "patronage": "e-book readers, \"Send to Kindle\" addresses, and anyone who takes books from strangers.",
+    "hagiography": "On 21 January 2021 Yogev Bar-On of Realmode Labs described KindleDrip, a chain of three bugs in Amazon's Kindle e-readers. The \"Send to Kindle\" address accepted spoofed senders, a crafted e-book overflowed the JPEG XR image decoder when a link was tapped, and a third flaw led to root. An attacker could take over the reader and use the victim's account to buy from the Kindle Store. Amazon paid an 18,000 dollar bounty.",
+    "prayer": "O Blessed KindleDrip, who drip into our books, let every page we receive be meant only for reading. Amen.",
+    "feast": "Celebrated with firmware 5.13.4, released in December 2020, and the check Amazon added for unauthorized senders: an unexpected book is opened with suspicion.",
+    "proverb": "Before you open a gift book, look inside its code."
+  }
+}

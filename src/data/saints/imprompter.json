@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Imprompter, dal prompt indecifrabile",
+    "patronage": "degli agenti LLM, delle immagini Markdown e di chi incolla nel chatbot i prompt trovati in giro.",
+    "hagiography": "Nell'ottobre 2024 Xiaohan Fu, Earlence Fernandes e colleghi presentarono Imprompter: prompt avversari generati automaticamente, simili a un'accozzaglia di simboli, che inducevano un agente a raccogliere i dati personali della conversazione e a spedirli a un server esterno nascosti nell'indirizzo di un'immagine Markdown. Su LeChat di Mistral e su ChatGLM l'attacco riuscì in quasi l'80% dei casi. Mistral, avvisata il 9 settembre 2024, corresse il 13 settembre impedendo il caricamento delle immagini esterne.",
+    "prayer": "O Beato Imprompter, che parli una lingua che nessun umano capisce ma ogni modello obbedisce, fa' che i nostri agenti non spediscano lettere a sconosciuti. Amen.",
+    "feast": "Si festeggia bloccando le immagini Markdown verso domini esterni e diffidando dei prompt già pronti, soprattutto di quelli che sembrano scritti da un gatto sulla tastiera.",
+    "proverb": "Prompt che non capisci, non incollarlo."
+  },
+  "en": {
+    "title": "Blessed Imprompter, of the Unreadable Prompt",
+    "patronage": "LLM agents, Markdown images, and everyone who pastes prompts found online into a chatbot.",
+    "hagiography": "In October 2024 Xiaohan Fu, Earlence Fernandes and colleagues presented Imprompter: automatically generated adversarial prompts that looked like a jumble of symbols yet made an agent gather the personal details in a conversation and ship them to an outside server, tucked into the address of a Markdown image. Against Mistral's LeChat and ChatGLM the attack worked nearly 80% of the time. Mistral, notified on 9 September 2024, fixed it on 13 September by stopping external images from loading.",
+    "prayer": "O Blessed Imprompter, who speak a tongue no human understands but every model obeys, keep our agents from mailing letters to strangers. Amen.",
+    "feast": "Celebrated by blocking Markdown images to outside domains and distrusting ready-made prompts, especially the ones that look like a cat walked across the keyboard.",
+    "proverb": "If you can't read the prompt, don't paste it."
+  }
+}

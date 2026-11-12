@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Blindside, che bendava gli EDR",
+    "patronage": "dei registri di debug, delle copie pulite di ntdll e degli antivirus che guardano solo dove gli hanno detto di guardare.",
+    "hagiography": "Nel dicembre 2022 Ilan Kalendarov di Cymulate presentò Blindside, una tecnica per sfuggire ai prodotti EDR. Si avvia un processo in modalità debug e, con un breakpoint hardware impostato nei registri della CPU su LdrLoadDll, gli si impedisce di caricare altro oltre a ntdll.dll; quella copia ancora intatta viene poi usata per sovrascrivere la ntdll \"agganciata\" dall'EDR nel processo bersaglio. Tolti gli agganci, il codice gira con molta meno sorveglianza: secondo i ricercatori, molti dei prodotti provati non se ne accorgevano.",
+    "prayer": "O Beato Blindside, che togli gli occhiali alla sentinella, fa' che i nostri guardiani controllino anche i registri di debug. Amen.",
+    "feast": "Si festeggia sorvegliando le chiamate a SetThreadContext e gli indirizzi sospetti nei registri DR0-DR3, come consiglia Cymulate.",
+    "proverb": "Non serve accecare la guardia: basta toglierle le lenti."
+  },
+  "en": {
+    "title": "Blessed Blindside, Who Blindfolded the EDR",
+    "patronage": "debug registers, clean copies of ntdll, and antivirus that only looks where it was told to look.",
+    "hagiography": "In December 2022 Ilan Kalendarov of Cymulate presented Blindside, a technique for slipping past EDR products. A process is started in debug mode and, with a hardware breakpoint set in the CPU's registers on LdrLoadDll, prevented from loading anything beyond ntdll.dll; that untouched copy is then used to overwrite the EDR-hooked ntdll in the target process. With the hooks gone, code runs under far less scrutiny: according to the researchers, many of the products tested never noticed.",
+    "prayer": "O Blessed Blindside, who take the sentry's glasses away, let our guardians watch the debug registers too. Amen.",
+    "feast": "Celebrated by monitoring calls to SetThreadContext and suspicious addresses in DR0-DR3, as Cymulate recommends.",
+    "proverb": "No need to blind the guard: just take away the lenses."
+  }
+}

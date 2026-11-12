@@ -1,0 +1,10 @@
+{
+  "label": "Spectre",
+  "motto": "FUTURUM VESTIGIA LINQUIT",
+  "niche": [
+    "#151b26",
+    "#313d52"
+  ],
+  "accent": "#26324a",
+  "emblem": "<path d=\"M120 236 v-70 a30 30 0 0 1 60 0 v70 l-10 -10 l-10 10 l-10 -10 l-10 10 l-10 -10 z\" fill=\"#fbf3dd\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<circle cx=\"139\" cy=\"166\" r=\"5\" fill=\"#26324a\"/><circle cx=\"161\" cy=\"166\" r=\"5\" fill=\"#26324a\"/>\n<path d=\"M180 196 q22 -10 26 -30 M196 176 l10 -2 M198 186 l8 4\" stroke=\"#d9ad55\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/>"
+}

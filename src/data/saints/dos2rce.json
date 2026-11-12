@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato DOS2RCE, falso maestro del V8",
+    "patronage": "dei blog di ricerca troppo belli per essere veri, dei progetti ricevuti da sconosciuti e dei finti ricercatori dalle mille identità.",
+    "hagiography": "Il 14 ottobre 2020 un account Twitter rilanciò un articolo intitolato \"DOS2RCE: A New Technique To Exploit V8 NULL Pointer Dereference Bug\", ospitato su blog.br0vvnn.io. La tecnica era un'esca: Google e Microsoft rivelarono poi che blog, account e personaggi erano gestiti da un gruppo legato al governo nordcoreano (ZINC per Microsoft) per conquistare la fiducia di chi fa ricerca di sicurezza. Tra il 19 e il 21 ottobre alcuni visitatori del blog, con Chrome, si ritrovarono il malware del gruppo; secondo Microsoft vi era probabilmente ospitata una catena di exploit, mai dimostrata con certezza.",
+    "prayer": "O Beato DOS2RCE, falso profeta che predichi tecniche nuove per rubare fiducia vecchia, fa' che controlliamo chi scrive prima di aprire ciò che scrive. Amen.",
+    "feast": "Si festeggia leggendo la ricerca altrui in un browser aggiornato, aprendo i progetti ricevuti solo in macchine virtuali usa e getta e confrontando i propri sistemi con gli indicatori pubblicati da Google e Microsoft.",
+    "proverb": "Non ogni frate col saio è del convento."
+  },
+  "en": {
+    "title": "Blessed DOS2RCE, False Master of V8",
+    "patronage": "research blogs too good to be true, projects sent by strangers, and fake researchers with a thousand faces.",
+    "hagiography": "On 14 October 2020 a Twitter account promoted a post titled \"DOS2RCE: A New Technique To Exploit V8 NULL Pointer Dereference Bug\", hosted on blog.br0vvnn.io. The technique was bait: Google and Microsoft later revealed that the blog, the accounts and the personas were run by a North Korean government-backed group (ZINC, in Microsoft's naming) to win the trust of security researchers. Between 19 and 21 October some visitors to the blog, using Chrome, ended up with the group's malware; Microsoft believed an exploit chain was probably hosted there, though it was never proven.",
+    "prayer": "O Blessed DOS2RCE, false prophet preaching new techniques to steal old trust, let us check who writes before opening what they write. Amen.",
+    "feast": "Celebrated by reading other people's research in an up-to-date browser, opening projects you receive only in throwaway virtual machines, and checking your systems against the indicators published by Google and Microsoft.",
+    "proverb": "Not every friar in a habit belongs to the monastery."
+  }
+}

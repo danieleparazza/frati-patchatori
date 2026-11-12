@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Santa Minerva, che dal tempo di una firma deduceva la chiave",
+    "patronage": "delle firme ECDSA, delle smart card certificate e di chi firma sempre di fretta.",
+    "hagiography": "Nell'ottobre 2019 il gruppo CRoCS dell'Università Masaryk di Brno pubblicò Minerva: partendo da una smart card Athena IDProtect certificata, aveva scoperto che varie implementazioni di ECDSA impiegavano un tempo che dipendeva dalla lunghezza in bit del nonce segreto. Misurando la durata di centinaia o migliaia di firme e risolvendo un problema sui reticoli, si ricostruiva la chiave privata. Erano colpite anche librerie come libgcrypt, wolfSSL, MatrixSSL, Crypto++ e SunEC di Java; anni dopo, falle dello stesso tipo in GnuTLS e python-ecdsa portarono ancora il suo nome.",
+    "prayer": "O Santa Minerva, che dal passo di una firma indovini la chiave, insegna alle nostre librerie a firmare sempre con la stessa andatura. Amen.",
+    "feast": "Si festeggia aggiornando le librerie crittografiche e usando implementazioni ECDSA a tempo costante, perché la saggezza non ha mai fretta.",
+    "proverb": "Chi firma di fretta svela la sua chiave."
+  },
+  "en": {
+    "title": "Saint Minerva, Who Read the Key in a Signature's Timing",
+    "patronage": "ECDSA signatures, certified smart cards, and everyone who always signs in a hurry.",
+    "hagiography": "In October 2019 the CRoCS group at Masaryk University in Brno published Minerva: starting from a certified Athena IDProtect smart card, they found that several ECDSA implementations took a time that depended on the bit length of the secret nonce. Timing hundreds to thousands of signatures and solving a lattice problem was enough to rebuild the private key. Libraries such as libgcrypt, wolfSSL, MatrixSSL, Crypto++ and Java's SunEC were affected as well; years later, flaws of the same kind in GnuTLS and python-ecdsa still carried her name.",
+    "prayer": "O Saint Minerva, who guess the key from the gait of a signature, teach our libraries to sign always at the same pace. Amen.",
+    "feast": "Celebrated by updating cryptographic libraries and using constant-time ECDSA implementations, because wisdom is never in a hurry.",
+    "proverb": "Sign in a hurry and you sign away your key."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'All Guests are Admin, che incoronava gli ospiti",
+    "patronage": "di MKPortal, dei filmati Flash nascosti negli iframe e degli ospiti trattati da padroni di casa.",
+    "hagiography": "Nel gennaio 2007 Demential pubblicò l'attacco «All Guests are Admin» contro MKPortal (CVE-2007-0192): una falsa richiesta tra siti partiva da un file Flash che, con getURL, inviava un modulo alla pagina dei permessi del pannello, il tutto nascosto in un iframe invisibile. Bastava che un amministratore aprisse la pagina sbagliata perché tutti gli ospiti del sito diventassero amministratori; da lì, secondo l'autore, si poteva caricare anche una shell PHP.",
+    "prayer": "O Sant'All Guests are Admin, che metti la corona in testa a chiunque passi, fa' che i nostri pannelli chiedano un gettone a ogni richiesta. Amen.",
+    "feast": "Si festeggia con token anti-CSRF in ogni modulo d'amministrazione, cookie SameSite e un pensiero grato alla fine di Flash.",
+    "proverb": "Ospite incoronato, padrone sfrattato."
+  },
+  "en": {
+    "title": "Saint All Guests are Admin, Who Crowned the Guests",
+    "patronage": "MKPortal, Flash movies hidden in iframes, and guests treated like the masters of the house.",
+    "hagiography": "In January 2007 Demential published the \"All Guests are Admin\" attack against MKPortal (CVE-2007-0192): a cross-site request forgery launched from a Flash file that used getURL to submit a form to the panel's permissions page, all hidden in an invisible iframe. An administrator only had to open the wrong page for every guest on the site to become an administrator; from there, according to the author, a PHP shell could be uploaded too.",
+    "prayer": "O Saint All Guests are Admin, who sets a crown on anyone passing by, let our panels ask for a token with every request. Amen.",
+    "feast": "Celebrated with anti-CSRF tokens on every admin form, SameSite cookies, and a grateful thought for the end of Flash.",
+    "proverb": "Crown every guest and the host sleeps outside."
+  }
+}

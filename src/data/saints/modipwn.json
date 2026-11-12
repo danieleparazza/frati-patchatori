@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ModiPwn, che leggeva la password nella memoria",
+    "patronage": "dei PLC Modicon, del protocollo UMAS e degli impianti industriali dove una patch richiede di fermare la produzione.",
+    "hagiography": "Nel luglio 2021 i ricercatori di Armis resero pubblica la CVE-2021-22779, segnalata a Schneider Electric a metà novembre 2020: nei PLC Modicon M340 e M580 si poteva aggirare l'autenticazione del protocollo UMAS, per esempio leggendo dalla memoria del controllore il dato con cui si sbloccava. Combinata con difetti UMAS già noti e corretti solo in parte, permetteva di prendere il controllo del PLC ed eseguirvi codice. Le patch di Schneider arrivarono in seguito.",
+    "prayer": "O San ModiPwn, che trovi la chiave appesa accanto alla serratura, fa' che i nostri controllori non lascino in vista ciò che li apre. Amen.",
+    "feast": "Si festeggia seguendo le mitigazioni e gli aggiornamenti di Schneider Electric e tenendo i PLC lontani da reti raggiungibili da chiunque.",
+    "proverb": "La chiave sotto lo zerbino è sempre la prima che si trova."
+  },
+  "en": {
+    "title": "Saint ModiPwn, Who Read the Password From Memory",
+    "patronage": "Modicon PLCs, the UMAS protocol, and industrial plants where patching means stopping production.",
+    "hagiography": "In July 2021 Armis researchers went public with CVE-2021-22779, reported to Schneider Electric in mid-November 2020: on Modicon M340 and M580 PLCs the UMAS protocol's authentication could be bypassed, for instance by reading from the controller's memory the value that unlocked it. Combined with known UMAS flaws that had only been partly fixed, it allowed taking over the PLC and running code on it. Schneider's patches came later.",
+    "prayer": "O Saint ModiPwn, who find the key hanging next to the lock, let our controllers never leave in sight what opens them. Amen.",
+    "feast": "Celebrated by following Schneider Electric's mitigations and updates and keeping PLCs off networks anyone can reach.",
+    "proverb": "The key under the doormat is always the first one found."
+  }
+}

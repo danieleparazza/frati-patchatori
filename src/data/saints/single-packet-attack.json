@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Pacchetto Singolo, che arrivava sempre in compagnia",
+    "patronage": "delle race condition, dei buoni sconto da usare una volta sola e di chi contava sul ritardo della rete.",
+    "hagiography": "Nell'agosto 2023, nella ricerca \"Smashing the state machine\", James Kettle di PortSwigger presentò l'attacco a pacchetto singolo, e il 18 ottobre 2023 ne pubblicò la spiegazione dettagliata. Si mandano più richieste HTTP/2 sulla stessa connessione trattenendo l'ultimo frammento di ciascuna; poi si spediscono tutti i frammenti finali insieme, e il sistema operativo li raccoglie in un unico pacchetto TCP. Così 20–30 richieste arrivano nello stesso istante, il jitter della rete sparisce e le race condition remote diventano facili quasi come quelle locali. Lo si trova in Burp Repeater e in Turbo Intruder.",
+    "prayer": "O Beato Pacchetto Singolo, che fai arrivare venti pellegrini nello stesso istante, fa' che i nostri server contino giusto anche quando bussano tutti insieme. Amen.",
+    "feast": "Si festeggia rendendo atomiche le operazioni che contano, con lock o vincoli nel database, e smettendo di sperare che due richieste non arrivino mai insieme.",
+    "proverb": "Se arrivano tutti insieme, il buono sconto vale per tutti."
+  },
+  "en": {
+    "title": "Blessed Single Packet, Who Never Travelled Alone",
+    "patronage": "race conditions, single-use coupons, and everyone who counted on network lag.",
+    "hagiography": "In August 2023, in the research \"Smashing the state machine\", James Kettle of PortSwigger introduced the single-packet attack, and on 18 October 2023 published its detailed write-up. You send several HTTP/2 requests over one connection while holding back the final fragment of each; then you release all the final fragments together, and the operating system gathers them into a single TCP packet. So 20–30 requests land at the same instant, network jitter vanishes and remote race conditions become almost as easy as local ones. It ships in Burp Repeater and Turbo Intruder.",
+    "prayer": "O Blessed Single Packet, who bring twenty pilgrims to the door at the same instant, let our servers count right even when everyone knocks at once. Amen.",
+    "feast": "Celebrated by making the operations that matter atomic, with locks or database constraints, and no longer hoping two requests never arrive together.",
+    "proverb": "When everyone arrives at once, the coupon works for everyone."
+  }
+}

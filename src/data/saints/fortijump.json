@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato FortiJump, che saltava nel gestore",
+    "patronage": "dei FortiManager, dei FortiGate in cerca di registrazione e dei fornitori che gestiscono tutti i clienti da un solo posto.",
+    "hagiography": "Il 23 ottobre 2024 Fortinet pubblicò l'avviso per CVE-2024-47575, un'autenticazione mancante nel demone fgfmd di FortiManager, il protocollo con cui i FortiGate parlano al loro gestore; Kevin Beaumont, che ne scriveva da giorni, l'aveva battezzato FortiJump. Chi raggiungeva quella porta poteva eseguire comandi senza credenziali. Mandiant vide un gruppo, UNC5820, sfruttarlo almeno dal 27 giugno 2024 per portarsi via configurazioni, indirizzi e credenziali dei dispositivi gestiti; watchTowr mostrò poi una variante, FortiJump Higher, che partiva da un FortiGate già gestito.",
+    "prayer": "O Beato FortiJump, che salti dal FortiGate al FortiManager senza chiedere permesso, fa' che i nostri gestori riconoscano chi bussa alla porta 541. Amen.",
+    "feast": "Si festeggia aggiornando FortiManager alla 7.6.1, 7.4.5, 7.2.8, 7.0.13, 6.4.15 o 6.2.13, attivando fgfm-deny-unknown e cambiando le credenziali dei dispositivi gestiti, perché il saltatore se le è già annotate.",
+    "proverb": "Chi governa tutto da una torre, perde tutto in un salto."
+  },
+  "en": {
+    "title": "Blessed FortiJump, Who Leapt into the Manager",
+    "patronage": "FortiManagers, FortiGates looking to register, and providers who run every customer from one place.",
+    "hagiography": "On 23 October 2024 Fortinet published its advisory for CVE-2024-47575, missing authentication in FortiManager's fgfmd daemon, which speaks the protocol FortiGates use to talk to their manager; Kevin Beaumont, who had been warning about it for days, had dubbed it FortiJump. Anyone who reached that port could run commands without credentials. Mandiant saw a group, UNC5820, exploiting it since at least 27 June 2024 to carry off configurations, addresses and credentials of managed devices; watchTowr later showed a variant, FortiJump Higher, launched from an already managed FortiGate.",
+    "prayer": "O Blessed FortiJump, who hop from FortiGate to FortiManager without asking, let our managers know who is knocking on port 541. Amen.",
+    "feast": "Celebrated by updating FortiManager to 7.6.1, 7.4.5, 7.2.8, 7.0.13, 6.4.15 or 6.2.13, enabling fgfm-deny-unknown and rotating the managed devices' credentials, because the jumper has already written them down.",
+    "proverb": "Rule everything from one tower and you can lose it all in one leap."
+  }
+}

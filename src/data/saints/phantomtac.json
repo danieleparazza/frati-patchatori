@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato PhantomTac, che ingannava le mani dei robot",
+    "patronage": "dei bracci robotici, dei sensori tattili magnetici e delle etichette che nascondono più di quanto dicono.",
+    "hagiography": "Il 19 ottobre 2026 Binbin Zhang, Yifeng Zhang e Xiaomeng Chen della Shanghai Jiao Tong University, con Dongyao Chen della Singapore Management University, presentarono PhantomTac: una sottile etichetta magnetica, spessa mezzo millimetro e nascosta sotto un adesivo, falsava i sensori tattili magnetici delle pinze robotiche. Il robot sentiva forze che non c'erano e stringeva troppo, lasciava cadere o rovesciava l'oggetto; negli esperimenti l'attacco riusciva in oltre il 95% dei casi.",
+    "prayer": "O Beato PhantomTac, che con un piccolo magnete fai tremare una mano d'acciaio, insegna ai nostri robot a fidarsi di più sensi e non di uno solo. Amen.",
+    "feast": "Si festeggia confrontando ciò che il sensore tattile dice con la corrente dei motori e la coppia dei giunti, e diffidando dei pacchi con adesivi stranamente pesanti.",
+    "proverb": "Mano che sente un solo senso, stringe quel che non deve."
+  },
+  "en": {
+    "title": "Blessed PhantomTac, Who Fooled Robot Hands",
+    "patronage": "robot arms, magnetic tactile sensors, and labels that hide more than they say.",
+    "hagiography": "On 19 October 2026 Binbin Zhang, Yifeng Zhang and Xiaomeng Chen of Shanghai Jiao Tong University, with Dongyao Chen of Singapore Management University, presented PhantomTac: a thin magnetic tag, half a millimetre thick and hidden under a sticker, skewed the magnetic tactile sensors of robot grippers. The robot felt forces that weren't there and crushed, dropped or toppled the object; in their experiments the attack worked more than 95% of the time.",
+    "prayer": "O Blessed PhantomTac, who make a steel hand tremble with a tiny magnet, teach our robots to trust many senses, not just one. Amen.",
+    "feast": "Celebrated by checking what the tactile sensor says against motor current and joint torque, and by distrusting parcels with oddly hefty stickers.",
+    "proverb": "A hand with only one sense grips what it shouldn't."
+  }
+}

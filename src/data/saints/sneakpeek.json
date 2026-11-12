@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SneakPeek, che sbirciava dall'anteprima",
+    "patronage": "dei riquadri di anteprima, dei rapporti di copertura troppo grandi e delle chiavi SSH lasciate in casa.",
+    "hagiography": "Il 14 ottobre 2026 Eli Ainhorn di Noma Labs raccontò SneakPeek, una catena di difetti nel riquadro di anteprima di Claude Code Desktop, che mostra da solo i file HTML letti o modificati. Un finto rapporto di copertura in un repository pubblico, gonfiato oltre i 256 KB, veniva aperto da file:// senza la Content Security Policy dei file piccoli e senza il filtro sulle letture locali: bastava chiedere a Claude di rivederlo perché lo script leggesse chiavi SSH, token e credenziali cloud e li spedisse fuori. Anthropic corresse, Noma aggirò la correzione con un Web Worker, e la versione 1.30096.1 di agosto 2026 chiuse il varco.",
+    "prayer": "O Beato SneakPeek, che dall'anteprima guardi più lontano del dovuto, fa' che i nostri riquadri mostrino senza toccare. Amen.",
+    "feast": "Si festeggia lasciando attivi gli aggiornamenti automatici di Claude Desktop (1.30096.1 o successive) e trattando i repository sconosciuti come ospiti, non come parenti.",
+    "proverb": "Chi sbircia nell'anteprima, a volte è sbirciato."
+  },
+  "en": {
+    "title": "Blessed SneakPeek, Who Peeked From the Preview",
+    "patronage": "preview panes, oversized coverage reports, and SSH keys left at home.",
+    "hagiography": "On 14 October 2026 Eli Ainhorn of Noma Labs described SneakPeek, a chain of flaws in the preview pane of Claude Code Desktop, which renders on its own the HTML files Claude reads or edits. A fake coverage report in a public repository, padded beyond 256 KB, was loaded from file:// without the Content Security Policy given to small files and without the filter on local reads: asking Claude to review it was enough for its script to read SSH keys, tokens and cloud credentials and send them off. Anthropic patched, Noma bypassed the patch with a Web Worker, and version 1.30096.1 in August 2026 closed the gap.",
+    "prayer": "O Blessed SneakPeek, who looks further from the preview than you should, let our panes show without touching. Amen.",
+    "feast": "Celebrated by keeping Claude Desktop's automatic updates on (1.30096.1 or later) and treating unknown repositories as guests, not family.",
+    "proverb": "Peek through the preview and the preview may peek back."
+  }
+}

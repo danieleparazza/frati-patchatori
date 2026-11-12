@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato GATEBLEED, che leggeva i segreti nel risveglio degli acceleratori",
+    "patronage": "degli acceleratori AMX, dei modelli mixture-of-experts e di chi si sveglia sempre un attimo in ritardo.",
+    "hagiography": "Nell'ottobre 2025 ricercatori della North Carolina State University, insieme a Intel, presentarono GATEBLEED, discusso poi alla conferenza MICRO 2025 di Seul. Le unità AMX dei processori Intel Xeon vengono spente quando non servono e impiegano un attimo a riaccendersi: misurando quel ritardo, un attaccante può capire se un modello di intelligenza artificiale è stato addestrato su un certo dato e, nei modelli mixture-of-experts, quali esperti hanno risposto. Secondo gli autori, essendo un difetto dell'hardware, non si corregge con un semplice aggiornamento.",
+    "prayer": "O Beato GATEBLEED, che ascolti gli sbadigli dei circuiti, fa' che i nostri modelli non tradiscano i dati con cui sono stati nutriti. Amen.",
+    "feast": "Si festeggia, per ora, tenendo i carichi di lavoro sensibili su hardware non condiviso, in attesa di processori che non sbadiglino in modo così eloquente.",
+    "proverb": "Chi si sveglia tardi racconta dove ha dormito."
+  },
+  "en": {
+    "title": "Blessed GATEBLEED, Who Read Secrets in Waking Accelerators",
+    "patronage": "AMX accelerators, mixture-of-experts models, and everyone who is always a moment late to wake up.",
+    "hagiography": "In October 2025 researchers from North Carolina State University, together with Intel, presented GATEBLEED, later discussed at the MICRO 2025 conference in Seoul. The AMX units of Intel Xeon processors are powered down when idle and take a moment to wake up: by timing that delay, an attacker can tell whether an AI model was trained on a given input and, in mixture-of-experts models, which experts answered. Being a hardware flaw, the authors say, it cannot simply be patched with an update.",
+    "prayer": "O Blessed GATEBLEED, who listen to the yawns of circuits, let our models never betray the data they were raised on. Amen.",
+    "feast": "Celebrated, for now, by keeping sensitive workloads on unshared hardware, while waiting for processors that yawn less eloquently.",
+    "proverb": "Whoever wakes up late gives away where they slept."
+  }
+}

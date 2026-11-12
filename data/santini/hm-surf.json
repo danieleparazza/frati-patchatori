@@ -1,0 +1,10 @@
+{
+  "label": "HM Surf",
+  "motto": "NAVIGO SINE LICENTIA",
+  "niche": [
+    "#14283a",
+    "#2c5070"
+  ],
+  "accent": "#1e3a54",
+  "emblem": "<circle cx=\"150\" cy=\"168\" r=\"44\" fill=\"#1c3a54\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"1.5\"><line x1=\"150\" y1=\"128\" x2=\"150\" y2=\"136\"/><line x1=\"150\" y1=\"200\" x2=\"150\" y2=\"208\"/><line x1=\"110\" y1=\"168\" x2=\"118\" y2=\"168\"/><line x1=\"182\" y1=\"168\" x2=\"190\" y2=\"168\"/></g>\n<polygon points=\"150,168 176,138 156,174\" fill=\"#c0392b\"/><polygon points=\"150,168 124,198 144,162\" fill=\"#fbf3dd\"/>\n<circle cx=\"150\" cy=\"168\" r=\"3\" fill=\"#d9ad55\"/>\n<rect x=\"124\" y=\"222\" width=\"52\" height=\"28\" rx=\"5\" fill=\"#2c5070\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<circle cx=\"150\" cy=\"236\" r=\"9\" fill=\"#14283a\" stroke=\"#d9ad55\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"236\" r=\"3\" fill=\"#fbf3dd\"/>"
+}

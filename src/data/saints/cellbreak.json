@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Cellbreak, evaso dalla cella",
+    "patronage": "dei fogli di calcolo, delle sandbox in WebAssembly e delle formule che non restano nella loro casella.",
+    "hagiography": "Il 26 gennaio 2026 Vladimir Tokarev di Cyera Research Labs raccontò Cellbreak (CVE-2026-24002): in Grist, il foglio di calcolo e database open source, le formule Python girano in una sandbox Pyodide, ma da lì si poteva risalire a funzioni di sistema e perfino far eseguire JavaScript al server. Una formula malevola diventava così esecuzione di codice sull'host, con accesso a segreti e variabili d'ambiente. Grist aveva già corretto il problema nella versione 1.7.9.",
+    "prayer": "O Beato Cellbreak, che evadi da una cella di foglio di calcolo, fa' che le nostre formule calcolino e basta. Amen.",
+    "feast": "Si festeggia aggiornando Grist alla 1.7.9, che di default esegue Pyodide dentro Deno, senza impostare GRIST_PYODIDE_SKIP_DENO, e usando gVisor in produzione: le celle hanno le sbarre per un motivo.",
+    "proverb": "Cella senza sbarre, formula senza freni."
+  },
+  "en": {
+    "title": "Blessed Cellbreak, Who Escaped the Cell",
+    "patronage": "spreadsheets, WebAssembly sandboxes, and formulas that won't stay in their box.",
+    "hagiography": "On 26 January 2026 Vladimir Tokarev of Cyera Research Labs described Cellbreak (CVE-2026-24002): in Grist, the open-source spreadsheet and database, Python formulas run in a Pyodide sandbox, but from inside it one could climb back to system functions and even make the server run JavaScript. A malicious formula thus became code execution on the host, with access to secrets and environment variables. Grist had already fixed it in version 1.7.9.",
+    "prayer": "O Blessed Cellbreak, who break out of a spreadsheet cell, let our formulas calculate and nothing more. Amen.",
+    "feast": "Celebrated by upgrading Grist to 1.7.9, which runs Pyodide inside Deno by default, without setting GRIST_PYODIDE_SKIP_DENO, and by using gVisor in production: cells have bars for a reason.",
+    "proverb": "A cell without bars holds no formula."
+  }
+}

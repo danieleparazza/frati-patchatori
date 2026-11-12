@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Santa Rinegoziazione TLS, che parlava per prima",
+    "patronage": "delle connessioni HTTPS, dei certificati client e degli uomini nel mezzo che arrivano sempre un attimo prima.",
+    "hagiography": "All'inizio di novembre 2009 Marsh Ray e Steve Dispensa di PhoneFactor resero pubblico un difetto nel protocollo stesso di SSL e TLS, trovato in modo indipendente anche da Martin Rex di SAP: la rinegoziazione non era legata alla connessione già aperta. Un attaccante nel mezzo poteva così far precedere le richieste della vittima da un testo suo, che il server trattava come se venisse dal cliente autenticato. Toccò a quasi tutte le implementazioni, da OpenSSL a IIS.",
+    "prayer": "O Santa Rinegoziazione, che infili le tue parole prima delle nostre, fa' che ogni stretta di mano sappia con chi l'ha già scambiata. Amen.",
+    "feast": "Si festeggia supportando l'estensione di RFC 5746 e disattivando la rinegoziazione insicura, ormai quasi ovunque storia antica.",
+    "proverb": "Chi parla per primo non sempre ha diritto di parola."
+  },
+  "en": {
+    "title": "Saint TLS Renegotiation, Who Always Spoke First",
+    "patronage": "HTTPS connections, client certificates, and men in the middle who always arrive a moment early.",
+    "hagiography": "In early November 2009 Marsh Ray and Steve Dispensa of PhoneFactor went public with a flaw in the SSL and TLS protocols themselves, also found independently by Martin Rex of SAP: renegotiation was not bound to the connection already in place. A man in the middle could thus prefix the victim's requests with text of their own, which the server treated as coming from the authenticated client. Nearly every implementation was hit, from OpenSSL to IIS.",
+    "prayer": "O Saint Renegotiation, who slip your words in before ours, let every handshake know whom it has already shaken hands with. Amen.",
+    "feast": "Celebrated by supporting the RFC 5746 extension and disabling insecure renegotiation, by now ancient history almost everywhere.",
+    "proverb": "Speaking first doesn't give you the right to speak."
+  }
+}

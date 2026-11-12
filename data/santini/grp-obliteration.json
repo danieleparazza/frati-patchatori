@@ -1,0 +1,10 @@
+{
+  "label": "GRP-Obliteration",
+  "motto": "UNUM PROMPTUM SUFFICIT",
+  "niche": [
+    "#1c2230",
+    "#3a465e"
+  ],
+  "accent": "#283248",
+  "emblem": "<path d=\"M150 124 L190 138 L190 178 C190 206 172 226 150 238 C128 226 110 206 110 178 L110 138 Z\" fill=\"#283248\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M150 124 L190 138 L190 178 C190 196 182 210 172 220\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<g fill=\"#bfc9d1\"><circle cx=\"128\" cy=\"150\" r=\"3\"/><circle cx=\"118\" cy=\"170\" r=\"2.5\"/><circle cx=\"104\" cy=\"160\" r=\"2\"/><circle cx=\"124\" cy=\"196\" r=\"3\"/><circle cx=\"102\" cy=\"190\" r=\"2\"/><circle cx=\"136\" cy=\"222\" r=\"2.5\"/><circle cx=\"114\" cy=\"216\" r=\"2\"/></g>\n<rect x=\"138\" y=\"164\" width=\"40\" height=\"30\" rx=\"3\" fill=\"#fbf3dd\"/>\n<text x=\"158\" y=\"186\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"18\" fill=\"#283248\">1</text>"
+}

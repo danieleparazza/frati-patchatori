@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Janus, dalle due facce",
+    "patronage": "delle app Android, delle firme APK di vecchio tipo e dei file che sono due cose insieme.",
+    "hagiography": "Nel 2017 Eric Lafortune di Guardsquare scoprì che un file poteva essere insieme un APK valido e un DEX valido: la vecchia firma v1 guardava solo le voci dello zip, mentre il runtime di Android, trovando un'intestazione DEX, eseguiva il file come codice. Si poteva così premettere codice malevolo a un'app firmata e farlo passare per un suo aggiornamento legittimo. Segnalato a Google a fine luglio, fu corretto nel bollettino di dicembre 2017.",
+    "prayer": "O San Janus, che guardi da una parte e firmi dall'altra, fa' che le nostre firme coprano ogni byte del file. Amen.",
+    "feast": "Si festeggia firmando le app con lo schema v2 o successivo e installando le patch di sicurezza di dicembre 2017.",
+    "proverb": "Chi ha due facce, una la tiene sempre nascosta."
+  },
+  "en": {
+    "title": "Saint Janus, the Two-Faced",
+    "patronage": "Android apps, old-style APK signatures, and files that are two things at once.",
+    "hagiography": "In 2017 Eric Lafortune of Guardsquare found that a file could be a valid APK and a valid DEX at the same time: the old v1 signature only looked at the zip entries, while the Android runtime, spotting a DEX header, ran the file as code. Malicious code could thus be prepended to a signed app and pass as a legitimate update. Reported to Google at the end of July, it was fixed in the December 2017 bulletin.",
+    "prayer": "O Saint Janus, who look one way and sign the other, let our signatures cover every byte of the file. Amen.",
+    "feast": "Celebrated by signing apps with scheme v2 or later and installing the December 2017 security patches.",
+    "proverb": "Whoever has two faces always keeps one hidden."
+  }
+}

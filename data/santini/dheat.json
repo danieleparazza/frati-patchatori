@@ -1,0 +1,10 @@
+{
+  "label": "D(HE)at",
+  "motto": "CALOR SINE CAUSA",
+  "niche": [
+    "#3a1a14",
+    "#6b3324"
+  ],
+  "accent": "#4f241a",
+  "emblem": "<rect x=\"118\" y=\"178\" width=\"64\" height=\"52\" rx=\"4\" fill=\"#4f241a\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"2\"><path d=\"M126 178 v-8 M138 178 v-8 M150 178 v-8 M162 178 v-8 M174 178 v-8 M126 230 v8 M138 230 v8 M150 230 v8 M162 230 v8 M174 230 v8\"/></g>\n<text x=\"150\" y=\"211\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">g^x</text>\n<path d=\"M150 118 q-26 24 -10 44 q-2 -14 10 -20 q-2 14 12 20 q14 -20 -12 -44 z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>"
+}

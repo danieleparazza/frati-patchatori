@@ -1,0 +1,10 @@
+{
+  "label": "Tailworm",
+  "motto": "VERMIS PER CAUDAM",
+  "niche": [
+    "#22243a",
+    "#47496e"
+  ],
+  "accent": "#34365a",
+  "emblem": "<g stroke=\"#bfc9d1\" stroke-width=\"2\"><line x1=\"110\" y1=\"140\" x2=\"190\" y2=\"140\"/><line x1=\"110\" y1=\"140\" x2=\"110\" y2=\"220\"/><line x1=\"190\" y1=\"140\" x2=\"190\" y2=\"220\"/><line x1=\"110\" y1=\"220\" x2=\"190\" y2=\"220\"/><line x1=\"110\" y1=\"140\" x2=\"190\" y2=\"220\"/></g>\n<g fill=\"#2b2d48\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"><circle cx=\"110\" cy=\"140\" r=\"11\"/><circle cx=\"190\" cy=\"140\" r=\"11\"/><circle cx=\"110\" cy=\"220\" r=\"11\"/><circle cx=\"190\" cy=\"220\" r=\"11\"/></g>\n<path d=\"M100 186 q12 -16 24 0 t24 0 t24 0 t24 0\" fill=\"none\" stroke=\"#e8a0a8\" stroke-width=\"7\" stroke-linecap=\"round\"/>\n<circle cx=\"196\" cy=\"186\" r=\"5\" fill=\"#e8a0a8\"/><circle cx=\"198\" cy=\"184\" r=\"1.5\" fill=\"#22243a\"/>"
+}

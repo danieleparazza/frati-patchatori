@@ -1,0 +1,10 @@
+{
+  "label": "Compaction Smuggling",
+  "motto": "COGITATIO COMPRESSA",
+  "niche": [
+    "#25242f",
+    "#4c4a60"
+  ],
+  "accent": "#373548",
+  "emblem": "<rect x=\"108\" y=\"118\" width=\"84\" height=\"10\" rx=\"2\" fill=\"#bfc9d1\"/>\n<rect x=\"146\" y=\"128\" width=\"8\" height=\"18\" fill=\"#bfc9d1\"/>\n<rect x=\"116\" y=\"146\" width=\"68\" height=\"8\" rx=\"2\" fill=\"#bfc9d1\"/>\n<rect x=\"114\" y=\"160\" width=\"72\" height=\"34\" rx=\"4\" fill=\"#3d3b4e\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"134\" cy=\"177\" r=\"4\"/><circle cx=\"150\" cy=\"177\" r=\"4\"/><circle cx=\"166\" cy=\"177\" r=\"4\"/></g>\n<path d=\"M114 194 h72 v12 h-72 z\" fill=\"#d9ad55\"/>\n<path d=\"M186 200 q20 4 18 22 q-2 14 -18 16\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<g fill=\"#fbf3dd\"><circle cx=\"164\" cy=\"238\" r=\"5\"/><circle cx=\"150\" cy=\"242\" r=\"3.5\"/><circle cx=\"140\" cy=\"246\" r=\"2.5\"/></g>"
+}

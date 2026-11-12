@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato PromptPwnd, che parlava agli agenti delle pipeline",
+    "patronage": "delle GitHub Actions con l'intelligenza artificiale, delle issue scritte da sconosciuti e degli assistenti troppo servizievoli.",
+    "hagiography": "Il 4 dicembre 2025 Rein Daelman di Aikido Security descrisse PromptPwnd: pipeline di GitHub Actions e GitLab che affidano compiti ad agenti di intelligenza artificiale, come Gemini CLI, Claude Code, OpenAI Codex o GitHub AI Inference, e mettono nel prompt testo non fidato, come il corpo di una issue o di una pull request. Con istruzioni nascoste lì dentro, l'agente poteva usare i suoi strumenti privilegiati per far trapelare segreti o modificare i workflow. Tra i progetti colpiti c'era il repository stesso di Gemini CLI, che Google corresse in quattro giorni; secondo Aikido erano coinvolte almeno cinque aziende Fortune 500.",
+    "prayer": "O Beato PromptPwnd, che sussurri ordini dentro le issue, insegna ai nostri agenti che non ogni testo è un comando. Amen.",
+    "feast": "Si festeggia togliendo agli agenti gli strumenti che non servono, tenendo l'input non fidato fuori dai prompt e trattando ogni risposta dell'IA come non fidata.",
+    "proverb": "Chi fa leggere al maggiordomo le lettere degli sconosciuti, trova la cassaforte aperta."
+  },
+  "en": {
+    "title": "Blessed PromptPwnd, Who Spoke to the Pipeline Agents",
+    "patronage": "AI-powered GitHub Actions, issues written by strangers, and overly obliging assistants.",
+    "hagiography": "On 4 December 2025 Rein Daelman of Aikido Security described PromptPwnd: GitHub Actions and GitLab pipelines that hand tasks to AI agents such as Gemini CLI, Claude Code, OpenAI Codex or GitHub AI Inference, and paste untrusted text, such as an issue or pull request body, into the prompt. With instructions hidden inside, the agent could use its privileged tools to leak secrets or alter workflows. Among the affected projects was the Gemini CLI repository itself, which Google fixed within four days; Aikido said at least five Fortune 500 companies were affected.",
+    "prayer": "O Blessed PromptPwnd, who whisper orders inside issues, teach our agents that not every text is a command. Amen.",
+    "feast": "Celebrated by stripping agents of tools they don't need, keeping untrusted input out of prompts and treating every AI output as untrusted.",
+    "proverb": "Let the butler read strangers' letters and you'll find the safe wide open."
+  }
+}

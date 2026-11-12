@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Port Fail, la porta che tradiva",
+    "patronage": "delle VPN con inoltro delle porte, degli indirizzi IP che volevano restare nascosti e dei vicini di server troppo curiosi.",
+    "hagiography": "Il 26 novembre 2015 Perfect Privacy rese pubblico Port Fail. Un attaccante collegato allo stesso server VPN della vittima apriva un inoltro di porta sul proprio account e induceva la vittima a contattarlo, per esempio con un link; per via del percorso predefinito della VPN, quel traffico usciva fuori dal tunnel e mostrava il vero indirizzo IP. Colpiva ogni protocollo e sistema operativo; dei nove fornitori provati, cinque erano vulnerabili, e alcuni corressero il problema prima della pubblicazione.",
+    "prayer": "O Beato Port Fail, che apri una porta sul retro del tunnel, fa' che i nostri fornitori VPN chiudano ogni varco che non ci appartiene. Amen.",
+    "feast": "Si festeggia con regole di firewall lato server che impediscono a un cliente di raggiungere dal suo IP reale le porte inoltrate di altri.",
+    "proverb": "Il tunnel è sicuro finché qualcuno non apre la porta di servizio."
+  },
+  "en": {
+    "title": "Blessed Port Fail, the Door That Betrayed",
+    "patronage": "VPNs with port forwarding, IP addresses that wanted to stay hidden, and nosy server neighbours.",
+    "hagiography": "On 26 November 2015 Perfect Privacy went public with Port Fail. An attacker connected to the same VPN server as the victim set up port forwarding on their own account and lured the victim into contacting it, for instance with a link; because of the VPN's default route, that traffic left outside the tunnel and exposed the real IP address. It affected every protocol and operating system; of nine providers tested, five were vulnerable, and some fixed it before publication.",
+    "prayer": "O Blessed Port Fail, who open a back door in the tunnel, let our VPN providers close every gap that isn't ours. Amen.",
+    "feast": "Celebrated with server-side firewall rules that stop a client's real IP from reaching other customers' forwarded ports.",
+    "proverb": "The tunnel is safe until someone opens the service door."
+  }
+}

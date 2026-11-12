@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CrashXTS, che fa cadere il sistema per leggerne i ricordi",
+    "patronage": "di BitLocker, dei dump di memoria e dei portatili che si confidano proprio quando crollano.",
+    "hagiography": "Il 20 gennaio 2025 Maxim Suhanov pubblicò CrashXTS (CVE-2025-21210), un attacco di randomizzazione contro BitLocker. In AES-XTS alterare un blocco cifrato rende casuale solo quel blocco in chiaro: con ripetuti accessi fisici al disco si poteva così guastare un solo campo della chiave di registro CrashControl, far sparire il filtro dumpfve.sys e indurre Windows a scrivere in chiaro i file di crash e di ibernazione, con dentro dati e chiavi.",
+    "prayer": "O San CrashXTS, che da una schermata blu cavi segreti cifrati, fa' che i nostri dischi cadano senza confessare nulla. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti di gennaio 2025, con cui Windows controlla che il filtro dei dump sia al suo posto e si ferma se manca, e senza lasciare il portatile in mani altrui.",
+    "proverb": "Basta un blocco storto per far parlare il disco."
+  },
+  "en": {
+    "title": "Saint CrashXTS, Who Crashes the System to Read Its Memories",
+    "patronage": "BitLocker, memory dumps, and laptops that confess everything just as they collapse.",
+    "hagiography": "On 20 January 2025 Maxim Suhanov published CrashXTS (CVE-2025-21210), a randomization attack against BitLocker. In AES-XTS, tampering with an encrypted block scrambles only that block of plaintext: with repeated physical access to the disk, an attacker could corrupt a single field of the CrashControl registry key, make the dumpfve.sys filter vanish and lead Windows to write crash and hibernation files unencrypted, data and keys included.",
+    "prayer": "O Saint CrashXTS, who draw encrypted secrets out of a blue screen, let our disks fall without confessing a thing. Amen.",
+    "feast": "Celebrated with the January 2025 updates, which make Windows check that the dump filter is in place and halt if it is missing, and by never leaving the laptop in someone else's hands.",
+    "proverb": "Twist one block and the disk starts talking."
+  }
+}

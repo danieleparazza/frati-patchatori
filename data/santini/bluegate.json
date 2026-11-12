@@ -1,0 +1,10 @@
+{
+  "label": "BlueGate",
+  "motto": "PORTA CAERULEA",
+  "niche": [
+    "#0f1e36",
+    "#24447a"
+  ],
+  "accent": "#1a3360",
+  "emblem": "<path d=\"M112 240 V166 a38 38 0 0 1 76 0 V240\" fill=\"#1a2c4c\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"3\"><line x1=\"125\" y1=\"150\" x2=\"125\" y2=\"240\"/><line x1=\"137\" y1=\"136\" x2=\"137\" y2=\"240\"/><line x1=\"150\" y1=\"130\" x2=\"150\" y2=\"240\"/><line x1=\"163\" y1=\"136\" x2=\"163\" y2=\"240\"/><line x1=\"175\" y1=\"150\" x2=\"175\" y2=\"240\"/></g>\n<rect x=\"112\" y=\"186\" width=\"76\" height=\"6\" fill=\"#d9ad55\"/>\n<text x=\"150\" y=\"122\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">UDP 3391</text>"
+}

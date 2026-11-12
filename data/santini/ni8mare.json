@@ -1,0 +1,10 @@
+{
+  "label": "Ni8mare",
+  "motto": "FORMULA APERTA NOX MALA",
+  "niche": [
+    "#140f22",
+    "#342a52"
+  ],
+  "accent": "#2e2350",
+  "emblem": "<path d=\"M178 122 a20 20 0 1 0 14 30 a16 16 0 1 1 -14 -30 z\" fill=\"#d9ad55\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M120 196 h30 M150 196 l30 -22 M150 196 l30 22\"/></g>\n<g fill=\"#3d3460\" stroke=\"#fbf3dd\" stroke-width=\"2\"><rect x=\"100\" y=\"184\" width=\"24\" height=\"24\" rx=\"5\"/><rect x=\"140\" y=\"184\" width=\"24\" height=\"24\" rx=\"5\"/><rect x=\"176\" y=\"162\" width=\"24\" height=\"24\" rx=\"5\"/><rect x=\"176\" y=\"206\" width=\"24\" height=\"24\" rx=\"5\"/></g>\n<path d=\"M106 196 h12 M110 190 v12\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"248\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#fbf3dd\">Content-Type?</text>"
+}

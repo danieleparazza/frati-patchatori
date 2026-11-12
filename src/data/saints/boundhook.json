@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BoundHook, che dai limiti faceva un amo",
+    "patronage": "delle istruzioni dimenticate, dei rootkit educati e di chi ha già perso le chiavi di amministratore.",
+    "hagiography": "Il 18 ottobre 2017 Kasif Dekel di CyberArk presentò BoundHook: su Windows 10 con processori Intel dalla generazione Skylake in poi, l'istruzione BOUND delle estensioni MPX solleva un'eccezione quando un indice esce dai limiti, e chi controlla il kernel può usare quell'eccezione per agganciare le funzioni dei programmi utente senza toccarne il codice. Era una tecnica da usare dopo la compromissione, utile per restare nascosti agli antivirus. Microsoft rispose che non era una vulnerabilità, perché servivano già i privilegi di amministratore.",
+    "prayer": "O Beato BoundHook, che con l'istruzione dei limiti varchi ogni limite, fa' che nessuno arrivi mai ad avere bisogno di te. Amen.",
+    "feast": "Si festeggia riducendo i privilegi di amministratore, come consigliava CyberArk, e ricordando che il supporto a MPX è stato poi abbandonato da compilatori e kernel.",
+    "proverb": "Anche la guardia di confine può diventare un guinzaglio."
+  },
+  "en": {
+    "title": "Blessed BoundHook, Who Made a Hook of the Bounds",
+    "patronage": "forgotten instructions, well-mannered rootkits, and everyone who has already lost the admin keys.",
+    "hagiography": "On 18 October 2017 Kasif Dekel of CyberArk presented BoundHook: on Windows 10 with Intel processors from Skylake onward, the BOUND instruction of the MPX extensions raises an exception when an index falls out of bounds, and whoever controls the kernel can use that exception to hook user-mode functions without touching their code. It was a post-compromise technique, useful for hiding from antivirus products. Microsoft replied that it was not a vulnerability, since administrator rights were already required.",
+    "prayer": "O Blessed BoundHook, who cross every bound with the bounds instruction, let no one ever come to need you. Amen.",
+    "feast": "Celebrated by trimming administrator privileges, as CyberArk advised, and remembering that compilers and kernels later dropped MPX support altogether.",
+    "proverb": "Even the border guard can turn into a leash."
+  }
+}

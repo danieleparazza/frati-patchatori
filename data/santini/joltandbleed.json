@@ -1,0 +1,10 @@
+{
+  "label": "JoltandBleed",
+  "motto": "ICTUS ET SANGUIS",
+  "niche": [
+    "#2a1414",
+    "#582828"
+  ],
+  "accent": "#3e1c1c",
+  "emblem": "<path d=\"M160 120 l-34 62 h22 l-14 50 l40 -70 h-24 l14 -42 z\" fill=\"#f3d36b\" stroke=\"#fbf3dd\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n<path d=\"M118 200 q-12 18 0 26 q12 -8 0 -26 z\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<path d=\"M186 196 q-10 16 0 22 q10 -6 0 -22 z\" fill=\"#c0392b\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"250\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#fbf3dd\" letter-spacing=\"1\">JOLT</text>"
+}

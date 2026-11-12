@@ -1,0 +1,10 @@
+{
+  "label": "LatentBreak",
+  "motto": "VERBUM PRO VERBO",
+  "niche": [
+    "#1e2230",
+    "#3c4460"
+  ],
+  "accent": "#2a3046",
+  "emblem": "<g fill=\"#bfc9d1\" opacity=\"0.7\"><circle cx=\"110\" cy=\"214\" r=\"2.5\"/><circle cx=\"124\" cy=\"226\" r=\"2.5\"/><circle cx=\"118\" cy=\"238\" r=\"2.5\"/><circle cx=\"136\" cy=\"236\" r=\"2.5\"/><circle cx=\"178\" cy=\"218\" r=\"2.5\"/><circle cx=\"190\" cy=\"232\" r=\"2.5\"/><circle cx=\"170\" cy=\"240\" r=\"2.5\"/><circle cx=\"186\" cy=\"210\" r=\"2.5\"/></g>\n<rect x=\"100\" y=\"134\" width=\"44\" height=\"26\" rx=\"4\" fill=\"#2a3046\" stroke=\"#c0392b\" stroke-width=\"2\"/>\n<rect x=\"156\" y=\"134\" width=\"44\" height=\"26\" rx=\"4\" fill=\"#2a3046\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"122\" y=\"152\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#e8a0a0\">verbum</text>\n<text x=\"178\" y=\"152\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">vocab.</text>\n<path d=\"M122 164 q28 26 56 0\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<path d=\"M172 160 l6 4 l-2 7\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<path d=\"M150 186 q-12 20 28 40\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<circle cx=\"180\" cy=\"226\" r=\"5\" fill=\"#d9ad55\"/>"
+}

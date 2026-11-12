@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Masque Attack, che indossava il volto delle app",
+    "patronage": "degli iPhone, dei profili di distribuzione aziendale e di chi tocca \"Installa\" senza leggere.",
+    "hagiography": "Il 10 novembre 2014 FireEye rivelò Masque Attack: iOS non verificava che un'app installata con un profilo aziendale fosse firmata dallo stesso certificato di quella che sostituiva, se avevano lo stesso identificativo. Un'app malevola, installata con un nome attraente, poteva così prendere il posto di un'app vera, come quella della posta, e ereditarne i dati locali. FireEye l'aveva segnalato ad Apple a luglio e lo verificò su iOS 7.1.1, 7.1.2, 8.0, 8.1 e 8.1.1 beta.",
+    "prayer": "O San Masque, che ti metti la maschera dell'app di cui ci fidiamo, fa' che ogni aggiornamento mostri il suo vero volto. Amen.",
+    "feast": "Si festeggia aggiornando iOS (Apple iniziò a chiudere la falla con la 8.1.3), installando app solo dall'App Store o dalla propria azienda e rifiutando i profili sconosciuti.",
+    "proverb": "Sotto la maschera giusta, anche il lupo ha l'icona dell'agnello."
+  },
+  "en": {
+    "title": "Saint Masque Attack, Who Wore the Face of Apps",
+    "patronage": "iPhones, enterprise provisioning profiles, and anyone who taps \"Install\" without reading.",
+    "hagiography": "On 10 November 2014 FireEye revealed Masque Attack: iOS did not check that an app installed through an enterprise profile was signed with the same certificate as the one it replaced, as long as they shared a bundle identifier. A malicious app, installed under an attractive name, could take the place of a genuine one, such as the mail app, and inherit its local data. FireEye had reported it to Apple in July and confirmed it on iOS 7.1.1, 7.1.2, 8.0, 8.1 and 8.1.1 beta.",
+    "prayer": "O Saint Masque, who put on the mask of the app we trust, let every update show its true face. Amen.",
+    "feast": "Celebrated by updating iOS (Apple began closing the hole in 8.1.3), installing apps only from the App Store or your own company, and refusing unknown profiles.",
+    "proverb": "Behind the right mask, even the wolf gets the lamb's icon."
+  }
+}

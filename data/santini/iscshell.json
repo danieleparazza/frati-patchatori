@@ -1,0 +1,10 @@
+{
+  "label": "iSCSHELL",
+  "motto": "PORTA MMMCCLX APERTA",
+  "niche": [
+    "#1f2a33",
+    "#3f5464"
+  ],
+  "accent": "#2c3c48",
+  "emblem": "<ellipse cx=\"150\" cy=\"138\" rx=\"44\" ry=\"12\" fill=\"#3d4a55\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M106 138 v68 a44 12 0 0 0 88 0 v-68\" fill=\"#2c3640\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M106 162 a44 12 0 0 0 88 0 M106 186 a44 12 0 0 0 88 0\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>\n<circle cx=\"180\" cy=\"200\" r=\"3\" fill=\"#d9ad55\"/>\n<text x=\"150\" y=\"182\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"16\" fill=\"#fbf3dd\">3260</text>\n<text x=\"150\" y=\"244\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#d9ad55\"># root</text>"
+}

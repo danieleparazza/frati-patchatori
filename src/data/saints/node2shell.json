@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Node2Shell, che chiamava fetch e riceveva guai",
+    "patronage": "dei server Node.js, delle risposte compresse accettate in automatico e di chi aggiorna il runtime una volta all'anno.",
+    "hagiography": "Node.js porta con sé una propria copia del decoder Brotli, e così il difetto di Broccoli2Shell arrivò dritto in node:zlib: lo corresse il 21 ottobre 2026 con le versioni 22.23.4, 24.22.1 e 26.12.1. Il giorno dopo Ron Masas di Imperva, che chiamò la sua analisi Node2Shell, mostrò come arrivarci: fetch() decomprime da solo le risposte Brotli, e Express 5 e body-parser 2 fanno lo stesso con i corpi delle richieste. Su Node 24.22.0, dopo alcuni tentativi, ottenne l'esecuzione di codice.",
+    "prayer": "O San Node2Shell, che entri dalla porta di fetch senza bussare, fa' che i nostri runtime siano aggiornati prima che arrivi la tua risposta. Amen.",
+    "feast": "Si festeggia passando a Node.js 22.23.4, 24.22.1 o 26.12.1 e abbandonando le versioni senza più supporto, che la correzione non la riceveranno mai.",
+    "proverb": "Chi accetta tutto compresso, si ritrova tutto spaccato."
+  },
+  "en": {
+    "title": "Saint Node2Shell, Who Called fetch and Got Trouble",
+    "patronage": "Node.js servers, compressed responses accepted without asking, and everyone who updates their runtime once a year.",
+    "hagiography": "Node.js carries its own copy of the Brotli decoder, so the Broccoli2Shell flaw landed straight in node:zlib: it was fixed on 21 October 2026 in versions 22.23.4, 24.22.1 and 26.12.1. The next day Ron Masas of Imperva, who named his analysis Node2Shell, showed the way in: fetch() decompresses Brotli responses on its own, and Express 5 and body-parser 2 do the same with request bodies. On Node 24.22.0, after a few attempts, he got code execution.",
+    "prayer": "O Saint Node2Shell, who come in through the fetch door without knocking, let our runtimes be updated before your response arrives. Amen.",
+    "feast": "Celebrated by moving to Node.js 22.23.4, 24.22.1 or 26.12.1 and leaving end-of-life versions behind, since they will never get the fix.",
+    "proverb": "Accept everything compressed and you end up with everything cracked."
+  }
+}

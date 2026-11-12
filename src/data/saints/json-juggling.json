@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato json juggling, giocoliere dei parametri",
+    "patronage": "delle applicazioni Ruby on Rails, delle chiavi che cominciano con un trattino basso e dei controlli che leggono una cosa mentre l'azione ne fa un'altra.",
+    "hagiography": "Il 9 dicembre 2024 Luke Jahnke descrisse il \"_json juggling\", un attacco ai parametri di Ruby on Rails. Quando il corpo JSON di una richiesta non è un oggetto, per esempio un array, Rails lo mette nei params sotto la chiave _json; ma nulla impedisce al client di mandare da sé una chiave \"_json\" accanto alle altre. Una sola richiesta può così dire due cose diverse: il controllo di autorizzazione legge l'id permesso, l'azione cancella gli elementi dell'array, e il permesso è aggirato.",
+    "prayer": "O Beato json juggling, che tieni in aria due richieste in una, fa' che controllo e azione guardino sempre la stessa palla. Amen.",
+    "feast": "Si festeggia leggendo i parametri allo stesso modo nel controllo e nell'azione e rifiutando le chiavi _json che il codice non si aspetta.",
+    "proverb": "Chi fa il giocoliere coi parametri, prima o poi ne lascia cadere uno."
+  },
+  "en": {
+    "title": "Blessed json juggling, Juggler of Parameters",
+    "patronage": "Ruby on Rails applications, keys that start with an underscore, and checks that read one thing while the action does another.",
+    "hagiography": "On 9 December 2024 Luke Jahnke described \"_json juggling\", an attack on Ruby on Rails parameters. When a request's JSON body is not an object, an array for example, Rails stores it in params under the _json key; but nothing stops the client from sending its own \"_json\" key alongside the others. One request can thus say two different things: the authorisation check reads the permitted id, the action deletes the array's items, and the permission is bypassed.",
+    "prayer": "O Blessed json juggling, who keep two requests aloft in one, let check and action always watch the same ball. Amen.",
+    "feast": "Celebrated by reading parameters the same way in the check and in the action, and rejecting _json keys the code doesn't expect.",
+    "proverb": "Juggle your parameters and sooner or later you'll drop one."
+  }
+}

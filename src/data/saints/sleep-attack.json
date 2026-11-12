@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Sleep Attack, che entrava mentre il portatile dormiva",
+    "patronage": "dei portatili in sospensione, delle memorie flash SPI e di chi chiude il coperchio e se ne va.",
+    "hagiography": "Il 10 novembre 2020 Trammell Hudson rese pubblico l'attacco: molti produttori configuravano Intel Boot Guard per verificare il firmware solo all'accensione a freddo, non al risveglio dalla sospensione S3, per rispettare i tempi di ripresa. Con accesso fisico al chip flash SPI di una macchina addormentata si poteva sostituire il firmware al risveglio, leggere segreti in RAM come le chiavi di cifratura del disco o piantare una backdoor in SMM. Intel lo corresse nel firmware CSME, come CVE-2020-8705.",
+    "prayer": "O San Sleep Attack, che vegli mentre noi dormiamo, fa' che i nostri portatili si sveglino controllando chi li ha toccati. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti del firmware CSME del produttore e spegnendo il portatile, invece di sospenderlo, quando lo si lascia incustodito.",
+    "proverb": "Chi dorme non piglia pesci, ma qualcuno può cambiargli l'esca."
+  },
+  "en": {
+    "title": "Saint Sleep Attack, Who Slipped In While the Laptop Slept",
+    "patronage": "suspended laptops, SPI flash chips, and everyone who closes the lid and walks away.",
+    "hagiography": "On 10 November 2020 Trammell Hudson went public: many manufacturers configured Intel Boot Guard to verify firmware only on a cold boot, not on resume from S3 sleep, to meet wake-up time targets. With physical access to the SPI flash chip of a sleeping machine, one could swap the firmware on resume, read secrets from RAM such as disk encryption keys, or plant a backdoor in SMM. Intel fixed it in CSME firmware, as CVE-2020-8705.",
+    "prayer": "O Saint Sleep Attack, who keep watch while we sleep, let our laptops wake up checking who has touched them. Amen.",
+    "feast": "Celebrated by installing the vendor's CSME firmware updates and shutting the laptop down, not suspending it, when leaving it unattended.",
+    "proverb": "Sleep tight, but someone may be rewriting your dreams."
+  }
+}

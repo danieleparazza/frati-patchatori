@@ -1,0 +1,10 @@
+{
+  "label": "BadBluetooth",
+  "motto": "LARVA CAERULEI DENTIS",
+  "niche": [
+    "#14203a",
+    "#2c4472"
+  ],
+  "accent": "#1d2f55",
+  "emblem": "<path d=\"M134 152 L170 186 L150 204 L150 128 L170 146 L134 180\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n<path d=\"M110 132 C116 124 124 124 128 132 M190 132 C184 124 176 124 172 132\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<rect x=\"104\" y=\"216\" width=\"92\" height=\"28\" rx=\"4\" fill=\"#1d2f55\" stroke=\"#bfc9d1\" stroke-width=\"2.5\"/>\n<g fill=\"#d9ad55\"><rect x=\"112\" y=\"222\" width=\"10\" height=\"7\"/><rect x=\"126\" y=\"222\" width=\"10\" height=\"7\"/><rect x=\"140\" y=\"222\" width=\"10\" height=\"7\"/><rect x=\"154\" y=\"222\" width=\"10\" height=\"7\"/><rect x=\"168\" y=\"222\" width=\"10\" height=\"7\"/><rect x=\"182\" y=\"222\" width=\"8\" height=\"7\"/><rect x=\"122\" y=\"233\" width=\"56\" height=\"6\"/></g>"
+}

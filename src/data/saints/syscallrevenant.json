@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SyscallRevenant, che tornava passo dopo passo",
+    "patronage": "delle chiamate di sistema, degli hook di ntdll e degli EDR che guardano la porta sbagliata.",
+    "hagiography": "Nell'ottobre 2026 SilentisVox pubblicò su GitHub SyscallRevenant, un progetto di ricerca per Windows che fa chiamate di sistema \"indirette e pulite\" per passare sotto gli hook che EDR e antivirus piazzano in ntdll.dll. Accende il trap flag del processore e, un'istruzione alla volta, un gestore di eccezioni trova da solo le istruzioni syscall e i loro numeri; poi salta su quelle legittime, così la chiamata sembra partire da codice fidato, e intanto falsifica indirizzi di ritorno e parametri. Il progetto si presenta come uno studio sullo scarto tra vedere una funzione entrare e vedere cosa fa davvero.",
+    "prayer": "O Beato SyscallRevenant, che torni dall'oltretomba del kernel un passo alla volta, fa' che i nostri difensori guardino cosa fai e non solo da dove entri. Amen.",
+    "feast": "Si festeggia osservando il comportamento dei processi e la telemetria del kernel, invece di fidarsi soltanto degli hook in user space.",
+    "proverb": "Il fantasma non bussa: passa dalla porta di cui ti fidi di più."
+  },
+  "en": {
+    "title": "Blessed SyscallRevenant, Who Returned Step by Step",
+    "patronage": "system calls, ntdll hooks, and EDRs watching the wrong door.",
+    "hagiography": "In October 2026 SilentisVox published SyscallRevenant on GitHub, a Windows research project that makes \"clean indirect\" system calls to slip beneath the hooks EDR and antivirus products place in ntdll.dll. It sets the processor's trap flag and, one instruction at a time, an exception handler finds the syscall instructions and their numbers by itself; then it jumps to the legitimate ones, so the call appears to come from trusted code, while spoofing return addresses and parameters. The project presents itself as a study of the gap between seeing a function entered and seeing what it really does.",
+    "prayer": "O Blessed SyscallRevenant, who return from the kernel's underworld one step at a time, let our defenders watch what you do, not just where you come in. Amen.",
+    "feast": "Celebrated by watching process behaviour and kernel telemetry instead of trusting user-space hooks alone.",
+    "proverb": "The ghost doesn't knock: it uses the door you trust most."
+  }
+}

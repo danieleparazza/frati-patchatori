@@ -1,0 +1,10 @@
+{
+  "label": "TARmageddon",
+  "motto": "ARCHIVUM IN ARCHIVO",
+  "niche": [
+    "#2a2016",
+    "#54402a"
+  ],
+  "accent": "#3e2e1c",
+  "emblem": "<path d=\"M106 150 L150 130 L194 150 L194 220 L150 240 L106 220 Z\" fill=\"#6b5232\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M106 150 L150 170 L194 150 M150 170 L150 240\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M150 130 L150 146\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-dasharray=\"4 3\"><path d=\"M118 176 L140 186 L140 214 L118 204 Z\"/><path d=\"M160 186 L182 176 L182 204 L160 214 Z\"/></g>\n<text x=\"150\" y=\"122\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">.tar</text>"
+}

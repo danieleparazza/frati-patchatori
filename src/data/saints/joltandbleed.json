@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San JoltandBleed, scossa che fa sanguinare",
+    "patronage": "di Oracle Tuxedo, dei sistemi PeopleSoft e di chi pensava che un middleware non interessasse a nessuno.",
+    "hagiography": "Nel novembre 2017 Oracle pubblicò un avviso d'emergenza fuori dal ciclo trimestrale per cinque difetti del protocollo Jolt di Oracle Tuxedo, trovati da ERPScan e battezzati JoltandBleed perché alcuni ricordavano Heartbleed. Il più grave, CVE-2017-10269, valutato al massimo della scala CVSS, permetteva via rete e senza password di prendere il controllo di un sistema PeopleSoft; CVE-2017-10272 lasciava leggere a distanza la memoria dei server Tuxedo. Tra i colpiti c'erano Campus Solutions e le suite PeopleSoft per risorse umane e finanza.",
+    "prayer": "O San JoltandBleed, che con una scossa fai sanguinare la memoria, fa' che i nostri server non raccontino a chiunque ciò che custodiscono. Amen.",
+    "feast": "Si festeggia applicando l'avviso di sicurezza Oracle per CVE-2017-10269, oltre al Critical Patch Update di ottobre 2017, e chiudendo la porta Jolt a chi non ne ha bisogno.",
+    "proverb": "Chi trascura il middleware si ritrova col salasso."
+  },
+  "en": {
+    "title": "Saint JoltandBleed, the Jolt That Draws Blood",
+    "patronage": "Oracle Tuxedo, PeopleSoft systems, and anyone who thought nobody cared about middleware.",
+    "hagiography": "In November 2017 Oracle issued an emergency out-of-band alert for five flaws in the Jolt protocol of Oracle Tuxedo, found by ERPScan and named JoltandBleed because some recalled Heartbleed. The worst, CVE-2017-10269, rated at the top of the CVSS scale, let an attacker take over a PeopleSoft system over the network without a password; CVE-2017-10272 allowed remote reading of Tuxedo server memory. Those affected included Campus Solutions and the PeopleSoft HR and financial suites.",
+    "prayer": "O Saint JoltandBleed, who make memory bleed with a jolt, let our servers not tell everyone what they hold. Amen.",
+    "feast": "Celebrated by applying Oracle's security alert for CVE-2017-10269, plus the October 2017 Critical Patch Update, and closing the Jolt port to those who don't need it.",
+    "proverb": "Neglect the middleware and you'll be bled dry."
+  }
+}

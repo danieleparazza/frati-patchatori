@@ -1,0 +1,10 @@
+{
+  "label": "Kraken",
+  "motto": "ERROR NON EST ERROR",
+  "niche": [
+    "#142430",
+    "#2c4e60"
+  ],
+  "accent": "#1e3644",
+  "emblem": "<polygon points=\"150,124 186,186 114,186\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"2.5\"/>\n<text x=\"150\" y=\"178\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"34\" fill=\"#2b1d14\">!</text>\n<g fill=\"none\" stroke=\"#9fc7c0\" stroke-width=\"7\" stroke-linecap=\"round\"><path d=\"M110 246 q-14 -30 8 -52 q14 -14 2 -26\"/><path d=\"M190 246 q14 -30 -8 -52 q-14 -14 -2 -26\"/><path d=\"M134 248 q-6 -22 10 -40\"/><path d=\"M166 248 q6 -22 -10 -40\"/></g>\n<text x=\"150\" y=\"208\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">WerFault</text>"
+}

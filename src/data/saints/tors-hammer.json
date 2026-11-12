@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Tor's Hammer, martello lento delle connessioni",
+    "patronage": "dei server web pazienti, delle richieste POST interminabili e degli attaccanti che si nascondono dietro una cipolla.",
+    "hagiography": "Intorno al 2011 cominciò a circolare Tor's Hammer, uno strumento in Python per il diniego di servizio «lento»: apriva molte connessioni HTTP e spediva il corpo delle richieste POST un poco alla volta, tenendo occupati i thread del server finché non restava posto per nessun altro. Poteva passare per la rete Tor per nascondere la propria origine, e il suo traffico scarso sfuggiva ai rilevatori basati sul volume. Gli hacktivisti lo usarono a lungo, perché a volte bastava una sola macchina.",
+    "prayer": "O Beato Tor's Hammer, che colpisci piano ma senza fine, fa' che i nostri server chiudano la porta a chi parla troppo lentamente. Amen.",
+    "feast": "Si festeggia impostando tempi massimi per intestazioni e corpo delle richieste, limitando le connessioni per indirizzo e mettendo un reverse proxy davanti al server.",
+    "proverb": "Martello lento, server spento."
+  },
+  "en": {
+    "title": "Blessed Tor's Hammer, Slow Hammer of Connections",
+    "patronage": "patient web servers, never-ending POST requests, and attackers hiding behind an onion.",
+    "hagiography": "Around 2011 Tor's Hammer began to circulate, a Python tool for \"slow\" denial of service: it opened many HTTP connections and sent the body of POST requests a little at a time, keeping the server's threads busy until there was no room for anyone else. It could run through the Tor network to hide where it came from, and its thin traffic slipped past volume-based detectors. Hacktivists used it for years, because sometimes a single machine was enough.",
+    "prayer": "O Blessed Tor's Hammer, who strikes softly but without end, let our servers shut the door on those who speak too slowly. Amen.",
+    "feast": "Celebrated by setting timeouts for request headers and bodies, limiting connections per address, and putting a reverse proxy in front of the server.",
+    "proverb": "A slow hammer still breaks the door."
+  }
+}

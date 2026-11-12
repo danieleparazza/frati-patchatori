@@ -1,0 +1,10 @@
+{
+  "label": "SLAP",
+  "motto": "ALAPA PRAEDICTIONIS",
+  "niche": [
+    "#2a1e14",
+    "#56402c"
+  ],
+  "accent": "#40301f",
+  "emblem": "<path d=\"M126 236 v-50 l-14 -28 a7 7 0 0 1 12 -6 l14 24 v-46 a8 8 0 0 1 16 0 v40 v-48 a8 8 0 0 1 16 0 v48 v-40 a8 8 0 0 1 16 0 v48 v-30 a8 8 0 0 1 16 0 v44 q0 30 -22 44 z\" fill=\"#e9d7b8\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<g stroke=\"#e8c45c\" stroke-width=\"3\" stroke-linecap=\"round\"><line x1=\"96\" y1=\"140\" x2=\"108\" y2=\"150\"/><line x1=\"92\" y1=\"166\" x2=\"106\" y2=\"168\"/><line x1=\"200\" y1=\"128\" x2=\"192\" y2=\"140\"/></g>"
+}

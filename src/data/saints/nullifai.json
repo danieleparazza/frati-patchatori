@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato nullifAI, sottaceto avvelenato",
+    "patronage": "dei modelli di machine learning condivisi, del formato Pickle e di chi carica modelli trovati in rete senza annusarli.",
+    "hagiography": "Il 6 febbraio 2025 Karlo Zanki di ReversingLabs descrisse nullifAI, una tecnica trovata in due modelli malevoli pubblicati su Hugging Face. I file PyTorch erano compressi in 7z invece che in ZIP e contenevano un flusso Pickle volutamente rotto: lo scanner Picklescan si fermava sull'errore senza segnalare nulla, ma la deserializzazione eseguiva comunque il codice posto all'inizio, una reverse shell verso un indirizzo dell'attaccante.",
+    "prayer": "O Beato nullifAI, che nascondi il veleno in fondo al barattolo, fa' che i nostri scanner leggano anche le ricette scritte male. Amen.",
+    "feast": "Si festeggia ricordando che Hugging Face rimosse i modelli in meno di 24 ore e aggiornò Picklescan per i file rotti, e preferendo formati come safetensors, che non eseguono codice.",
+    "proverb": "Barattolo senza etichetta, sottaceto con sorpresa."
+  },
+  "en": {
+    "title": "Blessed nullifAI, the Poisoned Pickle",
+    "patronage": "shared machine learning models, the Pickle format, and anyone who loads models found online without sniffing them first.",
+    "hagiography": "On 6 February 2025 Karlo Zanki of ReversingLabs described nullifAI, a technique found in two malicious models published on Hugging Face. The PyTorch files were compressed with 7z instead of ZIP and held a deliberately broken Pickle stream: the Picklescan scanner stopped at the error without flagging anything, but deserialization still ran the code placed at the start, a reverse shell to an attacker's address.",
+    "prayer": "O Blessed nullifAI, who hide the poison at the bottom of the jar, let our scanners read even badly written recipes. Amen.",
+    "feast": "Celebrated by remembering that Hugging Face removed the models within 24 hours and updated Picklescan to handle broken files, and by preferring formats such as safetensors, which run no code.",
+    "proverb": "An unlabelled jar holds a pickle with a surprise."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Shrootless, che scavalcava la protezione di macOS",
+    "patronage": "della System Integrity Protection, dei pacchetti firmati da Apple e degli script di zsh che partono da soli.",
+    "hagiography": "Il 28 ottobre 2021 Jonathan Bar Or di Microsoft descrisse Shrootless (CVE-2021-30892): il demone system_installd, che installa i pacchetti firmati da Apple, passava ai processi figli il diritto di scavalcare la System Integrity Protection, e i loro script di post-installazione giravano in zsh, che all'avvio legge /etc/zshenv. Bastava preparare quel file per scrivere dove macOS non lo permette, fino a installare un rootkit. Apple lo aveva corretto due giorni prima.",
+    "prayer": "O San Shrootless, che entri nel santuario passando dalla sacrestia dell'installatore, fa' che i privilegi non si lascino in eredità a chiunque. Amen.",
+    "feast": "Si festeggia aggiornando a macOS Monterey 12.0.1, Big Sur 11.6.1 o al Security Update 2021-007 di Catalina, e dando un'occhiata a chi ha scritto in /etc/zshenv.",
+    "proverb": "Dell'eredità dei privilegi godono soprattutto i parenti lontani."
+  },
+  "en": {
+    "title": "Saint Shrootless, Who Climbed over macOS's Wall",
+    "patronage": "System Integrity Protection, Apple-signed packages, and zsh scripts that run all by themselves.",
+    "hagiography": "On 28 October 2021 Jonathan Bar Or of Microsoft described Shrootless (CVE-2021-30892): the system_installd daemon, which installs Apple-signed packages, handed its child processes the right to bypass System Integrity Protection, and their post-install scripts ran in zsh, which reads /etc/zshenv at startup. Planting that file was enough to write where macOS forbids it, up to installing a rootkit. Apple had fixed it two days earlier.",
+    "prayer": "O Saint Shrootless, who enter the sanctuary through the installer's sacristy, let privileges not be bequeathed to just anyone. Amen.",
+    "feast": "Celebrated by updating to macOS Monterey 12.0.1, Big Sur 11.6.1 or Catalina Security Update 2021-007, and checking who has been writing in /etc/zshenv.",
+    "proverb": "When privileges are inherited, distant relatives come knocking."
+  }
+}

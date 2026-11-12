@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Tailworm, verme della rete privata",
+    "patronage": "delle reti mesh, dei socket riservati a root e di chi pensava che \"privata\" volesse dire \"sicura\".",
+    "hagiography": "Nell'ottobre 2026 Erica Windisch di Cyberdione Labs pubblicò Tailworm, un'analisi di Tailscale 1.104.2 e di headscale 0.29.5. Il cuore della scoperta: in Tailscale SSH l'inoltro dei socket girava come root dentro tailscaled, così una sessione autorizzata poteva raggiungere socket riservati come docker.sock. In laboratorio, con le regole SSH permesse dalla policy, un programma automatico si propagava a ogni dispositivo raggiungibile in meno di un secondo per salto, senza password né chiavi rubate.",
+    "prayer": "O Beato Tailworm, che strisci da un nodo all'altro della nostra rete fidata, fa' che ogni porta abbia il suo permesso e non uno solo per tutte. Amen.",
+    "feast": "Si festeggia aggiornando Tailscale alla 1.104.4 e headscale alla 0.29.7, concedendo l'SSH coppia per coppia e spegnendo l'inoltro dove non serve.",
+    "proverb": "Il verme non sfonda la porta: aspetta che qualcuno la lasci aperta per tutti."
+  },
+  "en": {
+    "title": "Blessed Tailworm, Worm of the Private Network",
+    "patronage": "mesh networks, root-only sockets, and everyone who thought \"private\" meant \"safe\".",
+    "hagiography": "In October 2026 Erica Windisch of Cyberdione Labs published Tailworm, an audit of Tailscale 1.104.2 and headscale 0.29.5. At its heart: Tailscale SSH ran socket forwarding as root inside tailscaled, so an approved session could reach root-only sockets such as docker.sock. In the lab, with the SSH rules the policy allowed, an automated program spread to every reachable device in under a second per hop, with no passwords or stolen keys.",
+    "prayer": "O Blessed Tailworm, who crawl from node to node of our trusted network, let every door have its own permission, not one for all. Amen.",
+    "feast": "Celebrated by updating Tailscale to 1.104.4 and headscale to 0.29.7, granting SSH pair by pair and turning off forwarding where it isn't needed.",
+    "proverb": "The worm never breaks the door: it waits for one left open to everyone."
+  }
+}

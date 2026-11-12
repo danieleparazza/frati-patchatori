@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato GhostShares, che scriveva i titoli nei nomi di dominio",
+    "patronage": "dei link condivisi, del DNS passivo e dei titoli che dicono troppo.",
+    "hagiography": "Il 18 ottobre 2026 il Claroc Research Team pubblicò GhostShares: le conversazioni condivise di Muse, l'assistente IA di Meta lanciato a settembre, diventavano pagine web pubbliche, apribili senza login, e il loro titolo finiva perfino nel nome di dominio. Così i servizi di DNS passivo le elencavano, e si potevano trovare senza conoscere il link: oltre 6.800 nomi, e tra le poche centinaia aperte c'erano anche dati personali e aziendali delicati. Dopo un articolo di Ars Technica, Meta disse di aver sospeso la funzione.",
+    "prayer": "O Beato GhostShares, che fai apparire i titoli nel registro dei nomi, fa' che ogni pulsante \"condividi\" ci dica chiaramente con chi. Amen.",
+    "feast": "Si festeggia controllando cosa si è condiviso dagli assistenti IA, revocando i link pubblici che non servono e, per le aziende, sapendo quali di questi servizi usa il personale.",
+    "proverb": "Il nome sulla porta lo legge chiunque passi."
+  },
+  "en": {
+    "title": "Blessed GhostShares, Who Wrote Titles Into Domain Names",
+    "patronage": "shared links, passive DNS, and titles that say too much.",
+    "hagiography": "On 18 October 2026 the Claroc Research Team published GhostShares: shared conversations from Muse, Meta's AI assistant launched in September, became public web pages that opened without a login, and their titles even ended up in the hostname. Passive DNS services therefore listed them, and they could be found without knowing the link: more than 6,800 names, and among the few hundred opened there was sensitive personal and business data. After an Ars Technica report, Meta said it had suspended the feature.",
+    "prayer": "O Blessed GhostShares, who make titles appear in the register of names, let every \"share\" button tell us plainly with whom. Amen.",
+    "feast": "Celebrated by reviewing what has been shared from AI assistants, revoking public links nobody needs and, for companies, knowing which of these services staff actually use.",
+    "proverb": "Everyone who walks by reads the name on the door."
+  }
+}

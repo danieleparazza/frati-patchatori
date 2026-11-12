@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BadAML, tavola avvelenata",
+    "patronage": "delle macchine virtuali confidenziali, delle tabelle ACPI e degli ospiti che si fidano troppo del padrone di casa.",
+    "hagiography": "Satoru Takekoshi, Manami Mori, Takaaki Fukai e Takahiro Shinagawa presentarono BadAML a Black Hat Europe nel dicembre 2024 e lo pubblicarono ad ACM CCS nell'ottobre 2025. Nelle macchine virtuali confidenziali, protette da AMD SEV-SNP o Intel TDX contro un host ostile, le tabelle ACPI arrivano proprio dall'host; un host malevolo poteva nasconderci bytecode AML che il kernel dell'ospite eseguiva, leggendo e scrivendo così la sua memoria privata. Gli autori ottennero una shell di root in un ospite Linux.",
+    "prayer": "O Beato BadAML, che servi bytecode avvelenato sulla tavola dell'ospite, fa' che le nostre macchine confidenziali assaggino solo ciò che hanno misurato. Amen.",
+    "feast": "Si festeggia misurando le tabelle ACPI nell'attestazione o isolando l'esecuzione dell'AML dalla memoria privata, come proposto dagli autori.",
+    "proverb": "Non fidarti della cena se a cucinare è il nemico."
+  },
+  "en": {
+    "title": "Blessed BadAML, the Poisoned Table",
+    "patronage": "confidential virtual machines, ACPI tables, and guests who trust their host too much.",
+    "hagiography": "Satoru Takekoshi, Manami Mori, Takaaki Fukai and Takahiro Shinagawa presented BadAML at Black Hat Europe in December 2024 and published it at ACM CCS in October 2025. In confidential VMs, protected by AMD SEV-SNP or Intel TDX against a hostile host, ACPI tables come from the host itself; a malicious host could hide AML bytecode in them that the guest kernel would run, reading and writing its private memory. The authors obtained a root shell in a Linux guest.",
+    "prayer": "O Blessed BadAML, who serve poisoned bytecode at the guest's table, let our confidential machines taste only what they have measured. Amen.",
+    "feast": "Celebrated by measuring ACPI tables into attestation or sandboxing AML execution away from private memory, as the authors propose.",
+    "proverb": "Don't trust dinner when the enemy is cooking."
+  }
+}

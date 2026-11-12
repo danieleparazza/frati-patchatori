@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato EmojiDeploy, che sorride e pubblica",
+    "patronage": "dei servizi Azure costruiti su Kudu, dei cookie SameSite=None e di chi crede che una faccina sia sempre innocua.",
+    "hagiography": "Il 19 gennaio 2023 Liv Matan di Tenable raccontò EmojiDeploy, un difetto CSRF in Kudu, il servizio SCM dietro Azure App Service e Azure Functions. Tre debolezze in fila: cookie SameSite=None, un controllo dell'origine aggirabile con un sottodominio contenente \"._.\" e l'endpoint /api/zipdeploy che accettava richieste text/plain. Bastava un clic della vittima perché l'attaccante pubblicasse un pacchetto zip malevolo e prendesse il controllo dell'app. Il nome viene da quel \"._.\" che sembra una faccina; Microsoft pagò 30.000 dollari di ricompensa.",
+    "prayer": "O Beato EmojiDeploy, che dietro un sorriso nascondi un deploy, fa' che i nostri controlli d'origine non si lascino intenerire da una faccina. Amen.",
+    "feast": "Si festeggia ricordando che Microsoft ha corretto il difetto lato server nel dicembre 2022, passando i cookie a SameSite=Lax: chi sorride troppo va guardato due volte.",
+    "proverb": "Faccina sorridente, server obbediente."
+  },
+  "en": {
+    "title": "Blessed EmojiDeploy, Who Smiles and Deploys",
+    "patronage": "Azure services built on Kudu, SameSite=None cookies, and everyone who thinks a little face is always harmless.",
+    "hagiography": "On 19 January 2023 Liv Matan of Tenable told the story of EmojiDeploy, a CSRF flaw in Kudu, the SCM service behind Azure App Service and Azure Functions. Three weaknesses lined up: SameSite=None cookies, an origin check that a subdomain containing \"._.\" slipped past, and an /api/zipdeploy endpoint that accepted text/plain requests. One click from the victim let an attacker deploy a malicious zip and take over the app. The name comes from that \"._.\", which looks like a face; Microsoft paid a 30,000 dollar bounty.",
+    "prayer": "O Blessed EmojiDeploy, who hide a deployment behind a smile, let our origin checks never melt at the sight of a little face. Amen.",
+    "feast": "Celebrated by remembering that Microsoft fixed the flaw server-side in December 2022 and moved the cookies to SameSite=Lax: anyone who smiles too much deserves a second look.",
+    "proverb": "A smiling face, an obliging server."
+  }
+}

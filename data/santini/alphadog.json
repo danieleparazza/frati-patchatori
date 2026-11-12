@@ -1,0 +1,10 @@
+{
+  "label": "AlphaDog",
+  "motto": "CANIS BIFRONS",
+  "niche": [
+    "#1e1e24",
+    "#3e3e4c"
+  ],
+  "accent": "#2c2c36",
+  "emblem": "<g opacity=\"0.6\"><rect x=\"100\" y=\"130\" width=\"100\" height=\"100\" fill=\"#3e3e4c\"/>\n<g fill=\"#7f8c8d\"><rect x=\"100\" y=\"130\" width=\"20\" height=\"20\"/><rect x=\"140\" y=\"130\" width=\"20\" height=\"20\"/><rect x=\"180\" y=\"130\" width=\"20\" height=\"20\"/><rect x=\"120\" y=\"150\" width=\"20\" height=\"20\"/><rect x=\"160\" y=\"150\" width=\"20\" height=\"20\"/><rect x=\"100\" y=\"170\" width=\"20\" height=\"20\"/><rect x=\"140\" y=\"170\" width=\"20\" height=\"20\"/><rect x=\"180\" y=\"170\" width=\"20\" height=\"20\"/><rect x=\"120\" y=\"190\" width=\"20\" height=\"20\"/><rect x=\"160\" y=\"190\" width=\"20\" height=\"20\"/><rect x=\"100\" y=\"210\" width=\"20\" height=\"20\"/><rect x=\"140\" y=\"210\" width=\"20\" height=\"20\"/><rect x=\"180\" y=\"210\" width=\"20\" height=\"20\"/></g></g>\n<rect x=\"100\" y=\"130\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<path d=\"M150 150 C132 150 124 164 124 180 C124 198 136 212 150 212 C164 212 176 198 176 180 C176 164 168 150 150 150 Z\" fill=\"#fbf3dd\"/>\n<path d=\"M126 158 L116 138 L136 152 Z M174 158 L184 138 L164 152 Z\" fill=\"#d9ad55\"/>\n<path d=\"M150 150 V212\" stroke=\"#2c2c36\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/>\n<circle cx=\"140\" cy=\"176\" r=\"4\" fill=\"#2c2c36\"/><circle cx=\"160\" cy=\"176\" r=\"4\" fill=\"#2c2c36\"/>\n<ellipse cx=\"150\" cy=\"194\" rx=\"6\" ry=\"4\" fill=\"#2c2c36\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">α</text>"
+}

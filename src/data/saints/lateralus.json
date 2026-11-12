@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Lateralus, che scambiava le cartelle",
+    "patronage": "delle variabili d'ambiente di debug, dei database dei permessi di macOS e di chi rinomina un file proprio nel momento sbagliato.",
+    "hagiography": "Il 14 novembre 2023 Gergely Kalman raccontò Lateralus (CVE-2023-32407), un aggiramento di TCC, il guardiano della privacy di macOS. Il framework Metal accettava la variabile d'ambiente MTL_DUMP_PIPELINES_TO_JSON_FILE e scriveva un file dove gli si diceva; scambiando una cartella al momento giusto durante il rename(), un'app senza permessi poteva far scrivere a un programma privilegiato come Music, che ha l'accesso completo al disco, sopra il TCC.db dell'utente. Apple aveva già corretto il difetto a maggio, con macOS Ventura 13.4, togliendo la variabile.",
+    "prayer": "O San Lateralus, che vinci la corsa tra due nomi di file, fa' che i nostri programmi privilegiati non scrivano dove chiunque li manda. Amen.",
+    "feast": "Si festeggia aggiornando macOS almeno alla 13.4 (o alle correzioni di Monterey 12.6.6 e Big Sur 11.7.7) e diffidando delle variabili d'ambiente che promettono file di debug.",
+    "proverb": "Tra il dire e il rinominare c'è di mezzo una cartella."
+  },
+  "en": {
+    "title": "Saint Lateralus, Who Swapped the Folders",
+    "patronage": "debug environment variables, macOS permission databases, and anyone who renames a file at exactly the wrong moment.",
+    "hagiography": "On 14 November 2023 Gergely Kalman described Lateralus (CVE-2023-32407), a bypass of TCC, macOS's privacy gatekeeper. The Metal framework honoured the MTL_DUMP_PIPELINES_TO_JSON_FILE environment variable and wrote a file wherever it was told; by swapping a folder at the right instant during rename(), an unprivileged app could make a privileged program such as Music, which has Full Disk Access, write over the user's TCC.db. Apple had already fixed it in May with macOS Ventura 13.4, by removing the variable.",
+    "prayer": "O Saint Lateralus, who win the race between two filenames, let our privileged programs never write wherever they are sent. Amen.",
+    "feast": "Celebrated by updating macOS to at least 13.4 (or the Monterey 12.6.6 and Big Sur 11.7.7 fixes) and distrusting environment variables that promise debug files.",
+    "proverb": "Between the saying and the renaming lies a swapped folder."
+  }
+}

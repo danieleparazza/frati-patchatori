@@ -1,0 +1,10 @@
+{
+  "label": "PMFault",
+  "motto": "NIMIA TENSIO MORS CPU",
+  "niche": [
+    "#1a1a24",
+    "#3a3a52"
+  ],
+  "accent": "#2e2e4a",
+  "emblem": "<rect x=\"118\" y=\"164\" width=\"64\" height=\"64\" rx=\"4\" fill=\"#3a3a52\" stroke=\"#bfc9d1\" stroke-width=\"2\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"2\"><path d=\"M128 158 v6 M142 158 v6 M158 158 v6 M172 158 v6 M128 228 v6 M142 228 v6 M158 228 v6 M172 228 v6 M112 176 h6 M112 192 h6 M112 208 h6 M182 176 h6 M182 192 h6 M182 208 h6\"/></g>\n<path d=\"M160 116 l-24 44 h18 l-12 40 l34 -52 h-18 l14 -32 z\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"250\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">2,84 V</text>"
+}

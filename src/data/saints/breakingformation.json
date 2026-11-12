@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato BreakingFormation, che ruppe le righe del cloud",
+    "patronage": "di AWS CloudFormation, dei parser XML troppo ospitali e delle entità esterne non invitate.",
+    "hagiography": "Nel gennaio 2022 Tzah Pahima di Orca Security raccontò BreakingFormation: un'anomalia nel modo in cui CloudFormation elaborava i modelli faceva scattare una vulnerabilità XXE su un server interno del servizio. Si potevano leggere i file del server e fargli fare richieste, e lì stavano configurazioni per raggiungere servizi interni di AWS e credenziali; secondo Orca un attaccante avrebbe potuto usarle per scavalcare i confini tra clienti. Segnalato a settembre 2021, AWS preparò la correzione in meno di 25 ore e la portò in tutte le regioni in sei giorni.",
+    "prayer": "O Beato BreakingFormation, che con un'entità esterna sciogli i ranghi del cloud, fa' che i nostri parser XML non vadano a prendere ciò che nessuno ha chiesto. Amen.",
+    "feast": "Si festeggia disattivando le entità esterne in ogni parser XML che si possiede, visto che quello di CloudFormation l'ha già sistemato AWS.",
+    "proverb": "Parser ospitale, server loquace."
+  },
+  "en": {
+    "title": "Blessed BreakingFormation, Who Broke the Cloud's Ranks",
+    "patronage": "AWS CloudFormation, overly hospitable XML parsers, and uninvited external entities.",
+    "hagiography": "In January 2022 Tzah Pahima of Orca Security described BreakingFormation: a quirk in how CloudFormation rendered templates triggered an XXE vulnerability on a server inside the service. One could read the server's files and make it send requests, and it held configuration for reaching internal AWS endpoints, plus credentials; according to Orca an attacker might have used them to cross tenant boundaries. Reported in September 2021, AWS coded a fix in under 25 hours and rolled it out to every region within six days.",
+    "prayer": "O Blessed BreakingFormation, who breaks the cloud's ranks with an external entity, let our XML parsers never fetch what nobody asked for. Amen.",
+    "feast": "Celebrated by disabling external entities in every XML parser you own, since AWS has already fixed CloudFormation's.",
+    "proverb": "A hospitable parser makes a talkative server."
+  }
+}

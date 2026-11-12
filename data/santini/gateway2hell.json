@@ -1,0 +1,10 @@
+{
+  "label": "Gateway2Hell",
+  "motto": "VPN AD INFEROS",
+  "niche": [
+    "#2c1410",
+    "#5e2a1c"
+  ],
+  "accent": "#441e14",
+  "emblem": "<path d=\"M106 240 L106 160 Q106 122 150 122 Q194 122 194 160 L194 240\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"3\"><line x1=\"128\" y1=\"132\" x2=\"128\" y2=\"240\"/><line x1=\"150\" y1=\"124\" x2=\"150\" y2=\"240\"/><line x1=\"172\" y1=\"132\" x2=\"172\" y2=\"240\"/><line x1=\"106\" y1=\"170\" x2=\"194\" y2=\"170\"/></g>\n<path d=\"M112 240 Q118 214 126 226 Q132 200 142 222 Q150 196 158 222 Q168 200 174 226 Q182 214 188 240 Z\" fill=\"#e8742c\" stroke=\"#e8c45c\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"160\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">VPN</text>\n<circle cx=\"150\" cy=\"196\" r=\"6\" fill=\"#d9ad55\"/><rect x=\"147\" y=\"196\" width=\"6\" height=\"12\" fill=\"#d9ad55\"/>"
+}

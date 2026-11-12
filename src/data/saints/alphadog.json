@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AlphaDog, cane dalle due facce",
+    "patronage": "dei modelli di riconoscimento delle immagini, del canale alfa e di chi guarda le miniature senza sospetti.",
+    "hagiography": "Al simposio NDSS 2025 Qi Xia e Qian Chen della University of Texas at San Antonio presentarono AlphaDog. Un'immagine RGBA ha un quarto canale, quello della trasparenza: gli autori lo costruivano in modo che una persona, vedendo l'immagine fusa con lo sfondo di un visualizzatore, scorgesse una cosa, mentre il modello di intelligenza artificiale, che il canale alfa spesso lo ignora, ne vedesse un'altra. Niente interrogazioni al modello e pochi millisecondi per generarla; gli autori la provarono su 100 sistemi di riconoscimento, pensando ad avvelenamento dei dati, elusione e moderazione dei contenuti.",
+    "prayer": "O Beato AlphaDog, che mostri un cane all'uomo e un gatto alla macchina, fa' che occhi e algoritmi guardino la stessa figura. Amen.",
+    "feast": "Si festeggia fondendo il canale alfa come farebbe l'occhio umano prima di dare l'immagine al modello, o con il controllo sull'istogramma dei pixel proposto dagli autori.",
+    "proverb": "Chi guarda in trasparenza non sempre vede chiaro."
+  },
+  "en": {
+    "title": "Blessed AlphaDog, Dog With Two Faces",
+    "patronage": "image recognition models, the alpha channel, and everyone who trusts thumbnails.",
+    "hagiography": "At NDSS 2025 Qi Xia and Qian Chen of the University of Texas at San Antonio presented AlphaDog. An RGBA image has a fourth channel for transparency: the authors crafted it so that a person, seeing the image blended with a viewer's background, saw one thing, while the AI model, which often ignores the alpha channel, saw another. No queries to the model and a few milliseconds to generate; the authors tried it on 100 recognition systems, with data poisoning, evasion and content moderation in mind.",
+    "prayer": "O Blessed AlphaDog, who show a dog to people and a cat to machines, let eyes and algorithms look at the same picture. Amen.",
+    "feast": "Celebrated by blending the alpha channel the way a human eye would before handing the image to the model, or with the pixel-histogram check the authors proposed.",
+    "proverb": "Looking through transparency doesn't mean seeing clearly."
+  }
+}

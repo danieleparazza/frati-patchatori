@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato LogoFAIL, icona avvelenata dell'avvio",
+    "patronage": "dei firmware UEFI, dei loghi all'accensione e dei produttori che volevano solo un po' di personalizzazione.",
+    "hagiography": "Il Binarly REsearch Team annunciò LogoFAIL a fine novembre 2023 e lo presentò per intero a Black Hat Europe il 6 dicembre. I parser d'immagine nei firmware UEFI di AMI, Insyde e Phoenix, che mostrano il logo all'avvio, erano pieni di difetti; un'immagine preparata, spesso sostituibile perfino dal sistema operativo, eseguiva codice durante l'avvio, prima del sistema e aggirando Secure Boot e Intel Boot Guard. Riguardava centinaia di modelli di PC di molti marchi e fu tracciato con CVE come CVE-2023-40238, CVE-2023-39538, CVE-2023-39539 e CVE-2023-5058.",
+    "prayer": "O Beato LogoFAIL, che ti nascondi nell'immagine più innocente, fa' che i nostri firmware guardino i loghi senza farsi comandare. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti del BIOS/UEFI del produttore e, dove possibile, impedendo di cambiare il logo d'avvio.",
+    "proverb": "Non giudicare un PC dal logo."
+  },
+  "en": {
+    "title": "Blessed LogoFAIL, Poisoned Icon of the Boot",
+    "patronage": "UEFI firmware, boot-time logos, and vendors who just wanted a little branding.",
+    "hagiography": "The Binarly REsearch Team announced LogoFAIL in late November 2023 and presented it in full at Black Hat Europe on 6 December. The image parsers in AMI, Insyde and Phoenix UEFI firmware, which display the boot logo, were riddled with flaws; a crafted image, often replaceable even from the operating system, ran code during boot, before the OS and bypassing Secure Boot and Intel Boot Guard. It affected hundreds of PC models from many brands and was tracked under CVEs such as CVE-2023-40238, CVE-2023-39538, CVE-2023-39539 and CVE-2023-5058.",
+    "prayer": "O Blessed LogoFAIL, who hide in the most innocent picture, let our firmware look at logos without taking orders from them. Amen.",
+    "feast": "Celebrated by installing the vendor's BIOS/UEFI updates and, where possible, locking the boot logo.",
+    "proverb": "Never judge a PC by its logo."
+  }
+}

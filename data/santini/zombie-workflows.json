@@ -1,0 +1,10 @@
+{
+  "label": "Zombie Workflows",
+  "motto": "RAMI MORTUI RESURGUNT",
+  "niche": [
+    "#1c241a",
+    "#3a4a34"
+  ],
+  "accent": "#2a3626",
+  "emblem": "<path d=\"M150 236 V150 M150 196 Q150 176 120 168 V140 M150 176 Q150 160 180 152 V128\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\"/>\n<g fill=\"#3a4a34\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"><circle cx=\"120\" cy=\"134\" r=\"7\"/><circle cx=\"180\" cy=\"122\" r=\"7\"/><circle cx=\"150\" cy=\"150\" r=\"7\"/></g>\n<path d=\"M104 236 q46 -14 92 0 Z\" fill=\"#5a4a32\" stroke=\"#d9ad55\" stroke-width=\"1.5\"/>\n<path d=\"M176 230 v-28 l-4 -10 m4 10 l2 -12 m-2 12 l8 -10 m-8 10 l10 -4\" fill=\"none\" stroke=\"#9fd38a\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n<path d=\"M114 222 h16 v14 M122 216 v-8\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>"
+}

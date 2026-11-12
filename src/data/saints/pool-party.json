@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Pool Party, che spiava dalla piscina comune",
+    "patronage": "delle schede del browser, delle risorse condivise e di chi credeva che la modalità privata fosse una stanza chiusa a chiave.",
+    "hagiography": "Il 15 dicembre 2021 Brave raccontò una ricerca svolta con Soroush Karami dell'Università dell'Illinois a Chicago: i browser tengono alcune risorse limitate in un'unica vasca comune a tutti i siti, come il numero massimo di WebSocket o di connessioni contemporanee. Un sito che riempie la vasca e un altro che misura quanto ne resta possono passarsi bit di informazione, scavalcando le protezioni contro il tracciamento fra siti. Secondo i ricercatori il problema riguardava tutti i motori dei browser più diffusi.",
+    "prayer": "O Beato Pool Party, che ascolti il livello dell'acqua per riconoscere i bagnanti, dacci vasche separate per ogni sito. Amen.",
+    "feast": "Si festeggia aggiornando il browser, che da allora ripartisce o allarga quelle risorse, e chiudendo le schede che non servono.",
+    "proverb": "In piscina comune, anche chi non parla lascia le onde."
+  },
+  "en": {
+    "title": "Blessed Pool Party, Who Spied From the Shared Pool",
+    "patronage": "browser tabs, shared resources, and everyone who thought private mode was a locked room.",
+    "hagiography": "On 15 December 2021 Brave described research carried out with Soroush Karami of the University of Illinois Chicago: browsers keep some limited resources in a single pool shared by every site, such as the maximum number of WebSockets or simultaneous connections. One site filling the pool and another measuring what is left can pass bits to each other, sidestepping cross-site tracking protections. According to the researchers, every major browser engine was affected.",
+    "prayer": "O Blessed Pool Party, who read the water level to recognise the swimmers, give each site its own pool. Amen.",
+    "feast": "Celebrated by updating the browser, which has since partitioned or raised those limits, and closing tabs you don't need.",
+    "proverb": "In a shared pool, even the silent make waves."
+  }
+}

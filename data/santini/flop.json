@@ -1,0 +1,10 @@
+{
+  "label": "FLOP",
+  "motto": "VALOREM FALSUM VATICINOR",
+  "niche": [
+    "#1e1a2a",
+    "#3e3656"
+  ],
+  "accent": "#2e2840",
+  "emblem": "<circle cx=\"150\" cy=\"168\" r=\"38\" fill=\"#3a3456\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M130 152 a24 24 0 0 1 20 -14\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\" opacity=\"0.7\"/>\n<text x=\"150\" y=\"180\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"30\" fill=\"#d9ad55\">42</text>\n<path d=\"M120 214 h60 l-8 -10 h-44 z\" fill=\"#d9ad55\"/><rect x=\"114\" y=\"214\" width=\"72\" height=\"8\" rx=\"2\" fill=\"#bfc9d1\"/>\n<line x1=\"132\" y1=\"238\" x2=\"168\" y2=\"238\" stroke=\"#e8a0a8\" stroke-width=\"3\"/>"
+}

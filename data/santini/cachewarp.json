@@ -1,0 +1,10 @@
+{
+  "label": "CacheWarp",
+  "motto": "MEMORIA RETRORSUM",
+  "niche": [
+    "#2a1616",
+    "#5a2e2a"
+  ],
+  "accent": "#3f1f1c",
+  "emblem": "<g fill=\"#3a2522\" stroke=\"#fbf3dd\" stroke-width=\"2\"><rect x=\"108\" y=\"140\" width=\"84\" height=\"18\" rx=\"2\"/><rect x=\"108\" y=\"164\" width=\"84\" height=\"18\" rx=\"2\"/><rect x=\"108\" y=\"188\" width=\"84\" height=\"18\" rx=\"2\"/><rect x=\"108\" y=\"212\" width=\"84\" height=\"18\" rx=\"2\"/></g>\n<g fill=\"#d9ad55\"><rect x=\"112\" y=\"167\" width=\"30\" height=\"12\"/><rect x=\"146\" y=\"191\" width=\"42\" height=\"12\"/></g>\n<path d=\"M200 220 Q222 180 200 134\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<path d=\"M196 128 l4 -10 l8 8 z\" fill=\"#bfc9d1\"/>\n<text x=\"150\" y=\"132\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\" letter-spacing=\"2\">INVD</text>\n<text x=\"150\" y=\"248\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"11\" fill=\"#d9ad55\">SEV</text>"
+}

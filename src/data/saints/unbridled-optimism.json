@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Unbridled Optimism, che moltiplicava gli ether",
+    "patronage": "delle reti layer 2, dei contratti che si autodistruggono e di chi spera che il denaro si moltiplichi da solo.",
+    "hagiography": "Il 2 febbraio 2022 Jay Freeman, noto come saurik, segnalò a Optimism un difetto in l2geth, la sua versione modificata di go-ethereum. Quando un contratto con ETH si autodistruggeva, il saldo veniva inviato al beneficiario ma non azzerato davvero: un contratto che nominava se stesso beneficiario raddoppiava i propri fondi a ogni chiamata, potendo creare ETH dal nulla. Il bug era già scattato una volta, la vigilia di Natale del 2021, senza che nessuno se ne accorgesse. Optimism lo corresse in fretta e pagò 2.000.042 dollari di ricompensa.",
+    "prayer": "O Beato Unbridled Optimism, che moltiplichi i pani e soprattutto gli ether, fa' che i nostri saldi scendano quando devono scendere. Amen.",
+    "feast": "Si festeggia ricordando la correzione di l2geth, attivata con un hard fork, e controllando che ogni denaro che esce da un conto ne sia uscito davvero.",
+    "proverb": "Soldi che si raddoppiano da soli non sono un miracolo, sono un bug."
+  },
+  "en": {
+    "title": "Blessed Unbridled Optimism, Who Multiplied the Ether",
+    "patronage": "layer-2 networks, self-destructing contracts, and anyone who hopes money will multiply by itself.",
+    "hagiography": "On 2 February 2022 Jay Freeman, known as saurik, reported to Optimism a flaw in l2geth, its modified version of go-ethereum. When a contract holding ETH self-destructed, its balance was sent to the beneficiary but never really cleared: a contract that named itself beneficiary doubled its funds on every call, and could mint ETH out of thin air. The bug had already fired once, on Christmas Eve 2021, without anyone noticing. Optimism fixed it quickly and paid a 2,000,042 dollar bounty.",
+    "prayer": "O Blessed Unbridled Optimism, who multiply the loaves and above all the ether, let our balances go down when they should. Amen.",
+    "feast": "Celebrated by remembering the l2geth fix, activated through a hard fork, and by checking that money leaving an account has really left it.",
+    "proverb": "Money that doubles by itself is no miracle: it's a bug."
+  }
+}

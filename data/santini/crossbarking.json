@@ -1,0 +1,10 @@
+{
+  "label": "CrossBarking",
+  "motto": "CAVE CANEM EXTENSUM",
+  "niche": [
+    "#2a1c1c",
+    "#5a3838"
+  ],
+  "accent": "#3e2626",
+  "emblem": "<ellipse cx=\"114\" cy=\"160\" rx=\"14\" ry=\"26\" fill=\"#a8783c\" stroke=\"#fbf3dd\" stroke-width=\"2\" transform=\"rotate(20 114 160)\"/>\n<ellipse cx=\"186\" cy=\"160\" rx=\"14\" ry=\"26\" fill=\"#a8783c\" stroke=\"#fbf3dd\" stroke-width=\"2\" transform=\"rotate(-20 186 160)\"/>\n<circle cx=\"150\" cy=\"172\" r=\"36\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<circle cx=\"136\" cy=\"164\" r=\"5\" fill=\"#2a1c1c\"/><circle cx=\"164\" cy=\"164\" r=\"5\" fill=\"#2a1c1c\"/>\n<ellipse cx=\"150\" cy=\"184\" rx=\"8\" ry=\"6\" fill=\"#2a1c1c\"/>\n<path d=\"M140 194 q10 8 20 0\" fill=\"none\" stroke=\"#2a1c1c\" stroke-width=\"2\"/>\n<path d=\"M130 220 h16 v-8 a6 6 0 1 1 8 0 v8 h16 v14 a6 6 0 1 0 0 8 v8 h-40 Z\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>"
+}

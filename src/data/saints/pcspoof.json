@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato PCspooF, che stonava il tempo",
+    "patronage": "delle reti Time-Triggered Ethernet, dei cavi senza schermatura e degli orologi che si fidano troppo.",
+    "hagiography": "Nel novembre 2022 Andrew Loveless e Baris Kasikci dell'Università del Michigan, con Linh Thi Xuan Phan e Ronald Dreslinski, presentarono PCspooF, poi pubblicato a IEEE S&P 2023. Le reti TTEthernet, usate in veicoli spaziali, aerei e impianti energetici, accettano i messaggi di sincronizzazione solo dagli switch; un dispositivo di poco conto, con un piccolo circuito aggiunto, usava interferenze elettromagnetiche sul cavo per infilarne di falsi e spezzare la sincronia. Su hardware NASA che simulava un aggancio, la capsula mancò il bersaglio. I ricercatori avevano avvisato i costruttori già nel 2021.",
+    "prayer": "O Beato PCspooF, che con un disturbo sul filo fai perdere il passo a tutta la rete, fa' che i nostri orologi ascoltino solo chi ha diritto di parlare. Amen.",
+    "feast": "Si festeggia con fibra ottica o isolatori ottici e separando i percorsi del traffico critico da quello di serie B.",
+    "proverb": "Basta un ronzio nel cavo per far stonare tutto il coro."
+  },
+  "en": {
+    "title": "Blessed PCspooF, Who Put Time Out of Tune",
+    "patronage": "Time-Triggered Ethernet networks, unshielded cables, and clocks that trust too easily.",
+    "hagiography": "In November 2022 Andrew Loveless and Baris Kasikci of the University of Michigan, with Linh Thi Xuan Phan and Ronald Dreslinski, unveiled PCspooF, later published at IEEE S&P 2023. TTEthernet networks, used in spacecraft, aircraft and power plants, accept synchronisation messages only from switches; a lowly device with a little extra circuitry used electromagnetic interference on the cable to slip forged ones in and break synchronisation. On NASA hardware simulating a docking, the capsule missed its target. The researchers had warned manufacturers back in 2021.",
+    "prayer": "O Blessed PCspooF, who throw the whole network off beat with a buzz on the wire, let our clocks listen only to those entitled to speak. Amen.",
+    "feast": "Celebrated with fibre optics or optical isolators and by keeping critical traffic on paths apart from the second-class kind.",
+    "proverb": "One hum on the wire puts the whole choir out of tune."
+  }
+}

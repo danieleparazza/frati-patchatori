@@ -1,0 +1,10 @@
+{
+  "label": "GOLDENDOODLE",
+  "motto": "CANIS AUREUS ORACULI",
+  "niche": [
+    "#2a2010",
+    "#5a4422"
+  ],
+  "accent": "#433218",
+  "emblem": "<g fill=\"#d9ad55\" stroke=\"#8a6d1f\" stroke-width=\"1.5\"><circle cx=\"150\" cy=\"134\" r=\"14\"/><circle cx=\"136\" cy=\"140\" r=\"12\"/><circle cx=\"164\" cy=\"140\" r=\"12\"/><ellipse cx=\"116\" cy=\"176\" rx=\"14\" ry=\"26\"/><ellipse cx=\"184\" cy=\"176\" rx=\"14\" ry=\"26\"/></g>\n<ellipse cx=\"150\" cy=\"176\" rx=\"32\" ry=\"36\" fill=\"#e8c45c\" stroke=\"#8a6d1f\" stroke-width=\"1.5\"/>\n<circle cx=\"138\" cy=\"168\" r=\"4\" fill=\"#2b1d14\"/><circle cx=\"162\" cy=\"168\" r=\"4\" fill=\"#2b1d14\"/>\n<ellipse cx=\"150\" cy=\"190\" rx=\"8\" ry=\"6\" fill=\"#2b1d14\"/>\n<path d=\"M142 200 q8 8 16 0\" fill=\"none\" stroke=\"#2b1d14\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"238\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">CBC</text>"
+}

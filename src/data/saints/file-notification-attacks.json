@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San File Notification, campanello delatore",
+    "patronage": "delle cartelle osservate, dei tasti premuti in silenzio e di chi credeva che leggere una directory non dicesse niente.",
+    "hagiography": "Nel dicembre 2025 Sudheendra Raghav Neela, Daniel Gruss e altri ricercatori della TU Graz mostrarono che i sistemi di notifica dei file, come inotify su Linux, avvisano di ogni accesso anche chi può solo leggere la cartella. Osservando /dev/input si ricavavano i tempi delle digitazioni, su Android un'app senza permessi vedeva i file privati di un'altra, su Windows i profili del browser tradivano i siti visitati. Per Linux arrivò la CVE-2025-68788 e una correzione parziale del kernel; il lavoro è atteso ad ACM CCS 2026.",
+    "prayer": "O San File Notification, che suoni il campanello a ogni passo altrui, fa' che le nostre cartelle avvisino solo chi ha diritto di sapere. Amen.",
+    "feast": "Si festeggia aggiornando il kernel Linux alle versioni corrette, come la 6.12.65 o la 6.18.3, e attivando su Windows il controllo dei permessi sulle notifiche.",
+    "proverb": "Chi sente il campanello sa che qualcuno è passato, anche senza vederlo."
+  },
+  "en": {
+    "title": "Saint File Notification, the Telltale Bell",
+    "patronage": "watched folders, silently pressed keys, and everyone who thought reading a directory gave nothing away.",
+    "hagiography": "In December 2025 Sudheendra Raghav Neela, Daniel Gruss and other researchers at TU Graz showed that file-notification systems such as Linux's inotify report every access even to someone who can merely read the folder. Watching /dev/input revealed keystroke timings, on Android an app without permissions could see another app's private files, and on Windows browser profiles betrayed the sites visited. Linux got CVE-2025-68788 and a partial kernel fix; the work is due at ACM CCS 2026.",
+    "prayer": "O Saint File Notification, who ring the bell at every step of others, let our folders tell only those who have a right to know. Amen.",
+    "feast": "Celebrated by updating the Linux kernel to fixed releases such as 6.12.65 or 6.18.3, and enabling the permission check for change notifications on Windows.",
+    "proverb": "Hear the bell and you know someone passed, even unseen."
+  }
+}

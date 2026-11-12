@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San LDAPBleed, che sanguinava dai rinvii",
+    "patronage": "dei controller di dominio, dei client LDAP di Windows e dei numeri interi che non sanno contare fino in fondo.",
+    "hagiography": "Nel dicembre 2024 Microsoft corresse CVE-2024-49112, segnalata dal ricercatore Yuki Chen: un intero che trabocca nella gestione LDAP di Windows poteva portare all'esecuzione di codice da remoto, con punteggio CVSS 9.8. Secondo l'analisi di Cato Networks il colpo arrivava da un server LDAP malevolo, con una risposta di rinvio (referral) costruita ad arte. All'inizio del 2025 il nome LDAPBleed la distinse dalla gemella LDAPNightmare (CVE-2024-49113), un blocco di servizio per cui SafeBreach pubblicò una prova di concetto.",
+    "prayer": "O San LDAPBleed, che sanguini dai rami dell'albero delle directory, fa' che i nostri interi restino nei loro confini e i nostri controller in piedi. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di Windows di dicembre 2024 e tenendo i controller di dominio lontani da Internet e dalle chiamate di reti non fidate.",
+    "proverb": "Chi segue ogni rinvio, prima o poi sanguina."
+  },
+  "en": {
+    "title": "Saint LDAPBleed, Who Bled From Referrals",
+    "patronage": "domain controllers, Windows LDAP clients, and integers that cannot count all the way.",
+    "hagiography": "In December 2024 Microsoft fixed CVE-2024-49112, reported by researcher Yuki Chen: an integer overflow in Windows LDAP handling could lead to remote code execution, with a CVSS score of 9.8. According to Cato Networks' analysis, the blow came from a malicious LDAP server sending a crafted referral response. In early 2025 the name LDAPBleed set it apart from its twin LDAPNightmare (CVE-2024-49113), a denial of service for which SafeBreach published a proof of concept.",
+    "prayer": "O Saint LDAPBleed, who bleeds from the branches of the directory tree, keep our integers within their bounds and our controllers on their feet. Amen.",
+    "feast": "Celebrated by installing the December 2024 Windows updates and keeping domain controllers away from the Internet and from calls on untrusted networks.",
+    "proverb": "Follow every referral and sooner or later you bleed."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato LogCrusher, che schiacciava il registro eventi",
+    "patronage": "del servizio Registro eventi, degli utenti di dominio senza privilegi e degli attaccanti che preferiscono non lasciare tracce.",
+    "hagiography": "Nell'ottobre 2022 Varonis Threat Labs presentò, accanto a OverLog, LogCrusher: attraverso la stessa porta lasciata aperta dal registro di Internet Explorer, qualunque utente del dominio poteva far cadere da remoto il servizio Registro eventi di una macchina Windows, lasciando per un po' al buio gli strumenti di sicurezza che ne leggono i registri. La correzione di ottobre fu solo parziale; secondo un'analisi di 0patch il difetto fu chiuso con gli aggiornamenti di novembre 2022, senza un CVE tutto suo.",
+    "prayer": "O Beato LogCrusher, che zittisci il cronista perché non resti cronaca, fa' che i nostri servizi si rialzino e ricordino chi li ha fatti cadere. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di novembre 2022 e facendo scattare un allarme quando il Registro eventi si ferma, perché anche il silenzio dei log è una notizia.",
+    "proverb": "Quando il cronista tace, qualcuno sta scrivendo la storia."
+  },
+  "en": {
+    "title": "Blessed LogCrusher, Who Crushed the Event Log",
+    "patronage": "the Event Log service, unprivileged domain users, and attackers who'd rather leave no trace.",
+    "hagiography": "In October 2022 Varonis Threat Labs presented LogCrusher alongside OverLog: through the same door left open by the Internet Explorer log, any domain user could remotely crash the Event Log service on a Windows machine, leaving the security tools that read its logs in the dark for a while. The October fix was only partial; according to an analysis by 0patch the flaw was closed by the November 2022 updates, without a CVE of its own.",
+    "prayer": "O Blessed LogCrusher, who silence the chronicler so no chronicle remains, let our services rise again and remember who knocked them down. Amen.",
+    "feast": "Celebrated by installing the November 2022 updates and raising an alert whenever the Event Log stops, because silent logs are news too.",
+    "proverb": "When the chronicler falls silent, someone is writing history."
+  }
+}

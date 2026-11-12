@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato EpileptiCar, abbagliato dai lampeggianti",
+    "patronage": "delle telecamere di assistenza alla guida, dei rilevatori di oggetti e delle notti illuminate a intermittenza.",
+    "hagiography": "Nel novembre 2024 ricercatori dell'Università Ben-Gurion del Negev e di Fujitsu, tra cui Ben Nassi, Yisroel Mirsky e Yuval Elovici, descrissero EpileptiCar. Davanti ai lampeggianti di un veicolo d'emergenza, la fiducia dei rilevatori di oggetti nelle telecamere di assistenza alla guida oscillava fino a scendere sotto la soglia, così il veicolo poteva non essere riconosciuto, soprattutto al buio. Provarono cinque dashcam ADAS commerciali e quattro rilevatori, e proposero una difesa chiamata Caracetamol; non stabilirono se il fenomeno avesse avuto un ruolo negli incidenti reali.",
+    "prayer": "O Beato EpileptiCar, che smarrisci gli occhi delle macchine tra luce e buio, fa' che i nostri rilevatori vedano sempre chi arriva a sirene spiegate. Amen.",
+    "feast": "Si festeggia addestrando i rilevatori anche su immagini con lampeggianti accesi e non affidando mai la guida a una sola telecamera.",
+    "proverb": "Troppa luce acceca quanto il buio."
+  },
+  "en": {
+    "title": "Blessed EpileptiCar, Dazzled by Flashing Lights",
+    "patronage": "driver-assistance cameras, object detectors, and nights lit in flashes.",
+    "hagiography": "In November 2024 researchers from Ben-Gurion University of the Negev and Fujitsu, including Ben Nassi, Yisroel Mirsky and Yuval Elovici, described EpileptiCar. Faced with an emergency vehicle's flashing lights, the confidence of object detectors in driver-assistance cameras swung until it fell below the threshold, so the vehicle might go undetected, especially in the dark. They tested five commercial ADAS dashcams and four detectors and proposed a defence called Caracetamol; they did not establish whether the effect played a role in real crashes.",
+    "prayer": "O Blessed EpileptiCar, who bewilder machine eyes between light and dark, let our detectors always see those arriving with sirens blaring. Amen.",
+    "feast": "Celebrated by training detectors on images with active emergency lights and never trusting a single camera to drive.",
+    "proverb": "Too much light blinds as much as darkness."
+  }
+}

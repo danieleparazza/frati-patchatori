@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Wake & Break, che svegliava la scheda e ne spezzava il sigillo",
+    "patronage": "delle schede grafiche AMD, dei firmware firmati e di chi spegne e riaccende per risolvere tutto.",
+    "hagiography": "Il 25 ottobre 2026 il ricercatore blasty pubblicò Wake & Break, un exploit per il processore di sicurezza (PSP) delle schede AMD Radeon RX 7900. Disattivava il controllo della firma del firmware, così la scheda caricava firmware non firmato per i suoi componenti interni. Non scriveva nulla in modo permanente: bastava togliere e ridare corrente per riavere la scheda originale. Le istruzioni stesse avvertivano di non provarlo su una macchina che non si può spegnere a mano.",
+    "prayer": "O Beato Wake & Break, che al risveglio spezzi il sigillo della firma, ricordaci che un buon riavvio a freddo lava molti peccati. Amen.",
+    "feast": "Si festeggia spegnendo davvero la macchina, cavo compreso, e tenendo d'occhio i bollettini AMD sul processore di sicurezza.",
+    "proverb": "Sigillo che si spezza al risveglio, non era un sigillo ma un sonnellino."
+  },
+  "en": {
+    "title": "Blessed Wake & Break, Who Woke the Card and Broke Its Seal",
+    "patronage": "AMD graphics cards, signed firmware, and everyone who fixes everything by turning it off and on again.",
+    "hagiography": "On 25 October 2026 researcher blasty published Wake & Break, an exploit for the security processor (PSP) of AMD Radeon RX 7900 cards. It switched off the firmware signature check, so the card loaded unsigned firmware for its internal components. Nothing was written permanently: cutting and restoring power was enough to get the stock card back. The instructions themselves warned against trying it on a machine that can't be power-cycled by hand.",
+    "prayer": "O Blessed Wake & Break, who break the seal of the signature on waking, remind us that a good cold boot washes away many sins. Amen.",
+    "feast": "Celebrated by really turning the machine off, power cable included, and keeping an eye on AMD's security processor bulletins.",
+    "proverb": "A seal that breaks on waking was never a seal, just a nap."
+  }
+}

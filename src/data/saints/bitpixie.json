@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San bitpixie, folletto della rete",
+    "patronage": "di BitLocker senza PIN, dell'avvio da rete e dei vecchi boot manager che non vogliono andare in pensione.",
+    "hagiography": "Nel febbraio 2023 Rairii rese pubblico bitpixie (CVE-2023-21563), un difetto del Windows Boot Manager: durante un riavvio \"morbido\" per l'avvio da rete PXE, le chiavi derivate di BitLocker restavano in memoria. Con accesso fisico e un cavo di rete, un attaccante poteva far caricare un boot manager vecchio e vulnerabile e recuperare la chiave del volume. Microsoft lo aveva corretto tra la fine del 2022 e il gennaio 2023, ma poiché i vecchi boot manager restavano firmati e accettati, Thomas Lambertz mostrò al 38C3 che l'attacco funzionava ancora.",
+    "prayer": "O San bitpixie, folletto che arrivi dal cavo di rete, fa' che le nostre chiavi svaniscano a ogni riavvio. Amen.",
+    "feast": "Si festeggia con un PIN di pre-avvio per BitLocker, disattivando l'avvio da rete dove non serve e applicando le misure di Microsoft che revocano i boot manager vecchi.",
+    "proverb": "La chiave lasciata sul tavolo la trova anche il folletto."
+  },
+  "en": {
+    "title": "Saint bitpixie, Sprite of the Network",
+    "patronage": "BitLocker without a PIN, network boot, and old boot managers that refuse to retire.",
+    "hagiography": "In February 2023 Rairii made bitpixie (CVE-2023-21563) public, a flaw in the Windows Boot Manager: during a \"soft\" reboot for PXE network boot, BitLocker's derived keys stayed in memory. With physical access and a network cable, an attacker could load an old, vulnerable boot manager and recover the volume key. Microsoft had fixed it between late 2022 and January 2023, but since old boot managers were still signed and accepted, Thomas Lambertz showed at 38C3 that the attack still worked.",
+    "prayer": "O Saint bitpixie, sprite who arrive down the network cable, let our keys vanish at every reboot. Amen.",
+    "feast": "Celebrated with a BitLocker pre-boot PIN, by disabling network boot where it isn't needed and by applying Microsoft's measures that revoke old boot managers.",
+    "proverb": "A key left on the table is found even by the sprites."
+  }
+}

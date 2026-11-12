@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Mistune, che stonava nell'iPhone",
+    "patronage": "dei link universali, dell'iTunes Store e dei bug che aspettavano da iOS 3.",
+    "hagiography": "Alla Tianfu Cup del novembre 2020 codecolorist mostrò Mistune, una catena per iOS 14.2 su iPhone 11: bastava aprire un link speciale, che Safari girava all'app iTunes Store, e il JavaScript lì dentro scappava dalla sandbox del browser. Due bug, nati secondo l'autore ai tempi di iOS 3 e iOS 6, portavano fino all'esecuzione di codice aggirando la PAC, senza toccare il kernel. Apple li corresse in iOS 14.4 e 14.5.",
+    "prayer": "O San Mistune, che suoni la nota sbagliata nell'app giusta, fa' che ogni link arrivi solo dove deve. Amen.",
+    "feast": "Si festeggia aggiornando iOS almeno alla 14.5 e ricordando che anche le app preinstallate sono superficie d'attacco.",
+    "proverb": "Una nota stonata basta a rovinare il concerto."
+  },
+  "en": {
+    "title": "Saint Mistune, Who Sang Off-Key in the iPhone",
+    "patronage": "universal links, the iTunes Store, and bugs that had been waiting since iOS 3.",
+    "hagiography": "At the Tianfu Cup in November 2020 codecolorist demonstrated Mistune, a chain for iOS 14.2 on an iPhone 11: opening one special link, which Safari handed over to the iTunes Store app, let the JavaScript inside escape the browser sandbox. Two bugs, dating back to iOS 3 and iOS 6 according to the author, led all the way to code execution past PAC, without touching the kernel. Apple fixed them in iOS 14.4 and 14.5.",
+    "prayer": "O Saint Mistune, who play the wrong note in the right app, let every link land only where it should. Amen.",
+    "feast": "Celebrated by updating iOS to at least 14.5 and remembering that preinstalled apps are attack surface too.",
+    "proverb": "One sour note can spoil the whole concert."
+  }
+}

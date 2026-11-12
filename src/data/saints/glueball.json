@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato GlueBall, firmato e incollato",
+    "patronage": "dei pacchetti MSI, degli archivi JAR e delle firme digitali che non guardano la coda.",
+    "hagiography": "Il 15 gennaio 2019 Bernardo Quintero e Francisco Santos di VirusTotal descrissero un inganno curioso: Windows considerava ancora valida la firma Authenticode di un file .msi anche dopo che in coda vi era stato incollato un archivio JAR malevolo. Rinominato in .jar, il file sembrava firmato da Microsoft e Java lo eseguiva leggendolo dalla fine. Microsoft decise allora di non correggerlo; lo fece solo nell'agosto 2020 con CVE-2020-1464, quando era già sfruttato, e il caso prese il nome di GlueBall.",
+    "prayer": "O Beato GlueBall, che porti una firma onesta con un'appendice disonesta, fa' che i nostri controlli leggano i file fino all'ultimo byte. Amen.",
+    "feast": "Si festeggia con gli aggiornamenti di Windows di agosto 2020 e con Sigcheck, che avverte quando un file firmato è più lungo del dovuto.",
+    "proverb": "La firma vale per la lettera, non per il poscritto."
+  },
+  "en": {
+    "title": "Blessed GlueBall, Signed and Glued",
+    "patronage": "MSI packages, JAR archives, and digital signatures that never check the tail.",
+    "hagiography": "On 15 January 2019 Bernardo Quintero and Francisco Santos of VirusTotal described a curious trick: Windows still considered the Authenticode signature of an .msi file valid even after a malicious JAR archive had been glued onto its end. Renamed to .jar, the file looked signed by Microsoft and Java ran it, reading it from the end. Microsoft chose not to fix it at the time; it did so only in August 2020 with CVE-2020-1464, by then already exploited, and the case became known as GlueBall.",
+    "prayer": "O Blessed GlueBall, who carries an honest signature with a dishonest appendix, let our checks read files down to the last byte. Amen.",
+    "feast": "Celebrated with the August 2020 Windows updates and with Sigcheck, which warns when a signed file is longer than it should be.",
+    "proverb": "A signature vouches for the letter, not for the postscript."
+  }
+}

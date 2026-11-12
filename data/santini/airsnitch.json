@@ -1,0 +1,10 @@
+{
+  "label": "AirSnitch",
+  "motto": "PARIES AERIS CADIT",
+  "niche": [
+    "#14222e",
+    "#2c4660"
+  ],
+  "accent": "#1f3348",
+  "emblem": "<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"4\" stroke-linecap=\"round\">\n<path d=\"M112 158 A54 54 0 0 1 188 158\"/><path d=\"M124 172 A36 36 0 0 1 176 172\"/><path d=\"M136 186 A18 18 0 0 1 164 186\"/></g>\n<circle cx=\"150\" cy=\"198\" r=\"6\" fill=\"#fbf3dd\"/>\n<g fill=\"#d9ad55\"><circle cx=\"112\" cy=\"226\" r=\"9\"/><circle cx=\"188\" cy=\"226\" r=\"9\"/></g>\n<path d=\"M150 208 v36\" stroke=\"#bfc9d1\" stroke-width=\"3\" stroke-dasharray=\"5 4\"/>\n<path d=\"M120 226 C136 210 164 242 180 226\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.5\"/>"
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Thunderclap, tuono che passava dalla porta",
+    "patronage": "delle porte Thunderbolt, degli IOMMU fiduciosi e di chi collega al portatile qualunque adattatore trovi sul tavolo.",
+    "hagiography": "Al simposio NDSS del febbraio 2019 A. Theodore Markettos, Colin Rothwell, Brett F. Gutstein, Allison Pearce, Peter G. Neumann, Simon W. Moore e Robert N. M. Watson presentarono Thunderclap. Con una scheda FPGA travestita da scheda di rete Intel, collegata via Thunderbolt o PCI Express, mostrarono che l'IOMMU, la protezione che limita la memoria accessibile alle periferiche, non bastava: i sistemi operativi mettevano dati sensibili proprio nelle zone condivise con i dispositivi. Windows, macOS, Linux e FreeBSD erano tutti coinvolti, e i produttori erano stati avvisati già dal 2016.",
+    "prayer": "O Beato Thunderclap, che entri con il fragore di un fulmine travestito da cavo, fa' che i nostri sistemi chiedano i documenti a ogni periferica. Amen.",
+    "feast": "Si festeggia con macOS 10.12.4 o successivo, Windows 10 1803 o successivo con la protezione DMA attiva e Linux 5.0 o successivo, e non collegando periferiche sconosciute.",
+    "proverb": "Non ogni tuono annuncia pioggia, ma ogni porta aperta fa entrare il vento."
+  },
+  "en": {
+    "title": "Blessed Thunderclap, Thunder Through the Port",
+    "patronage": "Thunderbolt ports, trusting IOMMUs, and everyone who plugs any adapter they find on the desk into their laptop.",
+    "hagiography": "At NDSS in February 2019 A. Theodore Markettos, Colin Rothwell, Brett F. Gutstein, Allison Pearce, Peter G. Neumann, Simon W. Moore and Robert N. M. Watson presented Thunderclap. Using an FPGA board disguised as an Intel network card, plugged in over Thunderbolt or PCI Express, they showed that the IOMMU, the protection that limits which memory peripherals can reach, wasn't enough: operating systems kept sensitive data right in the regions shared with devices. Windows, macOS, Linux and FreeBSD were all affected, and vendors had been warned since 2016.",
+    "prayer": "O Blessed Thunderclap, who burst in like lightning dressed as a cable, let our systems check the papers of every peripheral. Amen.",
+    "feast": "Celebrated with macOS 10.12.4 or later, Windows 10 1803 or later with DMA protection on, and Linux 5.0 or later, and by never plugging in unknown peripherals.",
+    "proverb": "Not every thunderclap brings rain, but every open port lets in the wind."
+  }
+}

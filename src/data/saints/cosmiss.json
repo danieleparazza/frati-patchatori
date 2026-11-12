@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato CosMiss, che apriva i quaderni senza bussare",
+    "patronage": "dei notebook Jupyter nel cloud, dei database Cosmos DB e degli identificativi che nessuno aveva detto fossero segreti.",
+    "hagiography": "Nell'ottobre 2022 Roee Sagi e Lidor Ben Shitrit di Orca Security scoprirono che i Notebook di Azure Cosmos DB non controllavano l'autenticazione: chi conosceva l'identificativo di una sessione poteva leggere, cambiare e cancellare i notebook e iniettare codice, fino a ottenere una shell nel contenitore. Lo segnalarono a Microsoft il 3 ottobre, la correzione arrivò entro due giorni e il racconto fu pubblicato il 1° novembre.",
+    "prayer": "O Beato CosMiss, che entri dove manca la serratura, fa' che ogni richiesta porti con sé il suo lasciapassare. Amen.",
+    "feast": "Si festeggia non lasciando segreti e chiavi nei notebook e trattando ogni identificativo di sessione come una password.",
+    "proverb": "Porta senza chiave invita anche chi passa per caso."
+  },
+  "en": {
+    "title": "Blessed CosMiss, Who Opened Notebooks Without Knocking",
+    "patronage": "cloud Jupyter notebooks, Cosmos DB databases, and identifiers nobody said were secret.",
+    "hagiography": "In October 2022 Roee Sagi and Lidor Ben Shitrit of Orca Security found that Azure Cosmos DB Notebooks checked no authentication at all: anyone who knew a session's identifier could read, change and delete notebooks and inject code, all the way to a shell inside the container. They reported it to Microsoft on 3 October, the fix landed within two days, and the story was published on 1 November.",
+    "prayer": "O Blessed CosMiss, who walk in wherever the lock is missing, let every request carry its own pass. Amen.",
+    "feast": "Celebrated by keeping secrets and keys out of notebooks and treating every session identifier like a password.",
+    "proverb": "A door without a lock welcomes every passer-by."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'AnC, che contava i passi della MMU",
+    "patronage": "della randomizzazione degli indirizzi, delle cache dei processori e di chi credeva che JavaScript non sapesse dove abita.",
+    "hagiography": "Il 15 febbraio 2017 il gruppo VUSec della Vrije Universiteit di Amsterdam presentò AnC (ASLR⊕Cache), poi discusso al simposio NDSS 2017. Quando la MMU traduce un indirizzo percorre le tabelle delle pagine e lascia tracce nella cache: misurandole con la tecnica EVICT+TIME, una pagina web poteva scoprire dove Firefox e Chrome avevano messo codice e dati, annullando l'ASLR. Il segnale c'era su 22 microarchitetture Intel, AMD e ARM, e il prototipo ci metteva circa un minuto e mezzo. Seguirono le CVE-2017-5925, 5926 e 5927 per i tre produttori e la 5928 per i timer dei browser.",
+    "prayer": "O Sant'AnC, che segui le orme della MMU come un pellegrino il sentiero, fa' che i nostri indirizzi restino un mistero. Amen.",
+    "feast": "Si festeggia con browser che hanno timer meno precisi e allocazioni meno prevedibili; una cura completa resta affare dei progettisti di processori, che nel frattempo si godono il mistero.",
+    "proverb": "Chi conta i passi del portinaio trova la stanza del tesoro."
+  },
+  "en": {
+    "title": "Saint AnC, Who Counted the MMU's Steps",
+    "patronage": "address space randomization, processor caches, and everyone who believed JavaScript didn't know where it lived.",
+    "hagiography": "On 15 February 2017 the VUSec group at Vrije Universiteit Amsterdam unveiled AnC (ASLR⊕Cache), later presented at NDSS 2017. When the MMU translates an address it walks the page tables and leaves traces in the cache: by measuring them with the EVICT+TIME technique, a web page could learn where Firefox and Chrome had placed code and data, defeating ASLR. The signal showed up on 22 Intel, AMD and ARM microarchitectures, and the prototype needed about a minute and a half. CVE-2017-5925, 5926 and 5927 followed for the three chip makers, and 5928 for browser timers.",
+    "prayer": "O Saint AnC, who follow the MMU's footsteps like a pilgrim on the path, let our addresses remain a mystery. Amen.",
+    "feast": "Celebrated with browsers that have coarser timers and less predictable allocations; a full cure remains up to the chip designers, who meanwhile enjoy the mystery.",
+    "proverb": "Count the porter's steps and you'll find the treasure room."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San DirtyNIB, che travestiva il codice da pulsante",
+    "patronage": "delle app per macOS, dei file di interfaccia dimenticati nei pacchetti e di chi giudica un'app dalla firma.",
+    "hagiography": "Il 4 ottobre 2023 Adam Chester, noto come xpn, raccontò DirtyNIB, segnalata ad Apple già nel novembre 2021: in macOS, sostituire un file NIB, cioè un pezzo dell'interfaccia grafica, dentro un'app firmata non le faceva perdere i suoi diritti speciali una volta superato il controllo di Gatekeeper. Con un pulsante collegato a uno script AppleScript nascosto nel NIB si eseguiva codice con le autorizzazioni dell'app, come l'accesso alle foto o al microfono senza alcuna richiesta. Apple assegnò la CVE-2022-48505 e Ventura introdusse i vincoli di avvio, ma secondo xpn una variante funzionava ancora su Sonoma.",
+    "prayer": "O San DirtyNIB, che cuci il codice dentro i bottoni, fa' che le nostre app non conservino i loro privilegi quando qualcuno ne cambia l'abito. Amen.",
+    "feast": "Si festeggia aggiornando macOS e concedendo con parsimonia il permesso di modificare altre app.",
+    "proverb": "Cambia la veste, ma i privilegi restano."
+  },
+  "en": {
+    "title": "Saint DirtyNIB, Who Disguised Code as a Button",
+    "patronage": "macOS apps, interface files forgotten inside bundles, and everyone who judges an app by its signature.",
+    "hagiography": "On 4 October 2023 Adam Chester, known as xpn, described DirtyNIB, first reported to Apple in November 2021: on macOS, swapping a NIB file, a piece of the graphical interface, inside a signed app did not strip the app of its special entitlements once Gatekeeper had checked it. A button wired to an AppleScript hidden in the NIB ran code with the app's permissions, such as access to photos or the microphone without any prompt. Apple assigned CVE-2022-48505 and Ventura introduced launch constraints, yet according to xpn a variant still worked on Sonoma.",
+    "prayer": "O Saint DirtyNIB, who sew code into buttons, let our apps lose their privileges when someone changes their clothes. Amen.",
+    "feast": "Celebrated by updating macOS and granting the permission to modify other apps sparingly.",
+    "proverb": "Change the robe, keep the privileges."
+  }
+}

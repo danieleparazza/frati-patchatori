@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BadVibes, che trasmetteva onde storte",
+    "patronage": "degli annunci Bluetooth Low Energy, dei buffer da 31 byte e di chi ascolta tutto ciò che passa nell'aria.",
+    "hagiography": "Terzo dei difetti di BleedingTooth svelati da Andy Nguyen il 13 ottobre 2020, BadVibes (CVE-2020-24490) viveva nel parser degli annunci estesi Bluetooth Low Energy, arrivato con Linux 4.19: a differenza di quello classico, non controllava che i dati stessero nei 31 byte del buffer last_adv_data, e un annuncio troppo lungo traboccava nella memoria del kernel. Bastava trasmetterlo nell'aria, ma servivano un chip Bluetooth 5 e una vittima in scansione, e per arrivare all'esecuzione di codice mancava ancora una fuga di indirizzi. La correzione era entrata nel ramo principale già il 30 luglio 2020.",
+    "prayer": "O San BadVibes, che riempi l'aria di annunci troppo lunghi, insegna ai nostri parser a misurare prima di copiare. Amen.",
+    "feast": "Si festeggia con un kernel che contenga la correzione (commit a2ec905d1e16) e spegnendo la scansione Bluetooth quando non serve.",
+    "proverb": "Chi ascolta ogni annuncio, prima o poi trabocca."
+  },
+  "en": {
+    "title": "Saint BadVibes, Who Broadcast Crooked Waves",
+    "patronage": "Bluetooth Low Energy advertisements, 31-byte buffers, and everyone who listens to whatever is in the air.",
+    "hagiography": "The third of the BleedingTooth flaws revealed by Andy Nguyen on 13 October 2020, BadVibes (CVE-2020-24490) lived in the parser for Bluetooth Low Energy extended advertisements, added in Linux 4.19: unlike the legacy parser, it never checked that the data fitted the 31 bytes of the last_adv_data buffer, so an overlong advertisement spilled into kernel memory. Broadcasting it was enough, but it needed a Bluetooth 5 chip and a victim that was scanning, and code execution still required an address leak. The fix had reached mainline as early as 30 July 2020.",
+    "prayer": "O Saint BadVibes, who fills the air with overlong announcements, teach our parsers to measure before they copy. Amen.",
+    "feast": "Celebrated with a kernel that includes the fix (commit a2ec905d1e16) and by switching Bluetooth scanning off when it isn't needed.",
+    "proverb": "Listen to every broadcast and sooner or later you'll overflow."
+  }
+}

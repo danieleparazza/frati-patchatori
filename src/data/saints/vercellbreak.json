@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato VerCellBreak, che faceva uscire i segreti dalla cella",
+    "patronage": "delle sandbox per agenti, degli elenchi di domini fidati e dei messaggeri che consegnano più di quanto sappiano.",
+    "hagiography": "Il 12 ottobre 2026 Matan Elgabsi e Or Nevo di AIR Security descrissero VerCellBreak, un modo per far uscire dati da Vercel Sandbox, le microVM Firecracker che possono limitare il traffico in uscita a un elenco di domini fidati. Un agente compromesso si collegava a un dominio ammesso con TLS reciproco e presentava un certificato client preparato, il cui campo Authority Information Access puntava a un server dell'attaccante, con il segreto codificato nell'indirizzo: se il server fidato, controllando la catena, andava a scaricare quell'URL, consegnava il segreto. Vercel giudicò la segnalazione fuori dal perimetro del suo programma di bug bounty.",
+    "prayer": "O Beato VerCellBreak, che fai portare fuori i segreti da un messaggero fidato, fa' che i nostri elenchi di domini non diventino lasciapassare. Amen.",
+    "feast": "Si festeggia ricordando che ogni dominio ammesso che elabora input altrui e fa richieste in uscita è una possibile via di fuga, e non lasciando agli agenti segreti che non devono usare.",
+    "proverb": "Il messaggero fidato porta anche le lettere degli altri."
+  },
+  "en": {
+    "title": "Blessed VerCellBreak, Who Got Secrets Out of the Cell",
+    "patronage": "agent sandboxes, allowlists of trusted domains, and messengers who deliver more than they know.",
+    "hagiography": "On 12 October 2026 Matan Elgabsi and Or Nevo of AIR Security described VerCellBreak, a way to get data out of Vercel Sandbox, the Firecracker microVMs that can restrict outbound traffic to an allowlist of trusted domains. A compromised agent connected to an allowed domain over mutual TLS and presented a crafted client certificate whose Authority Information Access field pointed to an attacker's server, with the secret encoded in the address: if the trusted server fetched that URL while checking the chain, it delivered the secret. Vercel judged the report out of scope for its bug bounty program.",
+    "prayer": "O Blessed VerCellBreak, who have a trusted messenger carry secrets out, let our domain allowlists never become free passes. Amen.",
+    "feast": "Celebrated by remembering that every allowed domain that processes outside input and makes outbound requests is a possible escape route, and by not leaving agents secrets they don't need.",
+    "proverb": "A trusted messenger carries other people's letters too."
+  }
+}

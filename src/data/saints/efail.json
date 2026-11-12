@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Sant'EFAIL, che fece parlare le email cifrate",
+    "patronage": "della posta cifrata, delle immagini remote e degli allarmi più grandi del male.",
+    "hagiography": "Il 14 maggio 2018 Damian Poddebniak, Christian Dresen, Jens Müller, Fabian Ising, Sebastian Schinzel, Simon Friedberger, Juraj Somorovsky e Jörg Schwenk pubblicarono EFAIL: alterando un messaggio OpenPGP o S/MIME e circondandolo di HTML, si induceva il client di posta a decifrarlo e a spedirne il testo in chiaro all'attaccante dentro l'indirizzo di un'immagine. Trovarono canali di fuga in 25 client S/MIME su 35 e in 10 client OpenPGP su 28. Il consiglio di spegnere subito i plugin PGP fece più rumore della ricerca, tanto che il lunario lo ricorda anche tra gli antipapi.",
+    "prayer": "O Sant'EFAIL, che fai uscire il segreto dalla busta passando per un'immagine, fa' che i nostri client controllino l'integrità prima di mostrare. Amen.",
+    "feast": "Si festeggia aggiornando il client di posta, disattivando il caricamento automatico dei contenuti remoti e rifiutando i messaggi senza controllo di integrità (MDC), ma senza spegnere la cifratura.",
+    "proverb": "Busta sigillata e finestra aperta: il segreto esce lo stesso."
+  },
+  "en": {
+    "title": "Saint EFAIL, Who Made Encrypted Email Talk",
+    "patronage": "encrypted mail, remote images, and alarms louder than the harm.",
+    "hagiography": "On 14 May 2018 Damian Poddebniak, Christian Dresen, Jens Müller, Fabian Ising, Sebastian Schinzel, Simon Friedberger, Juraj Somorovsky and Jörg Schwenk published EFAIL: by tampering with an OpenPGP or S/MIME message and wrapping it in HTML, they got the mail client to decrypt it and send the plaintext to the attacker inside an image URL. They found exfiltration channels in 25 of 35 S/MIME clients and 10 of 28 OpenPGP clients. The advice to switch off PGP plugins at once made more noise than the research, so much so that the almanac also remembers it among the antipopes.",
+    "prayer": "O Saint EFAIL, who smuggle the secret out of the envelope through a picture, let our clients check integrity before they show. Amen.",
+    "feast": "Celebrated by updating the mail client, turning off automatic loading of remote content and rejecting messages without an integrity check (MDC), but never by switching encryption off.",
+    "proverb": "Seal the envelope but leave the window open, and the secret still gets out."
+  }
+}

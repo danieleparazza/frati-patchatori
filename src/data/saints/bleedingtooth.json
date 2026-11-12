@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BleedingTooth, dente che sanguina",
+    "patronage": "dello stack Bluetooth di Linux, dei portatili con l'antenna accesa e dei dentisti del kernel.",
+    "hagiography": "Il 13 ottobre 2020 Andy Nguyen di Google rese pubblico BleedingTooth, una famiglia di difetti in BlueZ, lo stack Bluetooth del kernel Linux: BadVibes, BadChoice e BadKarma. Insieme permettevano a un attaccante a breve distanza, senza autenticazione e senza alcun gesto della vittima, di eseguire codice con i privilegi del kernel. Il resoconto mostrava la catena completa: una fuga di memoria per scoprire gli indirizzi, una confusione di tipo per prendere il controllo, fino a una shell inversa. Lo stesso giorno Intel, che cura BlueZ, pubblicò l'avviso INTEL-SA-00435.",
+    "prayer": "O San BleedingTooth, che mordi senza toccare, proteggi i nostri kernel da chi parla Bluetooth con cattive intenzioni. Amen.",
+    "feast": "Si festeggia aggiornando il kernel a una versione con le correzioni (entrate nella 5.10 o nei backport delle distribuzioni) e spegnendo il Bluetooth quando non serve.",
+    "proverb": "Dente che sanguina, Bluetooth da spegnere."
+  },
+  "en": {
+    "title": "Saint BleedingTooth, the Tooth That Bleeds",
+    "patronage": "the Linux Bluetooth stack, laptops with the radio on, and kernel dentists.",
+    "hagiography": "On 13 October 2020 Andy Nguyen of Google made public BleedingTooth, a family of flaws in BlueZ, the Linux kernel's Bluetooth stack: BadVibes, BadChoice and BadKarma. Together they let an attacker within short range, unauthenticated and without any action by the victim, run code with kernel privileges. The write-up showed the whole chain: a memory leak to learn addresses, a type confusion to seize control, all the way to a reverse shell. The same day Intel, which maintains BlueZ, published advisory INTEL-SA-00435.",
+    "prayer": "O Saint BleedingTooth, who bites without touching, shield our kernels from those who speak Bluetooth with ill intent. Amen.",
+    "feast": "Celebrated by updating to a kernel with the fixes (merged for 5.10 or backported by distributions) and switching Bluetooth off when it isn't needed.",
+    "proverb": "When the tooth bleeds, switch the Bluetooth off."
+  }
+}

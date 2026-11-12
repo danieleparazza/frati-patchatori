@@ -1,0 +1,10 @@
+{
+  "label": "CallbackHell",
+  "motto": "AB INFERIS REVOCO",
+  "niche": [
+    "#2c1414",
+    "#5c2a24"
+  ],
+  "accent": "#44201c",
+  "emblem": "<path d=\"M120 214 q-10 -26 6 -44 q-2 18 10 22 q-4 -26 14 -42 q0 22 12 26 q6 -16 2 -26 q20 18 14 40 q8 -6 8 -16 q12 24 -6 40 Z\" fill=\"#e07b39\" stroke=\"#f5d77a\" stroke-width=\"2\"/>\n<path d=\"M108 150 Q108 128 128 126 L136 140 L124 148 Q130 164 146 168 L154 158 L168 168 Q166 186 146 186 Q112 182 108 150 Z\" fill=\"#fbf3dd\" stroke=\"#2b1d14\" stroke-width=\"2\" transform=\"rotate(10 140 156)\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">win32k</text>"
+}

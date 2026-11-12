@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato MeshyJSON, che contava oltre trentadue",
+    "patronage": "dei router domestici, degli array JSON senza fine e di chi si fidava dei pacchetti arrivati dalla rete di casa.",
+    "hagiography": "Il 19 dicembre 2022 McCaulay Hudson di NCC Group raccontò MeshyJSON, trovato nel TP-Link Archer AX21 in vista di Pwn2Own Toronto 2022. Il servizio tdpServer, in ascolto sulla porta UDP 20002 della rete locale, copiava l'array JSON onemesh_support_version in uno spazio sullo stack pensato per 32 elementi senza controllarne la lunghezza: bastava mandarne di più per sovrascrivere lo stack ed eseguire comandi sul router. TP-Link pubblicò il firmware correttivo pochi giorni prima della gara, e il bug non fu più ammesso.",
+    "prayer": "O Beato MeshyJSON, che riempi la cesta oltre l'orlo, insegna ai nostri parser a contare prima di copiare. Amen.",
+    "feast": "Si festeggia aggiornando l'Archer AX21 al firmware 1.1.3 o successivo e lasciando fuori dalla rete di casa chi non è invitato.",
+    "proverb": "Chi copia senza contare, trova lo stack da rifare."
+  },
+  "en": {
+    "title": "Blessed MeshyJSON, Who Counted Past Thirty-Two",
+    "patronage": "home routers, endless JSON arrays, and everyone who trusted packets from the home network.",
+    "hagiography": "On 19 December 2022 McCaulay Hudson of NCC Group wrote up MeshyJSON, found in the TP-Link Archer AX21 ahead of Pwn2Own Toronto 2022. The tdpServer service, listening on UDP port 20002 on the local network, copied the JSON array onemesh_support_version into stack space meant for 32 entries without checking its length: sending more overwrote the stack and ran commands on the router. TP-Link shipped fixed firmware a few days before the contest, and the bug no longer qualified.",
+    "prayer": "O Blessed MeshyJSON, who fill the basket past the brim, teach our parsers to count before they copy. Amen.",
+    "feast": "Celebrated by updating the Archer AX21 to firmware 1.1.3 or later and keeping uninvited guests off the home network.",
+    "proverb": "Copy without counting, and the stack comes tumbling."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Plex2Shell, che dal film tirava fuori la shell",
+    "patronage": "delle videoteche di casa, dei server multimediali esposti su Internet e di chi voleva solo guardarsi un film.",
+    "hagiography": "Il 16 ottobre 2026 ZM pubblicò Plex2Shell, una catena di difetti di Plex Media Server segnalata a Plex a fine luglio e diventata quattro CVE. L'endpoint /player/timeline controllava solo che un X-Plex-Token ci fosse, non che fosse valido: da lì una richiesta forgiata raggiungeva i servizi interni, si faceva consegnare il token del proprietario, cambiava le impostazioni del transcoder e faceva caricare una libreria piantata tra i codec. Il giorno dopo gli honeypot vedevano già installare cryptominer, e il 20 ottobre la CISA mise tutte e quattro le CVE nel catalogo KEV.",
+    "prayer": "O San Plex2Shell, che da un film in streaming fai uscire una shell, fa' che i nostri token vengano verificati e non solo notati. Amen.",
+    "feast": "Si festeggia aggiornando Plex Media Server alla 1.43.3.10861 o successiva, non esponendolo su Internet se non serve e cercando miner e proxy rimasti in casa dopo la proiezione.",
+    "proverb": "Chi apre la videoteca al mondo si ritrova un minatore in salotto."
+  },
+  "en": {
+    "title": "Saint Plex2Shell, Who Pulled a Shell Out of the Movie",
+    "patronage": "home media libraries, internet-facing media servers, and everyone who just wanted to watch a film.",
+    "hagiography": "On 16 October 2026 ZM published Plex2Shell, a chain of Plex Media Server flaws reported to Plex in late July that ended up as four CVEs. The /player/timeline endpoint only checked that an X-Plex-Token was present, not that it was valid: from there a forged request reached internal services, coaxed out the owner's token, changed the transcoder settings and got a planted library loaded among the codecs. By the next day honeypots were already seeing cryptominers installed, and on 20 October CISA added all four CVEs to the KEV catalog.",
+    "prayer": "O Saint Plex2Shell, who conjure a shell out of a streaming film, let our tokens be verified and not merely noticed. Amen.",
+    "feast": "Celebrated by updating Plex Media Server to 1.43.3.10861 or later, keeping it off the internet unless needed, and hunting for miners and proxies left behind after the screening.",
+    "proverb": "Open your film library to the world and you'll find a miner on the sofa."
+  }
+}

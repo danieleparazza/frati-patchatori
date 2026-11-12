@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San GatewayToHeaven, che apre le porte del cielo altrui",
+    "patronage": "dei gateway API, dei servizi cloud condivisi e di chi pensava che il cliente accanto fosse un estraneo.",
+    "hagiography": "Il 28 gennaio 2026 Omer Amiad raccontò GatewayToHeaven (CVE-2025-13292), una catena di passaggi in Apigee, il gestore di API di Google Cloud. Un proxy puntato verso il servizio di metadati, senza l'intestazione che faceva scattare la difesa anti-SSRF, consegnava il token di un account di servizio; da lì, alterando i pacchetti che i lavoratori di Dataflow scaricano all'avvio, si arrivava ai dati di analisi e ai log di accesso di altri clienti, in lettura e in scrittura. Google ha corretto il problema e ricompensato la scoperta.",
+    "prayer": "O San GatewayToHeaven, che sali da un proxy fino alle nuvole del vicino, fa' che ogni cielo abbia le sue mura. Amen.",
+    "feast": "Si festeggia ricordando che Google ha corretto Apigee-X nella versione 1-16-0-apigee-3, senza azioni richieste ai clienti: in paradiso si entra uno alla volta.",
+    "proverb": "Chi sale per la porta di servizio arriva nel cielo di un altro."
+  },
+  "en": {
+    "title": "Saint GatewayToHeaven, Who Opens Other People's Heavens",
+    "patronage": "API gateways, shared cloud services, and everyone who assumed the customer next door was a stranger.",
+    "hagiography": "On 28 January 2026 Omer Amiad told the story of GatewayToHeaven (CVE-2025-13292), a chain of steps through Apigee, Google Cloud's API management service. A proxy aimed at the metadata service, without the header that triggered the SSRF defence, handed over a service-account token; from there, tampering with the packages Dataflow workers download at startup led to other customers' analytics data and access logs, with read and write access. Google fixed the issue and rewarded the find.",
+    "prayer": "O Saint GatewayToHeaven, who climb from a proxy up to your neighbour's clouds, let every heaven have its own walls. Amen.",
+    "feast": "Celebrated by remembering that Google fixed Apigee-X in version 1-16-0-apigee-3, with no customer action required: heaven lets people in one at a time.",
+    "proverb": "Take the service entrance and you end up in someone else's heaven."
+  }
+}

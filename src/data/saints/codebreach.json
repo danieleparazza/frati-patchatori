@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato CodeBreach, che passava tra le ancore",
+    "patronage": "di AWS CodeBuild, delle espressioni regolari senza ^ e $ e dei numeri utente che ne contengono altri.",
+    "hagiography": "Il 15 gennaio 2026 Wiz Research raccontò CodeBreach: alcuni progetti AWS su GitHub, tra cui l'SDK per JavaScript, decidevano chi potesse avviare build privilegiate in CodeBuild con un'espressione regolare di ID utente non ancorata. Poiché gli ID di GitHub crescono in sequenza, un account nuovo il cui ID conteneva quello di un manutentore passava il filtro: i ricercatori lo ottennero registrando bot al momento giusto e presero dalla memoria della build un token con poteri di amministratore sul repository. Nell'agosto 2025 AWS ancorò i filtri e revocò il token in due giorni, senza trovare altri abusi.",
+    "prayer": "O Beato CodeBreach, che entri dalla porta lasciata socchiusa da un'espressione regolare, fa' che i nostri filtri sappiano dove cominciano e dove finiscono. Amen.",
+    "feast": "Si festeggia ancorando ogni regex con ^ e $, non lasciando che le pull request esterne avviino build con segreti e dando ai token solo i poteri che servono.",
+    "proverb": "Regex senza ancora, nave alla deriva."
+  },
+  "en": {
+    "title": "Blessed CodeBreach, Who Slipped Between the Anchors",
+    "patronage": "AWS CodeBuild, regular expressions without ^ and $, and user IDs that contain other user IDs.",
+    "hagiography": "On 15 January 2026 Wiz Research described CodeBreach: some AWS projects on GitHub, including the JavaScript SDK, decided who could start privileged CodeBuild builds with an unanchored regular expression of user IDs. Since GitHub IDs grow in sequence, a new account whose ID contained a maintainer's passed the filter: the researchers got one by registering bots at the right moment and pulled from the build's memory a token with admin rights over the repository. In August 2025 AWS anchored the filters and revoked the token within two days, finding no other abuse.",
+    "prayer": "O Blessed CodeBreach, who comes in through the door a regular expression left ajar, let our filters know where they begin and where they end. Amen.",
+    "feast": "Celebrated by anchoring every regex with ^ and $, not letting outside pull requests start builds that hold secrets, and giving tokens only the powers they need.",
+    "proverb": "An unanchored regex drifts wherever it's pushed."
+  }
+}

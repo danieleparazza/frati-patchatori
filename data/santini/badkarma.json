@@ -1,0 +1,10 @@
+{
+  "label": "BadKarma",
+  "motto": "NON OMNIS SOCK SOCKET",
+  "niche": [
+    "#1e2236",
+    "#3f4670"
+  ],
+  "accent": "#2c3150",
+  "emblem": "<circle cx=\"150\" cy=\"178\" r=\"48\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\"/>\n<circle cx=\"150\" cy=\"178\" r=\"10\" fill=\"#d9ad55\"/>\n<g stroke=\"#d9ad55\" stroke-width=\"3\"><path d=\"M150 130 v96 M102 178 h96 M116 144 l68 68 M184 144 l-68 68\"/></g>\n<g fill=\"#fbf3dd\"><circle cx=\"150\" cy=\"128\" r=\"5\"/><circle cx=\"150\" cy=\"228\" r=\"5\"/><circle cx=\"100\" cy=\"178\" r=\"5\"/><circle cx=\"200\" cy=\"178\" r=\"5\"/></g>\n<text x=\"150\" y=\"250\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">sock?</text>"
+}

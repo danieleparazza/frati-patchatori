@@ -1,0 +1,10 @@
+{
+  "label": "KindleDrip",
+  "motto": "LIBER QUI STILLAT",
+  "niche": [
+    "#1c2226",
+    "#3c4a52"
+  ],
+  "accent": "#2a363d",
+  "emblem": "<rect x=\"120\" y=\"122\" width=\"60\" height=\"92\" rx=\"6\" fill=\"#2b3338\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<rect x=\"128\" y=\"130\" width=\"44\" height=\"66\" fill=\"#e9e2cf\"/>\n<path d=\"M134 140 h32 M134 148 h32 M134 156 h26 M134 164 h32 M134 172 h20\" stroke=\"#7a6656\" stroke-width=\"2\"/>\n<path d=\"M150 182 q-6 8 0 12 q6 -4 0 -12z\" fill=\"#b03a2e\"/>\n<g fill=\"#d9ad55\"><path d=\"M150 220 q-6 10 0 14 q6 -4 0 -14z\"/><path d=\"M150 238 q-4 7 0 10 q4 -3 0 -10z\"/></g>\n<rect x=\"142\" y=\"203\" width=\"16\" height=\"4\" rx=\"2\" fill=\"#bfc9d1\"/>"
+}

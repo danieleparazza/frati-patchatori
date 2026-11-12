@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San GitBleed, che sanguinava dai rami cancellati",
+    "patronage": "dei repository Git, degli scanner di segreti e di chi crede che cancellare un ramo voglia dire dimenticarlo.",
+    "hagiography": "L'11 febbraio 2022 Nightwatch Cybersecurity battezzò GitBleed: un normale git clone non scarica i rami cancellati né i commit rimasti senza riferimenti, mentre una copia fatta con --mirror li porta con sé. Così una password \"tolta\" eliminando un ramo o riscrivendo la storia restava sul server, e gli scanner di segreti lanciati sui cloni ordinari non la vedevano. Il MITRE assegnò CVE-2022-24975 alla documentazione di Git fino alla 2.35.1, ma il numero è contestato: per molti è il comportamento previsto di Git, non un difetto.",
+    "prayer": "O San GitBleed, che conservi ciò che credevamo sepolto, fa' che i nostri segreti non sopravvivano ai nostri rami. Amen.",
+    "feast": "Si festeggia analizzando i repository con --mirror, ripulendo la storia con git-filter-repo o BFG e, soprattutto, cambiando subito il segreto finito nel commit.",
+    "proverb": "Ramo tagliato non è radice estirpata."
+  },
+  "en": {
+    "title": "Saint GitBleed, Who Bled From Deleted Branches",
+    "patronage": "Git repositories, secret scanners, and everyone who thinks deleting a branch means forgetting it.",
+    "hagiography": "On 11 February 2022 Nightwatch Cybersecurity named GitBleed: a plain git clone skips deleted branches and unreferenced commits, while a --mirror copy brings them along. So a password \"removed\" by deleting a branch or rewriting history stayed on the server, and secret scanners run on ordinary clones never saw it. MITRE assigned CVE-2022-24975 to Git's documentation up to 2.35.1, but the entry is disputed: many consider it Git working as intended rather than a flaw.",
+    "prayer": "O Saint GitBleed, who keep what we believed buried, let our secrets not outlive our branches. Amen.",
+    "feast": "Celebrated by scanning repositories with --mirror, cleaning history with git-filter-repo or BFG and, above all, rotating any secret that ever made it into a commit.",
+    "proverb": "A pruned branch is not an uprooted tree."
+  }
+}

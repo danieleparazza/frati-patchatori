@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato MavenGate, che comprava i domini scaduti",
+    "patronage": "delle librerie Java e Android abbandonate, dei domini lasciati scadere e dei groupId rimasti senza padrone.",
+    "hagiography": "Nel gennaio 2024 Oversecured descrisse MavenGate, un metodo di attacco alla catena di fornitura del software: nei repository Maven il diritto di pubblicare sotto un groupId come com.esempio si dimostra controllando il dominio corrispondente, così chi ricompra il dominio scaduto di una libreria abbandonata può rivendicarne il nome e pubblicare nuove versioni. Secondo i ricercatori, su 33.938 domini analizzati 6.170, circa il 18 per cento, erano esposti.",
+    "prayer": "O Beato MavenGate, che entri dai domini lasciati scadere, fa' che le nostre dipendenze abbiano ancora un padrone. Amen.",
+    "feast": "Si festeggia fissando le versioni e verificando firme e somme delle dipendenze, e rinnovando il dominio anche delle librerie che non si curano più.",
+    "proverb": "Dominio scaduto, nome venduto."
+  },
+  "en": {
+    "title": "Blessed MavenGate, Who Bought Expired Domains",
+    "patronage": "abandoned Java and Android libraries, lapsed domains, and groupIds left without an owner.",
+    "hagiography": "In January 2024 Oversecured described MavenGate, a software supply-chain attack method: in Maven repositories the right to publish under a groupId such as com.example is proven by controlling the matching domain, so whoever buys back the expired domain of an abandoned library can claim its name and publish new versions. According to the researchers, 6,170 of the 33,938 domains they analysed, about 18 per cent, were exposed.",
+    "prayer": "O Blessed MavenGate, who enters through domains left to lapse, let our dependencies still have an owner. Amen.",
+    "feast": "Celebrated by pinning versions, verifying dependency signatures and checksums, and renewing the domain even of libraries nobody maintains any more.",
+    "proverb": "Let the domain lapse and the name changes hands."
+  }
+}

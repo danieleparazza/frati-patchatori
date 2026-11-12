@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Gateway2Hell, custode del cancello che scendeva",
+    "patronage": "dei client VPN, dei servizi con troppi privilegi e dei portatili aziendali.",
+    "hagiography": "Nell'ottobre 2020 Chen Erlich di Cymptom pubblicò Gateway2Hell, una serie di difetti di escalation dei privilegi nel Citrix Gateway Plug-in per Windows, il client che collega i computer degli utenti alla VPN aziendale. I servizi del plug-in, che lavorano con privilegi elevati, gestivano male i permessi, così un utente locale qualunque poteva diventare SYSTEM sulla propria macchina. Citrix li corresse il 13 ottobre 2020 con il bollettino CTX282684, assegnando CVE-2020-8257 e CVE-2020-8258.",
+    "prayer": "O San Gateway2Hell, custode del cancello che scende invece di salire, fa' che i nostri servizi diano a ciascuno solo i privilegi che gli servono. Amen.",
+    "feast": "Si festeggia aggiornando il plug-in alla 13.0-64.35 o alla 12.1-59.16, perché il cancello della VPN non diventi la porta degli inferi del portatile.",
+    "proverb": "La porta dell'ufficio non deve aprire la cantina."
+  },
+  "en": {
+    "title": "Saint Gateway2Hell, Keeper of the Downward Gate",
+    "patronage": "VPN clients, over-privileged services, and company laptops.",
+    "hagiography": "In October 2020 Chen Erlich of Cymptom published Gateway2Hell, a set of privilege escalation flaws in the Citrix Gateway Plug-in for Windows, the client that connects users' computers to the corporate VPN. The plug-in's services, which run with elevated privileges, mishandled permissions, so any local user could become SYSTEM on their own machine. Citrix fixed them on 13 October 2020 in bulletin CTX282684, assigning CVE-2020-8257 and CVE-2020-8258.",
+    "prayer": "O Saint Gateway2Hell, keeper of the gate that leads down instead of up, let our services give everyone only the privileges they need. Amen.",
+    "feast": "Celebrated by updating the plug-in to 13.0-64.35 or 12.1-59.16, so the VPN gateway doesn't become the laptop's gate to the underworld.",
+    "proverb": "The door to the office shouldn't open the cellar."
+  }
+}

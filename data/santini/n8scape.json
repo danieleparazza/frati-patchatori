@@ -1,0 +1,10 @@
+{
+  "label": "N8Scape",
+  "motto": "SERPENS EX ARENA",
+  "niche": [
+    "#1d1a12",
+    "#45402a"
+  ],
+  "accent": "#3c3620",
+  "emblem": "<path d=\"M104 210 h92 v26 h-92 z\" fill=\"#d9c08a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M110 210 q20 -8 40 0 q20 -8 40 0\" fill=\"none\" stroke=\"#b8892b\" stroke-width=\"1.5\"/>\n<path d=\"M136 214 q-14 -30 10 -40 q24 -10 14 -32 q-6 -14 14 -16\" fill=\"none\" stroke=\"#a9c49a\" stroke-width=\"9\" stroke-linecap=\"round\"/>\n<circle cx=\"176\" cy=\"126\" r=\"7\" fill=\"#a9c49a\"/><circle cx=\"178\" cy=\"124\" r=\"1.6\" fill=\"#1d1a12\"/>\n<path d=\"M183 127 l8 2 M191 129 l3 -3 M191 129 l3 3\" stroke=\"#e05a4f\" stroke-width=\"1.5\"/>"
+}

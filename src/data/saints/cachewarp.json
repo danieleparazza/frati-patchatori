@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San CacheWarp, che riavvolgeva la memoria",
+    "patronage": "delle macchine virtuali confidenziali, delle righe di cache dimenticate e degli hypervisor che giocano sporco.",
+    "hagiography": "Il 14 novembre 2023 ricercatori del CISPA e della TU Graz presentarono CacheWarp (CVE-2023-20592), un attacco alle macchine virtuali protette da AMD SEV-ES e SEV-SNP. Un hypervisor malevolo, sfruttando il comportamento dell'istruzione INVD, poteva far scartare le righe di cache modificate dall'ospite, riportando certi dati al loro valore precedente. Bastava far tornare indietro una variabile di autenticazione o un indirizzo di ritorno per prendersi la macchina \"confidenziale\" dall'interno; il lavoro fu poi pubblicato a USENIX Security 2024.",
+    "prayer": "O San CacheWarp, che fai dimenticare alla cache ciò che aveva appena imparato, fa' che le nostre scritture arrivino davvero in memoria. Amen.",
+    "feast": "Si festeggia applicando l'aggiornamento del microcode indicato da AMD nel bollettino AMD-SB-3005 e ricordando che anche la memoria ha i suoi ripensamenti.",
+    "proverb": "Scrivere non basta: bisogna che la cache se lo ricordi."
+  },
+  "en": {
+    "title": "Saint CacheWarp, Who Rewound Memory",
+    "patronage": "confidential virtual machines, forgotten cache lines, and hypervisors that play dirty.",
+    "hagiography": "On 14 November 2023 researchers from CISPA and Graz University of Technology unveiled CacheWarp (CVE-2023-20592), an attack on virtual machines protected by AMD SEV-ES and SEV-SNP. Abusing the behaviour of the INVD instruction, a malicious hypervisor could make the CPU discard cache lines the guest had modified, reverting some data to its previous value. Rolling back an authentication variable or a return address was enough to take over the \"confidential\" machine from inside; the work later appeared at USENIX Security 2024.",
+    "prayer": "O Saint CacheWarp, who make the cache forget what it just learned, let our writes truly reach memory. Amen.",
+    "feast": "Celebrated by applying the microcode update described in AMD bulletin AMD-SB-3005 and remembering that even memory has second thoughts.",
+    "proverb": "Writing isn't enough: the cache has to remember it."
+  }
+}

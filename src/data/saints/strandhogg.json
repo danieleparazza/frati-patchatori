@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato StrandHogg, razziatore vichingo delle app",
+    "patronage": "del multitasking di Android, delle schermate di login e di chi tocca l'icona della banca senza guardare chi risponde.",
+    "hagiography": "Il 3 dicembre 2019 John Høegh-Omdal, Caner Kaya e Markus Ottensmann di Promon descrissero StrandHogg, che prende il nome da una tattica di razzia vichinga. Un'app malevola, impostando il taskAffinity di una sua attività sul nome di un'app legittima, si infilava nel suo \"task\": l'utente apriva la banca dal launcher e gli compariva una schermata falsa che chiedeva credenziali o permessi. Funzionava fino ad Android 10 senza root, e Lookout trovò 36 app malevole che lo sfruttavano, alcune varianti del trojan bancario BankBot.",
+    "prayer": "O Beato StrandHogg, che sbarchi in silenzio nel task altrui, fa' che le nostre app riconoscano gli ospiti che non hanno invitato. Amen.",
+    "feast": "Si festeggia come Google, che rimosse le app malevole: aggiornando Android, installando app solo da fonti affidabili e sospettando di ogni richiesta di password o permessi che spunta all'improvviso.",
+    "proverb": "Il vichingo non bussa: si siede alla tua tavola."
+  },
+  "en": {
+    "title": "Blessed StrandHogg, Viking Raider of Apps",
+    "patronage": "Android multitasking, login screens, and everyone who taps the bank icon without checking who answers.",
+    "hagiography": "On 3 December 2019 John Høegh-Omdal, Caner Kaya and Markus Ottensmann of Promon described StrandHogg, named after a Viking raiding tactic. A malicious app, setting one activity's taskAffinity to a legitimate app's name, slipped into that app's \"task\": the user opened their bank from the launcher and got a fake screen asking for credentials or permissions. It worked up to Android 10 without root, and Lookout found 36 malicious apps exploiting it, some of them variants of the BankBot banking trojan.",
+    "prayer": "O Blessed StrandHogg, who land quietly in someone else's task, let our apps recognise the guests they never invited. Amen.",
+    "feast": "Celebrated like Google, which removed the malicious apps: by updating Android, installing apps only from trusted sources and distrusting any password or permission prompt that pops up out of nowhere.",
+    "proverb": "The Viking doesn't knock: he just sits down at your table."
+  }
+}

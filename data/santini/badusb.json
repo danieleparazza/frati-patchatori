@@ -1,0 +1,10 @@
+{
+  "label": "BadUSB",
+  "motto": "CLAVIS ET CLAVIATURA",
+  "niche": [
+    "#26201c",
+    "#4e4238"
+  ],
+  "accent": "#382f28",
+  "emblem": "<rect x=\"128\" y=\"150\" width=\"44\" height=\"74\" rx=\"6\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"136\" y=\"126\" width=\"28\" height=\"24\" fill=\"#382f28\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"142\" y=\"132\" width=\"5\" height=\"5\" fill=\"#fbf3dd\"/><rect x=\"153\" y=\"132\" width=\"5\" height=\"5\" fill=\"#fbf3dd\"/>\n<g fill=\"#382f28\"><rect x=\"136\" y=\"186\" width=\"9\" height=\"9\"/><rect x=\"148\" y=\"186\" width=\"9\" height=\"9\"/><rect x=\"160\" y=\"186\" width=\"9\" height=\"9\" fill=\"#8b2d1e\"/><rect x=\"136\" y=\"198\" width=\"33\" height=\"8\"/></g>\n<path d=\"M128 160 l-12 -22 l14 8 M172 160 l12 -22 l-14 8\" fill=\"#d9ad55\" stroke=\"#d9ad55\" stroke-width=\"2\" stroke-linejoin=\"round\"/>\n<text x=\"150\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">Phison</text>"
+}

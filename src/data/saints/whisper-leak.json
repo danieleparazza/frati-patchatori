@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Whisper Leak, che ascoltava i sussurri cifrati",
+    "patronage": "dei chatbot in streaming, dei pacchetti TLS e di chi parla di cose delicate sul Wi-Fi del bar.",
+    "hagiography": "Il 7 novembre 2025 Jonathan Bar Or e Geoff McDonald del Microsoft Defender Security Research Team descrissero Whisper Leak: chi osserva il traffico, senza decifrare nulla, può dedurre dall'andamento di dimensioni e tempi dei pacchetti se una conversazione con un modello linguistico in streaming riguarda un certo argomento. Nei test molti modelli superavano il 98% di accuratezza. OpenAI, Microsoft Azure e Mistral aggiunsero testo casuale di lunghezza variabile alle risposte, e anche xAI introdusse delle protezioni.",
+    "prayer": "O Beato Whisper Leak, che leggi il ritmo delle nostre parole senza sentirle, fa' che i nostri flussi abbiano sempre un po' di rumore. Amen.",
+    "feast": "Si festeggia usando fornitori che hanno applicato le mitigazioni, una VPN sulle reti non fidate o le risposte non in streaming.",
+    "proverb": "Anche il silenzio ha una sua lunghezza."
+  },
+  "en": {
+    "title": "Blessed Whisper Leak, Who Heard Encrypted Whispers",
+    "patronage": "streaming chatbots, TLS packets, and anyone discussing delicate matters on café Wi-Fi.",
+    "hagiography": "On 7 November 2025 Jonathan Bar Or and Geoff McDonald of the Microsoft Defender Security Research Team described Whisper Leak: someone watching the traffic, without decrypting anything, can infer from the pattern of packet sizes and timings whether a conversation with a streaming language model is about a given topic. In tests many models exceeded 98% accuracy. OpenAI, Microsoft Azure and Mistral added random text of variable length to responses, and xAI rolled out protections too.",
+    "prayer": "O Blessed Whisper Leak, who read the rhythm of our words without hearing them, let our streams always carry a little noise. Amen.",
+    "feast": "Celebrated by choosing providers that have shipped the mitigations, using a VPN on untrusted networks, or turning off streaming.",
+    "proverb": "Even silence has a length."
+  }
+}

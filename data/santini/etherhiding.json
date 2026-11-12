@@ -1,0 +1,10 @@
+{
+  "label": "EtherHiding",
+  "motto": "IN CATENA LATET VENENUM",
+  "niche": [
+    "#1e1a32",
+    "#3e3666"
+  ],
+  "accent": "#2c2648",
+  "emblem": "<g fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"5\"><rect x=\"100\" y=\"128\" width=\"40\" height=\"26\" rx=\"12\"/><rect x=\"128\" y=\"150\" width=\"40\" height=\"26\" rx=\"12\"/><rect x=\"156\" y=\"172\" width=\"40\" height=\"26\" rx=\"12\"/></g>\n<path d=\"M126 196 h48 l-6 54 h-36 Z\" fill=\"#4e7a52\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<rect x=\"138\" y=\"188\" width=\"24\" height=\"10\" rx=\"2\" fill=\"#fbf3dd\"/>\n<text x=\"150\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">{ }</text>\n<g fill=\"#d9ad55\"><circle cx=\"110\" cy=\"214\" r=\"3\"/><circle cx=\"100\" cy=\"230\" r=\"2\"/><circle cx=\"196\" cy=\"220\" r=\"2.5\"/></g>"
+}

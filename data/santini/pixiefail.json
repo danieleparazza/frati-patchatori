@@ -1,0 +1,10 @@
+{
+  "label": "PixieFAIL",
+  "motto": "SPIRITUS ANTE SYSTEMA",
+  "niche": [
+    "#14202a",
+    "#2a4a5a"
+  ],
+  "accent": "#1f3e4e",
+  "emblem": "<g fill=\"#bfc9d1\" fill-opacity=\"0.85\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"><ellipse cx=\"128\" cy=\"160\" rx=\"22\" ry=\"12\" transform=\"rotate(-30 128 160)\"/><ellipse cx=\"172\" cy=\"160\" rx=\"22\" ry=\"12\" transform=\"rotate(30 172 160)\"/><ellipse cx=\"132\" cy=\"188\" rx=\"14\" ry=\"8\" transform=\"rotate(25 132 188)\"/><ellipse cx=\"168\" cy=\"188\" rx=\"14\" ry=\"8\" transform=\"rotate(-25 168 188)\"/></g>\n<rect x=\"140\" y=\"156\" width=\"20\" height=\"44\" rx=\"8\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"1.5\"/>\n<circle cx=\"150\" cy=\"146\" r=\"9\" fill=\"#fbf3dd\"/>\n<path d=\"M160 204 l26 -6\" stroke=\"#fbf3dd\" stroke-width=\"2\"/><path d=\"M190 186 l3 7 l7 1 l-5 5 l1 7 l-6 -3 l-6 3 l1 -7 l-5 -5 l7 -1 z\" fill=\"#d9ad55\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">PXE · IPv6</text>"
+}

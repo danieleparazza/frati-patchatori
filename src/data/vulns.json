@@ -239,7 +239,7 @@
    "https://devco.re/blog/2025/01/09/worstfit-unveiling-hidden-transformers-in-windows-ansi/"
   ],
   "logo": "worstfit.png",
-  "author": "Orange Tsai",
+  "author": "Orange Tsai, splitline (DEVCORE)",
   "fame": 11.05,
   "source": "vulnerability-garden"
  },
@@ -481,7 +481,7 @@
    "https://www.tenable.com/blog/brotli2shell-frequently-asked-questions-for-google-brotli-decoder-cve-2026-111497"
   ],
   "logo": "broccoli.png",
-  "author": "Juliano Rizzo",
+  "author": "Khai Tran and Sylvie Mayer (OpenAI Codex Security)",
   "fame": 10.5,
   "source": "vulnerability-garden"
  },
@@ -1470,7 +1470,7 @@
    "https://infosec.exchange/@decoder_it/109666505075878921"
   ],
   "logo": "blamepotato.jpg",
-  "author": "@decoder_it & @splinter_code",
+  "author": "Andrea Pierini, Antonio Cocomazzi",
   "fame": 7.15,
   "source": "vulnerability-garden"
  },
@@ -1653,7 +1653,7 @@
   "canonical": "https://cyata.ai/blog/langgrinch-langchain-core-cve-2025-68664/",
   "links": [],
   "logo": "langgrinch.png",
-  "author": "Cyata",
+  "author": "Yarden Porat (Cyata)",
   "fame": 7.05,
   "source": "vulnerability-garden"
  },
@@ -1949,8 +1949,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "Google",
-  "product": "Brotli",
+  "vendor": "OpenJS Foundation",
+  "product": "Node.js (bundled Brotli)",
   "description": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n\n\n\n\n\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.",
   "canonical": "https://www.imperva.com/blog/node2shell-from-brotli-data-to-remote-code-execution/",
   "links": [
@@ -1958,7 +1958,7 @@
    "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
   ],
   "logo": null,
-  "author": "Matteo Collina",
+  "author": "Khai Tran and Sylvie Mayer (OpenAI Codex Security); exploitation by Ron Masas (Imperva)",
   "fame": 7,
   "source": "vulnerability-garden"
  },
@@ -3083,8 +3083,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "Oracle Corporation",
-  "product": "Java",
+  "vendor": "Multiple",
+  "product": "ECDSA implementations (smart cards, libgcrypt, wolfSSL, Java…)",
   "description": "Smart cards from the Athena SCS manufacturer, based on the Atmel Toolbox 00.03.11.05 and the AT90SC chip, contain a timing side channel in ECDSA signature generation. This allows a local attacker, able to measure the duration of hundreds to thousands of signing operations, to compute the private key used. The issue occurs because the Atmel Toolbox 00.03.11.05 contains two versions of ECDSA signature functions, described as fast and secure, but the affected cards chose to use the fast version, which leaks the bit length of the random nonce via timing. This affects Athena IDProtect 010b.0352.0005, Athena IDProtect 010e.1245.0002, Athena IDProtect 0106.0130.0401, Athena IDProtect 010e.1245.0002, Valid S/A IDflex V 010b.0352.0005, SafeNet eToken 4300 010e.1245.0002, TecSec Armored Card 010e.0264.0001, and TecSec Armored Card 108.0264.0001.",
   "canonical": "https://minerva.crocs.fi.muni.cz/",
   "links": [],
@@ -4894,10 +4894,10 @@
   "ransomware": false,
   "born": 1995,
   "absurd": false,
-  "vendor": "Intel Corporation",
+  "vendor": "Intel, AMD, Arm",
   "product": "Microprocessors with Speculative Execution",
   "description": "Systems with microprocessors utilizing speculative execution and indirect branch prediction may allow unauthorized disclosure of information to an attacker with local user access via a side-channel analysis.",
-  "canonical": "https://meltdownattack.com",
+  "canonical": "https://spectreattack.com",
   "links": [
    "https://architecture.fail/"
   ],
@@ -5087,7 +5087,7 @@
    "https://blog.cloudflare.com/cloudflare-response-to-cpdos-exploits/"
   ],
   "logo": "cpdos.png",
-  "author": "Hoai Viet Nguyen, Luigi Lo Iacono",
+  "author": "Hoai Viet Nguyen, Luigi Lo Iacono, Hannes Federrath",
   "fame": 5.85,
   "source": "vulnerability-garden"
  },
@@ -5717,8 +5717,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "BitcoinJS",
+  "product": "BitcoinJS (JSBN SecureRandom), browser wallets 2011–2015",
   "description": null,
   "canonical": "https://www.randstorm.com/",
   "links": [
@@ -5777,7 +5777,7 @@
   "born": null,
   "absurd": false,
   "vendor": "Apple",
-  "product": "Safari (v and )",
+  "product": "WebKit (Safari, iOS, macOS)",
   "description": "A use after free issue was addressed with improved memory management. This issue is fixed in macOS Monterey 12.2.1, iOS 15.3.1 and iPadOS 15.3.1, Safari 15.3 (v. 16612.4.9.1.8 and 15612.4.9.1.8). Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited..",
   "canonical": "https://x.com/CelesteBlue123/status/1731446753017074004",
   "links": [
@@ -5829,8 +5829,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "AllegroSoft",
+  "product": "RomPager",
   "description": "AllegroSoft RomPager 4.34 and earlier, as used in Huawei Home Gateway products and other vendors and products, allows remote attackers to gain privileges via a crafted cookie that triggers memory corruption, aka the \"Misfortune Cookie\" vulnerability.",
   "canonical": "https://sc1.checkpoint.com/misfortune-cookie/index.html",
   "links": [],
@@ -6171,32 +6171,6 @@
   "source": "vulnerability-garden"
  },
  {
-  "id": "tailworm",
-  "name": "Tailworm",
-  "date": "2026-10-24",
-  "day": "10-24",
-  "category": "santo",
-  "cves": [
-   "CVE-2025-14282"
-  ],
-  "cvss": 5.4,
-  "kev": false,
-  "ransomware": false,
-  "born": null,
-  "absurd": false,
-  "vendor": "https://github.com/mkj/dropbear/",
-  "product": "dropbear",
-  "description": "A flaw was found in Dropbear. When running in multi-user mode and authenticating users, the dropbear ssh server does the socket forwardings requested by the remote client as root,\nonly switching to the logged-in user upon spawning a shell or performing\nsome operations like reading the user's files.\nWith the recent ability of also using unix domain sockets as the forwarding destination any user able to log in via ssh can connect to any unix socket with the root's credentials, bypassing both file system restrictions and any SO_PEERCRED / SO_PASSCRED checks performed by the peer.",
-  "canonical": "https://tailworm.com",
-  "links": [
-   "https://www.reddit.com/r/Tailscale/comments/1xeoj1l/recent_tailscale_vulnerability_reports/"
-  ],
-  "logo": "tailworm.png",
-  "author": "Erica Windisch (Cyberdione Labs Corporation)",
-  "fame": 5.5,
-  "source": "vulnerability-garden"
- },
- {
   "id": "cloudbleed",
   "name": "Cloudbleed",
   "date": "2017-02-19",
@@ -6389,7 +6363,7 @@
   "canonical": "https://efail.de",
   "links": [],
   "logo": "efail.svg",
-  "author": null,
+  "author": "Damian Poddebniak, Christian Dresen, Jens Müller, Fabian Ising, Sebastian Schinzel, Simon Friedberger, Juraj Somorovsky and Jörg Schwenk",
   "fame": 5.45,
   "source": "vulnerability-garden"
  },
@@ -7366,7 +7340,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "MediaTek, Inc.",
+  "vendor": "Multiple (Espressif, MediaTek, …)",
   "product": "MT6580, MT6630, MT6735, MT6737, MT6739, MT6750S, MT6753, MT6755S, MT6757, MT6757C, MT6757CD, MT6757CH, MT6763, MT6771, MT7662T, MT7663, MT7668, MT8163, MT8167, MT8167S, MT8173, MT8183, MT8321, MT8362A, MT8362B, MT8385, MT8765, MT8788",
   "description": "The Bluetooth Classic implementation in Espressif ESP-IDF 4.4 and earlier does not properly handle the reception of continuous unsolicited LMP responses, allowing attackers in radio range to trigger a denial of service (crash) in ESP32 by flooding the target device with LMP Feature Response data.",
   "canonical": "https://asset-group.github.io/disclosures/braktooth/",
@@ -7789,12 +7763,12 @@
   "born": null,
   "absurd": false,
   "vendor": "AMD",
-  "product": "1st Gen AMD EPYC™ Processors",
+  "product": "AMD SEV-ES / SEV-SNP (EPYC processors)",
   "description": "Improper or unexpected behavior of the INVD instruction in some AMD CPUs may allow an attacker with a malicious hypervisor to affect cache line write-back behavior of the CPU leading to a potential loss of guest virtual machine (VM) memory integrity.\n\n\n\n\n\n\n\n\n\n\n\n\n",
   "canonical": "https://cachewarpattack.com/",
   "links": [],
   "logo": "cachewarp.svg",
-  "author": null,
+  "author": "Ruiyi Zhang, Lukas Gerlach, Daniel Weber, Lorenz Hetterich, Youheng Lü, Andreas Kogler, Michael Schwarz (CISPA, Graz University of Technology)",
   "fame": 5.15,
   "source": "vulnerability-garden"
  },
@@ -7847,7 +7821,7 @@
   "canonical": "https://smtpsmuggling.com/",
   "links": [],
   "logo": "smtpsmuggling.png",
-  "author": null,
+  "author": "Timo Longin (SEC Consult)",
   "fame": 5.1,
   "source": "vulnerability-garden"
  },
@@ -7993,7 +7967,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "wolfSSL",
+  "vendor": "Intel, wolfSSL",
   "product": "Intel(R) TDX Module firmware",
   "description": "Improper check for unusual or exceptional conditions in Intel(R) TDX Module firmware before version 1.5.06 may allow a privileged user to potentially enable information disclosure via local access.",
   "canonical": "https://uzl-its.github.io/tdxdown/",
@@ -8286,7 +8260,7 @@
   "born": null,
   "absurd": false,
   "vendor": "AMD",
-  "product": "AMD EPYC™ 9004 Series Processors",
+  "product": "AMD processors (Zen 1 to Zen 5)",
   "description": "Write what were condition within AMD CPUs may allow an admin-privileged attacker to modify the configuration of the CPU pipeline potentially resulting in the corruption of the stack pointer inside an SEV-SNP guest.",
   "canonical": "https://stackwarpattack.com/",
   "links": [],
@@ -8309,8 +8283,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "The Linux Foundation",
-  "product": "kernel",
+  "vendor": "Linux",
+  "product": "Linux kernel",
   "description": "An integer overflow flaw was found in the Linux kernel's create_elf_tables() function. An unprivileged local user with access to SUID (or otherwise privileged) binary could use this flaw to escalate their privileges on the system. Kernel versions 2.6.x, 3.10.x and 4.14.x are believed to be vulnerable.",
   "canonical": "https://blog.qualys.com/vulnerabilities-threat-research/2026/02/02/mutagen-astronomy-discovery-to-kev",
   "links": [],
@@ -8579,7 +8553,7 @@
    "https://web.archive.org/web/20190203161449/https://privacy4cars.com/can-my-car-be-hacked/default.aspx"
   ],
   "logo": "carsblues.png",
-  "author": "Privacy4Cars founder Andrea Amico",
+  "author": "Andrea Amico (Privacy4Cars)",
   "fame": 4.9,
   "source": "vulnerability-garden"
  },
@@ -8606,7 +8580,7 @@
    "https://www.rfc-editor.org/rfc/rfc5746"
   ],
   "logo": null,
-  "author": null,
+  "author": "Marsh Ray (PhoneFactor); independently Martin Rex (SAP)",
   "fame": 4.85,
   "source": "manual"
  },
@@ -9012,8 +8986,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "AMI, Insyde, Phoenix",
+  "product": "UEFI firmware",
   "description": null,
   "canonical": "https://www.binarly.io/blog/the-far-reaching-consequences-of-logofail",
   "links": [
@@ -9160,8 +9134,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Apple",
+  "product": "Apple silicon (M3/A17 and later)",
   "description": null,
   "canonical": "https://predictors.fail/#flop",
   "links": [
@@ -9184,8 +9158,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Apple",
+  "product": "Apple silicon (M2/A15 and later)",
   "description": null,
   "canonical": "https://predictors.fail/#slap",
   "links": [
@@ -9655,6 +9629,30 @@
   "source": "vulnerability-garden"
  },
  {
+  "id": "tailworm",
+  "name": "Tailworm",
+  "date": "2026-10-24",
+  "day": "10-24",
+  "category": "beato",
+  "cves": [],
+  "cvss": null,
+  "kev": false,
+  "ransomware": false,
+  "born": null,
+  "absurd": false,
+  "vendor": "Tailscale",
+  "product": "Tailscale SSH (tailscaled), headscale",
+  "description": null,
+  "canonical": "https://tailworm.com",
+  "links": [
+   "https://www.reddit.com/r/Tailscale/comments/1xeoj1l/recent_tailscale_vulnerability_reports/"
+  ],
+  "logo": "tailworm.png",
+  "author": "Erica Windisch (Cyberdione Labs Corporation)",
+  "fame": 4.5,
+  "source": "vulnerability-garden"
+ },
+ {
   "id": "educatedscholar",
   "name": "EDUCATEDSCHOLAR",
   "date": "2017-04-14",
@@ -9862,7 +9860,7 @@
   "canonical": "https://thunderclap.io/",
   "links": [],
   "logo": "thunderclap.png",
-  "author": null,
+  "author": "A. Theodore Markettos, Colin Rothwell, Brett F. Gutstein, Allison Pearce, Peter G. Neumann, Simon W. Moore, Robert N. M. Watson",
   "fame": 4.35,
   "source": "vulnerability-garden"
  },
@@ -9968,8 +9966,8 @@
   "ransomware": false,
   "born": null,
   "absurd": true,
-  "vendor": null,
-  "product": null,
+  "vendor": "Amazon",
+  "product": "Kindle e-reader",
   "description": null,
   "canonical": "https://medium.com/@baronyogev/kindledrip-from-your-kindles-email-address-to-using-your-credit-card-bb93dbfb2a08",
   "links": [],
@@ -10561,13 +10559,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Microsoft",
+  "product": "Outlook add-ins",
   "description": null,
   "canonical": "https://www.varonis.com/blog/outlook-add-in-exfiltration?wvideo=vzydyz0z9s",
   "links": [],
   "logo": "exfiloutlook.png",
-  "author": "Varonis",
+  "author": "Hadas Shalev (Varonis)",
   "fame": 4,
   "source": "vulnerability-garden"
  },
@@ -11182,7 +11180,7 @@
    "https://pdos.csail.mit.edu/~rtm/papers/117.pdf"
   ],
   "logo": null,
-  "author": null,
+  "author": "Robert T. Morris (AT&T Bell Labs)",
   "fame": 3.55,
   "source": "manual"
  },
@@ -11200,8 +11198,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Microsoft",
+  "product": "Windows (GDI32)",
   "description": "The Windows Graphical Device Interface library (GDI32.DLL) in Microsoft Windows allows remote attackers to execute arbitrary code via a Windows Metafile (WMF) format image with a crafted SETABORTPROC GDI Escape function call, related to the Windows Picture and Fax Viewer (SHIMGVW.DLL), a different vulnerability than CVE-2005-2123 and CVE-2005-2124, and as originally discovered in the wild on unionseek.com.",
   "canonical": "https://www.cve.org/CVERecord?id=CVE-2005-4560",
   "links": [
@@ -11265,7 +11263,7 @@
    "https://www.catonetworks.com/blog/cato-ctrl-threat-brief-cve-2024-49112-and-cve-2024-49113-ldap-vulnerabilities/"
   ],
   "logo": null,
-  "author": "Or Yair, Shahak Morag",
+  "author": "Yuki Chen",
   "fame": 3.55,
   "source": "vulnerability-garden"
  },
@@ -11341,7 +11339,7 @@
    "https://github.com/n8n-io/n8n/security/advisories/GHSA-v4pr-fm98-w9pg"
   ],
   "logo": null,
-  "author": "Cyera",
+  "author": "Dor Attias (Cyera)",
   "fame": 3.5,
   "source": "vulnerability-garden"
  },
@@ -11479,7 +11477,7 @@
    "https://nvd.nist.gov/vuln/detail/CVE-1999-0015"
   ],
   "logo": null,
-  "author": null,
+  "author": "route",
   "fame": 3.45,
   "source": "manual"
  },
@@ -11615,8 +11613,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Microsoft",
+  "product": "IIS",
   "description": "IIS 4.0 and 5.0 allows remote attackers to read documents outside of the web root, and possibly execute arbitrary commands, via malformed URLs that contain UNICODE encoded characters, aka the \"Web Server Folder Traversal\" vulnerability.",
   "canonical": "https://www.cve.org/CVERecord?id=CVE-2000-0884",
   "links": [
@@ -11624,7 +11622,7 @@
    "https://www.kb.cert.org/vuls/id/111677"
   ],
   "logo": null,
-  "author": null,
+  "author": "Rain Forest Puppy",
   "fame": 3.3,
   "source": "manual"
  },
@@ -12774,7 +12772,7 @@
   "canonical": "https://www.cyera.com/research/n8scape-pyodide-sandbox-escape-9-9-critical-post-auth-rce-in-n8n-cve-2025-68668",
   "links": [],
   "logo": null,
-  "author": "Cyera",
+  "author": "Vladimir Tokarev, Ofek Itach (Cyera)",
   "fame": 3,
   "source": "vulnerability-garden"
  },
@@ -13124,7 +13122,7 @@
   "canonical": "https://sansec.io/research/blockstrap-magento-rce",
   "links": [],
   "logo": null,
-  "author": "Sansec Forensics Team",
+  "author": "vozec (analysis: Sansec)",
   "fame": 3,
   "source": "vulnerability-garden"
  },
@@ -13276,7 +13274,7 @@
   "born": null,
   "absurd": false,
   "vendor": "Cisco",
-  "product": "Cisco WebEx Event Center",
+  "product": "Cisco Webex Meetings Desktop App",
   "description": "A vulnerability in the update service of Cisco Webex Meetings Desktop App for Windows could allow an authenticated, local attacker to execute arbitrary commands as a privileged user. The vulnerability is due to insufficient validation of user-supplied parameters. An attacker could exploit this vulnerability by invoking the update service command with a crafted argument. An exploit could allow the attacker to run arbitrary commands with SYSTEM user privileges. While the CVSS Attack Vector metric denotes the requirement for an attacker to have local access, administrators should be aware that in Active Directory deployments, the vulnerability could be exploited remotely by leveraging the operating system remote management tools.",
   "canonical": "https://webexec.org/",
   "links": [
@@ -13750,7 +13748,7 @@
    "https://www.sigsac.org/ccs/CCS2024/program/schedule.html"
   ],
   "logo": null,
-  "author": null,
+  "author": "Nathaniel Bennett, Weidong Zhu, Benjamin Simon, Ryon Kennedy, William Enck, Patrick Traynor and Kevin Butler",
   "fame": 2.6,
   "source": "vulnerability-garden"
  },
@@ -14524,8 +14522,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Citrix",
+  "product": "NetScaler Gateway and ADC",
   "description": "Citrix NetScaler Gateway 12.1 before build 50.31, 12.0 before build 60.9, 11.1 before build 60.14, 11.0 before build 72.17, and 10.5 before build 69.5 and Application Delivery Controller (ADC) 12.1 before build 50.31, 12.0 before build 60.9, 11.1 before build 60.14, 11.0 before build 72.17, and 10.5 before build 69.5 allow remote attackers to obtain sensitive plaintext information because of a TLS Padding Oracle Vulnerability when CBC-based cipher suites are enabled.",
   "canonical": "https://www.tripwire.com/state-of-security/zombie-poodle-goldendoodle",
   "links": [
@@ -15020,7 +15018,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
+  "vendor": "HP Inc.",
   "product": "HP LaserJet; HP LaserJet Managed; HP PageWide; HP PageWide Managed printers",
   "description": "Certain HP LaserJet, HP LaserJet Managed, HP PageWide, and HP PageWide Managed printers may be vulnerable to potential information disclosure.",
   "canonical": "https://labs.f-secure.com/publications/printing-shellz",
@@ -15425,7 +15423,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "sierrawireless",
+  "vendor": "Sierra Wireless",
   "product": "ALEOS",
   "description": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Sierra Wireless, Inc ALEOS could potentially allow a remote attacker to trigger a \nDenial of Service (DoS) condition for ACEManager without impairing \nother router functions. This condition is cleared by restarting the \ndevice.\n\n",
   "canonical": "https://www.forescout.com/research-labs/sierra21/",
@@ -15928,13 +15926,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "desktop",
-  "product": "desktop",
+  "vendor": "GitHub",
+  "product": "Git credential helpers (GitHub Desktop, Git Credential Manager, Git LFS, GitHub CLI, Git)",
   "description": "GitHub Desktop is an open-source Electron-based GitHub app designed for git development. An attacker convincing a user to clone a repository directly or through a submodule can allow the attacker access to the user's credentials through the use of maliciously crafted remote URL. GitHub Desktop relies on Git to perform all network related operations (such as cloning, fetching, and pushing). When a user attempts to clone a repository GitHub Desktop will invoke `git clone` and when Git encounters a remote which requires authentication it will request the credentials for that remote host from GitHub Desktop using the git-credential protocol. Using a maliciously crafted URL it's possible to cause the credential request coming from Git to be misinterpreted by Github Desktop such that it will send credentials for a different host than the host that Git is currently communicating with thereby allowing for secret exfiltration. GitHub username and OAuth token, or credentials for other Git remote hosts stored in GitHub Desktop could be improperly transmitted to an unrelated host. Users should update to GitHub Desktop 3.4.12 or greater which fixes this vulnerability. Users who suspect they may be affected should revoke any relevant credentials.",
   "canonical": "https://flatt.tech/research/posts/clone2leak-your-git-credentials-belong-to-us/",
   "links": [],
   "logo": null,
-  "author": "Flatt Security",
+  "author": "RyotaK (GMO Flatt Security)",
   "fame": 2.05,
   "source": "vulnerability-garden"
  },
@@ -16260,7 +16258,7 @@
   "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2025-60196",
   "links": [],
   "logo": null,
-  "author": null,
+  "author": "Nguyen Xuan Chien (Patchstack Bug Bounty)",
   "fame": 2.05,
   "source": "manual"
  },
@@ -16284,7 +16282,7 @@
   "canonical": "https://www.silverfort.com/blog/you-win-some-you-checksum-kerberos-delegation-vulnerability-cve-2025-60704/",
   "links": [],
   "logo": null,
-  "author": "Silverfort Research Team",
+  "author": "Eliran Partush (Silverfort Research Team)",
   "fame": 2.05,
   "source": "vulnerability-garden"
  },
@@ -16304,13 +16302,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "getcursor",
-  "product": "cursor",
+  "vendor": "Multiple",
+  "product": "AI IDEs (Cursor, GitHub Copilot, …)",
   "description": "Cursor is a code editor built for programming with AI. Prior to 0.51.0, by default, the setting json.schemaDownload.enable was set to True. This means that by writing a JSON file, an attacker can trigger an arbitrary HTTP GET request that does not require user confirmation. Since the Cursor Agent can edit JSON files, this means a malicious agent, for example, after a prompt injection attack already succeeded, could trigger a GET request to an attacker controlled URL, potentially exfiltrating other data the agent may have access to. This vulnerability is fixed in 0.51.0.",
   "canonical": "https://maccarita.com/posts/idesaster/",
   "links": [],
   "logo": null,
-  "author": "MaccariTA",
+  "author": "Ari Marzouk (MaccariTA)",
   "fame": 2.05,
   "source": "vulnerability-garden"
  },
@@ -16542,7 +16540,7 @@
   "canonical": "https://www.zafran.io/resources/chainleak-critical-ai-framework-vulnerabilities-expose-data-enable-cloud-takeover",
   "links": [],
   "logo": null,
-  "author": "Zafran",
+  "author": "Gal Zaban & Ido Shani (Zafran Labs)",
   "fame": 2,
   "source": "vulnerability-garden"
  },
@@ -17439,8 +17437,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "Go standard library",
-  "product": "crypto/x509",
+  "vendor": "eMudhra",
+  "product": "Intermediate CA certificates",
   "description": "On most platforms, Go uses the given system root certificates. However, in some narrower cases, the system trust stores may not be updated without further action. To defend against the narrower set of cases that may remain affected, a denylist was added in crypto/x509 to return an error when calling Verify with any of the known intermediate certificates that are no longer considered to be trustworthy.",
   "canonical": "https://emudhra.we-have-a-problem.com",
   "links": [
@@ -17468,8 +17466,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": "quic-go",
-  "product": "quic-go",
+  "vendor": "Multiple",
+  "product": "HTTP/3 QPACK (quic-go, Wireshark, quiche)",
   "description": "quic-go is an implementation of the QUIC protocol in Go. Versions 0.56.0 and below are vulnerable to excessive memory allocation through quic-go's HTTP/3 client and server implementations by sending a QPACK-encoded HEADERS frame that decodes into a large header field section (many unique header names and/or large values). The implementation builds an http.Header (used on the http.Request and http.Response, respectively), while only enforcing limits on the size of the (QPACK-compressed) HEADERS frame, but not on the decoded header, leading to memory exhaustion. This issue is fixed in version 0.57.0.",
   "canonical": "https://foxio.io/blog/header-accordions-qpack-amplification-attacks-against-http-3-servers",
   "links": [],
@@ -17683,7 +17681,7 @@
   "canonical": "https://defuse.ca/sockstress.htm",
   "links": [],
   "logo": null,
-  "author": "Jack C. Louis",
+  "author": "Jack C. Louis (Outpost24)",
   "fame": 1.9,
   "source": "vulnerability-garden"
  },
@@ -18058,7 +18056,7 @@
    "https://github.com/bbbrumley/portsmash"
   ],
   "logo": null,
-  "author": "Billy Brumley",
+  "author": "Billy Bob Brumley, Cesar Pereida García, Sohaib ul Hassan, Nicola Tuveri (Tampere University of Technology), Alejandro Cabrera Aldaya (CUJAE)",
   "fame": 1.9,
   "source": "vulnerability-garden"
  },
@@ -18109,7 +18107,7 @@
    "https://theinvisiblethings.blogspot.com/2009/01/why-do-i-miss-microsoft-bitlocker.html"
   ],
   "logo": null,
-  "author": "Sepio",
+  "author": "Joanna Rutkowska (Invisible Things Lab)",
   "fame": 1.85,
   "source": "vulnerability-garden"
  },
@@ -18261,7 +18259,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
+  "vendor": "Intel",
   "product": "Intel(R) Processors",
   "description": "Improper conditions check in voltage settings for some Intel(R) Processors may allow a privileged user to potentially enable escalation of privilege and/or information disclosure via local access.",
   "canonical": "https://github.com/zkenjar/v0ltpwn",
@@ -18315,7 +18313,7 @@
   "vendor": "Microsoft",
   "product": "Microsoft Office",
   "description": "An information disclosure vulnerability exists in Microsoft Access software when the software fails to properly handle objects in memory, aka 'Microsoft Access Information Disclosure Vulnerability'. This CVE ID is unique from CVE-2019-1400.",
-  "canonical": "https://www.mimecast.com/blog/2020/01/mimecast-discovers-mdb-leaker-microsoft-access-vulnerability-cve-2019-1463/",
+  "canonical": "https://mimecast.com/blog/mimecast-discovers-mdb-leaker-microsoft-access-vulnerability-cve-2019-1463",
   "links": [
    "https://web.archive.org/web/20200115011257/https://www.mimecast.com/blog/2020/01/mimecast-discovers-mdb-leaker-microsoft-access-vulnerability-cve-2019-1463/"
   ],
@@ -18474,7 +18472,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
+  "vendor": "Citrix",
   "product": "Citrix Gateway Plug-in for Windows",
   "description": "Improper privilege management on services run by Citrix Gateway Plug-in for Windows, versions before and including 13.0-61.48 and 12.1-58.15, lead to privilege escalation attacks",
   "canonical": "https://cymptom.com/gateway2hell-multiple-privilege-escalation-vulnerabilities-in-citrix-gateway-plug-in/2020/10/",
@@ -18502,8 +18500,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Multiple",
+  "product": "uIP, FNET, picoTCP, Nut/Net TCP/IP stacks",
   "description": "An issue was discovered in Contiki through 3.0 and Contiki-NG through 4.5. The code for parsing Type A domain name answers in ip64-dns64.c doesn't verify whether the address in the answer's length is sane. Therefore, when copying an address of an arbitrary length, a buffer overflow can occur. This bug can be exploited whenever NAT64 is enabled.",
   "canonical": "https://www.forescout.com/research-labs/amnesia33/",
   "links": [
@@ -18688,7 +18686,7 @@
   "born": null,
   "absurd": false,
   "vendor": "Siemens",
-  "product": "Capital Embedded AR Classic 431-422",
+  "product": "Nucleus NET (Nucleus RTOS TCP/IP stack)",
   "description": "A vulnerability has been identified in Capital Embedded AR Classic 431-422 (All versions), Capital Embedded AR Classic R20-11 (All versions < V2303), PLUSCONTROL 1st Gen (All versions), SIMOTICS CONNECT 400 (All versions < V0.5.0.0), SIMOTICS CONNECT 400 (All versions < V1.0.0.0). ICMP echo packets with fake IP options allow sending ICMP echo reply messages to arbitrary hosts on the network. (FSMD-2021-0004)",
   "canonical": "https://www.forescout.com/research-labs/nucleus-13/",
   "links": [
@@ -18903,7 +18901,7 @@
    "https://web.archive.org/web/20221013062856/https://dheatattack.com/"
   ],
   "logo": null,
-  "author": null,
+  "author": "Szilárd Pfeiffer",
   "fame": 1.7,
   "source": "vulnerability-garden"
  },
@@ -18996,8 +18994,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": "2019.2 IPU – Intel(R) Processor Machine Check Error",
+  "vendor": "Intel",
+  "product": "Intel processors",
   "description": "Improper invalidation for page table updates by a virtual guest operating system for multiple Intel(R) Processors may allow an authenticated user to potentially enable denial of service of the host system via local access.",
   "canonical": "https://www.tacitosecurity.com/multihit.html",
   "links": [
@@ -19356,13 +19354,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Lenovo",
+  "product": "Superfish VisualDiscovery (Komodia SDK)",
   "description": "The SDK for Komodia Redirector with SSL Digestor, as used in Lavasoft Ad-Aware Web Companion 1.1.885.1766 and Ad-Aware AdBlocker (alpha) 1.3.69.1, Qustodio for Windows, Atom Security, Inc. StaffCop 5.8, and other products, uses the same X.509 certificate private key for a root CA certificate across different customers' installations, which makes it easier for man-in-the-middle attackers to spoof SSL servers by leveraging knowledge of this key, as originally reported for Superfish VisualDiscovery on certain Lenovo Notebook laptop products.",
   "canonical": "https://support.lenovo.com/us/en/product_security/ps500035-superfish-vulnerability",
   "links": [],
   "logo": null,
-  "author": "Lenovo",
+  "author": null,
   "fame": 1.55,
   "source": "vulnerability-garden"
  },
@@ -19587,7 +19585,7 @@
   "canonical": "https://www.vusec.net/projects/drammer/",
   "links": [],
   "logo": null,
-  "author": "COMSEC",
+  "author": "VUSec (Vrije Universiteit Amsterdam) and UC Santa Barbara",
   "fame": 1.5,
   "source": "vulnerability-garden"
  },
@@ -19787,7 +19785,7 @@
   "canonical": "https://www.guardsquare.com/blog/new-android-vulnerability-allows-attackers-to-modify-apps-without-affecting-their-signatures-guardsquare",
   "links": [],
   "logo": null,
-  "author": "Guardsquare",
+  "author": "Eric Lafortune (Guardsquare)",
   "fame": 1.45,
   "source": "vulnerability-garden"
  },
@@ -19806,8 +19804,8 @@
   "ransomware": false,
   "born": null,
   "absurd": true,
-  "vendor": null,
-  "product": null,
+  "vendor": "Apple",
+  "product": "HomeKit (iOS, tvOS)",
   "description": "An issue was discovered in certain Apple products. iOS before 11.2.1 is affected. tvOS before 11.2.1 is affected. The issue involves the \"HomeKit\" component. It allows remote attackers to modify the application state by leveraging incorrect message handling, as demonstrated by use of an Apple Watch to obtain an encryption key and unlock a door.",
   "canonical": "https://nvd.nist.gov/vuln/detail/CVE-2017-13903",
   "links": [],
@@ -20594,7 +20592,7 @@
   "canonical": "https://x.com/jonasLyk/status/1316104870987010048",
   "links": [],
   "logo": null,
-  "author": "@jonasLyk",
+  "author": "Jonas Lykkegård",
   "fame": 1.3,
   "source": "vulnerability-garden"
  },
@@ -20615,7 +20613,7 @@
   "born": null,
   "absurd": false,
   "vendor": null,
-  "product": "BlueZ Advisory",
+  "product": "BlueZ",
   "description": "Improper buffer restrictions in BlueZ may allow an unauthenticated user to potentially enable denial of service via adjacent access. This affects all Linux kernel versions that support BlueZ.",
   "canonical": "https://google.github.io/security-research/pocs/linux/bleedingtooth/writeup.html",
   "links": [],
@@ -20687,7 +20685,7 @@
   "born": null,
   "absurd": false,
   "vendor": null,
-  "product": "BlueZ Advisory",
+  "product": "BlueZ",
   "description": "Improper buffer restrictions in BlueZ may allow an unauthenticated user to potentially enable denial of service via adjacent access. This affects all Linux kernel versions that support BlueZ.",
   "canonical": "https://google.github.io/security-research/pocs/linux/bleedingtooth/writeup.html#badvibes-heap-based-buffer-overflow-cve-2020-24490",
   "links": [],
@@ -20710,7 +20708,7 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
+  "vendor": "Intel",
   "product": "Intel(R) Boot Guard, Intel(R) CSME, Intel(R) TXE, Intel(R) SPS",
   "description": "Insecure default initialization of resource in Intel(R) Boot Guard in Intel(R) CSME versions before 11.8.80, 11.12.80, 11.22.80, 12.0.70, 13.0.40, 13.30.10, 14.0.45 and 14.5.25, Intel(R) TXE versions before 3.1.80 and 4.0.30, Intel(R) SPS versions before E5_04.01.04.400, E3_04.01.04.200, SoC-X_04.00.04.200 and SoC-A_04.00.04.300 may allow an unauthenticated user to potentially enable escalation of privileges via physical access.",
   "canonical": "https://trmm.net/Sleep_attack/",
@@ -20834,12 +20832,12 @@
   "born": null,
   "absurd": false,
   "vendor": "Google",
-  "product": "Chrome",
+  "product": "Web browsers (Chrome, Edge, Firefox, Safari)",
   "description": "Insufficient data validation in networking in Google Chrome prior to 87.0.4280.141 allowed a remote attacker to bypass discretionary access control via malicious network traffic.",
   "canonical": "https://www.armis.com/research/nat-slipstreaming-v2-0/",
   "links": [],
   "logo": null,
-  "author": "Armis",
+  "author": "Ben Seri and Gregory Vishnepolsky (Armis), with Samy Kamkar",
   "fame": 1.25,
   "source": "vulnerability-garden"
  },
@@ -21112,7 +21110,7 @@
   "canonical": "https://project-zero.issues.chromium.org/issues/42451359",
   "links": [],
   "logo": null,
-  "author": "taviso",
+  "author": "Tavis Ormandy (Google Project Zero)",
   "fame": 1.25,
   "source": "vulnerability-garden"
  },
@@ -21238,7 +21236,7 @@
   "canonical": "https://www.microsoft.com/en-us/security/blog/2022/01/10/new-macos-vulnerability-powerdir-could-lead-to-unauthorized-user-data-access/",
   "links": [],
   "logo": null,
-  "author": "Microsoft",
+  "author": "Jonathan Bar Or (Microsoft)",
   "fame": 1.2,
   "source": "vulnerability-garden"
  },
@@ -21533,7 +21531,7 @@
   "canonical": "https://orca.security/resources/blog/fabrixss-vulnerability-azure-fabric-explorer/",
   "links": [],
   "logo": null,
-  "author": "Orca Security",
+  "author": "Lidor Ben Shitrit and Roee Sagi (Orca Security)",
   "fame": 1.2,
   "source": "vulnerability-garden"
  },
@@ -21672,8 +21670,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Multiple",
+  "product": "Linux and other Unix-like systems",
   "description": "An issue was discovered in the size of the stack guard page on Linux, specifically a 4k stack guard page is not sufficiently large and can be \"jumped\" over (the stack guard page is bypassed), this affects Linux Kernel versions 4.11.5 and earlier (the stackguard page was introduced in 2010).",
   "canonical": "https://blog.qualys.com/vulnerabilities-threat-research/2017/06/19/the-stack-clash",
   "links": [],
@@ -21698,7 +21696,7 @@
   "born": null,
   "absurd": false,
   "vendor": null,
-  "product": null,
+  "product": "multipath-tools",
   "description": "multipath-tools 0.7.0 through 0.9.x before 0.9.2 allows local users to obtain root access, as exploited alone or in conjunction with CVE-2022-41973. Local users able to write to UNIX domain sockets can bypass access controls and manipulate the multipath setup. This can lead to local privilege escalation to root. This occurs because an attacker can repeat a keyword, which is mishandled because arithmetic ADD is used instead of bitwise OR.",
   "canonical": "https://blog.qualys.com/vulnerabilities-threat-research/2022/10/25/leeloo-multipath-authorization-bypass-and-symlink-attack-in-multipathd-cve-2022-41974-and-cve-2022-41973",
   "links": [],
@@ -21771,7 +21769,7 @@
   "born": null,
   "absurd": false,
   "vendor": "Microsoft",
-  "product": "Windows 10 Version 1809",
+  "product": "Windows Boot Manager / BitLocker (Windows 7–11, Server 2008–2022)",
   "description": "BitLocker Security Feature Bypass Vulnerability",
   "canonical": "https://web.archive.org/web/20230501000759/https://haqueers.com/@Rairii/109817927668949732",
   "links": [],
@@ -22203,8 +22201,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Microsoft",
+  "product": "Windows (Event Log service)",
   "description": null,
   "canonical": "https://github.com/floesen/EventLogCrasher",
   "links": [
@@ -22480,7 +22478,7 @@
   "canonical": "https://www.microsoft.com/en-us/security/blog/2024/10/17/new-macos-vulnerability-hm-surf-could-lead-to-unauthorized-data-access/",
   "links": [],
   "logo": null,
-  "author": "Microsoft",
+  "author": "Jonathan Bar Or (Microsoft)",
   "fame": 1.1,
   "source": "vulnerability-garden"
  },
@@ -22547,7 +22545,7 @@
   "born": null,
   "absurd": false,
   "vendor": "Microsoft",
-  "product": "Windows 10 Version 1507",
+  "product": "Windows (BitLocker)",
   "description": "Windows BitLocker Information Disclosure Vulnerability",
   "canonical": "https://dfir.ru/2025/01/20/cve-2025-21210-aka-crashxts-a-practical-randomization-attack-against-bitlocker/",
   "links": [],
@@ -22725,7 +22723,7 @@
    "https://github.com/AICPS/Mic-E-Mouse"
   ],
   "logo": null,
-  "author": null,
+  "author": "Mohamad Fakih, Rahul Dharmaji, Youssef Mahmoud, Halima Bouzidi, Mohammad Abdullah Al Faruque",
   "fame": 1.05,
   "source": "vulnerability-garden"
  },
@@ -22750,7 +22748,7 @@
    "https://www.youtube.com/watch?v=H1fyPD8vWDo"
   ],
   "logo": null,
-  "author": "Abhinav Vemulapalli, Animesh Agrawal, Debopam Sanyal, Alexey Tumanov and Brendan Saltaformaggio",
+  "author": "David Oygenblik, Abhinav Vemulapalli, Animesh Agrawal, Debopam Sanyal, Alexey Tumanov, Brendan Saltaformaggio",
   "fame": 1.05,
   "source": "vulnerability-garden"
  },
@@ -22775,7 +22773,7 @@
    "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/"
   ],
   "logo": null,
-  "author": "Push Security",
+  "author": "Luke Jennings (Push Security)",
   "fame": 1.05,
   "source": "vulnerability-garden"
  },
@@ -22943,7 +22941,7 @@
   "canonical": "https://www.tenable.com/blog/google-looker-vulnerabilities-rce-internal-access-lookout",
   "links": [],
   "logo": null,
-  "author": "Liv Matan (Tenable)",
+  "author": "Liv Matan, Moshe Bernstein (Tenable)",
   "fame": 1,
   "source": "vulnerability-garden"
  },
@@ -23424,7 +23422,7 @@
    "https://medium.com/@TalBeerySec/glueball-the-story-of-cve-2020-1464-50091a1f98bd"
   ],
   "logo": null,
-  "author": "Bernardo Quintero",
+  "author": "Bernardo Quintero, Francisco Santos (VirusTotal)",
   "fame": 0.85,
   "source": "vulnerability-garden"
  },
@@ -23544,7 +23542,7 @@
    "https://github.com/CZHQuality/AAA-Pix2pix"
   ],
   "logo": null,
-  "author": "CZHQuality",
+  "author": "Zhaohui Che, Ali Borji, Guangtao Zhai, Suiyi Ling, Jing Li, Xiongkuo Min, Guodong Guo, Patrick Le Callet",
   "fame": 0.85,
   "source": "vulnerability-garden"
  },
@@ -23784,7 +23782,7 @@
    "https://www.usenix.org/conference/raid2020/proceedings"
   ],
   "logo": null,
-  "author": "Atri Bhattacharyya, Andrés Sánchez, Esmaeil M. Koruyeh, Nael Abu-Ghazaleh",
+  "author": "Atri Bhattacharyya, Andrés Sánchez, Esmaeil M. Koruyeh, Nael Abu-Ghazaleh, Chengyu Song and Mathias Payer",
   "fame": 0.8,
   "source": "vulnerability-garden"
  },
@@ -23824,15 +23822,15 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Kia Motors",
+  "product": "Head Unit (Kia Ceed Gen 5.0 iAVN)",
   "description": null,
   "canonical": "https://sowhat.iit.cnr.it/pdf/IIT-20-2020.pdf",
   "links": [
    "https://web.archive.org/web/20201116163643/https://sowhat.iit.cnr.it/pdf/IIT-20-2020.pdf"
   ],
   "logo": null,
-  "author": "Dr. Gianpiero Costantino, Dr. Ilaria Matteucci",
+  "author": "Gianpiero Costantino, Ilaria Matteucci (IIT-CNR)",
   "fame": 0.8,
   "source": "vulnerability-garden"
  },
@@ -23856,7 +23854,7 @@
    "https://www.covertchannels.com"
   ],
   "logo": null,
-  "author": "Mordechai Guri and Ben-Gurion",
+  "author": "Mordechai Guri (Ben-Gurion University of the Negev)",
   "fame": 0.8,
   "source": "vulnerability-garden"
  },
@@ -23974,7 +23972,7 @@
    "https://web.archive.org/web/20211231035537/https://research.ece.ncsu.edu/aaysu/wp-content/uploads/DATE_2022_camera_ready_file.pdf"
   ],
   "logo": null,
-  "author": "Furkan Aydin†, Emre Karabulut†, Seetal Potluri†, Erdem Alkim‡, Aydin Aysu",
+  "author": "Furkan Aydin, Emre Karabulut, Seetal Potluri, Erdem Alkim, Aydin Aysu",
   "fame": 0.75,
   "source": "vulnerability-garden"
  },
@@ -24022,7 +24020,7 @@
    "https://www.usenix.org/system/files/fast22-bacs.pdf"
   ],
   "logo": null,
-  "author": "COMSEC",
+  "author": "Andrei Bacs, Saidgani Musaev, Kaveh Razavi, Cristiano Giuffrida, Herbert Bos (VU Amsterdam / ETH Zurich)",
   "fame": 0.7,
   "source": "vulnerability-garden"
  },
@@ -24764,7 +24762,7 @@
    "https://web.archive.org/web/20240208220232/https://www.ndss-symposium.org/wp-content/uploads/ndss2024_f552_paper-1.pdf"
   ],
   "logo": null,
-  "author": null,
+  "author": "Yan Long, Qinhong Jiang, Chen Yan, Tobias Alam, Xiaoyu Ji, Wenyuan Xu, Kevin Fu",
   "fame": 0.6,
   "source": "vulnerability-garden"
  },
@@ -25052,7 +25050,7 @@
    "https://infosec.exchange/@notbobbytables/113306608059803998"
   ],
   "logo": null,
-  "author": "Stefan Gast, Hannes Weissteiner, Robin Leander Schroder and Daniel Gruss",
+  "author": "Stefan Gast, Hannes Weissteiner, Robin Leander Schröder and Daniel Gruss",
   "fame": 0.6,
   "source": "vulnerability-garden"
  },
@@ -25622,7 +25620,7 @@
    "https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection"
   ],
   "logo": null,
-  "author": "Annex",
+  "author": "John Tuckner (Secure Annex)",
   "fame": 0.55,
   "source": "vulnerability-garden"
  },
@@ -25712,7 +25710,7 @@
    "https://www.radware.com/security/threat-advisories-and-attack-reports/zombieagent/"
   ],
   "logo": null,
-  "author": "Radware",
+  "author": "Zvika Babo (Radware)",
   "fame": 0.5,
   "source": "vulnerability-garden"
  },
@@ -27112,7 +27110,7 @@
   "canonical": "https://brave.com/privacy-updates/13-pool-party-side-channels/",
   "links": [],
   "logo": null,
-  "author": "Brave",
+  "author": "Soroush Karami, Peter Snyder (Brave)",
   "fame": 0.25,
   "source": "vulnerability-garden"
  },
@@ -27134,7 +27132,7 @@
   "canonical": "https://www.wiz.io/blog/azure-app-service-source-code-leak",
   "links": [],
   "logo": null,
-  "author": "Wiz",
+  "author": "Shir Tamari (Wiz)",
   "fame": 0.25,
   "source": "vulnerability-garden"
  },
@@ -27178,7 +27176,7 @@
   "canonical": "https://orca.security/resources/blog/aws-glue-vulnerability/",
   "links": [],
   "logo": null,
-  "author": "Orca",
+  "author": "Yanir Tsarimi (Orca Security)",
   "fame": 0.2,
   "source": "vulnerability-garden"
  },
@@ -27238,8 +27236,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Optimism",
+  "product": "l2geth",
   "description": null,
   "canonical": "https://www.saurik.com/optimism.html",
   "links": [],
@@ -27640,7 +27638,7 @@
   "canonical": "https://www.semperis.com/blog/syncjacking-azure-ad-account-takeover/",
   "links": [],
   "logo": null,
-  "author": "Semperis",
+  "author": "Tomer Nahum (Semperis)",
   "fame": 0.2,
   "source": "vulnerability-garden"
  },
@@ -27662,7 +27660,7 @@
   "canonical": "https://www.wiz.io/blog/hells-keychain-supply-chain-attack-in-ibm-cloud-databases-for-postgresql",
   "links": [],
   "logo": null,
-  "author": "Wiz",
+  "author": "Ronen Shustin, Shir Tamari (Wiz)",
   "fame": 0.2,
   "source": "vulnerability-garden"
  },
@@ -27706,7 +27704,7 @@
   "canonical": "https://cymulate.com/blog/blindside-a-new-technique-for-edr-evasion-with-hardware-breakpoints/",
   "links": [],
   "logo": null,
-  "author": "Cymulate",
+  "author": "Ilan Kalendarov (Cymulate)",
   "fame": 0.2,
   "source": "vulnerability-garden"
  },
@@ -27728,7 +27726,7 @@
   "canonical": "https://www.mnemonic.io/resources/blog/acsessed-cross-tenant-network-bypass-in-azure-cognitive-search/",
   "links": [],
   "logo": null,
-  "author": "mnemonic",
+  "author": "Emilien Socchi (mnemonic)",
   "fame": 0.2,
   "source": "vulnerability-garden"
  },
@@ -27750,7 +27748,7 @@
   "canonical": "https://sh1mmer.me/",
   "links": [],
   "logo": null,
-  "author": "https://mercurywork.shop/",
+  "author": "Mercury Workshop",
   "fame": 0.15,
   "source": "vulnerability-garden"
  },
@@ -27766,8 +27764,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Microsoft",
+  "product": "Azure App Service & Functions (Kudu)",
   "description": null,
   "canonical": "https://www.tenable.com/blog/Emoji-Deploy-Smile-Your-Azure-web-service-just-got-Rced",
   "links": [],
@@ -28272,13 +28270,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Intel",
+  "product": "Intel processors with FSRM (Ice Lake and later)",
   "description": null,
   "canonical": "https://lock.cmpxchg8b.com/reptar.html",
   "links": [],
   "logo": null,
-  "author": "Tavis Ormandy",
+  "author": "Tavis Ormandy, Josh Eads, Eduardo Vela Nava, Alexandra Sandulescu, Daniel Moghimi (Google)",
   "fame": 0.15,
   "source": "vulnerability-garden"
  },
@@ -28300,7 +28298,7 @@
   "canonical": "https://dl.acm.org/doi/10.1145/3576915.3616661",
   "links": [],
   "logo": null,
-  "author": null,
+  "author": "Yi Zhu, Chenglin Miao, Hongfei Xue, Zhengxiong Li, Yunnan Yu, Wenyao Xu, Lu Su, Chunming Qiao",
   "fame": 0.15,
   "source": "vulnerability-garden"
  },
@@ -28388,7 +28386,7 @@
   "canonical": "https://thomaspaniagua.github.io/quadattack_web/",
   "links": [],
   "logo": null,
-  "author": "Thomas Paniagua",
+  "author": "Thomas Paniagua, Ryan Grainger, Tianfu Wu (NC State University)",
   "fame": 0.15,
   "source": "vulnerability-garden"
  },
@@ -28451,7 +28449,7 @@
   "vendor": null,
   "product": null,
   "description": null,
-  "canonical": "https://blog.oversecured.com/Introducing-MavenGate-a-supply-chain-attack-method-for-Java-and-Android-applications/",
+  "canonical": "https://oversecured.com/blog/introducing-mavengate-a-supply-chain-attack-method-for-java-and-android-applications",
   "links": [],
   "logo": null,
   "author": "Oversecured",
@@ -28470,13 +28468,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Opera",
+  "product": "Opera browser (My Flow)",
   "description": null,
   "canonical": "https://guard.io/labs/myflaw-cross-platform-0-day-rce-vulnerability-discovered-in-operas-browsers",
   "links": [],
   "logo": null,
-  "author": "Guardio",
+  "author": "Oleg Zaytsev (Guardio Labs)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -28492,8 +28490,8 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Google",
+  "product": "Google Kubernetes Engine",
   "description": null,
   "canonical": "https://orca.security/resources/blog/sys-all-google-kubernetes-engine-risk-example/",
   "links": [],
@@ -28520,7 +28518,7 @@
   "canonical": "https://www.ndss-symposium.org/wp-content/uploads/2024-618-paper.pdf",
   "links": [],
   "logo": null,
-  "author": null,
+  "author": "Man Zhou, Shuao Su, Qian Wang, Qi Li, Yuting Zhou, Xiaojing Ma, Zhengxiong Li",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -28586,7 +28584,7 @@
   "canonical": "https://www.enea.com/insights/dusting-off-old-fingerprints-nso-groups-unknown-mms-hack/",
   "links": [],
   "logo": null,
-  "author": "ENEA + NSO Group",
+  "author": "Cathal McDaid (Enea)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29466,7 +29464,7 @@
   "canonical": "https://www.symmetry-systems.com/blog/confused-pilot-attack/",
   "links": [],
   "logo": null,
-  "author": null,
+  "author": "Ayush RoyChowdhury, Mulong Luo, Prateek Sahu, Sarbartha Banerjee and Mohit Tiwari (UT Austin)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29532,7 +29530,7 @@
   "canonical": "https://unit42.paloaltonetworks.com/jailbreak-llms-through-camouflage-distraction/",
   "links": [],
   "logo": null,
-  "author": "Palo Alto",
+  "author": "Unit 42 (Palo Alto Networks)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29598,7 +29596,7 @@
   "canonical": "https://unit42.paloaltonetworks.com/privilege-escalation-llm-model-exfil-vertex-ai/",
   "links": [],
   "logo": null,
-  "author": "Palo Alto",
+  "author": "Ofir Balassiano, Ofir Shaty (Palo Alto Networks Unit 42)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29620,7 +29618,7 @@
   "canonical": "https://www.threatfabric.com/blogs/ghost-tap-new-cash-out-tactic-with-nfc-relay",
   "links": [],
   "logo": null,
-  "author": "Threat Fabric",
+  "author": "ThreatFabric",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29642,7 +29640,7 @@
   "canonical": "https://www.knostic.ai/blog/flowbreaking-ai-attack",
   "links": [],
   "logo": null,
-  "author": "Knostic",
+  "author": "Gadi Evron (Knostic)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29796,7 +29794,7 @@
   "canonical": "https://unit42.paloaltonetworks.com/multi-turn-technique-jailbreaks-llms/",
   "links": [],
   "logo": null,
-  "author": "Palo Alto",
+  "author": "Yongzhe Huang, Yang Ji, Wenjun Hu, Akshata Rao, Danny Tsechansky, Jay Chen (Palo Alto Networks Unit 42)",
   "fame": 0.1,
   "source": "vulnerability-garden"
  },
@@ -29818,7 +29816,7 @@
   "canonical": "https://arxiv.org/pdf/2501.11848",
   "links": [],
   "logo": null,
-  "author": null,
+  "author": "Jian Chen, Zehui Lin, Wanyu Lin, Wenlong Shi, Xiaoyan Yin, Di Wang",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -29856,13 +29854,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Hugging Face",
+  "product": "Picklescan",
   "description": null,
   "canonical": "https://www.reversinglabs.com/blog/rl-identifies-malware-ml-model-hosted-on-hugging-face",
   "links": [],
   "logo": null,
-  "author": "Reversing Labs",
+  "author": "Karlo Zanki (ReversingLabs)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30786,7 +30784,7 @@
   "canonical": "https://www.microsoft.com/en-us/security/blog/2025/11/07/whisper-leak-a-novel-side-channel-cyberattack-on-remote-language-models/",
   "links": [],
   "logo": null,
-  "author": "Microsoft",
+  "author": "Jonathan Bar Or, Geoff McDonald (Microsoft Defender Security Research Team)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30808,7 +30806,7 @@
   "canonical": "https://www.hiddenlayer.com/research/echogram-the-hidden-vulnerability-undermining-ai-guardrails",
   "links": [],
   "logo": null,
-  "author": "HiddenLayer",
+  "author": "Kasimir Schulz, Kenneth Yeung (HiddenLayer)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30830,7 +30828,7 @@
   "canonical": "https://www.hacktron.ai/blog/supapwn",
   "links": [],
   "logo": null,
-  "author": "Hacktron",
+  "author": "Hacktron (Mohan Pedhapati, Harsh Jaiswal, Zayne Zhang, Fabian Faessler)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30852,7 +30850,7 @@
   "canonical": "https://teamwin.in/hashjack-new-attack-technique-tricks-ai-browsers-using-a-simple/",
   "links": [],
   "logo": null,
-  "author": "Teamwin",
+  "author": "Vitaly Simonovich (Cato CTRL, Cato Networks)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30874,7 +30872,7 @@
   "canonical": "https://www.aikido.dev/blog/promptpwnd-github-actions-ai-agents",
   "links": [],
   "logo": null,
-  "author": "Aikido",
+  "author": "Rein Daelman (Aikido Security)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30896,7 +30894,7 @@
   "canonical": "https://noma.security/blog/geminijack-google-gemini-zero-click-vulnerability/",
   "links": [],
   "logo": null,
-  "author": "Noma Security",
+  "author": "Sasi Levi (Noma Labs)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30940,7 +30938,7 @@
   "canonical": "https://www.sonarsource.com/blog/zombie-workflows-a-github-actions-horror-story/",
   "links": [],
   "logo": null,
-  "author": "Sonarsource",
+  "author": "Paul Gerste (SonarSource)",
   "fame": 0.05,
   "source": "vulnerability-garden"
  },
@@ -30984,7 +30982,7 @@
   "canonical": "https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild",
   "links": [],
   "logo": null,
-  "author": "Wiz",
+  "author": "Yuval Avrahami, Nir Ohfeld (Wiz)",
   "fame": 0,
   "source": "vulnerability-garden"
  },
@@ -31022,13 +31020,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Grist Labs",
+  "product": "Grist (grist-core)",
   "description": null,
   "canonical": "https://www.cyera.com/research/cellbreak-grists-pyodide-sandbox-escape-and-the-data-at-risk-blast-radius",
   "links": [],
   "logo": null,
-  "author": "Cyera",
+  "author": "Vladimir Tokarev (Cyera Research Labs)",
   "fame": 0,
   "source": "vulnerability-garden"
  },
@@ -31044,13 +31042,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Microsoft",
+  "product": "Copilot Personal",
   "description": null,
   "canonical": "https://www.varonis.com/blog/reprompt",
   "links": [],
   "logo": null,
-  "author": "Varonis",
+  "author": "Dolev Taler (Varonis Threat Labs)",
   "fame": 0,
   "source": "vulnerability-garden"
  },
@@ -31066,13 +31064,13 @@
   "ransomware": false,
   "born": null,
   "absurd": false,
-  "vendor": null,
-  "product": null,
+  "vendor": "Docker",
+  "product": "Docker Desktop (Ask Gordon)",
   "description": null,
   "canonical": "https://noma.security/blog/dockerdash-two-attack-paths-one-ai-supply-chain-crisis/",
   "links": [],
   "logo": null,
-  "author": "Noma Security",
+  "author": "Sasi Levi (Noma Labs)",
   "fame": 0,
   "source": "vulnerability-garden"
  },
@@ -31138,7 +31136,7 @@
   "canonical": "https://www.ndss-symposium.org/ndss-paper/airsnitch-demystifying-and-breaking-client-isolation-in-wi-fi-networks/",
   "links": [],
   "logo": null,
-  "author": null,
+  "author": "Xin'an Zhou, Juefei Pu, Zhutian Liu, Zhiyun Qian, Zhaowei Tan, Srikanth V. Krishnamurthy, Mathy Vanhoef",
   "fame": 0,
   "source": "vulnerability-garden"
  },
@@ -31160,7 +31158,7 @@
   "canonical": "https://www.oasis.security/blog/openclaw-vulnerability",
   "links": [],
   "logo": null,
-  "author": "Oasis Security",
+  "author": "Elad Luz (Oasis Security)",
   "fame": 0,
   "source": "vulnerability-garden"
  },

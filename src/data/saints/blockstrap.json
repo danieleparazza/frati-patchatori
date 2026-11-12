@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BlockStrap, che contrabbandava blocchi",
+    "patronage": "dei negozi Magento, dei template delle email e dei blocchi che si firmano da soli.",
+    "hagiography": "Il 13 ottobre 2026 Adobe pubblicò il bollettino APSB26-153 per la CVE-2026-103849, con CVSS 10, segnalata da vozec; il 15 ottobre Sansec la battezzò BlockStrap. Nel motore dei template email di Magento e Adobe Commerce una direttiva di blocco nascosta nei dati di un template figlio veniva firmata e poi riletta al livello principale, dove prendeva vita: un attaccante senza autenticazione poteva così eseguire codice PHP sul server del negozio. Era una variante \"di secondo passaggio\" di StyleSmuggler, non coperta dall'hotfix di settembre; Sansec ne riprodusse quattro vie di esecuzione in 24 ore, senza però osservare attacchi reali.",
+    "prayer": "O San BlockStrap, che infili blocchi nei blocchi, fa' che i nostri template leggano una volta sola ciò che hanno già letto. Amen.",
+    "feast": "Si festeggia applicando le patch di APSB26-153 (per Magento Open Source 2.4.7-p10, 2.4.8-p5 e 2.4.9) o passando a Mage-OS 3.6.0, senza dimenticare l'hotfix VULN-39341 di settembre, che va installato a parte.",
+    "proverb": "Blocco su blocco, si alza la shell."
+  },
+  "en": {
+    "title": "Saint BlockStrap, Smuggler of Blocks",
+    "patronage": "Magento shops, email templates, and blocks that sign themselves.",
+    "hagiography": "On 13 October 2026 Adobe published bulletin APSB26-153 for CVE-2026-103849, rated CVSS 10 and reported by vozec; on 15 October Sansec named it BlockStrap. In the email template engine of Magento and Adobe Commerce, a block directive hidden in a child template's data got signed and then re-read at root level, where it came alive: an unauthenticated attacker could thus run PHP code on the shop's server. It was a \"second-pass\" variant of StyleSmuggler that September's hotfix did not cover; Sansec reproduced four execution routes within 24 hours, though it saw no real-world attacks.",
+    "prayer": "O Saint BlockStrap, who tucks blocks inside blocks, let our templates read only once what they have already read. Amen.",
+    "feast": "Celebrated by applying the APSB26-153 patches (for Magento Open Source 2.4.7-p10, 2.4.8-p5 and 2.4.9) or moving to Mage-OS 3.6.0, without forgetting September's VULN-39341 hotfix, which must be installed separately.",
+    "proverb": "Block by block, the shell gets built."
+  }
+}

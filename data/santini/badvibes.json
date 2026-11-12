@@ -1,0 +1,10 @@
+{
+  "label": "BadVibes",
+  "motto": "UNDAE MALAE",
+  "niche": [
+    "#16283a",
+    "#2f5574"
+  ],
+  "accent": "#213b54",
+  "emblem": "<path d=\"M150 236 v-68\" stroke=\"#bfc9d1\" stroke-width=\"4\"/><circle cx=\"150\" cy=\"162\" r=\"7\" fill=\"#d9ad55\"/>\n<g fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"3\" stroke-linecap=\"round\"><path d=\"M132 146 q-10 16 0 32 M168 146 q10 16 0 32\"/><path d=\"M118 134 q-20 28 0 56 M182 134 q20 28 0 56\"/><path d=\"M104 122 q-30 40 0 80 M196 122 q30 40 0 80\"/></g>\n<rect x=\"128\" y=\"226\" width=\"44\" height=\"14\" rx=\"2\" fill=\"#213b54\" stroke=\"#d9ad55\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"237\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">31 &gt;</text>"
+}

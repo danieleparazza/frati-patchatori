@@ -1,0 +1,10 @@
+{
+  "label": "Ghost Potato",
+  "motto": "SPECTRUM TUBERIS",
+  "niche": [
+    "#221a2a",
+    "#43344f"
+  ],
+  "accent": "#33283e",
+  "emblem": "<ellipse cx=\"150\" cy=\"212\" rx=\"40\" ry=\"26\" transform=\"rotate(-8 150 212)\" fill=\"#c9a26a\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<g fill=\"#7a5a30\"><circle cx=\"134\" cy=\"206\" r=\"2.5\"/><circle cx=\"160\" cy=\"220\" r=\"2.5\"/><circle cx=\"170\" cy=\"204\" r=\"2\"/><circle cx=\"142\" cy=\"224\" r=\"2\"/></g>\n<path d=\"M126 182 v-36 a24 24 0 0 1 48 0 v36 l-8 -8 -8 8 -8 -8 -8 8 -8 -8 Z\" fill=\"#fbf3dd\" opacity=\"0.92\"/>\n<ellipse cx=\"141\" cy=\"148\" rx=\"4\" ry=\"6\" fill=\"#2a2a3a\"/><ellipse cx=\"159\" cy=\"148\" rx=\"4\" ry=\"6\" fill=\"#2a2a3a\"/>\n<text x=\"150\" y=\"172\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#5a4a6a\">NTLM</text>"
+}

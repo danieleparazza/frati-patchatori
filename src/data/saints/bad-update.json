@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Bad Update, che sbloccava la vecchia console",
+    "patronage": "delle Xbox 360, dei salvataggi modificati e di chi conserva in soffitta una console che nessuno aggiorna più.",
+    "hagiography": "Il 3 marzo 2025 grimdoomer pubblicò Bad Update, un exploit solo software per l'hypervisor della Xbox 360 che funzionava sull'ultima versione della dashboard, la 17559. Si partiva da un salvataggio modificato di Tony Hawk's American Wasteland o di Rock Band Blitz su una chiavetta USB, e una race condition nell'hypervisor permetteva di eseguire codice non firmato fino allo spegnimento. All'inizio servivano pazienza e parecchi tentativi; le versioni successive resero la corsa quasi istantanea. Niente saldatore, niente chip: soltanto un salvataggio e un buon tempismo.",
+    "prayer": "O Beato Bad Update, che apri le porte del regno a chi sa aspettare il momento giusto, fa' che le nostre console ricordino che il codice firmato non basta se il guardiano si distrae. Amen.",
+    "feast": "Si festeggia ricordando che l'exploit si cancella a ogni riavvio e restando lontani da Xbox Live mentre è attivo, per non farsi bannare.",
+    "proverb": "Vecchia console, nuova chiave: il tempo non chiude tutte le porte."
+  },
+  "en": {
+    "title": "Blessed Bad Update, Who Unlocked the Old Console",
+    "patronage": "Xbox 360s, modded save files, and everyone with an attic console nobody updates anymore.",
+    "hagiography": "On 3 March 2025 grimdoomer released Bad Update, a software-only exploit for the Xbox 360 hypervisor that worked on the latest dashboard, version 17559. It started from a modified save of Tony Hawk's American Wasteland or Rock Band Blitz on a USB stick, and a race condition in the hypervisor let unsigned code run until power-off. At first it took patience and many attempts; later versions made the race almost instant. No soldering iron, no modchip: just a save file and good timing.",
+    "prayer": "O Blessed Bad Update, who open the kingdom's gates to those who wait for the right moment, remind our consoles that signed code is not enough when the guardian looks away. Amen.",
+    "feast": "Celebrated by remembering that the exploit vanishes at every reboot, and by staying off Xbox Live while it runs, to avoid a ban.",
+    "proverb": "Old console, new key: time doesn't lock every door."
+  }
+}

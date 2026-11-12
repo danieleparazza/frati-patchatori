@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San oobPCI, che usciva dai confini",
+    "patronage": "dei driver in spazio utente, dei jailbreaker di iOS 15 e degli indici che non sanno dove finisce l'array.",
+    "hagiography": "Linus Henze di Pinauten trovò in DriverKit, il sistema con cui Apple porta i driver fuori dal kernel, un accesso fuori dai limiti legato alla gestione PCI: un'app malevola poteva eseguire codice con privilegi di sistema. Divenne il cuore del jailbreak Fugu15, dove dava lettura e scrittura arbitraria nella memoria del kernel. Apple lo corresse nel maggio 2022 con iOS 15.5 e i sistemi fratelli, come CVE-2022-26763.",
+    "prayer": "O San oobPCI, che leggi oltre la fine di ogni buffer, fa' che i nostri controlli sui limiti non dimentichino nemmeno un byte. Amen.",
+    "feast": "Si festeggia installando iOS 15.5 o successivi e controllando i limiti di ogni indice, anche quando il driver è \"solo in spazio utente\".",
+    "proverb": "Chi esce dal recinto non torna mai a mani vuote."
+  },
+  "en": {
+    "title": "Saint oobPCI, Who Stepped Out of Bounds",
+    "patronage": "user-space drivers, iOS 15 jailbreakers, and indexes that don't know where the array ends.",
+    "hagiography": "Linus Henze of Pinauten found in DriverKit, the framework Apple uses to move drivers out of the kernel, an out-of-bounds access tied to PCI handling: a malicious app could run code with system privileges. It became the heart of the Fugu15 jailbreak, where it gave arbitrary read and write of kernel memory. Apple fixed it in May 2022 with iOS 15.5 and its sibling releases, as CVE-2022-26763.",
+    "prayer": "O Saint oobPCI, who read past the end of every buffer, let our bounds checks never forget a single byte. Amen.",
+    "feast": "Celebrated by installing iOS 15.5 or later and bounds-checking every index, even when the driver is \"only in user space\".",
+    "proverb": "Whoever jumps the fence never comes back empty-handed."
+  }
+}

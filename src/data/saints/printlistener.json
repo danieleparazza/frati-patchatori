@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato PrintListener, che ascoltava le impronte",
+    "patronage": "dei lettori di impronte digitali, delle videochiamate e di chi striscia il dito sullo schermo mentre parla.",
+    "hagiography": "Al simposio NDSS del 2024 Man Zhou e colleghi della Huazhong University of Science and Technology, della Wuhan University, della Tsinghua University e della University of Colorado Denver presentarono PrintListener. Il debolissimo fruscio di un dito che scorre sul touchscreen, registrato per esempio durante una chiamata vocale o video sui social, lasciava intuire le caratteristiche del disegno dell'impronta. Da lì gli autori costruivano una \"PatternMasterPrint\" su misura, un'impronta artificiale capace di ingannare una parte delle impronte parziali in pochi tentativi.",
+    "prayer": "O Beato PrintListener, che odi ciò che le dita scrivono senza parole, fa' che le nostre impronte restino mute nelle chiamate. Amen.",
+    "feast": "Si festeggia evitando di scorrere lo schermo durante le videochiamate e affiancando all'impronta un PIN o un secondo fattore.",
+    "proverb": "Il dito tace, ma lo schermo racconta."
+  },
+  "en": {
+    "title": "Blessed PrintListener, Who Listened to Fingerprints",
+    "patronage": "fingerprint readers, video calls, and everyone who swipes while talking.",
+    "hagiography": "At NDSS 2024 Man Zhou and colleagues from Huazhong University of Science and Technology, Wuhan University, Tsinghua University and the University of Colorado Denver presented PrintListener. The faint rustle of a finger sliding across a touchscreen, recorded for example during a voice or video call on social apps, gave away features of the fingerprint's pattern. From that the authors built a tailored \"PatternMasterPrint\", an artificial print able to fool a share of partial fingerprints within a few attempts.",
+    "prayer": "O Blessed PrintListener, who hears what fingers write without words, let our prints keep silent on our calls. Amen.",
+    "feast": "Celebrated by not swiping the screen during video calls and pairing the fingerprint with a PIN or a second factor.",
+    "proverb": "The finger keeps quiet, but the screen tells tales."
+  }
+}

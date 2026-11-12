@@ -1,0 +1,10 @@
+{
+  "label": "Lateralus",
+  "motto": "NOMEN MUTATUM, TCC VICTA",
+  "niche": [
+    "#1b1e2c",
+    "#3c4260"
+  ],
+  "accent": "#2a2f46",
+  "emblem": "<ellipse cx=\"150\" cy=\"140\" rx=\"34\" ry=\"10\" fill=\"#bfc9d1\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M116 140 v56 a34 10 0 0 0 68 0 v-56\" fill=\"#4a5272\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<path d=\"M116 158 a34 10 0 0 0 68 0 M116 176 a34 10 0 0 0 68 0\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"1.5\"/>\n<text x=\"150\" y=\"194\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">TCC.db</text>\n<path d=\"M104 222 h34 l-6 -6 M196 236 h-34 l6 6\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M140 214 l12 0 l4 4 h16 v14 h-32 z\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"/>"
+}

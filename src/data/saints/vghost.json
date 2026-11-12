@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Vghost, fantasma delle cache dimenticate",
+    "patronage": "delle macchine virtuali, del sottosistema vhost di Linux e degli indirizzi che non abitano più dove dicono.",
+    "hagiography": "Il 12 ottobre 2026 il Tencent Zhuque Lab raccontò Vghost (CVE-2026-74580), trovato dal suo sistema di intelligenza artificiale Corvus AI nel sottosistema vhost del kernel Linux. Una cache dei metadati delle code virtio non veniva svuotata quando le loro posizioni cambiavano, così il kernel continuava a tradurre gli indirizzi con una mappatura scaduta e leggeva o scriveva memoria dove non doveva. Secondo i ricercatori il difetto attraversava le versioni da Linux 4.11 alla 7.2: da utente locale si diventava root su varie distribuzioni e, in certe configurazioni con IOMMU virtuale, una macchina ospite poteva corrompere la memoria di QEMU sull'host.",
+    "prayer": "O San Vghost, fantasma che abiti le cache dimenticate, fa' che i nostri kernel dimentichino in fretta ciò che non vale più. Amen.",
+    "feast": "Si festeggia installando un kernel con la correzione (per esempio 6.1.183, 6.6.152, 6.12.104 o successivi) e togliendo l'accesso ai dispositivi vhost a chi non ne ha bisogno.",
+    "proverb": "Cache che non si svuota, fantasma che ritorna."
+  },
+  "en": {
+    "title": "Saint Vghost, Phantom of Forgotten Caches",
+    "patronage": "virtual machines, Linux's vhost subsystem, and addresses that no longer live where they claim to.",
+    "hagiography": "On 12 October 2026 Tencent Zhuque Lab described Vghost (CVE-2026-74580), found by its AI system Corvus AI in the Linux kernel's vhost subsystem. A metadata cache for virtio rings was not flushed when the rings moved, so the kernel kept translating addresses through a stale mapping and read or wrote memory where it shouldn't. According to the researchers the flaw spanned Linux 4.11 to 7.2: a local user could become root on several distributions and, in some setups with a virtual IOMMU, a guest could corrupt QEMU's memory on the host.",
+    "prayer": "O Saint Vghost, phantom haunting forgotten caches, let our kernels quickly forget what is no longer valid. Amen.",
+    "feast": "Celebrated by installing a kernel with the fix (for example 6.1.183, 6.6.152, 6.12.104 or later) and taking vhost device access away from anyone who doesn't need it.",
+    "proverb": "A cache never cleared is a ghost that comes back."
+  }
+}

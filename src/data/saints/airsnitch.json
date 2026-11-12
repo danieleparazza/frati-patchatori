@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AirSnitch, che scavalcava i separé del Wi-Fi",
+    "patronage": "delle reti Wi-Fi per ospiti, dell'isolamento dei client e di chi si sentiva solo nella rete dell'albergo.",
+    "hagiography": "Al simposio NDSS 2026 Xin'an Zhou, Juefei Pu, Zhutian Liu, Zhiyun Qian, Zhaowei Tan e Srikanth V. Krishnamurthy della University of California, Riverside, con Mathy Vanhoef della KU Leuven, presentarono AirSnitch. L'isolamento dei client, che dovrebbe impedire ai dispositivi della stessa rete Wi-Fi di parlarsi, non è uno standard, e gli autori trovarono tre crepe: chiavi dei frame broadcast gestite male, controlli fatti solo al livello MAC o solo a quello IP, identità del client poco coerente tra i livelli della rete. Ne ricavarono attacchi completi da machine-in-the-middle; secondo gli autori, ogni router e rete provati cadeva almeno in uno.",
+    "prayer": "O Beato AirSnitch, che passi sotto i separé come l'aria, fa' che nelle reti condivise ognuno resti nella sua stanza. Amen.",
+    "feast": "Si festeggia non affidando la riservatezza all'isolamento del Wi-Fi: cifratura end-to-end, VPN sulle reti altrui e reti davvero separate per ospiti e apparati interni.",
+    "proverb": "Separé di carta, vicino che ascolta."
+  },
+  "en": {
+    "title": "Blessed AirSnitch, Who Climbed the Wi-Fi Partitions",
+    "patronage": "guest Wi-Fi networks, client isolation, and everyone who felt alone on the hotel network.",
+    "hagiography": "At NDSS 2026 Xin'an Zhou, Juefei Pu, Zhutian Liu, Zhiyun Qian, Zhaowei Tan and Srikanth V. Krishnamurthy of the University of California, Riverside, with Mathy Vanhoef of KU Leuven, presented AirSnitch. Client isolation, meant to stop devices on the same Wi-Fi network from talking to each other, isn't standardized, and the authors found three cracks: mishandled keys for broadcast frames, checks done only at the MAC layer or only at the IP layer, and a client identity poorly kept in sync across the network stack. They turned them into full machine-in-the-middle attacks; according to the authors, every router and network tested fell to at least one.",
+    "prayer": "O Blessed AirSnitch, who slip under the partitions like air, let everyone on a shared network stay in their own room. Amen.",
+    "feast": "Celebrated by not trusting Wi-Fi isolation for privacy: end-to-end encryption, a VPN on other people's networks, and truly separate networks for guests and internal devices.",
+    "proverb": "Paper partitions make for listening neighbours."
+  }
+}

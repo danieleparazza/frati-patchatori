@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San StackWarp, che piegava la pila",
+    "patronage": "dei processori AMD, delle macchine virtuali riservate SEV-SNP e dei puntatori di stack che si spostano da soli.",
+    "hagiography": "A metà gennaio 2026 Ruiyi Zhang, Tristan Hornetz, Daniel Weber, Fabian Thomas e Michael Schwarz del CISPA presentarono StackWarp (CVE-2025-29943): un bit di un registro MSR non documentato, condiviso dai due thread dello stesso core, accendeva e spegneva il meccanismo che tiene il conto delle modifiche allo stack pointer. Giocandoci dal thread vicino, un hypervisor malevolo poteva spostare a piacere lo stack pointer di una macchina virtuale SEV-SNP, deviarne il flusso e, nelle dimostrazioni, entrare in OpenSSH senza password o diventare root. Il difetto riguarda le microarchitetture AMD da Zen 1 a Zen 5.",
+    "prayer": "O San StackWarp, che sposti la pila mentre nessuno guarda, fa' che le nostre macchine riservate restino tali anche davanti all'hypervisor. Amen.",
+    "feast": "Si festeggia caricando il microcode indicato nel bollettino AMD-SB-3027 e, nell'attesa, disattivando l'SMT sugli host che ospitano macchine riservate.",
+    "proverb": "Chi ti tiene il conto, te lo può anche truccare."
+  },
+  "en": {
+    "title": "Saint StackWarp, Who Bent the Stack",
+    "patronage": "AMD processors, SEV-SNP confidential virtual machines, and stack pointers that move on their own.",
+    "hagiography": "In mid-January 2026 Ruiyi Zhang, Tristan Hornetz, Daniel Weber, Fabian Thomas and Michael Schwarz of CISPA presented StackWarp (CVE-2025-29943): a bit in an undocumented MSR, shared by the two threads of the same core, switched on and off the mechanism that keeps track of changes to the stack pointer. Toggling it from the sibling thread, a malicious hypervisor could shift an SEV-SNP virtual machine's stack pointer at will, hijack its control flow and, in the demos, log into OpenSSH without a password or become root. The flaw affects AMD microarchitectures from Zen 1 to Zen 5.",
+    "prayer": "O Saint StackWarp, who moves the stack while no one is looking, let our confidential machines stay confidential even before the hypervisor. Amen.",
+    "feast": "Celebrated by loading the microcode listed in bulletin AMD-SB-3027 and, meanwhile, disabling SMT on hosts that run confidential machines.",
+    "proverb": "Whoever keeps your count can also cook it."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RANsacked, che spegneva le città con un pacchetto",
+    "patronage": "delle reti cellulari open source, degli MME e degli AMF, e delle città rimaste senza tacche.",
+    "hagiography": "Nell'ottobre 2024, alla conferenza ACM CCS, Nathaniel Bennett, Weidong Zhu, Benjamin Simon, Ryon Kennedy, William Enck, Patrick Traynor e Kevin Butler presentarono RANsacked: un fuzzer guidato dalle specifiche ASN.1, puntato sulle interfacce tra antenne e nucleo di sette implementazioni LTE e tre 5G, tra cui Open5GS, Magma e OpenAirInterface. Ne uscirono 119 vulnerabilità e nessuna implementazione si salvò: in molti casi bastava un solo pacchetto piccolo per far cadere di continuo l'MME o l'AMF e lasciare senza servizio un'intera città. Altre erano corruzioni di memoria che potevano aprire la porta del nucleo.",
+    "prayer": "O San RANsacked, che con un pacchetto solo zittisci le antenne di una città, fa' che i nostri nuclei rispondano agli sconosciuti con un errore e non con un crollo. Amen.",
+    "feast": "Si festeggia aggiornando il nucleo alle versioni corrette (srsRAN, per esempio, dalla 23.10) e tenendo le sue interfacce lontane da chi non deve raggiungerle.",
+    "proverb": "La città resta muta, e il pacchetto era piccolo."
+  },
+  "en": {
+    "title": "Saint RANsacked, Who Silenced Cities With a Packet",
+    "patronage": "open-source cellular networks, MMEs and AMFs, and cities left without a single bar.",
+    "hagiography": "In October 2024, at ACM CCS, Nathaniel Bennett, Weidong Zhu, Benjamin Simon, Ryon Kennedy, William Enck, Patrick Traynor and Kevin Butler presented RANsacked: a fuzzer driven by ASN.1 specifications, aimed at the radio-to-core interfaces of seven LTE and three 5G implementations, including Open5GS, Magma and OpenAirInterface. It turned up 119 vulnerabilities and spared no implementation: often a single small packet could repeatedly crash the MME or AMF and leave a whole city without service. Others were memory corruption bugs that could open the door to the core.",
+    "prayer": "O Saint RANsacked, who hush a whole city's antennas with one packet, let our cores answer strangers with an error, not a collapse. Amen.",
+    "feast": "Celebrated by updating the core to fixed releases (srsRAN, for instance, from 23.10) and keeping its interfaces away from anyone who shouldn't reach them.",
+    "proverb": "The whole city went quiet, and the packet was tiny."
+  }
+}

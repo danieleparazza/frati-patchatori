@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San ParagOWNED, custode dei messaggi",
+    "patronage": "di chi racconta i fatti, dei link iCloud condivisi e degli spyware che credevano di restare nell'ombra.",
+    "hagiography": "CVE-2025-43200 è un difetto logico nell'elaborazione di foto o video condivisi tramite link iCloud, che Apple corresse con iOS 18.3.1 nel febbraio 2025. A giugno Apple dichiarò che era stato sfruttato in un attacco estremamente sofisticato contro persone specifiche, e Citizen Lab lo collegò allo spyware Graphite di Paragon, trovato sugli iPhone di giornalisti europei. Il 3 dicembre 2025 il blog gracecondition pubblicò ParagOWNED, un'analisi delle patch che individua un controllo mancante sul mittente di un messaggio e ipotizza, dichiarandolo speculativo, un ruolo di Apple Intelligence nella catena.",
+    "prayer": "O San ParagOWNED, che conosci le vie nascoste dei messaggi, proteggi chi informa dagli occhi di chi spia, e porta luce dove lo spyware cerca il buio. Amen.",
+    "feast": "Si festeggia installando iOS 18.3.1 o successivi e, per chi rischia di essere preso di mira, attivando la modalità di isolamento.",
+    "proverb": "Chi spia nei telefoni altrui, prima o poi trova la patch."
+  },
+  "en": {
+    "title": "Saint ParagOWNED, Guardian of Messages",
+    "patronage": "those who report the facts, shared iCloud links, and spyware that thought it would stay in the shadows.",
+    "hagiography": "CVE-2025-43200 is a logic flaw in processing photos or videos shared via iCloud Link, fixed by Apple in iOS 18.3.1 in February 2025. In June Apple said it had been exploited in an extremely sophisticated attack against specific individuals, and Citizen Lab tied it to Paragon's Graphite spyware, found on the iPhones of European journalists. On 3 December 2025 the gracecondition blog published ParagOWNED, a patch analysis that pins down a missing check on a message's sender and suggests, explicitly as speculation, that Apple Intelligence played a part in the chain.",
+    "prayer": "O Saint ParagOWNED, who know the hidden paths of messages, shield those who inform from the eyes of those who spy, and bring light where spyware seeks the dark. Amen.",
+    "feast": "Celebrated by installing iOS 18.3.1 or later and, for anyone likely to be targeted, turning on Lockdown Mode.",
+    "proverb": "Peer into other people's phones and sooner or later you meet the patch."
+  }
+}

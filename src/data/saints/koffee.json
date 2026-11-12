@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato KOFFEE, espresso dell'autoradio",
+    "patronage": "delle unità multimediali delle auto, dei demoni di sistema troppo disponibili e di chi guida con il caffè in mano.",
+    "hagiography": "Nel novembre 2020 Gianpiero Costantino e Ilaria Matteucci dell'IIT-CNR di Pisa pubblicarono KOFFEE, Kia OFFensivE Exploit, poi registrato come CVE-2020-8539. Sull'unità multimediale Android di una Kia Ceed, un'app poteva lanciare il programma di sistema micomd e, attraverso di esso, iniettare comandi sul bus CAN multimediale dell'auto. Il difetto era stato segnalato nel 2019 e Kia lo corresse con un aggiornamento software nel 2020.",
+    "prayer": "O Beato KOFFEE, che servi comandi al bus CAN come un caffè al banco, fa' che le nostre autoradio obbediscano solo a chi ne ha diritto. Amen.",
+    "feast": "Si festeggia aggiornando il software dell'unità multimediale presso l'officina, e gustando il caffè a motore spento.",
+    "proverb": "Il caffè ristretto sveglia, il comando ristretto no."
+  },
+  "en": {
+    "title": "Blessed KOFFEE, Espresso of the Head Unit",
+    "patronage": "car head units, overly helpful system daemons, and anyone who drives with a coffee in hand.",
+    "hagiography": "In November 2020 Gianpiero Costantino and Ilaria Matteucci of IIT-CNR in Pisa published KOFFEE, the Kia OFFensivE Exploit, later registered as CVE-2020-8539. On the Android head unit of a Kia Ceed, an app could launch the micomd system program and, through it, inject commands onto the car's multimedia CAN bus. The flaw had been reported in 2019 and Kia fixed it with a software update in 2020.",
+    "prayer": "O Blessed KOFFEE, who serve commands to the CAN bus like coffee at the counter, let our head units obey only those entitled. Amen.",
+    "feast": "Celebrated by having the dealer update the head unit software, and sipping coffee with the engine off.",
+    "proverb": "A strong coffee wakes you up; a stray command shouldn't."
+  }
+}

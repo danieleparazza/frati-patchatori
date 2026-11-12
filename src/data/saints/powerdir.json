@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San powerdir, che traslocava la casa",
+    "patronage": "di macOS, delle cartelle Inizio e dei permessi di microfono e fotocamera concessi a nostra insaputa.",
+    "hagiography": "Il 10 gennaio 2022 Jonathan Bar Or di Microsoft descrisse powerdir (CVE-2021-30970): un'app poteva cambiare la cartella Inizio dell'utente e piazzarvi un database TCC falso, il registro in cui macOS annota i consensi di privacy. Così l'app si concedeva da sola microfono, fotocamera e registrazione dello schermo, senza che comparisse alcuna richiesta. Segnalato ad Apple nel luglio 2021, fu corretto a dicembre in macOS Monterey 12.1 e Big Sur 11.6.2.",
+    "prayer": "O San powerdir, che sposti la casa per riscriverne le regole, fa' che i nostri consensi li dia soltanto chi abita davvero il Mac. Amen.",
+    "feast": "Si festeggia aggiornando ad almeno macOS Monterey 12.1 o Big Sur 11.6.2 e diffidando delle app che vogliono cambiare indirizzo all'utente.",
+    "proverb": "Chi ti sposta la casa, ti riscrive le regole."
+  },
+  "en": {
+    "title": "Saint powerdir, Who Moved House",
+    "patronage": "macOS, home folders, and microphone and camera permissions granted behind our backs.",
+    "hagiography": "On 10 January 2022 Jonathan Bar Or of Microsoft described powerdir (CVE-2021-30970): an app could change the user's home folder and plant a fake TCC database there, the register where macOS records privacy consents. The app could then grant itself microphone, camera and screen recording without any prompt appearing. Reported to Apple in July 2021, it was fixed in December in macOS Monterey 12.1 and Big Sur 11.6.2.",
+    "prayer": "O Saint powerdir, who moves the house to rewrite its rules, let consent be given only by whoever truly lives in the Mac. Amen.",
+    "feast": "Celebrated by updating to at least macOS Monterey 12.1 or Big Sur 11.6.2 and being wary of apps that want to change the user's address.",
+    "proverb": "Whoever moves your house rewrites your rules."
+  }
+}

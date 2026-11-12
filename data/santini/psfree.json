@@ -1,0 +1,10 @@
+{
+  "label": "PsFree",
+  "motto": "LIBERA NOS A FIRMWARE",
+  "niche": [
+    "#14203a",
+    "#2f4472"
+  ],
+  "accent": "#1f2f58",
+  "emblem": "<path d=\"M106 168 q0 -22 22 -22 h44 q22 0 22 22 l8 40 q4 18 -12 18 q-10 0 -18 -14 l-6 -10 h-32 l-6 10 q-8 14 -18 14 q-16 0 -12 -18 Z\" fill=\"#2a3c66\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<g stroke=\"#fbf3dd\" stroke-width=\"4\" stroke-linecap=\"round\"><line x1=\"124\" y1=\"170\" x2=\"140\" y2=\"170\"/><line x1=\"132\" y1=\"162\" x2=\"132\" y2=\"178\"/></g>\n<g fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"2\"><circle cx=\"170\" cy=\"162\" r=\"4\"/><rect x=\"176\" y=\"168\" width=\"8\" height=\"8\"/><path d=\"M160 172 l5 -8 l5 8 Z\"/><path d=\"M166 180 l6 6 M172 180 l-6 6\"/></g>\n<g fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"><path d=\"M118 132 q-6 -10 4 -14 q10 -4 12 6\"/><path d=\"M182 132 q6 -10 -4 -14 q-10 -4 -12 6\"/></g>\n<path d=\"M136 126 l6 -6 M164 126 l-6 -6\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>"
+}

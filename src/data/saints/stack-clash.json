@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Stack Clash, che saltava la pagina di guardia",
+    "patronage": "delle pile che crescono da sole, delle pagine di guardia troppo sottili e di chi credeva che fra stack e heap ci fosse un muro.",
+    "hagiography": "Il 19 giugno 2017 la Qualys Research Team rivelò Stack Clash: lo stack di un programma cresce in automatico, e una pagina di guardia di pochi kilobyte non bastava a separarlo dalle altre regioni di memoria. Con richieste abbastanza grandi lo si poteva far scavalcare la guardia e scontrare con un'altra zona, sovrascrivendo l'una con l'altra. Linux, OpenBSD, NetBSD, FreeBSD e Solaris erano coinvolti, e i ricercatori scrissero sette exploit locali per diventare root, fra cui uno con sudo.",
+    "prayer": "O San Stack Clash, che con un salto lungo superi ogni recinto, allarga le nostre guardie e frena le nostre pile. Amen.",
+    "feast": "Si festeggia applicando gli aggiornamenti dei sistemi, che hanno allargato lo spazio di guardia, e ricompilando i programmi esposti con le protezioni dello stack.",
+    "proverb": "Recinto basso, salto facile."
+  },
+  "en": {
+    "title": "Saint Stack Clash, Who Leapt the Guard Page",
+    "patronage": "self-growing stacks, guard pages too thin, and everyone who thought there was a wall between stack and heap.",
+    "hagiography": "On 19 June 2017 the Qualys Research Team revealed Stack Clash: a program's stack grows automatically, and a guard page of a few kilobytes was not enough to keep it apart from other memory regions. With large enough allocations it could jump the guard and collide with another area, overwriting one with the other. Linux, OpenBSD, NetBSD, FreeBSD and Solaris were affected, and the researchers wrote seven local root exploits, including one through sudo.",
+    "prayer": "O Saint Stack Clash, who clear every fence in one long leap, widen our guards and rein in our stacks. Amen.",
+    "feast": "Celebrated by applying system updates, which widened the guard gap, and rebuilding exposed programs with stack protections.",
+    "proverb": "Low fence, easy leap."
+  }
+}

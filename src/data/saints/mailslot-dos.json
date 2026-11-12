@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San Mailslot DOS, che con le cassette postali non c'entrava niente",
+    "patronage": "del servizio Server di Windows, delle stringhe senza terminatore e dei nomi dati troppo in fretta.",
+    "hagiography": "Il 10 ottobre 2006 Microsoft pubblicò il bollettino MS06-063 per una falla nel driver srv.sys del servizio Server di Windows 2000, XP e Server 2003 (CVE-2006-3942). Un messaggio SMB di transazione con una stringa priva del carattere nullo finale portava il driver a dereferenziare un puntatore nullo, e il sistema crollava: una negazione del servizio da remoto, attraverso le porte 139 o 445. Il nome «Mailslot DOS» nacque da un'analisi iniziale incompleta: come precisò poi il registro CVE, il difetto non aveva nulla a che fare con le mailslot.",
+    "prayer": "O San Mailslot DOS, che porti il nome di una cassetta postale mai aperta, fa' che i nostri driver leggano le stringhe solo fin dove finiscono davvero. Amen.",
+    "feast": "Si festeggia installando MS06-063 e non esponendo le porte 139 e 445 a Internet, consiglio che vent'anni dopo vale ancora.",
+    "proverb": "Nome sbagliato, schermata blu giusta."
+  },
+  "en": {
+    "title": "Saint Mailslot DOS, Who Had Nothing to Do With Mailslots",
+    "patronage": "the Windows Server service, unterminated strings, and names given in too much of a hurry.",
+    "hagiography": "On 10 October 2006 Microsoft released bulletin MS06-063 for a flaw in srv.sys, the driver of the Server service in Windows 2000, XP and Server 2003 (CVE-2006-3942). An SMB transaction message containing a string without its terminating null character led the driver to dereference a null pointer, and the system went down: a remote denial of service through ports 139 or 445. The name \"Mailslot DOS\" came from incomplete early research: as the CVE record later noted, the flaw had nothing to do with mailslots.",
+    "prayer": "O Saint Mailslot DOS, who bear the name of a mailbox never opened, let our drivers read strings only as far as they really go. Amen.",
+    "feast": "Celebrated by installing MS06-063 and not exposing ports 139 and 445 to the Internet, advice that still holds twenty years on.",
+    "proverb": "Wrong name, right blue screen."
+  }
+}

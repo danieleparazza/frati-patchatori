@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San SMTP Smuggling, contrabbandiere di lettere",
+    "patronage": "dei server di posta, dei punti a fine messaggio e dei mittenti che non sono chi dicono.",
+    "hagiography": "Nel dicembre 2023 Timo Longin di SEC Consult pubblicò SMTP Smuggling: server di posta in uscita e in entrata non concordano su quale sequenza chiuda i dati di un messaggio, e chi sfrutta il disaccordo, per esempio con <LF>.<CR><LF>, nasconde una seconda email dentro la prima. La lettera contrabbandata poteva portare l'indirizzo di milioni di domini e superare i controlli SPF, DKIM e DMARC. Erano coinvolti Exchange Online, GMX, Cisco Secure Email, Postfix, Sendmail ed Exim, e la presentazione al 37C3 completò la rivelazione.",
+    "prayer": "O San SMTP Smuggling, che nascondi una lettera dentro l'altra, fa' che i nostri server riconoscano il punto finale vero da quello finto. Amen.",
+    "feast": "Si festeggia aggiornando Postfix e attivando smtpd_forbid_bare_newline, passando a Exim 4.97.1 o successivi e rifiutando le righe che finiscono senza il loro <CR>.",
+    "proverb": "Punto e a capo: ma quale capo?"
+  },
+  "en": {
+    "title": "Saint SMTP Smuggling, Smuggler of Letters",
+    "patronage": "mail servers, end-of-message full stops, and senders who are not who they claim.",
+    "hagiography": "In December 2023 Timo Longin of SEC Consult published SMTP Smuggling: outbound and inbound mail servers disagree on which sequence ends a message's data, and whoever exploits the disagreement, for instance with <LF>.<CR><LF>, hides a second email inside the first. The smuggled letter could carry the address of millions of domains and pass SPF, DKIM and DMARC checks. Exchange Online, GMX, Cisco Secure Email, Postfix, Sendmail and Exim were involved, and a talk at 37C3 completed the revelation.",
+    "prayer": "O Saint SMTP Smuggling, who hides one letter inside another, let our servers tell the true full stop from the false. Amen.",
+    "feast": "Celebrated by updating Postfix and enabling smtpd_forbid_bare_newline, moving to Exim 4.97.1 or later, and rejecting lines that end without their <CR>.",
+    "proverb": "Mind your full stops, or someone else will write the next letter."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato iSCSHELL, che entrava dalla porta 3260",
+    "patronage": "dei dischi di rete, dei demoni che girano come root e delle configurazioni lasciate come le ha fatte il pacchetto.",
+    "hagiography": "Il 2 agosto 2026 un advisory descrisse iSCSHELL, una catena di difetti in tgtd, il demone del Linux SCSI Target Framework che esporta dischi via iSCSI: un offset non controllato permetteva di scrivere dove si voleva nello heap, e due letture di troppo rivelavano gli indirizzi necessari. Senza CHAP, che non è attivo di default, bastava raggiungere la porta 3260 per eseguire comandi come root. Secondo l'advisory tutte le versioni fino alla 1.0.97 erano vulnerabili; la 1.0.98 uscì il 1° novembre con le correzioni, senza annunci.",
+    "prayer": "O Beato iSCSHELL, che dai dischi condivisi sali fino a root, fa' che le nostre porte di storage parlino solo a chi conosce la parola d'ordine. Amen.",
+    "feast": "Si festeggia aggiornando tgt alla 1.0.98, bloccando la porta 3260 alle reti non fidate, attivando CHAP ed evitando le ACL che accettano chiunque.",
+    "proverb": "Disco aperto a tutti, padrone di nessuno."
+  },
+  "en": {
+    "title": "Blessed iSCSHELL, Who Came in Through Port 3260",
+    "patronage": "network disks, daemons running as root, and configurations left exactly as the package shipped them.",
+    "hagiography": "On 2 August 2026 an advisory described iSCSHELL, a chain of flaws in tgtd, the Linux SCSI Target Framework daemon that exports disks over iSCSI: an unchecked offset allowed writing anywhere on the heap, and two reads too many leaked the addresses needed. Without CHAP, which is off by default, reaching port 3260 was enough to run commands as root. According to the advisory every version up to 1.0.97 was affected; 1.0.98 came out on 1 November with the fixes, unannounced.",
+    "prayer": "O Blessed iSCSHELL, who climb from shared disks all the way to root, let our storage ports speak only to those who know the password. Amen.",
+    "feast": "Celebrated by updating tgt to 1.0.98, blocking port 3260 from untrusted networks, turning on CHAP and avoiding ACLs that accept anyone.",
+    "proverb": "A disk open to all is a disk owned by none."
+  }
+}

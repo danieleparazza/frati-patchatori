@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AOF, che inganna le nuvole di punti",
+    "patronage": "delle nuvole di punti, delle reti neurali che riconoscono le forme e degli oggetti che non sono più ciò che sembrano.",
+    "hagiography": "Il 26 gennaio 2022 Binbin Liu, Jinlai Zhang, Lyujie Chen e Jihong Zhu pubblicarono uno studio su AOF, \"Attacking On Frequency\": un attacco avversario contro le reti neurali che classificano oggetti 3D descritti come nuvole di punti. Invece di spostare i punti uno per uno, AOF perturba la componente a bassa frequenza della forma, ottenendo esempi ingannevoli che, secondo gli autori, si trasferiscono meglio ad altri modelli e resistono meglio alle difese 3D.",
+    "prayer": "O Beato AOF, che sussurri alle basse frequenze, fa' che i nostri modelli guardino la forma e non si lascino cullare dalle sue onde. Amen.",
+    "feast": "Si festeggia mettendo alla prova i modelli 3D con attacchi trasferibili, non solo con quelli più facili, e addestrandoli anche su esempi avversari.",
+    "proverb": "Non serve spostare la montagna: basta smussarne il profilo."
+  },
+  "en": {
+    "title": "Blessed AOF, Who Fools the Point Clouds",
+    "patronage": "point clouds, neural networks that recognise shapes, and objects that are no longer what they seem.",
+    "hagiography": "On 26 January 2022 Binbin Liu, Jinlai Zhang, Lyujie Chen and Jihong Zhu published a study of AOF, \"Attacking On Frequency\": an adversarial attack on neural networks that classify 3D objects described as point clouds. Instead of nudging points one by one, AOF perturbs the low-frequency part of the shape, producing deceptive examples that, according to the authors, transfer better to other models and hold up better against 3D defences.",
+    "prayer": "O Blessed AOF, who whisper to the low frequencies, let our models look at the shape and not be lulled by its waves. Amen.",
+    "feast": "Celebrated by testing 3D models against transferable attacks, not just the easy ones, and by training them on adversarial examples too.",
+    "proverb": "No need to move the mountain: just soften its outline."
+  }
+}

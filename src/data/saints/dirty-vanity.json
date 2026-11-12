@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Dirty Vanity, che si specchiava nei processi",
+    "patronage": "dei processi clonati di Windows, degli specchi e degli EDR che guardano un processo alla volta.",
+    "hagiography": "Nel dicembre 2022, alla Black Hat Europe, Eliran Nissan di Deep Instinct presentò Dirty Vanity, una tecnica di iniezione di codice che abusa del fork dei processi in Windows. Il codice malevolo si scrive in un processo bersaglio come al solito; poi il processo viene clonato, per esempio con RtlCreateProcessReflection, e il clone parte proprio da lì. Gli EDR, che cercano scrittura ed esecuzione nello stesso processo, vedevano scrivere in uno ed eseguire in un altro, mai toccato.",
+    "prayer": "O Beato Dirty Vanity, che ti specchi nel processo altrui e ne esci armato, fa' che i nostri difensori seguano anche i riflessi. Amen.",
+    "feast": "Si festeggia con EDR che sorvegliano le primitive di fork e seguono i processi clonati come i loro genitori.",
+    "proverb": "Lo specchio non mente, ma il riflesso può pugnalare."
+  },
+  "en": {
+    "title": "Blessed Dirty Vanity, Who Admired Himself in Processes",
+    "patronage": "cloned Windows processes, mirrors, and EDRs that watch one process at a time.",
+    "hagiography": "In December 2022, at Black Hat Europe, Eliran Nissan of Deep Instinct presented Dirty Vanity, a code-injection technique that abuses process forking on Windows. The malicious code is written into a target process as usual; then the process is cloned, for instance with RtlCreateProcessReflection, and the clone starts right there. EDRs, looking for a write and an execution in the same process, saw a write in one and execution in another that was never touched.",
+    "prayer": "O Blessed Dirty Vanity, who gaze into another's process and step out armed, let our defenders follow the reflections too. Amen.",
+    "feast": "Celebrated with EDRs that watch forking primitives and track cloned processes just like their parents.",
+    "proverb": "The mirror never lies, but the reflection can stab."
+  }
+}

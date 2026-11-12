@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato SupaPwn, che si fece superutente",
+    "patronage": "dei database Postgres in cloud, degli script eseguiti dopo l'installazione e delle credenziali dimenticate nei file di configurazione.",
+    "hagiography": "Il 17 novembre 2025 Hacktron raccontò SupaPwn, una catena trovata a ottobre in Supabase Cloud mentre studiava Lovable Cloud. Una corsa nell'installazione dell'estensione postgres_fdw rendeva per un attimo superutente l'utente postgres; un event trigger preparato ne approfittava per creare un nuovo superutente, da lì COPY TO PROGRAM apriva una shell sull'host, un binario SUID dava root e credenziali di orchestrazione lasciate nelle configurazioni aprivano la gestione delle istanze della regione. Supabase chiuse l'accesso in un giorno e pagò 25.000 dollari di ricompensa.",
+    "prayer": "O Beato SupaPwn, che sali dal database alla nuvola un gradino alla volta, fa' che ogni nostro privilegio duri solo l'istante che serve. Amen.",
+    "feast": "Si festeggia ruotando le credenziali, togliendo ai database l'accesso alle API di gestione e lasciando che gli event trigger obbediscano solo al proprio padrone.",
+    "proverb": "Superutente per un attimo, padrone per sempre."
+  },
+  "en": {
+    "title": "Blessed SupaPwn, Who Made Itself Superuser",
+    "patronage": "cloud Postgres databases, post-install scripts, and credentials forgotten in config files.",
+    "hagiography": "On 17 November 2025 Hacktron described SupaPwn, a chain found in October in Supabase Cloud while studying Lovable Cloud. A race during the installation of the postgres_fdw extension briefly made the postgres user a superuser; a crafted event trigger seized the moment to create a new superuser, COPY TO PROGRAM then opened a shell on the host, a SUID binary gave root, and orchestration credentials left in config files unlocked management of the region's instances. Supabase cut off access within a day and paid a $25,000 bounty.",
+    "prayer": "O Blessed SupaPwn, who climb from database to cloud one step at a time, let each of our privileges last only the instant it is needed. Amen.",
+    "feast": "Celebrated by rotating credentials, keeping databases away from management APIs, and letting event triggers obey only their owners.",
+    "proverb": "Superuser for a moment, master forever."
+  }
+}

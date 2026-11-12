@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ToRPEDO, siluro del paging",
+    "patronage": "delle reti 4G e 5G, dei messaggi di paging e di chi riattacca prima che il telefono squilli.",
+    "hagiography": "Al simposio NDSS del febbraio 2019 Syed Rafiul Hussain, Mitziu Echeverria, Omar Chowdhury, Ninghui Li ed Elisa Bertino, della Purdue University e della University of Iowa, presentarono ToRPEDO (TRacking via Paging mEssage DistributiOn). Chiamando la vittima e riagganciando subito, meno di dieci volte, un attaccante con una radio in ascolto poteva capire se il telefono si trovava in una certa cella, sfruttando gli istanti fissi in cui la rete lo chiama. Da lì nascevano PIERCER, per legare l'IMSI al numero di telefono, e un attacco a forza bruta per ricostruire l'IMSI sia in 4G sia in 5G.",
+    "prayer": "O Beato ToRPEDO, che trovi la nave contando i rintocchi della campana, fa' che le nostre reti chiamino i telefoni senza dire dove sono. Amen.",
+    "feast": "Si festeggia con operatori che usano identificativi temporanei nel paging, come raccomanda il 3GPP, e con standard che rendano meno prevedibile quando la rete cerca un telefono.",
+    "proverb": "Chi riattacca subito, non sempre ha sbagliato numero."
+  },
+  "en": {
+    "title": "Blessed ToRPEDO, Torpedo of Paging",
+    "patronage": "4G and 5G networks, paging messages, and everyone who hangs up before the phone rings.",
+    "hagiography": "At NDSS in February 2019 Syed Rafiul Hussain, Mitziu Echeverria, Omar Chowdhury, Ninghui Li and Elisa Bertino, of Purdue University and the University of Iowa, presented ToRPEDO (TRacking via Paging mEssage DistributiOn). By calling the victim and hanging up at once, fewer than ten times, an attacker with a listening radio could tell whether the phone was in a given cell, exploiting the fixed moments when the network pages it. That opened the door to PIERCER, which links the IMSI to the phone number, and a brute-force attack that recovers the IMSI on both 4G and 5G.",
+    "prayer": "O Blessed ToRPEDO, who find the ship by counting the bell's chimes, let our networks call phones without saying where they are. Amen.",
+    "feast": "Celebrated by operators who use temporary identifiers in paging, as 3GPP recommends, and by standards that make it harder to predict when the network looks for a phone.",
+    "proverb": "Not everyone who hangs up at once dialled the wrong number."
+  }
+}

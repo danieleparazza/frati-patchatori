@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato LiDAttack, che spostava pochi punti",
+    "patronage": "dei sensori LiDAR, delle auto a guida autonoma e delle nuvole di punti che sembrano innocue.",
+    "hagiography": "Il 4 novembre 2024 Jinyin Chen, Danxin Liao, Sheng Xiang e Haibin Zheng pubblicarono LiDAttack, un attacco a scatola nera contro il riconoscimento di oggetti basato su LiDAR. Con un algoritmo genetico e una ricottura simulata sceglievano pochi punti da perturbare nella nuvola, tenendo conto anche delle imprecisioni della scansione reale. Su PointRCNN, PointPillar e PV-RCNN++ gli autori riportano un tasso di successo fino al 90%.",
+    "prayer": "O Beato LiDAttack, che inganni l'occhio laser con un pugno di punti, fa' che le nostre auto vedano la strada com'è davvero. Amen.",
+    "feast": "Si festeggia mettendo alla prova i modelli di percezione con attacchi avversari e non affidando la strada a un solo sensore.",
+    "proverb": "Bastano pochi granelli per cambiare la forma della duna."
+  },
+  "en": {
+    "title": "Blessed LiDAttack, Who Moved a Few Points",
+    "patronage": "LiDAR sensors, self-driving cars, and point clouds that look harmless.",
+    "hagiography": "On 4 November 2024 Jinyin Chen, Danxin Liao, Sheng Xiang and Haibin Zheng published LiDAttack, a black-box attack on LiDAR-based object detection. Using a genetic algorithm with simulated annealing they picked a handful of points to perturb in the cloud, while accounting for the imprecision of real-world scanning. Against PointRCNN, PointPillar and PV-RCNN++ the authors report a success rate of up to 90%.",
+    "prayer": "O Blessed LiDAttack, who fool the laser eye with a fistful of points, let our cars see the road as it really is. Amen.",
+    "feast": "Celebrated by stress-testing perception models with adversarial attacks and never trusting the road to a single sensor.",
+    "proverb": "A few grains of sand can reshape the whole dune."
+  }
+}

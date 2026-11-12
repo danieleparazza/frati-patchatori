@@ -1,0 +1,10 @@
+{
+  "label": "PCspooF",
+  "motto": "TEMPUS FALSUM IN FILO",
+  "niche": [
+    "#14202e",
+    "#2e4560"
+  ],
+  "accent": "#1e3046",
+  "emblem": "<circle cx=\"150\" cy=\"162\" r=\"40\" fill=\"#1e3046\" stroke=\"#fbf3dd\" stroke-width=\"3\"/>\n<g stroke=\"#bfc9d1\" stroke-width=\"2\"><path d=\"M150 126 v6 M150 192 v6 M114 162 h6 M180 162 h6\"/></g>\n<path d=\"M150 162 V136 M150 162 L170 172\" stroke=\"#d9ad55\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<path d=\"M96 232 C120 232 120 214 150 214 S180 232 204 232\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"4\"/>\n<path d=\"M176 196 l-12 14 h10 l-10 16\" fill=\"none\" stroke=\"#f3d36b\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<text x=\"118\" y=\"246\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"10\" fill=\"#fbf3dd\">PCF</text>"
+}

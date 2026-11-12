@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato AnyPwn, che entrava prima di essere accolto",
+    "patronage": "dei desktop remoti, dei servizi che girano come root e di chi si fida della lunghezza dichiarata dagli sconosciuti.",
+    "hagiography": "Nell'ottobre 2026 Rick de Jager, del team di V12 Security, pubblicò AnyPwn: in AnyDesk 8.0.2 per Linux il gestore dei pacchetti di flusso del protocollo di sessione si fidava della lunghezza indicata dall'altro capo, e un calcolo che andava in overflow faceva allocare un buffer troppo piccolo per i dati che seguivano. Ne nasceva un heap overflow raggiungibile prima che l'utente approvasse la connessione; e il servizio di AnyDesk su Linux gira di solito come root, quindi l'esecuzione di codice arrivava con i pieni poteri. La versione 8.0.3 corresse il difetto, senza che venisse assegnata una CVE.",
+    "prayer": "O Beato AnyPwn, che entri in casa prima ancora che qualcuno dica avanti, fa' che i nostri programmi controllino le misure prima di aprire la porta. Amen.",
+    "feast": "Si festeggia aggiornando AnyDesk per Linux alla 8.0.3 o successiva e non lasciando la porta 7070 aperta a tutto Internet.",
+    "proverb": "Chi apre a chiunque, prima o poi apre a qualcuno."
+  },
+  "en": {
+    "title": "Blessed AnyPwn, Who Came In Before Being Welcomed",
+    "patronage": "remote desktops, services running as root, and everyone who trusts the length a stranger declares.",
+    "hagiography": "In October 2026 Rick de Jager of the V12 Security team published AnyPwn: in AnyDesk 8.0.2 for Linux, the stream packet handler of the session protocol trusted the length sent by the other side, and a calculation that wrapped around allocated a buffer far too small for the data that followed. The result was a heap overflow reachable before the user approved the connection; and since AnyDesk's service usually runs as root on Linux, code execution came with full powers. Version 8.0.3 fixed the bug, with no CVE assigned.",
+    "prayer": "O Blessed AnyPwn, who step inside before anyone says \"come in\", let our programs check the measurements before opening the door. Amen.",
+    "feast": "Celebrated by updating AnyDesk for Linux to 8.0.3 or later and not leaving port 7070 open to the whole Internet.",
+    "proverb": "Open the door to anyone and sooner or later it's someone."
+  }
+}

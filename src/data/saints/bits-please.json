@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San bits please!, lettore di dischi altrui",
+    "patronage": "delle partizioni NTFS, dei permessi dei dispositivi e degli utenti senza privilegi ma con molta curiosità.",
+    "hagiography": "Il 13 ottobre 2020 Microsoft corresse la CVE-2020-16938, che Jonas Lykkegård raccontò su Twitter col soprannome \"bits please!\": un aggiornamento recente di Windows 10 aveva cambiato i permessi degli oggetti che rappresentano partizioni e volumi, concedendo a tutti la lettura. Un utente qualsiasi poteva aprire direttamente il dispositivo e leggere il disco grezzo, aggirando i permessi NTFS dei singoli file: bastava poi un programma che capisse NTFS, come 7-Zip, per sfogliare ciò che non era suo. Una lettura, si capisce, senza neanche dire per favore.",
+    "prayer": "O San bits please!, che leggi i dischi senza chiedere permesso, fa' che i nostri volumi rispondano soltanto a chi ha il diritto di interrogarli. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di Windows di ottobre 2020 e ricordando che i permessi di un file valgono poco se il disco intero è aperto.",
+    "proverb": "Porta chiusa e muro aperto, il ladro entra di certo."
+  },
+  "en": {
+    "title": "Saint bits please!, Reader of Other People's Disks",
+    "patronage": "NTFS partitions, device permissions, and unprivileged users with plenty of curiosity.",
+    "hagiography": "On 13 October 2020 Microsoft fixed CVE-2020-16938, which Jonas Lykkegård described on Twitter under the nickname \"bits please!\": a recent Windows 10 update had changed the permissions on the objects representing partitions and volumes, granting read access to everyone. Any user could open the device directly and read the raw disk, bypassing per-file NTFS permissions; a program that understood NTFS, such as 7-Zip, was then enough to browse what wasn't theirs. Reading, of course, without so much as a please.",
+    "prayer": "O Saint bits please!, who reads disks without asking, let our volumes answer only those entitled to question them. Amen.",
+    "feast": "Celebrated by installing the October 2020 Windows updates and remembering that file permissions are worth little when the whole disk is open.",
+    "proverb": "Lock the door but leave the wall open, and the thief walks in."
+  }
+}

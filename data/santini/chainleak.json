@@ -1,0 +1,10 @@
+{
+  "label": "ChainLeak",
+  "motto": "CATENA PERFORATA",
+  "niche": [
+    "#1d2420",
+    "#3d4a42"
+  ],
+  "accent": "#2c3a32",
+  "emblem": "<g fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"6\"><rect x=\"104\" y=\"130\" width=\"40\" height=\"22\" rx=\"11\" transform=\"rotate(35 124 141)\"/><rect x=\"128\" y=\"150\" width=\"40\" height=\"22\" rx=\"11\" transform=\"rotate(-35 148 161)\"/><rect x=\"152\" y=\"170\" width=\"40\" height=\"22\" rx=\"11\" transform=\"rotate(35 172 181)\"/></g>\n<g fill=\"#d9ad55\"><path d=\"M176 202 q-6 10 0 14 q6 -4 0 -14z\"/><path d=\"M168 222 q-7 12 0 16 q7 -4 0 -16z\"/><path d=\"M182 230 q-5 8 0 11 q5 -3 0 -11z\"/></g>\n<text x=\"128\" y=\"232\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"12\" fill=\"#fbf3dd\">/etc/</text>"
+}

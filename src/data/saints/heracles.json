@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Heracles, dalle dodici fatiche sulla memoria cifrata",
+    "patronage": "delle macchine virtuali confidenziali, dei cloud che giurano di non guardare e degli hypervisor troppo servizievoli.",
+    "hagiography": "Nell'ottobre 2025, alla conferenza ACM CCS, Benedict Schlüter, Christoph Wech e Shweta Shinde dell'ETH di Zurigo presentarono Heracles, un attacco ad AMD SEV-SNP, la tecnologia che cifra la memoria delle macchine virtuali perfino agli occhi dell'hypervisor. Ma l'hypervisor può spostare le pagine della VM, e quelle spostate vengono ricifrate in modo deterministico: spostandole ad arte si ottiene un oracolo a testo in chiaro scelto. Con esso gli autori recuperarono dalla memoria della VM chiavi crittografiche, password e cookie di sessione.",
+    "prayer": "O Beato Heracles, che con cento traslochi apri ciò che era sigillato, fa' che le nostre pagine restino dove le abbiamo messe. Amen.",
+    "feast": "Si festeggia attivando nella policy della VM il divieto per l'hypervisor di spostare o scambiare le pagine, come indica il bollettino AMD-SB-3021, e lasciando le fatiche all'attaccante.",
+    "proverb": "Sposta la cassa cento volte e saprai cosa c'è dentro."
+  },
+  "en": {
+    "title": "Blessed Heracles, of the Labours on Encrypted Memory",
+    "patronage": "confidential virtual machines, clouds that swear they aren't looking, and overly helpful hypervisors.",
+    "hagiography": "In October 2025, at ACM CCS, Benedict Schlüter, Christoph Wech and Shweta Shinde of ETH Zurich presented Heracles, an attack on AMD SEV-SNP, the technology that encrypts virtual machine memory even from the hypervisor. Yet the hypervisor may move the VM's pages, and moved pages are re-encrypted deterministically: shuffle them cleverly and you get a chosen-plaintext oracle. With it the authors recovered cryptographic keys, passwords and session cookies from the VM's memory.",
+    "prayer": "O Blessed Heracles, who open what was sealed with a hundred house moves, let our pages stay where we put them. Amen.",
+    "feast": "Celebrated by setting the VM policy that forbids the hypervisor from moving or swapping pages, as AMD bulletin AMD-SB-3021 advises, and leaving the labours to the attacker.",
+    "proverb": "Move the chest a hundred times and you'll learn what's inside."
+  }
+}

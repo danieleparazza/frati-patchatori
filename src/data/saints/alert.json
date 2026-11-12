@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato Alert, frammento d'allarme",
+    "patronage": "dei messaggi di alert, delle librerie TLS e di chi crede che due byte siano troppo pochi per sbagliare.",
+    "hagiography": "Nel 2012 il team di miTLS, che a INRIA e Microsoft Research scriveva un'implementazione di TLS verificata formalmente, segnalò un difetto nel modo in cui molte librerie gestivano gli alert. Un alert TLS è lungo appena due byte, ma il protocollo permetteva di spezzarlo: un attaccante in mezzo poteva iniettarne in chiaro mezzo durante l'handshake e lasciare che l'implementazione lo incollasse al primo alert protetto arrivato dopo, cambiandone il significato senza toccare la crittografia.",
+    "prayer": "O Beato Alert, che con mezzo messaggio cambi il senso dell'altro mezzo, fa' che le nostre librerie buttino via i cocci invece di ricomporli. Amen.",
+    "feast": "Si festeggia scartando gli alert frammentati e svuotando i buffer a ogni cambio di chiavi; TLS 1.3 ha chiuso la questione vietando di spezzare un alert su più record.",
+    "proverb": "Allarme a metà, inganno intero."
+  },
+  "en": {
+    "title": "Blessed Alert, Fragment of Alarm",
+    "patronage": "alert messages, TLS libraries, and everyone who thinks two bytes are too few to get wrong.",
+    "hagiography": "In 2012 the miTLS team, building a formally verified TLS implementation at INRIA and Microsoft Research, reported a flaw in how many libraries handled alerts. A TLS alert is only two bytes long, yet the protocol allowed it to be split: a man in the middle could inject half of one in cleartext during the handshake and let the implementation glue it onto the next protected alert, changing its meaning without touching the cryptography.",
+    "prayer": "O Blessed Alert, who with half a message twist the meaning of the other half, let our libraries throw the shards away instead of piecing them together. Amen.",
+    "feast": "Celebrated by discarding fragmented alerts and flushing buffers at every key change; TLS 1.3 settled the matter by forbidding alerts from being split across records.",
+    "proverb": "Half an alarm makes a whole deception."
+  }
+}

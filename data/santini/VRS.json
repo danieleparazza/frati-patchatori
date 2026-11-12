@@ -1,0 +1,10 @@
+{
+  "label": "VRS",
+  "motto": "REGISTRA AURES HABENT",
+  "niche": [
+    "#1d2433",
+    "#3e4c66"
+  ],
+  "accent": "#2a3550",
+  "emblem": "<g fill=\"#2e3a52\" stroke=\"#bfc9d1\" stroke-width=\"2\"><rect x=\"98\" y=\"160\" width=\"26\" height=\"26\"/><rect x=\"124\" y=\"160\" width=\"26\" height=\"26\"/><rect x=\"150\" y=\"160\" width=\"26\" height=\"26\"/><rect x=\"176\" y=\"160\" width=\"26\" height=\"26\"/></g>\n<rect x=\"150\" y=\"160\" width=\"26\" height=\"26\" fill=\"#d9ad55\" stroke=\"#fbf3dd\" stroke-width=\"2\"/>\n<text x=\"150\" y=\"150\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"14\" fill=\"#fbf3dd\">YMM0</text>\n<text x=\"163\" y=\"179\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#2b1d14\">7</text>\n<g fill=\"#d9ad55\"><path d=\"M163 192 q-5 10 0 14 q5 -4 0 -14 Z\"/><path d=\"M163 214 q-4 8 0 11 q4 -3 0 -11 Z\"/></g>\n<path d=\"M118 232 q32 18 64 0\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/>"
+}

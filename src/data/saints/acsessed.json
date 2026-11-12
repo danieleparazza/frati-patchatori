@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato ACSESSED, che entrava dal portale",
+    "patronage": "dei motori di ricerca nel cloud, delle reti private che non lo erano e dei pulsanti \"consenti accesso dal portale\".",
+    "hagiography": "Nel dicembre 2022 Emilien Socchi di mnemonic raccontò ACSESSED, un difetto di Azure Cognitive Search segnalato a febbraio. Con l'opzione \"Allow access from portal\" un proxy del portale Azure poteva interrogare i dati dell'istanza, ma controllava solo che il token fosse valido per Azure Resource Manager, non di quale tenant fosse. Chi conosceva nome, abbonamento, indice e una chiave API leggeva così i dati anche di istanze raggiungibili solo da endpoint privati. Microsoft lo corresse senza clamore alla fine di agosto 2022.",
+    "prayer": "O Beato ACSESSED, che passi dalla porta di servizio del portale, fa' che ogni proxy chieda non solo \"sei valido?\" ma anche \"sei di casa?\". Amen.",
+    "feast": "Si festeggia usando endpoint privati o liste di IP consentiti, come raccomanda ora Microsoft, e custodendo bene le chiavi API.",
+    "proverb": "Rete privata e porta di servizio aperta, privata per modo di dire."
+  },
+  "en": {
+    "title": "Blessed ACSESSED, Who Came In Through the Portal",
+    "patronage": "cloud search engines, private networks that weren't, and \"allow access from portal\" buttons.",
+    "hagiography": "In December 2022 Emilien Socchi of mnemonic described ACSESSED, an Azure Cognitive Search flaw reported in February. With the \"Allow access from portal\" option, an Azure portal proxy could query the instance's data, but it only checked that the token was valid for Azure Resource Manager, not which tenant it came from. Anyone who knew the name, subscription, index and an API key could thus read data even from instances reachable only through private endpoints. Microsoft quietly fixed it at the end of August 2022.",
+    "prayer": "O Blessed ACSESSED, who slip through the portal's service door, let every proxy ask not just \"are you valid?\" but \"do you live here?\". Amen.",
+    "feast": "Celebrated by using private endpoints or IP allow-lists, as Microsoft now recommends, and guarding your API keys well.",
+    "proverb": "A private network with the service door open is private in name only."
+  }
+}

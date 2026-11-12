@@ -1,0 +1,10 @@
+{
+  "label": "Exfil Out&Look",
+  "motto": "EXI ET SPECTA",
+  "niche": [
+    "#102236",
+    "#244a72"
+  ],
+  "accent": "#1a385a",
+  "emblem": "<rect x=\"106\" y=\"150\" width=\"88\" height=\"60\" rx=\"4\" fill=\"#1e3a5c\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M106 152 l44 32 l44 -32\" fill=\"none\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M124 132 q26 -22 52 0 q-26 22 -52 0z\" fill=\"#e9e2cf\" stroke=\"#d9ad55\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"132\" r=\"7\" fill=\"#2b1d14\"/>\n<path d=\"M164 226 h30 M184 218 l10 8 l-10 8\" fill=\"none\" stroke=\"#e8c45c\" stroke-width=\"3\"/>\n<g fill=\"#d9ad55\"><rect x=\"116\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"130\" y=\"222\" width=\"8\" height=\"8\"/><rect x=\"144\" y=\"222\" width=\"8\" height=\"8\"/></g>"
+}

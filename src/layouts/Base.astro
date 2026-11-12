@@ -12,13 +12,20 @@ interface Props {
   alt?: string;
   /** Share image path, without base. */
   image?: string;
+  /** Path of the page search engines should index instead of this one, without base (for near-duplicates). */
+  canonical?: string;
+  /** Keep this page out of search engines (no canonical, no hreflang). */
+  noindex?: boolean;
 }
 
-const { lang, title, description, alt, image } = Astro.props;
+const { lang, title, description, alt, image, canonical, noindex } = Astro.props;
 const s = t(lang);
 // Pages without their own card (home, lists, search) share the site cover.
 const imageUrl = new URL(url(image ?? `img/${lang}/site/home.jpg`), Astro.site).href;
 const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const canonicalUrl = canonical ? new URL(url(canonical), Astro.site).href : pageUrl;
+// hreflang alternates only make sense between pages that are their own canonical.
+const alternates = alt && !canonical && !noindex;
 const desc = description ?? s.siteBlurb;
 const other: Lang = lang === 'it' ? 'en' : 'it';
 // Menu entry for this page: Popes and demons belong to their lists, everything else to the calendar.
@@ -41,7 +48,7 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={desc} />
-    <link rel="canonical" href={pageUrl} />
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonicalUrl} />}
     <meta property="og:type" content="website" />
     <meta property="og:url" content={pageUrl} />
     <meta property="og:locale" content={lang === 'it' ? 'it_IT' : 'en_US'} />
@@ -58,9 +65,9 @@ const fullTitle = title ? `${title} · ${s.siteTitle}` : s.siteTitle;
     <meta name="twitter:title" content={title ?? s.siteTitle} />
     <meta name="twitter:description" content={desc} />
     <meta name="twitter:image" content={imageUrl} />
-    {alt && <link rel="alternate" hreflang={lang} href={pageUrl} />}
-    {alt && <link rel="alternate" hreflang={other} href={new URL(url(alt), Astro.site).href} />}
-    {alt && <link rel="alternate" hreflang="x-default" href={new URL(url(''), Astro.site).href} />}
+    {alternates && <link rel="alternate" hreflang={lang} href={pageUrl} />}
+    {alternates && <link rel="alternate" hreflang={other} href={new URL(url(alt), Astro.site).href} />}
+    {alternates && <link rel="alternate" hreflang="x-default" href={new URL(url(''), Astro.site).href} />}
     <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
     <link rel="manifest" href={url(`manifest-${lang}.webmanifest`)} />
     <link rel="apple-touch-icon" href={url('icons/apple-touch-icon.png')} />

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San BigSig, dalla firma troppo grande",
+    "patronage": "delle firme digitali, dei buffer di dimensione fissa e di chi firma sempre a caratteri cubitali.",
+    "hagiography": "Il 1° dicembre 2021 Tavis Ormandy di Google Project Zero raccontò BigSig (CVE-2021-43527): in NSS, la libreria crittografica di Mozilla, la verifica delle firme DSA e RSA-PSS copiava la firma in un buffer fisso di 2048 byte senza controllarne la lunghezza. Una firma più grande traboccava sui puntatori a funzione vicini, aprendo la strada all'esecuzione di codice. Il difetto era sfruttabile dal 2012 in una libreria sottoposta da anni a fuzzing, e per questo il resoconto si intitolava \"This shouldn't have happened\".",
+    "prayer": "O San BigSig, che firmi con uno svolazzo più lungo del foglio, fa' che i nostri buffer misurino l'inchiostro prima di accoglierlo. Amen.",
+    "feast": "Si festeggia aggiornando NSS alla 3.73 o alla 3.68.1 ESR, senza dimenticare i client di posta e i lettori PDF che verificano le firme con NSS: Firefox ne restava fuori, gli altri no.",
+    "proverb": "Firma lunga, guai lunghi."
+  },
+  "en": {
+    "title": "Saint BigSig, of the Oversized Signature",
+    "patronage": "digital signatures, fixed-size buffers, and everyone who signs their name in block capitals.",
+    "hagiography": "On 1 December 2021 Tavis Ormandy of Google Project Zero told the tale of BigSig (CVE-2021-43527): in NSS, Mozilla's cryptographic library, verifying DSA and RSA-PSS signatures meant copying the signature into a fixed 2048-byte buffer without checking its length. A larger signature spilled onto the function pointers next door, opening the way to code execution. The bug had been exploitable since 2012 in a library fuzzed for years, which is why the write-up was titled \"This shouldn't have happened\".",
+    "prayer": "O Saint BigSig, who sign with a flourish longer than the page, let our buffers measure the ink before taking it in. Amen.",
+    "feast": "Celebrated by updating NSS to 3.73 or 3.68.1 ESR, without forgetting the mail clients and PDF viewers that check signatures with NSS: Firefox was spared, the others weren't.",
+    "proverb": "A long signature brings long trouble."
+  }
+}

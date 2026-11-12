@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "San RebirthDay, che rifece la festa alla cache",
+    "patronage": "dei resolver DNS, dell'EDNS Client Subnet e degli attacchi dati per morti nel 2002.",
+    "hagiography": "Al convegno ACM CCS di ottobre 2025, a Taipei, Xiang Li e altri undici autori presentarono RebirthDay Attack: il vecchio attacco del compleanno contro le cache DNS, che indovina l'identificativo di una risposta lanciando molte domande e molte risposte false insieme, era fermo dal 2002 grazie all'aggregazione delle query. Ma i resolver con EDNS Client Subnet, che separano le richieste per sottorete, controllavano male la coerenza di domande e risposte, e il paradosso del compleanno tornava in vita. Secondo gli autori erano vulnerabili 18 software DNS su 22, con 50 CVE assegnate, tra cui la CVE-2025-5994 di Unbound.",
+    "prayer": "O San RebirthDay, che risorgi a ogni festa, fa' che i nostri resolver controllino la sottorete prima di soffiare sulle candeline. Amen.",
+    "feast": "Si festeggia aggiornando Unbound alla 1.23.1 (e BIND, PowerDNS e gli altri resolver alle versioni corrette), oppure smettendo di inviare ECS ai server autorevoli.",
+    "proverb": "Attacco sepolto senza patch, risorge al primo compleanno."
+  },
+  "en": {
+    "title": "Saint RebirthDay, Who Threw the Cache Another Party",
+    "patronage": "DNS resolvers, EDNS Client Subnet, and attacks declared dead in 2002.",
+    "hagiography": "At ACM CCS in Taipei in October 2025, Xiang Li and eleven co-authors presented the RebirthDay Attack: the old birthday attack on DNS caches, which guesses a reply's ID by firing many queries and many forged answers at once, had been dormant since 2002 thanks to query aggregation. But resolvers supporting EDNS Client Subnet, which split queries by subnet, checked the consistency of questions and answers poorly, and the birthday paradox came back to life. The authors found 18 of 22 DNS software packages vulnerable, with 50 CVEs assigned, including Unbound's CVE-2025-5994.",
+    "prayer": "O Saint RebirthDay, who rises again at every party, let our resolvers check the subnet before blowing out the candles. Amen.",
+    "feast": "Celebrated by upgrading Unbound to 1.23.1 (and BIND, PowerDNS and the other resolvers to fixed releases), or by no longer sending ECS upstream.",
+    "proverb": "Bury an attack without a patch and it's back for its birthday."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "it": {
+    "title": "Beato FLOP, che indovina il valore sbagliato",
+    "patronage": "dei chip Apple M3 e A17, dei browser e delle previsioni troppo ottimiste.",
+    "hagiography": "Il 28 gennaio 2025 Jason Kim, Jalen Chuang, Daniel Genkin e Yuval Yarom resero pubblico FLOP, un attacco al Load Value Predictor dei processori Apple dall'M3 e dall'A17 in poi. La CPU prova a indovinare il valore che una lettura restituirà; quando sbaglia, per un attimo il codice lavora su dati del tipo sbagliato e i controlli di integrità saltano. Da una pagina web si potevano così leggere dati di altri siti in Safari e Chrome: in una dimostrazione, la posta di Proton Mail.",
+    "prayer": "O Beato FLOP, che indovini sempre ma non sempre bene, fa' che i nostri processori dubitino prima di correre. Amen.",
+    "feast": "Si festeggia installando gli aggiornamenti di macOS, iOS e dei browser che Apple e i produttori hanno annunciato per mitigarlo: l'utente da solo non può farci molto, se non aggiornare.",
+    "proverb": "Chi indovina troppo presto sbaglia a voce alta."
+  },
+  "en": {
+    "title": "Blessed FLOP, Who Guesses the Wrong Value",
+    "patronage": "Apple M3 and A17 chips, web browsers, and overly optimistic predictions.",
+    "hagiography": "On 28 January 2025 Jason Kim, Jalen Chuang, Daniel Genkin and Yuval Yarom went public with FLOP, an attack on the Load Value Predictor in Apple processors from the M3 and A17 onwards. The CPU tries to guess the value a memory read will return; when it guesses wrong, code briefly works on data of the wrong type and integrity checks are skipped. From a web page, data from other sites could be read in Safari and Chrome: one demo read a Proton Mail inbox.",
+    "prayer": "O Blessed FLOP, who always guess but not always well, let our processors doubt before they rush ahead. Amen.",
+    "feast": "Celebrated by installing the macOS, iOS and browser updates that Apple and the vendors have promised as mitigations: on their own, users can do little but update.",
+    "proverb": "Guess too early and you're wrong out loud."
+  }
+}

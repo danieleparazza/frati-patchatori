@@ -1,0 +1,10 @@
+{
+  "label": "BlockStrap",
+  "motto": "BLOCUS IN BLOCO",
+  "niche": [
+    "#2e1c12",
+    "#5e3a22"
+  ],
+  "accent": "#43291a",
+  "emblem": "<rect x=\"108\" y=\"196\" width=\"40\" height=\"36\" fill=\"#43291a\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<rect x=\"152\" y=\"196\" width=\"40\" height=\"36\" fill=\"#43291a\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<rect x=\"130\" y=\"156\" width=\"40\" height=\"36\" fill=\"#fbf3dd\" stroke=\"#d9ad55\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"179\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#43291a\">{{ }}</text>\n<path d=\"M104 214 q46 -56 92 0\" fill=\"none\" stroke=\"#bfc9d1\" stroke-width=\"3\"/>\n<text x=\"150\" y=\"140\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">&lt;?php</text>"
+}

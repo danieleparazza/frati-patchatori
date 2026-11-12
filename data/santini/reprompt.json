@@ -1,0 +1,10 @@
+{
+  "label": "Reprompt",
+  "motto": "ITERUM ATQUE ITERUM",
+  "niche": [
+    "#1a1a34",
+    "#383870"
+  ],
+  "accent": "#2a2a56",
+  "emblem": "<path d=\"M108 136 h84 a10 10 0 0 1 10 10 v46 a10 10 0 0 1 -10 10 h-50 l-18 16 v-16 h-16 a10 10 0 0 1 -10 -10 v-46 a10 10 0 0 1 10 -10z\" fill=\"#2a2a56\" stroke=\"#fbf3dd\" stroke-width=\"2.5\"/>\n<path d=\"M170 168 a20 20 0 1 1 -6 -14\" fill=\"none\" stroke=\"#d9ad55\" stroke-width=\"4\"/><path d=\"M160 146 l6 10 l-12 2 z\" fill=\"#d9ad55\"/>\n<text x=\"150\" y=\"240\" text-anchor=\"middle\" font-family=\"'EB Garamond', Georgia, serif\" font-size=\"13\" fill=\"#fbf3dd\">?q=</text>"
+}
