@@ -28,6 +28,7 @@ const back = saintImages(lang, vuln).back();
   description={saint(vuln.id)?.[lang]?.patronage ?? vuln.description ?? undefined}
   alt={saintPath(other, vuln.id)}
   image={image}
+  canonical={isPatron ? `${lang}/${vuln.day}` : undefined}
 >
   <ViewNav lang={lang} view="day" mmdd={vuln.day} />
   <p class="feast">
